@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "scope": "New decompilation repair and cross-version correlation audit only",
+  "policy": "No commit without independent approval of its exact file/hash snapshot",
+  "priorArchiveAuditIsNotRepairApproval": true,
+  "gates": [
+    {
+      "id": "G0",
+      "stage": "inventory-and-diagnostics",
+      "status": "PASS",
+      "allowed": "Read-only inventory and diagnostic generation only",
+      "notApproved": "Any additional repair execution, semantic replacement or commit requires its own exact scoped gate",
+      "score": 10,
+      "evidence": [
+        "audit/GLOBAL-G0-RESULTS.json",
+        "audit/BAVVO-G0-RESULTS.json",
+        "audit/HEYCYAN-BASELINE-RESULTS.json"
+      ],
+      "scope": "Historical 14 variants/11 DEX groups and independently rehashed/recounted 129678 Java; HeyCyan separate static baseline. Marker identity is not raw method identity.",
+      "commitApproved": false
+    },
+    {
+      "id": "G1",
+      "stage": "strategy-and-pilot",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "492beb414cab844aa4dc24e546f3c12e73757443e00cd7f491a6006b2abf1ff3",
+      "scope": "Only six serial exploratory JADX runs for four fixed Bavvo 1.0.1222 classes; no promotion or commit",
+      "evidence": "audit/G1-BAVVO-PILOT.json",
+      "commitApproved": false
+    },
+    {
+      "id": "G2",
+      "stage": "boundedpilotexecution",
+      "status": "PASS",
+      "score": 10,
+      "evidence": "audit/G2-BAVVO-RESULTS.json",
+      "scope": "Executedexact6approvedrunsandrecordedoutputs; notsemanticrepairapproval",
+      "commitApproved": false
+    },
+    {
+      "id": "G3",
+      "stage": "verification",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "G4",
+      "stage": "delivery-and-commit",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "id": "G-CORRELATION-PREFLIGHT",
+      "stage": "read-only correlation tool preparation",
+      "status": "PASS",
+      "score": 10,
+      "evidence": "audit/CORRELATION-PREFLIGHT.json",
+      "scope": "Implementation of read-only Smali normalizer/adaptor, isolated fixtures, javac compile and one-class API smoke only",
+      "commitApproved": false
+    },
+    {
+      "id": "G0-BAVVO",
+      "stage": "boundedBavvo1222inventory/diagnostic",
+      "status": "PASS",
+      "score": 10,
+      "evidence": "audit/BAVVO-G0-RESULTS.json",
+      "scope": "Bavvo1222only; globalG0remainsinprogress",
+      "commitApproved": false
+    },
+    {
+      "id": "G-CORRELATION-REFERENCE-EXPORT",
+      "status": "PASS",
+      "score": 10,
+      "scope": "Bavvo1222exactfilteredSmaliAPIreferenceexportonly",
+      "evidence": "audit/CORRELATION-EXPORT-GATE.json",
+      "commitApproved": false
+    },
+    {
+      "gate": "G1B",
+      "stage": "bounded-exploratory-followup",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "41b3791cb545ff4950c7f38c3dad78a04b879c93ba9423b183d39c0e6f241975",
+      "scope": "Only11serialplannedrunsfor5targetrootswithdeclarednestedclosures; nosemanticpromotion/commit",
+      "evidence": "audit/G1B-APPROVAL.json",
+      "commitApproved": false,
+      "id": "G1B"
+    },
+    {
+      "gate": "G-TARGETED-CORRELATION",
+      "status": "PASS",
+      "score": 10,
+      "reviewedAt": "2026-11-01T16:21:02.555Z",
+      "planSha256": "ee9e15a0fb35db003037b08a785e96d824b5ae28627c6df767f1b1f6f844a031",
+      "scope": "Read-only Material class/method normalizedSmali comparison across9explicitinputs; candidate matches only",
+      "evidence": "audit/TARGETED-CORRELATION-GATE.json",
+      "commitApproved": false,
+      "conditions": [
+        "Only2targetdescriptorsinplan",
+        "Verifyallinput/JAR/exporter/normalizerSHA",
+        "Reuse2existingBavvo1222referenceobjects;atmost16newclassexports",
+        "OneJVM512MB/onethread,120s/input,5GBoutput",
+        "Allrequestedclassessuccessfulorreportincomplete;noJava/donorpromotion"
+      ],
+      "id": "G-TARGETED-CORRELATION"
+    },
+    {
+      "id": "G-HEYCYAN-BASELINE",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "0d25890e2fb76e303ce6274ccfc064a26ef5deb926c4aeb5fdd258703d516bde",
+      "scope": "One separate static HeyCyan baseline run only; 600s timeout, 4GB heap, output limits post-run; no semantic repair, compatibility, donor promotion or commit",
+      "commitApproved": false
+    },
+    {
+      "id": "G2B",
+      "status": "PASS",
+      "score": 10,
+      "evidence": "audit/G2B-RESULTS.json",
+      "scope": "Exact eleven approved exploratory runs and their artifacts only; no semantic promotion",
+      "commitApproved": false
+    },
+    {
+      "id": "G-DELIVERY-HELPER",
+      "status": "PASS",
+      "score": 10,
+      "evidence": "audit/DELIVERY-HELPER-RESULTS.json",
+      "helperSha256": "8f9d6a98b74f7166da845cd263364f2d4af7e39f2b464a12ced503ba931b1857",
+      "scope": "Data transport mechanism only; no approval of actual payload, semantics or commit",
+      "commitApproved": false
+    },
+    {
+      "id": "G-MATERIAL-BODY-PROPAGATION",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "2e328b9d66a6bb011816625633b736d05431b4cb6fad792da16a2580a1282af2",
+      "scope": "Generate exactly eight body-only unapproved candidates on four Bavvo target versions; no Java/APK execution or promotion",
+      "conditions": [
+        "max 8 candidates, 60s checks and 8MB output",
+        "fresh candidate files only; baseline immutable",
+        "individual final semantic/binding/boundary validation still required"
+      ],
+      "commitApproved": false
+    },
+    {
+      "id": "G-INDEPENDENT-ENGINE-PILOT",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "54e5f9a89d1780dc8572d210fcd0933126c1d1c7dbfd4ef2a5f9454ea25d77e2",
+      "evidence": "audit/INDEPENDENT-ENGINE-PILOT-GATE.json",
+      "scope": "Exactly two serial DEX-to-JAR conversions and two filtered CFR candidate runs for four roots and twenty closure classes; no promotion",
+      "commitApproved": false
+    },
+    {
+      "id": "G-OVERLAY-MATERIALIZATION",
+      "status": "PASS",
+      "score": 10,
+      "catalogSha256": "0b4f38b6fa292f12c372868324b5e6798aa7f2b53f0f458c88de8709131c6875",
+      "materializerSha256": "66b0b4bb476338ec6ca4a2890b88a389b270bbf0332c2bf78b1c25ea6e6d909b",
+      "scope": "Five fresh separate reviewed source views for Bavvo1222/1211/1205/1197/1179; no baseline/APK changes, publication or commit",
+      "evidence": [
+        "audit/OVERLAY-METADATA-RESULTS.json",
+        "audit/REVIEWED-MATERIALIZER-RESULTS.json"
+      ],
+      "commitApproved": false
+    },
+    {
+      "id": "G-METHOD-MAP-PREFLIGHT",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "8a74785b4f2d8f9c38618e2ba8e06f4ee766ba02b456d3c967df71d22c4e2003",
+      "scope": "Compile static metadata exporter and one-class callback identity preflight only; UNRESOLVED alias remains valid observation, no decompilation/repair/commit",
+      "conditions": [
+        "one raw La/b class,13 methods, original APK/two DEX SHA pinned",
+        "javac60s/APIload90s,4GB,j1,fresh D outputs16MiB acceptance",
+        "all18 matcher fixtures PASS, bridge excluded by typed proto",
+        "no getCode/decompile/save or application class execution",
+        "bulk798 mapping remains unapproved"
+      ],
+      "commitApproved": false
+    },
+    {
+      "id": "G-CLASS-MAP-11",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "1e50b49b67961b8372a3158b2b8a16933da296d6dc36bdefce3df0aa5c889672",
+      "scope": "Read-only class alias mapping for exactly634Java source files with798stub markers across11historicalDEXsets; no Java decompilation, body replacement or registry modification",
+      "evidence": "audit/CLASS-MAP-PLAN-RESULTS.json",
+      "conditions": [
+        "exact11serial JVMs4GB/j1,120s/group,1800s global",
+        "all634sources/798markers retained, ambiguity/unresolved/failure explicit",
+        "no getCode/decompile/save, no method or bridge force mapping",
+        "original diagnostics/registry/Java/APKs immutable"
+      ],
+      "commitApproved": false
+    },
+    {
+      "id": "G-JADX-NULL-CONST-PREFLIGHT",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "336d266a1c4883f2f9fb35872ad47cedcd87f554d28c58df98598bbf68133342",
+      "runnerSha256": "653da2b1f0a6a75b0f1725d03da792345730a769c479dcb7d24eb693c0e4ec4a",
+      "scope": "Three compilations and three generated-fixture JVMs only; no APK input or patched decompilation pilot",
+      "conditions": [
+        "exact upstream/source/patched/fixture/JAR hashes pinned",
+        "only CONST sameFirstArgListener absent target guard; explicit raw method/opcode/offset WARN",
+        "original-distribution/control-recompiled/patched fixture comparison",
+        "four IR cases each: missing, matchingInt, conflict, matchingFloat",
+        "per-process effective timeout/duration,270s global,512MB fixture JVMs",
+        "all compiled auxiliaries inventoried and class sets match; original JAR immutable",
+        "unit success does not approve guard correctness on real APK methods"
+      ],
+      "commitApproved": false
+    },
+    {
+      "id": "G-METHOD-STRICT-798",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "a97068371df9a7202e487cfa76d6b2716b9559fd1b33c76cc790a388c82095d7",
+      "scope": "Read-only strict typed alias/name/proto matching for exactly798 literal stub events, no new JVM or decompilation",
+      "checks": [
+        "all634 physical source SHA/bytes and exact798 problem IDs",
+        "all11 metadata/registry/class-map hashes and bytes",
+        "authoritative literal extraction at exact audited UTF16offset",
+        "zero/multiple matches remain unresolved/ambiguous",
+        "one pureNode18fixture subprocess only"
+      ],
+      "limits": {
+        "groups": 11,
+        "markerEvents": 798,
+        "globalWallMs": 180000,
+        "outputBytes": 67108864,
+        "jvms": 0,
+        "selfTestNodeProcesses": 1
+      },
+      "commitApproved": false
+    },
+    {
+      "id": "G-JADX-NULL-CONST-PREFLIGHT-V2",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "2a205bd532ea217ffe78575602b47ffbb413ea69b4ddf8ef17b987b007d30a70",
+      "runnerSha256": "5d8488a1f94487ac5b0324b3d49aac4d900dd6c480826f770b18c7b7061bf12e",
+      "scope": "V2 generated-fixture-only TypeUpdate experiment; three compiles/three fixture JVMs, no APK input or decompiler promotion",
+      "checks": [
+        "v1 plan/fixture/runner recovered byte-exact by previously recorded hashes",
+        "v2 source path/run/plan/report separated, snapshots created before compile",
+        "SSA register type explicitly set and asserted before valid/conflict tests",
+        "original/control/patched inputs otherwise unchanged; all SHA and bytes verified"
+      ],
+      "conditions": [
+        "all auxiliary classfiles inventoried, class sets match",
+        "270s total, compile60s/fixture30s,512MB,10MiB post-run acceptance",
+        "SAME/REJECT valid/conflict controls must pass; null never relabeled success",
+        "no APK, original JAR immutable, no semantic source repair inferred"
+      ],
+      "commitApproved": false
+    },
+    {
+      "id": "G-HEYCYAN-CLASS-24",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "6c7ab2153448967140f4af1241539b5567aecc7d6bf7c0181803824cb539cd7f",
+      "scope": "One HeyCyan metadata-only class alias map for24sources/24markers; no method mapping, APK execution or repair",
+      "conditions": [
+        "one JVM4GB/j1/120s,180s total,128MiB output acceptance",
+        "same audited helper/JAR/rawClassReader and original baseAPK/DEX",
+        "all24source/handoff/baseline SHA pinned",
+        "unique/ambiguous/unresolved and nominal/newalias categories retained",
+        "HeyCyan remains separate hardware, no XF compatibility conclusion"
+      ],
+      "commitApproved": false
+    },
+    {
+      "id": "G-HEYCYAN-METHOD-24",
+      "status": "PASS",
+      "score": 10,
+      "planSha256": "64c2c91cc3d808680749702be6ad173864a40e90471447f1db0de32655c41051",
+      "scope": "Read-only exact literal/name/alias/fullproto matching of24HeyCyan markers; no JVM, inference or semantic repair",
+      "conditions": [
+        "all24 source/offset/line/IDs and audited metadata/class-map pinned",
+        "one pureNode18fixtures subprocess,60s/8MiB,fresh output",
+        "0candidate unresolved and multiple ambiguous; no INFO/bridge force mapping"
+      ],
+      "commitApproved": false
+    }
+  ],
+  "commitApprovals": []
+}

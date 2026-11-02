@@ -1,0 +1,124 @@
+{
+  "schema": "EVA/P01/A09/adendum-inventar-1",
+  "date": "2026-11-02T15:05:11.707Z",
+  "phase": "PROPUS_PENTRU_A11",
+  "root_plan_hash": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "parent_controls": [
+    "A09-C14",
+    "A09-C15",
+    "A09-C16",
+    "A09-C17",
+    "A09-C22",
+    "A09-C23",
+    "A09-C24",
+    "A09-C27",
+    "A09-C28",
+    "A09-C29",
+    "A05-C24",
+    "A05-C25",
+    "A05-C26"
+  ],
+  "pipelines": [
+    "A09-P4",
+    "A09-P6",
+    "A09-P7"
+  ],
+  "source_manifest": "executie/A09/android_source_manifest.json",
+  "source_manifest_sha256": "175679ba7e4d40290aa54883c98cdeef0e877921645fa94e869f0fd36aae62f7",
+  "source_sha": "560fd59cef68112bc15a392ce5e81f7ff9dfbdd6",
+  "working_tree_clean": true,
+  "apk_sha": "b587e9ad69a094df9be18ab4eb4f19b683a24aa624461c029fce9599586ce6d9",
+  "adb_devices_at_capture": [],
+  "task_anchors": [
+    [
+      "P01.C03.T0021",
+      "T335"
+    ],
+    [
+      "P01.C03.T0022",
+      "T336"
+    ],
+    [
+      "P01.C03.T0024",
+      "T338"
+    ]
+  ],
+  "scope": "Aplicație Android WMS pe care capitolul C17 îl descrie. Auditul oficial A12 păstrează codul de registru din C03. C18 iOS WMS, C19 Android ERP general și C20 iOS ERP general au propria populație și propriile condiții.",
+  "fixtures": [
+    "Android JVM și client HTTP cu MockWebServer; org A/B și gestiuni/locatori sintetici.",
+    "AVD nou sau clonă dedicată, izolată, după rezervare §40/61 și verificare resurse. Fără acces la producție sau cont de utilizator real.",
+    "Pachet release verificat separat de debug/test. Nu se citește keystore, nu se extrage cheia de semnare.",
+    "Telefon real numai dacă este identificat ca dispozitiv de test dedicat; nicio înrolare, instalare sau ștergere pe un dispozitiv neidentificat."
+  ],
+  "controls": [
+    {
+      "id": "AND01",
+      "title": "Proveniența binarului",
+      "step": "Corelează hash-ul APK, packageName, versionCode/Name, SHA sursă, AGP/Gradle, versiuni SDK, semnătură publică și rezultat apksigner.",
+      "expected": "Hash-ul coincide cu fișierul capturat; versiunea și semnătura se raportează fără materiale private. Relația de build reproducibil se dovedește numai pe build identic; în lipsă rămâne neconfirmată.",
+      "owner": [
+        "A10"
+      ],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "AND02",
+      "title": "Cameră sau intrare manuală",
+      "step": "Pe emulator dedicat Android, permisiune camera refuzată, activitate recreată și articol cu lot; încercare repetată după revenire.",
+      "expected": "Mesaj cu acțiunea următoare, fără efect dublu; metoda alternativă și limitele HID/DataWedge se probează separat. Un emulator nu certifică hardware.",
+      "owner": [
+        "A05",
+        "A09"
+      ],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "AND03",
+      "title": "Rețea întreruptă și cheie idempotentă",
+      "step": "În suită JVM + instrumentată cu MockWebServer, întrerupe înainte de trimitere și după răspuns pierdut; revino din fundal.",
+      "expected": "Politica aplicației doar online (D-10) trebuie să indice clar operația netrimisă. Pentru un răspuns pierdut se egalează cheia și cantitatea pe fiecare reîncercare; zero confirmări vizuale neprobate. Nu se presupune o coadă offline.",
+      "owner": [
+        "A01",
+        "A05"
+      ],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "AND04",
+      "title": "Gestiune, firmă și autorizare",
+      "step": "Două gestiuni eligibile și una fără drept, revocare și relogare înainte de reîncercare. Compară răspunsul și ecranul la trecerea A → B.",
+      "expected": "Nu apar documente ale firmei vechi, aplicația blochează scrierea fără drept și explică expirarea; rezultatul gardului separat în contract/server.",
+      "owner": [
+        "A01",
+        "A05"
+      ],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "AND05",
+      "title": "Resurse RO/EN și accesibilitate",
+      "step": "Inventariază numele accesibile ale controalelor și textele dinamice pe activitățile inventar/pick; font mare, orientare și navigare asistată într-un AVD propriu.",
+      "expected": "Selectors/labels/operator steps reproductive cu capturi. TalkBack, cameră, scanner și dispozitiv fizic se mențin distincte de teste JVM și/sau AVD.",
+      "owner": [
+        "A09"
+      ],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "AND06",
+      "title": "Acoperire C17/C18/C19/C20",
+      "step": "Identifică scope al activităților prin manifest, procese și taskuri T335/T336/T338. Reînregistrează relația semantică cu C17 fără schimbarea codurilor C03 existente. Inventariază separat artefactele iOS și ale ERP general.",
+      "expected": "Fiecare din patru suprafețe primește un statut justificat. APK WMS nu închide C18/C19/C20. Indisponibilitatea clientului necesită o sursă și rolul owner, nu o afirmație despre inexistență.",
+      "owner": [
+        "A12",
+        "A09"
+      ],
+      "status": "NEEXECUTAT"
+    }
+  ],
+  "evidence": "Păstrează comanda, SDK/emulator/ABI, hash, durată, număr cazuri și capturi ale testelor trecute și eșuate; diferențiază analiza statică, testul JVM, testul instrumentat, ERP și fizic. Nicio notă de produs extrapolată.",
+  "recipient": "A11",
+  "decision": null,
+  "implementation_checks_executed_since_discovery": 0,
+  "stop_conditions": "Execuția noilor controale așteaptă avizul A11 și un mediu disponibil. Fără mediu, raportează exact partea verificată și condiția de reluare."
+}

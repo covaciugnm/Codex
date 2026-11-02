@@ -1,0 +1,23 @@
+{
+  "id": "01a19c58-ba1a-7851-b057-b1d1da2393ca",
+  "cwd": "\\\\?\\D:\\Banci",
+  "created_at": 1793624422,
+  "updated_at": 1793624466,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește emailurile de la EximBank",
+  "project_id": "463ea057-0997-4813-af5c-7edb57b9c7cf",
+  "project": "Banci",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 549086,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 5,
+  "message_count": 3,
+  "content_sha256": "64a903e3682b63a2a561a526621fdbb43c0a9d92f4500404cc8f8fd56435f035",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

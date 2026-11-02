@@ -1,0 +1,20 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.29 QA BERGER R11\\2026.10.29 Addendum audit juridic BERGER R11 dupa corectura.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Addendum audit juridic BERGER R11 dupa corec--d7c343f4.txt",
+    "bytes": 1818,
+    "sha256": "cdd144745dda60be88cbef0f4349d64ae8bab54081e278f624c4fb373b9a7179"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.29 QA BERGER R11\\2026.10.29 Audit juridic independent BERGER R11.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Audit juridic independent BERGER R11--1091f3e5.txt",
+    "bytes": 12259,
+    "sha256": "917681034c2cd5e27febdf2bd5f952cc90b4334c952c0005fb140c451a2949f9"
+  }
+]

@@ -1,10 +1,7 @@
 [
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\72154d4b-f9df-4eae-a550-02de69184e2f\\tool-results\\webfetch-1789991605340-papg10.pdf",
-    "status": "copiat",
-    "saved_path": "fisiere/webfetch-1789991605340-papg10--b8850ed1.pdf",
-    "bytes": 678889,
-    "sha256": "c8dfc41bebbaa209009c7c659d066df5a6808af1ae582feb67105f6fd067ec32"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\parser.py",

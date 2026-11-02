@@ -1,0 +1,22 @@
+AUDITUL DOSARELOR DE PERSOANE
+
+Deschideti «Audit dosare.html» pentru fisele persoanelor/gruparilor si «Audit fiecare director.html» pentru fiecare director fizic, inclusiv categoriile goale.
+
+ACOPERIRE
+Instantaneul fizic cuprinde 17.082 de fisiere in 872 de directoare. Sunt 146 de grupari: 142 de persoane si 4 grupari administrative/comune. Fiecare fisier are o inregistrare de audit. Fiecare director are o fisa TXT individuala. Inventarul a fost comparat cu registrul istoric si cu jurnalele completarii din 31.10.2026.
+
+Acest audit nu declara ca au fost citite manual toate paginile celor 17.082 de fisiere. A folosit registrele, metadatele, amprentele disponibile si 7.056 de texte disponibile in cache-urile citite. Unele texte de fisiere binare vechi sunt euristice, nu transcrieri complete. Procesul existent de OCR/copiere continua separat; el raporteaza explicit scanurile si arhivele inca necitite.
+
+Registrele istorice sunt declarate istorice de instructiunile locale. O categorie NEGASIT in Excel nu este o lista de acte obligatorii si nu confirma ca persoana nu detine actul. Casatoria, permisul, pasaportul si alte acte pot fi neaplicabile. Datele de expirare memorate descriu actul gasit, nu lipsa unui act mai nou.
+
+IDENTITATI CONFIRMATE
+Mariana Burian a fost confirmata de agentul principal pe CI, Revisal/CIM si data nasterii din CV. Auditorul a confirmat vizual separat alte sase CI: Benga Florean, Benga Radu-Cristian, Bran Calin, Dragomir Valerica, Nemety Ludovic-Adrian si Petras Alin-Petru. Fisele includ CNP, serie, numar, termen si sursa. Toate CI gasite pentru aceste sapte cazuri au termene trecute. Nu rezulta ca nu exista acte mai noi.
+
+INDICII CNP
+cnp_candidati_neconfirmati.jsonl contine numai indicii cu numele in apropierea CNP sau cu un singur CNP in documentul care mentioneaza numele. Sunt inregistrari de proba, nu persoane sau CNP-uri atribuite. Necesita verificarea titularului si paginii originale.
+«Coocurente documente multipersoana - CNP neatribuite.jsonl» pastreaza separat coocurentele largi din documente comune. Nu trebuie folosit pentru completarea identitatilor.
+«surse_CI_externe_de_verificat.jsonl» contine legaturi candidate dupa numele fisierului din arhiva de identitate; poate include pasapoarte sau certificate de nastere. Nu sunt confirmari de titularitate.
+
+ORIGINALE SI ACTUALIZARE
+Auditorul nu a redenumit, mutat sau modificat originalele si nu a editat registrul istoric. Numele din dosar este raportat separat de identitatea confirmata in continut. Orice corectie trebuie sa pastreze sursa si dovada.
+Procesul de completare existent poate adauga fisiere dupa instantaneu; auditul trebuie reconciliat din nou la finalul lui. «Verificare livrabile.json» confirma numerele fiselor si integritatea legaturilor locale ale rapoartelor.

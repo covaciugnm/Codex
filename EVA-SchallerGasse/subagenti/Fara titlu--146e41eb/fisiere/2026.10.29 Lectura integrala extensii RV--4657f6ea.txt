@@ -1,0 +1,56 @@
+2026.10.29 | DONAU 2044001194 | Lectură vizuală integrală a extensiilor RV
+Sursă: Anexe/2026.10.29 Deckungserweiterungen_RV 29000010498.pdf
+SHA-256: e71e891b2706aa5818d239f363cac6ba8150103546eb1b17255ecab224a2bbcf
+Verificare: toate cele 13 pagini PDF citite vizual din randările originale. Paginile tipărite sunt 4–16 din 16. Data ediției din subsol: 01.05.2022 (2022.05.01).
+
+VERDICT
+Există două clauze utile pentru ieșire/costul ieșirii și o regulă favorabilă de soluționare a contradicțiilor. Documentul nu dovedește un drept general de reziliere anuală, o încetare automată la schimbarea proprietarului sau la încetarea administrării. Sunt extensii de acoperire și clauze suplimentare, nu întregul înscris de 16 pagini: paginile 1–3 lipsesc efectiv din acest fișier. Nu se presupune ce conțin ele sau dacă sunt în alte anexe ale răspunsului.
+
+1. Încetarea întregului pachet dacă ASIGURĂTORUL încetează o ramură
+PDF p. 12 / tipărit p. 15, pct. 2, Paketkündigungsklausel:
+„Es gilt vereinbart, dass bei Kündigung einer Sparte eines Versicherungsvertrages durch den Versicherer, auf Wunsch des Versicherungsnehmers, die Beendigung des gesamten Versicherungsvertrages mit demselben Stichtag, unter Rückforderung des gewährten Laufzeitvorteiles, erfolgt.”
+Efect: dacă DONAU reziliază o ramură, asiguratul poate cere închiderea întregului pachet la aceeași dată. Textul prevede recuperarea avantajului de durată. Nu permite asiguratului să rezilieze voluntar o acoperire mică și să impună astfel încetarea întregului pachet. Refuzul acoperirii pentru neplată nu trebuie confundat cu o Kündigung efectivă a unei ramuri. Se verifică dacă există o asemenea declarație DONAU.
+
+2. Renunțare la recuperarea avantajului de durată în caz de vânzare
+PDF p. 13 / tipărit p. 16, pct. 6, Verzicht der Dauerrabattrückforderung bei Gebäudeverkauf:
+„Im Falle des Verkaufes eines Gebäudes/mehrerer Gebäude, wobei die ursprünglich vereinbarte Vertragslaufzeit nicht eingehalten werden kann, verzichtet der Versicherer auf das Recht der Laufzeitvorteilrückforderung.”
+Efect: o apărare contractuală expresă față de recuperarea reducerii/avantajului de durată dacă vânzarea face imposibilă respectarea duratei inițial convenite. Pentru dosarul nostru trebuie corelată cu vânzarea, persoana care cere încetarea și temeiul/data încetării. Clauza nu creează singură un drept nou de ieșire și nu redeschide automat termenul legal al cumpărătorului. Totuși, analiza anterioară a costului 1000K nu mai poate trata numai excepția tipărită în 1000K: există acum această convenție suplimentară, dacă este aplicabilă poliței.
+
+3. Contradicțiile se rezolvă în favoarea asiguratului
+PDF p. 13 / tipărit p. 16, pct. 7, Unklarheitenregelung:
+„Widersprechen sich einzelne Bestimmungen dieser Polizze, auch bloß partiell, so ist die, für den Versicherungsnehmer günstigere Variante maßgeblicher Vertragsinhalt.”
+Efect: dacă o clauză generală a poliței contrazice renunțarea specială de mai sus, textul impune varianta favorabilă asiguratului. Nu transformă orice neclaritate factuală într-un drept de reziliere și nu dovedește contradicția dintre termenul fix și prelungirea anuală după expirare.
+
+4. Comunicări prin Seipt & Partner
+PDF p. 12 / tipărit p. 15, pct. 3, Maklerklausel. Circuitul comercial al contractului și polițelor aferente se face prin Seipt & Partner Versicherungsmakler GmbH, Lugeck 1-2, Stg. 1/6. OG, 1010 Wien.
+Extras: „Anzeigen und Erklärungen des Versicherungsnehmers gelten dem Versicherer als zugegangen, wenn diese beim Obigen eingelangt sind.” Brokerul trebuie să transmită imediat.
+Excepția următoare cere însă primirea efectivă la asigurător pentru cererile de asigurare și declarațiile care constituie un raport de asigurare ori extind/restrâng întinderea acoperirii unui raport existent.
+Efect: merită verificată corespondența deja trimisă la Seipt și natura fiecărei declarații. Nu se deduce că orice solicitare de reducere trimisă exclusiv brokerului a produs deja efecte la DONAU. Textul privește Seipt; nu dovedește, prin el însuși, mandatul de primire al Hofhans. Nu stabilește încetarea poliței la încetarea mandatului sau administrării.
+
+5. Ajustare după soluția Schlichtungsstelle sau acordul chiriași–administrator
+PDF p. 12 / tipărit p. 15, pct. 4. DONAU se obligă la ajustarea contractului conform hotărârilor Schlichtungsstelle ori acordurilor scrise dintre chiriași și administrație, cu efect de la cunoaștere. Pentru efect retroactiv, textul rezervă acordul individual al DONAU privind desfacerea/soluția.
+Efect: cale condiționată de un asemenea act concret, nu un drept general al proprietarului de a anula polița pentru nemulțumire față de preț. Nu este o clauză universală de arbitraj al oricărui litigiu A&C–DONAU.
+
+6. Perioade și obligații relevante practic
+PDF p. 2 / tipărit 5, F05; PDF p. 5 / tipărit 8, ST04; PDF p. 8 / tipărit 11, LW08: cheltuieli de spațiu înlocuitor după daună acoperită, durata neutilizabilității efective, maximum 12 luni de la daună; hotel maximum 100 EUR/zi și 2.000 EUR/lună, în limita asigurată. Aceste 12 luni sunt durata indemnizației, nu durata contractului.
+PDF p. 10 / tipărit 13, HP01: pierdere de chirie/spațiu înlocuitor după daunele indicate din precipitații, sublimită 50.000 EUR și maximum 6 luni; subsidiar față de alte asigurări. Nu este termen de reziliere.
+PDF p. 6 / tipărit 9, ST06: renunțarea la așteptarea de 14 zile pentru clauza 3031K în contracte noi, numai cu continuitate față de asigurătorul anterior și limite/acoperire echivalente, de dovedit în caz de daună. Nu elimină consecințele neplății.
+PDF p. 9 / tipărit 12, LW15: locuințe permanent goale/neînchiriate peste 72 ore — închiderea conductelor; dacă nu este posibilă închiderea individuală, renunțare la încălcarea obligației indicate, dar rămân măsuri adecvate contra înghețului. Dacă întregul imobil este părăsit de toate persoanele peste 72 ore, trebuie închis robinetul principal; vizitele ocazionale nu sunt suficiente. Ultima propoziție: „Eine Anzeige im Sinne einer Gefahrenerhöhung muss nicht erfolgen.” Nu se extinde automat această dispensă la alte modificări de risc, inclusiv lucrări.
+PDF p. 11 / tipărit 14, HP03: răspunderea beneficiarului pentru demolări, construcții, reparații și săpături la imobil, în condițiile indicate, dacă întregul cost al proiectului inclusiv lucrări proprii nu depășește 750.000 EUR. Este necesară raportarea la costul proiectului complet, nu la onorariul unui prestator. Nu confirmă acoperirea actuală în pofida neplății.
+
+7. Acoperirea integrală a lecturii
+PDF p. 1 / tipărit 4: Abschnitt B – DK 2 (RV NEU), FEUER F01–F04, extensii bunuri, replantare, bucătării/băi, daune de pârjolire 5.000 EUR.
+PDF p. 2 / tipărit 5: F05 spații înlocuitoare și F06 deteriorări prin efracție.
+PDF p. 3 / tipărit 6: F07 daune intenționate/graffiti, limite/franșize și F08 autovehicule, dacă solicitat.
+PDF p. 4 / tipărit 7: BU1 pierdere chirie, renunțare la subasigurare în condițiile indicate, limită de aplicare 50.000 EUR.
+PDF p. 5 / tipărit 8: ST01–ST04 extensii furtună și spații înlocuitoare.
+PDF p. 6 / tipărit 9: ST05–ST10 daune optice, așteptare catastrofe apă, avalanșe acoperiș, uscare, finisaje, deszăpezire în pericol imediat.
+PDF p. 7 / tipărit 10: LW01–LW07 conducte, curățare, pierderi apă, instalații climatizare, căutare daună, finisaje, piscină la parter.
+PDF p. 8 / tipărit 11: LW08–LW11 spații înlocuitoare, faianță, bucătării/băi și conducte exterioare parcelei.
+PDF p. 9 / tipărit 12: LW12–LW16 conducte pe parcelă, apă pluvială, uscare, regula 72 ore, rosturi silicon.
+PDF p. 10 / tipărit 13: Glas01 și HP01–HP02.
+PDF p. 11 / tipărit 14: HP03–HP05, răspundere beneficiar, uscare, Cross Liability.
+PDF p. 12 / tipărit 15: clauze 1–4, inclusiv renunțare la subasigurare până la diferența de 20%, încetare pachet, broker și Schlichtungsstelle.
+PDF p. 13 / tipărit 16: clauze 5–7, regres, renunțare la recuperarea avantajului de durată la vânzare și contradicții în favoarea asiguratului.
+
+Nu există în aceste 13 pagini o clauză identificată de reziliere anuală generală, de încetare automată pentru deces, revocarea mandatului, schimbarea administratorului sau vânzare. Nu există aici derogare identificată privind § 91/somația de neplată. Paginile tipărite 1–3 trebuie localizate în ansamblul anexelor sau cerute punctual dacă nu au fost transmise; titlul fișierului nu dovedește singur că ele lipsesc din întregul răspuns DONAU.

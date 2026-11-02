@@ -113,8 +113,8 @@ services:
       mailpit: {{condition: service_healthy}}
     environment:
       <<: *local-email
-      DATABASE_URL: postgresql+psycopg://eva_storefront:${{EVA_STOREFRONT_DB_PASSWORD}}@db:5432/{slug.replace('-','_')}
-      ADMIN_DATABASE_URL: postgresql+psycopg://eva_admin_api:${{EVA_ADMIN_DB_PASSWORD}}@db:5432/{slug.replace('-','_')}
+      DATABASE_URL: postgresql+psycopg[CREDENTIAL_REDACTED]db:5432/{slug.replace('-','_')}
+      ADMIN_DATABASE_URL: postgresql+psycopg[CREDENTIAL_REDACTED]db:5432/{slug.replace('-','_')}
       DEFAULT_TENANT: {slug}
       STORAGE_BACKEND: postgres
       SECRETS_KEY: ${{SECRETS_KEY}}

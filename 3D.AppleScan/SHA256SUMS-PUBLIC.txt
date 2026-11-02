@@ -1,34 +1,411 @@
-f09dfa0053d7485f9040bead839953b06da1624f3f4563d902d46062cea26dcb  arhiva-001.zip
-abf583d0031f1cc05847804fbe4c28159e3f71e3d2f795c5325ac3ce0b38d52c  arhiva-002.zip
-eb49f83547ad571cf43116461a8d42707440afe8685717313e7efe42dc70450b  Arhivează conversațiile Codex/conversatie.md
+7128fcffdcc38a8507b2e09a086543c78dece3b7d0c9552c3cca5c61d5820b8b  analizeaza toate fisierele din folderul _Z__00. Proiecte 2026 - SCRIEM_2026.09.3/conversatie.md
+96d495b2a28a3e033529e8bc40cce04cd16dcc43e8e2f95fe97ca56900b69e12  analizeaza toate fisierele din folderul _Z__00. Proiecte 2026 - SCRIEM_2026.09.3/fisiere/3.1 Activitati Proiect--0cf5f5f0.docx
+9dec008b9814395873dcb1da876709e0b70c5e90581bebe6d99a8073a0c19e8a  analizeaza toate fisierele din folderul _Z__00. Proiecte 2026 - SCRIEM_2026.09.3/fisiere/EVA_Buget_FINAL--89cb18a9.xlsx
+64c5ef8c9efd7067aa254e68405b51808d2bc89265495c1bcca47f1cb73d148a  analizeaza toate fisierele din folderul _Z__00. Proiecte 2026 - SCRIEM_2026.09.3/fisiere-index.json
+453061295c9780dc329ca68dec64bbbe0918fa0d2098583ae5e02b6a3482d121  analizeaza toate fisierele din folderul _Z__00. Proiecte 2026 - SCRIEM_2026.09.3/istoric.json
+7e656bd151ea7c3d584014015b1ca9d7f27fae8316737e37f6e76d5beaf4d580  analizeaza toate fisierele din folderul _Z__00. Proiecte 2026 - SCRIEM_2026.09.3/metadate.json
+b3c03fb3033f6d9485f97ef95feffc094a280e4d049216f51ef517aee0cca856  analizeaza toate fisierele din folderul _Z__00. Proiecte 2026 - SCRIEM_2026.09.3/rezultate.md
+c47313700737d72d11343ac8a28682133cb2f4cf38d9f8d4cd5b42c64dda5ffb  arhiva-001.zip
+81217a413ee6eab034a464ee6c99115fc57876421215d33170645f85b9e85644  arhiva-002.zip
+c46049269c9fb79134e345f6f41c6a5d54f3fcdeed9fdfeb3f8df9c1a1b5619d  arhiva-003.zip
+1ce0c4620fd26950a1bd6f86ae1720f74935ad7321f4ae8d6dbd30d0076948f7  arhiva-004.zip
+b30f92b5bc01a524a79a91ec73112189ff1d903ca341148c01a2c3498ae0596e  arhiva-005.zip
+f5c98c05565403b32d7120e62328cefacaec6a6e647804cfbfee6ccc04362f7a  Arhivează conversațiile Alibaba/conversatie.md
+c95aee77e358885818a869fb76290cf289c7834155e4235d212fce5ed0e117f5  Arhivează conversațiile Alibaba/fisiere/page-1--336bf4f0.png
+69f6c9ce9b393637f0b5e8186e2f60b6cf6450f77495073625e7051db1c159e7  Arhivează conversațiile Alibaba/fisiere/page-2--4ab2a050.png
+b8dfe96909bbc90a3bb5dbd85224b062c79e5c46140f935314af128fa87c7252  Arhivează conversațiile Alibaba/fisiere/page-3--422c41a0.png
+d9e653fdaf85bae81a47ef66074f19edf094de73e2a350ccfee5ed36a6cc229a  Arhivează conversațiile Alibaba/fisiere/page-4--24aa518d.png
+64efeae1244c14fd8f46b9540deb0475720a9eddd68fe3b3b5827414a217e151  Arhivează conversațiile Alibaba/fisiere/page-5--97314116.png
+b2ab8db378067c689bbbb106289ae30291868b8896a44fc83241c9d3519c544e  Arhivează conversațiile Alibaba/fisiere/Raport_diagnostic_EVA_Alibaba_2026-10-30--8482c083.pdf
+f6f4447b638967dd53287a114c66363443cea699946a3dda1f9ec9e78ff85435  Arhivează conversațiile Alibaba/fisiere-index.json
+3b6d627c0b1be232b0e4aec5080be34178b56d77dbc491f70c3b59c9e1275eb9  Arhivează conversațiile Alibaba/istoric.json
+eb04a75a16f48509891f0fe3384c79d3da6b501ad124b33e6bc5f3c2fcdd8cf5  Arhivează conversațiile Alibaba/metadate.json
+fd2d2921bbe8b24f1325918d71d181183b0605e66712965d2b8c4e18d74ae7c9  Arhivează conversațiile Alibaba/rezultate.md
+c05d8fff346ec0610a31b47f9752372d905381dcd5c86924c26dbb57d18d5140  Arhivează conversațiile Codex/conversatie.md
+665d6df296cf47e6d3e91d83004927dc359c23a53cf1324cbd4f3a9b5b6dc4a8  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0001.codex-lfs-part
+cfe585c14f0cb498b2da11802252edc238b7ce50c5dc35efcb34f490ab42e53d  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0002.codex-lfs-part
+0324c8482fc31b2dc44c42f676ad56f22997250fb1883a538164446f8f5f3ab8  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0003.codex-lfs-part
+b493f6f519bbd1f6d5c0219e221f27e0a54ee8bc019db48ad0498a415fcc7f1c  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0004.codex-lfs-part
+9acca8e8c22201155389f65abbf6bc9723edc7384ead80503839f49dcc56d767  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0005.codex-lfs-part
+9acca8e8c22201155389f65abbf6bc9723edc7384ead80503839f49dcc56d767  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0006.codex-lfs-part
+9acca8e8c22201155389f65abbf6bc9723edc7384ead80503839f49dcc56d767  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0007.codex-lfs-part
+9acca8e8c22201155389f65abbf6bc9723edc7384ead80503839f49dcc56d767  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0008.codex-lfs-part
+9acca8e8c22201155389f65abbf6bc9723edc7384ead80503839f49dcc56d767  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0009.codex-lfs-part
+9acca8e8c22201155389f65abbf6bc9723edc7384ead80503839f49dcc56d767  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0010.codex-lfs-part
+9acca8e8c22201155389f65abbf6bc9723edc7384ead80503839f49dcc56d767  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0011.codex-lfs-part
+099c39584678b08007d1bae9f828a2ef488d8650f397662408b41261796f91ff  Arhivează conversațiile Codex/fisiere/a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657-0012.codex-lfs-part
 37d8e8e035195a6e44341b4c28d90c15ca7e949d1560d28457a5ef68ae4d767d  Arhivează conversațiile Codex/fisiere/export_codex--87839e05.py
 37d8e8e035195a6e44341b4c28d90c15ca7e949d1560d28457a5ef68ae4d767d  Arhivează conversațiile Codex/fisiere/export_codex--b0a2eb2c.py
+c8c99823153c3bbdf529aee80ef72da1e5fa8558b4345bd9d667fd37267f1f5b  Arhivează conversațiile Codex/fisiere/haos_generic-x86-64-16.2--53703ffe.img.codex-parts.json
 ba7ff7bd5611c774f7563b1d65e72b49cafd923862e8f7373435206994210a02  Arhivează conversațiile Codex/fisiere/PROTOCOL-SALVARE--e1313ac8.md
 ea2ec341fd451faa08cf4aa52d02c79dfab0e157837a8d2f30b33604ab319590  Arhivează conversațiile Codex/fisiere/Salveaza-Codex--2eec0fa6.ps1
 df3999b28b76a3bb9d9d004751c86f57c0ef59b86cd3a6e19ad87c775fb369a3  Arhivează conversațiile Codex/fisiere/sincronizeaza_github--90e83ef9.py
 e00b61682673ba1f76f2f85e9b0c82a92e182c8f7e3e6aa280b245f091c58c2f  Arhivează conversațiile Codex/fisiere/verifica_arhiva--eb81b41a.py
-a9a7a1545b9a6f678c0db0ab2a8f4cda8b0511e4c9cf97e77e2b3697ed049a9e  Arhivează conversațiile Codex/fisiere-index.json
-0ef38571ad0b74d3d4415e2d49b7ee2840c011a260d9c2b28c11520bea446492  Arhivează conversațiile Codex/istoric.json
-3c98d863712ae3bcf3bb8164bf699ab28bb10df1cb90429022a2b99d291ed673  Arhivează conversațiile Codex/metadate.json
-f01a9eb0e817ef9b23503d1cc426e72abbe987881619c646491bbf904a6cc009  Arhivează conversațiile Codex/rezultate.md
-a0a8f85cf62e69320dc023423b57c7e6ae7694da0cb0eb2558b73084a1d05e69  Compară iPhone Pro Max 15–18/conversatie.md
+f37dcd4a614463b1aeb9a3515c21a942dcd28b84f49144402776f26f6a2d16c2  Arhivează conversațiile Codex/fisiere-index.json
+7166e08999c54b1260faedb9cb372e9065dfd7f42511369ccbf12f89b7f42df1  Arhivează conversațiile Codex/istoric.json
+27a96c5123d91fa55d5d6582b2d25d481c67eb43d09593e022d413c6efca5ff4  Arhivează conversațiile Codex/metadate.json
+61d7853a9f7b961c8c60e7ed2b4246bbdc4eafe0c576f07ddefa31868aff7781  Arhivează conversațiile Codex/rezultate.md
+3202e0cf87fd69ab2634e0e298c66aa97a29097bf294cd7dac235676479cf9f5  Caută e-mail de la Jidvei/conversatie.md
+4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  Caută e-mail de la Jidvei/fisiere-index.json
+e54efe02bb979949d3df8e37376158a62c73384dccb832d2aca9042590af6063  Caută e-mail de la Jidvei/istoric.json
+c1a61fb8b731cf9d6214b0ecbd19bd7572921368189582af86a64eb123dee816  Caută e-mail de la Jidvei/metadate.json
+1ee54bbd1485da373d100903b723cbc3b8aa6d817aa2f6fbdcbbe422cf53a3aa  Caută e-mail de la Jidvei/rezultate.md
+0b525f8cc42cd1d622352ced69bee99f3176608fe8654632c2fdfc002a98742a  Compară iPhone Pro Max 15–18/conversatie.md
 e719f95a943ee16d7b18379b041cb60ad5248dc690cdb25d383cff158ba6e195  Compară iPhone Pro Max 15–18/fisiere-index.json
-08487c63178e4b739bc82df8e23fe0c35a70df980cfa0030cb99361506c25c89  Compară iPhone Pro Max 15–18/istoric.json
-d2574505159395c031240b532a26f197a074387fe4f0874d893d52deed52e8a2  Compară iPhone Pro Max 15–18/metadate.json
+d47e0d9fe69423fcf123c29f08babd62bfd98a3f8f67c632147389c21cfeaef1  Compară iPhone Pro Max 15–18/istoric.json
+d108fdde6064628fcdfb8d802a99c90ea4084bb3ce1cdf05614c14db62fe2b57  Compară iPhone Pro Max 15–18/metadate.json
 10b890eab5051468cadaea2ca2385fd9da8157f681f3fd0f8a280d8bbf2caf75  Compară iPhone Pro Max 15–18/rezultate.md
-162bb0f368dbfb116c829c9e5137cf63128418a74e37e94a0c92d0cef3ab3d4f  Enumeră nodurile implicite ale cam/conversatie.md
+65a0df277ade4414a6a59c6ce3600a4b9f6f95da5f3d1a86e1814825b93d5e4d  Compară ochelari AI similari Even G2/conversatie.md
+c5fc78b371ec914967a34d956552ddf6e2baeecc02c874b9a8d20f16c53f1f86  Compară ochelari AI similari Even G2/fisiere/Color-Ring-prezentare--6cb148d0.html
+85fee7eb0964f94f6771b68f4adb720a24206482bbc3806c059035605015c4ce  Compară ochelari AI similari Even G2/fisiere/Gen2-Color-Ring-lansare--fe83e8a8.html
+53a21022fe29de158fe7d116b242d6253baf72da10ff9f445a26ab6f66bf072e  Compară ochelari AI similari Even G2/fisiere-index.json
+1e590a4fdbd3151f31f85481c99b00c0ba7a1b1fb5e3a69a9b34090a09cb87df  Compară ochelari AI similari Even G2/istoric.json
+3983da438c5c65c252ab8f317a33e1439c1140113eded6711fd4d4b454291760  Compară ochelari AI similari Even G2/metadate.json
+326f87117b3220feb6abe44294b5229e9af11c1230a536e4d98031ac938f571d  Compară ochelari AI similari Even G2/rezultate.md
+88246897373efe5a07ed1028a2b6b5a46998f9a1b9be0886fd42b3b942c3ea61  Descarcă obiecte 3D de pe site-uri/conversatie.md
+18ff1b4a90834c0b61e396c9118635f3f9df12934d82995e655ecb05c6dc0c6d  Descarcă obiecte 3D de pe site-uri/fisiere/CITESTE-MA--2e3e6e90.txt
+953d1665c2f7d7d88db80f2e939dc474e9ffd8d93eb15bbdeddc79b5cc245f55  Descarcă obiecte 3D de pe site-uri/fisiere/download_models--681e2491.py
+f2694a29ae86bbc42eed259b20bc4cde9d87d2f03828d5fd5c412c1b132e4024  Descarcă obiecte 3D de pe site-uri/fisiere-index.json
+79130b63b392e02ad4db27383f60cdde8b467c2cc9775229e390b8e9aaa5ba12  Descarcă obiecte 3D de pe site-uri/istoric.json
+b021d4feee0bf052b5310583a4d246106891c874529f599176a5e6374adae384  Descarcă obiecte 3D de pe site-uri/metadate.json
+c74014ecbb2552fa555eb1477395a751956eda861f56b6b25b2a523a99238d32  Descarcă obiecte 3D de pe site-uri/rezultate.md
+8b4f3319e0c35ed4a16da8b920d4656c8e049ffdf3b5ebb785c9c7e06bb72852  Enumeră nodurile implicite ale cam/conversatie.md
 181e9d3fed5ab89dff34982b38315b3f53e044316f7b8277940443d71273bac3  Enumeră nodurile implicite ale cam/fisiere-index.json
-f8c2fc87c8863d5ac5055fba1fc994166039e1e6045e067195c26f709c9eda0c  Enumeră nodurile implicite ale cam/istoric.json
-166534eca1f8f68594fa27e02d3141613b50e44f078200cf8f22f4f2fd9aaa46  Enumeră nodurile implicite ale cam/metadate.json
-4932b99268261e179383061ba5a4033b1635f9deb649b8026fc48cc185ede325  Enumeră nodurile implicite ale cam/rezultate.md
-d0c866f64e729b214105b3e09878a9b4b7c81dbb557d5a279a1063a6c3e8f443  Explică desincronizarea fluxurilor O/conversatie.md
+937a13ffe60222fe06fc5ee716268f8887eaa2f5db3bed7ecf0fd3184290661b  Enumeră nodurile implicite ale cam/istoric.json
+3d40f60ad3287730582cc9676df2a53415bd79abe360697f3370c5dc7cb10b0f  Enumeră nodurile implicite ale cam/metadate.json
+22cc1e0fa4d6395511e6f75f0e2f3cffcfea83ba36aec63428d1d0988ec3b118  Enumeră nodurile implicite ale cam/rezultate.md
+41b58815983095885951e297e3798a016e37e5a87d6383523284e4fc739f3411  EVA 3D Scan – agent help non-stop (server + aplicație)/conversatie.md
+a4f261459461f8038f97901c26a9346fd7ba42336803acd90aa9241f31efa179  EVA 3D Scan – agent help non-stop (server + aplicație)/fisiere/help-translate-server-wf_d2c65ea3-1e8--e80c3b7f.js
+3a14fde0cdb1f64856545f9b247d0efdacd7c1f5dc8dfb2c8c4121fdb936de2d  EVA 3D Scan – agent help non-stop (server + aplicație)/fisiere/SKILL--bac6a00f.md
+b63a2fd389b024eef014d69da944635cd988032111f7ecc48d0de1c72be32342  EVA 3D Scan – agent help non-stop (server + aplicație)/fisiere-index.json
+d1beb7a97bc5803ff39cafefbd0ebee2ffac204ab90a856e7724a0844454490a  EVA 3D Scan – agent help non-stop (server + aplicație)/istoric.json
+f3c011ebc150d4dd538dcb42678f86a4282ddc87cdbb674470142087706bf9b7  EVA 3D Scan – agent help non-stop (server + aplicație)/metadate.json
+e5dce245f51d05594ad135dee45af1798367f102c50de3d2c721882ff04fc952  EVA 3D Scan – agent help non-stop (server + aplicație)/rezultate.md
+20cccde1b92354597e2a310c02c62b7341a6677697af3a724e251d9a33d250da  EVA 3D Scan – agent help non-stop (server + aplicație)--0940c3a4/conversatie.md
+3a14fde0cdb1f64856545f9b247d0efdacd7c1f5dc8dfb2c8c4121fdb936de2d  EVA 3D Scan – agent help non-stop (server + aplicație)--0940c3a4/fisiere/SKILL--bac6a00f.md
+159343494e0336edb718b116376ec44491176717e6a2720e8acb5e8ba613cc24  EVA 3D Scan – agent help non-stop (server + aplicație)--0940c3a4/fisiere-index.json
+c6608a30223f9e03525a61bfe6f6b6cdeb7c2eb5d93b8378c41bc0b6490eab40  EVA 3D Scan – agent help non-stop (server + aplicație)--0940c3a4/istoric.json
+38dfabd380c98bcd8ddb4244c6e35f495a9307dcedc3d03835daa8c0e63d01bf  EVA 3D Scan – agent help non-stop (server + aplicație)--0940c3a4/metadate.json
+09d3e985de6ac431bd6849ee3f1e94d1353f9cbae67efd8e24129713c62d627d  EVA 3D Scan – agent help non-stop (server + aplicație)--0940c3a4/rezultate.md
+14496747859464e0a936e8887653f230493d48ecafe4475f9c0b4c98d44ebe73  EVA 3D Scan – agent help non-stop (server + aplicație)--428d45c0/conversatie.md
+3a14fde0cdb1f64856545f9b247d0efdacd7c1f5dc8dfb2c8c4121fdb936de2d  EVA 3D Scan – agent help non-stop (server + aplicație)--428d45c0/fisiere/SKILL--bac6a00f.md
+4387c642bb9ad4be95d32766cb9a26f547d17a3b172502dd0215af6f16abce2e  EVA 3D Scan – agent help non-stop (server + aplicație)--428d45c0/fisiere-index.json
+e5bdc3ef320c71133cb12df379e0d7728d255792bcbd7b69361d272e22316e63  EVA 3D Scan – agent help non-stop (server + aplicație)--428d45c0/istoric.json
+736d437830f62d22f01d45996b30e77ff32240dafa401290e15c9e6b46ee3b87  EVA 3D Scan – agent help non-stop (server + aplicație)--428d45c0/metadate.json
+dcc6f630a5d7a7b4c0f1c6063122427385a8647eb12680f4dab10edf233e4172  EVA 3D Scan – agent help non-stop (server + aplicație)--428d45c0/rezultate.md
+3ec849938d074a55dc23e2e3be59a57e247c23a9f7a7acd30056141b8cd8cc2f  EVA 3D Scan – agent help non-stop (server + aplicație)--8068529e/conversatie.md
+3a14fde0cdb1f64856545f9b247d0efdacd7c1f5dc8dfb2c8c4121fdb936de2d  EVA 3D Scan – agent help non-stop (server + aplicație)--8068529e/fisiere/SKILL--bac6a00f.md
+4387c642bb9ad4be95d32766cb9a26f547d17a3b172502dd0215af6f16abce2e  EVA 3D Scan – agent help non-stop (server + aplicație)--8068529e/fisiere-index.json
+4ff451df91e5c7505057be0cff93ee4a8e226e835df6302722038ff58a4c717e  EVA 3D Scan – agent help non-stop (server + aplicație)--8068529e/istoric.json
+e385172122f7b7b15141cec78df941275f3abc050b1ca6132f77a774002ede34  EVA 3D Scan – agent help non-stop (server + aplicație)--8068529e/metadate.json
+b5ef687304619b4b5f04da2b0e4efc04c82c169fa0651ab55e373755063ec6f8  EVA 3D Scan – agent help non-stop (server + aplicație)--8068529e/rezultate.md
+449c80ed9bbfcb2f627cb5e3720aca87c7f43a2e5a5b4ec8c32509a0bd123cbd  EVA 3D Scan – agent help non-stop (server + aplicație)--a1a70c93/conversatie.md
+7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519  EVA 3D Scan – agent help non-stop (server + aplicație)--a1a70c93/fisiere/cp1252--31b9c8fc.py
+3a14fde0cdb1f64856545f9b247d0efdacd7c1f5dc8dfb2c8c4121fdb936de2d  EVA 3D Scan – agent help non-stop (server + aplicație)--a1a70c93/fisiere/SKILL--bac6a00f.md
+e8c45989a98c9b5649795132ec4f8058608516dc1d01a339adc5fd50711f34d6  EVA 3D Scan – agent help non-stop (server + aplicație)--a1a70c93/fisiere-index.json
+ecc9147f74ad685a99177c974462578f953de54b9e40638e7e6d4d030741023e  EVA 3D Scan – agent help non-stop (server + aplicație)--a1a70c93/istoric.json
+fea949430d309e5b0a79826e10297c1b8948b5a571448b4874f8772fbee3f424  EVA 3D Scan – agent help non-stop (server + aplicație)--a1a70c93/metadate.json
+1df7213cdac8ef9e56b2538c7f6814ea0e910154a11de9fc2d05a06982ce4f3b  EVA 3D Scan – agent help non-stop (server + aplicație)--a1a70c93/rezultate.md
+5dd91a405ea2f749aac22c562eb642c2e3be604cab81d5d21355991d66fd6875  EVA 3D Scan – agent help non-stop (server + aplicație)--fe2ed898/conversatie.md
+3a14fde0cdb1f64856545f9b247d0efdacd7c1f5dc8dfb2c8c4121fdb936de2d  EVA 3D Scan – agent help non-stop (server + aplicație)--fe2ed898/fisiere/SKILL--bac6a00f.md
+4387c642bb9ad4be95d32766cb9a26f547d17a3b172502dd0215af6f16abce2e  EVA 3D Scan – agent help non-stop (server + aplicație)--fe2ed898/fisiere-index.json
+38cae467e945148911c79ecbc66628fe5108c08b931a4aed9a96db23d4ceffab  EVA 3D Scan – agent help non-stop (server + aplicație)--fe2ed898/istoric.json
+bb2259c64714eb36f8a79b795d8e3ef9839b8ef03c88035ca02ea87c67f95f8d  EVA 3D Scan – agent help non-stop (server + aplicație)--fe2ed898/metadate.json
+52aa066fe570b1b8e940f42f3c4087efe00302223f4db1bd40474dd8f3d07991  EVA 3D Scan – agent help non-stop (server + aplicație)--fe2ed898/rezultate.md
+642df7288eaf21d6013c1bc1b242c02354044069eef31ff472c5f67414c6c13a  EVA 3D Scan – coordonare non-stop cu echipa Mac/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac/fisiere-index.json
+3a4ff87c829c0d51aae9ca5fb5f652d8c562515b4776a74fbb3012f2234e9fea  EVA 3D Scan – coordonare non-stop cu echipa Mac/istoric.json
+45249ac3f09b42268a228d4b67ff421cd6cdd80b90f6b26d18ed28a8013f87ec  EVA 3D Scan – coordonare non-stop cu echipa Mac/metadate.json
+5d505216c38616d51fa25a042ac213b1cdc07446a9939e5323b6b19a1881b198  EVA 3D Scan – coordonare non-stop cu echipa Mac/rezultate.md
+e5b2ed9747ac3e96b66aefbb5f68c91932c5cc93294cf83090c8174044a2a2fb  EVA 3D Scan – coordonare non-stop cu echipa Mac--0105c450/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--0105c450/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--0105c450/fisiere-index.json
+b9c79ffe0276c9a48e9899a35bbed0a1d874948e56b7db39deebe6be9504a165  EVA 3D Scan – coordonare non-stop cu echipa Mac--0105c450/istoric.json
+94e6848512c8b92a1df6a6e5dc45d2437006a130f5022a51de1f2263258a3da2  EVA 3D Scan – coordonare non-stop cu echipa Mac--0105c450/metadate.json
+025a52c3e08255dd33cb86b1f2c40a5c9959b6e6e2c5fad08666c2bc29c6e4c5  EVA 3D Scan – coordonare non-stop cu echipa Mac--0105c450/rezultate.md
+224ca50154529e6c92874ea7167f732d525a0a12059c41fca90bdd879e04225c  EVA 3D Scan – coordonare non-stop cu echipa Mac--048ca1c1/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--048ca1c1/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--048ca1c1/fisiere-index.json
+edd7df24c97f4b983bd978bea6bd4c9af96e23ccf2bfc878238897f7443d0fa8  EVA 3D Scan – coordonare non-stop cu echipa Mac--048ca1c1/istoric.json
+e92186b72bc48abfcb25560b73de6339f60e302540297a40bf20b85460d67ada  EVA 3D Scan – coordonare non-stop cu echipa Mac--048ca1c1/metadate.json
+a030a01f15fb0d6328e74ad49128e8683cee033e114b999312685311dd936b9b  EVA 3D Scan – coordonare non-stop cu echipa Mac--048ca1c1/rezultate.md
+39a6748d8ad94c3dfb8e8e35a1782aa19750c43cf9362ae7684e2269d5278f53  EVA 3D Scan – coordonare non-stop cu echipa Mac--0c1418d6/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--0c1418d6/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--0c1418d6/fisiere-index.json
+06db106e1524af20797fc4492eb3e16a5d7325e7f63cc27c560fd0e45328a754  EVA 3D Scan – coordonare non-stop cu echipa Mac--0c1418d6/istoric.json
+bf77d2cbfac8969402a84dcb5933f6f5ded4e3bc140e76f93f37688366c7e483  EVA 3D Scan – coordonare non-stop cu echipa Mac--0c1418d6/metadate.json
+97407b30d3a43ae66367b07f018d7256619404f5d47677314f6eff384525a05e  EVA 3D Scan – coordonare non-stop cu echipa Mac--0c1418d6/rezultate.md
+5e9e16a496f91d256eb637d360db8087cdc58912170fa7a7ca0e30ce6c07a4b0  EVA 3D Scan – coordonare non-stop cu echipa Mac--0df97341/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--0df97341/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--0df97341/fisiere-index.json
+c5827b6ca1d4e100e02234d5412a71ade9aa342480c4782f0490f5f209225515  EVA 3D Scan – coordonare non-stop cu echipa Mac--0df97341/istoric.json
+f9c7cd0fc4549efc375807c256db42612ee87f6e6c9880b81691509ec687ddb5  EVA 3D Scan – coordonare non-stop cu echipa Mac--0df97341/metadate.json
+682578fd73e49f84a5084dc2210c44aacc5862c0fd0a766a5be2a7a39170d447  EVA 3D Scan – coordonare non-stop cu echipa Mac--0df97341/rezultate.md
+e165181b6c64bfbb56e684c5b25f53aa4cf9d394766516801e73916af8d0d153  EVA 3D Scan – coordonare non-stop cu echipa Mac--1e158255/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--1e158255/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--1e158255/fisiere-index.json
+5e0a2129bb25e473390cd1e705da1307cc865afa1a0f7f743de9f59495f3ed50  EVA 3D Scan – coordonare non-stop cu echipa Mac--1e158255/istoric.json
+3ddc7b2d29770b72c8ff3c97cc67cba39164838cbfbfe10bfe5e4c6f6b84100c  EVA 3D Scan – coordonare non-stop cu echipa Mac--1e158255/metadate.json
+4a2a291b73bb0459014c6dbb71cf77b8e3640b76d46e448c055df9fba09d0163  EVA 3D Scan – coordonare non-stop cu echipa Mac--1e158255/rezultate.md
+89bfc211f123ec2f6cdfd7879ec2e395e7e95f6de9ca65b90e882f3395ec9526  EVA 3D Scan – coordonare non-stop cu echipa Mac--2209b9f5/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--2209b9f5/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--2209b9f5/fisiere-index.json
+931b1f69c25c7fc6d93869714b8a16da221773c72e99dd06f453fe886a0da933  EVA 3D Scan – coordonare non-stop cu echipa Mac--2209b9f5/istoric.json
+c2b82e9ed538dfaba6abaed53039bba7cf7518e5b5df25df4b155ab2fea75c07  EVA 3D Scan – coordonare non-stop cu echipa Mac--2209b9f5/metadate.json
+64ee254a43035202de2659d3b111153ca05bc984d89134ce24f18da753ac83cb  EVA 3D Scan – coordonare non-stop cu echipa Mac--2209b9f5/rezultate.md
+c2e6638031bc23da50e24cc3245fb5039f96d958239bfb86f73ae68d7a1c024a  EVA 3D Scan – coordonare non-stop cu echipa Mac--2bb9e26e/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--2bb9e26e/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--2bb9e26e/fisiere-index.json
+eb55f99ecf68948549df455b2649cd244e6b9df2880a3e6ababb3c9412404921  EVA 3D Scan – coordonare non-stop cu echipa Mac--2bb9e26e/istoric.json
+c7a78981b5079652e12c24658ee9b056c6b76af2789c10972c5560102e667316  EVA 3D Scan – coordonare non-stop cu echipa Mac--2bb9e26e/metadate.json
+71e032b9028cca400ac7125938d7b56c16edcfe258470b99672ca85e8340f931  EVA 3D Scan – coordonare non-stop cu echipa Mac--2bb9e26e/rezultate.md
+f6c7e5cf4b3e8a5c7a2dbe47c97c28687b6580da2005623c7bed82c4685a65ee  EVA 3D Scan – coordonare non-stop cu echipa Mac--3596333e/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--3596333e/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--3596333e/fisiere-index.json
+721d2a40a8c43e6d0d69cdc19290f32abbeca3aafee30de6143dc6f87910873c  EVA 3D Scan – coordonare non-stop cu echipa Mac--3596333e/istoric.json
+d480e1fb2c6e8c24649d974415fa690dd327925cbc880f392569a790594a643e  EVA 3D Scan – coordonare non-stop cu echipa Mac--3596333e/metadate.json
+146af5c0e2b01e273eb8d17a499a43d8ccbce09c19d5343bcdb0719152c045df  EVA 3D Scan – coordonare non-stop cu echipa Mac--3596333e/rezultate.md
+d7dd4fb8c1498ccbee8a89c75aa86a76121a27a1c37b5d368fdc20714123d43e  EVA 3D Scan – coordonare non-stop cu echipa Mac--3923b2e0/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--3923b2e0/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--3923b2e0/fisiere-index.json
+21fdbd89e770e39342137be15763dab5de3ccc0244d02d752e1be266bb6c23e3  EVA 3D Scan – coordonare non-stop cu echipa Mac--3923b2e0/istoric.json
+c57032f69db5662f9995ecbf879e6ba84e3043498ddfdc316c6cac67aaa8414f  EVA 3D Scan – coordonare non-stop cu echipa Mac--3923b2e0/metadate.json
+6975cbf8bec3555daf9eecade0ca4cc772dae7b745bc2d27166dad5f831fab15  EVA 3D Scan – coordonare non-stop cu echipa Mac--3923b2e0/rezultate.md
+df7c1e9cd66766d25583c8a7f6a0fd9d7004afe4d3174464d1b46655fc279d8e  EVA 3D Scan – coordonare non-stop cu echipa Mac--3fcd67a3/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--3fcd67a3/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--3fcd67a3/fisiere-index.json
+a690ffc93cec8096f549fbe878b4547a62f12319dfb2a3311aaf7d1e21eb6f74  EVA 3D Scan – coordonare non-stop cu echipa Mac--3fcd67a3/istoric.json
+1e3112279527504687ca8f6eaab1d8c762e34ac7126460771b01b6d5c036c01c  EVA 3D Scan – coordonare non-stop cu echipa Mac--3fcd67a3/metadate.json
+c4797b19074154b9b79259a946773e6611c3b2e8f6521b42bc513d9356688811  EVA 3D Scan – coordonare non-stop cu echipa Mac--3fcd67a3/rezultate.md
+234ed5c0973802323abdede180536e49efaedf72aa3699c2d75b54aa8f78c7b4  EVA 3D Scan – coordonare non-stop cu echipa Mac--42865a1c/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--42865a1c/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--42865a1c/fisiere-index.json
+2ca21eea5b2f44368561801745ac3f3d92117d89c0030d72cb16f62f3fb73736  EVA 3D Scan – coordonare non-stop cu echipa Mac--42865a1c/istoric.json
+58a9f2a10daa1e161cf8b064261fc5044d0c619159f9b996acd0656237cf818f  EVA 3D Scan – coordonare non-stop cu echipa Mac--42865a1c/metadate.json
+6cc8fe59a47f7da390ee0bec97fcd5821898721dc8fc2e9275b057108ad4a574  EVA 3D Scan – coordonare non-stop cu echipa Mac--42865a1c/rezultate.md
+3d00d0b2540d8e23371036db008ec2e6ca3a68bc9f3e2c84910ea8b79e1ecf10  EVA 3D Scan – coordonare non-stop cu echipa Mac--47b31784/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--47b31784/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--47b31784/fisiere-index.json
+c47760ef1cb76f1553681e8eed1d8a7ac7665f0e0a3c8339c2797508d3c6f4b8  EVA 3D Scan – coordonare non-stop cu echipa Mac--47b31784/istoric.json
+fda720cf0fc3c96fd4861d6011e0966de642fa61946825a3df020205c02c4184  EVA 3D Scan – coordonare non-stop cu echipa Mac--47b31784/metadate.json
+71e032b9028cca400ac7125938d7b56c16edcfe258470b99672ca85e8340f931  EVA 3D Scan – coordonare non-stop cu echipa Mac--47b31784/rezultate.md
+e9f5d72615b2fc78cc32578306db0bf70edfa3b26f53647d9db0073e3f1aecbc  EVA 3D Scan – coordonare non-stop cu echipa Mac--48ba259e/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--48ba259e/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--48ba259e/fisiere-index.json
+57f70dba42e83f1adae38d80cb342e81272271b7b29c564a49596f3d3e0fe077  EVA 3D Scan – coordonare non-stop cu echipa Mac--48ba259e/istoric.json
+76d460b3f67912d71942cd11668808a32e3d15df7e9a6d8c32b724e94f5b930c  EVA 3D Scan – coordonare non-stop cu echipa Mac--48ba259e/metadate.json
+b0cfdc603e7233d657086ff1202836c5302223ba1c818e19a8b09c6ea8dc511c  EVA 3D Scan – coordonare non-stop cu echipa Mac--48ba259e/rezultate.md
+68ed478f76dbf3cd01d65195e1e4cafa679b328f53ef56576edf536ae757a523  EVA 3D Scan – coordonare non-stop cu echipa Mac--4a1c7981/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--4a1c7981/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--4a1c7981/fisiere-index.json
+4860da5f9947b82b018c025d9d8293872de2ee4261a595286b40e65f8141a05c  EVA 3D Scan – coordonare non-stop cu echipa Mac--4a1c7981/istoric.json
+b534684503245b89e2cb61598ab839c15ffcbedf8b974a39d19d15c37aeeb4ca  EVA 3D Scan – coordonare non-stop cu echipa Mac--4a1c7981/metadate.json
+71e032b9028cca400ac7125938d7b56c16edcfe258470b99672ca85e8340f931  EVA 3D Scan – coordonare non-stop cu echipa Mac--4a1c7981/rezultate.md
+c784db99945853629de1bf175b85fc58ea3cac35f2647fd64da5928348232949  EVA 3D Scan – coordonare non-stop cu echipa Mac--4ef7b0f9/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--4ef7b0f9/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--4ef7b0f9/fisiere-index.json
+99e28b7021bf26596e7ec207cc41c5e50c286e579847219939b6c38054d291ed  EVA 3D Scan – coordonare non-stop cu echipa Mac--4ef7b0f9/istoric.json
+1449fd33b9cf78a8151715d4b265fa9bec665c6c6d7de397ee2fc049f71fa103  EVA 3D Scan – coordonare non-stop cu echipa Mac--4ef7b0f9/metadate.json
+bd3fc60e2495fd585dd7df9dfad201306e2f90d6a7367694b85bb0fe711ed621  EVA 3D Scan – coordonare non-stop cu echipa Mac--4ef7b0f9/rezultate.md
+cd36847664ccaa94148ed73bbbd073c4f7f35982d9a2dcab2c993837b76ac5d4  EVA 3D Scan – coordonare non-stop cu echipa Mac--56447b5c/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--56447b5c/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--56447b5c/fisiere-index.json
+e98aa12a83d99e05f6ae5bd5437ca49f2980d3298e5146d96394ac992ad0c279  EVA 3D Scan – coordonare non-stop cu echipa Mac--56447b5c/istoric.json
+0b3fda29bbe694f2d22a7409e799361bfe64420a0225e1bac9155e510cd2423d  EVA 3D Scan – coordonare non-stop cu echipa Mac--56447b5c/metadate.json
+63bb65c7f9a0a996e0d553c3e21e5eea4900960e5f73f2f34b7693ca076a7d90  EVA 3D Scan – coordonare non-stop cu echipa Mac--56447b5c/rezultate.md
+02ed119a386366cdd9d5637e778155be5d6039e002c68b8a545227f09f7833fb  EVA 3D Scan – coordonare non-stop cu echipa Mac--6680162f/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--6680162f/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--6680162f/fisiere-index.json
+f9c91fdbcd3122d1ecb99f11c0ea9ad6eead9e0edab5fc73356a93e61c896aa6  EVA 3D Scan – coordonare non-stop cu echipa Mac--6680162f/istoric.json
+2f94c51b089e3c6b78145e123b252bbebf000fadb4183f7d930d4f0bff40818f  EVA 3D Scan – coordonare non-stop cu echipa Mac--6680162f/metadate.json
+926f25c4bce7f76420e11bb1ca9af23569e03633fa4970005fadf436b7877c8d  EVA 3D Scan – coordonare non-stop cu echipa Mac--6680162f/rezultate.md
+43834d7dd3957b1f55f85cb1e7ddfe1c1f1867e7925aeb9d2238fadc2a4129b4  EVA 3D Scan – coordonare non-stop cu echipa Mac--67b75770/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--67b75770/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--67b75770/fisiere-index.json
+9d255deb897d1457ee8bda88d2d0aec3cf3c92cfa62cbe9b9eddb058ee777f37  EVA 3D Scan – coordonare non-stop cu echipa Mac--67b75770/istoric.json
+a6137c120aab06107a43f9283d280a26e4a1da8ee3914ec0df58f62086f1ea86  EVA 3D Scan – coordonare non-stop cu echipa Mac--67b75770/metadate.json
+33db36c19cce14731e4c69af40ae7ceaba8515e8951f1b5ee83f51c77b3f5639  EVA 3D Scan – coordonare non-stop cu echipa Mac--67b75770/rezultate.md
+4934670ab4ad4b1fc0564ef86b58fed6d89c9e9d3b0aa98e4cd085af505b29ee  EVA 3D Scan – coordonare non-stop cu echipa Mac--6e35c520/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--6e35c520/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--6e35c520/fisiere-index.json
+0966463da5c60e754c87b27079c0912ca88c4c7288f1a5f973b7dd4c4613e54f  EVA 3D Scan – coordonare non-stop cu echipa Mac--6e35c520/istoric.json
+e00b62205697fd3e572502277b695a6ff51e31ba581cb921fdb9a4f2213d575d  EVA 3D Scan – coordonare non-stop cu echipa Mac--6e35c520/metadate.json
+83cf5c10dd1f51e1aa845fb40e28261fd9dd46d4d9b05a648cfc8e623000b693  EVA 3D Scan – coordonare non-stop cu echipa Mac--6e35c520/rezultate.md
+c9a967d1385fbc4157265f7dbbf66e52dc9e19f6a25639a604f3b02e181eeccf  EVA 3D Scan – coordonare non-stop cu echipa Mac--798c88b4/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--798c88b4/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--798c88b4/fisiere-index.json
+7c8c6641f7be836ac3990aad3d8a2ca80ed4be921d30eeaad9b314b62f696f3e  EVA 3D Scan – coordonare non-stop cu echipa Mac--798c88b4/istoric.json
+f6df366bbdeb45d38d1ce75c170bc1426bdb9099bb73f45fe3ce531228311bd1  EVA 3D Scan – coordonare non-stop cu echipa Mac--798c88b4/metadate.json
+486a4bea49dc5e9f2adf3c10fdc5e5124c3f5d3d81e75c082d7c5c127a64f7f4  EVA 3D Scan – coordonare non-stop cu echipa Mac--798c88b4/rezultate.md
+e64c7b0fc281df7d3bc1fd7538c2e02986f78f4f8c00512d720f872343d843e2  EVA 3D Scan – coordonare non-stop cu echipa Mac--9925df44/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--9925df44/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--9925df44/fisiere-index.json
+80e2087f0c2414562d0332331ae61f7759e410db4dbb610caa886bfe463ef6e6  EVA 3D Scan – coordonare non-stop cu echipa Mac--9925df44/istoric.json
+9cf39cfbad7f51013439c815629720b9dd3641c825f45372ef6392887b964313  EVA 3D Scan – coordonare non-stop cu echipa Mac--9925df44/metadate.json
+9752005b9647b4d34202c70e09afc3ed72b0590049ecdbfa95ff1440ddd6525b  EVA 3D Scan – coordonare non-stop cu echipa Mac--9925df44/rezultate.md
+28d617ad3efe78ceb4839d84d61c155be3e778d0ea09faf2ac73e76a0a5fa58c  EVA 3D Scan – coordonare non-stop cu echipa Mac--99a00e89/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--99a00e89/fisiere/SKILL--d1126e90.md
+977f6f7bcb24e3f101c476406a05d76e5c7081826821076e3d71005a6a003262  EVA 3D Scan – coordonare non-stop cu echipa Mac--99a00e89/fisiere-index.json
+5e0a3811eb80219045cb4b1e91ad0d57acd953cb1947f1e4d774c38068b654ea  EVA 3D Scan – coordonare non-stop cu echipa Mac--99a00e89/istoric.json
+ac3e71e3ea313ddded4fea6349b553d7f2ae469892ee30a1454a0a2659afbf4b  EVA 3D Scan – coordonare non-stop cu echipa Mac--99a00e89/metadate.json
+b587013d21e3ce50261090ff5dc14136f001be59999a81e9a8b716525b7e7281  EVA 3D Scan – coordonare non-stop cu echipa Mac--99a00e89/rezultate.md
+a0d1d4432063878fa3b2411f0a2831e675f32617191e6e0832e83ffbccea77d0  EVA 3D Scan – coordonare non-stop cu echipa Mac--9d33a47d/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--9d33a47d/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--9d33a47d/fisiere-index.json
+b02db6f70a849a97ca203c1d0cfa5c4710beecb5dd2ff25d302b1d0daa6a780d  EVA 3D Scan – coordonare non-stop cu echipa Mac--9d33a47d/istoric.json
+e8c8c364b3a7e36b038ba8c48c420661637596a6adc5185d74055448609c2e4f  EVA 3D Scan – coordonare non-stop cu echipa Mac--9d33a47d/metadate.json
+68aa2c4b6caa02dc5836fc271b4f5cf8bf1a6b5e4baed4a98a6a56dc0f44eb07  EVA 3D Scan – coordonare non-stop cu echipa Mac--9d33a47d/rezultate.md
+55656ab3246edc99fd9bba8704d6a1aaf78a9cf374000d1d3bfa51444b22343c  EVA 3D Scan – coordonare non-stop cu echipa Mac--9ecb7460/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--9ecb7460/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--9ecb7460/fisiere-index.json
+4f33e43f3c3e5ad37be8c4be936498228768e2cb24d8fecdabb5dbd629e33e76  EVA 3D Scan – coordonare non-stop cu echipa Mac--9ecb7460/istoric.json
+2bacb706afd59c0cc3eb045839879b81a4eaf54c72661b6e88a16898137814a5  EVA 3D Scan – coordonare non-stop cu echipa Mac--9ecb7460/metadate.json
+763ecc7d7dcc5faf5aee2811b59f8636516f56d104b001f997896ba378fa4eae  EVA 3D Scan – coordonare non-stop cu echipa Mac--9ecb7460/rezultate.md
+36d8744f741bc065bc8bf6301dcceec1e11b596c1660ae28ca3c75fbb5674eee  EVA 3D Scan – coordonare non-stop cu echipa Mac--a0e7bdd5/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--a0e7bdd5/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--a0e7bdd5/fisiere-index.json
+e9210a00e602ebdc8b30d9ef981aef71233b27c8add08ba92886f3342bed90ca  EVA 3D Scan – coordonare non-stop cu echipa Mac--a0e7bdd5/istoric.json
+5da5282261794e1ba93ce8bbd68f7d13230b7b2eb9f93e089d53e760b75614af  EVA 3D Scan – coordonare non-stop cu echipa Mac--a0e7bdd5/metadate.json
+216fef77692c2a72bf8c8e481b48d4ffbd3423d026af66d2e1f6e9f55d889e61  EVA 3D Scan – coordonare non-stop cu echipa Mac--a0e7bdd5/rezultate.md
+14ca338f91dc936db5ff809058e70718dbf279fffd7d4fca996bca0f14f23349  EVA 3D Scan – coordonare non-stop cu echipa Mac--a128252e/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--a128252e/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--a128252e/fisiere-index.json
+8f60a154b1933cef2503130c25a4f8950f594b3066e413004c0e017421ab5b20  EVA 3D Scan – coordonare non-stop cu echipa Mac--a128252e/istoric.json
+a1c692eb26905670bf9eae550dc94a23def1cadf4a75ca09dfef6917287d1444  EVA 3D Scan – coordonare non-stop cu echipa Mac--a128252e/metadate.json
+2d0da6fc8f210e76a9061e0f7651df01368398147dcdc599c40d0ddb345de687  EVA 3D Scan – coordonare non-stop cu echipa Mac--a128252e/rezultate.md
+8be5acad824e1a203f6b3dd9b5ee192d33b65bf0e31140ef84c4da4238ac4733  EVA 3D Scan – coordonare non-stop cu echipa Mac--a32474fc/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--a32474fc/fisiere/SKILL--d1126e90.md
+977f6f7bcb24e3f101c476406a05d76e5c7081826821076e3d71005a6a003262  EVA 3D Scan – coordonare non-stop cu echipa Mac--a32474fc/fisiere-index.json
+37f2ffeff27f7d60db3738808c3c88bf9bf7f027783d3817571314c75ee7a3bf  EVA 3D Scan – coordonare non-stop cu echipa Mac--a32474fc/istoric.json
+2bc5c4de3690500ccc15a5090bf64210f0955ce3f7ff64cb0a587e16c635daa3  EVA 3D Scan – coordonare non-stop cu echipa Mac--a32474fc/metadate.json
+076279fe2a306f4f90dfeb964a1707d07aa5bd89d1b65015394e64a4cc5e4d75  EVA 3D Scan – coordonare non-stop cu echipa Mac--a32474fc/rezultate.md
+4371255237ca1e0262acd48edf529117b46f8692ac4cd64648e2c70172a7de8b  EVA 3D Scan – coordonare non-stop cu echipa Mac--b3bb0f21/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--b3bb0f21/fisiere/SKILL--d1126e90.md
+977f6f7bcb24e3f101c476406a05d76e5c7081826821076e3d71005a6a003262  EVA 3D Scan – coordonare non-stop cu echipa Mac--b3bb0f21/fisiere-index.json
+6cd1cc3f5c31ca0a9095173067ed571ea084952850f60ddd6e80ce634cd1dbd3  EVA 3D Scan – coordonare non-stop cu echipa Mac--b3bb0f21/istoric.json
+ae608993f2f0af24334ecd1fb9e7b931a2959ff46ad016d821e4c219173bc687  EVA 3D Scan – coordonare non-stop cu echipa Mac--b3bb0f21/metadate.json
+f5d89d86239e205fbb34757435106c88811b82f2f68cc8f276cc84e8bb53a17a  EVA 3D Scan – coordonare non-stop cu echipa Mac--b3bb0f21/rezultate.md
+7a0486bc6e5a62458c1701423c30922bbf19f68afd363d9dd558fbca6a50911a  EVA 3D Scan – coordonare non-stop cu echipa Mac--b6996214/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--b6996214/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--b6996214/fisiere-index.json
+c6866cf504572a851368e970ca54d64a6c8f19b846fdf34ce0b21e803b5436fe  EVA 3D Scan – coordonare non-stop cu echipa Mac--b6996214/istoric.json
+9f03571e2a145912565b00bf46dd4abfbf2eef90c6381d14c9e45d154709c555  EVA 3D Scan – coordonare non-stop cu echipa Mac--b6996214/metadate.json
+ed8a661a4868c6854a724b592f95f97114f66fe9f89e1aa7585e13dc3881b086  EVA 3D Scan – coordonare non-stop cu echipa Mac--b6996214/rezultate.md
+c5e5b03ac8d6db971af5292bae6ed9c906de1be0c17f74487ebd52e04f8942b7  EVA 3D Scan – coordonare non-stop cu echipa Mac--b932a277/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--b932a277/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--b932a277/fisiere-index.json
+9567011644375ee2ae698d70d1ef59943f959f8cb17f4cec92269fc91366067d  EVA 3D Scan – coordonare non-stop cu echipa Mac--b932a277/istoric.json
+0a6e721e17404f115d778779e8f85ad069b702ff365150c18f13e02ac28b8b09  EVA 3D Scan – coordonare non-stop cu echipa Mac--b932a277/metadate.json
+e9336a01fc13c86e19a811f2c50fdff0419112c098a09fcd2e42cf34dcfb3646  EVA 3D Scan – coordonare non-stop cu echipa Mac--b932a277/rezultate.md
+f832778a5c6ffa12ba0da196c2cfbe3ff7369a566659a813c0efa4f9494beb79  EVA 3D Scan – coordonare non-stop cu echipa Mac--baadd90e/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--baadd90e/fisiere/SKILL--d1126e90.md
+977f6f7bcb24e3f101c476406a05d76e5c7081826821076e3d71005a6a003262  EVA 3D Scan – coordonare non-stop cu echipa Mac--baadd90e/fisiere-index.json
+cb8a83e0c9e7e1cd6fd734bcd27ba477b697a9e11a8810ecba1fb2d98f4fa4ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--baadd90e/istoric.json
+aea0b154468888ea8cb0527681e7a00dc25d863094fcd20b3ffa124c86041fed  EVA 3D Scan – coordonare non-stop cu echipa Mac--baadd90e/metadate.json
+4d04b05fee637270985045df1ce6a071339039b3fead61af3a254e5ae71b3f84  EVA 3D Scan – coordonare non-stop cu echipa Mac--baadd90e/rezultate.md
+10919e95a4a2833478e96a8d160e5c222510fea1c7a6e8c4fd04f6860264e00f  EVA 3D Scan – coordonare non-stop cu echipa Mac--bed3c25d/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--bed3c25d/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--bed3c25d/fisiere-index.json
+583df7135b9548ecdb6e568b088cb600fffc935045fe08342014aec107e97bb0  EVA 3D Scan – coordonare non-stop cu echipa Mac--bed3c25d/istoric.json
+7fa32f049e801d1403045881554efe6f7a984d3bcb361365470773074df815e1  EVA 3D Scan – coordonare non-stop cu echipa Mac--bed3c25d/metadate.json
+71e032b9028cca400ac7125938d7b56c16edcfe258470b99672ca85e8340f931  EVA 3D Scan – coordonare non-stop cu echipa Mac--bed3c25d/rezultate.md
+7e329e100d7719b21f7e63d53cf84c993b7f4ecb34daa01e51bebe533b520e49  EVA 3D Scan – coordonare non-stop cu echipa Mac--df86c0c7/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--df86c0c7/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--df86c0c7/fisiere-index.json
+db427f6924b07fcc9e2f8f0a41111834f3a8391a7571b59828fb4d8211cb6380  EVA 3D Scan – coordonare non-stop cu echipa Mac--df86c0c7/istoric.json
+7223c80f0df87ef201118e2fba2b3147a588a20458ea561037abec237825559e  EVA 3D Scan – coordonare non-stop cu echipa Mac--df86c0c7/metadate.json
+11b535009c5d053db047231e636b986b003a3e0b24327c393fdc848c7ce29d62  EVA 3D Scan – coordonare non-stop cu echipa Mac--df86c0c7/rezultate.md
+7a1c657bcc2689f204f5b67ba4b684792c93750b9336003f32c45a6768e7e2a8  EVA 3D Scan – coordonare non-stop cu echipa Mac--e4696450/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--e4696450/fisiere/SKILL--d1126e90.md
+729591b2b0724871a5cf688d58f481fbf6e132efb669334ea860b4573f2427b3  EVA 3D Scan – coordonare non-stop cu echipa Mac--e4696450/fisiere-index.json
+5c465db311a9bf907f6f3cc88366146b4f0a8ae102eb1ec48272bbc28fe404ee  EVA 3D Scan – coordonare non-stop cu echipa Mac--e4696450/istoric.json
+6aa5782eac5f648e62db4d54c43b32cf542b634e19774d31c0cdb31eeb8eb9f3  EVA 3D Scan – coordonare non-stop cu echipa Mac--e4696450/metadate.json
+4566af67077dc2240534bbf48fe05c37fed31090627bbfd60cc7a01b0f72fcd8  EVA 3D Scan – coordonare non-stop cu echipa Mac--e4696450/rezultate.md
+468bfe4a682030599d10d2880df7c7606463c885b64a12f069f1adb86e9034d0  EVA 3D Scan – coordonare non-stop cu echipa Mac--e971bf72/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--e971bf72/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--e971bf72/fisiere-index.json
+b6d02722a67e8a22d1da49b9ec15e40f9b671acdd9bc76db37c95720b4f929ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--e971bf72/istoric.json
+be11327ef1535343f7eaf82d8d84d2bc340b455919d5b4592aee62eb1c440e92  EVA 3D Scan – coordonare non-stop cu echipa Mac--e971bf72/metadate.json
+1278bb91943a260c00572370282a0001b9a7066ca384b95c6b1685857b0bba20  EVA 3D Scan – coordonare non-stop cu echipa Mac--e971bf72/rezultate.md
+b01ab1a66419f8a91c27c3999523ebd6a953b6bfaa615a06b896eef1bc4d36ef  EVA 3D Scan – coordonare non-stop cu echipa Mac--f2e4dc1c/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--f2e4dc1c/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--f2e4dc1c/fisiere-index.json
+71e22deb37c2de7fb8f114c142abe5aa95fdc5fc6dcf7c0260d6a7c9d7470fb4  EVA 3D Scan – coordonare non-stop cu echipa Mac--f2e4dc1c/istoric.json
+0103fb2d67ffa3edfa9245b1ed17031b41b70332ec0f8f5e34629051b304cba6  EVA 3D Scan – coordonare non-stop cu echipa Mac--f2e4dc1c/metadate.json
+b9ed2f9f67794b02eef8d122245825832c32df42ba7cf30c48bb97bcedf33b11  EVA 3D Scan – coordonare non-stop cu echipa Mac--f2e4dc1c/rezultate.md
+68aebbd5a43cf5f4cd1986143772aeb540af1af6ede90f89d779195491da04bc  EVA 3D Scan – coordonare non-stop cu echipa Mac--f6ae6809/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--f6ae6809/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--f6ae6809/fisiere-index.json
+eaf636ecde191fe2104a2c83910ab598830baf60616aa79ec37807244668ee33  EVA 3D Scan – coordonare non-stop cu echipa Mac--f6ae6809/istoric.json
+14764d07aa8d0cb76d98d0c68730137600dd39a1bbb56864648a093ac5ce2625  EVA 3D Scan – coordonare non-stop cu echipa Mac--f6ae6809/metadate.json
+198b6fab5c1b17e7cfc2167fdd461579324219a712059ffa2c54006c84909536  EVA 3D Scan – coordonare non-stop cu echipa Mac--f6ae6809/rezultate.md
+ed0b4e10a60f4ae72edc0b56e5d2dccd06d79c1df1ddd1f2f45098f133a79808  EVA 3D Scan – coordonare non-stop cu echipa Mac--fa198d08/conversatie.md
+6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1  EVA 3D Scan – coordonare non-stop cu echipa Mac--fa198d08/fisiere/SKILL--d1126e90.md
+7f338375273ec40cc2329633d64d2b4d8fe4e2b0a335b8cf08a03b2fc1a071ec  EVA 3D Scan – coordonare non-stop cu echipa Mac--fa198d08/fisiere-index.json
+55b628e13f357861d1b347371305dd8ea9917a5380431598f2526108aeece163  EVA 3D Scan – coordonare non-stop cu echipa Mac--fa198d08/istoric.json
+0623b84c1284394a237ba3f851aa29877f422570814c1753685c930e3bf6bdd1  EVA 3D Scan – coordonare non-stop cu echipa Mac--fa198d08/metadate.json
+6ce0ef166190bc5bbb45a233488295d267ab33b409459737cbcf9708c19941db  EVA 3D Scan – coordonare non-stop cu echipa Mac--fa198d08/rezultate.md
+e0cbb4295727f565ab027e3d23105fb231518f4d5a056f2108b636af8e247631  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale/conversatie.md
+57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale/fisiere/SKILL--38f75287.md
+0705e07ee4a588e9b8d674cd5f4c919b0e1fc001bbf03cfc7066991996265620  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale/fisiere-index.json
+662deda22f41605adaff75994821fe68a19f26319fe0c3b0c412efa73e086604  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale/istoric.json
+633ec5203a536e5dc51bfc3326466ff5c18f0331669768ac9a36b3d5126d125e  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale/metadate.json
+a29de7e03fabd24adba652e7ef66c04dc20bd517356d06ee588607bd1a3ef93b  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale/rezultate.md
+a22b20f327c3c0afd8080421597d9b50ae92bc48d2c9c4e9ff8cc77260817b29  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--0eba50b4/conversatie.md
+7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--0eba50b4/fisiere/cp1252--31b9c8fc.py
+57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--0eba50b4/fisiere/SKILL--38f75287.md
+711c3ca863e79a47c8921f6a4de8bd29da5f217177546700d94b550fd9064a5d  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--0eba50b4/fisiere-index.json
+08e8ce486ca299a994da1376d51d464c3deffb9fe106537787f104980a44783b  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--0eba50b4/istoric.json
+b5297e6bdc4c8592f05c254d564e348ae4bcaf03136e663cbe291bc3b5f9c928  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--0eba50b4/metadate.json
+bdb3f1ae4e66a073363c6d9f46471711981ce4ac4aa13978c855f5b3acd74ead  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--0eba50b4/rezultate.md
+187858cace6c5a3aebd82ea64f54fc5da33b6c0100e7682e971d5025482866a3  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--556ddb56/conversatie.md
+7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--556ddb56/fisiere/cp1252--31b9c8fc.py
+57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--556ddb56/fisiere/SKILL--38f75287.md
+2a81c0cab2cf3210c511819a5fc9d24d8b37cb0f43855b303b818e3eadf55328  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--556ddb56/fisiere-index.json
+299eba8b786ce504218fddcf4750b3a42ec28dd0fdf01a773665a2c4786260b2  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--556ddb56/istoric.json
+8e2cb2977148bd853c95e6be3b3860cc0f7c78047cf964fa4b4a804928b12cd4  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--556ddb56/metadate.json
+e30b936c99305b5ddb9a1ffec1700ef2165a5d5aad0ed83fbd445b52d4c53974  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--556ddb56/rezultate.md
+633abe7334a004023f00ac957cd488658b72e6895c0064613687d53f7b1d3ef7  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--75c8b916/conversatie.md
+7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--75c8b916/fisiere/cp1252--31b9c8fc.py
+57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--75c8b916/fisiere/SKILL--38f75287.md
+7e4610458f5d111ba5622abb507966df66094f3ce35c4597567f924b5115bf2e  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--75c8b916/fisiere-index.json
+caad2707933a78b4144c7d84c45bdc5ca031aa3ee93ca04dca5823d511f1b250  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--75c8b916/istoric.json
+6da2d1f8408bff7ab5df8b413b7320996f74a81b4b8fab557346770208d09f92  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--75c8b916/metadate.json
+2aabe2e79682f08b46aaea2dfcb472f5b253b77f43120f8faff9fa912940fbe9  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--75c8b916/rezultate.md
+b9e2253e13bb7f2a0218dd9cb5dfc12f69e6aeffa0d5abd76ad45d3deb521378  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--909c809b/conversatie.md
+7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--909c809b/fisiere/cp1252--31b9c8fc.py
+57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--909c809b/fisiere/SKILL--38f75287.md
+a3331f65ee5ac6e4627f66c1809558fdcf8da5e732b53dcd30978d054479f6b5  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--909c809b/fisiere-index.json
+fd50ce2d3e6e091f1a9bcc4ffee1826ea26eba7794b592c6b67417c075cd91f9  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--909c809b/istoric.json
+e97645b3cd4375c6e9bb895e35083626211cbd1772360020b6ef3f2dd9c506e5  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--909c809b/metadate.json
+756e18901d8e01cb529837cf5a66806d3d8cca0715ab660b61301360f1cfe6e7  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--909c809b/rezultate.md
+05b7c1066c6e33206d9296ae9dc583db6f7e3c8e2c07081f2093475d118bf965  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--a9c360d2/conversatie.md
+57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--a9c360d2/fisiere/SKILL--38f75287.md
+af9d4c3bf717cf68f8f721c659596e4bf9950c04fab1c21029d54fbee2e60194  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--a9c360d2/fisiere-index.json
+98d3baaac3d1b31f3a22203d473ea1c9825eaf96596faa98ee2691dd3070908f  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--a9c360d2/istoric.json
+d44f6143e4b9133c8fbb25cf070b59ee6efbeb71687ff806f3eb2337089aaf69  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--a9c360d2/metadate.json
+d0c842af0d03506399216e108fee3b2493b1814e34b9c1de109411a169ec6fbc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--a9c360d2/rezultate.md
+faba8d615382558f625ce9f875b4d1f3ea36622e3bd0cf8780cea2c3742f47e2  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--b70446c5/conversatie.md
+57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--b70446c5/fisiere/SKILL--38f75287.md
+25cc85ebd8d2fc1df63a43024e12e6dae8090a37b64ea454fa65b0b0a68e7e5b  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--b70446c5/fisiere-index.json
+3e2425c457b7bb175f5c36ae3f504e05ce497311e3bf9e6f80f68a8e797601d3  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--b70446c5/istoric.json
+972c226854eef93b24897ee5fc712bf5a3c6bbe9bf502ec8252716268dabfb0a  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--b70446c5/metadate.json
+dcd9f7cc311b77d2fa91c29eeed9119fbfcdf4b0411e6a2ee3bb7d0e4dfe69a3  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--b70446c5/rezultate.md
+d2b4e461c3290dc0a7f3cefc7cfb4b83cecb0d450b361e2f650615f6e6fc8031  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--ddf6ae05/conversatie.md
+57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--ddf6ae05/fisiere/SKILL--38f75287.md
+220740e399ba69d2f03ae2d1e8cefa57a1e827f7a8d67ed8175dbefae26e6e41  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--ddf6ae05/fisiere-index.json
+3ba0515b41dc55d9da79f57ecf4e8d7923bcfa0b021e60bb38a59682b9ecda42  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--ddf6ae05/istoric.json
+dde01f08a0d189414f2a557db70484bb61db0d7746f02be7b16f3ae023041f72  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--ddf6ae05/metadate.json
+4dc6f089579af2b80395c65e8f4cadf567afce601f967d8a05a6ec72d13e7bb1  EVA 3D Scan – raport de progres continuu + paza limitei săptămânale--ddf6ae05/rezultate.md
+dfe948573638640553ebe79b757882326185247939401c789d558ab989755535  Explică desincronizarea fluxurilor O/conversatie.md
 c7c78b88f6c29f497b0b495dc5cf52b8096dade3c679c70c5a3103680b70fe36  Explică desincronizarea fluxurilor O/fisiere-index.json
-cbdc41e0a5f537493518352e5520f340476a5dc4050e702422f882c7e92a080a  Explică desincronizarea fluxurilor O/istoric.json
-823d14c6edafa6204af3167ea2a8f92ffedff1404186f1ecfba6d7753f3d2e2c  Explică desincronizarea fluxurilor O/metadate.json
+c110b498299085940d55d53ecf218549a52bbf69fe64e0c16ab0e2c6af7fff4c  Explică desincronizarea fluxurilor O/istoric.json
+b174473f750ffbdcfff653d81973467b6fb7d0ec95baba198a657ffb0ba4a01a  Explică desincronizarea fluxurilor O/metadate.json
 f1f504bfb245eef59db4aec55e3d96ca659aeeac08dc21c2ca6283b111a4c977  Explică desincronizarea fluxurilor O/rezultate.md
-8cff61d12a489c4b3930b564dc3ec51e1547ead4b4180d91dc326f1b24833433  index.json
-3fedc725fd7b52d5716e8c8e9e4814abefec6afb84223b1fd6f09840d3ecbdfd  mascari-publicare.json
-815d62923a81f9cd41f63c1b9cb66386e17740b5dd2e99c45bd8f235736fbdab  Planifică aplicația iPhone 3D Scan/conversatie.md
+bf780ec3c8d52928fa311d6c3530ff84142232f7befd6c1cdacacc687682d210  index.json
+e68de8d76f26a70d6a2890f20c818e53bd5b8685c03ad92f9c87edc0ba34a7ba  mascari-publicare.json
+8716e3012d6052e810ba92aefa00ec9b27d40dfbb56f851ff2e4f85f123da85d  Planifică aplicația iPhone 3D Scan/conversatie.md
 1823aae4f996b172015f8faf3e019525912274e02a59be3cb087ea35a411d57b  Planifică aplicația iPhone 3D Scan/fisiere/01-capture--42662f64.png
 412914e3e9990a8af14c50cf8f33b4a77af3c14638babfb2e630328d08e4e22c  Planifică aplicația iPhone 3D Scan/fisiere/01_Cadru_stiintific_si_obiective--b9296dd8.md
 d93bdd1d6dfb5209e4aad5c1a12ae62b083da0a6f8876a9efed14cf8620daa7f  Planifică aplicația iPhone 3D Scan/fisiere/01_sinteza_si_ipoteze--1b9b1ce9.md
@@ -53,7 +430,7 @@ a39689c5ce8617c754ea11fc900035500bd5b12b5259b5151b0e75e2eb8207d1  Planifică apl
 a32907009bba333af7c51af8d7d9296b7a8989cbbf16eaa466cae95c060307c8  Planifică aplicația iPhone 3D Scan/fisiere/apply-usecase-content--1b865498.mjs
 26129aaf45f18ea566758832c7f728d15408a77cff10084116a56489301a3645  Planifică aplicația iPhone 3D Scan/fisiere/ARCHITECTURE--8fcf67cc.md
 012d990e313150519fc20e146df56e5635660f1966c1241e55650d146c29c307  Planifică aplicația iPhone 3D Scan/fisiere/ARHIVA_SI_ACCES--ef3f8979.md
-19f5efb3c6c983ebfe5d52d0690b9aff9b2c562cca39af75ed1c94e056817585  Planifică aplicația iPhone 3D Scan/fisiere/backend-seo--9cf62972.mjs
+894b10b4097f0211306ce27451bd56a67bc9290cd1f65f58c3badcc80ba3f7f7  Planifică aplicația iPhone 3D Scan/fisiere/backend-seo--9cf62972.mjs
 9ea2966299caef8afefd2a3a00ca2abd5ab9db01dc381a77a6c282c7f08b8331  Planifică aplicația iPhone 3D Scan/fisiere/BRAND--c7b4acdb.md
 553749304b2d700b9cf0442ab81172f680a495f61ad21277636e4aef2b9201dc  Planifică aplicația iPhone 3D Scan/fisiere/browser--de245174.mjs
 aba25c125e8e18d2651c8d209d43aa530ba4d15f418d128dea50b43ec12afec8  Planifică aplicația iPhone 3D Scan/fisiere/build-sources--a0572e5c.cjs
@@ -160,51 +537,60 @@ c7ebbc32f2884f999caf27efbbdea3830a104e7e05e0270354777cd9d013d4a0  Planifică apl
 c7ebbc32f2884f999caf27efbbdea3830a104e7e05e0270354777cd9d013d4a0  Planifică aplicația iPhone 3D Scan/fisiere/VALIDARE_FINALA--f3701cf3.md
 d932d1a2f7b60e37d5bcf60fb614831bfbab3761cac2c2edb3f82a1fcde87404  Planifică aplicația iPhone 3D Scan/fisiere/verify--1a62d6f7.sh
 1921f841f34bd7d65796a23b9e2f6e85e4b78262d2d99ae618f1014ba732fc97  Planifică aplicația iPhone 3D Scan/fisiere-index.json
-81b21c7fffe91f7e24a8558ac01e3709b0e14f1ce5e7c64e9d01ef8884faf4b7  Planifică aplicația iPhone 3D Scan/istoric.json
-87300a8ae491885745729e9ed54f2fc16196e0772448b15e3fb83d875af3ae62  Planifică aplicația iPhone 3D Scan/metadate.json
+3a7ee6f890f8c4c017c545250f405341193bca7efc41df3a3924f4eb116cfff6  Planifică aplicația iPhone 3D Scan/istoric.json
+6f10b78ebde18d1ebfc60d270c52338590db39da49e0000f63073f436a5e83bf  Planifică aplicația iPhone 3D Scan/metadate.json
 129d3fd8ab1613873c90c1c9392c80c6ec9c5af7dac7ab81d7dbea7cc99ec120  Planifică aplicația iPhone 3D Scan/rezultate.md
-07b297ad9e22f7e0c9418cd284330ae4913cb11d5efdf3051ab324bd422c8a42  README.md
-05a517236906588e25af30390dcd9a31d847e67fa317f923f9a2fb3b6b0cf631  subagenti/Fara titlu/conversatie.md
+b76dc8f4bad93d690d55b380f57d20d9dfb8ad819134ffd1a9131a6a406ef642  README.md
+e192ad56aa94daa99cd34ccf09ea90a80541a1b5883d3fa351e42e60665df484  subagenti/Fara titlu/conversatie.md
 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  subagenti/Fara titlu/fisiere-index.json
-5fdaad2844c9e2732062bb97434622851ad4828e705eb0feda5965f4a41d78e6  subagenti/Fara titlu/istoric.json
-8c7c9c9066c50e362d59cf7983d89ae38080f90dd4299af88d3d5acc1312e304  subagenti/Fara titlu/metadate.json
+335c97cf4436b93344a60278c54a75043e5cf76779ec9d633d27e408fc6fabd3  subagenti/Fara titlu/istoric.json
+ca3679984c8d5641d22ed0571bbaa52c04630720114f7a9cbd4c5cf02d60c147  subagenti/Fara titlu/metadate.json
 1358d17e1305d0d80a31c962209eb89d0826b58b818b2f29c1b7156dee2a1a9b  subagenti/Fara titlu/rezultate.md
-2a31d7e21649cf5aa061c9a771afb32c05c0025b479225348e0737f155f06173  subagenti/Fara titlu--07c20b1c/conversatie.md
+ea9400ff4691392684e9b59b597f7f73e91831df84b934d790440de007066f21  subagenti/Fara titlu--07c20b1c/conversatie.md
 6b286b9d798cbc0f7b624b389945e917ae510da24edd368ca75b7b4ff51bd458  subagenti/Fara titlu--07c20b1c/fisiere/customer-segments--43c2c17a.json
 a019efb86ea23218863b957044ec0875970304010454e7f8efe5f673921db0ba  subagenti/Fara titlu--07c20b1c/fisiere/CUSTOMER_FOCUS--cf12113b.md
 9fc5efb68693824fe25a749748017e7c80ce85a8fe9fad7e28f3353c493ae41f  subagenti/Fara titlu--07c20b1c/fisiere/redesign-v2-marketing--126df81f.jsonl
 78a08a2ca96ce6f7d307780eda59a75269095e180658d44ac0dc11b2cf0c359d  subagenti/Fara titlu--07c20b1c/fisiere/redesign-v2-translations--9c3b627e.json
 d0b833d0dd9320ea93d26f8f1a408476ca1789312ef7efd46dd71b98045b29f4  subagenti/Fara titlu--07c20b1c/fisiere/REDESIGN_V2_MARKETING--2abc3aa7.md
 9a7eac9b126ef055119824d8ef774464679cef606c640ceb70318db3e319bc84  subagenti/Fara titlu--07c20b1c/fisiere-index.json
-22ca3f8da00d3a9fe640e0c7fdc92de86f3a30353fdaa9435b5543457e68b56c  subagenti/Fara titlu--07c20b1c/istoric.json
-34886e944822148432b47ab59b46cf99f79202cda183cb5b3b5414d5eabacc11  subagenti/Fara titlu--07c20b1c/metadate.json
+039db8083ab13e27c2f0f03ddd009c8281b541061aaf28cd832f8ece15560af2  subagenti/Fara titlu--07c20b1c/istoric.json
+86d955704ffde2556b2763f382fdb3d96c980ac726832e2e0ed61836191dd8b0  subagenti/Fara titlu--07c20b1c/metadate.json
 040a58231a1b3a225ef6f73d47ddce5a1a99fd8afded889673b43f8350eac0f5  subagenti/Fara titlu--07c20b1c/rezultate.md
-6478bba7dfca815aa03523cbacee8156d922af60941edacce9a2f0c8f534e972  subagenti/Fara titlu--08646673/conversatie.md
+049b67b12ea80d29309f76b4e99150e43290ef5da61e3e9eed8284dc2a601768  subagenti/Fara titlu--08646673/conversatie.md
 6e3245bda82faef50a322252aff0ef14a069aaf40378fc8ed1338d7e934e20f3  subagenti/Fara titlu--08646673/fisiere/03-objects--53181bc9.png
 3303e7a720dd791ff65faa0de95a657cd41b3bd5464c4562dd99cb736918574a  subagenti/Fara titlu--08646673/fisiere/campaign-assets--716fb425.json
+4bca6e4cf1d0b73d53450a2284aa8dd51d73b8135abc87147eb4d217748f63e4  subagenti/Fara titlu--08646673/fisiere/exec-166afb92-4ea5-4d69-ab75-9d5dc1a8ce45--2450eaaa.png
 4bca6e4cf1d0b73d53450a2284aa8dd51d73b8135abc87147eb4d217748f63e4  subagenti/Fara titlu--08646673/fisiere/exec-166afb92-4ea5-4d69-ab75-9d5dc1a8ce45--5a642ba6.png
+72508e4b3f5c01a40a759c60f0558e968ce96810be0ff503d3a148bfd9081945  subagenti/Fara titlu--08646673/fisiere/exec-57ea327d-db3f-49c2-ad9f-bf907cdef1e0--2f1c7a59.png
 72508e4b3f5c01a40a759c60f0558e968ce96810be0ff503d3a148bfd9081945  subagenti/Fara titlu--08646673/fisiere/exec-57ea327d-db3f-49c2-ad9f-bf907cdef1e0--b2f3b900.png
+bbabca62c97eb10322b1fcf6c9df989db146059549c98be2e446cfcfca48a954  subagenti/Fara titlu--08646673/fisiere/exec-7e4fb35c-f45b-4cce-b52d-90b420f529d3--62e8f424.png
 bbabca62c97eb10322b1fcf6c9df989db146059549c98be2e446cfcfca48a954  subagenti/Fara titlu--08646673/fisiere/exec-7e4fb35c-f45b-4cce-b52d-90b420f529d3--b56cac51.png
+b6b75559e32be88e63ca7d5d1abdd364b842f743b64b955ac26e6a4344d1ff14  subagenti/Fara titlu--08646673/fisiere/exec-88252179-bc90-4270-8162-d16ac4984e47--b6c95735.png
 b6b75559e32be88e63ca7d5d1abdd364b842f743b64b955ac26e6a4344d1ff14  subagenti/Fara titlu--08646673/fisiere/exec-88252179-bc90-4270-8162-d16ac4984e47--d9d8c48f.png
 d5d1b783779ca770dd4b3669546c0a675edd0091350bcee12cc009aa00aaaa23  subagenti/Fara titlu--08646673/fisiere/exec-9e57aabf-6c9c-46db-9a0c-cd4b966ba657--3dee14bc.png
+d5d1b783779ca770dd4b3669546c0a675edd0091350bcee12cc009aa00aaaa23  subagenti/Fara titlu--08646673/fisiere/exec-9e57aabf-6c9c-46db-9a0c-cd4b966ba657--413d4df8.png
 f4a25c252c90db3773dffcc434d134645f408956169b9c178846619374c5651f  subagenti/Fara titlu--08646673/fisiere/exec-b1ca4234-34c3-4a9e-bba2-7d9216e0dd1b--2231b0d6.png
+f4a25c252c90db3773dffcc434d134645f408956169b9c178846619374c5651f  subagenti/Fara titlu--08646673/fisiere/exec-b1ca4234-34c3-4a9e-bba2-7d9216e0dd1b--46167539.png
 6e3245bda82faef50a322252aff0ef14a069aaf40378fc8ed1338d7e934e20f3  subagenti/Fara titlu--08646673/fisiere/exec-d4cabdb8-7c96-48d9-a473-4077af6efc34--a5881516.png
+6e3245bda82faef50a322252aff0ef14a069aaf40378fc8ed1338d7e934e20f3  subagenti/Fara titlu--08646673/fisiere/exec-d4cabdb8-7c96-48d9-a473-4077af6efc34--e4257266.png
+ce06fc0f733efbc773fc62f2557433f671410c1791bba7c225041ac4938f3c92  subagenti/Fara titlu--08646673/fisiere/exec-fc38723d-754a-4a4c-9339-fbd2bf2b31d8--2442682c.png
 ce06fc0f733efbc773fc62f2557433f671410c1791bba7c225041ac4938f3c92  subagenti/Fara titlu--08646673/fisiere/exec-fc38723d-754a-4a4c-9339-fbd2bf2b31d8--25202e56.png
 1823aae4f996b172015f8faf3e019525912274e02a59be3cb087ea35a411d57b  subagenti/Fara titlu--08646673/fisiere/exec-fd3ab5bd-d84e-4d44-aa47-5ef8a37fdf55--e2747524.png
+1823aae4f996b172015f8faf3e019525912274e02a59be3cb087ea35a411d57b  subagenti/Fara titlu--08646673/fisiere/exec-fd3ab5bd-d84e-4d44-aa47-5ef8a37fdf55--f7631037.png
 4b2c910c0329c3a4ba076a2ea82e9039c3940998bb27412e7f63ba538253f945  subagenti/Fara titlu--08646673/fisiere/usecase-assets--1569f98d.json
-f67abc43357c62ce7e6bc1d7d0b4b1546dac15125f48df3317be21475db54811  subagenti/Fara titlu--08646673/fisiere-index.json
-5a3024ecf2e80ef902fc05f6063249f2a8d1cd142f843d33fd0e5a6be3c2116d  subagenti/Fara titlu--08646673/istoric.json
-19649064b2a66ea3a80552007ca9c92b4933f9461594811bf7c33c72a11ef222  subagenti/Fara titlu--08646673/metadate.json
+b5fe6304c64fb04681e5c345de64617cec64e3f1e6357d8b5ff07b477a169e91  subagenti/Fara titlu--08646673/fisiere-index.json
+3b4024b81c812dbb91cf4cf6e69111bd46d7d5c1d333e6fbd8cb6791551ce353  subagenti/Fara titlu--08646673/istoric.json
+568fb67d992c4d4f43e60c5caae28efeb23c45e1cb9fac9b526dd8fdcdcab125  subagenti/Fara titlu--08646673/metadate.json
 efd0d79e39441f4a9757fab31494599a677ae1a987d72b599809330c1b980317  subagenti/Fara titlu--08646673/rezultate.md
-98f12ac5430d369e54bb36a099e244ff742e042fff73d622314522711a8e28a6  subagenti/Fara titlu--0f02a0b9/conversatie.md
+98599a6d5903ad2790dce00ac9f250d7940f25cc96c9d015ad0383595a90c598  subagenti/Fara titlu--0f02a0b9/conversatie.md
 7dbba753503d76dd69b311dc0fa45d08f62d11b4d35a7e8addd395cfd4b6ddea  subagenti/Fara titlu--0f02a0b9/fisiere/AUDIT_REDESIGN_V2--46ca9044.md
 0276afcb79668e7031d5704cf50b1e4cb6a8652a5473b8584c09a684cb68b297  subagenti/Fara titlu--0f02a0b9/fisiere/redesign-v2-manager--d351875f.jsonl
 f9763e65a94d9d6aced48fa0a9182914e0c46bcf0bbd7edfd06172221f610437  subagenti/Fara titlu--0f02a0b9/fisiere/REDESIGN_V2_BRIEF--a81909b3.md
 4517adfb70e3646118d211b175bf40aff065dba645aa3fa181ceb4ec177faea4  subagenti/Fara titlu--0f02a0b9/fisiere-index.json
-782e5d40c0f0ca7b079779d878936380acecb34be3c3a099024514049566a30f  subagenti/Fara titlu--0f02a0b9/istoric.json
-f9fdddd0e77fae8d5f6ad33221f0251199b8f6f6b43807d3900bd7afb66f7ada  subagenti/Fara titlu--0f02a0b9/metadate.json
+b34782f5e46d9c5cdba54ddd3ab61d5516e00625902a2704407e2a30f2f6d3a2  subagenti/Fara titlu--0f02a0b9/istoric.json
+8fa970c371d90ceeb604164f96ed74a7e1230110749a3f210c4d0950347c7ee2  subagenti/Fara titlu--0f02a0b9/metadate.json
 12d2083521383c6cf4214a0952ff4d2cbf8b36236a097298fc59bf47ea2be5fe  subagenti/Fara titlu--0f02a0b9/rezultate.md
-4b5c29440379d27a51fb683c8549afb3543d24527a3abf2de2e602f1244cec53  subagenti/Fara titlu--35c3c897/conversatie.md
+1a6118b5b5adb5b3a6ef7a5505738976b42fbafc08db6d52fd854d6977181e4d  subagenti/Fara titlu--35c3c897/conversatie.md
 ce27767cd397377ea5342397f2c6f2826c457a53fcb3d0f78173d34ade087b64  subagenti/Fara titlu--35c3c897/fisiere/01_iOS_si_pipeline--017f27bc.md
 d3ed1ade4a8e093bce1fdfd736a623d72a91b6b142169b5fb928990b94c6afcc  subagenti/Fara titlu--35c3c897/fisiere/02_date_UX_si_export--8c34c7fc.md
 404ee0ca184bc8c5963ed984935165e6ddd50de5e3d1e1d85450db8ec8655378  subagenti/Fara titlu--35c3c897/fisiere/03_Apple_si_captura--f64dd25c.md
@@ -228,47 +614,49 @@ c94efe50501c0d54bd74723cf00c43c500d3e1b853af193a726e19dd6edb63f1  subagenti/Fara
 86b2dea9f6c0b5b7f1aaad0414c8f1b5374e15289e10ee6eca6d6057690e8b4b  subagenti/Fara titlu--35c3c897/fisiere/REMEDIERE_APPLE_R1--f0943678.md
 38af944c2d520326619dae53d296b349b0ebd414a5f33b0157ecbc2f3085bd2b  subagenti/Fara titlu--35c3c897/fisiere/robotics_findings--91cca175.json
 58f5dbc0352c52565e92f6e8495e6432e554aa72aad003248a148352eab1f427  subagenti/Fara titlu--35c3c897/fisiere-index.json
-95d5ebc14273ee12b69f4f7b1f4ed959f665a551fb8819d618f7b3a54c68e6a7  subagenti/Fara titlu--35c3c897/istoric.json
-88f0796b095a108f5c5ed9e9c5f069571a9a51e625449fb36565b414ba4e0cf6  subagenti/Fara titlu--35c3c897/metadate.json
+f04b64fede6d69aabab9d1229c6121093ee246d2351ce7c5a4ad444b45997f16  subagenti/Fara titlu--35c3c897/istoric.json
+3c8b1ee3b963390c432777d70a273c3d2a8e1408ba7d95c133f914884f8bd16e  subagenti/Fara titlu--35c3c897/metadate.json
 dac2ea71937af4e206944147ad06a961d8209958c63b8ab524e75a778aed2967  subagenti/Fara titlu--35c3c897/rezultate.md
-ee9c42a05cf23c9d6177fddc3bfbcdca937abefdff6a9aa608ef661d72d2edc6  subagenti/Fara titlu--3edfdaa3/conversatie.md
+35074e7f727816a6993872ccf4d8d5ec8e166a87bb7918c1a0904444ce4fbd52  subagenti/Fara titlu--3edfdaa3/conversatie.md
 5757f5864f5d99d9e5d226fa4a24b42ed33146d4f200e374495711865761fe0f  subagenti/Fara titlu--3edfdaa3/fisiere/04-candidati-research--bef2b144.md
 2eb2c471c876f29016bc420f0b79fb0a743f949b68802686a234b97074e8234c  subagenti/Fara titlu--3edfdaa3/fisiere/vision-robotics--7e355b72.md
 8a1dc0c623b9754dd27e5c87f24b28df8636085ba561625c3e62ba99c6d12ab0  subagenti/Fara titlu--3edfdaa3/fisiere-index.json
-7eceb06b7f1deaecf8d219e7ce9a36867d64a3be63279595edbee49c930ef185  subagenti/Fara titlu--3edfdaa3/istoric.json
-fab9fa2a7d3c5adf58ee28ea134a7a3c8209b01da235593bc90f956432b7cf9b  subagenti/Fara titlu--3edfdaa3/metadate.json
+9b665b9c25f542ea62d588ec17529b991a1a860f54c865af345082a5a375790a  subagenti/Fara titlu--3edfdaa3/istoric.json
+476106b59713eef0f56e5d840438f3b012166501acf8714f88a2eaa4ad2e71f5  subagenti/Fara titlu--3edfdaa3/metadate.json
 a3aebc3bb0590119854925448a6e770f21af1eda6de7a8aa4ec2b3054e4b861d  subagenti/Fara titlu--3edfdaa3/rezultate.md
-008c4bb76575818eba4851977e1dc4b24d715814ac742433b74cc808d536b67b  subagenti/Fara titlu--3f5e54e1/conversatie.md
+966f3cabf64c341d85ea694568d0fc4ce73b35fa54de554d1b2eafb073c92c70  subagenti/Fara titlu--3f5e54e1/conversatie.md
 18856c9c83419b59bbc5a38f6ae604fbf1cdfd8f8ea107fb1f19699e588ae571  subagenti/Fara titlu--3f5e54e1/fisiere/redesign-v2-tradesperson--8c56b8d9.jsonl
 1e61af6f7c8359014a20780781d918719553d7c2dd0f7c50bc3f7411d3e86b33  subagenti/Fara titlu--3f5e54e1/fisiere/REDESIGN_V2_MESTER--e9bf7ae4.md
 46e46d3ece7035965c6ea3003025d17f8be33c7e5259c34cd3a4dae32932db92  subagenti/Fara titlu--3f5e54e1/fisiere-index.json
-4a23ead76517f260ca998f27b7279af732144d0443fbe20979ecf5285894e07b  subagenti/Fara titlu--3f5e54e1/istoric.json
-13faf621b12c195e568bf557f584bbb46bf1b592d8f6a6cb9ab81af5d6cb7cc6  subagenti/Fara titlu--3f5e54e1/metadate.json
+2d7b7125192ab3fd82a187b33d4fc20693e41a9ca81e5cfd233e179570f00a12  subagenti/Fara titlu--3f5e54e1/istoric.json
+ec86d8fa55e9839dae8ccbdee3d367cb3c8149f5d9c387cb430021eeaa7f7af1  subagenti/Fara titlu--3f5e54e1/metadate.json
 4c5addde93e03bab0aa61c0f52fbe28e9099f83f0b53a88cb1e166798458ad18  subagenti/Fara titlu--3f5e54e1/rezultate.md
-be7f915c3b6dc6a2262477f0d8708544963cef79aff166aa39d2def5cef5a77f  subagenti/Fara titlu--46e3c9eb/conversatie.md
+61ab80945626a3f8f935ae6490551ebaa2c79cde6f8372293550d25949698b58  subagenti/Fara titlu--46e3c9eb/conversatie.md
 a85649cc52f29552b36892db69084abb200266eed48473a0b79068d32bb6cbcf  subagenti/Fara titlu--46e3c9eb/fisiere/01-specialist-iphone-ios--efc43806.md
 cedf087fc29e4e7f4ae3f970e2e2790c4ba1e50454a8cffc567b4497131dbdf8  subagenti/Fara titlu--46e3c9eb/fisiere/03-modele-voce-llm--2fb3b8aa.md
 86c9b969f80ea96588e08723a8205b772bd56faf2a7b424eedb7bb9e49f575c6  subagenti/Fara titlu--46e3c9eb/fisiere-index.json
-d9449a063bdf2dbe3af0477db9dd3b7f14d301a24c798e95d34814761892f9be  subagenti/Fara titlu--46e3c9eb/istoric.json
-a6510a19b6a540a23dea6f05304e6742c01808fb11e942e8d3025f478ad9b6f8  subagenti/Fara titlu--46e3c9eb/metadate.json
+7bac9c270e37241dc327d453d3ef519154cccfb9c5d287459b0fa2af60182d1f  subagenti/Fara titlu--46e3c9eb/istoric.json
+fe9a5fe7f6ff8e16dff9181253dff4ad113216ebcf743aeb355c8a473908d25d  subagenti/Fara titlu--46e3c9eb/metadate.json
 76b2f3fda5e3b8e11adbe45cd4cf869efb611fe9d2bf8ce2494d385846d1c9c7  subagenti/Fara titlu--46e3c9eb/rezultate.md
-e6908356c0df5ed1c3f5cc4dfda29c02256ab0f0a690a39fcf0664da495e98b7  subagenti/Fara titlu--4f892dfd/conversatie.md
+c159fe999bd07164b449c683343b1c827f778ceedc1d9edad0ec8b82f0887240  subagenti/Fara titlu--4f892dfd/conversatie.md
 b6b75559e32be88e63ca7d5d1abdd364b842f743b64b955ac26e6a4344d1ff14  subagenti/Fara titlu--4f892dfd/fisiere/06-architect--84059c58.png
 4bca6e4cf1d0b73d53450a2284aa8dd51d73b8135abc87147eb4d217748f63e4  subagenti/Fara titlu--4f892dfd/fisiere/07-mario-walls--e8f3f0d4.png
 f4a25c252c90db3773dffcc434d134645f408956169b9c178846619374c5651f  subagenti/Fara titlu--4f892dfd/fisiere/08-design-couple--8c32e7f1.png
 d5d1b783779ca770dd4b3669546c0a675edd0091350bcee12cc009aa00aaaa23  subagenti/Fara titlu--4f892dfd/fisiere/09-repair-foreman--186d61e0.png
 7df14f4559a49b6135406553580fd10d8d98f830146039685bd836ad1bfbb456  subagenti/Fara titlu--4f892dfd/fisiere-index.json
-65cbd2aadfa444fcb0a8b63f9d2340cd16d35df407739c77aee1df7a3a6e4d79  subagenti/Fara titlu--4f892dfd/istoric.json
-01b7f3aad2418fe05a55374c68d61489fd2a00ccb3a0c333c19ec0932fe468a5  subagenti/Fara titlu--4f892dfd/metadate.json
+11c71ce5b839a7d5d31cfc499d8aaaa7ecdf9610e752984080b7db6313a2c30b  subagenti/Fara titlu--4f892dfd/istoric.json
+c60d9c7c3e6c8da3a31293930410693b509d1e5155df64ead8ebd1ccb8613b8d  subagenti/Fara titlu--4f892dfd/metadate.json
 cce8f71bd945698139f761289cc879599cf4740d2436f89e8d2a6691ca25b25d  subagenti/Fara titlu--4f892dfd/rezultate.md
-7e2205e6cc056d20f121a8e16f0952c144f164c10ea3f14a952bb304e257d92b  subagenti/Fara titlu--69f52865/conversatie.md
+86579f3b45b0be6be2222a742a59e18e5dbe3c63c5ac4783c9623ab62ff3cc80  subagenti/Fara titlu--69f52865/conversatie.md
+8011cac2dc2fc88833340e4a8a32101718f455331144be0c5e06024e5efd8b90  subagenti/Fara titlu--69f52865/fisiere/exec-7bf25720-fd5a-4291-98b3-92b5155cbb83--cba0651e.png
 8011cac2dc2fc88833340e4a8a32101718f455331144be0c5e06024e5efd8b90  subagenti/Fara titlu--69f52865/fisiere/exec-7bf25720-fd5a-4291-98b3-92b5155cbb83--e9cf845e.png
 e5990e01f0bd9fdc236c70c095b3a20f9c50481fae1b656a57586da0bcdf6cc2  subagenti/Fara titlu--69f52865/fisiere/exec-b0dd3aa4-8c48-4c01-b34d-40d40fad14ea--3ec1ee99.png
-5e3a5225be4dfe6f685268b2ef6f224221ff7a1e3538492f246da501c5dff9ee  subagenti/Fara titlu--69f52865/fisiere-index.json
-c08eefc8f3a0d21a3aa2ae4e748e8ba3c79700c708d0f2d634061b34d993e5c1  subagenti/Fara titlu--69f52865/istoric.json
-2f23b9e3ae8d8e8ac04e855dfe3b2cff6384905c9e019bc49e79f76c37dfcef7  subagenti/Fara titlu--69f52865/metadate.json
+e5990e01f0bd9fdc236c70c095b3a20f9c50481fae1b656a57586da0bcdf6cc2  subagenti/Fara titlu--69f52865/fisiere/exec-b0dd3aa4-8c48-4c01-b34d-40d40fad14ea--45a4d2a3.png
+beecd24a40946ac9c791d5c63b253d9f8e9d4c6e922240f5003a38348e23aea3  subagenti/Fara titlu--69f52865/fisiere-index.json
+e9d97b4cda2542a17175580e902bf2bb0f35f834917bbfa9fc3a0453899092c8  subagenti/Fara titlu--69f52865/istoric.json
+7d1ad815faf5eed3dac1b07ec0bba8493d0c463632eb8d8bd4d0fac1ed14ec8f  subagenti/Fara titlu--69f52865/metadate.json
 ce37caf20be57464cc863969397391b80a18e00d37c6b8e2b6f89cd1d1f703bd  subagenti/Fara titlu--69f52865/rezultate.md
-b92273c5c152e8638ffd74fefd016ada6f83c9dac4b75caa2e1d8b97ac01daf0  subagenti/Fara titlu--6e49f7d3/conversatie.md
+9e18ec903e1d9aa48d8276b9e889679ccb3e8d6725ee7aae8c2b318d4dfef05e  subagenti/Fara titlu--6e49f7d3/conversatie.md
 0e6662fcccc1b8dd9415ac6748c3fe30f4b7034713c4f50f56bcb719c0fde7ca  subagenti/Fara titlu--6e49f7d3/fisiere/01-capture--0890752d.webp
 0117f8328da208e5c49ca2a1e4f123390e7b7100cc378bc8a9644cbc590e5495  subagenti/Fara titlu--6e49f7d3/fisiere/02-face--cb528954.webp
 e35b234c2364fb120963c9a8ac690321d22c3f1bf4207cec92d142ba7c2c36c3  subagenti/Fara titlu--6e49f7d3/fisiere/03-objects--bc3d7cfc.webp
@@ -289,26 +677,26 @@ c29955d7495aece35f762e8c3e7a797139bf78f8960b6b13e0bdb5a3497af65e  subagenti/Fara
 886b690bfbfd5a788448dd8735654c94b08f5c416acd769051c5259e9f8d0449  subagenti/Fara titlu--6e49f7d3/fisiere/uses-desktop--f7ba02ca.png
 4483e9387acbb753444bc7d02f5d3641c8e07e79054212b8521eb17347ae12e4  subagenti/Fara titlu--6e49f7d3/fisiere/uses-mobile--e9de3826.png
 bb7fc5a19006b300d564191fa52d0af44f6e0c318323fdadd0b43a4df78e90ce  subagenti/Fara titlu--6e49f7d3/fisiere-index.json
-52761f8c794bc1e7ee60b5387274ffe258a911a6186461dca88edbe323e70760  subagenti/Fara titlu--6e49f7d3/istoric.json
-5aacd53b737e040265ea35bff493b4cdcd0d336e193ac6fc8a422ae8a10e4aa5  subagenti/Fara titlu--6e49f7d3/metadate.json
-acc96ab36660fd4a90e61661dd96cf4caa27b71d8078a99ba816dd5df65ae58f  subagenti/Fara titlu--6e49f7d3/rezultate.md
-dc01cad04c95616ad17bf1e949a0fd1983ad8569625e12f426d5d9fc1cbe83e8  subagenti/Fara titlu--81f3e2a3/conversatie.md
+18da8220903e27043e0a2301487fefd703664d6af3ec54215a1f126b49913c0a  subagenti/Fara titlu--6e49f7d3/istoric.json
+87fd7bd12705a459555f7c2ac43373870115b5900bfcc8937c33878767910842  subagenti/Fara titlu--6e49f7d3/metadate.json
+965d3be5b52dbb5ae50818f65bdae7dd4c6297b4017cbdef039663a3cd189db1  subagenti/Fara titlu--6e49f7d3/rezultate.md
+245d8b205e63c56d0889e95552770f55638e3ba0bff36ffedb1fc25eb128a541  subagenti/Fara titlu--81f3e2a3/conversatie.md
 964f094cf7afa67f449ffbfe42ed50cfbfef26c50cf935fb962613399dd1d9e3  subagenti/Fara titlu--81f3e2a3/fisiere/usecase-catalog-ro--e763a2e6.json
 e760a24b613f3b28c88296d1bcb7a33e210f2fce3abc804655560c77326592d9  subagenti/Fara titlu--81f3e2a3/fisiere/usecase-research-events--9296ab30.jsonl
 88b8d340fad96913a9cf92ad29bda4e4e8c398818373fd1ca3dbc0b123c89dee  subagenti/Fara titlu--81f3e2a3/fisiere/usecase-sources--cba86d1f.json
 b1db76582433bb544b95bd1a6bd37a45509b2101ba56e27d789ad959ba1b1cbd  subagenti/Fara titlu--81f3e2a3/fisiere/UTILIZARI_CERCETARE--e9eafce1.md
 a9f62c4a53109c7508c8d57cae7d25ff42da557b990b930016374f8204a6c224  subagenti/Fara titlu--81f3e2a3/fisiere-index.json
-f9e093255ebbe398cf3a976b5d024a68c026f8a7df92328b8e8b32f19727f2e9  subagenti/Fara titlu--81f3e2a3/istoric.json
-202f1f862eba173609d0d776384aaac412e8293ed6d4bbbdc4a9ad2743fa35c5  subagenti/Fara titlu--81f3e2a3/metadate.json
+728984af3fb4596093b38cdf0ed8b939e60c5686836e8843944a78e2a10386e7  subagenti/Fara titlu--81f3e2a3/istoric.json
+bd01f3c6ee6d1df4e2bdf11087b7ce5c3e84182e9e9f52a6a6cca11a0897adb3  subagenti/Fara titlu--81f3e2a3/metadate.json
 3d2b52c3c2aa8ebf27091c86974d548e8af99569837014c7e6980d9f9810fc7b  subagenti/Fara titlu--81f3e2a3/rezultate.md
-d6e74355ad670c516df43abbd88446bd3697c26a8e8a852314609feffd172d08  subagenti/Fara titlu--83aa5d7e/conversatie.md
+05412f0f0bb7ad76a9db97c6272bbbaeb231b42c099bdd3edd07f1b54c30efdd  subagenti/Fara titlu--83aa5d7e/conversatie.md
 8d39bf568643c8bdc03a5af59232d3841e41cfe1b935147547f47ea3cf54eb40  subagenti/Fara titlu--83aa5d7e/fisiere/001-content--b85f418a.sql
 204ea8c407e580a8d8fa79e159e8c1c0ad16cf1634c51e1438f9ec5efb11c452  subagenti/Fara titlu--83aa5d7e/fisiere/002-content-variables--ce2de675.sql
 f7fb307695e37b2ed34b288d06cdf9d414ff02ececca1612212d9204602674a1  subagenti/Fara titlu--83aa5d7e/fisiere/003-finite-variable-numbers--c6b06acb.sql
 35f678540284ce66c0d24949bda3b167383f1111596fd21a37d09417ff133182  subagenti/Fara titlu--83aa5d7e/fisiere/BACKEND--cc1b4c76.md
 fdd46ef4e3ce3306aecbcf80efd9d5cbbb55d4a9077ab3c86607aec14617210e  subagenti/Fara titlu--83aa5d7e/fisiere/backend-http--f24d2c07.mjs
 9b6a35bcf2e03e31af748f2a121947a9bb4506b67d17e7315d9e838406dc40c5  subagenti/Fara titlu--83aa5d7e/fisiere/backend-postgres--2c6d1b38.mjs
-19f5efb3c6c983ebfe5d52d0690b9aff9b2c562cca39af75ed1c94e056817585  subagenti/Fara titlu--83aa5d7e/fisiere/backend-seo--9cf62972.mjs
+894b10b4097f0211306ce27451bd56a67bc9290cd1f65f58c3badcc80ba3f7f7  subagenti/Fara titlu--83aa5d7e/fisiere/backend-seo--9cf62972.mjs
 8319002679206051e8ed60635b92f9d472feb5fe7be4bc9aa63192a71c66a4f9  subagenti/Fara titlu--83aa5d7e/fisiere/bootstrap--3a255e68.mjs
 bb652864ab0cef98c333f3e8b438444d4ecb928aa1ae69f80a3c14a4c455d4a2  subagenti/Fara titlu--83aa5d7e/fisiere/compose--61cf7a1f.yaml
 ee3be551e7fa2639bab8a7eb6b701be6adacd145d8614e58d2902f4515d43e2f  subagenti/Fara titlu--83aa5d7e/fisiere/config--99019cc6.mjs
@@ -329,59 +717,64 @@ e426370e2a57fcf927f9b68cc0b33306c9d782effe327b3c188ca6d15cf098e5  subagenti/Fara
 4da7080a6540fe753bee9923c945a89202e03deae72b8cd416889624c8a0003d  subagenti/Fara titlu--83aa5d7e/fisiere/set-variable--8270d861.mjs
 43606e48d909c6ce061e6ec1a16a06889b19a4ba022832c1a244b5a5856e9e1d  subagenti/Fara titlu--83aa5d7e/fisiere/shared--397821a4.mjs
 37f0ebef640326867a87cdd1d897e19382d31111a0c448563b9712f4836a5aad  subagenti/Fara titlu--83aa5d7e/fisiere-index.json
-c14bbc1968c853695f0b009f372e864b7449efae44869635ecf74ce16859588f  subagenti/Fara titlu--83aa5d7e/istoric.json
-57ebf4cf39a9118353ce2fdb30f0bb38945ace3ed143fc03483352363c24891e  subagenti/Fara titlu--83aa5d7e/metadate.json
-225f281892be829640a54402b826f80d79d901b0a26e383fc7621ec0b0a15425  subagenti/Fara titlu--83aa5d7e/rezultate.md
-dc2dfae070a7c092f06badf965a26f3cda08d90dcee3c6bc7194bea38dc80a20  subagenti/Fara titlu--b19d71c8/conversatie.md
+44a437ae43a4a6c34cb029d8c0313eb596f48dae9dd6b4cb4a59687a4d248d54  subagenti/Fara titlu--83aa5d7e/istoric.json
+ce8a383afd45e82f5cb7e77cda5aff31eacdd913f004aaca8a9d132307ad8a5a  subagenti/Fara titlu--83aa5d7e/metadate.json
+545900b7577548cd4e967171de126ac9541101c33b5dd3fb7cc9a02c3b5ef73b  subagenti/Fara titlu--83aa5d7e/rezultate.md
+6dc7a150598653970f323b7a8a1dcf332ebf8e5fda32f91a1a3ea9e6a045e7d5  subagenti/Fara titlu--b19d71c8/conversatie.md
 802c3c2e5633928ace2c6e6112b886021a6de79ae573089a22c655a37fa1dd5b  subagenti/Fara titlu--b19d71c8/fisiere/audit-v1--9550553f.md
 398cb3ce498dbd918f5f7117bd343772495267cf61698e86f27cb9bd63082367  subagenti/Fara titlu--b19d71c8/fisiere/audit-v2--b9a2289e.md
 20e545c74ceb97ca835323963a8dfcff6ffde87e9f7074c0566da76745236d20  subagenti/Fara titlu--b19d71c8/fisiere/auditor-preaudit--1ddb1132.md
 c5110c5010703c7194d9243b2f5247c2b1e7df2e69ef9314e2dd0163fd21fdd2  subagenti/Fara titlu--b19d71c8/fisiere-index.json
-3275b8cd2b0e9c394e5e8572241d8515f2e1d89a36eb0d0059f57364308512cd  subagenti/Fara titlu--b19d71c8/istoric.json
-9a633e0aea65b87619427ed0778803b0b70ac26bf9c31cc13bb848eb7c4da6cb  subagenti/Fara titlu--b19d71c8/metadate.json
+5e75b814b5956cbd7a101b5b676ad5e322b1df96b88a4ed0a674c6d03c7ec4c6  subagenti/Fara titlu--b19d71c8/istoric.json
+c4fde6d1d7c531dc1a45f34d1a343c40cfc6efe4d81c8539b4bbf65fa54501a8  subagenti/Fara titlu--b19d71c8/metadate.json
 de19b0828c71c24f69643723e2ff4af51cf531dded3d94280ce621e7e3ac7c5f  subagenti/Fara titlu--b19d71c8/rezultate.md
-155ecd9cbaf75bbb234970f2e3a7ac45e6e9f0faa2744665754fec51d4a85b13  subagenti/Fara titlu--b5fc36e9/conversatie.md
+691682cdff5f08c110715a2ee724a4ff71338ac17ea2cf1cde8bd05fdceaaf9d  subagenti/Fara titlu--b5fc36e9/conversatie.md
 69522b052291fd25a02b41b6640fd03cc9b79ea3a5bba00cb77d7a6089223179  subagenti/Fara titlu--b5fc36e9/fisiere/cad_events--9beae387.jsonl
 2109b5010f06f1a2d086e6a52d21819c8d63ea407815cd2a93fe3001ab8b4a3f  subagenti/Fara titlu--b5fc36e9/fisiere/cad_sources--6297f8ab.json
 d915a4a22677174c2d604017785d23ea18859b814c8dee12a9b3a8198aa595da  subagenti/Fara titlu--b5fc36e9/fisiere/capitol_cad_metrologie_printare--4dd78a38.md
 4ed77d8be2c52b13c1a2cc1fa073e08cc31acd49b21cc9de438a73ed96577448  subagenti/Fara titlu--b5fc36e9/fisiere/matrice_formate--64a0beca.csv
 bd814ac02f02f75683e1c959fd0d21ab83dc5d52945b5fee00111884977f7473  subagenti/Fara titlu--b5fc36e9/fisiere-index.json
-54c03f4b968bd7a609df6bb31751bafa4da0613540c0fec37f152804e41d5129  subagenti/Fara titlu--b5fc36e9/istoric.json
-053089ca69163871e52f148d14682474138aa3518a18e2c3ffdffd04143f7e7f  subagenti/Fara titlu--b5fc36e9/metadate.json
+bcc23dab6adaa28c70999ae6beac2e1d1e173d4cfd6e683003ce339a97732674  subagenti/Fara titlu--b5fc36e9/istoric.json
+071435e8568bf8da14c127342d3dcb0787fa877d7ebec0890e12eb559df68258  subagenti/Fara titlu--b5fc36e9/metadate.json
 7275ebd6e93ae2b80546b7c52a67e74a5f9d0e5c5d59e11d9cf2a0e8d5f38d02  subagenti/Fara titlu--b5fc36e9/rezultate.md
-d0e1642e918bc9180277774a6899d038d204faa977fb79307e639d4d893ee02a  subagenti/Fara titlu--dea79c5e/conversatie.md
+b330469017658e5faca22ef827d987c99fc5a05281c1f7869265d158baad9039  subagenti/Fara titlu--dea79c5e/conversatie.md
 e9d0d1ec40235bb659a670870893bd588eccf957d0b9ff32b017d7086ade1690  subagenti/Fara titlu--dea79c5e/fisiere/03_robot_transport_si_harta--a7df8416.md
 60f4a569f3f231a1fe75c874c488c988e5d3ef99c64737e8243d3c4b1ba9b350  subagenti/Fara titlu--dea79c5e/fisiere/04_integrare_operare_si_bugete--fb61b3aa.md
 3ea1a86668453bc933fdf60659fd0c7714deb9bfaa447d91ff6aa1b9434cd108  subagenti/Fara titlu--dea79c5e/fisiere/eva_interfaces.msg--f212a384.txt
 4b3a2881212a14d802f5a83215825a152dafd76a6452b0d6fe1d363e66edc35e  subagenti/Fara titlu--dea79c5e/fisiere/review_metrologie_R1--f57e5758.md
 95bcfeee727903d8a7ac5fb97906086c8c09496ed5a20ed5852e2bb81540e8f4  subagenti/Fara titlu--dea79c5e/fisiere/robot_contract_checks--aeb2c7c7.cjs
 4e6a511d16e16eb4a818378f33bc59f2c04e0b5a503b7e5f329f67c4631a38a5  subagenti/Fara titlu--dea79c5e/fisiere-index.json
-1eab8b6809ba7954fcbd40a2953c4e6295e3c67b6b5f4f9a9ac844fc7224d664  subagenti/Fara titlu--dea79c5e/istoric.json
-ffc2ed57e4499bf4565605ca4d12fbe4c08bcb04b78bec734f1a1b99757fdc3a  subagenti/Fara titlu--dea79c5e/metadate.json
+55917072ad49c90c3b8427265cbafa5a86ea332804433c129ca80ccd2f2756c2  subagenti/Fara titlu--dea79c5e/istoric.json
+c0e5fd8caf1a35d069bd063f920992ce8dfff8f64d28144835deb4ca58d1f4f8  subagenti/Fara titlu--dea79c5e/metadate.json
 fdbe12ec08ce309ef6bc66cb67c5070f45e7c5fccfa74371a48c54945b9d7736  subagenti/Fara titlu--dea79c5e/rezultate.md
-7d5c52ae96c2d783227774c8ff0b071421bdefb6960743f6d69d0bac6b86a93c  subagenti/Fara titlu--e4e10762/conversatie.md
+a78c05fad8d2c9c10ba25a7171b79addfead02e0e56d941ef40b59fc5f0117fb  subagenti/Fara titlu--e4e10762/conversatie.md
 af5ee0847883c1139dafd73ea06aaa3aaf97ecef748d501f113cfd19e88883dd  subagenti/Fara titlu--e4e10762/fisiere/01_arhitectura_apple--cbb19dc4.md
 8cc6ea961195247b7025f7e922cea0d46bbadde71a67e0e7f3b048b1266e4b1b  subagenti/Fara titlu--e4e10762/fisiere/apple_events--10b94066.jsonl
 4c1c1d53d2236c5b3dc78b9e71048a129416269ed32ce7c403dbce8ca2a23191  subagenti/Fara titlu--e4e10762/fisiere/apple_sources--2e1a9ad5.json
 377c0167e67aea8bd1f8f5c438585712cc99022f581453c25e79bb6274ed8e45  subagenti/Fara titlu--e4e10762/fisiere-index.json
-d407de4088dff40905f4b2fbc3ce6cf82a137333ed797e08e7db1d13a842638f  subagenti/Fara titlu--e4e10762/istoric.json
-7919189f23e57671ddb9585ed404485497ffe977625d92bb9d880865057cc18c  subagenti/Fara titlu--e4e10762/metadate.json
+e39482ab347917afeabf44949150b90fcf4f450dc18a3d101288eef508ad41de  subagenti/Fara titlu--e4e10762/istoric.json
+e22a7fb05a36fd7569dcac8c337c886ab2ddd606bb7babeb7affcab16e37f9a3  subagenti/Fara titlu--e4e10762/metadate.json
 4258fd071032ab1fed5c9e17583dcb216f167875a8534ccc3e4faa6646500eca  subagenti/Fara titlu--e4e10762/rezultate.md
-2419bab1bb521ae7f4bfd07a5913d079fa9e2a8a6c95c54fc6986f813b205e84  subagenti/Fara titlu--ee9f8b01/conversatie.md
+a0e2c8bdfd8a355ef51fad63c5195e0d2e8b4112ce6c95b2fe2bfad5aab540f9  subagenti/Fara titlu--ee9f8b01/conversatie.md
 2612e1016c6f367957b01c8a450bb897458591c3f652e026fa3a214bc0d88a54  subagenti/Fara titlu--ee9f8b01/fisiere/redesign-v2-architect--a962cd90.jsonl
 e0dffb2e4d94ce429decaeaf9659e12ed661479908dd66810625843a2893d66a  subagenti/Fara titlu--ee9f8b01/fisiere/REDESIGN_V2_ARHITECT--8619d59c.md
 a8a440ffc67680693c614214edfa7347675917c3ed18b446a1d2eac6ce9414d4  subagenti/Fara titlu--ee9f8b01/fisiere-index.json
-3514677fcd6a1e872061fbd64f0a7d2988c30034dc550832a10b186ed0920532  subagenti/Fara titlu--ee9f8b01/istoric.json
-1b25d895578fc18ab816d44c903e5ba85812514daa8dbcbecd30134004bb5011  subagenti/Fara titlu--ee9f8b01/metadate.json
+a4e606cbd7756822922c81f978ba51c51976e81c21e46418c6431ed5c044b196  subagenti/Fara titlu--ee9f8b01/istoric.json
+31b0fc7613748a11339e7e8bf91da71e3a6509500d725d3b826a48390b1a25d7  subagenti/Fara titlu--ee9f8b01/metadate.json
 c16fbf0312cf6addd86613354aa5b99a173e0b8c5a3ad936347cc3eab88e543a  subagenti/Fara titlu--ee9f8b01/rezultate.md
-8a76f93592f491c1198a778173a5b5e6caf58d48109ccea97ccf96dcbc6b5d48  subagenti/Fara titlu--fb6b1ed0/conversatie.md
+badc925772dbabec27cb4f3c2679791f04aff56690e362a0dce0f77d3fd66f16  subagenti/Fara titlu--fb6b1ed0/conversatie.md
 7396ae2bdcd6c3a303dfe37b376bf29f957f5c822a6108f9bb82c755512ee534  subagenti/Fara titlu--fb6b1ed0/fisiere/redesign-v2-designer--aed7bee6.jsonl
 26bbae356c8c7b2390fa17cd33219248656c343141f534660221bbaf17d75809  subagenti/Fara titlu--fb6b1ed0/fisiere/REDESIGN_V2_DESIGNER--565bf6a1.md
 0678767fb54b23627f39ce4f7b88cc2661770611d8ff5cf293e9afff3d687ea4  subagenti/Fara titlu--fb6b1ed0/fisiere-index.json
-9f0758fe0ecda7539e6e5816e8f9017e711d63aab17b91c56acba4cead5ba8f7  subagenti/Fara titlu--fb6b1ed0/istoric.json
-703d7149eafe72d3a3e7ce2dab1853ac77b9a46ccf3f7ffa5af8c031deb41b8a  subagenti/Fara titlu--fb6b1ed0/metadate.json
+e208fa3b2b9a758fa5a52744e079e3e8897f6538ae09adfa9d44295e13b2642c  subagenti/Fara titlu--fb6b1ed0/istoric.json
+0b191e723364cc78e0637c63e34e52d64603db82830fd769f385c45b0dcf09a0  subagenti/Fara titlu--fb6b1ed0/metadate.json
 6a5bb0f936e044152fc4bb5c4e6dd9d38c7f7f783e89912ea16ae70a2755d847  subagenti/Fara titlu--fb6b1ed0/rezultate.md
-b9902ab473d60a6f3d392816caf6382f8068937399e8b65a501ec7a74de5597a  Verifică distribuirea video ROS 2/conversatie.md
+ea7e54a961fdd23d87b4ce54f7da06a1cf89434c5464bf1ae1531e6e5a4b27a4  Verifică conversațiile Alibaba/conversatie.md
+ab911f8071710d0746daff29b9ece905451b209cd8a8e034bd2a0b3e2a765ea5  Verifică conversațiile Alibaba/fisiere-index.json
+49c10ce0b3017a639f8a6946e140250e865a7c3587be9066fa1153cfd0ae33b6  Verifică conversațiile Alibaba/istoric.json
+59caaf436bbfe696b758059e9fbc2ee1845cf1ad7ca0a3c1b450779577801f5f  Verifică conversațiile Alibaba/metadate.json
+ba698eea53df2efc4325b018ae48656b26d66d7ba1798c8e8df66be19db8901c  Verifică conversațiile Alibaba/rezultate.md
+ea18d7f2d9124c8bda35511d20c64aebb01ecb605735f88598082c38d0319fda  Verifică distribuirea video ROS 2/conversatie.md
 76fa287fed75d54e411b2d5a8e1b73a8abbb4f6f229b35c172a08ef261a72a7f  Verifică distribuirea video ROS 2/fisiere/CONTRACTE_V2--3e75f8ba.md
 17e05619d50161865ab200e028d007fba030eb053149642a769628234b2f5d51  Verifică distribuirea video ROS 2/fisiere/EXECUTIE_TESTE_V2--ab6ea88e.md
 d44e425caec368e95d196e99a639dcb9bf166ef4b8e64116dc27ba5947e27901  Verifică distribuirea video ROS 2/fisiere/PLAN_V1--41829a9b.md
@@ -389,6 +782,13 @@ db8a63f1e97569b1d44d690ff5ae958877ecfa52d0d27f443b271b3f7870d1ef  Verifică dist
 84ce168a113023a85de82bd46778e53c3c6b47448b92648e1ab69e5bfe567272  Verifică distribuirea video ROS 2/fisiere/README--6b6edeb3.md
 7ec4b98ac1eb8c5b8b483c8cafb610d92df4987d29e05c1858d31bce434de790  Verifică distribuirea video ROS 2/fisiere/RELUARE--8fc0540f.md
 cc677beda9c133747004178d3ecf45f902816ae71ae2b7377c83caa1864e25d8  Verifică distribuirea video ROS 2/fisiere-index.json
-bd82ac9bd22caad664b4f115e618fe57bfddce7dfe8e6630ae782e8016ae2e49  Verifică distribuirea video ROS 2/istoric.json
-b310e3a6a5fde33dce664e2f3b479be5601da05376d2cfbd51dc780ca5aec7b0  Verifică distribuirea video ROS 2/metadate.json
+f774fc5c379591c7c8edcffa607fe68a2bab107926e42bf047e16f919cd8fc78  Verifică distribuirea video ROS 2/istoric.json
+f161ea70ea204a724ad39427e0fa2409d8bc1755ef0816f6b6cdb294bde4dae4  Verifică distribuirea video ROS 2/metadate.json
 5a0b16e4061330f08a1bc6197b05e877a581217d2eb96347e32cedca79bf734e  Verifică distribuirea video ROS 2/rezultate.md
+e1ee2092cba59a46c87869459dab1b2c3952257fb1a444dfb82b513388999a98  Verifică X710-T4L cu Jetson Orin/conversatie.md
+2ec935c1ed73ba58396698123f9a02136db55640b766511aac9de288551eeb32  Verifică X710-T4L cu Jetson Orin/fisiere/codex-clipboard-a60dabd6-3d41-439e-9005-16554ee6b132--b04afe62.jpg
+4ea9cf82e38fdf6b3aa59baa83add8d44e26e572721bb3c46ed08ce13d317cbc  Verifică X710-T4L cu Jetson Orin/fisiere/codex-clipboard-c4e7c71f-bd4d-43c9-82b3-0439a41babcb--bfd9bff9.jpg
+4e54b53941e021a5559326585b3fe1f68a8b34f89f2ac4d9d4d99911f3ffd6aa  Verifică X710-T4L cu Jetson Orin/fisiere-index.json
+6aa1249f40b26110f55c1e0e90e2b98dfa18936a28150337b9cdc6a5af0ec274  Verifică X710-T4L cu Jetson Orin/istoric.json
+fe78f852a2d291d3c0e1394342cf6c6146e1b186ff51c8c3aa624ee4a278e8ce  Verifică X710-T4L cu Jetson Orin/metadate.json
+846edcf6cf6ca4b63fd4b8097ef4574229bfb29984ffd2941215a1396bce13f8  Verifică X710-T4L cu Jetson Orin/rezultate.md

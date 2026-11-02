@@ -6,6 +6,13 @@ import zipfile
 
 root = pathlib.Path(sys.argv[1]).resolve()
 manifest = json.loads((root / 'manifest.json').read_text(encoding='utf-8'))
+# A successful checksum cannot turn an omitted file into a complete backup.
+for thread in manifest['threads']:
+    index_path = root / thread['folder'] / 'fisiere-index.json'
+    for entry in json.loads(index_path.read_text(encoding='utf-8')):
+        error = entry.get('error', '')
+        if entry.get('status') == 'eroare_copiere' and ('[WinError 112]' in error or '[Errno 28]' in error):
+            raise SystemExit('Salvare incompleta: lipsa de spatiu a impiedicat copierea unui fisier. Publicarea este oprita; copia locala este pastrata.')
 count = 0
 for line in (root / 'SHA256SUMS.txt').read_text(encoding='utf-8').splitlines():
     expected, relative = line.split('  ', 1)

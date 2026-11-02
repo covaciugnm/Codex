@@ -1,0 +1,82 @@
+2026.10.29 — DONAU: ce am cerut, ce au răspuns, ce putem face
+Polița 2044001194 / vechea poliță K2-X712.261-2 / dosar 2616052
+
+CONCLUZIE
+DONAU confirmă în scris încasarea primei și existența acoperirii la momentul răspunsului. Refuză încetarea ordinară înainte de 2036.01.01. Anexele susțin o renegociere anterioară cumpărării, nu o pornire automată a zece ani prin transferul la A&C.
+Poziția DONAU privind durata este acum mai bine documentată și are sprijin în jurisprudență. Nu este însă verificat complet lanțul de reprezentare și nu s-a răspuns complet asupra alocării plății, soldului și perioadelor istorice de acoperire.
+O contestare reușită a modificării din 2026 nu ar produce obligatoriu ieșirea imediată: poate lăsa aplicabil termenul anterior 2033.01.01.
+
+1. CEREREA EFECTIV TRIMISĂ ȘI RĂSPUNSUL
+Cererea de comparație: emailul TRIMIS 2026.10.14, ID 4c515540-e12c-488d-9c03-3fcb2262ac21, exclusiv patru destinatari DONAU, CC gol.
+Răspuns: 2026.10.29 14:25:50 UTC+02, Andreas Höbinger, înlocuitor al doamnei Loschy; ID 8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7.
+Ciorna revenirii pregătită la 2026.10.20 nu este tratată ca mesaj trimis. Căutarea poliței începând cu 2026.10.20 identifică răspunsul de față, nu o nouă trimitere.
+
+Cerere | Răspuns DONAU | Evaluare
+Încasarea celor trei prime declarate, total 4.775,43 EUR | Confirmă «Prämienzahlungseingang» | Confirmare de încasare în contextul cererii; nu detaliază în răspuns suma/data înregistrării ori alocarea fiecărei rate.
+Alocare pentru 2026.04.01–2027.01.01 și sold separat prime/dobânzi/costuri | Fără extras sau defalcare | Rămâne deschis; nu rezultă sold zero și nici anularea costurilor Commerz.
+Acoperire: data efectivă și ramurile | Confirmă «aufrechten Versicherungsschutz» | Acoperire actuală confirmată. Nu dovedește retroactiv acoperire continuă și nu delimitează vechiul interval invocat de neacoperire.
+Polița anterioară | Polița veche K2-X712.261-2 din 2020, polița din 2023 și cereri | Documente primite efectiv. Concluzia anterioară că vechea poliță nu fusese identificată este depășită.
+Temeiul expirării 2036 | Renegociere în 2025; cerere colectivă semnată 2026.01.08; nou termen 2026.01.01–2036.01.01 | Există înscris justificativ, nu numai afirmația asigurătorului. Eficacitatea reprezentării rămâne de verificat.
+Mandate și persoane | Procura Hofhans către Seipt, corespondență din 2021, semnătură/ștampilă Seipt pe cererea colectivă | Procura proprietarului către Hofhans nu este printre anexele identificate. Nu rezultă automat lipsă de mandat sau nulitate.
+Acordul-cadru complet și condițiile | PDF de extensii de acoperire, 13 pagini | Începe la pagina tipărită 4/16, «ABSCHNITT B», și se termină 16/16. Trebuie cerute paginile 1–3 și confirmarea setului complet aplicabil.
+Reziliere și comunicări | Afirmă lipsa altor rezilieri/modificări în istoricul solicitat și a dovezilor separate de comunicare; refuză încetarea ordinară anticipată. Aceasta nu șterge notificarea A&C din 2026.10.01 | Absența unei dovezi separate de comunicare nu anulează singură un acord expres valabil încheiat prin reprezentant.
+Reducerea primei | Trimit la emailul Pfeiffer 2026.07.14 | Există o cale concretă, condiționată de documente: eliminarea riscurilor Leitungswasser și Mieten-BU.
+
+2. ISTORICUL DURATEI — DOCUMENTE NOI
+A. Anexa intitulată «Polizze 2044001194 per 03.06.2020.PDF», p.1: în document apare K2-X712.261-2, emis 2020.06.23, început 2020.06.03, expirare 2031.01.01. Asigurat Columba Immobilien GmbH, reprezentat de Hofhans.
+B. Cererea «1120 Wien, Schallergasse 35_Antrag.pdf», p.1: data 2022.11.14, înlocuire K2-X712.261-2, termen până la 2033.01.01; Aßmayergasse 60 Immobilienbesitz GmbH & Co KG reprezentată de Hofhans. La p.8 se prevede prelungirea tacită anuală după expirare, dacă nu se notifică cu trei luni înainte.
+C. Polița emisă 2023.03.17, p.1: schimbare denumire în Schallergasse 35 Immobilienbesitz GmbH & Co KG, expirare neschimbată 2033.01.01. Contractul de vânzare identifică aceeași persoană FN 544408a, cu denumirea anterioară Aßmayergasse; nu presupunem o altă entitate doar din diferența de nume.
+D. «Sammelantrag geschwärzt inkl. Schallergasse 35.pdf», p.1: linie relevantă pentru imobil și poliță; început 2026.01.01, expirare 2036.01.01; ștampilă și grafism de semnătură Seipt, data 2026.01.08. Inspecția vizuală nu autentifică semnătura ori identitatea persoanei care a semnat.
+E. Captura image001.png: email Nadine Fuchs/Seipt din 2025.11.12, solicită pregătirea cererii colective și implementarea la 2026.01.01. Referirea la «Anlage 5» nu este însoțită de acea listă integrală în captura transmisă.
+F. Polița 2026.02.03, examinată anterior, reflectă deja termenul 2036 înainte de cumpărarea A&C din 2026.02.20.
+Observație: răspunsul DONAU menționează cererea 2022.11.12, dar cererea anexată este datată 2022.11.14. Neconcordanță de clarificat, fără concluzie automată de invaliditate.
+
+3. VERIFICAREA MANDATULUI ȘI DOCUMENTELOR
+«Vollmacht Hofhans.pdf», p.1, este procura Hofhans Immobilienmanagement către Seipt & Partner, datată lizibil 2018.06.15; p.2 sunt condițiile brokerului. Include încheieri, rezilieri, corespondență și gestionarea asigurărilor. Nu identifică în sine mandatul fostului proprietar către Hofhans pentru Schallergasse 35.
+Corespondența «Korrespondenz zu Eigentümerwechsel.pdf», p.1, relatează în 2021 că Hofhans păstra mandatul de administrare al noului proprietar. Este indiciu de continuitate, nu dovadă completă a întinderii/valabilității mandatului la 2026.01.08. Acest document privește schimbarea proprietarului din 2021, nu transferul A&C din 2026.
+Cererea din 2022, p.10, prezintă ștampila/grafismul Seipt; nu este identificabilă o semnătură separată în câmpul asiguratului. Încheierea prin reprezentant poate fi valabilă; lipsa semnăturii personale nu tranșează disputa.
+De cerut punctual: mandatul proprietarului către Hofhans, competența de a mandata brokerul și valabilitatea la data renegocierii, identificarea persoanei semnatare, documentele prin care s-a comunicat/acceptat acordul colectiv și părțile relevante ale negocierii din 2025. Nu este necesar să cerem datele altor proprietăți anonimizate.
+
+4. POZIȚIA JURIDICĂ
+DONAU rezervă explicit drepturile legale speciale și încetarea după sinistru, dacă sunt îndeplinite condițiile. 2036 este termenul ordinar invocat, nu excluderea absolută a oricărei ieșiri.
+§69 VersVG: cumpărătorul intră în contractul existent. Transferul nu inventează un termen nou, dar poate transmite termenul deja modificat valabil de fostul proprietar.
+§8(1) VersVG: limita de un an privește prelungirea tacită. Nu interzice, prin ea însăși, o durată fixă de zece ani ori renegocierea expresă. §8(3), ieșirea după trei ani, este drept al consumatorului; nu avem temei să îl aplicăm automat asigurării profesionale a unei GmbH imobiliare.
+OGH 7 Ob 127/18d, 2018.08.29, pct.2.1: mandatul obișnuit de administrare poate include încheierea asigurării clădirii pe zece ani și prelungirea pe durată determinată. Nu este corect argumentul general «administratorul nu putea accepta fără semnătura noastră». Sunt necesare defecte concrete ale reprezentării ori acordului.
+§70(2) VersVG: cumpărătorul are o posibilitate de încetare într-un termen de o lună. Pentru imobil trebuie verificată comunicarea hotărârii de intabulare și momentul cunoașterii existenței asigurării. OGH 7 Ob 6/80 și 7 Ob 20/89: cunoașterea detaliilor poliței nu este necesară; primirea explicațiilor în 2026.10.29 nu redeschide automat termenul.
+În arhivă există hotărârea TZ466/2026 din 2026.03.10, iar polița a fost comunicată prin Capra în 2026.03.19. Aceste date slăbesc o ieșire nouă în octombrie bazată exclusiv pe necunoașterea conținutului. Pentru concluzie definitivă trebuie verificată dovada comunicării, orice reziliere în termen și reprezentarea la comunicare; nu calculăm aici o dată-limită certă.
+Lipsa unei oferte separate nu infirmă singură contractul dacă acordul este dovedit prin cerere și acceptare. Tot astfel, lipsa confirmărilor separate de comunicare nu înseamnă automat că acceptarea nu a avut loc.
+Chiar dacă acordul din 2026 ar fi înlăturat, trebuie analizat termenul anterior 2033 și temeiul lui; nu rezultă automat încetarea imediată.
+
+5. CLAUZE FAVORABILE IDENTIFICATE ÎN EXTENSII
+PDF «Deckungserweiterungen_RV 29000010498.pdf»:
+- p.12 / pagina tipărită 15: «Paketkündigungsklausel» — dacă ASIGURĂTORUL reziliază o ramură, asiguratul poate cere încetarea întregului contract la aceeași dată. Clauza prevede și recuperarea avantajului de durată, sub rezerva examinării separate a renunțării de la pagina 16. Nu presupunem îndeplinirea condiției prin simpla reducere amiabilă cerută de noi sau prin lipsa temporară a acoperirii.
+- p.13 / pagina tipărită 16 pct.6: renunțare la recuperarea reducerii pentru durată lungă în caz de vânzare dacă durata nu poate fi respectată. Clauza privește consecința financiară și nu creează singură un termen nou de reziliere; trebuie invocată în negocierea ieșirii și a eventualei regularizări.
+- aceeași pagină pct.7: în contradicții între dispozițiile poliței se aplică varianta mai favorabilă asiguratului. Este necesară o contradicție reală; aceasta nu înlătură automat data 2036.
+Nu s-a identificat în cele 13 pagini primite un drept general anual al A&C de ieșire ori o încetare automată prin schimbarea administratorului. Lipsesc însă primele trei pagini ale documentului-sursă.
+
+6. PAȘII PROPUȘI
+1) Răspuns punctual numai către DONAU, plecând de la confirmările deja obținute; nu repetăm că nu au răspuns sau că nu au trimis nimic. Menținem expres notificarea de reziliere din 2026.10.01 și cerem confirmarea datei la care a fost înregistrată.
+2) Cerem extrasul de cont al poliței: încasare, alocarea fiecăreia dintre cele trei prime, sold și accesorii; data reluării/continuității acoperirii pentru fiecare ramură și delimitarea intervalului anterior invocat ca neacoperit.
+3) Cerem paginile 1–3 ale acordului-cadru, restul condițiilor aplicabile și actele concrete care închid lanțul de mandat. Păstrăm obiecțiile, fără a declara deja nulitate.
+4) Cerem o propunere scrisă de încetare amiabilă la 2027.01.01, cu confirmarea costului total al ieșirii și aplicarea clauzei de renunțare la recuperarea avantajului de durată, dacă este incidentă. Aceasta este o solicitare de negociere, nu un drept cert deja dobândit.
+5) În paralel, punem în aplicare oferta de recalculare din emailul Pfeiffer 2026.07.14 («Memoformat.pdf», p.1): Baubewilligung, Baubeschreibung și confirmare de instalator privind instalațiile de apă închise/securizate. Cerem prima nouă și data efectului eliminării Leitungswasser/Mieten-BU, inclusiv examinarea cererii inițiale de reducere din 2026.07.01. Reducerea nu este încă aprobată și nu justifică singură oprirea plăților.
+6) Dacă DONAU refuză completările/negocierea: reclamație motivată la Ombudsstelle DONAU, apoi evaluare de avocat a documentelor și a eventualelor pretenții distincte față de vânzător/reprezentanți. Nu presupunem răspunderea acestora din simpla existență a poliței.
+
+RECOMANDARE
+Cea mai practică cale este negocierea ieșirii, combinată cu reducerea primei. Contestarea duratei trebuie bazată pe o problemă concretă din acte; argumentul «nu am semnat noi» ori «legea permite numai un an» nu este suficient. Acoperirea actuală este confirmată de DONAU, dar situația istorică și financiară trebuie închisă în scris.
+
+7. SURSE
+Emailuri: cererea TRIMISĂ 2026.10.14 și răspunsul PRIMIT 2026.10.29, ID-uri de mai sus; corpul original și toate cele 10 anexe au fost salvate. EML este reconstrucție locală din datele EVA, cu anexe reale, nu export brut al mesajului RFC822.
+Anexe: directorul Anexe din acest dosar; manifestul include numele original, ID, dimensiune și SHA-256. Scanurile decisive au fost verificate vizual, nu numai prin OCR.
+Lege, RIS: https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979
+ABGB §1029: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1029/NOR40070125
+OGH 7 Ob 127/18d: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20180829_OGH0002_0070OB00127_18D0000_000/JJT_20180829_OGH0002_0070OB00127_18D0000_000.pdf
+OGH 7 Ob 6/80: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19800320_OGH0002_0070OB00006_8000000_000/JJT_19800320_OGH0002_0070OB00006_8000000_000.pdf
+OGH 7 Ob 20/89: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True
+DONAU Ombudsstelle: https://www.donauversicherung.at/service/ombudsstelle
+
+LIMITĂ ȘI ACȚIUNI EFECTUATE
+Analiză documentară și juridică; nu este hotărâre judecătorească privind validitatea concretă. Semnăturile au fost observate vizual, fără expertiză de autenticitate.
+Office sincronizat la 2026.10.29 15:30:14 UTC+02. Verificarea este punctuală DONAU; nu extinde verificarea altor parteneri.
+Nu s-a trimis email, nu s-a creat/modificat ciorna existentă și nu s-a acceptat durata sau oferta de modificare a asigurării.
+

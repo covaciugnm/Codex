@@ -1,0 +1,955 @@
+{
+  "schema": "eva.audit.control-rubric.v1",
+  "auditor": "A11 — control independent",
+  "created_utc_date": "2026-11-01",
+  "scope": "Rubrică pentru planul celor 10 executori și A12, apoi pentru rapoartele lor. Nu este audit de implementare.",
+  "decision_now": {
+    "plan_score": null,
+    "report_score": null,
+    "plan_gate": "NEEVALUAT — planul concret nu a fost primit",
+    "implementation_audit_authorized_by_this_file": false
+  },
+  "foundations": [
+    "Se păstrează funcționalitățile și reutilizarea maximă demonstrată a iDempiere/EVA, plus documente inteligibile pentru utilizatori cu bază contabilă/software.",
+    "Manualele din 25.10.2026 sunt propuneri documentare, cu ERP NEEXECUTAT; nu sunt certificat de instalare/configurare/funcționare.",
+    "Constatările istorice se reverifică la noul SHA și pe traseul aplicabil; nu se declară automat încă prezente.",
+    "Un raport de calitate 10/10 poate documenta defecte severe deschise: nota caracterizează verificarea, nu sănătatea produsului.",
+    "Lungimea documentului, numărul fișelor și câmpurile generice nu țin loc de probă semantică."
+  ],
+  "scoring": {
+    "total": 10,
+    "criteria": 10,
+    "points_per_criterion": 1,
+    "subchecks_per_criterion": 5,
+    "points_per_verified_subcheck": 0.2,
+    "calculation": "Fiecare subcontrol primește 0,2 numai dacă este integral satisfăcut și legat de dovada exactă; altfel 0. Suma se calculează fără rotunjire în sus. Un blocaj hard închide poarta indiferent de sumă.",
+    "na_policy": "N/A este acceptat numai prin justificare specifică inventarului, validată explicit de A11. Nu se elimină un control transversal obligatoriu pentru comoditate.",
+    "incomplete_policy": "Lipsă acces/date/build/probă obligatorie = NEEXECUTAT/BLOCAT, nu PASS și nu audit global 10/10.",
+    "confirmed_dependency": "Dacă un test este imposibil din cauza unui defect anterior demonstrat, rămâne NEEXECUTAT_DEPENDENTA_FAIL. Obiectivul se poate considera acoperit numai prin proba concludentă a defectului și dependența exactă acceptată de A11. Nu devine test executat sau funcție conformă. Lipsa accesului nu este asemenea dovadă.",
+    "independence": "A11 acordă nota finală și semnează hashul exact. Coordonatorul verifică integritatea; nu substituie controlul independent."
+  },
+  "criteria": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC01-P1",
+          "text": "Repository-uri, ramură implicită, SHA curent și moment colectare fixate; Git și versiunea instalată sunt câmpuri separate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC01-P2",
+          "text": "Cele 10 zone au responsabil, includeri/excluderi și granițe; A11 și A12 sunt roluri distincte.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC01-P3",
+          "text": "Inventarul modulelor, UI, API, joburilor, DB, migrațiilor și mediilor are numitori de acoperire.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC01-P4",
+          "text": "Inventarul P01 păstrează capitol/cod/stare, paginare, filtre, total declarat/extras și reconcilierea diferențelor.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC01-P5",
+          "text": "Matricea accesurilor disponibile/lipsă și politica de refresh la schimbarea SHA/taskurilor sunt explicite.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC01-R1",
+          "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC01-R2",
+          "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC01-R3",
+          "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC01-R4",
+          "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC01-R5",
+          "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC02-P1",
+          "text": "Sursa autoritativă a taskurilor, captura și criteriile originale sunt definite și păstrate nemodificate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC02-P2",
+          "text": "Matrice bidirecțională cerință→task→cod→UI/API→DB→test→constatare→control A11, cu ID stabile.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC02-P3",
+          "text": "Codul canonic include proiect/capitol, de exemplu P01.C03.T0001; codul original/aliasurile se păstrează; T0001 nu este unic global.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC02-P4",
+          "text": "Ideile și corecțiile istorice au dispoziție explicită: menținut, înlocuit prin clarificare, de verificat, amânat ori exclus justificat.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC02-P5",
+          "text": "Criteriile sunt rezultate observabile; finalizat în portal, commit existent, test trecut și instalat sunt stări distincte.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC02-R1",
+          "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC02-R2",
+          "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC02-R3",
+          "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC02-R4",
+          "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC02-R5",
+          "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC03-P1",
+          "text": "Fiecare zonă definește ecran/rută, rol/context firmă/canal, pași, rezultat și ieșirea din flux.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC03-P2",
+          "text": "Checklistul include empty/loading/error/timeout/partial/success, mesaje, păstrarea datelor și recuperare.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC03-P3",
+          "text": "Probe pentru roluri, tastatură, scanner unde aplicabil, mobil/responsive, accesibilitate și prevenirea contextului greșit.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC03-P4",
+          "text": "Meniurile/setările existente sunt inventariate; funcțiile contabile rămân accesibile și zonele gestiuni/WMS/comenzi/canale sunt clare.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC03-P5",
+          "text": "Concordanța UI-server este obligatorie: buton ascuns nu înseamnă autorizare, succes vizual nu înseamnă persistare.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC03-R1",
+          "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC03-R2",
+          "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC03-R3",
+          "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC03-R4",
+          "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC03-R5",
+          "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC04-P1",
+          "text": "Endpointurile/procesele/evenimentele/joburile au intrări, ieșiri, validare, stare persistentă și titular.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC04-P2",
+          "text": "Probe valide/invalide, limite, câmpuri lipsă, UOM, monede, perioade/date, sortare/paginare și rezultate parțiale.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC04-P3",
+          "text": "Pentru documente se verifică DocAction/DocStatus, commit/rollback și reluare, nu numai processIt boolean.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC04-P4",
+          "text": "Efectele materiale au timeout, duplicate, idempotency key/scope, concurență și ordinea evenimentelor.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC04-P5",
+          "text": "Versiuni DTO/API și import/export sunt urmărite end-to-end fără pierdere tacită de date.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC04-R1",
+          "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC04-R2",
+          "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC04-R3",
+          "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC04-R4",
+          "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC04-R5",
+          "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC05-P1",
+          "text": "Inventarul include tabele/coloane, PK/UUID/FK/unique/check/index, trigger/proceduri, AD Dictionary și migrații.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC05-P2",
+          "text": "Sunt definite invariante înainte/după pentru cantitate, cost, sold, taxe, rezervări, documente și audit trail.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC05-P3",
+          "text": "Sunt prevăzute tranzacții, locking/izolare, race conditions, stări parțiale, reexecutare migrare/backfill.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC05-P4",
+          "text": "Identități permanente, CPP/CPA distincte, G1/G2/G3, multi-G1/G2, ASI/MA și genealogie sunt controale explicite.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC05-P5",
+          "text": "DB producție read-only este separat de fixture-urile care scriu; curățarea/backup/restaurarea și datele de test sunt definite.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC05-R1",
+          "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC05-R2",
+          "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC05-R3",
+          "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC05-R4",
+          "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC05-R5",
+          "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC06-P1",
+          "text": "Fiecare pipeline are trigger/actor/precondiții/pași/stări/UI/API/servicii/tabele/efecte și rezultat final de business.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC06-P2",
+          "text": "Include normal, anulare, respingere, retur, livrare parțială, timeout ambiguu, retry și evenimente în ordine greșită.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC06-P3",
+          "text": "Contractele între zone au furnizor, consumator, câmpuri/invariante și test de integrare.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC06-P4",
+          "text": "Ordinea evită cicluri artificiale; retur contract→fizic→financiar și pilot comun au porți explicite.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC06-P5",
+          "text": "Reconcilierea și recuperarea după întrerupere urmăresc efectele reziduale până la starea finală corectă.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC06-R1",
+          "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC06-R2",
+          "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC06-R3",
+          "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC06-R4",
+          "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC06-R5",
+          "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC07-P1",
+          "text": "Modelul drepturilor acoperă cabinet/client/org/firmă/canal/comisionar, service accounts și privilegii.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC07-P2",
+          "text": "Probe pozitive/negative de izolare UI/API/DB, ID ghicit, traversare și schimbare de context.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC07-P3",
+          "text": "Autentificare/sesiune/CSRF/XSS/injection/upload/secrets/loguri sunt acoperite după suprafețele reale.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC07-P4",
+          "text": "CUI/nume canal din rută nu reprezintă autorizare/identitate internă; coliziunile/rename/normalizarea sunt tratate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC07-P5",
+          "text": "Efectele fiscale/AWB/refund/modificări producție sunt excluse fără mediu și autorizare explicite; datele sunt minimizate.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC07-R1",
+          "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC07-R2",
+          "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC07-R3",
+          "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC07-R4",
+          "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC07-R5",
+          "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC08-P1",
+          "text": "Pentru fiecare funcție se compară core nativ, plugin, EVA existent, configurare și diferența minimă necesară.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC08-P2",
+          "text": "Existența are cale/simbol/SHA sau bundle/AD metadata; absența are corpus/metodă delimitate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC08-P3",
+          "text": "Mecanismele reutilizate au configurații, efecte și compatibilitate planificate, nu doar nume de clase.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC08-P4",
+          "text": "Integrările au contract/versionare, timeout/rate limit/webhook/retry/reconciliere și sandbox/producție distincte.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC08-P5",
+          "text": "Dezvoltarea nouă se recomandă după demonstrarea diferenței neacoperite și evaluarea alternativei native/EVA.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC08-R1",
+          "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC08-R2",
+          "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC08-R3",
+          "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC08-R4",
+          "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC08-R5",
+          "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC09-P1",
+          "text": "Fiecare control are metodă, fixture, precondiții, pași/comandă, rezultat așteptat, probă și cleanup.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC09-P2",
+          "text": "Build/static/unit/integration/E2E/manual sunt alese după risc; nu se bazează pe teste care repetă implementarea.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC09-P3",
+          "text": "Performanța are volume/bugete/latente/concurență/paginare/export/query plan aplicabile.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC09-P4",
+          "text": "Regresia acoperă mecanisme native/EVA reutilizate și vecinătățile, cu ținte și numitori expliciți.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC09-P5",
+          "text": "Se definesc reproducerea independentă și tratarea flaky/cache/date istorice/mediu incomplet.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC09-R1",
+          "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC09-R2",
+          "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC09-R3",
+          "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC09-R4",
+          "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC09-R5",
+          "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+          "maximum_points": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "maximum_points": 1,
+      "plan_subchecks": [
+        {
+          "id": "QC10-P1",
+          "text": "Șabloanele audit/constatare/pipeline/task/evidență/re-audit sunt concrete și coerente semantic.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC10-P2",
+          "text": "Severitate, încredere, statut și nota calității sunt separate; falsul pozitiv are procedură cu istoric păstrat.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC10-P3",
+          "text": "A11 verifică planul înaintea execuției și fiecare raport înaintea acceptării; autorul nu este singurul verificator.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC10-P4",
+          "text": "Bucla respins→corectat→reverificat păstrează versiuni/hashuri și nu aprobă automat după un număr de iterații.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC10-P5",
+          "text": "Livrarea explică limitele, neexecutatele și riscurile clar, cu index și dovezi navigabile.",
+          "maximum_points": 0.2
+        }
+      ],
+      "report_subchecks": [
+        {
+          "id": "QC10-R1",
+          "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC10-R2",
+          "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC10-R3",
+          "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC10-R4",
+          "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+          "maximum_points": 0.2
+        },
+        {
+          "id": "QC10-R5",
+          "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+          "maximum_points": 0.2
+        }
+      ]
+    }
+  ],
+  "hard_blockers": [
+    {
+      "id": "HB01",
+      "text": "SHA/corpus lipsă ori versiuni amestecate fără reconciliere."
+    },
+    {
+      "id": "HB02",
+      "text": "Inventar incomplet al celor 10 zone sau al taskurilor P01 finalizate, fără numitor/paginare/reconciliere."
+    },
+    {
+      "id": "HB03",
+      "text": "Frontend/backend/UX/pipeline/DB ori o graniță importantă fără responsabil/checklist."
+    },
+    {
+      "id": "HB04",
+      "text": "Control obligatoriu fără probă, așteptare sau trasabilitate la cerință."
+    },
+    {
+      "id": "HB05",
+      "text": "Confuzie cod existent/configurat/instalat/executat/acceptat sau NEEXECUTAT prezentat ca PASS."
+    },
+    {
+      "id": "HB06",
+      "text": "Contradicție nemarcată cu clarificările CPP/CPA, G1/G2/G3 și stoc unic ale utilizatorului."
+    },
+    {
+      "id": "HB07",
+      "text": "Lipsă autorizare/izolare server-side sau controale de duplicate/retry/concurență pentru efecte materiale."
+    },
+    {
+      "id": "HB08",
+      "text": "Existență nativă/plugin/EVA ori absență afirmată fără versiune, corpus și dovadă aplicabilă."
+    },
+    {
+      "id": "HB09",
+      "text": "Șabloane lipsă sau numai generice, necorelate între agent, task, flux, DB și probă."
+    },
+    {
+      "id": "HB10",
+      "text": "Autorul își acordă singur 10/10 ori auditarea implementării începe înaintea gate-ului A11."
+    },
+    {
+      "id": "HB11",
+      "text": "10/10 global pretins cu verificări obligatorii NEEXECUTATE din lipsă acces/mediu/date."
+    },
+    {
+      "id": "HB12",
+      "text": "Efecte externe/contabile sau modificări producție neautorizate produse de audit."
+    },
+    {
+      "id": "HB13",
+      "text": "Dovezi fabricate, citări neconcludente, istoric prezentat drept test curent ori eșecuri omise."
+    }
+  ],
+  "required_templates": {
+    "audit_plan": [
+      "audit_id",
+      "scope",
+      "cutoff_utc",
+      "repositories_and_shas",
+      "deployed_version_or_unknown",
+      "source_manifest",
+      "zones[10]",
+      "A11_reviewer",
+      "A12_task_auditor",
+      "inventory_denominators",
+      "access_matrix",
+      "prior_requirement_mapping",
+      "pipeline_catalog",
+      "checklists",
+      "execution_order",
+      "test_environment_and_safety",
+      "evidence_schema",
+      "scoring_and_gates",
+      "rework_protocol",
+      "deliverables"
+    ],
+    "zone_assignment": [
+      "zone_id",
+      "agent_id",
+      "objective",
+      "included_modules_paths",
+      "ui_routes",
+      "endpoints_jobs",
+      "db_objects",
+      "excluded_scope_and_owner",
+      "roles_tenants",
+      "upstream_downstream_contracts",
+      "controls_with_ids",
+      "fixtures",
+      "invariants",
+      "native_reuse_and_proof_plan",
+      "required_evidence",
+      "completion_denominator",
+      "reviewer"
+    ],
+    "control": [
+      "control_id",
+      "requirement_id",
+      "task_ids",
+      "zone_id",
+      "pipeline_ids",
+      "layer",
+      "risk",
+      "applicability",
+      "method",
+      "environment",
+      "role_context",
+      "preconditions",
+      "fixture",
+      "steps_or_command",
+      "expected",
+      "observed",
+      "status",
+      "evidence_ids",
+      "finding_ids",
+      "cleanup",
+      "executor",
+      "executed_at",
+      "reviewer_result"
+    ],
+    "pipeline": [
+      "pipeline_id",
+      "business_outcome",
+      "trigger",
+      "actor_context",
+      "input_contract",
+      "state_machine",
+      "ui_route",
+      "api_calls",
+      "service_symbols",
+      "db_reads_writes",
+      "native_documents",
+      "external_effects",
+      "transaction_boundaries",
+      "correlation_ids",
+      "authorization_guards",
+      "idempotency_scope",
+      "normal_path",
+      "negative_paths",
+      "retry_timeout_concurrency",
+      "compensation_reconciliation",
+      "numeric_invariants",
+      "cross_zone_owners",
+      "test_ids",
+      "final_state",
+      "evidence_ids"
+    ],
+    "task_audit": [
+      "source_url_or_export",
+      "source_project_chapter_id",
+      "original_code",
+      "canonical_code_or_ambiguity",
+      "title",
+      "source_status",
+      "finished_at",
+      "source_capture_hash",
+      "requirements_verbatim",
+      "acceptance_criteria",
+      "claimed_completion_evidence",
+      "commit_links",
+      "implementation_locations",
+      "frontend_checks",
+      "backend_checks",
+      "db_checks",
+      "pipeline_checks",
+      "native_reuse_checks",
+      "positive_negative_tests",
+      "expected_observed_per_criterion",
+      "finding_ids",
+      "implementation_verdict",
+      "audit_completeness_score",
+      "A11_review",
+      "limitations"
+    ],
+    "finding": [
+      "finding_id",
+      "zone_task_ids",
+      "title",
+      "severity",
+      "confidence",
+      "classification",
+      "preconditions",
+      "expected_requirement",
+      "observed_fact",
+      "file_symbol_lines_sha",
+      "evidence_level",
+      "reproduction",
+      "evidence_ids",
+      "impact",
+      "root_cause",
+      "native_first_remediation",
+      "regression_test",
+      "cross_zone_impact",
+      "status",
+      "owner",
+      "A11_decision",
+      "false_positive_history"
+    ],
+    "evidence": [
+      "evidence_id",
+      "kind",
+      "captured_at_utc",
+      "executor",
+      "environment",
+      "version_or_sha",
+      "source_path_or_url",
+      "line_selector_or_query",
+      "command_or_steps",
+      "fixture_or_input_hash",
+      "raw_artifact_path",
+      "sha256",
+      "observed_result",
+      "redactions",
+      "limitations"
+    ],
+    "review": [
+      "review_id",
+      "reviewer",
+      "artifact_hash",
+      "rubric_hash",
+      "subcheck_results",
+      "score",
+      "hard_blockers",
+      "mandatory_corrections",
+      "independent_reproductions",
+      "contradictions",
+      "decision",
+      "reviewed_at",
+      "next_revision"
+    ],
+    "re_audit": [
+      "revision_id",
+      "previous_artifact_hash",
+      "trigger_findings",
+      "changes_to_audit_or_product",
+      "new_sha_or_same",
+      "tests_rerun_and_reason",
+      "original_failures_preserved",
+      "new_results",
+      "new_regressions",
+      "reviewer",
+      "decision"
+    ]
+  },
+  "plan_gate": {
+    "input_required": "Plan concret, 10 fișe executori, fișa A12, inventare, matrice și șabloane populate cu ID/domenii reale. Nu sunt suficiente cuprinsul și rubrici goale.",
+    "pass": "Toate cele 50 subcontroale plan acceptate cu dovezi; exact 10,0/10; zero blocaje hard; decizie A11 pentru hashul exact.",
+    "allowed_before": [
+      "Captură read-only inventare",
+      "Actualizare Git și fixare SHA",
+      "Citire structură/documentație pentru delimitarea planului",
+      "Proiectare șabloane/fixture fără verdict de implementare"
+    ],
+    "forbidden_before": [
+      "Verdicte despre conformitatea implementării",
+      "Audit funcțional de fond al taskurilor",
+      "Probe cu efecte ERP/integrări"
+    ],
+    "after": "Executanții primesc versiunea acceptată. Schimbările materiale de domeniu/SHA/metodă revin la A11."
+  },
+  "report_gate": {
+    "per_zone": "Toate subcontroalele aplicabile și controalele planificate au dovezi sau defect/dependență concludentă acceptată; raportul include eșecurile.",
+    "per_task": "A12 păstrează fișă individuală pentru fiecare task finalizat și fiecare criteriu. Nu modifică starea în portal; verdictul de audit este separat.",
+    "global": "A11 validează 10 rapoarte, A12 și integrarea fără cerințe/taskuri/suprafețe orfane, conflicte nerezolvate sau verificări obligatorii lipsă. Raportul parțial rămâne PARȚIAL, fără 10/10 global.",
+    "independent_reproduction": "A11 reproduce toate constatările P0/P1 și toate disputele/posibilele fals pozitive. Pentru restul inspectează fiecare lanț de dovezi și reproduce minimum un caz pozitiv și negativ pe fiecare pipeline critic și fiecare familie P2/P3. Verificarea obligatorie lipsă nu se rezolvă prin eșantionare.",
+    "loop": "Se reia partea insuficientă și regresia afectată. Numărul de iterații nu generează aprobare; impedimentele de acces/mediu rămân explicite."
+  },
+  "statuses": {
+    "control": [
+      "PASS_DOVEDIT",
+      "FAIL_DOVEDIT",
+      "NEEXECUTAT",
+      "BLOCAT_ACCES",
+      "NEEXECUTAT_DEPENDENTA_FAIL",
+      "N_A_JUSTIFICAT_APROBAT",
+      "INCONCLUDENT"
+    ],
+    "evidence_level": [
+      "STATIC_SOURCE",
+      "LOCAL_ISOLATED_TEST",
+      "BUILD_OR_UNIT_TEST",
+      "INTEGRATION_TEST",
+      "SANDBOX_E2E",
+      "LIVE_READ_ONLY",
+      "HISTORICAL_REFERENCE"
+    ],
+    "finding": [
+      "CANDIDAT",
+      "CONFIRMAT",
+      "CONTESTAT",
+      "FALS_POZITIV_DOVEDIT",
+      "DUPLICAT_LEGAT",
+      "REMEDIERE_PROPUSA",
+      "CORECTAT_DE_RETESTAT",
+      "INCHIS_REVERIFICAT",
+      "RISC_ACCEPTAT_EXPLICIT"
+    ],
+    "report": [
+      "IN_PREGATIRE",
+      "RESPINS_CALITATE",
+      "PARTIAL_CU_LIMITARI",
+      "ACCEPTAT_AUDIT_COMPLET_10_DIN_10"
+    ]
+  },
+  "false_positive_protocol": [
+    "Separă faptul observat de inferență; notează condițiile de apel și configurația.",
+    "A11 verifică SHA/simbol/call-chain și caută validarea/compensarea din toate straturile relevante.",
+    "Reproduce minimul suficient într-un mediu permis ori construiește o probă statică concludentă; absența logului nu dovedește absența funcției.",
+    "Păstrează constatarea originală și contra-dovezile; decide confirmat, limitat, duplicat sau fals pozitiv demonstrat.",
+    "Incertitudinea devine INCONCLUDENT cu proba necesară și responsabil; nu se închide fals pozitiv din lipsă de acces.",
+    "După corecție, repetă reproducerea inițială și regresia relevantă a mecanismului nativ/EVA."
+  ],
+  "historical_invariants": [
+    "CPP și CPA au identități interne distincte/permanente; SKU/EAN sunt aliasuri.",
+    "G1 contabil, G2 reprezentare fizică a acelorași bunuri, G3 alternative; nu se însumează ca stocuri suplimentare.",
+    "Același produs poate avea cantități distincte în mai multe G1; rezervarea globală se scade o dată: 10+10−7=13.",
+    "Forma, calitatea, poziția/tranzitul și angajamentul sunt dimensiuni independente.",
+    "Consum/cost unic per operație fizică: retry nu repetă, reambalare nouă poate consuma resurse noi.",
+    "processIt(true) nu dovedește DocStatus CO; se verifică persistarea.",
+    "ASI zero poate fi valid prin MA; compatibilitatea MotorStraturi se probează.",
+    "MProduction pentru transformare contabilă reală; nu automat pentru ambalare reversibilă G2.",
+    "Bill-to/ship-to, monedă, net/brut, TVA, discount și transport sunt păstrate distinct/complet.",
+    "Ramburs per expediție/colet; avansul și GrandTotal nu se dublează.",
+    "Administrarea comenzilor în ERP; site-urile permit catalog/comandă/situații proprii pe canal.",
+    "Aviz CO nu dovedește livrare curier; respingerea înaintea curierului cere corecție/reversare și recuperare fizică, nu RMA automat.",
+    "Aprobarea comercială și PC sunt distincte; shortage/backorder nu devine pierdere tacită.",
+    "Numărarea/importul în ciornă este separat de ajustare; ImportInventory nu este presupus upsert.",
+    "Core/plugin disponibil/bundle instalat/ecran configurat sunt niveluri distincte."
+  ],
+  "source_reading": [],
+  "change_control": "Rubrica are versiune și hash; nu se relaxează pentru a forța 10/10. Nu acordă anticipat notă planului ori implementării."
+}

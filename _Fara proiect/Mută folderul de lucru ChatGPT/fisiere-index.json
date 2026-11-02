@@ -1,0 +1,40 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-11-02/muta-de-pe-c-folderul-local/outputs/Muta-Codex.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Muta-Codex--470fbddd.ps1",
+    "bytes": 2738,
+    "sha256": "4e45738835284d1594cd022a058f9035994124a68ac843d807047f9b29db5355"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\ChatGPT",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-11-02\\muta-de-pe-c-folderul-local\\outputs\\Muta-Codex.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Muta-Codex--470fbddd.ps1",
+    "bytes": 2738,
+    "sha256": "4e45738835284d1594cd022a058f9035994124a68ac843d807047f9b29db5355"
+  },
+  {
+    "source_reference": "D:\\ChatGPT_local",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\ChatGPT_local\\Codex",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://learn.chatgpt.com/docs/projects",
+    "status": "referinta_externa_necopiata"
+  }
+]

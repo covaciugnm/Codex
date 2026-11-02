@@ -1,0 +1,8 @@
+dist/
+work/
+toolchain/
+private/
+*.jks
+*.p12
+*.pass
+*.apk.idsig

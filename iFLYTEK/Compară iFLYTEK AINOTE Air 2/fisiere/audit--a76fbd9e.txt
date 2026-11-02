@@ -1,0 +1,172 @@
+Audit independent de documentație iFLYTEK — runda 3
+Data: 2026-10-30T20:03:23.700Z
+Scor: 10/10. Constatări deschise: 0.
+10/10 înseamnă că nu a rămas o problemă identificată în domeniul nominalizat după verificările documentate. Nu este o garanție de exhaustivitate, de performanță hardware, de interoperabilitate sau de corectitudine a tuturor răspunsurilor istorice.
+
+DOMENIUL EVALUAT
+Reaudit independent al extensiilor de documentare pentru tipuri, recepții BLE, MethodChannel.Result și concluzia RPK din APK 1.0.3899.
+- tools/catalog-reverified-types.cjs
+- tools/catalog-extra-receive.cjs
+- tools/catalog-receive-listeners.cjs
+- tools/catalog-flutter-results.cjs
+- reverificare-detaliata/parametri-reverificati.json
+- reverificare-detaliata/receptii-reverificate.json
+- reverificare-detaliata/listeneri-reverificati.json
+- catalog-parametri-functii/parametri.json
+- catalog-parametri-functii/functii.json
+- reverificare-detaliata/INDEX.html
+- reverificare-detaliata/rezumat.json
+- reverificare-detaliata/verificare-solicitari.json
+- reverificare-detaliata/tipuri-dex-reverificate.json
+- reverificare-detaliata/analiza-rpk.json
+- reverificare-detaliata/verificare-produse-audio.json (integrare, delimitări și destinații de link)
+- tools/reverify-unknowns.cjs
+
+Verificare de proveniență și structură pentru toate înregistrările modificate, lectură manuală a familiilor de producători/cast/conversie și a celor patru lanțuri de listener, verificare directă a două prototipuri DEX.
+Nu s-au verificat manual toate cele 318.284 metode DEX ori toate căile de execuție din 23.200 fișiere Java. Un număr de câmpuri extrase nu este procent de protocol complet.
+
+CRITERII (10 × 1 PUNCT)
+C1. Proveniență și înghețarea datelor: 1/1
+134/134 hashuri Java din catalog și 9/9 hashuri RPK corespund arhivei. Snapshotul include 25 fișiere stabile și cele două DEX; istoricul conversației este neschimbat.
+
+C2. Tipuri statice corelate la producători/casturi: 1/1
+123/199 tipuri inițial necunoscute au probe statice. Cele două tipuri AudioManager au fost reverificate direct în tabelele method/proto DEX: 3 intrări în 2 fișiere. Tipul de referință nu implică non-null.
+
+C3. Conversii dinamice și chei parametrizate delimitate: 1/1
+F1 și e0 au variante de conversie și chei separate. 17 containere dinamice și 59 conversii documentate rămân necunoscute ca tip exact; nu au fost transformate în scheme inventate.
+
+C4. Câmpurile din parserii BLE delegați: 1/1
+30 recepții au fost urmărite în parseri delegați; 26 au câmpuri. Toate cele 43 observații brute de citire au citări concordante. Get/opt și fallbackurile clientului rămân distinse.
+
+C5. Listeneri și separarea payload/local: 1/1
+Lanțurile 61117, 70811, 61119 și 61120 au fost citite direct. Câmpurile wire sunt separate de evenimentele/contoarele locale, notificarea fără payload citit și obiectul cu chei dinamice.
+
+C6. Rezultate q98/w18 și limite de schemă: 1/1
+q98 implementează MethodChannel.Result, iar w18 produce un Map local delimitat. 149/443 funcții Flutter au ieșiri extrase; 248 au 331 observații Result. Acestea nu certifică terminarea operației externe.
+
+C7. Dovezi și linii corecte: 1/1
+529/529 dovezi din revizia celor 199 parametri au prima linie concordantă cu sursa arhivată. Asocierea greșită expresie–linie și proba incompletă pentru castul recordId au fost reparate.
+
+C8. Formate și fallbackuri corecte: 1/1
+Fallbackurile timestamp=0 numeric și timezone=+00:00 sunt normalizate separat de expresiile Java 0L și literalul citat. Nu sunt prezentate ca valori obligatorii ale firmware-ului.
+
+C9. Indicatori și necunoscute prezentate corect: 1/1
+KPI-urile au fost renumărate independent: 1.107 funcții, 2.980 parametri, 76 tipuri necunoscute; BLE 88/90 cu ieșiri și 38/90 cu căi. Documentele explică faptul că sunt indicatori de extracție.
+
+C10. Concluzia RPK, limite și legăturile HTML: 1/1
+Codul RPK demonstrează un flux de distribuție/instalare către dispozitiv, cu limite explicite de model, capabilități și semnare. Toate cele 294 ID-uri HTML sunt unice; 48 afirmații și 63 legături din solicitări duc la conținutul corect.
+
+CONSTATĂRI REMEDIATE
+R3-F1 — F1 și e0 reunite sub aceeași conversie [medie; remediat_reverificat]
+Afectat: p-533caaf5f9101788; f-b149903cd0feb9c7
+Probă: pf.java:991–994,1727–1732,2674–2687; startCoffeeService citește appId/asr/payInitAsr prin F1 și latitude/longitude prin e0.
+Corecție: coercionVariants și observedKeys păstrează separat Object→String/default de Number→Double/null; {str} rămâne placeholder.
+Reverificare: Cele două variante și cele cinci chei sunt prezente în JSON; intrarea nu a fost forțată la un tip scalar.
+
+R3-F2 — Expresii asociate liniilor altor producători [medie; remediat_reverificat]
+Afectat: parametri-reverificati.json; p-0a42938857fabe23; p-05e945d670242df5
+Probă: Snapshotul inițial avea 96 din 620 dovezi cu prima linie necorespunzătoare, pe 22 parametri; exemplu n0 la pf:1173 citat și la1175. recordId era susținut prin nh1:3192, deși castul este la3191.
+Corecție: Asociere expresie→evidence.excerpt și calcul poziție exactă; probă explicită a castului recordId la3191.
+Reverificare: Scanarea finală a celor 529 dovezi găsește 0 nepotriviri între prima linie a extrasului și linia indicată; lectura directă confirmă pf:1173/1175 și castul recordId la nh1:3191.
+
+R3-F3 — Fallbackuri Java amestecate cu valori JSON [redusa; remediat_reverificat]
+Afectat: p-38bb5eb72b206f41; p-f00319875ae58292
+Probă: CoreBluetoothDevice.java:7563–7564. parserFallback era șirul 0L, respectiv șir cu ghilimele încorporate.
+Corecție: parserFallback este numeric 0 / șir +00:00; parserFallbackExpression păstrează expresia Java.
+Reverificare: Tipurile JSON și valorile normalizate au fost recitite; expresiile originale rămân disponibile.
+
+R3-F4 — ID-uri HTML duplicate între solicitări și afirmațiile SDK [medie; remediat_reverificat]
+Afectat: reverificare-detaliata/INDEX.html#S01; reverificare-detaliata/INDEX.html#S02; reverificare-detaliata/INDEX.html#S03; reverificare-detaliata/INDEX.html#S04
+Probă: Fiecare ID S01–S04 apare de două ori: solicitare și afirmație comercială/SDK. Linkurile S05→#S01/#S02/#S03 ajung la solicitări în locul dovezilor SDK.
+Corecție: Namespace distinct al ancorelor pentru afirmații; actualizarea tuturor legăturilor și verificarea unicității ID-urilor.
+Reverificare: În HTML final: 294 ID-uri fără duplicate; toate cele 48 afirmații au id=claim-<ID> și textul aferent; toate cele 63 legături productClaimIds din solicitări ajung la afirmația corectă; nicio destinație locală lipsă.
+
+PROBE DEX ADĂUGATE
+p-4aa303ceb4a7afec: extras/apk/classes5.dex, method_id 665, offset 656736 (zero-based), Landroid/media/AudioManager;getParameters(Ljava/lang/String;)Ljava/lang/String;; SHA-256 37f6e398be02eeb086a901cae531bc0716cbb3ec3b1ba12e7a1ba92373ea7853; verificat direct.
+p-4aa303ceb4a7afec: extras/apk/classes2.dex, method_id 879, offset 778004 (zero-based), Landroid/media/AudioManager;getParameters(Ljava/lang/String;)Ljava/lang/String;; SHA-256 6c5263c601065a26f548c2996391d33743e9aa55d05dfe6fc0ef9b55f028b5c5; verificat direct.
+p-db2d348d4bb371a2: extras/apk/classes5.dex, method_id 666, offset 656744 (zero-based), Landroid/media/AudioManager;getProperty(Ljava/lang/String;)Ljava/lang/String;; SHA-256 37f6e398be02eeb086a901cae531bc0716cbb3ec3b1ba12e7a1ba92373ea7853; verificat direct.
+
+VERIFICĂRI FINALE
+Catalog: 1107 funcții / 2980 parametri / 76 tipuri exacte necunoscute. Din cele 199 inițiale: 123 tipuri rezolvate static, 17 containere dinamice, 59 conversii documentate.
+Flutter: 149/443 funcții cu ieșiri; 248/443 cu observații Result; 331 observații. BLE: 88/90 cu ieșiri; 38/90 cu căi. Indicatori de extracție, nu procente de protocol complet.
+Toate cele 2.900 ID-uri de parametri din baseline sunt păstrate; fără referințe funcție–parametru nereciproce. 529 citări și 43 citiri delegate au linii concordante. 134 hashuri Java și 9 RPK corespund arhivei.
+HTML: 294 ID-uri unice, 48 afirmații la ancore distincte, 63 legături solicitare→afirmație corecte; 811 apariții de linkuri către fișiere locale fără ținte lipsă. Control independent static.
+Agentul principal a executat validarea de browser desktop/390 px la 2026-10-30T20:01:02.072Z: fără overflow/erori JS, căutare și deep-link verificate. Raport separat: reverificare-detaliata/validare.json. Cele 176489 verificări ale catalogului sunt raportate de agentul principal; auditorul nu pretinde reexecutarea lor.
+
+LIMITE
+- Trafic pe ochelari
+- Rutare audio reală
+- Instalare RPK/firmware
+- Autentificare cloud/OTA
+- Performanță lingvistică sau clinică
+- Certificarea exhaustivă a tuturor afirmațiilor celor 17 răspunsuri; verificarea produselor/audio are separat 48 afirmații, cu 11 necunoscute declarate și fără scor global.
+- Java String/Map/List este tip static; nu constituie o schemă semantică exhaustivă.
+- Valorile opt/default sunt comportamentul parserului client, nu valori obligatorii ale firmware-ului.
+- Un Result.success local nu validează terminarea operației pe dispozitiv sau server.
+- Există cod RPK de transport/instalare; acceptarea unui RPK propriu pe model rămâne necunoscută.
+- Nu există imagine firmware disponibilă, test de instalare RPK sau captură de trafic real în acest audit.
+- Prezența Bluetooth/Wi-Fi ori a unui SDK în APK nu confirmă rutarea audio simultană, acces public sau compatibilitate cu varianta exactă a ochelarilor.
+- Afirmațiile de produs/audio păstrează diferențele regionale, necunoscutele lingvistice și lipsa măsurătorilor de latență; nu sunt recomandări de amplificare clinică.
+
+Verificarea produselor/audio este livrată separat: 48 afirmații (35 confirmate, 2 corectate, 11 încă necunoscute), 37 surse primare/oficiale și 8 căutări publice SDK/OTA delimitate; fără scor global. Concluzia negativă de căutare nu înseamnă inexistența unui SDK privat.
+Nu s-au modificat documentele evaluate în rolul de auditor. Au fost create rapoarte de probe și audit. Scorul rundei 2 este istoric pentru snapshotul anterior; runda 3 nu transformă toate răspunsurile istorice în răspunsuri certificate.
+
+SNAPSHOT ȘI SHA-256
+Hashurile cuprind numai date, probe și generatoare stabile. INDEX.html, RAPORT.txt, rezumat.json și paginile/statusurile auditului au fost inspectate, dar nu sunt intrări de înghețare deoarece vor afișa verdictul acestui audit; astfel se evită dependența circulară.
+catalog-parametri-functii/parametri.json
+a09269736aaac7e2befbdd3207278a3f185cf2825b4566ea624096e0d7688fd9  (7903755 octeți)
+catalog-parametri-functii/functii.json
+33076ddc40a1d08d014ae17ab6fff0882d90a07a3ea03090c359f8b68383f766  (3705756 octeți)
+catalog-parametri-functii/scheme.json
+7701b69cbcc2084fae1d96975d4f169b5f9ba1c9ecb8d85e006b11e1eac8d6b6  (333263 octeți)
+catalog-parametri-functii/surse-sha256.json
+e76d662a8cb5abd3c9149bafffdf3891008a345e66eff9d5e04d9c5a374b4448  (21829 octeți)
+catalog-parametri-functii/audit-flutter.json
+5f68a6c81ebdc072d72cc7bc54c6561f54dce73364c17b792cf7a08357fa75dd  (56477 octeți)
+catalog-parametri-functii/clase-valori.json
+67a5103037a7d16bfddb56dabe523ed8ec823f510d9fdc514b29007a6f6ad43e  (3350 octeți)
+catalog-parametri-functii/acoperire.json
+f3b763efcf3353a0a12af7b3560f06887b2faa30acc446432a3bd8a498a003c1  (1066 octeți)
+reverificare-detaliata/parametri-reverificati.json
+997b9d919ec3b03cdcc8771e0d0857981e77e305580edd1eb74ed5614e6c601e  (332175 octeți)
+reverificare-detaliata/receptii-reverificate.json
+94a9aa0a37db28e217688d61c09b05758bd41d687e931e5ef939acc3aa2ca4d6  (27706 octeți)
+reverificare-detaliata/listeneri-reverificati.json
+5d2beef5d41d3a4e702184553d8ce47b0de04592493252b8227435f4703b5882  (23958 octeți)
+reverificare-detaliata/rezolvari-revizuite.json
+4345e50d77df469a27094100164b43864041abfb2be3fb7f518bfee77399abd8  (66505 octeți)
+reverificare-detaliata/tipuri-dex-reverificate.json
+f0ae0916ba1a36c3c93b03f867e22a3ed2986dc42600257a3d98ead083e29e7e  (3589 octeți)
+reverificare-detaliata/analiza-rpk.json
+3560e5c817990dcb9528b01154f60ecb043b521d033448d8a0a0ed1925433da1  (14923 octeți)
+reverificare-detaliata/verificare-produse-audio.json
+04d2bef58a7d58b89e9d2fde740414f1512e94760450e37f85008126a2dd0735  (50649 octeți)
+reverificare-detaliata/cozi-reverificate.json
+f6955d86a47e80d57c4b2101aa20fca0a5ec1498e73826789242cbbe82f32304  (779869 octeți)
+reverificare-detaliata/sdk-reverificat.json
+838fc9de81105b01b7c357c708562ef57080640bc89c1ff31b5358521ba1bbbb  (2416 octeți)
+reverificare-detaliata/baseline-functii.json
+38c84b31fd8442eaaad42598ea4db65a7e2bdcba7bd9872e900b8cc1ddf16bfc  (3469132 octeți)
+reverificare-detaliata/baseline-parametri.json
+86b8937d53356acbd9f3adcf6daae3936119f4af641cd348283046ebf4768163  (7187178 octeți)
+imbunatatire-raspunsuri/istoric-conversatie.json
+429a95b308bcb879b17957a5963b550719692ca1d5640924a65ff58a85e7075c  (78242 octeți)
+tools/catalog-reverified-types.cjs
+9d7487bf2a7cbb77080246add7b6bc0cb691607b597e1b43df6b255f8e87c96f  (1830 octeți)
+tools/catalog-extra-receive.cjs
+6403fb1455e6cb4546d9cc45ae5283420e30a49a38932dd82241f236acd05b75  (3725 octeți)
+tools/catalog-receive-listeners.cjs
+97afdf451b937df590586a0839c1ca35b8b1ed94cf2147dce0524a442f9db126  (4970 octeți)
+tools/catalog-flutter-results.cjs
+7be79ccb533fb83630fa011275e5069ea75d170fbf5df2b5fcd86cd781ced7ba  (6563 octeți)
+tools/reverify-unknowns.cjs
+f33b14a8207813fb5da5b52979ef0e2ebf9f60dd5e6e494f42b405f95d8829c2  (12743 octeți)
+tools/catalog-enrich.cjs
+98833eb425964b83b55dd1c81a8a10590b1f0bb9f4769526b9ddf42721101582  (29382 octeți)
+extras/apk/classes5.dex
+37f6e398be02eeb086a901cae531bc0716cbb3ec3b1ba12e7a1ba92373ea7853
+extras/apk/classes2.dex
+6c5263c601065a26f548c2996391d33743e9aa55d05dfe6fc0ef9b55f028b5c5
+
+Nicio remediere documentară deschisă în domeniul auditat. Necunoscutele operaționale sunt păstrate pentru probele viitoare cu dispozitive; nu sunt marcate ca validate.
+

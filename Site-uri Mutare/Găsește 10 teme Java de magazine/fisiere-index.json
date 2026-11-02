@@ -1,0 +1,918 @@
+[
+  {
+    "source_reference": "./LICENSE",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "./README_ZH.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "./doc/pics/readme/project-structure.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "./document/resource/mall_admin_show.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "./document/resource/qrcode_for_macrozheng_258.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "./document/resource/re_mall_app_show.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "./document/resource/re_mall_business_arch.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "./document/resource/re_mall_dev_flow.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "./document/resource/re_mall_system_arch.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "backend/crmebimage/theme-cate/251201002.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "backend/crmebimage/theme-cate/251201004.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "backend/crmebimage/theme-cate/251201005.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "backend/crmebimage/theme-cate/c2.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "backend/crmebimage/theme-cate/java-saas.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "backend/crmebimage/theme-cate/主题广场.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "backend/crmebimage/theme-cate/开源Java.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "backend/crmebimage/theme-cate/开源banner-Java.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "doc/pics/readme/technology-stack.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "document/resource/mind_content.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "document/resource/mind_member.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "document/resource/mind_order.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "document/resource/mind_portal.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "document/resource/mind_product.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "document/resource/mind_sale.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "help/resource/pic/java-saas.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "http://makeapullrequest.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "http://mall.newbee.ltd?from=github",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "http://www.oracle.com/technetwork/java/javase/overview/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://admin.java.crmeb.net",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://api.codeclimate.com/v1/badges/0193ee026d92287b5db0/maintainability",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://bdwx2tfwwt.feishu.cn/sheets/FFQKscQKDhUx60to1k9cbMngnYb?from=from_copylink",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://codeclimate.com/github/ilscipio/scipio-erp/maintainability",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://codecov.io/gh/merikbest/ecommerce-spring-reactjs",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://codecov.io/gh/merikbest/ecommerce-spring-reactjs/branch/travis-ci-test/graph/badge.svg?token=sEfOfpBHDX",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://console.cloud.google.com/apis/credentials",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://creativecommons.org/licenses/by-nd/4.0/deed.zh",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dev.mysql.com/downloads/mysql/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developers.google.com/recaptcha/docs/verify",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://doc.crmeb.com/java/crmeb_java_30",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-policy-language-overview.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.npmjs.com/downloading-and-installing-node-js-and-npm",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.pickmall.cn/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.pickmall.cn/deply/deply.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://edu.csdn.net/course/play/26258/326466",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://edu.csdn.net/course/play/26258/326467",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://edu.csdn.net/course/play/26258/328801",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/beijing_hongye_huicheng/docker/tree/master/init/mysql",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/beijing_hongye_huicheng/lilishop",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/beijing_hongye_huicheng/lilishop/badge/star.svg?theme=dark",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/dromara/sa-token",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/gz-yami/mall4cloud",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/gz-yami/mall4j",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/gz-yami/mall4j/raw/master/screenshot/mall4jV.gif",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/gz-yami/mall4j/tree/master/doc",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/gz-yami/mall4j/wikis",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/gz-yami/mall4m",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/gz-yami/mall4uni",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/gz-yami/mall4v",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/linlinjava/litemall",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/newbee-ltd/newbee-mall",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/newbee-ltd/newbee-mall-api",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/newbee-ltd/newbee-mall-api-go",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/newbee-ltd/newbee-mall-cloud",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/newbee-ltd/newbee-mall-plus",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/newbee-ltd/newbee-mall-vue-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/newbee-ltd/newbee-mall-vue3-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gitee.com/newbee-ltd/vue3-admin",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/CaiBaoHong/biu",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ColorlibHQ/AdminLTE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/PanJiaChen/vue-element-admin",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/VincentGarreau/particles.js",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/Wechat-Group/WxJava",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ZHENFENG13/spring-boot-projects",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/dromara/hutool",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/gz-yami/mall4j",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/jiechud/taro-mall",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/lilishop/lilishop",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/linlinjava/litemall",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/linlinjava/litemall/blob/master/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/macrozheng/mall-admin-web",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/macrozheng/mall-swarm",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/macrozheng/mall/blob/master/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/merikbest/ecommerce-spring-reactjs/blob/4f74f86500ab9363c04a18412dd432bd913e0477/frontend/src/pages/Registration/Registration.tsx#L134",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/mybatis/mybatis-3",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall-api",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall-api-go",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall-cloud",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall-cloud/raw/main/static-files/newbee-mall-course-2022.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall-plus",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall-vue-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall-vue3-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall/blob/master/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall/issues",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall/tree/spring-boot-2.3.7",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall/tree/spring-boot-2.6.x",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/newbee-mall/tree/spring-boot-3.x",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/newbee-ltd/vue3-admin",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/qianzhaoy/vant--mobile-mall",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/skytotwo/Alipay-WeChat-HTML",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/spring-projects/spring-boot",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/sweetalert2/sweetalert2",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/thymeleaf/thymeleaf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/tonytomov/jqGrid",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/tumobi/nideshop-mini-program",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/vuejs/vue",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/wangeditor-team/wangEditor",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/youxinLu/mall",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/youzan/vant",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/0tRr1Gy/props-gmail.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/8Y8bfSG/3-Cart.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/FKFKR4n/props-aws.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/HFb9wfR/9-Edit-perfume-list.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/HtnKp0W/2-Product-page.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/VT4RzYj/1menu.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/XbsJPQH/8-Add-perfume-page.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/YpH4V3m/oauth2-props.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/bmKTLPJ/email-template.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/dL77cZS/prop-postgresql.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/jH8R8xL/10-Edit-perfume-page.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/mSpHmyL/12-bucket.jpg ",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/nDTP8H5/prop-recaptcha.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/pLTyF25/6-List-of-orders.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/qx1Csc8/7-User-profile-page.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://i.ibb.co/tLmY8y2/4-Ordering.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://images.gitee.com/uploads/images/2019/0711/174845_6db7724e_5094767.png \"Mall4j Java商城系统源码\"",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://images.gitee.com/uploads/images/2021/1110/145209_2ec1ad04_5094767.png \"Mall4j 移动端商城截图\"",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/badge/Java-21-orange.svg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/badge/Spring%20Boot-3.5.6-brightgreen.svg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/badge/build-passing-green.svg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/badge/license-AGPL--3.0-blue.svg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/badge/license-GPL3.0-blue.svg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/badge/version-1.0.0-yellow.svg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/github/stars/lilishop/lilishop.svg?style=social&logo=github",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/readthedocs/pip.svg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://juejin.cn/book/6844733814074245133?suid=1996368849416216&source=android",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://lilishop-wechat.oss-cn-beijing.aliyuncs.com/wechat.jpg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://linlinjava.gitbook.io/litemall",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://linlinjava.gitbook.io/litemall/api",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://linlinjava.gitbook.io/litemall/contribute",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://linlinjava.gitbook.io/litemall/faq",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://linlinjava.gitbook.io/litemall/project",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://maven.apache.org/download.cgi",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://myaccount.google.com/u/2/lesssecureapps",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/cart-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/goods-edit-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/index-01-2023.gif",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/index-02-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/manage-carousel-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/manage-category.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/manage-goods-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/manage-index-config-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/manage-login.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/manage-order-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/newbee-logo.png?x-oss-process=image/resize,h_240,w_480",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/orders-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/search-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/settle-2023.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/wx-pay.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/store/newbee-mall-copyright.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/store/newbee-mall-info-3.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/store/newbee-mall-star.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://newbee-mall.oss-cn-beijing.aliyuncs.com/wx-gzh/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%8D%81%E4%B8%89-%E5%85%AC%E4%BC%97%E5%8F%B7.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nodejs.org/en/download/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://openjdk.org/projects/jdk/21/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://portal.aws.amazon.com/billing/signup#/start",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/newbee-ltd/newbee-mall-vue-app/master/static-files/newbee-mall.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://shop.crmeb.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://spring.io/guides/tutorials/spring-boot-oauth2/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://spring.io/projects/spring-boot",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://stackoverflow.com/questions/58580042/how-to-set-public-read-only-access-on-amazon-s3-bucket#:~:text=To%20make%20objects%20publicly%20accessible%2C%20use%20a%20policy%20like%20this%3A",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.pickmall.cn/images/h5-qrcode.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://supsystic.com/documentation/id-secret-access-key-amazon-s3/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://travis-ci.com/merikbest/ecommerce-spring-reactjs",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://travis-ci.com/merikbest/ecommerce-spring-reactjs.svg?branch=travis-ci-test",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://work.weixin.qq.com/kfid/kfc4d8dc24a73c15f44",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.baeldung.com/install-maven-on-windows-linux-mac",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.bilibili.com/video/BV1MAiiY5EtP/?spm_id_from=333.1387.search.video.card.click&vd_source=9cea4dcdafd21c93762100c496e0f2a3",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.bilibili.com/video/BV1eW4y1V7c1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.crmeb.com/?from=giteejava",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.crmeb.com/ask/thread/list/152",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.crmeb.com/ask/thread/list/152?from=giteejava",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.crmeb.com/market?from=giteephp",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.crmeb.com/theme",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ej-technologies.com/images/product_banners/jprofiler_small.png \"JProfiler\"",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.google.com/recaptcha/admin#list",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.guru99.com/postgresql-create-database.html#:~:text=PostgreSQL%20Create%20Database%20using%20pgAdmin",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ilscipio.com \"Ilscipio\"",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.jetbrains.com/idea/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.kancloud.cn/yami/mall4j",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/admin/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/app/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/blog/redis_cluster.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/mall/catalog/mall_video.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/mall/deploy/mall_deploy_docker.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/mall/deploy/mall_deploy_docker_compose.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/mall/deploy/mall_deploy_jenkins.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/mall/deploy/mall_deploy_web.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/mall/deploy/mall_deploy_windows.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/project/gaea.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/project/mall_kibana_start.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/project/maven_docker_fabric8.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/project/minio_console_start.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.macrozheng.com/tool/linux_install.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.mall4j.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.mall4j.com/case/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.mall4j.com/forum/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.mall4j.com/price/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.oracle.com/ru/java/technologies/javase/javase8-archive-downloads.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.postgresql.org/download/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.scipioerp.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.scipioerp.com \"Scipio ERP Website\"",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.scipioerp.com/community/developer/installation-configuration/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.scipioerp.com/community/end-user/applications/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.scipioerp.com/demo/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.scipioerp.com/products/technologies/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.scipioerp.com/wp-content/uploads/2023/02/multichannel4-480x415.png",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.yes-cart.org/mediavault/image/cw/public/site/img/yc-cloud-integrations.png \"YesCart - pure eCommerce\"",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.yes-cart.org/mediavault/image/cw/public/site/img/yc-mission-control.png \"YesCart - pure eCommerce\"",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.youtube.com/watch?v=-ohlXEJeRX8&ab_channel=letsCode",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://youtu.be/7cDpbAbhyjc?t=212",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "screenshot/%E5%AE%87%E5%AE%99%E7%89%88%E5%B0%8F%E7%A8%8B%E5%BA%8F.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "screenshot/商务二维码.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "screenshot/规约.png",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

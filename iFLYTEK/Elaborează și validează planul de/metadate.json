@@ -1,0 +1,23 @@
+{
+  "id": "01a197fe-21c0-7e92-b512-3413b208e137",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK",
+  "created_at": 1793551376,
+  "updated_at": 1793555738,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Elaborează și validează planul de",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 7280813,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 145,
+  "message_count": 15,
+  "content_sha256": "6f890d142c92645d02fd3f594981c8b5fc0037e2b5b6d529cdb53d75ed670063",
+  "files_copied": 0,
+  "references_not_copied": 39
+}

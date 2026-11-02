@@ -1,0 +1,214 @@
+total 12
+drwxr-xr-x 1 User 197121 0 Oct 14 14:16 .
+drwxr-xr-x 1 User 197121 0 Oct 14 14:16 ..
+drwxr-xr-x 1 User 197121 0 Oct 14 14:16 Redactare
+drwxr-xr-x 1 User 197121 0 Oct 14 14:16 Surse
+====
+2026.07.02 3f78b8ef.json
+2026.07.02 3f78b8ef.txt
+2026.07.21 2703c8af.json
+2026.07.21 2703c8af.txt
+2026.07.21 59ee9c56.json
+2026.07.21 59ee9c56.txt
+2026.07.21 862457af.json
+2026.07.21 862457af.txt
+2026.08.04 2bc1fedd.json
+2026.08.04 2bc1fedd.txt
+2026.08.04 c2f78d18.json
+2026.08.04 c2f78d18.txt
+2026.08.04 f3c5f3d9.json
+2026.08.04 f3c5f3d9.txt
+2026.08.17 07c2bfe4.json
+2026.08.17 07c2bfe4.txt
+2026.08.17 de89fdf0.json
+2026.08.17 de89fdf0.txt
+2026.08.19 4fa309a0.json
+2026.08.19 4fa309a0.txt
+2026.08.26 f7bf25c4.json
+2026.08.26 f7bf25c4.txt
+2026.09.17 0b4d7ffa.json
+2026.09.17 0b4d7ffa.txt
+2026.09.17 1fd0bddf.json
+2026.09.17 1fd0bddf.txt
+2026.09.17 4439ac87.json
+2026.09.17 4439ac87.txt
+2026.09.17 6b370ac8.json
+2026.09.17 6b370ac8.txt
+2026.09.17 b8bab41b.json
+2026.09.17 b8bab41b.txt
+2026.09.17 d8524475.json
+2026.09.17 d8524475.txt
+2026.10.01 ee452cda.json
+2026.10.01 ee452cda.txt
+2026.10.07 97799dc8.json
+2026.10.07 97799dc8.txt
+2026.10.13 0fed52e8.json
+2026.10.13 0fed52e8.txt
+====
+Data lizibila: 2026.06.17
+Statut: PRIMIT
+Subiect: Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten
+Expeditor: grosskunde@sturmenergie.at
+Destinatari: office@ac-wohnart.at
+CC: 
+ID Eva-Mail: f51d3f00-9735-4847-babd-7175d2b22c78
+Limita corp API: False
+
+TEXT ORIGINAL DISPONIBIL
+Sehr geehrter Herr Covaciu, vielen Dank für Ihre E-Mail. Wir als Energielieferant können keine Auskünfte/Bestätigungen über die dem Käufer gegenüber getätigten Aussagen ("es bestehen keine Energielieferverträge") bzw. über die im Zuge der Kaufvertragsabwicklung geführten schriftlichen und mündlichen Kommunikation erteilen. Die Hausverwaltung Hofhans hat mit E-Mail v. 23.03.2026 Herrn Capra Bogdan und Herrn Martin Kornhofer informiert, dass sämtliche Verträge mit STURM ENERGIE abgeschlossen wurden. Zu diesem Zeitpunkt haben wir einzig für das Stiegenhaus eine Abmeldung des Netzbetreibers erhalten die vermutlich im Zuge einer Neuanmeldung ausgelöst wurde. Sämtliche Leerstände befanden sich zu diesem Zeitpunkt noch in aufrechter Versorgung. Wir haben daraufhin (25.03.2026) die Hausverwaltung Hofhans informiert, dass wir gemäß unseren internen Vorgaben - um Kosten und Schäden für den bisherigen Eigentümer zu vermeiden - die Kündigung der Leerstände zum frühestmöglichen Zeitpunkt (18.03.2026) eingereicht haben und es zu Abschaltungen kommt, sofern nicht zeitgerecht ein neuer Vertrag abgeschlossen wird. Diese Nachricht wurde von der Hausverwaltung Hofhans am 25.03.2026 an Herrn Capra Bogdan weitergeleitet. Am 23.03.2026 hat Herr Bogdan Capra ein Angebot für die Versorgung gewünscht, welches er am 25.03.2026 von meiner Kollegin Frau Weiss im Ticket 323971 erhalten hat. Auf unser Angebot haben wir allerdings nie eine Rückmeldung erhalten, sodass davon ausgegangen werden muss, dass das Angebot nicht angenommen und die Versorgung von einem anderen Lieferanten übernommen wird. Zu Ihren Fragen dürfen wir daher nachfolgend eingehen: ad 1) Die Kontaktdaten - in diesem Fall auch die Rechnungsanschrift - sind aktuell zu halten damit Rechnungen an den korrekten Empfänger zugestellt werden können und beziehen sich ausschließlich auf jene Anlagen, welche Sie der beiliegenden Anlagenliste entnehmen können. ad 2) die gewünschte Anlagenliste entnehmen Sie bitte dem Anhang ad 3) die "Kündigungsschreiben" - also jene Schriftstücke, welche vom Netzbetreiber (Wiener Netze) versendet werden und in denen auf den fehlenden Vertrag aufmerksam gemacht wird, sind bitte bei diesem anzufordern. ad 4) anbei senden wir Ihnen die offenen Rechnungen - die vorgesehenen Abbuchungen der Endabrechnungen per 02.06.2026 wurden von uns noch gestoppt, sodass diese nicht mehr vom Konto der Hausverwaltung Hofhans durchgeführt wurden. Bitte beachten Sie, dass zum jetzigen Zeitpunkt noch nicht alle Endabrechnungen vom Netzbetreiber übermittelt wurden. Die Rechnung des Energielieferanten basiert immer auf den Netzrechnungen des Netzbetreibers und werden diese, sobald die Netzrechnungen erstellt wurden, automatisch mit dem nächsten Rechnungslauf erstellt und übermittelt. Bei der Anlage 4000112571 besteht aufgrund einer manuellen Zahlung der Vorverwaltung vom Jänner 2026 ein Guthaben - siehe Kontoauszug im Anhang. ad 5) die Bankdaten der Hausverwaltung Hofhans wurden bereits entfernt ad 6) ob bzw. bei welchem Versorger neue Energielieferverträge abgeschlossen wurde, entzieht sich unserer Kenntnis - dazu empfehlen wir Ihnen, sich mit dem Netzbetreiber (Wiener Netze) unter grosskundenservice@wienernetze.at in Verbindung zu setzen welcher Ihnen den Belieferungsstatus der Zählpunkte nennen kann da dieser die Datenhoheit besitzt. Sollten Sie noch Fragen haben, stehe ich Ihnen natürlich jederzeit gerne zur Verfügung.
+Vielen Dank für Ihr Vertrauen! Melanie Edelmann Großkundenbetreuung STURM ENERGIE GmbH Wiedner Gürtel 13, 1100 Wien www.sturmenergie.at T: +43 1 512 12 22 E: grosskunde@sturmenergie.at FN: 432092 f | UID: ATU69767567 STURM ENERGIE ist Partner des österreichischen Verbandes der Immobilienwirtschaft. Der Schutz Ihrer Privatsphäre ist uns wichtig. Daher verarbeiten wir Ihre personenbezogenen Daten im Einklang mit dem geltenden Datenschutzrecht. Nähere Informationen finden Sie auf unserer Homepage www.sturmenergie.at/datenschutzerklaerung Diese E-Mail und allfällige Anlagen enthalten vertrauliche und/oder rechtlich geschützte Informationen. Sie sind nur für den Adressaten bestimmt. Sollten Sie nicht der beabsichtigte/richtige Adressat, einer seiner Mitarbeiter oder sein Empfangsbevollmächtigter sein bzw. diese E-Mail irrtümlich erhalten haben, ist jede Offenlegung, Weiterleitung, Reproduktion oder sonstige Verwendung der darin enthaltenen Informationen unzulässig. In diesem Fall ersuchen wir Sie, den Absender sofort zu verständigen und die E-Mail und allfällige Anlagen unwiederbringlich zu vernichten. Für Übermittlungsfehler oder sonstige Irrtümer bei der Übermittlung besteht keine Haftung.
+
+als Antwort auf 08. Juni 2026, 16:33 office@ac-wohnart.at
+Sehr geehrte Frau Edelmann,
+vielen Dank für Ihre Rückmeldung und Ihre Bemühungen in dieser Angelegenheit.
+Zunächst möchten wir uns entschuldigen, falls durch den Eigentümerwechsel, die Beendigung der früheren Verwaltung oder die bisherige Kommunikation Unklarheiten oder zusätzlicher Aufwand entstanden sind. Unser Anliegen ist es ausdrücklich, die Situation sachlich, transparent und einvernehmlich zu klären.
+Zur Klarstellung teilen wir Ihnen nochmals mit, dass die Liegenschaft 1120 Wien, Schallergasse 35, von der A&C Wohnart Immobilien GmbH erworben wurde. Der Eigentumserwerb ergibt sich aus dem Kaufvertrag 405/2026 vom 20.02.2026 sowie aus der grundbücherlichen Eintragung des Eigentumsrechts. Den aktuellen Grundbuchsauszug übermitteln wir Ihnen in der Anlage.
+Im Zuge des Erwerbs wurden wir darüber informiert, dass für die Liegenschaft keine aktiven Energielieferverträge mehr bestehen, weder für Strom noch für Gas. Auch nach interner Prüfung der uns vorliegenden Korrespondenz konnten wir keine aktiven Stromlieferverträge feststellen, die mit unklaren Zahlungsverpflichtungen auf die neue Eigentümerseite übertragen worden wären.
+Nach unserem Verständnis sollten gemäß der Abwicklung des Kaufvertrags keine offenen, nicht ausdrücklich übernommenen Energieverträge oder Zahlungsverpflichtungen auf die A&C Wohnart Immobilien GmbH übergehen. Wir können daher derzeit keine Verantwortung für Verträge, Abbuchungen oder Forderungen übernehmen, die von der A&C Wohnart Immobilien GmbH nicht abgeschlossen, nicht bestätigt und deren Bestand uns nicht bekannt war.
+Gleichzeitig möchten wir ausdrücklich betonen, dass wir die Angelegenheit nicht streitig behandeln möchten. Wir sind an einer raschen, geordneten und kooperativen Klärung interessiert. Darüber hinaus können wir uns gut vorstellen, nach Abschluss der laufenden Renovierungs- und Sanierungsarbeiten wieder Kunde der STURM ENERGIE GmbH zu werden, sofern die künftige Versorgung und die Konditionen entsprechend geklärt werden können.
+Damit wir Ihre Mitteilung ordnungsgemäß prüfen und die nächsten Schritte korrekt setzen können, ersuchen wir Sie höflich um vollständige schriftliche Beantwortung der folgenden Punkte:
+1. Zweck Ihrer Anfrage - Bitte stellen Sie klar, ob sich Ihre Kontaktaufnahme ausschließlich auf Schlussrechnungen, Endabrechnungen, Gutschriften oder Guthaben aus bereits beendeten Verträgen der Vorbesitzer bzw. der früheren Verwaltung bezieht oder ob es aus Ihrer Sicht um eine künftige Lieferanten- bzw. Vertragsumstellung ab dem 20.02.2026 geht.
+2. Vertrags- und Zählerdaten Bitte übermitteln Sie uns sämtliche betroffenen Verträge betreffend die Liegenschaft 1120 Wien, Schallergasse 35, einschließlich Kundennummer, Vertragsnummer, Zählpunktnummer, Zählernummer und der jeweiligen Verbrauchsstelle.
+3. Vertragsstatus und Kündigungen Bitte übermitteln Sie uns sämtliche Kündigungen, Kündigungsbestätigungen oder sonstigen Unterlagen, aus denen hervorgeht, wann, aus welchem Grund und mit Wirkung zu welchem Datum die von Ihnen erwähnten Verträge beendet wurden.
+4. Vollständige Abrechnungssituation Bitte übermitteln Sie uns sämtliche offenen Endabrechnungen, Schlussrechnungen, Gutschriften, Guthaben oder Forderungen und stellen Sie nachvollziehbar dar, auf welche Zeiträume sich diese Beträge beziehen, welche Beträge bereits abgebucht wurden, welche Beträge noch zur Abbuchung vorgesehen waren und von welchem IBAN etwaige Abbuchungen erfolgen sollten.
+5. Zahlungsstopp gegenüber der früheren Verwaltung Bitte bestätigen Sie uns schriftlich, dass bis zur vollständigen Klärung keine Guthaben an die frühere Hausverwaltung Hofhans Immobilienmanagement GmbH ausbezahlt und keine weiteren Abbuchungen vom Konto der früheren Verwaltung vorgenommen werden.
+Aktueller Versorgungsstatus und zuständige Stelle Bitte teilen Sie uns außerdem mit, an welche konkrete Stelle wir uns wenden müssen, um den aktuellen Versorgungsstatus der Liegenschaft zu prüfen. Insbesondere ersuchen wir um Mitteilung, ob wir uns diesbezüglich an den zuständigen Netzbetreiber, insbesondere Wiener Netze, oder an eine andere Stelle wenden müssen, um festzustellen, ob für die betroffenen Zählpunkte derzeit ein aktiver Energieliefervertrag, eine Grundversorgung, eine Ersatzversorgung oder eine sonstige Übergangsversorgung besteht.
+Wir ersuchen um Verständnis, dass wir ohne diese Unterlagen und Informationen keine abschließende Stellungnahme zu etwaigen Forderungen, Gutschriften oder Rechnungsempfängern abgeben können.
+Sobald uns die vollständigen Informationen vorliegen, werden wir diese sorgfältig prüfen und Ihnen zeitnah Rückmeldung geben. Unser Ziel ist es, die Angelegenheit korrekt zu bereinigen und eine gute Grundlage für eine mögliche künftige Zusammenarbeit mit STURM ENERGIE nach Abschluss der Renovierung zu schaffen.
+Mit freundlichen Grüßen
+Cosmin Covaciu
+Angaben zur neuen Eigentümergesellschaft laut Firmenbuch:
+Firma: A&C Wohnart Immobilien GmbH Firmenbuchnummer: FN 668224 h Rechtsform: Gesellschaft mit beschränkter Haftung Geschäftsanschrift: Parkring 2, 1010 Wien Eintragung im Firmenbuch: 08.01.2026 Geschäftsführer: Anastasia-Elena-Ekaterina Covaciu und Cosmin-Adrian Covaciu, jeweils selbständig vertretungsbefugt
+
+
+---------- Ca răspuns la ---------
+De la: grosskunde@sturmenergie.at
+Data: June 8th, 2026 3:19 PM
+
+Sehr geehrte Damen und Herren, betreffend nachstehender E-Mail bitte ich nochmals höflich um entsprechende Rückmeldung. Sollten Sie noch Fragen haben, stehe ich Ihnen natürlich jederzeit gerne zur Verfügung. Vielen Dank für Ihr Vertrauen! Melanie Edelmann Großkundenbetreuung STURM ENERGIE GmbH Wiedner Gürtel 13, 1100 Wien www.sturmenergie.at [http://www.sturmenergie.at] T: +43 1 512 12 22 E: grosskunde@sturmenergie.at [mailto:grosskunde@sturmenergie.at] FN: 432092 f | UID: ATU69767567 STURM ENERGIE ist Partner des österreichischen Verbandes der Immobilienwirtschaft. Der Schutz Ihrer Privatsphäre ist uns wichtig. Daher verarbeiten wir Ihre personenbezogenen Daten im Einklang mit dem geltenden Datenschutzrecht. Nähere Informationen finden Sie auf unserer Homepage www.sturmenergie.at/datenschutzerklaerung [http://www.sturmenergie.at/datenschutzerklaerung] Diese E-Mail und allfällige Anlagen enthalten vertrauliche und/oder rechtlich geschützte Informationen. Sie sind nur für den Adressaten bestimmt. Sollten Sie nicht der beabsichtigte/richtige Adressat, einer seiner Mitarbeiter oder sein Empfangsbevollmächtigter sein bzw. diese E-Mail irrtümlich erhalten haben, ist jede Offenlegung, Weiterleitung, Reproduktion oder sonstige Verwendung der darin enthaltenen Informationen unzulässig. In diesem Fall ersuchen wir Sie, den Absender sofort zu verständigen und die E-Mail und allfällige Anlagen unwiederbringlich zu vernichten. Für Übermittlungsfehler oder sonstige Irrtümer bei der Übermittlung besteht keine Haftung.
+
+als Antwort auf 01. Juni 2026, 10:38 grosskunde@sturmenergie.at
+Sehr geehrter Herr Covaciu, vielen Dank für Ihre E-Mail. Wie bereits im März 2026 der Hausverwaltung Hofhans mitgeteilt, welche die Information im Anschluss an Hrn. Mag. Capra Bogdan weitergegeben hat (bitte siehe Ticket 323811) wurden die bestehenden Verträge aufgrund des Eigentümerwechsels aufgekündigt. Auf ein an Hrn. Mag.Bogdan unterbreitetes Angebot erfolgte keine Reaktion. Bei welchem Lieferanten die Anlagen nun in Versorgung stehen, entzieht sich unserer Kenntnis. Die Auszahlung der Guthaben/Abbuchung der Forderungen lt. E-Mail der Hausverwaltung Hofhans konnte - auch wenn wir die Information recht kurzfristig erhalten haben - noch verhindert werden. Damit Ihnen sämtliche offene Rechnungen (auch jene, welche ein Guthaben aufweisen) übermittelt werden können bitten wir um Information, wer nun Rechnungsempfänger ist - ist es die Kanzlei CERHA HEMPEL Rechtsanwälte GmbH? Sollten Sie noch Fragen haben, stehe ich Ihnen natürlich jederzeit gerne zur Verfügung. Vielen Dank für Ihr Vertrauen! Melanie Edelmann Großkundenbetreuung STURM ENERGIE GmbH Wiedner Gürtel 13, 1100 Wien www.sturmenergie.at [http://www.sturmenergie.at] T: +43 1 512 12 22 E: grosskunde@sturmenergie.at [mailto:grosskunde@sturmenergie.at] FN: 432092 f | UID: ATU69767567 STURM ENERGIE ist Partner des österreichischen Verbandes der Immobilienwirtschaft. Der Schutz Ihrer Privatsphäre ist uns wichtig. Daher verarbeiten wir Ihre personenbezogenen Daten im Einklang mit dem geltenden Datenschutzrecht. Nähere Informationen finden Sie auf unserer Homepage www.sturmenergie.at/datenschutzerklaerung [http://www.sturmenergie.at/datenschutzerklaerung] Diese E-Mail und allfällige Anlagen enthalten vertrauliche und/oder rechtlich geschützte Informationen. Sie sind nur für den Adressaten bestimmt. Sollten Sie nicht der beabsichtigte/richtige Adressat, einer seiner Mitarbeiter oder sein Empfangsbevollmächtigter sein bzw. diese E-Mail irrtümlich erhalten haben, ist jede Offenlegung, Weiterleitung, Reproduktion oder sonstige Verwendung der darin enthaltenen Informationen unzulässig. In diesem Fall ersuchen wir Sie, den Absender sofort zu verständigen und die E-Mail und allfällige Anlagen unwiederbringlich zu vernichten. Für Übermittlungsfehler oder sonstige Irrtümer bei der Übermittlung besteht keine Haftung.
+
+als Antwort auf 27. Mai 2026, 19:59 Cosmin Covaciu <covaciu.gnm@gmail.com>
+Sehr geehrte Damen und Herren,
+ich bin der zuständige Verwalter / Vertreter der neuen Eigentümerseite der Liegenschaft 1120 Wien, Schallergasse 35.
+Hofhans Immobilienmanagement GmbH hat mitgeteilt, dass sie die Liegenschaft seit 01.01.2026 nach erfolgtem Verkauf nicht mehr verwaltet. Daher ersuche ich Sie ausdrücklich, keine weiteren Abbuchungen vom Treuhandkonto der Hofhans Immobilienmanagement GmbH vorzunehmen und etwaige Guthaben nicht an Hofhans Immobilienmanagement GmbH auszubezahlen.
+Ich ersuche Sie um dringende schriftliche Klärung folgender Punkte:
+welche Verträge, Kundennummern und Zählpunkte aktuell für 1120 Wien, Schallergasse 35 bei Ihnen geführt werden;
+welche Endabrechnungen aktuell offen sind;
+welche Beträge bereits abgebucht wurden oder zur Abbuchung vorgesehen sind;
+von welchem IBAN derzeit Abbuchungen erfolgen sollen;
+welche Guthaben aktuell bestehen und an wen diese auszuzahlen sind;
+welche Unterlagen Sie für die Umstellung auf die neue Eigentümerseite bzw. Verwaltung benötigen;
+wie die künftigen Rechnungen und Zahlungsinformationen auf die neue Verwaltung umgestellt werden können.
+Bis zur vollständigen Klärung ersuche ich Sie ausdrücklich, keine weiteren Abbuchungen vom Konto der früheren Verwaltung vorzunehmen und keine Guthaben an die frühere Verwaltung auszubezahlen.
+Bitte bestätigen Sie mir so schnell wie moglich den Eingang dieses Schreibens sowie die vorläufige Sperre weiterer Abbuchungen vom Konto Hofhans, soweit technisch und vertraglich möglich.
+Mit freundlichen Grüßen
+Cosmin Covaciu====
+La 2026.10.14 nu este identificat niciun contract STURM nou sau activ pentru clădire. Lista STURM din 2026.06.16 confirmă furnizarea încheiată pentru toate cele 21 de instalații: 12 de curent și 9 de gaz. Trei au data de sfârșit 2026.03.18; celelalte 18 au 2026.04.08. Rămân deschise deconturile, alocarea plăților/creditelor și adresa de corespondență.
+
+PROBLEME DESCHISE
+42017328 — 14 instalații | 2.662,60 EUR | Somații retrimise 2026.10.13; termen 2026.10.19. Include 98 EUR taxe. Verificarea fiecărei plăți și a perioadei datorate.
+42018142 — Top 5 | 137,11 EUR | 27,12 EUR curent + 109,99 EUR gaz conform extraselor 2026.10.07. Nu se adaugă din nou 27,12 EUR din scrisoarea 2026.09.24.
+42017328 — Top 17 curent | 432,66 EUR | Instalația 4000114087, distinctă de cele 14; scrisoare 2026.09.24, termen 2026.10.07. Sunt cerute facturile 50457/49328/49327 plus taxa de 7 EUR.
+Credit curent casa scării | 846,92 EUR | Instalația 4000108283 / factura 29707. Nu există aici încasare ori compensare confirmată; anunțul automat din factură trebuie citit împreună cu oprirea rambursărilor confirmată de STURM.
+Plata gaz Top 15 | 115,36 EUR | Auditul 2026.09.30 identifică plata personală din 2026.08.06 pentru factura 29700. Nu se plătește din nou fără verificarea alocării STURM.
+Răspunderea între proprietari | De clarificat | Capra afirmă la 2026.03.25 că vânzătorul suportă energia până la finalul contractului. STURM nu confirmă o repartizare; facturile includ perioade anterioare achiziției și vechiul UID.
+Adresă și conturi | Deschis | Parkring 2 produce retururi poștale. Eliminarea IBAN Hofhans a fost confirmată la 2026.06.17; actualizarea adresei nu este confirmată.
+Furnizorul actual | Neconfirmat aici | STURM recomandă Wiener Netze pentru statutul actual al fiecărui punct de consum. Încetarea STURM nu confirmă deconectarea fizică sau un contract la alt furnizor.
+
+CONVERSATII
+2026.03.25 | Capra → noi | Contractul vechi de curent | Spune că furnizarea încă există și costurile până la sfârșitul contractului sunt ale vânzătorului. | Repartizarea costurilor rămâne deschisă; afirmație Capra, nu acceptare STURM. | 7541c7a4
+
+2026.03.25 | Noi → Capra; Capra → noi | Gaz și situația utilităților | Întrebăm despre gaz; Capra spune că probabil este decuplat și va verifica. | Informație probabilă atunci; lista STURM ulterioară confirmă încetarea furnizării. | 4d4ae41f,1b461e74
+
+2026.03.25 | STURM → Capra → noi | Oferta #323971 | Tarif fix fără durată minimă, preaviz 14 zile; urma formular de semnat după confirmarea adresei. | OFERTĂ NEACCEPTATĂ. STURM confirmă ulterior lipsa răspunsului. | c49b8bb4
+
+2026.03.30 | Capra → noi | Adresa societății | Anunță că va actualiza sediul la Schallergasse 35. | Nu dovedește că STURM a actualizat adresa de corespondență. | e7654d1a
+
+2026.04.07 | Capra / Hofhans → noi | Reziliere și avertizare Wiener Netze | Capra anunță rezilierea; transmite avertizarea privind lipsa contractului și deconectarea. | Contractul vechi încetat; furnizorul actual se verifică separat la Wiener Netze. | f0c95518
+
+2026.05.27 | Hofhans → STURM, prin Capra | Oprirea debitărilor și rambursărilor | Hofhans cere să nu îi mai fie debitat contul și să nu primească creditele; cere repartizare între proprietari. | Oprirea confirmată ulterior; repartizarea banilor rămâne deschisă. | bdbfaefe
+
+2026.05.27 | Noi → STURM | Cerere situație completă #339194 | Cerem contracte, conturi, deconturi, credite și blocarea operațiunilor spre Hofhans. | TRIMIS. Răspunsuri parțiale la 2026.06.01 și 2026.06.17. | 1c657f52
+
+2026.05.27 | STURM → noi | Confirmare automată #339194 | Confirmă primirea cererii. | Confirmare de primire; nu soluționare. | d0076efb
+
+2026.06.01 | STURM → noi | Contracte reziliate; ofertă fără răspuns | Confirmă rezilierea vechilor contracte și oprirea debitărilor/rambursărilor; întreabă cine primește facturile. | Încetarea confirmată; deconturile și titularul sumelor rămân de clarificat. | 46501cec
+
+2026.06.08 | Noi → STURM | Obiecții și documente #339194 | Trimitem extras CF; cerem contracte, date de încetare, deconturi, statut și justificarea pretențiilor. | TRIMIS. Nu acceptăm prin acest mesaj datoriile vechi; nu comandăm furnizare. | 4041dc7c
+
+2026.06.08 | STURM → noi | Revenire la cererea de date | Solicită răspuns la mesajul din 2026.06.01. | Ulterior răspunde detaliat la 2026.06.17. | 1337c803
+
+2026.06.08 | Capra → STURM, copie noi | Destinatar facturi / credit | Precizează că CERHA nu este destinatarul facturării; noul proprietar este A&C. Consideră că un credit ar trebui să îi revină. | Beneficiarul creditelor nu este confirmat prin decont STURM. | 27bf0629
+
+2026.06.17 | STURM → noi | Răspuns complet #339194 și lista instalațiilor | Lista din 2026.06.16: 21 instalații cu furnizare încheiată. Datele bancare Hofhans eliminate; deconturi finale încă în curs atunci. | Contracte vechi închise; situația financiară nu este închisă. | f51d3f00
+
+2026.07.02 | Capra → noi | Somații STURM | Transmite notificările de plată primite poștal. | Poziții istorice de reconciliat, nu de adunat la retransmiteri. | 3f78b8ef
+
+2026.07.21 | Capra → noi | Facturi de curent pentru cele două conturi | Transmite facturi; anunță că va cere STURM să nu mai trimită corespondența la CERHA. | Reconcilierea anterioară: 1.817,73 EUR în 9 facturi, fără debit identificat atunci. Suprapuneri cu somațiile ulterioare. | 59ee9c56
+
+2026.08.04 | Capra → noi | Facturi gaz / adresă | Transmite facturile de gaz și insistă asupra actualizării adresei. | Repartizarea între proprietari și adresa rămân deschise. | 2bc1fedd
+
+2026.08.17 | Capra → noi | Noi notificări STURM | Transmite documente pentru conturile 42017328 și 42018142. | Facturi/somații istorice; nu reprezintă contracte noi. | de89fdf0,07c2bfe4
+
+2026.08.19 | STURM → noi | Somații #357112 / 42017328 | Retrimite opt somații de gaz după retur poștal pentru adresă insuficientă. | Plata/alocarea și adresa rămân de verificat; gaz Top 15 plătit personal conform auditului anterior. | 4fa309a0
+
+2026.08.26 | STURM → noi | Top 5 gaz #358681 | Retrimite factura 29721 și somația: 109,99 EUR. | Reluată în extrasul din 2026.10.07; nu se dublează. | f7bf25c4
+
+2026.09.17 | Capra → noi; noi → Capra | Retransmitere documente istorice | Capra indică documentele STURM din martie/aprilie; noi spunem că am cerut comunicarea directă. | Fără contract nou și fără confirmare de sold zero. | b8bab41b,1fd0bddf
+
+2026.09.17 | Capra → noi | Confirmare informală | Răspunde cordial mesajului de mulțumire; nu adaugă soluție STURM. | Informativ, fără modificarea situației contractuale sau financiare. | 6b370ac8
+
+2026.10.01 | Capra → noi | Scrisori STURM din 2026.09.24 | Top 5 curent: 27,12 EUR; Top 17 curent: 432,66 EUR; termen 2026.10.07. | Termen depășit; fără încasare confirmată. Top 5 se repetă în mesajul din 2026.10.07. | ee452cda
+
+2026.10.07 | STURM → noi | Cont 42018142 / #365740 | Retur poștal «necunoscut» la Parkring 2; extrase Top 5: curent 27,12 EUR + gaz 109,99 EUR. | 137,11 EUR pretinși; confirmarea plăților și corectarea adresei sunt deschise. | 97799dc8
+
+2026.10.13 | STURM → noi | Fost cont 42017328 / #365759 | 14 somații retrimise: 2.662,60 EUR, incluzând 98 EUR taxe. Cere plata sau dovezile de plată până la 2026.10.19. | DESCHIS. Reconciliere pe instalație; nu sunt 14 datorii noi de adăugat totalurilor vechi. | 0fed52e8====
+Nu am identificat un număr de contract STURM și nici un contract de furnizare semnat/acceptat de A&C. Avem documente despre furnizarea veche a clădirii, o ofertă ulterioară și facturi/somații. Aceasta este concluzia asupra documentelor disponibile, nu o dovadă absolută că nu a existat niciun alt acord.
+
+Am verificat identificatorii din 58 conținuturi PDF distincte care menționează domeniul STURM, textele/OCR indexate și căutări punctuale în Eva-Mail. Originalele incluse în analiză au hash identic indexului.
+
+Număr contract | Vertragsnummer / Vertrags-Nr. | NEIDENTIFICAT; nici dată de semnare identificată
+Număr client | Kundennummer | 42017328 și 42018142
+Număr instalație | Anlage / Anlagennummer | 21 identificatori de câte 10 cifre, detaliați mai jos
+Punct de consum | Zählpunkt | Coduri AT…; identifică punctul de consum
+Număr contor | Zählernummer | Număr tehnic; PAUSCHAL pentru poziția casei scării
+Număr factură | Endabrechnung / Abrechnung Nr. | Exemplu: 29721/10/2026, emisă 2026.05.18; nu este contract
+Referință de plată | Zahlungsreferenz | Exemplu Top 5 gaz: 400012438711; nu este contract
+Ticket de corespondență | Ticket | 323811, 323971, 339194, 357112, 358681, 365740, 365759; nu sunt contracte
+Cod produs | Produktblatt | EK_Q1e, valabil de la 2026.01.01; fișă de tarif, nu contract individual
+Condiții generale | AGB | Versiune valabilă din 2019.12; nu identifică acceptarea A&C
+
+INSTALATII — numar contract si data semnarii neidentificate la toate pozitiile
+13 | Curent | Neconfirmat în document cu un singur client | 4000108056 | 2023.01.01 | 2026.03.18 | AT0010000000000000001000009929690 | 2343674
+STG | Curent | 42017328 | 4000108283 | 2023.01.01 | 2026.03.18 | AT0010000000000000001000011331228 | PAUSCHAL
+8 | Curent | Neconfirmat în document cu un singur client | 4000108029 | 2023.01.01 | 2026.03.18 | AT0010000000000000001000011699882 | 2135438
+3 | Curent | 42017328 | 4000108037 | 2023.01.01 | 2026.04.08 | AT0010000000000000001000007668563 | LGZ1030757126082
+15 | Curent | 42017328 | 4000108033 | 2023.01.01 | 2026.04.08 | AT0010000000000000001000009150995 | LGZ1030757126588
+2 | Curent | 42017328 | 4000108036 | 2023.01.01 | 2026.04.08 | AT0010000000000000001000009677076 | LGZ1030757126587
+12 | Curent | 42017328 | 4000108055 | 2023.01.01 | 2026.04.08 | AT0010000000000000001000010118056 | LGZ1030757126077
+10 | Curent | 42017328 | 4000108035 | 2023.01.01 | 2026.04.08 | AT0010000000000000001000010168577 | ISK1040778141546
+17 | Curent | 42017328 | 4000114087 | 2023.02.02 | 2026.04.08 | AT0010000000000000001000012655645 | LGZ1030757126585
+5 | Curent | 42018142 | 4000112571 | 2023.01.11 | 2026.04.08 | AT0010000000000000001000013010182 | LGZ1030757126589
+16 | Curent | 42017328 | 4000108245 | 2023.01.01 | 2026.04.08 | AT0010000000000000001000014149795 | ISK1040778141043
+6 | Curent | 42017328 | 4000108030 | 2023.01.01 | 2026.04.08 | AT0010000000000000001000015174347 | LGZ1030757126586
+3 | Gaz | 42017328 | 4000108034 | 2023.01.01 | 2026.04.08 | AT9000590000000000000000000298916 | 4130234
+5 | Gaz | 42018142 | 4000112572 | 2023.01.11 | 2026.04.08 | AT9000590000000000000000000298917 | 4131424
+8 | Gaz | 42017328 | 4000108218 | 2023.01.01 | 2026.04.08 | AT9000590000000000000000000298918 | 8433076
+10 | Gaz | 42017328 | 4000108032 | 2023.01.01 | 2026.04.08 | AT9000590000000000000000000298919 | 4194437
+13 | Gaz | 42017328 | 4000108057 | 2023.01.01 | 2026.04.08 | AT9000590000000000000000000298920 | 4174067
+17 | Gaz | 42017328 | 4000114088 | 2023.02.02 | 2026.04.08 | AT9000590000000000000000000738479 | 8133447
+15 | Gaz | 42017328 | 4000108031 | 2023.01.01 | 2026.04.08 | AT9000590000000000000000000738491 | 4294425
+12 | Gaz | 42017328 | 4000108217 | 2023.01.01 | 2026.04.08 | AT9000590000000000000000000740276 | 4185700
+4 | Gaz | 42017328 | 4000108216 | 2023.01.01 | 2026.04.08 | AT9000590000000000000000000756092 | 4246760
+
+DOVEZI
+2026.03.25 | Oferta #323971 | STURM propune să transmită un formular precompletat pentru semnare după răspunsul privind adresa. Nu este confirmare de contract. | 06. Utilitati/UTILITATI Curent - Sturm Energie/2026.10.14 Situatie STURM/Surse/2026.03.25 c49b8bb4.txt
+2026.06.01 | Răspuns STURM | Confirmă că vechile contracte au fost reziliate și nu s-a răspuns la oferta transmisă lui Capra. | 06. Utilitati/UTILITATI Curent - Sturm Energie/2026.10.14 Situatie STURM/Surse/2026.06.01 46501cec.txt
+2026.06.16 | Lista STURM | 21 de instalații: toate cu furnizare încheiată. Rubrica partener: HI 1120, Schallergasse 35. Nu există coloană cu număr de contract. | 06. Utilitati/UTILITATI Curent - Sturm Energie/Anlagenliste_Schallergasse_35_16.06.2026.pdf
+2026.06.17 | Răspuns STURM #339194 | Explică rezilierea și lipsa acceptării ofertei. Documentele de închidere de la rețea se cer la Wiener Netze; datele Hofhans au fost eliminate. | 06. Utilitati/UTILITATI Curent - Sturm Energie/2026.10.14 Situatie STURM/Surse/2026.06.17 f51d3f00.txt
+2026.09.24 | Somații și formular SEPA | Pachetul retransmis prin Capra la 2026.10.01 conține somații și un formular SEPA necompletat (pagina 2 verificată vizual), fără semnătura A&C pe acea pagină. | 08. Corespondenta/2026.10.05 Actualizare comunicari/2026.10.05 Atasamente/2026.10.05 75af73b7 Schreiben von Sturm Energie_A&C Wohnart.pdf
+
+Exemplu decisiv — aceeași factură, adresare schimbată: factura 29708/10/2026 din 2026.05.18, gaz Top 17, client 42017328, instalație 4000114088, UID ATU76175979, perioada 2025.06.11–2026.04.08. Originalul 05. Asigurari/Asigurare cladire/20260526163714572.pdf este adresat p.a. Hofhans. Duplicatul R_D_4000114088_29708_10_2026_1.pdf este adresat p.a. A&C. Numărul facturii, clientul, instalația, perioada și UID rămân aceleași. Ambele pagini au fost verificate vizual. Aceasta dovedește retransmiterea/adresarea decontului vechi către A&C, nu încheierea unui contract nou.

@@ -1,0 +1,569 @@
+[
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2840",
+    "old_formula": "VLOOKUP(D2840,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "5003",
+    "new_formula": "=VLOOKUP(D2840,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "5003",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2841",
+    "old_formula": "VLOOKUP(D2841,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "5003",
+    "new_formula": "=VLOOKUP(D2841,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "5003",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2842",
+    "old_formula": "VLOOKUP(D2842,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "3003",
+    "new_formula": "=VLOOKUP(D2842,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "3003",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2843",
+    "old_formula": "VLOOKUP(D2843,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "3004",
+    "new_formula": "=VLOOKUP(D2843,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "3004",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2844",
+    "old_formula": "VLOOKUP(D2844,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "3004",
+    "new_formula": "=VLOOKUP(D2844,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "3004",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2845",
+    "old_formula": "VLOOKUP(D2845,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "7004",
+    "new_formula": "=VLOOKUP(D2845,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "7004",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2846",
+    "old_formula": "VLOOKUP(D2846,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2026",
+    "new_formula": "=VLOOKUP(D2846,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2026",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2847",
+    "old_formula": "VLOOKUP(D2847,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "9051",
+    "new_formula": "=VLOOKUP(D2847,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "9051",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2848",
+    "old_formula": "VLOOKUP(D2848,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2022",
+    "new_formula": "=VLOOKUP(D2848,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2022",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2849",
+    "old_formula": "VLOOKUP(D2849,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2022",
+    "new_formula": "=VLOOKUP(D2849,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2022",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2850",
+    "old_formula": "VLOOKUP(D2850,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "7004",
+    "new_formula": "=VLOOKUP(D2850,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "7004",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2851",
+    "old_formula": "VLOOKUP(D2851,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "7004",
+    "new_formula": "=VLOOKUP(D2851,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "7004",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2852",
+    "old_formula": "VLOOKUP(D2852,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "5003",
+    "new_formula": "=VLOOKUP(D2852,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "5003",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2853",
+    "old_formula": "VLOOKUP(D2853,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "5003",
+    "new_formula": "=VLOOKUP(D2853,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "5003",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2854",
+    "old_formula": "VLOOKUP(D2854,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "6003",
+    "new_formula": "=VLOOKUP(D2854,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "6003",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2855",
+    "old_formula": "VLOOKUP(D2855,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "6003",
+    "new_formula": "=VLOOKUP(D2855,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "6003",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2856",
+    "old_formula": "VLOOKUP(D2856,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "1006",
+    "new_formula": "=VLOOKUP(D2856,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "1006",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2857",
+    "old_formula": "VLOOKUP(D2857,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2058",
+    "new_formula": "=VLOOKUP(D2857,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2058",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2858",
+    "old_formula": "VLOOKUP(D2858,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "1006",
+    "new_formula": "=VLOOKUP(D2858,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "1006",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2892",
+    "old_formula": "VLOOKUP(D2892,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "9001",
+    "new_formula": "=VLOOKUP(D2892,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "9001",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2893",
+    "old_formula": "VLOOKUP(D2893,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "9014",
+    "new_formula": "=VLOOKUP(D2893,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "9014",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2894",
+    "old_formula": "VLOOKUP(D2894,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "1005",
+    "new_formula": "=VLOOKUP(D2894,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "1005",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2895",
+    "old_formula": "VLOOKUP(D2895,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "1005",
+    "new_formula": "=VLOOKUP(D2895,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "1005",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2896",
+    "old_formula": "VLOOKUP(D2896,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "1005",
+    "new_formula": "=VLOOKUP(D2896,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "1005",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2897",
+    "old_formula": "VLOOKUP(D2897,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "1005",
+    "new_formula": "=VLOOKUP(D2897,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "1005",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2898",
+    "old_formula": "VLOOKUP(D2898,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "1005",
+    "new_formula": "=VLOOKUP(D2898,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "1005",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2899",
+    "old_formula": "VLOOKUP(D2899,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "7007",
+    "new_formula": "=VLOOKUP(D2899,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "7007",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2900",
+    "old_formula": "VLOOKUP(D2900,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "7007",
+    "new_formula": "=VLOOKUP(D2900,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "7007",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2901",
+    "old_formula": "VLOOKUP(D2901,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "7007",
+    "new_formula": "=VLOOKUP(D2901,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "7007",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2902",
+    "old_formula": "VLOOKUP(D2902,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "7007",
+    "new_formula": "=VLOOKUP(D2902,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "7007",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2908",
+    "old_formula": "VLOOKUP(D2908,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "3010",
+    "new_formula": "=VLOOKUP(D2908,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "3010",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2909",
+    "old_formula": "VLOOKUP(D2909,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2055",
+    "new_formula": "=VLOOKUP(D2909,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2055",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2910",
+    "old_formula": "VLOOKUP(D2910,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2026",
+    "new_formula": "=VLOOKUP(D2910,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2026",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2911",
+    "old_formula": "VLOOKUP(D2911,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2026",
+    "new_formula": "=VLOOKUP(D2911,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2026",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2912",
+    "old_formula": "VLOOKUP(D2912,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2026",
+    "new_formula": "=VLOOKUP(D2912,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2026",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2913",
+    "old_formula": "VLOOKUP(D2913,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2026",
+    "new_formula": "=VLOOKUP(D2913,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2026",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2914",
+    "old_formula": "VLOOKUP(D2914,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "2026",
+    "new_formula": "=VLOOKUP(D2914,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "2026",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2915",
+    "old_formula": "VLOOKUP(D2915,'[1]ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "6003",
+    "new_formula": "=VLOOKUP(D2915,'ADAUGARE FORME 1'!$A$2:$C$869,3,0)",
+    "expected": "6003",
+    "reason": "Cheie univocă identică în nomenclatorul local; rezultat verificat cu cache sursă."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2724",
+    "old_formula": "VLOOKUP(F2724,'Codificare 1 Glazuri'!A4:B187,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2724,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2728",
+    "old_formula": "VLOOKUP(F2728,'Codificare 1 Glazuri'!A10:B193,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2728,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Negru",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2729",
+    "old_formula": "VLOOKUP(F2729,'Codificare 1 Glazuri'!A11:B194,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2729,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Maro",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2731",
+    "old_formula": "VLOOKUP(F2731,'Codificare 1 Glazuri'!A13:B196,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2731,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Galben",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2732",
+    "old_formula": "VLOOKUP(F2732,'Codificare 1 Glazuri'!A14:B197,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2732,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Galben",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2733",
+    "old_formula": "VLOOKUP(F2733,'Codificare 1 Glazuri'!A15:B198,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2733,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Galben",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2734",
+    "old_formula": "VLOOKUP(F2734,'Codificare 1 Glazuri'!A16:B199,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2734,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2735",
+    "old_formula": "VLOOKUP(F2735,'Codificare 1 Glazuri'!A17:B200,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2735,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2736",
+    "old_formula": "VLOOKUP(F2736,'Codificare 1 Glazuri'!A18:B201,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2736,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2737",
+    "old_formula": "VLOOKUP(F2737,'Codificare 1 Glazuri'!A19:B202,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2737,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Galben",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2738",
+    "old_formula": "VLOOKUP(F2738,'Codificare 1 Glazuri'!A20:B203,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2738,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Verde",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2740",
+    "old_formula": "VLOOKUP(F2740,'Codificare 1 Glazuri'!A22:B205,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2740,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Verde",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2741",
+    "old_formula": "VLOOKUP(F2741,'Codificare 1 Glazuri'!A23:B206,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2741,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Verde",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2742",
+    "old_formula": "VLOOKUP(F2742,'Codificare 1 Glazuri'!A24:B207,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2742,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2743",
+    "old_formula": "VLOOKUP(F2743,'Codificare 1 Glazuri'!A25:B208,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2743,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Negru",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2744",
+    "old_formula": "VLOOKUP(F2744,'Codificare 1 Glazuri'!A29:B212,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2744,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Rosu/Portocaliu",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2762",
+    "old_formula": "VLOOKUP(F2762,'Codificare 1 Glazuri'!A79:B262,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2762,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Albastru",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2763",
+    "old_formula": "VLOOKUP(F2763,'Codificare 1 Glazuri'!A80:B263,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2763,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Roz",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2764",
+    "old_formula": "VLOOKUP(F2764,'Codificare 1 Glazuri'!A81:B264,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2764,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2765",
+    "old_formula": "VLOOKUP(F2765,'Codificare 1 Glazuri'!A82:B265,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2765,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2766",
+    "old_formula": "VLOOKUP(F2766,'Codificare 1 Glazuri'!A83:B266,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2766,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Albastru",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2767",
+    "old_formula": "VLOOKUP(F2767,'Codificare 1 Glazuri'!A84:B267,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2767,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Roz",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2768",
+    "old_formula": "VLOOKUP(F2768,'Codificare 1 Glazuri'!A85:B268,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2768,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "G2769",
+    "old_formula": "VLOOKUP(F2769,'Codificare 1 Glazuri'!A86:B269,3,0)",
+    "old_cache": "#REF!",
+    "new_formula": "=VLOOKUP(F2769,'Codificare 1 Glazuri'!$A$4:$B$188,2,0)",
+    "expected": "Gri",
+    "reason": "Coloana întoarsă 3 depășea intervalul de 2 coloane; intervalul glisa neancorat. Cheie verificată în nomenclator."
+  },
+  {
+    "sheet": "NOMEXP02",
+    "cell": "I2747",
+    "old_formula": "VLOOKUP(D2747,'ADAUGARE FORME 1'!A:C,3,0)",
+    "old_cache": "#N/A",
+    "new_formula": "=VLOOKUP(D2747,'Adaugare forme'!$A$2:$C$224,3,0)",
+    "expected": "9049",
+    "reason": "Denumire exactă absentă din ADAUGARE FORME 1, dar prezentă în Adaugare forme r195 și Codificare forme r182 cu același cod 9049."
+  }
+]

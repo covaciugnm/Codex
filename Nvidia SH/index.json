@@ -1,0 +1,42 @@
+{
+  "project": {
+    "id": "24b73c73-d76e-44e4-a494-e8e80c29f745",
+    "name": "Nvidia SH",
+    "roots": [
+      "Z:\\00.Roboti\\Nvidia\\SH"
+    ],
+    "conversations": 1,
+    "subagents": 0,
+    "messages": 13,
+    "files_copied": 15,
+    "folder": "Nvidia SH",
+    "content_sha256": "6c501d2f0320de8fb2cfc4234cfeba17491ba0a4ec6a0653ac93f17d2c088f5a"
+  },
+  "threads": [
+    {
+      "id": "01a18d15-0888-7691-8734-f2ac73ef8c75",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Nvidia\\SH",
+      "created_at": 1793368328,
+      "updated_at": 1793613002,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Caută oferte Jetson și GB10",
+      "project_id": "24b73c73-d76e-44e4-a494-e8e80c29f745",
+      "project": "Nvidia SH",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+      "source_bytes": 4022162,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 116,
+      "message_count": 13,
+      "content_sha256": "16053b71e26d2b5961409a1357c96cf9bf817c77c9e649b334050768f54e362c",
+      "files_copied": 15,
+      "references_not_copied": 53,
+      "subagent": false,
+      "folder": "Nvidia SH/Caută oferte Jetson și GB10"
+    }
+  ]
+}

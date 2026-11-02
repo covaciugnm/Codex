@@ -1,0 +1,65 @@
+[
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\analyze_further.py",
+    "status": "copiat",
+    "saved_path": "fisiere/analyze_further--4a750eb4.py",
+    "bytes": 3814,
+    "sha256": "047cb7033f639d313da50bba505b15d857ff0bf9f790ac2811b69d46f5dbb0c0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\audit_data.py",
+    "status": "copiat",
+    "saved_path": "fisiere/audit_data--3d82d6ea.py",
+    "bytes": 4666,
+    "sha256": "b8fe5f56f96e713442fba52bc47481ce5fc39756f11718450591d4985ab0f85a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\customers.py",
+    "status": "copiat",
+    "saved_path": "fisiere/customers--c3a8495a.py",
+    "bytes": 835,
+    "sha256": "2129bec81dccde39d9887af6e4a7744c4fc0799441b8a7bbe1b57f9baa7a90c0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\sku5900.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sku5900--debae8eb.py",
+    "bytes": 3003,
+    "sha256": "a8031a8b377aa2b2143e8a1417ee209b446be14c89dcaa015336a9ee56d85390"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\sku5900_manifest.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sku5900_manifest--2ec0f675.py",
+    "bytes": 4165,
+    "sha256": "5379ff21841bac62d8e005e935815bbd4a8f138683ef7f9254e8939d48386578"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\sku_audit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sku_audit--d3e3cae7.py",
+    "bytes": 1800,
+    "sha256": "24e02eb1ab51b095d709e528b85fd1a5ca4b29c811bd92275e6f5373eb518fe7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\sku_manifest.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sku_manifest--3343ccfc.py",
+    "bytes": 6046,
+    "sha256": "3fd899fcdbf38dd96a0401dc4d50ffba53dee76075960ec8bab9581d5a723d58"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\verify5900_expected.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verify5900_expected--2fe2e15f.py",
+    "bytes": 1674,
+    "sha256": "53fe3e1564a55bf934effb62061f6696d5b84a1a68653a7cbb2a89b6a459bdba"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_date\\verify5900_final.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verify5900_final--8589f9c8.py",
+    "bytes": 4086,
+    "sha256": "951b70f3c65cc986f1c1bea47a6b66abab0af5d3ab25e0a4f14bf9373aca9c4b"
+  }
+]

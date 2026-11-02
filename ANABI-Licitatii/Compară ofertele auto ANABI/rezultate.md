@@ -3327,7 +3327,7 @@ Voi crea o pagină principală cu trei secțiuni — ANABI, EXECUTORI și INSOLV
       "command": "node -e \"fetch('https://prod.executori.ro/repes/main-es2015.4152f5fc8b659966c17d.js').then(r=>r.text()).then(t=>{require('fs').writeFileSync('sources/executori/repes-main.js',t); console.log(t.length); console.log([...new Set(t.match(/https?:[^\\s\\x22\\x27<>]+/g))].slice(-80).join('\\n'))})\""
     }
   ],
-  "aggregatedOutput": "1395604\nhttps://npms.io/search?q=ponyfill.\nhttp://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/images/m\nhttp://momentjs.com/guides/#/warnings/define-locale/\nhttp://momentjs.com/guides/#/warnings/js-date/\nhttp://momentjs.com/guides/#/warnings/min-max/\nhttp://momentjs.com/guides/#/warnings/add-inverted-param/\nhttp://momentjs.com/guides/#/warnings/zone/\nhttp://momentjs.com/guides/#/warnings/dst-shifted/\nhttp://www.w3.org/2000/svg\nhttp://g.co/ng/security#xss)\nhttp://g.co/ng/security#xss)`)}return\nhttp://g.co/ng/security#xss)`),\nhttp://g.co/ng/security#xss\nhttp://g.co/ng/security#xss).`),\nhttp://www.w3.org/1998/MathML/\nhttps://angular.io/api/common/NgForOf#change-propagation\nhttp://www.w3.org/1999/xhtml\nhttp://www.w3.org/1999/xlink\nhttp://www.w3.org/XML/1998/namespace\nhttp://www.w3.org/2000/xmlns/\nhttp://g.co/ng/security#xss)`)}}bypassSecurityTrustHtml(e){return\nhttp://bit.ly/IWukam\nhttps://material.angular.io/guide/theming\nhttps://angular.io/api/forms/${\nhttp://\nhttps://\nhttps://github.com/angular/angular/issues/20575\nhttps://www.unejr.ro/termeni-si-conditii/\nhttps://www.unejr.ro/gdpr/\nhttps://www.fonduri-ue.ro\nhttps://www.${e?this.globalDomain:this.defaultDomain}/recaptcha/api.js?onload=${this.windowOnLoadCallbackProperty}&render=${t}${this.getLanguageParam(n)}`}}return\nhttps://www.google.com/maps/search/?api=1&query=\nhttps://maps.googleapis.com/maps/api/staticmap?center=${this.auction.address.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get\nhttps://maps.googleapis.com/maps/api/staticmap?center=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get\nhttp://schema.org/Product\nhttps://schema.org/InStock\nhttps://schema.org/UsedCondition\nhttp://schema.org/Organization\nhttp://schema.org/Brand\nhttps://raw.githubusercontent.com/googlemaps/v3-utility-library/master/markerclusterer/images/m\n",
+  "aggregatedOutput": "1395604\nhttps://npms.io/search?q=ponyfill.\nhttp://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/images/m\nhttp://momentjs.com/guides/#/warnings/define-locale/\nhttp://momentjs.com/guides/#/warnings/js-date/\nhttp://momentjs.com/guides/#/warnings/min-max/\nhttp://momentjs.com/guides/#/warnings/add-inverted-param/\nhttp://momentjs.com/guides/#/warnings/zone/\nhttp://momentjs.com/guides/#/warnings/dst-shifted/\nhttp://www.w3.org/2000/svg\nhttp://g.co/ng/security#xss)\nhttp://g.co/ng/security#xss)`)}return\nhttp://g.co/ng/security#xss)`),\nhttp://g.co/ng/security#xss\nhttp://g.co/ng/security#xss).`),\nhttp://www.w3.org/1998/MathML/\nhttps://angular.io/api/common/NgForOf#change-propagation\nhttp://www.w3.org/1999/xhtml\nhttp://www.w3.org/1999/xlink\nhttp://www.w3.org/XML/1998/namespace\nhttp://www.w3.org/2000/xmlns/\nhttp://g.co/ng/security#xss)`)}}bypassSecurityTrustHtml(e){return\nhttp://bit.ly/IWukam\nhttps://material.angular.io/guide/theming\nhttps://angular.io/api/forms/${\nhttp://\nhttps://\nhttps://github.com/angular/angular/issues/20575\nhttps://www.unejr.ro/termeni-si-conditii/\nhttps://www.unejr.ro/gdpr/\nhttps://www.fonduri-ue.ro\nhttps://www.${e?this.globalDomain:this.defaultDomain}/recaptcha/api.js?onload=${this.windowOnLoadCallbackProperty}&render=${t}${this.getLanguageParam(n)}`}}return\nhttps://www.google.com/maps/search/?api=1&query=\nhttps://maps.googleapis.com/maps/api/staticmap?center=${this.auction.address.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get\nhttps://maps.googleapis.com/maps/api/staticmap?center=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get\nhttp://schema.org/Product\nhttps://schema.org/InStock\nhttps://schema.org/UsedCondition\nhttp://schema.org/Organization\nhttp://schema.org/Brand\nhttps://raw.githubusercontent.com/googlemaps/v3-utility-library/master/markerclusterer/images/m\n",
   "exitCode": 0,
   "durationMs": 403
 }
@@ -3516,7 +3516,7 @@ Voi crea o pagină principală cu trei secțiuni — ANABI, EXECUTORI și INSOLV
       "command": "node -e \"let t=require('fs').readFileSync('sources/executori/repes-main.js','utf8');for(let term of ['api/','getAuctions','auctions?','categories','pageSize','apiUrl']){let p=0,n=0;while((p=t.indexOf(term,p))>=0&&n++<10){console.log(term,t.slice(p-200,p+400));p+=term.length}}\""
     }
   ],
-  "aggregatedOutput": "api/ _ngForOfDirty=!0}set ngForTrackBy(e){Mi()&&null!=e&&\"function\"!=typeof e&&console&&console.warn&&console.warn(`trackBy must be a function, but received ${JSON.stringify(e)}. `+\"See https://angular.io/api/common/NgForOf#change-propagation for more information.\"),this._trackByFn=e}get ngForTrackBy(){return this._trackByFn}set ngForTemplate(e){e&&(this._template=e)}ngDoCheck(){if(this._ngForOfDirty){this._ngForOfDirty=!1;const n=this._ngForOf;if(!this._differ&&n)try{this._differ=this._differs.find(n).create(this.ngForTrackBy)}catch(t){throw new Error(`Cannot find a differ supporting object '${n}'\napi/  with \\n    reactive form directives has been deprecated in Angular v6 and will be removed \\n    in Angular v7.\\n    \\n    For more information on this, see our API docs here:\\n    https://angular.io/api/forms/${\"formControl\"===e?\"FormControlDirective\":\"FormControlName\"}#use-with-ngmodel\\n    `)}}const nv={provide:ky,useExisting:Ce(()=>iv),multi:!0};let iv=(()=>{class e{constructor(e,t){this._renderer=e,this._elementRef=t,this._optionMap=new Map,this._idCounter=0,this.onChange=e=>{},this.onTouched=()=>{},this._compareWith=_a}set compareWith(e){if(\"function\"!=typeof e)throw new Error(`compareWi\napi/ raries:this._config.libraries,region:this._config.region,language:this._config.language||\"en-US\"!==this.localeId?this.localeId:null};return`${t}//${this._config.hostAndPath||\"maps.googleapis.com/maps/api/js\"}?${Object.keys(n).filter(e=>null!=n[e]).filter(e=>!Array.isArray(n[e])||Array.isArray(n[e])&&n[e].length>0).map(e=>{let t=n[e];return Array.isArray(t)?{key:e,value:t.join(\",\")}:{key:e,value:n[e]}}).map(e=>`${e.key}=${e.value}`).join(\"&\")}`}};return e.\\u0275fac=function(t){return new(t||e)(Ke(Gx,8),Ke(Wx),Ke(Bx),Ke(Tc))},e.\\u0275prov=de({token:e,factory:e.\\u0275fac}),e})();var Kx;let Zx=(()\napi/ onst t=this.getAddress(e);return!e.county||t.length<=this.lineLength+15}addExtraLine(e){return!e||e.length<=this.descriptionLineLength}getAuctionPicturesUrls(e){return e.asset.pictures.map(t=>`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`)}initFavorite(){const e=JSON.parse(localStorage.getItem(\"favorites\"))||[];this.isFavorite=e&&e.indexOf(this.auction.asset.id)>-1}addToFavorites(e){e.stopPropagation();const t=JSON.parse(localStorage.getItem(\"favorites\"))||[];-1===t.indexOf(this.auction.asset.id)&&t.push(this.auction.asset.id),this.isFavorite=!0,localStorage.setIt\napi/ csService.trackEvent(\"SUBSCRIBE\",\"AUCTIONS\",\"Abonare\")})}onSlideshowIndexChange(e){this.galleryIndex=e+1}onPrintClick(){window.print()}getAuctionPicturesUrls(e){return e.asset.pictures.map(t=>`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`)}getAuctionPictureUrl(e,t){return`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`}get auctionLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.address.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4m\napi/ ntClick(){window.print()}getAuctionPicturesUrls(e){return e.asset.pictures.map(t=>`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`)}getAuctionPictureUrl(e,t){return`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`}get auctionLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.address.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get auctionAssetLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=\napi/ ures/${t}/thumbnail`)}getAuctionPictureUrl(e,t){return`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`}get auctionLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.address.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get auctionAssetLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA\napi/ ss.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get auctionAssetLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return\"/repes/api/auctions/request/\"}getAddress(e){if(e){if(e.originalAddress)return e.\napi/ r=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return\"/repes/api/auctions/request/\"}getAddress(e){if(e){if(e.originalAddress)return e.originalAddress;{let t=\"\";return t=(e.street||\"\")+(e.streetNo?\" nr. \"+e.streetNo:\"\"),e.city&&(t&&(t+=\", \"),t+=e.city),e.county?(t&&(t+=\", \"),t+=e.county):e.region&&(t&&(t+=\", \"),t+=e.region),e.country&&(t&&(t+=\", \"),t+=\napi/ ation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return\"/repes/api/auctions/request/\"}getAddress(e){if(e){if(e.originalAddress)return e.originalAddress;{let t=\"\";return t=(e.street||\"\")+(e.streetNo?\" nr. \"+e.streetNo:\"\"),e.city&&(t&&(t+=\", \"),t+=e.city),e.county?(t&&(t+=\", \"),t+=e.county):e.region&&(t&&(t+=\", \"),t+=e.region),e.country&&(t&&(t+=\", \"),t+=this.translateService.instant(e.country)),t}}return\"\"}getAddressNumber(e){let t=\"\";return e&&(e.flatNo&&(t+=\ngetAuctions t.get(`${this.basePath}/auctions/${encodeURIComponent(String(e))}/${encodeURIComponent(String(t))}`,{params:s,withCredentials:this.configuration.withCredentials,headers:a,observe:i,reportProgress:r})}getAuctionsUsingGET(e,t,n,i,r,s,a,o,l=\"body\",c=!1){let u=new hM({encoder:new _E});null!=e&&(u=u.set(\"encodedSearchDefinition\",e)),null!=t&&(u=u.set(\"searchText\",t)),null!=n&&(u=u.set(\"exactMatch\",n)),null!=i&&(u=u.set(\"pageSize\",i)),null!=r&&(u=u.set(\"page\",r)),null!=s&&(u=u.set(\"sortParams\",s)),null!=a&&(u=u.set(\"currency\",a)),null!=o&&(u=u.set(\"isOnMap\",o));let d=this.defaultHeaders;const h=this\ngetAuctions ation/json\"]);return null!=h&&(d=d.set(\"Accept\",h)),this.httpClient.get(`${this.basePath}/auctions`,{params:u,withCredentials:this.configuration.withCredentials,headers:d,observe:l,reportProgress:c})}getAuctionsUsingPOST(e,t,n,i,r,s,a,o,l=\"body\",c=!1){let u=new hM({encoder:new _E});null!=t&&(u=u.set(\"searchText\",t)),null!=n&&(u=u.set(\"exactMatch\",n)),null!=i&&(u=u.set(\"pageSize\",i)),null!=r&&(u=u.set(\"page\",r)),null!=s&&(u=u.set(\"sortParams\",s)),null!=a&&(u=u.set(\"currency\",a)),null!=o&&(u=u.set(\"isOnMap\",o));let d=this.defaultHeaders;if(this.configuration.accessToken){let e=\"function\"==typeof\ngetAuctions 1,this._filtersService.searchText=n,this._filtersService.updateSortCriteria(this._filtersService.sortCriteria),this._filtersService.updateCurrency(this._filtersService.currency),this._auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=n?n:\"\",this._filtersService.exactMatch,16,this.pageIndex,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{if(this._filtersService.updateAuctions(e.entries,e.totalCount),this.auctionNavigationService.createAuctionNavigation(e.entries),this.isLoading=!1,null!=t)\ngetAuctions .updateIsOnMap(!1)}ngOnInit(){const e=this.route.snapshot.queryParamMap.get(this.pageIdxParam);e&&(this.paramPageIndex=parseInt(e)),this._filtersService.updateIsOnMap(!1);const t=this.auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=this._filtersService.searchText?this._filtersService.searchText:\"\",this._filtersService.exactMatch,this.pageSize,this.paramPageIndex+1,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.auctions=e.entries,this.totalCount=e.totalCount,this.paginator.pageInde\ngetAuctions eIndex=e.pageIndex,this.changePageParam(this.pageIndex),this.pageIndex=this.pageIndex+1,this.analyticsService.trackEvent(\"PAGE_CHANGE\",\"AUCTIONS\",\"Schimbare pagin\\u0103\");const t=this.auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=this._filtersService.searchText?this._filtersService.searchText:\"\",this._filtersService.exactMatch,this.pageSize,this.pageIndex,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.auctions=e.entries,this.totalCount=e.totalCount,this.auctionNavigationService.\ngetAuctions s.getTitle(e));let t=this.auction.date.toString();this.auction.date instanceof Date||(t+=\":00+0000\"),this.parsedDate=new Date(Date.parse(t)),this._filtersService.currentAuction=e,this.auctionsService.getAuctionsUsingPOST(JSON.stringify({genericParams:{category:e.asset.category,type:e.asset.type}}),\"\",!1,4,1,SE.NEWEST,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.similar=e.entries});let n=null;e.auctioneer.organisation?n={genericParams:{auctioneerId:e.auctioneer.organisation.id,auctioneerName:e.auctioneer.organisation.name}}:e.auctioneer.person&&(n={genericParam\ngetAuctions nisation.id,auctioneerName:e.auctioneer.organisation.name}}:e.auctioneer.person&&(n={genericParams:{auctioneerId:e.auctioneer.person.id,auctioneerName:e.auctioneer.person.name}}),this.auctionsService.getAuctionsUsingPOST(JSON.stringify(n),\"\",!1,4,1,SE.NEWEST,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.latest=e.entries})},e=>{this.auctionNotFound=!0}),this.subscribeParamsForm.controls.auctionId.setValue(e.id)}),localStorage.getItem(\"languageRepes\")&&(this.lang=localStorage.getItem(\"languageRepes\")),this._translateService.onLangChange.subscribe(e=>{this.lang=e.\ngetAuctions t i=[\"0,0\"];return t.asset.address.gpsLocation&&(i=t.asset.address.gpsLocation.split(\",\")),i[1]}onPageChange(e){this.pageIndex=e.pageIndex,this.pageIndex=this.pageIndex+1;const t=this.auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=this._filtersService.searchText?this._filtersService.searchText:\"\",this._filtersService.exactMatch,this.pageSize,this.pageIndex,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.auctions=e.entries,this._filtersService.updateAuctions(this.auctions,e.totalCo\ngetAuctions ltersService.searchDefinition.genericParams.locationRadius=this.getEnumDistance(this.mapRadius),this._filtersService.updateSearchDefinition(this._filtersService.searchDefinition),this.auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=this._filtersService.searchText?this._filtersService.searchText:\"\",this._filtersService.exactMatch,16,this.pageIndex,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{let t=0;for(t=0;t<e.entries.length;t++){const n=e.entries[t];if(n.asset.address.gpsLocation){c\nauctions? \"div\",2),Aa(4,\"div\",3),Sa(5,PO,2,1,\"div\",4),Ya(),Aa(6,\"mat-paginator\",5,6),Na(\"page\",(function(e){return t.onPageChange(e)})),Ya(),Ya(),Sa(8,IO,3,3,\"div\",7),Ya()),2&e&&(fr(3),Ea(\"hidden\",0===(null==t.auctions?null:t.auctions.length)),fr(2),Ea(\"ngForOf\",t.auctions),fr(1),Ea(\"length\",t.totalCount)(\"pageSize\",t.pageSize)(\"hidePageSize\",!0),fr(2),Ea(\"ngIf\",0==(null==t.auctions?null:t.auctions.length)))},directives:[bO,Zu,wS,Xu,YO],pipes:[mx],styles:[\".switch-view-mode[_ngcontent-%COMP%]{text-align:right;font-size:35px}.card-container[_ngcontent-%COMP%]{padding:10px}.no-results[_ngcontent-%COMP%]{b\nauctions? &(fr(3),Ea(\"hidden\",0===(null==t.auctions?null:t.auctions.length)),fr(2),Ea(\"ngForOf\",t.auctions),fr(1),Ea(\"length\",t.totalCount)(\"pageSize\",t.pageSize)(\"hidePageSize\",!0),fr(2),Ea(\"ngIf\",0==(null==t.auctions?null:t.auctions.length)))},directives:[bO,Zu,wS,Xu,YO],pipes:[mx],styles:[\".switch-view-mode[_ngcontent-%COMP%]{text-align:right;font-size:35px}.card-container[_ngcontent-%COMP%]{padding:10px}.no-results[_ngcontent-%COMP%]{border:1px solid #c9c9c9;background-color:#d0d0d0;color:#757575}[_nghost-%COMP%]    .mat-paginator .mat-paginator-container{min-height:16px;line-height:1}\"]}),e})();con\npageSize 1,\"mat-select\",17),Na(\"selectionChange\",(function(t){return Jt(e),Ua(2)._changePageSize(t.value)})),Sa(2,uS,2,2,\"mat-option\",18),Ya(),Ya()}if(2&e){const e=Ua(2);Ea(\"color\",e.color),fr(1),Ea(\"value\",e.pageSize)(\"disabled\",e.disabled)(\"aria-label\",e._intl.itemsPerPageLabel),fr(1),Ea(\"ngForOf\",e._displayedPageSizeOptions)}}function hS(e,t){if(1&e&&(Aa(0,\"div\",20),vo(1),Ya()),2&e){const e=Ua(2);fr(1),bo(e.pageSize)}}function mS(e,t){if(1&e&&(Aa(0,\"div\",12),Aa(1,\"div\",13),vo(2),Ya(),Sa(3,dS,3,5,\"mat-form-field\",14),Sa(4,hS,2,1,\"div\",15),Ya()),2&e){const e=Ua();fr(2),wo(\" \",e._intl.itemsPerPageLabel\npageSize ize)(\"disabled\",e.disabled)(\"aria-label\",e._intl.itemsPerPageLabel),fr(1),Ea(\"ngForOf\",e._displayedPageSizeOptions)}}function hS(e,t){if(1&e&&(Aa(0,\"div\",20),vo(1),Ya()),2&e){const e=Ua(2);fr(1),bo(e.pageSize)}}function mS(e,t){if(1&e&&(Aa(0,\"div\",12),Aa(1,\"div\",13),vo(2),Ya(),Sa(3,dS,3,5,\"mat-form-field\",14),Sa(4,hS,2,1,\"div\",15),Ya()),2&e){const e=Ua();fr(2),wo(\" \",e._intl.itemsPerPageLabel,\" \"),fr(1),Ea(\"ngIf\",e._displayedPageSizeOptions.length>1),fr(1),Ea(\"ngIf\",e._displayedPageSizeOptions.length<=1)}}function pS(e,t){if(1&e){const e=Fa();Aa(0,\"button\",21),Na(\"click\",(function(){return Jt(\npageSize T_PAGINATOR_DEFAULT_OPTIONS\");class vS{}const bS=nf(lf(vS));let wS=(()=>{class e extends bS{constructor(e,t,n){if(super(),this._intl=e,this._changeDetectorRef=t,this._pageIndex=0,this._length=0,this._pageSizeOptions=[],this._hidePageSize=!1,this._showFirstLastButtons=!1,this.page=new Zl,this._intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex()\npageSize this._length=0,this._pageSizeOptions=[],this._hidePageSize=!1,this._showFirstLastButtons=!1,this.page=new Zl,this._intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex(){return this._pageIndex}set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e)\npageSize h=0,this._pageSizeOptions=[],this._hidePageSize=!1,this._showFirstLastButtons=!1,this.page=new Zl,this._intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex(){return this._pageIndex}set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._chan\npageSize ns=!1,this.page=new Zl,this._intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex(){return this._pageIndex}set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageS\npageSize _intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex(){return this._pageIndex}set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageSize(e){this._pageSize=Math.m\npageSize }set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageSize(e){this._pageSize=Math.max(Qp(e),0),this._updateDisplayedPageSizeOptions()}get pageSizeOptions(){return this._pageSizeOptions}set pageSizeOptions(e){this._pageSizeOptions=(e||[]).map(e=>Qp(e)),this._updateDisplayedPageSizeOptions()}get hidePageSize(){return this._hidePageSize}set hidePageSize(e){this._hidePageSize=Xp(e)}get showFirstLastButtons(){retur\npageSize pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageSize(e){this._pageSize=Math.max(Qp(e),0),this._updateDisplayedPageSizeOptions()}get pageSizeOptions(){return this._pageSizeOptions}set pageSizeOptions(e){this._pageSizeOptions=(e||[]).map(e=>Qp(e)),this._updateDisplayedPageSizeOptions()}get hidePageSize(){return this._hidePageSize}set hidePageSize(e){this._hidePageSize=Xp(e)}get showFirstLastButtons(){return this._showFirstLastBut\npageSize h.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageSize(e){this._pageSize=Math.max(Qp(e),0),this._updateDisplayedPageSizeOptions()}get pageSizeOptions(){return this._pageSizeOptions}set pageSizeOptions(e){this._pageSizeOptions=(e||[]).map(e=>Qp(e)),this._updateDisplayedPageSizeOptions()}get hidePageSize(){return this._hidePageSize}set hidePageSize(e){this._hidePageSize=Xp(e)}get showFirstLastButtons(){return this._showFirstLastButtons}set show\n",
+  "aggregatedOutput": "api/ _ngForOfDirty=!0}set ngForTrackBy(e){Mi()&&null!=e&&\"function\"!=typeof e&&console&&console.warn&&console.warn(`trackBy must be a function, but received ${JSON.stringify(e)}. `+\"See https://angular.io/api/common/NgForOf#change-propagation for more information.\"),this._trackByFn=e}get ngForTrackBy(){return this._trackByFn}set ngForTemplate(e){e&&(this._template=e)}ngDoCheck(){if(this._ngForOfDirty){this._ngForOfDirty=!1;const n=this._ngForOf;if(!this._differ&&n)try{this._differ=this._differs.find(n).create(this.ngForTrackBy)}catch(t){throw new Error(`Cannot find a differ supporting object '${n}'\napi/  with \\n    reactive form directives has been deprecated in Angular v6 and will be removed \\n    in Angular v7.\\n    \\n    For more information on this, see our API docs here:\\n    https://angular.io/api/forms/${\"formControl\"===e?\"FormControlDirective\":\"FormControlName\"}#use-with-ngmodel\\n    `)}}const nv={provide:ky,useExisting:Ce(()=>iv),multi:!0};let iv=(()=>{class e{constructor(e,t){this._renderer=e,this._elementRef=t,this._optionMap=new Map,this._idCounter=0,this.onChange=e=>{},this.onTouched=()=>{},this._compareWith=_a}set compareWith(e){if(\"function\"!=typeof e)throw new Error(`compareWi\napi/ raries:this._config.libraries,region:this._config.region,language:this._config.language||\"en-US\"!==this.localeId?this.localeId:null};return`${t}//${this._config.hostAndPath||\"maps.googleapis.com/maps/api/js\"}?${Object.keys(n).filter(e=>null!=n[e]).filter(e=>!Array.isArray(n[e])||Array.isArray(n[e])&&n[e].length>0).map(e=>{let t=n[e];return Array.isArray(t)?{key:e,value:t.join(\",\")}:{key:e,value:n[e]}}).map(e=>`${e.key}=${e.value}`).join(\"&\")}`}};return e.\\u0275fac=function(t){return new(t||e)(Ke(Gx,8),Ke(Wx),Ke(Bx),Ke(Tc))},e.\\u0275prov=de({token:e,factory:e.\\u0275fac}),e})();var Kx;let Zx=(()\napi/ onst t=this.getAddress(e);return!e.county||t.length<=this.lineLength+15}addExtraLine(e){return!e||e.length<=this.descriptionLineLength}getAuctionPicturesUrls(e){return e.asset.pictures.map(t=>`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`)}initFavorite(){const e=JSON.parse(localStorage.getItem(\"favorites\"))||[];this.isFavorite=e&&e.indexOf(this.auction.asset.id)>-1}addToFavorites(e){e.stopPropagation();const t=JSON.parse(localStorage.getItem(\"favorites\"))||[];-1===t.indexOf(this.auction.asset.id)&&t.push(this.auction.asset.id),this.isFavorite=!0,localStorage.setIt\napi/ csService.trackEvent(\"SUBSCRIBE\",\"AUCTIONS\",\"Abonare\")})}onSlideshowIndexChange(e){this.galleryIndex=e+1}onPrintClick(){window.print()}getAuctionPicturesUrls(e){return e.asset.pictures.map(t=>`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`)}getAuctionPictureUrl(e,t){return`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`}get auctionLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.address.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4m\napi/ ntClick(){window.print()}getAuctionPicturesUrls(e){return e.asset.pictures.map(t=>`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`)}getAuctionPictureUrl(e,t){return`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`}get auctionLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.address.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get auctionAssetLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=\napi/ ures/${t}/thumbnail`)}getAuctionPictureUrl(e,t){return`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`}get auctionLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.address.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get auctionAssetLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA\napi/ ss.gpsLocation}&zoom=13&size=600x300&markers=${this.auction.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get auctionAssetLocationMapLink(){return`https://maps.googleapis.com/maps/api/staticmap?center=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return\"/repes/api/auctions/request/\"}getAddress(e){if(e){if(e.originalAddress)return e.\napi/ r=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return\"/repes/api/auctions/request/\"}getAddress(e){if(e){if(e.originalAddress)return e.originalAddress;{let t=\"\";return t=(e.street||\"\")+(e.streetNo?\" nr. \"+e.streetNo:\"\"),e.city&&(t&&(t+=\", \"),t+=e.city),e.county?(t&&(t+=\", \"),t+=e.county):e.region&&(t&&(t+=\", \"),t+=e.region),e.country&&(t&&(t+=\", \"),t+=\napi/ ation}&key=[CREDENTIAL_REDACTED]`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return\"/repes/api/auctions/request/\"}getAddress(e){if(e){if(e.originalAddress)return e.originalAddress;{let t=\"\";return t=(e.street||\"\")+(e.streetNo?\" nr. \"+e.streetNo:\"\"),e.city&&(t&&(t+=\", \"),t+=e.city),e.county?(t&&(t+=\", \"),t+=e.county):e.region&&(t&&(t+=\", \"),t+=e.region),e.country&&(t&&(t+=\", \"),t+=this.translateService.instant(e.country)),t}}return\"\"}getAddressNumber(e){let t=\"\";return e&&(e.flatNo&&(t+=\ngetAuctions t.get(`${this.basePath}/auctions/${encodeURIComponent(String(e))}/${encodeURIComponent(String(t))}`,{params:s,withCredentials:this.configuration.withCredentials,headers:a,observe:i,reportProgress:r})}getAuctionsUsingGET(e,t,n,i,r,s,a,o,l=\"body\",c=!1){let u=new hM({encoder:new _E});null!=e&&(u=u.set(\"encodedSearchDefinition\",e)),null!=t&&(u=u.set(\"searchText\",t)),null!=n&&(u=u.set(\"exactMatch\",n)),null!=i&&(u=u.set(\"pageSize\",i)),null!=r&&(u=u.set(\"page\",r)),null!=s&&(u=u.set(\"sortParams\",s)),null!=a&&(u=u.set(\"currency\",a)),null!=o&&(u=u.set(\"isOnMap\",o));let d=this.defaultHeaders;const h=this\ngetAuctions ation/json\"]);return null!=h&&(d=d.set(\"Accept\",h)),this.httpClient.get(`${this.basePath}/auctions`,{params:u,withCredentials:this.configuration.withCredentials,headers:d,observe:l,reportProgress:c})}getAuctionsUsingPOST(e,t,n,i,r,s,a,o,l=\"body\",c=!1){let u=new hM({encoder:new _E});null!=t&&(u=u.set(\"searchText\",t)),null!=n&&(u=u.set(\"exactMatch\",n)),null!=i&&(u=u.set(\"pageSize\",i)),null!=r&&(u=u.set(\"page\",r)),null!=s&&(u=u.set(\"sortParams\",s)),null!=a&&(u=u.set(\"currency\",a)),null!=o&&(u=u.set(\"isOnMap\",o));let d=this.defaultHeaders;if(this.configuration.accessToken){let e=\"function\"==typeof\ngetAuctions 1,this._filtersService.searchText=n,this._filtersService.updateSortCriteria(this._filtersService.sortCriteria),this._filtersService.updateCurrency(this._filtersService.currency),this._auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=n?n:\"\",this._filtersService.exactMatch,16,this.pageIndex,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{if(this._filtersService.updateAuctions(e.entries,e.totalCount),this.auctionNavigationService.createAuctionNavigation(e.entries),this.isLoading=!1,null!=t)\ngetAuctions .updateIsOnMap(!1)}ngOnInit(){const e=this.route.snapshot.queryParamMap.get(this.pageIdxParam);e&&(this.paramPageIndex=parseInt(e)),this._filtersService.updateIsOnMap(!1);const t=this.auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=this._filtersService.searchText?this._filtersService.searchText:\"\",this._filtersService.exactMatch,this.pageSize,this.paramPageIndex+1,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.auctions=e.entries,this.totalCount=e.totalCount,this.paginator.pageInde\ngetAuctions eIndex=e.pageIndex,this.changePageParam(this.pageIndex),this.pageIndex=this.pageIndex+1,this.analyticsService.trackEvent(\"PAGE_CHANGE\",\"AUCTIONS\",\"Schimbare pagin\\u0103\");const t=this.auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=this._filtersService.searchText?this._filtersService.searchText:\"\",this._filtersService.exactMatch,this.pageSize,this.pageIndex,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.auctions=e.entries,this.totalCount=e.totalCount,this.auctionNavigationService.\ngetAuctions s.getTitle(e));let t=this.auction.date.toString();this.auction.date instanceof Date||(t+=\":00+0000\"),this.parsedDate=new Date(Date.parse(t)),this._filtersService.currentAuction=e,this.auctionsService.getAuctionsUsingPOST(JSON.stringify({genericParams:{category:e.asset.category,type:e.asset.type}}),\"\",!1,4,1,SE.NEWEST,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.similar=e.entries});let n=null;e.auctioneer.organisation?n={genericParams:{auctioneerId:e.auctioneer.organisation.id,auctioneerName:e.auctioneer.organisation.name}}:e.auctioneer.person&&(n={genericParam\ngetAuctions nisation.id,auctioneerName:e.auctioneer.organisation.name}}:e.auctioneer.person&&(n={genericParams:{auctioneerId:e.auctioneer.person.id,auctioneerName:e.auctioneer.person.name}}),this.auctionsService.getAuctionsUsingPOST(JSON.stringify(n),\"\",!1,4,1,SE.NEWEST,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.latest=e.entries})},e=>{this.auctionNotFound=!0}),this.subscribeParamsForm.controls.auctionId.setValue(e.id)}),localStorage.getItem(\"languageRepes\")&&(this.lang=localStorage.getItem(\"languageRepes\")),this._translateService.onLangChange.subscribe(e=>{this.lang=e.\ngetAuctions t i=[\"0,0\"];return t.asset.address.gpsLocation&&(i=t.asset.address.gpsLocation.split(\",\")),i[1]}onPageChange(e){this.pageIndex=e.pageIndex,this.pageIndex=this.pageIndex+1;const t=this.auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=this._filtersService.searchText?this._filtersService.searchText:\"\",this._filtersService.exactMatch,this.pageSize,this.pageIndex,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{this.auctions=e.entries,this._filtersService.updateAuctions(this.auctions,e.totalCo\ngetAuctions ltersService.searchDefinition.genericParams.locationRadius=this.getEnumDistance(this.mapRadius),this._filtersService.updateSearchDefinition(this._filtersService.searchDefinition),this.auctionsService.getAuctionsUsingPOST(JSON.stringify(this._filtersService.searchDefinition),null!=this._filtersService.searchText?this._filtersService.searchText:\"\",this._filtersService.exactMatch,16,this.pageIndex,this._filtersService.sortCriteria,this._filtersService.currency,this._filtersService.isOnMap).subscribe(e=>{let t=0;for(t=0;t<e.entries.length;t++){const n=e.entries[t];if(n.asset.address.gpsLocation){c\nauctions? \"div\",2),Aa(4,\"div\",3),Sa(5,PO,2,1,\"div\",4),Ya(),Aa(6,\"mat-paginator\",5,6),Na(\"page\",(function(e){return t.onPageChange(e)})),Ya(),Ya(),Sa(8,IO,3,3,\"div\",7),Ya()),2&e&&(fr(3),Ea(\"hidden\",0===(null==t.auctions?null:t.auctions.length)),fr(2),Ea(\"ngForOf\",t.auctions),fr(1),Ea(\"length\",t.totalCount)(\"pageSize\",t.pageSize)(\"hidePageSize\",!0),fr(2),Ea(\"ngIf\",0==(null==t.auctions?null:t.auctions.length)))},directives:[bO,Zu,wS,Xu,YO],pipes:[mx],styles:[\".switch-view-mode[_ngcontent-%COMP%]{text-align:right;font-size:35px}.card-container[_ngcontent-%COMP%]{padding:10px}.no-results[_ngcontent-%COMP%]{b\nauctions? &(fr(3),Ea(\"hidden\",0===(null==t.auctions?null:t.auctions.length)),fr(2),Ea(\"ngForOf\",t.auctions),fr(1),Ea(\"length\",t.totalCount)(\"pageSize\",t.pageSize)(\"hidePageSize\",!0),fr(2),Ea(\"ngIf\",0==(null==t.auctions?null:t.auctions.length)))},directives:[bO,Zu,wS,Xu,YO],pipes:[mx],styles:[\".switch-view-mode[_ngcontent-%COMP%]{text-align:right;font-size:35px}.card-container[_ngcontent-%COMP%]{padding:10px}.no-results[_ngcontent-%COMP%]{border:1px solid #c9c9c9;background-color:#d0d0d0;color:#757575}[_nghost-%COMP%]    .mat-paginator .mat-paginator-container{min-height:16px;line-height:1}\"]}),e})();con\npageSize 1,\"mat-select\",17),Na(\"selectionChange\",(function(t){return Jt(e),Ua(2)._changePageSize(t.value)})),Sa(2,uS,2,2,\"mat-option\",18),Ya(),Ya()}if(2&e){const e=Ua(2);Ea(\"color\",e.color),fr(1),Ea(\"value\",e.pageSize)(\"disabled\",e.disabled)(\"aria-label\",e._intl.itemsPerPageLabel),fr(1),Ea(\"ngForOf\",e._displayedPageSizeOptions)}}function hS(e,t){if(1&e&&(Aa(0,\"div\",20),vo(1),Ya()),2&e){const e=Ua(2);fr(1),bo(e.pageSize)}}function mS(e,t){if(1&e&&(Aa(0,\"div\",12),Aa(1,\"div\",13),vo(2),Ya(),Sa(3,dS,3,5,\"mat-form-field\",14),Sa(4,hS,2,1,\"div\",15),Ya()),2&e){const e=Ua();fr(2),wo(\" \",e._intl.itemsPerPageLabel\npageSize ize)(\"disabled\",e.disabled)(\"aria-label\",e._intl.itemsPerPageLabel),fr(1),Ea(\"ngForOf\",e._displayedPageSizeOptions)}}function hS(e,t){if(1&e&&(Aa(0,\"div\",20),vo(1),Ya()),2&e){const e=Ua(2);fr(1),bo(e.pageSize)}}function mS(e,t){if(1&e&&(Aa(0,\"div\",12),Aa(1,\"div\",13),vo(2),Ya(),Sa(3,dS,3,5,\"mat-form-field\",14),Sa(4,hS,2,1,\"div\",15),Ya()),2&e){const e=Ua();fr(2),wo(\" \",e._intl.itemsPerPageLabel,\" \"),fr(1),Ea(\"ngIf\",e._displayedPageSizeOptions.length>1),fr(1),Ea(\"ngIf\",e._displayedPageSizeOptions.length<=1)}}function pS(e,t){if(1&e){const e=Fa();Aa(0,\"button\",21),Na(\"click\",(function(){return Jt(\npageSize T_PAGINATOR_DEFAULT_OPTIONS\");class vS{}const bS=nf(lf(vS));let wS=(()=>{class e extends bS{constructor(e,t,n){if(super(),this._intl=e,this._changeDetectorRef=t,this._pageIndex=0,this._length=0,this._pageSizeOptions=[],this._hidePageSize=!1,this._showFirstLastButtons=!1,this.page=new Zl,this._intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex()\npageSize this._length=0,this._pageSizeOptions=[],this._hidePageSize=!1,this._showFirstLastButtons=!1,this.page=new Zl,this._intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex(){return this._pageIndex}set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e)\npageSize h=0,this._pageSizeOptions=[],this._hidePageSize=!1,this._showFirstLastButtons=!1,this.page=new Zl,this._intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex(){return this._pageIndex}set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._chan\npageSize ns=!1,this.page=new Zl,this._intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex(){return this._pageIndex}set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageS\npageSize _intlChanges=e.changes.subscribe(()=>this._changeDetectorRef.markForCheck()),n){const{pageSize:e,pageSizeOptions:t,hidePageSize:i,showFirstLastButtons:r}=n;null!=e&&(this._pageSize=e),null!=t&&(this._pageSizeOptions=t),null!=i&&(this._hidePageSize=i),null!=r&&(this._showFirstLastButtons=r)}}get pageIndex(){return this._pageIndex}set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageSize(e){this._pageSize=Math.m\npageSize }set pageIndex(e){this._pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageSize(e){this._pageSize=Math.max(Qp(e),0),this._updateDisplayedPageSizeOptions()}get pageSizeOptions(){return this._pageSizeOptions}set pageSizeOptions(e){this._pageSizeOptions=(e||[]).map(e=>Qp(e)),this._updateDisplayedPageSizeOptions()}get hidePageSize(){return this._hidePageSize}set hidePageSize(e){this._hidePageSize=Xp(e)}get showFirstLastButtons(){retur\npageSize pageIndex=Math.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageSize(e){this._pageSize=Math.max(Qp(e),0),this._updateDisplayedPageSizeOptions()}get pageSizeOptions(){return this._pageSizeOptions}set pageSizeOptions(e){this._pageSizeOptions=(e||[]).map(e=>Qp(e)),this._updateDisplayedPageSizeOptions()}get hidePageSize(){return this._hidePageSize}set hidePageSize(e){this._hidePageSize=Xp(e)}get showFirstLastButtons(){return this._showFirstLastBut\npageSize h.max(Qp(e),0),this._changeDetectorRef.markForCheck()}get length(){return this._length}set length(e){this._length=Qp(e),this._changeDetectorRef.markForCheck()}get pageSize(){return this._pageSize}set pageSize(e){this._pageSize=Math.max(Qp(e),0),this._updateDisplayedPageSizeOptions()}get pageSizeOptions(){return this._pageSizeOptions}set pageSizeOptions(e){this._pageSizeOptions=(e||[]).map(e=>Qp(e)),this._updateDisplayedPageSizeOptions()}get hidePageSize(){return this._hidePageSize}set hidePageSize(e){this._hidePageSize=Xp(e)}get showFirstLastButtons(){return this._showFirstLastButtons}set show\n",
   "exitCode": 0,
   "durationMs": 227
 }
@@ -4953,3 +4953,932 @@ Starea monitorului a rămas neschimbată; nu pot confirma dacă există anunțur
 Verificarea din **18 octombrie** este în continuare blocată de eroarea Windows de acces la unitatea **V:**.
 
 Nu am modificat starea monitorului și nu pot confirma existența unor anunțuri noi. Pentru reluarea verificărilor este necesară remedierea accesului la unitatea partajată.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-9f61a915-863d-459c-b915-79439022302b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "49176",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "MXC launcher: enumerate MXC volume V:\\: You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272): You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272)\n",
+  "exitCode": 1,
+  "durationMs": 8258
+}
+````
+
+## Asistent
+
+Verificarea din **19 octombrie** a fost blocată de aceeași eroare Windows privind accesul la unitatea **V:**.
+
+Starea monitorului rămâne neschimbată. Nu pot confirma dacă au apărut anunțuri noi până la remedierea accesului.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "call_46f7a60712274f31bb305b28738462ea",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "27507",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "MXC launcher: enumerate MXC volume V:\\: You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272): You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272)\n",
+  "exitCode": 1,
+  "durationMs": 8361
+}
+````
+
+## Asistent
+
+Verificarea din **20 octombrie** este blocată de aceeași eroare Windows de acces la unitatea **V:**.
+
+Nu am actualizat starea monitorului și nu pot confirma dacă există anunțuri noi. Este necesară remedierea accesului pentru reluarea verificărilor.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-dbdbba34-ec2e-4b69-a479-1834a7f24f23",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "17872",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "MXC launcher: enumerate MXC volume V:\\: You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272): You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272)\n",
+  "exitCode": 1,
+  "durationMs": 7975
+}
+````
+
+## Asistent
+
+Verificarea din **21 octombrie** este blocată de eroarea Windows de acces la unitatea **V:**. Ultima verificare reușită rămâne cea din **14 octombrie**.
+
+Nu am modificat starea monitorului și nu pot confirma dacă au apărut anunțuri noi. Este necesară remedierea accesului pentru reluarea monitorizării.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-174e6821-4a34-4bca-a083-f3d7f4524606",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "20304",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "MXC launcher: enumerate MXC volume V:\\: You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272): You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272)\n",
+  "exitCode": 1,
+  "durationMs": 9598
+}
+````
+
+## Asistent
+
+Verificarea din **22 octombrie** este blocată de aceeași eroare Windows privind accesul la unitatea **V:**. Ultima verificare reușită rămâne cea din **14 octombrie**.
+
+Starea monitorului nu a fost modificată. Este necesară remedierea accesului; până atunci nu pot confirma dacă există anunțuri noi.
+
+## Asistent
+
+Este vorba despre **unitatea V:**, probabil un disc de rețea, nu despre un driver de instalat. Windows blochează conectarea la acea partajare fără autentificare, iar eroarea împiedică pornirea verificării, deși proiectul este pe **D:**.
+
+Pentru remediere:
+
+1. Deschide **File Explorer → Acest PC** și identifică unitatea **V:**.
+2. Dacă o folosești, conectează-te la rețeaua/VPN-ul necesar și acceseaz-o cu utilizatorul și parola serverului.
+3. Dacă este o conexiune veche pe care nu o mai folosești, clic dreapta pe **V:** → **Deconectare**. Asta elimină conexiunea, nu șterge fișierele de pe server.
+4. Închide și redeschide Codex, apoi reluăm verificarea.
+
+Nu recomand activarea accesului „guest” nesecurizat. **Ce nume sau adresă apare lângă V: în „Acest PC”?**
+
+## Asistent
+
+Voi încerca să citesc adresele asociate unităților V: și U:, ca să verific dacă indică același server.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-7e4ea734-4ced-44b1-a5ff-c4c16efe5423",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-SmbMapping | Where-Object { $_.LocalPath -in @('\"'V:', 'U:') } | Select-Object LocalPath, RemotePath, Status\nGet-ItemProperty -LiteralPath 'HKCU:\\\\Network\\\\V','HKCU:\\\\Network\\\\U' -ErrorAction SilentlyContinue | Select-Object PSChildName, RemotePath\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "32334",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-SmbMapping | Where-Object { $_.LocalPath -in @('V:', 'U:') } | Select-Object LocalPath, RemotePath, Status\nGet-ItemProperty -LiteralPath 'HKCU:\\Network\\V','HKCU:\\Network\\U' -ErrorAction SilentlyContinue | Select-Object PSChildName, RemotePath"
+    }
+  ],
+  "aggregatedOutput": "MXC launcher: enumerate MXC volume V:\\: You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272): You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272)\n",
+  "exitCode": 1,
+  "durationMs": 2811
+}
+````
+
+## Asistent
+
+Este posibil, dar **nu pot confirma că V: era pe 192.168.100.151**. Eroarea afișează doar litera V:, iar încercarea de a citi adresa este blocată înainte de pornire.
+
+Deschide **Command Prompt (CMD)** și execută:
+
+```cmd
+net use
+```
+
+Lista arată adresele pentru U: și V:, de forma `\\192.168.100.151\nume-partajare`. Pot indica același IP, dar foldere partajate diferite.
+
+Trimite-mi liniile pentru **U:** și **V:**, fără parole.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-4da56e4e-01e2-46e7-88f6-5f3076d9d880",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "69370",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "MXC launcher: enumerate MXC volume V:\\: You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272): You can't access this shared folder because your organization's security policies block unauthenticated guest access. These policies help protect your PC from unsafe or malicious devices on the network. (os error 1272)\n",
+  "exitCode": 1,
+  "durationMs": 13128
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Persistă eroarea de acces la V:, deja semnalată. Verificarea nu a putut rula; starea monitorului rămâne neschimbată. Nu există informații noi de comunicat.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5e5ff379-bd52-431e-80c6-7d3126b3594e",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "82404",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 1,
+  "durationMs": 118481
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificarea nu a returnat rezultate și a fost oprită după așteptare prelungită. Starea monitorului nu a fost actualizată; existența unor anunțuri noi rămâne neconfirmată. Nu există o remediere confirmată a blocajului deja semnalat.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-433535a2-ae4a-400e-ad35-57bf0c0b5973",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "52056",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.\r\nnode:internal/modules/run_main:107\r\n    triggerUncaughtException(\r\n    ^\r\n\r\n[TypeError: fetch failed] {\r\n  [cause]: Error: getaddrinfo ENOTFOUND anabi.just.ro\r\n      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {\r\n    errno: -3008,\r\n    code: 'ENOTFOUND',\r\n    syscall: 'getaddrinfo',\r\n    hostname: 'anabi.just.ro'\r\n  }\r\n}\r\n\r\nNode.js v24.18.0\r\n",
+  "exitCode": 1,
+  "durationMs": 3406
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-a1301939-3c81-4b90-9c55-946dea9afdf5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "29096",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1070 NEW 1\n[\n  {\n    \"url\": \"https://anabi.just.ro/licitatiionline/auction/1282/licitatie-bmw-750i-xdrive-redus-cu-50\",\n    \"title\": \"Licitație BMW 750i xDrive redus cu 50%\",\n    \"id\": 1282,\n    \"price\": \"57,629.00 lei,\",\n    \"date\": \"2026-11-04 15:00:00\",\n    \"category\": \"Autovehicule\",\n    \"text\": \"Licitatie Licitație BMW 750i xDrive redus cu 50% Acasa / RO --> Autovehicule / Licitație BMW 750i xDrive redus cu 50% Trebuie sa va autentificati sau sa va inregistrati inainte de a putea face oferte, &Icirc;n temeiul art. 29 din Legea nr. 318/2015 modificată și completată prin Legea nr. 230/2022 [1] coroborat cu art. 252 1 alin. (1) din Legea nr. 135/2010 privind Codul de Procedură Penală, vă facem cunoscut faptul că, la data de 11.11.2026 &icirc;n intervalul orar 9:00 &ndash; 13:00 , Agenția Națională de Administrare a Bunurilor Indisponibilizate organizează a treia licitație publică ce se va desfășura exclusiv prin mijloace electronice pentru următorul Bun: Nr. crt. Denumirea bunului mobil Descrierea sumară Preț de evaluare redus cu 50% Preț de evaluare redus cu 50% Cota TVA* 1. Marca BMW 57.629 LEI 11.000 EUR 0% Categorie M1 Caroseria AA BERLINA Denumire comercială 750i xDrive Anul fabricației 2016 Nr. kilometri 187414 km Tracțiune Integrală Capacitate cilindrică (cm 3 ) 4395 Putere (kW) 330 Serie șasiu WBA7F2C58GG419180 Transmisia Automată Motorizare/Combustibil Benzină Norma poluare Euro 6 Culoare Alb Număr de locuri 5 &Icirc;nmatriculat DA Certificat &icirc;nmatriculare (original) DA Carte de identificare a vehiculului (original) DA ITP valabil NU Număr chei 1 Loc predare Depozitul A.N.A.B.I., Pantelimon, jud. Ilfov Observații : 1. Parbriz fisurat circa 3-4 cm lungime și două puncte ciobite, st&acirc;nga și dreapta, de circa 1 cm diametru. 2. Portieră dreapta față - punct ruginit și vopsea sărită, circa 1 cm diametru. 3. Aripă dreapta față - zg&acirc;riată, circa 10 cm lungime. 4. Prag lateral dreapta - lovit, rupt și desprins; lipsă material, circa 20 cm lungime. 5. Spoilere față și spate - zg&acirc;riate &icirc;n partea inferioară pe toată lungimea. 6. Luft &icirc;ntre farul dreapta față și aripă și bară. 7. Spoiler st&acirc;nga (prag inferior) - lovit &icirc;n partea din față, circa 30 cm. Alte observații consemnate: capota față este ridicată pe partea dreaptă, cu urme de intervenție mecanică; mașina este colantată cu colant alb. Conform CARVERTICAL există o &icirc;nregistrare la categoria daune care indică daune suferite de vehicul, referindu-se la accidente rutiere sau la incidente similare. a) 05.2019 Statele Unite ale Americii - Elemente afectate, daune raportate, fără a menționa piesele afectate, estimare reparație &ldquo;Necunoscută&rdquo;. [1] Lege pentru modificarea şi completarea Legii nr. 318/2015 pentru &icirc;nființarea, organizarea și funcționarea Agenției Naționale de Administrare a Bunurilor Indisponibilizate și pentru modificarea și completarea unor acte normative, precum şi pentru modificarea şi completarea altor acte normative. Bunul mobil care face obiectul licitației poate fi vizionat la locul de depozitare situat pe raza localității Pantelimon, județul Ilfov, &icirc;n baza formulării unei solicitări scrise adresate Agenției p&acirc;nă la data de 30.10.2026 ora 15:00 și a programării realizate de inspectorii Agenției. Persoanele care transmit cereri de vizionare se declară de acord cu prelucrarea datelor cu caracter personal &icirc;n scopul asigurării vizionării. Oferta actuala: 57,629.00 lei --> Termenul licitatiei este 11.11.2026 si se va inchide peste 2 săptămâni --> Oferte: 0,\",\n    \"tables\": [\n      [\n        \"Nr. crt.\",\n        \"Denumirea bunului mobil Descrierea sumară\",\n        \"Preț de evaluare redus cu 50%\",\n        \"Preț de evaluare redus cu 50%\",\n        \"Cota TVA*\"\n      ],\n      [\n        \"1.\",\n        \"Marca\",\n        \"BMW\",\n        \"57.629 LEI\",\n        \"11.000 EUR\",\n        \"0%\"\n      ],\n      [\n        \"Categorie\",\n        \"M1\"\n      ],\n      [\n        \"Caroseria\",\n        \"AA BERLINA\"\n      ],\n      [\n        \"Denumire comercială\",\n        \"750i xDrive\"\n      ],\n      [\n        \"Anul fabricației\",\n        \"2016\"\n      ],\n      [\n        \"Nr. kilometri\",\n        \"187414 km\"\n      ],\n      [\n        \"Tracțiune\",\n        \"Integrală\"\n      ],\n      [\n        \"Capacitate cilindrică (cm 3 )\",\n        \"4395\"\n      ],\n      [\n        \"Putere (kW)\",\n        \"330\"\n      ],\n      [\n        \"Serie șasiu\",\n        \"WBA7F2C58GG419180\"\n      ],\n      [\n        \"Transmisia\",\n        \"Automată\"\n      ],\n      [\n        \"Motorizare/Combustibil\",\n        \"Benzină\"\n      ],\n      [\n        \"Norma poluare\",\n        \"Euro 6\"\n      ],\n      [\n        \"Culoare\",\n        \"Alb\"\n      ],\n      [\n        \"Număr de locuri\",\n        \"5\"\n      ],\n      [\n        \"&Icirc;nmatriculat\",\n        \"DA\"\n      ],\n      [\n        \"Certificat &icirc;nmatriculare (original)\",\n        \"DA\"\n      ],\n      [\n        \"Carte de identificare a vehiculului (original)\",\n        \"DA\"\n      ],\n      [\n        \"ITP valabil\",\n        \"NU\"\n      ],\n      [\n        \"Număr chei\",\n        \"1\"\n      ],\n      [\n        \"Loc predare\",\n        \"Depozitul A.N.A.B.I., Pantelimon, jud. Ilfov\"\n      ],\n      [\n        \"Observații : 1. Parbriz fisurat circa 3-4 cm lungime și două puncte ciobite, st&acirc;nga și dreapta, de circa 1 cm diametru. 2. Portieră dreapta față - punct ruginit și vopsea sărită, circa 1 cm diametru. 3. Aripă dreapta față - zg&acirc;riată, circa 10 cm lungime. 4. Prag lateral dreapta - lovit, rupt și desprins; lipsă material, circa 20 cm lungime. 5. Spoilere față și spate - zg&acirc;riate &icirc;n partea inferioară pe toată lungimea. 6. Luft &icirc;ntre farul dreapta față și aripă și bară. 7. Spoiler st&acirc;nga (prag inferior) - lovit &icirc;n partea din față, circa 30 cm. Alte observații consemnate: capota față este ridicată pe partea dreaptă, cu urme de intervenție mecanică; mașina este colantată cu colant alb. Conform CARVERTICAL există o &icirc;nregistrare la categoria daune care indică daune suferite de vehicul, referindu-se la accidente rutiere sau la incidente similare. a) 05.2019 Statele Unite ale Americii - Elemente afectate, daune raportate, fără a menționa piesele afectate, estimare reparație &ldquo;Necunoscută&rdquo;.\",\n        \"\"\n      ]\n    ],\n    \"vins\": [\n      \"WBA7F2C58GG419180\"\n    ]\n  }\n]\n",
+  "exitCode": 0,
+  "durationMs": 4086
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-b8632856-d4ab-4113-8d93-66d46995efdc",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');let d=JSON.parse(fs.readFileSync('sources/details.json'));console.log(JSON.stringify(d.filter(x=>x.vins?.includes('WBA7F2C58GG419180')).map(x=>({id:x.id,url:x.url,title:x.title}))));console.log(fs.readdirSync('sources').filter(x=>x.startsWith('monitor-')));\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "38936",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');let d=JSON.parse(fs.readFileSync('sources/details.json'));console.log(JSON.stringify(d.filter(x=>x.vins?.includes('WBA7F2C58GG419180')).map(x=>({id:x.id,url:x.url,title:x.title}))));console.log(fs.readdirSync('sources').filter(x=>x.startsWith('monitor-')));\""
+    }
+  ],
+  "aggregatedOutput": "Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.\r\n[{\"id\":1260,\"url\":\"https://anabi.just.ro/licitatiionline/auction/1260/licitatie-bmw-750i-xdrive\",\"title\":\"NEADJUDECAT Licitație BMW 750i xDrive\"},{\"id\":1271,\"url\":\"https://anabi.just.ro/licitatiionline/auction/1271/licitatie-bmw-750i-xdrive-redus-cu-25\",\"title\":\"Licitație BMW 750i xDrive redus cu 25%\"}]\n[\n  'monitor-2026-10-13',\n  'monitor-2026-10-14',\n  'monitor-2026-10-24',\n  'monitor-first.html',\n  'monitor-state.json'\n]\n",
+  "exitCode": 0,
+  "durationMs": 1251
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-852f4daf-60df-4de0-addf-24edff5ae9d7",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-10-24';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json'));const old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1070||n.length!==1||n[0].id!==1282)throw Error('\"'Unexpected coverage');const verified=n.map(x=>({...x,classification:'autoturism',knownVin:true,previousIds:[1260,1271],year:2016,auctionDate:'2026-11-11',auctionTime:'09:00–13:00',vatDeclared:'0% conform tabelului ANABI'}));fs.writeFileSync(dir+'/verified-new-cars.json',JSON.stringify(verified,null,2));const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,seenIds:[...new Set([...old.seenIds,...a.map(x=>x.id)])],seenUrls:[...new Set([...old.seenUrls,...a.map(x=>x.url)])],listings:a,newRelevantCount:1,lastNewRelevant:verified,note:'54 de pagini verificate, toate categoriile. O relistare BMW cu VIN cunoscut; data licitației din text diferă de countdown.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('Verified state saved. Baseline unchanged.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "40855",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-10-24';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json'));const old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1070||n.length!==1||n[0].id!==1282)throw Error('Unexpected coverage');const verified=n.map(x=>({...x,classification:'autoturism',knownVin:true,previousIds:[1260,1271],year:2016,auctionDate:'2026-11-11',auctionTime:'09:00–13:00',vatDeclared:'0% conform tabelului ANABI'}));fs.writeFileSync(dir+'/verified-new-cars.json',JSON.stringify(verified,null,2));const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,seenIds:[...new Set([...old.seenIds,...a.map(x=>x.id)])],seenUrls:[...new Set([...old.seenUrls,...a.map(x=>x.url)])],listings:a,newRelevantCount:1,lastNewRelevant:verified,note:'54 de pagini verificate, toate categoriile. O relistare BMW cu VIN cunoscut; data licitației din text diferă de countdown.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('Verified state saved. Baseline unchanged.');\""
+    }
+  ],
+  "aggregatedOutput": "Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.\r\nVerified state saved. Baseline unchanged.\n",
+  "exitCode": 0,
+  "durationMs": 1202
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>NOTIFY</decision>
+  <message>Verificarea a reușit: 54 de pagini parcurse. Un anunț nou: BMW 750i xDrive, 2016, 187.414 km — 57.629 lei, TVA declarat 0%. Licitație: 11.11.2026, 09:00–13:00, conform textului anunțului; numărătoarea inversă afișează altă dată. Este o relistare cu VIN deja cunoscut (WBA7F2C58GG419180). Sunt declarate avarii și un istoric de daună în SUA. Link ANABI: https://anabi.just.ro/licitatiionline/auction/1282/licitatie-bmw-750i-xdrive-redus-cu-50 . Starea monitorului a fost actualizată.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-1e5db6ed-a259-485b-bc0e-5c51a0de2ea3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "75600",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 1,
+  "durationMs": 39466
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-11568dae-3eae-4f4d-aa64-d2f081f8c306",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "10131",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1070 NEW 0\n[]\n",
+  "exitCode": 0,
+  "durationMs": 3820
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-dd7672ff-2056-4c2e-b149-477727a5a218",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-10-25';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1070||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('\"'Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "38857",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-10-25';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1070||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\""
+    }
+  ],
+  "aggregatedOutput": "State saved; baseline unchanged; no new listings.\n",
+  "exitCode": 0,
+  "durationMs": 128
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificare reușită: 54 de pagini și 1.070 de anunțuri, fără ID-uri sau URL-uri noi. Starea monitorului a fost actualizată; inventarul inițial a rămas neschimbat.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-3e95d467-958c-4f63-ae93-63c6ba15dbe2",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "52154",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1070 NEW 0\n[]\n",
+  "exitCode": 0,
+  "durationMs": 6125
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-a092a703-2905-4989-b348-231873dfc002",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-10-26';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1070||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('\"'Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "2507",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-10-26';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1070||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\""
+    }
+  ],
+  "aggregatedOutput": "State saved; baseline unchanged; no new listings.\n",
+  "exitCode": 0,
+  "durationMs": 107
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificare reușită: 54 de pagini și 1.070 de anunțuri, fără ID-uri sau URL-uri noi. Starea monitorului a fost actualizată; inventarul inițial a rămas neschimbat.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-83ff7e20-fad0-440d-9995-66f9a8df9bea",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "49095",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1071 NEW 1\n[\n  {\n    \"url\": \"https://anabi.just.ro/licitatiionline/auction/1283/licitatie-stoc-mobilier-si-alte-obiecte-cu-destinatie-comerciala-horeca-redus-cu-50-1\",\n    \"title\": \"LICITATIE STOC MOBILIER SI ALTE OBIECTE CU DESTINATIE COMERCIALA HORECA REDUS CU 50%\",\n    \"id\": 1283,\n    \"price\": \"163,638.50 lei,\",\n    \"date\": \"2026-11-12 16:00:00\",\n    \"category\": \"Stocuri de marfă\",\n    \"text\": \"Licitatie LICITATIE STOC MOBILIER SI ALTE OBIECTE CU DESTINATIE COMERCIALA HORECA REDUS CU 50% Acasa / RO --> Stocuri de marfă / LICITATIE STOC MOBILIER SI ALTE OBIECTE CU DESTINATIE COMERCIALA HORECA REDUS CU 50% Trebuie sa va autentificati sau sa va inregistrati inainte de a putea face oferte, &Icirc;n temeiul art. 29 din Legea nr. 318/2015 modificată și completată prin Legea nr. 230/2022 [1] coroborat cu art. 252 1 alin. (1) din Legea nr. 135/2010 privind Codul de Procedură Penală, vă facem cunoscut faptul că, la data de 19.11.2026 &icirc;n intervalul orar 9:00 &ndash; 15:00, Agenția Națională de Administrare a Bunurilor Indisponibilizate organizează licitație publică ce se va desfășura exclusiv prin mijloace electronice pentru următoarele bunuri: Nr. Denumire produs Buc. Preț Unit. -50% (lei) Total Lei -50% Total &euro; -50% Cota TVA 1 Canapea catifea verde 19 1.319,50 25.070,50 4.920,12 21 % (se aplica la prețul de adjudecare) 2 Masă 90 x 90 cm 16 428,50 6.856,00 1.345,50 3 Masă 180 x 90 cm 10 857,00 8.570,00 1.681,88 4 Scaun rotativ 11 365,00 4.015,00 787,95 5 Scaune fixe 44 457,00 20.108,00 3.946,22 6 Scaune &icirc;nalte bar 4 112,50 450,00 88,31 7 Proiector cu soclu E27 21 58,50 1.228,50 241,09 8 Spot LED Track Light 26 40,00 1.040,00 204,10 9 Televizor Samsung 4 6.343,50 25.374,00 4.979,69 10 Lustră tip pendul 10 300,00 3.000,00 588,75 11 Cameră supraveghere 7 428,50 3.000,00 588,75 12 Aer condiționat 1 1.591,00 1.591,00 312,24 13 Arbust artificial 15 405,00 6.075,00 1.192,23 14 Narghilea 4 180,00 720,00 141,30 15 Vitrină frigorifică Frigoglass 1 4.050,00 4.050,00 794,82 16 Vitrină frigorifică Vopte 1 607,50 607,50 119,22 17 Mini-vitrină Horeca Select 1 855,00 855,00 167,79 18 Espressor Expobar G10 1 7.875,00 7.875,00 1.545,48 19 R&acirc;șniță profesională cafea 1 540,00 540,00 105,97 20 Aspirator de m&acirc;nă Karcher 1 560,00 560,00 109,90 21 Dispozitiv lustruit industrial 1 2.700,00 2.700,00 529,88 22 Lavoar Kadda 4 90,50 362,00 71,05 23 Masă de exterior 4 1.200,00 4.800,00 942,01 24 Dozator bere Bevco 1 2.295,00 2.295,00 450,39 25 Boxă Audac Xeno8 6 345,00 2.070,00 406,24 26 Cameră supraveghere 8 428,50 3.428,00 672,75 27 Dulap frigorific Forcar 2 1.928,50 3.857,00 756,94 28 Masă frigorifică Amitek 1 2.475,00 2.475,00 485,73 29 Cuptor Pizza Group Entry 1 3.281,50 3.281,50 643,95 30 Cuptor electric Piron Caboto 1 1.928,50 1.928,50 378,47 31 Hotă profesională 1 606,50 606,50 119,03 32 Răzătoare Sirman GF Dakota 1 2.601,00 2.601,00 510,45 33 Masă frigorifică ArtSteel 1 4.156,50 4.156,50 815,72 34 Masă frigorifică Forcar 2 2.406,50 4.813,00 944,56 35 Masă frigorifică Kiour 1 1.969,00 1.969,00 386,42 36 Cuptor microunde Candy 1 110,00 110,00 21,59 37 Aparat vidat Metro GVS2040 1 600,00 600,00 117,75 TOTAL 163.638,50 32.114,30 [1] Lege pentru modificarea şi completarea Legii nr. 318/2015 pentru &icirc;nființarea, organizarea și funcționarea Agenției Naționale de Administrare a Bunurilor Indisponibilizate și pentru modificarea și completarea unor acte normative, precum şi pentru modificarea şi completarea altor acte normative Bunurile mobile care fac obiectul licitației poate fi vizionat la locul de depozitare situat pe raza Municipiului Constanța &icirc;n baza formulării unei solicitări scrise adresate Agenției p&acirc;nă la data de 10.11.2026 și a programării realizate de inspectorii Agenției. Persoanele care transmit cereri de vizionare se declară de acord cu prelucrarea datelor cu caracter personal &icirc;n scopul asigurării vizionării. Oferta actuala: 163,638.50 lei --> Termenul licitatiei este 19.11.2026 si se va inchide peste 3 săptămâni --> Oferte: 0,\",\n    \"tables\": [\n      [\n        \"Nr.\",\n        \"Denumire produs\",\n        \"Buc.\",\n        \"Preț Unit. -50% (lei)\",\n        \"Total Lei -50%\",\n        \"Total &euro; -50%\",\n        \"Cota TVA\"\n      ],\n      [\n        \"1\",\n        \"Canapea catifea verde\",\n        \"19\",\n        \"1.319,50\",\n        \"25.070,50\",\n        \"4.920,12\",\n        \"21 % (se aplica la prețul de adjudecare)\"\n      ],\n      [\n        \"2\",\n        \"Masă 90 x 90 cm\",\n        \"16\",\n        \"428,50\",\n        \"6.856,00\",\n        \"1.345,50\"\n      ],\n      [\n        \"3\",\n        \"Masă 180 x 90 cm\",\n        \"10\",\n        \"857,00\",\n        \"8.570,00\",\n        \"1.681,88\"\n      ],\n      [\n        \"4\",\n        \"Scaun rotativ\",\n        \"11\",\n        \"365,00\",\n        \"4.015,00\",\n        \"787,95\"\n      ],\n      [\n        \"5\",\n        \"Scaune fixe\",\n        \"44\",\n        \"457,00\",\n        \"20.108,00\",\n        \"3.946,22\"\n      ],\n      [\n        \"6\",\n        \"Scaune &icirc;nalte bar\",\n        \"4\",\n        \"112,50\",\n        \"450,00\",\n        \"88,31\"\n      ],\n      [\n        \"7\",\n        \"Proiector cu soclu E27\",\n        \"21\",\n        \"58,50\",\n        \"1.228,50\",\n        \"241,09\"\n      ],\n      [\n        \"8\",\n        \"Spot LED Track Light\",\n        \"26\",\n        \"40,00\",\n        \"1.040,00\",\n        \"204,10\"\n      ],\n      [\n        \"9\",\n        \"Televizor Samsung\",\n        \"4\",\n        \"6.343,50\",\n        \"25.374,00\",\n        \"4.979,69\"\n      ],\n      [\n        \"10\",\n        \"Lustră tip pendul\",\n        \"10\",\n        \"300,00\",\n        \"3.000,00\",\n        \"588,75\"\n      ],\n      [\n        \"11\",\n        \"Cameră supraveghere\",\n        \"7\",\n        \"428,50\",\n        \"3.000,00\",\n        \"588,75\"\n      ],\n      [\n        \"12\",\n        \"Aer condiționat\",\n        \"1\",\n        \"1.591,00\",\n        \"1.591,00\",\n        \"312,24\"\n      ],\n      [\n        \"13\",\n        \"Arbust artificial\",\n        \"15\",\n        \"405,00\",\n        \"6.075,00\",\n        \"1.192,23\"\n      ],\n      [\n        \"14\",\n        \"Narghilea\",\n        \"4\",\n        \"180,00\",\n        \"720,00\",\n        \"141,30\"\n      ],\n      [\n        \"15\",\n        \"Vitrină frigorifică Frigoglass\",\n        \"1\",\n        \"4.050,00\",\n        \"4.050,00\",\n        \"794,82\"\n      ],\n      [\n        \"16\",\n        \"Vitrină frigorifică Vopte\",\n        \"1\",\n        \"607,50\",\n        \"607,50\",\n        \"119,22\"\n      ],\n      [\n        \"17\",\n        \"Mini-vitrină Horeca Select\",\n        \"1\",\n        \"855,00\",\n        \"855,00\",\n        \"167,79\"\n      ],\n      [\n        \"18\",\n        \"Espressor Expobar G10\",\n        \"1\",\n        \"7.875,00\",\n        \"7.875,00\",\n        \"1.545,48\"\n      ],\n      [\n        \"19\",\n        \"R&acirc;șniță profesională cafea\",\n        \"1\",\n        \"540,00\",\n        \"540,00\",\n        \"105,97\"\n      ],\n      [\n        \"20\",\n        \"Aspirator de m&acirc;nă Karcher\",\n        \"1\",\n        \"560,00\",\n        \"560,00\",\n        \"109,90\"\n      ],\n      [\n        \"21\",\n        \"Dispozitiv lustruit industrial\",\n        \"1\",\n        \"2.700,00\",\n        \"2.700,00\",\n        \"529,88\"\n      ],\n      [\n        \"22\",\n        \"Lavoar Kadda\",\n        \"4\",\n        \"90,50\",\n        \"362,00\",\n        \"71,05\"\n      ],\n      [\n        \"23\",\n        \"Masă de exterior\",\n        \"4\",\n        \"1.200,00\",\n        \"4.800,00\",\n        \"942,01\"\n      ],\n      [\n        \"24\",\n        \"Dozator bere Bevco\",\n        \"1\",\n        \"2.295,00\",\n        \"2.295,00\",\n        \"450,39\"\n      ],\n      [\n        \"25\",\n        \"Boxă Audac Xeno8\",\n        \"6\",\n        \"345,00\",\n        \"2.070,00\",\n        \"406,24\"\n      ],\n      [\n        \"26\",\n        \"Cameră supraveghere\",\n        \"8\",\n        \"428,50\",\n        \"3.428,00\",\n        \"672,75\"\n      ],\n      [\n        \"27\",\n        \"Dulap frigorific Forcar\",\n        \"2\",\n        \"1.928,50\",\n        \"3.857,00\",\n        \"756,94\"\n      ],\n      [\n        \"28\",\n        \"Masă frigorifică Amitek\",\n        \"1\",\n        \"2.475,00\",\n        \"2.475,00\",\n        \"485,73\"\n      ],\n      [\n        \"29\",\n        \"Cuptor Pizza Group Entry\",\n        \"1\",\n        \"3.281,50\",\n        \"3.281,50\",\n        \"643,95\"\n      ],\n      [\n        \"30\",\n        \"Cuptor electric Piron Caboto\",\n        \"1\",\n        \"1.928,50\",\n        \"1.928,50\",\n        \"378,47\"\n      ],\n      [\n        \"31\",\n        \"Hotă profesională\",\n        \"1\",\n        \"606,50\",\n        \"606,50\",\n        \"119,03\"\n      ],\n      [\n        \"32\",\n        \"Răzătoare Sirman GF Dakota\",\n        \"1\",\n        \"2.601,00\",\n        \"2.601,00\",\n        \"510,45\"\n      ],\n      [\n        \"33\",\n        \"Masă frigorifică ArtSteel\",\n        \"1\",\n        \"4.156,50\",\n        \"4.156,50\",\n        \"815,72\"\n      ],\n      [\n        \"34\",\n        \"Masă frigorifică Forcar\",\n        \"2\",\n        \"2.406,50\",\n        \"4.813,00\",\n        \"944,56\"\n      ],\n      [\n        \"35\",\n        \"Masă frigorifică Kiour\",\n        \"1\",\n        \"1.969,00\",\n        \"1.969,00\",\n        \"386,42\"\n      ],\n      [\n        \"36\",\n        \"Cuptor microunde Candy\",\n        \"1\",\n        \"110,00\",\n        \"110,00\",\n        \"21,59\"\n      ],\n      [\n        \"37\",\n        \"Aparat vidat Metro GVS2040\",\n        \"1\",\n        \"600,00\",\n        \"600,00\",\n        \"117,75\"\n      ],\n      [\n        \"\",\n        \"TOTAL\",\n        \"\",\n        \"\",\n        \"163.638,50\",\n        \"32.114,30\"\n      ]\n    ],\n    \"vins\": []\n  }\n]\n",
+  "exitCode": 0,
+  "durationMs": 5820
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-c49ef7ec-8f57-42ab-a2ae-c9c59a1c91dd",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-10-27';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1071||n.length!==1||n[0].id!==1283)throw Error('\"'Unexpected comparison');const excluded=n.map(x=>({id:x.id,url:x.url,title:x.title,reason:'Stoc mobilier și echipamente HORECA; descrierea și tabelul complet nu includ autoturisme.'}));fs.writeFileSync(dir+'/excluded-new.json',JSON.stringify(excluded,null,2));const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,seenIds:[...new Set([...old.seenIds,...a.map(x=>x.id)])],seenUrls:[...new Set([...old.seenUrls,...a.map(x=>x.url)])],listings:a,newRelevantCount:0,lastNewRelevant:[],lastExcludedNew:excluded,note:'Toate cele 54 de pagini verificate în toate categoriile. Un anunț nou, ID 1283, verificat și exclus: mobilier și echipamente HORECA. Niciun autoturism nou.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new passenger cars.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "46256",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-10-27';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1071||n.length!==1||n[0].id!==1283)throw Error('Unexpected comparison');const excluded=n.map(x=>({id:x.id,url:x.url,title:x.title,reason:'Stoc mobilier și echipamente HORECA; descrierea și tabelul complet nu includ autoturisme.'}));fs.writeFileSync(dir+'/excluded-new.json',JSON.stringify(excluded,null,2));const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,seenIds:[...new Set([...old.seenIds,...a.map(x=>x.id)])],seenUrls:[...new Set([...old.seenUrls,...a.map(x=>x.url)])],listings:a,newRelevantCount:0,lastNewRelevant:[],lastExcludedNew:excluded,note:'Toate cele 54 de pagini verificate în toate categoriile. Un anunț nou, ID 1283, verificat și exclus: mobilier și echipamente HORECA. Niciun autoturism nou.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new passenger cars.');\""
+    }
+  ],
+  "aggregatedOutput": "State saved; baseline unchanged; no new passenger cars.\n",
+  "exitCode": 0,
+  "durationMs": 115
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificare reușită: 54 de pagini și 1.071 de anunțuri. Singurul anunț nou privește mobilier și echipamente HORECA; niciun autoturism nou. Starea monitorului a fost actualizată, fără modificarea inventarului inițial.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f1c7f0ad-716f-4e2b-9535-64b15ce7da5d",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "41119",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1072 NEW 1\n[\n  {\n    \"url\": \"https://anabi.just.ro/licitatiionline/auction/1284/licitatie-porche-m1-ad-coupe-911-gt3-touring\",\n    \"title\": \"LICITATIE Porche M1 AD Coupe 911 GT3 Touring\",\n    \"id\": 1284,\n    \"price\": \"101,549.30 lei,\",\n    \"date\": \"2026-11-18 16:00:00\",\n    \"category\": \"Autovehicule\",\n    \"text\": \"Licitatie LICITATIE Porche M1 AD Coupe 911 GT3 Touring Acasa / RO --> Autovehicule / LICITATIE Porche M1 AD Coupe 911 GT3 Touring Trebuie sa va autentificati sau sa va inregistrati inainte de a putea face oferte, &Icirc;n temeiul art. 29 din Legea nr. 318/2015 modificată și completată prin Legea nr. 230/2022 [1] coroborat cu art. 252 1 alin. (1) din Legea nr. 135/2010 privind Codul de Procedură Penală, vă facem cunoscut faptul că, la data de 25.11.2026 &icirc;n intervalul orar 9:00 &ndash; 15:00, Agenția Națională de Administrare a Bunurilor Indisponibilizate organizează prima licitație publică ce se va desfășura exclusiv prin mijloace electronice pentru următorul bun : Denumirea bunului mobil Descrierea sumară Preț de evaluare Preț de evaluare Cota TVA* Marca PORSCHE 1.015.493 LEI 190.000 EUR 21% (se aplică la prețul de adjudecare) Categorie M1 Caroseria AD Coupe Denumire comercială 911 GT3 Touring Anul fabricației 2023 Nr. kilometri 4.550 km Tracțiune Spate (RWD) Capacitate cilindrică 3996 cm 3 Putere maximă 375 kw Serie șasiu WP0ZZZ996RS260410 Motorizare/Combustibil Benzină Transmisia Automată Nr. de uși 2 ITP valabil Da Norma poluare Euro 6 Culoare Negru Număr de locuri 2 &Icirc;nmatriculat Nu Certificat &icirc;nmatriculare Nu Carte de identificare a vehiculului DA Număr chei 1 Loc predare Dragomirești Vale, jud. Ilfov Bunul mobil care face obiectul licitației poate fi vizionat la locul de depozitare situat pe raza județului Ilfov &icirc;n baza formulării unei solicitări scrise adresate Agenției p&acirc;nă la data de 17.11.2026 și a programării realizate de inspectorii Agenției. Persoanele care transmit cereri de vizionare se declară de acord cu prelucrarea datelor cu caracter personal &icirc;n scopul asigurării vizionării. [1] Lege pentru modificarea şi completarea Legii nr. 318/2015 pentru &icirc;nființarea, organizarea și funcționarea Agenției Naționale de Administrare a Bunurilor Indisponibilizate și pentru modificarea și completarea unor acte normative, precum şi pentru modificarea şi completarea altor acte normative Oferta actuala: 101,549.30 lei --> Termenul licitatiei este 25.11.2026 si se va inchide peste 4 săptămâni --> Oferte: 0,\",\n    \"tables\": [\n      [\n        \"Denumirea bunului mobil Descrierea sumară\",\n        \"Preț de evaluare\",\n        \"Preț de evaluare\",\n        \"Cota TVA*\"\n      ],\n      [\n        \"Marca\",\n        \"PORSCHE\",\n        \"1.015.493 LEI\",\n        \"190.000 EUR\",\n        \"21% (se aplică la prețul de adjudecare)\"\n      ],\n      [\n        \"Categorie\",\n        \"M1\"\n      ],\n      [\n        \"Caroseria\",\n        \"AD Coupe\"\n      ],\n      [\n        \"Denumire comercială\",\n        \"911 GT3 Touring\"\n      ],\n      [\n        \"Anul fabricației\",\n        \"2023\"\n      ],\n      [\n        \"Nr. kilometri\",\n        \"4.550 km\"\n      ],\n      [\n        \"Tracțiune\",\n        \"Spate (RWD)\"\n      ],\n      [\n        \"Capacitate cilindrică\",\n        \"3996 cm 3\"\n      ],\n      [\n        \"Putere maximă\",\n        \"375 kw\"\n      ],\n      [\n        \"Serie șasiu\",\n        \"WP0ZZZ996RS260410\"\n      ],\n      [\n        \"Motorizare/Combustibil\",\n        \"Benzină\"\n      ],\n      [\n        \"Transmisia\",\n        \"Automată\"\n      ],\n      [\n        \"Nr. de uși\",\n        \"2\"\n      ],\n      [\n        \"ITP valabil\",\n        \"Da\"\n      ],\n      [\n        \"Norma poluare\",\n        \"Euro 6\"\n      ],\n      [\n        \"Culoare\",\n        \"Negru\"\n      ],\n      [\n        \"Număr de locuri\",\n        \"2\"\n      ],\n      [\n        \"&Icirc;nmatriculat\",\n        \"Nu\"\n      ],\n      [\n        \"Certificat &icirc;nmatriculare\",\n        \"Nu\"\n      ],\n      [\n        \"Carte de identificare a vehiculului\",\n        \"DA\"\n      ],\n      [\n        \"Număr chei\",\n        \"1\"\n      ],\n      [\n        \"Loc predare\",\n        \"Dragomirești Vale, jud. Ilfov\"\n      ]\n    ],\n    \"vins\": [\n      \"WP0ZZZ996RS260410\"\n    ]\n  }\n]\n",
+  "exitCode": 0,
+  "durationMs": 6076
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f9deca1c-b6c0-42ce-b547-bd084043babf",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const d=JSON.parse(fs.readFileSync('sources/details.json'));console.log(JSON.stringify(d.filter(x=>x.vins?.includes('WP0ZZZ996RS260410')).map(x=>({id:x.id,url:x.url,title:x.title}))));const h=fs.readFileSync('sources/monitor-2026-10-28/auction-1284.html','utf8');console.log([...h.matchAll(/href=\\\\\\\"([\"'^'\"\\\\\\\"]+\\\\.pdf[\"'^'\"\\\\\\\"]*)\\\\\\\"/gi)].map(m=>m[1]));\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "66115",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const d=JSON.parse(fs.readFileSync('sources/details.json'));console.log(JSON.stringify(d.filter(x=>x.vins?.includes('WP0ZZZ996RS260410')).map(x=>({id:x.id,url:x.url,title:x.title}))));const h=fs.readFileSync('sources/monitor-2026-10-28/auction-1284.html','utf8');console.log([...h.matchAll(/href=\\\"([^\\\"]+\\.pdf[^\\\"]*)\\\"/gi)].map(m=>m[1]));\""
+    }
+  ],
+  "aggregatedOutput": "ParserError: \r\nLine |\r\n   2 |  . tion-1284.html','utf8');console.log([...h.matchAll(/href=\\\"([^\\\"]+\\.p .\r\n     |                                                                 ~\r\n     | Missing type name after '['.\r\n",
+  "exitCode": 1,
+  "durationMs": 183
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-cbe305c0-6c47-4e2b-9aa6-76fe4356388b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const d=JSON.parse(fs.readFileSync('sources/details.json'));console.log(JSON.stringify(d.filter(x=>x.vins?.includes('WP0ZZZ996RS260410')).map(x=>({id:x.id,url:x.url,title:x.title}))));\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "28948",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const d=JSON.parse(fs.readFileSync('sources/details.json'));console.log(JSON.stringify(d.filter(x=>x.vins?.includes('WP0ZZZ996RS260410')).map(x=>({id:x.id,url:x.url,title:x.title}))));\""
+    }
+  ],
+  "aggregatedOutput": "[{\"id\":1202,\"url\":\"https://anabi.just.ro/licitatiionline/auction/1202/licitatie-porche-m1-ad-coupe\",\"title\":\"NEADJUDECAT LICITATIE Porche M1 AD Coupe\"},{\"id\":1240,\"url\":\"https://anabi.just.ro/licitatiionline/auction/1240/licitatie-porche-m1-ad-coupe-911-gt3-touring-redus-cu-25\",\"title\":\"NEADJUDECAT LICITATIE Porche M1 AD Coupe 911 GT3 Touring redus cu 25%\"},{\"id\":1263,\"url\":\"https://anabi.just.ro/licitatiionline/auction/1263/licitatie-porche-m1-ad-coupe-911-gt3-touring-redus-cu-50\",\"title\":\"NEADJUDECAT (LICITATIE ANULATA) Porche M1 AD Coupe 911 GT3 Touring redus cu 50%\"}]\n",
+  "exitCode": 0,
+  "durationMs": 126
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6a387e2a-ceb3-4a4d-a8b5-da824467e92c",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-10-28';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1072||n.length!==1||n[0].id!==1284)throw Error('\"'Unexpected coverage');const verified=n.map(x=>({...x,classification:'autoturism',knownVin:true,previousIds:[1202,1240,1263],year:2023,auctionDate:'2026-11-25',auctionTime:'09:00–15:00',vatDeclared:'21% aplicat prețului de adjudecare',priceConflict:{listingRON:101549.30,descriptionRON:1015493,descriptionEUR:190000},note:'Prețul din listă este de zece ori mai mic decât evaluarea din tabel. Nu se poate confirma prețul corect fără clarificare ANABI. Data din countdown diferă de text.'}));fs.writeFileSync(dir+'/verified-new-cars.json',JSON.stringify(verified,null,2));const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,seenIds:[...new Set([...old.seenIds,...a.map(x=>x.id)])],seenUrls:[...new Set([...old.seenUrls,...a.map(x=>x.url)])],listings:a,newRelevantCount:1,lastNewRelevant:verified,lastExcludedNew:[],note:'54 de pagini verificate, toate categoriile. O relistare Porsche cu VIN cunoscut; neconcordanțe de preț și dată păstrate explicit.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('Verified state saved; baseline unchanged.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "43533",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-10-28';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1072||n.length!==1||n[0].id!==1284)throw Error('Unexpected coverage');const verified=n.map(x=>({...x,classification:'autoturism',knownVin:true,previousIds:[1202,1240,1263],year:2023,auctionDate:'2026-11-25',auctionTime:'09:00–15:00',vatDeclared:'21% aplicat prețului de adjudecare',priceConflict:{listingRON:101549.30,descriptionRON:1015493,descriptionEUR:190000},note:'Prețul din listă este de zece ori mai mic decât evaluarea din tabel. Nu se poate confirma prețul corect fără clarificare ANABI. Data din countdown diferă de text.'}));fs.writeFileSync(dir+'/verified-new-cars.json',JSON.stringify(verified,null,2));const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,seenIds:[...new Set([...old.seenIds,...a.map(x=>x.id)])],seenUrls:[...new Set([...old.seenUrls,...a.map(x=>x.url)])],listings:a,newRelevantCount:1,lastNewRelevant:verified,lastExcludedNew:[],note:'54 de pagini verificate, toate categoriile. O relistare Porsche cu VIN cunoscut; neconcordanțe de preț și dată păstrate explicit.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('Verified state saved; baseline unchanged.');\""
+    }
+  ],
+  "aggregatedOutput": "Verified state saved; baseline unchanged.\n",
+  "exitCode": 0,
+  "durationMs": 148
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>NOTIFY</decision>
+  <message>Anunț nou: Porsche 911 GT3 Touring, 2023, 4.550 km — relistare cu VIN deja cunoscut (WP0ZZZ996RS260410). Atenție: lista afișează 101.549,30 lei, dar tabelul indică 1.015.493 lei / 190.000 EUR, cu TVA 21% aplicat prețului de adjudecare. Prețul necesită clarificare ANABI. Licitație conform textului: 25.11.2026, 09:00–15:00; countdown-ul indică altă dată. Anunț: https://anabi.just.ro/licitatiionline/auction/1284/licitatie-porche-m1-ad-coupe-911-gt3-touring</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-3c8164a1-3a68-4f61-8db6-057c20ec45cc",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "47487",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1072 NEW 0\n[]\n",
+  "exitCode": 0,
+  "durationMs": 5991
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-40c86ccd-ce3b-4e2d-87a3-8000e1257478",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-10-29';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1072||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('\"'Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],lastExcludedNew:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "40947",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-10-29';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1072||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],lastExcludedNew:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\""
+    }
+  ],
+  "aggregatedOutput": "State saved; baseline unchanged; no new listings.\n",
+  "exitCode": 0,
+  "durationMs": 121
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificare reușită: 54 de pagini și 1.072 de anunțuri, fără ID-uri sau URL-uri noi. Starea monitorului a fost actualizată; inventarul inițial a rămas neschimbat.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-c50b48dd-8a92-458d-9946-1e3d2dfb9725",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "39648",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1072 NEW 0\n[]\n",
+  "exitCode": 0,
+  "durationMs": 5930
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-eb076957-b8e5-48c3-9d62-36dd151bbbe9",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-10-30';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1072||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('\"'Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],lastExcludedNew:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "61241",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-10-30';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1072||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],lastExcludedNew:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\""
+    }
+  ],
+  "aggregatedOutput": "State saved; baseline unchanged; no new listings.\n",
+  "exitCode": 0,
+  "durationMs": 113
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificare reușită: 54 de pagini și 1.072 de anunțuri, fără ID-uri sau URL-uri noi. Starea monitorului a fost actualizată; inventarul inițial a rămas neschimbat.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-a7beed63-3b5f-4da5-b892-029cff1f195d",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "40573",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1075 NEW 3\n[\n  {\n    \"url\": \"https://anabi.just.ro/licitatiionline/auction/1287/licitatie-mercedes-benz-s-class-s400d-4matic-2\",\n    \"title\": \"LICITATIE MERCEDES – BENZ S-Class / S400D 4MATIC\",\n    \"id\": 1287,\n    \"price\": \"145,164.50 lei,\",\n    \"date\": \"2026-11-18 15:00:00\",\n    \"category\": \"\",\n    \"text\": \"Licitatie LICITATIE MERCEDES – BENZ S-Class / S400D 4MATIC Acasa / RO --> LICITATIE MERCEDES – BENZ S-Class / S400D 4MATIC Trebuie sa va autentificati sau sa va inregistrati inainte de a putea face oferte, &Icirc;n temeiul art. 29 din Legea nr. 318/2015 modificată și completată prin Legea nr. 230/2022 [1] coroborat cu art. 252 1 alin. (1) din Legea nr. 135/2010 privind Codul de Procedură Penală, vă facem cunoscut faptul că ANABI organizează la data de 25/11/2026 &icirc;n intervalul orar 9:00 &ndash; 15:00, a TREIA licitație publică ce se va desfășura prin mijloace electronice pentru următorul BUN: Denumirea bunului mobil Descrierea sumară Pret de evaluare* Redus 50% Cota TVA (se adaugă la prețul de adjudecare) RON EURO Autovehicul marca MERCEDES &ndash; BENZ 145.164,50 27.888,50 0 (ZERO) Categorie M1 Autoturism Tipul/Model S-Class/ S400D 4MATIC Serie șasiu W1K2230331A031721 Caroserie AA Berlina Număr locuri 5 Putere maxima (kw) 243 Tractiune Integrala Norma de poluare E6 Anul fabricației 2021 Capacitate cilindrică (cmc) 2925 Transmisie Automata Sursa de energie Motorina Culoare Gri Rulaj 208.322 &Icirc;nmatriculat DA Data primei &icirc;nmatriculări 18.03.2021 ITP valabil DA Chei 2 Carte de identitate DA Certificat de &icirc;nmatriculare DA Observații: &Icirc;n urma inspecției au fost constatate zg&acirc;rieturi superficiale și alte urme minore de utilizare, specifice exploatării curente a vehiculului. Analiza istoricului kilometrajului disponibil &icirc;n baza de date autoDNA evidențiază o evoluție progresivă și logică a valorilor &icirc;nregistrate, ultima mențiune identificată indic&acirc;nd un rulaj de 181.760 km. Acest istoric este &icirc;n concordanță cu valoarea odometrului constatată la data evaluării, respectiv 208.322 km. Cu toate acestea, se constată &icirc;nsă o neconcordanță semnificativă &icirc;ntre aceste date și informația &icirc;nscrisă &icirc;n Certificatul RAR Auto-Pass, &icirc;n cadrul căruia este menționată o indicație a odometrului de 5.688 km. Această diferență majoră dintre valorile consemnate, precum și continuitatea istoricului de kilometraj identificat &icirc;n sursele disponibile, ridică suspiciuni privind acuratețea datelor &icirc;nregistrate și necesită clarificări suplimentare pentru stabilirea istoricului real al kilometrajului vehiculului. Autoturismul prezinta inscripții si logo-uri Brabus, personalizarea autentică a vehiculului poate avea o valoare superioară față de modelul standard, datorită caracterului exclusivist, nivelului de personalizare și notorietății brandului. Totuși, această apreciere a valorii este condiționată de existența documentației oficiale Brabus, a certificărilor și a provenienței verificabile a componentelor montate. *Regimul și cotele de taxă pe valoarea adăugată aplicabil/aplicabile pentru v&acirc;nzarea bunurilor mobile sunt cele prevăzute de titlul VII din Legea nr. 227/2015 privind Codul fiscal, cu modificările şi completările ulterioare. Cumpărătorului declarat c&acirc;știgător &icirc;i revine obligația de a respecta prevederile legale speciale, cum ar fi obligațiile de mediu, obligațiile de conservare a patrimoniului național sau alte asemenea, dacă este cazul. Bunul mobil poate fi vizionat la locul de depozitare situat pe raza localității Pantelimon, jud. Ilfov, &icirc;n baza formulării unei solicitări scrise adresate Agenției p&acirc;nă la data de 11/11/2026 ora 15.00 Persoanele care transmit cereri de vizionare se declară de acord cu prelucrarea datelor cu caracter personal &icirc;n scopul asigurării vizionării. [1] Lege pentru modificarea şi completarea Legii nr. 318/2015 pentru &icirc;nființarea, organizarea și funcționarea Agenției Naționale de Administrare a Bunurilor Indisponibilizate și pentru modificarea și completarea unor acte normative, precum şi pentru modificarea şi completarea altor acte normative Oferta actuala: 145,164.50 lei --> Termenul licitatiei este 25.11.2026 si se va inchide peste 3 săptămâni --> Oferte: 0,\",\n    \"tables\": [\n      [\n        \"Denumirea bunului mobil Descrierea sumară\",\n        \"Pret de evaluare* Redus 50%\",\n        \"Cota TVA (se adaugă la prețul de adjudecare)\"\n      ],\n      [\n        \"RON\",\n        \"EURO\"\n      ],\n      [\n        \"Autovehicul marca\",\n        \"MERCEDES &ndash; BENZ\",\n        \"145.164,50\",\n        \"27.888,50\",\n        \"0 (ZERO)\"\n      ],\n      [\n        \"Categorie\",\n        \"M1 Autoturism\"\n      ],\n      [\n        \"Tipul/Model\",\n        \"S-Class/ S400D 4MATIC\"\n      ],\n      [\n        \"Serie șasiu\",\n        \"W1K2230331A031721\"\n      ],\n      [\n        \"Caroserie\",\n        \"AA Berlina\"\n      ],\n      [\n        \"Număr locuri\",\n        \"5\"\n      ],\n      [\n        \"Putere maxima (kw)\",\n        \"243\"\n      ],\n      [\n        \"Tractiune\",\n        \"Integrala\"\n      ],\n      [\n        \"Norma de poluare\",\n        \"E6\"\n      ],\n      [\n        \"Anul fabricației\",\n        \"2021\"\n      ],\n      [\n        \"Capacitate cilindrică (cmc)\",\n        \"2925\"\n      ],\n      [\n        \"Transmisie\",\n        \"Automata\"\n      ],\n      [\n        \"Sursa de energie\",\n        \"Motorina\"\n      ],\n      [\n        \"Culoare\",\n        \"Gri\"\n      ],\n      [\n        \"Rulaj\",\n        \"208.322\"\n      ],\n      [\n        \"&Icirc;nmatriculat\",\n        \"DA\"\n      ],\n      [\n        \"Data primei &icirc;nmatriculări\",\n        \"18.03.2021\"\n      ],\n      [\n        \"ITP valabil\",\n        \"DA\"\n      ],\n      [\n        \"Chei\",\n        \"2\"\n      ],\n      [\n        \"Carte de identitate\",\n        \"DA\"\n      ],\n      [\n        \"Certificat de &icirc;nmatriculare\",\n        \"DA\"\n      ],\n      [\n        \"Observații: &Icirc;n urma inspecției au fost constatate zg&acirc;rieturi superficiale și alte urme minore de utilizare, specifice exploatării curente a vehiculului. Analiza istoricului kilometrajului disponibil &icirc;n baza de date autoDNA evidențiază o evoluție progresivă și logică a valorilor &icirc;nregistrate, ultima mențiune identificată indic&acirc;nd un rulaj de 181.760 km. Acest istoric este &icirc;n concordanță cu valoarea odometrului constatată la data evaluării, respectiv 208.322 km. Cu toate acestea, se constată &icirc;nsă o neconcordanță semnificativă &icirc;ntre aceste date și informația &icirc;nscrisă &icirc;n Certificatul RAR Auto-Pass, &icirc;n cadrul căruia este menționată o indicație a odometrului de 5.688 km. Această diferență majoră dintre valorile consemnate, precum și continuitatea istoricului de kilometraj identificat &icirc;n sursele disponibile, ridică suspiciuni privind acuratețea datelor &icirc;nregistrate și necesită clarificări suplimentare pentru stabilirea istoricului real al kilometrajului vehiculului. Autoturismul prezinta inscripții si logo-uri Brabus, personalizarea autentică a vehiculului poate avea o valoare superioară față de modelul standard, datorită caracterului exclusivist, nivelului de personalizare și notorietății brandului. Totuși, această apreciere a valorii este condiționată de existența documentației oficiale Brabus, a certificărilor și a provenienței verificabile a componentelor montate.\"\n      ]\n    ],\n    \"vins\": [\n      \"W1K2230331A031721\"\n    ]\n  },\n  {\n    \"url\": \"https://anabi.just.ro/licitatiionline/auction/1286/licitatie-mercedes-benz-s500-4matic-3\",\n    \"title\": \"LICITATIE MERCEDES-BENZ S500 4MATIC\",\n    \"id\": 1286,\n    \"price\": \"90,323.50 lei,\",\n    \"date\": \"2026-11-18 15:00:00\",\n    \"category\": \"\",\n    \"text\": \"Licitatie LICITATIE MERCEDES-BENZ S500 4MATIC Acasa / RO --> LICITATIE MERCEDES-BENZ S500 4MATIC Trebuie sa va autentificati sau sa va inregistrati inainte de a putea face oferte, &Icirc;n temeiul art. 29 din Legea nr. 318/2015 modificată și completată prin Legea nr. 230/2022 [1] coroborat cu art. 252 1 alin. (1) din Legea nr. 135/2010 privind Codul de Procedură Penală, vă facem cunoscut faptul că ANABI organizează la data de 25/11/2026 &icirc;n intervalul orar 9:00 &ndash; 15:00, A TREIA licitație publică ce se va desfășura prin mijloace electronice pentru următorul BUN: Denumirea bunului mobil Descrierea sumară Pret de evaluare * redus cu 50% Cota TVA (se adaugă la prețul de adjudecare) RON EURO Autovehicul marca MERCEDES &ndash; BENZ 90.323,50 17.352,50 21% Categorie M1 Tipul/Model S-Class / S400 4MATIC Serie șasiu WDD2173641A018837 Serie motor PARTIAL LIZIBILA Caroserie AD Coup&eacute; - 2 portiere Număr locuri 4 Putere maxima (kw) 270 Tractiune Integrală Norma de poluare Euro 6 Anul fabricației 2016 Capacitate cilindrică 2.996 Transmisie Automata Sursa de energie Benzină Culoare Alb Rulaj 182.222 km &Icirc;nmatriculat Da Data primei &icirc;nmatriculări 04.07.2016 ITP valabil Da Număr chei 1 Loc predare PANTELIMON Certificat de &icirc;nmatriculare Da Carte de identitate Da Observații: S-a constatat o zg&acirc;rietură profundă &icirc;n zona dreapta spate, deasupra roții, &icirc;n apropierea gurii de alimentare cu combustibil, de asemenea au fost constatate zg&acirc;rieturi la nivelul barelor de protecție față/spate, mai pronunțate &icirc;n partea frontală dreapta, precum și butoanele comenzilor geamurilor electrice de pe portiera șoferului prezentau o fixare precară, fiind ușordetașabile. &Icirc;n urma verificării documentației disponibile, s-a constatat că raportul autoDNA indică un ultim kilometraj raportat de 267.151 km, &icirc;n timp ce certificatul RAR Auto-Pass menționează o valoare a odometrului de 196.786 km. La data evaluării, odometrul vehiculului afișa 182.222 km. Se constată existența unor diferențe &icirc;ntre valorile kilometrajului identificate &icirc;n sursele consultate și valoarea afișată la momentul inspecției. [1] Lege pentru modificarea şi completarea Legii nr. 318/2015 pentru &icirc;nființarea, organizarea și funcționarea Agenției Naționale de Administrare a Bunurilor Indisponibilizate și pentru modificarea și completarea unor acte normative, precum şi pentru modificarea şi completarea altor acte normative Bunul mobil poate fi vizionat la locul de depozitare situat pe raza localității Pantelimon, jud. Ilfov, &icirc;n baza formulării unei solicitări scrise adresate Agenției p&acirc;nă la data de 11/11/2026 ora 15.00 Persoanele care transmit cereri de vizionare se declară de acord cu prelucrarea datelor cu caracter personal &icirc;n scopul asigurării vizionării. Oferta actuala: 90,323.50 lei --> Termenul licitatiei este 25.11.2026 si se va inchide peste 3 săptămâni --> Oferte: 0,\",\n    \"tables\": [\n      [\n        \"Denumirea bunului mobil Descrierea sumară\",\n        \"Pret de evaluare * redus cu 50%\",\n        \"Cota TVA (se adaugă la prețul de adjudecare)\"\n      ],\n      [\n        \"RON\",\n        \"EURO\"\n      ],\n      [\n        \"Autovehicul marca\",\n        \"MERCEDES &ndash; BENZ\",\n        \"90.323,50\",\n        \"17.352,50\",\n        \"21%\"\n      ],\n      [\n        \"Categorie\",\n        \"M1\"\n      ],\n      [\n        \"Tipul/Model\",\n        \"S-Class / S400 4MATIC\"\n      ],\n      [\n        \"Serie șasiu\",\n        \"WDD2173641A018837\"\n      ],\n      [\n        \"Serie motor\",\n        \"PARTIAL LIZIBILA\"\n      ],\n      [\n        \"Caroserie\",\n        \"AD Coup&eacute; - 2 portiere\"\n      ],\n      [\n        \"Număr locuri\",\n        \"4\"\n      ],\n      [\n        \"Putere maxima (kw)\",\n        \"270\"\n      ],\n      [\n        \"Tractiune\",\n        \"Integrală\"\n      ],\n      [\n        \"Norma de poluare\",\n        \"Euro 6\"\n      ],\n      [\n        \"Anul fabricației\",\n        \"2016\"\n      ],\n      [\n        \"Capacitate cilindrică\",\n        \"2.996\"\n      ],\n      [\n        \"Transmisie\",\n        \"Automata\"\n      ],\n      [\n        \"Sursa de energie\",\n        \"Benzină\"\n      ],\n      [\n        \"Culoare\",\n        \"Alb\"\n      ],\n      [\n        \"Rulaj\",\n        \"182.222 km\"\n      ],\n      [\n        \"&Icirc;nmatriculat\",\n        \"Da\"\n      ],\n      [\n        \"Data primei &icirc;nmatriculări\",\n        \"04.07.2016\"\n      ],\n      [\n        \"ITP valabil\",\n        \"Da\"\n      ],\n      [\n        \"Număr chei\",\n        \"1\"\n      ],\n      [\n        \"Loc predare\",\n        \"PANTELIMON\"\n      ],\n      [\n        \"Certificat de &icirc;nmatriculare\",\n        \"Da\"\n      ],\n      [\n        \"Carte de identitate\",\n        \"Da\"\n      ],\n      [\n        \"Observații: S-a constatat o zg&acirc;rietură profundă &icirc;n zona dreapta spate, deasupra roții, &icirc;n apropierea gurii de alimentare cu combustibil, de asemenea au fost constatate zg&acirc;rieturi la nivelul barelor de protecție față/spate, mai pronunțate &icirc;n partea frontală dreapta, precum și butoanele comenzilor geamurilor electrice de pe portiera șoferului prezentau o fixare precară, fiind ușordetașabile. &Icirc;n urma verificării documentației disponibile, s-a constatat că raportul autoDNA indică un ultim kilometraj raportat de 267.151 km, &icirc;n timp ce certificatul RAR Auto-Pass menționează o valoare a odometrului de 196.786 km. La data evaluării, odometrul vehiculului afișa 182.222 km. Se constată existența unor diferențe &icirc;ntre valorile kilometrajului identificate &icirc;n sursele consultate și valoarea afișată la momentul inspecției.\"\n      ]\n    ],\n    \"vins\": [\n      \"WDD2173641A018837\"\n    ]\n  },\n  {\n    \"url\": \"https://anabi.just.ro/licitatiionline/auction/1285/licitatie-bmw-seria-8m850i-xdrive-1\",\n    \"title\": \"LICITATIE BMW SERIA 8/M850I XDRIVE\",\n    \"id\": 1285,\n    \"price\": \"87,765.00 lei,\",\n    \"date\": \"2026-11-18 15:00:00\",\n    \"category\": \"Autovehicule\",\n    \"text\": \"Licitatie LICITATIE BMW SERIA 8/M850I XDRIVE Acasa / RO --> Autovehicule / LICITATIE BMW SERIA 8/M850I XDRIVE Trebuie sa va autentificati sau sa va inregistrati inainte de a putea face oferte, &Icirc;n temeiul art. 29 din Legea nr. 318/2015 modificată și completată prin Legea nr. 230/2022 [1] coroborat cu art. 252 1 alin. (1) din Legea nr. 135/2010 privind Codul de Procedură Penală, vă facem cunoscut faptul că ANABI organizează la data de 25/11/2026 &icirc;n intervalul orar 9:00 &ndash; 15:00, A TREIA licitație publică ce se va desfășura prin mijloace electronice pentru următorul BUN: Denumirea bunului mobil Descrierea sumară Pret de evaluare * REDUS 50% Cota TVA (se adaugă la prețul de adjudecare) RON EURO Autovehicul marca BMW 87.765,00 16.861 0 (ZERO) Categorie M1 Tipul/Model Seria 8 / M850i xDrive Serie șasiu WBABC41060BW69011 Serie motor NU POATE FI CITITA Caroserie AD Coup&eacute; cu 2 portiere Număr locuri 4 Putere maxima (kw) 390 Tractiune Integrală Norma de poluare Euro 6 Anul fabricației 2019 Capacitate cilindrică 4.395 Transmisie Automata Sursa de energie Benzină Culoare Negru Rulaj 213.676 km &Icirc;nmatriculat Da Data primei &icirc;nmatriculări 06.09.2019 ITP valabil Da Număr chei 2 Loc predare Pantelimon Certificat de inmatriculare Da Carte de identitate Da Observații: &Icirc;n urma inspecției vizuale efectuate asupra autoturismului, s-au constatat avarii la partea frontală a vehiculului, după cum urmează: &bull; capota față prezintă deformări și &icirc;ndoiri &icirc;n zona centrală frontală, cu afectarea alinierii față de elementele adiacente. &bull; grila frontală (masca radiatorului) este avariată, cu elemente rupte și deformate, &icirc;n special &icirc;n zona centrală și partea dreaptă. &bull; suporturile și elementele de fixare ale ansamblului frontal prezintă deformări și/sau desprinderi. &bull; elementul absorbant de impact amplasat &icirc;n spatele grilei frontale posibil deteriorat. &bull; bara față prezintă deformări locale, zg&acirc;rieturi și desprinderi ale elementelor de fixare, necesit&acirc;nd demontare pentru verificarea completă a componentelor interioare și a sistemelor auxiliare. &bull;anvelopa față st&acirc;nga prezintă ciupituri și deteriorări ale flancului exterior, fiind necesară o verificare tehnică detaliată pentru stabilirea gradului de afectare și a siguranței &icirc;n exploatare. La momentul inspecției nu au fost observate avarii evidente la farurile față, aripile față sau alte elemente structurale exterioare, &icirc;nsă starea acestora urmează a fi confirmată prin demontarea componentelor afectate și efectuarea unei constatări tehnice detaliate. &Icirc;n ceea ce privește partea posterioară a vehiculului, s-au constatat următoarele: &bull; bara spate prezintă zg&acirc;rieturi superficiale și medii pe suprafața exterioară. &bull; elementele de fixare (clemele de prindere) ale barei spate sunt desfăcute/deplasate, rezult&acirc;nd o fixare necorespunzătoare a acesteia față de caroserie. &Icirc;n ceea ce privește interiorul autoturismului evaluatorul a constatat aspectul fizic vizual al interiorului find apreciat ca unul bun, cu urme de uzură conforme vechimii și utilizării. Conform raportului autoDNA autovehiculul a avut dauna la elementele vitrate (geam spart) si dauna la caroserie in zona lateral st&acirc;nga si spate st&acirc;nga, valoare 16.000-17.000 RON. [1] Lege pentru modificarea şi completarea Legii nr. 318/2015 pentru &icirc;nființarea, organizarea și funcționarea Agenției Naționale de Administrare a Bunurilor Indisponibilizate și pentru modificarea și completarea unor acte normative, precum şi pentru modificarea şi completarea altor acte normative Bunul mobil poate fi vizionat la locul de depozitare situat pe raza localității Pantelimon, jud. Ilfov, &icirc;n baza formulării unei solicitări scrise adresate Agenției p&acirc;nă la data de 11/11/ 2026 ora 15.00 Persoanele care transmit cereri de vizionare se declară de acord cu prelucrarea datelor cu caracter personal &icirc;n scopul asigurării vizionării. Oferta actuala: 87,765.00 lei --> Termenul licitatiei este 25.11.2026 si se va inchide peste 3 săptămâni --> Oferte: 0,\",\n    \"tables\": [\n      [\n        \"Denumirea bunului mobil Descrierea sumară\",\n        \"Pret de evaluare * REDUS 50%\",\n        \"Cota TVA (se adaugă la prețul de adjudecare)\"\n      ],\n      [\n        \"RON\",\n        \"EURO\"\n      ],\n      [\n        \"Autovehicul marca\",\n        \"BMW\",\n        \"87.765,00\",\n        \"16.861\",\n        \"0 (ZERO)\"\n      ],\n      [\n        \"Categorie\",\n        \"M1\"\n      ],\n      [\n        \"Tipul/Model\",\n        \"Seria 8 / M850i xDrive\"\n      ],\n      [\n        \"Serie șasiu\",\n        \"WBABC41060BW69011\"\n      ],\n      [\n        \"Serie motor\",\n        \"NU POATE FI CITITA\"\n      ],\n      [\n        \"Caroserie\",\n        \"AD Coup&eacute; cu 2 portiere\"\n      ],\n      [\n        \"Număr locuri\",\n        \"4\"\n      ],\n      [\n        \"Putere maxima (kw)\",\n        \"390\"\n      ],\n      [\n        \"Tractiune\",\n        \"Integrală\"\n      ],\n      [\n        \"Norma de poluare\",\n        \"Euro 6\"\n      ],\n      [\n        \"Anul fabricației\",\n        \"2019\"\n      ],\n      [\n        \"Capacitate cilindrică\",\n        \"4.395\"\n      ],\n      [\n        \"Transmisie\",\n        \"Automata\"\n      ],\n      [\n        \"Sursa de energie\",\n        \"Benzină\"\n      ],\n      [\n        \"Culoare\",\n        \"Negru\"\n      ],\n      [\n        \"Rulaj\",\n        \"213.676 km\"\n      ],\n      [\n        \"&Icirc;nmatriculat\",\n        \"Da\"\n      ],\n      [\n        \"Data primei &icirc;nmatriculări\",\n        \"06.09.2019\"\n      ],\n      [\n        \"ITP valabil\",\n        \"Da\"\n      ],\n      [\n        \"Număr chei\",\n        \"2\"\n      ],\n      [\n        \"Loc predare\",\n        \"Pantelimon\"\n      ],\n      [\n        \"Certificat de inmatriculare\",\n        \"Da\"\n      ],\n      [\n        \"Carte de identitate\",\n        \"Da\"\n      ],\n      [\n        \"Observații: &Icirc;n urma inspecției vizuale efectuate asupra autoturismului, s-au constatat avarii la partea frontală a vehiculului, după cum urmează: &bull; capota față prezintă deformări și &icirc;ndoiri &icirc;n zona centrală frontală, cu afectarea alinierii față de elementele adiacente. &bull; grila frontală (masca radiatorului) este avariată, cu elemente rupte și deformate, &icirc;n special &icirc;n zona centrală și partea dreaptă. &bull; suporturile și elementele de fixare ale ansamblului frontal prezintă deformări și/sau desprinderi. &bull; elementul absorbant de impact amplasat &icirc;n spatele grilei frontale posibil deteriorat. &bull; bara față prezintă deformări locale, zg&acirc;rieturi și desprinderi ale elementelor de fixare, necesit&acirc;nd demontare pentru verificarea completă a componentelor interioare și a sistemelor auxiliare. &bull;anvelopa față st&acirc;nga prezintă ciupituri și deteriorări ale flancului exterior, fiind necesară o verificare tehnică detaliată pentru stabilirea gradului de afectare și a siguranței &icirc;n exploatare. La momentul inspecției nu au fost observate avarii evidente la farurile față, aripile față sau alte elemente structurale exterioare, &icirc;nsă starea acestora urmează a fi confirmată prin demontarea componentelor afectate și efectuarea unei constatări tehnice detaliate. &Icirc;n ceea ce privește partea posterioară a vehiculului, s-au constatat următoarele: &bull; bara spate prezintă zg&acirc;rieturi superficiale și medii pe suprafața exterioară. &bull; elementele de fixare (clemele de prindere) ale barei spate sunt desfăcute/deplasate, rezult&acirc;nd o fixare necorespunzătoare a acesteia față de caroserie. &Icirc;n ceea ce privește interiorul autoturismului evaluatorul a constatat aspectul fizic vizual al interiorului find apreciat ca unul bun, cu urme de uzură conforme vechimii și utilizării. Conform raportului autoDNA autovehiculul a avut dauna la elementele vitrate (geam spart) si dauna la caroserie in zona lateral st&acirc;nga si spate st&acirc;nga, valoare 16.000-17.000 RON.\"\n      ]\n    ],\n    \"vins\": [\n      \"WBABC41060BW69011\"\n    ]\n  }\n]\n",
+  "exitCode": 0,
+  "durationMs": 4981
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-12b9b049-2d3f-4b90-a1be-ffa3160f8893",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const d=JSON.parse(fs.readFileSync('sources/details.json'));for(const v of ['W1K2230331A031721','WDD2173641A018837','WBABC41060BW69011'])console.log(v,JSON.stringify(d.filter(x=>x.vins?.includes(v)).map(x=>({id:x.id,title:x.title}))));\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "43188",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const d=JSON.parse(fs.readFileSync('sources/details.json'));for(const v of ['W1K2230331A031721','WDD2173641A018837','WBABC41060BW69011'])console.log(v,JSON.stringify(d.filter(x=>x.vins?.includes(v)).map(x=>({id:x.id,title:x.title}))));\""
+    }
+  ],
+  "aggregatedOutput": "W1K2230331A031721 [{\"id\":1252,\"title\":\"NEADJUDECAT LICITATIE MERCEDES – BENZ S-Class / S400D 4MATIC\"},{\"id\":1274,\"title\":\"LICITATIE MERCEDES – BENZ S-Class / S400D 4MATIC\"}]\nWDD2173641A018837 [{\"id\":1249,\"title\":\"NEADJUDECAT LICITATIE MERCEDES – BENZS-Class / S400 4MATIC\"},{\"id\":1272,\"title\":\"LICITATIEMERCEDES – BENZS-Class / S400 4MATIC\"}]\nWBABC41060BW69011 [{\"id\":1250,\"title\":\"NEADJUDECAT L I C I T A T I E BMW Seria 8 / M850i xDrive\"},{\"id\":1273,\"title\":\"LICITATIE BMW SERIA 8/M850I XDRIVE\"}]\n",
+  "exitCode": 0,
+  "durationMs": 120
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-4e24c239-04d1-467d-af5c-ba1fa4354cd5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-10-31';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1075||n.length!==3||n.some(x=>![1285,1286,1287].includes(x.id)))throw Error('\"'Unexpected coverage');const meta={1285:{year:2019,model:'BMW M850i xDrive',previousIds:[1250,1273],vatDeclared:'0',priceRON:87765},1286:{year:2016,model:'Mercedes-Benz S400 4MATIC conform fișei',previousIds:[1249,1272],vatDeclared:'21% se adaugă la adjudecare',priceRON:90323.5,modelConflict:'Titlu S500, fișă S400'},1287:{year:2021,model:'Mercedes-Benz S400D 4MATIC',previousIds:[1252,1274],vatDeclared:'0',priceRON:145164.5}};const verified=n.map(x=>({...x,...meta[x.id],classification:'autoturism',knownVin:true,auctionDate:'2026-11-25',auctionTime:'09:00–15:00',dateNote:'Data din text; countdown diferit.'}));fs.writeFileSync(dir+'/verified-new-cars.json',JSON.stringify(verified,null,2));const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,seenIds:[...new Set([...old.seenIds,...a.map(x=>x.id)])],seenUrls:[...new Set([...old.seenUrls,...a.map(x=>x.url)])],listings:a,newRelevantCount:3,lastNewRelevant:verified,lastExcludedNew:[],note:'54 pagini verificate în toate categoriile. Trei relistări de autoturisme cu VIN cunoscut, două fără categorie. Neconcordanța S500/S400 păstrată explicit.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('Verified state saved; baseline unchanged.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "11663",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-10-31';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1075||n.length!==3||n.some(x=>![1285,1286,1287].includes(x.id)))throw Error('Unexpected coverage');const meta={1285:{year:2019,model:'BMW M850i xDrive',previousIds:[1250,1273],vatDeclared:'0',priceRON:87765},1286:{year:2016,model:'Mercedes-Benz S400 4MATIC conform fișei',previousIds:[1249,1272],vatDeclared:'21% se adaugă la adjudecare',priceRON:90323.5,modelConflict:'Titlu S500, fișă S400'},1287:{year:2021,model:'Mercedes-Benz S400D 4MATIC',previousIds:[1252,1274],vatDeclared:'0',priceRON:145164.5}};const verified=n.map(x=>({...x,...meta[x.id],classification:'autoturism',knownVin:true,auctionDate:'2026-11-25',auctionTime:'09:00–15:00',dateNote:'Data din text; countdown diferit.'}));fs.writeFileSync(dir+'/verified-new-cars.json',JSON.stringify(verified,null,2));const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,seenIds:[...new Set([...old.seenIds,...a.map(x=>x.id)])],seenUrls:[...new Set([...old.seenUrls,...a.map(x=>x.url)])],listings:a,newRelevantCount:3,lastNewRelevant:verified,lastExcludedNew:[],note:'54 pagini verificate în toate categoriile. Trei relistări de autoturisme cu VIN cunoscut, două fără categorie. Neconcordanța S500/S400 păstrată explicit.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('Verified state saved; baseline unchanged.');\""
+    }
+  ],
+  "aggregatedOutput": "Verified state saved; baseline unchanged.\n",
+  "exitCode": 0,
+  "durationMs": 207
+}
+````
+
+## Asistent
+
+Au apărut **trei anunțuri noi**, toate relistări cu VIN deja cunoscut. Licitațiile sunt pe **25.11.2026, 09:00–15:00**, conform textelor ANABI.
+
+| Autoturism | Preț și TVA declarat | Observații |
+|---|---|---|
+| [Mercedes-Benz S400D 4MATIC, 2021](https://anabi.just.ro/licitatiionline/auction/1287/licitatie-mercedes-benz-s-class-s400d-4matic-2) | **145.164,50 lei**, TVA **0** | Neconcordanță kilometraj: 208.322 km la evaluare versus 5.688 km în RAR Auto-Pass. |
+| [Mercedes-Benz S400 4MATIC, 2016](https://anabi.just.ro/licitatiionline/auction/1286/licitatie-mercedes-benz-s500-4matic-3) | **90.323,50 lei + TVA 21%** | Titlul spune **S500**, fișa spune **S400**. Kilometraje declarate: 182.222 / 196.786 / 267.151 km. |
+| [BMW M850i xDrive, 2019](https://anabi.just.ro/licitatiionline/auction/1285/licitatie-bmw-seria-8m850i-xdrive-1) | **87.765 lei**, TVA **0** | 213.676 km; avarii frontale și deteriorări la bara spate. |
+
+Numărătoarea inversă indică alte date decât textele anunțurilor. Am verificat toate cele **54 de pagini**, inclusiv anunțurile fără categorie.
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>NOTIFY</decision>
+  <message>Trei relistări auto noi: Mercedes S400D 2021, Mercedes S400 2016 (titlu S500) și BMW M850i 2019. Licitații pe 25 noiembrie; există neconcordanțe de model, kilometraj sau dată, detaliate mai sus. Starea monitorului a fost actualizată.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-57b11e81-9e64-482f-94a5-826cc99481f1",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node monitor-anabi.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "7463",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node monitor-anabi.mjs"
+    }
+  ],
+  "aggregatedOutput": "Pages 10 / 54\nPages 20 / 54\nPages 30 / 54\nPages 40 / 54\nPages 50 / 54\nCOVERAGE 54 1075 NEW 0\n[]\n",
+  "exitCode": 0,
+  "durationMs": 4805
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6435c79b-b0de-40e6-92de-2ede01868ec6",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const fs=require('fs');const dir='sources/monitor-2026-11-01';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages\"'!==54||a.length!==1075||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('\"'Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],lastExcludedNew:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "39279",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const fs=require('fs');const dir='sources/monitor-2026-11-01';const a=JSON.parse(fs.readFileSync(dir+'/listings.json')),c=JSON.parse(fs.readFileSync(dir+'/coverage.json')),n=JSON.parse(fs.readFileSync(dir+'/new.json')),old=JSON.parse(fs.readFileSync('sources/monitor-state.json'));if(c.pages!==54||a.length!==1075||n.length!==0||a.some(x=>!old.seenIds.includes(x.id)||!old.seenUrls.includes(x.url)))throw Error('Unexpected comparison');const s={...old,lastSuccessfulCheckAt:c.checkedAt,lastCoverage:c,listings:a,newRelevantCount:0,lastNewRelevant:[],lastExcludedNew:[],note:'Toate cele 54 de pagini verificate, în toate categoriile. Niciun ID sau URL nou față de inventarul inițial și verificările reușite anterioare.'};fs.writeFileSync('sources/monitor-state.tmp.json',JSON.stringify(s,null,2));fs.renameSync('sources/monitor-state.tmp.json','sources/monitor-state.json');console.log('State saved; baseline unchanged; no new listings.');\""
+    }
+  ],
+  "aggregatedOutput": "State saved; baseline unchanged; no new listings.\n",
+  "exitCode": 0,
+  "durationMs": 127
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificare reușită: 54 de pagini și 1.075 de anunțuri, fără ID-uri sau URL-uri noi. Starea monitorului a fost actualizată; inventarul inițial a rămas neschimbat.</message>
+</heartbeat>

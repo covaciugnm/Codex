@@ -1,0 +1,33 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\tmp\\proforma-20261021\\build.mjs",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\tmp\\proforma-20261021\\extract.py",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\tmp\\proforma-20261021\\preview.png",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\tmp\\proforma-20261021\\source-preview.png",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\tmp\\proforma-20261021\\source1.png",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\tmp\\proforma-20261021\\source2.png",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/cesiro.com/outputs/proforme-20261021/Comparatie_proforme_IPEC.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparatie_proforme_IPEC--3385ce01.xlsx",
+    "bytes": 28556,
+    "sha256": "8377e0ab22c0b415d6db46f6d0b949eba99520b6b101964b1c345a4d03df396c"
+  }
+]

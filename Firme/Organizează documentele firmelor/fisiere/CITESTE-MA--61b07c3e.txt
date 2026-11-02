@@ -1,0 +1,75 @@
+﻿COLECTARE DOCUMENTE FIRME - 2026-10-31
+Stare: in_curs
+Sursa: intreaga unitate Z:\
+Destinatie: Z:\00. Firme
+
+Nu se sterg si nu se suprascriu documentele sursa sau cele existente.
+Copiile noi sunt verificate prin SHA-256. Dublurile exacte sunt consemnate cu calea exemplarului existent.
+
+Fisiere analizate: 36064
+identic_existent: 12884
+copiat_verificat: 20287
+copie_recuperata_verificata: 8
+eroare_citire: 105
+fara_identificare: 1661
+copii_noi_distincte_verificate: 20697
+
+Limite si verificari ramase:
+Scanarile sunt recitite prin OCR in etapa a doua; cele ramase fara text lizibil sunt semnalate.
+Formatele binare vechi sunt identificate dupa cale cand nu exista extractor.
+ZIP-urile sunt selectate si dupa inventarul intern; arhivele relevante sunt copiate integral, fara extragerea si clasificarea fiecarui membru.
+Data actului este folosita numai daca apare explicit in denumire sau intr-un camp Data neechivoc; altfel DATA NECONFIRMATA.
+Registrul de firme existent este baza identificarii; actele cu firma neidentificata sigur sunt pastrate la DE VERIFICAT.
+
+Copii noi pe firme:
+3D SPACE ARIDE IT SRL: 1761
+ALBA SERENDIPITY SRL: 53
+ARIDE RIDE IT SRL: 1906
+ASCUNZATOAREA HAIDUCILOR: 50
+ASOCIATIA PENTRU TINE: 10
+ASOCIATIA ROSE: 798
+BAI MOTESTI: 32
+CESIRO MARKET SRL: 587
+CESIRO PRODUCTION SRL: 1656
+CESIRO SA: 463
+CESIRO TRADING SRL: 4138
+CESIRO TRANS SRL: 962
+COVACIU COSMIN ADRIAN INTREPRINDERE INDIVIDUALA: 1
+CRAMA MOTILOR: 50
+DANCOR PROIECT SRL: 1924
+DEFEND IT SRL: 97
+DRACULA BOOK SRL: 37
+EMCO ALBA: 34
+EUROTEN ASSISTANCE SRL: 76
+FAR OUT COMMUNICATIONS: 61
+HANUL DACILOR PIANU: 33
+HIDRO CUGIR SRL: 35
+HIDRO ZLATNA SRL: 35
+INDUNOVA ROBOTICS SRL: 394
+INFOGRUP SRL: 684
+INTACT SERVICES SRL: 2
+IPEC COVACIU SRL: 21
+IPEC SA: 592
+KIO ENERGY: 208
+LOTUS INVEST: 57
+MARIUS CODE WNK SRL: 3277
+MAVATI CONSTRUCT SRL: 3
+MOSS ENERGY: 37
+NEETS PHOTOSHOOTING SRL: 1433
+NEW CONSULTING ENGINEERING GRUP SRL: 6
+ONG 2 SALVATI VIATA: 53
+ONG ELEN: 72
+OPTIM MANAGEMENT ALBA SRL: 1222
+PARC ECO EOLIAN SRL: 34
+PARC ECO SOLAR SRL: 34
+POPASUL DACILOR: 94
+RED INTERNET SALES SRL: 1178
+REVO 5C SRL: 12
+SC ETC UNLIMITED TEAM SRL: 46
+SCALDA DACILOR: 62
+SMART TEAM MANAGEMENT SRL: 18
+SRM DESIGN SRL: 1179
+STABILO ENERGY: 95
+SUNTREE SOLAR TECH SRL: 308
+WEB SOFT SERVICE: 24
+WILD MOTION SRL: 447

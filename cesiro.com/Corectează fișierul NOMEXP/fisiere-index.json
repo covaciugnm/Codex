@@ -1,0 +1,170 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/cesiro.com/outputs/nomexp_5900_20261020/NOMEXP_SKU_5900_corectat.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/NOMEXP_SKU_5900_corectat--66ccc5f3.xlsx",
+    "bytes": 325898,
+    "sha256": "6c6d62df078a279393130c2c734ea308e0827a2ad2d1371a55b21db4a8f06861"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\NOMEXP_v9_ultimate.(2).xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/NOMEXP_v9_ultimate.(2)--929d8561.xlsx",
+    "bytes": 24794644,
+    "sha256": "0f2fb0e43a346a49acf7cba9ed70bee56ba51b054e5e0e9d18b556af271edf18"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\analyze_5900.py",
+    "status": "copiat",
+    "saved_path": "fisiere/analyze_5900--bbe85755.py",
+    "bytes": 1427,
+    "sha256": "80af3e08f871c982de32b47c01f0a3c5dd6b5d2cbdfff5992498cec0ddd577db"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\before.png",
+    "status": "copiat",
+    "saved_path": "fisiere/before--0ecbad5f.png",
+    "bytes": 58157,
+    "sha256": "cfc998ab417ed6620fb09d54adb208a1c4a47148173fe1245195326e88207107"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\build_5900.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_5900--86e4cfb1.mjs",
+    "bytes": 15513,
+    "sha256": "4b26f7b916dfb0ccf5bd5758e309d1ac41dac2585caf067787c22d70230c5619"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\compare_recovery.py",
+    "status": "copiat",
+    "saved_path": "fisiere/compare_recovery--bb95ea27.py",
+    "bytes": 911,
+    "sha256": "dcbc9f071b46e2956089adb5d89abe570ba326bde0767cf4555cea383ddba591"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\diagnose_excel.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/diagnose_excel--85470b8a.ps1",
+    "bytes": 1187,
+    "sha256": "05b4953389dc6fb205c851a3cfdbe435fd70b117a424889af94d3efaeff1567d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\excel_formula_test.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/excel_formula_test--685e34cf.ps1",
+    "bytes": 879,
+    "sha256": "ef6633a8d1a459d08197d87f7f46458e1f752261387707b09cb6d1c06b2c370c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\extract_formula_restore.py",
+    "status": "copiat",
+    "saved_path": "fisiere/extract_formula_restore--4c633301.py",
+    "bytes": 1242,
+    "sha256": "c0b1e81236e938616ce0cfb7b7be5c74e13684d98f513492d74acdbfa06b782a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\extract_preview.py",
+    "status": "copiat",
+    "saved_path": "fisiere/extract_preview--eaf5b538.py",
+    "bytes": 3181,
+    "sha256": "745e5f3cda7322d3e85f567124119fcfe70da0077a08465a7a2e5cdd1d0756ea"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\inspect.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect--24cd91f5.mjs",
+    "bytes": 695,
+    "sha256": "e9aa5f51d221bd53b9e2943234dd23d89dccf669493a70d281a3b43802c8af12"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\inspect_5900_support.py",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect_5900_support--d61345eb.py",
+    "bytes": 764,
+    "sha256": "798710efebc17ceda8dfdcc830cfccf7d645a94cf129c4870ae80ed66dd9e4e8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\inspect_export.py",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect_export--11d7d969.py",
+    "bytes": 1072,
+    "sha256": "abb8c15e5add577cccfbe77f476260d0b5131af58713ac39b560ba5121b67faf"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\inventory.py",
+    "status": "copiat",
+    "saved_path": "fisiere/inventory--342e6927.py",
+    "bytes": 3274,
+    "sha256": "f57d8d1967d9065226eda8319f0292a34f97f8f1865d65e1a1e9a7678f057aab"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\prepare_5900.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_5900--918d7a60.py",
+    "bytes": 3913,
+    "sha256": "a5f14589c8b8cbe381b45382b7ced78cc5a604dfcaa4b76a9a3c87c79d64aa9c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\preview_catalog.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_catalog--05d71de4.png",
+    "bytes": 89797,
+    "sha256": "0618a2b23ab0f826b165c311a3844be4016d2675612a6023e4fe94e7971da6fe"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\preview_corrections.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_corrections--c0c96e03.png",
+    "bytes": 120430,
+    "sha256": "bd262845e14d3641cd7e3bdbc82992c684d1cf73c2e981c60bcc269cce79561c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\preview_export.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_export--a7bad58f.png",
+    "bytes": 77385,
+    "sha256": "9c8725fdb129e0e3af2e3d0a2f2004699cfd755678fc04c0e746288629a2c3ad"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\preview_original.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_original--92972e52.png",
+    "bytes": 84697,
+    "sha256": "745822836054fd194f7651b95de5f9651e21dcd558619ce8b57d4269494edfca"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\preview_sku.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_sku--0d706f82.png",
+    "bytes": 94388,
+    "sha256": "812ede8ec35993d724f7e9c3a1de39c3fd158afcf986f38bcc00a3fe3e1e8f21"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\preview_unknown.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_unknown--34a4c67d.png",
+    "bytes": 44624,
+    "sha256": "9c2d2bee4137a5816a63d15fb13aa6b4a98193d7b1114583dabdc8821b51fd1a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\read_model.py",
+    "status": "copiat",
+    "saved_path": "fisiere/read_model--ea5526b6.py",
+    "bytes": 2675,
+    "sha256": "9e5492625c229eee7581b42ee5d5c8a5fedd93c2c81b9356cff14274f5087b47"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\repair_export.py",
+    "status": "copiat",
+    "saved_path": "fisiere/repair_export--4636f668.py",
+    "bytes": 2271,
+    "sha256": "276181cdb7943aff0167764686e6a22b8937b80f289179e9b3e2f8d98c15a03a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\verify_excel.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/verify_excel--4f51c4ea.ps1",
+    "bytes": 6086,
+    "sha256": "8df68ef2da3a3b96ea460e00916d9479f939125b6fb274cdf5214565738bd743"
+  }
+]

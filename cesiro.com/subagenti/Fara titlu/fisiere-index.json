@@ -1,0 +1,51 @@
+[
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_formule\\audit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--51b4d906.py",
+    "bytes": 4183,
+    "sha256": "0ee37b11ff277c7101d4e70d66b0e3221e012c5abb24f0034133e7d2ac6ee581"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_formule\\cycles.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cycles--6b89f849.py",
+    "bytes": 2328,
+    "sha256": "d1b953388b72ddc6c17caa115fb2624b8d92fc7f1f3f3c0e2964a28c54981028"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_formule\\focus.py",
+    "status": "copiat",
+    "saved_path": "fisiere/focus--f92adfad.py",
+    "bytes": 1942,
+    "sha256": "bd9d953ad4ad8e6f66f31e7f0d88ad6180868799d65f9d749c147db6057507c5"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_formule\\lookups.py",
+    "status": "copiat",
+    "saved_path": "fisiere/lookups--2d9371cd.py",
+    "bytes": 2522,
+    "sha256": "9819cf1cb5325d7cd7275decc6639be5690cb2f3fa1535f440760fbffc01adef"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_formule\\manifest.py",
+    "status": "copiat",
+    "saved_path": "fisiere/manifest--ab642b00.py",
+    "bytes": 2649,
+    "sha256": "fc0db7ae64cd4eeec96ba0ee11941395dcd64df5b3b775e36bfbd452d3bb043e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_formule\\prefix5900_inventory.json",
+    "status": "copiat",
+    "saved_path": "fisiere/prefix5900_inventory--0208f009.json",
+    "bytes": 22063,
+    "sha256": "7898b7615c828469efde9a92e95a61fdc4bfc5f5c0da54f5394e8a084e6c54cf"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_formule\\safe_formula_manifest.json",
+    "status": "copiat",
+    "saved_path": "fisiere/safe_formula_manifest--bafdd19a.json",
+    "bytes": 23487,
+    "sha256": "ef5958d6320a72a130c815f38326194a946671cdadb3e57904b2f5fa68986635"
+  }
+]

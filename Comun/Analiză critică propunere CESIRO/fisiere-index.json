@@ -1,0 +1,165 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/14ac3483-c2f0-4455-a3fe-7a1b5ba0289c/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/14ac3483-c2f0-4455-a3fe-7a1b5ba0289c/scratchpad/build_observatii.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--90dd88c1.py",
+    "bytes": 14379,
+    "sha256": "feb17670e443e5db2723f217727dcc5d5e155c40e4e6935b16061c88542f24e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\14ac3483-c2f0-4455-a3fe-7a1b5ba0289c\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\00. PROMPTURI COPERTE MULTILINGVE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00. PROMPTURI COPERTE MULTILINGVE--890d28dd.md",
+    "bytes": 6282,
+    "sha256": "e141db7b3ce5c1679c520eb364a7ea28a5e783821d5a9af0638f6eeb46058802"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\_scripts\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\reader\\data\\books\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:/cesiro.com/backend",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:/cesiro1-site",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:/cesiro1-site/backend",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:\\cesiro1-site",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Audituri/Audit.Claude.V1.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit.Claude.V1.0--f9fc8501.docx",
+    "bytes": 60072,
+    "sha256": "94b698c5e9ef915022f9d7e84fb6cb83e5badd7034567db0bb22deff91e7fd69"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Audituri/Audit.Claude.V2.0.Addendum1.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit.Claude.V2.0.Addendum1--94fe8a17.docx",
+    "bytes": 47784,
+    "sha256": "a4e5c6e55351fad517c0d83f284f9030242c4b6552c34f2baffe41b62e7722f6"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Audituri/Audit.Claude.V2.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit.Claude.V2.0--878fec14.docx",
+    "bytes": 58895,
+    "sha256": "b95f97f15727a1f401bc2ecaa39f97522eea89eaa40013693d8e6210288b6867"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Audituri/Audit.Claude.V3.0.Addendum1.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit.Claude.V3.0.Addendum1--900d9356.docx",
+    "bytes": 43790,
+    "sha256": "49f17d1dd665252e1dcfd4a8133f5d117c9e15bb8d9e342b1b9ba1132ea37fd3"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Audituri/Audit.Claude.V3.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit.Claude.V3.0--e68952fe.docx",
+    "bytes": 54292,
+    "sha256": "315da7bc7af6e010a139e5c87ae2ca41b5d7e402ecaf7694bbdce7abfdac487c"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Observatii_Propunere_CESIRO_V1.0.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/evidence",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DRACULA BOOK SRL - CUI TBD",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\Audituri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\Matrice_Raspuns_Audituri_CESIRO_V2.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Matrice_Raspuns_Audituri_CESIRO_V2--99f837a3.docx",
+    "bytes": 61240,
+    "sha256": "59814797c8991ceaad4100ad239fb79b258a74dd17ac002e12f5aacfc20b2f37"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\Matrice_Raspuns_Audituri_CESIRO_V3.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Matrice_Raspuns_Audituri_CESIRO_V3--18afe2de.docx",
+    "bytes": 52869,
+    "sha256": "2feb26bceb3bd023b94d6c2da860eaf6ee6104de7068f37201546b563f25ce10"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\Proiect_CESIRO_Design_React_Python.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect_CESIRO_Design_React_Python--4d39cf6a.docx",
+    "bytes": 60836,
+    "sha256": "0e539f753422fd5ef0d1fc33a4fdde372ae26d0a6f9c2950f8130c4d135d02d7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\Proiect_CESIRO_Design_React_Python_V2.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect_CESIRO_Design_React_Python_V2--a2cf5dcd.docx",
+    "bytes": 74131,
+    "sha256": "e336a5c8d8d7ffce9df70e086a690277d3d1d80a400746e0435abe969ea6bcf4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\Proiect_CESIRO_Design_React_Python_V3.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect_CESIRO_Design_React_Python_V3--b18a3a45.docx",
+    "bytes": 696325,
+    "sha256": "c9a3487226cf1d3fe964a5c2390ac23db1d9cbc291d95a14978d07fb627fed51"
+  }
+]

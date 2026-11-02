@@ -52,6 +52,13 @@
     "status": "fisier_inexistent_sau_director"
   },
   {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iDempiere/Documentatie/WMS_iDempiere/Comparatie_WMS_EVA_2026-10-08.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparatie_WMS_EVA_2026-10-08--cfcd633c.xlsx",
+    "bytes": 50436,
+    "sha256": "592ed4a7d16a760b6b1bf577b5cd2b1acf545a6d9d991a98fc3ff69fe3e7aa2a"
+  },
+  {
     "source_reference": "//192.168.100.169/Comun/00.Roboti/iDempiere/Documentatie_CRM_2026-10-08/index.html",
     "status": "copiat",
     "saved_path": "fisiere/index--ba90fa23.html",

@@ -67,6 +67,27 @@
     "sha256": "c8b492fccfea53d4d716471b7a8c5d5522c6e179c9f70756f70a75c5a995b8c6"
   },
   {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\06. Utilitati\\UTILITATI Curent - Sturm Energie\\2026.10.20 Revenire STURM\\2026.10.20 Dovezi ciorna revenire STURM.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.20 Dovezi ciorna revenire STURM--093f075b.json",
+    "bytes": 2852,
+    "sha256": "2be70eaf3e8f1a06af0e47c94b41a5887557ac8b35473847af34e069785b74e1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\06. Utilitati\\UTILITATI Curent - Sturm Energie\\2026.10.20 Revenire STURM\\2026.10.20 Email revenire STURM NETRIMIS.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.20 Email revenire STURM NETRIMIS--916cf485.txt",
+    "bytes": 2290,
+    "sha256": "f114a402eea9f35c3a682b2368564fecc1ae1ec59807672a75c4c902b9fdf030"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\06. Utilitati\\UTILITATI Curent - Sturm Energie\\2026.10.20 Verificare ciorna STURM\\2026.10.20 Dovezi verificare STURM.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.20 Dovezi verificare STURM--ab4c6b76.json",
+    "bytes": 76563,
+    "sha256": "0b61b6847276fe3d88a112353e1e6f52faadd7deff486ff890caf0dc2eb0e9ab"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.14 identificatori sturm.py",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.14 identificatori sturm--2804c678.py",

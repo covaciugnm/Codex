@@ -1,0 +1,1810 @@
+# Rezultate — Solicită documentația Jinghao
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## Asistent
+
+Verific conversațiile și emailurile accesibile cu Jinghao, inclusiv atașamentele, pentru fișe tehnice, catalog, SDK și software de calibrare.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-8847fc34-2ccc-4e45-a288-b263be434293",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_alibaba_status",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_alibaba_status"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"connected\": true,\n  \"account\": \"Cosmin\",\n  \"member_id\": \"1507577876203\",\n  \"connected_at\": \"2026-10-29T12:32:25.761648Z\",\n  \"first_sync_done\": true,\n  \"send_allowed\": true,\n  \"note\": \"Connected. Chats and messages are synced from Alibaba Messenger over its live connection. Read them with eva_list_alibaba_chats / eva_get_alibaba_chat / eva_search_alibaba.\",\n  \"archive_readable\": true,\n  \"archive_accounts\": [\n    \"Cosmin\"\n  ],\n  \"archive_chats\": 353,\n  \"archive_messages\": 6344\n}"
+      }
+    ],
+    "structuredContent": {
+      "connected": true,
+      "account": "Cosmin",
+      "member_id": "1507577876203",
+      "connected_at": "2026-10-29T12:32:25.761648Z",
+      "first_sync_done": true,
+      "send_allowed": true,
+      "note": "Connected. Chats and messages are synced from Alibaba Messenger over its live connection. Read them with eva_list_alibaba_chats / eva_get_alibaba_chat / eva_search_alibaba.",
+      "archive_readable": true,
+      "archive_accounts": [
+        "Cosmin"
+      ],
+      "archive_chats": 353,
+      "archive_messages": 6344
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 870
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-84e150d3-d1fe-4153-88b0-68c092881b88",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_list_alibaba_chats",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "query": "Jinghao"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_list_alibaba_chats"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"chat_id\": \"36a9dbb1-6acf-43ab-a1e5-06dca2167b19\",\n      \"name\": \"Huang Teresa\",\n      \"account\": \"Cosmin\",\n      \"company\": \"Huizhou Jinghao Medical Technology Co., Ltd.\",\n      \"contact_id\": \"2214123714225\",\n      \"last_activity\": \"2026-10-30T07:31:16.789000Z\",\n      \"message_count\": 18,\n      \"unread\": 0,\n      \"last_message\": \"good morning\",\n      \"last_message_from_me\": false\n    },\n    {\n      \"chat_id\": \"aaea41c1-135c-4c1c-8e23-6f917bce380e\",\n      \"name\": \"Joseph Liao\",\n      \"account\": \"Cosmin\",\n      \"company\": \"Huizhou Jinghao Medical Technology Co., Ltd.\",\n      \"contact_id\": \"2500000176550\",\n      \"last_activity\": \"2026-10-24T07:50:44.105000Z\",\n      \"message_count\": 17,\n      \"unread\": 0,\n      \"last_message\": \"/:handshake.\",\n      \"last_message_from_me\": false\n    }\n  ],\n  \"total\": 2,\n  \"limit\": 30,\n  \"offset\": 0,\n  \"accounts\": [\n    \"Cosmin\"\n  ],\n  \"note\": \"Sending is possible with eva_send_alibaba_message (requires the user's explicit confirmation).\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "chat_id": "36a9dbb1-6acf-43ab-a1e5-06dca2167b19",
+          "name": "Huang Teresa",
+          "account": "Cosmin",
+          "company": "Huizhou Jinghao Medical Technology Co., Ltd.",
+          "contact_id": "2214123714225",
+          "last_activity": "2026-10-30T07:31:16.789000Z",
+          "message_count": 18,
+          "unread": 0,
+          "last_message": "good morning",
+          "last_message_from_me": false
+        },
+        {
+          "chat_id": "aaea41c1-135c-4c1c-8e23-6f917bce380e",
+          "name": "Joseph Liao",
+          "account": "Cosmin",
+          "company": "Huizhou Jinghao Medical Technology Co., Ltd.",
+          "contact_id": "2500000176550",
+          "last_activity": "2026-10-24T07:50:44.105000Z",
+          "message_count": 17,
+          "unread": 0,
+          "last_message": "/:handshake.",
+          "last_message_from_me": false
+        }
+      ],
+      "total": 2,
+      "limit": 30,
+      "offset": 0,
+      "accounts": [
+        "Cosmin"
+      ],
+      "note": "Sending is possible with eva_send_alibaba_message (requires the user's explicit confirmation)."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 573
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-52d1d2f1-659d-4b76-8cfe-dd02117989fd",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_emails",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "query": "jinghao",
+    "limit": 50
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_emails"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [],
+      "total": 0,
+      "limit": 50,
+      "offset": 0
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 1334
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-8160d658-e1f6-4421-802b-6bd6ec4a254f",
+  "server": "codex_apps",
+  "tool": "gmail.search_emails",
+  "status": "completed",
+  "arguments": {
+    "query": "in:anywhere {jinghao \"JH-DW5\" DW5B}",
+    "max_results": 50
+  },
+  "appContext": {
+    "connectorId": "connector_2128aebfecb84f64a069897515042a44",
+    "linkId": "link_6a38f5a4dd8c819191ce1e9602a9a9dd",
+    "resourceUri": null,
+    "appName": "Gmail",
+    "actionName": "search_emails"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "emails": [],
+      "next_page_token": null
+    },
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 2014
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-0787e436-898b-4d8b-a932-3790b70a6a81",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_documents",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "q": "jinghao",
+    "limit": 50
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_documents"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [],\n  \"total\": 0\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [],
+      "total": 0
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 3573
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-0f3ae624-89b1-494a-8cf3-e4aea08f665d",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_alibaba_chat",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "chat_id": "aaea41c1-135c-4c1c-8e23-6f917bce380e",
+    "limit": 100
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_alibaba_chat"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"chat_id\": \"aaea41c1-135c-4c1c-8e23-6f917bce380e\",\n  \"name\": \"Joseph Liao\",\n  \"account\": \"Cosmin\",\n  \"company\": \"Huizhou Jinghao Medical Technology Co., Ltd.\",\n  \"items\": [\n    {\n      \"message_id\": \"4358486495784.PNM\",\n      \"sent_at\": \"2026-10-24T07:50:44.105000Z\",\n      \"from_me\": false,\n      \"sender\": \"Joseph Liao\",\n      \"type\": \"chat\",\n      \"text\": \"/:handshake.\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4369493685333.PNM\",\n      \"sent_at\": \"2026-10-23T15:31:07.038000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"Price\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4367203252386.PNM\",\n      \"sent_at\": \"2026-10-23T15:31:03.646000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"Technical data\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4357538194995.PNM\",\n      \"sent_at\": \"2026-10-23T15:30:57.465000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"Catalog\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4355748178615.PNM\",\n      \"sent_at\": \"2026-10-22T15:25:27.705000Z\",\n      \"from_me\": false,\n      \"sender\": \"Joseph Liao\",\n      \"type\": \"chat\",\n      \"text\": \"pls contact teresa\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4367685941146.PNM\",\n      \"sent_at\": \"2026-10-22T14:52:31.520000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"no email\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4351515075268.PNM\",\n      \"sent_at\": \"2026-10-14T14:05:17.018000Z\",\n      \"from_me\": false,\n      \"sender\": \"Joseph Liao\",\n      \"type\": \"chat\",\n      \"text\": \"ok\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4351029069882.PNM\",\n      \"sent_at\": \"2026-10-14T08:52:27.557000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"Please send again email\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4346383221611.PNM\",\n      \"sent_at\": \"2026-10-11T10:26:57.535000Z\",\n      \"from_me\": false,\n      \"sender\": \"Joseph Liao\",\n      \"type\": \"chat\",\n      \"text\": \"sure\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4336908357468.PNM\",\n      \"sent_at\": \"2026-10-11T07:27:06Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"Please send me on whatsapp / wechat 0040741119266\\noffice@eva-org.com\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4346485911210.PNM\",\n      \"sent_at\": \"2026-10-10T01:13:35.672000Z\",\n      \"from_me\": false,\n      \"sender\": \"Joseph Liao\",\n      \"type\": \"system\",\n      \"text\": \"\\\\T Joseph Liao已经把你分配给了Huang Teresa,Huang Teresa会接待你\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4334732470485.PNM\",\n      \"sent_at\": \"2026-10-10T01:11:35.863000Z\",\n      \"from_me\": false,\n      \"sender\": \"Joseph Liao\",\n      \"type\": \"chat\",\n      \"text\": \"May I have your contact info like email? Her email: teresa@jinghao.cc\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4334740255406.PNM\",\n      \"sent_at\": \"2026-10-10T01:10:44.403000Z\",\n      \"from_me\": false,\n      \"sender\": \"Joseph Liao\",\n      \"type\": \"chat\",\n      \"text\": \"[conținut 1]\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4343951054858.PNM\",\n      \"sent_at\": \"2026-10-10T01:10:12.003000Z\",\n      \"from_me\": false,\n      \"sender\": \"Joseph Liao\",\n      \"type\": \"chat\",\n      \"text\": \"Hi Cosmin，Thanks for your inquiry. I will send your inquiry to my colleague,Teresa who is professional in programmable heairng aids.\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4338034558451.PNM\",\n      \"sent_at\": \"2026-10-09T18:53:49.622000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"DW5B Professional Programmable Hearing Aid\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4338032621076.PNM\",\n      \"sent_at\": \"2026-10-09T18:53:27.807000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"media\",\n      \"text\": \"1601157556837\\nJINGHAO OTC Smart App Control 4 Channerls Digital BTE RIC Hearing Aid Device Rechargeable Bluetooth\\n1601157556837\\n景浩OTC智能应用控制4通道数字BTE RIC助听器设备可充电蓝牙\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4334624491665.PNM\",\n      \"sent_at\": \"2026-10-09T18:53:27.284000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"Hi,\\nI am interested in testing your top-performance digital hearing aids for evaluation. Specifically, I would like to purchase a sample of your high-end models (such as the 16/32/48 channel series with AI noise reduction).\\nTo thoroughly test the equipment, I plan to use your official PC fitting software. Could you please provide me with the following information and a price quote for:\\n1. Hearing Aid Sample: 1 pair of your most advanced digital hearing aids (please specify if you recommend the RIC or BTE format for this test).\\n2. Wireless Fitting Hardware: The matching USB wireless fitting dongle / programmer (or Noahlink Wireless compatible device) required to connect these hearing aids to your PC fitting software.\\n3. Software Link: Confirm if the latest version of your PC fitting software can be shared with me via a download link.\\nPlease let me know the total cost for this sample package including shipping to Romania.\\nThank you, and I look forward to your reply.\\nBest regards,\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    }\n  ],\n  \"total\": 17,\n  \"limit\": 100,\n  \"offset\": 0,\n  \"note\": \"Times are the real send times from Alibaba (UTC ISO).\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "chat_id": "aaea41c1-135c-4c1c-8e23-6f917bce380e",
+      "name": "Joseph Liao",
+      "account": "Cosmin",
+      "company": "Huizhou Jinghao Medical Technology Co., Ltd.",
+      "items": [
+        {
+          "message_id": "4358486495784.PNM",
+          "sent_at": "2026-10-24T07:50:44.105000Z",
+          "from_me": false,
+          "sender": "Joseph Liao",
+          "type": "chat",
+          "text": "/:handshake.",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4369493685333.PNM",
+          "sent_at": "2026-10-23T15:31:07.038000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "Price",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4367203252386.PNM",
+          "sent_at": "2026-10-23T15:31:03.646000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "Technical data",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4357538194995.PNM",
+          "sent_at": "2026-10-23T15:30:57.465000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "Catalog",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4355748178615.PNM",
+          "sent_at": "2026-10-22T15:25:27.705000Z",
+          "from_me": false,
+          "sender": "Joseph Liao",
+          "type": "chat",
+          "text": "pls contact teresa",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4367685941146.PNM",
+          "sent_at": "2026-10-22T14:52:31.520000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "no email",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4351515075268.PNM",
+          "sent_at": "2026-10-14T14:05:17.018000Z",
+          "from_me": false,
+          "sender": "Joseph Liao",
+          "type": "chat",
+          "text": "ok",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4351029069882.PNM",
+          "sent_at": "2026-10-14T08:52:27.557000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "Please send again email",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4346383221611.PNM",
+          "sent_at": "2026-10-11T10:26:57.535000Z",
+          "from_me": false,
+          "sender": "Joseph Liao",
+          "type": "chat",
+          "text": "sure",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4336908357468.PNM",
+          "sent_at": "2026-10-11T07:27:06Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "Please send me on whatsapp / wechat 0040741119266\noffice@eva-org.com",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4346485911210.PNM",
+          "sent_at": "2026-10-10T01:13:35.672000Z",
+          "from_me": false,
+          "sender": "Joseph Liao",
+          "type": "system",
+          "text": "\\T Joseph Liao已经把你分配给了Huang Teresa,Huang Teresa会接待你",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4334732470485.PNM",
+          "sent_at": "2026-10-10T01:11:35.863000Z",
+          "from_me": false,
+          "sender": "Joseph Liao",
+          "type": "chat",
+          "text": "May I have your contact info like email? Her email: teresa@jinghao.cc",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4334740255406.PNM",
+          "sent_at": "2026-10-10T01:10:44.403000Z",
+          "from_me": false,
+          "sender": "Joseph Liao",
+          "type": "chat",
+          "text": "[conținut 1]",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4343951054858.PNM",
+          "sent_at": "2026-10-10T01:10:12.003000Z",
+          "from_me": false,
+          "sender": "Joseph Liao",
+          "type": "chat",
+          "text": "Hi Cosmin，Thanks for your inquiry. I will send your inquiry to my colleague,Teresa who is professional in programmable heairng aids.",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4338034558451.PNM",
+          "sent_at": "2026-10-09T18:53:49.622000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "DW5B Professional Programmable Hearing Aid",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4338032621076.PNM",
+          "sent_at": "2026-10-09T18:53:27.807000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "media",
+          "text": "1601157556837\nJINGHAO OTC Smart App Control 4 Channerls Digital BTE RIC Hearing Aid Device Rechargeable Bluetooth\n1601157556837\n景浩OTC智能应用控制4通道数字BTE RIC助听器设备可充电蓝牙",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4334624491665.PNM",
+          "sent_at": "2026-10-09T18:53:27.284000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "Hi,\nI am interested in testing your top-performance digital hearing aids for evaluation. Specifically, I would like to purchase a sample of your high-end models (such as the 16/32/48 channel series with AI noise reduction).\nTo thoroughly test the equipment, I plan to use your official PC fitting software. Could you please provide me with the following information and a price quote for:\n1. Hearing Aid Sample: 1 pair of your most advanced digital hearing aids (please specify if you recommend the RIC or BTE format for this test).\n2. Wireless Fitting Hardware: The matching USB wireless fitting dongle / programmer (or Noahlink Wireless compatible device) required to connect these hearing aids to your PC fitting software.\n3. Software Link: Confirm if the latest version of your PC fitting software can be shared with me via a download link.\nPlease let me know the total cost for this sample package including shipping to Romania.\nThank you, and I look forward to your reply.\nBest regards,",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        }
+      ],
+      "total": 17,
+      "limit": 100,
+      "offset": 0,
+      "note": "Times are the real send times from Alibaba (UTC ISO)."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 574
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-97a0c623-9235-4005-a43d-da2b1d046a09",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_alibaba_chat",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "chat_id": "36a9dbb1-6acf-43ab-a1e5-06dca2167b19",
+    "limit": 100
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_alibaba_chat"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"chat_id\": \"36a9dbb1-6acf-43ab-a1e5-06dca2167b19\",\n  \"name\": \"Huang Teresa\",\n  \"account\": \"Cosmin\",\n  \"company\": \"Huizhou Jinghao Medical Technology Co., Ltd.\",\n  \"items\": [\n    {\n      \"message_id\": \"4372498804234.PNM\",\n      \"sent_at\": \"2026-10-30T07:31:16.789000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"good morning\",\n      \"read_by_peer\": null,\n      \"is_read\": false,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4367780314273.PNM\",\n      \"sent_at\": \"2026-10-29T15:40:03.297000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"hello Cosmin, have you receive  my email?\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4367784452767.PNM\",\n      \"sent_at\": \"2026-10-29T15:39:29.262000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"i am fine thanks\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4377577183705.PNM\",\n      \"sent_at\": \"2026-10-29T15:39:11.177000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"good thank you. and you ?\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4377645505491.PNM\",\n      \"sent_at\": \"2026-10-28T07:21:54.564000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"how are you ?\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4369026687415.PNM\",\n      \"sent_at\": \"2026-10-28T07:21:52.071000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"Good morning\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4359630562234.PNM\",\n      \"sent_at\": \"2026-10-22T14:55:02.908000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"i will share the quotation to you tomorrow\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4367701541142.PNM\",\n      \"sent_at\": \"2026-10-22T14:54:46.234000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"hello\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4367687773010.PNM\",\n      \"sent_at\": \"2026-10-22T14:53:00.016000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"100 pcs\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4336926032254.PNM\",\n      \"sent_at\": \"2026-10-11T07:29:50.687000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"how many units of hearing aids do you need?\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4348705981333.PNM\",\n      \"sent_at\": \"2026-10-11T07:29:23.758000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"[conținut 1]\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4340438594486.PNM\",\n      \"sent_at\": \"2026-10-11T07:29:10.075000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"Catalog\\nTechnical data sheet\\nPrice list\\nDelivery time\\nSoftware & Hardware specification\\nYoutube video or other manuals how to program the devices\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4336916341418.PNM\",\n      \"sent_at\": \"2026-10-11T07:27:46.193000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"system\",\n      \"text\": \"Need translation? Try our automatic translation feature for smoother communication.\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4340420947900.PNM\",\n      \"sent_at\": \"2026-10-11T07:27:44.878000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"OK\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4346095142363.PNM\",\n      \"sent_at\": \"2026-10-11T07:26:45.358000Z\",\n      \"from_me\": true,\n      \"sender\": \"Me\",\n      \"type\": \"chat\",\n      \"text\": \"Please send me on whatsapp / wechat 0040741119266\\noffice@eva-org.com\",\n      \"read_by_peer\": true,\n      \"is_read\": null,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4343987129758.PNM\",\n      \"sent_at\": \"2026-10-10T01:28:28.983000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"May I have your email address, i will share more information to you, Thanks\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4346513613904.PNM\",\n      \"sent_at\": \"2026-10-10T01:28:08.292000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"chat\",\n      \"text\": \"Hi Cosmin, Nice to meet you !Thank you for your inquiry and for your interest in our hearing aids. My name is Teresa, and I will be your account manager responsible for your business. It is my pleasure to support you.\\n\\nPlease allow me to introduce ourselves. We are Huizhou Jinghao Medical Technology Co., Ltd. Our company is China's first listed hearing aid manufacturer and also the first Chinese hearing aid company to commercialize our own chips.\\n\\nI would like introduce our hot selling models JH-DW5 to you.\\n\\nBluetooth streaming, so users can enjoy music and answer phone calls directly through the hearing aids\\n\\nA dedicated app compatible with both Android and iOS platforms. While many major models on the market only support Android, our patented technology allows dual-platform support\\n\\nA charging dock that can provide three full charges. Each full charge supports up to 16 hours of use in hearing aid mode, so users do not need to worry about charging during a 2–3 day trip\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    },\n    {\n      \"message_id\": \"4343951292492.PNM\",\n      \"sent_at\": \"2026-10-10T01:13:35.655000Z\",\n      \"from_me\": false,\n      \"sender\": \"Huang Teresa\",\n      \"type\": \"system\",\n      \"text\": \"\\\\T Joseph Liao已经把你分配给了Huang Teresa,目前由Huang Teresa接待你\",\n      \"read_by_peer\": null,\n      \"is_read\": true,\n      \"document_id\": null,\n      \"filename\": null,\n      \"mime_type\": null,\n      \"has_text\": null,\n      \"file_status\": null\n    }\n  ],\n  \"total\": 18,\n  \"limit\": 100,\n  \"offset\": 0,\n  \"note\": \"Times are the real send times from Alibaba (UTC ISO).\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "chat_id": "36a9dbb1-6acf-43ab-a1e5-06dca2167b19",
+      "name": "Huang Teresa",
+      "account": "Cosmin",
+      "company": "Huizhou Jinghao Medical Technology Co., Ltd.",
+      "items": [
+        {
+          "message_id": "4372498804234.PNM",
+          "sent_at": "2026-10-30T07:31:16.789000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "good morning",
+          "read_by_peer": null,
+          "is_read": false,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4367780314273.PNM",
+          "sent_at": "2026-10-29T15:40:03.297000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "hello Cosmin, have you receive  my email?",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4367784452767.PNM",
+          "sent_at": "2026-10-29T15:39:29.262000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "i am fine thanks",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4377577183705.PNM",
+          "sent_at": "2026-10-29T15:39:11.177000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "good thank you. and you ?",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4377645505491.PNM",
+          "sent_at": "2026-10-28T07:21:54.564000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "how are you ?",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4369026687415.PNM",
+          "sent_at": "2026-10-28T07:21:52.071000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "Good morning",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4359630562234.PNM",
+          "sent_at": "2026-10-22T14:55:02.908000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "i will share the quotation to you tomorrow",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4367701541142.PNM",
+          "sent_at": "2026-10-22T14:54:46.234000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "hello",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4367687773010.PNM",
+          "sent_at": "2026-10-22T14:53:00.016000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "100 pcs",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4336926032254.PNM",
+          "sent_at": "2026-10-11T07:29:50.687000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "how many units of hearing aids do you need?",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4348705981333.PNM",
+          "sent_at": "2026-10-11T07:29:23.758000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "[conținut 1]",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4340438594486.PNM",
+          "sent_at": "2026-10-11T07:29:10.075000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "Catalog\nTechnical data sheet\nPrice list\nDelivery time\nSoftware & Hardware specification\nYoutube video or other manuals how to program the devices",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4336916341418.PNM",
+          "sent_at": "2026-10-11T07:27:46.193000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "system",
+          "text": "Need translation? Try our automatic translation feature for smoother communication.",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4340420947900.PNM",
+          "sent_at": "2026-10-11T07:27:44.878000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "OK",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4346095142363.PNM",
+          "sent_at": "2026-10-11T07:26:45.358000Z",
+          "from_me": true,
+          "sender": "Me",
+          "type": "chat",
+          "text": "Please send me on whatsapp / wechat 0040741119266\noffice@eva-org.com",
+          "read_by_peer": true,
+          "is_read": null,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4343987129758.PNM",
+          "sent_at": "2026-10-10T01:28:28.983000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "May I have your email address, i will share more information to you, Thanks",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4346513613904.PNM",
+          "sent_at": "2026-10-10T01:28:08.292000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "chat",
+          "text": "Hi Cosmin, Nice to meet you !Thank you for your inquiry and for your interest in our hearing aids. My name is Teresa, and I will be your account manager responsible for your business. It is my pleasure to support you.\n\nPlease allow me to introduce ourselves. We are Huizhou Jinghao Medical Technology Co., Ltd. Our company is China's first listed hearing aid manufacturer and also the first Chinese hearing aid company to commercialize our own chips.\n\nI would like introduce our hot selling models JH-DW5 to you.\n\nBluetooth streaming, so users can enjoy music and answer phone calls directly through the hearing aids\n\nA dedicated app compatible with both Android and iOS platforms. While many major models on the market only support Android, our patented technology allows dual-platform support\n\nA charging dock that can provide three full charges. Each full charge supports up to 16 hours of use in hearing aid mode, so users do not need to worry about charging during a 2–3 day trip",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        },
+        {
+          "message_id": "4343951292492.PNM",
+          "sent_at": "2026-10-10T01:13:35.655000Z",
+          "from_me": false,
+          "sender": "Huang Teresa",
+          "type": "system",
+          "text": "\\T Joseph Liao已经把你分配给了Huang Teresa,目前由Huang Teresa接待你",
+          "read_by_peer": null,
+          "is_read": true,
+          "document_id": null,
+          "filename": null,
+          "mime_type": null,
+          "has_text": null,
+          "file_status": null
+        }
+      ],
+      "total": 18,
+      "limit": 100,
+      "offset": 0,
+      "note": "Times are the real send times from Alibaba (UTC ISO)."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 628
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-af8186d9-8351-4785-b3c3-ba54f5342d8d",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_emails",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+    "query": "jinghao",
+    "limit": 50
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_emails"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [],
+      "total": 0,
+      "limit": 50,
+      "offset": 0
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 2635
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-85b639f2-8556-45b3-8c94-2dc0b4bf37f3",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_documents",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "q": "DW5",
+    "limit": 50
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_documents"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"3d907ef3-41e3-4079-a935-a3406b2868f8\",\n      \"filename\": \"Cesiro price diff 08.06.xlsx\",\n      \"size\": 31614,\n      \"mime_type\": \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\",\n      \"source\": \"whatsapp\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-30T09:16:33.517237Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"0d6a1971-64ae-4083-be0e-125b34f3eedc\",\n      \"filename\": \"Cesiro price diff 10.06.xlsx\",\n      \"size\": 64689,\n      \"mime_type\": \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\",\n      \"source\": \"whatsapp\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-30T09:06:41.815461Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"86dbb41d-a515-4bc9-bc19-183935060e92\",\n      \"filename\": \"wa_image_3EB0B32684F885C87E9DE1.jpg\",\n      \"size\": 97241,\n      \"mime_type\": \"image/jpeg\",\n      \"source\": \"whatsapp\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-30T08:06:32.609960Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"df03c3b6-a33c-449d-b209-12a88b5b262d\",\n      \"filename\": \"Ianuarie - Decembrie 2020.pdf\",\n      \"size\": 600113,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T16:31:55.650398Z\",\n      \"email_id\": \"1e3082d1-f5f2-4d31-9c33-0707236d0ded\",\n      \"email_subject\": \"Ianuarie - Decembrie 2020\",\n      \"email_sender\": \"covaciu.gnm@gmail.com\",\n      \"email_date\": \"2026-07-14T10:59:31Z\"\n    },\n    {\n      \"id\": \"1826824b-d812-47a0-9899-a08893ca98c5\",\n      \"filename\": \"order_details_file_13-10-2021-10-06-15.xlsx\",\n      \"size\": 31079,\n      \"mime_type\": \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T15:43:53.854224Z\",\n      \"email_id\": \"160a65b9-96ff-4bf2-ba03-d6dfba3448e5\",\n      \"email_subject\": \"Fwd: FW: emag\",\n      \"email_sender\": \"a.a.szoke@gmail.com\",\n      \"email_date\": \"2021-10-29T12:26:12Z\"\n    },\n    {\n      \"id\": \"87ede5a6-1d44-49d3-b17d-c42f06a0fd34\",\n      \"filename\": \"Ianuarie - Decembrie 2021.pdf\",\n      \"size\": 732273,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T15:09:22.968534Z\",\n      \"email_id\": \"ada74a50-9cd6-4760-af9e-529ddc7a5366\",\n      \"email_subject\": \"Ianuarie - Decembrie 2021\",\n      \"email_sender\": \"covaciu.gnm@gmail.com\",\n      \"email_date\": \"2026-07-14T10:57:16Z\"\n    },\n    {\n      \"id\": \"da232fbe-8d15-48ca-bc2d-1907f52366d0\",\n      \"filename\": \"mix-nove-vystaveno-rozbaleno.xlsx\",\n      \"size\": 46316,\n      \"mime_type\": \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T14:41:57.948517Z\",\n      \"email_id\": \"753332f5-e84f-43f2-b4f8-f5ac54445391\",\n      \"email_subject\": \"(No Subject)\",\n      \"email_sender\": \"alexandru.szoke@cesiro.com\",\n      \"email_date\": \"2023-04-03T12:26:32Z\"\n    },\n    {\n      \"id\": \"7571e123-da22-4536-8e7c-05f7f50be8b1\",\n      \"filename\": \"product_images.csv\",\n      \"size\": 180545,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T11:00:36.688663Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"ba5a78ef-d47e-4788-b779-1232f937dd0b\",\n      \"filename\": \"ninja_kitchen_products_2025_03_05.csv\",\n      \"size\": 1381177,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T10:59:21.714016Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"39c5df28-479b-4278-9829-3ef35cc70fcf\",\n      \"filename\": \"ghirardelli_products_2025_03_17.csv\",\n      \"size\": 106346,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T10:59:20.800044Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"ab06c13e-f264-46b6-8320-ec3eed6998b1\",\n      \"filename\": \"amazon_search_1742148728_products_2025_03_16.csv\",\n      \"size\": 532397,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T10:59:15.314095Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"5c89b898-6f46-41b9-bc2a-273dd30490ac\",\n      \"filename\": \"alo-bebe_complet_20250410_1220.csv\",\n      \"size\": 5178331,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T10:59:15.026793Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"f330249e-fdde-42a1-b106-22a42afdf4a9\",\n      \"filename\": \"ninja_kitchen_products_2025_03_05.csv\",\n      \"size\": 1381177,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T10:59:01.465024Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"a3aa513c-dedb-4474-be2c-039df6af8a9b\",\n      \"filename\": \"ghirardelli_products_2025_03_17.csv\",\n      \"size\": 106346,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T10:59:01.103850Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"405a478b-88e0-4217-8745-5830bc6413d5\",\n      \"filename\": \"amazon_search_1742148728_products_2025_03_16.csv\",\n      \"size\": 532397,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T10:58:58.907367Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    },\n    {\n      \"id\": \"f8eed8b3-a5ab-4319-82ba-696f80538684\",\n      \"filename\": \"alo-bebe_complet_20250410_1220.csv\",\n      \"size\": 5178331,\n      \"mime_type\": null,\n      \"source\": \"nas\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T10:58:58.789530Z\",\n      \"email_id\": null,\n      \"email_subject\": null,\n      \"email_sender\": null,\n      \"email_date\": null\n    }\n  ],\n  \"total\": 16\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "3d907ef3-41e3-4079-a935-a3406b2868f8",
+          "filename": "Cesiro price diff 08.06.xlsx",
+          "size": 31614,
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "source": "whatsapp",
+          "has_text": true,
+          "created_at": "2026-10-30T09:16:33.517237Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "0d6a1971-64ae-4083-be0e-125b34f3eedc",
+          "filename": "Cesiro price diff 10.06.xlsx",
+          "size": 64689,
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "source": "whatsapp",
+          "has_text": true,
+          "created_at": "2026-10-30T09:06:41.815461Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "86dbb41d-a515-4bc9-bc19-183935060e92",
+          "filename": "wa_image_3EB0B32684F885C87E9DE1.jpg",
+          "size": 97241,
+          "mime_type": "image/jpeg",
+          "source": "whatsapp",
+          "has_text": true,
+          "created_at": "2026-10-30T08:06:32.609960Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "df03c3b6-a33c-449d-b209-12a88b5b262d",
+          "filename": "Ianuarie - Decembrie 2020.pdf",
+          "size": 600113,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T16:31:55.650398Z",
+          "email_id": "1e3082d1-f5f2-4d31-9c33-0707236d0ded",
+          "email_subject": "Ianuarie - Decembrie 2020",
+          "email_sender": "covaciu.gnm@gmail.com",
+          "email_date": "2026-07-14T10:59:31Z"
+        },
+        {
+          "id": "1826824b-d812-47a0-9899-a08893ca98c5",
+          "filename": "order_details_file_13-10-2021-10-06-15.xlsx",
+          "size": 31079,
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T15:43:53.854224Z",
+          "email_id": "160a65b9-96ff-4bf2-ba03-d6dfba3448e5",
+          "email_subject": "Fwd: FW: emag",
+          "email_sender": "a.a.szoke@gmail.com",
+          "email_date": "2021-10-29T12:26:12Z"
+        },
+        {
+          "id": "87ede5a6-1d44-49d3-b17d-c42f06a0fd34",
+          "filename": "Ianuarie - Decembrie 2021.pdf",
+          "size": 732273,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T15:09:22.968534Z",
+          "email_id": "ada74a50-9cd6-4760-af9e-529ddc7a5366",
+          "email_subject": "Ianuarie - Decembrie 2021",
+          "email_sender": "covaciu.gnm@gmail.com",
+          "email_date": "2026-07-14T10:57:16Z"
+        },
+        {
+          "id": "da232fbe-8d15-48ca-bc2d-1907f52366d0",
+          "filename": "mix-nove-vystaveno-rozbaleno.xlsx",
+          "size": 46316,
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T14:41:57.948517Z",
+          "email_id": "753332f5-e84f-43f2-b4f8-f5ac54445391",
+          "email_subject": "(No Subject)",
+          "email_sender": "alexandru.szoke@cesiro.com",
+          "email_date": "2023-04-03T12:26:32Z"
+        },
+        {
+          "id": "7571e123-da22-4536-8e7c-05f7f50be8b1",
+          "filename": "product_images.csv",
+          "size": 180545,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T11:00:36.688663Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "ba5a78ef-d47e-4788-b779-1232f937dd0b",
+          "filename": "ninja_kitchen_products_2025_03_05.csv",
+          "size": 1381177,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T10:59:21.714016Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "39c5df28-479b-4278-9829-3ef35cc70fcf",
+          "filename": "ghirardelli_products_2025_03_17.csv",
+          "size": 106346,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T10:59:20.800044Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "ab06c13e-f264-46b6-8320-ec3eed6998b1",
+          "filename": "amazon_search_1742148728_products_2025_03_16.csv",
+          "size": 532397,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T10:59:15.314095Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "5c89b898-6f46-41b9-bc2a-273dd30490ac",
+          "filename": "alo-bebe_complet_20250410_1220.csv",
+          "size": 5178331,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T10:59:15.026793Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "f330249e-fdde-42a1-b106-22a42afdf4a9",
+          "filename": "ninja_kitchen_products_2025_03_05.csv",
+          "size": 1381177,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T10:59:01.465024Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "a3aa513c-dedb-4474-be2c-039df6af8a9b",
+          "filename": "ghirardelli_products_2025_03_17.csv",
+          "size": 106346,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T10:59:01.103850Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "405a478b-88e0-4217-8745-5830bc6413d5",
+          "filename": "amazon_search_1742148728_products_2025_03_16.csv",
+          "size": 532397,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T10:58:58.907367Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        },
+        {
+          "id": "f8eed8b3-a5ab-4319-82ba-696f80538684",
+          "filename": "alo-bebe_complet_20250410_1220.csv",
+          "size": 5178331,
+          "mime_type": null,
+          "source": "nas",
+          "has_text": true,
+          "created_at": "2026-06-29T10:58:58.789530Z",
+          "email_id": null,
+          "email_subject": null,
+          "email_sender": null,
+          "email_date": null
+        }
+      ],
+      "total": 16
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 3689
+}
+````
+
+## Asistent
+
+**Nu avem confirmat pachetul de documentație.** Am reverificat conversațiile Alibaba cu Teresa și Joseph, emailurile accesibile și documentele indexate.
+
+| Material | Situația verificată |
+|---|---|
+| **Fișe tehnice detaliate pentru toate produsele** | **Nu am găsit.** Ai cerut fișe tehnice pe 11 octombrie și ai revenit pe 23 octombrie. Avem doar prezentarea comercială JH-DW5. |
+| **Catalog** | **Nu am găsit.** A fost solicitat explicit în aceleași conversații. |
+| **SDK / API** | **Nu am găsit**, nici confirmarea că îl oferă. În mesajele verificate nu apare o solicitare explicită de SDK. |
+| **Software profesional de reglaj/calibrare pentru clienți** | **Nu am găsit instalator, link, manual sau licență.** Pe 9 octombrie ai cerut software-ul PC de fitting și programatorul wireless compatibil, dar nu apare un răspuns tehnic concret. |
+| **Preț și condiții pentru software/programator** | **Neconfirmate:** nu avem cost, condiții de licențiere sau compatibilitate confirmată. |
+
+**Aplicația Android/iOS menționată de Teresa nu confirmă disponibilitatea software-ului profesional sau a SDK-ului.** Rămâne neclară și diferența dintre **DW5B cerut** și **JH-DW5 prezentat**.
+
+Pe **29 octombrie**, Teresa a întrebat dacă ai primit emailul, însă nu l-am găsit. Există și două mesaje afișate în arhivă ca „[conținut 1]”, fără fișier accesibil, deci nu pot verifica ce conțineau.
+
+Următorul pas este să-i cerem Teresei **retransmiterea direct în Alibaba a catalogului și fișelor**, plus **SDK-ul cu documentație** și **kitul de fitting: software, licență, manual, programator compatibil și prețuri**.
+
+## Asistent
+
+Trimit ambilor, Teresa și Joseph, un mesaj în engleză cu solicitarea documentației complete, SDK-ului și kitului profesional de fitting.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-45843bbc-2f51-4686-b0a7-9703ce9a0fbc",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_alibaba_status",
+  "status": "completed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_alibaba_status"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"connected\": true,\n  \"account\": \"Cosmin\",\n  \"member_id\": \"1507577876203\",\n  \"connected_at\": \"2026-10-29T12:32:25.761648Z\",\n  \"first_sync_done\": true,\n  \"send_allowed\": true,\n  \"note\": \"Connected. Chats and messages are synced from Alibaba Messenger over its live connection. Read them with eva_list_alibaba_chats / eva_get_alibaba_chat / eva_search_alibaba.\",\n  \"archive_readable\": true,\n  \"archive_accounts\": [\n    \"Cosmin\"\n  ],\n  \"archive_chats\": 353,\n  \"archive_messages\": 6344\n}"
+      }
+    ],
+    "structuredContent": {
+      "connected": true,
+      "account": "Cosmin",
+      "member_id": "1507577876203",
+      "connected_at": "2026-10-29T12:32:25.761648Z",
+      "first_sync_done": true,
+      "send_allowed": true,
+      "note": "Connected. Chats and messages are synced from Alibaba Messenger over its live connection. Read them with eva_list_alibaba_chats / eva_get_alibaba_chat / eva_search_alibaba.",
+      "archive_readable": true,
+      "archive_accounts": [
+        "Cosmin"
+      ],
+      "archive_chats": 353,
+      "archive_messages": 6344
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 873
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-43b6fb07-f133-42ba-9de8-fcb129fca1c1",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_send_alibaba_message",
+  "status": "failed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "chat_id": "36a9dbb1-6acf-43ab-a1e5-06dca2167b19",
+    "confirm": true,
+    "text_body": "Hello,\n\nI am following up on my previous requests. We have not been able to locate the email and technical documents, so please resend the files directly in this Alibaba chat and also to office@eva-org.com.\n\nPlease provide:\n1. Your latest complete hearing aid catalog and detailed technical datasheets for all current models, especially DW5B and JH-DW5. Please clarify the differences between these two models and identify which support professional PC fitting.\n2. Full hardware and software specifications, user manuals, programming/fitting manuals, and training videos.\n3. Your SDK/API package, if available, including documentation, sample code, supported platforms and models, Bluetooth communication/integration options, licensing terms, costs, and any NDA requirements. If no SDK is available, please confirm explicitly.\n4. The latest professional PC fitting/programming software for adjusting hearing aids to individual customers, with a download link or installer, demo access if available, supported operating systems, compatible models, and license/pricing terms. Please distinguish this from the consumer Android/iOS app.\n5. Details and pricing of the required USB/wireless programmer or fitting dongle, drivers, and confirmation of whether Noahlink Wireless is supported.\n6. Your price list, sample-pair and programmer quotation including shipping to Romania, and pricing and delivery time for the previously discussed quantity of 100 units. Please clarify whether prices and quantities refer to individual hearing aids or pairs.\n\nFor each item, please state whether it is available, included, or charged separately. If any files cannot be shared here, please provide a working download link.\n\nThank you.",
+    "client_id": "jinghao-docs-followup-20261030-36a9dbb1-6acf-43ab-a1e5-06dca2167b19"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_send_alibaba_message"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool eva_send_alibaba_message: busy: Sincronizare în curs, reîncearcă în câteva secunde"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 10453
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-9c9e5dac-678e-45f8-bfef-9b3b09856dfd",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_send_alibaba_message",
+  "status": "failed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "chat_id": "aaea41c1-135c-4c1c-8e23-6f917bce380e",
+    "confirm": true,
+    "text_body": "Hello,\n\nI am following up on my previous requests. We have not been able to locate the email and technical documents, so please resend the files directly in this Alibaba chat and also to office@eva-org.com.\n\nPlease provide:\n1. Your latest complete hearing aid catalog and detailed technical datasheets for all current models, especially DW5B and JH-DW5. Please clarify the differences between these two models and identify which support professional PC fitting.\n2. Full hardware and software specifications, user manuals, programming/fitting manuals, and training videos.\n3. Your SDK/API package, if available, including documentation, sample code, supported platforms and models, Bluetooth communication/integration options, licensing terms, costs, and any NDA requirements. If no SDK is available, please confirm explicitly.\n4. The latest professional PC fitting/programming software for adjusting hearing aids to individual customers, with a download link or installer, demo access if available, supported operating systems, compatible models, and license/pricing terms. Please distinguish this from the consumer Android/iOS app.\n5. Details and pricing of the required USB/wireless programmer or fitting dongle, drivers, and confirmation of whether Noahlink Wireless is supported.\n6. Your price list, sample-pair and programmer quotation including shipping to Romania, and pricing and delivery time for the previously discussed quantity of 100 units. Please clarify whether prices and quantities refer to individual hearing aids or pairs.\n\nFor each item, please state whether it is available, included, or charged separately. If any files cannot be shared here, please provide a working download link.\n\nThank you.",
+    "client_id": "jinghao-docs-followup-20261030-aaea41c1-135c-4c1c-8e23-6f917bce380e"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_send_alibaba_message"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool eva_send_alibaba_message: busy: Sincronizare în curs, reîncearcă în câteva secunde"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 10710
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-34049c8c-e2e9-421e-9aa1-e47798f3c6f5",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_send_alibaba_message",
+  "status": "failed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "chat_id": "36a9dbb1-6acf-43ab-a1e5-06dca2167b19",
+    "confirm": true,
+    "text_body": "Hello,\n\nI am following up on my previous requests. We have not been able to locate the email and technical documents, so please resend the files directly in this Alibaba chat and also to office@eva-org.com.\n\nPlease provide:\n1. Your latest complete hearing aid catalog and detailed technical datasheets for all current models, especially DW5B and JH-DW5. Please clarify the differences between these two models and identify which support professional PC fitting.\n2. Full hardware and software specifications, user manuals, programming/fitting manuals, and training videos.\n3. Your SDK/API package, if available, including documentation, sample code, supported platforms and models, Bluetooth communication/integration options, licensing terms, costs, and any NDA requirements. If no SDK is available, please confirm explicitly.\n4. The latest professional PC fitting/programming software for adjusting hearing aids to individual customers, with a download link or installer, demo access if available, supported operating systems, compatible models, and license/pricing terms. Please distinguish this from the consumer Android/iOS app.\n5. Details and pricing of the required USB/wireless programmer or fitting dongle, drivers, and confirmation of whether Noahlink Wireless is supported.\n6. Your price list, sample-pair and programmer quotation including shipping to Romania, and pricing and delivery time for the previously discussed quantity of 100 units. Please clarify whether prices and quantities refer to individual hearing aids or pairs.\n\nFor each item, please state whether it is available, included, or charged separately. If any files cannot be shared here, please provide a working download link.\n\nThank you.",
+    "client_id": "jinghao-docs-followup-20261030-36a9dbb1-6acf-43ab-a1e5-06dca2167b19"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_send_alibaba_message"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool eva_send_alibaba_message: busy: Sincronizare în curs, reîncearcă în câteva secunde"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 10519
+}
+````
+
+## sleep
+
+````json
+{
+  "type": "sleep",
+  "id": "call_3a72251127874d53a546571a5d5cc864",
+  "durationMs": 15000
+}
+````
+
+## Asistent
+
+Alibaba raportează o sincronizare în curs și încă nu a acceptat mesajele. Reîncerc trimiterea către amândoi.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-ad028b9e-4272-4f69-b8a5-b637f644a883",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_send_alibaba_message",
+  "status": "failed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "chat_id": "36a9dbb1-6acf-43ab-a1e5-06dca2167b19",
+    "confirm": true,
+    "text_body": "Hello,\n\nI am following up on my previous requests. We have not been able to locate the email and technical documents, so please resend the files directly in this Alibaba chat and also to office@eva-org.com.\n\nPlease provide:\n1. Your latest complete hearing aid catalog and detailed technical datasheets for all current models, especially DW5B and JH-DW5. Please clarify the differences between these two models and identify which support professional PC fitting.\n2. Full hardware and software specifications, user manuals, programming/fitting manuals, and training videos.\n3. Your SDK/API package, if available, including documentation, sample code, supported platforms and models, Bluetooth communication/integration options, licensing terms, costs, and any NDA requirements. If no SDK is available, please confirm explicitly.\n4. The latest professional PC fitting/programming software for adjusting hearing aids to individual customers, with a download link or installer, demo access if available, supported operating systems, compatible models, and license/pricing terms. Please distinguish this from the consumer Android/iOS app.\n5. Details and pricing of the required USB/wireless programmer or fitting dongle, drivers, and confirmation of whether Noahlink Wireless is supported.\n6. Your price list, sample-pair and programmer quotation including shipping to Romania, and pricing and delivery time for the previously discussed quantity of 100 units. Please clarify whether prices and quantities refer to individual hearing aids or pairs.\n\nFor each item, please state whether it is available, included, or charged separately. If any files cannot be shared here, please provide a working download link.\n\nThank you.",
+    "client_id": "jinghao-docs-followup-20261030-36a9dbb1-6acf-43ab-a1e5-06dca2167b19"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_send_alibaba_message"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool eva_send_alibaba_message: busy: Sincronizare în curs, reîncearcă în câteva secunde"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 10464
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-1987e4ab-2281-4047-a577-943c55776aea",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_send_alibaba_message",
+  "status": "failed",
+  "arguments": {
+    "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "chat_id": "aaea41c1-135c-4c1c-8e23-6f917bce380e",
+    "confirm": true,
+    "text_body": "Hello,\n\nI am following up on my previous requests. We have not been able to locate the email and technical documents, so please resend the files directly in this Alibaba chat and also to office@eva-org.com.\n\nPlease provide:\n1. Your latest complete hearing aid catalog and detailed technical datasheets for all current models, especially DW5B and JH-DW5. Please clarify the differences between these two models and identify which support professional PC fitting.\n2. Full hardware and software specifications, user manuals, programming/fitting manuals, and training videos.\n3. Your SDK/API package, if available, including documentation, sample code, supported platforms and models, Bluetooth communication/integration options, licensing terms, costs, and any NDA requirements. If no SDK is available, please confirm explicitly.\n4. The latest professional PC fitting/programming software for adjusting hearing aids to individual customers, with a download link or installer, demo access if available, supported operating systems, compatible models, and license/pricing terms. Please distinguish this from the consumer Android/iOS app.\n5. Details and pricing of the required USB/wireless programmer or fitting dongle, drivers, and confirmation of whether Noahlink Wireless is supported.\n6. Your price list, sample-pair and programmer quotation including shipping to Romania, and pricing and delivery time for the previously discussed quantity of 100 units. Please clarify whether prices and quantities refer to individual hearing aids or pairs.\n\nFor each item, please state whether it is available, included, or charged separately. If any files cannot be shared here, please provide a working download link.\n\nThank you.",
+    "client_id": "jinghao-docs-followup-20261030-aaea41c1-135c-4c1c-8e23-6f917bce380e"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_send_alibaba_message"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool eva_send_alibaba_message: busy: Sincronizare în curs, reîncearcă în câteva secunde"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 10647
+}
+````
+
+## Asistent
+
+**Nu s-au trimis încă mesajele către Teresa și Joseph.** Am reîncercat, dar Alibaba returnează „Sincronizare în curs”.
+
+Mesajul în engleză este pregătit și solicită catalogul complet, fișele tehnice, SDK/API cu documentație, software-ul profesional de fitting/calibrare, programatorul compatibil, licențele și prețurile, plus clarificarea DW5B versus JH-DW5.

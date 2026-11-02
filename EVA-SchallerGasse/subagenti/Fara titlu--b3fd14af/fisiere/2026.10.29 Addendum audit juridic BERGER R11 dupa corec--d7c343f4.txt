@@ -1,0 +1,13 @@
+2026.10.29 — ADDENDUM AUDIT JURIDIC BERGER R11
+
+Am recitit §9 alin.(2) în JSON final din dosarul 2026.10.29 Werkvertrag R11.
+SHA-256 model verificat: b061c15b5060c65c7de3c46f7f7775684a82cfdd7c34f2d1313500d4faf483d2.
+
+Fraza este acum exact:
+«Die normale Ausführung innerhalb dieses achtzehnmonatigen Rahmens begründet für sich kein zusätzliches zeitabhängiges Honorar.»
+
+OBSERVAȚIA J01: ÎNCHISĂ. Ambiguitatea «Vor Beginn» a fost eliminată. Nu s-a schimbat prețul de47.500 EUR net/57.000 EUR brut, durata de18luni de laB0 efectiv sau păstrarea drepturilor legale pentru împiedicare potrivit§1168. Celelalte constatări ale auditului independent rămân valabile. Nu am identificat un fapt nou care să impună altă corecție juridică în modelul supus confirmării.
+
+CALIFICATIV FINAL: 10/10 pentru coerența și completitudinea juridică a proiectului contractual pregătit spre confirmare BERGER, în aria documentară auditată și pe baza deciziilor proprietarului. Nu reprezintă un calificativ de contract gata de semnat, acceptare a BERGER, aviz al unui avocat autorizat în Austria sau garanție asupra unui litigiu. Câmpurile pentru nume, competențe și independențăPI/ZT, includerea comercială, date, documente aprobate și calendar valoric sunt lăsate intenționat pentru confirmare/completare înainte de semnare. Ele nu sunt considerate erori ale unui proiect trimis explicit pentru această confirmare.
+
+PDF-ul curat este raportat de agentul principal cu34pagini, dintre care30text contractual și4ofertă originală. Acest addendum certifică numai recitirea modelului juridic și închiderea J01; verificarea vizuală și integritatea anexăriiPDF sunt acoperite separat de verificările fluxului principal. Nu am modificat contractul ori modelele și nu am trimis emailuri.

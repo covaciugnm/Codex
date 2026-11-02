@@ -1,0 +1,23 @@
+{
+  "id": "01a18d7d-705d-7b52-8387-8ad16ffb5083",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1793375170,
+  "updated_at": 1793375350,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Caută conversațiile cu coloana „ext3",
+  "project_id": "2daf6940-5c6c-4dd4-9a8b-29112447ad28",
+  "project": "Alibaba",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 583777,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 22,
+  "message_count": 5,
+  "content_sha256": "ccadc53ffd8486f915c2adab3d868936dade7a8e98e001e7fc97bb5862d4a1c8",
+  "files_copied": 0,
+  "references_not_copied": 1
+}

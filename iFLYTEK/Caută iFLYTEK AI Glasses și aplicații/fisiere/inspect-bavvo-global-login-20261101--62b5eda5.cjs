@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const repo=path.resolve(__dirname,'..'),out=path.join(repo,'loomy-translate-skill-2026-11-01'),catalog=JSON.parse(fs.readFileSync(path.join(repo,'apk-analysis-2026-11-01/catalog.json'),'utf8'));
+const version=catalog.versions.find(v=>v.package==='com.iflytek.bavvo'&&v.version==='1.0.1222'),manifest=JSON.parse(fs.readFileSync(path.join(repo,'apk-analysis-2026-11-01',version.manifest),'utf8'));
+const entry=manifest.entries.find(e=>e.path==='lib/armeabi-v7a/libapp.so'),i=process.argv.indexOf('--native');
+const file=i<0?'D:/Codex-iflytek-apk-analysis-20261101/versions/com.iflytek.bavvo/1.0.1222/bavvo-1.0.1222/raw/'+entry.component+'/'+entry.path:process.argv[i+1],b=fs.readFileSync(file),sha256=crypto.createHash('sha256').update(b).digest('hex');
+if(sha256!==entry.sha256||b.length!==entry.bytes)throw Error('Native source does not match the inventoried APK');
+const hosts=['https://account-ap1.iflyoversea.com','https://account-h5-ap1.iflyoversea.com','https://transsaas-api-ap1.iflyoversea.com','https://transsaas-h5-ap1.iflyoversea.com','https://hardware-ap1.iflyoversea.com'].filter(s=>b.includes(s));
+const symbols=['BVEmailInputView','sendEmailRegisterCode','submitEmailRegister','_emailPasswordLogin','loginByEmailPassword'].filter(s=>b.includes(s));
+const routes=['/register/email/sendCode','/register/email/checkCode','/userInfo/recoverPwd/email/sendCode','/userInfo/recoverPwd/email/checkCode'].filter(s=>b.includes(s));
+const jsFile='sources/international-account-app.js',js=fs.readFileSync(path.join(out,jsFile),'utf8'),webRoutes=['/register/email/sendCode','/register/email/checkCode','/register/email/submitPwd','/login/email/submitPwd'].filter(s=>js.includes(s));
+const result={sourceApk:{package:version.package,version:version.version,containerSha256:version.sourceSha256,manifest:'apk-analysis-2026-11-01/'+version.manifest},native:{component:entry.component,path:entry.path,bytes:b.length,sha256},embeddedInternationalHosts:hosts,embeddedEmailSymbols:symbols,embeddedEmailRoutes:routes,publicAccountCode:{url:'https://account-h5-ap1.iflyoversea.com/pass/mobile/static/js/app_b54c035a563495ab85a3.js',file:jsFile,sha256:crypto.createHash('sha256').update(js).digest('hex'),emailRoutes:webRoutes},limits:['Static evidence only; no credential, account or backend operation was used.','This establishes international-account client code, not successful pairing of XF-AIGlasses-01 with Bavvo.','Endpoint strings and included functions are not a functional authentication test.']};
+fs.writeFileSync(path.join(out,'international-login-evidence.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({hosts,symbols,webRoutes}));

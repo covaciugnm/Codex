@@ -1,0 +1,24 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\MEMORY.md",
+    "status": "copiat",
+    "saved_path": "fisiere/MEMORY--51c05c25.md",
+    "bytes": 8565,
+    "sha256": "2ab9c68aab262327c86a0aa02d3347760bf5a6ec2aba1db02a331fd801ea061a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\iflytek-deploy-key.md",
+    "status": "copiat",
+    "saved_path": "fisiere/iflytek-deploy-key--39ab7af5.md",
+    "bytes": 1036,
+    "sha256": "ff95a8b670525cc0074e68b825e7af8f01d2261ad3f629224a8422b2c9e154e0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.ssh\\iflytek_deploy_20261031",
+    "status": "configuratie_sau_credentiale_excluse"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/settings/keys",
+    "status": "referinta_externa_necopiata"
+  }
+]

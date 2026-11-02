@@ -1,0 +1,23 @@
+{
+  "id": "01a158fb-9de0-7d70-9d2b-256c000b0e56",
+  "cwd": "\\\\?\\C:\\Users\\User\\Documents\\Codex\\2026-10-20\\un",
+  "created_at": 1792494247,
+  "updated_at": 1792494276,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește conversațiile arhivate",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "explicitly_projectless",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 41919,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 7,
+  "message_count": 3,
+  "content_sha256": "6d89c248e5b5828e4f39900ccbb2ae2909ec666517e6e0d1a6082d7288bd0dc9",
+  "files_copied": 0,
+  "references_not_copied": 1
+}

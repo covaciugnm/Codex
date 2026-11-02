@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "status": "RESOLVED-BEFORE-EXECUTION",
+  "rejectedPlanSha256": "5b34bd75b3fc76841ae1ce29f88bb90bdaed787361d1ec9677bf06e1f6eb7a3b",
+  "finding": "Initial reference selector chose the first raw onPerformStreamCallback method, the IResponse bridge. The exact source stub signature has AISummaryResponse and belongs to raw l(AISummaryResponse). A displayed Java method name is insufficient for identity.",
+  "incorrectRawDescriptor": "La/b;->onPerformStreamCallback(Lcom/iflytek/fanyi/blc/service/bean/IResponse;)V",
+  "correctRawDescriptor": "La/b;->l(Lcom/iflytek/fanyi/blc/service/bean/AISummaryResponse;)V",
+  "resolution": "Plan changed to exact typed raw descriptor; eighteen matcher fixtures include the bridge negative case. Metadata success and source-alias matching are separate verdicts; an unresolved post-bridge alias is retained honestly.",
+  "approvedPlanSha256": "8a74785b4f2d8f9c38618e2ba8e06f4ee766ba02b456d3c967df71d22c4e2003",
+  "incorrectPlanExecuted": false,
+  "resultEvidence": "METHOD-MAP-PREFLIGHT-RESULTS.json",
+  "semanticRepairApproved": false,
+  "commitApproved": false
+}

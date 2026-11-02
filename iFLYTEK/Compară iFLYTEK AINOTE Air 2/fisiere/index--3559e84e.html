@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ro"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iFLYTEK 1.0.3899 — APK recompilat</title>
+<style>body{font:17px/1.65 system-ui,sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#172b39;background:#f6f8fa}h1,h2{line-height:1.25}h1{font-size:2rem}h2{margin-top:2rem;font-size:1.3rem}a{color:#005e96}code{overflow-wrap:anywhere;font-size:.85em}pre{white-space:pre-wrap;background:#e8edf1;padding:16px;border-radius:8px}.status{padding:18px;border-left:5px solid #18704c;background:#e5f3eb}.pending{border-left-color:#b06e00;background:#fff2d7}table{border-collapse:collapse;width:100%;background:white}td,th{padding:10px;text-align:left;border-bottom:1px solid #d8e1e8}.muted{color:#4b606e}li{margin:8px 0}</style>
+<body><p class="muted">Proiect local · 31 octombrie 2026 · com.iflytek.translateapp</p>
+<h2>Varianta cu România (+40)</h2><p class="status pending"><strong>APK construit și semnat.</strong> Instalarea pe telefon nu este încă verificată. Interfața trebuie verificată pe telefon.</p><p><a href="dist/iflytek-1.0.3899-romania40.apk">Descarcă APK-ul cu România (+40)</a> · <a href="dist/iflytek-1.0.3899-romania40.apk.sha256">SHA-256</a> · <a href="variants/romania-40/README.md">Modificări, formatul numărului și limite</a>.</p><p>Selectează +40 și introdu 9 cifre începând cu 7, fără zero inițial. Fluxul SDK existent transmite <code>ccode: "40"</code> separat de număr. Acceptarea numărului de către server nu este încă verificată.</p><p>22 de teste ARM64 trecute. Față de baza de mai jos, se modifică numai libapp.so; celelalte 79 de biblioteci, 6 DEX, 1.046 assets și manifestul sunt păstrate. <a href="variants/romania-40/reports/archive-audit.json">Audit APK</a> · <a href="variants/romania-40/reports/native-tests.json">Teste ARM64</a> · <a href="variants/romania-40/reports/device-test.json">Test pe telefon</a>.</p>
+<h1>APK recompilat din Smali și resurse</h1>
+<p class="status"><strong>Verificări statice: trecute.</strong> APK recompilat: instalare verificată, pornire verificată. Autentificarea și Bluetooth necesită teste separate.</p>
+<p>Versiunea 1.0.3899 a fost reconstruită cu Apktool 3.0.3 și Android Build Tools 36.0.0. Toate cele șase DEX au fost reasamblate. Bibliotecile native și Flutter sunt păstrate ca binare.</p>
+<h2>Fișiere disponibile</h2><ul>
+<li><a href="dist/iflytek-1.0.3899-full-rebuilt.apk">APK recompilat, semnat local</a> · 254.376.293 octeți · <a href="dist/iflytek-1.0.3899-full-rebuilt.apk.sha256">SHA-256</a></li>
+<li><a href="dist/iflytek-1.0.3899-editable-source.zip">Arhivă cu proiectul editabil Smali și resurse</a> · <a href="dist/iflytek-1.0.3899-editable-source.zip.sha256">SHA-256</a></li>
+<li><a href="README.md">Instrucțiuni și limite</a> · <a href="Build.ps1">Script de construire</a> · <a href="Check-Device.ps1">Diagnostic ADB</a></li>
+</ul><p><strong>APK SHA-256:</strong><br><code>c10d5475f384d433884e44417126f1077478790241ab174bc5987a08a98f038c</code></p>
+<p><strong>Arhivă surse SHA-256:</strong><br><code>e53fe743b74c2825323c9a2b62b2b01bcf1c19fb1c0a05a7af2ab6494eaa0eea</code></p>
+<p class="status pending">Certificatul este local, diferit de cel al producătorului. Acest APK nu se poate instala ca actualizare peste aplicația oficială. Înlocuirea pe Galaxy A14 a fost autorizată explicit de utilizator; datele locale ale versiunii oficiale au fost șterse la dezinstalare. APK-ul oficial este păstrat pentru reinstalare.</p>
+<h2>Ce arată comparația</h2><table><thead><tr><th>Element</th><th>Rezultat</th></tr></thead><tbody>
+<tr><td>Clase în 6 DEX</td><td>47.219; aceleași numere de clase, metode și câmpuri per DEX</td></tr>
+<tr><td>Smali identic textual după re-decodare</td><td>47.044 fișiere</td></tr>
+<tr><td>Diferențe normalizate</td><td>176 fișiere: valori implicite, intervale de tratare a excepțiilor și ordinea enum/flag; 0 diferențe neexplicate</td></tr>
+<tr><td>Biblioteci native / assets</td><td>80 / 1.046, identice octet cu octet</td></tr>
+<tr><td>Resurse identice textual</td><td>1.273; attrs.xml echivalent după ordonarea declarațiilor</td></tr>
+<tr><td>Manifest / metadate</td><td>Valori echivalente; diferă numerele liniilor și unele căi de resurse</td></tr>
+<tr><td>Semnătură / aliniere ZIP</td><td>Verificate cu apksigner / zipalign</td></tr>
+</tbody></table>
+<p>Aceste rezultate verifică reconstrucția statică, fără a demonstra funcționarea serviciilor cloud sau acceptarea noului certificat.</p>
+<h2>Telefon și ochelari</h2><p>Galaxy A14 5G SM-A146P/DSN; Android 14, API 34. Ochelari comunicați de utilizator: XF-AIGlasses-01, firmware 1.0.01.88. Ultimul rezultat ADB: <strong>ADB_READY</strong>. Starea testului APK-ului recompilat: <strong>INSTALL_AND_LAUNCH_PASS</strong>.</p>
+<p>Aplicația oficială 1.0.3899 a fost verificată înaintea înlocuirii: pornea și afișa ecranele principale în engleză. Identitatea APK-ului și certificatul original sunt consemnate separat în raportul inițial.</p>
+<h2>Reconstruire</h2><pre>.\Build.ps1 -VerifyRoundTrip
+.\Export-Source.ps1
+.\Check-Device.ps1
+node .\Write-Report.cjs</pre>
+<p>Necesită Windows, PowerShell 7, Node.js și JDK 21. <a href="tools.lock.json">Versiunile uneltelor și amprentele lor</a> sunt fixate. Cheia privată de semnare rămâne în directorul local privat, în afara acestui pachet.</p>
+<h2>Limite rămase</h2><ul><li>Sursele originale Dart și C/C++ nu au fost recuperate. Exportul Java/JADX cu erori rămâne material de analiză; acest build folosește Smali.</li><li>Autentificarea și regulile serverului sunt cele originale. Recompilarea nu adaugă suport pentru România și nu elimină validarea contului.</li><li>Profilurile ART originale pot să nu mai corespundă noilor DEX. Alinierea ZIP la 16 KiB nu modifică alinierea ELF a bibliotecilor.</li><li>Testele fizice trebuie să confirme instalarea, pornirea, accesul cu contul existent, asocierea Bluetooth, audio și traducerea. Actualizarea firmware-ului nu a fost efectuată.</li></ul>
+<h2>Dovezi</h2><ul><li><a href="reports/full/build-result.json">Rezultatul buildului</a></li><li><a href="reports/full/archive-audit.json">Inventar și comparație APK</a></li><li><a href="reports/full/roundtrip.json">Comparație Smali și resurse</a></li><li><a href="reports/full/first-clean-build.log">Logul reasamblării inițiale</a></li><li><a href="reports/full/signature.txt">Verificarea certificatului</a></li><li><a href="reports/full/original-manifest-tree.txt">Manifest original</a></li><li><a href="reports/full/rebuilt-manifest-tree.txt">Manifest reconstruit</a></li><li><a href="test-verifier.cjs">Testele verificatorului</a></li></ul>
+<ul><li><a href="reports/source-export.json">Verificarea arhivei editabile</a></li><li><a href="reports/device-status.json">Starea conexiunii ADB</a></li><li><a href="reports/device-baseline.json">Verificarea aplicației oficiale</a></li><li><a href="reports/device-test.json">Testul APK-ului recompilat pe telefon</a></li></ul>
+<p class="muted">Raport generat din fișierele locale de verificare. Nicio validare statică nu este prezentată drept test pe dispozitiv.</p></body></html>

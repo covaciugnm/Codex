@@ -1,5 +1,25 @@
 # MP3 Varvi
 
+## Unirea videoclipurilor locale
+
+Secțiunea **Unește videoclipuri într-un singur MP4** permite adăugarea unui video, selectarea mai multor fișiere sau alegerea unui folder (inclusiv subfoldere). Lista este cumulativă. La alegerea folderului, fișierele se ordonează natural după cale/nume (1, 2, 10). Folosește săgețile sus/jos pentru ordinea finală și **Elimină** pentru un fișier. **Golește lista** elimină și copiile încărcate temporar.
+
+Sunt acceptate MP4, MKV, MOV, AVI, WEBM, M4V, MPEG, MPG și TS, maximum 100 de videoclipuri și 4 GB per fișier. După alegerea numelui, apasă **Unește videoclipurile**. Se copiază fișierele pe serverul local, apoi se procesează în fundal. Progresul este afișat în pagină și poate fi recuperat după reîncărcare cât timp serverul rulează.
+
+Rezultatul este MP4 H.264/AAC, 1920×1080, 30 fps, audio stereo 48 kHz. Se păstrează proporțiile cu benzi negre; videoclipurile fără audio primesc liniște, iar pistele audio scurte sunt completate cu liniște. Se folosește prima pistă video și prima pistă audio. Subtitrările/pistele suplimentare nu sunt incluse. Clipurile sunt puse unul după altul, fără tranziții.
+
+Salvare în `downloads/Videoclipuri unite`, cu un identificator în nume pentru evitarea suprascrierii. Un JSON alăturat păstrează ordinea numelor sursă. Fișierele originale nu sunt modificate. Copiile încărcate sunt șterse după succes, iar fișierele intermediare sunt șterse după procesare. La eroare, copiile încărcate rămân disponibile pentru reîncercare sau golirea listei. După oprire forțată/restart pot rămâne fișiere în `.runtime/merge-uploads` și `.runtime/merge-work`; acestea sunt temporare, nu originale. Conversia necesită timp și spațiu liber suplimentar, proporțional cu lungimea clipurilor. Unirea rulează local și nu accesează YouTube.
+
+Funcționalitatea este separată în `video_merge.py` și `static/merge.js`.
+
+## Audio și videoclipuri
+
+Selectorul **Ce descărcăm?** oferă MP3, MP4 sau Ambele și se aplică atât linkurilor individuale/playlisturilor, cât și importului Excel. MP3 rămâne opțiunea implicită. Videoclipul include sunet, este limitat la maximum 1080p (în funcție de sursă) și este convertit în MP4 H.264/AAC. Conversia poate dura și folosește mai mult spațiu decât audio.
+
+La **Ambele**, aceeași sursă video este descărcată o singură dată; MP4 și MP3 sunt produse local, în același folder, cu același nume de bază. MP3 păstrează ID3 și coperta; MP4 primește etichete pentru artist/titlu/album și coperta disponibilă. CSV are câte un rând pentru fiecare fișier, cu coloana `format`. Fișierele auxiliare noi au nume precum `Artist - Piesă.mp3.info.json` și `Artist - Piesă.mp4.info.json`. Descărcarea și conversia sunt implementate separat în `media_download.py`.
+
+Pauzele și oprirea la limitări YouTube se aplică tuturor modurilor. Compatibilitatea redării MP4 depinde de playerul folosit.
+
 Aplicație locală în Python + HTML pentru piese și playlisturi YouTube / YouTube Music.
 
 ## Pornire pe Windows

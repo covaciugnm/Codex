@@ -1,0 +1,30 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_agents_c03_c10.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_architecture_g123_second.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_final_three_acceptance.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_g123_final_acceptance.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_g123_final_qa.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_native_second_c03_c10.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_user_coverage_matrix.json",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

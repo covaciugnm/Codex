@@ -1,0 +1,32 @@
+VERIFICARE INDEPENDENTĂ SELECTIVĂ A LIVRĂRII
+Data: 30.10.2026
+Autor: agentul auditor_documentatie
+Generația verificată: 2026-10-30T19:41:17.129Z
+
+Verdict: verificările din domeniul de mai jos au trecut. Cele două neclarități documentare semnalate în această rundă au fost corectate și reverificate. Nu rămâne o constatare deschisă în domeniul selectiv verificat. Nu se acordă un scor global al răspunsurilor.
+
+1. Indicatorii au fost recalculați independent din catalog, nu preluați doar din raport:
+K01: 118/443 fișe Flutter cu outputParameterIds = 26,64%.
+K02: 213/443 fișe Flutter cu resultObservations = 48,08%; totalul înregistrărilor de observație este 275.
+K03: 199/2.900 parametri cu javaType exact „necunoscut” = 6,86%.
+K04: 60/90 fișe recepție BLE cu outputParameterIds = 66,67%.
+K05: 10/90 fișe recepție BLE cu schemaPaths = 11,11%.
+Valorile, numitorii și rotunjirile coincid cu indicatori.json și RAPORT.txt. Limitele explică faptul că acești indicatori nu reprezintă procente de protocol sau SDK complet. Cele cinci cozi corespunzătoare au fost comparate ca mulțimi de ID-uri cu JSON-urile sursă: nu lipsesc și nu apar ID-uri suplimentare. Coada distinctă a candidaților de canal are 275 de intrări; ea nu trebuie confundată cu cele 275 de observații Result.
+
+2. Stările metodelor sunt sincronizate după corecție:
+6 aplicat; 2 aplicat_selectiv; 2 aplicat_partial; 7 propus; 1 plan_pregatit — total 18.
+Toate cele 9 experimente rămân propus_neexecutat. Cele 40 de cerințe păstrează distribuția 17 acoperit_documentar, 9 partial, 6 limita_explicitata, 8 livrat, fără transformarea acesteia într-un scor unic. Legăturile tuturor celor 40 de cerințe către solicitare, turnId și mesajele finale există în istoricul salvat.
+
+3. Corecția Air 2 este coerentă în S01, A01, V01, modelul de răspuns și raport: FAQ-ul UK descrie APK/Google Play în jurnalul din 28.01.2025, cu verificarea regiunii și firmware-ului. Nu se deduce compatibilitatea aplicației de ochelari sau cuplarea directă. Comparația comercială uniformă rămâne o metodă propusă, nu este declarată executată integral. Dovada și limitele de acces la sursă sunt păstrate separat.
+
+4. Scorul anterior 10/10 este delimitat explicit în indicatori.json, A20, V08, RAPORT.txt și în textul paginii HTML. Nu este extins la toate răspunsurile, la toate metodele APK sau la funcționarea pe hardware. Cererile de fezabilitate audio nu sunt penalizate pentru absența unui produs necerut, iar lipsa pachetului firmware rămâne o limită de intrare declarată.
+
+Observații corectate în această rundă
+
+L1 — M04 avea starea aplicat și un criteriu despre „fiecare răspuns final”, în timp ce artefactul demonstra modelul și sinteza curentă. Corecția verificată: aplicat_selectiv; criteriul se referă explicit la modelul/sinteza actuală și nu presupune rescrierea celor 17 răspunsuri. JSON, indicatori, raport și datele încorporate în HTML sunt sincronizate. Criteriul M13 este, de asemenea, limitat explicit la concluziile inventariate în registru.
+
+L2 — Dovezile moștenite de la nivelul solicitării puteau sugera corelări factuale nejustificate. Exemple: README-ul SDK la cerința S06.02 despre compensare auditivă și documentele API/SDK la S01.01 despre performanța Air 2. Corecția verificată: toate cele 40 de cerințe folosesc istoricul ca dovadă a evaluării editoriale, cu identificatorii mesajelor; legăturile conexe sunt separate în contextArtifacts. evidenceRole explică această distincție. Codul UI afișează explicit „Artefacte de context ale solicitării” și precizează că evaluarea nu reverifică factual fiecare subcerință. Sursele comerciale/medicale istorice nu sunt astfel prezentate ca reverificate automat.
+
+Limitele verificării
+
+Am citit selectiv registrele, raportul, modelul și codul/datele paginii; am recalculat KPI-urile și comparat legăturile/cozile menționate. Nu am reluat aici auditul semantic al întregului APK, verificarea tuturor surselor comerciale sau medicale, testele pe dispozitive ori testarea vizuală în browser. Verificarea browserului este efectuată separat de agentul principal. Aceste limite nu împiedică închiderea verificării metodologice solicitate.

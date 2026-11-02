@@ -10,14 +10,14 @@
   "project": "CesiroSighi",
   "assignment_method": "app_assignment",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
-  "source_bytes": 1673602,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1193208,
   "invalid_json_lines": 0,
   "history_source": "items",
   "rollout_exists": true,
   "item_count": 4,
   "message_count": 3,
   "content_sha256": "e8dae69d235c0f9d5bdf2f9057f1c42fecd4bcacb2b085a5c167bd143605879b",
-  "files_copied": 4,
-  "references_not_copied": 1
+  "files_copied": 0,
+  "references_not_copied": 5
 }

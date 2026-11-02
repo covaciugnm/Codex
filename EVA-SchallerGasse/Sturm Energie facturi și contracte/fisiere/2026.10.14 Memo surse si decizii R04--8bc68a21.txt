@@ -1,0 +1,32 @@
+2026.10.14 — MEMO REDACTARE R04 (Solicitare justificare contractuala STURM ENERGIE GmbH)
+Statut: draft local NETRIMIS. Nu s-a creat draft Eva-Mail. Nu s-a trimis nimic.
+Baza: R03 (audit 9/10) + 4 remedieri minore transmise de coordonator. Nicio alta modificare de continut.
+Fisier scrisoare: D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\06. Utilitati\UTILITATI Curent - Sturm Energie\2026.10.14 Solicitare justificare contractuala STURM\Redactare\2026.10.14 Solicitare STURM DE R04 NETRIMIS.txt
+Metoda: inlocuiri exacte de text (fiecare sir gasit o singura data in R03), scriere UTF-8 fara BOM.
+
+1. REMEDIERI APLICATE
+
+Nr. | Loc | Inlocuire | Aplicata
+----|-----|-----------|---------
+1 | III.5 | Inserat inainte de „insbesondere:”: „soweit Sie aus diesen Konten Forderungen gegen A&C ableiten oder Rechnungen an A&C adressiert haben,” — limiteaza cererea de Kontoblätter la ce priveste A&C (evita pretentia de acces la conturile unui tert). | DA
+2 | IV.3 | „geleistet, und zwar irrtümlich in der Annahme einer Zahlungspflicht und ohne Prüfung der Vertragsgrundlage.” → „geleistet, ohne Prüfung der Vertragsgrundlage.” Varianta neutra: nu avem confirmarea ca plata a fost din eroare. Verificat: „irrtümlich” nu mai apare nicaieri in R04 (I.6 si Beilage 2 pos. G nu l-au continut nici in R03). | DA
+3 | II.4 | „(Schuldübernahme) setzt eine entsprechende Erklärung der A&C voraus (§§ 1405, 1406 ABGB).” → „(Schuldübernahme, §§ 1405, 1406 ABGB) setzt eine entsprechende Erklärung der A&C voraus.” — paragrafele legate direct de institutul la care se refera. | DA
+4 | III.8 | „der unter Punkt 1 bis 6 angeforderten Unterlagen” → „der unter Punkt III.1 bis III.6 angeforderten Unterlagen und Erklärungen” — referinta precisa, acopera si declaratiile (Negativerklärung). | DA
+— | Final | Sterse „--- ENDE DES SCHREIBENS ---” si blocul „Status: ENTWURF ...”; notele interne mutate in acest memo (pct. 2). Scrisoarea se termina acum cu Hinweis-ul din Beilage 2. | DA
+— | Semnatura | Placeholder „Tel.: [vor Versand ergänzen]” pastrat conform instructiunii. | DA
+
+2. VERIFICARI PRE-EXPEDIERE (note interne mutate din corpul scrisorii)
+- Telefon: completeaza sau sterge „[vor Versand ergänzen]” din semnatura (e-mailul ramane canalul unic daca nu se adauga telefon).
+- Termene: 16.10.2026 (confirmare suspendare Mahn/Inkasso, III.8) presupune expedierea la 14.10.2026; la expediere in 15.10.2026 → „bis 17.10.2026, 12:00 Uhr” (ramane inainte de 19.10.2026). Termenul 28.10.2026 pentru documente ramane.
+- Plata 115,36 EUR (IV.3, I.6, Beilage 2 G): formularea e acum neutra („von einer Privatperson, nicht von A&C ... ohne Prüfung der Vertragsgrundlage”); confirma cu persoana care a platit ca descrierea e exacta.
+- Übergabestichtag: formularea „laut Kaufvertrag 405/2026” nu contine o data; optional, daca data exacta e cunoscuta, poate fi inserata in III.3.
+- Diacritice: verificare vizuala ä ö ü ß (fisier UTF-8 fara BOM); la conversie in PDF/antet, pastreaza codificarea.
+- Semnatura Geschäftsführer (Cosmin-Adrian Covaciu) si antet firma pe PDF.
+- Trimitere la ambele adrese STURM (grosskunde@ si kundendienst@) cu referire la ticketele 365759 si 365740 in subiect; atasate Beilage 1 si 2 (sunt in acelasi fisier; pot fi exportate si ca tabel separat).
+- Hauptsicherung/„stromlos” (rem. 24 audit R02): ramane neinclus, de verificat documentar pentru o etapa ulterioara.
+
+3. NORME CITATE (neschimbate fata de R03)
+ABGB §§ 859, 861, 862, 863, 1405, 1406, 1333 Abs. 1 und 2, 1431. Necitate: § 1404, § 1409, § 1432 ABGB; § 458 UGB; ElWOG 2010; GWG 2011; KSchG.
+
+4. SURSE
+Identice cu Memo R03 (2026.10.14 Memo surse si decizii R03.txt), plus instructiunile coordonatorului cu cele 4 remedieri ale auditului R03.

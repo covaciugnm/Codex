@@ -151,6 +151,10 @@
     "sha256": "327a5aa429694f901500de5048f6a9d28e93654ec7ce508271f092f224557f57"
   },
   {
+    "source_reference": "\\\\192.168.100.151\\nume-partajare",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
     "source_reference": "https://anabi.just.ro/licitatiionline/ads?page=1\\&shortBy=price_high_to_low",
     "status": "referinta_externa_necopiata"
   },
@@ -160,6 +164,18 @@
   },
   {
     "source_reference": "https://anabi.just.ro/licitatiionline/auction/1281/licitatie-mercedes-benz-s500-4matic-2",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/auction/1285/licitatie-bmw-seria-8m850i-xdrive-1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/auction/1286/licitatie-mercedes-benz-s500-4matic-3",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/auction/1287/licitatie-mercedes-benz-s-class-s400d-4matic-2",
     "status": "referinta_externa_necopiata"
   },
   {

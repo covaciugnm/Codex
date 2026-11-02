@@ -38,6 +38,8 @@
 - [DRACULA comics](drakon-comics.md) — BD „DRACULA — Contele Nopții”, erou VLAD III real (istorie 1431–1476 strictă), traseu 24 capitale, continuitate separată de romane, D:\00. Downloads\Dracula Book\DRACULA-COMICS
 - [Austrian Airlines contact](austrian-airlines-contact.md) — formularul https://www.austrian.com/at/en/contact-form-other.html pt. orice cerere (facturi, reclamații); Austrian nu are email de răspuns
 - [Curatenie Google Drive](google-drive-curatenie.md) — cont covaciu.gnm 505/15 GB; ~503 GB sterse 05.10.2026, Drive Desktop dezinstalat, Takeout pornit → de verificat si sters restul
+- [iFLYTEK deploy key](iflytek-deploy-key.md) — repo covaciugnm/iFLYTEK, deploy key read-only din 31.10.2026, cheia privata C:\Users\User\.ssh\iflytek_deploy_20261031
+- [iFlyGlasses app](iflyglasses-app.md) — app Android proprie pt ochelari AI iFLYTEK (client BLE independent de logarea SMS), folder Dep. IT\iFlyGlasses-Companion, protocol E0 gata NEverificat pe HW
 - [GitHub repos site-uri](github-repos-site-uri.md) — 8 repo-uri PRIVATE covaciugnm (dracula-comics + 6 site-uri eva-contab + ac-wohnart-documente); SSH cheie la 192.168.100.151; export ~/git-export fără .env/date
 - [EVA Learn traducator Qwen](eva-learn-traducator-qwen.md) — traducere in masa RO-TOT cu Qwen pe PGX .160 (NU umbla la docker!), 37 limbi, GitHub cesiroproduction/Eva-Learn documentatie/traducator-qwen
 - [3dscan.eva-org.com server](3dscan-eva-org-server.md) — repo covaciugnm/3dscan.eva-org.com pe .151, git doar prin ops/git.sh, deploy 008 07.10.2026, backlog B01–B15 cu echipe paralele pe feat/*
@@ -46,4 +48,5 @@
 - [Stalwart releu hosterion Spamhaus](stalwart-releu-hosterion-spamhaus.md) — 13.10.2026: IP 5.15.130.140 listat CSS+PBL, iesire mutata pe releu mail.cesiro.ro (IP 185.199.175.100), SPF actualizat, rapoarte DMARC/TLS oprite; eva-org.com inca in DBL (formular Spamhaus = userul)
 - [Persoane si Firme: surse acte](persoane-firme-surse-acte.md) — MEREU cauta CI/CNP in Z:\00. Persoane si actele firmelor in Z:\00. Firme inainte de a lasa rubrici goale
 - [STURM Energie Schallergasse](sturm-energie-schallergasse.md) — litigiu facturi fara contract A&C, somatii 2.662,60 EUR termen 19.10.2026; solicitare R06 (10/10) + draft EVA creat 14.10.2026, NETRIMIS
+- [CESIRO redesign temă](cesiro-redesign-tema.md) — redesign cesiro.com ca temă React pe EVA Storefront; audituri Claude V1–V3 în ...\cesiro-proiect\Audituri; varianta C aleasă 21.10.2026; retragere online lipsă în cod
 - [Wild Motion achizitie ATV](wild-motion-achizitie-atv.md) — dosar 3 ATV CFMOTO (SMIS 311779): variante REVO 5C / ARIDE, buget 221.838 fara TVA + 21%, IBAN corect RO42...0DB..., erori gasite, reguli user (TVA 21%, denumire scurta, specificatii doar din invitatie)

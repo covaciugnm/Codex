@@ -1,0 +1,79 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261030172915
+Username: DESKTOP-COSMIN\User
+RunAs User: DESKTOP-COSMIN\User
+Configuration Name: 
+Machine: DESKTOP-COSMIN (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\User\Documents\Backup-Startup-2026-10-30\curatare-startup.ps1
+Process ID: 38352
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== SERVICII ===
+OK   rsClientSvc -> Disabled (Stopped)
+OK   rsEngineSvc -> Disabled (Stopped)
+OK   rsSyncSvc -> Disabled (Stopped)
+WARNING: Waiting for service 'Safer Web DNS Resolver (rsDNSResolver)' to stop...
+WARNING: Waiting for service 'Safer Web DNS Resolver (rsDNSResolver)' to stop...
+WARNING: Waiting for service 'Safer Web DNS Resolver (rsDNSResolver)' to stop...
+OK   rsDNSResolver -> Disabled (Stopped)
+OK   rsDNSSvc -> Disabled (Stopped)
+OK   rsVPNSvc -> Disabled (Stopped)
+OK   QMEmulatorService -> Disabled (Stopped)
+OK   simptcp -> Disabled (Stopped)
+OK   cFosSpeedS -> Disabled (Stopped)
+WARNING: Waiting for service 'Intel(R) Driver & Support Assistant (DSAService)' to stop...
+WARNING: Waiting for service 'Intel(R) Driver & Support Assistant (DSAService)' to stop...
+WARNING: Waiting for service 'Intel(R) Driver & Support Assistant (DSAService)' to stop...
+WARNING: Waiting for service 'Intel(R) Driver & Support Assistant (DSAService)' to stop...
+OK   DSAService -> Disabled (Stopped)
+OK   DSAUpdateService -> Disabled (Stopped)
+=== TASK-URI PROGRAMATE ===
+OK   \Adobe Acrobat Update Task
+OK   \AVGBrowserProtectS-1-5-21-3947112371-2596958979-3271516134-1001
+OK   \GoogleUserPEH\RunPlatformExperienceHelperOnUnlock
+OK   \GoogleUserPEH\RunPlatformExperienceHelper_Daily
+OK   \GoogleUserPEH\RunPlatformExperienceHelper_Metrics
+OK   \Mozilla\Firefox Default Browser Agent 308046B0AF4A39CB
+OK   \SoftLanding\S-1-5-21-3947112371-2596958979-3271516134-1001\SoftLandingCreativeManagementTask
+OK   \SoftLanding\S-1-5-21-3947112371-2596958979-3271516134-1001\SoftLandingDeferralTask-{cd7cc4c7-699f-4bd6-9e6a-b4a4827df71f}
+OK   \SoftLanding\S-1-5-21-3947112371-2596958979-3271516134-1001\SoftLandingRefreshForExpirationTask-{d369db80-e1ca-4f14-b06a-8d3a28bfe61c}
+OK   \SoftLanding\S-1-5-21-3947112371-2596958979-3271516134-1001\SoftLandingTriggerTask-128000000001615609-render-{b1b02a47-7194-43c1-9cc7-ff63b303a7fc}
+OK   \VS Revo Group\RevoHelperFreeStartup
+=== INTRARI RUN ===
+OK   GoogleUpdaterTaskUser128.0.6537.0  (HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   GoogleUpdaterTaskUser128.0.6597.0  (HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   GoogleUpdaterTaskUser129.0.6651.0  (HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   GoogleUpdaterTaskUser136.0.7079.0  (HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   GoogleUpdaterTaskUser138.0.7156.0  (HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   GoogleUpdaterTaskUser148.0.7730.0  (HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+--   Logitech Download Assistant nu exista (HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   Adobe CCXProcess  (HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run)
+OK   CheckNDISPort58ac13  (HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run)
+OK   CancelAutoPlay_df  (HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run)
+OK   Acrobat Assistant 8.0  (HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run)
+OK   TeamsMachineUninstallerLocalAppData  (HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run)
+OK   TeamsMachineUninstallerProgramData  (HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run)
+OK   Adobe CCXProcess  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run32)
+OK   TeamsMachineInstaller  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run32)
+OK   CancelAutoPlay_df  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run32)
+OK   CheckNDISPort58ac13  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run32)
+OK   Acrobat Assistant 8.0  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run32)
+OK   Gigabyte Speed  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   Logitech Download Assistant  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   AdobeAAMUpdater-1.0  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   AdobeGCInvoker-1.0  (HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run)
+OK   Gigabyte Speed  (HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run)
+OK   AdobeAAMUpdater-1.0  (HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run)
+OK   Logi Download Assistant  (HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run)
+**********************
+Windows PowerShell transcript end
+End time: 20261030172936
+**********************

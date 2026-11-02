@@ -1,0 +1,5 @@
+.work/
+cas/
+packs/
+materialized/
+*.partial

@@ -1,0 +1,23 @@
+{
+  "id": "01a168da-206e-7220-8edc-5c436090e802",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1792760488,
+  "updated_at": 1793633082,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Analizează taskurile C03–C10",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 25008858,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 1586,
+  "message_count": 161,
+  "content_sha256": "900d509386c01545504040fbf7b6ba8aa4d62215f9d755974b241407ae682024",
+  "files_copied": 27,
+  "references_not_copied": 37
+}

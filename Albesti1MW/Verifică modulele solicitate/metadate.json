@@ -1,0 +1,23 @@
+{
+  "id": "01a1777a-3dfa-7b10-a831-d384eb006325",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari",
+  "created_at": 1793005862,
+  "updated_at": 1793281993,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică modulele solicitate",
+  "project_id": "aead6ee9-d109-4b2d-ae1f-f7e7f760e9b0",
+  "project": "Albesti1MW",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 414017,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 8,
+  "message_count": 3,
+  "content_sha256": "8f0f5ea8c1bf9864764eca4211f3b7b483a087726841a7f1d87facae7e0b8f73",
+  "files_copied": 1,
+  "references_not_copied": 0
+}

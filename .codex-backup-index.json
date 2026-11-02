@@ -2,8 +2,8 @@
   "projects": {
     "5c179290-3222-4036-8042-710f2e84db88": {
       "name": "Comun",
-      "content_sha256": "f158a81bf045c6ccd3e7be2d6ec107251940398f6ff54f1d1a5d1d0cdfb5b61b",
-      "snapshot_utc": "2026-10-18T07:57:49.755838+00:00",
+      "content_sha256": "0b61db8784914505ea17adb71756b5a0e1d6c46f178f3f50c55b36ebb8aee725",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "Comun"
     },
     "59b8aaaa-7677-449b-b80b-e79b02b3b9ab": {
@@ -20,32 +20,32 @@
     },
     "fb3ecc5b-d79f-4ebd-8375-45b8acdeb7c5": {
       "name": "Indunova",
-      "content_sha256": "a1dec1599913dda44787cdbfb2eca9467828d572fa0d0377166947cc30194792",
-      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
+      "content_sha256": "4d7b5d63e9e595b8e36daece8382fd610fe5316d8983c475a0e4252585ac4cfb",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "Indunova"
     },
     "13771f36-ff54-4018-99b0-f69f8dfdd2f8": {
       "name": "WildMotion",
-      "content_sha256": "0d895870677e7f67f28b1c3d6e256f4fb6ace00a8075e40a026ec982a1ba5b62",
-      "snapshot_utc": "2026-10-15T15:26:13.346330+00:00",
+      "content_sha256": "5df78ba3ae61a25837a9f47f2e53da4739d1a75aa738c58735a28d53d6c31212",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "WildMotion"
     },
     "a62819fc-eecd-41a3-acfa-724e26db8d88": {
       "name": "AFIR-FotoVoltaic Production",
-      "content_sha256": "c02d05ab106795439ef917ac236c805b10cbb796897e4f18509ca02689c71206",
-      "snapshot_utc": "2026-10-18T14:02:52.615363+00:00",
+      "content_sha256": "1c67d23e3cfd0e954346ce8a6e89be1fd3570088b440dec0b24f70499aabdc99",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "AFIR-FotoVoltaic Production"
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "ffb97e96bb15633b0bec7bd92f28bb4bea9a259062b06873c47098d2ace74607",
-      "snapshot_utc": "2026-10-18T14:02:52.615363+00:00",
+      "content_sha256": "3a524e4e722b6a1e7243c5f488e427b6abaaf7054976c6aa825dd33f733f7901",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
       "name": "Bloc Centru",
-      "content_sha256": "61d8f693594c2d6ca0347dc880276732df656a2fe82a7645439845a1125cd685",
-      "snapshot_utc": "2026-10-12T08:25:51.143327+00:00",
+      "content_sha256": "bf61f0421f8752e234906e5788d83d0290c707ff1f559196947e89d6f451c54c",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "Bloc Centru"
     },
     "b56f4502-5596-48b3-ab73-9624c7b0cd4a": {
@@ -56,14 +56,14 @@
     },
     "7310b49a-fe03-4b49-b6de-1877255e0742": {
       "name": "FinantariRO",
-      "content_sha256": "9b6832b2ff1c0be1aefc317127435340c66a3526162005e56ecadefa61143768",
-      "snapshot_utc": "2026-10-07T20:11:34.069036+00:00",
+      "content_sha256": "3aadb2ebf0c80376fcf85a0361fcc562b476364d7387c1085505f9eadbf92ff3",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "FinantariRO"
     },
     "ec58c433-8025-4835-8910-bab2f99b913f": {
       "name": "FinantariEU",
-      "content_sha256": "c1dc359f96c7d0839ff0a59c40bf705d6a0d16e00341fd8e9be0216b6cbbbb9f",
-      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
+      "content_sha256": "d253b1ee9ec3c7f4e0cb828cddabc25e797e8a0a8949bc8b48b2aae30ab6dd04",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "FinantariEU"
     },
     "bad0be1d-5fae-412b-aa11-fef421eb951f": {
@@ -86,26 +86,26 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "9f6894775a4d1cf3b6cb3d5315578da2b894714a33055a4b3b54038d84caac9f",
-      "snapshot_utc": "2026-10-18T14:02:52.615363+00:00",
+      "content_sha256": "3807015b38062a3f7df468ac001da6dd097414b87f3de2d51eeb1c2709c17d8f",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
       "name": "iDempiere",
-      "content_sha256": "8adbad9b4e0aa99d4dd3804e9ab620c2ebca975982f6c45066ea082f94201b9e",
-      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
+      "content_sha256": "315e2c878b06fc9cfd958ea28b21cc36ddcff75ebdac08da9110b0fc7c95a52d",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "iDempiere"
     },
     "a85004ee-5acd-4f38-b445-2289450e8065": {
       "name": "EVA-Mail",
-      "content_sha256": "1d36635405a13d5ecfe4a2906d9013dd3fb5dbcdfd48c0d6016069bf3a787141",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "007e3eda78ed2f50f21449ec2949a8b2578721836246b9d9982ee27ac48e370e",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "EVA-Mail"
     },
     "_Fara proiect": {
       "name": "_Fara proiect",
-      "content_sha256": "a7a540f18a7dbabcb03ca5b45891b4ec31bf4fac34dff837db003f5b1aef2ecb",
-      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
+      "content_sha256": "e868f362e4c8aeba53c9c4bfd18a70269976f7156c7145103b983a217409a01b",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "_Fara proiect"
     },
     "0342b0dc-be68-43fb-b135-3d436d2d009d": {
@@ -116,22 +116,94 @@
     },
     "73685247-92a1-4212-a650-4fcf586fc1f4": {
       "name": "MP3.Varvi",
-      "content_sha256": "08b64733cad02c08b540d6e951358b738fa9e1742083b152ee10368171e7307e",
-      "snapshot_utc": "2026-10-11T08:22:35.726694+00:00",
+      "content_sha256": "23b4abdfd0961b3db4bb989b1615abb6e91d9bd7e4b97c9f11b60af441100d00",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "MP3.Varvi"
     },
     "5bad9d98-be40-4d1c-86ef-6d65a2e0d593": {
       "name": "ANABI-Licitatii",
-      "content_sha256": "39420d5eacd72019b5c8680cd7ab80b1ae9058f430e85d7fd225b8665d92f1d3",
-      "snapshot_utc": "2026-10-18T07:57:49.755838+00:00",
+      "content_sha256": "ec42831a17591fa09195d739178792a682f0cd8374c9ff7ac944cf885fe9083a",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "ANABI-Licitatii"
     },
     "e3898c8c-1e2e-422a-a23f-35ea1ed61beb": {
       "name": "CesiroSighi",
-      "content_sha256": "0fe964c88e7303ef740f06a6e541bd7ea4e2cb56957af18e5e70ee4741fd9680",
-      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
+      "content_sha256": "ece6de8c09c4b24ff64163301edd89d354ba5bcdef014bd388721c4cf6d9cab4",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
       "folder": "CesiroSighi"
+    },
+    "cb77d483-a84c-4469-aa78-88e01d9d8942": {
+      "name": "cesiro.com",
+      "content_sha256": "39a9e2b4d78dc8d7b6ee0086791a205dd637df893fe5e5d2cc7f8676a3fe3a7a",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "cesiro.com"
+    },
+    "d4f733bd-2faf-4d76-899c-538e1c8f3baf": {
+      "name": "Extrase de cont Cosmina",
+      "content_sha256": "39f3db3e57ab413ee0d04284a63dc0fa78407098b78c32e40f537c3488df482e",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Extrase de cont Cosmina"
+    },
+    "dd69849b-902a-43ff-8975-e480a0b8d7bd": {
+      "name": "Site-uri Mutare",
+      "content_sha256": "86b6f016e6558be2ce2d642b0564f3e2b3197a1c8ddc7774bfbaaf725d6234fc",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Site-uri Mutare"
+    },
+    "17bd9bca-fa42-4b1f-8b9a-7bee372a058e": {
+      "name": "EVA-Robot.Platforma",
+      "content_sha256": "d9a3461cb409ab0faf949ab51a8dc0dd141afcf9e17625e87e0dee359e7539b7",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "EVA-Robot.Platforma"
+    },
+    "2daf6940-5c6c-4dd4-9a8b-29112447ad28": {
+      "name": "Alibaba",
+      "content_sha256": "7ec071cc96602891189b8d3a4fc3cf02d662d3d704d3bc1fe41a4720a1d1cfec",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Alibaba"
+    },
+    "aead6ee9-d109-4b2d-ae1f-f7e7f760e9b0": {
+      "name": "Albesti1MW",
+      "content_sha256": "86a95eb1675e2f6afd0f62e2fb25ca921d7a6419198d80a6927c47d33a8dc666",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Albesti1MW"
+    },
+    "24b73c73-d76e-44e4-a494-e8e80c29f745": {
+      "name": "Nvidia SH",
+      "content_sha256": "6c501d2f0320de8fb2cfc4234cfeba17491ba0a4ec6a0653ac93f17d2c088f5a",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Nvidia SH"
+    },
+    "dd874313-a74b-4a5b-80de-d21b4732bf05": {
+      "name": "Auto",
+      "content_sha256": "c35198bd5f160d2d0ed545211cde90bb1dabab6e91cd37a517aeb090a00aecf6",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Auto"
+    },
+    "46811615-9aa9-441d-8184-080417183a10": {
+      "name": "Firme",
+      "content_sha256": "9f063d98ab799760d6118c4e5c94e24909c3fe01119c2c46a263c824b906994e",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Firme"
+    },
+    "8da5baa7-c368-4743-8f5b-d573af1d979b": {
+      "name": "Persoane",
+      "content_sha256": "0917d211528d2a30f9a18cd30edf4df7cce08d61528dcaf4897bd92b6559e7bd",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Persoane"
+    },
+    "76acd93b-901e-4001-b83e-7e13c116d7e1": {
+      "name": "iFLYTEK",
+      "content_sha256": "26d50453e67c97b30ff81b3fb81a0c6423f2074869368ca84d9f36d51016543d",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "iFLYTEK"
+    },
+    "463ea057-0997-4813-af5c-7edb57b9c7cf": {
+      "name": "Banci",
+      "content_sha256": "2cee08eaba8a35eb789bfddeaa27a3b055fba055a7272898e1bb79a6e6a85268",
+      "snapshot_utc": "2026-11-02T15:26:35.221418+00:00",
+      "folder": "Banci"
     }
   },
-  "updated_at_utc": "2026-10-18T14:12:40.083976+00:00"
+  "updated_at_utc": "2026-11-02T15:56:31.039255+00:00"
 }

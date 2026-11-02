@@ -1,0 +1,23 @@
+{
+  "id": "01a15986-0c75-7ee3-9268-fbf72c93a089",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1792503319,
+  "updated_at": 1792653295,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Mută interogările EVA 3D Scan",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 148794,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 74,
+  "message_count": 5,
+  "content_sha256": "7ca144d55b7961f7d479215916fafa747696b33f867863b50db289b0f870dc88",
+  "files_copied": 0,
+  "references_not_copied": 2
+}

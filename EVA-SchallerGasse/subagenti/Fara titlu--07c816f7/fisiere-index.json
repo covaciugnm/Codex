@@ -1,5 +1,9 @@
 [
   {
+    "source_reference": "/D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "cale_linux_indisponibila"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.14 Analiza juridica Donau\\Surse\\2026.10.14 Memorandum cercetare juridica.txt",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.14 Memorandum cercetare juridica--d5852d64.txt",
@@ -28,6 +32,13 @@
     "sha256": "2268d08e954c27cf51c9fe30daed926bde70ecf7f5373a3600bc972ec6eba49c"
   },
   {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Cercetare juridica punctuala\\2026.10.29 Concluzii juridice punctuale.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Concluzii juridice punctuale--0f6ee43e.txt",
+    "bytes": 5541,
+    "sha256": "2ade9f5d683343a723166f352cfd178df63aeb5be00358513814d24dd84693fa"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.14 cercetare Donau surse.py",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.14 cercetare Donau surse--9eceedc8.py",
@@ -47,5 +58,25 @@
     "saved_path": "fisiere/2026.10.14 finalizeaza memo cercetare--9da3851a.py",
     "bytes": 12893,
     "sha256": "849cc18e85b787b9b9f9f0e8b317d8843b46b2ba7fd7235cb785a0dd22791484"
+  },
+  {
+    "source_reference": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19800320_OGH0002_0070OB00006_8000000_000/JJT_19800320_OGH0002_0070OB00006_8000000_000.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20180829_OGH0002_0070OB00127_18D0000_000/JJT_20180829_OGH0002_0070OB00127_18D0000_000.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True&ShowPrintPreview=True",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1029/NOR40070125",
+    "status": "referinta_externa_necopiata"
   }
 ]

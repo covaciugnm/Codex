@@ -103,3 +103,16 @@ Poți citi direct copia dezarhivată sau extrage toate volumele ZIP ale unui pro
 ## Istorice comprimate de aplicație
 
 Dacă fișierul JSONL indicat de baza Codex a fost comprimat în `.jsonl.zst`, exportul citește automat varianta comprimată, fără modificarea sursei. Biblioteca `zstandard` este instalată local în `.python-deps`. Pe alt calculator se poate pregăti cu `python -m pip install --target .python-deps zstandard==0.25.0`. Erorile de decomprimare opresc exportul; un istoric corupt nu este declarat salvat.
+
+## Lipsă de spațiu în timpul copierii
+
+O eroare de spațiu la copiere (ENOSPC / WinError 112) oprește exportul și publicarea. Verificarea SHA-256 și ZIP a fișierelor existente nu înseamnă că un fișier omis a fost salvat. Copia incompletă rămâne locală, iar ultima încărcare verificată rămâne neschimbată. La estimarea unei reluări trebuie inclusă și dimensiunea fișierelor care nu au încăput.
+
+
+## Restaurarea fișierelor mari din GitHub
+
+În copia publică, fișierele mai mari de 1,9 GB sunt împărțite în părți Git LFS de cel mult 512 MiB. Originalul integral rămâne în salvarea locală. Lângă fiecare set de părți se găsește un index cu sufixul .codex-parts.json, dimensiunile și SHA-256 pentru fiecare parte și pentru original. După git lfs pull, rulează din copia depozitului:
+
+    python parti_lfs.py "cale/fișier.codex-parts.json" "cale/fișier"
+
+Destinația trebuie să fie un fișier nou. Scriptul verifică părțile și fișierul reconstruit. Pentru un volum ZIP împărțit, reconstruiește volumul înainte de extragere.

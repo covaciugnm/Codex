@@ -1,0 +1,23 @@
+{
+  "id": "01a18d80-0b94-7f81-9f0f-bfca27631514",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1793375341,
+  "updated_at": 1793375451,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Identifică discuțiile despre AGV și",
+  "project_id": "2daf6940-5c6c-4dd4-9a8b-29112447ad28",
+  "project": "Alibaba",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1214884,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 33,
+  "message_count": 4,
+  "content_sha256": "c2f3fc1e5c679886e5a3db401205b545e583231b9ed76c4fe4ee0488e2e7c9bd",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

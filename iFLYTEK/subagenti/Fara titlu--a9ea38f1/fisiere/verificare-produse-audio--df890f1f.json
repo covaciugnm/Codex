@@ -1,0 +1,1330 @@
+{
+  "schemaVersion": "1.0",
+  "checkedAt": "2026-10-30T19:49:41Z",
+  "title": "Reverificare independentă — produse, conectivitate, audio și disponibilitate SDK",
+  "scope": {
+    "history": "../imbunatatire-raspunsuri/istoric-conversatie.json",
+    "historySha256": "429a95b308bcb879b17957a5963b550719692ca1d5640924a65ff58a85e7075c",
+    "completedTurns": 17,
+    "substantiveFinalAnswers": 17,
+    "clarificationMessages": 2,
+    "turnNotation": "T01–T17 sunt ordinea turelor din istoricul salvat; T18 era în curs.",
+    "included": "Afirmațiile materiale despre produse, Wi-Fi, integrare, audio/Android, fezabilitate STT–TTS și căutarea publică SDK/OTA. RPK este analizat separat.",
+    "excluded": "Reaudierea exhaustivă a catalogului de cod, recompilare, benchmark hardware, test clinic, conectare/instalare pe ochelari. Analiza acestor afirmații nu certifică toate cele 17 răspunsuri și nu extinde scorul istoric 10/10.",
+    "score": null
+  },
+  "context": {
+    "userOwnsGlasses": true,
+    "phonePlatform": "Android",
+    "devicesAvailableNow": false,
+    "firmwareUpdateDownloaded": false,
+    "phoneModel": null,
+    "androidVersion": null,
+    "glassesFirmware": null,
+    "headphoneModel": null,
+    "audiogram": null,
+    "action": "Nu am cerut repetat dispozitivele; probele dependente de hardware sunt descrise pentru mai târziu."
+  },
+  "methodology": [
+    "Lectură a istoricului și confruntare cu pagini oficiale/producători, documentație Android și un studiu original.",
+    "Accesul direct și rezultatele indexate sunt diferențiate în fiecare sursă; data sursei este nulă când nu este publicată.",
+    "Rezultatul confirmat privește formularea delimitată în verdict, nu performanța măsurată a exemplarului utilizatorului.",
+    "Absența din căutări nu dovedește inexistența unui SDK privat, distribuții pentru parteneri sau unui firmware OTA.",
+    "Nici prezența Bluetooth, nici accesul la API Android nu confirmă o rutare simultană cu două accesorii diferite.",
+    "Nu s-au executat instalări, scrieri de dispozitiv, solicitări OTA autentificate, audiometrie ori reglaje clinice."
+  ],
+  "statusDefinitions": {
+    "confirmat": "Susținut de sursele indicate, în limitele explicite; o fezabilitate conceptuală rămâne conceptuală.",
+    "corectat": "Completare sau precizare materială față de răspunsul istoric; istoricul nu este rescris.",
+    "inca_necunoscut": "Datele necesare pentru concluzia concretă lipsesc ori sursele oficiale se contrazic."
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "iFLYTEK AINOTE Air 2 — produs",
+      "url": "https://www.iflytek.com/en/products/air/ainote-air2.html",
+      "section": "Specifications; Transcription; Synchronization",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S02",
+      "title": "iFLYTEK la IFA 2026",
+      "url": "https://www.iflytek.com/en/news-events/news/343.html",
+      "section": "AINOTE series; Air 2; GlassClaw/Loomy",
+      "sourceDate": "2026-09-21",
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S03",
+      "title": "AINOTE Air 2 FAQ — UK",
+      "url": "https://uk.iflytek.com/en/pages/ainote-air2-faq",
+      "section": "Languages; changelog 2025-01-28 și 2024-12-04",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_oficial; deschiderea directa a expirat",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S04",
+      "title": "AINOTE Air 2 — magazin oficial",
+      "url": "https://store.iflytek.com/products/iflytek-ainote-air-2",
+      "section": "Titlu de funcții; FAQ Languages",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_oficial",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S05",
+      "title": "iFLYTEK suport Air 2",
+      "url": "https://www.iflytek.com/en/support/faq/ainote_2.html",
+      "section": "Bluetooth; headphones; AINOTE mobile; export",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa; breadcrumb Air 2 desi URL ainote_2",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S06",
+      "title": "Supernote — comparație Nomad/Manta",
+      "url": "https://supernote.com/pages/help-me-choose-supernote",
+      "section": "Ecrane; formate; scenarii",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S07",
+      "title": "Supernote Nomad",
+      "url": "https://supernote.com/products/supernote-nomad",
+      "section": "Specifications — wireless",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_oficial",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S08",
+      "title": "Supernote Manta",
+      "url": "https://supernote.com/products/supernote-manta",
+      "section": "Specifications — wireless",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_oficial",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S09",
+      "title": "reMarkable Paper Pro Move — suport",
+      "url": "https://support.remarkable.com/articles/Knowledge/About-reMarkable-Paper-Pro-Move",
+      "section": "Technical specifications",
+      "sourceDate": "2026-03-25",
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S10",
+      "title": "BOOX Note Air5 C",
+      "url": "https://shop.boox.com/products/noteair5c",
+      "section": "Android 15; Google Play; 10.3 inch Kaleido 3; wireless",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S11",
+      "title": "iFLYTEK AINOTE 2 — produs",
+      "url": "https://www.iflytek.com/en/products/air/ainote-2.html",
+      "section": "Android 14; Google Play; Specifications",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S12",
+      "title": "讯飞翻译APP — politica oficială",
+      "url": "https://saas-public.ioss.xfinfr.com/private/config/privacy-policy.html",
+      "section": "1.14.1, 1.14.2, 1.14.5, 1.14.8, 1.14.10",
+      "sourceDate": "2026-09-29",
+      "accessMode": "continut_indexat_oficial; acces direct cu timeout",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S13",
+      "title": "Apple — utilizarea funcției Hearing Aid",
+      "url": "https://support.apple.com/en-au/120992",
+      "section": "Requirements; Set up; stored settings; Transparency/Media Assist",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S14",
+      "title": "Apple România — funcția de aparat auditiv AirPods Pro 3",
+      "url": "https://www.apple.com/ro/newsroom/2026/05/hearing-aid-feature-available-on-airpods-pro-3/",
+      "section": "Disponibilitate în România; nota 1",
+      "sourceDate": "2026-05-13",
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S15",
+      "title": "Apple — AirPods cu dispozitive non-Apple",
+      "url": "https://support.apple.com/en-gb/guide/airpods/dev499c9718b/web",
+      "section": "Pair with Android",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa si continut_indexat_oficial",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S16",
+      "title": "Sennheiser Conversation Clear Plus — manual",
+      "url": "https://cdn.sennheiser-hearing.com/product-documents/product-downloads/conversation-clear-plus/instruction_manual/Instruction_manual_Conversation_Clear_Plus.pdf",
+      "section": "Intended use p.4; app setup p.12",
+      "sourceDate": "2023-01",
+      "accessMode": "PDF_oficial_citit",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S17",
+      "title": "Sennheiser Conversation Clear Plus — produs",
+      "url": "https://global.sennheiser-hearing.com/products/conversation-clear-plus",
+      "section": "Speech enhancement; limitare hearing aid",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S18",
+      "title": "Widex — pairing",
+      "url": "https://www.widex.com/en-us/support/pairing/",
+      "section": "Android streaming; ASHA; LE Audio",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S19",
+      "title": "Widex — compatibilitate",
+      "url": "https://www.widex.com/en-gb/support/compatibility/",
+      "section": "Allure app; ASHA; LE Audio; device-specific compatibility",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_oficial",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S20",
+      "title": "NIDCD — Hearing Aids",
+      "url": "https://www.nidcd.nih.gov/health/hearing-aids",
+      "section": "How hearing aids help; digital amplification; limits",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S21",
+      "title": "Australian Government — sound quality features",
+      "url": "https://www.health.gov.au/our-work/hearing-services-program/guide-to-hearing-technology/sound-quality-features",
+      "section": "Frequency lowering",
+      "sourceDate": "2023-11-13",
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S22",
+      "title": "Australian Government — speech understanding features",
+      "url": "https://www.health.gov.au/our-work/hearing-services-program/guide-to-hearing-technology/speech-understanding-features",
+      "section": "Compression; multiple channels",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_oficial",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S23",
+      "title": "Alexander — Nonlinear frequency compression",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26936574/",
+      "section": "Original study; JASA 139, 938–957; DOI 10.1121/1.4941916",
+      "sourceDate": "2016",
+      "accessMode": "abstract_studiu_primar_citit",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S24",
+      "title": "Android AudioManager",
+      "url": "https://developer.android.com/reference/android/media/AudioManager",
+      "section": "setCommunicationDevice; getAvailableCommunicationDevices; volume index",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_documentatie_oficiala",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S25",
+      "title": "Android AudioRouting",
+      "url": "https://developer.android.com/reference/android/media/AudioRouting",
+      "section": "setPreferredDevice; getRoutedDevice",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_documentatie_oficiala",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S26",
+      "title": "Android TextToSpeech",
+      "url": "https://developer.android.com/reference/android/speech/tts/TextToSpeech",
+      "section": "setPitch; setSpeechRate; setVoice; speak",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_documentatie_oficiala",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S27",
+      "title": "Android SpeechRecognizer",
+      "url": "https://developer.android.com/reference/android/speech/SpeechRecognizer",
+      "section": "On-device availability; recognition result/error callbacks",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_documentatie_oficiala",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S28",
+      "title": "Android audio latency",
+      "url": "https://developer.android.com/ndk/guides/audio/audio-latency",
+      "section": "Round-trip latency; devices; buffers",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_documentatie_oficiala",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S29",
+      "title": "ASHA — Hearing Aids For Adults",
+      "url": "https://www.asha.org/practice-portal/professional-issues/hearing-aids-for-adults/",
+      "section": "Assessment; fitting; verification; outcome assessment",
+      "sourceDate": null,
+      "accessMode": "continut_indexat_documentatie_oficiala",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S30",
+      "title": "AINOTE Agent Skill — pagina oficială",
+      "url": "https://theainote.com/en-ca/pages/ainote-skill",
+      "section": "Windows/Mac; Air 2/AINOTE 2; cloud; FAQ editing; Focus Star",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa si continut_indexat_oficial",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S31",
+      "title": "iflyink/ainote — note API",
+      "url": "https://github.com/iflyink/ainote/blob/main/note/references/open-model-note-api.md",
+      "section": "Quick Decision, linii 1–95; blob a2f87f992453f1fd24a88d285ba57842ace54893",
+      "sourceDate": null,
+      "accessMode": "GitHub_connector",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S32",
+      "title": "iflyink/ainote — port/health",
+      "url": "https://github.com/iflyink/ainote/blob/main/shared/port-and-health.md",
+      "section": "Default Entry; Health Endpoint Mapping; blob 9da7efcbfd7e560860475cc3880a1052a808a9bc",
+      "sourceDate": null,
+      "accessMode": "GitHub_connector",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S33",
+      "title": "Loomy changelog",
+      "url": "https://loomy.xunfei.cn/changelog",
+      "section": "0.9.31 — asociere ochelari",
+      "sourceDate": "2026-06-26",
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S34",
+      "title": "Loomy toolbox",
+      "url": "https://loomy.xunfei.cn/docs/user-guide/toolbox",
+      "section": "添加外部MCP",
+      "sourceDate": null,
+      "accessMode": "pagina_deschisa",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S35",
+      "title": "iFLYTEK SDK dispatcher",
+      "url": "https://www.xfyun.cn/sdk/dispatcher?ch=api",
+      "section": "SparkChain/AIKit — SDK pentru servicii AI",
+      "sourceDate": null,
+      "accessMode": "pagina_oficiala_indexata",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S36",
+      "title": "iFLYTEK AIoT Android SDK",
+      "url": "https://agent-aiot.xfyun.cn/docs/sdk/android/",
+      "section": "Android client; Demo V1/V2; WebSocket/RTC",
+      "sourceDate": null,
+      "accessMode": "pagina_oficiala_indexata",
+      "checkedDate": "2026-10-30"
+    },
+    {
+      "id": "S37",
+      "title": "iFLYTEK platform quick guide",
+      "url": "https://www.xfyun.cn/doc/platform/quickguide.html",
+      "section": "SDK download / console",
+      "sourceDate": null,
+      "accessMode": "pagina_oficiala_indexata",
+      "checkedDate": "2026-10-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "P01",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Air 2 / AINOTE 2",
+      "claim": "Air 2 8,2 inch și AINOTE 2 10,65 inch sunt modele diferite.",
+      "status": "confirmat",
+      "verdict": "Paginile oficiale distincte confirmă diferența de model și diagonale.",
+      "sourceIds": [
+        "S01",
+        "S11"
+      ],
+      "evidenceKind": "specificatii",
+      "limits": "Termenul comercial Brand New indică starea declarată; nu identifică varianta regională.",
+      "unknownClosure": "Identificarea exactă a anunțului rămâne separată."
+    },
+    {
+      "id": "P02",
+      "turns": [
+        "T01",
+        "T02"
+      ],
+      "subject": "Air 2 — hardware",
+      "claim": "8,2 inch, 293 ppi, quad-core 1,8 GHz, 4/32 GB, Wi-Fi 6, BT 5.0, 230 g.",
+      "status": "confirmat",
+      "verdict": "Valorile din răspuns coincid cu tabelul oficial Specifications.",
+      "sourceIds": [
+        "S01"
+      ],
+      "evidenceKind": "specificatii",
+      "limits": "Nu reprezintă măsurători independente.",
+      "unknownClosure": null
+    },
+    {
+      "id": "P03",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Air 2 — lumină/cameră",
+      "claim": "Air 2 are iluminare frontală și cameră.",
+      "status": "confirmat",
+      "verdict": "Prezentarea oficială IFA 2026 le atribuie explicit Air 2.",
+      "sourceIds": [
+        "S02"
+      ],
+      "evidenceKind": "declaratie_producator",
+      "limits": "Articolul nu identifică firmware-ul și SKU-ul anunțului.",
+      "unknownClosure": null
+    },
+    {
+      "id": "P04",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Air 2 — utilizare",
+      "claim": "Scris cu stylusul, înregistrare, transcriere și sincronizare.",
+      "status": "confirmat",
+      "verdict": "Aceste funcții sunt descrise în prezentarea produsului; sincronizarea folosește ecosistemul AINOTE.",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ],
+      "evidenceKind": "functii_documentate",
+      "limits": "Suportul lingvistic și calitatea reală trebuie verificate separat.",
+      "unknownClosure": null
+    },
+    {
+      "id": "P05",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Air 2 — performanță",
+      "claim": "Potrivit pentru notițe; PDF A4 poate cere zoom; utilizare multimedia secundară.",
+      "status": "confirmat",
+      "verdict": "Răspunsul o prezintă corect ca evaluare documentară. Diagonala și hardware-ul justifică această orientare, fără a constitui benchmark.",
+      "sourceIds": [
+        "S01"
+      ],
+      "evidenceKind": "opinie_documentara",
+      "limits": "Nu este demonstrat că ar depăși concurenții la viteză ori precizie.",
+      "unknownClosure": "Test pe documentele și aplicațiile utilizatorului; latență la scris, zoom, căutare și transcriere."
+    },
+    {
+      "id": "P06",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Air 2 — Google Play/APK",
+      "claim": "Comparația accentua aplicațiile/Google Play la rivali, fără aceeași precizare pentru Air 2.",
+      "status": "corectat",
+      "verdict": "FAQ-ul UK consemnează instalare APK la 4 decembrie 2024 și certificare Google Play la 28 ianuarie 2025. Comparația trebuie să includă această posibilitate.",
+      "sourceIds": [
+        "S03"
+      ],
+      "evidenceKind": "omisiune_comparatie_corectata",
+      "limits": "Nu confirmă disponibilitatea fiecărei aplicații sau compatibilitatea cu ochelarii.",
+      "unknownClosure": "Verificarea firmware-ului/regiunii exemplarului și instalarea aplicației dorite."
+    },
+    {
+      "id": "P07",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Air 2 — română scris",
+      "claim": "Româna este inclusă la recunoașterea scrisului de mână.",
+      "status": "confirmat",
+      "verdict": "Romanian apare în lista de handwriting recognition a FAQ-ului UK.",
+      "sourceIds": [
+        "S03"
+      ],
+      "evidenceKind": "lista_limbi_documentata",
+      "limits": "Scrisul de mână, STT și traducerea sunt funcții diferite.",
+      "unknownClosure": null
+    },
+    {
+      "id": "P08",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Air 2 — STT/traducere română",
+      "claim": "Româna vocală nu era confirmată suficient pentru achiziție.",
+      "status": "inca_necunoscut",
+      "verdict": "Listele STT/traducere consultate nu o includ; absența din liste nu stabilește toate firmware-urile.",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "evidenceKind": "absenta_din_liste",
+      "limits": "Nu se formulează «Air 2 nu suportă niciodată română».",
+      "unknownClosure": "Meniu Languages și probă de transcriere/traducere în română pe SKU-ul oferit, ori confirmare oficială explicită pentru versiunea lui."
+    },
+    {
+      "id": "P09",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Air 2 — număr de limbi",
+      "claim": "Numărul de limbi diferă între documentații.",
+      "status": "inca_necunoscut",
+      "verdict": "Produsul global indică 14/7; FAQ UK 15/10; magazinul are FAQ 17/12 și titlu 18 STT. IFA indică 18/14 pentru serie. Un număr unic pentru exemplarul utilizatorului nu este stabilit.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "evidenceKind": "contradictie_surse_oficiale",
+      "limits": "Valorile sunt STT/traducere, nu totaluri cumulative și nici garanție pentru română.",
+      "unknownClosure": "Listă explicită pe model, regiune, versiune și funcție; demonstrație pe dispozitiv."
+    },
+    {
+      "id": "C01",
+      "turns": [
+        "T01"
+      ],
+      "subject": "Supernote Nomad/Manta",
+      "claim": "Nomad 7,8 inch; Manta 10,7 inch.",
+      "status": "confirmat",
+      "verdict": "Comparația oficială confirmă ambele diagonale; recomandarea mic/mare este o alegere de utilizare.",
+      "sourceIds": [
+        "S06"
+      ],
+      "evidenceKind": "specificatii",
+      "limits": "Nu s-a făcut un clasament prin benchmark.",
+      "unknownClosure": null
+    },
+    {
+      "id": "C02",
+      "turns": [
+        "T01"
+      ],
+      "subject": "reMarkable Paper Pro Move",
+      "claim": "7,3 inch, ecran color și iluminare.",
+      "status": "confirmat",
+      "verdict": "Specificațiile oficiale confirmă Canvas Color de 7,3 inch și reading light.",
+      "sourceIds": [
+        "S09"
+      ],
+      "evidenceKind": "specificatii",
+      "limits": null,
+      "unknownClosure": null
+    },
+    {
+      "id": "C03",
+      "turns": [
+        "T01"
+      ],
+      "subject": "BOOX Note Air5 C",
+      "claim": "10,3 inch color, Android 15 și aplicații.",
+      "status": "confirmat",
+      "verdict": "Pagina oficială confirmă Kaleido 3, Android 15 și Google Play.",
+      "sourceIds": [
+        "S10"
+      ],
+      "evidenceKind": "specificatii",
+      "limits": "Nu confirmă funcționarea oricărei aplicații Android.",
+      "unknownClosure": null
+    },
+    {
+      "id": "C04",
+      "turns": [
+        "T01"
+      ],
+      "subject": "AINOTE 2",
+      "claim": "10,65 inch, octa-core, 64 GB, Android 14, Google Play.",
+      "status": "confirmat",
+      "verdict": "Specificațiile oficiale confirmă valorile citate.",
+      "sourceIds": [
+        "S11"
+      ],
+      "evidenceKind": "specificatii",
+      "limits": null,
+      "unknownClosure": null
+    },
+    {
+      "id": "C05",
+      "turns": [
+        "T02"
+      ],
+      "subject": "Wi-Fi concurenți",
+      "claim": "Toate tabletele enumerate au Wi-Fi.",
+      "status": "confirmat",
+      "verdict": "Wi-Fi este documentat pentru Air 2, AINOTE 2, ambele Supernote, Paper Pro Move și Note Air5 C.",
+      "sourceIds": [
+        "S01",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11"
+      ],
+      "evidenceKind": "specificatii",
+      "limits": "Existența Wi-Fi nu implică aceeași aplicație de sincronizare.",
+      "unknownClosure": null
+    },
+    {
+      "id": "G01",
+      "turns": [
+        "T03",
+        "T04",
+        "T14"
+      ],
+      "subject": "Ochelari — Bluetooth/Wi-Fi",
+      "claim": "Aplicația se conectează prin Bluetooth; fotografiile/video se transferă prin Wi-Fi.",
+      "status": "confirmat",
+      "verdict": "Politica descrie conectarea Bluetooth și transferul media prin Wi-Fi, cu Bluetooth menținut.",
+      "sourceIds": [
+        "S12"
+      ],
+      "evidenceKind": "documentatie_oficiala",
+      "limits": "Secțiuni 1.14.1 și 1.14.10; nu stabilește profilurile audio standard.",
+      "unknownClosure": "Nicio probă necesară pentru afirmația documentară."
+    },
+    {
+      "id": "G02",
+      "turns": [
+        "T03",
+        "T04"
+      ],
+      "subject": "Ochelari — iOS/Android",
+      "claim": "iOS cere conectare manuală la hotspot; Android pregătește automat legătura Wi-Fi.",
+      "status": "confirmat",
+      "verdict": "Aceste două proceduri sunt descrise separat la 1.14.10.",
+      "sourceIds": [
+        "S12"
+      ],
+      "evidenceKind": "documentatie_oficiala",
+      "limits": "Procedura concretă poate depinde de versiunea aplicației/OS.",
+      "unknownClosure": null
+    },
+    {
+      "id": "G03",
+      "turns": [
+        "T03",
+        "T14"
+      ],
+      "subject": "Ochelari — internet autonom",
+      "claim": "Wi-Fi pentru media nu demonstrează traducere autonomă prin router.",
+      "status": "inca_necunoscut",
+      "verdict": "Nu s-a identificat în sursele consultate o procedură de traducere fără telefon prin router.",
+      "sourceIds": [
+        "S12"
+      ],
+      "evidenceKind": "limita_documentatiei",
+      "limits": "Nu se afirmă inexistența fizică a unui mod client Wi-Fi.",
+      "unknownClosure": "Manual oficial pe model/firmware sau observație controlată a conectării la router și traducerii fără telefon."
+    },
+    {
+      "id": "G04",
+      "turns": [
+        "T01",
+        "T02",
+        "T05"
+      ],
+      "subject": "Air 2 ↔ ochelari",
+      "claim": "Nu există încă o procedură verificată de integrare directă.",
+      "status": "inca_necunoscut",
+      "verdict": "IFA prezintă un flux de lucru comun; FAQ-ul Air 2 documentează audio Bluetooth și sincronizare AINOTE. Niciuna nu descrie transferul direct al transcrierilor între aceste două produse.",
+      "sourceIds": [
+        "S02",
+        "S05"
+      ],
+      "evidenceKind": "integrare_nevalidata",
+      "limits": "Prezentarea comună și existența Bluetooth nu sunt dovadă de interoperabilitate.",
+      "unknownClosure": "Aplicație/procedură oficială compatibilă cu ambele modele, ori test reproducibil cu tipurile exacte de date transferate."
+    },
+    {
+      "id": "G05",
+      "turns": [
+        "T12",
+        "T14"
+      ],
+      "subject": "Traducere — telefon/cloud/offline",
+      "claim": "Online folosește cloudul; offline rulează pe dispozitivul aplicației, nu pe ochelari.",
+      "status": "confirmat",
+      "verdict": "Secțiunea 1.14.2 afirmă explicit procesare locală pe dispozitivul aplicației pentru unele perechi și cloud pentru altele.",
+      "sourceIds": [
+        "S12"
+      ],
+      "evidenceKind": "documentatie_oficiala",
+      "limits": "Nu confirmă toate limbile, toate modurile ori arhitectura internă neuronală.",
+      "unknownClosure": null
+    },
+    {
+      "id": "G06",
+      "turns": [
+        "T07",
+        "T08",
+        "T12",
+        "T14"
+      ],
+      "subject": "Microfon accesibil aplicației proprii",
+      "claim": "Codul oferă o pistă, dar accesul extern stabil la microfon nu e demonstrat.",
+      "status": "inca_necunoscut",
+      "verdict": "Documentația produsului permite microfonul ochelarilor în aplicația oficială; API-urile Android generale nu demonstrează accesul aplicației proprii.",
+      "sourceIds": [
+        "S12",
+        "S24",
+        "S25"
+      ],
+      "evidenceKind": "integrare_nevalidata",
+      "limits": "Nu se presupune că asocierea Bluetooth expune automat microfonul.",
+      "unknownClosure": "Captură autorizată pe dispozitiv: profil audio/endpoint, negociere, PCM/codec, permisiuni, rută efectivă și continuitate."
+    },
+    {
+      "id": "G07",
+      "turns": [
+        "T12"
+      ],
+      "subject": "Model STT/Translate exact",
+      "claim": "Nu este stabilit exact modelul/versiunea LLM executată în cloud.",
+      "status": "inca_necunoscut",
+      "verdict": "Politica confirmă serviciul de traducere, fără a identifica versiunea modelului. Numele unui SDK generic nu poate identifica implementarea backend a sesiunii.",
+      "sourceIds": [
+        "S12",
+        "S35"
+      ],
+      "evidenceKind": "limita_atribuirii",
+      "limits": "Reverificarea gRPC și a llmtransparam este în analiza de cod a agentului principal.",
+      "unknownClosure": "Identificator de model returnat de serviciul folosit, document oficial legat de versiunea APK sau confirmare explicită a furnizorului."
+    },
+    {
+      "id": "I01",
+      "turns": [
+        "T05"
+      ],
+      "subject": "AINOTE Skill",
+      "claim": "Air 2/AINOTE 2 funcționează prin AINOTE Desktop Windows/Mac și sincronizare cloud.",
+      "status": "confirmat",
+      "verdict": "Pagina oficială confirmă modelele, clientul desktop și accesul autorizat la notițe.",
+      "sourceIds": [
+        "S30"
+      ],
+      "evidenceKind": "integrare_documentata",
+      "limits": "Nu reprezintă integrarea ochelarilor.",
+      "unknownClosure": null
+    },
+    {
+      "id": "I02",
+      "turns": [
+        "T05"
+      ],
+      "subject": "AINOTE API",
+      "claim": "API local implicit 127.0.0.1:46588; listare/căutare/citire/creare/organizare notițe.",
+      "status": "confirmat",
+      "verdict": "Repozitoriul oficial documentează operațiile. Portul 46588 este fallback; configurația locală poate furniza alt port.",
+      "sourceIds": [
+        "S31",
+        "S32"
+      ],
+      "evidenceKind": "API_documentat",
+      "limits": "Nu s-au executat operații asupra notițelor utilizatorului.",
+      "unknownClosure": null
+    },
+    {
+      "id": "I03",
+      "turns": [
+        "T05"
+      ],
+      "subject": "AINOTE — corp notiță/Focus Star",
+      "claim": "Nu era identificată rescrierea corpului unei notițe existente; Focus Star este de citire.",
+      "status": "confirmat",
+      "verdict": "FAQ-ul confirmă limitele: pot fi citite corpurile și create notițe, dar nu rescris conținutul existent; Focus Star nu permite modificarea marcajelor.",
+      "sourceIds": [
+        "S30"
+      ],
+      "evidenceKind": "limita_API_documentata",
+      "limits": "Limita corpului nu elimină endpointurile de rename/move/delete.",
+      "unknownClosure": null
+    },
+    {
+      "id": "I04",
+      "turns": [
+        "T05"
+      ],
+      "subject": "Loomy — ochelari",
+      "claim": "Loomy documentează asocierea ochelarilor prin QR și confirmare.",
+      "status": "confirmat",
+      "verdict": "Changelog 0.9.31 documentează asociere, stare de conectare și dezlegare.",
+      "sourceIds": [
+        "S33"
+      ],
+      "evidenceKind": "integrare_documentata",
+      "limits": "Nu confirmă configurația deja funcțională a utilizatorului.",
+      "unknownClosure": null
+    },
+    {
+      "id": "I05",
+      "turns": [
+        "T05"
+      ],
+      "subject": "Loomy — MCP",
+      "claim": "Loomy permite configurarea unui server MCP extern.",
+      "status": "confirmat",
+      "verdict": "Ghidul Toolbox include adăugarea unui MCP extern prin configurație JSON.",
+      "sourceIds": [
+        "S34"
+      ],
+      "evidenceKind": "integrare_documentata",
+      "limits": "Disponibilitatea unui mecanism extensibil nu validează fiecare server.",
+      "unknownClosure": null
+    },
+    {
+      "id": "I06",
+      "turns": [
+        "T05"
+      ],
+      "subject": "Punte ochelari–Loomy–AINOTE",
+      "claim": "Puntea prin computer este o arhitectură posibilă, netestată.",
+      "status": "inca_necunoscut",
+      "verdict": "Componentele documentate există; lanțul complet și contractul de date între ele nu au fost executate.",
+      "sourceIds": [
+        "S30",
+        "S31",
+        "S33",
+        "S34"
+      ],
+      "evidenceKind": "ipoteza_de_integrare",
+      "limits": "Nu este un produs finalizat ori o integrare oficială certificată.",
+      "unknownClosure": "Probă cap-coadă cu o înregistrare, export/text, autorizare MCP, creare notiță și confirmare sincronizare pe tabletă."
+    },
+    {
+      "id": "A01",
+      "turns": [
+        "T06"
+      ],
+      "subject": "Ochelari → căști direct",
+      "claim": "Conectarea directă la alte căști nu este confirmată.",
+      "status": "inca_necunoscut",
+      "verdict": "Sursele consultate descriu legătura cu telefonul, fără procedură pentru trimiterea audio din ochelari către căști independente.",
+      "sourceIds": [
+        "S12"
+      ],
+      "evidenceKind": "integrare_nevalidata",
+      "limits": "Nu se deduce imposibilitatea din lipsa documentației.",
+      "unknownClosure": "Profilurile Bluetooth acceptate ca sursă audio și o probă pe modelele exacte."
+    },
+    {
+      "id": "A02",
+      "turns": [
+        "T06",
+        "T07"
+      ],
+      "subject": "Telefon intermediar",
+      "claim": "Ochelari ↔ telefon → alte căști este o configurație de testat.",
+      "status": "inca_necunoscut",
+      "verdict": "Asocierea a două dispozitive nu dovedește captură și redare simultană pe rutele dorite.",
+      "sourceIds": [
+        "S24",
+        "S25"
+      ],
+      "evidenceKind": "rutare_nevalidata",
+      "limits": "Aplicația iFLYTEK, Android și accesoriile pot controla diferit rutele.",
+      "unknownClosure": "Pe telefonul exact: lista dispozitivelor audio, ruta efectivă AudioRecord/AudioTrack și test simultan în modurile necesare."
+    },
+    {
+      "id": "A03",
+      "turns": [
+        "T07"
+      ],
+      "subject": "Android — selecție audio",
+      "claim": "API-urile de rutare nu garantează microfonul unui accesoriu cu ieșirea altuia.",
+      "status": "confirmat",
+      "verdict": "setCommunicationDevice selectează un sink de comunicare; Android alege automat intrarea asociată. Un preferred device nu garantează ruta efectivă.",
+      "sourceIds": [
+        "S24",
+        "S25"
+      ],
+      "evidenceKind": "contract_platforma",
+      "limits": "Acest contract nu interzice toate soluțiile: un flux Bluetooth proprietar ar putea fi procesat separat, dacă există acces la el.",
+      "unknownClosure": null
+    },
+    {
+      "id": "A04",
+      "turns": [
+        "T06",
+        "T07"
+      ],
+      "subject": "Căști versus compensare auditivă",
+      "claim": "Plaja largă de frecvențe nu echivalează cu un aparat auditiv adaptat.",
+      "status": "confirmat",
+      "verdict": "Compensarea implică reglaje pe frecvențe/niveluri și nevoi individuale; banda nominală a căștilor nu le furnizează.",
+      "sourceIds": [
+        "S20",
+        "S29"
+      ],
+      "evidenceKind": "principiu_audio_medical",
+      "limits": "Nu este o prescripție de amplificare.",
+      "unknownClosure": null
+    },
+    {
+      "id": "A05",
+      "turns": [
+        "T06"
+      ],
+      "subject": "AirPods Pro 2/3 — Hearing Aid",
+      "claim": "Oferă funcție auditivă pentru adulți cu pierdere ușoară–moderată; configurare cu iPhone/iPad.",
+      "status": "confirmat",
+      "verdict": "Apple precizează eligibilitatea, firmware-ul compatibil și configurarea iOS/iPadOS. Testul auditiv sau audiograma pot furniza profilul.",
+      "sourceIds": [
+        "S13",
+        "S14"
+      ],
+      "evidenceKind": "functie_regionala_documentata",
+      "limits": "Disponibilitatea funcției nu dovedește beneficiul pentru o anumită persoană.",
+      "unknownClosure": "Pentru utilizator: acces la dispozitivul Apple necesar configurării și verificarea eligibilității funcției."
+    },
+    {
+      "id": "A06",
+      "turns": [
+        "T06"
+      ],
+      "subject": "AirPods — România",
+      "claim": "Funcția Hearing Aid este disponibilă în România.",
+      "status": "confirmat",
+      "verdict": "Anunțul Apple România din 13 mai 2026 o confirmă pentru Pro 3 și Pro 2, cu cerințele software din nota oficială.",
+      "sourceIds": [
+        "S14"
+      ],
+      "evidenceKind": "disponibilitate_documentata",
+      "limits": "Nu este valabil pentru orice model AirPods.",
+      "unknownClosure": null
+    },
+    {
+      "id": "A07",
+      "turns": [
+        "T06"
+      ],
+      "subject": "AirPods — utilizare Android",
+      "claim": "Compatibilitatea audio Android și funcțiile auditive trebuie separate.",
+      "status": "confirmat",
+      "verdict": "Apple permite asocierea Bluetooth cu Android. Setările Hearing Aid sunt stocate în AirPods și pot funcționa fără iPhone/iPad în apropiere după configurare.",
+      "sourceIds": [
+        "S13",
+        "S15"
+      ],
+      "evidenceKind": "clarificare_documentata",
+      "limits": "Configurarea inițială cere dispozitiv Apple compatibil; ajutorul ambiental operează în Transparency. Nu afirmăm identitate de funcții între Android și iOS.",
+      "unknownClosure": "Test separat pentru Media Assist, apeluri și scenariul ochelari + Android; nu sunt deduse din asociere."
+    },
+    {
+      "id": "A08",
+      "turns": [
+        "T06"
+      ],
+      "subject": "Sennheiser Conversation Clear Plus",
+      "claim": "Claritate a conversației în zgomot; nu este aparat auditiv medical.",
+      "status": "confirmat",
+      "verdict": "Producătorul descrie îmbunătățirea vorbirii și aplicația Android/iOS; pagina produsului precizează că nu tratează pierderea auditivă.",
+      "sourceIds": [
+        "S16",
+        "S17"
+      ],
+      "evidenceKind": "functie_si_limitare_producator",
+      "limits": "Nu s-au comparat clinic cu aparate auditive și nu s-a verificat stocul comercial.",
+      "unknownClosure": null
+    },
+    {
+      "id": "A09",
+      "turns": [
+        "T06"
+      ],
+      "subject": "Widex Allure / Android",
+      "claim": "Streamingul depinde de compatibilitatea telefonului.",
+      "status": "confirmat",
+      "verdict": "Widex documentează ASHA și LE Audio pentru telefoane compatibile. Instalarea aplicației Allure nu dovedește suportul streamingului.",
+      "sourceIds": [
+        "S18",
+        "S19"
+      ],
+      "evidenceKind": "compatibilitate_conditionata",
+      "limits": "OS-ul singur nu este suficient; suportul Bluetooth generic nu confirmă ASHA/LE Audio.",
+      "unknownClosure": "Model exact telefon, versiune Android, variantă Allure/firmware și verificare în lista Widex, urmată de probă."
+    },
+    {
+      "id": "D01",
+      "turns": [
+        "T07"
+      ],
+      "subject": "DSP pe telefon",
+      "claim": "O aplicație poate filtra pe benzi și aplica gain, compresie și limitare.",
+      "status": "confirmat",
+      "verdict": "Arhitectura este realizabilă tehnic; selecția frecvențelor și compresia sunt mecanisme documentate de procesare auditivă.",
+      "sourceIds": [
+        "S20",
+        "S22"
+      ],
+      "evidenceKind": "fezabilitate_conceptuala",
+      "limits": "Nu este demonstrat un produs funcțional sau un algoritm potrivit utilizatorului.",
+      "unknownClosure": "Implementare/test cu înregistrări și măsurare; reglaj individual și nivel de ieșire verificate profesional."
+    },
+    {
+      "id": "D02",
+      "turns": [
+        "T07"
+      ],
+      "subject": "Coborârea frecvențelor",
+      "claim": "Transpoziția/compresia în frecvență pot muta conținutul spre benzi mai joase.",
+      "status": "confirmat",
+      "verdict": "Ghidul oficial distinge transpoziția și compresia în frecvență; această funcție este diferită de simpla creștere a volumului.",
+      "sourceIds": [
+        "S21"
+      ],
+      "evidenceKind": "mecanism_documentat",
+      "limits": "Nu garantează inteligibilitate mai bună pentru toate tipurile de pierdere auditivă.",
+      "unknownClosure": null
+    },
+    {
+      "id": "D03",
+      "turns": [
+        "T07"
+      ],
+      "subject": "Limitarea compresiei",
+      "claim": "Compresia prea agresivă poate reduce inteligibilitatea.",
+      "status": "confirmat",
+      "verdict": "Studiul original arată degradarea unor recunoașteri de vorbire la anumite setări; nu există o setare optimă universală.",
+      "sourceIds": [
+        "S23"
+      ],
+      "evidenceKind": "studiu_primar",
+      "limits": "Studiul nu furnizează o prescripție pentru utilizator; valorile experimentale nu sunt recomandări.",
+      "unknownClosure": null
+    },
+    {
+      "id": "D04",
+      "turns": [
+        "T07"
+      ],
+      "subject": "STT → text → TTS",
+      "claim": "Vorbirea poate fi recunoscută și recreată din text într-o aplicație.",
+      "status": "confirmat",
+      "verdict": "Android oferă separat recunoaștere și sinteză, inclusiv voce, ritm și pitch. Înlănțuirea lor este o propunere de implementare.",
+      "sourceIds": [
+        "S26",
+        "S27"
+      ],
+      "evidenceKind": "fezabilitate_conceptuala",
+      "limits": "Nu dovedește integrarea iFLYTEK, execuție exclusiv offline sau disponibilitatea fiecărei limbi.",
+      "unknownClosure": "Prototip și teste pe limbă, zgomot, disponibilitatea vocilor și rutarea accesoriilor."
+    },
+    {
+      "id": "D05",
+      "turns": [
+        "T07"
+      ],
+      "subject": "Pitch versus bandă audibilă",
+      "claim": "O voce joasă nu înseamnă vorbire concentrată într-o singură frecvență.",
+      "status": "confirmat",
+      "verdict": "setPitch controlează tonalitatea relativă; nu selectează o bandă în Hz și nu înlocuiește filtrarea ori compresia spectrală.",
+      "sourceIds": [
+        "S26"
+      ],
+      "evidenceKind": "clarificare_tehnica",
+      "limits": "Afirmația despre o singură frecvență se limitează la voce naturală/TTS redusă la un ton pur; nu este o teoremă despre toate codările posibile.",
+      "unknownClosure": null
+    },
+    {
+      "id": "D06",
+      "turns": [
+        "T07"
+      ],
+      "subject": "Erori STT și sunet ambiental",
+      "claim": "TTS poate reda clar cuvinte greșit recunoscute și nu păstrează automat ambianța.",
+      "status": "confirmat",
+      "verdict": "Sinteza primește textul rezultat. Informația omisă ori greșită în acel text nu este recuperată automat de sinteză.",
+      "sourceIds": [
+        "S26",
+        "S27"
+      ],
+      "evidenceKind": "inferenta_arhitecturala",
+      "limits": "Afirmația descrie pipeline-ul propus, nu o performanță măsurată a unui produs.",
+      "unknownClosure": "Testarea inteligibilității și erorilor critice; proiectarea separată a unei căi pentru sunete ambientale, dacă este dorită."
+    },
+    {
+      "id": "D07",
+      "turns": [
+        "T07"
+      ],
+      "subject": "Latența DSP versus STT–TTS",
+      "claim": "Tabelul istoric prezenta întârziere mai mare pentru STT–TTS.",
+      "status": "corectat",
+      "verdict": "STT–TTS adaugă etape și poate necesita așteptarea textului. Întârzierea relativă trebuie măsurată; nu este o inegalitate garantată pentru orice implementare.",
+      "sourceIds": [
+        "S28",
+        "S26",
+        "S27"
+      ],
+      "evidenceKind": "precizare_conditie",
+      "limits": "Nu există în proiect o valoare măsurată în ms sau o garanție de conversație în timp real.",
+      "unknownClosure": "Măsurare cap-coadă a acelorași intrări: percentile de latență, timp până la primul rezultat și întârzieri de redare."
+    },
+    {
+      "id": "D08",
+      "turns": [
+        "T07"
+      ],
+      "subject": "Ajustare individuală / volum",
+      "claim": "Audiograma și limitele confortabile trebuie luate în calcul; procentul de volum nu este SPL.",
+      "status": "confirmat",
+      "verdict": "Evaluarea utilă include vorbire în zgomot, niveluri și verificarea ieșirii. Indicele de volum Android nu este o măsurătoare acustică la ureche.",
+      "sourceIds": [
+        "S29",
+        "S24"
+      ],
+      "evidenceKind": "principiu_de_validare",
+      "limits": "Nu sunt propuse gainuri/dB, frecvențe de tăiere ori limite clinice individuale.",
+      "unknownClosure": "Audiogramă actuală și verificare profesională a ieșirii/beneficiului cu transductorul ales."
+    },
+    {
+      "id": "S01",
+      "turns": [
+        "T05",
+        "T08"
+      ],
+      "subject": "Bluetooth SDK iFLYTEK",
+      "claim": "SDK-ul Bluetooth este numit în politica oficială.",
+      "status": "confirmat",
+      "verdict": "Secțiunea 1.14.1 numește 科大讯飞蓝牙SDK pentru conectare.",
+      "sourceIds": [
+        "S12"
+      ],
+      "evidenceKind": "existenta_documentata",
+      "limits": "Nu rezultă o licență, distribuție publică sau un API stabil pentru terți.",
+      "unknownClosure": null
+    },
+    {
+      "id": "S02",
+      "turns": [
+        "T05",
+        "T08"
+      ],
+      "subject": "SDK public specific modelului",
+      "claim": "Nu este identificat un pachet public complet pentru XF-AIGlasses-01.",
+      "status": "inca_necunoscut",
+      "verdict": "Căutarea delimitată din searchLog nu a identificat o distribuție oficială cu binare, API, exemple și condiții de acces pentru acest model.",
+      "sourceIds": [
+        "S12",
+        "S35",
+        "S36",
+        "S37"
+      ],
+      "evidenceKind": "cautare_delimitata",
+      "limits": "Nu au fost consultate portaluri private; rezultatul nu afirmă inexistența SDK-ului.",
+      "unknownClosure": "Link oficial de distribuție specific modelului sau acces oferit de producător/partener; verificarea licenței, versiunilor și exemplelor."
+    },
+    {
+      "id": "S03",
+      "turns": [
+        "T05"
+      ],
+      "subject": "AIKit/SparkChain/AIoT",
+      "claim": "SDK-urile AI generale nu sunt dovada unui driver Bluetooth pentru ochelari.",
+      "status": "confirmat",
+      "verdict": "Paginile oficiale consultate descriu servicii AI ori clienți IoT; nu identifică XF-AIGlasses-01 ca țintă a unui API Bluetooth public.",
+      "sourceIds": [
+        "S35",
+        "S36",
+        "S37"
+      ],
+      "evidenceKind": "separarea_domeniilor",
+      "limits": "Ar putea fi componente utile unei aplicații proprii; integrarea hardware rămâne separată.",
+      "unknownClosure": null
+    },
+    {
+      "id": "S04",
+      "turns": [
+        "T16"
+      ],
+      "subject": "Firmware OTA public",
+      "claim": "Nu a fost obținut din căutări un pachet OTA oficial al ochelarilor.",
+      "status": "inca_necunoscut",
+      "verdict": "Interogările publice nu au furnizat o imagine de firmware verificabilă pentru model și versiune.",
+      "sourceIds": [],
+      "evidenceKind": "cautare_delimitata",
+      "limits": "Nici un endpoint din APK și nici un articol de presă despre OTA nu reprezintă imaginea firmware.",
+      "unknownClosure": "Pachetul OTA legitim al propriului dispozitiv sau download oficial cu model, versiune, dimensiune și hash."
+    }
+  ],
+  "searchLog": [
+    {
+      "query": "\"XF-AIGlasses-01\" SDK Bluetooth firmware",
+      "domains": null,
+      "result": "Rezultate comerciale; niciun pachet oficial specific modelului identificat.",
+      "checkedDate": "2026-10-30",
+      "limits": "Căutare publică, fără login/portal partener, dispozitiv conectat sau cerere OTA autenticată."
+    },
+    {
+      "query": "site:xfyun.cn \"讯飞AI眼镜\" SDK 蓝牙",
+      "domains": [
+        "xfyun.cn"
+      ],
+      "result": "Documente generale și politici; distribuție Bluetooth specifică modelului neidentificată.",
+      "checkedDate": "2026-10-30",
+      "limits": "Căutare publică, fără login/portal partener, dispozitiv conectat sau cerere OTA autenticată."
+    },
+    {
+      "query": "site:iflytek.com \"AI Glasses\" SDK firmware download",
+      "domains": [
+        "iflytek.com"
+      ],
+      "result": "Prezentări de produse/evenimente; nu imagine firmware ori kit hardware.",
+      "checkedDate": "2026-10-30",
+      "limits": "Căutare publică, fără login/portal partener, dispozitiv conectat sau cerere OTA autenticată."
+    },
+    {
+      "query": "\"讯飞AI眼镜\" \"固件\" 下载 SDK",
+      "domains": null,
+      "result": "Articole despre actualizări; niciun binar oficial verificabil identificat.",
+      "checkedDate": "2026-10-30",
+      "limits": "Căutare publică, fără login/portal partener, dispozitiv conectat sau cerere OTA autenticată."
+    },
+    {
+      "query": "讯飞 AI眼镜 蓝牙 SDK 开发 下载",
+      "domains": [
+        "xfyun.cn",
+        "iflytek.com",
+        "xunfei.cn"
+      ],
+      "result": "Indexuri și SDK-uri generale; fără țintă XF-AIGlasses-01 identificată.",
+      "checkedDate": "2026-10-30",
+      "limits": "Căutare publică, fără login/portal partener, dispozitiv conectat sau cerere OTA autenticată."
+    },
+    {
+      "query": "讯飞 AI眼镜 固件 OTA3 下载",
+      "domains": [
+        "xfyun.cn",
+        "iflytek.com",
+        "xunfei.cn"
+      ],
+      "result": "Niciun download oficial de imagine OTA pentru model identificat.",
+      "checkedDate": "2026-10-30",
+      "limits": "Căutare publică, fără login/portal partener, dispozitiv conectat sau cerere OTA autenticată."
+    },
+    {
+      "query": "\"Spark-ASR-2.0\" \"眼镜\"",
+      "domains": [
+        "iflytek.com",
+        "xfyun.cn"
+      ],
+      "result": "Nicio sursă oficială identificată care să lege un endpoint/model exact de APK-ul analizat.",
+      "checkedDate": "2026-10-30",
+      "limits": "Căutare publică, fără login/portal partener, dispozitiv conectat sau cerere OTA autenticată."
+    },
+    {
+      "query": "\"XF-AIGlasses-01\"",
+      "domains": [
+        "iflytek.com",
+        "xfyun.cn"
+      ],
+      "result": "Nicio pagină oficială de distribuție SDK/OTA specifică modelului identificată.",
+      "checkedDate": "2026-10-30",
+      "limits": "Căutare publică, fără login/portal partener, dispozitiv conectat sau cerere OTA autenticată."
+    }
+  ],
+  "sourceConflicts": [
+    {
+      "id": "SC01",
+      "claimId": "P09",
+      "subject": "Limbi Air 2",
+      "values": [
+        {
+          "sourceId": "S01",
+          "stt": 14,
+          "translate": 7,
+          "scope": "pagina produsului Air 2"
+        },
+        {
+          "sourceId": "S03",
+          "stt": 15,
+          "translate": 10,
+          "scope": "FAQ UK"
+        },
+        {
+          "sourceId": "S04",
+          "stt": 17,
+          "translate": 12,
+          "scope": "FAQ magazin; titlul afișează separat 18 STT"
+        },
+        {
+          "sourceId": "S02",
+          "stt": 18,
+          "translate": 14,
+          "scope": "seria AINOTE la IFA, nu listă SKU Air 2"
+        }
+      ],
+      "resolution": "Nerezolvat pentru exemplarul utilizatorului; nu se selectează arbitrar valoarea cea mai mare."
+    }
+  ],
+  "summary": {
+    "total": 48,
+    "byStatus": {
+      "confirmat": 35,
+      "corectat": 2,
+      "inca_necunoscut": 11
+    },
+    "sourceCount": 37,
+    "publicSdkOtaQueries": 8,
+    "hardwareTests": 0,
+    "clinicalTests": 0,
+    "score": null
+  },
+  "negativeSearchCandidateSources": [
+    "S12",
+    "S35",
+    "S36",
+    "S37"
+  ],
+  "crossReferences": {
+    "rpk": "analiza-rpk.json și analiza-rpk.txt: dovada statică a instalării RPK schimbă nivelul concluziei istorice T14; compatibilitatea și semnarea pe dispozitiv rămân nevalidate.",
+    "catalog": "Reaudierea tipurilor/protocolului este separată de acest raport."
+  }
+}

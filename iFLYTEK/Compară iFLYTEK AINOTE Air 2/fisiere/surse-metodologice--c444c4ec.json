@@ -1,0 +1,50 @@
+[
+  {
+    "id": "AOSP",
+    "title": "Android Open Source Project — Verify and debug Bluetooth",
+    "url": "https://source.android.com/docs/core/connect/bluetooth/verifying_debugging",
+    "checkedAt": "2026-10-30",
+    "use": "Snoop HCI și bugreport pentru observarea traficului, fără a presupune acces universal la fișierele private.",
+    "limit": "Disponibilitatea și detaliile capturii depind de telefon și configurare."
+  },
+  {
+    "id": "LATENCY",
+    "title": "Android NDK — Audio latency",
+    "url": "https://developer.android.com/ndk/guides/audio/audio-latency",
+    "checkedAt": "2026-10-30",
+    "use": "Definirea întârzierii de intrare/ieșire și măsurarea traseului audio.",
+    "limit": "Nu transferăm valori de latență ale altor dispozitive către ochelarii utilizatorului."
+  },
+  {
+    "id": "SCTK",
+    "title": "NIST SCTK — scoring toolkit și sclite",
+    "url": "https://github.com/usnistgov/SCTK",
+    "checkedAt": "2026-10-30",
+    "use": "Evaluarea recunoașterii prin alinierea referinței cu ipoteza; versiunea folosită trebuie fixată.",
+    "limit": "Depozit arhivat la data consultării. Instrumentul este o referință de evaluare, nu un STT și nu o garanție de inteligibilitate."
+  },
+  {
+    "id": "JADX",
+    "title": "JADX — Troubleshooting Q&A",
+    "url": "https://github.com/skylot/jadx/wiki/Troubleshooting-Q%26A",
+    "checkedAt": "2026-10-30",
+    "use": "Verificarea codului decompilat problematic față de Smali și grafurile CFG.",
+    "limit": "Decompilarea nu recuperează garantat 100% din structura sursă."
+  },
+  {
+    "id": "AUDIO_ROUTE",
+    "title": "Android AudioManager",
+    "url": "https://developer.android.com/reference/android/media/AudioManager",
+    "checkedAt": "2026-10-30",
+    "use": "API-uri de rutare pentru proiectarea probelor pe Android.",
+    "limit": "Prezența API-ului nu demonstrează ruta simultană între două periferice Bluetooth."
+  },
+  {
+    "id": "HEARING",
+    "title": "NIDCD — Hearing aids",
+    "url": "https://www.nidcd.nih.gov/health/hearing-aids",
+    "checkedAt": "2026-10-30",
+    "use": "Distincția dintre amplificare, pierdere de auz și reglaj pentru persoană.",
+    "limit": "Nu este o prescripție individuală și nu validează prototipul propus."
+  }
+]

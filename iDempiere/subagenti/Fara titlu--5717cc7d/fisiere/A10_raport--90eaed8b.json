@@ -1,0 +1,2677 @@
+{
+  "schema": "eva-audit.p01.A10.execution.v1",
+  "revision": 1,
+  "reviewer": "A11",
+  "audit_quality_score": null,
+  "decision": "RAPORT_TRIMIS_LA_A11_CU_CONTROALE_PARȚIALE",
+  "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "scope": "Audit tehnic A10, după poarta independentă. Corpus Git, 5 cabinete în inventar read-only, laborator izolat și probe transversale. Performanța și efectele defectelor sunt limitate la fixtures descrise.",
+  "captured_utc": "2026-11-02T15:15:21.412Z",
+  "phase": "EXECUȚIE",
+  "signed_plan_sha256": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "signed_zone_plan_sha256": "0cff0732ccb2372279c5ec9b6b30e281bfc8010813b9df25e56897d723294c1a",
+  "arbitration_sha256": "7f2722b80ee1b1239aa860dca65892e7b418525c042ef2da101cfaac6bd29903",
+  "counts": {
+    "controls": 28,
+    "status_controls": {
+      "PARTIAL": 18,
+      "FAIL_DOVEDIT": 10
+    },
+    "pipelines": 6,
+    "status_pipelines": {
+      "PARTIAL": 2,
+      "FAIL_DOVEDIT": 4
+    },
+    "findings": 9,
+    "severity": {
+      "P1": 6,
+      "P2": 3
+    },
+    "assigned_sources": 426,
+    "assigned_surfaces": 117,
+    "chapter_C15_task_rows": 48
+  },
+  "source_coverage": "426 surse verificate față de manifest și 117 suprafețe identificate. Analiza semantică este limitată la ancore și probe explicite. A12 aplică rezultatele numai unde corespund cerința, mediul și versiunea.",
+  "evidence_index": [
+    {
+      "evidence_id": "VERS",
+      "raw_artifact_path": "executie/A10/runtime_versions.json",
+      "sha256": "e10801f513e9e54d3555d81b4f8c823e1d5d7ca2519757b319f37529fc79d4b5",
+      "kind": "probă directă A10",
+      "observed_result": "SSH direct read-only: comparație amprentă pe 5 cabinete și 2 JAR din Git.",
+      "limitations": "5 cabinete; nu stabilește execuția fiecărui simbol.",
+      "executor": "A10",
+      "environment": "5 cabinete; nu stabilește execuția fiecărui simbol.",
+      "captured_at_utc": "2026-11-02T15:10:24.922Z",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi A10/runtime_versions.sh"
+    },
+    {
+      "evidence_id": "QUEUE",
+      "raw_artifact_path": "executie/A10/queue_probe.json",
+      "sha256": "bd5908e291001340aadf7f979fd6577b96ae3cac5b874ed3b5d2bcabf3e705f1",
+      "kind": "probă directă A10",
+      "observed_result": "Probe directe asupra scripturilor din SHA pinuit în cozi, jurnale și sloturi sintetice.",
+      "limitations": "Fără modificări ale cozii reale.",
+      "executor": "A10",
+      "environment": "Fără modificări ale cozii reale.",
+      "captured_at_utc": "2026-11-02T15:08:51.820Z",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi A10/queue_probe.sh"
+    },
+    {
+      "evidence_id": "RUN",
+      "raw_artifact_path": "executie/A10/runtime_probe.json",
+      "sha256": "a6159fd8c87cecb8f9271d23a9393dc54f5b496b9e2a5784f728039fdbcbda52",
+      "kind": "probă directă A10",
+      "observed_result": "HTTP ASGI, DB SQLite local, două taburi tranzacționale, canari, injecție post-efect prin stub.",
+      "limitations": "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+      "executor": "A10",
+      "environment": "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+      "captured_at_utc": "2026-11-02T15:13:04.869859+00:00",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi A10/runtime_probe.py"
+    },
+    {
+      "evidence_id": "RESTORE",
+      "raw_artifact_path": "executie/A10/restore_probe.json",
+      "sha256": "474e131928b2b05aa7d1f782ee27228c46ac0cdaf9c9f1371bc270c02933f37a",
+      "kind": "probă directă A10",
+      "observed_result": "PG16 sintetic fără rețea, dump și restore în baze separate plus arhivă anexă: slot, permis, timpi și cleanup.",
+      "limitations": "Schemă martor și fișier sintetic, nu backup integral ERP sau site.",
+      "executor": "A10",
+      "environment": "Schemă martor și fișier sintetic, nu backup integral ERP sau site.",
+      "captured_at_utc": "2026-11-02T15:09:55.309Z",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi A10/restore_probe.sh"
+    },
+    {
+      "evidence_id": "LOAD",
+      "raw_artifact_path": "executie/A10/load_probe.json",
+      "sha256": "b74381822d97c46a60120f643dc51d6b05a8caf7f73e904f3c158aaace608a1b",
+      "kind": "probă directă A10",
+      "observed_result": "Flask in-process pe două canale, 1k/10k produse, 1/10/30 concurență, 600 cereri măsurate, 120 warmup, paginare invalidă.",
+      "limitations": "Măsurare locală fără CDN/DB nativ; prag intern nu este SLA de producție.",
+      "executor": "A10",
+      "environment": "Măsurare locală fără CDN/DB nativ; prag intern nu este SLA de producție.",
+      "captured_at_utc": "2026-11-02T15:12:52.926513+00:00",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi A10/load_probe.py"
+    },
+    {
+      "evidence_id": "GUARDS",
+      "raw_artifact_path": "executie/A10/guards_probe.json",
+      "sha256": "3773daabdf7bb05221c247e4c3de908fe3d5ce2928e7f2780fd04833d6a267a0",
+      "kind": "probă directă A10",
+      "observed_result": "Trei harness-uri hermetice din commit executate cu programa de test/fixture.",
+      "limitations": "Build Maven real, OSGi și deploy nu sunt exercițiul acestor teste.",
+      "executor": "A10",
+      "environment": "Build Maven real, OSGi și deploy nu sunt exercițiul acestor teste.",
+      "captured_at_utc": "2026-11-02T15:12:26.871Z",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi A10/guards_probe.sh"
+    },
+    {
+      "evidence_id": "COVER",
+      "raw_artifact_path": "executie/A10/coverage.json",
+      "sha256": "ab017f9cd4bb7c613a880ab12f5cc15fe1824215cf386c9d033a8d0de797ae90",
+      "kind": "inventar",
+      "observed_result": "Verificare integrală de hash pentru sursele titularului și filtrarea suitei; trasabilitate la C15.",
+      "limitations": "Amprenta/citirea automată nu echivalează cu analiza semantică a fiecărei linii.",
+      "executor": "A10",
+      "environment": "Amprenta/citirea automată nu echivalează cu analiza semantică a fiecărei linii.",
+      "captured_at_utc": null,
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "BUNDLE",
+      "raw_artifact_path": "executie/Diferente_bundle_CESIRO.json",
+      "sha256": "5886c14611c9903696a7c0c0d1395a6e5a3108ed5a3eb307786cdb74b1867358",
+      "kind": "probă transversală identificată",
+      "observed_result": "Reutilizare probă transversală: fișiere de clasă comparate binar pe CESIRO.",
+      "limitations": "Delta între ediții nu este singură o eroare de implementare.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Delta între ediții nu este singură o eroare de implementare.",
+      "captured_at_utc": "2026-11-02T14:21:11.848174+00:00",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "WEB",
+      "raw_artifact_path": "executie/Provenienta_API_web.json",
+      "sha256": "f0702a817ba3b80bf255c7624229732c53c0fae88596ca97965f5ff9a803f135",
+      "kind": "probă transversală identificată",
+      "observed_result": "Fișiere comparate între Git și servicii runtime.",
+      "limitations": "Eșantion materializat, nu stabilește identitate completă a întregii imagini.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Eșantion materializat, nu stabilește identitate completă a întregii imagini.",
+      "captured_at_utc": null,
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "NATIVE",
+      "raw_artifact_path": "executie/Matrice_nativa_reutilizare.json",
+      "sha256": "3d452d26576275400ffeeba2bf0846a12d3294d857a236f960f708fbd3ae52a0",
+      "kind": "probă transversală identificată",
+      "observed_result": "Matrice de proveniență r13, surse și JAR native.",
+      "limitations": "Limitele rubricii native sunt moștenite.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Limitele rubricii native sunt moștenite.",
+      "captured_at_utc": null,
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "A05",
+      "raw_artifact_path": "executie/A05_raport.json",
+      "sha256": "3a59da8d4b4db5a535aed0f3fceeb4ce8123be28fac36ec92bd21154dc760d82",
+      "kind": "probă transversală identificată",
+      "observed_result": "Fixture independent A05 fresh seed/activation, în special A05-F09 și A05-F10.",
+      "limitations": "Constatare a zonei A05, citată pentru readiness.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Constatare a zonei A05, citată pentru readiness.",
+      "captured_at_utc": "2026-11-02T14:49:11.179Z",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "A08",
+      "raw_artifact_path": "executie/A08_raport.json",
+      "sha256": "2b01142eeec982c6e75b3b3f43b27100579af4f2edcfa3c7d218be5c21a51bf8",
+      "kind": "probă transversală identificată",
+      "observed_result": "Probe storefront A08 (în special F07, F08).",
+      "limitations": "Distincte de benchmarkul A10; proveniență proprie.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Distincte de benchmarkul A10; proveniență proprie.",
+      "captured_at_utc": "2026-11-02T14:56:35.083Z",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "A01",
+      "raw_artifact_path": "executie/A01_raport.json",
+      "sha256": "1e57c4b95b3457953a56558bcb5b8a588b87f1f682d8169187a754ba78d886cd",
+      "kind": "probă transversală identificată",
+      "observed_result": "Probe API/izolare separate A01.",
+      "limitations": "Nu extind verificarea la rute care n-au fost testate.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Nu extind verificarea la rute care n-au fost testate.",
+      "captured_at_utc": "2026-11-02T14:33:48.563559+00:00",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "LEASE",
+      "raw_artifact_path": "executie/Ciclu_viata_slot_test.json",
+      "sha256": "266db6dbb920507a1b9cb93fc3ae4510d2989c206ff05f6479ba2b6e11d3dcb7",
+      "kind": "probă transversală identificată",
+      "observed_result": "Stare și jurnal al sesiunii/permisului, dispariție PG și rerulare HR.",
+      "limitations": "Defect de infrastructură reprodus în scenariul nume/TTY.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Defect de infrastructură reprodus în scenariul nume/TTY.",
+      "captured_at_utc": "2026-11-02T15:07:05.731211+00:00",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "SUITE",
+      "raw_artifact_path": "executie/BE-suite/inregistrat.json",
+      "sha256": "3da038ec4acd157305c10c32e2442f67a50675dc480ac49c14fd95c1014afc84",
+      "kind": "probă transversală identificată",
+      "observed_result": "Suită înregistrată 1446 PASS, 3 eșecuri și 51 omise; cazurile relevante individualizate în coverage.",
+      "limitations": "Raportul inițial nu înlocuiește reluările țintite.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Raportul inițial nu înlocuiește reluările țintite.",
+      "captured_at_utc": "2026-11-02T14:42:52.701443+00:00",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "HR",
+      "raw_artifact_path": "executie/BE-suite/hr_fixture_final.json",
+      "sha256": "347243bc39ef193d29f0c0a6326ee1b840d2ab27a68b662857a7ec816935f8e6",
+      "kind": "probă transversală identificată",
+      "observed_result": "Reluare a celor trei probe HR cu permis corect.",
+      "limitations": "Rezultat de comparație pentru infrastructură.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Rezultat de comparație pentru infrastructură.",
+      "captured_at_utc": "2026-11-02T14:47:47.491865+00:00",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    },
+    {
+      "evidence_id": "CHANNELS",
+      "raw_artifact_path": "executie/Canale_instalate.json",
+      "sha256": "0ce7ded68464b1b8857496aa454408901e8e028f0c10bacdf9a5581f35c1d355",
+      "kind": "probă transversală identificată",
+      "observed_result": "30 înregistrări configurate de site și observații de servicii.",
+      "limitations": "Inventar la data probei.",
+      "executor": "autor indicat în proba transversală",
+      "environment": "Inventar la data probei.",
+      "captured_at_utc": "2026-11-02T14:33:27.460259+00:00",
+      "version_or_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "command_or_steps": "Vezi proveniența și limitările din artefact."
+    }
+  ],
+  "scripts": [
+    {
+      "file": "executie/A10/queue_probe.sh",
+      "sha256": "c821fa566c5a0e6c973383219462d0d4bdf134dde7dd70fd995dab57858bcad2"
+    },
+    {
+      "file": "executie/A10/guards_probe.sh",
+      "sha256": "a6d3e8f8552f5e50006df3580a04b60360487c01ff9557457037683a9e32bbb1"
+    },
+    {
+      "file": "executie/A10/runtime_versions.sh",
+      "sha256": "9ee4bcb4a7872a7ba39ff6f0bbdb5d5a9008f1242458b56ca212b481e7ab6bd2"
+    },
+    {
+      "file": "executie/A10/restore_probe.sh",
+      "sha256": "eaa9da2b61ea828e9807a0f850e08849fa851d2a5af26416d103fa9f98b205e5"
+    },
+    {
+      "file": "executie/A10/runtime_probe.py",
+      "sha256": "e15630c34aa43248d7ce08af39b6785a9749de7afc95cfb3d029a518536a2da9"
+    },
+    {
+      "file": "executie/A10/load_probe.py",
+      "sha256": "d7f114f64b18dd538c763bf9434d8f099b05848dc2872eba9cd3da27d1b2edab"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "A10-CK-01",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "requirement_id": "R-A10-01",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Înregistrări de proveniență pentru 100% din cabinetele în domeniu. SHA incomparabil etichetat NECUNOSCUT.",
+      "method": "Compară commitul declarat, lockfiles și configurarea de build cu digestul imaginii și JAR montat pentru fiecare cabinet în domeniu.",
+      "status": "PARTIAL",
+      "observed": "Pentru toate cele cinci cabinete am citit ID-ul imaginii și SHA256 a trei JAR-uri. JAR mobil corespunde Git, JAR contabil diferă. În CESIRO, 44 clase sunt numai în artefactul Git și 32 au bytecode diferit.",
+      "limitations": "Validarea exactă a istoricului build/livrării pentru fiecare cabinet și ramurile UI la versiunile vechi.",
+      "evidence_ids": [
+        "VERS",
+        "BUNDLE",
+        "WEB"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Înlocuiește în fixture eticheta mobilă cu alt digest sub același nume.",
+      "actual_scope": [
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Delta între ediții nu este singură o eroare de implementare.",
+        "Eșantion materializat, nu stabilește identitate completă a întregii imagini."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-02",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "requirement_id": "R-A10-02",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Toate clasele necesare au un furnizor rezolvat. Nicio clasă încărcată accidental din JAR vechi.",
+      "method": "Compară Manifest și exportul pachetelor pentru bundle-urile implicate. Urmărește legarea factory și versiunea deținătoare a clasei.",
+      "status": "PARTIAL",
+      "observed": "Inventarul pe cinci instanțe și comparația de clase separă binarele. Imaginea comună, JAR și versiunea core sunt diferențiate în dovezi.",
+      "limitations": "Echivalența OSGi/class loader pentru fiecare metodă și toate configurațiile multi-bundle.",
+      "evidence_ids": [
+        "VERS",
+        "BUNDLE",
+        "NATIVE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Include două versiuni cu aceeași denumire simbolică.",
+      "actual_scope": [
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Delta între ediții nu este singură o eroare de implementare.",
+        "Limitele rubricii native sunt moștenite."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-03",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "requirement_id": "R-A10-03",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Numele, versiunea și semnătura fiecărei metode utilizate există în bundle-ul instalat. Traseul probat și ieșirea sunt păstrate.",
+      "method": "Separă SHA upstream release-13, SHA de checkout local și JAR efectiv. Verifică semnăturile native consumate cu bytecode și un document pornit din UI în copie.",
+      "status": "PARTIAL",
+      "observed": "Există release-13, hash JAR efectiv și matrice core nativ. Clasele diferite rămân vizibile.",
+      "limitations": "Nu s-a dovedit versiunea sursă exactă a întregului build core din martie și toate semnăturile de business folosite de fiecare document.",
+      "evidence_ids": [
+        "VERS",
+        "NATIVE",
+        "BUNDLE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Metodă disponibilă doar pe branch mai nou.",
+      "actual_scope": [
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Limitele rubricii native sunt moștenite.",
+        "Delta între ediții nu este singură o eroare de implementare."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-04",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "requirement_id": "R-A10-04",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Aceleași ferestre, câmpuri, meniuri, procese și drepturi revendicate. Delta la a doua rulare este zero pentru obiecte deja instalate.",
+      "method": "Pe două copii sintetice (curată și versiunea precedentă), aplică instalarea conform procedurii. Rulează a doua oară și măsoară duplicatele pe cheile naturale AD.",
+      "status": "PARTIAL",
+      "observed": "În laboratorul A05, la prima pornire tabela WMS a devenit disponibilă ulterior răspunsului inițial al serviciului.",
+      "limitations": "Rularea dublă AD pe două versiuni complete, întreruperea și reconcilierea duplicatelor pentru toate obiectele cerute.",
+      "evidence_ids": [
+        "A05",
+        "VERS"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Întrerupe după migrarea DB înainte de activarea bundle.",
+      "actual_scope": [
+        "Constatare a zonei A05, citată pentru readiness.",
+        "5 cabinete; nu stabilește execuția fiecărui simbol."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-05",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "requirement_id": "R-A10-05",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Controlul eșuează când mutantul încalcă rezultatul. Sursa fixture, versiunile, codul de ieșire și JAR sunt arhivate.",
+      "method": "Rularea de laborator produce JAR din sursa pinuită, verifică inventarul claselor și dovada de execuție. Introdu o clasă mutantă în copie și repetă.",
+      "status": "PARTIAL",
+      "observed": "Trei harness-uri de build/test și curățare au rulat pe exportul fixat în repo temporar, inclusiv mutant de compilare detectat. Verificările text/compile sunt separate de clasa activă instalată.",
+      "limitations": "Build reproductibil complet, inclusiv injectarea unei clase vechi și verificarea JAR-ului încărcat în OSGi.",
+      "evidence_ids": [
+        "GUARDS",
+        "SUITE",
+        "BUNDLE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Cache Maven conține JAR precedent, aceeași versiune textuală.",
+      "actual_scope": [
+        "Build Maven real, OSGi și deploy nu sunt exercițiul acestor teste.",
+        "Raportul inițial nu înlocuiește reluările țintite.",
+        "Delta între ediții nu este singură o eroare de implementare."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-06",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "requirement_id": "R-A10-06",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Diferențele apar individual. Un singur cabinet incompatibil împiedică acceptarea globală.",
+      "method": "Inventariază separat instanța, rolul, digesturile, readiness ERP și rezultatul smoke pentru fiecare cabinet inclus în proba izolată.",
+      "status": "PARTIAL",
+      "observed": "Cele cinci cabinete au aceeași imagine și aceleași amprente în momentul citirii. Git conține un alt JAR contab.",
+      "limitations": "Upgrade parțial intenționat și login/smoke pe clone distincte pentru fiecărui cabinet.",
+      "evidence_ids": [
+        "VERS",
+        "A05",
+        "BUNDLE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Replica a doua răspunde pe health dar are alt JAR.",
+      "actual_scope": [
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Constatare a zonei A05, citată pentru readiness.",
+        "Delta între ediții nu este singură o eroare de implementare."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-07",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "requirement_id": "R-A10-07",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Cel mult 3 build și 6 suită. RAM disponibil ≥12 GB și load < nuclee×1,2. Refuz rc10 și nicio pornire de container după refuz.",
+      "method": "Simulează capacitate la limită în replica cozii. Cere sloturi din două procese concurente și capturează jurnalul + valorile configurației.",
+      "status": "PARTIAL",
+      "observed": "Scripturile nemodificate, în cozi clonate, admit exact 3 builduri și 6 suite. Următoarea cerere primește rc10.",
+      "limitations": "Caz simultan pe ultimul slot și variație sub prag de RAM în fixture.",
+      "evidence_ids": [
+        "QUEUE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Ultimul slot este revendicat simultan sau RAM scade imediat înainte de lansare.",
+      "actual_scope": [
+        "Fără modificări ale cozii reale."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-08",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "requirement_id": "R-A10-08",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Fiecare acord are o singură eliberare sau expirare. Reluarea după refuz urmează intervalul reglementat.",
+      "method": "Provoacă terminare normală, eroare și PID mort în coada clonată. Reatașează jurnalul cu sesiune/task și intervale.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Sloturile simulate se eliberează în caz nominal, dar elibereaza ../marker șterge markerul extern cozii. Mecanismul global de curățare a înlăturat altădată un PG cu sesiune autorizată activă.",
+      "limitations": "A11 reproduce separat validarea numelui și clasificarea sesiunii.",
+      "evidence_ids": [
+        "QUEUE",
+        "LEASE"
+      ],
+      "finding_ids": [
+        "A10-F01",
+        "A10-F02"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Semnal de întrerupere între admitere și instalarea trap.",
+      "actual_scope": [
+        "Fără modificări ale cozii reale.",
+        "Defect de infrastructură reprodus în scenariul nume/TTY."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-09",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "requirement_id": "R-A10-09",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Maximum o montare. FIFO și cronometru 60 s. Un proces retras nu blochează succesorul.",
+      "method": "Verifică istoricul fără montare în producție. Simulează trei solicitanți, retragere și timeout în copie.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Poarta de montare din replică permite un singur slot și refuză saltul peste primul solicitant. Eliberarea acceptă totuși ../marker și șterge fișierul exterior.",
+      "limitations": "Nu s-au făcut montări de producție. Fereastra de transfer între două montări reale rămâne neexercitată.",
+      "evidence_ids": [
+        "QUEUE"
+      ],
+      "finding_ids": [
+        "A10-F01"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Solicitantul aflat în cap întârzie sau moare înainte de lansare.",
+      "actual_scope": [
+        "Fără modificări ale cozii reale."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "requirement_id": "R-A10-10",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Rețea Docker --internal sau none. Numărul conexiunilor externe și al volumelor producție montate este zero.",
+      "method": "Interoghează configurația rețelei de laborator, mounturi, schedulere, secrete și contoarele de trafic ale stubs. Pornește un flux sintetic de comandă.",
+      "status": "PARTIAL",
+      "observed": "PG sintetic a primit slot și permis, a avut network=none și s-a închis. Trei teste HR trec în rețeaua internă corect asociată.",
+      "limitations": "Verificare exhaustivă a schedulere-lor și a montărilor tuturor sui­telor de partener.",
+      "evidence_ids": [
+        "RESTORE",
+        "VERS",
+        "SUITE",
+        "HR",
+        "LEASE"
+      ],
+      "finding_ids": [
+        "A10-F02"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Adaptor cu endpoint implicit sau job pornit din greșeală este blocat la egress.",
+      "actual_scope": [
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site.",
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Raportul inițial nu înlocuiește reluările țintite.",
+        "Rezultat de comparație pentru infrastructură.",
+        "Defect de infrastructură reprodus în scenariul nume/TTY."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-11",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "requirement_id": "R-A10-11",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Ambele mutații produc eșecul țintit. Dovada separă build, integrare și UI.",
+      "method": "Introdu două defecte deliberate în copia testului: un răspuns fals de succes și dublarea efectului la retry. Verifică că suitele eșuează pe oracole independente.",
+      "status": "PARTIAL",
+      "observed": "Suite țintite au respins clasa necompilabilă și au detectat erori simulate la curățare. Trei probe HR au separat defectul de nume al sesiunii de comportamentul HR.",
+      "limitations": "Cei doi mutanți exacți pentru toate suitele de efecte operaționale și falsul succes UI.",
+      "evidence_ids": [
+        "GUARDS",
+        "SUITE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Skip tăcut când backend-ul sau driverul browserului lipsește.",
+      "actual_scope": [
+        "Build Maven real, OSGi și deploy nu sunt exercițiul acestor teste.",
+        "Raportul inițial nu înlocuiește reluările țintite."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-12",
+      "task_ids": [],
+      "requirement_id": "R-A10-12",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Un singur efect pentru aceeași firmă/operație/cheie. O altă firmă nu primește răspunsul inițial. Reutilizarea cheii cu payload conflictual produce eroare explicată.",
+      "method": "Trimite aceeași cerere sintetică de două ori, apoi în paralel. Schimbă apoi payload-ul și firma. Compară rezultatele persistente.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Ruta POST /api/v1/partners a răspuns 201 la două corpuri diferite cu aceeași cheie și același ID. Firma B a primit alt ID în fixture. Testele native ale proiectului acoperă reluarea corpului identic.",
+      "limitations": "Dinamica de concurență pe PostgreSQL/PostgreSQL și toate endpointurile materiale.",
+      "evidence_ids": [
+        "RUN",
+        "SUITE"
+      ],
+      "finding_ids": [
+        "A10-F03"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Două instanțe API procesează aceeași cheie în paralel.",
+      "actual_scope": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Raportul inițial nu înlocuiește reluările țintite."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-13",
+      "task_ids": [],
+      "requirement_id": "R-A10-13",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Același ID la reluare și exact un efect financiar, logistic sau extern simulat.",
+      "method": "Simulează că procesul pierde răspunsul după ce a comis documentul nativ. Reia cu aceeași cheie și compară DocStatus/tranzacție/referință.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "După succesul în adaptorul nativ simulat și o eroare locală la idempotency.store, ruta întoarce 500. Reluarea întoarce 201, două efecte externe simulate 101 și 102, mirror numai pentru 102.",
+      "limitations": "Cât de des se întâmplă în instalație și ce validări aplică metoda nativă pentru toate tipurile de partener.",
+      "evidence_ids": [
+        "RUN"
+      ],
+      "finding_ids": [
+        "A10-F04"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Commit reușit la ERP înaintea confirmării din adaptor.",
+      "actual_scope": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-14",
+      "task_ids": [],
+      "requirement_id": "R-A10-14",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Payload invalid produce zero modificări și motiv verificabil. Evenimentul vechi nu inversează starea definitivă. Dacă adaptorul nu este prezent, delimitează corpusul și păstrează criteriul condițional pentru verificarea A11.",
+      "method": "Identifică în inventar adaptorul real. Dacă există, trimite notificări sintetice cu semnătură validă, nevalidă, expirată, repetată și secvență inversată.",
+      "status": "PARTIAL",
+      "observed": "Suita t22_releu include separarea cabinetelor, semnătură, necunoscut, rețea și apeluri zero către cabinet implicit. A08 a reprodus în fixture o ofertă veche care înlocuiește o versiune mai nouă.",
+      "limitations": "Transportul semnat prin procesul ERP, de la început la sfârșit, cu evenimente inverse și retururi.",
+      "evidence_ids": [
+        "SUITE",
+        "A08"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Eveniment al firmei B folosește ID cunoscut de la firma A.",
+      "actual_scope": [
+        "Raportul inițial nu înlocuiește reluările țintite.",
+        "Distincte de benchmarkul A10; proveniență proprie."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-15",
+      "task_ids": [],
+      "requirement_id": "R-A10-15",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Fiecare efect rezidual are owner și stare de remediere. Nicio nouă factură, plată sau expediere la reluare.",
+      "method": "Oprește o comandă multiplă între documentul ERP și referința adaptorului local. Compară jurnalul, documentul nativ și răspunsul stub.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Criza între efect nativ și registrul local este reproductibilă. Al doilea apel produce altă identitate în stub, iar primul efect nu se mai află în răspunsul final.",
+      "limitations": "Reconciliere documente multi-linie, înapoiere și colete reale în ERP izolat.",
+      "evidence_ids": [
+        "RUN"
+      ],
+      "finding_ids": [
+        "A10-F04"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Confirmare webhook după anulare sau retur parțial.",
+      "actual_scope": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-16",
+      "task_ids": [],
+      "requirement_id": "R-A10-16",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Zero expuneri neautorizate și corelația tehnică rămâne posibilă fără conținut sensibil.",
+      "method": "Introdu canari sintetici de autentificare, date bancare, email și client A/B. Caută canarii în UI, API, erori, loguri structurate și dovezi.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "În AuditEvent.after_json, canarul token de la nivelul 1 este mascat. Tokenul sub payload și authorization imbricat rămân în DB în clar.",
+      "limitations": "Suprafața tuturor registrelor de erori, vizibilitatea prin UI și eventualul secret real din câmpurile respective.",
+      "evidence_ids": [
+        "RUN"
+      ],
+      "finding_ids": [
+        "A10-F06"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Excepție de adaptor cu răspuns integral și nesting în payload.",
+      "actual_scope": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-17",
+      "task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "requirement_id": "R-A10-17",
+      "pipeline_ids": [
+        "A10-F04"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "50 unități justificabile, fiecare cu un singur rezultat final sau intervenție explicită.",
+      "method": "Pregătește 50 unități sintetice, doi consumatori și un restart după claim. Compară setul de ID-uri și stările persistente înainte și după.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Două sesiuni SQL au revendicat taskul A10-ONE în starea Queued. Procesarea celor două revendicări a creat două EVA_AI_Result pentru același task și starea Completed.",
+      "limitations": "Test cu două procese reale și sarcină LLM/OCR în Postgres.",
+      "evidence_ids": [
+        "RUN",
+        "SUITE"
+      ],
+      "finding_ids": [
+        "A10-F05"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Procesul moare între claim și marcarea în jurnal.",
+      "actual_scope": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Raportul inițial nu înlocuiește reluările țintite."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-18",
+      "task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "requirement_id": "R-A10-18",
+      "pipeline_ids": [
+        "A10-F04"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Numărul apelurilor respectă politica configurată. După limita de retry, eroarea rămâne vizibilă operatorului.",
+      "method": "Stub răspunde 429, 503 și eroare definitivă. Verifică backoff, limita efectivă, semnalarea și selecția individuală pentru reluare.",
+      "status": "PARTIAL",
+      "observed": "Testele PSD2 înregistrate acoperă selecție/skip în interval, eligibilitate, tenant și provider. Concurența jobului AI contrazice revendicarea exclusivă.",
+      "limitations": "Backoff 429 Retry-After, 503 și erori definitive pe toate adaptoarele, cu aviz operator.",
+      "evidence_ids": [
+        "SUITE",
+        "RUN"
+      ],
+      "finding_ids": [
+        "A10-F05"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "429 cu Retry-After sau indisponibilitate fără termen.",
+      "actual_scope": [
+        "Raportul inițial nu înlocuiește reluările țintite.",
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-19",
+      "task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "requirement_id": "R-A10-19",
+      "pipeline_ids": [
+        "A10-F04"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Sistemul distinge dependența indisponibilă de rezultat operațional final. UI prezintă următoarea acțiune și păstrează contextul.",
+      "method": "În copie întrerupe pe rând DB, iDempiere și worker. Compară probe backend/ERP, mesajul în UI și starea recuperată.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Cu clientul nativ simulat ca unreachable/ReadTimeout, /api/v1/internal/idempiere/health răspunde 200 și status ok la nivel superior. /health (liveness) separat răspunde 200.",
+      "limitations": "Influența acestui endpoint asupra unei sonde de deploy depinde de consumator. Nicio stare contabilă reală nu e inferată.",
+      "evidence_ids": [
+        "RUN",
+        "A05"
+      ],
+      "finding_ids": [
+        "A10-F07"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Containerul răspunde la HTTP dar documentul încă așteaptă confirmarea.",
+      "actual_scope": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Constatare a zonei A05, citată pentru readiness."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-20",
+      "task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "requirement_id": "R-A10-20",
+      "pipeline_ids": [
+        "A10-F04"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Backlogul, vârsta și ultimul succes se pot lega de job și firmă. Deficitul de monitorizare are probă, nu doar presupunere.",
+      "method": "Creează în laborator o coadă cu backlog și un job fără heartbeat. Compară vârsta minimă/maximă și semnalul operator.",
+      "status": "PARTIAL",
+      "observed": "Se poate identifica același job și numărul anormal de rezultate în DB. Suita acoperă vizibilitatea bazală și progres.",
+      "limitations": "Alarmă operator blocat fără heartbeat, vechime restantă și recuperare în UI la volum mare.",
+      "evidence_ids": [
+        "RUN",
+        "SUITE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Proces viu dar blocat fără progres.",
+      "actual_scope": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Raportul inițial nu înlocuiește reluările țintite."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-21",
+      "task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "requirement_id": "R-A10-21",
+      "pipeline_ids": [
+        "A10-F05"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Manifestul include DB/JAR/schema/fișiere/config reconstitubile. Soldurile și anexele se leagă de același punct temporal.",
+      "method": "În cabinet sintetic salvează document martor, înregistrări contabile și o anexă cu SHA cunoscut. Capturează punctul backup și setul tuturor volumelor implicate.",
+      "status": "PARTIAL",
+      "observed": "În PG16 fără rețea am creat document sintetic 42, CO, debit/credit 18, o anexă cu SHA cunoscut. pg_dump + arhivă de fișier au amprente verificabile.",
+      "limitations": "Snapshot real coordonat Spree/iDempiere, politici de criptare/retenție, parametri agreați RPO.",
+      "evidence_ids": [
+        "RESTORE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Ultimul fișier ajunge după dump fără marker de consistență.",
+      "actual_scope": [
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-22",
+      "task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "requirement_id": "R-A10-22",
+      "pipeline_ids": [
+        "A10-F05"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Documentul apare o singură dată, suma debit=credit și hashul anexei corespunde. Logurile păstrează timpul real.",
+      "method": "Restaurează exclusiv într-un namespace nou și în rețea izolată. Verifică prin UI documentul, accesul la anexă și totalurile.",
+      "status": "PARTIAL",
+      "observed": "pg_restore în a doua bază: 1 document, 2 poziții, 18=18. Anexa lipsește după restaurare doar SQL, reapare cu hash identic după tar. Containerul propriu a fost eliberat.",
+      "limitations": "Redeschiderea documentului prin ecran ERP, drepturile reale de canal și arhive mari.",
+      "evidence_ids": [
+        "RESTORE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Cheie de fișier absentă deși restaurarea SQL a terminat cu succes.",
+      "actual_scope": [
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-23",
+      "task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "requirement_id": "R-A10-23",
+      "pipeline_ids": [
+        "A10-F05"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "RPO/RTO măsurate și ținta aprobată citată sau deficitul declarat. Restaurarea păstrează perechea schemă/JAR compatibilă.",
+      "method": "Cronometrează pierderea de date permise vs punctul restaurat și timpul până la prima operație reușită. Compară valorile cu politica documentată sau înregistrează că ținta nu e stabilită.",
+      "status": "PARTIAL",
+      "observed": "Dump/verificare/restaurare/test checksum a durat 266,884574 ms în exemplul minimal pe o singură mașină. Cele două martore sunt la același punct cu scrieri oprite.",
+      "limitations": "RPO/RTO contractual și verificarea pe date reprezentative, rollback schemă+JAR în cabinet ERP complet. Rezultatul mic nu constituie RTO de producție.",
+      "evidence_ids": [
+        "RESTORE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Rollback numai al imaginii după migrare incompatibilă.",
+      "actual_scope": [
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-24",
+      "task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "requirement_id": "R-A10-24",
+      "pipeline_ids": [
+        "A10-F05"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Conținutul, coada, cache-ul și fișierele fiecărui canal rămân distincte inclusiv după rebuild.",
+      "method": "Restaurează două canale de probă cu aceleași sluguri de articol. Verifică DB, Redis, Meili, fișiere, index rebuild și rutare în ambele roluri.",
+      "status": "PARTIAL",
+      "observed": "Inventar 30 site-uri. A08 a raportat proces storefront comun pentru mai multe site-uri și a verificat topologia. Restaurarea sintetică a fost demonstrată pentru DB+fișierul martor.",
+      "limitations": "Restore full per canal cu Redis/Meili și rebuild index, cache, active storage și autentificare multirol.",
+      "evidence_ids": [
+        "A08",
+        "CHANNELS",
+        "RESTORE"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Cache cald sau bucket greșit după schimbarea canalului.",
+      "actual_scope": [
+        "Distincte de benchmarkul A10; proveniență proprie.",
+        "Inventar la data probei.",
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-25",
+      "task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "requirement_id": "R-A10-25",
+      "pipeline_ids": [
+        "A10-F06"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Pragul propus pentru laborator este p95 listă ≤2s și eroare <1% la concurență 10. Valoarea și efectul asupra utilizatorului se raportează chiar dacă pragul nu are SLA contractual.",
+      "method": "Măsoară după 20 warm-up și minimum 100 cereri per profil, volume 1k/10k, concurență 1/10/30, p50/p95/p99 și erori. Separă first-load de cache cald.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Șase profile de încărcare, 20 warm-up și 100 cereri/profile. Pentru 10.000 produse și concurență 10, p95=3,111s, zero erori. Depășește 2s, pragul intern propus. La concurență 30 p95=9,105s.",
+      "limitations": "Timpul utilizatorului final cu CDN, browser și ERP ori capacitatea comercială pe producție.",
+      "evidence_ids": [
+        "LOAD"
+      ],
+      "finding_ids": [
+        "A10-F09"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Una dintre dependențe introduce +500ms la fiecare apel.",
+      "actual_scope": [
+        "Măsurare locală fără CDN/DB nativ; prag intern nu este SLA de producție."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-26",
+      "task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "requirement_id": "R-A10-26",
+      "pipeline_ids": [
+        "A10-F06"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Nicio duplicare sau dispariție pentru snapshot contractual. Filtrul de firmă se păstrează la fiecare pagină și export.",
+      "method": "Deschide prima/ultima pagină când un job adaugă rânduri. Repetă exportul, verifică totalurile și planul EXPLAIN pe fixture pentru 10k rânduri.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Primele două pagini păstrează totalul și separarea canarilor. page=abc și per_page=abc produc 500 HTML la API public.",
+      "limitations": "Export complet simultan cu scrieri, plan SQL și ordinea paginării tuturor endpointurilor.",
+      "evidence_ids": [
+        "LOAD"
+      ],
+      "finding_ids": [
+        "A10-F08"
+      ],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Schimbare sortare cu valori egale și backpressure în fluxul export.",
+      "actual_scope": [
+        "Măsurare locală fără CDN/DB nativ; prag intern nu este SLA de producție."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-27",
+      "task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "requirement_id": "R-A10-27",
+      "pipeline_ids": [
+        "A10-F06"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Operatorul poate relua. Catalogul, totalul și contextul firmei rămân conforme după revenire.",
+      "method": "În laborator crește latența motorului de căutare apoi restaurează-l. Observă mesaj, păstrarea stării, p95 și răspuns din cache pe ambele firme.",
+      "status": "PARTIAL",
+      "observed": "Canarii pe două site-uri au rămas separați pe primele pagini, fără transport extern; nivelurile de latență au fost măsurate.",
+      "limitations": "Inducerea lentorii la motorul extern și verificarea restaurării căutării în UI după timeout.",
+      "evidence_ids": [
+        "LOAD",
+        "A08"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Timeout și răspuns tardiv pentru canalul anterior.",
+      "actual_scope": [
+        "Măsurare locală fără CDN/DB nativ; prag intern nu este SLA de producție.",
+        "Distincte de benchmarkul A10; proveniență proprie."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    },
+    {
+      "control_id": "A10-CK-28",
+      "task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "requirement_id": "R-A10-28",
+      "pipeline_ids": [
+        "A10-F06"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "expected": "Aceeași politică de autorizare se aplică la UI, proxy și accesul API autorizat pentru test. Cererile improprii lasă zero rânduri schimbate.",
+      "method": "Compară ruta publicată cu backend, metoda, versiunea, limita payloadului, validarea și rolul aplicat. Testează serviciul din alt tenant și un endpoint administrativ.",
+      "status": "PARTIAL",
+      "observed": "Context tenant distinct pentru cheia de idempotență în fixture. Audit A01 arată că izolarea diferă pe trasee. A08 include un import de catalog cross-canal fără sesiune.",
+      "limitations": "Confirmarea exhaustivă a drepturilor și limitelor de intrare pe toate cele 117 suprafețe de responsabilitate A10.",
+      "evidence_ids": [
+        "RUN",
+        "COVER",
+        "A01",
+        "A08"
+      ],
+      "finding_ids": [],
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "negative_planned": "Path cu CUI schimbat ori payload supradimensionat.",
+      "actual_scope": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Amprenta/citirea automată nu echivalează cu analiza semantică a fiecărei linii.",
+        "Nu extind verificarea la rute care n-au fost testate.",
+        "Distincte de benchmarkul A10; proveniență proprie."
+      ],
+      "cleanup": "Resursele de laborator ale A10 apar în înregistrarea brută. SSH de inventar este read-only. Docker pentru restore are zero instanțe rămase.",
+      "executor": "A10",
+      "reviewer": "A11, în așteptare"
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline_id": "A10-F01",
+      "title": "Din commit până în cabinet",
+      "expected": "O singură migrare pe versiune și cabinet. Dovada arată commit, digest, hash JAR, Bundle-Version, AD, schema, payloadul CSS/JS încărcat. Comparația se face individual pe cabinet.",
+      "observed": "Proveniența JAR diferă Git/CESIRO și au fost verificate amprentele pe 5 cabinete. Instalarea de probă și testul AD repetabil complet sunt încă necesare.",
+      "status": "PARTIAL",
+      "control_ids": [
+        "A10-CK-01",
+        "A10-CK-02",
+        "A10-CK-03",
+        "A10-CK-04",
+        "A10-CK-05",
+        "A10-CK-06"
+      ],
+      "evidence_ids": [
+        "VERS",
+        "BUNDLE",
+        "WEB",
+        "NATIVE",
+        "A05",
+        "GUARDS",
+        "SUITE"
+      ],
+      "finding_ids": [],
+      "remaining": [
+        "Validarea exactă a istoricului build/livrării pentru fiecare cabinet și ramurile UI la versiunile vechi.",
+        "Echivalența OSGi/class loader pentru fiecare metodă și toate configurațiile multi-bundle.",
+        "Nu s-a dovedit versiunea sursă exactă a întregului build core din martie și toate semnăturile de business folosite de fiecare document.",
+        "Rularea dublă AD pe două versiuni complete, întreruperea și reconcilierea duplicatelor pentru toate obiectele cerute.",
+        "Build reproductibil complet, inclusiv injectarea unei clase vechi și verificarea JAR-ului încărcat în OSGi.",
+        "Upgrade parțial intenționat și login/smoke pe clone distincte pentru fiecărui cabinet."
+      ],
+      "cross_zone_owners": [
+        "A02",
+        "A03",
+        "A09",
+        "A12"
+      ],
+      "actual_tasks": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ]
+    },
+    {
+      "pipeline_id": "A10-F02",
+      "title": "Izolare, coadă și execuție CI",
+      "expected": "Limitele globale se respectă și după timeout. Orice efect către partener sau volum real oprește proba.",
+      "observed": "Coada admite limitele și FIFO în replica izolată. Panoul de eliberare acceptă traversare pe ambele scripturi, iar clasificarea orfan poate opri un test activ.",
+      "status": "FAIL_DOVEDIT",
+      "control_ids": [
+        "A10-CK-07",
+        "A10-CK-08",
+        "A10-CK-09",
+        "A10-CK-10",
+        "A10-CK-11"
+      ],
+      "evidence_ids": [
+        "QUEUE",
+        "LEASE",
+        "RESTORE",
+        "VERS",
+        "SUITE",
+        "HR",
+        "GUARDS"
+      ],
+      "finding_ids": [
+        "A10-F01",
+        "A10-F02"
+      ],
+      "remaining": [
+        "Caz simultan pe ultimul slot și variație sub prag de RAM în fixture.",
+        "A11 reproduce separat validarea numelui și clasificarea sesiunii.",
+        "Nu s-au făcut montări de producție. Fereastra de transfer între două montări reale rămâne neexercitată.",
+        "Verificare exhaustivă a schedulere-lor și a montărilor tuturor sui­telor de partener.",
+        "Cei doi mutanți exacți pentru toate suitele de efecte operaționale și falsul succes UI."
+      ],
+      "cross_zone_owners": [
+        "A01",
+        "A02",
+        "A11"
+      ],
+      "actual_tasks": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ]
+    },
+    {
+      "pipeline_id": "A10-F03",
+      "title": "Eveniment API și consumator",
+      "expected": "După orice reluare tratată ca aceeași operație numărul documentelor rămâne unu. Confirmarea finală se corelează cu starea ERP și apartenența firmei.",
+      "observed": "Răspunsul replay este incorect pentru un corp schimbat; după eroarea locală un efect extern simulat se dublează. Releul are teste pozitive și negative.",
+      "status": "FAIL_DOVEDIT",
+      "control_ids": [
+        "A10-CK-12",
+        "A10-CK-13",
+        "A10-CK-14",
+        "A10-CK-15",
+        "A10-CK-16"
+      ],
+      "evidence_ids": [
+        "RUN",
+        "SUITE",
+        "A08"
+      ],
+      "finding_ids": [
+        "A10-F03",
+        "A10-F04",
+        "A10-F06"
+      ],
+      "remaining": [
+        "Dinamica de concurență pe PostgreSQL/PostgreSQL și toate endpointurile materiale.",
+        "Cât de des se întâmplă în instalație și ce validări aplică metoda nativă pentru toate tipurile de partener.",
+        "Transportul semnat prin procesul ERP, de la început la sfârșit, cu evenimente inverse și retururi.",
+        "Reconciliere documente multi-linie, înapoiere și colete reale în ERP izolat.",
+        "Suprafața tuturor registrelor de erori, vizibilitatea prin UI și eventualul secret real din câmpurile respective."
+      ],
+      "cross_zone_owners": [
+        "A01",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "actual_tasks": []
+    },
+    {
+      "pipeline_id": "A10-F04",
+      "title": "Job, vizibilitate și revenire după întrerupere",
+      "expected": "Toate elementele admise sunt contabilizate ca procesat, în așteptare ori eroare. Repetarea aceleiași unități de lucru are cel mult un efect.",
+      "observed": "Două revendicări creează două rezultate. Endpointul de readiness anunță ok cu dependența simulată căzută.",
+      "status": "FAIL_DOVEDIT",
+      "control_ids": [
+        "A10-CK-17",
+        "A10-CK-18",
+        "A10-CK-19",
+        "A10-CK-20"
+      ],
+      "evidence_ids": [
+        "RUN",
+        "SUITE",
+        "A05"
+      ],
+      "finding_ids": [
+        "A10-F05",
+        "A10-F07"
+      ],
+      "remaining": [
+        "Test cu două procese reale și sarcină LLM/OCR în Postgres.",
+        "Backoff 429 Retry-After, 503 și erori definitive pe toate adaptoarele, cu aviz operator.",
+        "Influența acestui endpoint asupra unei sonde de deploy depinde de consumator. Nicio stare contabilă reală nu e inferată.",
+        "Alarmă operator blocat fără heartbeat, vechime restantă și recuperare în UI la volum mare."
+      ],
+      "cross_zone_owners": [
+        "A01",
+        "A04",
+        "A07",
+        "A09"
+      ],
+      "actual_tasks": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ]
+    },
+    {
+      "pipeline_id": "A10-F05",
+      "title": "Copie de siguranță, restaurare și rollback",
+      "expected": "Documentele, soldurile, anexele și permisiunile martor se potrivesc cu fotografia de la care s-a restaurat.",
+      "observed": "Restaurarea martorului contabil și a anexei a fost executată în PG16 sintetic. Mai lipsesc restaurarea integrală Spree/iDempiere cu interfață utilizator și țintele contractuale.",
+      "status": "PARTIAL",
+      "control_ids": [
+        "A10-CK-21",
+        "A10-CK-22",
+        "A10-CK-23",
+        "A10-CK-24"
+      ],
+      "evidence_ids": [
+        "RESTORE",
+        "A08",
+        "CHANNELS"
+      ],
+      "finding_ids": [],
+      "remaining": [
+        "Snapshot real coordonat Spree/iDempiere, politici de criptare/retenție, parametri agreați RPO.",
+        "Redeschiderea documentului prin ecran ERP, drepturile reale de canal și arhive mari.",
+        "RPO/RTO contractual și verificarea pe date reprezentative, rollback schemă+JAR în cabinet ERP complet. Rezultatul mic nu constituie RTO de producție.",
+        "Restore full per canal cu Redis/Meili și rebuild index, cache, active storage și autentificare multirol."
+      ],
+      "cross_zone_owners": [
+        "A02",
+        "A03",
+        "A07",
+        "A08"
+      ],
+      "actual_tasks": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ]
+    },
+    {
+      "pipeline_id": "A10-F06",
+      "title": "Disponibilitatea și capacitatea canalului",
+      "expected": "Costul și p95 sunt raportate per proces și versiune. Niciun răspuns sau fișier al firmei B pentru sesiunea A.",
+      "observed": "Concurența 10 la 10k depășește pragul intern. Valori invalide întorc 500 în catalog. Canarii au rămas separați în ambele contexte din proba măsurată.",
+      "status": "FAIL_DOVEDIT",
+      "control_ids": [
+        "A10-CK-25",
+        "A10-CK-26",
+        "A10-CK-27",
+        "A10-CK-28"
+      ],
+      "evidence_ids": [
+        "LOAD",
+        "A08",
+        "RUN",
+        "COVER",
+        "A01"
+      ],
+      "finding_ids": [
+        "A10-F09",
+        "A10-F08"
+      ],
+      "remaining": [
+        "Timpul utilizatorului final cu CDN, browser și ERP ori capacitatea comercială pe producție.",
+        "Export complet simultan cu scrieri, plan SQL și ordinea paginării tuturor endpointurilor.",
+        "Inducerea lentorii la motorul extern și verificarea restaurării căutării în UI după timeout.",
+        "Confirmarea exhaustivă a drepturilor și limitelor de intrare pe toate cele 117 suprafețe de responsabilitate A10."
+      ],
+      "cross_zone_owners": [
+        "A01",
+        "A06",
+        "A08",
+        "A09"
+      ],
+      "actual_tasks": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "A10-F01",
+      "severity": "P1",
+      "title": "Cele două unelte de coadă acceptă o cale în loc de ID de slot",
+      "evidence_ids": [
+        "QUEUE"
+      ],
+      "control_ids": [
+        "A10-CK-08",
+        "A10-CK-09"
+      ],
+      "observed_fact": "În ambele unelte, elibereaza ../marker returnează rc0 și șterge markerul sintetic din directorul părinte.",
+      "anchors": [
+        {
+          "file": "tools/status/coada_builduri.sh",
+          "line": 74,
+          "symbol": "id=\"${1:-}\"; [ -n \"$id\" ] && [ -e \"$DIR/$id\" ] || { echo \"slot inexistent: $id\" >&2; exit 2; }",
+          "sha256": "72264d18c0037bfe0a3fb09e41bfea9f752b509df8398043e1685f34d85591c2",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "tools/status/coada_montari.sh",
+          "line": 77,
+          "symbol": "id=\"${1:-}\"; [ -n \"$id\" ] && [ -e \"$DIR/$id\" ] || { echo \"slot inexistent: $id\" >&2; exit 2; }",
+          "sha256": "eacc92b000e4f2beee1fbda7006e0dbcc4fdfcea016e779aeb7d228aabfe452e",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "Operator cu acces la utilitar și drept de scriere în directorul țintă.",
+      "scope": "Operator cu acces la utilitar și drept de scriere în directorul țintă.",
+      "confidence": "ridicată pentru condițiile reproduse",
+      "classification": "defect reprodus pe condițiile descrise",
+      "evidence_level": "reproducere izolată cu probă brută",
+      "impact": "Permite ștergerea unor fișiere la care contul local are deja acces, inclusiv din alt task.",
+      "native_first_remediation": "Validează gramatica ID-ului de slot și apartenența lui în registru. Rezolvă calea sub directorul cozii și validează proprietarul. Refuză orice separator, componentă părinte sau symlink.",
+      "regression_test": "Un slot real poate fi eliberat. Probe izolate cu ../marker, cale absolută, symlink și slotul altui solicitant nu modifică fișierul martor.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Rulează scriptul fixture asociat dovezii QUEUE și compară valorile exacte cu observed_fact."
+    },
+    {
+      "finding_id": "A10-F02",
+      "severity": "P1",
+      "title": "O sesiune acceptată cu puls activ poate pierde propriul container PG",
+      "evidence_ids": [
+        "LEASE",
+        "HR"
+      ],
+      "control_ids": [
+        "A10-CK-08",
+        "A10-CK-10"
+      ],
+      "observed_fact": "În prima rulare de integrare, curățarea globală a clasificat PG drept orfan în timp ce sesiunea aprobată era în execuție; cu nume acceptat de lista de sesiuni cele 3 probe HR trec.",
+      "anchors": [
+        {
+          "file": "tools/status/containere_cere.py",
+          "line": 145,
+          "symbol": "def sesiuni_active(conf):",
+          "sha256": "7e9c8646e9ab7f761f14147b032435103a7b2e7f6fe2d4913fc5eea74f22c1fd",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "tools/status/containere_cere.py",
+          "line": 465,
+          "symbol": "for k in cont:",
+          "sha256": "7e9c8646e9ab7f761f14147b032435103a7b2e7f6fe2d4913fc5eea74f22c1fd",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "tools/status/containere_cere.py",
+          "line": 685,
+          "symbol": "de_sters = [k for k in clasate if k[\"proprietar\"] == a.sesiune and k[\"clasa\"].startswith((\"ORFAN\", \"ABANDONAT\"))]",
+          "sha256": "7e9c8646e9ab7f761f14147b032435103a7b2e7f6fe2d4913fc5eea74f22c1fd",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "Nume de sesiune acceptat la înregistrare, dar nerecunoscut de selecția pentru sesiuni active în context SSH fără TTY.",
+      "scope": "Nume de sesiune acceptat la înregistrare, dar nerecunoscut de selecția pentru sesiuni active în context SSH fără TTY.",
+      "confidence": "ridicată pentru condițiile reproduse",
+      "classification": "defect reprodus pe condițiile descrise",
+      "evidence_level": "probă transversală cu reluare și jurnale",
+      "impact": "Poate produce fals eșec de test și pierderea unei resurse sintetice active.",
+      "native_first_remediation": "Folosește identificatorul permisului și lease-ul cu puls ca autoritate comună pentru admitere și curățare. Solicitant necunoscut se respinge înainte de creare.",
+      "regression_test": "Sesiunea din reproducere păstrează primul container când cere al doilea; expirarea reală rămâne demonstrabilă.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Compară EV-OPS-LEASE-01 cu proba HR corectată; rularea originală și reluarea rămân în registru."
+    },
+    {
+      "finding_id": "A10-F03",
+      "severity": "P1",
+      "title": "Cheia repetată acceptă și corpul unei operații diferite",
+      "evidence_ids": [
+        "RUN"
+      ],
+      "control_ids": [
+        "A10-CK-12"
+      ],
+      "observed_fact": "Același POST partners, tenant și cheie, cu nume/CUI diferite, primește HTTP 201 și ID-ul operației precedente. Alt tenant dă un ID diferit.",
+      "anchors": [
+        {
+          "file": "backend/app/idempotency.py",
+          "line": 24,
+          "symbol": "def replay(db: Session, tenant_cui: str, endpoint: str, key: str) -> JSONResponse | None:",
+          "sha256": "10a9c649c0d3abc66c1b3f7ac97625b0cb0405bce313a51c4bad7ed42ccc3538",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "backend/app/models.py",
+          "line": 711,
+          "symbol": "class IdempotencyKey(Base):",
+          "sha256": "73278ee2c1ca4549b64cada3c0e8f17e6ad1db887329f5210c8c1f47a9fe9807",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "backend/app/routers/partners.py",
+          "line": 156,
+          "symbol": "ep = \"POST /partners\"",
+          "sha256": "63355d7d14c0c0b3b2464a926d79bf65c91b63f3f176c5795dd3ccdd8aa8414b",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "Identitate tenant simulată conform fixturii proiectului; se reutilizează cheia pentru o cerere diferită.",
+      "scope": "Identitate tenant simulată conform fixturii proiectului; se reutilizează cheia pentru o cerere diferită.",
+      "confidence": "ridicată pentru condițiile reproduse",
+      "classification": "defect reprodus pe condițiile descrise",
+      "evidence_level": "reproducere izolată cu probă brută",
+      "impact": "Operatorul vede succes pentru o solicitare ale cărei date nu au fost aplicate.",
+      "native_first_remediation": "Leagă cheia existentă de hashul canonic al comenzii și de criteriile necesare de context. Respinge conflictul înainte de efect și expune ID-ul operației originale.",
+      "regression_test": "Același corp se reia, corp schimbat primește conflict, altă firmă rămâne separată.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Rulează scriptul fixture asociat dovezii RUN și compară valorile exacte cu observed_fact."
+    },
+    {
+      "finding_id": "A10-F04",
+      "severity": "P1",
+      "title": "Căderea între succesul nativ și commitul local creează două efecte în simulator",
+      "evidence_ids": [
+        "RUN"
+      ],
+      "control_ids": [
+        "A10-CK-13",
+        "A10-CK-15"
+      ],
+      "observed_fact": "Prima cerere provoacă efectul 101 și eroare HTTP 500 la salvarea cheii; a doua creează 102 și mirror-ul conține numai 102.",
+      "anchors": [
+        {
+          "file": "backend/app/routers/partners.py",
+          "line": 173,
+          "symbol": "is_prospect=bool(body.get(\"is_prospect\", False)),",
+          "sha256": "63355d7d14c0c0b3b2464a926d79bf65c91b63f3f176c5795dd3ccdd8aa8414b",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "backend/app/routers/partners.py",
+          "line": 192,
+          "symbol": "}",
+          "sha256": "63355d7d14c0c0b3b2464a926d79bf65c91b63f3f176c5795dd3ccdd8aa8414b",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "backend/app/idempotency.py",
+          "line": 33,
+          "symbol": "def store(db: Session, tenant_cui: str, endpoint: str, key: str,",
+          "sha256": "10a9c649c0d3abc66c1b3f7ac97625b0cb0405bce313a51c4bad7ed42ccc3538",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "Clientul nativ este un stub fără deduplicare, store eșuează după apel. Nu este probă de duplicat în producție.",
+      "scope": "Clientul nativ este un stub fără deduplicare, store eșuează după apel. Nu este probă de duplicat în producție.",
+      "confidence": "ridicată pentru condițiile reproduse",
+      "classification": "defect reprodus pe condițiile descrise",
+      "evidence_level": "reproducere izolată cu probă brută",
+      "impact": "Reluarea poate dubla partenerul dacă documentul nativ nu dispune de o cheie stabilă de reconciliere.",
+      "native_first_remediation": "Rezervă identitatea operației înainte de apel și transmite referința de business care permite regăsirea PO-ului nativ. Clarifică efectul ambiguu înainte de retry.",
+      "regression_test": "Injecții după fiecare frontieră de commit și două cereri concurente trebuie să lase un singur ID nativ și o singură asociere.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Rulează scriptul fixture asociat dovezii RUN și compară valorile exacte cu observed_fact."
+    },
+    {
+      "finding_id": "A10-F05",
+      "severity": "P1",
+      "title": "Două revendicări ale unui job pot genera două rezultate",
+      "evidence_ids": [
+        "RUN"
+      ],
+      "control_ids": [
+        "A10-CK-17",
+        "A10-CK-18"
+      ],
+      "observed_fact": "Aceeași intrare Queued poate fi citită prin claim_next de două sesiuni. process_task executat pentru cele două revendicări a comis două rezultate pentru același task.",
+      "anchors": [
+        {
+          "file": "backend/app/ai_assistant/worker.py",
+          "line": 24,
+          "symbol": "def claim_next(db: Session, tenant_cui: str | None = None) -> EVA_AI_Task | None:",
+          "sha256": "4a84eb3b0028c963f57e3597c8692e2af00cb1444cd439f4c00d313f3bc5a458",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "backend/app/ai_assistant/service.py",
+          "line": 63,
+          "symbol": "def process_task(db: Session, task: EVA_AI_Task) -> EVA_AI_Result:",
+          "sha256": "269f8aaf7d22dda24b74805c21922ee22508495dfe0e7f8cbbc1d63484deb829",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "În laborator SQLite, două sesiuni cu revendicări intercalate determinist. Providerul nu produce efect extern.",
+      "scope": "În laborator SQLite, două sesiuni cu revendicări intercalate determinist. Providerul nu produce efect extern.",
+      "confidence": "ridicată pentru condițiile reproduse",
+      "classification": "defect reprodus pe condițiile descrise",
+      "evidence_level": "reproducere izolată cu probă brută",
+      "impact": "La mai mulți lucrători pot apărea procesări și rezultate duplicate.",
+      "native_first_remediation": "Folosește actualizare condiționată Queued→Running cu token/lease sau blocarea nativă disponibilă în Postgres; constrângere și cheie logică pentru rezultat.",
+      "regression_test": "Doi lucrători revendică atomic, numai unul obține tokenul. După moarte/lease expirat rămâne cel mult un efect de business.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Rulează scriptul fixture asociat dovezii RUN și compară valorile exacte cu observed_fact."
+    },
+    {
+      "finding_id": "A10-F06",
+      "severity": "P1",
+      "title": "Jurnalul păstrează tokenii din obiectele imbricate",
+      "evidence_ids": [
+        "RUN"
+      ],
+      "control_ids": [
+        "A10-CK-16"
+      ],
+      "observed_fact": "AuditEvent maschează tokenul la nivelul principal, dar canarul din payload.token și payload.authorization se regăsește în after_json.",
+      "anchors": [
+        {
+          "file": "backend/app/audit.py",
+          "line": 10,
+          "symbol": "def _mask(d: dict | None) -> dict | None:",
+          "sha256": "b2706b6c13828db8500b19d1af2502099c404b492c20bc4de1ca05af92c151e0",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "backend/app/audit.py",
+          "line": 23,
+          "symbol": "def record(db: Session, *, action: str, entity_type: str, entity_id: str | None = None,",
+          "sha256": "b2706b6c13828db8500b19d1af2502099c404b492c20bc4de1ca05af92c151e0",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "Cod care apelează record cu valori sensibile în obiect imbricat și utilizator cu acces la jurnal. Se folosesc numai canari sintetici.",
+      "scope": "Cod care apelează record cu valori sensibile în obiect imbricat și utilizator cu acces la jurnal. Se folosesc numai canari sintetici.",
+      "confidence": "ridicată pentru condițiile reproduse",
+      "classification": "defect reprodus pe condițiile descrise",
+      "evidence_level": "reproducere izolată cu probă brută",
+      "impact": "Secretele sau datele cu acces limitat pot persista nemascate în jurnal.",
+      "native_first_remediation": "Aplică filtrare recursivă la dicționare/liste și o listă de câmpuri permisă per eveniment; verifică authorization și variații de literă.",
+      "regression_test": "Probe cu canari la nivelurile 1–3 în liste/dicționare și prin export/jurnal. Zero canari sensibili după persistare.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Rulează scriptul fixture asociat dovezii RUN și compară valorile exacte cu observed_fact."
+    },
+    {
+      "finding_id": "A10-F07",
+      "severity": "P2",
+      "title": "Readiness-ul iDempiere declară status ok când dependența este indisponibilă",
+      "evidence_ids": [
+        "RUN",
+        "A05"
+      ],
+      "control_ids": [
+        "A10-CK-19"
+      ],
+      "observed_fact": "La /internal/idempiere/health, răspunsul de probă reachable=false/ReadTimeout produce tot HTTP 200 și status ok.",
+      "anchors": [
+        {
+          "file": "backend/app/routers/health.py",
+          "line": 14,
+          "symbol": "def idempiere_health():",
+          "sha256": "b9c9e83591e78dbf0f4a236eeae5be5a13545a1b126f7ea78bf047ba536af09b",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "backend/app/idempiere/client.py",
+          "line": 156,
+          "symbol": "def health(self) -> dict:",
+          "sha256": "8e498036e23a46b0af3b60ba561bf287d9e468f1808ecf883fd7d77b29b01a7f",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "Un consumator interpretează doar codul HTTP sau câmpul de nivel superior.",
+      "scope": "Un consumator interpretează doar codul HTTP sau câmpul de nivel superior.",
+      "confidence": "ridicată pentru condițiile reproduse",
+      "classification": "defect reprodus pe condițiile descrise",
+      "evidence_level": "reproducere izolată cu probă brută",
+      "impact": "Poate accepta trafic sau începe o operație în timp ce ERP nu este disponibil.",
+      "native_first_remediation": "Definește separat liveness și readiness, agregă indisponibilitatea în status și HTTP corespunzător. Verifică starea aplicației și schema funcțională.",
+      "regression_test": "Dependency fail → stare degradată, recovery → stare disponibilă. Confirmă consumatorul real înaintea rolloutului.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Rulează scriptul fixture asociat dovezii RUN și compară valorile exacte cu observed_fact."
+    },
+    {
+      "finding_id": "A10-F08",
+      "severity": "P2",
+      "title": "Catalogul returnează HTTP 500 la parametri de paginare invalizi",
+      "evidence_ids": [
+        "LOAD"
+      ],
+      "control_ids": [
+        "A10-CK-26"
+      ],
+      "observed_fact": "Parametrii page=abc și per_page=abc produc 500 cu corp care nu este JSON.",
+      "anchors": [
+        {
+          "file": "frontend/storefront/app/factory.py",
+          "line": 336,
+          "symbol": "def api_catalog_products():",
+          "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "file": "frontend/storefront/app/factory.py",
+          "line": 344,
+          "symbol": "page=int(request.args.get(\"page\") or 1),",
+          "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "Cerere la ruta publică a catalogului cu intrări neîntregi.",
+      "scope": "Cerere la ruta publică a catalogului cu intrări neîntregi.",
+      "confidence": "ridicată pentru condițiile reproduse",
+      "classification": "defect reprodus pe condițiile descrise",
+      "evidence_level": "reproducere izolată cu probă brută",
+      "impact": "Consumatorii nu primesc motivul validării, iar monitorizarea tratează inputul ca eroare server.",
+      "native_first_remediation": "Validează tipul și intervalul înainte de query. Folosește răspunsul de eroare stabil al API și păstrează politica pentru valori negative.",
+      "regression_test": "În cazul valorilor invalide întoarce 4xx JSON determinist, fără excepție server, în toate limbile/pe ambele canale.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Rulează scriptul fixture asociat dovezii LOAD și compară valorile exacte cu observed_fact."
+    },
+    {
+      "finding_id": "A10-F09",
+      "severity": "P2",
+      "title": "Catalogul sintetic cu 10.000 produse depășește pragul de laborator",
+      "evidence_ids": [
+        "LOAD"
+      ],
+      "control_ids": [
+        "A10-CK-25"
+      ],
+      "observed_fact": "Cu 10 cereri concomitente p95=3,111s vs obiectiv 2s; cu 30 p95=9,105s. Fiecare profil are 100 probe și niciun răspuns eronat.",
+      "anchors": [
+        {
+          "file": "frontend/storefront/app/factory.py",
+          "line": 336,
+          "symbol": "def api_catalog_products():",
+          "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+          "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "preconditions": "Proces Flask in-process, fixtură locală fără proxy/ERP, măsurare pe stația de audit.",
+      "scope": "Proces Flask in-process, fixtură locală fără proxy/ERP, măsurare pe stația de audit.",
+      "confidence": "ridicată pentru fixture, transferabilitate în producție nestabilită",
+      "classification": "prag intern de performanță",
+      "evidence_level": "reproducere izolată cu probă brută",
+      "impact": "Latența observată afectează navigarea la volum sau concurență mare în aceeași configurație.",
+      "native_first_remediation": "Profilează sortarea/filtrarea și copierea catalogului per cerere. Reutilizează query cu paginare și indexare pe canal înainte de cache global.",
+      "regression_test": "Repetă cu același set, seed și concurență, apoi pe staging cu proxy. Aprobă prag operațional cu responsabilul canalului.",
+      "owner": "A10",
+      "status": "DESCHIS",
+      "A11_decision": "ÎN AȘTEPTARE",
+      "false_positive_history": [],
+      "reproduction": "Rulează scriptul fixture asociat dovezii LOAD și compară valorile exacte cu observed_fact."
+    }
+  ],
+  "task_trace": [
+    {
+      "id": "T01.01",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T01.02",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T03.02",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T32.06",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T32.08",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T32.09",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T32.13",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T32.21",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T33.10",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.04",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.05",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.18",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.19",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.24",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.44",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.45",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.47",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.48",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.49",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.50",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.51",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.52",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.53",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.65",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T36.70",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.01",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.02",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.03",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.04",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.05",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.06",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.07",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.08",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.09",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T38.10",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T40.14",
+      "code": null,
+      "source_status": "agregat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T43",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T43.01",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T43.02",
+      "code": null,
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T245",
+      "code": "P01.C15.T0001",
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 5,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T246",
+      "code": "P01.C15.T0002",
+      "source_status": "montat",
+      "in_A12": true,
+      "claims": 6,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T247",
+      "code": "P01.C15.T0003",
+      "source_status": "integrat",
+      "in_A12": false,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T248",
+      "code": "P01.C15.T0004",
+      "source_status": "integrat",
+      "in_A12": false,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T249",
+      "code": "P01.C15.T0005",
+      "source_status": "integrat",
+      "in_A12": false,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T250",
+      "code": "P01.C15.T0006",
+      "source_status": "integrat",
+      "in_A12": false,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T349",
+      "code": "P01.C15.T0007",
+      "source_status": "neînceput",
+      "in_A12": false,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    },
+    {
+      "id": "T356",
+      "code": "P01.C15.T0008",
+      "source_status": "neînceput",
+      "in_A12": false,
+      "claims": 0,
+      "applicable_work": [
+        "F01",
+        "F02",
+        "F05",
+        "F06"
+      ],
+      "disposition": "Fișa individuală A12 validează criteriile. Proba infrastructurii este comună doar pentru criteriile cu aceeași versiune și mediu."
+    }
+  ],
+  "limits": [
+    "P01.C15 are 48 rânduri cu identități vechi și canonice. Testul comun al infrastructurii nu certifică automat fiecare task.",
+    "Go-live, semnarea externă, retransmiterea reală și restaurarea producției nu intră în probe.",
+    "Fără test Android: contractul R2 s-a acceptat pentru pregătire, execuția depinde de propriul aviz A11.",
+    "Git/instalat/testat sunt distincte. Diferența de versiune se declară ca stare de proveniență, nu ca defect global.",
+    "A11 va evalua severitatea și completitudinea; niciun verdict autoacordat."
+  ],
+  "exceptions_and_rework": [
+    "Prima rulare a scriptului Python a blocat socketpair intern al TestClient. Garda a fost restrânsă la egress extern; rularea corectată are ieșire 0 și zero tentative externe.",
+    "A doua iterație a scriptului a salvat rezultatul, apoi stdout Windows a refuzat caracterele Unicode. Outputul consolei a fost redus iar reproducerea identică s-a încheiat cu rc0.",
+    "Fiecare corecție produs poate avansa la reaudit doar după SHA nou, raport diferență și repetarea controlului cu negativ."
+  ],
+  "independent_controls_requested": [
+    "A11: în directoare temporare distincte, reproduce QUEUE/observed marker, fără atingerea cozii reale.",
+    "A11: repetă RUN și verifică două rezultate pentru același task, 500→201 după două efecte simulate și canar imbricat.",
+    "A11: reeșantionare benchmark cu aceeași fixture/CPU, domeniu separat de SLA producție.",
+    "Verifică hashurile probelor, starea tuturor celor 28 controale și registrele slotului pentru restaurare."
+  ]
+}

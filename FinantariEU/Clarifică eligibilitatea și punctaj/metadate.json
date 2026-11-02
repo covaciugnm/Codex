@@ -1,0 +1,23 @@
+{
+  "id": "01a18112-8a6b-7733-abf8-33c7995c0ebb",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026 EU",
+  "created_at": 1793166838,
+  "updated_at": 1793368338,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Clarifică eligibilitatea și punctaj",
+  "project_id": "ec58c433-8025-4835-8910-bab2f99b913f",
+  "project": "FinantariEU",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 898690,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 39,
+  "message_count": 10,
+  "content_sha256": "498a81faa71e22fe31445d5c799b02ede8cec169fbbf74fd359e5419700629f0",
+  "files_copied": 0,
+  "references_not_copied": 5
+}

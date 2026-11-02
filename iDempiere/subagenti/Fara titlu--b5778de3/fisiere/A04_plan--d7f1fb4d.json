@@ -1,0 +1,2210 @@
+{
+  "schema": "EVA-A04-plan/2.0",
+  "agent": "A04",
+  "phase": "PLAN",
+  "status": "NEEXECUTAT",
+  "implementation_audit_started": false,
+  "plan_score": null,
+  "independent_reviewer": "A11",
+  "zone_id": "A04",
+  "objective": "Auditați achizițiile de la necesar la datorie, precum și migrarea SAGA până la utilizarea firmei în ERP. Verificați mai întâi configurarea nativă instalată, apoi extensiile EVA validate; orice gol presupune probă prin cod și cabinet.",
+  "baseline": {
+    "repository": "cesiroproduction/Eva-Accounting",
+    "branch": "master",
+    "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "source_manifest": "D:/CodexWork/eva-audit-p01-readonly-20261102/SOURCE_MANIFEST.json",
+    "cutoff_utc": "2026-11-02T14:03:17.856Z",
+    "previous_sha": "76470fedb51e273012e137c4c5847ec41a849848",
+    "deployed_version": "Se identifică prin bundle, imagine și AD înainte de execuție.",
+    "revalidation": "Comparați SHA la fiecare revenire; reancorați funcțiile modificate și revedeți interfețele. Documentația din repo și căile istorice sunt repere. Instalarea și comportamentul se probează separat."
+  },
+  "scope": {
+    "included": "C11 migrare, achiziții/recepție/AP; interfețe cu C01/C02/C03/C04/C05/C06/C07/C08/C09/C10/C12/C13/C14/C15/C16. Registrul și cap. fiecărui task sunt furnizate de A12.",
+    "other_owners": "A03 fiscalitate/active/HR; A05 fluxuri fizice; A07 plăți și retur; A08 site-uri; A09 UX; A10 infrastructură. A04 urmărește rândurile sursă până la acceptul documentat al proprietarului.",
+    "historical_requirements": "CPP/CPA distincte, multi-G1/G2, G3 virtual, stoc contabil fără dublarea asamblării reversibile, identitate internă independentă de SKU, cost unic per operație reală și audit prin documentul nativ."
+  },
+  "hard_gate": "Execuție permisă numai după 10/10 independent A11 la nivelul planului combinat și reconcilierea P01. Nicio notă și nicio implementare verificate în această fază.",
+  "anchor_catalog": {
+    "BP": [
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaFurnizoriForm.java",
+      27,
+      "class WSagaFurnizoriForm",
+      "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/table/FurnizoriImporter.java",
+      30,
+      "class FurnizoriImporter"
+    ],
+    "CAT": [
+      "tools/inventar_idempiere_saga_eva/idempiere_zone.csv",
+      12,
+      "Requisition-to-Invoice",
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+      10,
+      "class WSagaIntrariForm"
+    ],
+    "NIR": [
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+      21,
+      "calculeaza(",
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+      10,
+      "class WSagaIntrariForm"
+    ],
+    "FX": [
+      "backend/saga-migration/f5_import_cursuri.py",
+      19,
+      "def read_rates",
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+      10,
+      "class WSagaIntrariForm"
+    ],
+    "FE": [
+      "frontend/portal/eva_import_saga.html",
+      494,
+      "/dry-run",
+      "frontend/app.py",
+      3696,
+      "/jobs/"
+    ],
+    "REG": [
+      "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportRegistry.java",
+      247,
+      "runnable(",
+      "frontend/app.py",
+      3710,
+      "archive-table-audit"
+    ],
+    "ORC": [
+      "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+      48,
+      "runAll(",
+      "frontend/app.py",
+      3672,
+      "/run"
+    ],
+    "GUARD": [
+      "backend/saga-migration/saga_stage0_guard.py",
+      57,
+      "def check_cli_apply_allowed",
+      "frontend/app.py",
+      3665,
+      "/dry-run"
+    ],
+    "PREF": [
+      "backend/saga-migration/saga_import_preflight.py",
+      854,
+      "def run_preflight",
+      "frontend/portal/eva_import_saga.html",
+      296,
+      "archive-table-audit"
+    ],
+    "RECON": [
+      "backend/saga-migration/recon/recon.py",
+      54,
+      "class Recon",
+      "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+      74,
+      "runTable("
+    ],
+    "INV": [
+      "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/InvoiceHeaderImporter.java",
+      37,
+      "class InvoiceHeaderImporter",
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+      10,
+      "class WSagaIntrariForm"
+    ],
+    "STOCK": [
+      "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/imp/InventoryImporter.java",
+      25,
+      "class InventoryImporter",
+      "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportRegistry.java",
+      247,
+      "runnable("
+    ]
+  },
+  "fixture_catalog": {
+    "F-PO": {
+      "role": "cumpărător/aprobator",
+      "scenario": "Necesar de 12 buc, articol și UOM, două oferte cu valabilitate, monedă și termene, roluri cumpărător/aprobator.",
+      "setup": "Date sintetice în A și B, două organizații, roluri distincte, schemă fiscală și de stoc configurate. Snapshot și rezultat etalon independent. Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură."
+    },
+    "F-NIR": {
+      "role": "gestionar G1 și contabil",
+      "scenario": "PO CO cu stocabil, configurație două depozite, două loturi și articol fără lot, NIR pregătit.",
+      "setup": "Date sintetice în A și B, două organizații, roluri distincte, schemă fiscală și de stoc configurate. Snapshot și rezultat etalon independent. Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură."
+    },
+    "F-FACTURA": {
+      "role": "contabil AP și gestionar",
+      "scenario": "7 bucăți recepționate, factură la 10/unitate. Un caz separat are 8 la 11; al treilea două bucăți de returnat.",
+      "setup": "Date sintetice în A și B, două organizații, roluri distincte, schemă fiscală și de stoc configurate. Snapshot și rezultat etalon independent. Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură."
+    },
+    "F-ARHIVA": {
+      "role": "administrator import firma A",
+      "scenario": "Arhivă cu manifest SHA256, tabele cunoscute/necunoscute, goale și defecte. UI trebuie să fixeze firma, schema și perioada.",
+      "setup": "Date sintetice în A și B, două organizații, roluri distincte, schemă fiscală și de stoc configurate. Snapshot și rezultat etalon independent. Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură."
+    },
+    "F-DESCHIDERE": {
+      "role": "contabil de cutover",
+      "scenario": "Arhivă validată P4, chei de firmă, strategie dată/istoric, schemă contabilă și locații aprobate.",
+      "setup": "Date sintetice în A și B, două organizații, roluri distincte, schemă fiscală și de stoc configurate. Snapshot și rezultat etalon independent. Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură."
+    },
+    "F-RELUARE": {
+      "role": "operator import și recenzor",
+      "scenario": "Aceeași arhivă și run, două cereri concurente, fixture curată, copie restaurabilă, limite de volum aprobate.",
+      "setup": "Date sintetice în A și B, două organizații, roluri distincte, schemă fiscală și de stoc configurate. Snapshot și rezultat etalon independent. Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură."
+    }
+  },
+  "native_double_check": [
+    "Obțineți sursa amonte pentru buildul instalat și urmăriți clasele/ferestrele native și suprascrierile EVA până la metoda care efectuează operația.",
+    "Identificați în AD rol, meniu, proces, fereastră, tabele, document și parametri ai cabinetului. Reproduceți pozitiv și advers prin calea reală activă.",
+    "Pentru fiecare decalaj justificați dacă se acoperă prin configurare nativă, adaptarea extensiei existente sau numai prin cod nou. O declarație dintr-un inventar istoric nu dovedește prezența funcțională."
+  ],
+  "controls": [
+    {
+      "control_id": "A04-C01",
+      "requirement_id": "R-A04-01",
+      "title": "Furnizor în două firme",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P1"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "cumpărător/aprobator",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-PO",
+      "steps_or_command": [
+        "Introduceți furnizorul sintetic F-A cu sediu și termene 30 zile în firma A. Selectați-l în comanda A. Încercați selectarea cheii sale private în B.",
+        "Negativ: Aceeași denumire pentru furnizori diferiți, rol operator al altei firme.",
+        "Verificați din UI: Furnizor; destinație; termen. Reconciliați identificatorii în C_BPartner,C_BPartner_Location,AD_Org."
+      ],
+      "expected": "Un singur partener activ și o adresă de facturare în A. Fără adresă privată sau comandă în B. Pentru firme din același client verificați explicit politica de partajare.",
+      "negative": "Aceeași denumire pentru furnizori diferiți, rol operator al altei firme.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A01",
+      "anchor_group": "BP",
+      "proof": {
+        "frontend": "Furnizor; destinație; termen",
+        "backend": "Prin grupul BP urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_BPartner,C_BPartner_Location,AD_Org. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Furnizor; destinație; termen."
+      }
+    },
+    {
+      "control_id": "A04-C02",
+      "requirement_id": "R-A04-02",
+      "title": "Condiții de aprovizionare",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P1"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "cumpărător/aprobator",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-PO",
+      "steps_or_command": [
+        "Configurați în ERP două oferte pentru un articol, cu monede, unități și valabilități diferite. Cereți ofertă și generați o comandă pe baza răspunsului selectat.",
+        "Negativ: Ofertă expirată, UOM fără conversie, minimum de comandă neîndeplinit.",
+        "Verificați din UI: Preț și unitate înainte de confirmare. Reconciliați identificatorii în C_RfQ,C_RfQResponse,M_Product_PO,M_ProductPrice,C_OrderLine."
+      ],
+      "expected": "Linia păstrează furnizorul ales, versiunea de preț și conversia în UOM de stoc. Comparați cererea, răspunsurile și PO, inclusiv rotunjirea la precizia configurată.",
+      "negative": "Ofertă expirată, UOM fără conversie, minimum de comandă neîndeplinit.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A06",
+      "anchor_group": "CAT",
+      "proof": {
+        "frontend": "Preț și unitate înainte de confirmare",
+        "backend": "Prin grupul CAT urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_RfQ,C_RfQResponse,M_Product_PO,M_ProductPrice,C_OrderLine. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Preț și unitate înainte de confirmare."
+      }
+    },
+    {
+      "control_id": "A04-C03",
+      "requirement_id": "R-A04-03",
+      "title": "Comanda de aprovizionare",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P1"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "cumpărător/aprobator",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-PO",
+      "steps_or_command": [
+        "Creați în fereastra nativă un PO pentru 12 bucăți la 10 RON, fără TVA în această probă. Finalizați prin rolul autorizat și redeschideți documentul.",
+        "Negativ: A doua apăsare pe Complete și ștergerea unei linii după finalizare.",
+        "Verificați din UI: Număr și stare PO vizibile. Reconciliați identificatorii în C_Order,C_OrderLine,M_Transaction."
+      ],
+      "expected": "IsSOTrx=N, documentul și liniile apar la furnizorul, organizația și prețul așteptate. Prin Complete confirmați starea reală și zero mișcări de stoc înainte de recepție.",
+      "negative": "A doua apăsare pe Complete și ștergerea unei linii după finalizare.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A02",
+      "anchor_group": "CAT",
+      "proof": {
+        "frontend": "Număr și stare PO vizibile",
+        "backend": "Prin grupul CAT urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Order,C_OrderLine,M_Transaction. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Număr și stare PO vizibile."
+      }
+    },
+    {
+      "control_id": "A04-C04",
+      "requirement_id": "R-A04-04",
+      "title": "Recepție parțială și NIR",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P2"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "gestionar G1 și contabil",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-NIR",
+      "steps_or_command": [
+        "Din PO de 12 înregistrați prima recepție de 7 pentru G1.1. Citiți documentul, previzualizați NIR. Înregistrați restul de 5 în locația convenită.",
+        "Negativ: Tentativă de recepționare suplimentară peste toleranța setată și reinvocare după timeout.",
+        "Verificați din UI: Soldul deschis și locatorul identificate înainte de completare. Reconciliați identificatorii în M_InOut,M_InOutLine,C_OrderLine,M_Transaction,M_StorageOnHand."
+      ],
+      "expected": "După prima recepție cantitatea cumulată fizică și documentară este 7, restul deschis 5. După a doua este 12 și restul 0. Ambele recepții își păstrează legătura cu linia PO. NIR păstrează sursa și cantitatea.",
+      "negative": "Tentativă de recepționare suplimentară peste toleranța setată și reinvocare după timeout.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A05",
+      "anchor_group": "NIR",
+      "proof": {
+        "frontend": "Soldul deschis și locatorul identificate înainte de completare",
+        "backend": "Prin grupul NIR urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_InOut,M_InOutLine,C_OrderLine,M_Transaction,M_StorageOnHand. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Soldul deschis și locatorul identificate înainte de completare."
+      }
+    },
+    {
+      "control_id": "A04-C05",
+      "requirement_id": "R-A04-05",
+      "title": "Set cumpărat și ambalare reversibilă",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P2"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "gestionar G1 și contabil",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-NIR",
+      "steps_or_command": [
+        "Recepționați 2 seturi indivizibile cumpărate și 12 bucăți primare în G1. Mapați coduri CPP distincte de codul CPA pentru ambalarea ulterioară în G2.",
+        "Negativ: SKU identic pentru două produse, set CPA introdus greșit ca set primit pentru revânzare.",
+        "Verificați din UI: Selector tip produs CPP/CPA și gestiune. Reconciliați identificatorii în M_Product,M_Product_PO,M_InOutLine,M_StorageOnHand."
+      ],
+      "expected": "2 seturi CPP plus 12 bucăți CPP afectează stocul contabil al recepției. 0 stoc CPA suplimentar pentru o asamblare reversibilă. Păstrați mapările SKU furnizor → identitate internă pe articol și UOM.",
+      "negative": "SKU identic pentru două produse, set CPA introdus greșit ca set primit pentru revânzare.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A02/A05",
+      "anchor_group": "NIR",
+      "proof": {
+        "frontend": "Selector tip produs CPP/CPA și gestiune",
+        "backend": "Prin grupul NIR urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_Product,M_Product_PO,M_InOutLine,M_StorageOnHand. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Selector tip produs CPP/CPA și gestiune."
+      }
+    },
+    {
+      "control_id": "A04-C06",
+      "requirement_id": "R-A04-06",
+      "title": "Lot și locator la recepție",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P2"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "gestionar G1 și contabil",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-NIR",
+      "steps_or_command": [
+        "Recepționați 7 bucăți din două loturi 4+3 într-un locator G1 și 5 bucăți fără ASI pentru un alt articol configurat astfel. Reconciliați linii MA cu mișcările efective.",
+        "Negativ: Încercați lot obligatoriu absent și locator din alt depozit.",
+        "Verificați din UI: Loturile și diferențele apar în NIR sau în documentul identificat. Reconciliați identificatorii în M_InOutLine,M_InOutLineMA,M_Transaction,M_Locator."
+      ],
+      "expected": "Mișcările aferente loturilor însumează 7 la recepție, al doilea articol însumează 5. Comparați stoc înainte/după separat pentru client, locator, articol și ASI. Arătați ramura nativă dacă linia nu are MA.",
+      "negative": "Încercați lot obligatoriu absent și locator din alt depozit.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A05",
+      "anchor_group": "NIR",
+      "proof": {
+        "frontend": "Loturile și diferențele apar în NIR sau în documentul identificat",
+        "backend": "Prin grupul NIR urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_InOutLine,M_InOutLineMA,M_Transaction,M_Locator. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Loturile și diferențele apar în NIR sau în documentul identificat."
+      }
+    },
+    {
+      "control_id": "A04-C07",
+      "requirement_id": "R-A04-07",
+      "title": "Potrivire comandă, recepție și factură",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil AP și gestionar",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-FACTURA",
+      "steps_or_command": [
+        "Înregistrați factura furnizor pentru 7 la 10 RON. Aplicați fluxul nativ de corespondențe conform politicii din cabinet. Reconciliați cantitățile și conturile.",
+        "Negativ: Factura sosită înaintea recepției și apoi documente în ordine inversă.",
+        "Verificați din UI: Linia se poate urmări până la PO și recepție. Reconciliați identificatorii în C_Invoice,C_InvoiceLine,M_MatchInv,M_MatchPO,Fact_Acct."
+      ],
+      "expected": "Sumă netă 70 RON. Asocierile recepției și facturii însumează 7 pentru ramura aplicabilă. Legăturile cu PO și Fact_Acct sunt verificabile pornind de la identificatorii documentelor.",
+      "negative": "Factura sosită înaintea recepției și apoi documente în ordine inversă.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A03",
+      "anchor_group": "NIR",
+      "proof": {
+        "frontend": "Linia se poate urmări până la PO și recepție",
+        "backend": "Prin grupul NIR urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_InvoiceLine,M_MatchInv,M_MatchPO,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Linia se poate urmări până la PO și recepție."
+      }
+    },
+    {
+      "control_id": "A04-C08",
+      "requirement_id": "R-A04-08",
+      "title": "Diferență de cantitate și preț",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil AP și gestionar",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-FACTURA",
+      "steps_or_command": [
+        "Folosiți recepția de 7 cu factură pentru 8 la 11. Rulați mai întâi cu regula strictă, apoi cu politica de toleranță explicit configurată, în copii curate.",
+        "Negativ: Gestionar fără drept de aprobare încearcă să accepte diferența sau să o refacă după retry.",
+        "Verificați din UI: Operatorul vede diferența, regula și următorul pas. Reconciliați identificatorii în C_InvoiceLine,M_InOutLine,M_MatchInv,Fact_Acct."
+      ],
+      "expected": "În politica strictă diferențele de 1 bucată și 1 RON/bucată sunt vizibile pentru decizie. Nu apare recepție fictivă pentru bucata lipsă. În politica tolerantă diferențele sunt aprobate și contabilizate conform schemei documentate.",
+      "negative": "Gestionar fără drept de aprobare încearcă să accepte diferența sau să o refacă după retry.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A03/A05",
+      "anchor_group": "NIR",
+      "proof": {
+        "frontend": "Operatorul vede diferența, regula și următorul pas",
+        "backend": "Prin grupul NIR urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_InvoiceLine,M_InOutLine,M_MatchInv,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Operatorul vede diferența, regula și următorul pas."
+      }
+    },
+    {
+      "control_id": "A04-C09",
+      "requirement_id": "R-A04-09",
+      "title": "Valută, TVA și costuri accesorii",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil AP și gestionar",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-FACTURA",
+      "steps_or_command": [
+        "Configurați oferta în EUR și moneda contabilă în RON. Modelați cursul, data contabilă, taxele și distribuția unui cost de transport pe două linii, fără apel extern.",
+        "Negativ: Lipsă curs la dată, curs invers, cotă expirată, cheltuială dublată.",
+        "Verificați din UI: Cursul, moneda și diferența explicate în vizualizarea operatorului. Reconciliați identificatorii în C_Conversion_Rate,C_InvoiceTax,C_LandedCost,C_LandedCostAllocation,Fact_Acct."
+      ],
+      "expected": "La cursul de probă 5.00, baza de 100 EUR produce 500 RON înaintea taxelor și accesoriilor. Totalurile și alocările însumează documentele sursă la precizia monedei, cu justificarea reziduului de rotunjire.",
+      "negative": "Lipsă curs la dată, curs invers, cotă expirată, cheltuială dublată.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A03",
+      "anchor_group": "FX",
+      "proof": {
+        "frontend": "Cursul, moneda și diferența explicate în vizualizarea operatorului",
+        "backend": "Prin grupul FX urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Conversion_Rate,C_InvoiceTax,C_LandedCost,C_LandedCostAllocation,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Cursul, moneda și diferența explicate în vizualizarea operatorului."
+      }
+    },
+    {
+      "control_id": "A04-C10",
+      "requirement_id": "R-A04-10",
+      "title": "Retur de furnizor și credit",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil AP și gestionar",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-FACTURA",
+      "steps_or_command": [
+        "Returnați 2 din 7 recepționate prin tipul de document și politica de retur ale firmei. Urmăriți creditul și corectarea asocierilor în ordine inversă dacă este cerută.",
+        "Negativ: Retur de 8 și repetarea aceleiași cereri după timeout fără a dubla mișcarea.",
+        "Verificați din UI: Motiv, document de origine și stare retur accesibile. Reconciliați identificatorii în M_RMA,M_InOut,M_MatchInv,C_Invoice,C_AllocationLine."
+      ],
+      "expected": "Mișcarea returului este −2 și diferența cantitativă cumulată 5. Creditul de 20 net la preț 10 și documentele de origine sunt legate și vizibile. Factura și plata restante se reconciliază cu A07.",
+      "negative": "Retur de 8 și repetarea aceleiași cereri după timeout fără a dubla mișcarea.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A05/A07",
+      "anchor_group": "NIR",
+      "proof": {
+        "frontend": "Motiv, document de origine și stare retur accesibile",
+        "backend": "Prin grupul NIR urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_RMA,M_InOut,M_MatchInv,C_Invoice,C_AllocationLine. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Motiv, document de origine și stare retur accesibile."
+      }
+    },
+    {
+      "control_id": "A04-C11",
+      "requirement_id": "R-A04-11",
+      "title": "Preluare arhivă sigură",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "critic",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "administrator import firma A",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-ARHIVA",
+      "steps_or_command": [
+        "Prin interfața autorizată încărcați arhiva sintetică și verificați semnătura, identitatea firmei și hash-ul. Folosiți copii separate corupte, cu cale ieșită din arhivă și expansiune peste limita aprobată.",
+        "Negativ: Două fișiere cu același nume și hash diferit, CUI nepotrivit, arhivă trunchiată.",
+        "Verificați din UI: Operatorul vede firma, data și eroarea fără expunere de căi sensibile. Reconciliați identificatorii în AD_Client,AD_Org și jurnal de import identificat la execuție."
+      ],
+      "expected": "Arhiva validă are ID și hash. Fiecare probă invalidă este respinsă sau plasată în carantină înaintea scrierilor ERP. 0 artefacte pe căi nepermise.",
+      "negative": "Două fișiere cu același nume și hash diferit, CUI nepotrivit, arhivă trunchiată.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A01/A10",
+      "anchor_group": "FE",
+      "proof": {
+        "frontend": "Operatorul vede firma, data și eroarea fără expunere de căi sensibile",
+        "backend": "Prin grupul FE urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Client,AD_Org și jurnal de import identificat la execuție. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Operatorul vede firma, data și eroarea fără expunere de căi sensibile."
+      }
+    },
+    {
+      "control_id": "A04-C12",
+      "requirement_id": "R-A04-12",
+      "title": "Universul tabelelor SAGA și al rândurilor",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "administrator import firma A",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-ARHIVA",
+      "steps_or_command": [
+        "Faceți manifest din arhivă și registrul handlerelor. Clasificați fiecare tabel, inclusiv tabele goale, extensii necunoscute și copii istorice. Contorizați fiecare rând relevant o singură dată.",
+        "Negativ: Tabel nemenționat în lista istorică 211, rând fără cheie, coloană nouă, tabel lipsă legitim.",
+        "Verificați din UI: Inventar cu numărător, numitor, motiv și link la exemplu. Reconciliați identificatorii în AD_Table,AD_Column,registru/staging/lineage identificate în instanță."
+      ],
+      "expected": "Pentru fiecare tabel sursă există exact o decizie operațional/arhivat/exclus justificat/blocat. În fiecare tabel eligibil rândurile sursă = reușite unice + respinse + amânate + exclus justificat. Un tabel necunoscut rămâne în raport.",
+      "negative": "Tabel nemenționat în lista istorică 211, rând fără cheie, coloană nouă, tabel lipsă legitim.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A02",
+      "anchor_group": "REG",
+      "proof": {
+        "frontend": "Inventar cu numărător, numitor, motiv și link la exemplu",
+        "backend": "Prin grupul REG urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Table,AD_Column,registru/staging/lineage identificate în instanță. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Inventar cu numărător, numitor, motiv și link la exemplu."
+      }
+    },
+    {
+      "control_id": "A04-C13",
+      "requirement_id": "R-A04-13",
+      "title": "Ordine și dependențe",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "administrator import firma A",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-ARHIVA",
+      "steps_or_command": [
+        "Planificați bootstrap fiscal → conturi/perioade → parteneri/articole → documente → alocări → reconciliere. Introduceți o factură al cărei furnizor nu s-a mapat.",
+        "Negativ: Lipsește schema contabilă sau se inversează ordinea header/detaliu.",
+        "Verificați din UI: Faza blocată indică dependența și modul de remediere. Reconciliați identificatorii în AD_Org,C_AcctSchema,C_Period,C_BPartner,C_Invoice,C_InvoiceLine."
+      ],
+      "expected": "0 facturi orfane. Rândul blocat rămâne identificabil și devine eligibil numai după rezolvarea dependenței; FK și ID-urile sunt din clientul țintă.",
+      "negative": "Lipsește schema contabilă sau se inversează ordinea header/detaliu.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A02/A03",
+      "anchor_group": "ORC",
+      "proof": {
+        "frontend": "Faza blocată indică dependența și modul de remediere",
+        "backend": "Prin grupul ORC urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Org,C_AcctSchema,C_Period,C_BPartner,C_Invoice,C_InvoiceLine. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Faza blocată indică dependența și modul de remediere."
+      }
+    },
+    {
+      "control_id": "A04-C14",
+      "requirement_id": "R-A04-14",
+      "title": "Simulare, validare și drept de aplicare",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "administrator import firma A",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-ARHIVA",
+      "steps_or_command": [
+        "Rulați preflight cu un import_run_id asociat strict arhivei, firmei și fazei. Capturați numărul de PO contabile înainte și după preview și refuz.",
+        "Negativ: Job expiră între preview și confirmare. Operator fără drept încearcă acces direct.",
+        "Verificați din UI: Ecranul separă simularea de execuție și arată firma/rezultatul. Reconciliați identificatorii în C_Invoice,GL_Journal,M_Inventory și jurnalul de execuție."
+      ],
+      "expected": "Simularea nu modifică documente/stoc/solduri. Aplicarea în altă firmă, altă fază sau pe o arhivă schimbată este refuzată cu zero efecte contabile.",
+      "negative": "Job expiră între preview și confirmare. Operator fără drept încearcă acces direct.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A01",
+      "anchor_group": "GUARD",
+      "proof": {
+        "frontend": "Ecranul separă simularea de execuție și arată firma/rezultatul",
+        "backend": "Prin grupul GUARD urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,GL_Journal,M_Inventory și jurnalul de execuție. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Ecranul separă simularea de execuție și arată firma/rezultatul."
+      }
+    },
+    {
+      "control_id": "A04-C15",
+      "requirement_id": "R-A04-15",
+      "title": "Constituirea firmei și decupajul de dată",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil de cutover",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-DESCHIDERE",
+      "steps_or_command": [
+        "Alegeți în ERP clientul/organizația, data ultimei zile în sistemul vechi, prima zi operațională, valuta și calendarul. Importați o operație exact pe fiecare parte a graniței.",
+        "Negativ: O factură cu dată document înainte și dată contabilă după cutover, perioadă închisă.",
+        "Verificați din UI: Previzualizare de cutover pe date calendaristice. Reconciliați identificatorii în AD_Client,AD_Org,C_AcctSchema,C_Period,C_DocType."
+      ],
+      "expected": "Fiecare document intră o singură dată ca istoric sau sold de deschidere, cu politica explicită. Firma, perioada și schema afișate coincid cu cele ale PO.",
+      "negative": "O factură cu dată document înainte și dată contabilă după cutover, perioadă închisă.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A03",
+      "anchor_group": "PREF",
+      "proof": {
+        "frontend": "Previzualizare de cutover pe date calendaristice",
+        "backend": "Prin grupul PREF urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Client,AD_Org,C_AcctSchema,C_Period,C_DocType. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Previzualizare de cutover pe date calendaristice."
+      }
+    },
+    {
+      "control_id": "A04-C16",
+      "requirement_id": "R-A04-16",
+      "title": "Solduri inițiale GL și subregistre",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "critic",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil de cutover",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-DESCHIDERE",
+      "steps_or_command": [
+        "Importați un sold deschis furnizor de 100, stins ulterior cu 40, și un registru GL în aceeași balanță. Comparați scenariul solduri numai față de istoricul complet.",
+        "Negativ: Sold sintetic și analitic divergent, cu totalul general aparent echilibrat.",
+        "Verificați din UI: Explicație pe cont, document și contrapartidă. Reconciliați identificatorii în GL_Journal,GL_JournalLine,C_Invoice,C_AllocationLine,Fact_Acct."
+      ],
+      "expected": "Datoria rămasă este 60 după plată. Total Debite=Credite la precizia configurată. Postarea soldurilor și reluarea istoriei au zero componente contabile suprapuse. Diferența pe cont/partener/perioadă are raport explicit.",
+      "negative": "Sold sintetic și analitic divergent, cu totalul general aparent echilibrat.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A03/A07",
+      "anchor_group": "RECON",
+      "proof": {
+        "frontend": "Explicație pe cont, document și contrapartidă",
+        "backend": "Prin grupul RECON urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: GL_Journal,GL_JournalLine,C_Invoice,C_AllocationLine,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Explicație pe cont, document și contrapartidă."
+      }
+    },
+    {
+      "control_id": "A04-C17",
+      "requirement_id": "R-A04-17",
+      "title": "Parteneri, produse și adrese",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil de cutover",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-DESCHIDERE",
+      "steps_or_command": [
+        "Mapați 2 furnizori omonimi, un partener cu ambele roluri și două produse CPP/CPA având același SKU sursă. Păstrați codul istoric ca alias.",
+        "Negativ: CUI lipsă, adresă duplicată, corecție SKU după prima rulare.",
+        "Verificați din UI: Rezolvarea coliziunii arată cheile sursă și efectul asupra documentelor. Reconciliați identificatorii în C_BPartner,C_BPartner_Location,M_Product,C_UOM."
+      ],
+      "expected": "Fiecare cheie sursă validă are fie mapare unică justificată, fie conflict explicit. CPP și CPA au două identități distincte. Un partener cu două roluri legitim mapat rămâne un partener cu flagurile corecte.",
+      "negative": "CUI lipsă, adresă duplicată, corecție SKU după prima rulare.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A02/A06",
+      "anchor_group": "BP",
+      "proof": {
+        "frontend": "Rezolvarea coliziunii arată cheile sursă și efectul asupra documentelor",
+        "backend": "Prin grupul BP urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_BPartner,C_BPartner_Location,M_Product,C_UOM. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Rezolvarea coliziunii arată cheile sursă și efectul asupra documentelor."
+      }
+    },
+    {
+      "control_id": "A04-C18",
+      "requirement_id": "R-A04-18",
+      "title": "Facturi, conversie și semne istorice",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil de cutover",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-DESCHIDERE",
+      "steps_or_command": [
+        "Importați factura externă și storno parțial cu headere, linii și chei distincte. Reconciliați suma tranzacției, taxele și moneda contabilă pe fiecare partener.",
+        "Negativ: Duplicat document al altui furnizor, factură fără detalii, total sursă inexplicabil.",
+        "Verificați din UI: Diferențe separate de rotunjirile acceptate. Reconciliați identificatorii în C_Invoice,C_InvoiceLine,C_InvoiceTax,C_Currency,Fact_Acct."
+      ],
+      "expected": "Documentele au monedă, curs și dată conform sursei. O factură de 100 EUR și un credit de 20 EUR dau net 80 EUR înainte de plăți. Fiecare linie țintă are părinte identificabil.",
+      "negative": "Duplicat document al altui furnizor, factură fără detalii, total sursă inexplicabil.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A03/A07",
+      "anchor_group": "INV",
+      "proof": {
+        "frontend": "Diferențe separate de rotunjirile acceptate",
+        "backend": "Prin grupul INV urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_InvoiceLine,C_InvoiceTax,C_Currency,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Diferențe separate de rotunjirile acceptate."
+      }
+    },
+    {
+      "control_id": "A04-C19",
+      "requirement_id": "R-A04-19",
+      "title": "Stoc la data tranziției",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil de cutover",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-DESCHIDERE",
+      "steps_or_command": [
+        "Alegeți modul istoric sau modul stoc inițial. Importați 7 bucăți în G1.1 și 5 în G1.2, cu aceeași referință externă de produs și ASI configurat.",
+        "Negativ: Linie fără locator obligatoriu sau reluare după generarea documentului dar înainte de răspuns.",
+        "Verificați din UI: Depozit și diferențe vizibile înainte de confirmare. Reconciliați identificatorii în M_Inventory,M_InventoryLine,M_StorageOnHand,M_Transaction,Fact_Acct."
+      ],
+      "expected": "G1.1=7 și G1.2=5. Totalul contabil este 12, fără multiplicarea comună în G2/G3. Data inventarului și statutul CO explică mișcările, păstrați și inventarul fizic local.",
+      "negative": "Linie fără locator obligatoriu sau reluare după generarea documentului dar înainte de răspuns.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A05/A03",
+      "anchor_group": "STOCK",
+      "proof": {
+        "frontend": "Depozit și diferențe vizibile înainte de confirmare",
+        "backend": "Prin grupul STOCK urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_Inventory,M_InventoryLine,M_StorageOnHand,M_Transaction,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Depozit și diferențe vizibile înainte de confirmare."
+      }
+    },
+    {
+      "control_id": "A04-C20",
+      "requirement_id": "R-A04-20",
+      "title": "Restul familiilor și accesul la istoric",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil de cutover",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-DESCHIDERE",
+      "steps_or_command": [
+        "Includeți comenzi, active, contracte, salarizare, declarații, extrase, note și tabele arhivate. Pentru fiecare familie verificați cardinalități, origine și câte un exemplu controlat cu rolul autorizat.",
+        "Negativ: Date HR în raport accesibil unui gestionar sau galerie de exemple care nu cuprinde tabele noi.",
+        "Verificați din UI: Sursă arhivată și document operațional diferențiate explicit. Reconciliați identificatorii în A_Asset,C_Payment,C_Order,GL_Journal,AD_Table,AD_Role."
+      ],
+      "expected": "Registrul de destinații acoperă toate familiile prezente. Un rând doar arhivat este etichetat astfel. Pentru solicitările care cer utilizare operațională obțineți dovadă de la agentul funcțional proprietar.",
+      "negative": "Date HR în raport accesibil unui gestionar sau galerie de exemple care nu cuprinde tabele noi.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A01/A03/A07",
+      "anchor_group": "REG",
+      "proof": {
+        "frontend": "Sursă arhivată și document operațional diferențiate explicit",
+        "backend": "Prin grupul REG urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: A_Asset,C_Payment,C_Order,GL_Journal,AD_Table,AD_Role. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Sursă arhivată și document operațional diferențiate explicit."
+      }
+    },
+    {
+      "control_id": "A04-C21",
+      "requirement_id": "R-A04-21",
+      "title": "Idempotență și concurență",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "critic",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "operator import și recenzor",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-RELUARE",
+      "steps_or_command": [
+        "Cu aceeași firmă și hash lansați două cereri în paralel și repetați aceeași cerere după succes. Comparați stocul, datoria, numărul de documente și identificatorii.",
+        "Negativ: Timeout între commit și răspuns, reîncărcare cu nume diferit și bytes identici.",
+        "Verificați din UI: Operatorul primește starea rulării active și identitatea rezultatului. Reconciliați identificatorii în C_Invoice,C_BPartner,M_Transaction,Fact_Acct,registru cheie de import."
+      ],
+      "expected": "Un singur efect pe identitate business și firmă. La reluare aceeași mapare sau o referință de duplicat și zero delte în stoc/sold. Verificați cheile în schema instalată.",
+      "negative": "Timeout între commit și răspuns, reîncărcare cu nume diferit și bytes identici.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A02/A10",
+      "anchor_group": "ORC",
+      "proof": {
+        "frontend": "Operatorul primește starea rulării active și identitatea rezultatului",
+        "backend": "Prin grupul ORC urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_BPartner,M_Transaction,Fact_Acct,registru cheie de import. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Operatorul primește starea rulării active și identitatea rezultatului."
+      }
+    },
+    {
+      "control_id": "A04-C22",
+      "requirement_id": "R-A04-22",
+      "title": "Reluare și tranzacții",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "operator import și recenzor",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-RELUARE",
+      "steps_or_command": [
+        "Injectați în cabinet izolat o întrerupere între header, linie și actualizarea lineage. Inventariați limitele tranzacționale reale și reluați numai unitățile nefinalizate.",
+        "Negativ: Pierderea workerului după commit și înaintea confirmării sau eroare în al doilea tabel din lot.",
+        "Verificați din UI: Stare parțială, număr reluabil și următor pas. Reconciliați identificatorii în C_Invoice,C_InvoiceLine,AD_PInstance,registru lineage."
+      ],
+      "expected": "Nicio unitate raportată ca reușită fără toate componentele sale. După reluare rezultatul reconciliază 100% cu rularea curată. Delta rămasă este explicită dacă operatorul trebuie să remedieze ceva.",
+      "negative": "Pierderea workerului după commit și înaintea confirmării sau eroare în al doilea tabel din lot.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A02/A10",
+      "anchor_group": "ORC",
+      "proof": {
+        "frontend": "Stare parțială, număr reluabil și următor pas",
+        "backend": "Prin grupul ORC urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_InvoiceLine,AD_PInstance,registru lineage. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Stare parțială, număr reluabil și următor pas."
+      }
+    },
+    {
+      "control_id": "A04-C23",
+      "requirement_id": "R-A04-23",
+      "title": "Finisare, anulare și restaurare",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "critic",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "operator import și recenzor",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-RELUARE",
+      "steps_or_command": [
+        "Fixați punctul de revenire al cabinetului de test, opriți rularea parțială, conservați probele și restaurați numai copia dedicată sau folosiți corecția nativă justificată. Comparați inventarul și hash-urile de bază.",
+        "Negativ: Refuzați reset nețintit, revenire accidentală într-un tenant vecin sau ștergerea unei facturi postate.",
+        "Verificați din UI: Operatorul vede diferența dintre anularea jobului și corecția contabilă. Reconciliați identificatorii în AD_Client,AD_Org,C_Invoice,M_InOut,Fact_Acct,istoric backup."
+      ],
+      "expected": "Revenirea se verifică pe clona separată prin aceleași totaluri și identificatori contractați. Documentele CO primesc procedura compensatoare potrivită. Raportul păstrează originea, starea și autorul.",
+      "negative": "Refuzați reset nețintit, revenire accidentală într-un tenant vecin sau ștergerea unei facturi postate.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A10/A03",
+      "anchor_group": "GUARD",
+      "proof": {
+        "frontend": "Operatorul vede diferența dintre anularea jobului și corecția contabilă",
+        "backend": "Prin grupul GUARD urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Client,AD_Org,C_Invoice,M_InOut,Fact_Acct,istoric backup. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Operatorul vede diferența dintre anularea jobului și corecția contabilă."
+      }
+    },
+    {
+      "control_id": "A04-C24",
+      "requirement_id": "R-A04-24",
+      "title": "Reconciliere și acceptul punerii în funcțiune",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "operator import și recenzor",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-RELUARE",
+      "steps_or_command": [
+        "Încrucișați balanță, solduri pe furnizor, stoc valorizat, documente deschise și TVA, în ambele sensuri până la rândul sursă. Schimbați o mapare de cont care lasă totalul general egal.",
+        "Negativ: Control pozitiv pe total general dar diferență pe două conturi analitice cu semne opuse.",
+        "Verificați din UI: Raport descărcabil cu diferență, cauză, document și responsabil. Reconciliați identificatorii în Fact_Acct,C_Invoice,C_AllocationLine,M_StorageOnHand."
+      ],
+      "expected": "Nicio diferență neexplicată pe firmă/perioadă/cont/monedă/partener/gestiune. Rotunjirea se acceptă numai la precizia stabilită și cu sursa identificată. Semnatarul desemnat și manifestul documentează deschiderea.",
+      "negative": "Control pozitiv pe total general dar diferență pe două conturi analitice cu semne opuse.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A03/A05/A07",
+      "anchor_group": "RECON",
+      "proof": {
+        "frontend": "Raport descărcabil cu diferență, cauză, document și responsabil",
+        "backend": "Prin grupul RECON urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: Fact_Acct,C_Invoice,C_AllocationLine,M_StorageOnHand. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Raport descărcabil cu diferență, cauză, document și responsabil."
+      }
+    },
+    {
+      "control_id": "A04-C25",
+      "requirement_id": "R-A04-25",
+      "title": "Volum, progres și confidențialitate",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "operator import și recenzor",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-RELUARE",
+      "steps_or_command": [
+        "Pe fixture mică și lotul reprezentativ aprobat înregistrați P50/P95, throughput, memorie, job după refresh și exportul raportului prin rol limitat. Introduceți marcatori sintetici de salarii și conturi bancare.",
+        "Negativ: Refresh în timpul procesului, sesiune expirată, eroare ce conține datele unui alt client.",
+        "Verificați din UI: Progres de etapă, reîncărcare, filtrare și acces tastatură. Reconciliați identificatorii în AD_PInstance,AD_Role,registru job,controlul accesului raport."
+      ],
+      "expected": "Percentilele sunt raportate față de plafonul convenit înainte de test, cu metodă repetabilă. Progresul se corelează cu numitorul real și este monoton pe aceeași fază. 0 marcatori confidențiali în răspunsuri sau loguri pentru rolul neautorizat.",
+      "negative": "Refresh în timpul procesului, sesiune expirată, eroare ce conține datele unui alt client.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A09/A10/A01",
+      "anchor_group": "FE",
+      "proof": {
+        "frontend": "Progres de etapă, reîncărcare, filtrare și acces tastatură",
+        "backend": "Prin grupul FE urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_PInstance,AD_Role,registru job,controlul accesului raport. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Progres de etapă, reîncărcare, filtrare și acces tastatură."
+      }
+    },
+    {
+      "control_id": "A04-C26",
+      "requirement_id": "R-A04-26",
+      "title": "Necesitate și aprobare de cumpărare",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P1"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "cumpărător/aprobator",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-PO",
+      "steps_or_command": [
+        "Creați cerere de achiziție pentru 12 bucăți. Folosiți fluxul de aprobare configurat pentru a transforma liniile eligibile într-o comandă.",
+        "Negativ: Operatorul încearcă să transforme cererea cu buget insuficient sau drepturi de aprobare absente conform politicii configurate.",
+        "Verificați din UI: Operatorul poate vedea stadiul și responsabilul aprobării. Reconciliați identificatorii în M_Requisition,M_RequisitionLine,C_Order,C_OrderLine."
+      ],
+      "expected": "Cantitatea din PO aprobat este 12 și există trasabilitate la cerere/linie. Toate modificările cantității înainte de aprobare rămân identificabile.",
+      "negative": "Operatorul încearcă să transforme cererea cu buget insuficient sau drepturi de aprobare absente conform politicii configurate.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A01/A03",
+      "anchor_group": "CAT",
+      "proof": {
+        "frontend": "Operatorul poate vedea stadiul și responsabilul aprobării",
+        "backend": "Prin grupul CAT urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_Requisition,M_RequisitionLine,C_Order,C_OrderLine. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Operatorul poate vedea stadiul și responsabilul aprobării."
+      }
+    },
+    {
+      "control_id": "A04-C27",
+      "requirement_id": "R-A04-27",
+      "title": "Achiziții externe și TVA deductibil parțial",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil AP și gestionar",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-FACTURA",
+      "steps_or_command": [
+        "Folosiți un set sintetic cu factură în valută, document vamal, cheltuieli și deductibilitate parțială. Contabilul configurează tratamentul aplicabil datei și operației și documentează temeiul oficial la execuție.",
+        "Negativ: Document vamal repetat, taxare inversă aplicată nejustificat, cotă fără valabilitate sau dublare a costului de intrare.",
+        "Verificați din UI: Calcul și documente justificative disponibile pentru control. Reconciliați identificatorii în C_Invoice,C_InvoiceTax,C_LandedCost,Fact_Acct și obiect DVI instalat dacă aplicabil."
+      ],
+      "expected": "Suma achitată furnizorului, baza vamală, TVA deductibil/nedeductibil și costurile capitalizate se reconciliază independent la precizia convenită. Fiecare sumă are document și politică determinate.",
+      "negative": "Document vamal repetat, taxare inversă aplicată nejustificat, cotă fără valabilitate sau dublare a costului de intrare.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A03",
+      "anchor_group": "FX",
+      "proof": {
+        "frontend": "Calcul și documente justificative disponibile pentru control",
+        "backend": "Prin grupul FX urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_InvoiceTax,C_LandedCost,Fact_Acct și obiect DVI instalat dacă aplicabil. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Calcul și documente justificative disponibile pentru control."
+      }
+    },
+    {
+      "control_id": "A04-C28",
+      "requirement_id": "R-A04-28",
+      "title": "Setări inițiale ale firmei",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "administrator import firma A",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-ARHIVA",
+      "steps_or_command": [
+        "Verificați listele de parametri pentru client/organizație, conturi implicite, clase de regim fiscal, perioade, bănci/IBAN sintetice, jurnal, depozite și locatori de destinație. Comparați configurația exportată și prezentată înainte de aplicare.",
+        "Negativ: Salvare cu cont indisponibil în schema selectată, implicitări de la prima firmă și locator G2 la stoc contabil.",
+        "Verificați din UI: Setări grupate și câmpurile dependente se restrâng la alegerea compatibilă. Reconciliați identificatorii în AD_Org,C_AcctSchema,C_BankAccount,C_Period,M_Warehouse,M_Locator."
+      ],
+      "expected": "Fiecare câmp obligatoriu are origine, valoare, validare și drept. Două firme cu aceeași structură au ID-uri rezolvate în contextul propriu. Opțiunile G1 și G2 incompatibile sunt refuzate înainte de înregistrarea unui stoc contabil.",
+      "negative": "Salvare cu cont indisponibil în schema selectată, implicitări de la prima firmă și locator G2 la stoc contabil.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A02/A03/A05",
+      "anchor_group": "PREF",
+      "proof": {
+        "frontend": "Setări grupate și câmpurile dependente se restrâng la alegerea compatibilă",
+        "backend": "Prin grupul PREF urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Org,C_AcctSchema,C_BankAccount,C_Period,M_Warehouse,M_Locator. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Setări grupate și câmpurile dependente se restrâng la alegerea compatibilă."
+      }
+    },
+    {
+      "control_id": "A04-C29",
+      "requirement_id": "R-A04-29",
+      "title": "Plăți istorice și avansuri",
+      "task_ids": [],
+      "task_binding": "A12 completează din inventarul P01 cu o corespondență demonstrată. Cerințele contractate se păstrează și când nu există un task declarat implementat.",
+      "zone_id": "A04",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "layer": [
+        "frontend",
+        "backend",
+        "db",
+        "ux",
+        "nativ"
+      ],
+      "risk": "ridicat",
+      "applicability": "Obligatoriu pentru fluxul și politica documentate. Excepție numai cu dovadă și acord A11.",
+      "method": "Urmărire statică din intrare în serviciu, apoi reproducere din UI pe cabinet izolat, triangulare cu SELECT înainte/după.",
+      "environment": "Cabinet sintetic A04 în rețea internă, schedulere dezactivate, fără rute către parteneri. Slot de test și identitatea imaginii stabilite cu A10. Cabinetul real se consultă numai în lectură.",
+      "role_context": "contabil de cutover",
+      "preconditions": "Fixați mediul, rolul, firma/organizația, configurația AD și etalonul înainte de test.",
+      "fixture": "F-DESCHIDERE",
+      "steps_or_command": [
+        "Importați achiziția cu avans de 30, factură sintetică de 100 și plată ulterioară de 70. Comparați metoda declarată la sursă și alocările efective în ERP.",
+        "Negativ: Rând identic în extras și registru contabil sau cu plată în altă valută fără curs justificat.",
+        "Verificați din UI: Fișa partenerului oferă sursa fiecărei stingeri. Reconciliați identificatorii în C_Payment,C_AllocationHdr,C_AllocationLine,C_Invoice,Fact_Acct."
+      ],
+      "expected": "Documentul este stins cu 30+70=100 o singură dată. Sold rămas 0 în moneda documentului. Păstrați ID-uri de avans, plată și alocare și urma contabilă aferentă.",
+      "negative": "Rând identic în extras și registru contabil sau cu plată în altă valută fără curs justificat.",
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Conservați dovezile redactate și hashurile. Readuceți numai clona sintetică la snapshotul de bază. Pentru documente CO se exemplifică documentul corector nativ.",
+      "executor": "A04",
+      "executed_at": null,
+      "reviewer_result": null,
+      "owner_handoff": "A07/A03",
+      "anchor_group": "RECON",
+      "proof": {
+        "frontend": "Fișa partenerului oferă sursa fiecărei stingeri",
+        "backend": "Prin grupul RECON urmăriți handlerul și limitele tranzacționale reale până la ID de document. Notați fișier, simbol și linie pe versiunea fixată.",
+        "db": "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Payment,C_AllocationHdr,C_AllocationLine,C_Invoice,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "native": "Verificați clasa iDempiere upstream a versiunii instalate, drepturile și fereastra/procesul AD. În cabinet reproduceți aceeași operație și diferențiați aportul EVA.",
+        "ux": "Capturați calea operatorului, erorile, revenirea și starea finală prin Fișa partenerului oferă sursa fiecărei stingeri."
+      }
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline_id": "A04-P1",
+      "business_outcome": "Obținerea unei comenzi de achiziție aprobate",
+      "trigger": "Operator achiziții deschide necesar → RfQ/PO în ERP, alegând furnizorul din firma sintetică A.",
+      "actor_context": "cumpărător/aprobator",
+      "input_contract": "Necesar de 12 buc, articol și UOM, două oferte cu valabilitate, monedă și termene, roluri cumpărător/aprobator.",
+      "state_machine": "Cerere DR → aprobare conform workflow instalat → RfQ/răspuns → PO DR → IP/CO conform regulilor → sold deschis 12.",
+      "ui_route": "Ferestrele native Requisition, RfQ, Purchase Order și formular Furnizori în rol A. Identificatorii meniului sunt de confirmat în AD.",
+      "api_calls": "DocumentAction și procese iDempiere. Identificați ruta efectivă și ID-urile AD în rolul respectiv.",
+      "service_symbols": [
+        {
+          "group": "CAT",
+          "refs": [
+            "tools/inventar_idempiere_saga_eva/idempiere_zone.csv",
+            12,
+            "Requisition-to-Invoice",
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+            10,
+            "class WSagaIntrariForm"
+          ]
+        },
+        {
+          "group": "BP",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaFurnizoriForm.java",
+            27,
+            "class WSagaFurnizoriForm",
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/table/FurnizoriImporter.java",
+            30,
+            "class FurnizoriImporter"
+          ]
+        }
+      ],
+      "db_reads_writes": "M_Requisition / C_RfQ / C_Order. Persistența fiecărui document prin PO/processIt. Verificați tranzacția reală între generare și Complete.",
+      "native_documents": [
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_BPartner,C_BPartner_Location,AD_Org. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_RfQ,C_RfQResponse,M_Product_PO,M_ProductPrice,C_OrderLine. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Order,C_OrderLine,M_Transaction. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_Requisition,M_RequisitionLine,C_Order,C_OrderLine. Comparați înainte și după la precizia definită în schemă."
+      ],
+      "external_effects": "Doar fixture locală; zero mesaje către furnizori, bănci și ANAF.",
+      "transaction_boundaries": "Determinați granița reală a tranzacției pe document CO și momentul postării.",
+      "correlation_ids": [
+        "AD_Client_ID",
+        "AD_Org_ID",
+        "AD_Table_ID/Record_ID",
+        "linia PO/recepție/factură",
+        "TrxName",
+        "DocStatus",
+        "schema contabilă"
+      ],
+      "authorization_guards": "Verificați proces, organizație și rând cu rol autorizat și limitat în A și încercare în B.",
+      "idempotency_scope": "Identitatea documentului și linia de origine în firma respectivă. O recepție parțială distinctă rămâne permisă.",
+      "normal_path": "Cerere DR → aprobare conform workflow instalat → RfQ/răspuns → PO DR → IP/CO conform regulilor → sold deschis 12.",
+      "negative_paths": [
+        "Aceeași denumire pentru furnizori diferiți, rol operator al altei firme.",
+        "Ofertă expirată, UOM fără conversie, minimum de comandă neîndeplinit.",
+        "A doua apăsare pe Complete și ștergerea unei linii după finalizare.",
+        "Operatorul încearcă să transforme cererea cu buget insuficient sau drepturi de aprobare absente conform politicii configurate."
+      ],
+      "retry_timeout_concurrency": "Simulați în două sesiuni o retransmisie după commit și o cerere concurentă. Reconciliați efectul din document, stoc și sold.",
+      "compensation_reconciliation": "Corectați prin reversare/document nativ potrivit stării. Legați originalul de corecție și verificați cantitatea și valoarea.",
+      "numeric_invariants": [
+        "Un singur partener activ și o adresă de facturare în A. Fără adresă privată sau comandă în B. Pentru firme din același client verificați explicit politica de partajare.",
+        "Linia păstrează furnizorul ales, versiunea de preț și conversia în UOM de stoc. Comparați cererea, răspunsurile și PO, inclusiv rotunjirea la precizia configurată.",
+        "IsSOTrx=N, documentul și liniile apar la furnizorul, organizația și prețul așteptate. Prin Complete confirmați starea reală și zero mișcări de stoc înainte de recepție.",
+        "Cantitatea din PO aprobat este 12 și există trasabilitate la cerere/linie. Toate modificările cantității înainte de aprobare rămân identificabile."
+      ],
+      "cross_zone_owners": "A01 aprobarea și izolarea; A02 identități și FK; A06 UOM/catalog; A03 bugete dacă aplicabil.",
+      "test_ids": [
+        "A04-C01",
+        "A04-C02",
+        "A04-C03",
+        "A04-C26"
+      ],
+      "final_state": "PO finalizat, livrat=0, comandat=12, un PO pentru transformarea unică a necesarului.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A04-P2",
+      "business_outcome": "Recepționarea trasabilă a achiziției în G1 și NIR",
+      "trigger": "Gestionar primește 7 din 12, apoi 5. Verifică lotul, locatorul și diferențele înainte de Complete.",
+      "actor_context": "gestionar G1 și contabil",
+      "input_contract": "PO CO cu stocabil, configurație două depozite, două loturi și articol fără lot, NIR pregătit.",
+      "state_machine": "PO în așteptare → recepție DR → verificare lot și locator → CO → tranzacție stoc → NIR și rest PO → a doua recepție.",
+      "ui_route": "Material Receipt și NIR, selector rol gestionar G1 şi filtru pe organizație. Verificați și imprimarea cu diferențe.",
+      "api_calls": "DocumentAction și procese iDempiere. Identificați ruta efectivă și ID-urile AD în rolul respectiv.",
+      "service_symbols": [
+        {
+          "group": "NIR",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+            21,
+            "calculeaza(",
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+            10,
+            "class WSagaIntrariForm"
+          ]
+        },
+        {
+          "group": "STOCK",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/imp/InventoryImporter.java",
+            25,
+            "class InventoryImporter",
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportRegistry.java",
+            247,
+            "runnable("
+          ]
+        }
+      ],
+      "db_reads_writes": "M_InOut și M_InOutLine → MA după caz → M_Transaction → stoc. Calculul NIR și postarea sunt efecte distincte.",
+      "native_documents": [
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_InOut,M_InOutLine,C_OrderLine,M_Transaction,M_StorageOnHand. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_Product,M_Product_PO,M_InOutLine,M_StorageOnHand. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_InOutLine,M_InOutLineMA,M_Transaction,M_Locator. Comparați înainte și după la precizia definită în schemă."
+      ],
+      "external_effects": "Doar fixture locală; zero mesaje către furnizori, bănci și ANAF.",
+      "transaction_boundaries": "Determinați granița reală a tranzacției pe document CO și momentul postării.",
+      "correlation_ids": [
+        "AD_Client_ID",
+        "AD_Org_ID",
+        "AD_Table_ID/Record_ID",
+        "linia PO/recepție/factură",
+        "TrxName",
+        "DocStatus",
+        "schema contabilă"
+      ],
+      "authorization_guards": "Verificați proces, organizație și rând cu rol autorizat și limitat în A și încercare în B.",
+      "idempotency_scope": "Identitatea documentului și linia de origine în firma respectivă. O recepție parțială distinctă rămâne permisă.",
+      "normal_path": "PO în așteptare → recepție DR → verificare lot și locator → CO → tranzacție stoc → NIR și rest PO → a doua recepție.",
+      "negative_paths": [
+        "Tentativă de recepționare suplimentară peste toleranța setată și reinvocare după timeout.",
+        "SKU identic pentru două produse, set CPA introdus greșit ca set primit pentru revânzare.",
+        "Încercați lot obligatoriu absent și locator din alt depozit."
+      ],
+      "retry_timeout_concurrency": "Simulați în două sesiuni o retransmisie după commit și o cerere concurentă. Reconciliați efectul din document, stoc și sold.",
+      "compensation_reconciliation": "Corectați prin reversare/document nativ potrivit stării. Legați originalul de corecție și verificați cantitatea și valoarea.",
+      "numeric_invariants": [
+        "După prima recepție cantitatea cumulată fizică și documentară este 7, restul deschis 5. După a doua este 12 și restul 0. Ambele recepții își păstrează legătura cu linia PO. NIR păstrează sursa și cantitatea.",
+        "2 seturi CPP plus 12 bucăți CPP afectează stocul contabil al recepției. 0 stoc CPA suplimentar pentru o asamblare reversibilă. Păstrați mapările SKU furnizor → identitate internă pe articol și UOM.",
+        "Mișcările aferente loturilor însumează 7 la recepție, al doilea articol însumează 5. Comparați stoc înainte/după separat pentru client, locator, articol și ASI. Arătați ramura nativă dacă linia nu are MA."
+      ],
+      "cross_zone_owners": "A05 stoc G1 multi-locator și MA; A02 ASI; A09 tipărire și accesibilitate; A03 momentul contabil.",
+      "test_ids": [
+        "A04-C04",
+        "A04-C05",
+        "A04-C06"
+      ],
+      "final_state": "Suma netă de mișcări 12 în cele două recepții. NIR identifică separat cantitatea documentară și cea constatată.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A04-P3",
+      "business_outcome": "Validarea facturii furnizor și a diferențelor/retururilor",
+      "trigger": "Contabil înregistrează factura, potrivește lotul primit și urmărește o diferență sau un retur.",
+      "actor_context": "contabil AP și gestionar",
+      "input_contract": "7 bucăți recepționate, factură la 10/unitate. Un caz separat are 8 la 11; al treilea două bucăți de returnat.",
+      "state_machine": "Invoice DR → comparație PO/recepție → CO → potrivire și postare → retur/credit conform condiției → reconciliere.",
+      "ui_route": "Purchase Invoice, Match PO/Invoice, WSagaIntrariForm și fișa furnizorului, drept contabil/cumpărător distinct.",
+      "api_calls": "DocumentAction și procese iDempiere. Identificați ruta efectivă și ID-urile AD în rolul respectiv.",
+      "service_symbols": [
+        {
+          "group": "NIR",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+            21,
+            "calculeaza(",
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+            10,
+            "class WSagaIntrariForm"
+          ]
+        },
+        {
+          "group": "FX",
+          "refs": [
+            "backend/saga-migration/f5_import_cursuri.py",
+            19,
+            "def read_rates",
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+            10,
+            "class WSagaIntrariForm"
+          ]
+        },
+        {
+          "group": "INV",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/InvoiceHeaderImporter.java",
+            37,
+            "class InvoiceHeaderImporter",
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+            10,
+            "class WSagaIntrariForm"
+          ]
+        }
+      ],
+      "db_reads_writes": "Verificați legătura C_InvoiceLine la PO/recepție; M_MatchInv și M_MatchPO aplicabile se citesc la nivel de linie, Fact_Acct prin AD_Table_ID/Record_ID și schema de conturi.",
+      "native_documents": [
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_InvoiceLine,M_MatchInv,M_MatchPO,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_InvoiceLine,M_InOutLine,M_MatchInv,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Conversion_Rate,C_InvoiceTax,C_LandedCost,C_LandedCostAllocation,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_RMA,M_InOut,M_MatchInv,C_Invoice,C_AllocationLine. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_InvoiceTax,C_LandedCost,Fact_Acct și obiect DVI instalat dacă aplicabil. Comparați înainte și după la precizia definită în schemă."
+      ],
+      "external_effects": "Doar fixture locală; zero mesaje către furnizori, bănci și ANAF.",
+      "transaction_boundaries": "Determinați granița reală a tranzacției pe document CO și momentul postării.",
+      "correlation_ids": [
+        "AD_Client_ID",
+        "AD_Org_ID",
+        "AD_Table_ID/Record_ID",
+        "linia PO/recepție/factură",
+        "TrxName",
+        "DocStatus",
+        "schema contabilă"
+      ],
+      "authorization_guards": "Verificați proces, organizație și rând cu rol autorizat și limitat în A și încercare în B.",
+      "idempotency_scope": "Identitatea documentului și linia de origine în firma respectivă. O recepție parțială distinctă rămâne permisă.",
+      "normal_path": "Invoice DR → comparație PO/recepție → CO → potrivire și postare → retur/credit conform condiției → reconciliere.",
+      "negative_paths": [
+        "Factura sosită înaintea recepției și apoi documente în ordine inversă.",
+        "Gestionar fără drept de aprobare încearcă să accepte diferența sau să o refacă după retry.",
+        "Lipsă curs la dată, curs invers, cotă expirată, cheltuială dublată.",
+        "Retur de 8 și repetarea aceleiași cereri după timeout fără a dubla mișcarea.",
+        "Document vamal repetat, taxare inversă aplicată nejustificat, cotă fără valabilitate sau dublare a costului de intrare."
+      ],
+      "retry_timeout_concurrency": "Simulați în două sesiuni o retransmisie după commit și o cerere concurentă. Reconciliați efectul din document, stoc și sold.",
+      "compensation_reconciliation": "Corectați prin reversare/document nativ potrivit stării. Legați originalul de corecție și verificați cantitatea și valoarea.",
+      "numeric_invariants": [
+        "Sumă netă 70 RON. Asocierile recepției și facturii însumează 7 pentru ramura aplicabilă. Legăturile cu PO și Fact_Acct sunt verificabile pornind de la identificatorii documentelor.",
+        "În politica strictă diferențele de 1 bucată și 1 RON/bucată sunt vizibile pentru decizie. Nu apare recepție fictivă pentru bucata lipsă. În politica tolerantă diferențele sunt aprobate și contabilizate conform schemei documentate.",
+        "La cursul de probă 5.00, baza de 100 EUR produce 500 RON înaintea taxelor și accesoriilor. Totalurile și alocările însumează documentele sursă la precizia monedei, cu justificarea reziduului de rotunjire.",
+        "Mișcarea returului este −2 și diferența cantitativă cumulată 5. Creditul de 20 net la preț 10 și documentele de origine sunt legate și vizibile. Factura și plata restante se reconciliază cu A07.",
+        "Suma achitată furnizorului, baza vamală, TVA deductibil/nedeductibil și costurile capitalizate se reconciliază independent la precizia convenită. Fiecare sumă are document și politică determinate."
+      ],
+      "cross_zone_owners": "A03 fiscal/postare; A05 retur fizic; A07 credit/plată; A02 FK.",
+      "test_ids": [
+        "A04-C07",
+        "A04-C08",
+        "A04-C09",
+        "A04-C10",
+        "A04-C27"
+      ],
+      "final_state": "Factură 70 pentru 7×10, respectiv 50 după credit de 20 în scenariul retur. Diferențele rămân explicite și verificabile.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A04-P4",
+      "business_outcome": "Identificarea completă a sursei și simularea importului",
+      "trigger": "Administrator selectează firma, încarcă arhiva sintetică și cere analiza înainte de aplicare.",
+      "actor_context": "administrator import firma A",
+      "input_contract": "Arhivă cu manifest SHA256, tabele cunoscute/necunoscute, goale și defecte. UI trebuie să fixeze firma, schema și perioada.",
+      "state_machine": "Recepționat → identificat → inventariat → previzualizat → eligibil/blocat, cu motiv pe tabel și rând.",
+      "ui_route": "Portal /app/import-saga unde disponibil și butonul activ iDempiere; distingeți calea activă de portalul istoric din sursă.",
+      "api_calls": "/app/api/saga/import/archive-table-audit, /dry-run, /run. Determinați din build dacă orchestratorul Java, proxy portal sau altă cale execută operația.",
+      "service_symbols": [
+        {
+          "group": "FE",
+          "refs": [
+            "frontend/portal/eva_import_saga.html",
+            494,
+            "/dry-run",
+            "frontend/app.py",
+            3696,
+            "/jobs/"
+          ]
+        },
+        {
+          "group": "REG",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportRegistry.java",
+            247,
+            "runnable(",
+            "frontend/app.py",
+            3710,
+            "archive-table-audit"
+          ]
+        },
+        {
+          "group": "PREF",
+          "refs": [
+            "backend/saga-migration/saga_import_preflight.py",
+            854,
+            "def run_preflight",
+            "frontend/portal/eva_import_saga.html",
+            296,
+            "archive-table-audit"
+          ]
+        },
+        {
+          "group": "GUARD",
+          "refs": [
+            "backend/saga-migration/saga_stage0_guard.py",
+            57,
+            "def check_cli_apply_allowed",
+            "frontend/app.py",
+            3665,
+            "/dry-run"
+          ]
+        }
+      ],
+      "db_reads_writes": "/app/api/saga/import/archive-table-audit, /dry-run, /run. Determinați din build dacă orchestratorul Java, proxy portal sau altă cale execută operația.",
+      "native_documents": [
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Client,AD_Org și jurnal de import identificat la execuție. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Table,AD_Column,registru/staging/lineage identificate în instanță. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Org,C_AcctSchema,C_Period,C_BPartner,C_Invoice,C_InvoiceLine. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,GL_Journal,M_Inventory și jurnalul de execuție. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Org,C_AcctSchema,C_BankAccount,C_Period,M_Warehouse,M_Locator. Comparați înainte și după la precizia definită în schemă."
+      ],
+      "external_effects": "Doar fixture locală; zero mesaje către furnizori, bănci și ANAF.",
+      "transaction_boundaries": "Determinați atomicitatea per job/lot/tabel/rând, separând commit-ul și confirmarea din UI.",
+      "correlation_ids": [
+        "AD_Client_ID",
+        "AD_Org_ID",
+        "hash arhivă",
+        "job/run_id",
+        "tabel și cheie sursă",
+        "PK țintă",
+        "etapă și tranzacție"
+      ],
+      "authorization_guards": "Verificați proces, organizație și rând cu rol autorizat și limitat în A și încercare în B.",
+      "idempotency_scope": "Firmă, arhivă, familie, cheie sursă și acțiune. Verificați limita reală de deduplicare la concurență.",
+      "normal_path": "Recepționat → identificat → inventariat → previzualizat → eligibil/blocat, cu motiv pe tabel și rând.",
+      "negative_paths": [
+        "Două fișiere cu același nume și hash diferit, CUI nepotrivit, arhivă trunchiată.",
+        "Tabel nemenționat în lista istorică 211, rând fără cheie, coloană nouă, tabel lipsă legitim.",
+        "Lipsește schema contabilă sau se inversează ordinea header/detaliu.",
+        "Job expiră între preview și confirmare. Operator fără drept încearcă acces direct.",
+        "Salvare cu cont indisponibil în schema selectată, implicitări de la prima firmă și locator G2 la stoc contabil."
+      ],
+      "retry_timeout_concurrency": "Simulați în două sesiuni o retransmisie după commit și o cerere concurentă. Reconciliați efectul din document, stoc și sold.",
+      "compensation_reconciliation": "Păstrați jurnalul, restaurați clona dedicată, reluați și comparați cu rezultat curat.",
+      "numeric_invariants": [
+        "Arhiva validă are ID și hash. Fiecare probă invalidă este respinsă sau plasată în carantină înaintea scrierilor ERP. 0 artefacte pe căi nepermise.",
+        "Pentru fiecare tabel sursă există exact o decizie operațional/arhivat/exclus justificat/blocat. În fiecare tabel eligibil rândurile sursă = reușite unice + respinse + amânate + exclus justificat. Un tabel necunoscut rămâne în raport.",
+        "0 facturi orfane. Rândul blocat rămâne identificabil și devine eligibil numai după rezolvarea dependenței; FK și ID-urile sunt din clientul țintă.",
+        "Simularea nu modifică documente/stoc/solduri. Aplicarea în altă firmă, altă fază sau pe o arhivă schimbată este refuzată cu zero efecte contabile.",
+        "Fiecare câmp obligatoriu are origine, valoare, validare și drept. Două firme cu aceeași structură au ID-uri rezolvate în contextul propriu. Opțiunile G1 și G2 incompatibile sunt refuzate înainte de înregistrarea unui stoc contabil."
+      ],
+      "cross_zone_owners": "A01 izolare; A02 metadate, tipuri și mapare; A10 upload și jurnal; A09 navigare.",
+      "test_ids": [
+        "A04-C11",
+        "A04-C12",
+        "A04-C13",
+        "A04-C14",
+        "A04-C28"
+      ],
+      "final_state": "O decizie per tabel, 0 scrieri în documente operaționale la preview. Hash-ul, firma și faza rămân aceleași la confirmare.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A04-P5",
+      "business_outcome": "Trecerea la exploatare a unei firme cu solduri reconciliate",
+      "trigger": "Operator confirmă fazele de import eligibile, contabilul verifică bilanțul de deschidere.",
+      "actor_context": "contabil de cutover",
+      "input_contract": "Arhivă validată P4, chei de firmă, strategie dată/istoric, schemă contabilă și locații aprobate.",
+      "state_machine": "Bootstrap → parteneri și produse → documente de stoc/facturi → alocări și note → verificări pe familie → reconciliere.",
+      "ui_route": "Ecran progres și raport, drill-down către document nativ, meniuri stoc, active, payroll și contabilitate pentru cazurile aplicabile.",
+      "api_calls": "Contractul jobului include firmă, arhivă, fază și referința sursă. Confirmați ID-uri PO din C_Invoice, M_Inventory, GL_Journal, C_AllocationLine, Fact_Acct, în aceeași firmă și schemă.",
+      "service_symbols": [
+        {
+          "group": "PREF",
+          "refs": [
+            "backend/saga-migration/saga_import_preflight.py",
+            854,
+            "def run_preflight",
+            "frontend/portal/eva_import_saga.html",
+            296,
+            "archive-table-audit"
+          ]
+        },
+        {
+          "group": "ORC",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+            48,
+            "runAll(",
+            "frontend/app.py",
+            3672,
+            "/run"
+          ]
+        },
+        {
+          "group": "INV",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/InvoiceHeaderImporter.java",
+            37,
+            "class InvoiceHeaderImporter",
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+            10,
+            "class WSagaIntrariForm"
+          ]
+        },
+        {
+          "group": "STOCK",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/imp/InventoryImporter.java",
+            25,
+            "class InventoryImporter",
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportRegistry.java",
+            247,
+            "runnable("
+          ]
+        },
+        {
+          "group": "RECON",
+          "refs": [
+            "backend/saga-migration/recon/recon.py",
+            54,
+            "class Recon",
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+            74,
+            "runTable("
+          ]
+        },
+        {
+          "group": "BP",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaFurnizoriForm.java",
+            27,
+            "class WSagaFurnizoriForm",
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/table/FurnizoriImporter.java",
+            30,
+            "class FurnizoriImporter"
+          ]
+        },
+        {
+          "group": "FX",
+          "refs": [
+            "backend/saga-migration/f5_import_cursuri.py",
+            19,
+            "def read_rates",
+            "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+            10,
+            "class WSagaIntrariForm"
+          ]
+        }
+      ],
+      "db_reads_writes": "Contractul jobului include firmă, arhivă, fază și referința sursă. Confirmați ID-uri PO din C_Invoice, M_Inventory, GL_Journal, C_AllocationLine, Fact_Acct, în aceeași firmă și schemă.",
+      "native_documents": [
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Client,AD_Org,C_AcctSchema,C_Period,C_DocType. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: GL_Journal,GL_JournalLine,C_Invoice,C_AllocationLine,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_BPartner,C_BPartner_Location,M_Product,C_UOM. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_InvoiceLine,C_InvoiceTax,C_Currency,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: M_Inventory,M_InventoryLine,M_StorageOnHand,M_Transaction,Fact_Acct. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: A_Asset,C_Payment,C_Order,GL_Journal,AD_Table,AD_Role. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Payment,C_AllocationHdr,C_AllocationLine,C_Invoice,Fact_Acct. Comparați înainte și după la precizia definită în schemă."
+      ],
+      "external_effects": "Doar fixture locală; zero mesaje către furnizori, bănci și ANAF.",
+      "transaction_boundaries": "Determinați atomicitatea per job/lot/tabel/rând, separând commit-ul și confirmarea din UI.",
+      "correlation_ids": [
+        "AD_Client_ID",
+        "AD_Org_ID",
+        "hash arhivă",
+        "job/run_id",
+        "tabel și cheie sursă",
+        "PK țintă",
+        "etapă și tranzacție"
+      ],
+      "authorization_guards": "Verificați proces, organizație și rând cu rol autorizat și limitat în A și încercare în B.",
+      "idempotency_scope": "Firmă, arhivă, familie, cheie sursă și acțiune. Verificați limita reală de deduplicare la concurență.",
+      "normal_path": "Bootstrap → parteneri și produse → documente de stoc/facturi → alocări și note → verificări pe familie → reconciliere.",
+      "negative_paths": [
+        "O factură cu dată document înainte și dată contabilă după cutover, perioadă închisă.",
+        "Sold sintetic și analitic divergent, cu totalul general aparent echilibrat.",
+        "CUI lipsă, adresă duplicată, corecție SKU după prima rulare.",
+        "Duplicat document al altui furnizor, factură fără detalii, total sursă inexplicabil.",
+        "Linie fără locator obligatoriu sau reluare după generarea documentului dar înainte de răspuns.",
+        "Date HR în raport accesibil unui gestionar sau galerie de exemple care nu cuprinde tabele noi.",
+        "Rând identic în extras și registru contabil sau cu plată în altă valută fără curs justificat."
+      ],
+      "retry_timeout_concurrency": "Simulați în două sesiuni o retransmisie după commit și o cerere concurentă. Reconciliați efectul din document, stoc și sold.",
+      "compensation_reconciliation": "Păstrați jurnalul, restaurați clona dedicată, reluați și comparați cu rezultat curat.",
+      "numeric_invariants": [
+        "Fiecare document intră o singură dată ca istoric sau sold de deschidere, cu politica explicită. Firma, perioada și schema afișate coincid cu cele ale PO.",
+        "Datoria rămasă este 60 după plată. Total Debite=Credite la precizia configurată. Postarea soldurilor și reluarea istoriei au zero componente contabile suprapuse. Diferența pe cont/partener/perioadă are raport explicit.",
+        "Fiecare cheie sursă validă are fie mapare unică justificată, fie conflict explicit. CPP și CPA au două identități distincte. Un partener cu două roluri legitim mapat rămâne un partener cu flagurile corecte.",
+        "Documentele au monedă, curs și dată conform sursei. O factură de 100 EUR și un credit de 20 EUR dau net 80 EUR înainte de plăți. Fiecare linie țintă are părinte identificabil.",
+        "G1.1=7 și G1.2=5. Totalul contabil este 12, fără multiplicarea comună în G2/G3. Data inventarului și statutul CO explică mișcările, păstrați și inventarul fizic local.",
+        "Registrul de destinații acoperă toate familiile prezente. Un rând doar arhivat este etichetat astfel. Pentru solicitările care cer utilizare operațională obțineți dovadă de la agentul funcțional proprietar.",
+        "Documentul este stins cu 30+70=100 o singură dată. Sold rămas 0 în moneda documentului. Păstrați ID-uri de avans, plată și alocare și urma contabilă aferentă."
+      ],
+      "cross_zone_owners": "A02 referințe și tranzacții; A03 GL, salarizare, active; A05 stoc G1/G2; A07 plăți; A09 UX.",
+      "test_ids": [
+        "A04-C15",
+        "A04-C16",
+        "A04-C17",
+        "A04-C18",
+        "A04-C19",
+        "A04-C20",
+        "A04-C29"
+      ],
+      "final_state": "Fiecare rând eligibil are efect identificabil, excepție justificată sau blocaj. Totaluri reconciliate pe toate dimensiunile.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A04-P6",
+      "business_outcome": "Reluarea, restaurarea și decizia de acceptare a migrării",
+      "trigger": "Simulați deconectarea workerului, reluarea sau intervenția contabilului după diferențe.",
+      "actor_context": "operator import și recenzor",
+      "input_contract": "Aceeași arhivă și run, două cereri concurente, fixture curată, copie restaurabilă, limite de volum aprobate.",
+      "state_machine": "În curs → întrerupt/eroare → reluare controlată/compensare → reconciliere → acceptat sau neacceptat.",
+      "ui_route": "/app/api/saga/import/jobs/<id>, progres/raport și drill-down la document, redeschidere cu rolul inițial și un rol fără acces.",
+      "api_calls": "Jurnal și lineage → statutul PO și al mișcării → Fact_Acct → raport cu execuțiile și diferențele. Verificați concurența în două sesiuni și rollback exact pe limita tranzacțională inspectată.",
+      "service_symbols": [
+        {
+          "group": "FE",
+          "refs": [
+            "frontend/portal/eva_import_saga.html",
+            494,
+            "/dry-run",
+            "frontend/app.py",
+            3696,
+            "/jobs/"
+          ]
+        },
+        {
+          "group": "GUARD",
+          "refs": [
+            "backend/saga-migration/saga_stage0_guard.py",
+            57,
+            "def check_cli_apply_allowed",
+            "frontend/app.py",
+            3665,
+            "/dry-run"
+          ]
+        },
+        {
+          "group": "ORC",
+          "refs": [
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+            48,
+            "runAll(",
+            "frontend/app.py",
+            3672,
+            "/run"
+          ]
+        },
+        {
+          "group": "RECON",
+          "refs": [
+            "backend/saga-migration/recon/recon.py",
+            54,
+            "class Recon",
+            "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+            74,
+            "runTable("
+          ]
+        }
+      ],
+      "db_reads_writes": "Jurnal și lineage → statutul PO și al mișcării → Fact_Acct → raport cu execuțiile și diferențele. Verificați concurența în două sesiuni și rollback exact pe limita tranzacțională inspectată.",
+      "native_documents": [
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_BPartner,M_Transaction,Fact_Acct,registru cheie de import. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: C_Invoice,C_InvoiceLine,AD_PInstance,registru lineage. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_Client,AD_Org,C_Invoice,M_InOut,Fact_Acct,istoric backup. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: Fact_Acct,C_Invoice,C_AllocationLine,M_StorageOnHand. Comparați înainte și după la precizia definită în schemă.",
+        "SELECT filtrat pe client, organizație, documentul și liniile fixture: AD_PInstance,AD_Role,registru job,controlul accesului raport. Comparați înainte și după la precizia definită în schemă."
+      ],
+      "external_effects": "Doar fixture locală; zero mesaje către furnizori, bănci și ANAF.",
+      "transaction_boundaries": "Determinați atomicitatea per job/lot/tabel/rând, separând commit-ul și confirmarea din UI.",
+      "correlation_ids": [
+        "AD_Client_ID",
+        "AD_Org_ID",
+        "hash arhivă",
+        "job/run_id",
+        "tabel și cheie sursă",
+        "PK țintă",
+        "etapă și tranzacție"
+      ],
+      "authorization_guards": "Verificați proces, organizație și rând cu rol autorizat și limitat în A și încercare în B.",
+      "idempotency_scope": "Firmă, arhivă, familie, cheie sursă și acțiune. Verificați limita reală de deduplicare la concurență.",
+      "normal_path": "În curs → întrerupt/eroare → reluare controlată/compensare → reconciliere → acceptat sau neacceptat.",
+      "negative_paths": [
+        "Timeout între commit și răspuns, reîncărcare cu nume diferit și bytes identici.",
+        "Pierderea workerului după commit și înaintea confirmării sau eroare în al doilea tabel din lot.",
+        "Refuzați reset nețintit, revenire accidentală într-un tenant vecin sau ștergerea unei facturi postate.",
+        "Control pozitiv pe total general dar diferență pe două conturi analitice cu semne opuse.",
+        "Refresh în timpul procesului, sesiune expirată, eroare ce conține datele unui alt client."
+      ],
+      "retry_timeout_concurrency": "Simulați în două sesiuni o retransmisie după commit și o cerere concurentă. Reconciliați efectul din document, stoc și sold.",
+      "compensation_reconciliation": "Păstrați jurnalul, restaurați clona dedicată, reluați și comparați cu rezultat curat.",
+      "numeric_invariants": [
+        "Un singur efect pe identitate business și firmă. La reluare aceeași mapare sau o referință de duplicat și zero delte în stoc/sold. Verificați cheile în schema instalată.",
+        "Nicio unitate raportată ca reușită fără toate componentele sale. După reluare rezultatul reconciliază 100% cu rularea curată. Delta rămasă este explicită dacă operatorul trebuie să remedieze ceva.",
+        "Revenirea se verifică pe clona separată prin aceleași totaluri și identificatori contractați. Documentele CO primesc procedura compensatoare potrivită. Raportul păstrează originea, starea și autorul.",
+        "Nicio diferență neexplicată pe firmă/perioadă/cont/monedă/partener/gestiune. Rotunjirea se acceptă numai la precizia stabilită și cu sursa identificată. Semnatarul desemnat și manifestul documentează deschiderea.",
+        "Percentilele sunt raportate față de plafonul convenit înainte de test, cu metodă repetabilă. Progresul se corelează cu numitorul real și este monoton pe aceeași fază. 0 marcatori confidențiali în răspunsuri sau loguri pentru rolul neautorizat."
+      ],
+      "cross_zone_owners": "A10 slot, backup, worker/performanță; A01 drepturi; A02 unicitate; A03 și A07 reconciliere; A09 accesibilitate.",
+      "test_ids": [
+        "A04-C21",
+        "A04-C22",
+        "A04-C23",
+        "A04-C24",
+        "A04-C25"
+      ],
+      "final_state": "Un efect per firmă/cheie sursă și operație. Zero diferențe nejustificate față de rularea curată. Decizia de go-live aparține responsabilului.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    }
+  ],
+  "completion_denominator": "29 controale și 6 pipeline. Excepțiile trebuie demonstrate și decise de A11. Numitorii arhivei/tabelelor/rândurilor și al taskurilor se consemnează distinct. Orice rezultat absent din lipsa cabinetului necesită BLOCAT/NEEXECUTAT și reluare.",
+  "evidence_template": {
+    "evidence_id": null,
+    "control_id": null,
+    "task_id": null,
+    "env_build_sha": null,
+    "fixture_sha": null,
+    "role_org": null,
+    "source_path_symbol_line": null,
+    "steps": null,
+    "db_snapshot": null,
+    "expected": null,
+    "observed": null,
+    "raw_path": null,
+    "sha256": null,
+    "redactions": null
+  },
+  "rework": "O neconcordanță păstrează reproducerea, mediul, condiția adversă, sursa și probele, nivelul de încredere, impactul și încercarea de infirmare. A11 reproduce și revizuiește. Retestul păstrează rezultatul istoric și reevaluează toate fluxurile afectate.",
+  "operational_limits": "§61 slot pentru cabinet și suite; §62 numai la montare. Dovezi redactate cu date de test. Consultarea la parteneri numai prin funcția EVA autorizată. Restaurarea exclusiv în clona izolată."
+}

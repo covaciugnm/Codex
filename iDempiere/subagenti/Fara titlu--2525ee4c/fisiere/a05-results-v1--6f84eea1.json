@@ -1,0 +1,176 @@
+[
+ [
+  "17,9",
+  "INCONCLUDENT",
+  "CESIRO are AD_Form Gestiuni activă, iar tabelele perechii și locatorilor sunt instalate. T323 validează logica de poziții. Nu există încă probă cu două roluri în formular pentru schimbarea firmei.",
+  "TestT323Pozitii"
+ ],
+ [
+  "17,9",
+  "INCONCLUDENT",
+  "Indexurile active din CESIRO impun unicitate atât pe G1, cât și pe G2 în interiorul clientului. Două perechi sunt posibile, dar aceeași G1 nu poate fi legată direct de două G2 independente. Alternativele cu două zone sub un G2 trebuie validate pentru separarea gestionarilor.",
+  "TestRegulaLegaturaWms"
+ ],
+ [
+  "17,25",
+  "INCONCLUDENT",
+  "Schema și logica activării lucrează pe perechi și folosesc indecși unici. Suita perechii verifică activarea, dar are o aserțiune sensibilă la separatorul Windows. Concurența dintre două sesiuni reale pe același sold inițial rămâne de verificat.",
+  "TestRegulaLegaturaWms"
+ ],
+ [
+  "18,28",
+  "INCONCLUDENT",
+  "Constrângerea m_product_value este UNIQUE(ad_client_id,value) pe rândurile existente. Arhivarea păstrează rândul, iar acest index singur nu rezervă un cod după ștergere sau redenumire. Nu a fost dovedită o politică instanță-globală/lifetime. A02 verifică politica necesară și eventualele gărzi suplimentare.",
+  ""
+ ],
+ [
+  "11,17",
+  "INCONCLUDENT",
+  "Suita Oglinda a verificat cu succes variantele de oglindire. Codul citește M_Transaction și verifică evenimente existente înainte de copiere. Recepția nativă și mutarea 7+3 în cabinet sintetic trebuie urmărite ca documente persistente.",
+  "TestT331Oglinda"
+ ],
+ [
+  "17",
+  "INCONCLUDENT",
+  "M_Movement este documentul nativ cercetat pentru transfer, iar oglinda are citire per document al tranzacțiilor. Nu s-au măsurat încă timpii și postarea contabilă pentru 5 bucăți în tranzit cu primire 3+2.",
+  "TestT331Oglinda"
+ ],
+ [
+  "5,7,18",
+  "INCONCLUDENT",
+  "Sunt identificate clase native distincte pentru cost și preț de listă și fișe A12 diferite pentru costuri/straturi de pornire și produs nou. Nu există dovadă de postare G1 dintr-un import cu cost și preț numeric identice.",
+  ""
+ ],
+ [
+  "28,29",
+  "FAIL_DOVEDIT",
+  "S1 simplu este admis, dar tipul PK și cantitatea fracționară din linia de manoperă sunt refuzate de validatorul instalat. Conversia comercială și interdicția BOM circulară rămân probe distincte.",
+  "TestT354Set"
+ ],
+ [
+  "28,29",
+  "FAIL_DOVEDIT",
+  "Aceleași mișcări ale notei aplicate de două ori la nivelul depozitului produc două scăderi. Procesul folosește ID-ul instanței drept origine și nu arată deduplicare economică în propriul corp. Proba inițială este la nivel de clasă, cu depozit sintetic.",
+  "TestNotaSetWms"
+ ],
+ [
+  "28,29",
+  "INCONCLUDENT",
+  "SetLista cere IsBOM=Y/IsStocked=N/ProductType=I pentru setul comercial reversibil. MProduction produce un document contabil pentru transformarea reală. Recepția separată a unui set indivizibil cumpărat nu a fost reprodusă din UI.",
+  "TestT354Set"
+ ],
+ [
+  "29,12",
+  "INCONCLUDENT",
+  "Din 1 S1 se produc 6+6+6 piese, se păstrează versiunea BOM a setului, dar toate cele trei produse rezultate intră în locatorul de origine în acest proces. Mutarea ulterioară și garda care împiedică pick înaintea amplasării nu sunt dovedite E2E.",
+  "TestNotaSetWms"
+ ],
+ [
+  "29,18",
+  "FAIL_DOVEDIT",
+  "Validatorul refuză o linie PK de cutie și 0,5 dintr-o resursă nestocabilă. Nota apelată exclude astfel rețeta solicitată. Traseul identificat persistă mișcări WMS. Nu s-a găsit în acest proces documentul G1 de consum și legătura unică pentru cost; alte căi contabile se validează cu A03.",
+  "TestNotaSetWms"
+ ],
+ [
+  "28",
+  "INCONCLUDENT",
+  "Motorul furnizează 20/40 alternative și sold 30 după două rezervări grupate în același depozit. Pentru P1=80+40 și 120 cerute cu gestiune automată, alegerea examinează o singură gestiune și răspunde ROȘU. A06 trebuie să determine politica canalului și existența unei împărțiri automate în aval.",
+  "TestT354Set,TestT354Disponibil"
+ ],
+ [
+  "12,28",
+  "INCONCLUDENT",
+  "Un val de 2 linii pentru ultimele 6 P1 respinge a doua linie în codul executat. Un val în memorie nu este dovadă pentru serializarea a două tranzacții distincte sau durabilitatea angajamentului.",
+  "TestT354Set"
+ ],
+ [
+  "3,15,16,29",
+  "FAIL_DOVEDIT",
+  "Nota refuză componente cu lot; reconcilierea G1/G2 prin RegulaLegatura grupează la produs și versiune, fără ASI. CTE sintetic 4/8 vs 8/4 produce totaluri egale 12/12, dar 8 diferență absolută. FEFO propune lotul de 8 întreg când cantitatea solicitată este 6, constatare distinctă de politica unei linii cu loturi multiple.",
+  "TestFefo,TestRegulaLegaturaWms"
+ ],
+ [
+  "12,23",
+  "INCONCLUDENT",
+  "Listele de pick și regulile de confirmare au suite executate pe JAR-ul instalat. Nu există încă traseu complet cu pick parțial, M_InOut CO, validare comercială și AWB pe rolurile reale sintetice.",
+  "TestListaPicking,TestConfirmarePickVal"
+ ],
+ [
+  "23",
+  "INCONCLUDENT",
+  "Oglinda include referința la mișcarea inversată. Reversal nativ și operația după CO trebuie reconciliate cu A07 într-un document persistent, inclusiv momentul eliberării rezervării.",
+  "TestT331Oglinda,TestConfirmarePickVal"
+ ],
+ [
+  "4,25,30",
+  "INCONCLUDENT",
+  "Codul distinge registrul de numărare de diferență și procesul nativ de ajustare. MInventory.completeIt procesează MA și creează MTransaction. Suita de validare WMS furnizează probe unitare. Delta -2 și Fact_Acct nu au fost încă măsurate în fluxul închis.",
+  "TestT339ValidareWms"
+ ],
+ [
+  "10,20,30",
+  "INCONCLUDENT",
+  "CESIRO are Import_Inventory nativ și EVA_ImportInventar activ. ImportInventar blochează și recitește antetul și identificatorii documentului, creează sau actualizează linia prin PO. ImportInventory nativ creează document propriu. Un import rău și reluat în UI cu ambele trasee nu este încă dovedit.",
+  "TestApiMobilInventar"
+ ],
+ [
+  "20,22",
+  "INCONCLUDENT",
+  "API-ul mobil are verificări de versiune și blocare de antet/linie. Suitele inventar/citiri au rezultate executate. Separarea retry după commit și competiția a două terminale pentru același rând necesită încă probă cu DB reală.",
+  "TestApiMobilInventar,TestApiMobilInventarCitiri"
+ ],
+ [
+  "13",
+  "INCONCLUDENT",
+  "Procesul nativ AD de etichete EVA este activ în CESIRO. Suita de etichete și proba PDF sunt tratate separat de tipărirea și citirea fizică a etichetei. Unicitatea CPP/CPA după remapare SKU rămâne de probat.",
+  "TestT327Etichete"
+ ],
+ [
+  "14",
+  "INCONCLUDENT",
+  "TestScanareCod verifică dispecerul, cod necunoscut și efectele erorilor. Nu există în această zonă 15 parcursuri distincte de ecran ERP semnate pe UID AD și rol, inclusiv focus la Enter.",
+  "TestScanareCod"
+ ],
+ [
+  "19,20",
+  "INCONCLUDENT",
+  "Suita inventar verifică contractul și diferite refuzuri; în proba Notei, locator străin refuzat. Acesta nu înlocuiește verificarea revocării și a accesului între organizații pe același client. A01 răspunde de matricea de drepturi.",
+  "TestApiMobilInventar"
+ ],
+ [
+  "20,23,24",
+  "INCONCLUDENT",
+  "Contractele ApiInventar/ScriereInventar și ApiAmbalare există. Inventar are două suite executate. Egalitatea efectelor WMS între ERP și API mobil pentru aceeași operație cu același identificator rămâne nedemonstrată.",
+  "TestApiMobilInventar,TestApiMobilInventarCitiri"
+ ],
+ [
+  "21,22,24",
+  "BLOCAT_ACCES",
+  "Registrul descrie taskurile Android. Nu sunt disponibile în această zonă build semnat și dispozitive Android și iPhone cu cameră/HID pentru probe comparabile. C17-C20/A09 sunt titularii de platformă.",
+  ""
+ ],
+ [
+  "24,23",
+  "INCONCLUDENT",
+  "ApiAmbalare definește ruta de scanare și confirmarea. Lista picking și confirmare au suită pe bytecode instalat. Nu a fost reprodusă scanarea concurentă a aceleiași serii pe dispozitive autentificate cu aviz parțial.",
+  "TestListaPicking,TestConfirmarePickVal"
+ ],
+ [
+  "17",
+  "INCONCLUDENT",
+  "RMA și documentul de recepție sunt disponibile în nucleu; oglinda conține legătura original/inversă. C10.T0016 are responsabilitatea returului. Carantină → control → revenire vandabilă și corecția financiară nu sunt încă măsurate.",
+  "TestT331Oglinda"
+ ],
+ [
+  "27,17",
+  "FAIL_DOVEDIT",
+  "RegulaLegatura nu poate detecta substituția a două loturi la același produs când totalul rămâne neschimbat. Proba CTE și SQL-ul instalabil explică rezultatul. Nu există măsurare defensabilă p95/volum operațional sau închidere end-to-end a pilotului.",
+  "TestRegulaLegaturaWms"
+ ],
+ [
+  "4,25",
+  "INCONCLUDENT",
+  "MInventory.processIt și completeIt sunt metode distincte, iar completeIt efectuează tranzacțiile de stoc. Booleanul returnat nu reprezintă dovada de CO sau Posted. Lipsesc încercarea cu aprobare insuficientă și reconcilierea perioadă–Fact_Acct.",
+  "TestT339ValidareWms"
+ ]
+]

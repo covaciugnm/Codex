@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0",
+  "checkedDate": "2026-10-30",
+  "method": "Citire independentă a method_ids/proto_ids/type_ids/string_ids din DEX, plus urmărirea wrapperului Java și documentație oficială. Fără invocări pe telefon.",
+  "apkVersion": "1.0.3899",
+  "resolutions": [
+    {
+      "id": "p-4aa303ceb4a7afec",
+      "name": "result",
+      "javaType": "String",
+      "nullable": null,
+      "nullableStatus": "DEX-ul descrie tipul referință, nu contractul de nulabilitate; nu se presupune non-null.",
+      "wrapper": {
+        "file": "reconstituit/jadx/app/src/main/java/com/alipay/verifyiotidentity/obfuscated/ah.java",
+        "method": "a.s(String)",
+        "lines": [
+          435,
+          436
+        ],
+        "expression": "return this.g.getParameters(str);"
+      },
+      "dexEvidence": [
+        {
+          "file": "extras/apk/classes5.dex",
+          "sha256": "37f6e398be02eeb086a901cae531bc0716cbb3ec3b1ba12e7a1ba92373ea7853",
+          "methodIdIndex": 665,
+          "methodEntryOffset": 656736,
+          "classDescriptor": "Landroid/media/AudioManager;",
+          "method": "getParameters",
+          "descriptor": "(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "file": "extras/apk/classes2.dex",
+          "sha256": "6c5263c601065a26f548c2996391d33743e9aa55d05dfe6fc0ef9b55f028b5c5",
+          "methodIdIndex": 879,
+          "methodEntryOffset": 778004,
+          "classDescriptor": "Landroid/media/AudioManager;",
+          "method": "getParameters",
+          "descriptor": "(Ljava/lang/String;)Ljava/lang/String;"
+        }
+      ],
+      "officialSource": {
+        "url": "https://android.googlesource.com/platform/frameworks/base/+/3a91c7518431602f8bb29f4100a39cdd263a9c6c/media/java/android/media/AudioManager.java",
+        "section": "getParameters(String keys)",
+        "role": "Confirmare primară suplimentară a semnăturii; versiunea AOSP din URL nu este versiunea Android a utilizatorului."
+      },
+      "limit": "Tipul returului este stabilit; cheile hardware și conținutul șirului rămân dependente de platformă."
+    },
+    {
+      "id": "p-db2d348d4bb371a2",
+      "name": "result",
+      "javaType": "String",
+      "nullable": true,
+      "nullableStatus": "Documentația oficială admite null dacă nu există valoare pentru cheie.",
+      "wrapper": {
+        "file": "reconstituit/jadx/app/src/main/java/com/alipay/verifyiotidentity/obfuscated/ah.java",
+        "method": "a.t(String)",
+        "lines": [
+          439,
+          440
+        ],
+        "expression": "return this.g.getProperty(str);"
+      },
+      "dexEvidence": [
+        {
+          "file": "extras/apk/classes5.dex",
+          "sha256": "37f6e398be02eeb086a901cae531bc0716cbb3ec3b1ba12e7a1ba92373ea7853",
+          "methodIdIndex": 666,
+          "methodEntryOffset": 656744,
+          "classDescriptor": "Landroid/media/AudioManager;",
+          "method": "getProperty",
+          "descriptor": "(Ljava/lang/String;)Ljava/lang/String;"
+        }
+      ],
+      "officialSource": {
+        "url": "https://developer.android.com/reference/android/media/AudioManager#getProperty(java.lang.String)",
+        "section": "getProperty — Returns",
+        "role": "Semnătura String și nulabilitatea returului."
+      },
+      "limit": "Tipul și nulabilitatea nu garantează existența unei valori pentru telefonul utilizatorului."
+    }
+  ],
+  "verification": {
+    "fastCopyAndArchiveHashesMatch": true,
+    "byteOffsetsAreZeroBased": true,
+    "methodIdIndexesAreZeroBased": true,
+    "noHardwareTest": true
+  }
+}

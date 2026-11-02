@@ -4,7 +4,19 @@
     "status": "referinta_externa_necopiata"
   },
   {
+    "source_reference": "https://info-support.livoltek.com/2-Product-Material/datasheets/Battery/BESS-60kW%2B120kWh.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
     "source_reference": "https://mail.google.com/mail/u/?authuser=covaciu.gnm%40gmail.com#all/1a12f9945c01f7ea",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://storage-official-website.oss-eu-central-1.aliyuncs.com/solisstorage/products/PrimePower-109kWh-50kW-NV/SolisStorage-PrimePower-109kWh-50kW-Global-Datasheet-V1.8_20260209140239.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.afsgroup.ro/produs/sistem-bess-c-i-livoltek-50-kw-100-kwh-invertor-hibrid-stocare-plug-play",
     "status": "referinta_externa_necopiata"
   },
   {
@@ -13,6 +25,10 @@
   },
   {
     "source_reference": "https://www.evebatteryusa.com/liquid-cooling-ess",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.greeneconomy.it/it/applicazioni-commerciali-bess/1245-solax-aelio-p50b100.html",
     "status": "referinta_externa_necopiata"
   },
   {
@@ -25,6 +41,26 @@
   },
   {
     "source_reference": "https://www.kstarnewenergy.com/support.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.shop-rebor.com/en/products/solisstorage-evercore-100kwh-50kw-nv",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.solaxpower.com/uploads/file/solax-ess-aelio-datasheet-en.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.solisstorage.com/en/download/9/42/0/1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.solisstorage.com/en/evercore-ess",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.solisstorage.com/en/productlist/6",
     "status": "referinta_externa_necopiata"
   }
 ]

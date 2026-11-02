@@ -13,24 +13,15 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b1650741-0498-4f07-886c-4c34f3dcc08a/scratchpad/factura.py",
-    "status": "copiat",
-    "saved_path": "fisiere/factura--26529f68.py",
-    "bytes": 11108,
-    "sha256": "fc4d03ae5870abcff5fc9b6155b057c0154ef54256f3f62adcced6cf023e4ec0"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b1650741-0498-4f07-886c-4c34f3dcc08a/scratchpad/oferta_pdf.py",
-    "status": "copiat",
-    "saved_path": "fisiere/oferta_pdf--24dfef49.py",
-    "bytes": 8675,
-    "sha256": "f226e5bc2aa45c1771350121ba900201d0d7ade30b145f3a12cecee87a1039e7"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b1650741-0498-4f07-886c-4c34f3dcc08a/scratchpad/replace_docs.py",
-    "status": "copiat",
-    "saved_path": "fisiere/replace_docs--4ce592f9.py",
-    "bytes": 2493,
-    "sha256": "ae1dd3e2a5e103272e42cbddecd7c4044db193eb00a36c97903391fbbf824918"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
@@ -52,17 +43,11 @@
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\b1650741-0498-4f07-886c-4c34f3dcc08a\\scratchpad\\factura.py",
-    "status": "copiat",
-    "saved_path": "fisiere/factura--26529f68.py",
-    "bytes": 11108,
-    "sha256": "fc4d03ae5870abcff5fc9b6155b057c0154ef54256f3f62adcced6cf023e4ec0"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\b1650741-0498-4f07-886c-4c34f3dcc08a\\scratchpad\\oferta_pdf.py",
-    "status": "copiat",
-    "saved_path": "fisiere/oferta_pdf--24dfef49.py",
-    "bytes": 8675,
-    "sha256": "f226e5bc2aa45c1771350121ba900201d0d7ade30b145f3a12cecee87a1039e7"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Fonts\\arial.ttf",

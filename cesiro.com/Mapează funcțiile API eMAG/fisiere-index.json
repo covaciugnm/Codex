@@ -1,0 +1,30 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a162e3-1676-7841-93d6-68a1c016f59a\\build_api.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_api--41a6762d.mjs",
+    "bytes": 35053,
+    "sha256": "9e285452701ed9dc625a22539e027ac3edc21e456ee3a4a8d2ace6826ad1f9d6"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/cesiro.com/outputs/api_cesiro_20261022/CESIRO_Catalog_functii_API.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/CESIRO_Catalog_functii_API--fe381091.xlsx",
+    "bytes": 20664,
+    "sha256": "919f9b325788520db99c2f411819aeba68a34bb98195937d528fe219a899c94e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\outputs\\api_cesiro_20261022\\api_preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/api_preview--304ca492.png",
+    "bytes": 102036,
+    "sha256": "c6c89cd81693a026b7713ae10b5877586e3f2081eb6ba16dacde6dec620b070f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\outputs\\api_cesiro_20261022\\guide_preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/guide_preview--44519877.png",
+    "bytes": 64349,
+    "sha256": "b85350cdada47284c919685864703f3a313f881d085b82b8c22f867f7a112a9d"
+  }
+]

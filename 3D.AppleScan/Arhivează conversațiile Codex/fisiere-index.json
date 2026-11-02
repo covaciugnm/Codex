@@ -1,11 +1,38 @@
 [
   {
+    "source_reference": "/C:/Users/User/Downloads/Docker Desktop Installer.exe",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
     "source_reference": "C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva/PROTOCOL-SALVARE.md",
     "status": "export_curent_exclus_pentru_a_evita_recursia"
   },
   {
     "source_reference": "C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva/README.md",
     "status": "export_curent_exclus_pentru_a_evita_recursia"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva/salvari",
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/Downloads/haos_generic-x86-64-16.2.img",
+    "status": "copiat",
+    "saved_path": "fisiere/haos_generic-x86-64-16.2--53703ffe.img",
+    "bytes": 6442450944,
+    "sha256": "a95141ac3d4a4862037e7781e38c46b6012b1546c109f3d7ac2c05a990965657"
   },
   {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\PROTOCOL-SALVARE.md",
@@ -47,7 +74,15 @@
     "sha256": "37d8e8e035195a6e44341b4c28d90c15ca7e949d1560d28457a5ef68ae4d767d"
   },
   {
+    "source_reference": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage",
+    "status": "referinta_externa_necopiata"
+  },
+  {
     "source_reference": "https://github.com/covaciugnm/Codex",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/Codex/commit/10f25fe13f9cbceee93300b6a577977b34011525",
     "status": "referinta_externa_necopiata"
   },
   {
@@ -108,6 +143,10 @@
   },
   {
     "source_reference": "https://github.com/login/device",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://learn.chatgpt.com/docs/remote-connections",
     "status": "referinta_externa_necopiata"
   }
 ]

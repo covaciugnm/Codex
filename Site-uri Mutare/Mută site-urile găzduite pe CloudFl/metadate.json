@@ -1,0 +1,23 @@
+{
+  "id": "01a15d94-3ece-7152-bf88-bfa740fa62fc",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\MutareSite",
+  "created_at": 1792571358,
+  "updated_at": 1792573657,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Mută site-urile găzduite pe CloudFl",
+  "project_id": "dd69849b-902a-43ff-8975-e480a0b8d7bd",
+  "project": "Site-uri Mutare",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1002869,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 130,
+  "message_count": 27,
+  "content_sha256": "85aff97442d0b0402b7350a60ca69852fd250496b02d658fab67fcc736aea22d",
+  "files_copied": 15,
+  "references_not_copied": 1
+}

@@ -1,0 +1,56 @@
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+from collections import Counter,defaultdict
+import json,hashlib,html,sys,datetime,shutil
+B=Path(r'Z:\00.Roboti\EVA.Pro\Eva-contab\Audit_P01_2026-11-01');E=B/'executie';R=E/'R2';H=R/'fise_html';H.mkdir(exist_ok=True);M=R/'metoda';M.mkdir(exist_ok=True);rd=lambda p:json.loads(Path(p).read_text(encoding='utf8'));sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();esc=lambda x:html.escape(str(x or '—'))
+report=rd(R/'A12_raport.json'); proof=rd(R/'Dovezi_criterii.json'); ev=proof['evidence'];inv=proof['inverse_task_requirement_links'];index=rd(B/'A12_index_taskuri.json');i0={x['source_id'] for x in index['rows'] if x['individual_review']};r1=rd(E/'R1/A12_raport.json');r1row={x['id']:x for x in r1['records']};obs=rd(E/'A11_ledger_651_fise.json');dom={x['source_id']:x for x in obs['records']}; allreq=set(); expected_reverse=set();invalid=[];data=[]
+CSS='''<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{font:16px/1.56 system-ui;max-width:1250px;margin:0 auto;padding:1.2rem;color:#193648;background:#f6fafb}h1,h2,h3{line-height:1.2}a{color:#175f69}input{font:inherit;padding:9px;width:min(94%,540px)}.card,details{margin:15px 0;padding:12px 16px;background:white;border:1px solid #c6dce2;border-radius:6px}table{border-collapse:collapse;width:100%}th,td{padding:6px;vertical-align:top;text-align:left;border-bottom:1px solid #cbdae0}th{background:#e5f0f1}code{overflow-wrap:anywhere;font-size:.88em}.small{font-size:.9em;color:#375565}summary{cursor:pointer;font-weight:600}p{max-width:100ch}td:first-child{white-space:nowrap}.scroll{overflow:auto}.bad{color:#a12e2d}.good{color:#086a52}</style>'''
+def render(item):
+ k=item['task'];p=R/item['file'];w=rd(p);assert sha(p)==item['sha256'];assert sha(E/'R1'/r1row[k]['file'])==r1row[k]['sha256']==w['r1_immutable']['sha256']; assert len(w['control_register_R2'])==36
+ assert len(w['r1_fragments_reclassified'])==len(dom[k]['fragment_records']);cr=w['operative_criteria_and_audit_criteria'];assert len({q['id'] for q in cr})==len(cr)
+ links=set();err=[];blocks=[]
+ for q in cr:
+  for f in ['id','kind','source_evidence_id','actor_or_role','preconditions','expected_oracle','closure','current','next_action','layers']:assert q.get(f), (k,f)
+  assert q['source_evidence_id'] in ev
+  if q['kind']=='DIRECTIVĂ_LITERALĂ_PROPRIETAR':assert not 'nescrisă la înregistrare' in q['normative_content'].lower() and not q['normative_content'].lstrip().startswith('(nescris'),k
+  need=[(q['source_evidence_id'],'source')]+[(x,'authority')for x in q.get('authority_evidence_ids',[])]
+  for phase in ['closure','current']:
+   d=q[phase]
+   if d.get('observed') is not None:assert d['evidence_ids'],(k,q['id'])
+   if d['status'].startswith(('PASS','FAIL','BLOCAT')):assert d['observed'] is not None and d['evidence_ids'],(k,q['id'],phase)
+   for z in d['evidence_ids']:need.append((z,phase))
+  for eid,role in need:
+   assert eid in ev
+   if not any(zz['task']==k and zz['criterion']==q['id'] and zz['relation']==role for zz in inv[eid]):err.append((k,q['id'],eid,role))
+   links.add((eid,k,q['id'],role))
+  proof_rows=[]
+  for eid in dict.fromkeys(i[0] for i in need):
+   e=ev[eid];proof_rows.append('<p><code>'+esc(eid)+'</code> · '+esc(e['level'])+'<br><small>'+esc(e['source'])+' · '+esc(e['pointer'])+' · '+esc(e['sha_or_oid'])+'</small><br>'+esc(e['limit'])+'</p>')
+  blocks.append('<details><summary>'+esc(q['id'])+' · '+esc(q['kind'])+' · '+esc(q['current']['status'])+'</summary><p>'+esc(q['normative_content'])+'</p><p><b>Actor / condiții:</b> '+esc(q['actor_or_role'])+' · '+esc(q['preconditions'])+'</p><p><b>Așteptat:</b> '+esc(q['expected_oracle'])+'</p><p><b>La închidere:</b> '+esc(q['closure']['status'])+' · '+esc(q['closure']['observed'] or q['closure'].get('blocking_reason'))+'</p><p><b>Acum:</b> '+esc(q['current']['status'])+' · '+esc(q['current']['observed'] or q['current'].get('blocking_reason'))+'</p><p><b>Următoarea probă:</b> '+esc(q['next_action'])+'</p>'+''.join(proof_rows)+'</details>')
+ unknown=w['functional_criteria_unidentified'];txt='<p><b>Nu a fost demonstrată o definiție funcțională individuală.</b> Vezi dosarele, aliasurile și motivele în fișa JSON. Nu s-a atribuit unui copil scopul întregului părinte.</p>' if unknown else ''
+ path=H/('Fisa_'+k+'.html');path.write_text('<!doctype html><html lang="ro"><title>'+esc(k)+'</title>'+CSS+'<body><a href="../Audit_individual_P01_R2.html">← Indexul celor 651 de fișe</a><h1>'+esc(k)+' · '+esc(w['title'])+'</h1><p>'+esc(w['canonical'] or 'Fără cod canonic')+' · '+esc(w['current_status_at_primary_cutoff'])+' · revizie R2</p><p>Starea declarată a taskului, conformitatea funcției și calitatea auditului sunt judecate separat. Ultima revizie independentă pentru R1: '+esc(w['r1_immutable']['A11_quality'])+'/10. R2 nu are încă notă independentă.</p>'+txt+'<p><a href="../'+esc(item['file'])+'">Fișa tehnică, sursele integrale și cele 36 de controale</a> · <a href="../../R1/'+esc(r1row[k]['file'])+'">Versiunea R1 arhivată</a></p><h2>Cerințe și controale administrative</h2>'+''.join(blocks)+'<h2>Trasabilitate</h2><p>Amprenta fișei R2: <code>'+esc(item['sha256'])+'</code>. Sursa de stare și observațiile istorice sunt în <a href="../Dovezi_criterii.json">registrul de dovezi</a>.</p></body></html>',encoding='utf8')
+ return k,links,err,{'html':'fise_html/'+path.name,'sha256':sha(path),'json':item['file'],'json_sha256':item['sha256']}
+with ThreadPoolExecutor(max_workers=8)as pool:
+ for k,links,err,entry in pool.map(render,report['records']):expected_reverse.update(links);invalid+=err;data.append(entry)
+assert not invalid,invalid[:8]
+actual={(eid,n['task'],n['criterion'],n['relation'])for eid,arr in inv.items() for n in arr}
+assert not (actual^expected_reverse),list(actual^expected_reverse)[:5];assert {v['task']for v in report['records']}==i0 and len(data)==651
+zone_scope={'A07-F01':'Returul client cu cantitate depășită: control al integrării RMA demonstrat de A07. Taskul direct T315 este în afara lotului de 651 la cutoff; nu se fabrică o fișă finalizată T315 și nu se impută automat T337.', 'A08-F01':'Risc CMS pe importul catalogului altui canal păstrat ca predare către T353, fără verdict automat asupra editorului său de traduceri.','A09-F01':'Inversarea Form/Workflow aparține routerului portalului; nu se transferă automat unui ecran ZK nativ dintr-un task închis.','A10':'Dacă A10 nu figurează între rapoartele înghețate în amprentă, integrarea rămâne de executat după livrarea lui.'}
+report['interpretarea_predarilor']=zone_scope;report['history_semantics']='Cei 244 fără dată au o observație datată în Git; 0 date exacte de finalizare recuperate. Criteriile necunoscute nu se echivalează cu defect sau PASS.'
+report['readable_index']='Audit_individual_P01_R2.html';report['case_html_manifest']='Manifest_fise_HTML.json';(R/'A12_raport.json').write_text(json.dumps(report,ensure_ascii=False,indent=1)+'\n',encoding='utf8');(R/'Manifest_fise_HTML.json').write_text(json.dumps(data,ensure_ascii=False,indent=1),encoding='utf8')
+rows=[]
+for w in report['records']:
+ rows.append('<tr><td><a href="fise_html/Fisa_'+esc(w['task'])+'.html">'+esc(w['task'])+'</a></td><td>'+esc(w['canonical'])+'</td><td>'+esc(w['title'])+'</td><td>'+esc(w['state'])+'</td><td>'+str(w['operative_and_audit_checks'])+'</td><td>'+str(len(w['criteria_with_observations']))+'</td><td>'+('necunoscut' if w['functional_source_unidentified'] else 'identificat')+'</td></tr>')
+c=report['counts'];body='<h1>A12 · Audit individual P01 · runda 2</h1><p><b>651/651 fișe revizuite; verificarea implementării rămâne parțială.</b> Planul a fost aprobat cu 10/10, dar auditul R1 a primit 3,0/10. R2 a fost trimis spre reverificare independentă și nu are notă nouă.</p><p>'+str(c['operational_and_audit_criteria'])+' criterii și controale administrative recuperate; '+str(c['operative_or_audit_checks_with_observed_segment'])+' au o observație efectivă privind cel puțin un segment. Pentru '+str(c['functional_criteria_unidentified'])+' taskuri nu s-a stabilit o cerință funcțională individuală distinctă din sursele cercetate. Cele 906 fragmente de proveniență și cele 1.961 de fragmente descriptive din R1 au fost păstrate ca material sursă, în afara criteriilor operative.</p><p>La T224, cele trei artefacte lipsesc la SHA GitHub fixat dar există la commiturile declarate și în checkoutul serverului. T227 are rezultate SQL pe fixturi, dar forma lipsește în pachetul verificat pe CESIRO. T229 a fost anulat istoric și reactivat; listele nu reprezintă aceeași stare actuală. Cele 244 fișe fără dată exactă au acum observație datată de stare din Git; aceasta nu este data închiderii.</p><p><a href="A12_raport.json">Raport tehnic</a> · <a href="Dovezi_criterii.json">Dovezi și corespondență inversă</a> · <a href="../R1/A12_prima_trecere.html">Arhivă R1</a></p><label>Filtrează după cod, capitol, stare sau denumire<br><input id="q" placeholder="Exemplu: T227 sau P01.C03"></label><p id="n">651 fișe</p><div class="scroll"><table><thead><tr><th>ID</th><th>Cod canonic</th><th>Task</th><th>Stare</th><th>Criterii</th><th>Cu observație</th><th>Scop funcțional</th></tr></thead><tbody>'+''.join(rows)+'</tbody></table></div><script>let q=document.querySelector("#q");q.oninput=()=>{let n=0;for(let r of document.querySelectorAll("tbody tr")){r.hidden=!r.textContent.toLocaleLowerCase("ro").includes(q.value.toLocaleLowerCase("ro"));if(!r.hidden)n++}document.querySelector("#n").textContent=n+" fișe"}</script>'
+(R/'Audit_individual_P01_R2.html').write_text('<!doctype html><html lang="ro"><title>A12 · Audit individual P01 · R2</title>'+CSS+'<body>'+body+'</body></html>',encoding='utf8')
+(R/'metoda').mkdir(exist_ok=True)
+for f in ['a12_r2_cases.py','a12_r2_plans.py','a12_r2_verify.py']:
+ a=Path(r'C:\Users\User\AppData\Local\Temp')/f
+ if a.is_file():shutil.copyfile(a,R/'metoda'/f)
+for z,det in report['source_provenance']['frozen_zone_reports'].items():
+ p=E/(z+'_raport.json');assert sha(p)==det['sha256'],(z,'changed during authoring')
+ shutil.copyfile(p,R/'inputs'/p.name);assert sha(R/'inputs'/p.name)==det['sha256']
+qa={'gate':'QA structurală proprie R2, fără punctaj A11','json_cases':651,'read_back_html_cases':len(data),'symmetric_difference_task_ids':0,'nominal_36_controls_each':True,'missing_or_dangling_criterion_evidence_links':0,'bidirectional_unique_links':len(actual),'types_from_A11':report['counts']['r1_fragment_reclassified'],'r1_archive_hash':sha(E/'R1/A12_raport.json'),'new_report_sha256':sha(R/'A12_raport.json'),'evidence_sha256':sha(R/'Dovezi_criterii.json'),'html_index_sha256':sha(R/'Audit_individual_P01_R2.html'),'html_manifest_sha256':sha(R/'Manifest_fise_HTML.json'),'source_zones':list(report['source_provenance']['frozen_zone_reports']),'not_covered':report['source_provenance']['zones_not_available_at_generation'],'external_bounds':['rôles/sandbox et tests E2E distincts des artefacts historiques; aucune note d’implémentation par l’auteur.']}
+qa['external_bounds']=['Controalele funcționale care cer mediu, fixture, roluri ori livrări lipsă rămân explicit neexecutate; nu se acordă o notă de implementare.']
+(R/'Verificare_R2.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf8');print(qa,flush=True)
+

@@ -1,0 +1,23 @@
+{
+  "id": "01a1980e-a668-7240-b770-d8616fe1d6ad",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail",
+  "created_at": 1793552459,
+  "updated_at": 1793553665,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a18cd1-8b09-7f83-85e9-09f55ea8812c\",\"depth\":1,\"agent_path\":\"/root/agent_1_plan_audit\",\"agent_nickname\":\"Epicurus\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "a85004ee-5acd-4f38-b445-2289450e8065",
+  "project": "EVA-Mail",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a18cd1-8b09-7f83-85e9-09f55ea8812c",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 6033457,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 73,
+  "message_count": 3,
+  "content_sha256": "dcaeebcf2c5208a3176e0d62ba44f5456d5742d93dd7262c5acb3e8762c25e7e",
+  "files_copied": 1,
+  "references_not_copied": 1
+}

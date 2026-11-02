@@ -1,0 +1,23 @@
+{
+  "id": "01a16c77-7f31-7311-92c9-5e11192ca374",
+  "cwd": "\\\\?\\D:\\MP3.Varvi",
+  "created_at": 1792821133,
+  "updated_at": 1792821227,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Evaluează și repară camerele iPhone",
+  "project_id": "73685247-92a1-4212-a650-4fcf586fc1f4",
+  "project": "MP3.Varvi",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 38359,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 10,
+  "message_count": 6,
+  "content_sha256": "782612f1fb6eb3c2d39185657ecfc40465f169aec448a85db279dc5d7bc760a8",
+  "files_copied": 0,
+  "references_not_copied": 3
+}

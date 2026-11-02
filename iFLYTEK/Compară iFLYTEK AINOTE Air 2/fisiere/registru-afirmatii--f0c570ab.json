@@ -1,0 +1,475 @@
+{
+  "scope": "Registru selectiv al afirmațiilor decisive; nu verificare factuală exhaustivă a fiecărei propoziții.",
+  "claims": [
+    {
+      "id": "A01",
+      "requestIds": [
+        "S01",
+        "S14"
+      ],
+      "claim": "FAQ-ul UK pentru AINOTE Air 2 descrie certificarea Google Play și instalarea locală APK în jurnalul din 28 ianuarie 2025.",
+      "status": "documentat_oficial",
+      "appliesTo": "AINOTE Air 2; versiunea/regiunea descrisă în FAQ UK",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "imbunatatire-raspunsuri/dovada-air2-google-play-apk.txt"
+      ],
+      "urls": [
+        "https://uk.iflytek.com/en/pages/ainote-air2-faq"
+      ],
+      "limit": "Nu confirmă configurația exemplarului din anunț sau compatibilitatea cu aplicația ochelarilor.",
+      "nextEvidence": "Verificarea SKU/regiunii și firmware-ului tabletei; probă de instalare și API-uri necesare.",
+      "evolution": "completare nouă a comparației"
+    },
+    {
+      "id": "A02",
+      "requestIds": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "claim": "API-ul AINOTE pentru aplicația desktop este o posibilă punte pentru note; integrarea Air 2–ochelari nu este demonstrată.",
+      "status": "documentat_api_si_ipoteza",
+      "appliesTo": "API desktop AINOTE; nu un SDK radio pentru Air 2",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "../Biblioteca_Glasses/Cercetare/ainote-note-api.md"
+      ],
+      "urls": [],
+      "limit": "Un endpoint local și un ACK nu confirmă sincronizarea pe tabletă.",
+      "nextEvidence": "Testul E07: operație locală, citire și observarea sincronizării pe tableta identificată.",
+      "evolution": "limită menținută"
+    },
+    {
+      "id": "A03",
+      "requestIds": [
+        "S03",
+        "S14"
+      ],
+      "claim": "Politica aplicației descrie Wi-Fi pentru transferul datelor foto/video de pe ochelari.",
+      "status": "documentat_oficial",
+      "appliesTo": "Politica iFLYTEK Translation; produsul și aplicația analizate",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "../../Ochelari/Politica_aplicatie_oficiala.html",
+        "documentatie/ARHITECTURA.html"
+      ],
+      "urls": [],
+      "limit": "Wi-Fi pentru transfer nu dovedește conectare autonomă la router sau rularea AI pe ochelari.",
+      "nextEvidence": "E01/E02 și o observație a modului de rețea pe modelul și firmware-ul utilizatorului.",
+      "evolution": "distincție de păstrat"
+    },
+    {
+      "id": "A04",
+      "requestIds": [
+        "S05",
+        "S08"
+      ],
+      "claim": "Nu a fost identificat în cercetarea salvată un SDK hardware public complet pentru acest model.",
+      "status": "rezultat_negativ_delimitat",
+      "appliesTo": "Cercetarea locală până la 30.10.2026",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "../Cercetare_SDK_2026-10-30/Raport_Bluetooth_extins.txt"
+      ],
+      "urls": [],
+      "limit": "Nu exclude un SDK privat, de partener sau publicat ulterior. Nu înseamnă că toate sursele posibile au fost examinate.",
+      "nextEvidence": "Publicarea unui pachet oficial cu API, inițializare și drepturi de utilizare aplicabile modelului.",
+      "evolution": "concluzie condiționată de căutare"
+    },
+    {
+      "id": "A05",
+      "requestIds": [
+        "S08",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "claim": "APK-ul conține implementări Bluetooth și contracte GATT/mesaje care au fost inventariate și documentate static.",
+      "status": "observat_static",
+      "appliesTo": "com.iflytek.translateapp 1.0.3899",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "protocol-comunicare/INDEX.html",
+        "catalog-parametri-functii/acoperire.json"
+      ],
+      "urls": [],
+      "limit": "Clasă internă, API public, bibliotecă reutilizabilă și integrare funcțională sunt lucruri diferite.",
+      "nextEvidence": "E02/E03: cadre reale compatibile și inițializare într-o aplicație separată.",
+      "evolution": "dovezi noi față de căutarea inițială"
+    },
+    {
+      "id": "A06",
+      "requestIds": [
+        "S10"
+      ],
+      "claim": "SDK-ul experimental 0.1.0 este compilat; raportul local consemnează 40 verificări de codec/comenzi și o simulare ABI a punții recorderului.",
+      "status": "testat_offline",
+      "appliesTo": "SDK experimental 0.1.0; APK sursă 1.0.3899",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "../SDK_Experimental/sdk-manifest.json",
+        "../SDK_Experimental/test-results.txt",
+        "../SDK_Experimental/README.html"
+      ],
+      "urls": [],
+      "limit": "Nu dovedește BLE live, sesiune autonomă, flux audio sau rutare în căști.",
+      "nextEvidence": "E03/E04 cu aplicație Android independentă și captură reală.",
+      "evolution": "livrabil cu maturitate delimitată"
+    },
+    {
+      "id": "A07",
+      "requestIds": [
+        "S10"
+      ],
+      "claim": "RecorderBridge presupune un recorder vendor deja inițializat și accesibil în același proces/classloader.",
+      "status": "documentat_implementare",
+      "appliesTo": "SDK experimental 0.1.0",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "../SDK_Experimental/README.html"
+      ],
+      "urls": [],
+      "limit": "Nu oferă acces automat la recorderul unei alte aplicații instalate.",
+      "nextEvidence": "Inițializare completă și probă în procesul propriu, cu dependențele documentate.",
+      "evolution": "limită de integrare"
+    },
+    {
+      "id": "A08",
+      "requestIds": [
+        "S10",
+        "S11"
+      ],
+      "claim": "APK-ul este mixt: Flutter/Dart AOT, Java/Kotlin pe Android și biblioteci native; nu poate fi descris integral drept C++.",
+      "status": "observat_static",
+      "appliesTo": "APK 1.0.3899",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "documentatie/ARHITECTURA.html",
+        "documentatie/NATIV_DART.html"
+      ],
+      "urls": [],
+      "limit": "Java decompilat nu este sursa Kotlin/Dart originală; existența .so nu dezvăluie toate funcțiile native.",
+      "nextEvidence": "Corelare pe module, metadate și simboluri; Smali/CFG pentru cazurile Java incerte.",
+      "evolution": "concluzie de arhitectură"
+    },
+    {
+      "id": "A09",
+      "requestIds": [
+        "S11",
+        "S15"
+      ],
+      "claim": "Inventarul DEX are 47.219 clase și 318.284 metode; catalogul detaliat are 1.107 fișe de funcții.",
+      "status": "inventariat_structural_si_semantic_selectiv",
+      "appliesTo": "APK 1.0.3899; catalogul curent",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "inventar/summary.json",
+        "catalog-parametri-functii/acoperire.json"
+      ],
+      "urls": [],
+      "limit": "Nu se calculează acoperire semantică prin 1107/318284: unitățile și scopurile diferă. Inventarul include dependențe.",
+      "nextEvidence": "E09 și registru de contracte revizuite semantic, cu selecția publicată.",
+      "evolution": "numere care necesită unitate"
+    },
+    {
+      "id": "A10",
+      "requestIds": [
+        "S11"
+      ],
+      "claim": "Raportul de extracție semnalează 190 metode nedecompilate și 2.876 fișiere Java cu probleme.",
+      "status": "observat_in_raport",
+      "appliesTo": "Extracția APK 1.0.3899",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "inventar/summary.json"
+      ],
+      "urls": [],
+      "limit": "Acestea sunt unități diferite; nici restul metodelor nu sunt automat corect decompilate.",
+      "nextEvidence": "Verificare Java–Smali–CFG și documentarea fiecărui rezultat recuperat.",
+      "evolution": "limită tehnică explicită"
+    },
+    {
+      "id": "A11",
+      "requestIds": [
+        "S12",
+        "S14"
+      ],
+      "claim": "În APK sunt documentate trasee online STT/traducere/TTS și resurse/motoare pentru procesare offline; politica atribuie procesarea offline telefonului.",
+      "status": "observat_static_si_documentat",
+      "appliesTo": "APK 1.0.3899; politica aplicației",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "protocol-comunicare/INDEX.html",
+        "documentatie/ARHITECTURA.html",
+        "../../Ochelari/Politica_aplicatie_oficiala.html"
+      ],
+      "urls": [],
+      "limit": "Nu dovedește că toate limbile funcționează offline sau că modelele rulează pe ochelari.",
+      "nextEvidence": "E01/E05: pachete, limbi și execuție cu rețeaua oprită pe configurația concretă.",
+      "evolution": "concluzie cu domeniu"
+    },
+    {
+      "id": "A12",
+      "requestIds": [
+        "S12"
+      ],
+      "claim": "Identitatea exactă și versiunea modelului de STT/traducere folosit de serviciul efectiv nu sunt confirmate; parametrul llmtrans nu este un nume de model suficient.",
+      "status": "necunoscut_explicit",
+      "appliesTo": "Serviciile cloud observate în APK",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "protocol-comunicare/INDEX.html",
+        "catalog-parametri-functii/FUNCTII.html"
+      ],
+      "urls": [],
+      "limit": "Documentația comercială Spark sau o rută API nu stabilesc greutățile/modelul activ al unui serviciu.",
+      "nextEvidence": "Metadate de serviciu observate sau documentație oficială care leagă endpointul și versiunea de model.",
+      "evolution": "limită nerezolvată"
+    },
+    {
+      "id": "A13",
+      "requestIds": [
+        "S06",
+        "S07"
+      ],
+      "claim": "Captura din ochelari și redarea simultană în căști separate reprezintă o integrare plauzibilă, dar nedemonstrată pe Android-ul utilizatorului.",
+      "status": "fezabilitate_conditionata",
+      "appliesTo": "Model telefon/căști/firmware încă neprecizate",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "imbunatatire-raspunsuri/plan-experimente.json"
+      ],
+      "urls": [
+        "https://developer.android.com/reference/android/media/AudioManager"
+      ],
+      "limit": "Împerecherea Bluetooth și existența AudioManager nu demonstrează traseul simultan.",
+      "nextEvidence": "E04: sursă audio identificată, redare în ieșirea aleasă, captură și redare simultane.",
+      "evolution": "întrebare de fezabilitate"
+    },
+    {
+      "id": "A14",
+      "requestIds": [
+        "S07"
+      ],
+      "claim": "Procesarea directă și STT–TTS trebuie comparate prin inteligibilitate, erori și latență; modificarea frecvenței TTS nu garantează recuperarea vorbirii pentru un anumit utilizator.",
+      "status": "ipoteza_de_evaluat",
+      "appliesTo": "Proiect audio; fără audiogramă sau măsurători disponibile",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "imbunatatire-raspunsuri/plan-experimente.json"
+      ],
+      "urls": [
+        "https://www.nidcd.nih.gov/health/hearing-aids",
+        "https://developer.android.com/ndk/guides/audio/audio-latency"
+      ],
+      "limit": "Nu există în proiect o validare auditivă individuală sau setări de amplificare recomandate.",
+      "nextEvidence": "E05/E06 cu aceleași materiale, niveluri controlate și criterii de confort/inteligibilitate.",
+      "evolution": "propunere fără rezultat măsurat"
+    },
+    {
+      "id": "A15",
+      "requestIds": [
+        "S13",
+        "S15"
+      ],
+      "claim": "Câmpurile de model local și câmpurile JSON de pe fir sunt distincte; ACK-ul imediat OTA este separat de evenimentele asincrone.",
+      "status": "observat_static_reauditat",
+      "appliesTo": "APK 1.0.3899; corecțiile F1–F4",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "audit-calitate/runda-2/audit.json",
+        "catalog-parametri-functii/functii.json"
+      ],
+      "urls": [],
+      "limit": "Nu sunt confirmate toate răspunsurile acceptate de orice firmware sau server.",
+      "nextEvidence": "E02/E09: cadre/evenimente independente care confirmă sau infirmă contractele.",
+      "evolution": "corecție închisă în domeniul auditat"
+    },
+    {
+      "id": "A16",
+      "requestIds": [
+        "S15"
+      ],
+      "claim": "Catalogul curent are 2980 parametri, dintre care 76 au tipul exact necunoscut.",
+      "status": "calculat_din_date",
+      "appliesTo": "Catalog după reverificarea statică și DEX; baseline separat 2900/199",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "catalog-parametri-functii/parametri.json",
+        "catalog-parametri-functii/acoperire.json"
+      ],
+      "urls": [],
+      "limit": "Un tip cunoscut nu confirmă automat unitatea, intervalul de valori sau obligativitatea.",
+      "nextEvidence": "Rezolvarea fiecărui ID din coadă cu dovadă; recalcul după regenerare.",
+      "evolution": "123 dintre cele 199 tipuri necunoscute inițiale clarificate static; 80 intrări noi documentate",
+      "previousVersions": [
+        {
+          "claim": "Catalogul curent are 2.900 parametri, dintre care 199 au tipul exact necunoscut.",
+          "appliesTo": "Catalog regenerat după audit la 30.10.2026",
+          "checkedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "A17",
+      "requestIds": [
+        "S15"
+      ],
+      "claim": "149 din 443 fișe Flutter au parametri output documentați; 248 au observații Result, totalizând 331 observații.",
+      "status": "calculat_din_date",
+      "appliesTo": "Catalog curent, criterii de extracție distincte",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "catalog-parametri-functii/functii.json"
+      ],
+      "urls": [],
+      "limit": "Absența output nu înseamnă absența unui rezultat; o observație nu garantează schema completă.",
+      "nextEvidence": "Revizie a ramurilor/callbackurilor și test de integrare unde este necesar.",
+      "evolution": "indicator de extracție",
+      "previousVersions": [
+        {
+          "claim": "118 din 443 fișe Flutter au parametri output documentați; 213 au observații Result, totalizând 275 observații.",
+          "appliesTo": "Catalog curent, criterii de extracție distincte",
+          "checkedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "A18",
+      "requestIds": [
+        "S16"
+      ],
+      "claim": "Auditul fișierelor disponibile nu a identificat o imagine confirmată de firmware a ochelarilor.",
+      "status": "rezultat_negativ_delimitat",
+      "appliesTo": "139 arhive scanate la nivel de intrări; auditul firmware local",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "firmware-analiza/audit.json",
+        "firmware-analiza/INDEX.html"
+      ],
+      "urls": [],
+      "limit": "0 imagini găsite în acest set nu dovedește inexistența firmware-ului sau imposibilitatea decompilării.",
+      "nextEvidence": "E08: pachet OTA cu proveniență, versiune, hash și format identificat.",
+      "evolution": "intrare necesară încă lipsă"
+    },
+    {
+      "id": "A19",
+      "requestIds": [
+        "S16"
+      ],
+      "claim": "Utilizatorul deține ochelarii, folosește Android și nu a descărcat încă o actualizare de firmware.",
+      "status": "context_confirmat_de_utilizator",
+      "appliesTo": "Clarificările din conversația curentă",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "imbunatatire-raspunsuri/istoric-conversatie.json",
+        "firmware-analiza/audit.json"
+      ],
+      "urls": [],
+      "limit": "Modelul telefonului, versiunea Android, firmware-ul și căștile nu sunt încă stabilite.",
+      "nextEvidence": "Actualizare explicită a utilizatorului sau observarea configurației în E01.",
+      "evolution": "context de păstrat"
+    },
+    {
+      "id": "A20",
+      "requestIds": [
+        "S17"
+      ],
+      "claim": "Auditul anterior a trecut de la 8,2 la 10/10 după corecțiile F1–F5, exclusiv în domeniul declarat.",
+      "status": "raport_independent",
+      "appliesTo": "Audit runda 2 din 30.10.2026",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "audit-calitate/runda-1/audit.json",
+        "audit-calitate/runda-2/audit.json"
+      ],
+      "urls": [],
+      "limit": "Nu este un scor global al tuturor răspunsurilor, al semanticii întregului APK sau al produsului pe hardware.",
+      "nextEvidence": "O constatare nouă sau modificarea artefactelor impune reevaluare în domeniul afectat.",
+      "evolution": "scor cu limită explicită"
+    },
+    {
+      "id": "A21",
+      "requestIds": [
+        "S01",
+        "S06"
+      ],
+      "claim": "48 afirmații despre produse, conectivitate și audio au fost reverificate din 37 surse primare: 35 confirmate în limitele formulate, 2 completate/corectate și 11 încă necunoscute.",
+      "status": "reverificat_selectiv",
+      "appliesTo": "Afirmațiile materiale inventariate în raport; nu toate propozițiile și ofertele comerciale",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "reverificare-detaliata/verificare-produse-audio.json"
+      ],
+      "urls": [],
+      "limit": "Nu reprezintă un benchmark, probă clinică sau verificare a anunțului și prețului vânzătorului.",
+      "nextEvidence": "Model, regiune, firmware, preț și compatibilitate observată pe dispozitive.",
+      "evolution": "nouă reverificare documentară după analiza metodologică",
+      "previousVersions": [
+        {
+          "claim": "Specificațiile și recomandările comerciale istorice pentru concurenți/căști nu au fost reverificate exhaustiv în această analiză metodologică.",
+          "appliesTo": "Produse și regiuni citate în răspunsurile istorice",
+          "checkedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "A22",
+      "requestIds": [
+        "S14",
+        "S16"
+      ],
+      "claim": "APK-ul implementează un flux RPK de pregătire, transfer Bluetooth și instalare către dispozitive GPASS, cu confirmarea stării de instalare.",
+      "status": "observat_static_reverificat",
+      "appliesTo": "APK 1.0.3899; modul RPK/GPASS",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "reverificare-detaliata/analiza-rpk.json"
+      ],
+      "urls": [],
+      "limit": "Nu confirmă suportul pe XF-AIGlasses-01 sau acceptarea unui pachet propriu/nesemnat. RPK, APK și firmware sunt distincte.",
+      "nextEvidence": "Model/firmware și valorile reale ale capabilităților, inclusiv politica de semnare.",
+      "evolution": "dovadă nouă ce completează concluzia istorică despre instalarea software"
+    },
+    {
+      "id": "A23",
+      "requestIds": [
+        "S01"
+      ],
+      "claim": "Numerele de limbi pentru Air 2 sunt neconcordante între pagini oficiale; româna STT nu este confirmată în listele consultate.",
+      "status": "conflict_de_surse",
+      "appliesTo": "Pagini corporate, FAQ UK, magazin global și anunțul seriei AINOTE",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "reverificare-detaliata/verificare-produse-audio.json"
+      ],
+      "urls": [
+        "https://www.iflytek.com/en/products/air/ainote-air2.html",
+        "https://uk.iflytek.com/en/pages/ainote-air2-faq",
+        "https://store.iflytek.com/products/iflytek-ainote-air-2",
+        "https://www.iflytek.com/en/news-events/news/343.html"
+      ],
+      "limit": "Nu se atribuie automat celui mai nou titlu funcțiile unui SKU regional sau unui anumit firmware.",
+      "nextEvidence": "Lista limbilor disponibilă pe exemplarul identificat.",
+      "evolution": "contradicție păstrată explicit"
+    },
+    {
+      "id": "A24",
+      "requestIds": [
+        "S07"
+      ],
+      "claim": "Proiectul nu conține măsurători care să demonstreze că STT–TTS are obligatoriu latență mai mare decât procesarea audio directă pe configurația utilizatorului.",
+      "status": "corectie_de_formulare",
+      "appliesTo": "Comparația de arhitecturi audio propusă",
+      "checkedAt": "2026-10-30",
+      "evidence": [
+        "reverificare-detaliata/verificare-produse-audio.json"
+      ],
+      "urls": [],
+      "limit": "Etapele suplimentare pot adăuga întârziere, dar valoarea și ordinea comparativă depind de implementare și condiții.",
+      "nextEvidence": "Măsurători end-to-end comparabile, p50/p95, cu același corpus și aceleași dispozitive.",
+      "evolution": "predicție categorică reformulată ca ipoteză de măsurat"
+    }
+  ]
+}

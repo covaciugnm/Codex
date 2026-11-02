@@ -1,0 +1,121 @@
+[
+  {
+    "source_reference": "D:/Codex/Inventar persoane 2026-11-01/audit/Audit dosare.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit dosare--5f09053f.html",
+    "bytes": 53938,
+    "sha256": "ed55872f7afaf7d3a37491c3a0e1ff935646a69aba358f5046f5f345495c9b5d"
+  },
+  {
+    "source_reference": "D:/Codex/Inventar persoane 2026-11-01/audit/Audit fiecare director.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit fiecare director--abe7bc48.html",
+    "bytes": 145348,
+    "sha256": "22d2a0517b4e62665f061ebc3492d00deb8f4aa93ac81a1c5cf8ab4e140a4112"
+  },
+  {
+    "source_reference": "D:/Codex/Inventar persoane 2026-11-01/audit/Verificare livrabile.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Verificare livrabile--bb972dee.json",
+    "bytes": 335,
+    "sha256": "09b316e1036e1a70e4b49dd70f459ce34c9310b478383ca0c7b4fbd89e62e094"
+  },
+  {
+    "source_reference": "D:/Codex/Inventar persoane 2026-11-01/audit/probleme_si_probe.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/probleme_si_probe--b4502c42.jsonl",
+    "bytes": 815832,
+    "sha256": "7e8e38539053d2b74a00548e36df435543ca7f81532f09ce6bf31eb6969d4e3e"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\Citeste auditul.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Citeste auditul--59c0403a.txt",
+    "bytes": 2804,
+    "sha256": "19f1dc4db3898d2296542c4d7ea0764ff5386d8256d45cb448d7952184600257"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\auditeaza.py",
+    "status": "copiat",
+    "saved_path": "fisiere/auditeaza--283e970c.py",
+    "bytes": 20652,
+    "sha256": "7a7f791a22eb166c33f7fb48c7fb0a0f83e805cd810238b31cdd32a0c83b83b1"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\completeaza_si_verifica.py",
+    "status": "copiat",
+    "saved_path": "fisiere/completeaza_si_verifica--0b8c0094.py",
+    "bytes": 7679,
+    "sha256": "5befce83a8af65d5924a28d1f9aa962389703e73fa7132fb1f4626bf1074debe"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\filtreaza_cnp_context.py",
+    "status": "copiat",
+    "saved_path": "fisiere/filtreaza_cnp_context--3b81b0f7.py",
+    "bytes": 3198,
+    "sha256": "5d6363cafd7e7e0033ed89e425ae1d961c0bcbc2fbb8c4faf4d634bc3e9371ca"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\identitati_confirmate_auditor.json",
+    "status": "copiat",
+    "saved_path": "fisiere/identitati_confirmate_auditor--106c0c44.json",
+    "bytes": 2647,
+    "sha256": "b93c897f90bff60e3a3cd6831a624cdf7e457a2ff8e6549338700b245cc57c9a"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\probe_auditor\\Benga Florean CI-p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Benga Florean CI-p1--af4112db.png",
+    "bytes": 94959,
+    "sha256": "65512c797436c096deed9a7f8839ec03b1f096c0d997d98a5b89186715ca6b93"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\probe_auditor\\Benga Radu CI-p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Benga Radu CI-p1--4437ff22.png",
+    "bytes": 217130,
+    "sha256": "c6a6f30d66ec070468b21c782bd282dd91306e6cf1f6df0fdaeff57891812644"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\probe_auditor\\CI-candidati.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/CI-candidati--ad38cdb2.jpg",
+    "bytes": 172986,
+    "sha256": "7e0dae98c96ac80d3473968fb5fd737e33c28319a6d2294c71a118e6d4072af0"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\probe_auditor\\Dragomir Valerica CI-p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Dragomir Valerica CI-p1--31a47994.png",
+    "bytes": 281657,
+    "sha256": "ba906e5075ce166d35199aa07867caaaa6bcf61497d2dc3da018e33c244d1c2b"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\probe_auditor\\Nemety Adrian CI-p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Nemety Adrian CI-p1--4d4bf887.png",
+    "bytes": 220874,
+    "sha256": "33a7ded6ca68d250acf9a2f47ac1b22c95152ca74fc0281498e905b09f3a4aca"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\probe_auditor\\Nemety-detaliu.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Nemety-detaliu--6292ed60.png",
+    "bytes": 657796,
+    "sha256": "90380be061b4a1af4b681c7766194a2b81bbf3523011ab287d6fe14e57ae7e2e"
+  },
+  {
+    "source_reference": "D:\\Codex\\Inventar persoane 2026-11-01\\audit\\probe_auditor\\Petras Alin CI-p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Petras Alin CI-p1--fafa27e5.png",
+    "bytes": 193802,
+    "sha256": "e2a4bfb46917602b40ff64d101bb319c9dd84e1bd1f59aeb98d4cfc6082644e5"
+  },
+  {
+    "source_reference": "Z:\\2019\\SCANARI\\Copii Buletine\\Bran Calin CI.JPG",
+    "status": "copiat",
+    "saved_path": "fisiere/Bran Calin CI--9554979a.JPG",
+    "bytes": 1957059,
+    "sha256": "4886d71e30df18559fd6b6313d2af2f33d70edabb51720161275bb1970b4f4a6"
+  }
+]

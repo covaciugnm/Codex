@@ -5711,3 +5711,15 @@ Ai dreptate, am interpretat greșit. Acestea sunt **cele 7 Exceluri comparative,
 | **7. QMS / ISO / Six Sigma — calitate** | [Comparatie_QMS_ISO_SixSigma_EVA.xlsx](https://github.com/cesiroproduction/Eva-Accounting/blob/8175707e302545f52ee0154f6c6db8db4b98624b/Documentatie/Analiza_QMS_ISO_SixSigma_2026-10-08/Comparatie_QMS_ISO_SixSigma_EVA.xlsx) | **42 funcții și comparație separată pentru 9 module OCA.** Managementul calității, ISO, Six Sigma, soluții externe și EVA, cu versiuni și surse. |
 
 **Linkurile indică versiunile publicate la commituri fixe**, deoarece ramura comună de documentație a fost rescrisă între timp. Fiecare Excel include marcaje pentru funcții disponibile, parțiale, absente sau neconfirmate.
+
+## Asistent
+
+Probabil te referi la **Comparatie_WMS_EVA_2026-10-08.xlsx** — anul este **2026**, nu 2028.
+
+Local, se află aici:
+[Deschide Excelul WMS/EVA](<//192.168.100.169/Comun/00.Roboti/iDempiere/Documentatie/WMS_iDempiere/Comparatie_WMS_EVA_2026-10-08.xlsx>)
+
+Calea prin discul **Z:**:
+```text
+Z:\00.Roboti\iDempiere\Documentatie\WMS_iDempiere\Comparatie_WMS_EVA_2026-10-08.xlsx
+```

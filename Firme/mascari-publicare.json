@@ -1,0 +1,17 @@
+{
+  "local_originals_preserved": true,
+  "masked_files": [
+    {
+      "path": "ROSE - Acreditari/istoric.json",
+      "masked_values": {
+        "signed_query_sig": 163
+      }
+    },
+    {
+      "path": "ROSE - Acreditari/rezultate.md",
+      "masked_values": {
+        "signed_query_sig": 163
+      }
+    }
+  ]
+}

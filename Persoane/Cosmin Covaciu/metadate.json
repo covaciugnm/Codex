@@ -1,0 +1,23 @@
+{
+  "id": "01a19691-fa90-7970-b383-c7debfae5766",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Persoane",
+  "created_at": 1793527511,
+  "updated_at": 1793618675,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Cosmin Covaciu",
+  "project_id": "8da5baa7-c368-4743-8f5b-d573af1d979b",
+  "project": "Persoane",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 15522416,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 178,
+  "message_count": 28,
+  "content_sha256": "888a7530b1e74c756a10d21a1c48521d57042b312c0807a142350ec58cb58438",
+  "files_copied": 23,
+  "references_not_copied": 1
+}

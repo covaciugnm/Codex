@@ -1,0 +1,2719 @@
+{
+  "schema": "eva-audit.plan.A10.v1",
+  "zone_id": "A10",
+  "agent_id": "A10",
+  "reviewer": "A11",
+  "phase": "PLAN",
+  "gate": "A11 aprobă independent toate criteriile și hashul exact înainte de orice execuție.",
+  "plan_score": null,
+  "implementation_audit_started": false,
+  "scope": "Operare și proveniență Git→JAR→imagine→cabinet→schema AD, rețea și izolare, livrare și recuperare, worker, API, monitorizare și experiența utilizatorului în degradare.",
+  "baseline": {
+    "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "verified_sources": 28,
+    "runtime_source": "capturi/MANIFEST.json",
+    "technical_source": "Inventar_tehnic.json",
+    "native_and_spree": [
+      "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2  /opt/idempiere/plugins/com.eva.ro.contab_13.0.0.jar",
+      "86c82f54299f55e8f5089e0c48f13dc29432fdecec205a51560eb48dc54ac8c3  /opt/idempiere/plugins/org.adempiere.base_13.0.0.202603090043.jar",
+      "dd1792b315d85732c8da386dab49bfb94b794547bc2b2d8b93a375532044a8b2  /opt/idempiere/plugins/org.adempiere.base.process_13.0.0.202603090043.jar",
+      "ae6c34d09775d3938a0c1a5f603cde3485650c1f22af7ceee929ec38ed3c9723  /app/app.py",
+      "da0730aec42f3e9f5f671e81a70ff71e24d5e534",
+      "75a5e832c6afb73b6948fb579b33dad98b9870da"
+    ],
+    "cabinet_scope": "Inventarul tehnic actual privește CESIRO. Celelalte cabinete cer marcatori proprii.",
+    "source_capture": "2026-11-02T14:06:00.673Z"
+  },
+  "boundaries": {
+    "A01": "Identitate și politici de securitate",
+    "A02": "Schema, tranzacțiile și AD",
+    "A03": "Rezultatele contabilității și politicile fiscale",
+    "A04": "Import semantic / achiziții",
+    "A05": "Stoc și WMS",
+    "A06": "Politici comerciale",
+    "A07": "AWB și plăți",
+    "A08": "Site și funcționalități canal",
+    "A09": "Experiență ERP și mobil",
+    "A12": "Verdict per task P01, inclusiv interfețe cu A10"
+  },
+  "policy": {
+    "only_read_only_production": true,
+    "max_builds": 3,
+    "max_suites": 6,
+    "min_available_gb": 12,
+    "load_below": "nproc × 1,2",
+    "exclusions": "Egress real (ANAF, bancă, curier, marketplace), modificări de producție, montări sau alterarea cozii globale. §62 analizat în istoric sau replică.",
+    "core_first": "Înainte de custom queue/programare, compară mecanismele native AD_Scheduler, AD_Process, AD_PInstance, DocAction și funcțiile existente EVA. Separă prezența în surse, AD instalat, JAR încărcat și executarea efectivă."
+  },
+  "fixtures": [
+    {
+      "id": "FX-A10-F01",
+      "input": "commit + lockfiles + SHA surse + target platformă + digest imagine + bundle + nivel AD",
+      "actor": "DevOps de laborator și administrator tehnic",
+      "preparation": "Namespace de test unic, TAG AUD-A10, două organizații/firme și două canale, numere de document fictive, verificare --internal, scheduler implicit dezactivat. Ceas fix UTC și seed versionat.",
+      "oracle": "O singură migrare pe versiune și cabinet. Dovada arată commit, digest, hash JAR, Bundle-Version, AD, schema, payloadul CSS/JS încărcat. Comparația se face individual pe cabinet."
+    },
+    {
+      "id": "FX-A10-F02",
+      "input": "sesiune/cont/task/slot/tip, PID, fixtures sintetice, alocare CPU/RAM",
+      "actor": "Orchestrator de laborator și executor",
+      "preparation": "Namespace de test unic, TAG AUD-A10, două organizații/firme și două canale, numere de document fictive, verificare --internal, scheduler implicit dezactivat. Ceas fix UTC și seed versionat.",
+      "oracle": "Limitele globale se respectă și după timeout. Orice efect către partener sau volum real oprește proba."
+    },
+    {
+      "id": "FX-A10-F03",
+      "input": "tenant, canal, document, event_id, versiune, idempotency key, sequence, timestamp, signature conform contractului",
+      "actor": "Adaptor cu drepturi pe firmă/canal și responsabil ERP",
+      "preparation": "Namespace de test unic, TAG AUD-A10, două organizații/firme și două canale, numere de document fictive, verificare --internal, scheduler implicit dezactivat. Ceas fix UTC și seed versionat.",
+      "oracle": "După orice reluare tratată ca aceeași operație numărul documentelor rămâne unu. Confirmarea finală se corelează cu starea ERP și apartenența firmei."
+    },
+    {
+      "id": "FX-A10-F04",
+      "input": "job/run/correlation, client/org, perioadă, cursor, număr încercări și stare persistentă",
+      "actor": "Administrator, serviciu cu rol minim, operator",
+      "preparation": "Namespace de test unic, TAG AUD-A10, două organizații/firme și două canale, numere de document fictive, verificare --internal, scheduler implicit dezactivat. Ceas fix UTC și seed versionat.",
+      "oracle": "Toate elementele admise sunt contabilizate ca procesat, în așteptare ori eroare. Repetarea aceleiași unități de lucru are cel mult un efect."
+    },
+    {
+      "id": "FX-A10-F05",
+      "input": "snapshot logic DB, metadate versiuni, volume fișiere, checksum, punct temporal, set martor",
+      "actor": "Administrator de recuperare și contabil verificator",
+      "preparation": "Namespace de test unic, TAG AUD-A10, două organizații/firme și două canale, numere de document fictive, verificare --internal, scheduler implicit dezactivat. Ceas fix UTC și seed versionat.",
+      "oracle": "Documentele, soldurile, anexele și permisiunile martor se potrivesc cu fotografia de la care s-a restaurat."
+    },
+    {
+      "id": "FX-A10-F06",
+      "input": "versiune deploy, context autorizat, volume 1k/10k, pagină/limită, concurență 1/10/30, warm/cold",
+      "actor": "Operator canal, comisionar și administrator tehnic",
+      "preparation": "Namespace de test unic, TAG AUD-A10, două organizații/firme și două canale, numere de document fictive, verificare --internal, scheduler implicit dezactivat. Ceas fix UTC și seed versionat.",
+      "oracle": "Costul și p95 sunt raportate per proces și versiune. Niciun răspuns sau fișier al firmei B pentru sesiunea A."
+    }
+  ],
+  "anchors": [
+    {
+      "id": "build",
+      "file": "tools/teste/baza_teste.sh",
+      "line": 101,
+      "symbol": "la_iesire()",
+      "sha256": "659d2e97ac01398f4253d3ef31ea3bab2a9e85fd30192f275dd5eb97075c2a1c",
+      "git_blob": "61df9fc4c512bcd80224814d6a73b5d7b5758963",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "base",
+      "file": "idempiere/Dockerfile",
+      "line": 22,
+      "symbol": "FROM idempiereofficial/idempiere:13-release",
+      "sha256": "9a9c095d35dde1e21c769c9ab04d6d1a76182dee193e337e98147048adc78459",
+      "git_blob": "321f5c6b3e50b8b1540d2d8f94e7672a6d9ce5e3",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "jar",
+      "file": "idempiere/Dockerfile",
+      "line": 101,
+      "symbol": "COPY plugins/com.eva.ro.contab/com.eva.ro.contab_13.0.0.jar",
+      "sha256": "9a9c095d35dde1e21c769c9ab04d6d1a76182dee193e337e98147048adc78459",
+      "git_blob": "321f5c6b3e50b8b1540d2d8f94e7672a6d9ce5e3",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "readiness",
+      "file": "provisioner/app.py",
+      "line": 232,
+      "symbol": "def _webui_ok(",
+      "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+      "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "hash",
+      "file": "provisioner/app.py",
+      "line": 217,
+      "symbol": "def _jar_md5(",
+      "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+      "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "deploy",
+      "file": "provisioner/app.py",
+      "line": 1332,
+      "symbol": "def upgrade_cabinet(",
+      "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+      "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "volume",
+      "file": "provisioner/app.py",
+      "line": 143,
+      "symbol": "def _cabinet_volumes(",
+      "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+      "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "queue",
+      "file": "tools/status/coada_builduri.sh",
+      "line": 41,
+      "symbol": "load_ok()",
+      "sha256": "72264d18c0037bfe0a3fb09e41bfea9f752b509df8398043e1685f34d85591c2",
+      "git_blob": "aaccf5a33121b91b11c53c7a5d44007774cc0ce3",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "release",
+      "file": "tools/status/coada_montari.sh",
+      "line": 43,
+      "symbol": "primul_din_rand()",
+      "sha256": "eacc92b000e4f2beee1fbda7006e0dbcc4fdfcea016e779aeb7d228aabfe452e",
+      "git_blob": "2d84988595791dc20393bd4b161d064918d1692e",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "isolate",
+      "file": "tools/teste/garda_parteneri_scriere.py",
+      "line": 58,
+      "symbol": "def scaneaza(",
+      "sha256": "60c5e95caaab79a3bde78cf01baaa7db411dd250e111ab64c8226c5df6b1a67f",
+      "git_blob": "71301a160dce36ae69a95ce7a5e1202faea646bc",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "network",
+      "file": "backend/tools/check_compose_security.py",
+      "line": 28,
+      "symbol": "def container_port(",
+      "sha256": "dea3d5bf3d6e659560c227a12da5db2b341df6f1c83f22867c45ec5a092cd582",
+      "git_blob": "83e48e2643863d1617af55be2e8f8e7188c3cef3",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "web",
+      "file": "scripts/spree-instances/docker-compose.market.yml",
+      "line": 45,
+      "symbol": "eva-spree-market-web:",
+      "sha256": "5073a36595bca8a70012f6e25fb79f0bc85ae5ce799ada6270fc524ec3a13a4c",
+      "git_blob": "4b8ef6b9f31747f748d19042bfaef9f724eda7e5",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "store",
+      "file": "scripts/spree-instances/docker-compose.market.yml",
+      "line": 67,
+      "symbol": "market_storage_data:",
+      "sha256": "5073a36595bca8a70012f6e25fb79f0bc85ae5ce799ada6270fc524ec3a13a4c",
+      "git_blob": "4b8ef6b9f31747f748d19042bfaef9f724eda7e5",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "api",
+      "file": "frontend/app.py",
+      "line": 1857,
+      "symbol": "def _eva_proxy_raw(",
+      "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe",
+      "git_blob": "3528d02aaf6b4f7c3f368e2024a7d6762048a0f8",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "UI",
+      "file": "frontend/app.py",
+      "line": 3379,
+      "symbol": "def eva_api_cabinets_status(",
+      "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe",
+      "git_blob": "3528d02aaf6b4f7c3f368e2024a7d6762048a0f8",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "health",
+      "file": "backend/app/routers/health.py",
+      "line": 14,
+      "symbol": "def idempiere_health(",
+      "sha256": "b9c9e83591e78dbf0f4a236eeae5be5a13545a1b126f7ea78bf047ba536af09b",
+      "git_blob": "d9e37b4ebdd45804621e1a8dbfcef008a069d816",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "jobs",
+      "file": "backend/app/bank/psd2/scheduler.py",
+      "line": 111,
+      "symbol": "class EvaBankScheduler:",
+      "sha256": "b09c4c1ea3e839c30ed7a9a61b70f23332f7a65e21069dd7c232128fb1c81e6c",
+      "git_blob": "6df4b729cd5d31b09f85bbaba5cc883d610cef30",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "claim",
+      "file": "backend/app/ai_assistant/worker.py",
+      "line": 24,
+      "symbol": "def claim_next(",
+      "sha256": "4a84eb3b0028c963f57e3597c8692e2af00cb1444cd439f4c00d313f3bc5a458",
+      "git_blob": "7e536613ffe07f56cd7fe178945ee9475b7c8aa5",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "retry",
+      "file": "backend/app/idempotency.py",
+      "line": 24,
+      "symbol": "def replay(",
+      "sha256": "10a9c649c0d3abc66c1b3f7ac97625b0cb0405bce313a51c4bad7ed42ccc3538",
+      "git_blob": "8d498b342a7d32b5b1dcf59166cc0dc37f507ec4",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "commit",
+      "file": "backend/app/idempotency.py",
+      "line": 33,
+      "symbol": "def store(",
+      "sha256": "10a9c649c0d3abc66c1b3f7ac97625b0cb0405bce313a51c4bad7ed42ccc3538",
+      "git_blob": "8d498b342a7d32b5b1dcf59166cc0dc37f507ec4",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "redact",
+      "file": "backend/app/audit.py",
+      "line": 10,
+      "symbol": "def _mask(",
+      "sha256": "b2706b6c13828db8500b19d1af2502099c404b492c20bc4de1ca05af92c151e0",
+      "git_blob": "1f8ab57f88e227646192e404187dba2aa3cefab9",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "audit",
+      "file": "backend/app/audit.py",
+      "line": 23,
+      "symbol": "def record(",
+      "sha256": "b2706b6c13828db8500b19d1af2502099c404b492c20bc4de1ca05af92c151e0",
+      "git_blob": "1f8ab57f88e227646192e404187dba2aa3cefab9",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "erp",
+      "file": "docker-compose.yml",
+      "line": 43,
+      "symbol": "postgres-idempiere:",
+      "sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+      "git_blob": "3537b4190bc07b0e591fba3f44feec8bfb749116",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "spree",
+      "file": "docker-compose.yml",
+      "line": 588,
+      "symbol": "spree-web:",
+      "sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+      "git_blob": "3537b4190bc07b0e591fba3f44feec8bfb749116",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "data",
+      "file": "docker-compose.yml",
+      "line": 618,
+      "symbol": "spree_storage_data:",
+      "sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+      "git_blob": "3537b4190bc07b0e591fba3f44feec8bfb749116",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "progress",
+      "file": "provisioner/app.py",
+      "line": 372,
+      "symbol": "def _queue_view(",
+      "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+      "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "worker",
+      "file": "provisioner/app.py",
+      "line": 433,
+      "symbol": "def _bringup_worker(",
+      "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+      "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    },
+    {
+      "id": "sources",
+      "file": "proxy/claude-usage/app.py",
+      "line": 1752,
+      "symbol": "def load_status(",
+      "sha256": "ae6c34d09775d3938a0c1a5f603cde3485650c1f22af7ceee929ec38ed3c9723",
+      "git_blob": "1a5b73a20fd5b74479ed4613cbdac7b9e0e62c21",
+      "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "A10-CK-01",
+      "requirement_id": "R-A10-01",
+      "title": "Versiunea sursă și a imaginii",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Versiunea sursă și a imaginii",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "DevOps de laborator și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F01",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Compară commitul declarat, lockfiles și configurarea de build cu digestul imaginii și JAR montat pentru fiecare cabinet în domeniu.",
+      "expected": "Înregistrări de proveniență pentru 100% din cabinetele în domeniu. SHA incomparabil etichetat NECUNOSCUT.",
+      "negative_variant": "Înlocuiește în fixture eticheta mobilă cu alt digest sub același nume.",
+      "probe_FE": "versiuni și meniu ajutor → configurare în cabinet → rol contabil deschide fereastra → identificator verificat în raport",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Versiunea sursă și a imaginii. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "hash",
+        "base",
+        "jar"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-02",
+      "requirement_id": "R-A10-02",
+      "title": "Integritatea claselor OSGi",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Integritatea claselor OSGi",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "DevOps de laborator și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F01",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Compară Manifest și exportul pachetelor pentru bundle-urile implicate. Urmărește legarea factory și versiunea deținătoare a clasei.",
+      "expected": "Toate clasele necesare au un furnizor rezolvat. Nicio clasă încărcată accidental din JAR vechi.",
+      "negative_variant": "Include două versiuni cu aceeași denumire simbolică.",
+      "probe_FE": "versiuni și meniu ajutor → configurare în cabinet → rol contabil deschide fereastra → identificator verificat în raport",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Integritatea claselor OSGi. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "build",
+        "jar",
+        "base"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-03",
+      "requirement_id": "R-A10-03",
+      "title": "Compatibilitate cu iDempiere nativ",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Compatibilitate cu iDempiere nativ",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "DevOps de laborator și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F01",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Separă SHA upstream release-13, SHA de checkout local și JAR efectiv. Verifică semnăturile native consumate cu bytecode și un document pornit din UI în copie.",
+      "expected": "Numele, versiunea și semnătura fiecărei metode utilizate există în bundle-ul instalat. Traseul probat și ieșirea sunt păstrate.",
+      "negative_variant": "Metodă disponibilă doar pe branch mai nou.",
+      "probe_FE": "versiuni și meniu ajutor → configurare în cabinet → rol contabil deschide fereastra → identificator verificat în raport",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Compatibilitate cu iDempiere nativ. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "base",
+        "jar",
+        "readiness"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-04",
+      "requirement_id": "R-A10-04",
+      "title": "Actualizare AD repetabilă",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Actualizare AD repetabilă",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "DevOps de laborator și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F01",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Pe două copii sintetice (curată și versiunea precedentă), aplică instalarea conform procedurii. Rulează a doua oară și măsoară duplicatele pe cheile naturale AD.",
+      "expected": "Aceleași ferestre, câmpuri, meniuri, procese și drepturi revendicate. Delta la a doua rulare este zero pentru obiecte deja instalate.",
+      "negative_variant": "Întrerupe după migrarea DB înainte de activarea bundle.",
+      "probe_FE": "versiuni și meniu ajutor → configurare în cabinet → rol contabil deschide fereastra → identificator verificat în raport",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Actualizare AD repetabilă. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "deploy",
+        "jar",
+        "readiness"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-05",
+      "requirement_id": "R-A10-05",
+      "title": "Garda build și teste regresie",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Garda build și teste regresie",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "DevOps de laborator și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F01",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Rularea de laborator produce JAR din sursa pinuită, verifică inventarul claselor și dovada de execuție. Introdu o clasă mutantă în copie și repetă.",
+      "expected": "Controlul eșuează când mutantul încalcă rezultatul. Sursa fixture, versiunile, codul de ieșire și JAR sunt arhivate.",
+      "negative_variant": "Cache Maven conține JAR precedent, aceeași versiune textuală.",
+      "probe_FE": "versiuni și meniu ajutor → configurare în cabinet → rol contabil deschide fereastra → identificator verificat în raport",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Garda build și teste regresie. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "build",
+        "hash",
+        "jar"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-06",
+      "requirement_id": "R-A10-06",
+      "title": "Actualizare parțială mai multe cabinete",
+      "pipeline_ids": [
+        "A10-F01"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Actualizare parțială mai multe cabinete",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "DevOps de laborator și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F01",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Inventariază separat instanța, rolul, digesturile, readiness ERP și rezultatul smoke pentru fiecare cabinet inclus în proba izolată.",
+      "expected": "Diferențele apar individual. Un singur cabinet incompatibil împiedică acceptarea globală.",
+      "negative_variant": "Replica a doua răspunde pe health dar are alt JAR.",
+      "probe_FE": "versiuni și meniu ajutor → configurare în cabinet → rol contabil deschide fereastra → identificator verificat în raport",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Actualizare parțială mai multe cabinete. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "readiness",
+        "UI",
+        "hash"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-07",
+      "requirement_id": "R-A10-07",
+      "title": "Slotul §61",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Slotul §61",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Orchestrator de laborator și executor",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F02",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Simulează capacitate la limită în replica cozii. Cere sloturi din două procese concurente și capturează jurnalul + valorile configurației.",
+      "expected": "Cel mult 3 build și 6 suită. RAM disponibil ≥12 GB și load < nuclee×1,2. Refuz rc10 și nicio pornire de container după refuz.",
+      "negative_variant": "Ultimul slot este revendicat simultan sau RAM scade imediat înainte de lansare.",
+      "probe_FE": "raport de execuție → stare refuz/în așteptare → log → identificator slot și rezultat",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Slotul §61. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "queue",
+        "build"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-08",
+      "requirement_id": "R-A10-08",
+      "title": "Eliberare slot, expirare și anulare",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Eliberare slot, expirare și anulare",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Orchestrator de laborator și executor",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F02",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Provoacă terminare normală, eroare și PID mort în coada clonată. Reatașează jurnalul cu sesiune/task și intervale.",
+      "expected": "Fiecare acord are o singură eliberare sau expirare. Reluarea după refuz urmează intervalul reglementat.",
+      "negative_variant": "Semnal de întrerupere între admitere și instalarea trap.",
+      "probe_FE": "raport de execuție → stare refuz/în așteptare → log → identificator slot și rezultat",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Eliberare slot, expirare și anulare. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "queue",
+        "build"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-09",
+      "requirement_id": "R-A10-09",
+      "title": "Ordinea montărilor §62",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Ordinea montărilor §62",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Orchestrator de laborator și executor",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F02",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Verifică istoricul fără montare în producție. Simulează trei solicitanți, retragere și timeout în copie.",
+      "expected": "Maximum o montare. FIFO și cronometru 60 s. Un proces retras nu blochează succesorul.",
+      "negative_variant": "Solicitantul aflat în cap întârzie sau moare înainte de lansare.",
+      "probe_FE": "raport de execuție → stare refuz/în așteptare → log → identificator slot și rezultat",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Ordinea montărilor §62. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "release",
+        "deploy"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-10",
+      "requirement_id": "R-A10-10",
+      "title": "Izolarea mediului de probă",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Izolarea mediului de probă",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Orchestrator de laborator și executor",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F02",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Interoghează configurația rețelei de laborator, mounturi, schedulere, secrete și contoarele de trafic ale stubs. Pornește un flux sintetic de comandă.",
+      "expected": "Rețea Docker --internal sau none. Numărul conexiunilor externe și al volumelor producție montate este zero.",
+      "negative_variant": "Adaptor cu endpoint implicit sau job pornit din greșeală este blocat la egress.",
+      "probe_FE": "raport de execuție → stare refuz/în așteptare → log → identificator slot și rezultat",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Izolarea mediului de probă. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "isolate",
+        "network",
+        "build"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-11",
+      "requirement_id": "R-A10-11",
+      "title": "Testele regresive negative",
+      "pipeline_ids": [
+        "A10-F02"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Testele regresive negative",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Orchestrator de laborator și executor",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F02",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Introdu două defecte deliberate în copia testului: un răspuns fals de succes și dublarea efectului la retry. Verifică că suitele eșuează pe oracole independente.",
+      "expected": "Ambele mutații produc eșecul țintit. Dovada separă build, integrare și UI.",
+      "negative_variant": "Skip tăcut când backend-ul sau driverul browserului lipsește.",
+      "probe_FE": "raport de execuție → stare refuz/în așteptare → log → identificator slot și rezultat",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Testele regresive negative. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "build",
+        "isolate",
+        "readiness"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-12",
+      "requirement_id": "R-A10-12",
+      "title": "Idempotency în contextul corect",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "zone_id": "A10",
+      "task_ids": [],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Idempotency în contextul corect",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Adaptor cu drepturi pe firmă/canal și responsabil ERP",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F03",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Trimite aceeași cerere sintetică de două ori, apoi în paralel. Schimbă apoi payload-ul și firma. Compară rezultatele persistente.",
+      "expected": "Un singur efect pentru aceeași firmă/operație/cheie. O altă firmă nu primește răspunsul inițial. Reutilizarea cheii cu payload conflictual produce eroare explicată.",
+      "negative_variant": "Două instanțe API procesează aceeași cheie în paralel.",
+      "probe_FE": "mesaj primit → progres în ERP → document → reluare sau diagnostic accesibil operatorului",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Idempotency în contextul corect. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "commit",
+        "retry",
+        "api"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-13",
+      "requirement_id": "R-A10-13",
+      "title": "Timeout ambiguu după efect",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "zone_id": "A10",
+      "task_ids": [],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Timeout ambiguu după efect",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Adaptor cu drepturi pe firmă/canal și responsabil ERP",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F03",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Simulează că procesul pierde răspunsul după ce a comis documentul nativ. Reia cu aceeași cheie și compară DocStatus/tranzacție/referință.",
+      "expected": "Același ID la reluare și exact un efect financiar, logistic sau extern simulat.",
+      "negative_variant": "Commit reușit la ERP înaintea confirmării din adaptor.",
+      "probe_FE": "mesaj primit → progres în ERP → document → reluare sau diagnostic accesibil operatorului",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Timeout ambiguu după efect. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "retry",
+        "commit",
+        "audit"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-14",
+      "requirement_id": "R-A10-14",
+      "title": "Webhook autentic și în ordinea corectă",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "zone_id": "A10",
+      "task_ids": [],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Webhook autentic și în ordinea corectă",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Adaptor cu drepturi pe firmă/canal și responsabil ERP",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F03",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Identifică în inventar adaptorul real. Dacă există, trimite notificări sintetice cu semnătură validă, nevalidă, expirată, repetată și secvență inversată.",
+      "expected": "Payload invalid produce zero modificări și motiv verificabil. Evenimentul vechi nu inversează starea definitivă. Dacă adaptorul nu este prezent, delimitează corpusul și păstrează criteriul condițional pentru verificarea A11.",
+      "negative_variant": "Eveniment al firmei B folosește ID cunoscut de la firma A.",
+      "probe_FE": "mesaj primit → progres în ERP → document → reluare sau diagnostic accesibil operatorului",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Webhook autentic și în ordinea corectă. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "api",
+        "retry",
+        "audit"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-15",
+      "requirement_id": "R-A10-15",
+      "title": "Compensare și reconciliere",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "zone_id": "A10",
+      "task_ids": [],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Compensare și reconciliere",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Adaptor cu drepturi pe firmă/canal și responsabil ERP",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F03",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Oprește o comandă multiplă între documentul ERP și referința adaptorului local. Compară jurnalul, documentul nativ și răspunsul stub.",
+      "expected": "Fiecare efect rezidual are owner și stare de remediere. Nicio nouă factură, plată sau expediere la reluare.",
+      "negative_variant": "Confirmare webhook după anulare sau retur parțial.",
+      "probe_FE": "mesaj primit → progres în ERP → document → reluare sau diagnostic accesibil operatorului",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Compensare și reconciliere. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "commit",
+        "audit",
+        "claim"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-16",
+      "requirement_id": "R-A10-16",
+      "title": "Redactare jurnal și drepturi",
+      "pipeline_ids": [
+        "A10-F03"
+      ],
+      "zone_id": "A10",
+      "task_ids": [],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Redactare jurnal și drepturi",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Adaptor cu drepturi pe firmă/canal și responsabil ERP",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F03",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Introdu canari sintetici de autentificare, date bancare, email și client A/B. Caută canarii în UI, API, erori, loguri structurate și dovezi.",
+      "expected": "Zero expuneri neautorizate și corelația tehnică rămâne posibilă fără conținut sensibil.",
+      "negative_variant": "Excepție de adaptor cu răspuns integral și nesting în payload.",
+      "probe_FE": "mesaj primit → progres în ERP → document → reluare sau diagnostic accesibil operatorului",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Redactare jurnal și drepturi. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "redact",
+        "audit",
+        "api"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-17",
+      "requirement_id": "R-A10-17",
+      "title": "Revendicare unică a jobului",
+      "pipeline_ids": [
+        "A10-F04"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Revendicare unică a jobului",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Administrator, serviciu cu rol minim, operator",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F04",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Pregătește 50 unități sintetice, doi consumatori și un restart după claim. Compară setul de ID-uri și stările persistente înainte și după.",
+      "expected": "50 unități justificabile, fiecare cu un singur rezultat final sau intervenție explicită.",
+      "negative_variant": "Procesul moare între claim și marcarea în jurnal.",
+      "probe_FE": "stare cabinet/import → prag de așteptare → detaliu diagnostic → reluare sigură",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Revendicare unică a jobului. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "worker",
+        "claim",
+        "jobs"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-18",
+      "requirement_id": "R-A10-18",
+      "title": "Retry și coadă de erori",
+      "pipeline_ids": [
+        "A10-F04"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Retry și coadă de erori",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Administrator, serviciu cu rol minim, operator",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F04",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Stub răspunde 429, 503 și eroare definitivă. Verifică backoff, limita efectivă, semnalarea și selecția individuală pentru reluare.",
+      "expected": "Numărul apelurilor respectă politica configurată. După limita de retry, eroarea rămâne vizibilă operatorului.",
+      "negative_variant": "429 cu Retry-After sau indisponibilitate fără termen.",
+      "probe_FE": "stare cabinet/import → prag de așteptare → detaliu diagnostic → reluare sigură",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Retry și coadă de erori. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "jobs",
+        "worker",
+        "progress"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-19",
+      "requirement_id": "R-A10-19",
+      "title": "Readiness și mesaje operator",
+      "pipeline_ids": [
+        "A10-F04"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Readiness și mesaje operator",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Administrator, serviciu cu rol minim, operator",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F04",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "În copie întrerupe pe rând DB, iDempiere și worker. Compară probe backend/ERP, mesajul în UI și starea recuperată.",
+      "expected": "Sistemul distinge dependența indisponibilă de rezultat operațional final. UI prezintă următoarea acțiune și păstrează contextul.",
+      "negative_variant": "Containerul răspunde la HTTP dar documentul încă așteaptă confirmarea.",
+      "probe_FE": "stare cabinet/import → prag de așteptare → detaliu diagnostic → reluare sigură",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Readiness și mesaje operator. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "health",
+        "readiness",
+        "UI"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-20",
+      "requirement_id": "R-A10-20",
+      "title": "Detectarea întârzierii și a blocajului",
+      "pipeline_ids": [
+        "A10-F04"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Detectarea întârzierii și a blocajului",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Administrator, serviciu cu rol minim, operator",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F04",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Creează în laborator o coadă cu backlog și un job fără heartbeat. Compară vârsta minimă/maximă și semnalul operator.",
+      "expected": "Backlogul, vârsta și ultimul succes se pot lega de job și firmă. Deficitul de monitorizare are probă, nu doar presupunere.",
+      "negative_variant": "Proces viu dar blocat fără progres.",
+      "probe_FE": "stare cabinet/import → prag de așteptare → detaliu diagnostic → reluare sigură",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Detectarea întârzierii și a blocajului. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "progress",
+        "audit",
+        "worker"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-21",
+      "requirement_id": "R-A10-21",
+      "title": "Copie coerentă între DB și volume",
+      "pipeline_ids": [
+        "A10-F05"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Copie coerentă între DB și volume",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Administrator de recuperare și contabil verificator",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F05",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "În cabinet sintetic salvează document martor, înregistrări contabile și o anexă cu SHA cunoscut. Capturează punctul backup și setul tuturor volumelor implicate.",
+      "expected": "Manifestul include DB/JAR/schema/fișiere/config reconstitubile. Soldurile și anexele se leagă de același punct temporal.",
+      "negative_variant": "Ultimul fișier ajunge după dump fără marker de consistență.",
+      "probe_FE": "administrator vede starea → contabil deschide documente și anexe → rol canal vede doar datele proprii",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Copie coerentă între DB și volume. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "volume",
+        "erp",
+        "data"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-22",
+      "requirement_id": "R-A10-22",
+      "title": "Restore validat la nivel de utilizator",
+      "pipeline_ids": [
+        "A10-F05"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Restore validat la nivel de utilizator",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Administrator de recuperare și contabil verificator",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F05",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Restaurează exclusiv într-un namespace nou și în rețea izolată. Verifică prin UI documentul, accesul la anexă și totalurile.",
+      "expected": "Documentul apare o singură dată, suma debit=credit și hashul anexei corespunde. Logurile păstrează timpul real.",
+      "negative_variant": "Cheie de fișier absentă deși restaurarea SQL a terminat cu succes.",
+      "probe_FE": "administrator vede starea → contabil deschide documente și anexe → rol canal vede doar datele proprii",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Restore validat la nivel de utilizator. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "volume",
+        "store",
+        "readiness"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-23",
+      "requirement_id": "R-A10-23",
+      "title": "RPO/RTO și revenirea la versiunea compatibilă",
+      "pipeline_ids": [
+        "A10-F05"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "RPO/RTO și revenirea la versiunea compatibilă",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Administrator de recuperare și contabil verificator",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F05",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Cronometrează pierderea de date permise vs punctul restaurat și timpul până la prima operație reușită. Compară valorile cu politica documentată sau înregistrează că ținta nu e stabilită.",
+      "expected": "RPO/RTO măsurate și ținta aprobată citată sau deficitul declarat. Restaurarea păstrează perechea schemă/JAR compatibilă.",
+      "negative_variant": "Rollback numai al imaginii după migrare incompatibilă.",
+      "probe_FE": "administrator vede starea → contabil deschide documente și anexe → rol canal vede doar datele proprii",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de RPO/RTO și revenirea la versiunea compatibilă. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "deploy",
+        "jar",
+        "data"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-24",
+      "requirement_id": "R-A10-24",
+      "title": "Spree, worker, index și storage pe canal",
+      "pipeline_ids": [
+        "A10-F05"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Spree, worker, index și storage pe canal",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Administrator de recuperare și contabil verificator",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F05",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Restaurează două canale de probă cu aceleași sluguri de articol. Verifică DB, Redis, Meili, fișiere, index rebuild și rutare în ambele roluri.",
+      "expected": "Conținutul, coada, cache-ul și fișierele fiecărui canal rămân distincte inclusiv după rebuild.",
+      "negative_variant": "Cache cald sau bucket greșit după schimbarea canalului.",
+      "probe_FE": "administrator vede starea → contabil deschide documente și anexe → rol canal vede doar datele proprii",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Spree, worker, index și storage pe canal. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "web",
+        "spree",
+        "store"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-25",
+      "requirement_id": "R-A10-25",
+      "title": "Praguri și încărcare reproductibilă",
+      "pipeline_ids": [
+        "A10-F06"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Praguri și încărcare reproductibilă",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Operator canal, comisionar și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F06",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Măsoară după 20 warm-up și minimum 100 cereri per profil, volume 1k/10k, concurență 1/10/30, p50/p95/p99 și erori. Separă first-load de cache cald.",
+      "expected": "Pragul propus pentru laborator este p95 listă ≤2s și eroare <1% la concurență 10. Valoarea și efectul asupra utilizatorului se raportează chiar dacă pragul nu are SLA contractual.",
+      "negative_variant": "Una dintre dependențe introduce +500ms la fiecare apel.",
+      "probe_FE": "listă ERP și catalog canal → încărcare/parțial/eroare → retry → consistență cu documentul",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Praguri și încărcare reproductibilă. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "UI",
+        "api",
+        "health"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-26",
+      "requirement_id": "R-A10-26",
+      "title": "Paginare și export cu date mari",
+      "pipeline_ids": [
+        "A10-F06"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Paginare și export cu date mari",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Operator canal, comisionar și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F06",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Deschide prima/ultima pagină când un job adaugă rânduri. Repetă exportul, verifică totalurile și planul EXPLAIN pe fixture pentru 10k rânduri.",
+      "expected": "Nicio duplicare sau dispariție pentru snapshot contractual. Filtrul de firmă se păstrează la fiecare pagină și export.",
+      "negative_variant": "Schimbare sortare cu valori egale și backpressure în fluxul export.",
+      "probe_FE": "listă ERP și catalog canal → încărcare/parțial/eroare → retry → consistență cu documentul",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Paginare și export cu date mari. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "api",
+        "UI",
+        "progress"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-27",
+      "requirement_id": "R-A10-27",
+      "title": "Degradare și recuperare canal",
+      "pipeline_ids": [
+        "A10-F06"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Degradare și recuperare canal",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Operator canal, comisionar și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F06",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "În laborator crește latența motorului de căutare apoi restaurează-l. Observă mesaj, păstrarea stării, p95 și răspuns din cache pe ambele firme.",
+      "expected": "Operatorul poate relua. Catalogul, totalul și contextul firmei rămân conforme după revenire.",
+      "negative_variant": "Timeout și răspuns tardiv pentru canalul anterior.",
+      "probe_FE": "listă ERP și catalog canal → încărcare/parțial/eroare → retry → consistență cu documentul",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Degradare și recuperare canal. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "web",
+        "health",
+        "store"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A10-CK-28",
+      "requirement_id": "R-A10-28",
+      "title": "Suprafață API și politici de acces",
+      "pipeline_ids": [
+        "A10-F06"
+      ],
+      "zone_id": "A10",
+      "task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "layer": [
+        "FE",
+        "BE",
+        "UX",
+        "DB",
+        "ops/nativ"
+      ],
+      "risk": "Suprafață API și politici de acces",
+      "applicability": "Control obligatoriu pentru flux. O ramură fără funcție instalată se delimitează prin corpus, dicționar și verificare a A11.",
+      "environment": "Replica izolată cu două firme și două canale sintetice; runtime exterior doar inventar read-only.",
+      "role_context": "Operator canal, comisionar și administrator tehnic",
+      "preconditions": [
+        "A11 aprobare 10/10 a hashului planului",
+        "Versiuni imagine, JAR, schema DB, rol și fixture pinuit",
+        "Primirea slotului §61 dacă proba pornește container/DB/browser; SSH numai pentru operații autorizate."
+      ],
+      "fixture": "FX-A10-F06",
+      "method": "Reproducere controlată, comparație oracol independent înainte/după și negativ.",
+      "steps_or_command": "Compară ruta publicată cu backend, metoda, versiunea, limita payloadului, validarea și rolul aplicat. Testează serviciul din alt tenant și un endpoint administrativ.",
+      "expected": "Aceeași politică de autorizare se aplică la UI, proxy și accesul API autorizat pentru test. Cererile improprii lasă zero rânduri schimbate.",
+      "negative_variant": "Path cu CUI schimbat ori payload supradimensionat.",
+      "probe_FE": "listă ERP și catalog canal → încărcare/parțial/eroare → retry → consistență cu documentul",
+      "probe_BE": "Capturează simbolurile și limita de tranzacție legate de Suprafață API și politici de acces. Înregistrează răspunsul pe fiecare încercare.",
+      "probe_UX": "Păstrează mesajele și următorul pas al rolului indicat pentru cazul de succes și cel negativ.",
+      "probe_DB_native": "Fotografie numai-citire înainte/după în clonă; exportul numărătorilor și ID-urilor efectelor sau justificare A11 pentru control fără rând ERP.",
+      "source_anchors": [
+        "api",
+        "network",
+        "audit"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "Arhivează dovezile cu SHA. Eliberează slotul și închide numai resursele sintetice identificate ale rulării. Confirmă zero procese/volume noi în producție.",
+      "executor": "A10",
+      "executed_at": null,
+      "reviewer_result": null
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline_id": "A10-F01",
+      "title": "Din commit până în cabinet",
+      "business_outcome": "Din commit până în cabinet",
+      "trigger": "Build și publicare de probă",
+      "actor_context": "DevOps de laborator și administrator tehnic",
+      "input_contract": "commit + lockfiles + SHA surse + target platformă + digest imagine + bundle + nivel AD",
+      "state_machine": "sursă fixată → construit → verificat → instalat în cabinet de probă → disponibil → comparație regresii",
+      "ui_route": "versiuni și meniu ajutor → configurare în cabinet → rol contabil deschide fereastra → identificator verificat în raport",
+      "api_calls": "build base jar hash readiness deploy UI",
+      "service_symbols": [
+        {
+          "id": "build",
+          "file": "tools/teste/baza_teste.sh",
+          "line": 101,
+          "symbol": "la_iesire()",
+          "sha256": "659d2e97ac01398f4253d3ef31ea3bab2a9e85fd30192f275dd5eb97075c2a1c",
+          "git_blob": "61df9fc4c512bcd80224814d6a73b5d7b5758963",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "base",
+          "file": "idempiere/Dockerfile",
+          "line": 22,
+          "symbol": "FROM idempiereofficial/idempiere:13-release",
+          "sha256": "9a9c095d35dde1e21c769c9ab04d6d1a76182dee193e337e98147048adc78459",
+          "git_blob": "321f5c6b3e50b8b1540d2d8f94e7672a6d9ce5e3",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "jar",
+          "file": "idempiere/Dockerfile",
+          "line": 101,
+          "symbol": "COPY plugins/com.eva.ro.contab/com.eva.ro.contab_13.0.0.jar",
+          "sha256": "9a9c095d35dde1e21c769c9ab04d6d1a76182dee193e337e98147048adc78459",
+          "git_blob": "321f5c6b3e50b8b1540d2d8f94e7672a6d9ce5e3",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "hash",
+          "file": "provisioner/app.py",
+          "line": 217,
+          "symbol": "def _jar_md5(",
+          "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+          "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "readiness",
+          "file": "provisioner/app.py",
+          "line": 232,
+          "symbol": "def _webui_ok(",
+          "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+          "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "deploy",
+          "file": "provisioner/app.py",
+          "line": 1332,
+          "symbol": "def upgrade_cabinet(",
+          "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+          "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "UI",
+          "file": "frontend/app.py",
+          "line": 3379,
+          "symbol": "def eva_api_cabinets_status(",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe",
+          "git_blob": "3528d02aaf6b4f7c3f368e2024a7d6762048a0f8",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "db_reads_writes": [
+        "AD_Menu/AD_Process/AD_PInstance pentru corelarea funcției efective după caz",
+        "PostgreSQL izolat înainte și după fiecare efect; tabela reală se identifică din contractul confirmat; nu se scrie SQL direct documente ERP."
+      ],
+      "native_documents": "Când rezultatul include un document ERP se păstrează tipul, cheia sa, DocStatus și legătura AD_Table/Record_ID. Pentru infrastructură fără document se justifică neaplicabilitatea.",
+      "external_effects": "Server și parteneri reali numai inventare autorizate. Injecții de erori și orice efect în lab --internal cu stub.",
+      "transaction_boundaries": "Se captează punctul ultimului efect confirmat și al răspunsului publicat; la restart se verifică fiecare punct de întrerupere separat.",
+      "correlation_ids": "ID rulare + tenant/AD_Client/AD_Org + document/job + ID încercare + timestamp UTC",
+      "authorization_guards": "Acces verificat în proces/API și la filtrarea datelor, separat de vizibilitatea UI.",
+      "idempotency_scope": "Cabinet și operație, cheie de business și versiune de eveniment sau slot de resursă. Verifică reutilizarea cu payload diferit.",
+      "normal_path": "sursă fixată → construit → verificat → instalat în cabinet de probă → disponibil → comparație regresii",
+      "negative_paths": "imagine/JAR nepotrivit, OSGi incompatibil, migrare parțială, AD nereîmprospătat",
+      "retry_timeout_concurrency": "imagine/JAR nepotrivit, OSGi incompatibil, migrare parțială, AD nereîmprospătat",
+      "compensation_reconciliation": "O singură migrare pe versiune și cabinet. Dovada arată commit, digest, hash JAR, Bundle-Version, AD, schema, payloadul CSS/JS încărcat. Comparația se face individual pe cabinet.",
+      "numeric_invariants": "O singură migrare pe versiune și cabinet. Dovada arată commit, digest, hash JAR, Bundle-Version, AD, schema, payloadul CSS/JS încărcat. Comparația se face individual pe cabinet.",
+      "cross_zone_owners": [
+        "A02",
+        "A03",
+        "A09",
+        "A12"
+      ],
+      "actual_task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0002",
+        "P01.C15.T0004",
+        "P01.C15.T0005"
+      ],
+      "chapter_handoffs": [],
+      "final_state": "Raport operabil pe fixture reconciliat cu UI, efectele și starea finală.",
+      "test_ids": [
+        "A10-CK-01",
+        "A10-CK-02",
+        "A10-CK-03",
+        "A10-CK-04",
+        "A10-CK-05",
+        "A10-CK-06"
+      ],
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A10-F02",
+      "title": "Izolare, coadă și execuție CI",
+      "business_outcome": "Izolare, coadă și execuție CI",
+      "trigger": "Cerere pentru un build, suită sau montare",
+      "actor_context": "Orchestrator de laborator și executor",
+      "input_contract": "sesiune/cont/task/slot/tip, PID, fixtures sintetice, alocare CPU/RAM",
+      "state_machine": "în așteptare → admis/refuzat → execuție → terminare → slot eliberat",
+      "ui_route": "raport de execuție → stare refuz/în așteptare → log → identificator slot și rezultat",
+      "api_calls": "queue release build isolate network",
+      "service_symbols": [
+        {
+          "id": "queue",
+          "file": "tools/status/coada_builduri.sh",
+          "line": 41,
+          "symbol": "load_ok()",
+          "sha256": "72264d18c0037bfe0a3fb09e41bfea9f752b509df8398043e1685f34d85591c2",
+          "git_blob": "aaccf5a33121b91b11c53c7a5d44007774cc0ce3",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "release",
+          "file": "tools/status/coada_montari.sh",
+          "line": 43,
+          "symbol": "primul_din_rand()",
+          "sha256": "eacc92b000e4f2beee1fbda7006e0dbcc4fdfcea016e779aeb7d228aabfe452e",
+          "git_blob": "2d84988595791dc20393bd4b161d064918d1692e",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "build",
+          "file": "tools/teste/baza_teste.sh",
+          "line": 101,
+          "symbol": "la_iesire()",
+          "sha256": "659d2e97ac01398f4253d3ef31ea3bab2a9e85fd30192f275dd5eb97075c2a1c",
+          "git_blob": "61df9fc4c512bcd80224814d6a73b5d7b5758963",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "isolate",
+          "file": "tools/teste/garda_parteneri_scriere.py",
+          "line": 58,
+          "symbol": "def scaneaza(",
+          "sha256": "60c5e95caaab79a3bde78cf01baaa7db411dd250e111ab64c8226c5df6b1a67f",
+          "git_blob": "71301a160dce36ae69a95ce7a5e1202faea646bc",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "network",
+          "file": "backend/tools/check_compose_security.py",
+          "line": 28,
+          "symbol": "def container_port(",
+          "sha256": "dea3d5bf3d6e659560c227a12da5db2b341df6f1c83f22867c45ec5a092cd582",
+          "git_blob": "83e48e2643863d1617af55be2e8f8e7188c3cef3",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "db_reads_writes": [
+        "AD_Menu/AD_Process/AD_PInstance pentru corelarea funcției efective după caz",
+        "PostgreSQL izolat înainte și după fiecare efect; tabela reală se identifică din contractul confirmat; nu se scrie SQL direct documente ERP."
+      ],
+      "native_documents": "Când rezultatul include un document ERP se păstrează tipul, cheia sa, DocStatus și legătura AD_Table/Record_ID. Pentru infrastructură fără document se justifică neaplicabilitatea.",
+      "external_effects": "Server și parteneri reali numai inventare autorizate. Injecții de erori și orice efect în lab --internal cu stub.",
+      "transaction_boundaries": "Se captează punctul ultimului efect confirmat și al răspunsului publicat; la restart se verifică fiecare punct de întrerupere separat.",
+      "correlation_ids": "ID rulare + tenant/AD_Client/AD_Org + document/job + ID încercare + timestamp UTC",
+      "authorization_guards": "Acces verificat în proces/API și la filtrarea datelor, separat de vizibilitatea UI.",
+      "idempotency_scope": "Cabinet și operație, cheie de business și versiune de eveniment sau slot de resursă. Verifică reutilizarea cu payload diferit.",
+      "normal_path": "în așteptare → admis/refuzat → execuție → terminare → slot eliberat",
+      "negative_paths": "semnale concurente, proces mort, memorie insuficientă, cron extern încă activ",
+      "retry_timeout_concurrency": "semnale concurente, proces mort, memorie insuficientă, cron extern încă activ",
+      "compensation_reconciliation": "Limitele globale se respectă și după timeout. Orice efect către partener sau volum real oprește proba.",
+      "numeric_invariants": "Limitele globale se respectă și după timeout. Orice efect către partener sau volum real oprește proba.",
+      "cross_zone_owners": [
+        "A01",
+        "A02",
+        "A11"
+      ],
+      "actual_task_ids": [
+        "P01.C15.T0001",
+        "P01.C15.T0003",
+        "P01.C15.T0006"
+      ],
+      "chapter_handoffs": [],
+      "final_state": "Raport operabil pe fixture reconciliat cu UI, efectele și starea finală.",
+      "test_ids": [
+        "A10-CK-07",
+        "A10-CK-08",
+        "A10-CK-09",
+        "A10-CK-10",
+        "A10-CK-11"
+      ],
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A10-F03",
+      "title": "Eveniment API și consumator",
+      "business_outcome": "Eveniment API și consumator",
+      "trigger": "Retur/comandă/mesaj asincron din simulatoare",
+      "actor_context": "Adaptor cu drepturi pe firmă/canal și responsabil ERP",
+      "input_contract": "tenant, canal, document, event_id, versiune, idempotency key, sequence, timestamp, signature conform contractului",
+      "state_machine": "primit → validat → înregistrat → procesat → confirmat sau carantină → reconciliat",
+      "ui_route": "mesaj primit → progres în ERP → document → reluare sau diagnostic accesibil operatorului",
+      "api_calls": "api retry commit redact audit claim",
+      "service_symbols": [
+        {
+          "id": "api",
+          "file": "frontend/app.py",
+          "line": 1857,
+          "symbol": "def _eva_proxy_raw(",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe",
+          "git_blob": "3528d02aaf6b4f7c3f368e2024a7d6762048a0f8",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "retry",
+          "file": "backend/app/idempotency.py",
+          "line": 24,
+          "symbol": "def replay(",
+          "sha256": "10a9c649c0d3abc66c1b3f7ac97625b0cb0405bce313a51c4bad7ed42ccc3538",
+          "git_blob": "8d498b342a7d32b5b1dcf59166cc0dc37f507ec4",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "commit",
+          "file": "backend/app/idempotency.py",
+          "line": 33,
+          "symbol": "def store(",
+          "sha256": "10a9c649c0d3abc66c1b3f7ac97625b0cb0405bce313a51c4bad7ed42ccc3538",
+          "git_blob": "8d498b342a7d32b5b1dcf59166cc0dc37f507ec4",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "redact",
+          "file": "backend/app/audit.py",
+          "line": 10,
+          "symbol": "def _mask(",
+          "sha256": "b2706b6c13828db8500b19d1af2502099c404b492c20bc4de1ca05af92c151e0",
+          "git_blob": "1f8ab57f88e227646192e404187dba2aa3cefab9",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "audit",
+          "file": "backend/app/audit.py",
+          "line": 23,
+          "symbol": "def record(",
+          "sha256": "b2706b6c13828db8500b19d1af2502099c404b492c20bc4de1ca05af92c151e0",
+          "git_blob": "1f8ab57f88e227646192e404187dba2aa3cefab9",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "claim",
+          "file": "backend/app/ai_assistant/worker.py",
+          "line": 24,
+          "symbol": "def claim_next(",
+          "sha256": "4a84eb3b0028c963f57e3597c8692e2af00cb1444cd439f4c00d313f3bc5a458",
+          "git_blob": "7e536613ffe07f56cd7fe178945ee9475b7c8aa5",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "db_reads_writes": [
+        "AD_Menu/AD_Process/AD_PInstance pentru corelarea funcției efective după caz",
+        "PostgreSQL izolat înainte și după fiecare efect; tabela reală se identifică din contractul confirmat; nu se scrie SQL direct documente ERP."
+      ],
+      "native_documents": "Când rezultatul include un document ERP se păstrează tipul, cheia sa, DocStatus și legătura AD_Table/Record_ID. Pentru infrastructură fără document se justifică neaplicabilitatea.",
+      "external_effects": "Server și parteneri reali numai inventare autorizate. Injecții de erori și orice efect în lab --internal cu stub.",
+      "transaction_boundaries": "Se captează punctul ultimului efect confirmat și al răspunsului publicat; la restart se verifică fiecare punct de întrerupere separat.",
+      "correlation_ids": "ID rulare + tenant/AD_Client/AD_Org + document/job + ID încercare + timestamp UTC",
+      "authorization_guards": "Acces verificat în proces/API și la filtrarea datelor, separat de vizibilitatea UI.",
+      "idempotency_scope": "Cabinet și operație, cheie de business și versiune de eveniment sau slot de resursă. Verifică reutilizarea cu payload diferit.",
+      "normal_path": "primit → validat → înregistrat → procesat → confirmat sau carantină → reconciliat",
+      "negative_paths": "timeout după commit, replay concurent, semnătură invalidă, mesaj inversat, lot parțial",
+      "retry_timeout_concurrency": "timeout după commit, replay concurent, semnătură invalidă, mesaj inversat, lot parțial",
+      "compensation_reconciliation": "După orice reluare tratată ca aceeași operație numărul documentelor rămâne unu. Confirmarea finală se corelează cu starea ERP și apartenența firmei.",
+      "numeric_invariants": "După orice reluare tratată ca aceeași operație numărul documentelor rămâne unu. Confirmarea finală se corelează cu starea ERP și apartenența firmei.",
+      "cross_zone_owners": [
+        "A01",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "actual_task_ids": [],
+      "chapter_handoffs": [
+        "P01.C10"
+      ],
+      "final_state": "Raport operabil pe fixture reconciliat cu UI, efectele și starea finală.",
+      "test_ids": [
+        "A10-CK-12",
+        "A10-CK-13",
+        "A10-CK-14",
+        "A10-CK-15",
+        "A10-CK-16"
+      ],
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A10-F04",
+      "title": "Job, vizibilitate și revenire după întrerupere",
+      "business_outcome": "Job, vizibilitate și revenire după întrerupere",
+      "trigger": "Job programat sau cerere de import",
+      "actor_context": "Administrator, serviciu cu rol minim, operator",
+      "input_contract": "job/run/correlation, client/org, perioadă, cursor, număr încercări și stare persistentă",
+      "state_machine": "planificat → revendicat → progres → reîncercare → terminat sau incident",
+      "ui_route": "stare cabinet/import → prag de așteptare → detaliu diagnostic → reluare sigură",
+      "api_calls": "jobs claim worker progress health audit",
+      "service_symbols": [
+        {
+          "id": "jobs",
+          "file": "backend/app/bank/psd2/scheduler.py",
+          "line": 111,
+          "symbol": "class EvaBankScheduler:",
+          "sha256": "b09c4c1ea3e839c30ed7a9a61b70f23332f7a65e21069dd7c232128fb1c81e6c",
+          "git_blob": "6df4b729cd5d31b09f85bbaba5cc883d610cef30",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "claim",
+          "file": "backend/app/ai_assistant/worker.py",
+          "line": 24,
+          "symbol": "def claim_next(",
+          "sha256": "4a84eb3b0028c963f57e3597c8692e2af00cb1444cd439f4c00d313f3bc5a458",
+          "git_blob": "7e536613ffe07f56cd7fe178945ee9475b7c8aa5",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "worker",
+          "file": "provisioner/app.py",
+          "line": 433,
+          "symbol": "def _bringup_worker(",
+          "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+          "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "progress",
+          "file": "provisioner/app.py",
+          "line": 372,
+          "symbol": "def _queue_view(",
+          "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+          "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "health",
+          "file": "backend/app/routers/health.py",
+          "line": 14,
+          "symbol": "def idempiere_health(",
+          "sha256": "b9c9e83591e78dbf0f4a236eeae5be5a13545a1b126f7ea78bf047ba536af09b",
+          "git_blob": "d9e37b4ebdd45804621e1a8dbfcef008a069d816",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "audit",
+          "file": "backend/app/audit.py",
+          "line": 23,
+          "symbol": "def record(",
+          "sha256": "b2706b6c13828db8500b19d1af2502099c404b492c20bc4de1ca05af92c151e0",
+          "git_blob": "1f8ab57f88e227646192e404187dba2aa3cefab9",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "db_reads_writes": [
+        "AD_Menu/AD_Process/AD_PInstance pentru corelarea funcției efective după caz",
+        "PostgreSQL izolat înainte și după fiecare efect; tabela reală se identifică din contractul confirmat; nu se scrie SQL direct documente ERP."
+      ],
+      "native_documents": "Când rezultatul include un document ERP se păstrează tipul, cheia sa, DocStatus și legătura AD_Table/Record_ID. Pentru infrastructură fără document se justifică neaplicabilitatea.",
+      "external_effects": "Server și parteneri reali numai inventare autorizate. Injecții de erori și orice efect în lab --internal cu stub.",
+      "transaction_boundaries": "Se captează punctul ultimului efect confirmat și al răspunsului publicat; la restart se verifică fiecare punct de întrerupere separat.",
+      "correlation_ids": "ID rulare + tenant/AD_Client/AD_Org + document/job + ID încercare + timestamp UTC",
+      "authorization_guards": "Acces verificat în proces/API și la filtrarea datelor, separat de vizibilitatea UI.",
+      "idempotency_scope": "Cabinet și operație, cheie de business și versiune de eveniment sau slot de resursă. Verifică reutilizarea cu payload diferit.",
+      "normal_path": "planificat → revendicat → progres → reîncercare → terminat sau incident",
+      "negative_paths": "resurse insuficiente, doi lucrători, pierdere DB, scheduler dublu, repornire",
+      "retry_timeout_concurrency": "resurse insuficiente, doi lucrători, pierdere DB, scheduler dublu, repornire",
+      "compensation_reconciliation": "Toate elementele admise sunt contabilizate ca procesat, în așteptare ori eroare. Repetarea aceleiași unități de lucru are cel mult un efect.",
+      "numeric_invariants": "Toate elementele admise sunt contabilizate ca procesat, în așteptare ori eroare. Repetarea aceleiași unități de lucru are cel mult un efect.",
+      "cross_zone_owners": [
+        "A01",
+        "A04",
+        "A07",
+        "A09"
+      ],
+      "actual_task_ids": [
+        "P01.C11.T0005",
+        "P01.C15.T0003"
+      ],
+      "chapter_handoffs": [],
+      "final_state": "Raport operabil pe fixture reconciliat cu UI, efectele și starea finală.",
+      "test_ids": [
+        "A10-CK-17",
+        "A10-CK-18",
+        "A10-CK-19",
+        "A10-CK-20"
+      ],
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A10-F05",
+      "title": "Copie de siguranță, restaurare și rollback",
+      "business_outcome": "Copie de siguranță, restaurare și rollback",
+      "trigger": "Exercițiu de recuperare pe date sintetice",
+      "actor_context": "Administrator de recuperare și contabil verificator",
+      "input_contract": "snapshot logic DB, metadate versiuni, volume fișiere, checksum, punct temporal, set martor",
+      "state_machine": "copie coerentă → verificare → restaurare izolată → repornire → reconciliere → raport",
+      "ui_route": "administrator vede starea → contabil deschide documente și anexe → rol canal vede doar datele proprii",
+      "api_calls": "volume deploy data store spree erp",
+      "service_symbols": [
+        {
+          "id": "volume",
+          "file": "provisioner/app.py",
+          "line": 143,
+          "symbol": "def _cabinet_volumes(",
+          "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+          "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "deploy",
+          "file": "provisioner/app.py",
+          "line": 1332,
+          "symbol": "def upgrade_cabinet(",
+          "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f",
+          "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "data",
+          "file": "docker-compose.yml",
+          "line": 618,
+          "symbol": "spree_storage_data:",
+          "sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+          "git_blob": "3537b4190bc07b0e591fba3f44feec8bfb749116",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "store",
+          "file": "scripts/spree-instances/docker-compose.market.yml",
+          "line": 67,
+          "symbol": "market_storage_data:",
+          "sha256": "5073a36595bca8a70012f6e25fb79f0bc85ae5ce799ada6270fc524ec3a13a4c",
+          "git_blob": "4b8ef6b9f31747f748d19042bfaef9f724eda7e5",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "spree",
+          "file": "docker-compose.yml",
+          "line": 588,
+          "symbol": "spree-web:",
+          "sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+          "git_blob": "3537b4190bc07b0e591fba3f44feec8bfb749116",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "erp",
+          "file": "docker-compose.yml",
+          "line": 43,
+          "symbol": "postgres-idempiere:",
+          "sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+          "git_blob": "3537b4190bc07b0e591fba3f44feec8bfb749116",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "db_reads_writes": [
+        "AD_Menu/AD_Process/AD_PInstance pentru corelarea funcției efective după caz",
+        "PostgreSQL izolat înainte și după fiecare efect; tabela reală se identifică din contractul confirmat; nu se scrie SQL direct documente ERP."
+      ],
+      "native_documents": "Când rezultatul include un document ERP se păstrează tipul, cheia sa, DocStatus și legătura AD_Table/Record_ID. Pentru infrastructură fără document se justifică neaplicabilitatea.",
+      "external_effects": "Server și parteneri reali numai inventare autorizate. Injecții de erori și orice efect în lab --internal cu stub.",
+      "transaction_boundaries": "Se captează punctul ultimului efect confirmat și al răspunsului publicat; la restart se verifică fiecare punct de întrerupere separat.",
+      "correlation_ids": "ID rulare + tenant/AD_Client/AD_Org + document/job + ID încercare + timestamp UTC",
+      "authorization_guards": "Acces verificat în proces/API și la filtrarea datelor, separat de vizibilitatea UI.",
+      "idempotency_scope": "Cabinet și operație, cheie de business și versiune de eveniment sau slot de resursă. Verifică reutilizarea cu payload diferit.",
+      "normal_path": "copie coerentă → verificare → restaurare izolată → repornire → reconciliere → raport",
+      "negative_paths": "pachet corupt, fișier lipsă, restaurare parțială, incompatibilitate JAR/schemă, index vechi",
+      "retry_timeout_concurrency": "pachet corupt, fișier lipsă, restaurare parțială, incompatibilitate JAR/schemă, index vechi",
+      "compensation_reconciliation": "Documentele, soldurile, anexele și permisiunile martor se potrivesc cu fotografia de la care s-a restaurat.",
+      "numeric_invariants": "Documentele, soldurile, anexele și permisiunile martor se potrivesc cu fotografia de la care s-a restaurat.",
+      "cross_zone_owners": [
+        "A02",
+        "A03",
+        "A07",
+        "A08"
+      ],
+      "actual_task_ids": [
+        "P01.C15.T0002",
+        "P01.C15.T0003"
+      ],
+      "chapter_handoffs": [],
+      "final_state": "Raport operabil pe fixture reconciliat cu UI, efectele și starea finală.",
+      "test_ids": [
+        "A10-CK-21",
+        "A10-CK-22",
+        "A10-CK-23",
+        "A10-CK-24"
+      ],
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A10-F06",
+      "title": "Disponibilitatea și capacitatea canalului",
+      "business_outcome": "Disponibilitatea și capacitatea canalului",
+      "trigger": "Vârf de acces catalog și administrare ERP",
+      "actor_context": "Operator canal, comisionar și administrator tehnic",
+      "input_contract": "versiune deploy, context autorizat, volume 1k/10k, pagină/limită, concurență 1/10/30, warm/cold",
+      "state_machine": "cerere → proxy → autentificare → cache/DB → răspuns/paginare → degradare controlată → revenire",
+      "ui_route": "listă ERP și catalog canal → încărcare/parțial/eroare → retry → consistență cu documentul",
+      "api_calls": "UI api health web network store",
+      "service_symbols": [
+        {
+          "id": "UI",
+          "file": "frontend/app.py",
+          "line": 3379,
+          "symbol": "def eva_api_cabinets_status(",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe",
+          "git_blob": "3528d02aaf6b4f7c3f368e2024a7d6762048a0f8",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "api",
+          "file": "frontend/app.py",
+          "line": 1857,
+          "symbol": "def _eva_proxy_raw(",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe",
+          "git_blob": "3528d02aaf6b4f7c3f368e2024a7d6762048a0f8",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "health",
+          "file": "backend/app/routers/health.py",
+          "line": 14,
+          "symbol": "def idempiere_health(",
+          "sha256": "b9c9e83591e78dbf0f4a236eeae5be5a13545a1b126f7ea78bf047ba536af09b",
+          "git_blob": "d9e37b4ebdd45804621e1a8dbfcef008a069d816",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "web",
+          "file": "scripts/spree-instances/docker-compose.market.yml",
+          "line": 45,
+          "symbol": "eva-spree-market-web:",
+          "sha256": "5073a36595bca8a70012f6e25fb79f0bc85ae5ce799ada6270fc524ec3a13a4c",
+          "git_blob": "4b8ef6b9f31747f748d19042bfaef9f724eda7e5",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "network",
+          "file": "backend/tools/check_compose_security.py",
+          "line": 28,
+          "symbol": "def container_port(",
+          "sha256": "dea3d5bf3d6e659560c227a12da5db2b341df6f1c83f22867c45ec5a092cd582",
+          "git_blob": "83e48e2643863d1617af55be2e8f8e7188c3cef3",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "id": "store",
+          "file": "scripts/spree-instances/docker-compose.market.yml",
+          "line": 67,
+          "symbol": "market_storage_data:",
+          "sha256": "5073a36595bca8a70012f6e25fb79f0bc85ae5ce799ada6270fc524ec3a13a4c",
+          "git_blob": "4b8ef6b9f31747f748d19042bfaef9f724eda7e5",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "db_reads_writes": [
+        "AD_Menu/AD_Process/AD_PInstance pentru corelarea funcției efective după caz",
+        "PostgreSQL izolat înainte și după fiecare efect; tabela reală se identifică din contractul confirmat; nu se scrie SQL direct documente ERP."
+      ],
+      "native_documents": "Când rezultatul include un document ERP se păstrează tipul, cheia sa, DocStatus și legătura AD_Table/Record_ID. Pentru infrastructură fără document se justifică neaplicabilitatea.",
+      "external_effects": "Server și parteneri reali numai inventare autorizate. Injecții de erori și orice efect în lab --internal cu stub.",
+      "transaction_boundaries": "Se captează punctul ultimului efect confirmat și al răspunsului publicat; la restart se verifică fiecare punct de întrerupere separat.",
+      "correlation_ids": "ID rulare + tenant/AD_Client/AD_Org + document/job + ID încercare + timestamp UTC",
+      "authorization_guards": "Acces verificat în proces/API și la filtrarea datelor, separat de vizibilitatea UI.",
+      "idempotency_scope": "Cabinet și operație, cheie de business și versiune de eveniment sau slot de resursă. Verifică reutilizarea cu payload diferit.",
+      "normal_path": "cerere → proxy → autentificare → cache/DB → răspuns/paginare → degradare controlată → revenire",
+      "negative_paths": "dependență lentă, rate-limit, indisponibilitate motor căutare, cache interfirmă, timeout export",
+      "retry_timeout_concurrency": "dependență lentă, rate-limit, indisponibilitate motor căutare, cache interfirmă, timeout export",
+      "compensation_reconciliation": "Costul și p95 sunt raportate per proces și versiune. Niciun răspuns sau fișier al firmei B pentru sesiunea A.",
+      "numeric_invariants": "Costul și p95 sunt raportate per proces și versiune. Niciun răspuns sau fișier al firmei B pentru sesiunea A.",
+      "cross_zone_owners": [
+        "A01",
+        "A06",
+        "A08",
+        "A09"
+      ],
+      "actual_task_ids": [
+        "P01.C15.T0007",
+        "P01.C15.T0008"
+      ],
+      "chapter_handoffs": [],
+      "final_state": "Raport operabil pe fixture reconciliat cu UI, efectele și starea finală.",
+      "test_ids": [
+        "A10-CK-25",
+        "A10-CK-26",
+        "A10-CK-27",
+        "A10-CK-28"
+      ],
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    }
+  ],
+  "task_inventory": {
+    "source": "Inventar_P01.json integral. În C15 lista tehnică include și aliasuri istorice.",
+    "chapter_C15_count": 48,
+    "chapter_C15": [
+      {
+        "id": "T01.01",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T01.02",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T03.02",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T32.06",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T32.08",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T32.09",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T32.13",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T32.21",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T33.10",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.04",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.05",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.18",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.19",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.24",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.44",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.45",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.47",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.48",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.49",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.50",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.51",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.52",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.53",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.65",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T36.70",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.01",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.02",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.03",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.04",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.05",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.06",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.07",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.08",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.09",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T38.10",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T40.14",
+        "canonical": null,
+        "state": "agregat",
+        "needs_individual": true
+      },
+      {
+        "id": "T43",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T43.01",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T43.02",
+        "canonical": null,
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T245",
+        "canonical": "P01.C15.T0001",
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T246",
+        "canonical": "P01.C15.T0002",
+        "state": "montat",
+        "needs_individual": true
+      },
+      {
+        "id": "T247",
+        "canonical": "P01.C15.T0003",
+        "state": "integrat",
+        "needs_individual": false
+      },
+      {
+        "id": "T248",
+        "canonical": "P01.C15.T0004",
+        "state": "integrat",
+        "needs_individual": false
+      },
+      {
+        "id": "T249",
+        "canonical": "P01.C15.T0005",
+        "state": "integrat",
+        "needs_individual": false
+      },
+      {
+        "id": "T250",
+        "canonical": "P01.C15.T0006",
+        "state": "integrat",
+        "needs_individual": false
+      },
+      {
+        "id": "T349",
+        "canonical": "P01.C15.T0007",
+        "state": "neînceput",
+        "needs_individual": false
+      },
+      {
+        "id": "T356",
+        "canonical": "P01.C15.T0008",
+        "state": "neînceput",
+        "needs_individual": false
+      }
+    ],
+    "additional_tasks": "A12 leagă individual toate taskurile active în celelalte capitole care depind de infrastructură; un capitol nu reprezintă un singur task."
+  },
+  "denominator": {
+    "controls": 28,
+    "pipelines": 6,
+    "verified_anchors": 28,
+    "blocked_or_not_run": 28,
+    "executed": 0
+  },
+  "acceptance": "A11 verifică toate legăturile, fiecare probă obligatorie și replică independent defecțiunile critice. Scorul calității nu este scor de conformitate al produsului.",
+  "evidence_schema": [
+    "id",
+    "control",
+    "task",
+    "SHA-256",
+    "version",
+    "UTC",
+    "role",
+    "fixture",
+    "steps",
+    "expected",
+    "observed",
+    "FE",
+    "BE",
+    "UX",
+    "DB/AD",
+    "negative",
+    "cleanup",
+    "limitations"
+  ],
+  "rework": "Fiecare neconformitate păstrează dovada inițială și severitatea, versiunea planului sau produsului, controlul rerulat, rezultatul și motivul deciziei independente."
+}

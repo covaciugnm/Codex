@@ -1,0 +1,23 @@
+{
+  "id": "01a18ffb-6ba1-74c0-aae1-803b329da41f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1793416981,
+  "updated_at": 1793623739,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Procese startup eliminabile",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 297290,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 141,
+  "message_count": 141,
+  "content_sha256": "3d26270bdca07411c952f88c85c5d7f96ee72de7d02fe36dbc7a5741c63a9f27",
+  "files_copied": 12,
+  "references_not_copied": 50
+}

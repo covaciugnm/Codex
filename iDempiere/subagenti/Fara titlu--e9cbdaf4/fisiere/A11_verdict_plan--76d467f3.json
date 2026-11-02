@@ -1,0 +1,639 @@
+{
+  "schema": "eva.audit.plan-gate.v1",
+  "review_id": "A11-PLAN-FINAL-20261102",
+  "reviewer": "A11 – auditor independent de control",
+  "created_utc": "2026-11-02T14:18:49.763Z",
+  "scope": "Decizie de calitate și executabilitate a PLANULUI de audit la cutoff; nu este un verdict asupra implementării sau asupra rapoartelor viitoare.",
+  "artifact_manifest": "Manifest_plan.json",
+  "artifact_hash_kind": "SHA-256 al pachetului în ordinea declarată",
+  "artifact_hash": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "manifest_file_sha256": "1ad7995c3ad62c1079d47462f61f7380606c96745b3b54d142bb00cb63a268bd",
+  "rubric_file": "A11_rubrica_control.json",
+  "rubric_hash": "4b1937a2f46606f29e4db10e7105806d0b7b462168c7ab7c03cbc5cafad0215d",
+  "reviewed_html_sha256": "6650635370e228f8c697a47fe282e3769ae5a3190a9fbff37cd31b61f2ad860b",
+  "independent_baseline": {
+    "repo_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "cutoff": "2026-11-02T14:06:00.673Z",
+    "manifest_files": 32,
+    "sha256_and_git_oid_verified": {
+      "source": 6179,
+      "docs": 127,
+      "windows_case_map": 4
+    },
+    "secondary_artifacts": 5,
+    "live_capture_files": 7,
+    "source_paths": 6179,
+    "excluded_paths": 731,
+    "surfaces_by_type": {
+      "endpoints": 1167,
+      "forms": 145,
+      "processes": 121,
+      "migration_files": 28,
+      "ui_pages": 163,
+      "jobs": 25
+    },
+    "controls": 310,
+    "pipelines": 73,
+    "control_pipeline_edges": 435,
+    "zones": 10,
+    "chapters": 20,
+    "project_population": 693,
+    "official_final": 650,
+    "extra_list": "T229",
+    "individual_population": 651,
+    "missing_canonical": 417,
+    "source_pointers_verified": 3814,
+    "verbatim_requirement_description": 1386,
+    "prior_ideas": 35,
+    "prior_findings": 13,
+    "html_links": 32
+  },
+  "criterion_subcheck_results": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC01-P1",
+          "criterion": "Repository-uri, ramură implicită, SHA curent și moment colectare fixate; Git și versiunea instalată sunt câmpuri separate.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Plan_director.code/cutoff, Inventar_tehnic.versions, capturi/MANIFEST: master EVA 6df998aee0e514d30856c461962afe99ebd0d113, server_worktree_head și digesturile instalate sunt distincte; core nativ release și build instalat au proveniență separată."
+        },
+        {
+          "id": "QC01-P2",
+          "criterion": "Cele 10 zone au responsabil, includeri/excluderi și granițe; A11 și A12 sunt roluri distincte.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Plan_director.zones/chapters, A01–A10.scope și Matrice_interfete X01–X14 au titulari și predări; A11 este evaluator, A12 este auditor al taskurilor."
+        },
+        {
+          "id": "QC01-P3",
+          "criterion": "Inventarul modulelor, UI, API, joburilor, DB, migrațiilor și mediilor are numitori de acoperire.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Index_suprafete.source/excluded/surfaces și Inventar_tehnic.definitions/db: toate cele 6179 de surse selectate, 731 excluderi și șase inventare de suprafețe au numitori și responsabil/triator; dicționarul DB are numitori separat. Elementele DE_ARBITRAT au regulă de confirmare înaintea execuției."
+        },
+        {
+          "id": "QC01-P4",
+          "criterion": "Inventarul P01 păstrează capitol/cod/stare, paginare, filtre, total declarat/extras și reconcilierea diferențelor.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "capturi/00_STATUS_TASKURI și 00_STARI_TASKURI; A12_reconciliere_P01: 996 total, 693 P01, 650 stări finale și T229 exclusiv din lista explicită, 651 în cohortă; 19 noduri auxiliare au dispoziție, nu adaugă taskuri. Am recalculat numitorii din capturi."
+        },
+        {
+          "id": "QC01-P5",
+          "criterion": "Matricea accesurilor disponibile/lipsă și politica de refresh la schimbarea SHA/taskurilor sunt explicite.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Plan_director.access/execution, A10-CK-01/10 și A12-CK-05/35: drepturi și limite explicite; delta în registru/master la închidere se păstrează și replanifică."
+        }
+      ]
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC02-P1",
+          "criterion": "Sursa autoritativă a taskurilor, captura și criteriile originale sunt definite și păstrate nemodificate.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A12_index_taskuri păstrează identitățile și pointerii la registru/liste; capturi/MANIFEST are 7 amprente. 3814 pointeri rezolvați, 1386 texte cerere/descriere comparate exact."
+        },
+        {
+          "id": "QC02-P2",
+          "criterion": "Matrice bidirecțională cerință→task→cod→UI/API→DB→test→constatare→control A11, cu ID stabile.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Index_trasabilitate: 310 controale cu pointer JSON și test proiectat, 73 fluxuri și muchiile inverse. A12_index_taskuri/requirement_template stabilesc explicit obligație→test→evidență→constatare/A11. Asociere candidată nu este probă de implementare."
+        },
+        {
+          "id": "QC02-P3",
+          "criterion": "Codul canonic include proiect/capitol, de exemplu P01.C03.T0001; codul original/aliasurile se păstrează; T0001 nu este unic global.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A12 identity_policy și registrul păstrează ID tehnic, proiect, chapter, canonic când există și alias; cele 417 înregistrări fără cod canonic nu sunt renumerotate."
+        },
+        {
+          "id": "QC02-P4",
+          "criterion": "Ideile și corecțiile istorice au dispoziție explicită: menținut, înlocuit prin clarificare, de verificat, amânat ori exclus justificat.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Trasabilitate_istoric: U01–U35 și cele 13 constatări au dispoziții, titular și cerințe de control; clarificarea identităților CPP/CPA apare explicit; istoricul nu este test actual."
+        },
+        {
+          "id": "QC02-P5",
+          "criterion": "Criteriile sunt rezultate observabile; finalizat în portal, commit existent, test trecut și instalat sunt stări distincte.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A12-CK-03/04/06/36 și worked_example_T227 separă criteriile, starea portalului, integrarea, instalarea și conformitatea la data de închidere versus acum."
+        }
+      ]
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC03-P1",
+          "criterion": "Fiecare zonă definește ecran/rută, rol/context firmă/canal, pași, rezultat și ieșirea din flux.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A09.P* (catalogul de pipeline-uri al A09), A09-C01–C29 și A01/A08: rol, firmă, puncte de intrare și ieșire; zonele funcționale au probe FE individuale ori traseu în planul partenerului."
+        },
+        {
+          "id": "QC03-P2",
+          "criterion": "Checklistul include empty/loading/error/timeout/partial/success, mesaje, păstrarea datelor și recuperare.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A09-C10/18/26 și A08-C15: gol/încărcare/eroare/succes, păstrare context și recuperare. A12-SF-08 impune traseul efectiv."
+        },
+        {
+          "id": "QC03-P3",
+          "criterion": "Probe pentru roluri, tastatură, scanner unde aplicabil, mobil/responsive, accesibilitate și prevenirea contextului greșit.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A09-C14–C17 și C22–C29 prevăd tastatură/focus/contrast, mobil/scanner, revocare și reluare; A01.C23–C25 izolează dispozitiv/rol/canal."
+        },
+        {
+          "id": "QC03-P4",
+          "criterion": "Meniurile/setările existente sunt inventariate; funcțiile contabile rămân accesibile și zonele gestiuni/WMS/comenzi/canale sunt clare.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Inventar_tehnic.db.menu, A09-C01–C06 și chapter_map din Plan_director acoperă 20 capitole, rute/meniuri existente și separarea Gestiuni–WMS–Comenzi–Canale."
+        },
+        {
+          "id": "QC03-P5",
+          "criterion": "Concordanța UI-server este obligatorie: buton ascuns nu înseamnă autorizare, succes vizual nu înseamnă persistare.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A09-C04/05, A01.C13/C16/C30 și X10: gardă UI confruntată cu refuz server, rezultatul persistent și recuperare."
+        }
+      ]
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC04-P1",
+          "criterion": "Endpointurile/procesele/evenimentele/joburile au intrări, ieșiri, validare, stare persistentă și titular.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Index_suprafete.surfaces inventariază declarațiile de endpoint, process și job; A01.C01 și A10-CK-28 confirmă dinamic ce e activ; fiecare zonă fixează actorul, contractul și efectul."
+        },
+        {
+          "id": "QC04-P2",
+          "criterion": "Probe valide/invalide, limite, câmpuri lipsă, UOM, monede, perioade/date, sortare/paginare și rezultate parțiale.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A12-CK-11/15/23, A06-C14–C17/C31, A03.CK06/07 și A10-CK-26 tratează date invalide, UOM, perioade, monede, adrese și paginare."
+        },
+        {
+          "id": "QC04-P3",
+          "criterion": "Pentru documente se verifică DocAction/DocStatus, commit/rollback și reluare, nu numai processIt boolean.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A05-C16/C29, A07.K02 și A02.C025 cer starea persistentă și diferența dintre processIt/CO/Posted; cazurile IP/WP/WC sunt testate în fixture."
+        },
+        {
+          "id": "QC04-P4",
+          "criterion": "Efectele materiale au timeout, duplicate, idempotency key/scope, concurență și ordinea evenimentelor.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A02.C013–C015, A06-C07/C10/C18, A07.K07 și A10-CK-12–15 acoperă timeout ambiguu, concurență, duplicate, ordine și compensare."
+        },
+        {
+          "id": "QC04-P5",
+          "criterion": "Versiuni DTO/API și import/export sunt urmărite end-to-end fără pierdere tacită de date.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "X08, A06-C15/C17/C31, A08-C11–C13 și A12-CK-11 definesc contract comercial complet și când se respinge inputul; nicio pierdere tacită."
+        }
+      ]
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC05-P1",
+          "criterion": "Inventarul include tabele/coloane, PK/UUID/FK/unique/check/index, trigger/proceduri, AD Dictionary și migrații.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A02.inventory/sql_catalog/migration_matrix și Inventar_tehnic.db au plan de reconciliere SQL/AD pentru PK/FK/unique/check/index, trigger/proceduri, migrări, versiuni instalate."
+        },
+        {
+          "id": "QC05-P2",
+          "criterion": "Sunt definite invariante înainte/după pentru cantitate, cost, sold, taxe, rezervări, documente și audit trail.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A03.CK04/05/11/13–18 și A05-C07/C12/C13/C28 definesc invarianta sumelor, costului, stocului și documentelor cu oracol independent."
+        },
+        {
+          "id": "QC05-P3",
+          "criterion": "Sunt prevăzute tranzacții, locking/izolare, race conditions, stări parțiale, reexecutare migrare/backfill.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A02.C009–C015, A10-CK-04/07/10 și A12-CK-13/17–19 specifică fresh/upgrade/retry/backfill, intercalări, rollback și recuperare."
+        },
+        {
+          "id": "QC05-P4",
+          "criterion": "Identități permanente, CPP/CPA distincte, G1/G2/G3, multi-G1/G2, ASI/MA și genealogie sunt controale explicite.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A02.C005–C007/C017–C024 și A05-C02/C04/C09–C15 leagă identități CPP/CPA, G1/G2/G3, multi-G1/G2, rețetă, ASI/MA și genealogie."
+        },
+        {
+          "id": "QC05-P5",
+          "criterion": "DB producție read-only este separat de fixture-urile care scriu; curățarea/backup/restaurarea și datele de test sunt definite.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Plan_director.execution, A10-CK-07/10/21–23 și A12.safe_execution separă live read-only, fixture restaurabilă, rețea internă și curățarea numai a datelor de test."
+        }
+      ]
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC06-P1",
+          "criterion": "Fiecare pipeline are trigger/actor/precondiții/pași/stări/UI/API/servicii/tabele/efecte și rezultat final de business.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "73 fluxuri descrise în fișe și 14 contracte inter-zone; Sabloane.pipeline și A12.pipeline_template definesc start→stare→UI/API/serviciu/DB→document→efect final cu correlation ID."
+        },
+        {
+          "id": "QC06-P2",
+          "criterion": "Include normal, anulare, respingere, retur, livrare parțială, timeout ambiguu, retry și evenimente în ordine greșită.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A12-SF-01–09, A07.K05/K07/K14/K21–K26, A05-C16–C19 și A10-CK-12–15 includ livrare parțială, respingere, retur, anulare, retry și timeout după commit."
+        },
+        {
+          "id": "QC06-P3",
+          "criterion": "Contractele între zone au furnizor, consumator, câmpuri/invariante și test de integrare.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Matrice_interfete X01–X14: furnizor, consumator, câmpuri, rezultat măsurabil și dovadă comună. Index_trasabilitate păstrează control↔flux în ambele sensuri."
+        },
+        {
+          "id": "QC06-P4",
+          "criterion": "Ordinea evită cicluri artificiale; retur contract→fizic→financiar și pilot comun au porți explicite.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "X09 și A07.K21–K25 disting contract retur, fizic și financiar; Plan_director grupează probele după gate. Manualul istoric păstrează poarta comună de pilot, nu dependențe circulare de finalizare."
+        },
+        {
+          "id": "QC06-P5",
+          "criterion": "Reconcilierea și recuperarea după întrerupere urmăresc efectele reziduale până la starea finală corectă.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A05-C17/C27/C28, A07.K25/K26 și A10-CK-15/C18–23 cer reconciliere la rezultat persistent și recovery; eroarea nu este redusă la codul HTTP."
+        }
+      ]
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC07-P1",
+          "criterion": "Modelul drepturilor acoperă cabinet/client/org/firmă/canal/comisionar, service accounts și privilegii.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A01.role_tenant_matrix, C07–C26 și C31, plus A08-C01/C05/C16/17 prevăd conturi tehnice/privilegii, cabinet, org, firmă, canal și situații ale comisionarului."
+        },
+        {
+          "id": "QC07-P2",
+          "criterion": "Probe pozitive/negative de izolare UI/API/DB, ID ghicit, traversare și schimbare de context.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A01.C10–C14/C17–C20, A10-CK-28 și A12-CK-14 prevăd ID direct ghicit, traversare tenant, schimbare context, cache/export și probe de refuz backend."
+        },
+        {
+          "id": "QC07-P3",
+          "criterion": "Autentificare/sesiune/CSRF/XSS/injection/upload/secrets/loguri sunt acoperite după suprafețele reale.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A01.C02–C06/C27/C28/C31/C36/C37 explicitează sesiune, CSRF, input, secrete/loguri, XSS și upload pe suprafețele reale."
+        },
+        {
+          "id": "QC07-P4",
+          "criterion": "CUI/nume canal din rută nu reprezintă autorizare/identitate internă; coliziunile/rename/normalizarea sunt tratate.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A01.C09/C10/C25, A08-C01/C02 și X01 separă CUI/slug de identitate internă și autorizare; testează coliziune și redenumire."
+        },
+        {
+          "id": "QC07-P5",
+          "criterion": "Efectele fiscale/AWB/refund/modificări producție sunt excluse fără mediu și autorizare explicite; datele sunt minimizate.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Plan_director.execution/limits, A12.safe_execution, A10-CK-10 și A03.legal_source_plan limitează probele de scriere la test izolat, fără efecte partener/fiscal sau documente operaționale reale."
+        }
+      ]
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC08-P1",
+          "criterion": "Pentru fiecare funcție se compară core nativ, plugin, EVA existent, configurare și diferența minimă necesară.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A02.native_double_check, A03.native_reuse_and_proof_plan, A05.native_double_check și A12-CK-07 folosesc core/plugin/EVA/config/diferență minimă ca decizii separate."
+        },
+        {
+          "id": "QC08-P2",
+          "criterion": "Existența are cale/simbol/SHA sau bundle/AD metadata; absența are corpus/metodă delimitate.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Inventar_surse_secundare: sursă release-13 și JAR-uri efective au SHA diferit/explicit; A01.C034/A02.C034 prevăd corpus și alternative de căutare pentru absență."
+        },
+        {
+          "id": "QC08-P3",
+          "criterion": "Mecanismele reutilizate au configurații, efecte și compatibilitate planificate, nu doar nume de clase.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A02.C034, A05-C08/C10/C29 și A10-CK-02/03 compară configurarea, AD și efectele la versiunea efectiv instalată, nu deduc operarea din numele clasei."
+        },
+        {
+          "id": "QC08-P4",
+          "criterion": "Integrările au contract/versionare, timeout/rate limit/webhook/retry/reconciliere și sandbox/producție distincte.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A07.K06–K10, A08-C13/C25, A10-CK-12–15 și A12-CK-22 disting contract, mock/sandbox, evenimente/retry/dead letter și reconciliere."
+        },
+        {
+          "id": "QC08-P5",
+          "criterion": "Dezvoltarea nouă se recomandă după demonstrarea diferenței neacoperite și evaluarea alternativei native/EVA.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A12-CK-07/29 și A05/A06 leagă propunerea unei extensii de gap verificat și de alternativa existentă; G2/G3 nu devin registre contabile suplimentare."
+        }
+      ]
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC09-P1",
+          "criterion": "Fiecare control are metodă, fixture, precondiții, pași/comandă, rezultat așteptat, probă și cleanup.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A01–A10 controale/fixtures, A12.scenario_template și Sabloane.control prevăd precondiții, actor, pași, așteptări, evidență, curățare. T227 este instanțiat fără rezultate simulate."
+        },
+        {
+          "id": "QC09-P2",
+          "criterion": "Build/static/unit/integration/E2E/manual sunt alese după risc; nu se bazează pe teste care repetă implementarea.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A10-CK-01–11, A12-CK-28 și rubric.evidence_level stabilesc build/unit/integration/UI/manual în funcție de risc și probă, nu echivalează lectura unui test cu execuția."
+        },
+        {
+          "id": "QC09-P3",
+          "criterion": "Performanța are volume/bugete/latente/concurență/paginare/export/query plan aplicabile.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A10-CK-25–27: 20 warm-up/100 cereri, 1k/10k, concurență 1/10/30 și prag de laborator; A02.C031 cere p50/p95/p99 și EXPLAIN test. SLA contractual distinct de ținta de laborator."
+        },
+        {
+          "id": "QC09-P4",
+          "criterion": "Regresia acoperă mecanisme native/EVA reutilizate și vecinătățile, cu ținte și numitori expliciți.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Trasabilitate_istoric și A12-CK-29/32 leagă toate cele 13 observații vechi și efectele asupra funcțiilor vecine la regresii și numitori expliciți."
+        },
+        {
+          "id": "QC09-P5",
+          "criterion": "Se definesc reproducerea independentă și tratarea flaky/cache/date istorice/mediu incomplet.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A11.report_gate prescrie reproducere independentă P0/P1/contestate; A12-CK-30/33/34 și QC09-R5 păstrează primele eșecuri și diferențiază istoric/cache/flaky."
+        }
+      ]
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "points": 1,
+      "max": 1,
+      "subchecks": [
+        {
+          "id": "QC10-P1",
+          "criterion": "Șabloanele audit/constatare/pipeline/task/evidență/re-audit sunt concrete și coerente semantic.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Sabloane_audit.schemas/examples cu 9 forme, toate cele 10 fișe și A12 worked_example_T227 (A04-C24/P6) oferă exemple completabile; observed=NULL cât timp proba nu a rulat."
+        },
+        {
+          "id": "QC10-P2",
+          "criterion": "Severitate, încredere, statut și nota calității sunt separate; falsul pozitiv are procedură cu istoric păstrat.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A11.statuses/false_positive_protocol și A12.finding_template/evidence_template separă impactul, încrederea și nivelul probator; istoria falsului pozitiv rămâne."
+        },
+        {
+          "id": "QC10-P3",
+          "criterion": "A11 verifică planul înaintea execuției și fiecare raport înaintea acceptării; autorul nu este singurul verificator.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Plan_director.auditors/execution și A12.execution_gate/T5 desemnează A11, separat de autori, pentru plan și fiecare raport; noul verdict se referă numai la hash."
+        },
+        {
+          "id": "QC10-P4",
+          "criterion": "Bucla respins→corectat→reverificat păstrează versiuni/hashuri și nu aprobă automat după un număr de iterații.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "A11.plan_gate/report_gate/change_control, A12.scoring_policy și Plan_director.rework: respins→rectificat→reverificat pe versiuni, fără acceptare din numărul de iterații."
+        },
+        {
+          "id": "QC10-P5",
+          "criterion": "Livrarea explică limitele, neexecutatele și riscurile clar, cu index și dovezi navigabile.",
+          "decision": "SATISFĂCUT_PLAN",
+          "points": 0.2,
+          "maximum": 0.2,
+          "evidence_and_reason": "Plan_audit_P01.html oferă plan/navigație; Plan_director.limits, A12.open_inputs și rubric.report_gate indică blocaje, riscuri și diferența dintre plan, execuție și sănătatea produsului."
+        }
+      ]
+    }
+  ],
+  "score": 10,
+  "max_score": 10,
+  "subchecks_approved": 50,
+  "hard_blocker_results": [
+    {
+      "id": "HB01",
+      "test": "SHA/corpus lipsă ori versiuni amestecate fără reconciliere.",
+      "active": false,
+      "reason": "Git SHA, manifest, core, server, surse secundare separate și bloburi verificate."
+    },
+    {
+      "id": "HB02",
+      "test": "Inventar incomplet al celor 10 zone sau al taskurilor P01 finalizate, fără numitor/paginare/reconciliere.",
+      "active": false,
+      "reason": "10 titulari, 20 capitole, numitor 693, cohortă 651 și 19 auxiliare reconciliate."
+    },
+    {
+      "id": "HB03",
+      "test": "Frontend/backend/UX/pipeline/DB ori o graniță importantă fără responsabil/checklist.",
+      "active": false,
+      "reason": "Index suprafețe responsabil/triator și confirmarea granițelor, fără suprafețe scăpate."
+    },
+    {
+      "id": "HB04",
+      "test": "Control obligatoriu fără probă, așteptare sau trasabilitate la cerință.",
+      "active": false,
+      "reason": "310 controale cu metode și oracol; A12 definește atomizarea și dovada la fiecare fișă."
+    },
+    {
+      "id": "HB05",
+      "test": "Confuzie cod existent/configurat/instalat/executat/acceptat sau NEEXECUTAT prezentat ca PASS.",
+      "active": false,
+      "reason": "Planul păstrează NEEXECUTAT; nivelurile static/instalat/executat sunt explicite."
+    },
+    {
+      "id": "HB06",
+      "test": "Contradicție nemarcată cu clarificările CPP/CPA, G1/G2/G3 și stoc unic ale utilizatorului.",
+      "active": false,
+      "reason": "U12–U22, X03–X05 și fișele A02/A05/A06 păstrează invariantele G1/G2/G3 și CPP/CPA."
+    },
+    {
+      "id": "HB07",
+      "test": "Lipsă autorizare/izolare server-side sau controale de duplicate/retry/concurență pentru efecte materiale.",
+      "active": false,
+      "reason": "A01, A02, A05–A08 și A10 prevăd izolare server și retry/concurență."
+    },
+    {
+      "id": "HB08",
+      "test": "Existență nativă/plugin/EVA ori absență afirmată fără versiune, corpus și dovadă aplicabilă.",
+      "active": false,
+      "reason": "Nativ release-13/JAR/CESIRO/config sunt nivele documentate; absența cere corpus."
+    },
+    {
+      "id": "HB09",
+      "test": "Șabloane lipsă sau numai generice, necorelate între agent, task, flux, DB și probă.",
+      "active": false,
+      "reason": "9 șabloane, fișe concrete și T227 rectificat."
+    },
+    {
+      "id": "HB10",
+      "test": "Autorul își acordă singur 10/10 ori auditarea implementării începe înaintea gate-ului A11.",
+      "active": false,
+      "reason": "Rol A11 separat; zero execuții de produs revendicate; numai prezentul verdict eliberează poarta."
+    },
+    {
+      "id": "HB11",
+      "test": "10/10 global pretins cu verificări obligatorii NEEXECUTATE din lipsă acces/mediu/date.",
+      "active": false,
+      "reason": "Nu se acordă notă rapoartelor de produs; lipsa accesului rămâne BLOCAT."
+    },
+    {
+      "id": "HB12",
+      "test": "Efecte externe/contabile sau modificări producție neautorizate produse de audit.",
+      "active": false,
+      "reason": "În stabilirea inventarelor nu este documentată execuție de scrieri ERP/parteneri; planul limitează scrierile la cabinet izolat și preflight."
+    },
+    {
+      "id": "HB13",
+      "test": "Dovezi fabricate, citări neconcludente, istoric prezentat drept test curent ori eșecuri omise.",
+      "active": false,
+      "reason": "Nu am identificat dovezi fabricate în plan. Am corectat citarea A04, biunivocitatea și coliziunile Windows; exemplele nu declară rezultate."
+    }
+  ],
+  "open_hard_blockers": [],
+  "mandatory_corrections_open": [],
+  "previous_corrections_closed": [
+    "A11-PRE-A12-01..04: snapshot la închidere, încredere/nivel probator, istoric de contra-dovezi și exemplu T227 verificate după corecție.",
+    "A04-C24 aparține A04-P6. Șablonul central și exemplul T227 au fost reverificate fără rezultate funcționale fabricate.",
+    "Coliziunile Windows: patru căi, două conținuturi locale divergente înainte de remediere. Păstrare și reverificare directă pe OID: zero nepotriviri după remapare.",
+    "A02/A03: referințele inițial orfane sau unilaterale au fost corectate. Indexul global păstrează referințele declarate și inversele derivate: 435 muchii reciproce.",
+    "Manifestul d933a5... a fost înlocuit înainte de decizie; numai df251d... este aprobat."
+  ],
+  "decision": "APROBAT_PLAN_10_DIN_10",
+  "gate": "DESCHIS_PENTRU_AUDIT_PE_ACEST_HASH",
+  "plan_score": 10,
+  "implementation_score": null,
+  "report_score": null,
+  "individual_reports_completed_at_gate": 0,
+  "conditions": [
+    "A10 asigură triere pentru fiecare DE_ARBITRAT; proprietarul funcțional și contractul se confirmă înainte de execuția acelei suprafețe. Orice atribuire schimbată păstrează istoric și hash.",
+    "Fiecare executor și A12 păstrează numitorul și toate eșecurile/accesurile lipsă. Cele 651 de fișe sunt viitoare rapoarte, nu rezultate obținute.",
+    "T229 este contradicție explicită de stare, nu prezumție de implementare. Lipsa dovezii istorice lasă conformitatea la închidere NEDETERMINAT.",
+    "Datele de produs și integrările reale nu se modifică. Probe cu scriere doar în cabinet izolat eligibil după preflight; lipsa sa nu este PASS.",
+    "Schimbarea materială SHA, populație, metodă ori domeniu invalidează autorizarea pentru delta; se fixează o versiune nouă și se cere control.",
+    "Nota 10/10 aparține exclusiv planului delimitat. La etapa de raport A11 reproduce independent toate P0/P1 și disputele, cazuri pozitive/negative pe pipeline critic și fiecare familie P2/P3; NEEXECUTAT obligatoriu nu permite nota globală de audit."
+  ]
+}

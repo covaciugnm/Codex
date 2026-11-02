@@ -1,0 +1,1889 @@
+{
+  "schema": "eva.audit.zone-plan.v2",
+  "agent_id": "A08",
+  "reviewer": "A11",
+  "title": "Site-uri, canale, storefront, marketing și localizare",
+  "state": "PLAN_PROPUS",
+  "implementation_state": "NEEXECUTAT",
+  "plan_score": null,
+  "scope": "De la canalul configurat în ERP până la proiecția comercială și comanda clientului, raportată înapoi comisionarului; managementul operațional și financiar aparține ERP.",
+  "source": {
+    "repo_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "source_manifest_sha256": "92913cb2d26fc933e17b8946651f0750518c868a6f73ebdf3cd7f96b39ac8b8a",
+    "capture_manifest_sha256": "06c12dbdd9737c86e69afe27330e7360b5d529a869f27c6c485e8c9d5f5655a1",
+    "capture_server_head": "f85086c5b91810fcd5322b69086345dce741dcce",
+    "deploy": [
+      "/eva-idempiere-cesiro sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235 eva-idempiere-rest:13 2026-11-02T08:49:19.413514333Z",
+      "/eva-contab-frontend sha256:2ee034275fd69ad7184978f218bddf6f63dfe9410ff6cf3a1686a43b6d65fedb eva-contab-frontend 2026-10-15T21:11:31.331260416Z",
+      "/eva-contab-backend sha256:3f5036fcaa21b83f02102b4269838baee4aaeadaa32890520ee9c8755eaf269b eva-contab-backend 2026-10-15T21:12:03.150712536Z",
+      "/eva-contab-storefront sha256:8915f62ce46beb3309c7e4a90890e0fc6900ffc508ed88b00d3c202840ec82da eva-contab-storefront-next 2026-10-29T12:34:15.737980571Z",
+      "/spree-web sha256:ce8dce27cf1f882888f6bbfe9c35f605d9580050fcacb0587eaf728abf689c0e spree_starter-local:latest 2026-10-15T21:12:10.972132567Z"
+    ],
+    "source_lacuna": "Spree/README.md este documentare. Inventariază separat codul Spree, extensiile, sursele instalate, bundle-ul interfeței, montările runtime, codul din build și SHA/date. Un container funcțional și codul din frontend/storefront nu dovedște că tema sau un flux este activ. Dacă versiunile nu se pot corela marchează NECONCLUDENT sau BLOCAT și delimitează ce s-a inspectat."
+  },
+  "rules": [
+    "AGENTS.md: logica comercială comună între teme, locale ro/en/de/hu/bg/el, izolarea DB, Redis, Meilisearch, ActiveStorage, host și cache pe magazin; active cu licență documentată.",
+    "Instrucțiunile Spree/spree_starter și docs/theme-program se verifică în sursa reală a stackului înainte de schimbări, nu sunt dovezi ale existenței unei implementări.",
+    "§61 coadă server și resurse, §62 montare serializată, parteneri acces numai prin interfața EVA aprobată; fixture sintetic fără trafic extern, fără operații pe date de producție."
+  ],
+  "native_decision": [
+    "1. Reconstituie fluxul în instalarea de laborator: dicționar, drepturi, documente C_Order/Line, C_BPartner/Location, M_PriceList/Version, taxe și monede.",
+    "2. Leagă același flux de sursa iDempiere a versiunii instalate, plugin EVA și model Spree efectiv. Clasifică nativ direct, configurat, adaptor EVA, extensie Spree sau nevoie nouă demonstrată.",
+    "3. În C03/C10 soluțiile noi necesită insuficiența explicită a unei opțiuni native, a configurării și a extensiilor deja existente; păstrează captura testului negativ."
+  ],
+  "access": {
+    "available": [
+      "materializare Git verificată",
+      "captură registru server și imagini Docker în capturi/MANIFEST.json"
+    ],
+    "execution_requires": [
+      "export read-only imagine/rută/config efective și identificarea surselor externe Spree/teme; se obțin prin coordonator",
+      "mediu de test izolat, conturi distincte, cache invalidabile și autoritate restabilire fixture",
+      "precondiții buget/test/backup aprobate, mock market și curier; referințe vizuale autorizate"
+    ],
+    "production": "Inventariere autorizată. Teste, scrieri și resetări doar în fixture izolat."
+  },
+  "fixtures": [
+    {
+      "id": "FX-A08-1",
+      "value": "Cabinet sintetice CUI_A/CUI_B; două firme A1/A2, canal Magazin1, eMag, Trendyol și al doilea Magazin1 în altă firmă; un administrator limitat la A."
+    },
+    {
+      "id": "FX-A08-2",
+      "value": "G3 din A06: P1/P2/P3 fiecare 120 în G1; S1 cu 6/6/6, S2 cu 3/3/3; P1 CPP distinct de P1 CPA; preț RON B2C/EUR B2B; două versiuni de fișă."
+    },
+    {
+      "id": "FX-A08-3",
+      "value": "Coș 2 linii cu UOM diferit, adrese de livrare și facturare diferite; două canale au același ID extern; time-out înainte și după commit."
+    },
+    {
+      "id": "FX-A08-4",
+      "value": "Comisionarii K1,K2 în același canal; K1 în două canale cu privilegii diferite; o comandă privată, un retur parțial și revocare după emitere token."
+    },
+    {
+      "id": "FX-A08-5",
+      "value": "Două teme pe motor comun, fixture de ofertă eMag și Trendyol, referințe aprobate cu data și versiunea, media validă și una indisponibilă."
+    },
+    {
+      "id": "FX-A08-6",
+      "value": "Șase locale, titlu cu diacritice, produs privat și public, sesiune fără acord/cu acord/retras, trafic interceptat doar în laborator."
+    },
+    {
+      "id": "FX-A08-7",
+      "value": "Un outbox de test cu două mesaje identice, unul conflictual și unul întârziat; snapshot două canale, un canar distinct în fiecare."
+    }
+  ],
+  "anchors": {
+    "route": {
+      "path": "proxy/traefik/dynamic/firm-cesiro-com.yml",
+      "line": 8,
+      "symbol": "service: storefront-next",
+      "source_sha256": "bab2d8033958c55f72edf02fc7d62d8953c8143a5d3bfc0834c3a3129621b14a",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "tenancy": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 435,
+      "symbol": "def tenant_from_host(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "channel": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/PanouCanale.java",
+      "line": 50,
+      "symbol": "class PanouCanale",
+      "source_sha256": "dfa3ebfad8581f6b18339fd095281263b4f69b7121b8e1dc280172ea05ad9483",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "compose": {
+      "path": "docker-compose.yml",
+      "line": 347,
+      "symbol": "storefront-next:",
+      "source_sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "spree": {
+      "path": "docker-compose.yml",
+      "line": 588,
+      "symbol": "spree-web:",
+      "source_sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "cms": {
+      "path": "frontend/storefront/app/cms.py",
+      "line": 134,
+      "symbol": "def tenant_path(",
+      "source_sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "scope": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 443,
+      "symbol": "def request_tenant(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "media": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 189,
+      "symbol": "def media_product_webp(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "rbac": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/RolOperatorVanzari.java",
+      "line": 22,
+      "symbol": "class RolOperatorVanzari",
+      "source_sha256": "df9012d708feb65bba1adcd59a1cfb89e790ff8cde55c7b6e664cf86c13587ed",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "admin": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 282,
+      "symbol": "def admin_entry(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "catalog": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 336,
+      "symbol": "def api_catalog_products(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "fișa": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalCalcul.java",
+      "line": 18,
+      "symbol": "class FisaCanalCalcul",
+      "source_sha256": "f87fcb7facf39781f7cfe48b63eb39421903481ac4cfd5f3597268f7eb0b7b37",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "cart": {
+      "path": "frontend/storefront/templates/shared/commerce.html",
+      "line": 35,
+      "symbol": "data-panel-view=\"cart\"",
+      "source_sha256": "7e495e0cbec10588eb8ab1cc01f1de8a9833099136449cdc67384133dd0b5fd5",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "stock": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/CitiriStocCanal.java",
+      "line": 24,
+      "symbol": "class CitiriStocCanal",
+      "source_sha256": "993a9f719c13324a5d8e2d146ea884c5c2d51bf346966280875fdc6bb676ca13",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "order": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 360,
+      "symbol": "def api_orders(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "b2b": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/CanalB2B.java",
+      "line": 34,
+      "symbol": "class CanalB2B",
+      "source_sha256": "0882a116e48427f2bf4c5998047d499be641b8e4d68ff3da079e07a50dc2f5ff",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "address": {
+      "path": "frontend/storefront/app/cms.py",
+      "line": 166,
+      "symbol": "def normalize_shipping_address(",
+      "source_sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "orders": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 399,
+      "symbol": "def api_account_orders(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "returns": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 408,
+      "symbol": "def api_account_returns(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "commerce": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 60,
+      "symbol": "def commerce_page(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "theme": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 417,
+      "symbol": "def api_themes(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "seo": {
+      "path": "frontend/storefront/app/seo_engine.py",
+      "line": 691,
+      "symbol": "def build_seo_master(",
+      "source_sha256": "efbc8054c3ce2d621803321b95e3c628d3ca1903fa1890546fa1abcf5e8b6b13",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "lang": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/LimbiCanal.java",
+      "line": 29,
+      "symbol": "class LimbiCanal",
+      "source_sha256": "fb647e61a61813e3c170ee44c0dec13879686a40191140fb3a97f391c7cedde8",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    },
+    "sitemap": {
+      "path": "frontend/storefront/app/factory.py",
+      "line": 471,
+      "symbol": "def build_sitemap_xml(",
+      "source_sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+      "meaning": "punct de pornire pentru verificare; dovada instalării sau comportamentului se colectează separat"
+    }
+  },
+  "pipelines": [
+    {
+      "id": "A08-P01",
+      "title": "Înregistrare, rutare și izolare fizică",
+      "tasks": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "trigger": "Configurarea unui nou canal sau redenumirea canalului",
+      "actor": "Administrator cabinet A și administrator firmă A1",
+      "ui": "Setări canal → /CUI_A → /CUI_A/CUI_A1 → /CUI_A/CUI_A1/Magazin1",
+      "be": "Traefik → rezolvare slug și identitate stabilă → serviciu Docker al canalului → identitate autorizată",
+      "db": "EVA_CanalVanzare, AD_Client/Org; volume PostgreSQL, Redis, Meilisearch și ActiveStorage inventariate individual",
+      "states": "definit → provisionat → verificat → activ / suspendat / revenire la versiune",
+      "fault": "CUI editat, slug dublu, instanță nesănătoasă, depanare fără fallback către alt canal",
+      "oracle": "Un site logic și o instanță Docker identificate pentru fiecare canal, inclusiv eMag/Trendyol. Date private canar A nu apar niciodată în B.",
+      "owners": "A01 acces, A02 identități, A10 medii",
+      "status": "NEEXECUTAT",
+      "contract_input": [
+        "identitate cabinet, firmă, canal și actor derivată din sesiunea autorizată",
+        "ID intern persistent ERP și cheie de corelație; date sintetice cu etichetă de audit"
+      ],
+      "contract_output": "Starea UI, răspunsul serviciului și rezultatul în registrul/DB indicat coincid cu oracle pentru aceeași identitate și aceleași versiuni.",
+      "boundary": "configurație/rutare → disponibilitate → activare",
+      "correlation_ids": [
+        "RUN-ID",
+        "REQ-ID",
+        "cabinet/firma/canal-ID",
+        "actor pseudonimizat",
+        "versiune/hash payload",
+        "ID document sau versiune catalog după caz"
+      ],
+      "artifact": "E-A08-<run>-<control>-<strat> cu timestamp UTC, fixture și hash; COMENZI identifică documentul prin ID extern + ID C_Order, separat de status."
+    },
+    {
+      "id": "A08-P02",
+      "title": "Publicare catalog de canal și ofertă G3",
+      "tasks": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "trigger": "Responsabilul publică o modificare din tabela produs × canal",
+      "actor": "Responsabilul de canal și client comercial",
+      "ui": "ERP Fișă pe canal → catalog → fișă produs în site → API coș",
+      "be": "Reguli de canal și disponibil A06 → copiere publică mapată prin ID intern → cache, filtrare pe canal și timp",
+      "db": "EVA_CanalVanzare; M_Product, M_PriceList/Version și date sursă G3, catalog public identificat la inventar",
+      "states": "ciornă → publicabil → publicat → expirat/dezactivat",
+      "fault": "Mesaje întârziate, lipsă traducere sau legătură produs, cache după schimbare de canal",
+      "oracle": "Prețul public și termenul coincid cu versiunea sursă. P1/CPA arată alt ID față de P1/CPP. 120 componente din fiecare permit maxim 20 S1 sau 40 S2 înainte de alte angajamente.",
+      "owners": "A06 ofertă/rezervări, A05 disponibil fizic, A02 model",
+      "status": "NEEXECUTAT",
+      "contract_input": [
+        "identitate cabinet, firmă, canal și actor derivată din sesiunea autorizată",
+        "ID intern persistent ERP și cheie de corelație; date sintetice cu etichetă de audit"
+      ],
+      "contract_output": "Starea UI, răspunsul serviciului și rezultatul în registrul/DB indicat coincid cu oracle pentru aceeași identitate și aceleași versiuni.",
+      "boundary": "catalog ERP → copie publică; versiune ordonată de publicare",
+      "correlation_ids": [
+        "RUN-ID",
+        "REQ-ID",
+        "cabinet/firma/canal-ID",
+        "actor pseudonimizat",
+        "versiune/hash payload",
+        "ID document sau versiune catalog după caz"
+      ],
+      "artifact": "E-A08-<run>-<control>-<strat> cu timestamp UTC, fixture și hash; COMENZI identifică documentul prin ID extern + ID C_Order, separat de status."
+    },
+    {
+      "id": "A08-P03",
+      "title": "Coș, checkout și înregistrare ERP",
+      "tasks": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "trigger": "Utilizatorul sau comisionarul confirmă o comandă online",
+      "actor": "B2C, B2B, comisionar al canalului",
+      "ui": "Produs → coș → adrese și transport → revizuire → confirmare și număr de referință",
+      "be": "Serviciu checkout comun → referință externă → import comercial al ERP → C_Order/C_OrderLine → răspuns persistent",
+      "db": "Comandă de canal și legătură externă, C_BPartner/Location, C_Order/Line, M_PriceList, C_Currency/C_Tax",
+      "states": "coș → ofertă recalculată → trimis → primit în ERP / în verificare / refuz",
+      "fault": "Dublu clic, răspuns pierdut după commit, schimbare preț/stoc ori două canale folosesc același ID extern",
+      "oracle": "O cheie stabilă pe firmă+canal+comandă produce un singur antet. Acceptarea comenzii nu produce pick/aviz/AWB/factură în site.",
+      "owners": "A06 import și rezervare, A05 pick, A07 documente, A01 drepturi",
+      "status": "NEEXECUTAT",
+      "contract_input": [
+        "identitate cabinet, firmă, canal și actor derivată din sesiunea autorizată",
+        "ID intern persistent ERP și cheie de corelație; date sintetice cu etichetă de audit"
+      ],
+      "contract_output": "Starea UI, răspunsul serviciului și rezultatul în registrul/DB indicat coincid cu oracle pentru aceeași identitate și aceleași versiuni.",
+      "boundary": "checkout web → confirmare ERP; cheie stabilă pe origine",
+      "correlation_ids": [
+        "RUN-ID",
+        "REQ-ID",
+        "cabinet/firma/canal-ID",
+        "actor pseudonimizat",
+        "versiune/hash payload",
+        "ID document sau versiune catalog după caz"
+      ],
+      "artifact": "E-A08-<run>-<control>-<strat> cu timestamp UTC, fixture și hash; COMENZI identifică documentul prin ID extern + ID C_Order, separat de status."
+    },
+    {
+      "id": "A08-P04",
+      "title": "Comisionar și situațiile proprii",
+      "tasks": [
+        "P01.C10.T0004",
+        "P01.C10.T0005",
+        "P01.C10.T0012",
+        "P01.C10.T0017",
+        "P01.C10.T0025"
+      ],
+      "trigger": "Comisionarul autentificat consultă o comandă sau raport",
+      "actor": "Comisionar A; comisionar B în același canal; responsabil ERP",
+      "ui": "Cont → comenzile mele → situație comision → detaliu, retur solicitat sau export",
+      "be": "Autorizare per sesiune → filtru server persoană+client+org+canal → proiecție ERP → răspuns",
+      "db": "C_BPartner, C_Order, C_Invoice, alocări/retur și cheie comisionar; tabele efective confirmate în mediul izolat",
+      "states": "comandă proprie → stare din ERP → raport la dată → export",
+      "fault": "ID injectat sau alt canal; permisiune revocată; filtru UI ocolit",
+      "oracle": "Numărul de rânduri, totalul și exportul sunt identice cu referința autorizată. Nici antetul altui comisionar nu este divulgat.",
+      "owners": "A01 control acces, A06 comisioane, A07 retururi",
+      "status": "NEEXECUTAT",
+      "contract_input": [
+        "identitate cabinet, firmă, canal și actor derivată din sesiunea autorizată",
+        "ID intern persistent ERP și cheie de corelație; date sintetice cu etichetă de audit"
+      ],
+      "contract_output": "Starea UI, răspunsul serviciului și rezultatul în registrul/DB indicat coincid cu oracle pentru aceeași identitate și aceleași versiuni.",
+      "boundary": "cerere web → filtrare server și proiecție ERP",
+      "correlation_ids": [
+        "RUN-ID",
+        "REQ-ID",
+        "cabinet/firma/canal-ID",
+        "actor pseudonimizat",
+        "versiune/hash payload",
+        "ID document sau versiune catalog după caz"
+      ],
+      "artifact": "E-A08-<run>-<control>-<strat> cu timestamp UTC, fixture și hash; COMENZI identifică documentul prin ID extern + ID C_Order, separat de status."
+    },
+    {
+      "id": "A08-P05",
+      "title": "Temă Cesiro și previzualizare platforme",
+      "tasks": [
+        "P01.C10.T0002",
+        "P01.C10.T0019",
+        "P01.C10.T0020",
+        "P01.C10.T0021",
+        "P01.C10.T0022",
+        "P01.C10.T0029"
+      ],
+      "trigger": "Responsabilul configurează modelul și verifică oferta înainte de publicare",
+      "actor": "Responsabil de canal și cumpărător",
+      "ui": "Setări → previzualizare eMag/Trendyol sau magazin → card produs → pagină produs pe desktop și mobil",
+      "be": "Contract comun conținut, temă și mapări media/categorie/atribute/limbă; simulatoare fără apeluri externe",
+      "db": "Config temă/canal, traduceri și media, identificator versiune previzualizată și catalog publicat",
+      "states": "schiță → previzualizare privată → validat → publicat / retras",
+      "fault": "Șablon schimbat cu coș existent; HTML nesigur; produs fără imagini sau atribut obligatoriu",
+      "oracle": "În preview apar titlu, imagini, preț, disponibil, seller și atribute din același payload. Preview privat nu devine pagină publică și nu trimite către platformă.",
+      "owners": "A06 mapări, A09 UX, A01 acces, A10 simulatoare",
+      "status": "NEEXECUTAT",
+      "contract_input": [
+        "identitate cabinet, firmă, canal și actor derivată din sesiunea autorizată",
+        "ID intern persistent ERP și cheie de corelație; date sintetice cu etichetă de audit"
+      ],
+      "contract_output": "Starea UI, răspunsul serviciului și rezultatul în registrul/DB indicat coincid cu oracle pentru aceeași identitate și aceleași versiuni.",
+      "boundary": "configurația preview privată → publicare activată explicit în fixture",
+      "correlation_ids": [
+        "RUN-ID",
+        "REQ-ID",
+        "cabinet/firma/canal-ID",
+        "actor pseudonimizat",
+        "versiune/hash payload",
+        "ID document sau versiune catalog după caz"
+      ],
+      "artifact": "E-A08-<run>-<control>-<strat> cu timestamp UTC, fixture și hash; COMENZI identifică documentul prin ID extern + ID C_Order, separat de status."
+    },
+    {
+      "id": "A08-P06",
+      "title": "Marketing, localizare și indexare",
+      "tasks": [
+        "P01.C10.T0004",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0029"
+      ],
+      "trigger": "Un client alege limba sau preferințele de analiză și navighează de la campanie",
+      "actor": "Vizitator cu acord, fără acord și după retragere",
+      "ui": "Landing → categorie → produs → checkout → modificare preferințe",
+      "be": "Traduceri și fallback per canal, schemă SEO, canonical/hreflang, sitemap, evenimente condiționate de preferințe",
+      "db": "Config locale și scop/dată/versiune acord; evenimente și rapoarte agregate pe canal",
+      "states": "neales → refuzat / acceptat → retras; produs publicat → delistat",
+      "fault": "Cookie anterior, navigare SPA, cache între limbi, crawler pe cont sau preview, comandă reluată",
+      "oracle": "Nicio cerere de marketing înainte de acord pentru categoria configurată; un eveniment conversie per comandă în cazul permis; zero URL-uri private în sitemap.",
+      "owners": "A01 date personale, A06 campanii, A09 accesibilitate, A10 observabilitate",
+      "status": "NEEXECUTAT",
+      "contract_input": [
+        "identitate cabinet, firmă, canal și actor derivată din sesiunea autorizată",
+        "ID intern persistent ERP și cheie de corelație; date sintetice cu etichetă de audit"
+      ],
+      "contract_output": "Starea UI, răspunsul serviciului și rezultatul în registrul/DB indicat coincid cu oracle pentru aceeași identitate și aceleași versiuni.",
+      "boundary": "preferințele clientului → declanșarea trackerelor și publicare sitemap",
+      "correlation_ids": [
+        "RUN-ID",
+        "REQ-ID",
+        "cabinet/firma/canal-ID",
+        "actor pseudonimizat",
+        "versiune/hash payload",
+        "ID document sau versiune catalog după caz"
+      ],
+      "artifact": "E-A08-<run>-<control>-<strat> cu timestamp UTC, fixture și hash; COMENZI identifică documentul prin ID extern + ID C_Order, separat de status."
+    },
+    {
+      "id": "A08-P07",
+      "title": "Reconciliere și recuperare a canalului",
+      "tasks": [
+        "P01.C10.T0003",
+        "P01.C10.T0006",
+        "P01.C10.T0010",
+        "P01.C10.T0011",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "trigger": "Deconectare temporară între canal și ERP sau reluarea unui worker",
+      "actor": "Operator ERP și responsabil site",
+      "ui": "Client vede referința/starea → ERP excepții → reconciliere → situație actualizată în site",
+      "be": "Coadă identificată după versiune → retry cu cheie persistentă → ERP → status → reconciliere",
+      "db": "Registru mesaje, relație cu ID C_Order, versiunile catalogului/situației, erori fără date sensibile",
+      "states": "primit → în așteptare → livrat / conflict → remediat → reconciliat",
+      "fault": "Pauză după commit și înainte de ACK, mesaj vechi după nou, restaurare backup a canalului",
+      "oracle": "Pentru toate mesajele fixture există rezoluție unică și diferența rămasă are ID explicit. Restaurarea A păstrează datele B și nu repetă efecte externe.",
+      "owners": "A10 infrastructură, A06 comenzi, A07 evenimente",
+      "status": "NEEXECUTAT",
+      "contract_input": [
+        "identitate cabinet, firmă, canal și actor derivată din sesiunea autorizată",
+        "ID intern persistent ERP și cheie de corelație; date sintetice cu etichetă de audit"
+      ],
+      "contract_output": "Starea UI, răspunsul serviciului și rezultatul în registrul/DB indicat coincid cu oracle pentru aceeași identitate și aceleași versiuni.",
+      "boundary": "mesaj primit → commit ERP → confirmare → reconciliere",
+      "correlation_ids": [
+        "RUN-ID",
+        "REQ-ID",
+        "cabinet/firma/canal-ID",
+        "actor pseudonimizat",
+        "versiune/hash payload",
+        "ID document sau versiune catalog după caz"
+      ],
+      "artifact": "E-A08-<run>-<control>-<strat> cu timestamp UTC, fixture și hash; COMENZI identifică documentul prin ID extern + ID C_Order, separat de status."
+    }
+  ],
+  "controls": [
+    {
+      "id": "A08-C01",
+      "objective": "Traseul cabinet → firmă → canal",
+      "requirement_id": "R-A08-C01",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "role_context": "Administrator cabinet A și administrator firmă A1",
+      "fixture": "FX-A08-1",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Deschide firma principală și secundară; intră în Magazin1, eMag și Trendyol ale firmei țintă.",
+        "Segment necunoscut, slash codificat și combinație cabinet B/firmă A nu deschid canalul A."
+      ],
+      "expected": "URL-urile au segmentele exacte /CUI_A, /CUI_A/CUI_A sau /CUI_A/CUI_B și numele configurat al canalului. Antetul indică firma și canalul corecte.",
+      "negative": "Segment necunoscut, slash codificat și combinație cabinet B/firmă A nu deschid canalul A.",
+      "anchors": [
+        "route",
+        "tenancy"
+      ],
+      "frontend_ux": "Setări canal → /CUI_A → /CUI_A/CUI_A1 → /CUI_A/CUI_A1/Magazin1; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Traefik → rezolvare slug și identitate stabilă → serviciu Docker al canalului → identitate autorizată; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare, AD_Client/Org; volume PostgreSQL, Redis, Meilisearch și ActiveStorage inventariate individual; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 acces, A02 identități, A10 medii; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C02",
+      "objective": "Numele canalului și identitatea internă",
+      "requirement_id": "R-A08-C02",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "role_context": "Administrator cabinet A și administrator firmă A1",
+      "fixture": "FX-A08-1",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Redenumește în fixture Magazin1 și creează același nume în altă firmă. Folosește apoi ambele URL.",
+        "Dublură în aceeași firmă este refuzată. Un link vechi se rezolvă numai conform politicii declarate și în firma corectă."
+      ],
+      "expected": "Aceleași referințe interne și comenzi după redenumire; două firme cu numele identic se disting prin CUI.",
+      "negative": "Dublură în aceeași firmă este refuzată. Un link vechi se rezolvă numai conform politicii declarate și în firma corectă.",
+      "anchors": [
+        "route",
+        "channel"
+      ],
+      "frontend_ux": "Setări canal → /CUI_A → /CUI_A/CUI_A1 → /CUI_A/CUI_A1/Magazin1; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Traefik → rezolvare slug și identitate stabilă → serviciu Docker al canalului → identitate autorizată; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare, AD_Client/Org; volume PostgreSQL, Redis, Meilisearch și ActiveStorage inventariate individual; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 acces, A02 identități, A10 medii; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C03",
+      "objective": "Desfășurare per canal",
+      "requirement_id": "R-A08-C03",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "role_context": "Administrator cabinet A și administrator firmă A1",
+      "fixture": "FX-A08-1",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Inventariază fiecare cabinet/firmă/canal activ și leagă site-ul de container, rută, imagine și proprietarul configurației.",
+        "Oprește exclusiv fixture-ul A; B rămâne disponibil. O rută spre alt container produce eroare, nu alt magazin."
+      ],
+      "expected": "100% din rândurile incluse au o instanță corespunzătoare, inclusiv canalele platformelor. Instanțele sunt distincte conform modelului cerut.",
+      "negative": "Oprește exclusiv fixture-ul A; B rămâne disponibil. O rută spre alt container produce eroare, nu alt magazin.",
+      "anchors": [
+        "compose",
+        "route",
+        "spree"
+      ],
+      "frontend_ux": "Setări canal → /CUI_A → /CUI_A/CUI_A1 → /CUI_A/CUI_A1/Magazin1; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Traefik → rezolvare slug și identitate stabilă → serviciu Docker al canalului → identitate autorizată; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare, AD_Client/Org; volume PostgreSQL, Redis, Meilisearch și ActiveStorage inventariate individual; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 acces, A02 identități, A10 medii; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C04",
+      "objective": "Izolare stocare și cache",
+      "requirement_id": "R-A08-C04",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "role_context": "Administrator cabinet A și administrator firmă A1",
+      "fixture": "FX-A08-1",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Inserează un canar sintetic numai în media, indexul și coșul A și caută-l în B după încălzirea cache-ului.",
+        "Manipulează parametrii tenant, Host și cookie în A; rezultatul nu dezvăluie B."
+      ],
+      "expected": "Zero apariții ale canarului în catalog B, fișiere B, coadă B, căutare B și sesiune B; se inventariază DB, Redis, Meili, ActiveStorage.",
+      "negative": "Manipulează parametrii tenant, Host și cookie în A; rezultatul nu dezvăluie B.",
+      "anchors": [
+        "cms",
+        "scope",
+        "media"
+      ],
+      "frontend_ux": "Setări canal → /CUI_A → /CUI_A/CUI_A1 → /CUI_A/CUI_A1/Magazin1; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Traefik → rezolvare slug și identitate stabilă → serviciu Docker al canalului → identitate autorizată; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare, AD_Client/Org; volume PostgreSQL, Redis, Meilisearch și ActiveStorage inventariate individual; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 acces, A02 identități, A10 medii; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C05",
+      "objective": "Acces responsabil și comisionar",
+      "requirement_id": "R-A08-C05",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "role_context": "Administrator cabinet A și administrator firmă A1",
+      "fixture": "FX-A08-1",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Compară funcțiile și răspunsurile a doi comisionari și unui gestionar pe același URL.",
+        "Utilizează URL de administrare direct; zero operații de administrare reușite din site."
+      ],
+      "expected": "API aplică organizație, canal, proprietar și permisiune; comisionarul are catalog, comandă și situațiile proprii.",
+      "negative": "Utilizează URL de administrare direct; zero operații de administrare reușite din site.",
+      "anchors": [
+        "rbac",
+        "admin"
+      ],
+      "frontend_ux": "Setări canal → /CUI_A → /CUI_A/CUI_A1 → /CUI_A/CUI_A1/Magazin1; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Traefik → rezolvare slug și identitate stabilă → serviciu Docker al canalului → identitate autorizată; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare, AD_Client/Org; volume PostgreSQL, Redis, Meilisearch și ActiveStorage inventariate individual; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 acces, A02 identități, A10 medii; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C06",
+      "objective": "Mapare CPP și CPA",
+      "requirement_id": "R-A08-C06",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "role_context": "Responsabilul de canal și client comercial",
+      "fixture": "FX-A08-2",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Publică două identități permanente pentru P1 bucată vs P1 ambalat și un set CPA fără CPP corespunzător; modifică SKU extern.",
+        "SKU dublu sau produs fără mapare nu se substituie automat altui produs."
+      ],
+      "expected": "Fiecare variantă și linie de comandă păstrează ID-ul intern unic, inclusiv după schimbarea SKU/EAN.",
+      "negative": "SKU dublu sau produs fără mapare nu se substituie automat altui produs.",
+      "anchors": [
+        "catalog",
+        "fișa"
+      ],
+      "frontend_ux": "ERP Fișă pe canal → catalog → fișă produs în site → API coș; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Reguli de canal și disponibil A06 → copiere publică mapată prin ID intern → cache, filtrare pe canal și timp; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare; M_Product, M_PriceList/Version și date sursă G3, catalog public identificat la inventar; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 ofertă/rezervări, A05 disponibil fizic, A02 model; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C07",
+      "objective": "Preț și conversii pe canal",
+      "requirement_id": "R-A08-C07",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "role_context": "Responsabilul de canal și client comercial",
+      "fixture": "FX-A08-2",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Configurează două canale cu monedă, taxă, UOM, discount și preț diferite; urmărește ERP, card produs și coș.",
+        "Trimite preț modificat în client și listă expirată; autoritatea comercială respinge sau recalculează, explicând schimbarea înaintea acceptării."
+      ],
+      "expected": "Pentru fiecare versiune, totalul brut, net, taxa, moneda și unitatea coincid în toate reprezentările la precizia configurată.",
+      "negative": "Trimite preț modificat în client și listă expirată; autoritatea comercială respinge sau recalculează, explicând schimbarea înaintea acceptării.",
+      "anchors": [
+        "catalog",
+        "fișa",
+        "cart"
+      ],
+      "frontend_ux": "ERP Fișă pe canal → catalog → fișă produs în site → API coș; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Reguli de canal și disponibil A06 → copiere publică mapată prin ID intern → cache, filtrare pe canal și timp; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare; M_Product, M_PriceList/Version și date sursă G3, catalog public identificat la inventar; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 ofertă/rezervări, A05 disponibil fizic, A02 model; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C08",
+      "objective": "Alternative G3 și concurență la ultimul set",
+      "requirement_id": "R-A08-C08",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "role_context": "Responsabilul de canal și client comercial",
+      "fixture": "FX-A08-2",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Pentru P1=P2=P3=120, două coșuri în două canale încearcă simultan 20 S1 și 40 S2.",
+        "Răspuns stale din cache după ultimul angajament; nicio acceptare peste capacitate."
+      ],
+      "expected": "Înainte de angajament se văd 20/40 alternative. Cantitățile acceptate respectă 6×S1 + 3×S2 ≤120 la fiecare componentă; refuzul afișează opțiunea disponibilă.",
+      "negative": "Răspuns stale din cache după ultimul angajament; nicio acceptare peste capacitate.",
+      "anchors": [
+        "stock",
+        "catalog",
+        "order"
+      ],
+      "frontend_ux": "ERP Fișă pe canal → catalog → fișă produs în site → API coș; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Reguli de canal și disponibil A06 → copiere publică mapată prin ID intern → cache, filtrare pe canal și timp; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare; M_Product, M_PriceList/Version și date sursă G3, catalog public identificat la inventar; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 ofertă/rezervări, A05 disponibil fizic, A02 model; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C09",
+      "objective": "Dezactivare produs / ordonarea publicărilor",
+      "requirement_id": "R-A08-C09",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "role_context": "Responsabilul de canal și client comercial",
+      "fixture": "FX-A08-2",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Publică v2 peste v1, apoi retrage produsul; livrează un mesaj v1 întârziat.",
+        "Un eveniment vechi sau o invalidare cache repetată nu republică oferta."
+      ],
+      "expected": "Lista și detaliul nu mai permit plasarea unei noi comenzi pentru oferta retrasă; istoricul comenzii vechi este lizibil.",
+      "negative": "Un eveniment vechi sau o invalidare cache repetată nu republică oferta.",
+      "anchors": [
+        "fișa",
+        "catalog",
+        "stock"
+      ],
+      "frontend_ux": "ERP Fișă pe canal → catalog → fișă produs în site → API coș; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Reguli de canal și disponibil A06 → copiere publică mapată prin ID intern → cache, filtrare pe canal și timp; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare; M_Product, M_PriceList/Version și date sursă G3, catalog public identificat la inventar; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 ofertă/rezervări, A05 disponibil fizic, A02 model; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C10",
+      "objective": "Conversii B2B/B2C și segmente",
+      "requirement_id": "R-A08-C10",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "role_context": "Responsabilul de canal și client comercial",
+      "fixture": "FX-A08-2",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Comparați cont anonim, grupă B2B și comisionar pentru aceeași ofertă în două canale.",
+        "Solicitare anonimă către cache-ul populat din cont B2B și trecerea între două canale; niciun preț B2B divulgat."
+      ],
+      "expected": "Utilizatorii eligibili văd prețurile conform listei, pragurilor și grupurilor; prețul privat nu ajunge în răspuns public.",
+      "negative": "Solicitare anonimă către cache-ul populat din cont B2B și trecerea între două canale; niciun preț B2B divulgat.",
+      "anchors": [
+        "catalog",
+        "b2b",
+        "cart"
+      ],
+      "frontend_ux": "ERP Fișă pe canal → catalog → fișă produs în site → API coș; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Reguli de canal și disponibil A06 → copiere publică mapată prin ID intern → cache, filtrare pe canal și timp; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "EVA_CanalVanzare; M_Product, M_PriceList/Version și date sursă G3, catalog public identificat la inventar; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 ofertă/rezervări, A05 disponibil fizic, A02 model; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C11",
+      "objective": "Checkout complet cu adrese diferite",
+      "requirement_id": "R-A08-C11",
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "role_context": "B2C, B2B, comisionar al canalului",
+      "fixture": "FX-A08-3",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Plasează o comandă sintetică cu adresa de facturare în A și cea de livrare în B; corelează confirmarea cu C_Order și locațiile.",
+        "Lipsește adresa de livrare: pasul o cere înainte de confirmare, iar datele deja introduse sunt păstrate."
+      ],
+      "expected": "Un antet și numărul exact de linii cu cele două locații distincte; poziția și suma transportului ajung în ERP.",
+      "negative": "Lipsește adresa de livrare: pasul o cere înainte de confirmare, iar datele deja introduse sunt păstrate.",
+      "anchors": [
+        "order",
+        "address",
+        "cart"
+      ],
+      "frontend_ux": "Produs → coș → adrese și transport → revizuire → confirmare și număr de referință; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Serviciu checkout comun → referință externă → import comercial al ERP → C_Order/C_OrderLine → răspuns persistent; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Comandă de canal și legătură externă, C_BPartner/Location, C_Order/Line, M_PriceList, C_Currency/C_Tax; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 import și rezervare, A05 pick, A07 documente, A01 drepturi; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C12",
+      "objective": "Recalculare înainte de confirmare",
+      "requirement_id": "R-A08-C12",
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "role_context": "B2C, B2B, comisionar al canalului",
+      "fixture": "FX-A08-3",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Schimbă preț și disponibil după deschiderea coșului; reîncearcă confirmarea.",
+        "Client furnizează total sau valută nepermise; nu apare document ERP cu totalul manipulabil."
+      ],
+      "expected": "Clientul vede suma recalculată și lipsa la stoc înainte de angajarea valorii noi; reluarea folosește valoarea confirmată.",
+      "negative": "Client furnizează total sau valută nepermise; nu apare document ERP cu totalul manipulabil.",
+      "anchors": [
+        "order",
+        "catalog",
+        "cart"
+      ],
+      "frontend_ux": "Produs → coș → adrese și transport → revizuire → confirmare și număr de referință; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Serviciu checkout comun → referință externă → import comercial al ERP → C_Order/C_OrderLine → răspuns persistent; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Comandă de canal și legătură externă, C_BPartner/Location, C_Order/Line, M_PriceList, C_Currency/C_Tax; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 import și rezervare, A05 pick, A07 documente, A01 drepturi; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C13",
+      "objective": "Idempotent inclusiv după pierderea răspunsului",
+      "requirement_id": "R-A08-C13",
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "role_context": "B2C, B2B, comisionar al canalului",
+      "fixture": "FX-A08-3",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Simulează dublu clic și timeout după commit ERP pentru aceeași comandă; reia aceeași cheie.",
+        "Același ID extern cu payload schimbat produce conflict urmărit, fără suprascriere tăcută."
+      ],
+      "expected": "Număr comenzi ERP=1 și aceeași referință este comunicată din nou. Două canale cu același ID extern își păstrează comenzile distincte.",
+      "negative": "Același ID extern cu payload schimbat produce conflict urmărit, fără suprascriere tăcută.",
+      "anchors": [
+        "order",
+        "spree"
+      ],
+      "frontend_ux": "Produs → coș → adrese și transport → revizuire → confirmare și număr de referință; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Serviciu checkout comun → referință externă → import comercial al ERP → C_Order/C_OrderLine → răspuns persistent; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Comandă de canal și legătură externă, C_BPartner/Location, C_Order/Line, M_PriceList, C_Currency/C_Tax; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 import și rezervare, A05 pick, A07 documente, A01 drepturi; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C14",
+      "objective": "Administrarea exclusiv în ERP",
+      "requirement_id": "R-A08-C14",
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "role_context": "B2C, B2B, comisionar al canalului",
+      "fixture": "FX-A08-3",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Pornește de la confirmarea clientului. Enumeră toate acțiunile site-ului și verifică butoanele, URL direct și API cu rolul comisionar.",
+        "Solicitare fabricată pentru schimbare stare, anulare logistică, emitere document sau livrare este respinsă fără efect în fixture."
+      ],
+      "expected": "Nicio etapă gestionar, pick, aviz, aprobare, AWB sau facturare nu poate fi declanșată de site/comisionar. ERP preia noua comandă pentru fluxul legitim.",
+      "negative": "Solicitare fabricată pentru schimbare stare, anulare logistică, emitere document sau livrare este respinsă fără efect în fixture.",
+      "anchors": [
+        "admin",
+        "order",
+        "rbac"
+      ],
+      "frontend_ux": "Produs → coș → adrese și transport → revizuire → confirmare și număr de referință; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Serviciu checkout comun → referință externă → import comercial al ERP → C_Order/C_OrderLine → răspuns persistent; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Comandă de canal și legătură externă, C_BPartner/Location, C_Order/Line, M_PriceList, C_Currency/C_Tax; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 import și rezervare, A05 pick, A07 documente, A01 drepturi; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C15",
+      "objective": "Checkout accesibil și reluare la eroare",
+      "requirement_id": "R-A08-C15",
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "role_context": "B2C, B2B, comisionar al canalului",
+      "fixture": "FX-A08-3",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Parcurge coșul și confirmarea la 360px și desktop cu tastatura, focus vizibil și reader; întrerupe API în ultimul pas.",
+        "Eroare generică fără câmp indicat sau buton duplicabil se consemnează cu captură de focus și răspuns API."
+      ],
+      "expected": "Etichetele, totalul, erorile și referința pot fi percepute fără mouse; datele rămân după eroare, iar reluarea nu comandă de două ori.",
+      "negative": "Eroare generică fără câmp indicat sau buton duplicabil se consemnează cu captură de focus și răspuns API.",
+      "anchors": [
+        "cart",
+        "order"
+      ],
+      "frontend_ux": "Produs → coș → adrese și transport → revizuire → confirmare și număr de referință; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Serviciu checkout comun → referință externă → import comercial al ERP → C_Order/C_OrderLine → răspuns persistent; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Comandă de canal și legătură externă, C_BPartner/Location, C_Order/Line, M_PriceList, C_Currency/C_Tax; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 import și rezervare, A05 pick, A07 documente, A01 drepturi; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C16",
+      "objective": "Raport pe proprietar în pagină și export",
+      "requirement_id": "R-A08-C16",
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0005",
+        "P01.C10.T0012",
+        "P01.C10.T0017",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P04"
+      ],
+      "role_context": "Comisionar A; comisionar B în același canal; responsabil ERP",
+      "fixture": "FX-A08-4",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Creează două conturi comisionar în același canal și o vânzare vizibilă doar unuia; compară listă, detaliu, export și total.",
+        "Pentru ID sau cursorul de paginare aparținând lui B, nu se scurge nici totalul sau numărul comenzilor B."
+      ],
+      "expected": "Comisionarul A vede numai vânzările proprii și agregările lor. Totalul coincide cu A06 la data de referință.",
+      "negative": "Pentru ID sau cursorul de paginare aparținând lui B, nu se scurge nici totalul sau numărul comenzilor B.",
+      "anchors": [
+        "orders",
+        "rbac"
+      ],
+      "frontend_ux": "Cont → comenzile mele → situație comision → detaliu, retur solicitat sau export; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Autorizare per sesiune → filtru server persoană+client+org+canal → proiecție ERP → răspuns; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "C_BPartner, C_Order, C_Invoice, alocări/retur și cheie comisionar; tabele efective confirmate în mediul izolat; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 control acces, A06 comisioane, A07 retururi; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C17",
+      "objective": "Revocarea accesului",
+      "requirement_id": "R-A08-C17",
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0005",
+        "P01.C10.T0012",
+        "P01.C10.T0017",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P04"
+      ],
+      "role_context": "Comisionar A; comisionar B în același canal; responsabil ERP",
+      "fixture": "FX-A08-4",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Deschide contul A pe două sesiuni, revocă în fixture rolul său de pe canal și repetă solicitarea autorizată anterior.",
+        "Legătură veche, tab din cache sau cookie păstrat nu redeschid date private; verifică și refresh."
+      ],
+      "expected": "După pragul documentat de revocare, atât API, cât și exportul sunt blocate pe ambele sesiuni. Celălalt comisionar funcționează normal.",
+      "negative": "Legătură veche, tab din cache sau cookie păstrat nu redeschid date private; verifică și refresh.",
+      "anchors": [
+        "orders",
+        "scope",
+        "rbac"
+      ],
+      "frontend_ux": "Cont → comenzile mele → situație comision → detaliu, retur solicitat sau export; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Autorizare per sesiune → filtru server persoană+client+org+canal → proiecție ERP → răspuns; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "C_BPartner, C_Order, C_Invoice, alocări/retur și cheie comisionar; tabele efective confirmate în mediul izolat; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 control acces, A06 comisioane, A07 retururi; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C18",
+      "objective": "Returul și situația comercială",
+      "requirement_id": "R-A08-C18",
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0005",
+        "P01.C10.T0012",
+        "P01.C10.T0017",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P04"
+      ],
+      "role_context": "Comisionar A; comisionar B în același canal; responsabil ERP",
+      "fixture": "FX-A08-4",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "De la o comandă eligibilă, solicită retur conform rolului, apoi confruntă situația după operarea returului în ERP și recalcularea comisionului.",
+        "Cerere repetată sau returul altei persoane nu creează document financiar suplimentar."
+      ],
+      "expected": "Cererea poartă referința proprie. Situația afișează corecția primită din ERP; încasările și stocurile urmăresc documentele unice gestionate de A07.",
+      "negative": "Cerere repetată sau returul altei persoane nu creează document financiar suplimentar.",
+      "anchors": [
+        "returns",
+        "orders",
+        "rbac"
+      ],
+      "frontend_ux": "Cont → comenzile mele → situație comision → detaliu, retur solicitat sau export; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Autorizare per sesiune → filtru server persoană+client+org+canal → proiecție ERP → răspuns; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "C_BPartner, C_Order, C_Invoice, alocări/retur și cheie comisionar; tabele efective confirmate în mediul izolat; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 control acces, A06 comisioane, A07 retururi; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C19",
+      "objective": "Template Cesiro și teme independente",
+      "requirement_id": "R-A08-C19",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0019",
+        "P01.C10.T0020",
+        "P01.C10.T0021",
+        "P01.C10.T0022",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P05"
+      ],
+      "role_context": "Responsabil de canal și cumpărător",
+      "fixture": "FX-A08-5",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "În două canale folosește două teme din aceeași familie; compară catalogul, coșul, checkout-ul și contractul comercial înainte și după schimbare.",
+        "O temă incompletă nu devine activă, iar revenirea la versiunea anterioară păstrează coșul."
+      ],
+      "expected": "Coșul, ID-urile și totalurile rămân identice pentru aceeași ofertă. Logica de checkout există într-un singur serviciu identificabil.",
+      "negative": "O temă incompletă nu devine activă, iar revenirea la versiunea anterioară păstrează coșul.",
+      "anchors": [
+        "cart",
+        "route",
+        "commerce"
+      ],
+      "frontend_ux": "Setări → previzualizare eMag/Trendyol sau magazin → card produs → pagină produs pe desktop și mobil; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Contract comun conținut, temă și mapări media/categorie/atribute/limbă; simulatoare fără apeluri externe; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Config temă/canal, traduceri și media, identificator versiune previzualizată și catalog publicat; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 mapări, A09 UX, A01 acces, A10 simulatoare; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C20",
+      "objective": "Preview specific eMag/Trendyol",
+      "requirement_id": "R-A08-C20",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0019",
+        "P01.C10.T0020",
+        "P01.C10.T0021",
+        "P01.C10.T0022",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P05"
+      ],
+      "role_context": "Responsabil de canal și cumpărător",
+      "fixture": "FX-A08-5",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Capturează în sandbox lista și pagina produs pentru model eMag și Trendyol după șabloanele de referință aprobate, la 360 și 1280px.",
+        "Atribut obligatoriu lipsă e localizat lângă câmp; previzualizarea rămâne privată și nu publică la partener."
+      ],
+      "expected": "Responsabilul vede structura platformei, imagini, denumire, preț, atribute și stoc exact din fișa ce urmează a fi publicată. Captura include versiunea și diferențele față de referință.",
+      "negative": "Atribut obligatoriu lipsă e localizat lângă câmp; previzualizarea rămâne privată și nu publică la partener.",
+      "anchors": [
+        "fișa",
+        "theme",
+        "catalog"
+      ],
+      "frontend_ux": "Setări → previzualizare eMag/Trendyol sau magazin → card produs → pagină produs pe desktop și mobil; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Contract comun conținut, temă și mapări media/categorie/atribute/limbă; simulatoare fără apeluri externe; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Config temă/canal, traduceri și media, identificator versiune previzualizată și catalog publicat; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 mapări, A09 UX, A01 acces, A10 simulatoare; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C21",
+      "objective": "Publicare și integritatea conținutului",
+      "requirement_id": "R-A08-C21",
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0019",
+        "P01.C10.T0020",
+        "P01.C10.T0021",
+        "P01.C10.T0022",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P05"
+      ],
+      "role_context": "Responsabil de canal și cumpărător",
+      "fixture": "FX-A08-5",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Include titlu cu markup, imagine indisponibilă și media autorizate; inspectează card, detaliu, fallback și versiunea ce va fi publicată.",
+        "URL media din alt tenant și JS în descriere nu returnează conținut privat sau executabil."
+      ],
+      "expected": "Conținutul este afișat ca text sigur, imaginile au alternative și proveniență documentată. Un fișier privat/nelicențiat nu devine public.",
+      "negative": "URL media din alt tenant și JS în descriere nu returnează conținut privat sau executabil.",
+      "anchors": [
+        "media",
+        "catalog",
+        "seo"
+      ],
+      "frontend_ux": "Setări → previzualizare eMag/Trendyol sau magazin → card produs → pagină produs pe desktop și mobil; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Contract comun conținut, temă și mapări media/categorie/atribute/limbă; simulatoare fără apeluri externe; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Config temă/canal, traduceri și media, identificator versiune previzualizată și catalog publicat; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A06 mapări, A09 UX, A01 acces, A10 simulatoare; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C22",
+      "objective": "Disponibilitate pentru șase limbi",
+      "requirement_id": "R-A08-C22",
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P06"
+      ],
+      "role_context": "Vizitator cu acord, fără acord și după retragere",
+      "fixture": "FX-A08-6",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Parcurge catalogul, checkout-ul, mesajele de eroare și situația pentru ro/en/de/hu/bg/el, pe desktop și mobil.",
+        "Traducere lipsă și caractere grecești, maghiare, diacritice române: căutarea, titlul și confirmarea păstrează textul corect."
+      ],
+      "expected": "Fiecare text este localizat sau poartă fallback-ul configurat și documentat. Nu apar chei brute. Parametrii comerciali nu se schimbă cu limba.",
+      "negative": "Traducere lipsă și caractere grecești, maghiare, diacritice române: căutarea, titlul și confirmarea păstrează textul corect.",
+      "anchors": [
+        "lang",
+        "cart",
+        "seo"
+      ],
+      "frontend_ux": "Landing → categorie → produs → checkout → modificare preferințe; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Traduceri și fallback per canal, schemă SEO, canonical/hreflang, sitemap, evenimente condiționate de preferințe; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Config locale și scop/dată/versiune acord; evenimente și rapoarte agregate pe canal; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 date personale, A06 campanii, A09 accesibilitate, A10 observabilitate; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C23",
+      "objective": "Canonical și sitemap pe canal",
+      "requirement_id": "R-A08-C23",
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P06"
+      ],
+      "role_context": "Vizitator cu acord, fără acord și după retragere",
+      "fixture": "FX-A08-6",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Inspectează sitemap, robots, canonical și legăturile alternative pentru produs public, cont comisionar, coș și preview privat.",
+        "Nume de gazdă injectat sau imagine a altui tenant nu produce URL indexabil străin."
+      ],
+      "expected": "Numai URL public și al canalului corect apare în sitemap. Conturile/preview/export sunt protejate și neindexabile; răspunsul conține canonical coerent.",
+      "negative": "Nume de gazdă injectat sau imagine a altui tenant nu produce URL indexabil străin.",
+      "anchors": [
+        "sitemap",
+        "seo",
+        "scope"
+      ],
+      "frontend_ux": "Landing → categorie → produs → checkout → modificare preferințe; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Traduceri și fallback per canal, schemă SEO, canonical/hreflang, sitemap, evenimente condiționate de preferințe; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Config locale și scop/dată/versiune acord; evenimente și rapoarte agregate pe canal; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 date personale, A06 campanii, A09 accesibilitate, A10 observabilitate; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C24",
+      "objective": "Preferințe și conversii marketing",
+      "requirement_id": "R-A08-C24",
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0029"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P06"
+      ],
+      "role_context": "Vizitator cu acord, fără acord și după retragere",
+      "fixture": "FX-A08-6",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Cu captură de trafic într-un mediu izolat, refuză, acceptă și retrage acordul opțional. Simulează apoi retry la confirmare.",
+        "Refuzul nu împiedică operațiile necesare ale coșului; refreshul sau campania altui canal nu repetă conversia."
+      ],
+      "expected": "Zero evenimente opționale până la consimțământul aplicabil și după retragere; o conversie urmărită per comandă eligibilă, corelată cu suma și canalul corecte.",
+      "negative": "Refuzul nu împiedică operațiile necesare ale coșului; refreshul sau campania altui canal nu repetă conversia.",
+      "anchors": [
+        "commerce",
+        "cart",
+        "order"
+      ],
+      "frontend_ux": "Landing → categorie → produs → checkout → modificare preferințe; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Traduceri și fallback per canal, schemă SEO, canonical/hreflang, sitemap, evenimente condiționate de preferințe; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Config locale și scop/dată/versiune acord; evenimente și rapoarte agregate pe canal; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A01 date personale, A06 campanii, A09 accesibilitate, A10 observabilitate; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C25",
+      "objective": "Coada și exportul ordinelor eșuate",
+      "requirement_id": "R-A08-C25",
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0006",
+        "P01.C10.T0010",
+        "P01.C10.T0011",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P07"
+      ],
+      "role_context": "Operator ERP și responsabil site",
+      "fixture": "FX-A08-7",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Oprește adaptorul simulat înainte și după commit și execută reconcilierea după reluare.",
+        "Mesaj otrăvit nu blochează restul lotului, nu pierde originalul și nu expune adrese în log."
+      ],
+      "expected": "Pentru fiecare ID de comandă, registrul indică fie C_Order unic, fie eroare explicabilă și owner. Clientul păstrează referința și starea reîncercabilă.",
+      "negative": "Mesaj otrăvit nu blochează restul lotului, nu pierde originalul și nu expune adrese în log.",
+      "anchors": [
+        "order",
+        "spree"
+      ],
+      "frontend_ux": "Client vede referința/starea → ERP excepții → reconciliere → situație actualizată în site; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Coadă identificată după versiune → retry cu cheie persistentă → ERP → status → reconciliere; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Registru mesaje, relație cu ID C_Order, versiunile catalogului/situației, erori fără date sensibile; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A10 infrastructură, A06 comenzi, A07 evenimente; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C26",
+      "objective": "Restaurarea unui singur canal",
+      "requirement_id": "R-A08-C26",
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0006",
+        "P01.C10.T0010",
+        "P01.C10.T0011",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P07"
+      ],
+      "role_context": "Operator ERP și responsabil site",
+      "fixture": "FX-A08-7",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Adaugă date sintetice în A și B. Restaurează o copie A în mediu izolat, reconciliind până la cutoff declarați cu A10.",
+        "Restaurare fără index sau media: diferența e identificată cu număr și procedură de reconstrucție înainte de redeschidere."
+      ],
+      "expected": "Canarul A și cheile de referință se refac; B păstrează starea. Reconcilierea nu retransmite comenzi conținând aceeași cheie.",
+      "negative": "Restaurare fără index sau media: diferența e identificată cu număr și procedură de reconstrucție înainte de redeschidere.",
+      "anchors": [
+        "compose",
+        "spree",
+        "scope"
+      ],
+      "frontend_ux": "Client vede referința/starea → ERP excepții → reconciliere → situație actualizată în site; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Coadă identificată după versiune → retry cu cheie persistentă → ERP → status → reconciliere; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Registru mesaje, relație cu ID C_Order, versiunile catalogului/situației, erori fără date sensibile; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A10 infrastructură, A06 comenzi, A07 evenimente; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    },
+    {
+      "id": "A08-C27",
+      "objective": "Proveniența instanțelor și sursa versiunii active",
+      "requirement_id": "R-A08-C27",
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0006",
+        "P01.C10.T0010",
+        "P01.C10.T0011",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "zone_id": "A08",
+      "pipeline_ids": [
+        "A08-P07"
+      ],
+      "role_context": "Operator ERP și responsabil site",
+      "fixture": "FX-A08-7",
+      "applicability": "Obligatoriu pentru zona indicată. N/A necesită motiv cu probă și decizie independentă A11.",
+      "preconditions": "Gate A11 aprobat, versiuni și fixture înregistrate; un cabinet sintetic izolat, endpoint-uri externe dezactivate, roluri și date inițiale cunoscute.",
+      "steps": [
+        "Pentru fiecare canal compară SHA Git, imagine, etichetă, montări, modul/JS efectiv, versiune și configurație. Repetă pentru Spree și reverse proxy.",
+        "Eticheta latest și unul din fișierele experimentale nu țin loc de dovadă asupra aplicației în uz."
+      ],
+      "expected": "Fiecare afirmație are versiunea ei: cod repo, cod activ, configurație, comportament. Diferențele rămân în registru cu proprietar și sursa lipsă.",
+      "negative": "Eticheta latest și unul din fișierele experimentale nu țin loc de dovadă asupra aplicației în uz.",
+      "anchors": [
+        "compose",
+        "route",
+        "spree"
+      ],
+      "frontend_ux": "Client vede referința/starea → ERP excepții → reconciliere → situație actualizată în site; păstrează screenshot redacționat cu firul acțiunilor, focus, mesaj și rol, la dimensiunile stabilite.",
+      "backend": "Coadă identificată după versiune → retry cu cheie persistentă → ERP → status → reconciliere; înregistrează metoda/rezultatul pe traseul real, stare, ID corelație și momentul commitului unde se aplică.",
+      "db_check": "Registru mesaje, relație cu ID C_Order, versiunile catalogului/situației, erori fără date sensibile; verifică documentele și diferențele de număr/sumă, limitate la fixture și la AD_Client_ID/AD_Org_ID. Validează tabelul și coloana în versiunea instalată înainte de SELECT.",
+      "native_check": "Reconciliază cu contractul A10 infrastructură, A06 comenzi, A07 evenimente; verifică dictionary instalat și dovadă comportamentală a procesului reutilizat. Pentru operații comerciale Spree verifică API-ul comun și legătura cu iDempiere. Fără atribuire implicită unei funcții native.",
+      "cleanup": "Anulează fixture-ul/snapshotul de test prin procedura mediului izolat. Înregistrează diferențele rămase și identificatorii datelor sintetice.",
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "executor": "A08",
+      "reviewer": "A11",
+      "executed_at": null
+    }
+  ],
+  "actual_task_candidates": [
+    {
+      "code": "P01.C10.T0002",
+      "alias": "T211",
+      "title": "Fișa fiecărei platforme de vânzări și canalele ei",
+      "status": "integrat",
+      "pipelines": [
+        "A08-P01",
+        "A08-P02",
+        "A08-P05"
+      ]
+    },
+    {
+      "code": "P01.C10.T0003",
+      "alias": "T212",
+      "title": "Comenzile online urmărite până la încasare",
+      "status": "montat",
+      "pipelines": [
+        "A08-P03",
+        "A08-P07"
+      ]
+    },
+    {
+      "code": "P01.C10.T0004",
+      "alias": "T213",
+      "title": "Relația cu clienții: rolul comercial și campaniile",
+      "status": "implementare",
+      "pipelines": [
+        "A08-P04",
+        "A08-P06"
+      ]
+    },
+    {
+      "code": "P01.C10.T0005",
+      "alias": "T214",
+      "title": "Raportul vânzărilor online pe canal",
+      "status": "montat",
+      "pipelines": [
+        "A08-P04"
+      ]
+    },
+    {
+      "code": "P01.C10.T0006",
+      "alias": "T215",
+      "title": "Auditul final al corelării vânzărilor la proprietar",
+      "status": "închis",
+      "pipelines": [
+        "A08-P07"
+      ]
+    },
+    {
+      "code": "P01.C10.T0007",
+      "alias": "T216",
+      "title": "Comenzile de pe site, facturate și încasate automat",
+      "status": "montat",
+      "pipelines": [
+        "A08-P02",
+        "A08-P03"
+      ]
+    },
+    {
+      "code": "P01.C10.T0010",
+      "alias": "T219",
+      "title": "Simulatoare de parteneri pentru teste sigure",
+      "status": "închis",
+      "pipelines": [
+        "A08-P07"
+      ]
+    },
+    {
+      "code": "P01.C10.T0011",
+      "alias": "T220",
+      "title": "Legarea comenzilor de facturi, livrări și încasări",
+      "status": "montat",
+      "pipelines": [
+        "A08-P07"
+      ]
+    },
+    {
+      "code": "P01.C10.T0012",
+      "alias": "T221",
+      "title": "Un singur ecran cu tot drumul comenzii la încasare",
+      "status": "montat",
+      "pipelines": [
+        "A08-P04"
+      ]
+    },
+    {
+      "code": "P01.C10.T0017",
+      "alias": "T316",
+      "title": "Vânzarea către firme, pe grupe de clienți",
+      "status": "audit",
+      "pipelines": [
+        "A08-P02",
+        "A08-P03",
+        "A08-P04"
+      ]
+    },
+    {
+      "code": "P01.C10.T0018",
+      "alias": "T317",
+      "title": "Magazinele proprii, fiecare cu prețurile lui",
+      "status": "audit",
+      "pipelines": [
+        "A08-P01",
+        "A08-P02",
+        "A08-P03",
+        "A08-P06"
+      ]
+    },
+    {
+      "code": "P01.C10.T0019",
+      "alias": "T318",
+      "title": "Un site pentru fiecare canal propriu, definit în program",
+      "status": "implementare",
+      "pipelines": [
+        "A08-P01",
+        "A08-P05",
+        "A08-P06",
+        "A08-P07"
+      ]
+    },
+    {
+      "code": "P01.C10.T0020",
+      "alias": "T319",
+      "title": "Vânzările pe Trendyol lucrate din program",
+      "status": "implementare",
+      "pipelines": [
+        "A08-P05"
+      ]
+    },
+    {
+      "code": "P01.C10.T0021",
+      "alias": "T320",
+      "title": "Vânzările pe Okazii lucrate din program",
+      "status": "montat",
+      "pipelines": [
+        "A08-P05"
+      ]
+    },
+    {
+      "code": "P01.C10.T0022",
+      "alias": "T321",
+      "title": "Vânzările pe Altex lucrate din program",
+      "status": "audit",
+      "pipelines": [
+        "A08-P05"
+      ]
+    },
+    {
+      "code": "P01.C10.T0025",
+      "alias": "T343",
+      "title": "Comenzile site-ului lucrate doar din program",
+      "status": "plan",
+      "pipelines": [
+        "A08-P01",
+        "A08-P03",
+        "A08-P04",
+        "A08-P07"
+      ]
+    },
+    {
+      "code": "P01.C10.T0028",
+      "alias": "T352",
+      "title": "Tabelul produs × canal: preț, cantitate, termen",
+      "status": "integrat",
+      "pipelines": [
+        "A08-P02"
+      ]
+    },
+    {
+      "code": "P01.C10.T0029",
+      "alias": "T353",
+      "title": "Denumirile și descrierile pe limbă și canal",
+      "status": "montat",
+      "pipelines": [
+        "A08-P02",
+        "A08-P05",
+        "A08-P06"
+      ]
+    }
+  ],
+  "historical_requirements": [
+    "U05",
+    "U06",
+    "U09",
+    "U10",
+    "U11",
+    "U14",
+    "U15",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U29",
+    "U30",
+    "U31",
+    "U33",
+    "U34",
+    "U35"
+  ],
+  "prior_findings": {
+    "C10-EXT-01": "A08-C11",
+    "C10-EXT-02": "A07, A08-P04 diferența confirmării și a valorii de încasat.",
+    "C10-EXT-03": "A08-C07, A08-C12",
+    "ARC-01": "A08-C08, A06 sursa disponibilității"
+  },
+  "handoff": {
+    "A01": "politicile server, tenant, rute, sesiuni; dovadă de refuz direct API",
+    "A02": "AD și DB, identitate permanentă, chei de corelație și constrângeri",
+    "A03": "reguli fiscale, afișarea prețului/TVA și consistența raportării",
+    "A05": "disponibilitate fizică și schimb de stare pentru G3; nicio mutare fizică prin site",
+    "A06": "catalog, ofertă, disponibil G3, ERP C_Order/identificare comisionar și rapoarte",
+    "A07": "starea avizului/AWB/plății, rambursul și returul sunt generate în ERP",
+    "A09": "UX ERP comun, navigare, feedback și accesibilitate",
+    "A10": "proveniență container și cod, cozi, backup-restore, mock extern"
+  },
+  "outputs": [
+    "matrice canal → trafic real → container → sursă → actor → API → document ERP",
+    "fișe per control și probe hashate, catalog diferențe/constatări cu severitate, încredere, reproducere și revizie A11",
+    "comparație vizuală reproducibilă (referință aprobată, aceeași ofertă, aceeași lățime, diferențe acceptate și abatere)."
+  ],
+  "completion": {
+    "denominator": 27,
+    "expected_pipelines": 7,
+    "review": "Fiecare control obligatoriu are probă și rezultat. A11 reproduce independent cazuri pozitive/negative din fiecare familie și reface toate problemele materiale. A12 auditează separat fiecare task finalizat. Scor neacordat."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a165e2-ce46-7de1-bb75-31d1fe8a48e7",
+  "cwd": "\\\\?\\D:\\MP3.Varvi",
+  "created_at": 1792710725,
+  "updated_at": 1792711216,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește linkuri YouTube cu Aeysa",
+  "project_id": "73685247-92a1-4212-a650-4fcf586fc1f4",
+  "project": "MP3.Varvi",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 414288,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 53,
+  "message_count": 12,
+  "content_sha256": "1612dabe93e59bada697e400778bd2e712ebe48f0e531985e63da31d6eaa55bb",
+  "files_copied": 7,
+  "references_not_copied": 2
+}

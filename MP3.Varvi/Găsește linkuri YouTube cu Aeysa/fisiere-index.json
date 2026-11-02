@@ -1,0 +1,59 @@
+[
+  {
+    "source_reference": "D:/MP3.Varvi/downloads/Excel - AEYSA_linkuri_YouTube",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/MP3.Varvi/outputs/aeysa_20261023/AEYSA_linkuri_YouTube.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/AEYSA_linkuri_YouTube--e2ceaec6.txt",
+    "bytes": 3420,
+    "sha256": "d089f2b3d4d4c2ca8f6921cce9eb5c354a16dd5404330a433cd965eca11968fb"
+  },
+  {
+    "source_reference": "D:/MP3.Varvi/outputs/aeysa_20261023/AEYSA_linkuri_YouTube.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/AEYSA_linkuri_YouTube--7cb0ba59.xlsx",
+    "bytes": 11030,
+    "sha256": "d545beed903874cd7f48399898d774f914b9ac10870fcb2ddf40558d2efa2597"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\aeysa_20261023\\Clipuri scurte.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Clipuri scurte--e7f79c59.png",
+    "bytes": 68726,
+    "sha256": "0924188c5d935bd068382cd5f169bed429d81669667e68bd4e3467890537bbb5"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\aeysa_20261023\\Live radio.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Live radio--0076d187.png",
+    "bytes": 33504,
+    "sha256": "d6a529578ae8b7bcdb72fff4e7e858fbe98b544dff28838132208408289036ea"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\aeysa_20261023\\Piese integrale.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Piese integrale--8c8eda29.png",
+    "bytes": 55347,
+    "sha256": "faaa40fd992d6f69e454a4405c5dafa244b2263d8794dc3ba81a520760cc6807"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\aeysa_20261023\\build.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build--92d2a383.mjs",
+    "bytes": 2370,
+    "sha256": "69753de0a39bf70d6e857b174e3803042a8e1d4cbd567136958c5e1defee9add"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\aeysa_20261023\\collect.py",
+    "status": "copiat",
+    "saved_path": "fisiere/collect--b5afa0ec.py",
+    "bytes": 1712,
+    "sha256": "ab15b1853d30004008d4cb42c4c2b27af48d033a178be3a334075bbb41d27091"
+  },
+  {
+    "source_reference": "https://aeysa.com/videos/all/",
+    "status": "referinta_externa_necopiata"
+  }
+]

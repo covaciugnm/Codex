@@ -8,9 +8,9 @@
   "title": "Program stabilit pentru vineri",
   "project_id": "5c179290-3222-4036-8042-710f2e84db88",
   "project": "Comun",
-  "assignment_method": "workspace_path",
+  "assignment_method": "app_assignment",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-18T07:57:49.755838+00:00",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
   "source_bytes": 272536,
   "invalid_json_lines": 0,
   "history_source": "items",
@@ -18,6 +18,6 @@
   "item_count": 941,
   "message_count": 941,
   "content_sha256": "5f6d020892347058a4e54c3ec18680e01cc0f4101248fe77d87439098b8b7a44",
-  "files_copied": 25,
-  "references_not_copied": 54
+  "files_copied": 24,
+  "references_not_copied": 55
 }

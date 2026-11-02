@@ -1,0 +1,23 @@
+{
+  "id": "01a1928e-adb8-7b43-9f41-8a66604afea2",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1793460186,
+  "updated_at": 1793623666,
+  "archived": 0,
+  "source": "vscode",
+  "title": "iFLYTEK deploy key setup",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 408410,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 228,
+  "message_count": 228,
+  "content_sha256": "b7984962a0f82d307ea291dcd7bc740c833df00a53e92cc6de22b8a0587cd21c",
+  "files_copied": 3,
+  "references_not_copied": 30
+}

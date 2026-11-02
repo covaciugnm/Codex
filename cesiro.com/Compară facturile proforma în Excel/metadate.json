@@ -1,0 +1,23 @@
+{
+  "id": "01a15e0f-560e-7b41-99e5-3b0e99f0caa9",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\cesiro.com",
+  "created_at": 1792579425,
+  "updated_at": 1792660408,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară facturile proforma în Excel",
+  "project_id": "cb77d483-a84c-4469-aa78-88e01d9d8942",
+  "project": "cesiro.com",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 581472,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 24,
+  "message_count": 5,
+  "content_sha256": "51f7042bdebc7903048e53a182719dbc7c3271892ec337bfe271de75e8f6d936",
+  "files_copied": 1,
+  "references_not_copied": 6
+}

@@ -1,0 +1,274 @@
+{
+  "reviewer": "A11",
+  "utc": "2026-11-02T15:15:00.721838+00:00",
+  "subject": "executie/A09/A09_addendum_android_R2.json",
+  "hash_sha256": "83ce6c78613088aea4724adbec2b73bcb78767789758619f4683d35efcda4f2c",
+  "base_plan_bundle": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "previous_gate_sha256": "0bb1d2e48fff73ce817846ce47218db4006e61eddd16bb10ab711c968844c8e4",
+  "manifest_sha256": "97739c1fd35e5d7250fdca90b7d6a695a77fda9b914655e89a5633cb780e3581",
+  "tracked": 199,
+  "git_blob_and_sha_verified": 199,
+  "apk_hash_recomputed": "b587e9ad69a094df9be18ab4eb4f19b683a24aa624461c029fce9599586ce6d9",
+  "individual_control_count": 6,
+  "crosscheck_errors": [],
+  "decision": "ACCEPTAT_PLAN_SUPLIMENT_ANDROID",
+  "quality_score_plan": 10,
+  "earned": 50,
+  "maximum_subchecks": 50,
+  "subchecks": [
+    {
+      "id": "QC01-P1",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC01-P2",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC01-P3",
+      "points": 0.2,
+      "evidence": "199/199 hashuri SHA256/OID, cele 18 omise anterior sunt incluse și au dispoziție, inclusiv build/proguard."
+    },
+    {
+      "id": "QC01-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC01-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC02-P1",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC02-P2",
+      "points": 0.2,
+      "evidence": "6 controale AND→task și ID canonic/stare validate pe inventar; părinte A09 și cross zone, test/artefact."
+    },
+    {
+      "id": "QC02-P3",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC02-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC02-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC03-P1",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC03-P2",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC03-P3",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC03-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC03-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC04-P1",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC04-P2",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC04-P3",
+      "points": 0.2,
+      "evidence": "Oracole distincte DR/CO și pierdere după commit, fără confundare mock și ERP actual."
+    },
+    {
+      "id": "QC04-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC04-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC05-P1",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC05-P2",
+      "points": 0.2,
+      "evidence": "K1/K2, +0/1 linii și mișcări, date A/B, două gestiuni/lot, zero după refuz, conservare cantitativă."
+    },
+    {
+      "id": "QC05-P3",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC05-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC05-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC06-P1",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC06-P2",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC06-P3",
+      "points": 0.2,
+      "evidence": "5 interfețe responsabile furnizor/consumator, dovadă și acceptarea sarcinii distinctă de rezultatul observat."
+    },
+    {
+      "id": "QC06-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC06-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC07-P1",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC07-P2",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC07-P3",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC07-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC07-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC08-P1",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC08-P2",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC08-P3",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC08-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC08-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC09-P1",
+      "points": 0.2,
+      "evidence": "Comenzi/module/rută/artefact și alternativă limitată fără AVD; fizic/AVD/JVM/APK și semnare distincte."
+    },
+    {
+      "id": "QC09-P2",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC09-P3",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC09-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC09-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC10-P1",
+      "points": 0.2,
+      "evidence": "Șablon probator individual și revizie A11 pe hash nemodificat, versiunea R1 păstrată."
+    },
+    {
+      "id": "QC10-P2",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC10-P3",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC10-P4",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    },
+    {
+      "id": "QC10-P5",
+      "points": 0.2,
+      "evidence": "Condiție menținută a planului semnat și reconfirmată în domeniul celor șase controale AND."
+    }
+  ],
+  "open_hard_blockers": [],
+  "AND_executed_at_gate": 0,
+  "quality_score_product_or_audit": null,
+  "limitations": "Semnătură și proveniența buildului, AVD, acces fizic și efect ERP sunt obiecte de execuție. 10/10 fără execuție le atestă numai proiectarea. Nici telefonul real, nici legătura reproductibilă dintre APK și SHA nu sunt certificate prin inventar."
+}

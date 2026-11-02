@@ -1,0 +1,49 @@
+2026.10.20 — Verificare ciornă DONAU și cerere deja trimisă
+
+CONCLUZIE
+Cererea de clarificări a fost deja trimisă la 2026.10.14 19:20:49, ora României (16:20:49 UTC), din office@ac-wohnart.at.
+Ciorna EVA rămasă pending privește aceeași solicitare și nu trebuie retrimisă ca solicitare nouă. Nu este identică textual cu mesajul trimis.
+
+DESTINATARI EFECTIVI
+donau@donauversicherung.at
+c.loschy@donauversicherung.at
+m.pfeiffer@donauversicherung.at
+geko.wien@donauversicherung.at
+CC: gol în mesajul trimis și în ciorna actuală. BCC: gol în ciorna actuală; câmpul BCC nu este furnizat de API pentru mesajul trimis.
+
+CE S-A CERUT DEJA
+- Polița anterioară X712.261-2 și toate actele adiționale.
+- Cererea, oferta, acceptarea și documentele care justifică durata până la 2036.01.01; persoanele implicate și împuternicirile.
+- Convenția-cadru 2900010498 și condițiile aplicabile.
+- Temeiul contractual/legal și data cea mai apropiată de încetare.
+- Confirmarea primirii și alocării celor trei prime declarate achitate, total 4.775,43 EUR, soldul separat pe prime/dobânzi/costuri și momentul de la care există acoperire.
+- Menținerea cererii de reziliere din 2026.10.01 și a cererii de încetare amiabilă.
+S-a cerut transmiterea documentelor în zece zile lucrătoare. Acest raport nu stabilește o scadență legală.
+
+DIFERENȚE FAȚĂ DE CIORNA ACTUALĂ
+1. Mesajul trimis declară destinația exclusivă a plății pentru prime. Ciorna cere expres acordul/confirmarea alocării și, dacă s-a înregistrat altfel, posibilitatea realocării.
+2. Ciorna precizează că transferul păstrează durata rămasă, că prelungirea anuală nu scurtează o durată fixă valabil convenită și cere inclusiv dovada unei expirări în 2036 deja prevăzute în vechea poliță. Mesajul trimis conține o formulare mai scurtă, cu solicitarea acordului distinct care justifică durata.
+3. Mesajul trimis păstrează în corp expresia „unter Einbeziehung der Empfänger in CC”, deși câmpul efectiv CC este gol. În ciorna actuală expresia a fost eliminată. Acea expresie nu constituie dovadă că s-a trimis altcuiva.
+4. Diferențe de formatare și semnătură; mesajul trimis adaugă „für A&C Wohnart Immobilien GmbH”.
+Prin urmare: aceeași temă și aceleași cereri esențiale, versiuni diferite ale textului.
+
+RĂSPUNS IDENTIFICAT
+2026.10.14 19:25:39, ora României: DONAU Kundenservice confirmă automat primirea și anunță că va răspunde după procesare.
+Număr de înregistrare: 13273588.
+Confirmarea nu este răspuns la întrebările contractuale, confirmare de încasare, alocare sau acoperire.
+Căutarea expeditorilor donauversicherung.at începând cu 2026.10.14 a returnat numai această confirmare.
+Acoperire: ultima sincronizare office raportată de EVA este 2026.10.19 23:30:13, ora României. Nu se exclude existența unor mesaje ulterioare nesincronizate.
+
+SURSE ȘI STATUSURI DISTINCTE
+Ciornă pending: bcbaad0d-814c-4ca5-bffa-7a3157a263cd.
+Mesaj TRIMIS, is_sent=true, eticheta SENT: 4c515540-e12c-488d-9c03-3fcb2262ac21.
+Confirmare PRIMITĂ: 005475c6-a8a0-40ac-b6c7-ec2f55953bb2.
+Subiect: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052
+Mesajul trimis și ciorna nu au atașamente. Confirmarea are cinci imagini de identitate vizuală, fără documente contractuale; EML-ul local este o reprezentare textuală și nu conține aceste imagini. Imaginile decorative nu au fost descărcate în această verificare.
+Arhivă originală a mesajelor trimis/primit: 08. Corespondenta/2026.10.16 Verificare zilnica/2026.10.14 16-20 TRIMIS Donau Versicherung 4c515540.{json,txt,eml} și 2026.10.14 16-25 PRIMIT Donau Versicherung 005475c6.{json,txt,eml}.
+Exporturile actuale ale ciornei și mesajului trimis sunt salvate în acest dosar.
+
+ACȚIUNE
+Nu s-a trimis, modificat sau șters niciun email ori draft în această verificare.
+Următorul pas: urmărirea răspunsului DONAU în firul cererii deja trimise, cu referire la ID 13273588. Evitarea retrimiterii ciornei ca cerere nouă.
+

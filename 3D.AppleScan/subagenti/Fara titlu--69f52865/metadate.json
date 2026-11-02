@@ -10,7 +10,7 @@
   "project": "3D.AppleScan",
   "assignment_method": "parent_thread",
   "parent_thread_id": "01a0fc12-eed4-7763-89a8-9dbc3f2d96aa",
-  "export_started_at_utc": "2026-10-18T14:02:52.615363+00:00",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
   "source_bytes": 7448762,
   "invalid_json_lines": 0,
   "history_source": "items",
@@ -18,6 +18,6 @@
   "item_count": 9,
   "message_count": 2,
   "content_sha256": "b5a966b0bc825a5a2ef91dbd9af79efd21b72623e6f9b3f6778e00d39f99befa",
-  "files_copied": 2,
+  "files_copied": 4,
   "references_not_copied": 3
 }

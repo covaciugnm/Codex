@@ -1,0 +1,14 @@
+[
+  {
+    "source_reference": "/Z:/00.Roboti/MutareSite/dashboard/migration_verified.json",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "/Z:/00.Roboti/MutareSite/dashboard/reference.json",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "https://developers.cloudflare.com/dns/proxy-status/",
+    "status": "referinta_externa_necopiata"
+  }
+]

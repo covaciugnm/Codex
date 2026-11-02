@@ -1,0 +1,73 @@
+{
+  "id": "EV-A02-PG-MIGR",
+  "utc": "2026-11-02T14:37:09.494Z",
+  "scope": "Migrații portal reale în baze PostgreSQL sintetice curate. Serviciile backend/EVA și ERP nu sunt lansate. Scripturile care depind de invoice_drafts și tabele legacy nu au fost rulate gratuit ca fresh.",
+  "sql_assets": [
+    {
+      "file": "backend/migrations/eva_bpartner_ext.sql",
+      "sha256": "f218b44d26121ffb9514a4bdcbed26c54aa153622e2cb0f29258bde70448c236"
+    },
+    {
+      "file": "backend/migrations/eva_product_ext.sql",
+      "sha256": "00e7fd8864c48b4dd2c74a9d897558b18795ff894671dc5781614718014c6504"
+    },
+    {
+      "file": "backend/migrations/eva_product_portfolio_d5.sql",
+      "sha256": "23856015c7dd124d39e1641e12addbd4a08c0d27a04703327d11bfd7417f374c"
+    },
+    {
+      "file": "backend/migrations/eva_reg_number_series.sql",
+      "sha256": "b0cbd7cebe37242802871a9e5d6d55debaeef9c9eb0e7fb66d2c01bfabb04f39"
+    },
+    {
+      "file": "backend/migrations/eva_doc_series.sql",
+      "sha256": "59b709c93802e53cb46142d538a43de374234a34019271fef450a8aed2eb68f7"
+    }
+  ],
+  "results": [
+    "OK 1 eva_bpartner_ext.sql",
+    "OK 1 eva_product_ext.sql",
+    "OK 1 eva_product_portfolio_d5.sql",
+    "OK 1 eva_reg_number_series.sql",
+    "OK 1 eva_doc_series.sql",
+    "OK 2 eva_bpartner_ext.sql",
+    "OK 2 eva_product_ext.sql",
+    "OK 2 eva_product_portfolio_d5.sql",
+    "OK 2 eva_reg_number_series.sql",
+    "OK 2 eva_doc_series.sql"
+  ],
+  "fresh_rerun_restore": [
+    {
+      "relations": 29,
+      "columns": 821,
+      "indexes": 165,
+      "fingerprint": "4e458b744099bfb0ea842eb22c846275",
+      "marker": 1
+    },
+    {
+      "relations": 29,
+      "columns": 821,
+      "indexes": 165,
+      "fingerprint": "4e458b744099bfb0ea842eb22c846275",
+      "marker": 1
+    },
+    {
+      "relations": 29,
+      "columns": 821,
+      "indexes": 165,
+      "fingerprint": "4e458b744099bfb0ea842eb22c846275",
+      "marker": 1
+    },
+    {
+      "id": "TENANT_COLLISION",
+      "expected_independent_cabinet_rows": 2,
+      "actual_same_cui_and_local_id": 1
+    }
+  ],
+  "exit": 0,
+  "diagnostics": [
+    "OK suita~codex-a02-migration~P01.T354~3432508~1793630224 (suita 5/6, RAM 59G, load 23.78)",
+    "eliberat: suita~codex-a02-migration~P01.T354~3432508~1793630224"
+  ],
+  "slot_cleanup": true
+}

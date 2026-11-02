@@ -1,0 +1,58 @@
+[
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_flux.py",
+    "status": "copiat",
+    "saved_path": "fisiere/audit_flux--5dff56da.py",
+    "bytes": 2804,
+    "sha256": "52459c4b5ec7bec9c705208d6d0446be790f3a3522db323fff429472afe24e4b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_flux\\color5900.py",
+    "status": "copiat",
+    "saved_path": "fisiere/color5900--4de666dc.py",
+    "bytes": 2765,
+    "sha256": "2e61ff3e6cc21efdeb696dd72a99ad1fc3329b91efe24f5974a734644527a6ea"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_flux\\diagnostics.py",
+    "status": "copiat",
+    "saved_path": "fisiere/diagnostics--3cec2df8.py",
+    "bytes": 1574,
+    "sha256": "88ce1874f20acb8642615aac9bb132c9269fd35319562df60ae949449f7cb60a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_flux\\manifest.py",
+    "status": "copiat",
+    "saved_path": "fisiere/manifest--bff3ff1f.py",
+    "bytes": 3649,
+    "sha256": "4e5ddb123b2cb9530466e4161a26bc05fe44eb444f8ab817f563ba9eb7a168e0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_flux\\query.py",
+    "status": "copiat",
+    "saved_path": "fisiere/query--96a7a86b.py",
+    "bytes": 883,
+    "sha256": "a80373e3ec02506c9fec2b50d712fc79d02a24fce22014d6869e3de63a92bab4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_flux\\sku.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sku--1f041318.py",
+    "bytes": 886,
+    "sha256": "f868c0edcdc8f278fa566b1892426810529a08ed5939bd5018811472b176a085"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_flux\\sku5900.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sku5900--6113af98.py",
+    "bytes": 2368,
+    "sha256": "f4ed4795254d2c8d6950a466814b91b594e19cf694b7bed6c148fc4e77273458"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\cesiro.com\\work_nomexp\\audit_flux\\sku_bom.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sku_bom--bd6c076a.py",
+    "bytes": 2839,
+    "sha256": "dc1a337c15e3a2313b453c60ea053e90288b5c4116dde76e8e897e376f65566e"
+  }
+]

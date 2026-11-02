@@ -1,0 +1,1361 @@
+# Rezultate — Fara titlu
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_b88952a728c14c91a9750a55041051a5",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-2044-72b0-ace8-e3c96af38038",
+  "agentPath": "/root/template_author"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_935924f22d2946698afaf6b50b48c553",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_15879552ca6641819fda305bd806a4fc",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_ab2010f5c84a49559bccbaa7b6406a8b",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-2044-72b0-ace8-e3c96af38038",
+  "agentPath": "/root/template_author"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_b49b9a07dd314f8287862fc57b113b40",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_a9ab6f5c0f664e21bdcbfa38080e8a83",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_6e605228735a4b9fb92f66c7e240c8d7",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-2044-72b0-ace8-e3c96af38038",
+  "agentPath": "/root/template_author"
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_56582a8270cf432092269fba1547054a",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_d46d7d36886e47be9c3cf6cdbe0c210c",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-2044-72b0-ace8-e3c96af38038",
+  "agentPath": "/root/template_author"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_5f092027556e42be8df9b120d9071b5d",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+**Template v3: APROBAT după remediere și re-audit.**
+
+Autorul a asumat toate corecțiile A01–A08 și M01: inventar 2026, API reale per model, conectivitate și tablete, DSP și limitări acustice, compatibilitate hearing aid, scoruri reproductibile, filtre și verificări HTML, cost total și validarea surselor comerciale.
+
+Aprobarea acoperă metodologia. Afirmațiile despre produse și funcționarea documentului HTML necesită audit final separat.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-377c6119-912c-44e4-aafd-71b2fcad53e5",
+  "query": "site.hiar.com product G200 H100 glasses SDK ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.hiar.com product G200 H100 glasses SDK",
+      "site.xvisiotech.com SeerLens One Pro glasses",
+      "site.madgaze.com GLOW GLOW Plus WAVE glasses"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.hiar.com",
+      "ref_id": "turn17search0",
+      "snippet": "* 10000 ... ### G200头戴端规格参数 ... 分体式双目AR智能眼镜",
+      "title": "亮风台官网 | HiAR - 专注增强现实，引领人机交互",
+      "url": "https://www.hiar.com/product/g200"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn17search1",
+      "snippet": "* SeerLens® MR Glasses ... * * SeerLens® II B50RE Pro ... contact@xvisiotech.com",
+      "title": "MR眼镜 | 诠视科技VSLAM一站式解决方案 - 诠视科技",
+      "url": "https://www.xvisiotech.com/product"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.indiegogo.com",
+      "ref_id": "turn17search2",
+      "snippet": "As MAD Gaze is based on a familiar Android development platform, it is easy to build apps based on our MR glasses. ... GLOW Plus",
+      "title": "MAD Gaze GLOW: The Best MR Smart Glasses by MAD Gaze - Indiegogo",
+      "url": "https://www.indiegogo.com/en/projects/madgaze/mad-gaze-glow-the-best-mr-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn17search3",
+      "snippet": "诠视科技（Xvisio Technology)是一家专注空间计算与人机交互的XR全栈式解决方案供应商，具备国家高新科技企业和上海市专精特新企业的资质, 旗下产品包括SeerSense^{®}系列空间计算模组、SeerLens^{®}系列MR眼镜，形成覆盖感知层与交互层的完整产品体系。 ... * * * * SeerFusion OneEgo ... * * * * SeerLens® II B5",
+      "title": "诠视科技",
+      "url": "https://www.xvisiotech.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn17search12",
+      "snippet": "● Crystal clear FHD display with ultra-contrast for outdoor use ... ● Plug and play for 5G mobile phone, laptop, computing pack ... ● Low",
+      "title": "USB-C tethered cross-platform AR glasses with on board SLAM",
+      "url": "https://www.xvisiotech.com/wp-content/uploads/pdf/SeerLens%E2%84%A2%20One%20AR%20Glasses-EN.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hiar.com",
+      "ref_id": "turn17search4",
+      "snippet": "# 360°全面了解H100 # 硬核中国芯，5G新世界 ... HiAR OS Rainbow",
+      "title": "亮风台官网 | HiAR - 专注增强现实，引领人机交互",
+      "url": "https://www.hiar.com/product/h100"
+    },
+    {
+      "type": "text_result",
+      "domain": "chipgifts.ru",
+      "ref_id": "turn17search5",
+      "snippet": "MAD Gaze GLOW Plus",
+      "title": "Умные MR-очки. MAD Gaze GLOW Plus купить в Москве с Кикстартера в интернет-магазине – ChipGifts",
+      "url": "https://chipgifts.ru/katalog/virtualnaya-realnost/mad-gaze-glow-plus"
+    },
+    {
+      "type": "text_result",
+      "domain": "doc.hiar.com",
+      "ref_id": "turn17search6",
+      "snippet": "亮风台为了彻底解决虚实、虚虚之间鸿沟，推出“超实境”的次世代方案，通过提供融合“全自主”、“全连通”、“全终端”、“全融合”四个优势的解决方案，在HiAR开放平台推出一站式AR开发服务，从自研眼镜H100、自研vSLAM算法，到空间编辑器HiAR Studio、标定位姿渲染一体的UXSDK，开发者只需要一个账号一次对接，就能快速完成自有系统的任意环节对接。",
+      "title": "HiAR开放平台 - HiAR文档中心",
+      "url": "https://doc.hiar.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "virtualnyeochki.ru",
+      "ref_id": "turn17search7",
+      "snippet": "Image: купить Mad Gaze Glow Plus",
+      "title": "Очки Mad Gaze Glow Plus купить в интернет-магазине \"Виртуальные Очки\"",
+      "url": "https://virtualnyeochki.ru/dopolnennaya-realnost/ochki-mad-gaze-glow-plus"
+    },
+    {
+      "type": "text_result",
+      "domain": "kimono-oyaji.com",
+      "ref_id": "turn17search8",
+      "snippet": "MAD Store AR, augmented reality, smart glass, smart glasses, mad gaze, Vader, X5, Ares, Glow, Glow Plus, w ... http://store.madgaze.com/",
+      "title": "大画面スマートグラス MAD GAZE GLOW Plus レビューまとめ | 着物オヤジの実験室",
+      "url": "https://kimono-oyaji.com/smartglass-mad-gaze-glow-plus-review/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.xvisiotech.com",
+      "ref_id": "turn17search9",
+      "snippet": "Xvisio Technology SeerLens® One AR glasses will debut at AWE 2022 and enter the North American market ... Xvisio Technology is a high-tech startup focused",
+      "title": "Xvisio Technology SeerLens® One AR glasses will debut at AWE 2022 and enter the North American market - Xvisio Technology",
+      "url": "https://en.xvisiotech.com/CompanyNews/118"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.stacksocial.com",
+      "ref_id": "turn17search10",
+      "snippet": "Perfect for entertainment and even for work MAD Gaze GLOW Plus is the lightest Mixed Reality smart glasses.",
+      "title": "GLOW Plus: Mixed Reality Smart Glasses | StackSocial",
+      "url": "https://www.stacksocial.com/sales/glow-plus-mixed-reality-smart-glasses-black"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.en-jine.com",
+      "ref_id": "turn17search11",
+      "snippet": "* AR/MR GLASS「GLOW」を開発したMAD Gaze社は2016年に発売した「X5」を皮切りに「ARES」「VADER」と数々のAR（拡張現実）/MR（複合現実）デバイスを開発しているメーカーです。 ... MADGaze GLOW PLUS 「Midnight」",
+      "title": "どこでも自分だけの大画面！　家庭用AR/MRグラス　MAD Gaze GLOW | クラウドファンディング - ENjiNE（エンジン）",
+      "url": "https://www.en-jine.com/projects/madgaze"
+    },
+    {
+      "type": "text_result",
+      "domain": "download.xvisiotech.com",
+      "ref_id": "turn17search13",
+      "snippet": "SeerLens™ One AR Glass ... www.xvisiotech.com | +86 21 5290 0903 | contact@xvisiotech.com",
+      "title": "Xvisio Technology",
+      "url": "https://download.xvisiotech.com/ar-sdk/SeerLens%E2%84%A2%20One%20%C2%A0AR%C2%A0Glasses_user_guide.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "fccid.io",
+      "ref_id": "turn17search14",
+      "snippet": "* For activation procedures, please refer to the MAD Gaze GLOW Plus tutorial",
+      "title": "MAD Gaze Watch",
+      "url": "https://fccid.io/2AI52W100/User-Manual/User-manual-5123056.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.hiscene.com",
+      "ref_id": "turn17search15",
+      "snippet": "将 G100 开机：⻓长按电源键5秒，直到出现 HiAR Glasses 标识。",
+      "title": "HiAR G100 \n使⽤用⼿手册 \n适⽤用于 HiAR UI 1.1 软件",
+      "url": "https://static.hiscene.com/HiAR-G100_user-guide_20180121.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit16",
+      "snippet": "Me, it was the mad gaze glow plus and then rokid air. ... Well, they are awfully silent about their waveguide glasses kickstarter, and their",
+      "title": "What AR glasses did you try before Nreal?",
+      "url": "https://www.reddit.com/r/nreal/comments/12n34ug"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit17",
+      "snippet": "Thank you u/Cameld00d, for your great review about 3DHoloGroup, and the Mad Gaze glasses! So, to show our Valentines love for the entire month of",
+      "title": "Hardware review: Mad Gaze GLOW Plus Glasses",
+      "url": "https://www.reddit.com/r/EliteDangerous/comments/l87wa5"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit18",
+      "snippet": "The glasses are similar to the last gen MAD Gaze Glow Plus. ... > In order to further reduce the thickness of the display lens",
+      "title": "MAD GAZE wave - new augmented reality glasses",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/pxdd83"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae01.alicdn.com",
+      "ref_id": "turn17search19",
+      "snippet": "1 x XREAL One Pro AR Glasses",
+      "title": "XREAL One Pro User Manual",
+      "url": "https://ae01.alicdn.com/kf/S8b8ed94fa61c4a6cad373d4dc0f299f72.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae-pic-a1.aliexpress-media.com",
+      "ref_id": "turn17search20",
+      "snippet": "XREAL One Pro Smart AR Glasses ... XREAL One Pro is a flagship consumer AR glasses with self-developed X1 spatial computing chip, delivering immersive spatial",
+      "title": "XREAL One Pro Smart AR Glasses",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/Se4f769dc273547f1a7a4b3a77ed72bd7l.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit21",
+      "snippet": "After my last post, i had more than a few people asking me to demo the Mad Gaze Glow Plus glasses with Dex running.. ...",
+      "title": "Mad Gaze Glow Plus video (running Dex/Mad Gaze AR launcher)",
+      "url": "https://www.reddit.com/r/SamsungDex/comments/lgyoxw"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit22",
+      "snippet": "Would recommend the Plus over the plain Glow due to the Glow having LCoS display (like Google glass) and the Glow Plus has a larger",
+      "title": "Mad Gaze Glow as monitor replacement?",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/kyddy2"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit23",
+      "snippet": "Read a review in Amazon UK site for these glasses, they dont work on Prime Video and Netflix, probably due to the HDCP protocol handshake",
+      "title": "Dex on Mad Gaze Glow Plus AR Glasses (works...sort of)",
+      "url": "https://www.reddit.com/r/SamsungDex/comments/le6ls9"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit24",
+      "snippet": "Curious to test the mad gaze watch control. ... I assume that they prefer higher ppd for glasses that are optimized for video content /",
+      "title": "MAD GAZE WAVE smart glasses now available on kickstarter",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/qy44g4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit25",
+      "snippet": "Xvisio Technology announced the launch of the enhanced SeerLens One MR glasses based on ST Microelecronics' advanced image sensor and IMU technology. ... xvisiotech.com",
+      "title": "XVISIO announced the launch of an enhanced version of the SEERLENS ONE with image sensor and IMU by ST",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/106nbdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17reddit26",
+      "snippet": "Now we´re waiting for Mass Production launch of \"Xvisio SeerLens One Pro\" and \"Vuzix Shield\" :-)",
+      "title": "LLVISION confirm releasing enterprise augmented reality glasses using poLIGHT TLens",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/12bcz7j"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d372c13c-cfc3-4c12-a917-00f464fadd3b",
+  "query": "site.alibaba.com \"HiAR\" glasses ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.alibaba.com \"HiAR\" glasses",
+      "site.alibaba.com \"SeerLens\"",
+      "site.alibaba.com \"MAD Gaze\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "sourcing.hktdc.com",
+      "ref_id": "turn20search0",
+      "snippet": "MAD Gaze",
+      "title": "MAD Gaze | Consumer Electronics | Electronics",
+      "url": "https://sourcing.hktdc.com/en/Product-Detail/MAD-Gaze-1X1TKUMW"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.preqin.com",
+      "ref_id": "turn20search1",
+      "snippet": "www.madgaze.com",
+      "title": "MAD Gaze Asset Profile | Preqin",
+      "url": "https://www.preqin.com/data/profile/asset/mad-gaze/212224"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.red-dot.org",
+      "ref_id": "turn20search2",
+      "snippet": "Image: HiAR Glasses",
+      "title": "Red Dot Design Award: HiAR Glasses",
+      "url": "https://www.red-dot.org/project/hiar-glasses-1-11992"
+    },
+    {
+      "type": "text_result",
+      "domain": "gsma.my.site.com",
+      "ref_id": "turn20search11",
+      "snippet": "MAD Gaze AR smart glasses solutions - live conferencing, remote support, training, artificial intelligence, face and image recognition, pairing with drones, etc. - can be",
+      "title": "Enterprise and Consumer Use Case",
+      "url": "https://gsma.my.site.com/mwcoem/servlet/servlet.FileDownload?file=00P6900002pubLGEAY"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.crunchbase.com",
+      "ref_id": "turn20search3",
+      "snippet": "Private Series A Kwai Tsing, New Territories, Hong Kong 51-100 www.madgaze.com",
+      "title": "MAD Gaze - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/mad-gaze"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.startup.org.hk",
+      "ref_id": "turn20search12",
+      "snippet": "By leveraging application programming interfaces from the cloud, including IBM Watson Speech to Text services, DCES’ MAD Gaze glasses can see and identify vehicles parts,",
+      "title": "MAD GAZE  \nBy Dragon Creative\n\nKey People  \nJordan",
+      "url": "https://www.startup.org.hk/upload/finder/file/HongKongStartupCouncil_1stCohort.pdf?v11599960356="
+    },
+    {
+      "type": "text_result",
+      "domain": "istartup.hk",
+      "ref_id": "turn20search4",
+      "snippet": "madgaze.com ... MAD Gaze AR glasses and ME Support enable a “non-contact” business model to enterprises, using augmented reality technology to interlay virtual information on",
+      "title": "MAD Gaze",
+      "url": "https://istartup.hk/braving-the-epidemic/en/article/mad-gaze.php"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.behance.net",
+      "ref_id": "turn20search5",
+      "snippet": "# HiAR Glasses",
+      "title": "HiAR Glasses :: Behance",
+      "url": "https://www.behance.net/gallery/51457791/HiAR-Glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.chtf.com",
+      "ref_id": "turn20search6",
+      "snippet": "HiAR Glasses, a hi-tech gadget designed by HiScene, is a curved-glass near-to-eye AR optical display system whose field angle is three times wider than that",
+      "title": "CHINA HI-TECH FAIRCHINA HI-TECH FAIR_Continuous Coming: New Arrivals",
+      "url": "https://www.chtf.com/english/News/ChildNews/201611/t20161104_10985.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "old.lkkerscm.com",
+      "ref_id": "turn20search7",
+      "snippet": "Image: HiAR AR Glasses Design- industrial design Image: HiAR AR Glasses Design- industrial design",
+      "title": "HiAR AR Glasses Design - LKK Design Case Study",
+      "url": "https://old.lkkerscm.com/ai-interactive-companions/hiscene-hiar-ar-glasses.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "app-930771424.appstor.io",
+      "ref_id": "turn20search8",
+      "snippet": "MAD Gaze Limited",
+      "title": "魔幻八宝盒－动物系列 App for iPhone and iPad | appstor.io",
+      "url": "https://app-930771424.appstor.io/"
+    },
+    {
+      "type": "text_result",
+      "domain": "leadiq.com",
+      "ref_id": "turn20search9",
+      "snippet": "Image: Minus sign icon Image: Plus sign icon MAD Gaze's tech stack includes Open Graph, Alibaba Cloud DNS, Handlebars, RequireJS, jQuery, Google Analytics, Nginx and",
+      "title": "MAD Gaze Company Overview, Contact Details & Competitors | LeadIQ",
+      "url": "https://leadiq.com/c/mad-gaze/5e203b5e62be9f43ca32c2a3"
+    },
+    {
+      "type": "text_result",
+      "domain": "startup.aliyun.com",
+      "ref_id": "turn20search10",
+      "snippet": "# 亮风台HiAR Glasses亮相CES 2017，缘何成AR眼镜热门",
+      "title": "亮风台HiAR Glasses亮相CES 2017，缘何成AR眼镜热门",
+      "url": "https://startup.aliyun.com/info/1044892.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.hiscene.com",
+      "ref_id": "turn20search13",
+      "snippet": "推荐搭配产品：HiAR Glasses、调度台。",
+      "title": "HiAR Cloud 帮助文档",
+      "url": "https://static.hiscene.com/HiAR%20Cloud%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "img3.gelonghui.com",
+      "ref_id": "turn20search14",
+      "snippet": "| 2015.11 | 首次公开国内第一款视觉增强 AR眼镜 HiAR Glasses |",
+      "title": "[Table_MainInfo]",
+      "url": "https://img3.gelonghui.com/pdf201701/pdf20170123155219199.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "pdf.dfcfw.com",
+      "ref_id": "turn20search15",
+      "snippet": "Seerlens II Pro",
+      "title": "万联证券-电子行业2024年度投资策略报告：万物复苏生，芯芽正当时-231209.pdf",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202312111613700180_1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "welcon.kocca.kr",
+      "ref_id": "turn20search16",
+      "snippet": "- xvisotech Seerlens one AR",
+      "title": "KOCCA  \nKOREA CREATIVE CONTENT AGENCY\n\n중국(심천) 콘텐츠",
+      "url": "https://welcon.kocca.kr/cmm/fms/CrawlingFileDown.do?atchFileId=FILE_a685f04c-a840-4708-b19a-f8493b03dce2&fileSn=1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn20reddit17",
+      "snippet": "> Chinese augmented reality smart glasses company MAD Gaze has reportedly secured nearly 130 million yuan in a Series A funding round led by DNS",
+      "title": "China’s MAD Gaze secures US$19M funding to expand into new territories",
+      "url": "https://www.reddit.com/r/worldnews/comments/f9npct"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn20view0",
+      "snippet": "Total lines: 215",
+      "title": "MR眼镜 | 诠视科技VSLAM一站式解决方案 - 诠视科技",
+      "url": "https://www.xvisiotech.com/product"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hiar.com",
+      "ref_id": "turn20view1",
+      "snippet": "Total lines: 263",
+      "title": "亮风台官网 | HiAR - 专注增强现实，引领人机交互",
+      "url": "https://www.hiar.com/"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn20view2",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-341b5d7f-cd27-409f-b69d-e99786f8b1b4",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn23view0",
+      "snippet": "Total lines: 329",
+      "title": "SeerLens® II B50R Pro 企业级 MR 眼镜｜四目 SLAM・手势交互・虹膜识别 - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/287"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn23view1",
+      "snippet": "Total lines: 327",
+      "title": "SeerLens II B50RE Pro 企业级 MR 眼镜｜四目 SLAM + 眼动追踪 - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/182"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn23view2",
+      "snippet": "Total lines: 353",
+      "title": "SeerLens® II B50H Max - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/335"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn23view3",
+      "snippet": "Total lines: 361",
+      "title": "SeerLens® II B50HE Max - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/180"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn23view4",
+      "snippet": "Total lines: 311",
+      "title": "SeerLens® II B50RE Pro2 - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/181"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn23view5",
+      "snippet": "Total lines: 274",
+      "title": "SeerLens® K40RE AR HMD 企业级MR眼镜 - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/183"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hiar.com",
+      "ref_id": "turn23view6",
+      "snippet": "Total lines: 489",
+      "title": "亮风台官网 | HiAR - 专注增强现实，引领人机交互",
+      "url": "https://www.hiar.com/product/g300"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6fc6d8c0-b7c5-484e-bcbb-ff281907b54f",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn26view0",
+      "snippet": "Total lines: 353",
+      "title": "SeerLens® II B50H Max - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/335"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn26view1",
+      "snippet": "Total lines: 361",
+      "title": "SeerLens® II B50HE Max - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/180"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn26view2",
+      "snippet": "Total lines: 311",
+      "title": "SeerLens® II B50RE Pro2 - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/181"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn26view3",
+      "snippet": "Total lines: 274",
+      "title": "SeerLens® K40RE AR HMD 企业级MR眼镜 - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/183"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hiar.com",
+      "ref_id": "turn26view4",
+      "snippet": "Total lines: 489",
+      "title": "亮风台官网 | HiAR - 专注增强现实，引领人机交互",
+      "url": "https://www.hiar.com/product/g300"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn26view5",
+      "snippet": "Total lines: 262",
+      "title": "SeerPad One 国产化 MR 终端｜分体式 AR 计算主机｜诠视科技 - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/9"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn26view6",
+      "snippet": "Total lines: 191",
+      "title": "资源下载 - 诠视科技",
+      "url": "https://www.xvisiotech.com/ziyuanxiazai"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_45f6df31d3a24e45bee3a2eaa9d36a56",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1a7fdc1c-1fa2-45d3-95c9-00f8507aa110",
+  "query": "site.doc.hiar.com SDK H100 Android Unity APK ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.doc.hiar.com SDK H100 Android Unity APK",
+      "site.madgaze.com WAVE VADER ARES X5 X5S",
+      "HiAR G300 review hands on Xvisio SeerLens review"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.hiar.com",
+      "ref_id": "turn33search0",
+      "snippet": "使用本服务需要下载亮风台HiMeta应用客户端软件（App），对于HiAR H100智能眼镜用户，眼镜系统默认预装HiMeta应用客户端，对于Android系统的智能设备，用户可以在HiMeta应用官方网站上获取与终端设备相匹配的软件版本。",
+      "title": "亮风台官网 | HiAR - 专注增强现实，引领人机交互",
+      "url": "https://www.hiar.com/protocol/HiMeta-service"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.abvr360.com",
+      "ref_id": "turn33search1",
+      "snippet": "而在前四代7 款的AR眼镜研发-量产-销售过程中，MAD Gaze通过收集2B、2C更精准的用户反馈，搭配自研混合光波导方案，在今年更开发了兼具更人性化设计及舒适佩戴体验的第五代双目分体式AR智能眼镜，MAD Gaze WAVE。 ... 截至目前，MAD Gaze已推出了8款产品，包括AR 眼镜 Ares、X5、X5S、X5P、Vader、Glow、Glow Plus和智能手表MAD Gaze ",
+      "title": "XR头显品牌企业介绍——深圳创龙智新科技有限公司 - 艾邦AR/VR网",
+      "url": "https://www.abvr360.com/a/3658"
+    },
+    {
+      "type": "text_result",
+      "domain": "howls85.rssing.com",
+      "ref_id": "turn33search2",
+      "snippet": "## Hands-on Xvisio SeerLens II B50R Pro ... Hand tracking was working well enough that I could operate with the objects in the scene without",
+      "title": "Hands-on: Xvisio’s HoloLens substitutes may be what companies are looking for",
+      "url": "https://howls85.rssing.com/chan-79914233/article227.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hiar.com",
+      "ref_id": "turn33search3",
+      "snippet": "# 360°全面了解H100 ... HiAR OS Rainbow",
+      "title": "亮风台官网 | HiAR - 专注增强现实，引领人机交互",
+      "url": "https://www.hiar.com/product/h100"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.faceunity.com",
+      "ref_id": "turn33search4",
+      "snippet": "Android端 IOS端 下载链接 SDK Unity端 ... 具备人脸、人体、手势和分割等AI算法能力，从人脸实时美化、美妆滤镜到视频AR特效，提供丰富多样的视频特效玩法",
+      "title": "开发者中心 | 相芯科技",
+      "url": "https://www.faceunity.com/developer/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.manualslib.com",
+      "ref_id": "turn33search5",
+      "snippet": "# MAD Gaze Smart Glasses User Manuals Download ... Ares ... VADER ... X5",
+      "title": "MAD Gaze Smart Glasses User Manuals Download | ManualsLib",
+      "url": "https://www.manualslib.com/brand/mad-gaze/smart-glasses.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "dongjian-web.netease.com",
+      "ref_id": "turn33search6",
+      "snippet": "Android SDK For Unity | ≥ 骁龙845≥ 麒麟970≥天玑1000Plus≥Exynos 9≥联发科Helio G70 | ≥ Android6.0 | > Android Studio 2.3.3> Android Build Tools 23 Unity2019.4.8.f1（稳定） | 1.6.2",
+      "title": "洞见 AR-World SDK 产品介绍 | EZXR 开发者中心",
+      "url": "https://dongjian-web.netease.com/developer/docs/arworld_sdk/sdk/%E6%B4%9E%E8%A7%81AR-World%20SDK%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.manualslib.com",
+      "ref_id": "turn33search7",
+      "snippet": "Overview (Hardware) The packaging box of MAD Gaze X5 mainly consists of 3 parts, including Tray A (p.5) Tray B (p.6) Tray C (p.7) ...",
+      "title": "MAD GAZE X5 USER MANUAL Pdf Download | ManualsLib",
+      "url": "https://www.manualslib.com/manual/1342443/Mad-Gaze-X5.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.open.17m3.com",
+      "ref_id": "turn33search8",
+      "snippet": "此Unity版本只有空壳API且调用API无返回，需要游戏接入API并集成unity plugin下的安卓SDK然后出母包apk，再到打包平台合进去所有插件SDK才能测试所有功能。 ... ### 2.1、Android SDK 主目录assets 不包含dianhun_lib内容截图 ​",
+      "title": "SDK说明 | 开放平台文档",
+      "url": "https://docs.open.17m3.com/client/unity/description/"
+    },
+    {
+      "type": "text_result",
+      "domain": "usermanual.wiki",
+      "ref_id": "turn33search12",
+      "snippet": "The MAD Gaze X5 Instructions Manual will be updated regularly, please visit ... introduction of more MAD Gaze Ares preset applications.",
+      "title": "User manual",
+      "url": "https://usermanual.wiki/MAD-Gaze/X5-3208434.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "images.rimanggis.com",
+      "ref_id": "turn33search9",
+      "snippet": "Dragon Creative produces most sought after AR smart glasses under MAD Gaze brand Image Cyberport incubatee Dragon Creative Enterprise Solution Limited (DCES) will launch, in",
+      "title": "Dragon Creative produces most sought after AR smart glasses under MAD Gaze brand",
+      "url": "https://images.rimanggis.com/resource/campaign/57ce73e5c16f4b1daa71d0d3/attachment/1180208.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.xreal.com",
+      "ref_id": "turn33search10",
+      "snippet": "(Optional) Install AR Foundation from the Unity Registry in the Package Manager only if you need AR features like plane detection, image tracking, spatial anchors,",
+      "title": "Getting Started with XREAL SDK | XREAL SDK",
+      "url": "https://docs.xreal.com/Getting%20Started%20with%20XREAL%20SDK"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.madwave.com.tr",
+      "ref_id": "turn33search11",
+      "snippet": "Mad Wave X-BLADE Yarış Gözlüğü Rainbow Kırmızı",
+      "title": "Yarış Yüzücü Gözlüğü Modelleri | Mad Wave Türkiye",
+      "url": "https://www.madwave.com.tr/yaris-gozluk"
+    },
+    {
+      "type": "text_result",
+      "domain": "repositorio.unamba.edu.pe",
+      "ref_id": "turn33search13",
+      "snippet": "Se realizó la configuración con el propósito de instaurar un entorno adecuado para desarrollar la app. ... • **Instalar y configurar ANDROID SDK, ANDROID NDK,",
+      "title": "1 de 149",
+      "url": "https://repositorio.unamba.edu.pe/server/api/core/bitstreams/6ad0df93-568b-483d-973c-4d93e327191d/content"
+    },
+    {
+      "type": "text_result",
+      "domain": "d163axztg8am2h.cloudfront.net",
+      "ref_id": "turn33search14",
+      "snippet": "VADER User Guide (MAN 405)",
+      "title": "VADER User Guide (MAN405)",
+      "url": "https://d163axztg8am2h.cloudfront.net/static/doc/1f/0c/9a5bdab946aadb64da3761dcf24d.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "main.qcloudimg.com",
+      "ref_id": "turn33search15",
+      "snippet": "# 2D端渲染 Android SDK 接入 ... virtualhuman_2d_sdk_demo.apk ... `、`// 添加OkHttp的依赖`、`implementation (\"com.squareup.okhttp3:okhttp:4.9.0\")`、`}`。",
+      "title": "腾讯云\n\n# 2D端渲染 Android SDK 接入\n\n最近更新时间：2025-04-27 17:",
+      "url": "https://main.qcloudimg.com/raw/document/product/pdf/1240_117951_cn.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "unboundxr.fr",
+      "ref_id": "turn33search16",
+      "snippet": "X5 User Manual ... lens or lens guard may affect the camera's shooting results.",
+      "title": "X5 User Manual",
+      "url": "https://unboundxr.fr/amfile/file/download/file/135/product/2905/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn33view0",
+      "snippet": "Total lines: 262",
+      "title": "SeerPad One 国产化 MR 终端｜分体式 AR 计算主机｜诠视科技 - 诠视科技",
+      "url": "https://www.xvisiotech.com/SeerLensARGlasses/9"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xvisiotech.com",
+      "ref_id": "turn33view1",
+      "snippet": "Total lines: 191",
+      "title": "资源下载 - 诠视科技",
+      "url": "https://www.xvisiotech.com/ziyuanxiazai"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hiar.com",
+      "ref_id": "turn33view2",
+      "snippet": "Total lines: 489",
+      "title": "亮风台官网 | HiAR - 专注增强现实，引领人机交互",
+      "url": "https://www.hiar.com/product/g300"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-dabf7c76-4b47-4ee2-b5be-656e97fc0dc1",
+  "query": "\"Hands-on: Xvisio\" HoloLens substitutes ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Hands-on: Xvisio\" HoloLens substitutes",
+      "site.doc.hiar.com \"UXSDK\"",
+      "site.xvisiotech.com \"SeerPad\" \"3588\"",
+      "\"MAD Gaze\" \"WAVE\" Kickstarter"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "skarredghost.com",
+      "ref_id": "turn35search0",
+      "snippet": "The two devices are already available in the market, and Xvisio told me that they can ship them worldwide, with discounts for bulk purchases. ...",
+      "title": "Hands-on: Xvisio's HoloLens substitutes may be what companies are looking for - The Ghost Howls",
+      "url": "https://skarredghost.com/2026/05/21/xvisio-hololens-substitute-hands-on/"
+    },
+    {
+      "type": "text_result",
+      "domain": "howls85.rssing.com",
+      "ref_id": "turn35search1",
+      "snippet": "# Hands-on: Xvisio’s HoloLens substitutes may be what companies are looking for ... Last week, I told you about a potential substitute for Microsoft HoloLens",
+      "title": "Hands-on: Xvisio’s HoloLens substitutes may be what companies are looking for",
+      "url": "https://howls85.rssing.com/chan-79914233/article227.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "skarredghost.com",
+      "ref_id": "turn35search2",
+      "snippet": "## Hands-on Xvisio SeerLens II B50R Pro ... I guess this was made on purpose to show companies that they can really substitute their current",
+      "title": "Hands-on: Xvisio's HoloLens substitutes may be what companies are looking for - The Ghost Howls",
+      "url": "https://skarredghost.com/2026/05/21/xvisio-hololens-substitute-hands-on/amp/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kickstarter.com",
+      "ref_id": "turn35search3",
+      "snippet": "MAD Gaze ... Image: Wave: Next-Gen MR Smart Glasses for Gaming & Entertainment Project-Video-Thumbnail",
+      "title": "Wave: Next-Gen MR Smart Glasses for Gaming & Entertainment by MAD Gaze » Wave: Next-Gen MR Smart Glasses for Gaming & Entertainment by MAD Gaze — Kickstarter",
+      "url": "https://www.kickstarter.com/projects/madgaze/wave-next-gen-mr-smart-glasses-for-gaming-and-entertainment"
+    },
+    {
+      "type": "text_result",
+      "domain": "doc.hiar.com",
+      "ref_id": "turn35search4",
+      "snippet": "亮风台为了彻底解决虚实、虚虚之间鸿沟，推出“超实境”的次世代方案，通过提供融合“全自主”、“全连通”、“全终端”、“全融合”四个优势的解决方案，在HiAR开放平台推出一站式AR开发服务，从自研眼镜H100、自研vSLAM算法，到空间编辑器HiAR Studio、标定位姿渲染一体的UXSDK，开发者只需要一个账号一次对接，就能快速完成自有系统的任意环节对接。",
+      "title": "HiAR开放平台 - HiAR文档中心",
+      "url": "https://doc.hiar.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "displaydaily.com",
+      "ref_id": "turn35search5",
+      "snippet": "Mad Gaze has chosen to partially fund the next stages of Wave development by use of a Kickstarter campaign that can be found here.",
+      "title": "Next-Gen Smart Glasses from Mad Gaze are on the Way – Display Daily",
+      "url": "https://displaydaily.com/next-gen-smart-glasses-from-mad-gaze-are-on-the-way/"
+    },
+    {
+      "type": "text_result",
+      "domain": "reportdocs.static.szse.cn",
+      "ref_id": "turn35search12",
+      "snippet": "<td>UXSDK 无人机控制系统</td>",
+      "title": "南方电网数字电网研究院股份有限公司　招股说明书（注册稿）",
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202509/RAS_202509_281725C444ABAC19B94A289DA0BDB18BDF7381.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "reportdocs.static.szse.cn",
+      "ref_id": "turn35search13",
+      "snippet": "<tr><td>261</td><td>南网数字</td><td>UXSDK无人机控制系统</td><td>2020SR1594700</td><td>2020.11.17</td><td>原始取得</td><td>无</td></tr>",
+      "title": "南方电网数字电网研究院股份有限公司　　　　　　　　　　　　　　　　招股说明书（申报稿）",
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202506/RAS_202506_271525DA274B534A544592BFB4006CE8DE5552.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "dataclouds.cninfo.com.cn",
+      "ref_id": "turn35search14",
+      "snippet": "<td>UXSDK 无人机控制系统</td>",
+      "title": "ZHIONG LUN 中伦律师事务所",
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2025/20250919/f437f86eeae540e59db20e8dda82bea8.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "hk.linkedin.com",
+      "ref_id": "turn35search6",
+      "snippet": "🔥MAD Gaze Wave, the Next-Gen Mixed Reality Smart Glasses with $299 after 40% OFF Discount is officially OUT on Kickstarter Now! ... 🔥MAD Gaze Wave,",
+      "title": "Jordan Cheng - MAD Gaze | LinkedIn",
+      "url": "https://hk.linkedin.com/in/chengjordan"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tuoluo.cn",
+      "ref_id": "turn35search7",
+      "snippet": "陀螺科技 5 月 27 日讯，去年 AR 眼镜厂商 MAD Gaze 在知名众筹平台 Kickstarter 上为其新品 Wave 筹集了 51 万港元。",
+      "title": "MAD Gaze跳票Kickstarter两个月后，MR眼镜有望重新发货_陀螺科技",
+      "url": "https://www.tuoluo.cn/article/detail-10098520.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "admin.fundinginsidernewyork.com",
+      "ref_id": "turn35search8",
+      "snippet": "Kickstarter Ended about 1 hour ago ... ### MAD Gaze: Smartest watch with gesture controls",
+      "title": "Funding Insider",
+      "url": "https://admin.fundinginsidernewyork.com/market?page=15"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.xvisiotech.com",
+      "ref_id": "turn35search9",
+      "snippet": "Continuing Growth at Xvisio ... Strong hands-on and communication skills, sense of responsibility and teamwork spirit.",
+      "title": "Join Us - Xvisio Technology",
+      "url": "https://en.xvisiotech.com/job"
+    },
+    {
+      "type": "text_result",
+      "domain": "glassesresearch.org",
+      "ref_id": "turn35search10",
+      "snippet": "MAD Gaze's 2019 Kickstarter raised funds from hundreds of backers and preserves shipping, warranty, SDK and host-support statements for the GLOW family. ... RayNeo demonstrated",
+      "title": "Identity Forensics Wave 03 — Model Profiles - GlassesResearch",
+      "url": "https://glassesresearch.org/models/PROFILES_2026_09_10_IDENTITY_FORENSICS_WAVE_03/"
+    },
+    {
+      "type": "text_result",
+      "domain": "developer.dji.com",
+      "ref_id": "turn35search11",
+      "snippet": "Copy the entire UXSDK project (android-sdk-v5-uxsdkopen in new window) to the root directory of the `MyApplication` project path, at the same level as the `app`",
+      "title": "Mobile SDK",
+      "url": "https://developer.dji.com/doc/mobile-sdk-tutorial/en/quick-start/user-project-caution.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn35reddit15",
+      "snippet": "Kickstarter with early bird price: $299 ... > Wave utilizes exceptional XR experience with Simultaneous, Localization, and Mapping (SLAM), featuring 6-DoF tracking that tracks both",
+      "title": "MAD GAZE WAVE smart glasses now available on kickstarter",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/qy44g4"
+    },
+    {
+      "type": "text_result",
+      "domain": "nsrp.org",
+      "ref_id": "turn35search16",
+      "snippet": "UxSDK UMAA Tool (FreeMarker templates) UMAA UMAA UMAA ICD IDL | UxSDK A Tool rker tes) UMAA UMAA UMAA ICD IDL",
+      "title": "Distribution Statement A",
+      "url": "https://nsrp.org/wp-content/uploads/2023/09/PEO-USC-Science-and-Technology-Directorate-Portfolio-and-UMAA-Overview.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.shujiaowang.cn",
+      "ref_id": "turn35search17",
+      "snippet": "MAD Gaze Wave Meta project Nazare",
+      "title": "行业简介\n2022 年\nXR产业投资报告\n2022 XR Industrial Investment",
+      "url": "https://www.shujiaowang.cn/uploads/20230610/ac5048a36de67e7897de3a358135e01b.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "welcon.kocca.kr",
+      "ref_id": "turn35search18",
+      "snippet": "- MAD Gaze Wave",
+      "title": "KOCCA  \nKOREA CREATIVE CONTENT AGENCY\n\n중국(심천) 콘텐츠",
+      "url": "https://welcon.kocca.kr/cmm/fms/CrawlingFileDown.do?atchFileId=FILE_a685f04c-a840-4708-b19a-f8493b03dce2&fileSn=1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn35reddit19",
+      "snippet": "Input: gestures, voice, buttons, laser pointer, touch control, MAD Gaze Watch, and other external Bluetooth devices. ... > In order to further reduce the thickness",
+      "title": "MAD GAZE wave - new augmented reality glasses",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/pxdd83"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_7ade1de737674e788ea345118de0cda4",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_39ee011846754c51a81ac90af5528bb2",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_146907e323164c7b8a52d060a0047049",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_12aff3b186bb4cbbae53afc07d482e02",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Cercetarea celor trei producători este transmisă cu surse și specificații.
+
+- **HiAR:** G300, G200, H100; G100 istoric.
+- **Xvisio:** șase modele actuale SeerLens, companion SeerPad One; review hands-on din mai 2026 pentru B50R Pro și B50H Max.
+- **MAD Gaze:** inventar istoric și oferte reseller; comercializarea și suportul SDK în 2026 rămân neconfirmate.
+
+Nu am identificat listări Alibaba exacte verificabile pentru aceste trei branduri. Sunt disponibil pentru auditul HTML.
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_f964c2e85583491385fcd9ab6f27d397",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_4be0110329954d4db9b34043ec5e5686",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_427e3f7d326344ac830f29856be3e80c",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_9a1959d100a0474da1cd187b7486ba53",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_a2c57618bf5f40e1aee37d17afa5f31f",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_228acce72af246fd8f2fa92eccd05f9d",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_49f14f6f14f345da84c639e3aee594bc",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_ccc005ba847941babcc35e7f74e5180a",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_3dbab5b5f3ce4b3aa9919d91cdf66fab",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_4d3a0230102c42dd8e464ddda7ca5990",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_8896c70eaae24b1ca2e429f39b8dcec7",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+**Verdict final: APROBAT PENTRU LIVRARE.**
+
+Checklist A01–A08 și M01 îndeplinit; remedierea limitelor numerice acceptată. Catalog: **10 producători, 93 modele, 136 câmpuri, 143 surse**. Validare fără probleme raportate; **22/22 teste QA trecute**.
+
+Auditul se bazează pe cercetare, codul și rapoartele transmise. Testarea browserului și verificarea vizuală au fost efectuate de realizator. Aprobarea nu certifică hardware-ul, funcționarea SDK, stocurile sau eficacitatea medicală.
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_4034ecae5faa4c119f23c642cb1f6b03",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+**Revizia 2: APROBATĂ pentru livrare.**
+
+Addendumul China–Europa separă corect site-urile regionale, disponibilitatea modelelor, livrarea și condițiile de garanție. Funcțiile audio nu sunt confundate cu hearing aid sau acces SDK.
+
+Validarea raportată: **140 câmpuri, 183 surse, 93 modele; 22/22 teste trecute**, fără probleme de date. Audit documentar; fără verificare independentă a checkoutului, SDK-ului sau hardware-ului.

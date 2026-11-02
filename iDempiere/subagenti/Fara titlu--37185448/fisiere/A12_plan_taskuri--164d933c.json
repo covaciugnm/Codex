@@ -1,0 +1,3499 @@
+{
+  "schema": "eva.audit.completed_tasks.plan.v2",
+  "agent_id": "A12",
+  "author_role": "Auditor separat al fiecărui task finalizat P01",
+  "created_at_utc": "2026-11-01T17:20:18.558620+00:00",
+  "state": "PLAN_CANDIDAT_RECTIFICAT_NEAPROBAT",
+  "implementation_audit_started": false,
+  "execution_gate": {
+    "required_plan_reviewer": "A11",
+    "required_score": 10,
+    "current_score": null,
+    "approval_artifact": null,
+    "allowed_now": [
+      "Lectură surse istorice",
+      "Definire șabloane și checklisturi",
+      "Inventariere read-only și identificare versiuni"
+    ],
+    "blocked_until_gate": [
+      "Verdict de implementare per task",
+      "Execuție de teste funcționale",
+      "Marcarea unei cerințe drept PASS",
+      "Certificare instalare ERP"
+    ],
+    "hard_prerequisites": [
+      "Snapshot autoritativ P01 complet, cu filtre/paginare/statusuri reconciliate",
+      "Commit remote fixat și versiunea nativă identificată",
+      "Repartizare concretă A01–A10 și matrice de responsabilități",
+      "A11 a citit planul și șabloanele, a închis toate lipsurile obligatorii și a semnat 10/10",
+      "Mediile și accesul permise sunt declarate; limitările nu sunt ascunse"
+    ],
+    "prerequisite_status": {
+      "snapshot": "INVENTAR_RECONCILIAT_651",
+      "code": "SHA_FIXAT; nativ și instalare diferențiate",
+      "responsabilitati": "HARTĂ_A01_A10_REZOLVATĂ",
+      "independent_plan_score": null,
+      "runtime_test_permission": "mediu/staging de verificat înainte de probe; producție doar citire",
+      "gate": "ÎNCHIS"
+    }
+  },
+  "scope": {
+    "project": "P01",
+    "task_selection": "FIECARE task cu stare finalizată în sursa autoritativă la snapshot; fără eșantionare pentru verdicturile finale.",
+    "source_requested": "https://eva-org.com/claude",
+    "actual_source_url": "https://eva-org.com/claude/taskuri",
+    "actual_project_internal_id": "P01 (cheia id din catalog; UUID intern separat neexpus)",
+    "completed_status_values": [
+      "agregat",
+      "anulat",
+      "montat",
+      "închis"
+    ],
+    "inventory_received": true,
+    "completed_task_count": 650,
+    "chapters": "Toate capitolele P01 disponibile, nu doar C03/C10.",
+    "unchanged_by_this_audit": [
+      "codul sursă",
+      "datele operaționale ERP",
+      "starea taskurilor din Claude",
+      "documente fiscale și operații externe reale"
+    ],
+    "individual_review_population": 651,
+    "snapshot_cutoff": "2026-11-02T14:06:00.673Z",
+    "capture_note": "Citire read-only a celor șapte fișiere montate de serviciul /claude/taskuri. Nu se afirmă că pagini UI sau API live au fost testate."
+  },
+  "identity_policy": {
+    "original_code": "Se păstrează textul exact din sursă, inclusiv separatorul original P01.Cnn/Tnnnn sau P01.Cnn.Tnnnn.",
+    "components": [
+      "project_code",
+      "chapter_code",
+      "task_code",
+      "internal_source_id"
+    ],
+    "display_reference": "P01.Cnn.Tnnnn numai ca referință compusă validată; original_code rămâne separat și neschimbat.",
+    "chapter_task_format": "C02.T0001 este exemplu de format, nu task inventat.",
+    "uniqueness": "Cheia de inventar este source_system + project_internal_id + task_internal_id; codul/titlul nu este suficient.",
+    "duplicates": "Toate aparițiile sunt păstrate și explicate; aceeași identitate în două pagini se deduplică cu dovadă, două identități cu același cod devin anomalie de inventar.",
+    "proposed_codes": "Codurile C03.T0030–T0053 și C10.T0030–T0060 din manualul 25.10 sunt propuse/neînregistrate la acea dată; nu intră în denominatorul finalizate fără dovadă actuală."
+  },
+  "inventory_protocol": [
+    {
+      "step": "INV-01",
+      "action": "Identifică proiectul P01 și sursa reală; capturează numele, ID-ul intern, URL-ul, utilizatorul/rolul cu acces fără secrete, timpul UTC și filtrele active.",
+      "output": "snapshot_manifest.json"
+    },
+    {
+      "step": "INV-02",
+      "action": "Enumeră toate capitolele, toate paginile/cursoarele, statusurile și taskurile, inclusiv arhivate/finalizate ascunse dacă sursa permite. Exportă câmpurile complete și atașamentele relevante cu hash.",
+      "output": "tasks_source_raw.json + source_hashes.json"
+    },
+    {
+      "step": "INV-03",
+      "action": "Citește semantica stărilor reale; mapează finalizate/închise/anulate/arhivate/redeschise fără a echivala closed cu done prin presupunere.",
+      "output": "status_mapping.json; orice stare necunoscută blochează numitorul final"
+    },
+    {
+      "step": "INV-04",
+      "action": "Reconciliază total UI/export/API, total pe capitol, numărul paginilor, ID-urile unice și toate excluderile. Dacă paginarea/API lipsesc, documentează traseul complet prin UI și integritatea capturilor.",
+      "output": "inventory_reconciliation.json"
+    },
+    {
+      "step": "INV-05",
+      "action": "Fixează lista completă a taskurilor finalizate și un rând de audit pentru fiecare; păstrează separat taskurile nefinalizate, anulate și propunerile istorice.",
+      "output": "completed_tasks_registry.json; 0 orfani obligatoriu"
+    },
+    {
+      "step": "INV-06",
+      "action": "La final recitește sursa și remote head. Taskurile finalizate după freeze și schimbările de criterii/cod formează delta nominală; revalidează rapoartele afectate înainte de a pretinde actualitate.",
+      "output": "inventory_delta_final.json + audit_snapshot_final.json"
+    }
+  ],
+  "audit_workflow": [
+    {
+      "phase": "T0",
+      "name": "Contract și criterii",
+      "steps": [
+        "Extrage literal taskul, anexele, subtaskurile, RZ, comentariile de acceptare și criteriile efective la închidere.",
+        "Atomizează fără a pierde conjuncțiile: dacă o cerință cere frontend și backend se verifică ambele.",
+        "Leagă amendamentele ulterioare și clasifică conflictul/supersedarea cu sursă datată."
+      ],
+      "deliverables": [
+        "requirements.json",
+        "acceptance_matrix.json",
+        "scope_history.json"
+      ]
+    },
+    {
+      "phase": "T1",
+      "name": "Corespondență cod și nativ",
+      "steps": [
+        "Identifică commiturile atribuite și comparația cu snapshotul actual.",
+        "Citește simbolurile relevante integral și apelanții/consumatorii, migrările, AD și configurările.",
+        "Verifică mecanismul nativ și EVA; justifică orice dezvoltare paralelă."
+      ],
+      "deliverables": [
+        "code_trace.json",
+        "native_reuse.json"
+      ]
+    },
+    {
+      "phase": "T2",
+      "name": "Contract transversal",
+      "steps": [
+        "Completează frontend→API→serviciu→tranzacție→tabele→documente/Fact_Acct→evenimente→UI.",
+        "Leagă titularii A01–A10 și consumatorii; definește fiecare predare și sursa autoritativă.",
+        "Fixează înainte de execuție rezultatele așteptate numerice și stările."
+      ],
+      "deliverables": [
+        "pipeline_contracts.json",
+        "test_scenarios.json"
+      ]
+    },
+    {
+      "phase": "T3",
+      "name": "Execuție audit",
+      "steps": [
+        "Execută probele aplicabile după gate și în mediul autorizat.",
+        "Separă cod confirmat, instalare confirmată și comportament demonstrat.",
+        "Păstrează exact NEEXECUTAT/BLOCAT când mediul/dreptul/datele lipsesc."
+      ],
+      "deliverables": [
+        "test_results.json",
+        "evidence_manifest.json",
+        "findings.json"
+      ]
+    },
+    {
+      "phase": "T4",
+      "name": "Autocontrol și corelare",
+      "steps": [
+        "Verifică toate cele 36 puncte și toate cerințele atomice, nu doar prezența câmpurilor.",
+        "Reconciliază rezultatele, dovezile, denominatorii și impactul cross-zone.",
+        "Elimină fals pozitive prin verificarea configurației/nativei și a contraexemplelor."
+      ],
+      "deliverables": [
+        "self_check.json",
+        "coverage_matrix.json",
+        "cross_zone_handoffs.json"
+      ]
+    },
+    {
+      "phase": "T5",
+      "name": "Control A11 și reluare",
+      "steps": [
+        "A11 primește raportul și dovezile complete cu hash.",
+        "Fiecare lipsă de metodă/dovadă/scenariu duce la reluare nominală; rezultatul vechi rămâne în istoric.",
+        "A11 reauditează schimbările și regresiile afectate; numai el acordă scorul calității auditului."
+      ],
+      "deliverables": [
+        "review_A11_round_N.json",
+        "reaudit_history.json"
+      ]
+    },
+    {
+      "phase": "T6",
+      "name": "Consolidare",
+      "steps": [
+        "Consolidează un verdict per task și un registru al defectelor pe cauză rădăcină, fără pierderea legăturilor.",
+        "Reverifică snapshotul final și delta.",
+        "Raportează separat taskuri auditate complet, parțial, blocate, conforme și neconforme."
+      ],
+      "deliverables": [
+        "task_verdicts.json",
+        "audit_P01_completed_tasks.html",
+        "final_reconciliation.json"
+      ]
+    }
+  ],
+  "per_task_checklist": [
+    {
+      "id": "A12-CK-01",
+      "area": "Inventar",
+      "action": "Identifică taskul în exportul autoritativ P01, nu numai în Git sau într-un manual.",
+      "required_evidence": "ID intern, cod original, titlu, URL, proiect/capitol, stare brută, data închiderii, data extragerii, hash export.",
+      "fail_condition": "Taskul nu apare în inventarul sursă sau identitatea este reconstruită prin presupunere.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-02",
+      "area": "Identitate",
+      "action": "Păstrează exact codurile originale; tratează explicit aliasuri, duplicări și coduri reutilizate.",
+      "required_evidence": "Registru ID intern↔cod original↔alias cu motive; zero taskuri pierdute la deduplicare.",
+      "fail_condition": "Două taskuri distincte sunt unite după titlu/cod sau o renumerotare tacită schimbă identitatea.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-03",
+      "area": "Cerințe",
+      "action": "Extrage fiecare propoziție normativă, subpunct, RZ, anexă și criteriu de acceptare în cerințe atomice.",
+      "required_evidence": "Text exact, pointer la sursă și hash; numărătoare cerințe înainte/după; dispoziția fiecărei cerințe.",
+      "fail_condition": "Sunt auditate numai titlul, rezumatul sau o selecție convenabilă de subpuncte.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-04",
+      "area": "Cronologie",
+      "action": "Separă criteriile valabile la închiderea taskului de amendamentele ulterioare aprobate.",
+      "required_evidence": "Surse datate pentru închidere/amendament; două verdicturi: conformitate la închidere și conformitate actuală. Snapshot cod și deploy separat la data închiderii, cu dovezi datate pe cabinet/build; în lipsă verdictul istoric rămâne NEDETERMINAT.",
+      "fail_condition": "O cerință nouă este prezentată ca fraudă istorică ori o clarificare explicită actuală este ignorată.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-05",
+      "area": "Versiuni",
+      "action": "Fixează commitul auditat, ultimul commit remote observat, versiunea nativă, buildul și versiunea instalată când accesibilă.",
+      "required_evidence": "SHA Git, branch, fetched_at UTC, manifest build, listă bundle/feature/schema, hashuri; diferențe declarate.",
+      "fail_condition": "HEAD local este numit ultima versiune fără comparație remote sau codul este confundat cu instalarea.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-06",
+      "area": "Trasabilitate",
+      "action": "Leagă fiecare cerință de implementare și fiecare schimbare relevantă de un task ori o explicație.",
+      "required_evidence": "Matrice cerință→fișier/simbol/linii la SHA→test→DB→pipeline→ecran; orfani expliciți.",
+      "fail_condition": "O listă de fișiere sau commituri înlocuiește demonstrația cerinței.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-07",
+      "area": "Nativ iDempiere",
+      "action": "Verifică pentru fiecare extensie dacă mecanismul există în iDempiere core, plugin instalat sau EVA.",
+      "required_evidence": "Două căutări reproductibile: cod EVA și core la versiune; mecanism, configurație, limită, probă comparativă și justificarea diferenței.",
+      "fail_condition": "Se declară inexistent fără corpus/versiune/căutări sau se declară nativ un plugin neconfirmat.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-08",
+      "area": "Frontend",
+      "action": "Urmărește intrarea din meniul real până la rezultat: rute, taburi, formulare, validări, încărcare, gol, eroare, succes.",
+      "required_evidence": "Inventar ecrane pe rol; capturi în mediul declarat; corespondență componentă/eveniment/endpoint; toate stările relevante.",
+      "fail_condition": "Butonul există dar nu are backend complet, erorile se pierd sau funcția este inaccesibilă rolului necesar.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-09",
+      "area": "UX",
+      "action": "Execută activitatea cu date reprezentative și măsoară reușita, pașii, mesaje, recuperare și accesibilitate.",
+      "required_evidence": "Scenariu gestionar/contabil/vânzări/admin după task, tastatură, focus, etichete, contraste, mobil/scanner dacă aplicabil; rezultat observat.",
+      "fail_condition": "Scorul UX este impresie estetică fără parcurs și fără recuperare după eroare.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-10",
+      "area": "Backend",
+      "action": "Urmărește apelul complet prin controller/proces/serviciu/validator/model până la persistență și răspuns.",
+      "required_evidence": "Call-chain cu simboluri și linii; precondiții, autorizare, validare server, tranzacție, erori și rezultat persistent.",
+      "fail_condition": "Validarea este numai în UI, tranzacția este incompletă sau răspunsul succes nu corespunde datelor.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-11",
+      "area": "API",
+      "action": "Compară contractul cu toate câmpurile intrate/ieșite și cu consumatorii reali.",
+      "required_evidence": "Spec/DTO versionat, mapping complet, câmpuri obligatorii/opționale, tipuri/UOM/monedă/date, coduri eroare, paginare, compatibilitate.",
+      "fail_condition": "Câmp comercial important este pierdut, inventat sau reinterpretat silențios.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-12",
+      "area": "DB/tabele",
+      "action": "Inventariază tabelele, coloanele, cheile, indexurile, trigger-ele, view-urile și constrângerile implicate.",
+      "required_evidence": "DDL la versiune, AD metadata, PK/FK/unique/check/nullability, tenant keys, provenance, read/write set și interogări de reconciliere.",
+      "fail_condition": "Se verifică numai Java/JS fără efectele SQL sau se afirmă existența tabelelor fără DDL/catalog.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-13",
+      "area": "Migrare",
+      "action": "Verifică ordinea și repetabilitatea migrărilor pe date existente și instanță curată.",
+      "required_evidence": "Matrice versiune înainte/după, dependențe, preflight, backup restaurabil în mediu izolat, rollback/forward-fix și rezultate.",
+      "fail_condition": "Migrarea corupe identități/date istorice ori rerun produce duplicări.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-14",
+      "area": "Izolare",
+      "action": "Probează separarea cabinet/firma/canal/utilizator și accesul direct la API/export/atașamente.",
+      "required_evidence": "Două firme/canale/roluri; probe permise/refuzate; context verificat pe server și la DB; același CUI în două cabinete.",
+      "fail_condition": "URL, cod de firmă sau filtru UI ține loc de autorizare ori datele altui context sunt vizibile.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-15",
+      "area": "Stări",
+      "action": "Enumeră toate tranzițiile și verifică actorul, condiția, efectul, documentul și jurnalul.",
+      "required_evidence": "Tabel stare înainte→comandă→stare persistentă→eveniment→stare UI, inclusiv IP/WP/WC/CO unde există.",
+      "fail_condition": "processIt(true), HTTP200 sau un toast este tratat ca finalizare contabilă/tehnică fără starea persistentă.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-16",
+      "area": "Pipeline",
+      "action": "Leagă taskul de fluxurile complete, producători, consumatori și puncte de reluare.",
+      "required_evidence": "Contract pipeline cu taskuri/zone, sursă autoritativă, corelare documente, timpi, responsabil și rezultat final verificabil.",
+      "fail_condition": "Taskul trece izolat dar predarea către următoarea etapă pierde date, drepturi sau stare.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-17",
+      "area": "Concurență",
+      "action": "Testează intercalări controlate ale cererilor care concurează pe aceeași resursă.",
+      "required_evidence": "Barrieră/schedule reproductibil, inputuri, operații simultane, rezultate, lock/isolation/unique key și invariant înainte/după.",
+      "fail_condition": "Doar apeluri seriale ori simpla existență a unui lock sunt prezentate ca test concurent.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-18",
+      "area": "Retry/idempotency",
+      "action": "Testează dublu-click, retry rețea, mesaj duplicat, restart worker și timeout cu rezultat incert.",
+      "required_evidence": "Cheie de idempotency cu domeniu precis, ID-uri persistente, număr efecte/documente înainte/după, reconciliere rezultat ambiguu.",
+      "fail_condition": "Retry creează alt document/consum/încasare sau timeout produce reemitere fără reconciliere.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-19",
+      "area": "Erori și inversare",
+      "action": "Testează eroare în fiecare punct cu efect și reia ori inversează controlat.",
+      "required_evidence": "Fault injection în mediu izolat, rollback, compensare, jurnal și probe că sursa inițială rămâne urmărită.",
+      "fail_condition": "Stocul, plata sau rezervarea este eliberată înaintea recuperării fizice/financiare necesare.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-20",
+      "area": "Contabilitate",
+      "action": "Reconciliază cantități, costuri, solduri și Fact_Acct cu politica relevantă taskului.",
+      "required_evidence": "Documente și linii contabile corelate; ecuații numerice cu semn/monedă/rotunjire; de ce poate exista/nuexista postare.",
+      "fail_condition": "Net zero este confundat cu zero rânduri contabile, aceeași marfă/cost/manoperă este recunoscută de două ori.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-21",
+      "area": "Stoc și identitate",
+      "action": "Pentru taskurile aplicabile, verifică CPP/CPA distinct, G1 unic contabil, G2 fizic și G3 alternative.",
+      "required_evidence": "Identități imuabile, lot/ASI sau MA, locație/calitate/formă/tranzit separate; bilanț cantități și rezervări.",
+      "fail_condition": "Aceeași marfă este multiplicată ori codul permanent este reutilizat.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-22",
+      "area": "Integrare externă",
+      "action": "Verifică autentificare, mapping, timeout, rate limits, retry, ordine evenimente și reconciliere.",
+      "required_evidence": "Contract provider/versionare, fixtures, sandbox/mocks etichetate, jurnal redactat, deduplicare și izolare per canal.",
+      "fail_condition": "Mock este declarat probă live ori testul produce AWB/plată/publicare reală neintenționată.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-23",
+      "area": "Import/export",
+      "action": "Verifică identități, tipuri, limite, duplicate, encoding, CSV/formule și reluarea lotului.",
+      "required_evidence": "Fixturi valide/ambigue/incomplete/mari, erori per rând, totaluri și query reconciliere fără date sensibile inutile.",
+      "fail_condition": "Importul alege arbitrar produsul/ASI, pierde câmpuri ori poate traversa contextul firmei.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-24",
+      "area": "Configurare",
+      "action": "Verifică fiecare setare: locație UI, default, domeniu, validare, efect, dependențe și modificare în timp.",
+      "required_evidence": "Catalog setare→task→schemă→UI→validator→test; configurare invalidă refuzată pe server.",
+      "fail_condition": "Setări incompatibile pot activa un flux incomplet sau defaultul schimbă documente istorice.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-25",
+      "area": "Performanță",
+      "action": "Testează volume reprezentative, interogări, paginare, concurență, cache și limite de resurse.",
+      "required_evidence": "Dataset definit, plan SQL, număr queryuri, măsurători percentile/buget agreat, expirare/izolare cache.",
+      "fail_condition": "Se prezintă viteză pe câteva rânduri drept capacitate de producție sau lipsesc numitorii.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-26",
+      "area": "Securitate aplicație",
+      "action": "Verifică validarea inputului, injecții, XSS, CSRF, acces la fișiere, secrete și loguri pentru suprafața taskului.",
+      "required_evidence": "Callsite și probe neintruzive în mediu autorizat; date de test, fără afișare tokenuri/secrete.",
+      "fail_condition": "Secretele ori datele altor firme sunt expuse, intrările neîncredere sunt executate.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-27",
+      "area": "Operare",
+      "action": "Verifică observabilitatea, alertarea, recovery și responsabilul după eșec.",
+      "required_evidence": "Correlation ID, audit trail, loguri redactate, metrice, dead-letter/replay, runbook și demonstrație de recuperare.",
+      "fail_condition": "Operatorul vede succes fals sau nu poate identifica/repara o operație întreruptă.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-28",
+      "area": "Build și instalare",
+      "action": "Verifică includerea în build/pachet, dependențe, teste CI și configurație de activare.",
+      "required_evidence": "Rezultat build/test reproductibil, manifest artifact, versiune bundle și compatibilitate; smoke în mediul declarat.",
+      "fail_condition": "Codul neîmpachetat/neinstalat este declarat funcțional în producție.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-29",
+      "area": "Regresii",
+      "action": "Verifică funcțiile native/EVA vecine și efectele taskului în celelalte capitole.",
+      "required_evidence": "Impact map, teste pentru consumatorii contractului și controlul meniurilor/rolurilor existente.",
+      "fail_condition": "Noua funcție ascunde sau rupe funcții contabile ori dublează serviciul comun.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-30",
+      "area": "Dovezi",
+      "action": "Verifică integritatea și reproducibilitatea fiecărei dovezi și a rezultatului așteptat.",
+      "required_evidence": "Fișier/hash, comandă sau pași, mediu, timp UTC, input, expected, observed, verdict, redacții; fără placeholder în raport final.",
+      "fail_condition": "Dovada este numai afirmația agentului, screenshot generic sau path care nu mai există.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-31",
+      "area": "Constatări",
+      "action": "Pentru fiecare defect, probează cauza, impactul, aria și reproducerea; verifică posibile contraexemple.",
+      "required_evidence": "Pași minimali, evidence IDs, gravitate justificată, afectare, remediere recomandată, test regresie, cross-zone dedup. Severitate, nivel probator și încredere justificată separate; istoric și contra-dovezi imuabile, cu reviewer.",
+      "fail_condition": "Raportul prezintă suspiciune ca defect confirmat, ignoră configurarea nativă sau dublează același defect.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-32",
+      "area": "Acoperire",
+      "action": "Reconciliază toate cerințele și scenariile aplicabile cu rezultatele, inclusiv cele blocate.",
+      "required_evidence": "Numitori: total taskuri finalizate, cerințe, scenarii, dovezi, rapoarte revizuite; zero orfani; excluderi explicite.",
+      "fail_condition": "Se raportează 100% din cele executate ascunzând cele neexecutate sau taskuri neinventariate.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-33",
+      "area": "Autocontrol",
+      "action": "Execută checklistul propriu înainte de predare, verificând semantic toate câmpurile și dovezile.",
+      "required_evidence": "Jurnal auto-QA, validare schema, linkuri, numere, consistența verdictului și control pe cel puțin o reproducere per finding.",
+      "fail_condition": "Completarea automată a câmpurilor ori o numărătoare de rânduri ține loc de lectură tehnică.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-34",
+      "area": "Audit independent",
+      "action": "Predă raportul complet și probele A11; răspunde punctual și reexecută probele cerute.",
+      "required_evidence": "Review A11 separat, itemuri acceptate/respinse, runde de reaudits cu hash raport/dovezi și scor justificat.",
+      "fail_condition": "Autorul își acordă singur 10/10 ori se schimbă raportul după review fără reverificare.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-35",
+      "area": "Versiune la închidere",
+      "action": "Recompară SHA remote și starea taskului față de snapshotul inițial; tratează delta.",
+      "required_evidence": "Manifest final, taskuri noi/reîncadrate/redeschise, fișiere schimbate și teste invalide/refăcute.",
+      "fail_condition": "Un raport vechi este prezentat ca audit al ultimei versiuni după schimbarea codului sau criteriilor.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    },
+    {
+      "id": "A12-CK-36",
+      "area": "Verdict onest",
+      "action": "Separă calitatea auditului de conformitatea implementării și de disponibilitatea probelor.",
+      "required_evidence": "Scor A11, verdict implementare, acoperire executată, blocaje rămase, concluzie cu domeniu/versiune exactă.",
+      "fail_condition": "10/10 este interpretat ca software fără defecte ori un NEEXECUTAT este convertit în PASS.",
+      "result": "NEEXECUTAT",
+      "evidence_ids": [],
+      "not_applicable_requires": "Motiv particularizat la cerința taskului, dovada lipsei efectului și validarea A11; nu se acceptă gol sau N/A global."
+    }
+  ],
+  "scenario_families": [
+    {
+      "id": "SF-01",
+      "family": "Pozitiv complet",
+      "minimum": "O probă pentru fiecare ramură funcțională și rol permis, până la rezultatul final persistent."
+    },
+    {
+      "id": "SF-02",
+      "family": "Input negativ și limite",
+      "minimum": "Obligatorii absente, tipuri/valori invalide, zero/negativ/exces, limite și ambiguități relevante; refuzul nu lasă efecte parțiale."
+    },
+    {
+      "id": "SF-03",
+      "family": "Autorizare și izolare",
+      "minimum": "Rol permis/interzis, aceeași resursă din alt tenant/firma/canal, apel direct fără UI, export/atașament dacă aplicabil."
+    },
+    {
+      "id": "SF-04",
+      "family": "Concurență",
+      "minimum": "Cel puțin două operații intercalate pe aceeași resursă și o probă pe resurse independente, cu invariant numeric și schedule."
+    },
+    {
+      "id": "SF-05",
+      "family": "Retry și rezultat incert",
+      "minimum": "Duplicat, restart, timeout după commit/efect extern și mesaj reordonat; același efect exact o dată în domeniul declarat."
+    },
+    {
+      "id": "SF-06",
+      "family": "Inversare și recuperare",
+      "minimum": "Eșec înainte/după punctul de commit, anulare/retur/corecție conform stării, refacere fără pierdere proveniență."
+    },
+    {
+      "id": "SF-07",
+      "family": "Migrare și regresie",
+      "minimum": "Instanță curată, date existente, rerun, compatibilitate consumatori și rollback/forward-fix demonstrabil în izolare."
+    },
+    {
+      "id": "SF-08",
+      "family": "UX și accesibilitate",
+      "minimum": "Task real până la succes, stare goală/încărcare/eroare, tastatură/focus și mobil/scanner unde cerute."
+    },
+    {
+      "id": "SF-09",
+      "family": "Volum și operare",
+      "minimum": "Date reprezentative declarate, măsurare resurse/latency, observabilitate și recovery, nu simplă presupunere."
+    }
+  ],
+  "scenario_template": {
+    "scenario_id": null,
+    "task_internal_id": null,
+    "requirement_ids": [],
+    "pipeline_id": null,
+    "pipeline_step_ids": [],
+    "family": null,
+    "risk": null,
+    "applicability": null,
+    "applicability_reason": null,
+    "environment_id": null,
+    "production_read_only": true,
+    "actor_role": null,
+    "tenant_company_channel_context": {},
+    "preconditions": [],
+    "fixture_ids": [],
+    "inputs": {},
+    "steps": [],
+    "expected_ui": null,
+    "expected_api": null,
+    "expected_db": null,
+    "expected_documents": null,
+    "expected_accounting": null,
+    "invariants": [],
+    "failure_injection_point": null,
+    "concurrency_schedule": null,
+    "idempotency_key_scope": null,
+    "observed": null,
+    "evidence_ids": [],
+    "status": "NEEXECUTAT",
+    "cleanup_or_reversal_plan": null,
+    "executed_at_utc": null,
+    "executor": null,
+    "reviewer": null,
+    "status_enum": [
+      "PASS_DOVEDIT",
+      "FAIL_DOVEDIT",
+      "NEEXECUTAT",
+      "BLOCAT_ACCES",
+      "NEEXECUTAT_DEPENDENTA_FAIL",
+      "N_A_JUSTIFICAT_APROBAT",
+      "INCONCLUDENT"
+    ],
+    "evidence_level": null,
+    "confidence": null,
+    "confidence_justification": null
+  },
+  "pipeline_template": {
+    "pipeline_id": null,
+    "name": null,
+    "business_outcome": null,
+    "task_ids": [],
+    "primary_zone_owner": null,
+    "secondary_zone_owners": [],
+    "state_machine_version": null,
+    "authoritative_state_owner": null,
+    "entry_actor_role": null,
+    "trigger": null,
+    "preconditions": [],
+    "steps": [
+      {
+        "step_id": null,
+        "producer_task_id": null,
+        "consumer_task_ids": [],
+        "ui_route_component_event": null,
+        "api_method_path_schema": null,
+        "backend_symbol_path_lines_at_sha": null,
+        "native_mechanism": null,
+        "db_reads": [],
+        "db_writes": [],
+        "db_constraints": [],
+        "transaction_boundary": null,
+        "document_and_accounting_effect": null,
+        "event_schema": null,
+        "correlation_ids": [],
+        "status_before": null,
+        "status_after": null,
+        "guard": null,
+        "idempotency_key_and_scope": null,
+        "retry_timeout_reconciliation": null,
+        "compensation_or_reversal": null,
+        "authorization_context": null,
+        "expected_invariants": [],
+        "evidence_ids": []
+      }
+    ],
+    "final_reconciliation": null,
+    "cross_zone_acceptance": [],
+    "unresolved_edges": [],
+    "review_status": "NEEXECUTAT"
+  },
+  "evidence_template": {
+    "evidence_id": null,
+    "type": "CODE|DDL|UI|API|SQL_READ|TEST|LOG|BUILD|NATIVE_DOC|TASK_SOURCE",
+    "source_uri_or_path": null,
+    "sha256": null,
+    "commit_or_version": null,
+    "symbol_and_line_range": null,
+    "captured_at_utc": null,
+    "environment_id": null,
+    "actor_role": null,
+    "command_or_steps": null,
+    "input_fixture_ids": [],
+    "expected": null,
+    "observed": null,
+    "redactions": [],
+    "limitations": [],
+    "task_ids": [],
+    "requirement_ids": [],
+    "reviewer_verified": false,
+    "evidence_level": null,
+    "evidence_level_enum": [
+      "STATIC_SOURCE",
+      "LOCAL_ISOLATED_TEST",
+      "BUILD_OR_UNIT_TEST",
+      "INTEGRATION_TEST",
+      "SANDBOX_E2E",
+      "LIVE_READ_ONLY",
+      "HISTORICAL_REFERENCE"
+    ],
+    "confidence": null,
+    "confidence_scale": [
+      "RIDICATĂ",
+      "MEDIE",
+      "SCĂZUTĂ",
+      "NEDETERMINATĂ"
+    ],
+    "confidence_justification": null
+  },
+  "requirement_template": {
+    "requirement_id": null,
+    "task_source_internal_id": null,
+    "original_text": null,
+    "source_pointer": null,
+    "source_hash": null,
+    "valid_from": null,
+    "valid_at_task_closure": null,
+    "superseded_by": null,
+    "current_disposition": "PĂSTRAT|ADAPTAT|ÎNLOCUIT|ANULAT_CU_DOVADĂ|DE_CLARIFICAT",
+    "current_acceptance_text": null,
+    "layers": [],
+    "pipeline_step_ids": [],
+    "native_reuse_evidence_ids": [],
+    "implementation_evidence_ids": [],
+    "test_scenario_ids": [],
+    "status": "NEEXECUTAT",
+    "findings": []
+  },
+  "task_report_template": {
+    "audit_record_id": null,
+    "source_identity": {
+      "source_system": null,
+      "project_internal_id": null,
+      "task_internal_id": null,
+      "original_code": null,
+      "project_code": "P01",
+      "chapter_code": null,
+      "task_code": null,
+      "validated_composite_reference": null,
+      "original_title": null,
+      "source_url": null,
+      "source_status_raw": null,
+      "source_closed_at": null,
+      "snapshot_at_utc": null,
+      "source_sha256": null
+    },
+    "criteria_history": [],
+    "current_code_snapshot": {
+      "repository": null,
+      "branch": null,
+      "remote_sha": null,
+      "fetched_at_utc": null,
+      "native_repository_version": null,
+      "build_manifest": null,
+      "installed_version": null,
+      "installed_version_evidence": null
+    },
+    "zone_ownership": {
+      "primary": null,
+      "secondary": [],
+      "auditor": "A12",
+      "reviewer": "A11"
+    },
+    "requirements": [],
+    "pipelines": [],
+    "frontend_backend_db_trace": [],
+    "native_reuse": [],
+    "test_scenarios": [],
+    "test_results": [],
+    "findings": [],
+    "evidence_manifest": [],
+    "self_check": [],
+    "coverage": {
+      "requirements_total": null,
+      "requirements_pass": 0,
+      "requirements_fail": 0,
+      "requirements_blocked": 0,
+      "requirements_not_executed": 0,
+      "requirements_na_approved": 0,
+      "applicable_scenarios_total": null,
+      "executed_scenarios_total": 0,
+      "evidence_verified_total": 0
+    },
+    "implementation_verdict_at_closure": "NEDETERMINAT",
+    "implementation_verdict_current": "NEDETERMINAT",
+    "audit_quality": {
+      "reviewer": "A11",
+      "score": null,
+      "rubric_version": null,
+      "status": "NEEVALUAT",
+      "review_artifact": null
+    },
+    "reaudit_rounds": [],
+    "limitations": [],
+    "open_actions": [],
+    "final_snapshot_delta": [],
+    "closure_code_snapshot": {
+      "task_closure_event_at": null,
+      "timestamp_source_and_timezone": null,
+      "historical_git_sha": null,
+      "historical_build": null,
+      "deployed_version_at_closure": null,
+      "tenant_or_cabinet": null,
+      "release_manifest_sha256": null,
+      "published_at_or_deployed_at": null,
+      "dated_evidence_ids": [],
+      "deduction_limit": "Dacă lipsesc dovada datată a versiunii sau execuția necesară atunci, evaluarea istorică este NEDETERMINAT; codul de astăzi nu demonstrează retroactiv ce era montat. Un task pur documentar cere artefactul istoric, nu un deploy fictiv; N/A se justifică și se aprobă."
+    },
+    "verdict_dimensions": [
+      "dispoziție de închidere/transfer",
+      "implementare în cod la închidere",
+      "instalare/execuție la închidere",
+      "implementare, instalare și comportament ACUM, fiecare cu nivel probator",
+      "calitatea auditului evaluată separat de A11"
+    ]
+  },
+  "finding_template": {
+    "finding_id": null,
+    "task_ids": [],
+    "requirement_ids": [],
+    "zone_owner": null,
+    "secondary_owners": [],
+    "title": null,
+    "status": "CANDIDAT",
+    "severity": "P0|P1|P2|P3",
+    "severity_justification": null,
+    "environment_and_version": null,
+    "preconditions": [],
+    "reproduction_steps": [],
+    "expected": null,
+    "observed": null,
+    "evidence_ids": [],
+    "root_cause": null,
+    "impact_and_scope": null,
+    "native_alternative_checked": null,
+    "false_positive_checks": [],
+    "recommended_minimal_fix": null,
+    "regression_test": null,
+    "duplicate_of": null,
+    "independent_review": null,
+    "status_enum": [
+      "CANDIDAT",
+      "CONFIRMAT",
+      "CONTESTAT",
+      "FALS_POZITIV_DOVEDIT",
+      "DUPLICAT_LEGAT",
+      "REMEDIERE_PROPUSA",
+      "CORECTAT_DE_RETESTAT",
+      "INCHIS_REVERIFICAT",
+      "RISC_ACCEPTAT_EXPLICIT"
+    ],
+    "evidence_level": null,
+    "evidence_level_enum": [
+      "STATIC_SOURCE",
+      "LOCAL_ISOLATED_TEST",
+      "BUILD_OR_UNIT_TEST",
+      "INTEGRATION_TEST",
+      "SANDBOX_E2E",
+      "LIVE_READ_ONLY",
+      "HISTORICAL_REFERENCE"
+    ],
+    "confidence": null,
+    "confidence_justification": null,
+    "control_status": null,
+    "control_status_enum": [
+      "PASS_DOVEDIT",
+      "FAIL_DOVEDIT",
+      "NEEXECUTAT",
+      "BLOCAT_ACCES",
+      "NEEXECUTAT_DEPENDENTA_FAIL",
+      "N_A_JUSTIFICAT_APROBAT",
+      "INCONCLUDENT"
+    ],
+    "original_claim_immutable": null,
+    "status_history": [],
+    "counter_evidence_ids": [],
+    "reviewer_identity": null,
+    "reviewer_reason": null,
+    "independent_retest_ids": [],
+    "reopened_if": null
+  },
+  "scoring_policy": {
+    "authority": "A11_rubrica_control.json; acest plan nu se autoevaluează 10/10.",
+    "separation": [
+      "Nota planului: calitatea și executabilitatea metodologiei.",
+      "Nota auditului: completitudinea și reproducibilitatea muncii auditorului pentru domeniul declarat.",
+      "Verdict implementare: CONFORM/NECONFORM/PARȚIAL/NEDETERMINAT, independent de nota auditului."
+    ],
+    "no_grade_inflation": [
+      "Un defect real confirmat nu este ascuns ca să obțină nota10; un audit complet poate documenta corect o implementare neconformă.",
+      "Lipsa testelor cerute sau a accesului împiedică certificarea auditului complet 10/10; se poate preda numai o etapă de cod/documentară explicit limitată.",
+      "Numărătorile structurale nu înlocuiesc lectura și reproducerea.",
+      "Nu se fac medii care maschează o cerință obligatorie lipsă ori o zonă neverificată."
+    ],
+    "reaudit_loop": "Observație A11 → acțiune nominală → dovadă nouă cu hash → reverificare A11 → scor; dacă lipsa depinde de acces/date externe, status BLOCAT și acțiune precisă, fără buclă fictivă.",
+    "fals_positive_protocol": [
+      "Separă faptul observat de inferență; notează condițiile de apel și configurația.",
+      "A11 verifică SHA/simbol/call-chain și caută validarea/compensarea din toate straturile relevante.",
+      "Reproduce minimul suficient într-un mediu permis ori construiește o probă statică concludentă; absența logului nu dovedește absența funcției.",
+      "Păstrează constatarea originală și contra-dovezile; decide confirmat, limitat, duplicat sau fals pozitiv demonstrat.",
+      "Incertitudinea devine INCONCLUDENT cu proba necesară și responsabil; nu se închide fals pozitiv din lipsă de acces.",
+      "După corecție, repetă reproducerea inițială și regresia relevantă a mecanismului nativ/EVA."
+    ],
+    "unresolved": "INCONCLUDENT = dovezi conflictuale/insuficiente; BLOCAT_ACCES = lipsește accesul identificat; NEEXECUTAT_DEPENDENTA_FAIL = probă în aval imposibilă după eșec în amonte. Niciunul nu poate deveni FALS_POZITIV_DOVEDIT/PASS fără contra-dovadă verificată. Un finding păstrează textul original, istoricul, legătura duplicat, argumentul/contra-dovada A11 și condiția de redeschidere."
+  },
+  "cross_zone_handoff": {
+    "status": "HARTĂ REZOLVATĂ; verificarea interfețelor aplicabile este planificată per task.",
+    "allowed_owner_ids": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09",
+      "A10"
+    ],
+    "assignment_rule": "Fiecare task are un titular principal după rezultatul de afaceri și titulari secundari pentru frontend/UX, DB, securitate și integrări. Fiecare cerință/predare are responsabil explicit.",
+    "handoff_fields": [
+      "task_id",
+      "requirement_id",
+      "pipeline_id",
+      "producer_step_id",
+      "consumer_step_id",
+      "primary_owner",
+      "consumer_owner",
+      "contract_version",
+      "expected_invariant",
+      "evidence_ids",
+      "finding_ids",
+      "resolution",
+      "A11_review"
+    ],
+    "no_duplication": "A12 reface independent traseul de acceptare per task, folosește dovezi comune numai după verificarea versiunii/domeniului; un raport de zonă nu ține loc de verdict pentru toate taskurile sale.",
+    "owners": [
+      {
+        "id": "A01",
+        "name": "Identitate, drepturi și izolare"
+      },
+      {
+        "id": "A02",
+        "name": "Bază de date, dicționar și identități"
+      },
+      {
+        "id": "A03",
+        "name": "Contabilitate, fiscalitate, active și salarii"
+      },
+      {
+        "id": "A04",
+        "name": "Achiziții, furnizori și import SAGA"
+      },
+      {
+        "id": "A05",
+        "name": "Gestiuni G1/G2 și execuție WMS"
+      },
+      {
+        "id": "A06",
+        "name": "Vânzări, G3, CRM și comisionari"
+      },
+      {
+        "id": "A07",
+        "name": "Livrări, AWB, retur și încasări"
+      },
+      {
+        "id": "A08",
+        "name": "Site-uri și conversii pe canal"
+      },
+      {
+        "id": "A09",
+        "name": "Meniu ERP, UX, accesibilitate și mobil"
+      },
+      {
+        "id": "A10",
+        "name": "Infrastructură, API, cozi și recuperare"
+      }
+    ],
+    "chapter_owners": [
+      {
+        "code": "P01.C01",
+        "title": "Contabilitate generală și situații financiare",
+        "scope": "Notele contabile, registrul-jurnal, balanțele, fișa contului, bilanțul (F10/S100x), dividendele și calculele de solduri. Tot ce ține de evidența contabilă propriu-zisă și de raportarea financiară anuală.",
+        "owner": "A03",
+        "handoff": [
+          "A02",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C02",
+        "title": "Închideri de lună și perioade",
+        "scope": "Închiderea lunii pas cu pas, notele de închidere, deschiderea și statusul lunilor, garda perioadei. Include setările pe perioade care condiționează postarea.",
+        "owner": "A03",
+        "handoff": [
+          "A02",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C03",
+        "title": "Gestiuni și stocuri",
+        "scope": "Gestiunile, metoda de descărcare FIFO/LIFO/CMP, tipul de evidență (CV/GV), recepțiile, consumurile, inventarul și prețurile de vânzare. Include nomenclatorul de articole și paritatea cu SAGA pe stocuri.",
+        "owner": "A05",
+        "handoff": [
+          "A02",
+          "A03",
+          "A06",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C04",
+        "title": "Trezorerie, bănci și decontări",
+        "scope": "Casa și banca, extrasele (inclusiv open banking Smart Fintech), încasările, plățile, compensările, scadențarul, cursurile și creditele. Include corelarea plată ↔ decont ↔ factură.",
+        "owner": "A07",
+        "handoff": [
+          "A03",
+          "A02"
+        ]
+      },
+      {
+        "code": "P01.C05",
+        "title": "Facturare și e-Factura",
+        "scope": "Facturile emise și primite, plajele de numere, tipurile speciale de factură, cotele de TVA ale statelor UE și sincronizarea e-Factura / SPV. Tot drumul unei facturi până la ANAF.",
+        "owner": "A07",
+        "handoff": [
+          "A03",
+          "A06",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C06",
+        "title": "Declarații fiscale ANAF",
+        "scope": "Declarațiile D100–D700, D300/D390/D394, D112, Intrastat, OSS, SAF-T (D406), vectorul fiscal; generarea, validarea XSD/DUK și regenerarea pe firme. Include referința legală și auditul lor.",
+        "owner": "A03",
+        "handoff": [
+          "A07",
+          "A09",
+          "A10"
+        ]
+      },
+      {
+        "code": "P01.C07",
+        "title": "Salarizare, resurse umane și REGES",
+        "scope": "Statul de plată, calculul salariilor și reținerilor, concediile, pontajul, angajații, SSM și transmiterile REGES. Include ecranele REGES și pluginul HR.",
+        "owner": "A03",
+        "handoff": [
+          "A01",
+          "A02",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C08",
+        "title": "Mijloace fixe și imobilizări",
+        "scope": "Fișele de mijloace fixe, amortizarea, reevaluarea, casarea și catalogul HG 2139. Setările de imobilizări pe perioade.",
+        "owner": "A03",
+        "handoff": [
+          "A02",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C09",
+        "title": "Documente, registre legale și tipărire",
+        "scope": "Modulul «Documente» (motor de șabloane, tipizate, contracte), registrele legale (14-x-y, documente și corespondență, controale) și tipărirea din orice ecran. Include temeiul legal al rubricilor.",
+        "owner": "A09",
+        "handoff": [
+          "A03",
+          "A10"
+        ]
+      },
+      {
+        "code": "P01.C10",
+        "title": "Vânzări online, parteneri și comenzi",
+        "scope": "Platformele de vânzări (eMAG, easySales, site-uri), canalele, comenzile, AWB-urile și curierii (Sameday), Stripe, corelarea comandă ↔ factură ↔ livrare ↔ încasare și CRM-ul. Scrierea spre parteneri doar din butonul unui om (§26).",
+        "owner": "A06",
+        "handoff": [
+          "A05",
+          "A07",
+          "A08",
+          "A01"
+        ]
+      },
+      {
+        "code": "P01.C11",
+        "title": "Importul datelor și pornirea firmei",
+        "scope": "Importul din SAGA (cele 211 importere), arhiva e-Factura la pornire, soldurile inițiale, portalul și lanțul de pornire a unei firme noi în 5 pași, provizionarea cabinetelor. Aici intră și verificarea cifrelor importate față de SAGA.",
+        "owner": "A04",
+        "handoff": [
+          "A02",
+          "A03",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C12",
+        "title": "Monografia contabilă și auditul financiar",
+        "scope": "Monografia companiei generată din setări (PDF AcroForm) și modulul «Dosar de audit» (misiune, riscuri, proceduri, rapoarte ISA). Documentele de analiză pentru auditorul financiar al firmei.",
+        "owner": "A03",
+        "handoff": [
+          "A04",
+          "A07",
+          "A02"
+        ]
+      },
+      {
+        "code": "P01.C13",
+        "title": "Administrare, drepturi și securitate",
+        "scope": "Drepturile de acces pe cabinete, firme și sarcini, autentificarea (MFA, JWT), izolarea pe firmă, super-adminul, ștergerea firmei și igienizarea datelor personale. Backendul FastAPI și portalul pe partea de securitate.",
+        "owner": "A01",
+        "handoff": [
+          "A02",
+          "A08",
+          "A10"
+        ]
+      },
+      {
+        "code": "P01.C14",
+        "title": "Interfață, ajutor și temă",
+        "scope": "Ecranele ZK, dialogurile, etichetele ro/en, butonul «Ajutor», tema EvA și textele portalului. Defectele de ecran și UX din audituri.",
+        "owner": "A09",
+        "handoff": [
+          "A01",
+          "A08"
+        ]
+      },
+      {
+        "code": "P01.C15",
+        "title": "Infrastructură, build, teste și montare",
+        "scope": "Imaginea iDempiere, build-ul din export, cabinetele de test, gărzile de secrete și rulatoarele de teste, montarea versiunilor pe cabinetele proprietarului (doar la cuvântul lui). Nu conține logică de produs, doar mediul în care se construiește și se probează.",
+        "owner": "A10",
+        "handoff": [
+          "A01",
+          "A02"
+        ]
+      },
+      {
+        "code": "P01.C16",
+        "title": "Analiză funcțională, documentare și audit transversal",
+        "scope": "Inventarele iDempiere / SAGA / EvA, comparațiile, catalogul modulelor, planul funcțiilor lipsă, documentarea completă a aplicației și auditurile care traversează mai multe capitole. Capitolul primește lucrările care nu aparțin unui singur modul.",
+        "owner": "A12",
+        "handoff": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10"
+        ]
+      },
+      {
+        "code": "P01.C17",
+        "title": "Aplicația mobilă Android de inventariere și ambalare",
+        "scope": "Aplicația pentru telefoanele Android cu care se scanează locațiile și produsele (cod de bare sau cod QR) la inventariere și la ambalarea comenzilor. Lucrează prin interfața de programare dedicată din iDempiere și se instalează ca fișier apk. Capitol creat la cererea proprietarului din 23.10.2026 (P01.T312).",
+        "owner": "A05",
+        "handoff": [
+          "A01",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C18",
+        "title": "Aplicația mobilă iPhone de inventariere și ambalare",
+        "scope": "Varianta pentru iPhone a aplicației de inventariere și ambalare, cu aceleași funcții ca aplicația Android. Folosește aceeași interfață de programare din iDempiere. Capitol creat la cererea proprietarului din 23.10.2026; lucrările vor urma.",
+        "owner": "A05",
+        "handoff": [
+          "A01",
+          "A09"
+        ]
+      },
+      {
+        "code": "P01.C19",
+        "title": "Aplicația mobilă iDempiere pentru Android",
+        "scope": "Aplicația pentru telefoanele Android care va da acces la funcțiile generale din iDempiere (EvA-Contab), altele decât inventarierea și ambalarea. Capitol creat la cererea proprietarului din 23.10.2026; lucrările vor urma.",
+        "owner": "A09",
+        "handoff": [
+          "A01",
+          "A10"
+        ]
+      },
+      {
+        "code": "P01.C20",
+        "title": "Aplicația mobilă iDempiere pentru iPhone",
+        "scope": "Varianta pentru iPhone a aplicației generale iDempiere (EvA-Contab). Capitol creat la cererea proprietarului din 23.10.2026; lucrările vor urma.",
+        "owner": "A09",
+        "handoff": [
+          "A01",
+          "A10"
+        ]
+      }
+    ],
+    "interface_ids": [
+      "X01",
+      "X02",
+      "X03",
+      "X04",
+      "X05",
+      "X06",
+      "X07",
+      "X08",
+      "X09",
+      "X10",
+      "X11",
+      "X12",
+      "X13",
+      "X14"
+    ],
+    "source": "Matrice_interfete.json",
+    "source_sha256": "a32f12e600cf498a4916586306a9ca1eb6f458d88234579ebcd29480b40b6f97"
+  },
+  "safe_execution": {
+    "production": "Doar citire și observație autorizate. Nicio emitere fiscală/AWB, refund, publicare de catalog, modificare stoc, roluri sau taskuri pentru a produce dovezi.",
+    "staging": "Probe cu efect numai într-un mediu de test identificat, date de test și integrări externe izolate/sandbox; rezultatul este etichetat ca atare.",
+    "secrets": "Nu se exportă parole/tokenuri; logurile/capturile redactează datele personale fără a altera proba tehnică.",
+    "existing_sensitive_data": "Se minimizează copierea datelor reale; eșantioane anonimizate păstrează relațiile necesare testului.",
+    "auditor_actions": "Auditorul raportează corecțiile recomandate; nu repară codul și nu schimbă starea taskului în cadrul acestei misiuni de audit."
+  },
+  "historical_sources": [
+    {
+      "source_id": "HIST-01",
+      "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Date_manual_Explicativ.json",
+      "sha256": "d18acbdd01fe527d9aaef0b99aaad70704f49367acee51c9a517516c3f8cc10d",
+      "bytes": 261973,
+      "classification": "DOCUMENTAȚIE ISTORICĂ; nu dovadă de task finalizat sau probă ERP actuală",
+      "purpose": "Reguli de arhitectură, 35 idei, 13 constatări, contracte și dependențe."
+    },
+    {
+      "source_id": "HIST-02",
+      "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Date_manual_C03.json",
+      "sha256": "ad282d3c13d0d9d3a26100f05e0066c831c812b559682e8c45c11afb548ca927",
+      "bytes": 467940,
+      "classification": "DOCUMENTAȚIE ISTORICĂ; nu dovadă de task finalizat sau probă ERP actuală",
+      "purpose": "Cerințe WMS/gestiuni și trasabilitatea surselor; 24 fișe propuse."
+    },
+    {
+      "source_id": "HIST-03",
+      "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Date_manual_C10.json",
+      "sha256": "b84172448e9c6ab5488b7de6ba99278e6ea6b57a9e7399554644ed3a86e1caa2",
+      "bytes": 716625,
+      "classification": "DOCUMENTAȚIE ISTORICĂ; nu dovadă de task finalizat sau probă ERP actuală",
+      "purpose": "Cerințe comenzi/canale și trasabilitatea surselor; 31 fișe propuse."
+    },
+    {
+      "source_id": "HIST-04",
+      "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Corespondenta_coduri_propuse.json",
+      "sha256": "a99347f7e9834f1d1d47222a4dfb147d01c95471df1c2d2727491676a90b18e0",
+      "bytes": 1804,
+      "classification": "DOCUMENTAȚIE ISTORICĂ; nu dovadă de task finalizat sau probă ERP actuală",
+      "purpose": "Interzice confundarea codurilor propuse cu cele înregistrate în P01."
+    },
+    {
+      "source_id": "HIST-05",
+      "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Provenienta_documentare.json",
+      "sha256": "98eb16e11db12544d3293a17df10157ac1337d1c089b81e30ed535b95db417f2",
+      "bytes": 12968,
+      "classification": "DOCUMENTAȚIE ISTORICĂ; nu dovadă de task finalizat sau probă ERP actuală",
+      "purpose": "Registrul surselor istorice și amprentelor."
+    },
+    {
+      "source_id": "HIST-06",
+      "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Verificare_finala_manual.json",
+      "sha256": "bb9a7d8b13511d977cb34432ea5c3f4486ee2c55178100d3f316c05ab3032b12",
+      "bytes": 4098,
+      "classification": "DOCUMENTAȚIE ISTORICĂ; nu dovadă de task finalizat sau probă ERP actuală",
+      "purpose": "Verificări documentare anterioare, distincte de execuția ERP."
+    },
+    {
+      "source_id": "HIST-07",
+      "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Audit_manual_si_corectii.json",
+      "sha256": "3acf1a80559bfdf38b1325e097c3ad313ac54e3ebfd3593b9966abb17d78ee59",
+      "bytes": 101531,
+      "classification": "DOCUMENTAȚIE ISTORICĂ; nu dovadă de task finalizat sau probă ERP actuală",
+      "purpose": "Constatări/revizii ale manualelor și limitele declarate."
+    },
+    {
+      "source_id": "HIST-08",
+      "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Manifest_final_manual.json",
+      "sha256": "a3e8c858fd338dce7604cb1b4f546b6c9a5e298d270b5e915ed00ca72f9b2373",
+      "bytes": 8131,
+      "classification": "DOCUMENTAȚIE ISTORICĂ; nu dovadă de task finalizat sau probă ERP actuală",
+      "purpose": "Integritatea pachetului anterior."
+    }
+  ],
+  "historical_baseline": {
+    "warning": "Toate numerele de mai jos descriu documentele din25.10, NU numărul actual de taskuri P01 finalizate.",
+    "declared_status": "PROPUNERE DOCUMENTARĂ; codurile noi sunt propuse, neînregistrate și nerezervate; testele ERP nu sunt executate",
+    "counts": {
+      "tasks_C03": 24,
+      "tasks_C10": 31,
+      "historical_user_ideas": 35,
+      "audit_findings": 13,
+      "settings": 24,
+      "contracts": 13,
+      "accounting_chapters": 20,
+      "functional_flows": 14,
+      "C03_historical_entries": 21,
+      "C10_historical_entries": 33,
+      "C03_source_RZ": 70,
+      "C10_source_fiches": 59,
+      "source_documents_unchanged": 60
+    },
+    "original_evidence_policy": {
+      "native_audit_baseline_commit": "3355eb5fc9403c3827fcd8caf8eb92f78319430e",
+      "native_current_commit": "5828764682de73f83e052ef769e79caaeba6961d",
+      "eva_extensive_audit_commit": "2f9e75036436ed83a3412878052671bea8e5adb5",
+      "eva_current_reported_by_root": "b897558118b45202d1e25fc0f4cfb3578351dd7d",
+      "freshness": "Root verifică separat delta relevantă la 25 octombrie; acest fișier nu declară automat că toate sursele sunt identice.",
+      "limits": [
+        "Nu am executat probe în acc.eva-org.com.",
+        "În această etapă proiectez manualul pe baza dovezilor anterioare; nu certific funcțiile instalate.",
+        "Afirmațiile de absență rămân limitate la corpusul și versiunea verificate.",
+        "Sursele istorice nu sunt rescrise; ancorele greșite sunt corectate în bibliografia noului manual."
+      ],
+      "checks": "13 constatări, 35 idei, 24 familii de setări, 13 contracte, 14 fluxuri și 20 capitole. Numărătorile descriu organizarea, nu teste ERP trecute."
+    },
+    "source_task_proposals": [
+      {
+        "code": "C03.T0030",
+        "title": "Gestiuni și locatori fără confuzii",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0031",
+        "title": "Identități permanente pentru CPP și CPA",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0032",
+        "title": "Rețete și unități de măsură controlate",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0033",
+        "title": "Cost inițial și preț în lista corectă",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0034",
+        "title": "Evidența fizică G2 și încărcarea inițială",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0035",
+        "title": "Recepție și amplasare pe raft",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0036",
+        "title": "Transferuri și tranzit cu proveniență",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0037",
+        "title": "Asamblare pentru stoc sau pentru comandă",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0038",
+        "title": "Dezasamblare înainte de culegerea pieselor",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0039",
+        "title": "Ambalaje și manoperă înregistrate o singură dată",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0040",
+        "title": "Alocarea fizică a întregului val de comenzi",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0041",
+        "title": "Loturi, serii și termen de valabilitate",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0042",
+        "title": "Pick confirmat și aviz înaintea validării comerciale",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0043",
+        "title": "Inventar fizic și diferențe aprobate",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0044",
+        "title": "Import de numărători pe produs, locator și lot",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0045",
+        "title": "Etichete native pentru produse și locatori",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0046",
+        "title": "Scanare consecventă în cele 15 ecrane ERP",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0047",
+        "title": "Drepturi și dispozitive pentru operarea WMS",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0048",
+        "title": "API WMS comun pentru toate interfețele",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0049",
+        "title": "Client mobil WMS și distribuție controlată",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0050",
+        "title": "Numărare mobilă cu verificarea concurenței",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0051",
+        "title": "Pick mobil pe cantitățile și loturile reale",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0052",
+        "title": "Retur fizic și trasabilitate până la origine",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C03.T0053",
+        "title": "Pilot complet, indicatori și predare operabilă",
+        "chapter": "C03",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0030",
+        "title": "Meniul pe activități și drepturile fiecărui rol",
+        "chapter": "C10-C1",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0031",
+        "title": "Canalele B2B, B2C, Online și Platforme: fișă și setări",
+        "chapter": "C10-C1",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0032",
+        "title": "Adresele cabinetelor și site-ul propriu al fiecărui canal",
+        "chapter": "C10-C1",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0033",
+        "title": "Catalogul, coșul și contul comisionarului în fiecare site",
+        "chapter": "C10-C1",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0034",
+        "title": "Fișa comercială CPP/CPA și proprietarul fiecărui câmp",
+        "chapter": "C10-C2",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0035",
+        "title": "Lista de prețuri, moneda, reducerile și taxele corecte",
+        "chapter": "C10-C2",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0036",
+        "title": "Modificări în masă ale ofertei și termenele furnizorului",
+        "chapter": "C10-C2",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0037",
+        "title": "Texte, imagini, traduceri și previzualizarea platformei",
+        "chapter": "C10-C2",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0038",
+        "title": "Relația cu clienții și campanii cu destinatari eligibili",
+        "chapter": "C10-C2",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0039",
+        "title": "Conexiuni: autentificare, capabilități și simulator",
+        "chapter": "C10-C3",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0040",
+        "title": "eMag, BaseLinker și easySales pe același contract de citire",
+        "chapter": "C10-C3",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0041",
+        "title": "Citirea și urmărirea vânzărilor Trendyol",
+        "chapter": "C10-C3",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0042",
+        "title": "Citirea și urmărirea vânzărilor Okazii",
+        "chapter": "C10-C3",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0043",
+        "title": "Citirea și urmărirea vânzărilor Altex",
+        "chapter": "C10-C3",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0044",
+        "title": "Comenzi complete: identități, adrese și valori",
+        "chapter": "C10-C3",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0045",
+        "title": "Disponibilul G3: toate combinațiile, un singur buget",
+        "chapter": "C10-C4",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0046",
+        "title": "Rezervarea atomică și transferul ei către WMS",
+        "chapter": "C10-C4",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0047",
+        "title": "O singură cartelă pentru comandă și documentele ei",
+        "chapter": "C10-C4",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0048",
+        "title": "Preluare gestionar, pregătire WMS și aprobare comercială",
+        "chapter": "C10-C4",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0049",
+        "title": "AWB și ramburs corect pentru fiecare expediție",
+        "chapter": "C10-C5",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0050",
+        "title": "Facturarea la validare sau după livrarea confirmată",
+        "chapter": "C10-C5",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0051",
+        "title": "Returul clientului: autorizație, recepție, credit și bani",
+        "chapter": "C10-C5",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0052",
+        "title": "Certificate și documente accesibile în contul clientului",
+        "chapter": "C10-C5",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0053",
+        "title": "Plăți, avansuri, Stripe și extrase fără motor duplicat",
+        "chapter": "C10-C6",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0054",
+        "title": "Deconturi de curieri și platforme, cu comisioane și excepții",
+        "chapter": "C10-C6",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0055",
+        "title": "Rapoarte pe canal și situațiile proprii ale comisionarului",
+        "chapter": "C10-C6",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0056",
+        "title": "Monitorizare, erori și schimbări în formatul cursului",
+        "chapter": "C10-C7",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0057",
+        "title": "Migrarea pe funcții către administrare exclusiv în ERP",
+        "chapter": "C10-C7",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0058",
+        "title": "Proba integrată și manualul de operare verificat",
+        "chapter": "C10-C7",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0059",
+        "title": "Etapă viitoare: vânzarea la tejghea și scanarea POS",
+        "chapter": "C10-C7",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      },
+      {
+        "code": "C10.T0060",
+        "title": "Etapă viitoare: terminalul Stripe pentru plata la casă",
+        "chapter": "C10-C7",
+        "classification": "PROPUNERE ISTORICĂ; statut actual neconfirmat"
+      }
+    ]
+  },
+  "historical_requirements_regression_register": [
+    {
+      "id": "U01",
+      "user_idea": "Trei documente finale coerente, cu auditul C03 și C10 păstrat separat și explicație comună",
+      "required_controls": [
+        "C03 și C10 rămân documente distincte și autonome pentru propriile taskuri.",
+        "Explicativul descrie arhitectura, schemele, meniul, setările și legăturile taskurilor fără să înlocuiască analiza per fișă.",
+        "Niciun document nu declară implementarea ERP executată doar fiindcă documentația este finalizată."
+      ],
+      "manual_sections": [
+        "manual_structure",
+        "traceability"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "amendment": "Cererea din 25 octombrie reorganizează livrarea într-un manual cu trei vederi HTML distincte și interconectate: C03, C10 și Explicativ. Cele trei documente anterioare rămân păstrate și citabile.",
+      "task_refs": [],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "manual_structure",
+          "traceability"
+        ],
+        "task_refs": [],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea.",
+        "scope": "Cerință despre document, surse sau metoda de lucru. Nu se inventează un task de implementare numai pentru această legătură."
+      }
+    },
+    {
+      "id": "U02",
+      "user_idea": "Audit sever al materialului inițial și al activității celor doi agenți",
+      "required_controls": [
+        "Materialul inițial și rezultatul corectat sunt delimitate cu identitate/dată.",
+        "Se explică erorile materiale, dovezile, corecțiile și limitele auditului implementatorului și auditorului.",
+        "119/119 și numerele structurale nu sunt prezentate drept probă că toate cerințele au fost verificate semantic."
+      ],
+      "manual_sections": [
+        "source_history",
+        "audit_controls"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "source_history",
+          "audit_controls"
+        ],
+        "task_refs": [],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea.",
+        "scope": "Cerință despre document, surse sau metoda de lucru. Nu se inventează un task de implementare numai pentru această legătură."
+      }
+    },
+    {
+      "id": "U03",
+      "user_idea": "Pentru fiecare fișă: inițial versus propunere, comasare/eliminare și motiv",
+      "required_controls": [
+        "Fiecare task/fișă inițială are propunerea actuală și motivul concret.",
+        "Unde se elimină ori se comasează, se indică mecanismul existent, taskul destinatar și cerințele transferate.",
+        "Taskurile fără schimbare sunt marcate explicit; nu se pierde un subpas prin comasarea părintelui.",
+        "Explicația nu se reduce la text generic identic pentru toate fișele."
+      ],
+      "manual_sections": [
+        "task_format",
+        "traceability"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "task_format",
+          "traceability"
+        ],
+        "task_refs": [],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea.",
+        "scope": "Cerință despre document, surse sau metoda de lucru. Nu se inventează un task de implementare numai pentru această legătură."
+      }
+    },
+    {
+      "id": "U04",
+      "user_idea": "Inventar complet, surse și identificatori fără renumerotare tacită",
+      "required_controls": [
+        "Toate taskurile C03/C10 sunt identificabile prin Cxx.Tnnnn și sursa veche.",
+        "Pașii C10 și dependențele C15 sunt distincte de taskurile capitolului.",
+        "Cele 59 fișe sursă, 70 RZ și criteriile comune sunt urmărite în domeniul inventariat, fără a confunda aceste numere cu testare executată.",
+        "Cerințele originale sunt păstrate ori au dispoziție explicită adaptat/înlocuit."
+      ],
+      "manual_sections": [
+        "task_format",
+        "traceability"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "amendment": "Noua organizare este autorizată; codurile noi propuse se alocă după maximul registrului, cu mapare explicită, fără reciclare sau renumerotare tacită.",
+      "task_refs": [],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "task_format",
+          "traceability"
+        ],
+        "task_refs": [],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea.",
+        "scope": "Cerință despre document, surse sau metoda de lucru. Nu se inventează un task de implementare numai pentru această legătură."
+      }
+    },
+    {
+      "id": "U05",
+      "user_idea": "Verificare dublă în codul EVA și în iDempiere nativ",
+      "required_controls": [
+        "Concluziile de reutilizare au surse exacte pentru EVA și nativ unde sunt relevante.",
+        "Commiturile/versiunile și limitările sunt precizate.",
+        "Se distinge ce există în cod de ce este instalat, configurat și probat la acc.eva-org.com.",
+        "Afirmațiile de absență sunt limitate la corpusul verificat."
+      ],
+      "manual_sections": [
+        "native_first_matrix",
+        "execution_stages"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "native_first_matrix",
+          "execution_stages"
+        ],
+        "task_refs": [],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea.",
+        "scope": "Cerință despre document, surse sau metoda de lucru. Nu se inventează un task de implementare numai pentru această legătură."
+      }
+    },
+    {
+      "id": "U06",
+      "user_idea": "Preferință fermă pentru adaptarea funcțiilor native și EVA existente",
+      "required_controls": [
+        "Ordinea este configurare nativă, adaptare EVA, extensie minimă justificată.",
+        "Gestiuni, locatori, inventar, documente, BOM, rezervări, cost, retur și alocări reutilizează baza potrivită.",
+        "Un registru/ecran/motor nou are diferență concretă neacoperită și alternativă evaluată.",
+        "Nicio reinventare a stocului sau contabilității pentru G2/G3."
+      ],
+      "manual_sections": [
+        "native_first_decision",
+        "native_first_matrix"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "native_first_decision",
+          "native_first_matrix"
+        ],
+        "task_refs": [],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea.",
+        "scope": "Cerință despre document, surse sau metoda de lucru. Nu se inventează un task de implementare numai pentru această legătură."
+      }
+    },
+    {
+      "id": "U07",
+      "user_idea": "Checklist executabil, autocontrol, corecții și audit independent înainte de închidere",
+      "required_controls": [
+        "Checklistul acoperă cerințe, nu doar fișiere/text prezent.",
+        "Fiecare probă cere rezultat așteptat, observat, dovadă, executant și auditor.",
+        "Neconformitatea obligatorie se corectează și se reverifică înainte de acceptarea lotului.",
+        "Neexecutat este separat de trece; finalizat documentar nu înseamnă finalizat ERP."
+      ],
+      "manual_sections": [
+        "completion_criteria"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "completion_criteria"
+        ],
+        "task_refs": [],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea.",
+        "scope": "Cerință despre document, surse sau metoda de lucru. Nu se inventează un task de implementare numai pentru această legătură."
+      }
+    },
+    {
+      "id": "U08",
+      "user_idea": "Analiza meniului actual și a tuturor capitolelor contabile existente",
+      "required_controls": [
+        "Inventarul meniului actual are surse exacte și îl distinge de meniul propus.",
+        "Cele 20 capitole C01–C20 sunt reprezentate; C17/C18 WMS mobil și C19/C20 mobil general nu dispar.",
+        "Cele 9 meniuri principale și 133 intrări sunt prezentate ca numărătoare statică din cod, nu cerință numerică impusă de utilizator.",
+        "REGES din arbore dinamic, rolurile și diferența de instalare sunt explicate.",
+        "Reorganizarea nu ascunde funcțiile contabile/fiscale/salariale/documentare existente."
+      ],
+      "manual_sections": [
+        "ux",
+        "accounting_chapter_map"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0030",
+        "C03.T0030"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "ux",
+          "accounting_chapter_map"
+        ],
+        "task_refs": [
+          "C10.T0030",
+          "C03.T0030"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U09",
+      "user_idea": "WMS, Gestiuni, Comenzi și Canale sunt zone distincte și corelate",
+      "required_controls": [
+        "Fiecare zonă are scop, taburi și responsabilitate clară.",
+        "Gestiuni configurează structuri; WMS operează fizic; Comenzi administrează fluxul; Canale configurează relația comercială/site-ul.",
+        "Meniul folosește ținte native/EVA și linkuri contextuale, fără patru implementări concurente ale aceleiași operații."
+      ],
+      "manual_sections": [
+        "ux.workspaces"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0030",
+        "C03.T0034",
+        "C10.T0030",
+        "C10.T0047",
+        "C10.T0031"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "ux.workspaces"
+        ],
+        "task_refs": [
+          "C03.T0030",
+          "C03.T0034",
+          "C10.T0030",
+          "C10.T0047",
+          "C10.T0031"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U10",
+      "user_idea": "Liste complete și aplicabile de setări pentru soluția propusă",
+      "required_controls": [
+        "Identități, G1/G2/locatori, CPP/CPA/rețete, lot/FEFO, G3/eligibilitate, rezervări, pick/inventar, documente/roluri, AWB/factură, plăți/retur, canale/site/rute, securitate și activare sunt acoperite.",
+        "Fiecare setare are domeniu, necesitate, valoare implicită propusă, incompatibilități, gardă, titular și verificare.",
+        "Configurația efectivă și versiunea sunt păstrate pentru documente/operații în curs.",
+        "Cele 24 familii SET din raportul tehnic sunt un inventar de control, nu o limită arbitrară a configurării."
+      ],
+      "manual_sections": [
+        "settings"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0030",
+        "C03.T0032",
+        "C03.T0034",
+        "C10.T0031"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "settings"
+        ],
+        "task_refs": [
+          "C03.T0030",
+          "C03.T0032",
+          "C03.T0034",
+          "C10.T0031"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U11",
+      "user_idea": "Legături compatibile între module și prevenirea greșelilor la conectare",
+      "required_controls": [
+        "Mufele au sursă/destinație, chei și context, unități, versiune, drept și condiții.",
+        "Se acoperă identitate→rețetă, canal→G3, coș→rezervare, G2→G1, pack→cost, pick→aviz, validare→AWB/factură, livrare→factură, URL→context și profil→activare.",
+        "Incompatibilitatea se refuză înainte de efecte, cu mesaj util și jurnal; retry nu dublează.",
+        "Ascunderea meniului nu substituie validarea server-side."
+      ],
+      "manual_sections": [
+        "contracts"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0048",
+        "C10.T0044",
+        "C10.T0048"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "contracts"
+        ],
+        "task_refs": [
+          "C03.T0048",
+          "C10.T0044",
+          "C10.T0048"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U12",
+      "user_idea": "G1.1…n sunt gestiuni contabile la locații și gestionari",
+      "required_controls": [
+        "Pot exista mai multe G1, cu locații/gestionari și politici contabile explicite.",
+        "Stocul contabil este pe bucăți ori set cu adevărat indivizibil.",
+        "Documentele, costul și soldurile native rămân autoritatea contabilă.",
+        "CV/GV este tip de evidență contabilă, nu sinonim pentru G1/G2/G3."
+      ],
+      "manual_sections": [
+        "architecture.layers",
+        "accounting_policies"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0030"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "architecture.layers",
+          "accounting_policies"
+        ],
+        "task_refs": [
+          "C03.T0030"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U13",
+      "user_idea": "G2.1…n sunt organizarea fizică operațională necontabilă",
+      "required_controls": [
+        "Zone/locații/locatori, gestionari, bucăți și unități ambalate sunt urmărite.",
+        "G2 reprezintă bunuri deja G1, cu origine contabilă unică și genealogie.",
+        "G2 acoperă pregătire, asamblare/dezambalare, pick și aviz; nu este doar listă de inventar.",
+        "Forma, calitatea, poziția/tranzitul și angajamentul sunt dimensiuni independente ale aceleiași unități; ambalat în carantină rămâne ambalat și are ATP zero."
+      ],
+      "manual_sections": [
+        "architecture.physical_dimensions",
+        "flows.F02"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "amendment": "Auditul ARC-02 corectează formularea veche despre stări disjuncte; cantitatea rămâne unică.",
+      "task_refs": [
+        "C03.T0034",
+        "C03.T0036",
+        "C03.T0037",
+        "C03.T0038"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "architecture.physical_dimensions",
+          "flows.F02"
+        ],
+        "task_refs": [
+          "C03.T0034",
+          "C03.T0036",
+          "C03.T0037",
+          "C03.T0038"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U14",
+      "user_idea": "G3 are o singură bază comună de combinații pentru canale",
+      "required_controls": [
+        "G3 este proiecție/ofertă disponibilă, fără stoc contabil propriu.",
+        "Combinațiile complete sunt gestionate central și versionate.",
+        "Canalele citesc aceeași bază de componente, cu reguli comerciale permise distincte."
+      ],
+      "manual_sections": [
+        "architecture.layers",
+        "stock_commitment"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0045",
+        "C10.T0046"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "architecture.layers",
+          "stock_commitment"
+        ],
+        "task_refs": [
+          "C10.T0045",
+          "C10.T0046"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U15",
+      "user_idea": "CPP și CPA au obligatoriu identități distincte și coduri permanente",
+      "required_controls": [
+        "CPP.P1 și CPA.P1 au M_Product_ID și M_Product_UU diferite chiar dacă numele este identic.",
+        "Codul intern permanent nu este reutilizat; SKU/EAN/numele sunt independente.",
+        "Importul, API, migrarea, restaurarea și dezactivarea păstrează identitatea.",
+        "Nu există BOM recursiv CPA.P1→același ID P1."
+      ],
+      "manual_sections": [
+        "architecture.catalogs"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0031"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "architecture.catalogs"
+        ],
+        "task_refs": [
+          "C03.T0031"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U16",
+      "user_idea": "Apartenența CPP/CPA și sursa de executare sunt explicite",
+      "required_controls": [
+        "Articolul numai primar poate exista numai CPP; articolul numai asamblat poate exista numai în catalogul CPA.",
+        "Setul cumpărat și cel asamblat, când există în ambele cataloage, au două identități.",
+        "CPP/CPA nu sunt echivalate cu G1/G2.",
+        "Sursa cumpărată/asamblată și politica reversibil/indivizibil sunt explicite; IsStocked nu se comută după lot/origine."
+      ],
+      "manual_sections": [
+        "architecture.catalogs"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0031",
+        "C03.T0032",
+        "C03.T0034"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "architecture.catalogs"
+        ],
+        "task_refs": [
+          "C03.T0031",
+          "C03.T0032",
+          "C03.T0034"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U17",
+      "user_idea": "Rețetele CPA→CPP includ ambalaje și manoperă",
+      "required_controls": [
+        "Exemplul CPA1P1 = CPP1P1 + A1 + 0,5 ore este reprezentat fără self-BOM.",
+        "Coeficienți, unități, versiune/valabilitate și genealogie sunt explicite.",
+        "Rețeta comercială și pregătirea operațională sunt legate, cu sursă canonică pentru fiecare scop.",
+        "Maparea PP_Product_BOM/M_Product_BOM și limitele nativului sunt tratate."
+      ],
+      "manual_sections": [
+        "architecture.catalogs",
+        "recipe_definition"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0032",
+        "C03.T0037",
+        "C03.T0039"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "architecture.catalogs",
+          "recipe_definition"
+        ],
+        "task_refs": [
+          "C03.T0032",
+          "C03.T0037",
+          "C03.T0039"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U18",
+      "user_idea": "Operația este în G2, iar consumul cutiilor și costurile sunt unice în G1",
+      "required_controls": [
+        "G2 înregistrează operația; G1 consumă cutia și recunoaște/alocă costul o dată.",
+        "Setul dezasamblabil nu primește stoc contabil suplimentar.",
+        "Manopera deja recunoscută prin salarii nu produce a doua cheltuială.",
+        "Un cost suplimentar legitim poate exista o singură dată; mișcarea echilibrată nu este interzisă doar fiindcă are rânduri Fact_Acct."
+      ],
+      "manual_sections": [
+        "accounting_policies",
+        "flows.F02"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0039",
+        "C03.T0037"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "accounting_policies",
+          "flows.F02"
+        ],
+        "task_refs": [
+          "C03.T0039",
+          "C03.T0037"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U19",
+      "user_idea": "Dezambalarea este obligatorie înainte de pick când forma fizică o cere",
+      "required_controls": [
+        "Când bunurile sunt în S1 dezasamblabil, cererea componentelor libere cere notă de dezambalare→locatori→pick.",
+        "Unitățile/loturile și cantitățile eliberate sunt trasabile.",
+        "Setul indivizibil refuză dezambalarea obișnuită; transformarea contabilă reală este separată.",
+        "Parțiale, pierderi și recuperarea/nerecuperarea cutiilor sunt prevăzute."
+      ],
+      "manual_sections": [
+        "flows.F03"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0038",
+        "C03.T0042"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "flows.F03"
+        ],
+        "task_refs": [
+          "C03.T0038",
+          "C03.T0042"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U20",
+      "user_idea": "Inventarierea folosește mecanismele native și nu dublează marfa",
+      "required_controls": [
+        "M_Inventory/M_InventoryLine în DR pot colecta numărătoarea fără postare.",
+        "Numărătoarea CPA reversibil se traduce în CPP după rețeta efectivă; indivizibilul se reconciliază ca produs.",
+        "Nu se numără simultan kitul și aceleași componente libere.",
+        "Diferența reală este aprobată și ajustată nativ; nu se face plus inventar pentru bunuri deja G1."
+      ],
+      "manual_sections": [
+        "flows.F05"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0043",
+        "C03.T0044",
+        "C03.T0050"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "flows.F05"
+        ],
+        "task_refs": [
+          "C03.T0043",
+          "C03.T0044",
+          "C03.T0050"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U21",
+      "user_idea": "Exemplul 120/120/120 și alternativele S1=20, S2=40 sunt păstrate corect",
+      "required_controls": [
+        "S1 are 6 din fiecare componentă; S2 are 3 din fiecare.",
+        "20 S1 și 40 S2 sunt potențiale simultan afișabile, nu cumulabile ca stoc ferm.",
+        "Comenzile mixte consumă componentele comune cumulativ.",
+        "Disponibilul net se calculează pe componente; P1 rezervat120 face S1 disponibil0, inclusiv limita funcției native verificate."
+      ],
+      "manual_sections": [
+        "architecture.numeric_examples"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0045",
+        "C10.T0046"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "architecture.numeric_examples"
+        ],
+        "task_refs": [
+          "C10.T0045",
+          "C10.T0046"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U22",
+      "user_idea": "Rezervare comună, concurență și gestiuni eligibile fără motor paralel",
+      "required_controls": [
+        "Toate liniile și comenzile concurente folosesc același buget net pe componente și rezervare atomică.",
+        "Sursele G1/G2, loturile, transferurile, termenul și eligibilitatea sunt explicite; tranzitul/carantina/alte firme sunt excluse unde nu eligibile.",
+        "Transferul rezervării EVA→nativ nu dublează și nu lasă interval neprotejat.",
+        "Canalele externe asincrone au confirmare centrală ori cote explicite; promisiunea afișată nu garantează singură lipsa supravânzării."
+      ],
+      "manual_sections": [
+        "stock_commitment",
+        "contracts.MUF-03"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0045",
+        "C10.T0046",
+        "C03.T0040"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "stock_commitment",
+          "contracts.MUF-03"
+        ],
+        "task_refs": [
+          "C10.T0045",
+          "C10.T0046",
+          "C03.T0040"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U23",
+      "user_idea": "Fiecare canal are site și Docker propriu, inclusiv platformele",
+      "required_controls": [
+        "Sunt incluse eMAG/Trendyol și celelalte tipuri de canal.",
+        "Fiecare canal are configurație, rută, credențiale și container propriu; imaginile/aplicația se pot reutiliza.",
+        "Previzualizarea platformei este apropiată ca prezentare, fără a fi confundată cu publicarea reală pe platformă."
+      ],
+      "manual_sections": [
+        "routing",
+        "flows.F12"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0032",
+        "C10.T0037"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "routing",
+          "flows.F12"
+        ],
+        "task_refs": [
+          "C10.T0032",
+          "C10.T0037"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U24",
+      "user_idea": "Rutele publice respectă cabinet→firmă→canal",
+      "required_controls": [
+        "Cabinet: /{cui_principal}.",
+        "Firmă: /{cui_principal}/{cui_firma}, inclusiv CUI principal repetat.",
+        "Canal: /{cui_principal}/{cui_firma}/{nume_canal_din_setări}.",
+        "Numele cu spații/diacritice și coliziunile după normalizare sunt tratate."
+      ],
+      "manual_sections": [
+        "routing"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0032"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "routing"
+        ],
+        "task_refs": [
+          "C10.T0032"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U25",
+      "user_idea": "Identitatea autorizată este stabilă, separată de rută și de numele canalului",
+      "required_controls": [
+        "Același CUI în două cabinete rămâne separat autorizat.",
+        "ID-uri interne imuabile leagă resursele; ruta invalidă nu cade pe alt cabinet.",
+        "Redenumirea și aliasurile nu recreează ori schimbă volumele/datele.",
+        "Contextul cabinet/firmă/canal este verificat pentru API/webhook, cache/cookie, export și atașamente."
+      ],
+      "manual_sections": [
+        "routing",
+        "migration"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0032",
+        "C10.T0039",
+        "C10.T0057"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "routing",
+          "migration"
+        ],
+        "task_refs": [
+          "C10.T0032",
+          "C10.T0039",
+          "C10.T0057"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U26",
+      "user_idea": "Comisionarul are catalog, plasare comenzi și situații proprii, fără administrare",
+      "required_controls": [
+        "Drepturile se limitează la canalul și datele proprii autorizate.",
+        "Portalul poate plasa o comandă și consulta starea/situațiile, prin API comun controlat.",
+        "Nu poate valida, pregăti, confirma pick, emite aviz/AWB/factură, aloca încasări ori face refund.",
+        "Interdicțiile sunt pe server, inclusiv apel direct fără UI."
+      ],
+      "manual_sections": [
+        "ux.usage_walkthroughs",
+        "channel_configuration"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0033",
+        "C10.T0055"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "ux.usage_walkthroughs",
+          "channel_configuration"
+        ],
+        "task_refs": [
+          "C10.T0033",
+          "C10.T0055"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U27",
+      "user_idea": "Administrarea comenzilor este exclusiv în iDempiere-EVA și are ordinea cerută",
+      "required_controls": [
+        "Gestionarul preia→verifică stoc→face pregătirile→pick→aviz.",
+        "Responsabilul de vânzări sau automatizarea autorizată validează după aviz.",
+        "Comanda intrată/importată nu începe direct prin invoice-draft.",
+        "Tranzițiile sunt persistente și reluabile, cu responsabil, precondiție și rezultat."
+      ],
+      "manual_sections": [
+        "flows.F06",
+        "flows.F07",
+        "flows.F08"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0044",
+        "C10.T0047",
+        "C10.T0048",
+        "C03.T0042"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "flows.F06",
+          "flows.F07",
+          "flows.F08"
+        ],
+        "task_refs": [
+          "C10.T0044",
+          "C10.T0047",
+          "C10.T0048",
+          "C03.T0042"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U28",
+      "user_idea": "AWB autorizat strict după validarea internă, cu idempotency",
+      "required_controls": [
+        "Excepția față de vechea interdicție de scriere este explicită și limitată la AWB în starea permisă.",
+        "Retry/timeout/rezultat incert se reconciliază înainte de reemitere.",
+        "Portalul nu emite AWB; anularea/refundul au operații și drepturi separate.",
+        "Parțialele/coletele sunt compatibile cu identificarea unică a expedierii."
+      ],
+      "manual_sections": [
+        "flows.F08",
+        "contracts.MUF-12"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0048",
+        "C10.T0049"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "flows.F08",
+          "contracts.MUF-12"
+        ],
+        "task_refs": [
+          "C10.T0048",
+          "C10.T0049"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U29",
+      "user_idea": "Factura are moment configurabil și condiție reală de livrare fără probleme",
+      "required_controls": [
+        "Ramura imediată după validarea autorizată este separată de ramura după livrare.",
+        "Ramura amânată cere dovadă livrare și lipsa incidentului/returului activ, potrivit politicii explicite.",
+        "M_InOut completat/InvoiceRule AfterDelivery nu este singur dovadă de predare curier la destinatar.",
+        "Parțiale, evenimente duplicate/dezordonate și incident redeschis sunt tratate fără factură dublă."
+      ],
+      "manual_sections": [
+        "flows.F09"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0050"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "flows.F09"
+        ],
+        "task_refs": [
+          "C10.T0050"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U30",
+      "user_idea": "Încasările, rambursul, returul și corecțiile folosesc documentele unice native",
+      "required_controls": [
+        "Lanțul comandă→aviz/livrare→factură→plată/decont→alocare este urmărit până la sold.",
+        "Returul client și recepția sunt diferențiate de returul furnizorului și de simpla autorizare RMA.",
+        "Returul CPA nu adaugă și CPA și CPP pentru aceeași marfă; indivizibilul are tratament propriu.",
+        "Parțiale, comision/net/brut, refund/stornare și retry păstrează legăturile."
+      ],
+      "manual_sections": [
+        "flows.F10",
+        "flows.F11"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0051",
+        "C10.T0053",
+        "C10.T0054",
+        "C03.T0052"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "flows.F10",
+          "flows.F11"
+        ],
+        "task_refs": [
+          "C10.T0051",
+          "C10.T0053",
+          "C10.T0054",
+          "C03.T0052"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U31",
+      "user_idea": "Canalele păstrează particularități comerciale și conversii peste baza comună",
+      "required_controls": [
+        "Sunt distincte lista de preț, moneda, limbile, textele, termenele, conversiile și identitatea listingului pe canal.",
+        "CPP/CPA sunt selectate/mapate prin identitate permanentă, nu exclusiv EAN/SKU.",
+        "Regulile de canal nu multiplică stocul și nu ocolesc rezervarea fermă.",
+        "Editarea în masă, traducerile și confirmarea AI reutilizează mecanismele existente și protejează alt canal."
+      ],
+      "manual_sections": [
+        "price_service",
+        "marketing_scope"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C10.T0034",
+        "C10.T0035",
+        "C10.T0036",
+        "C10.T0037"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "price_service",
+          "marketing_scope"
+        ],
+        "task_refs": [
+          "C10.T0034",
+          "C10.T0035",
+          "C10.T0036",
+          "C10.T0037"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U32",
+      "user_idea": "Operațiile WMS păstrează lotul, costul, scanarea, mobilul și excepțiile importante",
+      "required_controls": [
+        "Locatori/putaway, lot/ASI, expirare/FEFO, cost FIFO/LIFO/CMP și refacere sunt urmărite unde cerute.",
+        "Etichetele/QR și căutarea reutilizează nativul potrivit; scannerul mobil este funcție separată.",
+        "Autentificare mobilă, revocare, versiune, conflicte și API au contracte; C17–C20 sunt corelate fără dublare.",
+        "Scenariile negative/concurente sunt adecvate efectelor, nu o simplă listă de clase."
+      ],
+      "manual_sections": [
+        "native_first_matrix",
+        "flows.F01",
+        "flows.F07"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0035",
+        "C03.T0040",
+        "C03.T0041",
+        "C03.T0045",
+        "C03.T0046",
+        "C03.T0047",
+        "C03.T0048",
+        "C03.T0049",
+        "C03.T0050",
+        "C03.T0051"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "native_first_matrix",
+          "flows.F01",
+          "flows.F07"
+        ],
+        "task_refs": [
+          "C03.T0035",
+          "C03.T0040",
+          "C03.T0041",
+          "C03.T0045",
+          "C03.T0046",
+          "C03.T0047",
+          "C03.T0048",
+          "C03.T0049",
+          "C03.T0050",
+          "C03.T0051"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U33",
+      "user_idea": "Plan final executabil, cu dependențe, titulari, migrare și limite",
+      "required_controls": [
+        "Contractele preced implementările dependente și funcțiile comune au un singur titular.",
+        "Executantul și auditorul sunt desemnați înainte de execuție; lipsa numelui acum nu este PASS de audit.",
+        "Calendarul/estimările istorice nu sunt prezentate ca buget validat al întregii soluții.",
+        "Migrarea are manifest, autoritate unică, reconciliere, backup/restore și revenire; taskurile amânate POS rămân explicit separate."
+      ],
+      "manual_sections": [
+        "execution_stages",
+        "migration"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0053",
+        "C10.T0057",
+        "C10.T0058"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "execution_stages",
+          "migration"
+        ],
+        "task_refs": [
+          "C03.T0053",
+          "C10.T0057",
+          "C10.T0058"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U34",
+      "user_idea": "Clarificările utilizatorului înlocuiesc explicit cerințele vechi incompatibile",
+      "required_controls": [
+        "T331 NC complet izolată și interdicția absolută de rezervare sunt amendate pentru G2 peste marfă G1.",
+        "T339 plus inventar și exemplul172,50 nu se execută pentru aceeași marfă deja G1.",
+        "T338 numai contabil este înlocuit de pick G2 autorizat cu legătură G1.",
+        "T337 nu impune factura imediată; T325/T355 nu cer zero rânduri Fact_Acct pe mișcări/consum legitim.",
+        "Fiecare RZ afectată are dispoziție păstrat/adaptat/înlocuit și criteriu actual; istoricul rămâne citabil."
+      ],
+      "manual_sections": [
+        "traceability",
+        "architecture"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [
+        "C03.T0034",
+        "C03.T0037",
+        "C03.T0039",
+        "C03.T0042"
+      ],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "traceability",
+          "architecture"
+        ],
+        "task_refs": [
+          "C03.T0034",
+          "C03.T0037",
+          "C03.T0039",
+          "C03.T0042"
+        ],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea."
+      }
+    },
+    {
+      "id": "U35",
+      "user_idea": "Explicație detaliată, scheme și trasabilitate între idei, ecrane, setări și taskuri",
+      "required_controls": [
+        "Schemele arată rolurile G1/G2/G3, cataloagele distincte, fluxul fizic, cel de documente și cel comercial.",
+        "Pentru fiecare zonă/ecran/tab/contract/setare se poate identifica taskul titular și proba de acceptare.",
+        "Textul compară inițialul cu propunerea și motivează comasările fără a cere citirea tuturor anexelor.",
+        "Terminologia, exemplele, codurile și regulile sunt coerente în cele trei fișiere; legăturile trimit la sursa potrivită."
+      ],
+      "manual_sections": [
+        "manual_structure",
+        "task_format",
+        "ux"
+      ],
+      "status": "Cerință descrisă și legată de secțiunile și fișele indicate; verificarea documentului asamblat este consemnată separat de auditor.",
+      "task_refs": [],
+      "erp_status": "NEEXECUTAT",
+      "documentary_evidence": {
+        "sections": [
+          "manual_structure",
+          "task_format",
+          "ux"
+        ],
+        "task_refs": [],
+        "check": "Auditorul citește conținutul efectiv indicat și verifică fiecare control, inclusiv amendamentul. Matricea singură nu certifică acoperirea.",
+        "scope": "Cerință despre document, surse sau metoda de lucru. Nu se inventează un task de implementare numai pentru această legătură."
+      }
+    }
+  ],
+  "historical_findings_regression_register": [
+    {
+      "finding_id": "C03-A01",
+      "title": "Persistă și verifică DocStatus, nu doar booleanul processIt(CO)",
+      "owner_function": "physical_pick",
+      "historical_tasks": [
+        "C03.T0012",
+        "C03.T0023",
+        "C03.T0024",
+        "C03.T0027"
+      ],
+      "required_change": "Oprește faza la IP/WP/WC, persistă ID-urile, starea și proprietarul rezervării. Reia documentul existent și condiționează etapa următoare de CO efectiv plus aprobarea comercială.",
+      "acceptance": [
+        "PC deschis: MInOut rămâne IP, fără factură sau stare LIVRAT, cu un singur proprietar al rezervării.",
+        "Planificat 10, cules 7: expediere 7 și rest 3, fără casare implicită.",
+        "Două cutii a câte 6 bucăți, confirmare 6 bucăți: rezultatul este echivalentul unei cutii.",
+        "Cantitatea negativă, excesul și casarea fără drepturi sunt refuzate; sugestia precompletată nu dovedește scanarea.",
+        "CO tehnic fără aprobare comercială nu emite AWB sau factură.",
+        "Retry păstrează ID-urile documentelor și nu recreează comanda."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C03.T0042",
+      "task_refs": [
+        "C03.T0042",
+        "C03.T0051"
+      ]
+    },
+    {
+      "finding_id": "C03-A02",
+      "title": "ArticolEditor poate modifica lista greșită sau o versiune viitoare",
+      "owner_function": "price_service",
+      "historical_tasks": [
+        "C03.T0018",
+        "C10.T0017",
+        "C10.T0028"
+      ],
+      "required_change": "Primește lista M_PriceList_ID și data explicit; verifică lista activă; folosește getPriceListVersion(data); refuză versiunea inexistentă; păstrează actualizarea nativă M_ProductPrice.",
+      "acceptance": [
+        "Două liste SO ale aceleiași firme nu se modifică una pe alta.",
+        "Versiunea viitoare nu primește prețul operației de azi.",
+        "Data istorică, lista inactivă și lipsa versiunii sunt tratate explicit.",
+        "Costul existent nu este suprascris; serviciul și CPA reversibil nu primesc stoc sau cost fictiv."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C10.T0035",
+      "task_refs": [
+        "C10.T0035",
+        "C03.T0033",
+        "C10.T0036"
+      ]
+    },
+    {
+      "finding_id": "C03-A03",
+      "title": "Înlocuiește criteriul zero linii fără ASI cu proveniența completă pe cantitate",
+      "owner_function": "lot_traceability",
+      "historical_tasks": [
+        "C03.T0015",
+        "C03.T0026"
+      ],
+      "required_change": "Cere proveniență exactă pentru fiecare cantitate prin ASI pe linie sau MA și probează MotorStraturi înainte de adoptarea MA. Dacă motorul nu acceptă MA, justifică împărțirea pe linii, fără a declara mecanismul MA inexistent.",
+      "acceptance": [
+        "Consum de 3 unități din lotul A și 2 din B: proveniență pentru toate cele 5 și un singur efect G1.",
+        "ASI zero fără MA este refuzat când lotul este obligatoriu.",
+        "ASI zero cu MA exacte nu este respins fără justificarea incompatibilității EVA.",
+        "Retrimiterea bonului nu consumă a doua oară.",
+        "Manopera deja înregistrată în cheltuieli nu generează încă o dată aceeași cheltuială."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C03.T0041",
+      "task_refs": [
+        "C03.T0041",
+        "C03.T0052"
+      ]
+    },
+    {
+      "finding_id": "C03-A04",
+      "title": "PC are StorageUOM, cantitate sugerată și aprobare implicită",
+      "owner_function": "physical_pick",
+      "historical_tasks": [
+        "C03.T0020",
+        "C03.T0023",
+        "C03.T0024"
+      ],
+      "required_change": "Declară unitatea de măsură în API, convertește pe server și cere confirmare explicită. Refuză negativul și excesul. Separă lipsa, casarea și restul de livrat. Folosește workflow sau validator nativ pentru aprobarea comercială.",
+      "acceptance": [
+        "Planificat 10, cules 7: expediere 7 și rest 3, fără casare implicită.",
+        "Două cutii a câte 6 bucăți, confirmare 6 bucăți: rezultatul este echivalentul unei cutii.",
+        "Cantitatea negativă, excesul și casarea fără drepturi sunt refuzate; sugestia precompletată nu dovedește scanarea.",
+        "CO tehnic fără aprobare comercială nu emite AWB sau factură."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C03.T0042",
+      "task_refs": [
+        "C03.T0042",
+        "C03.T0048",
+        "C03.T0051",
+        "C10.T0048"
+      ]
+    },
+    {
+      "finding_id": "C03-A05",
+      "title": "ImportInventory necesită verificarea identității ASI, a ciornei și a efectelor de cost",
+      "owner_function": "inventory_count",
+      "historical_tasks": [
+        "C03.T0010"
+      ],
+      "required_change": "Completează proba cu ASI existent, UPC ambiguu, gruparea antetului și UpdateCosting. Păstrează adaptorul minim dacă procesul nativ complet nu corespunde.",
+      "acceptance": [
+        "Același produs pe doi locatori și două ASI păstrează patru poziții distincte.",
+        "Un lot existent nu primește ASI nou doar prin reimport.",
+        "UPC duplicat este refuzat, fără selectarea arbitrară a ID-ului maxim.",
+        "Importul mobil rămâne DR și nu activează ajustarea de cost.",
+        "Reimportul nu creează o a doua numărătoare accidentală."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C03.T0044",
+      "task_refs": [
+        "C03.T0044",
+        "C03.T0043",
+        "C03.T0050"
+      ]
+    },
+    {
+      "finding_id": "C03-A06",
+      "title": "Corectează modulul surselor Doc_Movement/Doc_Production și ancora Package",
+      "owner_function": "evidence_quality",
+      "historical_tasks": [
+        "C03.T0011",
+        "C03.T0029"
+      ],
+      "required_change": "Uniformizează linkurile la commitul EVA curent și release13 verificat; citează simbolul și liniile reale.",
+      "acceptance": [
+        "Fiecare link de sursă se rezolvă la fișierul și simbolul citat."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C03.T0053",
+      "task_refs": [
+        "C03.T0053",
+        "C10.T0058"
+      ]
+    },
+    {
+      "finding_id": "C10-EXT-01",
+      "title": "Adresa de livrare și cea de facturare trebuie păstrate distinct pe fiecare comandă",
+      "owner_function": "commercial_order",
+      "historical_tasks": [
+        "C10.T0003",
+        "C10.T0007",
+        "C10.T0017",
+        "C10.T0019",
+        "C10.T0024",
+        "C10.T0025"
+      ],
+      "required_change": "Extinde DTO-ul/importul existent cu identități distincte pentru client facturat, contact, adresă facturare și adresă livrare; rezolvă fiecare în C_BPartner/C_BPartner_Location/C_Location, apoi setează Bill_Location_ID și setShip_Location_ID distinct. Snapshotul comercial al comenzii și referințele aviz/AWB nu trebuie modificate retroactiv când clientul își schimbă adresa. Nu introduce nomenclator paralel de adrese.",
+      "acceptance": [
+        "Client unic, trei comenzi cu aceeași facturare A și livrări B/C/B: trei comenzi corecte fără partener duplicat.",
+        "Același CUI din alt cabinet nu selectează partenerul/adresa din afara contextului autorizat.",
+        "Modificarea ulterioară a adresei nu rescrie documentele deja emise; schimbarea autorizată înainte de expediție invalidează/revalidează tariful și AWB-ul în mod controlat.",
+        "Exportul/importul și retry păstrează aceleași două referințe; portalul nu poate schimba destinatarul unei comenzi deja administrate în ERP."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C10.T0044",
+      "task_refs": [
+        "C10.T0044",
+        "C10.T0047",
+        "C10.T0048"
+      ]
+    },
+    {
+      "finding_id": "C10-EXT-02",
+      "title": "Rambursul trebuie calculat net pe expediție, nu copiat din totalul comenzii pe fiecare AWB",
+      "owner_function": "commercial_dispatch",
+      "historical_tasks": [
+        "C10.T0024",
+        "C10.T0003",
+        "C10.T0023",
+        "C10.T0016"
+      ],
+      "required_change": "Păstrează M_Package/M_PackageMPS/M_ShippingTransaction și câmpul nativ CODAmount. Un singur calcul server stabilește valoarea de colectat aferentă expediției, minus alocările de plată/avans confirmate repartizate o singură dată. Îngheață și identifică alocarea pe expediție și propagă în tranzacția nativă înaintea apelului curierului; o regenerare de ShippingTransaction nu trebuie să reintroducă totalul brut. Repartizează pe colete conform contractului curierului, păstrând suma. Folosește MPayment/C_AllocationHdr/C_AllocationLine și legături existente; nu un nou registru contabil.",
+      "acceptance": [
+        "Fără avans:600 + 400 = 1000; retry al primei expediții nu adaugă încă600.",
+        "Cu avans 200 alocat primei expediții:400 + 400 = 800 de colectat,200 + 800 = 1000. O distribuție120/80 a avansului este admisibilă dacă totalul este păstrat; avansul200 nu se scade de două ori.",
+        "Un aviz cu două colete nu repetă întreaga sumă în ambele decât dacă API-ul curierului definește expres un singur ramburs master; proba verifică suma efectiv colectabilă.",
+        "Plată online integrală→COD 0; plata confirmată după emitere generează un caz controlat, nu o editare tăcută a AWB trimis.",
+        "Anulare/refuz/retur parțial și ramburs deja încasat au stări distincte; suma colectată nu se eliberează și nu se alocă din nou. Anularea externă rămâne blocată dacă nu este autorizată.",
+        "Timeout ambiguu se reconciliază cu aceeași identitate de expediție și aceeași alocare înainte de reemitere."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C10.T0049",
+      "task_refs": [
+        "C10.T0049",
+        "C10.T0048"
+      ]
+    },
+    {
+      "finding_id": "C10-EXT-03",
+      "title": "Contractul comercial al importului trebuie să păstreze moneda, net/brut, TVA, discountul și transportul",
+      "owner_function": "commercial_order",
+      "historical_tasks": [
+        "C10.T0007",
+        "C10.T0003",
+        "C10.T0017",
+        "C10.T0018",
+        "C10.T0019",
+        "C10.T0025",
+        "C10.T0028"
+      ],
+      "required_change": "Definește un DTO comercial versionat cu moneda, tipul prețului net/brut, TVA explicită sau determinare nativă verificată, linii de produse identificate intern, transport, reduceri și totaluri. Reutilizează MPriceList/MProductPricing/C_Tax/MConversionRate (tabela C_Conversion_Rate) și regulile fiscale EVA pentru validare/reconciliere. Prețul convenit cu canalul este un snapshot verificat, nu recalculat arbitrar la fiecare retry. Datele esențiale care lipsesc și nu pot fi determinate și reconciliate sigur prin regulile native/EVA intră în eroare vizibilă/staging. TVA poate fi calculată nativ valid chiar dacă vat_rate lipsește; nu se introduce arbitrar valoarea 0.21 și nu se inventează o linie generică. Câmpurile EVA_ValutaDoc/EVA_CursDoc nu dovedesc automat conversie în moneda listei.",
+      "acceptance": [
+        "Fixtură RON net, RON brut și EUR, cu aceeași valoare comercială acceptată; totaluri reconciliate la unitatea de rotunjire declarată.",
+        "Preț 121 cu TVA inclus21% trebuie să rămână total 121, net100; schimbarea tipului listei nu face total 100 sau146.41. Cifrele sunt fixturi matematice, nu recomandare fiscală.",
+        "Transport15 și discount10 se păstrează ca efecte comerciale distincte și nu se dublează la livrarea parțială/retry.",
+        "TVA absentă sau nevalidă conduce la refuz ori verificare manuală numai dacă nu poate fi determinată și reconciliată sigur prin regulile native/EVA. Lipsa câmpului vat_rate nu blochează un calcul nativ valid; mapperul nu introduce arbitrar valoarea 0.21. Valorile și cantitățile nevalide și comenzile fără linii reale sunt refuzate ori trimise explicit la verificare; niciun produs generic nu este inventat automat.",
+        "Diferența între totalul canalului și calculul ERP este vizibilă și rezolvată înainte de acceptarea definitivă; nu este ascunsă prin modificarea facturii."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C10.T0044",
+      "task_refs": [
+        "C10.T0044",
+        "C10.T0047",
+        "C10.T0048"
+      ]
+    },
+    {
+      "finding_id": "C10-EXT-04",
+      "title": "WPOS și PosOrderModel nu trebuie prezentate drept clase confirmate în core release13",
+      "owner_function": "pos_deferred",
+      "historical_tasks": [
+        "C10.T0026"
+      ],
+      "required_change": "Înlocuiește afirmația cu baza verificată: MOrder tipPOS, MPOS/MPOSPayment și forma de plată mixtă. Ecranul complet de tejghea se tratează ca plugin/funcție de verificat separat (versiune, compatibilitate, licență, UI), apoi se adaptează minim. Păstrează taskul amânat.",
+      "acceptance": [
+        "Fiecare clasă/serviciu propus drept existent are cale+commit sau bundle instalat identificat.",
+        "Proba POS include scanare, partener generic/persoană/firmă, plăți mixte, retur și integrarea dispozitivului decisă separat; nu se marchează gata din existența MOrder."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C10.T0059",
+      "task_refs": [
+        "C10.T0059",
+        "C10.T0060"
+      ]
+    },
+    {
+      "finding_id": "ARC-01",
+      "title": "Rezervarea EVA fără gestiune nu poate fi scăzută separat din fiecare G1 la agregarea disponibilului",
+      "owner_function": "stock_commitment",
+      "historical_tasks": [
+        "C10.T0003",
+        "C03.T0028",
+        "C03.T0012",
+        "C03.T0023"
+      ],
+      "required_change": "În C10.T0003 fixați granularitatea angajamentului înainte de multi-G1: warehouse/product/ASI și sursa documentului pentru rezerva alocată; pentru o promisiune globală încă nealocată, scădere o singură dată din bugetul comun. Reutilizați M_StorageReservation și liniile native pentru rezervarea deja alocată, cu transferul EVA→nativ în aceeași tranzacție. Nu introduceți un al doilea registru de stoc.",
+      "acceptance": [
+        "10+10−7 produce13, nu6; distribuția surselor este vizibilă.",
+        "Aceeași comandă mutată între două G1 păstrează exact 7 rezervate în total.",
+        "Rezerva EVA globală predată către nativ se elimină exact o dată; retry nu schimbă totalul.",
+        "Două canale și două G1 cu componente comune nu suprarezervă și nu scad aceeași rezervă de două ori."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C10.T0046",
+      "task_refs": [
+        "C10.T0046",
+        "C10.T0045"
+      ]
+    },
+    {
+      "finding_id": "ARC-02",
+      "title": "Forma ambalată, carantina și tranzitul trebuie separate ca dimensiuni, păstrând contabilizarea unică",
+      "owner_function": "warehouse_model",
+      "historical_tasks": [
+        "C03.T0017",
+        "C03.T0029",
+        "C03.T0022",
+        "C10.T0016",
+        "C03.T0028"
+      ],
+      "required_change": "Rescrieți contractul G2 astfel: o singură unitate și cantitate contabilă; forma CPP liber/CPA ambalat distinctă de dispoziția de calitate, poziție/tranzit și angajamentul comenzii. Reutilizați M_LocatorType și locatorii pentru eligibilitate când unitățile pot fi separate fizic; folosiți extensia minimă de unitate doar pentru genealogia/forma neacoperită. Nu este nevoie de un nou motor de stoc.",
+      "acceptance": [
+        "S1 ambalat în carantină păstrează aceeași identitate, rețetă și loturi, ATP 0.",
+        "Eliberarea din carantină nu consumă din nou A1 și manopera și nu produce plus contabil.",
+        "S1 în tranzit păstrează forma; aceeași unitate nu apare simultan în sursă și destinație.",
+        "În numărătoare, filtrarea după formă și după calitate nu însumează același bun de două ori."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C03.T0034",
+      "task_refs": [
+        "C03.T0034",
+        "C03.T0037",
+        "C03.T0038",
+        "C03.T0043",
+        "C03.T0052",
+        "C10.T0045",
+        "C10.T0051"
+      ]
+    },
+    {
+      "finding_id": "ARC-03",
+      "title": "Decizia despre UX spune încă «urmează într-un livrabil separat», deși fișierul explicativ îl livrează deja",
+      "owner_function": "configuration_ux",
+      "historical_tasks": [
+        "C03.T0009",
+        "C03.T0017",
+        "C10.T0015"
+      ],
+      "required_change": "La revizia documentelor înlocuiți propoziția cu trimiterea exactă la secțiunile 3–7 ale explicativului și păstrați statutul «propunere de UX; instalarea se probează la P0».",
+      "acceptance": [
+        "În toate cele trei documente se indică același fișier și aceeași stare a propunerii UX."
+      ],
+      "status": "Cerință integrată în proiectarea manualului; implementarea și proba ERP rămân de executat.",
+      "primary_task_ref": "C10.T0030",
+      "task_refs": [
+        "C10.T0030",
+        "C10.T0031",
+        "C03.T0030",
+        "C03.T0034"
+      ]
+    }
+  ],
+  "historical_dependencies": [
+    "Produs și rețetă → expansiune în componente → disponibil/rezervare → alocare fizică → pick → aviz → aprobare comercială → AWB/factură.",
+    "Schema și contractul canalului preced meniul și ecranele; ecranul nu este prerechizit circular pentru definirea contractului.",
+    "Contractul comercial cu adrese/prețuri precedă importul nou; schimbarea simplă a endpointului este insuficientă.",
+    "Citirile API WMS pot porni după contract; confirmările care produc efecte așteaptă PC și stările persistente.",
+    "Migrarea rezervărilor definește o singură autoritate pe fiecare stare; transferul EVA → nativ este atomic, fără gol ori dublare.",
+    "Funcția comună are un singur titular și criteriu; taskurile consumatoare testează integrarea, nu reimplementează serviciul.",
+    "Niciun canal nu este activat integral pe un disponibil, import sau flux de documente incomplet."
+  ],
+  "historical_completion_criteria": [
+    {
+      "id": "FIN-01",
+      "criterion": "Fiecare cerință veche, RZ, subpas și constatare are un task nou sau o dispoziție explicită justificată.",
+      "proof": "Matrice fără surse orfane; cele 70 RZ WMS, 59 fișe sursă C10, 35 idei și 13 constatări au numitori separați."
+    },
+    {
+      "id": "FIN-02",
+      "criterion": "Fiecare task are obiectiv, activități, folosire, frontend, backend, UX și cele șapte perspective.",
+      "proof": "Revizie semantică; un câmp completat generic nu este suficient."
+    },
+    {
+      "id": "FIN-03",
+      "criterion": "Reutilizarea are mecanism exact, versiune, configurație și limită; extensia are lipsă demonstrată.",
+      "proof": "Demonstrație pe clonă și sursă de cod; core distinct de plugin/EVA."
+    },
+    {
+      "id": "FIN-04",
+      "criterion": "Identitatea, G1/G2/G3, rețeta, costul și rezervarea respectă invariantele în toate căile.",
+      "proof": "UI/API/import/mobil; concurs, reluare și restaurare; rezultate cantitative și contabile."
+    },
+    {
+      "id": "FIN-05",
+      "criterion": "Fluxurile complete ajung până la documente și sold, inclusiv excepții.",
+      "proof": "Scenarii F01–F14 cu rezultat așteptat/observat și referințe de documente."
+    },
+    {
+      "id": "FIN-06",
+      "criterion": "Rolurile și firmele sunt izolate; ruta nu ține loc de drept.",
+      "proof": "Două firme, două canale, doi comisionari, același CUI în două cabinete și topologia reală client/organizație."
+    },
+    {
+      "id": "FIN-07",
+      "criterion": "UX permite utilizatorilor de bază să găsească funcția și să finalizeze activitatea.",
+      "proof": "Probe cu gestionar, vânzări, contabil și administrator; tastatură/scanner/mobil și recuperare după eroare."
+    },
+    {
+      "id": "FIN-08",
+      "criterion": "Nicio funcție contabilă existentă nu dispare prin noul meniu.",
+      "proof": "Maparea tuturor celor 20 de capitole și regresia țintelor/native/EVA relevante."
+    },
+    {
+      "id": "FIN-09",
+      "criterion": "Migrarea păstrează identitățile, volumele și operațiile în curs.",
+      "proof": "Manifest înainte/după, backup restaurat, reconciliere și revenire efectiv probate."
+    },
+    {
+      "id": "FIN-10",
+      "criterion": "Închiderea este făcută după autocontrol și audit independent al dovezilor.",
+      "proof": "Fiecare criteriu are executant, dată, versiune, rezultat observat și dovadă. NEEXECUTAT nu este PASS; FAIL obligatoriu se corectează și se retestează."
+    }
+  ],
+  "deliverables": [
+    "A12_plan_taskuri.json — acest contract; după revizie include harta titularilor și verdictul de plan.",
+    "capturi/MANIFEST.json + A12_reconciliere_P01.json — manifestul sursei live și reconcilierea independentă.",
+    "A12_index_taskuri.json — câte un rând pentru fiecare din 693, inclusiv cele 651 de fișe datorate.",
+    "A12_task_reports/<source_internal_id>.json — raportul complet per task și toate cerințele atomice.",
+    "A12_evidence/<evidence_id> — dovezi originale/minimizate și amprente.",
+    "A12_reviews/<source_internal_id>/round_N.json — controlul A11 și reluări.",
+    "A12_pipeline_matrix.json — task→cerință→pas→UI/API/backend/DB/document→probă→titular.",
+    "A12_findings_register.json — constatări corelate și deduplicate cu păstrarea tuturor taskurilor afectate.",
+    "A12_final_report.html — raport lizibil cu filtre pe capitol/task/stare/gravitate și limitele auditului."
+  ],
+  "open_inputs": [
+    {
+      "id": "IN-04",
+      "owner": "A11",
+      "needed": "Decizie de plan independentă și semnarea amprentelor versiunilor revizuite (10/10).",
+      "effect": "Niciun audit de implementare nu începe."
+    },
+    {
+      "id": "ENV-01",
+      "owner": "coord./executant cu A11",
+      "needed": "După gate, confirmă izolare, acces roluri și fixturi pe mediul de test per scenariu. Captura live a registrului nu satisface acest control.",
+      "effect": "BLOCAT_ACCES pentru probe inaccesibile; fără efecte reale în producție. Nu transformă planul în execuție."
+    },
+    {
+      "id": "HIST-01",
+      "owner": "A12/A11",
+      "needed": "Pentru fiecare task, găsește probe istorice datate și buildul instalat la închidere. Pentru 244 fișe eligibile nu există oră de finalizare nici în registru nici în listele legate.",
+      "effect": "În lipsa probelor relevante, verdict istoric NEDETERMINAT; data ultimei editări nu substituie închiderea."
+    }
+  ],
+  "self_validation": {
+    "implementation_tests_executed": 0,
+    "completed_tasks_audited": 0,
+    "per_task_checklist_items": 36,
+    "historical_user_ideas": 35,
+    "historical_findings": 13,
+    "historical_task_proposals": 55,
+    "unique_checklist_ids": true,
+    "plan_approval_claimed": false,
+    "individual_fiches_demanded": 651,
+    "individual_fiches_executed": 0,
+    "index_rows": 693,
+    "auxiliary_rows_reconciled": 19,
+    "independent_inventory_set_difference": 0,
+    "preliminary_findings_addressed_for_review": 4
+  },
+  "updated_at_utc": "2026-11-02T14:15:34.041148+00:00",
+  "previous_archive": "istoric/A12_plan_taskuri_v1_1cf1f5cc.json",
+  "inventory_reconciliation": {
+    "report": "A12_reconciliere_P01.json",
+    "sha256": "f7faeb780423d19a81a2bf2305349540a58cc6ef9f0ef1feb90bdbb799e9e957",
+    "register": "A12_index_taskuri.json",
+    "register_sha256": "b85857163b2dc5a3dfb7b7ee04a711ff3867d6af09e408840a922968bb579349",
+    "counts": {
+      "all_projects": 996,
+      "P01": 693,
+      "official_final": 650,
+      "explicit_list_P01_unique": 355,
+      "intersection": 354,
+      "official_only": 296,
+      "list_only": [
+        "T229"
+      ],
+      "individual": 651,
+      "outside_cohort": 42,
+      "without_canonical_in_cohort": 417,
+      "without_canonical_P01": 417,
+      "state_histogram": {
+        "agregat": 288,
+        "montat": 248,
+        "anulat": 26,
+        "închis": 88,
+        "pauză": 4,
+        "neînceput": 5,
+        "integrat": 10,
+        "implementare": 5,
+        "plan": 13,
+        "suspendat": 1,
+        "audit": 5
+      }
+    },
+    "limits": [
+      "Fișierele montate în serviciu sunt surse de stare declarată la cutoff; nu sunt teste de implementare/deploy.",
+      "Mai multe date sunt surse istorice reconstituite sau aproximări; ora de editare nu înlocuiește ora de închidere.",
+      "Absența unui cod canonic nu exclude un rând. Captura live diferă de copia Git pentru patru fișiere; aceste diferențe sunt păstrate."
+    ],
+    "auxiliary_numerator": {
+      "COORDONARE_NETERMINATĂ": 1,
+      "SUBRAND_P01_EXISTENT": 7,
+      "P11_IN_AFARA_P01": 10,
+      "ANTET_ISTORIC": 1
+    },
+    "exclusions": "42 rânduri nefinalizate în afara lotului individual la cutoff, păstrate nominal în index. T229 este în lotul individual ca excepție documentată fără prezumție de implementare finală."
+  },
+  "input_provenance": {
+    "source": "capturi/MANIFEST.json",
+    "source_hash": "06c12dbdd9737c86e69afe27330e7360b5d529a869f27c6c485e8c9d5f5655a1",
+    "github_target_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "server_worktree_sha": "f85086c5b91810fcd5322b69086345dce741dcce",
+    "deployed_images": [
+      "/eva-claude-usage sha256:1e1e828848ce09f2394f15bed1985c8b7f063386e4f88986e87448cc8378a40a eva-claude-usage:1 2026-10-26T11:28:28.535187365Z",
+      "/eva-idempiere-cesiro sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235 eva-idempiere-rest:13 2026-11-02T08:49:19.413514333Z",
+      "/eva-contab-frontend sha256:2ee034275fd69ad7184978f218bddf6f63dfe9410ff6cf3a1686a43b6d65fedb eva-contab-frontend 2026-10-15T21:11:31.331260416Z",
+      "/eva-contab-backend sha256:3f5036fcaa21b83f02102b4269838baee4aaeadaa32890520ee9c8755eaf269b eva-contab-backend 2026-10-15T21:12:03.150712536Z",
+      "/eva-contab-storefront sha256:8915f62ce46beb3309c7e4a90890e0fc6900ffc508ed88b00d3c202840ec82da eva-contab-storefront-next 2026-10-29T12:34:15.737980571Z",
+      "/spree-web sha256:ce8dce27cf1f882888f6bbfe9c35f605d9580050fcacb0587eaf728abf689c0e spree_starter-local:latest 2026-10-15T21:12:10.972132567Z"
+    ],
+    "deployed_hashes": [
+      "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2  /opt/idempiere/plugins/com.eva.ro.contab_13.0.0.jar",
+      "86c82f54299f55e8f5089e0c48f13dc29432fdecec205a51560eb48dc54ac8c3  /opt/idempiere/plugins/org.adempiere.base_13.0.0.202603090043.jar",
+      "dd1792b315d85732c8da386dab49bfb94b794547bc2b2d8b93a375532044a8b2  /opt/idempiere/plugins/org.adempiere.base.process_13.0.0.202603090043.jar",
+      "ae6c34d09775d3938a0c1a5f603cde3485650c1f22af7ceee929ec38ed3c9723  /app/app.py",
+      "da0730aec42f3e9f5f671e81a70ff71e24d5e534",
+      "75a5e832c6afb73b6948fb579b33dad98b9870da"
+    ],
+    "native_limit": "Release-13 oficial față de JAR-ul efectiv. SHA exact de build necunoscut până la dovadă. Nu echivala ramura release cu build-ul din martie.",
+    "limits": "SHA din Git, checkout server, hashuri de imagini și JAR nu sunt echivalente automat. Versiunea montată pe fiecare cabinet/istoric și maparea completă build→commit rămân de probat.",
+    "evidence_access": [
+      [
+        "GitHub SSH",
+        "lectură confirmată",
+        "commit fixat"
+      ],
+      [
+        "server aplicație",
+        "SSH confirmat; registry montat readonly",
+        "inventare și versiuni"
+      ],
+      [
+        "AD/DB CESIRO",
+        "metadate accesate read-only",
+        "nu extinde constatările la alte cabinete fără dovadă"
+      ],
+      [
+        "nativ",
+        "release-13 + bundle instalat și SHA256",
+        "proveniența build până la commit se verifică separat"
+      ],
+      [
+        "Chrome",
+        "extensie indisponibilă; sursa oficială citită prin SSH",
+        "pentru probe UX se folosește browser de test izolat și capturi cu rol"
+      ],
+      [
+        "Spree",
+        "repo local separat + image digest",
+        "verifică și schimbările nemontate/neversionate"
+      ],
+      [
+        "parteneri",
+        "conectori simulate în test",
+        "zero efecte asupra partenerilor reali"
+      ]
+    ]
+  },
+  "worked_example_T227": {
+    "state": "EXEMPLU EXECUTABIL DE PLAN; OBSERVAȚIE NEEXECUTATĂ. Identificarea de nume de clase/cale pentru proiectarea testului nu probează funcționarea.",
+    "source_identity": {
+      "id": "T227",
+      "canonical": "P01.C11.T0005",
+      "chapter": "P01.C11",
+      "state": "închis",
+      "closure_dates": [
+        {
+          "kind": "finalizat_la registru",
+          "value": "2026-11-02T13:16:23+02:00",
+          "origin": "capturi/00_STATUS_TASKURI.json#/800/finalizat_la"
+        },
+        {
+          "kind": "finalizat_la listă auxiliară",
+          "value": "2026-11-02T14:23+03:00",
+          "origin": "capturi/00_STATUS_FINALIZATE.json#/finalizate/0/finalizat_la"
+        }
+      ],
+      "source_pointers": [
+        {
+          "file": "00_STATUS_TASKURI.json",
+          "pointer": "/800",
+          "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+        },
+        {
+          "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+          "pointer": "/coduri/191",
+          "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+        },
+        {
+          "file": "00_STATUS_FINALIZATE.json",
+          "pointer": "/finalizate/0",
+          "id": "R-T227",
+          "task_field": "T227",
+          "state": "închis",
+          "dates": {
+            "aparut_la": "2026-10-19T17:44+03:00",
+            "inceput_la": "2026-11-01T12:51+02:00",
+            "termen": "2026-11-08T20:00+02:00",
+            "finalizat_la": "2026-11-02T14:23+03:00",
+            "finalizat_sursa": "registru 00_STATUS_TASKURI.json (închis) + COORDONARE"
+          }
+        }
+      ],
+      "cutoff": "2026-11-02T14:06:00.673Z",
+      "closure_scope": "Cerința proprietarului este marcată reconstituită în fișă. Confirmă exactitudinea pe documentele istorice; închiderea declarată prevede montare ulterioară în r58.",
+      "closure_code_snapshot": {
+        "asserted_integration_sha": "033dc1c064d",
+        "source": "documente_produse în registru; revendicare de verificat",
+        "deployed_version_at_closure": null,
+        "reference_evidence_ids": [],
+        "closure_verdict": "NEDETERMINAT"
+      },
+      "current_repo_snapshot": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "current_deployed_feature_status": "NEEXECUTAT"
+    },
+    "owners": {
+      "A12": "verifică individual acceptarea și predările; nu înlocuiește verificările A04",
+      "A04": "titular C11 / import și reconciliere; A04-P6 / A04-C24",
+      "A02": "schema și context DB pentru X12",
+      "A03": "semantica soldurilor și precizia contabilă",
+      "A09": "parcursul UI; accesibilitate, eroare și recuperare",
+      "A01": "autorizare și izolare inter-cabinet",
+      "A11": "reverificare independentă și decizie de metodă"
+    },
+    "pipeline": {
+      "id": "A12-T227-VERIFICARE",
+      "interface": "X12, A04-P6, A04-C24",
+      "trigger": "Contabilul cu rol permis deschide Verificare import SAGA, alege data D și toleranța, apasă Compar.",
+      "wire_contract": "Eveniment ZK server-side; nu se inventează un endpoint REST. Verifică separat în AD_Menu/AD_Form/AD_Form_Access disponibilitatea formei pentru rol și cabinet.",
+      "entry": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaVerificareImportForm.java:164/169 (deschide/compara), :301–317 (onEvent → compara → afiseaza/rosu).",
+      "backend": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/VerificareImportSaga.java:575/584 (deschide/calculeaza), :696 (SurseBaza).",
+      "data_candidates": "EVA_SagaImportRow (import eligibil), EVA_SagaConG, EVA_SagaSCInit/SCRulaj; C_BPartner/C_Invoice/C_Payment; M_Transaction; Fact_Acct; EVA_Neconcordanta și AD_Client_ID. Verifică la execuție setul exact pentru ramura aleasă, date/dimensiuni, schema, query-uri și acces efectiv.",
+      "data_operation": "Compar pornește numai citiri. Nicio notă contabilă, plată sau tranzacție de stoc nouă; compararea repetată păstrează soldurile/numărul documentelor și cheile.",
+      "final_check": "Aceeași dată, client și monedă pentru valori; dovada query și captură a diferenței/erorii UI; validare de doi titulari A04/A02 și A11 la nivel de task."
+    },
+    "fixture": {
+      "environment": "cabinet de test izolat; niciun nou import în producție",
+      "context": "Client test A, client test B cu aceleași chei vizibile; rol contabil permis A, rol interzis; aceeași dată D cu import SAGA eligibil, toleranță 0,01, monedă RON.",
+      "baseline": "Două poziții compatibile cu regula registrului/partenerului, în aceeași firmă: SAGA 100,00 și 40,00; EVA 100,00 și 40,00. Documente postate corespunzător, fără alte solduri în dataset. Pentru diferență, a doua valoare EVA=41,00 numai în fixtura B de test; firma A/B sunt două contexte separate, denumirile fixturilor nu înlocuiesc identitatea clientului."
+    },
+    "scenarios": [
+      {
+        "id": "T227-S1",
+        "name": "Solduri egale",
+        "steps": "Pornește din fixtura egală, deschide ecranul, selectează D și Compar.",
+        "expected": "Totaluri oracol 140,00 RON în ambele surse; două poziții comparabile, diferențe zero, fără modificări documente.",
+        "observed": null,
+        "status": "NEEXECUTAT",
+        "evidence_ids": [],
+        "owner": "A12",
+        "reviewer": "A11"
+      },
+      {
+        "id": "T227-S2",
+        "name": "Diferență 1 RON",
+        "steps": "În a doua fixtură modifică o singură poziție EVA de la 40,00 la 41,00, păstrând data și clientul; Compar.",
+        "expected": "SAGA 140,00, EVA 141,00; exact o diferență absolută 1,00 peste toleranța 0,01, legată de poziția corectă.",
+        "observed": null,
+        "status": "NEEXECUTAT",
+        "evidence_ids": [],
+        "owner": "A12",
+        "reviewer": "A11"
+      },
+      {
+        "id": "T227-S3",
+        "name": "Date lipsă și eroare",
+        "steps": "Operează pe o fixtură fără import eligibil, apoi pe date lipsă/eroare într-un test izolat.",
+        "expected": "Nu afișează concordanță falsă sau sold zero inventat; mesaj contextual și niciun efect contabil, fără a păstra rezultatul altei execuții.",
+        "observed": null,
+        "status": "NEEXECUTAT",
+        "evidence_ids": [],
+        "owner": "A12",
+        "reviewer": "A11"
+      },
+      {
+        "id": "T227-S4",
+        "name": "Izolare și retry",
+        "steps": "Lansează două sesiuni cu clienții A/B având aceleași chei de afaceri și valori diferite; repetă Compar în A; încearcă rol fără acces.",
+        "expected": "Nu apar date B în A. Repetarea în A cu aceleași date nu schimbă stoc/solduri/documente; rolul fără drept nu obține date.",
+        "observed": null,
+        "status": "NEEXECUTAT",
+        "evidence_ids": [],
+        "owner": "A12",
+        "reviewer": "A11"
+      },
+      {
+        "id": "T227-S5",
+        "name": "Risc de concluzie istorică greșită",
+        "steps": "Compară afirmația de integrare cu manifestul efectiv al release-ului/cabinetului la data închiderii.",
+        "expected": "Integrarea declarată pe Git nu este dovadă de instalare; fără dovadă datată verdict istoric NEDETERMINAT.",
+        "observed": null,
+        "status": "NEEXECUTAT",
+        "evidence_ids": [],
+        "owner": "A12",
+        "reviewer": "A11"
+      }
+    ],
+    "required_evidence": [
+      "HISTORICAL_REFERENCE: text task și declarații distincte, nu PASS",
+      "STATIC_SOURCE: SHA línie/simbol/AD la versiunea testată",
+      "INTEGRATION_TEST: oracol SQL și rol/filtru, înainte/după",
+      "SANDBOX_E2E: eveniment real Compar, rezultat vizibil pentru rol",
+      "LIVE_READ_ONLY: exclusiv inventare/versionare dacă accesibile; fără scrieri"
+    ],
+    "implementation_verdict_at_closure": "NEDETERMINAT",
+    "implementation_verdict_current": "NEDETERMINAT",
+    "A11_score": null,
+    "control_mapping_source": {
+      "path": "A04_plan.json",
+      "sha256": "4341589148c4f8f2d7453fe00b49a5bc0b10f3f72ddab4dbb4a34778540ffb8e",
+      "pointer": "/controls/23",
+      "control_id": "A04-C24",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "interface": "X12"
+    }
+  },
+  "preliminary_review_responses": [
+    {
+      "id": "A11-PRE-A12-01",
+      "change": "Schema include closure_code_snapshot/deployed_version_at_closure/dovezi datate și regula istoricul necunoscut. Exemplul T227 păstrează separat integrarea și montarea.",
+      "status": "RECTIFICAT_PROPUS_A11"
+    },
+    {
+      "id": "A11-PRE-A12-02",
+      "change": "evidence/finding/scenariu au evidence_level, confidence și justificare separate de severitate; enum-urile sunt preluate din rubrică.",
+      "status": "RECTIFICAT_PROPUS_A11"
+    },
+    {
+      "id": "A11-PRE-A12-03",
+      "change": "Stările de control și findings sunt separate. Istoric imutabil, contra-dovezi, reviewer, condiție de redeschidere și protocol fals pozitiv explicit.",
+      "status": "RECTIFICAT_PROPUS_A11"
+    },
+    {
+      "id": "A11-PRE-A12-04",
+      "change": "T227 verificare SAGA: traseu UI ZK→compara→SurseBaza→tabele→oracol și cinci scenarii determinate; harta titularilor și indexul complet sunt rezolvate.",
+      "status": "RECTIFICAT_PROPUS_A11"
+    },
+    {
+      "id": "A11-T227-PIPELINE",
+      "change": "Asocierile din worked_example_T227.owners.A04 și pipeline.interface au fost corectate conform A04_plan.json#/controls/23: A04-C24 → A04-P6.",
+      "status": "RECTIFICAT_PROPUS_A11",
+      "previous_version_sha256": "cdbb2298d146ac74b6e4d13cec57d77a7da35aab6fba7e75643c726989657cd5"
+    }
+  ]
+}

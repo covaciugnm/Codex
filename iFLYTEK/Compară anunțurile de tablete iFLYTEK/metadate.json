@@ -1,0 +1,23 @@
+{
+  "id": "01a196d4-9d44-7222-99e8-a8ac0546a21f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK",
+  "created_at": 1793531878,
+  "updated_at": 1793549273,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară anunțurile de tablete iFLYTEK",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1042684,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 33,
+  "message_count": 14,
+  "content_sha256": "fc6fbd0cd939d5fed508673df9bc1dd9f7b66d9246aabfdabe196ebe3736a225",
+  "files_copied": 0,
+  "references_not_copied": 20
+}

@@ -1,0 +1,387 @@
+{
+  "schema": "eva.audit.P01.population.reconciliation.v2",
+  "cutoff": "2026-11-02T14:06:00.673Z",
+  "method": "Recitire independentă a celor șapte fișiere live. Verificare SHA/bytes, unicitate ID, domeniu proiect=status brut, stări după grupa Finalizat, vizitare recursivă a celor două registre, rezoluții exacte ID/cod/alias și moștenire exclusiv pentru task gol. Comparare set de identități rezultat cu Inventar_P01, nu doar total. Nodurile auxiliare fără cheie se judecă separat după părinte, titlu și aliasul rândului.",
+  "manifest_hash": "06c12dbdd9737c86e69afe27330e7360b5d529a869f27c6c485e8c9d5f5655a1",
+  "live_hashes": {
+    "00_STATUS_TASKURI.json": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf",
+    "00_STATUS_RAMASE.json": "c0effef6a3000a5bea43add5080738b0236da128a393a27bb4acbc47aebe0a24",
+    "00_STATUS_FINALIZATE.json": "1dd44ea0569a41b03d359ad1f8c97fef777b7f4f57645ef7fc9fc5dc1161eed7",
+    "00_CORESPONDENTA_COD_CAPITOL.json": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1",
+    "00_CAPITOLE_PROIECTE.json": "16f151952fa7afa355d18a261ef5e336d97a8b9e30ece06c966fcaff1e30b9d3",
+    "00_CATALOG_PROIECTE.json": "c3fc036d32c6f10c6bb4ace8d0929df566b2983bb0e1c865509c78b18319aa6f",
+    "00_STARI_TASKURI.json": "3175e23ff2d5c3a3872e751a0fcd76f15559b3ba2a0de9ac496f49318b81674f"
+  },
+  "files_succeeded": 7,
+  "all_task_ids_unique": true,
+  "canonical_collision_inside_P01": 0,
+  "counts": {
+    "all_projects": 996,
+    "P01": 693,
+    "official_final": 650,
+    "explicit_list_P01_unique": 355,
+    "intersection": 354,
+    "official_only": 296,
+    "list_only": [
+      "T229"
+    ],
+    "individual": 651,
+    "outside_cohort": 42,
+    "without_canonical_in_cohort": 417,
+    "without_canonical_P01": 417,
+    "state_histogram": {
+      "agregat": 288,
+      "montat": 248,
+      "anulat": 26,
+      "închis": 88,
+      "pauză": 4,
+      "neînceput": 5,
+      "integrat": 10,
+      "implementare": 5,
+      "plan": 13,
+      "suspendat": 1,
+      "audit": 5
+    }
+  },
+  "official_states": [
+    "agregat",
+    "anulat",
+    "montat",
+    "închis"
+  ],
+  "source_aux_rows": {
+    "final_roots": 345,
+    "final_nodes_recursive": 533,
+    "remaining_roots": 198,
+    "remaining_nodes_recursive": 521
+  },
+  "explicit_final_criteria": "Apartenență la lista finalizate, nu o deducție textuală din procentul 100%, titlu sau montarea pur declarată. Etichetele contradictorii rămân păstrate.",
+  "auxiliary_reconciliation": [
+    {
+      "row": "INTREBARI.4",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/21/copii/1",
+      "group": "COORDONARE_NETERMINATĂ",
+      "source_ref": "INTREBARI",
+      "source_state": "de făcut",
+      "canonical_or_parent_ids": [
+        "T27",
+        "T04",
+        "T21",
+        "T22",
+        "T23",
+        "T28",
+        "T30",
+        "T32"
+      ],
+      "basis": "Subrând «de făcut» conține predări AMD și confirmări la sesiunile existente; fără ID tehnic propriu. Se ține ca obligație de coordonare, nu ca task finalizat.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T40.5",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/22/copii/2",
+      "group": "SUBRAND_P01_EXISTENT",
+      "source_ref": "(task nou)",
+      "source_state": "în lucru",
+      "canonical_or_parent_ids": [
+        "T40.05"
+      ],
+      "basis": "ID/alias exact al rândului auxiliar, titlu compatibil și părinte T40; unitatea P01 este deja inclusă.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T40.6",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/22/copii/3",
+      "group": "SUBRAND_P01_EXISTENT",
+      "source_ref": "(task nou)",
+      "source_state": "în lucru",
+      "canonical_or_parent_ids": [
+        "T40.06"
+      ],
+      "basis": "ID/alias exact al rândului auxiliar, titlu compatibil și părinte T40; unitatea P01 este deja inclusă.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T40.7",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/22/copii/4",
+      "group": "SUBRAND_P01_EXISTENT",
+      "source_ref": "(task nou)",
+      "source_state": "integrat",
+      "canonical_or_parent_ids": [
+        "T40.07"
+      ],
+      "basis": "ID/alias exact al rândului auxiliar, titlu compatibil și părinte T40; unitatea P01 este deja inclusă.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T40.8",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/22/copii/5",
+      "group": "SUBRAND_P01_EXISTENT",
+      "source_ref": "(task nou)",
+      "source_state": "în lucru",
+      "canonical_or_parent_ids": [
+        "T40.08"
+      ],
+      "basis": "ID/alias exact al rândului auxiliar, titlu compatibil și părinte T40; unitatea P01 este deja inclusă.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T40.9",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/22/copii/6",
+      "group": "SUBRAND_P01_EXISTENT",
+      "source_ref": "(task nou)",
+      "source_state": "în lucru",
+      "canonical_or_parent_ids": [
+        "T40.09"
+      ],
+      "basis": "ID/alias exact al rândului auxiliar, titlu compatibil și părinte T40; unitatea P01 este deja inclusă.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T40.10",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/22/copii/7",
+      "group": "SUBRAND_P01_EXISTENT",
+      "source_ref": "(task nou)",
+      "source_state": "de făcut",
+      "canonical_or_parent_ids": [
+        "T40.10"
+      ],
+      "basis": "ID/alias exact al rândului auxiliar, titlu compatibil și părinte T40; unitatea P01 este deja inclusă.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T40.11",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/22/copii/8",
+      "group": "SUBRAND_P01_EXISTENT",
+      "source_ref": "(task nou)",
+      "source_state": "de făcut",
+      "canonical_or_parent_ids": [
+        "T40.11"
+      ],
+      "basis": "ID/alias exact al rândului auxiliar, titlu compatibil și părinte T40; unitatea P01 este deja inclusă.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T52.1",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/30/copii/0",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T52-M2",
+      "source_state": "implementare",
+      "canonical_or_parent_ids": [
+        "T52.01"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T52.2",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/30/copii/1",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T52-T",
+      "source_state": "test",
+      "canonical_or_parent_ids": [
+        "T52"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T52.3",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/30/copii/2",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T52-M5",
+      "source_state": "implementare",
+      "canonical_or_parent_ids": [
+        "T52"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T52.4",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/30/copii/3",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T52-M5-Thor",
+      "source_state": "blocat",
+      "canonical_or_parent_ids": [
+        "T52"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T52.5",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/30/copii/4",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T52-AU",
+      "source_state": "neînceput",
+      "canonical_or_parent_ids": [
+        "T52"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T53.1",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/31/copii/0",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T53-G3",
+      "source_state": "audit",
+      "canonical_or_parent_ids": [
+        "T53.01"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T53.2",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/31/copii/1",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T53-G6b",
+      "source_state": "implementare",
+      "canonical_or_parent_ids": [
+        "T53.02"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T53.3",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/31/copii/2",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T53-SL-L2",
+      "source_state": "implementare",
+      "canonical_or_parent_ids": [
+        "T53.03"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T53.4",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/31/copii/3",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T53-T",
+      "source_state": "test",
+      "canonical_or_parent_ids": [
+        "T53"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "T53.5",
+      "source": "00_STATUS_RAMASE.json",
+      "pointer": "/ramase/31/copii/4",
+      "group": "P11_IN_AFARA_P01",
+      "source_ref": "T53-AU",
+      "source_state": "neînceput",
+      "canonical_or_parent_ids": [
+        "T53"
+      ],
+      "basis": "Parent source P11. Aliasul exact, când există, păstrează subtaskul; în lipsă se notează doar părintele P11, nu se inventează un ID de subtask.",
+      "additional_completed_P01_units": 0
+    },
+    {
+      "row": "A",
+      "source": "00_STATUS_FINALIZATE.json",
+      "pointer": "/finalizate/307",
+      "group": "ANTET_ISTORIC",
+      "source_ref": "",
+      "source_state": "închis",
+      "canonical_or_parent_ids": [
+        "T85",
+        "T86",
+        "T89",
+        "T91",
+        "T94",
+        "T100",
+        "T102",
+        "T102.01",
+        "T102.02",
+        "T102.03",
+        "T102.04",
+        "T102.05",
+        "T102.06",
+        "T102.07",
+        "T102.08",
+        "T102.09",
+        "T105",
+        "T106",
+        "T107",
+        "T108",
+        "T110",
+        "T111",
+        "T112",
+        "T113",
+        "T114",
+        "T116",
+        "T117",
+        "T118",
+        "T119",
+        "T123",
+        "T124",
+        "T115",
+        "T120",
+        "T109",
+        "T104.01",
+        "T101",
+        "T104",
+        "T98",
+        "T93",
+        "T99",
+        "T97",
+        "T95",
+        "T87",
+        "T90",
+        "T92",
+        "T84"
+      ],
+      "basis": "Antet Seria A, fără câmp task; toate cele 46 de referințe ale copiilor rezolvate separat (ID sau alias).",
+      "additional_completed_P01_units": 0
+    }
+  ],
+  "aux_categories": {
+    "COORDONARE_NETERMINATĂ": 1,
+    "SUBRAND_P01_EXISTENT": 7,
+    "P11_IN_AFARA_P01": 10,
+    "ANTET_ISTORIC": 1
+  },
+  "aux_additional_completed": 0,
+  "symmetric_difference_vs_parent_individual_ids": [],
+  "T229_explanation": "Registru P01.C11.T0007=plan, 1% și reactivat prin ordin 31.10; pe finalizate anulare istorică, pe rămase în lucru. Fișă individuală pentru contradicție. Nici finalizat operațional, nici dovadă a unei implementări funcționale.",
+  "independent_consistency_checks": {
+    "project_filter": "proiect == P01; nu titlu sau capitol presupus",
+    "chapters_declared": 20,
+    "chapters_with_P01_tasks": 16,
+    "rows_agree_with_task_ids": true,
+    "cohort_size_agrees": true,
+    "task_chapter_and_canonical_sources_checked_for_all": true,
+    "aux_nodes_have_zero_increment": true,
+    "count_missing_closure_time_in_cohort": 244,
+    "aggregate_edge_missing_terminal": 0,
+    "aggregate_cycle": 0
+  },
+  "limitations": [
+    "Fișierele montate în serviciu sunt surse de stare declarată la cutoff; nu sunt teste de implementare/deploy.",
+    "Mai multe date sunt surse istorice reconstituite sau aproximări; ora de editare nu înlocuiește ora de închidere.",
+    "Absența unui cod canonic nu exclude un rând. Captura live diferă de copia Git pentru patru fișiere; aceste diferențe sunt păstrate."
+  ],
+  "next": "După 10/10 plan: câte o fișă pentru fiecare dintre cele 651 identități; restul 42 urmărite ca dependențe/delta, apoi recitirea inventarului la închidere."
+}

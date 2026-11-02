@@ -1,0 +1,23 @@
+{
+  "id": "01a18da7-f7b8-7450-9ad3-568a979faa3f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1793377957,
+  "updated_at": 1793381715,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a18d9c-c05e-79a1-9aac-32c6da9966e5\",\"depth\":1,\"agent_path\":\"/root/hearing_research\",\"agent_nickname\":\"Meitner\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1208102,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 27,
+  "message_count": 3,
+  "content_sha256": "3074dcb20a84e7235e085daed38be41270967e0ae947cb48f40cfbd7be07d4fc",
+  "files_copied": 0,
+  "references_not_copied": 54
+}

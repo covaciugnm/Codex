@@ -1,0 +1,23 @@
+{
+  "id": "01a18c18-804e-7a63-8ef2-821d05dcf217",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1793351778,
+  "updated_at": 1793351892,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește partenerii Alibaba",
+  "project_id": "2daf6940-5c6c-4dd4-9a8b-29112447ad28",
+  "project": "Alibaba",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 761496,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 27,
+  "message_count": 4,
+  "content_sha256": "bf5e63b1455585e99ddde57578743ae75ff4f77e6edd630f9c4550fa7f3e6cf6",
+  "files_copied": 6,
+  "references_not_copied": 2
+}

@@ -1,0 +1,37 @@
+{
+  "local_originals_preserved": true,
+  "masked_files": [
+    {
+      "path": "Salvează conversațiile Alibaba/fisiere/Alibaba-cod-sursa-v3--e9751574.zip",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "Salvează conversațiile Alibaba/fisiere/contacts--d2f6850e.py",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Salvează conversațiile Alibaba/fisiere/test_server--4fc29ab2.py",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "Salvează conversațiile Alibaba/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 3,
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "Salvează conversațiile Alibaba/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 3,
+        "url_userinfo": 1
+      }
+    }
+  ]
+}

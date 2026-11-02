@@ -1,0 +1,30 @@
+DESCARCARE MODELE 3D - EVA
+PORNESTE.ps1: porneste sau reia descarcarea in fereastra curenta.
+OPRESTE.ps1: creeaza fisierul STOP. Pentru reluare, redenumiti manual STOP.
+STARE.ps1: afiseaza statistici si ultimele mesaje.
+
+Modelele sunt salvate in Printables\ID si Thingiverse\ID, cu metadata.json
+(nume, autor, licenta, sursa). Se descarca toate atasamentele oferite de API,
+fara filtrarea extensiei si fara conversii in formate nepublicate de autor.
+Limita minima de spatiu liber: 20 GiB. Interval intre cereri: 2 secunde.
+Progresul se salveaza in progress.sqlite3. Fisierele complete sunt omise la
+reluare; fisierele .part intrerupte se redescarca de la inceput.
+SHA-256 este pastrat in baza de date. Calculatorul si Z: trebuie sa fie accesibile.
+
+THINGIVERSE: API-ul a returnat HTTP 403 / Cloudflare la verificarea initiala.
+Configurati local un token propriu in variabila THINGIVERSE_TOKEN.
+Nu puneti tokenul in acest document sau in conversatie.
+Documentatie: https://www.thingiverse.com/developers/swagger
+Tokenul nu garanteaza eliminarea verificarii Cloudflare. Scriptul opreste
+sursa la 401/403. Integrarea Thingiverse nu a putut fi testata integral.
+
+LIMITE: nu este garantata arhivarea integrala a celor doua site-uri.
+Modelele private, cu plata, sterse si limitele de cautare/paginare restrang
+accesul. API-ul Printables este nedocumentat public si se poate modifica.
+Modelele noi pot schimba ordinea paginilor in cursul descarcarii.
+Erorile sunt salvate si reincercate la repornire. Trei erori consecutive
+opresc sursa. Licentele originale raman aplicabile fisierelor.
+
+Optiuni: --site all|printables|thingiverse --max-models N --min-free-gb 20
+--delay 2 --status. --max-models 0 inseamna fara limita de modele per rulare.
+Test individual: --site printables --model-id 3161

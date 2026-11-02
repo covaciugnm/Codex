@@ -1,0 +1,23 @@
+{
+  "id": "01a1811a-6404-7bf0-83dc-9c569339ad57",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES",
+  "created_at": 1793167352,
+  "updated_at": 1793375095,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Pregătește e-mail ATV-uri",
+  "project_id": "13771f36-ff54-4018-99b0-f69f8dfdd2f8",
+  "project": "WildMotion",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 3476600,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 82,
+  "message_count": 23,
+  "content_sha256": "ce57603a96221a737428a19ef90e44b5f1f28cc2b22a80cde4d41acbc01a5bd1",
+  "files_copied": 1,
+  "references_not_copied": 1
+}

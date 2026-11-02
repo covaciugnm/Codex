@@ -1,0 +1,149 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_add_owner.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_add_owner--e01865ab.py",
+    "bytes": 3044,
+    "sha256": "ca234b0c1e89224b75c18e6f72a3503937c608841231c5a04a66f12fc1992e39"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_fetch_evidence.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_fetch_evidence--64d79294.py",
+    "bytes": 5516,
+    "sha256": "3f87a27e1cc075e84abf2194d7a17e2b907ebbd102fc094409b1b2b11d68055c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_fetch_variants.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_fetch_variants--ede467d8.py",
+    "bytes": 2918,
+    "sha256": "125e0338108302f2aee1832c0c3158af78fd816566e0281fa1b4d7f3b2bbb995"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_first_pass_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_first_pass_qa--6fb87fc0.py",
+    "bytes": 5261,
+    "sha256": "c8724863a4015078301b5076446d0a7580aa0b1e29e3335d24935e93bfd3497e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_generate_cases.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_generate_cases--1c785632.py",
+    "bytes": 28538,
+    "sha256": "eca9c5a04ed5a30ca6d2b5817ee5932a3101d0297b45394bbb8cda484fbb851f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_metadata.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_metadata--2e869b8e.py",
+    "bytes": 3524,
+    "sha256": "225d1977a3f9b3a5e2dc3da155be6116667e89de6520f8fa407ea78513920dfc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r2_cases.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r2_cases--422e5ca5.py",
+    "bytes": 56053,
+    "sha256": "0025587fa8ec2fa7c350b50b3b98a78d198a46d6dec2f92ea754a6c92d397f1d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r2_plans.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r2_plans--b8e2725f.py",
+    "bytes": 1911,
+    "sha256": "83a6a862cabf405efa2e05efef4afe4cecbef98a8f477712435bd6c00ac78f20"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r2_verify.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r2_verify--d35c4fc4.py",
+    "bytes": 11476,
+    "sha256": "526580aea7bfe937d58b00cd289801f96d5ffa31cc076fa14a0c221e60398d3a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_reconcile_nov02.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_reconcile_nov02--d78c24c0.py",
+    "bytes": 15452,
+    "sha256": "9a2e219ee9168b4d00a41fba24c29d7b6ea643d3a4d3cddfebe9c2caf9040838"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_revise_plan_nov02.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_revise_plan_nov02--a9f1f3bc.py",
+    "bytes": 14648,
+    "sha256": "cc96780410f5b8b0006a7dcc4307f2a2c60c88e17bfa9d34af2fb530f1c12b77"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_sql_t227.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_sql_t227--8dfee024.py",
+    "bytes": 3561,
+    "sha256": "62329f66f90725f0eee0f7eb21c41ba3dd93880a6c19b9de404a2155fa7105e2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_update_r2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_update_r2--17faf896.py",
+    "bytes": 3461,
+    "sha256": "1be356998cd734c0c87ca68e4dddcc05e846df71ef4b0f6abeefb1251f8ddebf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_a12_plan_taskuri.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_a12_plan_taskuri--2190c50d.py",
+    "bytes": 33535,
+    "sha256": "5c8b3c941dbeb43721fcf8ec74a7b22adb863b4010e906dadf7a0864ab94531a"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A12_index_taskuri.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_index_taskuri--dfeddc5f.json",
+    "bytes": 3787289,
+    "sha256": "b85857163b2dc5a3dfb7b7ee04a711ff3867d6af09e408840a922968bb579349"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A12_plan_taskuri.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_plan_taskuri--164d933c.json",
+    "bytes": 165661,
+    "sha256": "1226f9a4e61b0dd8348ca3dcf03df6bfa7537d6fbf9f6e9c6db64dfc3894fb00"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A12_reconciliere_P01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_reconciliere_P01--0a1eafa1.json",
+    "bytes": 14262,
+    "sha256": "f7faeb780423d19a81a2bf2305349540a58cc6ef9f0ef1feb90bdbb799e9e957"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A12_prima_trecere.html",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_prima_trecere--3c826a3b.html",
+    "bytes": 139789,
+    "sha256": "9b8c74ba31395f0502aa9cbed42a7dcb0a1417e73de466b844009b29050242d8"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A12_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_raport--62eeaa7c.json",
+    "bytes": 307329,
+    "sha256": "398506aa85ffe7d2d46af9bb7f802212f9922dadf3e812dea14bf8288e2e80ca"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R2/Audit_individual_P01_R2.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R2--9d8b7d00.html",
+    "bytes": 128823,
+    "sha256": "9de4bda46667cd9fdf3679109a03730a16575175ac40bfdb35ed14854ebe4935"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\A12_plan_taskuri.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_plan_taskuri--164d933c.json",
+    "bytes": 165661,
+    "sha256": "1226f9a4e61b0dd8348ca3dcf03df6bfa7537d6fbf9f6e9c6db64dfc3894fb00"
+  }
+]

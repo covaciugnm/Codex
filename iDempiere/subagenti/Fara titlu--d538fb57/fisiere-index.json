@@ -1,0 +1,23 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A07_plan.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A07_plan--4106699f.json",
+    "bytes": 79346,
+    "sha256": "8509be814b660849e239f42e0b7b2c7b9f7b0b42b58bb0760ee57cd8050b48f2"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A07/REPRODUCERE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REPRODUCERE--98b1077f.md",
+    "bytes": 3451,
+    "sha256": "4d0c4e32f1c766c6d323a66db5f8341f06c3e09a539a13623591ff042b85a4f5"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A07_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A07_raport--0154e645.json",
+    "bytes": 49444,
+    "sha256": "4d7ef81968dd14e44803da5f252facc278fa20aedbc8e11a2018eb5ac834dff6"
+  }
+]

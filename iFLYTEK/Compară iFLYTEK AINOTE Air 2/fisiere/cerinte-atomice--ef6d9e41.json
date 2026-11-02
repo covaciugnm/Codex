@@ -1,0 +1,1059 @@
+[
+  {
+    "id": "S01.01",
+    "requestId": "S01",
+    "requirement": "Performanța Air 2",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Documentație oficială; fără benchmark",
+    "acceptance": "Specifică scenariile potrivite și limitele; separă specificațiile de măsurători.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S01",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18d84-7c2d-79f1-90fc-3ea719a9b3aa",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4bdadc57081918d555084f4d3bfe2"
+      ]
+    },
+    "contextArtifacts": [
+      "../Biblioteca_Glasses/Cercetare/ainote-note-api.md",
+      "../Cercetare_SDK_2026-10-30/Raport_SDK.txt",
+      "imbunatatire-raspunsuri/dovada-air2-google-play-apk.txt"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S01.02",
+    "requestId": "S01",
+    "requirement": "Competiția",
+    "assessment": "partial",
+    "evidenceLevel": "Comparație documentară",
+    "acceptance": "Aceleași criterii pentru fiecare candidat; dimensiune, funcții, română și cost cunoscut/necunoscut. Comparația include instalarea APK și Google Play documentate pentru Air 2 UK, cu limită regională/de firmware.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S01",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18d84-7c2d-79f1-90fc-3ea719a9b3aa",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4bdadc57081918d555084f4d3bfe2"
+      ]
+    },
+    "contextArtifacts": [
+      "../Biblioteca_Glasses/Cercetare/ainote-note-api.md",
+      "../Cercetare_SDK_2026-10-30/Raport_SDK.txt",
+      "imbunatatire-raspunsuri/dovada-air2-google-play-apk.txt"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S01.03",
+    "requestId": "S01",
+    "requirement": "Cuplarea Air 2–ochelari",
+    "assessment": "limita_explicitata",
+    "evidenceLevel": "Nicio demonstrație directă",
+    "acceptance": "Procedură verificată pentru modelele exacte sau lipsa acestei dovezi declarată.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S01",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18d84-7c2d-79f1-90fc-3ea719a9b3aa",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4bdadc57081918d555084f4d3bfe2"
+      ]
+    },
+    "contextArtifacts": [
+      "../Biblioteca_Glasses/Cercetare/ainote-note-api.md",
+      "../Cercetare_SDK_2026-10-30/Raport_SDK.txt",
+      "imbunatatire-raspunsuri/dovada-air2-google-play-apk.txt"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S02.01",
+    "requestId": "S02",
+    "requirement": "Wi-Fi pe dispozitivele comparate",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Specificații citate",
+    "acceptance": "Da/nu pe model, separat de schimbul de date între aplicații.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S02",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18d86-346a-7c00-814a-03ef13341226",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4be028e808191a8f137f33af128c0"
+      ]
+    },
+    "contextArtifacts": [],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S03.01",
+    "requestId": "S03",
+    "requirement": "Prezența și rolul Wi-Fi al ochelarilor",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Politica oficială și traseul APK",
+    "acceptance": "Precizează transfer media și limitele cunoașterii accesului autonom.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S03",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18d86-d171-7d70-89b6-8700a0cddba5",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4be2f209c819197e34c2d6fb7d2a7"
+      ]
+    },
+    "contextArtifacts": [
+      "../../Ochelari/Politica_aplicatie_oficiala.html",
+      "protocol-comunicare/INDEX.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S04.01",
+    "requestId": "S04",
+    "requirement": "Căutarea în documentele salvate",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Document local identificat",
+    "acceptance": "Legătură la document și secțiunea relevantă.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S04",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dbf-751b-7a62-ac5b-ed8f7f91fd98",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4ccc8d85c8191ae2686dfe632a845"
+      ]
+    },
+    "contextArtifacts": [
+      "../../Ochelari/Politica_aplicatie_oficiala.html",
+      "../../INDEX.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S04.02",
+    "requestId": "S04",
+    "requirement": "Verificarea paginii locale",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Pagina locală inspectată",
+    "acceptance": "Precizează ce produse și funcții acoperă arhiva.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S04",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dbf-751b-7a62-ac5b-ed8f7f91fd98",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4ccc8d85c8191ae2686dfe632a845"
+      ]
+    },
+    "contextArtifacts": [
+      "../../Ochelari/Politica_aplicatie_oficiala.html",
+      "../../INDEX.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S05.01",
+    "requestId": "S05",
+    "requirement": "Identificarea și clasificarea SDK/API relevante",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Surse și arhive cercetate",
+    "acceptance": "Separă accesul la hardware de API AI, API desktop și proiecte pentru alte mărci.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S05",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dc1-0404-7573-9bf9-651f0f973ba7",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4cdf03bc48191adc7c36cba21add8"
+      ]
+    },
+    "contextArtifacts": [
+      "../Cercetare_SDK_2026-10-30/Raport_SDK.txt",
+      "../Biblioteca_Glasses/INDEX.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S05.02",
+    "requestId": "S05",
+    "requirement": "Detalierea interfețelor și accesului",
+    "assessment": "partial",
+    "evidenceLevel": "Documentație; integrare netestată",
+    "acceptance": "Pachet/versiune, licență, platformă, API și exemplu compilabil pentru fiecare resursă relevantă.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S05",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dc1-0404-7573-9bf9-651f0f973ba7",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4cdf03bc48191adc7c36cba21add8"
+      ]
+    },
+    "contextArtifacts": [
+      "../Cercetare_SDK_2026-10-30/Raport_SDK.txt",
+      "../Biblioteca_Glasses/INDEX.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S06.01",
+    "requestId": "S06",
+    "requirement": "Posibilitatea conectării la căști",
+    "assessment": "limita_explicitata",
+    "evidenceLevel": "Configurație propusă",
+    "acceptance": "Separă conectarea radio de captură/redare simultană demonstrată.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S06",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dc4-c531-7650-ab52-b448f0d055bc",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4ce19302c819198ed94330b218106"
+      ]
+    },
+    "contextArtifacts": [
+      "../SDK_Experimental/README.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S06.02",
+    "requestId": "S06",
+    "requirement": "Plaja de frecvențe și compensare auditivă",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Explicație și surse medicale generale",
+    "acceptance": "Definește banda audio, câștigul, compresia și reglajul individual fără prescripție generică.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S06",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dc4-c531-7650-ab52-b448f0d055bc",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4ce19302c819198ed94330b218106"
+      ]
+    },
+    "contextArtifacts": [
+      "../SDK_Experimental/README.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S07.01",
+    "requestId": "S07",
+    "requirement": "Fezabilitatea procesării pe benzi",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Concept de inginerie",
+    "acceptance": "Descrie filtrarea, compresia și limitele fără a promite recuperarea auzului.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S07",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dc9-5a68-7ee3-9e99-a4c2f2e13bfb",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4cf3a738c81918e65dd599ee1c418"
+      ]
+    },
+    "contextArtifacts": [
+      "../SDK_Experimental/README.html",
+      "protocol-comunicare/INDEX.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S07.02",
+    "requestId": "S07",
+    "requirement": "Fezabilitatea reconstrucției STT/TTS",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Concept de inginerie",
+    "acceptance": "Separă vocea sintetizată, spectrul, erorile STT și latența.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S07",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dc9-5a68-7ee3-9e99-a4c2f2e13bfb",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4cf3a738c81918e65dd599ee1c418"
+      ]
+    },
+    "contextArtifacts": [
+      "../SDK_Experimental/README.html",
+      "protocol-comunicare/INDEX.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S07.03",
+    "requestId": "S07",
+    "requirement": "Folosirea microfonului ochelarilor",
+    "assessment": "limita_explicitata",
+    "evidenceLevel": "Acces extern încă netestat",
+    "acceptance": "Identifică traseul necesar și dovada care ar confirma accesul autonom.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S07",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dc9-5a68-7ee3-9e99-a4c2f2e13bfb",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4cf3a738c81918e65dd599ee1c418"
+      ]
+    },
+    "contextArtifacts": [
+      "../SDK_Experimental/README.html",
+      "protocol-comunicare/INDEX.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S08.01",
+    "requestId": "S08",
+    "requirement": "Căutare în surse publice și distribuții",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Căutare delimitată la sursele accesibile",
+    "acceptance": "Înregistrează unde s-a căutat; nu afirmă absență universală.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S08",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dcd-3712-7352-99cc-62e9cb49143d",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d0f77c448191843a36d9125c79cb"
+      ]
+    },
+    "contextArtifacts": [
+      "../Cercetare_SDK_2026-10-30/Raport_Bluetooth_extins.txt",
+      "documentatie/FUNCTIONALITATI.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S08.02",
+    "requestId": "S08",
+    "requirement": "Dovada componentei Bluetooth specifice",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "APK și document oficial",
+    "acceptance": "Pachet/clase și delimitarea public versus intern.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S08",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dcd-3712-7352-99cc-62e9cb49143d",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d0f77c448191843a36d9125c79cb"
+      ]
+    },
+    "contextArtifacts": [
+      "../Cercetare_SDK_2026-10-30/Raport_Bluetooth_extins.txt",
+      "documentatie/FUNCTIONALITATI.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S09.01",
+    "requestId": "S09",
+    "requirement": "Descărcarea aplicațiilor și documentațiilor identificate",
+    "assessment": "partial",
+    "evidenceLevel": "41 fișiere și excepții declarate",
+    "acceptance": "Fiecare resursă identificată are fișier valid sau motiv explicit al neobținerii.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S09",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dd0-6c91-77c2-a2f3-ba9ce03029fe",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d221d79481918bf93559e98a1d3c"
+      ]
+    },
+    "contextArtifacts": [
+      "../Biblioteca_Glasses/INDEX.html",
+      "../Biblioteca_Glasses/manifest-complet.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S09.02",
+    "requestId": "S09",
+    "requirement": "Organizarea în foldere",
+    "assessment": "livrat",
+    "evidenceLevel": "Artefacte locale",
+    "acceptance": "Localizare predictibilă și proveniență.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S09",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dd0-6c91-77c2-a2f3-ba9ce03029fe",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d221d79481918bf93559e98a1d3c"
+      ]
+    },
+    "contextArtifacts": [
+      "../Biblioteca_Glasses/INDEX.html",
+      "../Biblioteca_Glasses/manifest-complet.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S09.03",
+    "requestId": "S09",
+    "requirement": "Catalog HTML utilizabil",
+    "assessment": "livrat",
+    "evidenceLevel": "Pagini și linkuri locale",
+    "acceptance": "Navigare și căutare funcționale, excepții vizibile.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S09",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dd0-6c91-77c2-a2f3-ba9ce03029fe",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d221d79481918bf93559e98a1d3c"
+      ]
+    },
+    "contextArtifacts": [
+      "../Biblioteca_Glasses/INDEX.html",
+      "../Biblioteca_Glasses/manifest-complet.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S10.01",
+    "requestId": "S10",
+    "requirement": "Extragerea componentelor APK",
+    "assessment": "livrat",
+    "evidenceLevel": "DEX/Java/Smali/binare",
+    "acceptance": "Identitate APK și fișiere extrase verificabile.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S10",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dd4-dfc8-73b0-b6c7-30b17ce990e4",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d3f7e4948191aa82761082d3e37c"
+      ]
+    },
+    "contextArtifacts": [
+      "../SDK_Experimental/INDEX.html",
+      "../SDK_Experimental/README.html",
+      "../SDK_Experimental/validation.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S10.02",
+    "requestId": "S10",
+    "requirement": "Crearea SDK-ului reutilizabil",
+    "assessment": "partial",
+    "evidenceLevel": "JAR compilat/testat offline",
+    "acceptance": "Precizează funcțiile implementate și dependențele; autonomie verificată numai după test.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S10",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dd4-dfc8-73b0-b6c7-30b17ce990e4",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d3f7e4948191aa82761082d3e37c"
+      ]
+    },
+    "contextArtifacts": [
+      "../SDK_Experimental/INDEX.html",
+      "../SDK_Experimental/README.html",
+      "../SDK_Experimental/validation.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S10.03",
+    "requestId": "S10",
+    "requirement": "Identificarea limbajelor",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Metadate și simboluri",
+    "acceptance": "Nu echivalează Java decompilat cu limbajul original sau simbolurile C++ cu toate sursele.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S10",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18dd4-dfc8-73b0-b6c7-30b17ce990e4",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d3f7e4948191aa82761082d3e37c"
+      ]
+    },
+    "contextArtifacts": [
+      "../SDK_Experimental/INDEX.html",
+      "../SDK_Experimental/README.html",
+      "../SDK_Experimental/validation.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S11.01",
+    "requestId": "S11",
+    "requirement": "Extragerea integrală a fișierelor APK",
+    "assessment": "livrat",
+    "evidenceLevel": "Inventar și amprente",
+    "acceptance": "Toate intrările fișier ale APK-ului sunt inventariate și verificabile.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S11",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18ddc-13b3-7b01-8efc-6b989742c92f",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d719a20c819186efe9bdbc2ad533"
+      ]
+    },
+    "contextArtifacts": [
+      "INDEX.html",
+      "inventar/summary.json",
+      "documentatie/summary.json",
+      "documentatie/LECTURA_DOCUMENTATIE.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S11.02",
+    "requestId": "S11",
+    "requirement": "Inventarul claselor/metodelor/câmpurilor",
+    "assessment": "livrat",
+    "evidenceLevel": "DEX structural",
+    "acceptance": "Numere definite prin structurile DEX, cu dependențele incluse explicit.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S11",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18ddc-13b3-7b01-8efc-6b989742c92f",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d719a20c819186efe9bdbc2ad533"
+      ]
+    },
+    "contextArtifacts": [
+      "INDEX.html",
+      "inventar/summary.json",
+      "documentatie/summary.json",
+      "documentatie/LECTURA_DOCUMENTATIE.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S11.03",
+    "requestId": "S11",
+    "requirement": "Toate funcționalitățile și semantica reutilizabilă",
+    "assessment": "partial",
+    "evidenceLevel": "Analiză statică selectivă",
+    "acceptance": "Domeniu semantic explicit și coadă verificabilă a zonelor rămase.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S11",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18ddc-13b3-7b01-8efc-6b989742c92f",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d719a20c819186efe9bdbc2ad533"
+      ]
+    },
+    "contextArtifacts": [
+      "INDEX.html",
+      "inventar/summary.json",
+      "documentatie/summary.json",
+      "documentatie/LECTURA_DOCUMENTATIE.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S11.04",
+    "requestId": "S11",
+    "requirement": "Reconstituire într-un folder separat",
+    "assessment": "livrat",
+    "evidenceLevel": "Surse decompilate și dovezi",
+    "acceptance": "Nu pretinde surse originale sau aplicație recompilabilă integral.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S11",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18ddc-13b3-7b01-8efc-6b989742c92f",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d719a20c819186efe9bdbc2ad533"
+      ]
+    },
+    "contextArtifacts": [
+      "INDEX.html",
+      "inventar/summary.json",
+      "documentatie/summary.json",
+      "documentatie/LECTURA_DOCUMENTATIE.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S11.05",
+    "requestId": "S11",
+    "requirement": "Citirea tuturor documentațiilor disponibile",
+    "assessment": "partial",
+    "evidenceLevel": "Corpus extras; lectură necuantificată integral",
+    "acceptance": "Separă extragerea automată de revizia umană/semantică și păstrează sursa.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S11",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18ddc-13b3-7b01-8efc-6b989742c92f",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d719a20c819186efe9bdbc2ad533"
+      ]
+    },
+    "contextArtifacts": [
+      "INDEX.html",
+      "inventar/summary.json",
+      "documentatie/summary.json",
+      "documentatie/LECTURA_DOCUMENTATIE.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S12.01",
+    "requestId": "S12",
+    "requirement": "Pipeline STT și traducere",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Cod client și documentație",
+    "acceptance": "Descrie online/offline, transportul și rezultatele fără a inventa arhitectura internă a serverului.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S12",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18de8-5274-7b31-88f5-6c0c8bc1e55f",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d747a6ec81918fc02737529856f0"
+      ]
+    },
+    "contextArtifacts": [
+      "protocol-comunicare/INDEX.html",
+      "documentatie/FUNCTIONALITATI.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S12.02",
+    "requestId": "S12",
+    "requirement": "Identitatea modelului LLM",
+    "assessment": "limita_explicitata",
+    "evidenceLevel": "Identitate exactă neconfirmată",
+    "acceptance": "Nume/versiune numai din configurație sau documentație aplicabilă; altfel necunoscut explicit.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S12",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18de8-5274-7b31-88f5-6c0c8bc1e55f",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4d747a6ec81918fc02737529856f0"
+      ]
+    },
+    "contextArtifacts": [
+      "protocol-comunicare/INDEX.html",
+      "documentatie/FUNCTIONALITATI.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S13.01",
+    "requestId": "S13",
+    "requirement": "Formatul pachetelor",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Implementare APK și fixture offline",
+    "acceptance": "Offsets, lungimi, endian și checksum; sursă și variantă.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S13",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e22-a14c-75b2-934d-226dca787847",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4e79e71fc8191a97f3463e64370b9"
+      ]
+    },
+    "contextArtifacts": [
+      "protocol-comunicare/INDEX.html",
+      "catalog-parametri-functii/FUNCTII.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S13.02",
+    "requestId": "S13",
+    "requirement": "API de comenzi și răspunsuri",
+    "assessment": "partial",
+    "evidenceLevel": "Constructori/parseri analizați",
+    "acceptance": "Parametri, stări, evenimente și erori per profil; necunoscutele separate.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S13",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e22-a14c-75b2-934d-226dca787847",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4e79e71fc8191a97f3463e64370b9"
+      ]
+    },
+    "contextArtifacts": [
+      "protocol-comunicare/INDEX.html",
+      "catalog-parametri-functii/FUNCTII.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S13.03",
+    "requestId": "S13",
+    "requirement": "Chei și autentificare",
+    "assessment": "limita_explicitata",
+    "evidenceLevel": "Roluri și trasee parțiale",
+    "acceptance": "Nu inventează secret universal sau algoritm X-sign; marchează originea valorilor.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S13",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e22-a14c-75b2-934d-226dca787847",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4e79e71fc8191a97f3463e64370b9"
+      ]
+    },
+    "contextArtifacts": [
+      "protocol-comunicare/INDEX.html",
+      "catalog-parametri-functii/FUNCTII.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S14.01",
+    "requestId": "S14",
+    "requirement": "Unde poate rula software propriu",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Android confirmat; ochelari neconfirmat",
+    "acceptance": "Separă instalarea pe telefon de OTA și aplicații locale pe ochelari.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S14",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e29-2e8e-7882-b9c4-a408c69bebd2",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4e7df17e48191ac439cf7636230f7"
+      ]
+    },
+    "contextArtifacts": [
+      "protocol-comunicare/INDEX.html",
+      "firmware-analiza/INDEX.html",
+      "../../Ochelari/Politica_aplicatie_oficiala.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S14.02",
+    "requestId": "S14",
+    "requirement": "Traseul traducerii și comunicării",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Politică oficială și cod",
+    "acceptance": "Online/cloud și offline/telefon explicate cu limitarea limbilor.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S14",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e29-2e8e-7882-b9c4-a408c69bebd2",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4e7df17e48191ac439cf7636230f7"
+      ]
+    },
+    "contextArtifacts": [
+      "protocol-comunicare/INDEX.html",
+      "firmware-analiza/INDEX.html",
+      "../../Ochelari/Politica_aplicatie_oficiala.html"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S15.01",
+    "requestId": "S15",
+    "requirement": "Dicționar de parametri, tipuri, valori și formate",
+    "assessment": "partial",
+    "evidenceLevel": "2900 fișe; limite explicite",
+    "acceptance": "Fiecare intrare are context, format, dovezi și statut al domeniului; necunoscutele nu sunt inventate.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S15",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e29-e965-7252-b3d6-35e96c73f54c",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4eb54abec8191b764148a3fd43b86"
+      ]
+    },
+    "contextArtifacts": [
+      "catalog-parametri-functii/INDEX.html",
+      "catalog-parametri-functii/validare.json",
+      "audit-calitate/runda-2/audit.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S15.02",
+    "requestId": "S15",
+    "requirement": "Catalog complet al aspectelor fiecărei funcții",
+    "assessment": "partial",
+    "evidenceLevel": "1107 fișe detaliate și inventar DEX",
+    "acceptance": "Intrări, ieșiri, callbackuri, erori, precondiții și efecte documentate sau marcate neextrase.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S15",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e29-e965-7252-b3d6-35e96c73f54c",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4eb54abec8191b764148a3fd43b86"
+      ]
+    },
+    "contextArtifacts": [
+      "catalog-parametri-functii/INDEX.html",
+      "catalog-parametri-functii/validare.json",
+      "audit-calitate/runda-2/audit.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S16.01",
+    "requestId": "S16",
+    "requirement": "Fezabilitatea decompilării firmware",
+    "assessment": "acoperit_documentar",
+    "evidenceLevel": "Metodă condiționată de imagine",
+    "acceptance": "Explică disassembly/pseudocod și limitele recuperării numelor/surselor.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S16",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e37-4f02-7513-a7e2-5eccfb6640a0",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4ec9e8ab081918ccb7078524f2852"
+      ]
+    },
+    "contextArtifacts": [
+      "firmware-analiza/INDEX.html",
+      "firmware-analiza/audit.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S16.02",
+    "requestId": "S16",
+    "requirement": "Extragerea funcțiilor firmware specifice",
+    "assessment": "limita_explicitata",
+    "evidenceLevel": "0 imagini firmware confirmate",
+    "acceptance": "Nu pretinde funcții extrase fără pachetul specific; pasul de obținere este clar.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S16",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e37-4f02-7513-a7e2-5eccfb6640a0",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4ec9e8ab081918ccb7078524f2852"
+      ]
+    },
+    "contextArtifacts": [
+      "firmware-analiza/INDEX.html",
+      "firmware-analiza/audit.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S17.01",
+    "requestId": "S17",
+    "requirement": "Pornirea auditorului independent",
+    "assessment": "livrat",
+    "evidenceLevel": "Rapoarte independente",
+    "acceptance": "Dovezi, criterii, constatări și limite.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S17",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e3c-6c4f-74d2-b712-655549ca2095",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4ef40b7d08191ada31185f0747ab8"
+      ]
+    },
+    "contextArtifacts": [
+      "audit-calitate/INDEX.html",
+      "audit-calitate/runda-1/audit.json",
+      "audit-calitate/runda-2/audit.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  },
+  {
+    "id": "S17.02",
+    "requestId": "S17",
+    "requirement": "Corectare și reaudit când scorul este sub 10",
+    "assessment": "livrat",
+    "evidenceLevel": "8,2 → 10 în domeniul declarat",
+    "acceptance": "Constatări închise cu probe, fără ajustarea artificială a scorului.",
+    "assessmentBasis": "Evaluare editorială a răspunsului și artefactelor disponibile; nu test hardware.",
+    "origin": "Descompunere analitică a solicitării, nu o nouă promisiune de implementare.",
+    "evidence": [
+      "imbunatatire-raspunsuri/istoric-conversatie.json"
+    ],
+    "answerReference": {
+      "requestId": "S17",
+      "history": "istoric-conversatie.json",
+      "turnId": "01a18e3c-6c4f-74d2-b712-655549ca2095",
+      "finalMessageIds": [
+        "msg_098a02094e21b9f9016ae4ef40b7d08191ada31185f0747ab8"
+      ]
+    },
+    "contextArtifacts": [
+      "audit-calitate/INDEX.html",
+      "audit-calitate/runda-1/audit.json",
+      "audit-calitate/runda-2/audit.json"
+    ],
+    "evidenceRole": "Dovadă editorială: răspunsul istoric analizat. contextArtifacts sunt materiale conexe solicitării, nu dovezi factuale individuale ale acestei subcerințe."
+  }
+]

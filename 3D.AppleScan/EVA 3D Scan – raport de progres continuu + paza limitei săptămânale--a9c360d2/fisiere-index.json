@@ -1,0 +1,61 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5255786e-1775-40a8-bd47-a0c0352edba1/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\subagents\\workflows\\*\\journal.jsonl",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\workflows\\scripts\\*.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\<sesiune>\\subagents\\workflows\\<runId>\\journal.jsonl",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\scheduled-tasks\\eva-raport-progres\\SKILL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SKILL--38f75287.md",
+    "bytes": 4224,
+    "sha256": "57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc"
+  },
+  {
+    "source_reference": "PROGRES_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "RELUARE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "TABLOU.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "orchestrare/",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "progres_server.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "sarcini/SRV-007_b09-worldmodel.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/SRV-008_b12-leases-flota.md",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "01a197fe-c5c7-77d0-a474-51f4b94c9054",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK",
+  "created_at": 1793551418,
+  "updated_at": 1793554925,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a197fe-21c0-7e92-b512-3413b208e137\",\"depth\":1,\"agent_path\":\"/root/auditor_1\",\"agent_nickname\":\"Boyle\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a197fe-21c0-7e92-b512-3413b208e137",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 6184569,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 163,
+  "message_count": 1,
+  "content_sha256": "9e13f2cf40fc672a406aa514010d02d5c41c2f82c7eae821ae9021f0ec81855e",
+  "files_copied": 0,
+  "references_not_copied": 139
+}

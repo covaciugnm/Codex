@@ -1,0 +1,58 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\a03_duk_period.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a03_duk_period--0f39d43d.py",
+    "bytes": 2063,
+    "sha256": "d52cb49e4fad4f6592bb6dcb29a8b795dd58ccd5861d4e4239bf5f9c90e163ee"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a03_exec_runner.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a03_exec_runner--34641ce8.py",
+    "bytes": 12259,
+    "sha256": "aa4fd2bd33bbc5509f5aacb6532aef3c920c859f8ae3e7d3c183c5d47d20ebea"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a03_extra.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a03_extra--0c498314.py",
+    "bytes": 4719,
+    "sha256": "5e6b9f5a48d14058934a2f6e516addef7beab1ae8400e15b9d9b29cca359662b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a03_report.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a03_report--d84e7192.py",
+    "bytes": 37762,
+    "sha256": "c91ad7f27b5f54ccd9396371575de6ab47ca71161ef56b0d8e45525683e43997"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a03_retry.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a03_retry--389e0d69.py",
+    "bytes": 6203,
+    "sha256": "7892cbc250beeeb299bb3ce21bd1eb2befdd0d24f9fd4f8f389e61eda4f09e8f"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\create-a03-plan.js",
+    "status": "copiat",
+    "saved_path": "fisiere/create-a03-plan--ba0e1af9.js",
+    "bytes": 113252,
+    "sha256": "f7de8e1c4631855ee6a969e840d671f50d8229085627a91ffe7ecf62a29f86b1"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A03_plan.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A03_plan--301ba235.json",
+    "bytes": 808096,
+    "sha256": "9c1698348ec2fe3f626e6d9a5b2dd943434975bfef04af60f93ddb37cd6867a1"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A03_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A03_raport--2b5ab292.json",
+    "bytes": 468149,
+    "sha256": "c4e8eb1bc1315c810df3c5499976e780d84594e6237060854c9c0287eedbd6e9"
+  }
+]

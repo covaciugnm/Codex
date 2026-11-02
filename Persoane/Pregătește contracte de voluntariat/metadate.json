@@ -1,0 +1,23 @@
+{
+  "id": "01a191eb-4103-7be2-963c-07f90f177ec3",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Persoane",
+  "created_at": 1793449476,
+  "updated_at": 1793534386,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Pregătește contracte de voluntariat",
+  "project_id": "8da5baa7-c368-4743-8f5b-d573af1d979b",
+  "project": "Persoane",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1824668,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 44,
+  "message_count": 15,
+  "content_sha256": "739958822a75af88faf372de9283fc61f3a5b3f29bd56c28ad00afa4d9dfa67b",
+  "files_copied": 3,
+  "references_not_copied": 2
+}

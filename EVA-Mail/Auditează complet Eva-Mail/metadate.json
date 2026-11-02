@@ -1,0 +1,23 @@
+{
+  "id": "01a18cd1-8b09-7f83-85e9-09f55ea8812c",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail",
+  "created_at": 1793363905,
+  "updated_at": 1793553665,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Auditează complet Eva-Mail",
+  "project_id": "a85004ee-5acd-4f38-b445-2289450e8065",
+  "project": "EVA-Mail",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 4754351,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 188,
+  "message_count": 39,
+  "content_sha256": "c4983d88e5ca39453a4846b864c89b596b1aa0d3db83a836748e1c3d2b60d518",
+  "files_copied": 12,
+  "references_not_copied": 2
+}

@@ -1,0 +1,24 @@
+{
+  "data_lizibila": "2026.10.22",
+  "statut": "DRAFT NETRIMIS",
+  "original_EVA": {
+    "id": "7f948829-b589-4647-a043-3fc4bc0a4e6a",
+    "kind": "reply",
+    "source": "chatgpt",
+    "status": "pending",
+    "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "account_email": "office@ac-wohnart.at",
+    "to": [
+      "rh@woehrparking.at"
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "Re: AW: AW: WG: WG: Wartung und gegebenenfalls Reparatur – WÖHR Parklift 422/2 E 230, Fabrik-Nr. 971105 – Schallergasse 35, 1120 Wien",
+    "body": "Sehr geehrte Frau Helfer,\n\nvielen Dank für Ihre Nachricht. Hiermit bestätige ich, dass der Wartungstermin am 2026.10.27 von 07:00 bis 10:00 Uhr in der Schallergasse 35 stattfinden kann.\n\nMit freundlichen Grüßen\n\nCosmin Adrian Covaciu",
+    "attachments": [],
+    "reply_to_email_id": "7b7f455a-84e0-4a14-a46d-3ba119ae27a9",
+    "created_at": "2026-10-22T10:40:26.179612Z",
+    "updated_at": "2026-10-22T10:40:26.179612Z",
+    "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+  }
+}

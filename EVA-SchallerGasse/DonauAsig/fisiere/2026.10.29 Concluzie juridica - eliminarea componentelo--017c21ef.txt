@@ -1,0 +1,62 @@
+2026.10.29 — DONAU 2044001194: eliminarea și adăugarea componentelor
+Situație analizată: Schallergasse 35; asigurat A&C Wohnart Immobilien GmbH.
+Sinteză juridică bazată pe poliță, condițiile disponibile, corespondența arhivată și surse oficiale austriece. Nu este o confirmare a modificării contractului.
+
+CONCLUZIA DIRECTĂ
+Există temeiuri legale pentru reducerea primei și, în anumite condiții, pentru încetarea unei ramuri. Nu depind toate de acceptarea voluntară a DONAU. Dar legea nu conferă un drept general de a scoate și adăuga oricând componente dintr-un contract valabil pe durată fixă, exclusiv pentru că asiguratul și-a schimbat preferințele.
+Separarea ramurilor, dreptul de încetare și data încetării sunt trei întrebări distincte. O componentă independentă poate rămâne legată de termenul contractual 2036.01.01. Nu am identificat în documentele verificate un drept general de renunțare parțială imediată la simpla cerere.
+
+1. CE ESTE FAVORABIL ÎN CONTRACTUL CONCRET
+Polița emisă la 2026.06.03 separă ramurile, primele și condițiile lor. La p.3 apare Mieten-BU cu primă anuală de 41,72 EUR, iar la p.4 Leitungswasser cu 3.127,72 EUR, sume incluzând taxele indicate în poliță. Acestea sunt primele anuale înscrise în document, nu un calcul de restituire sau o ofertă nouă. Cererea din 2020 folosește denumirea Wohngebäudebündel-Versicherung. Există deci indicii serioase de contracte grupate, cu posibilă existență juridică separată.
+Clauza Paketkündigungsklausel, extensiile RV 29000010498, p.12 PDF / p.15 tipărită, prevede o consecință a încetării unei ramuri de către asigurător asupra întregului pachet, la dorința asiguratului. Nu acordă un drept general al clientului de a elimina imediat orice ramură. Setul RV primit începe la pagina tipărită 4; lipsesc paginile 1–3. O concluzie definitivă despre toate condițiile de separare cere setul complet.
+Nu fiecare extensie sau sublimită dintr-o ramură este, prin aceasta, un contract separat.
+Paketkündigungsklausel menționează și recuperarea avantajului de durată acordat («unter Rückforderung des gewährten Laufzeitvorteiles»). Posibila renunțare la recuperare în cazul vânzării, din pagina tipărită 16, trebuie analizată separat; clauza nu garantează încetarea fără cost.
+Există însă drepturi exprese de încetare pentru acoperirile suplimentare vizate de clauzele 1242K (cutremur, p.15 din condiții) și 3031K (catastrofe de apă, p.25): notificare scrisă, preaviz de o lună, sfârșitul perioadei de asigurare. Nu cer dovada dispariției riscului și nu permit prin ele însele încetarea întregii ramuri de furtună. Întinderea exactă a suplimentului 3031K trebuie păstrată în declarație, fără extinderea automată la toate subriscurile din aceeași clauză. Aceste drepturi nu privesc ramura Leitungswasser ori Mieten-BU. Primele suplimentelor nu sunt defalcate în documentul curent, deci economia nu este determinată.
+
+2. TEMEIURI LEGALE — CE PERMIT ȘI CE NU PERMIT
+A. Încetarea unei ramuri independente (Teilkündigung)
+OGH 7 Ob 92/19h, 2020.02.19, pct.1.1–1.3, distinge contractul combinat indivizibil de pachetul de contracte independente. OGH 7 Ob 208/15m, 2016.07.06, analizează separat drepturile de încetare ale ramurilor. OGH 7 Ob 178/24p, 2024.12.18, pct.4, cere examinarea configurației contractuale concrete.
+Aplicare: dacă există pentru ramura vizată un drept legal sau contractual de încetare și se respectă termenul/preavizul, declarația nu devine valabilă numai după acordul discreționar al asigurătorului. Pentru o asemenea încetare nu trebuie demonstrat că apa ori riscul de pierdere a chiriei au dispărut, dacă temeiul invocat nu cere aceasta. Dar separabilitatea nu creează singură acel drept și nu înlătură durata fixă.
+
+B. Reducerea primei — §41a împreună cu §42 VersVG
+§41a permite solicitarea unei reduceri adecvate pentru perioadele de asigurare viitoare dacă împrejurări determinate care justificau o primă mai mare dispar ori își pierd importanța. Este un drept legal când condițiile sunt dovedite; nu o simplă favoare comercială. §42 împiedică derogarea contractuală în defavoarea asiguratului de la protecția relevantă.
+OGH 7 Ob 53/14s, 2015.02.18, p.17, pct.2.3–2.4, confirmă mecanismul pentru perioada de asigurare următoare. O rată trimestrială nu este automat o perioadă de asigurare distinctă.
+În această poliță, ABS art. 4.1 și scadența anuală indică o perioadă anuală: următoarea începe la 2027.01.01. Efectul mai devreme ar necesita alt temei ori acord; §41a singur nu justifică retroactivarea la 2026.07.01.
+Limita: nu orice percepție că riscul este mai mic și nu simpla lipsă a daunelor justifică reducerea. Trebuie identificate împrejurările tarifare concrete și schimbarea lor. Reducerea primei nu înseamnă automat eliminarea acoperirii. În dosarul nostru, DONAU leagă tariful negociat în 2025 de istoricul daunelor; trebuie cerut ce parte a tarifului este legată de ce împrejurări actuale și cum influențează lucrările acea evaluare.
+
+C. Dispariția interesului asigurat — §68 și §68a VersVG
+Dispariția reală a interesului asigurat poate conduce la încetarea raportului relevant și la limitarea primei. §68 alin.2 raportează calculul la durata până când asigurătorul află despre dispariție. Nu rezultă automat restituirea întregii prime sau o simplă împărțire pe zile; calculul poate depinde de condițiile valabile pentru durata efectivă.
+OGH 7 Ob 211/12y, 2013.03.27, confirmă protecția §68a inclusiv pentru asigurați profesioniști. OGH 7 Ob 22/90, 1990.06.28, arată că interesul nu dispare cât timp evenimentul asigurat încă se poate produce; o schimbare a activității ori a amplasamentului nu este suficientă prin ea însăși.
+Aplicare: faptul că nu mai dorim acoperirea nu este identic cu dispariția interesului. O oprire temporară a apei sau lipsa momentană a chiriașilor nu probează singure dispariția completă.
+Subsidiar, §51 alin.1 VersVG permite cererea de reducere imediată a sumei asigurate și proporțional a primei când suma depășește considerabil valoarea interesului. Pentru chirii trebuie comparată limita cu valoarea definită de clauza 1347K, inclusiv perspectiva celor 12 luni; zero încasări azi nu dovedește singur supraasigurarea. Restituirea părții de primă urmează regula de la sfârșitul perioadei din §51 alin.3. Această cale ajustează suma și costul, fără a echivala automat cu eliminarea acoperirii.
+
+D. Adăugarea ori schimbarea componentelor
+OGH 7 Ob 13/85, 1985.03.28, este direct relevant: solicitarea unui tarif redus împreună cu includerea unei persoane noi a fost tratată ca ofertă de modificare ce necesita acordul asigurătorului. Tăcerea nu a produs, prin ea însăși, modificarea.
+Aplicare: nu am identificat un drept de a impune unilateral DONAU un risc nou și prima acestuia. Dacă avem un drept de încetare pentru o ramură, acesta trebuie exercitat clar, separat de solicitarea unei oferte pentru alte acoperiri. Dacă eliminarea este dorită numai împreună cu acceptarea noului pachet, avem o negociere asupra ansamblului.
+
+3. SUNT ABUZIVE CELE TREI DOCUMENTE CERUTE DE PFEIFFER?
+În mesajul din 2026.07.14, anexat răspunsului din 2026.10.29, Pfeiffer propune eliminarea Leitungswasser și Mieten-BU pe motiv de Risikowegfall. Cere autorizația de construire, descrierea lucrărilor și confirmarea instalatorului că instalațiile sunt închise/securizate. Nu formulează o regulă legală generală pentru toate cazurile de renunțare.
+§§41a și68 nu prescriu această listă de trei documente. Nu am identificat în clauzele citite o cerință universală de a prezenta exact toate aceste acte pentru orice eliminare. Probele relevante pot fi necesare dacă invocăm dispariția ori reducerea riscului; de aceea solicitarea nu poate fi calificată automat drept abuzivă.
+• Confirmarea instalatorului are legătură cu apa. Totuși, AWB art.5, p.59 din condițiile istorice, cere deja închiderea apei după neocupare mai mare de 72 h; îndeplinirea acestei obligații nu demonstrează singură dispariția întregului risc. Polița acoperă și daune la conducte, nu doar apa folosită de ocupanți.
+• Pentru Mieten-BU sunt relevante contractele de închiriere, veniturile asigurate, calendarul real al lucrărilor și perspectiva reluării închirierii. Clauza 1347K, p.17, privește venitul care s-ar fi realizat în perioada relevantă de 12 luni după daună. Certificatul instalatorului nu dovedește singur situația chiriilor.
+• Autorizația și descrierea lucrărilor pot clarifica natura și durata proiectului. Dacă faptul invocat poate fi demonstrat fără autorizație ori prin alt înscris, trebuie cerută justificarea refuzului acelor probe. Nu există aici un precedent identificat care să declare exact această cerere DONAU ilegală.
+Controlul clauzelor dezechilibrate prin §879 alin.3 ABGB presupune identificarea unei prevederi contractuale și a dezavantajului nejustificat; nu transformă orice solicitare de informații într-o clauză nulă. Pentru moment, argumentul puternic este relevanța probelor și respectarea drepturilor din VersVG, nu o acuzație generică de abuz.
+
+4. PUNCTUL DE VEDERE ȘI PASUL URMĂTOR
+Trebuie cerut DONAU un răspuns separat pentru apă și Mieten-BU:
+1) Contract distinct sau componentă indivizibilă? Clauza exactă, termenul și orice drept de încetare anticipată aplicabil.
+2) Pentru §41a: ce împrejurări justifică prima actuală, ce s-a schimbat, ce reducere rezultă și de când; inclusiv începutul următoarei perioade de asigurare.
+3) Pentru §68: ce interes asigurat consideră că mai există concret, ce fapt trebuie dovedit și de ce este necesar fiecare document; ce probe echivalente acceptă separat pentru apă și chirii.
+4) Pe baza propunerii Pfeiffer din 2026.07.14: data posibilă a excluderii, calculul primei și eventualul sold de restituit/compensat, cu explicația eventualelor reduceri de durată recuperate. Cererea anterioară de efect de la 2026.07.01 trebuie analizată expres; nu este deja acceptată.
+5) Pentru acoperirile noi: ofertă distinctă, cu durată, primă și data începerii, precizând că solicitarea nu autorizează o nouă durată de zece ani pentru ramurile păstrate.
+6) Dacă se dorește eliminarea suplimentelor 1242K/3031K, exercitarea dreptului propriu trebuie făcută în timp util pentru 2027.01.01, cu identificarea exactă a acoperirii și confirmarea datei. Această analiză nu ține locul notificării de încetare.
+Până la identificarea unui temei de încetare valabil sau a unei modificări convenite, cele două prime nu se tratează ca deja eliminate. În schimb, existența termenului 2036 nu răspunde singură unei cereri întemeiate de reducere a primei ori de constatare a dispariției interesului.
+
+SURSE ȘI TRASABILITATE
+Polița: 814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf, p.3–4; capturi în Surse.
+Condiții istorice: dosarul 2026.10.14 Analiza juridica Donau/Surse; paginile relevante și verificările sunt în notele colaboratorilor.
+Email: dosarul 2026.10.29 Raspuns Donau; Eva-Mail ID 8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7; anexele Memoformat.pdf și Deckungserweiterungen_RV29000010498.pdf. Statut primit; nu s-a expediat o nouă cerere în această analiză.
+Lege consolidată: https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979
+§41a: https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460
+Explicație oficială FMA: https://www.fma.gv.at/glossar/kombinierte-versicherung-verbundene-versicherung/
+Precedentele integrale, URL-urile, hashurile și datele preluării sunt în Surse și Surse audit, în registrele JSON datate 2026.10.29. Interpretările și limitele fiecărei spețe sunt dezvoltate în cele trei note din acest dosar.

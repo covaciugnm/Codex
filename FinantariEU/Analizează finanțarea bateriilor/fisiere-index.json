@@ -12,66 +12,39 @@
   },
   {
     "source_reference": "C:\\Windows\\Temp\\BCR_bonitate_cerere_QA.png",
-    "status": "copiat",
-    "saved_path": "fisiere/BCR_bonitate_cerere_QA--ce7c1bed.png",
-    "bytes": 127200,
-    "sha256": "fb794fd90d4ab7810439609e1e6985e71cbab697cff4cde1a2e153bbcecdd030"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Temp\\FMST_QA_fonduri_proprii_p45.png",
-    "status": "copiat",
-    "saved_path": "fisiere/FMST_QA_fonduri_proprii_p45--f473dd4f.png",
-    "bytes": 246014,
-    "sha256": "a9ec0e18145ccb4acf7cb445254feb3482ddb1ec79e68ab6171a0e1553f53621"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Temp\\FMST_clarificari_p86.png",
-    "status": "copiat",
-    "saved_path": "fisiere/FMST_clarificari_p86--927d7c23.png",
-    "bytes": 177285,
-    "sha256": "88e8d8f63445f5c99ea78625a3ad5ce6e51708247cf69e2857953b96b26bc5cc"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Temp\\FMST_clarificari_p9.png",
-    "status": "copiat",
-    "saved_path": "fisiere/FMST_clarificari_p9--89eb05d3.png",
-    "bytes": 206774,
-    "sha256": "ce76e89e8afdeda70d61e9373346168250e8ec562905e0204ab80e977c6c56e3"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Temp\\FMST_clarificari_p92.png",
-    "status": "copiat",
-    "saved_path": "fisiere/FMST_clarificari_p92--85290b3c.png",
-    "bytes": 150395,
-    "sha256": "0573150a48dfa44afb5ffb0f7caaf970fb6670d4794f40a948100c33a1d6c14c"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Temp\\FMST_model_confort_p23.png",
-    "status": "copiat",
-    "saved_path": "fisiere/FMST_model_confort_p23--1b888277.png",
-    "bytes": 193219,
-    "sha256": "0873ba740d8fff9a8af729950b8ebd670a0d8de36963beeb9145fa0fe4b4f5be"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Temp\\KSTAR_oferta_finala_20261013.png",
-    "status": "copiat",
-    "saved_path": "fisiere/KSTAR_oferta_finala_20261013--8946eb69.png",
-    "bytes": 222452,
-    "sha256": "64b767c0c3f81095b428c821331ace1386e9393f725acecd01c6df7bba4fe5d6"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Temp\\KSTAR_tehnic_1.png",
-    "status": "copiat",
-    "saved_path": "fisiere/KSTAR_tehnic_1--525173b4.png",
-    "bytes": 280117,
-    "sha256": "6f28fce3b0af40c177f7a9ea12e5b2073cfe654ae3f26acb3b67bea2b2a8e7a9"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Windows\\Temp\\KSTAR_tehnic_2.png",
-    "status": "copiat",
-    "saved_path": "fisiere/KSTAR_tehnic_2--49ba373d.png",
-    "bytes": 121557,
-    "sha256": "9d07bf20dea8016e5b5860d239bc4ee981f97f6e2bf8fd36c135aed77b2c7fcd"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/0.1. Fise Tehnice/KStar/Oferta Finala KSTR-PI-A20260327-02.pdf",

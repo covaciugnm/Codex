@@ -1,0 +1,77 @@
+[
+  {
+    "source_reference": "2026-10-07_0038_SERVER_CATRE_IOS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0047_SERVER_CATRE_IOS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0412_SERVER_CATRE_IOS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0416_SERVER_CATRE_IOS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0420_SERVER_CATRE_IOS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0430_IOS_CATRE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0440_IOS_CATRE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0520_IOS_CATRE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0520_SERVER_CATRE_IOS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\scheduled-tasks\\eva-coordonare-mac\\SKILL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SKILL--d1126e90.md",
+    "bytes": 5497,
+    "sha256": "6a30171258f1a21c9ff4de11a3dd978832647ff353b007818b8112d6cc60d3a1"
+  },
+  {
+    "source_reference": "PROTOCOL.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "PROTOCOL_COMUNICARE_ECHIPE.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "TEST_FINAL_PASI.ppsx",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "TEST_FINAL_PASI.pptx",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "TEST_FINAL_PLAN.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "sarcini/IOS-010_test-final-comun-wan-multi.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/SRV-014_test-final-comun-wan-multi.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/SRV-015_panou-admin-test.md",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

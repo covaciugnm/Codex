@@ -10545,7 +10545,7 @@ command: ssh -o BatchMode=yes saga-server@192.168.100.151 "grep -i DATABASE_URL 
 ## Asistent
 
 [external_agent_tool_result]
-      DATABASE_URL: ${DATABASE_URL:-postgresql://wohnart:wohnart@db:5432/wohnart}
+      DATABASE_URL: ${DATABASE_URL:-postgresql[CREDENTIAL_REDACTED]db:5432/wohnart}
 [/external_agent_tool_result]
 
 ## Asistent

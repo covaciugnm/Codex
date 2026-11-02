@@ -598,10 +598,7 @@
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/2025.09.11. Puscau Bogdan Sebastian SES/1. SES/00. Ghid si registre/Registru_documente_si_mutari.xlsx",
-    "status": "copiat",
-    "saved_path": "fisiere/Registru_documente_si_mutari--e9bcc775.xlsx",
-    "bytes": 101360,
-    "sha256": "e1be5b37673759168c7f70b05fec9bdae4ccdced4b10c1fdac665c1de80d5700"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/2025.09.11. Puscau Bogdan Sebastian SES/1. SES/01. Contract si acte aditionale/2025-10-31 - Contract initial/CONTRACT SUBVENTIE_INDUNOVA ROBOTICS (1",
@@ -609,17 +606,11 @@
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/2025.09.11. Puscau Bogdan Sebastian SES/1. SES/03. Plan si buget/2025 - Dosar de referinta/Anexa6_Buget_Plan_de_afaceri BogdanV2.xlsx",
-    "status": "copiat",
-    "saved_path": "fisiere/Anexa6_Buget_Plan_de_afaceri BogdanV2--50899209.xlsx",
-    "bytes": 18222,
-    "sha256": "4d018e7767185f98e7d4308a849040d3c2dc479870c60bcfe497493bcb1b33c6"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/2025.09.11. Puscau Bogdan Sebastian SES/1. SES/03. Plan si buget/2025 - Dosar de referinta/Plan de afaceri Bogdan-Botesti - Zlatna.docx",
-    "status": "copiat",
-    "saved_path": "fisiere/Plan de afaceri Bogdan-Botesti - Zlatna--e5d8d7e1.docx",
-    "bytes": 904690,
-    "sha256": "65eed562549fa875d596a21826a72a56dbe31468510d0edf98f318648710aeaa"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/2025.09.11. Puscau Bogdan Sebastian SES/1. SES/04. Achizitii/02. Contract ARIDE - in lucru",
@@ -655,10 +646,7 @@
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/2025.09.11. Puscau Bogdan Sebastian SES/1. SES/99. Arhiva/12. Achizitii - documente neconfirmate/2026-05 - ARIDE/0104__01_Anexa1_Nota_privind_determinarea_valorii_estimate.docx",
-    "status": "copiat",
-    "saved_path": "fisiere/0104__01_Anexa1_Nota_privind_determinarea_valorii_estim--dde4a8f8.docx",
-    "bytes": 1295076,
-    "sha256": "ffe1608f2bdc60eac5d8457d92c5bd71323d5829a4bfb52cb8d1b980b5c808fc"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/2025.09.11. Puscau Bogdan Sebastian SES/1. SES/99. Arhiva/12. Achizitii - documente neconfirmate/2026-05 - ARIDE/0108__05_Oferta_tehnico_financiara_ARIDE.docx",

@@ -1,0 +1,1528 @@
+{
+  "checked_at": "2026-10-30T09:56:11.538Z",
+  "mailboxes": [
+    {
+      "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+      "data": {
+        "mailboxes": [
+          {
+            "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+            "email": "factura3@ipec.ro",
+            "provider": "exchange",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-05-28T15:05:35.568110Z"
+          },
+          {
+            "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+            "email": "admin@nova-robotics.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-09-29T17:38:56.048744Z"
+          },
+          {
+            "id": "3af45560-d448-4125-97cd-f12519882779",
+            "email": "office@alba-vision.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:05.812246Z"
+          },
+          {
+            "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+            "email": "factura1@ipec.ro",
+            "provider": "exchange",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": null
+          },
+          {
+            "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+            "email": "cosmin@ig.ro",
+            "provider": "exchange",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-09T23:30:10.009451Z"
+          },
+          {
+            "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+            "email": "vaidae104@gmail.com",
+            "provider": "gmail",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-21T08:22:51.922396Z"
+          },
+          {
+            "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+            "email": "covaciu.gnm@gmail.com",
+            "provider": "gmail",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T07:16:12.197498Z"
+          },
+          {
+            "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+            "email": "covaciu.gnm@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-05T20:30:06.421684Z"
+          },
+          {
+            "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+            "email": "mariuscodewnk@yahoo.com",
+            "provider": "yahoo",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:06.895060Z"
+          },
+          {
+            "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+            "email": "production@cesiro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:09.088053Z"
+          },
+          {
+            "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+            "email": "factura2@ipec.ro",
+            "provider": "exchange",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-06-21T23:30:06.079888Z"
+          },
+          {
+            "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+            "email": "factura@ipec.ro",
+            "provider": "exchange",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-06-25T10:00:12.428091Z"
+          },
+          {
+            "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+            "email": "cosmin.covaciu@ipec.ro",
+            "provider": "exchange",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:09.620490Z"
+          },
+          {
+            "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+            "email": "office@ac-wohnart.at",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:21.611039Z"
+          },
+          {
+            "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+            "email": "cosmin.covaciu@cesiro.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:13.260859Z"
+          },
+          {
+            "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+            "email": "cosmin.covaciu@cesiro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:14.079782Z"
+          },
+          {
+            "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+            "email": "link_covaciu@yahoo.com",
+            "provider": "yahoo",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-08-02T20:30:05.901517Z"
+          },
+          {
+            "id": "shared:cesiro.horeca@gmail.com",
+            "email": "cesiro.horeca@gmail.com",
+            "provider": "",
+            "permission": "team",
+            "searchable": false,
+            "is_active": true,
+            "last_sync": null
+          },
+          {
+            "id": "shared:dancorproiectsrl@gmail.com",
+            "email": "dancorproiectsrl@gmail.com",
+            "provider": "",
+            "permission": "shared",
+            "searchable": false,
+            "is_active": true,
+            "last_sync": null
+          },
+          {
+            "id": "shared:3dspacearideit@gmail.com",
+            "email": "3dspacearideit@gmail.com",
+            "provider": "",
+            "permission": "shared",
+            "searchable": false,
+            "is_active": true,
+            "last_sync": null
+          },
+          {
+            "id": "shared:3dspacearide@gmail.com",
+            "email": "3dspacearide@gmail.com",
+            "provider": "",
+            "permission": "shared",
+            "searchable": false,
+            "is_active": true,
+            "last_sync": null
+          }
+        ]
+      }
+    },
+    {
+      "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+      "data": {
+        "mailboxes": [
+          {
+            "id": "d8ff3753-0ef2-40c0-ab9e-ba5ee1acbd32",
+            "email": "news@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": null
+          },
+          {
+            "id": "9a9843e6-9219-40b3-9a0c-d36b101ca35a",
+            "email": "mail@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-26T13:38:04.802251Z"
+          },
+          {
+            "id": "ef646808-0190-4732-bcec-31445e1feba9",
+            "email": "learn@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-26T13:38:09.538797Z"
+          },
+          {
+            "id": "3aa4c651-3e04-46c4-bcd0-de1fc1f5d559",
+            "email": "dracula@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-05T09:52:24.451475Z"
+          },
+          {
+            "id": "831768ac-d603-4c7a-a154-4d5e50f3360e",
+            "email": "noreply@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-05T09:52:30.039084Z"
+          },
+          {
+            "id": "896b1f4d-a9d6-4f7e-a351-9a145901eeaf",
+            "email": "office@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-28T13:45:07.431583Z"
+          },
+          {
+            "id": "77e3dc53-9200-4670-be05-7657140ac940",
+            "email": "office@set-farfurii.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:37:03.880574Z"
+          },
+          {
+            "id": "6e39d49d-967a-4ae2-8741-502f4db074e0",
+            "email": "office@fisher-price.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:38:09.592710Z"
+          },
+          {
+            "id": "e818fda6-70c2-46eb-94f1-0b9add7f1a17",
+            "email": "office@go-pro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:38:41.691423Z"
+          },
+          {
+            "id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+            "email": "office@ac-wohnart.at",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-29T15:27:25.996399Z"
+          },
+          {
+            "id": "627ebe93-3894-45e7-b75c-8c43eafb158e",
+            "email": "office@ninjakitchen.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T12:01:37.105568Z"
+          },
+          {
+            "id": "1a25fb22-0d77-4dc1-8d54-0ed040903b6f",
+            "email": "admin@cesiro.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-13T11:08:22.613390Z"
+          },
+          {
+            "id": "99db103a-abad-4ff9-9c71-2dec658c4744",
+            "email": "elena.vaida@bonna.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:07:44.616374Z"
+          },
+          {
+            "id": "f9638afb-6882-4109-91e5-0f02ea0a5288",
+            "email": "office@tartecosmetics.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:32:40.949612Z"
+          },
+          {
+            "id": "57e5cc21-e921-4b01-b65d-5b799409b9d7",
+            "email": "office@innovation.cesiro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-28T21:30:15.812467Z"
+          },
+          {
+            "id": "ee0f0164-90c3-489d-903d-2604c1c1aa90",
+            "email": "office@set-vesela.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-13T07:54:10.652177Z"
+          },
+          {
+            "id": "16a90808-cce9-4c32-8953-3a4604d07668",
+            "email": "neets2@cesiro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-13T06:28:22.776327Z"
+          },
+          {
+            "id": "83cd8eeb-a40b-4e29-a6ae-eacaf8494b56",
+            "email": "genesis@cesiro.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-16T20:30:15.145523Z"
+          },
+          {
+            "id": "e2a58b38-9c6d-4309-a0ed-36b783412896",
+            "email": "aloenergie@cesiro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:23:05.485775Z"
+          },
+          {
+            "id": "5dccd9d4-463c-42a5-87ee-b2e8949854d2",
+            "email": "market@cesiro.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-16T20:30:15.192085Z"
+          },
+          {
+            "id": "b20d6cbf-89c4-429c-b72b-d1fa766bac10",
+            "email": "alexandru.szoke@cesiro.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:23.557791Z"
+          },
+          {
+            "id": "3f910d51-664f-4e96-8c5d-c6493e61a6d7",
+            "email": "spam-monitor@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:23.916953Z"
+          },
+          {
+            "id": "e32c5101-2444-44c6-9f67-5e65a996a346",
+            "email": "elena.covaciu@cesiro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:25:30.726367Z"
+          },
+          {
+            "id": "093dfb20-c1d0-4e86-994a-c629d2a0be8d",
+            "email": "innovationecosystem@red-robot.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:35:36.133157Z"
+          },
+          {
+            "id": "537f7947-a408-49ec-aa9b-f64216dd83ab",
+            "email": "admin@eva-org.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:41:36.206275Z"
+          },
+          {
+            "id": "85571b3e-51eb-401b-856e-729bcd41f0cb",
+            "email": "nvidia@cesiro.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-16T20:30:16.897705Z"
+          },
+          {
+            "id": "fbb3ee9f-41a2-4c92-8862-bed90e3e73cb",
+            "email": "office@melissaanddoug.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-25T20:30:27.023877Z"
+          },
+          {
+            "id": "c23730a0-0b21-4a1d-80b8-d55085085d34",
+            "email": "office@red-robot.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-13T06:34:04.316658Z"
+          },
+          {
+            "id": "e03f5a52-1a55-4fd6-817b-0bdf305ceff2",
+            "email": "office@black-robot.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:29:09.504369Z"
+          },
+          {
+            "id": "ded9e2b3-2bf9-4af5-a94f-d6a525fb4688",
+            "email": "office@jinko.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:29:15.534051Z"
+          },
+          {
+            "id": "8d362a94-f16c-4c33-998c-bbb66b4cc158",
+            "email": "new@cesiro.com",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-16T20:30:17.167663Z"
+          },
+          {
+            "id": "86be87eb-354a-443a-a3a5-d0caecbbde24",
+            "email": "office@opticosmetics.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:29:59.775052Z"
+          },
+          {
+            "id": "a92552c8-a70c-4527-bfc7-4a600ba265c1",
+            "email": "office@calphalon.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:31:52.620181Z"
+          },
+          {
+            "id": "c914fe73-c11f-491c-a4d2-db35493dc3b4",
+            "email": "noreply@cesiro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:33:03.130804Z"
+          },
+          {
+            "id": "f274f19a-079c-40e8-b03f-5ae371815f15",
+            "email": "neets1@cesiro.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:34:18.620060Z"
+          },
+          {
+            "id": "1ba88694-a07a-430d-afce-1a7c1382080d",
+            "email": "office@leapfrog.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-12T11:35:45.955145Z"
+          },
+          {
+            "id": "5f0e1969-74da-45ee-95da-b5e2d8dbf860",
+            "email": "office@andowl.ro",
+            "provider": "imap",
+            "permission": "owner",
+            "searchable": true,
+            "is_active": true,
+            "last_sync": "2026-10-30T09:30:38.889454Z"
+          }
+        ]
+      }
+    }
+  ],
+  "searches": [
+    {
+      "request": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "1539234",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "c45958f2-9372-4430-acfe-f175759221cf",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:46.009718Z",
+            "snippet": "Sehr geehrte Damen und Herren,\ndie A&C Wohnart Immobilien GmbH, FN 668224h, mit Sitz in 1120 Wien, S",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Schallergasse_35_Baubescheid.pdf",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf",
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f36feb1c-1b40-43f8-b34b-7f7e47dcedac",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12.256575Z",
+            "snippet": "Stimate domnule avocat Capra,\nVă scriu în calitate de administrator al societății A&C Wohnart Immobi",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.Capra@cerhahempel.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 3,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schallergasse",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "7632b31a-e277-4b7d-a486-63e11aa1d04e",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Rechnung 26/101261SR 1120 Wien, Schallergasse 35",
+            "from_name": "Buchhaltung Wöhr",
+            "from_address": "buchhaltung@woehrparking.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T15:27:24Z",
+            "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nanbei übermittle ich Ihnen die Rechnung über die von uns durchgefü",
+            "category": "fyi",
+            "labels": [
+              "10: Invoices"
+            ],
+            "folder": "Buchhaltung Wöhr",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "Rechnung 26101261SR Schallergasse 35, A&C Wohnart, 201582.pdf",
+              "image001.gif",
+              "20261027, WA, Schallergasse 35, PL.pdf"
+            ]
+          },
+          {
+            "id": "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+            "from_name": "Höbinger Andreas",
+            "from_address": "A.Hoebinger@donauversicherung.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T12:25:50Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nin urlaubsbedingter Vertretung von Frau Loschy kann ich Ihnen wie fol",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Höbinger Andreas",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.png",
+              "Vollmacht Hofhans.pdf",
+              "703920_Antrag.pdf",
+              "Deckungserweiterungen_RV 29000010498.pdf",
+              "Polizze 2044001194 per 17.03.2023.PDF",
+              "Memoformat.pdf",
+              "1120 Wien, Schallergasse 35_Antrag.pdf",
+              "Polizze 2044001194 per 03.06.2020.PDF",
+              "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+              "Korrespondenz zu Eigentümerwechsel.pdf"
+            ]
+          },
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "96e74e69-7ff6-402c-9959-597c0b472950",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-29T11:06:48.351968Z",
+            "snippet": "Sehr geehrter Herr Berger,\nvielen Dank für das angenehme Gespräch, Ihre handschriftlichen Anmerkunge",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "2026_10_27_Werkvertrag_Anmerkungen.pdf",
+              "2026.10.29 Werkvertrag BERGER R11.pdf",
+              "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf"
+            ]
+          },
+          {
+            "id": "c45958f2-9372-4430-acfe-f175759221cf",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:46.009718Z",
+            "snippet": "Sehr geehrte Damen und Herren,\ndie A&C Wohnart Immobilien GmbH, FN 668224h, mit Sitz in 1120 Wien, S",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Schallergasse_35_Baubescheid.pdf",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf",
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f36feb1c-1b40-43f8-b34b-7f7e47dcedac",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12.256575Z",
+            "snippet": "Stimate domnule avocat Capra,\nVă scriu în calitate de administrator al societății A&C Wohnart Immobi",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.Capra@cerhahempel.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 6,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Akteneinsicht",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "c45958f2-9372-4430-acfe-f175759221cf",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:46.009718Z",
+            "snippet": "Sehr geehrte Damen und Herren,\ndie A&C Wohnart Immobilien GmbH, FN 668224h, mit Sitz in 1120 Wien, S",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Schallergasse_35_Baubescheid.pdf",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf",
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "sender": "wien.gv.at",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "sender": "cerhahempel.com",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "42222000",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f36feb1c-1b40-43f8-b34b-7f7e47dcedac",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12.256575Z",
+            "snippet": "Stimate domnule avocat Capra,\nVă scriu în calitate de administrator al societății A&C Wohnart Immobi",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.Capra@cerhahempel.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "1539234",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "34ffc4a5-959d-4d67-9b93-c4707ffaf58b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "image003.jpg",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "5a15760b-e6ca-4915-9231-dddbe0faeb0a",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:45Z",
+            "snippet": "Sehr geehrte Damen und Herren,\ndie A&C Wohnart Immobilien GmbH, FN 668224h, mit Sitz in 1120 Wien, S",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF",
+              "Schallergasse_35_Baubescheid.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf"
+            ]
+          },
+          {
+            "id": "ad9cf567-fc01-44de-aac0-ccedc80f7684",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12Z",
+            "snippet": "Stimate domnule avocat Capra,\nVă scriu în calitate de administrator al societății A&C Wohnart Immobi",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.capra@cerhahempel.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 3,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Schallergasse",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "96e05de1-a32e-4c28-b7bf-978409e3a027",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Rechnung 26/101261SR 1120 Wien, Schallergasse 35",
+            "from_name": "Buchhaltung Wöhr",
+            "from_address": "buchhaltung@woehrparking.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T15:27:24Z",
+            "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nanbei übermittle ich Ihnen die Rechnung über die von uns durchgefü",
+            "category": "fyi",
+            "labels": [
+              "10: Invoices"
+            ],
+            "folder": "Buchhaltung Wöhr",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.gif",
+              "20261027, WA, Schallergasse 35, PL.pdf",
+              "Rechnung 26101261SR Schallergasse 35, A&C Wohnart, 201582.pdf"
+            ]
+          },
+          {
+            "id": "087ddb5c-17bd-429b-bb51-acc5781c85b7",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+            "from_name": "Höbinger Andreas",
+            "from_address": "A.Hoebinger@donauversicherung.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T12:25:50Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nin urlaubsbedingter Vertretung von Frau Loschy kann ich Ihnen wie fol",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "Höbinger Andreas",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "Vollmacht Hofhans.pdf",
+              "Memoformat.pdf",
+              "Deckungserweiterungen_RV 29000010498.pdf",
+              "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+              "image001.png",
+              "703920_Antrag.pdf",
+              "Polizze 2044001194 per 17.03.2023.PDF",
+              "Korrespondenz zu Eigentümerwechsel.pdf",
+              "Polizze 2044001194 per 03.06.2020.PDF",
+              "1120 Wien, Schallergasse 35_Antrag.pdf"
+            ]
+          },
+          {
+            "id": "34ffc4a5-959d-4d67-9b93-c4707ffaf58b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "image003.jpg",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f65fba1f-d0a8-4d91-b356-ff81f8ce2d56",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-29T11:06:46Z",
+            "snippet": "Sehr geehrter Herr Berger,\nvielen Dank für das angenehme Gespräch, Ihre handschriftlichen Anmerkunge",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "2026.10.29 Werkvertrag BERGER R11.pdf",
+              "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf",
+              "2026_10_27_Werkvertrag_Anmerkungen.pdf"
+            ]
+          },
+          {
+            "id": "5a15760b-e6ca-4915-9231-dddbe0faeb0a",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:45Z",
+            "snippet": "Sehr geehrte Damen und Herren,\ndie A&C Wohnart Immobilien GmbH, FN 668224h, mit Sitz in 1120 Wien, S",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF",
+              "Schallergasse_35_Baubescheid.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf"
+            ]
+          },
+          {
+            "id": "ad9cf567-fc01-44de-aac0-ccedc80f7684",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12Z",
+            "snippet": "Stimate domnule avocat Capra,\nVă scriu în calitate de administrator al societății A&C Wohnart Immobi",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.capra@cerhahempel.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 6,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Akteneinsicht",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "34ffc4a5-959d-4d67-9b93-c4707ffaf58b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "image003.jpg",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "5a15760b-e6ca-4915-9231-dddbe0faeb0a",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:45Z",
+            "snippet": "Sehr geehrte Damen und Herren,\ndie A&C Wohnart Immobilien GmbH, FN 668224h, mit Sitz in 1120 Wien, S",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF",
+              "Schallergasse_35_Baubescheid.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "sender": "wien.gv.at",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "sender": "cerhahempel.com",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "34ffc4a5-959d-4d67-9b93-c4707ffaf58b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "image003.jpg",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "request": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "42222000",
+        "date_from": "2026-10-29",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "34ffc4a5-959d-4d67-9b93-c4707ffaf58b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "snippet": "Sehr geehrte Frau Cseh,\r\nsehr geehrte Damen und Herren,\r\n\r\nwir nehmen Bezug auf unsere Korrespondenz",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "image003.jpg",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "ad9cf567-fc01-44de-aac0-ccedc80f7684",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12Z",
+            "snippet": "Stimate domnule avocat Capra,\nVă scriu în calitate de administrator al societății A&C Wohnart Immobi",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.capra@cerhahempel.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    }
+  ],
+  "new_relevant": 0
+}

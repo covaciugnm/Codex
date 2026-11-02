@@ -8,9 +8,9 @@
   "title": "Raport comparativ GPU 128GB",
   "project_id": "5c179290-3222-4036-8042-710f2e84db88",
   "project": "Comun",
-  "assignment_method": "workspace_path",
+  "assignment_method": "app_assignment",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-18T07:57:49.755838+00:00",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
   "source_bytes": 70308,
   "invalid_json_lines": 0,
   "history_source": "items",
@@ -18,6 +18,6 @@
   "item_count": 254,
   "message_count": 254,
   "content_sha256": "29dfca68f963b825b33a84ba948a1a7b238cdab93673814a0c1624b22829682b",
-  "files_copied": 11,
-  "references_not_copied": 37
+  "files_copied": 10,
+  "references_not_copied": 38
 }

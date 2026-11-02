@@ -1,0 +1,23 @@
+{
+  "id": "01a19691-4d9e-7942-863c-2ca5bf89fcc1",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Firme",
+  "created_at": 1793527467,
+  "updated_at": 1793529198,
+  "archived": 0,
+  "source": "vscode",
+  "title": "ROSE - Acreditari",
+  "project_id": "46811615-9aa9-441d-8184-080417183a10",
+  "project": "Firme",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 23967332,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 289,
+  "message_count": 18,
+  "content_sha256": "8202793d1c39f2d2f5ae49f69b79562dfb9bd27756001b2191fba229e7d76472",
+  "files_copied": 2,
+  "references_not_copied": 54
+}

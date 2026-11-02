@@ -1,0 +1,23 @@
+{
+  "id": "01a187f1-eb13-7372-95db-4fc7cea6eec5",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1793282140,
+  "updated_at": 1793631563,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Monitorizează răspunsul Baupolizei",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 15052714,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 467,
+  "message_count": 40,
+  "content_sha256": "dd87cbb7c60f334069b31ccdebe0a4123ca27e30be35f9b0ebfc2dec6aba0141",
+  "files_copied": 20,
+  "references_not_copied": 4
+}

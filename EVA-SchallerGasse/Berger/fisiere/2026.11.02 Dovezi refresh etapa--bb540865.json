@@ -1,0 +1,3392 @@
+{
+  "baseline_register": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.11.01 Registru comunicatii.json",
+  "mailboxes_primary": {
+    "mailboxes": [
+      {
+        "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+        "email": "factura3@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-05-28T15:05:35.568110Z"
+      },
+      {
+        "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+        "email": "admin@nova-robotics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-29T17:38:56.048744Z"
+      },
+      {
+        "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+        "email": "factura1@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "3af45560-d448-4125-97cd-f12519882779",
+        "email": "office@alba-vision.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T21:30:03.842118Z"
+      },
+      {
+        "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+        "email": "cosmin@ig.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-09T23:30:10.009451Z"
+      },
+      {
+        "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "email": "covaciu.gnm@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T07:29:27.084682Z"
+      },
+      {
+        "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+        "email": "vaidae104@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T17:34:06.427405Z"
+      },
+      {
+        "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+        "email": "covaciu.gnm@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-05T20:30:06.421684Z"
+      },
+      {
+        "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+        "email": "mariuscodewnk@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:30:06.626263Z"
+      },
+      {
+        "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+        "email": "factura2@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-21T23:30:06.079888Z"
+      },
+      {
+        "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+        "email": "factura@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-25T10:00:12.428091Z"
+      },
+      {
+        "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+        "email": "production@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:30:09.271557Z"
+      },
+      {
+        "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+        "email": "cosmin.covaciu@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:39:22.295501Z"
+      },
+      {
+        "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:30:18.135415Z"
+      },
+      {
+        "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+        "email": "cosmin.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:30:10.971103Z"
+      },
+      {
+        "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+        "email": "cosmin.covaciu@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:45:07.834304Z"
+      },
+      {
+        "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+        "email": "link_covaciu@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-08-02T20:30:05.901517Z"
+      },
+      {
+        "id": "shared:cesiro.horeca@gmail.com",
+        "email": "cesiro.horeca@gmail.com",
+        "provider": "",
+        "permission": "team",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:dancorproiectsrl@gmail.com",
+        "email": "dancorproiectsrl@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearideit@gmail.com",
+        "email": "3dspacearideit@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearide@gmail.com",
+        "email": "3dspacearide@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      }
+    ]
+  },
+  "mailboxes_secondary": {
+    "mailboxes": [
+      {
+        "id": "831768ac-d603-4c7a-a154-4d5e50f3360e",
+        "email": "noreply@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:19.680491Z"
+      },
+      {
+        "id": "3aa4c651-3e04-46c4-bcd0-de1fc1f5d559",
+        "email": "dracula@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:08:21.274335Z"
+      },
+      {
+        "id": "896b1f4d-a9d6-4f7e-a351-9a145901eeaf",
+        "email": "office@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:08:25.790894Z"
+      },
+      {
+        "id": "ef646808-0190-4732-bcec-31445e1feba9",
+        "email": "learn@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:05.254119Z"
+      },
+      {
+        "id": "d8ff3753-0ef2-40c0-ab9e-ba5ee1acbd32",
+        "email": "news@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:08.527869Z"
+      },
+      {
+        "id": "9a9843e6-9219-40b3-9a0c-d36b101ca35a",
+        "email": "mail@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:19.543911Z"
+      },
+      {
+        "id": "77e3dc53-9200-4670-be05-7657140ac940",
+        "email": "office@set-farfurii.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:37:03.880574Z"
+      },
+      {
+        "id": "6e39d49d-967a-4ae2-8741-502f4db074e0",
+        "email": "office@fisher-price.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:38:09.592710Z"
+      },
+      {
+        "id": "e818fda6-70c2-46eb-94f1-0b9add7f1a17",
+        "email": "office@go-pro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:38:41.691423Z"
+      },
+      {
+        "id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T18:59:20.876108Z"
+      },
+      {
+        "id": "627ebe93-3894-45e7-b75c-8c43eafb158e",
+        "email": "office@ninjakitchen.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T12:01:37.105568Z"
+      },
+      {
+        "id": "1a25fb22-0d77-4dc1-8d54-0ed040903b6f",
+        "email": "admin@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:01:29.893981Z"
+      },
+      {
+        "id": "99db103a-abad-4ff9-9c71-2dec658c4744",
+        "email": "elena.vaida@bonna.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:07:44.616374Z"
+      },
+      {
+        "id": "f9638afb-6882-4109-91e5-0f02ea0a5288",
+        "email": "office@tartecosmetics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:32:40.949612Z"
+      },
+      {
+        "id": "ee0f0164-90c3-489d-903d-2604c1c1aa90",
+        "email": "office@set-vesela.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-13T07:54:10.652177Z"
+      },
+      {
+        "id": "57e5cc21-e921-4b01-b65d-5b799409b9d7",
+        "email": "office@innovation.cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636983Z"
+      },
+      {
+        "id": "e2a58b38-9c6d-4309-a0ed-36b783412896",
+        "email": "aloenergie@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:17.036219Z"
+      },
+      {
+        "id": "5dccd9d4-463c-42a5-87ee-b2e8949854d2",
+        "email": "market@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:21.447863Z"
+      },
+      {
+        "id": "16a90808-cce9-4c32-8953-3a4604d07668",
+        "email": "neets2@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.513397Z"
+      },
+      {
+        "id": "83cd8eeb-a40b-4e29-a6ae-eacaf8494b56",
+        "email": "genesis@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:32.106194Z"
+      },
+      {
+        "id": "3f910d51-664f-4e96-8c5d-c6493e61a6d7",
+        "email": "spam-monitor@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:30:22.062817Z"
+      },
+      {
+        "id": "b20d6cbf-89c4-429c-b72b-d1fa766bac10",
+        "email": "alexandru.szoke@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:30:22.293827Z"
+      },
+      {
+        "id": "093dfb20-c1d0-4e86-994a-c629d2a0be8d",
+        "email": "innovationecosystem@red-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:35:36.133157Z"
+      },
+      {
+        "id": "e32c5101-2444-44c6-9f67-5e65a996a346",
+        "email": "elena.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:17.141914Z"
+      },
+      {
+        "id": "85571b3e-51eb-401b-856e-729bcd41f0cb",
+        "email": "nvidia@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.672607Z"
+      },
+      {
+        "id": "fbb3ee9f-41a2-4c92-8862-bed90e3e73cb",
+        "email": "office@melissaanddoug.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-25T20:30:27.023877Z"
+      },
+      {
+        "id": "537f7947-a408-49ec-aa9b-f64216dd83ab",
+        "email": "admin@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-02T09:30:23.376557Z"
+      },
+      {
+        "id": "c23730a0-0b21-4a1d-80b8-d55085085d34",
+        "email": "office@red-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-13T06:34:04.316658Z"
+      },
+      {
+        "id": "e03f5a52-1a55-4fd6-817b-0bdf305ceff2",
+        "email": "office@black-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:09.504369Z"
+      },
+      {
+        "id": "ded9e2b3-2bf9-4af5-a94f-d6a525fb4688",
+        "email": "office@jinko.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:15.534051Z"
+      },
+      {
+        "id": "86be87eb-354a-443a-a3a5-d0caecbbde24",
+        "email": "office@opticosmetics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:59.775052Z"
+      },
+      {
+        "id": "a92552c8-a70c-4527-bfc7-4a600ba265c1",
+        "email": "office@calphalon.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:31:52.620181Z"
+      },
+      {
+        "id": "5f0e1969-74da-45ee-95da-b5e2d8dbf860",
+        "email": "office@andowl.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T21:30:17.974779Z"
+      },
+      {
+        "id": "1ba88694-a07a-430d-afce-1a7c1382080d",
+        "email": "office@leapfrog.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:35:45.955145Z"
+      },
+      {
+        "id": "f274f19a-079c-40e8-b03f-5ae371815f15",
+        "email": "neets1@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636451Z"
+      },
+      {
+        "id": "c914fe73-c11f-491c-a4d2-db35493dc3b4",
+        "email": "noreply@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636928Z"
+      },
+      {
+        "id": "8d362a94-f16c-4c33-998c-bbb66b4cc158",
+        "email": "new@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.640433Z"
+      }
+    ]
+  },
+  "calendar_readback": {
+    "items": [
+      {
+        "id": "2651fa6c-6cdf-49b6-bebd-d61a19b2d12a",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-10-29T10:00:00Z",
+        "end": "2026-11-04T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "6665664f-bce5-4b47-ae5f-121900bc959c",
+        "title": "Baubesprechung",
+        "start": "2026-10-29T11:00:00Z",
+        "end": "2026-10-29T12:00:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Account: office@ac-wohnart.at\n\nEmail Content:\n<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\r\n</head>\r\n<body>\r\n<br>\r\n<div style=\"max-width: 1024px; color: #242424; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\" class=\"me-email-text\" lang=\"en-US\">\r\n<div style=\"margin-bottom:24px;overflow:hidden;white-space:nowrap;\" aria-hidden=\"true\">\r\n________________________________________________________________________________</div>\r\n<div style=\"margin-bottom: 12px;\"><span class=\"me-email-text\" style=\"font-size: 20px; color: #242424; font-weight: 600\">Microsoft Teams meeting</span>\r\n</div>\r\n<div style=\"margin-bottom: 6px; overflow-wrap: break-word;\"><span class=\"me-email-text\" style=\"font-size: 20px; color: #242424; font-weight: 600\">Join:\r\n</span><a id=\"meet_invite_block.action.join_link\" title=\"Meeting join\" aria-label=\"Meeting join\" class=\"me-email-link\" style=\"font-size: 20px; text-decoration: underline; color: #5B5FC7;\" href=\"https",
+        "meeting_link": "https://teams.microsoft.com/meet/3597933959209706?p=dH1z2iigkjBkeXQW4F",
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "282c25a2-ce6c-4b9c-859e-fed78ab896dc",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-10-30T10:00:00Z",
+        "end": "2026-11-05T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "243916a3-eeaf-4208-bdbb-7dd70acefcb1",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-10-31T10:00:00Z",
+        "end": "2026-11-06T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "eeaa86c9-82d1-4357-83d1-3c98eba33bcc",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-11-01T10:00:00Z",
+        "end": "2026-11-07T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "c86d1269-430b-49c6-8e98-3bd21814ff21",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-11-02T10:00:00Z",
+        "end": "2026-11-08T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "01a590a4-959d-483e-b64e-e163e1546069",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-11-03T10:00:00Z",
+        "end": "2026-11-09T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "16136be8-2803-4334-8b1f-4fb1f2ed4223",
+        "title": "Live stream: Catawiki Live: Classic Cars & Youngtimers - NO RESERVE",
+        "start": "2026-11-03T19:55:00Z",
+        "end": "2026-11-03T20:55:00Z",
+        "location": "https://www.catawiki.com/en/a/1303078-catawiki-live-classic-cars-youngtimers-no-reserve",
+        "attendees": [],
+        "description": "Ending now! Join the live stream and follow the auction’s thrilling conclusion in real time.\nhttps://www.catawiki.com/en/a/1303078-catawiki-live-classic-cars-youngtimers-no-reserve",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "ca18f723-473c-40c9-b156-e456e5f25f38",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-10T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "89ccfa2b-9361-47e5-b5f8-e5ee8433b08a",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-11T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      },
+      {
+        "id": "a14af45b-a683-4ece-8300-881466d53484",
+        "title": "🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production",
+        "start": "2026-11-06T10:00:00Z",
+        "end": "2026-11-12T10:30:00Z",
+        "location": null,
+        "attendees": [],
+        "description": "Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de",
+        "meeting_link": null,
+        "timezone": null,
+        "provider": null,
+        "calendar_id": null,
+        "synced_to_google": null,
+        "note": ""
+      }
+    ],
+    "total": 11
+  },
+  "berger_draft": {
+    "id": "04f3a2d8-9caf-4454-923a-2d66e162730e",
+    "kind": "reply",
+    "source": "chatgpt",
+    "status": "sent",
+    "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "account_email": "office@ac-wohnart.at",
+    "to": [
+      "office@bmberger.at"
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+    "body": "Sehr geehrter Herr Berger,\n\nvielen Dank für das angenehme Gespräch, Ihre handschriftlichen Anmerkungen und Ihre ergänzende E-Mail vom 2026.10.27.\nAnbei übermitteln wir Ihnen unseren entsprechend überarbeiteten Werkvertrag R11 einschließlich sämtlicher Anlagen und Ihres unveränderten Originalangebots.\n\nWir möchten den Vertrag nach Klärung der noch einzutragenden Angaben gerne gemeinsam unterzeichnen.\nDamit wir Ihre Anmerkungen richtig wiedergeben, erläutern wir nachstehend jeweils den bisherigen Text und die vorgenommene Anpassung.\nWo eine Anmerkung keine eindeutige Ersatzformulierung enthielt, handelt es sich um unseren Formulierungsvorschlag und noch nicht um eine unterstellte Zustimmung Ihrerseits.\n\n1. Planungsverantwortung, Polierpläne und Bauführer (§§ 1, 2 und 4; Anlagen 2 und 6)\n\nBisher waren die Schnittstellen zur architektonischen Polierplanung, Einreichplanung und Bauführung nicht ausreichend personell zugeordnet.\nNun stellen wir ausdrücklich klar, dass diese Funktionen gesondert durch die Auftraggeberin zu beauftragen sind und mit diesem Vertrag nicht Ihnen übertragen werden.\nDie betreffenden Personen sowie der tatsächliche Bewilligungs- und Planwechselstand sind noch einzutragen.\nIhre statische Ausführungsplanung und die beschriebenen tragwerksbezogenen Zuarbeiten bleiben enthalten.\nDer bisher vorgesehene einmalige abgestimmte tragwerksbezogene Planwechsel bleibt im beschriebenen Rahmen enthalten, ohne dass ein bereits bestehender oder beauftragter Planwechsel behauptet wird.\n\n2. Baugrubensicherung und Verbau (§ 3; Anlage 1)\n\nDie bisherige Abgrenzung wurde entsprechend Ihrer Anmerkung präzisiert.\nDie Planung von Baugrubensicherung, Verbau, Stützmauern und Außenanlagen bleibt bauseits.\nDie für das eigene Gebäudetragwerk erforderlichen Unterfangungen, Abstützungen und Lastangaben bleiben Bestandteil Ihrer beschriebenen Leistungen.\n\n3. Eigene statische Details und Werkstattpläne (§ 4; Anlagen 1 und 3)\n\nDer bisherige Text ließ die Grenze zwischen Ihren statischen Ausführungsdetails und den Fertigungsunterlagen des ausführenden Unternehmens teilweise offen.\nNun unterscheiden wir Ihre Bemessung, Kräfte, Anschlüsse, Verankerungen und prüffähigen statischen Details von den herstellerspezifischen Werkstatt-, Abbund- und Fertigungsplänen des ausführenden Betriebs.\nDie Koordination erfolgt mit dem tatsächlich beauftragten Stahl- beziehungsweise Holzbauunternehmen.\nFür die übliche Prüfung rechtzeitig und vollständig eingelangter Werkstattpläne schlagen wir fünf Werktage vor.\nBei fachlich begründetem Mehrbedarf soll innerhalb dieser Frist ein konkreter Prüfungstermin mitgeteilt werden.\n\n4. Prüfingenieur, Prüfprogramm und ZT-Schlussbestätigung (§ 5; Anlage 6)\n\nIm bisherigen Text waren interne Qualitätssicherung, gesetzliche PI-Kontrollen und eine gegebenenfalls zusätzliche eigenständige Prüfstatik nicht hinreichend getrennt.\nDiese Leistungen sind nun ausdrücklich voneinander abgegrenzt.\nDer benannte Prüfingenieur legt die erforderlichen Kontrollen, Haltepunkte und Befunde anhand der Bewilligung und des tatsächlichen Bauablaufs fachlich fest.\nDie acht statischen Betreuungsbesuche ersetzen oder begrenzen diese PI-Kontrollen nicht.\nEine zusätzliche eigenständige Prüfstatik wird nicht pauschal bestellt, sondern nur bei konkret geklärtem Bedarf und gesonderter eindeutiger Vereinbarung.\n\nDen handschriftlich angeführten Namen haben wir mangels zweifelsfreier Lesbarkeit nicht übernommen.\nBitte ergänzen Sie die vollständigen Namen, Organisationen, Befugnisse und Zuständigkeiten für PI und die erforderliche unabhängige ZT-Schlussbestätigung.\nBitte bestätigen Sie auch ausdrücklich den in § 5 beschriebenen Leistungsumfang und dessen Zuordnung zur PI-Pauschale von EUR 10.000,00 beziehungsweise zu den bestehenden Honorarpositionen.\nUnser Text sieht hierfür keinen automatisch hinzukommenden Preis vor.\n\n5. Vollständiges Bauwerksbuch (§ 6; Anlagen 1, 3, 4 und 6)\n\nDer bisherige Vertragsvorschlag enthielt das Bauwerksbuch innerhalb des damaligen Gesamtpakets von EUR 45.000,00 netto.\nSie haben handschriftlich vermerkt, dass es nicht inkludiert sei, und mit E-Mail vom 2026.10.27 dafür EUR 2.500,00 netto genannt.\nDiesen Betrag haben wir nun als eigene zusätzliche Honorarposition aufgenommen.\n\nDer Gegenstand ist ausdrücklich das vollständige Bauwerksbuch für das gesamte Bestandsgebäude und die neuen beziehungsweise geänderten Bauteile.\nErfasst sind die erforderlichen fachlichen Beiträge, die Erstprüfung, Dokumentation, eine im konkreten Fall erforderliche Registrierung und die Fortschreibung bis zum vereinbarten Abschluss.\nBitte bestätigen Sie ausdrücklich, dass die EUR 2.500,00 netto diesen vollständig beschriebenen Umfang abdecken.\nGesonderte invasive Untersuchungen, Laborprüfungen oder die tatsächliche Behebung historischer Gebäudeschäden werden dadurch nicht pauschal mitbeauftragt.\n\n6. Statische Betreuung und physische Termine (§ 7; Anlagen 3 und 4)\n\nDie Unterscheidung zwischen tatsächlichem Ortstermin, digitaler Besprechung und gewöhnlicher Koordination wurde vereinfacht.\nEs bleiben maximal acht enthaltene statische Betreuungsbesuche nach Erfordernis.\nEine tatsächliche statische Betreuung bei der anfänglichen T0-Begehung zählt als einer dieser acht Besuche.\nTelefonate, Videokonferenzen und die übliche Koordination werden nicht als zusätzliche physische Besuche gezählt.\n\nWeitere statische Betreuungsbesuche bleiben nur in einzeln ausdrücklich bestellten Viererpaketen zu jeweils EUR 1.000,00 netto vorgesehen.\nInnerhalb eines bestellten Pakets werden tatsächlich ausgeführte Besuche mit EUR 250,00 netto abgerechnet.\nNicht bestellte Pakete lösen keine Vergütung aus.\nEine gemeinsame Betreuungs- und PI-Anwesenheit soll nicht doppelt verrechnet werden.\n\n7. Technische Rückfragen, Materialnachweise und Berichte (§§ 5, 7 bis 9)\n\nBei den üblichen technischen Rückfragen haben wir Ihre ausdrückliche Korrektur von zwei auf drei Werktage übernommen.\nSicherheitsrelevante Warnungen bleiben unverzüglich erforderlich.\nMaterialnachweise, Prüfberichte und Würfelbefunde werden entsprechend dem tatsächlichen Baufortschritt angefordert und geprüft, ohne deren Vorliegen schon bei Vertragsunterzeichnung zu unterstellen.\nNeue physische Drittprüfungen sind bei Bedarf konkret gesondert zu beauftragen.\n\nAnstelle aufwendiger Sonderformulare schlagen wir während aktiver Planungs- und Bauphasen eine kurze wöchentliche Status-E-Mail und eine einfache gemeinsame Entscheidungs- und Dokumentenliste vor.\nDie erforderlichen technischen Befunde und PI-Berichte bleiben davon unberührt.\n\n8. Übergabeformate und Planlisten (§ 10; Anlagen 1 und 6)\n\nDie bisher sehr weit gefasste Datenübergabe wurde konkretisiert.\nVerbindlich vorgesehen sind unterfertigte PDF-Unterlagen, bearbeitbare DWG-/gegebenenfalls bezeichnete DXF-Daten und vollständige nachvollziehbare Berechnungen.\nIFC- und native projektbezogene Dateien werden übergeben, soweit sie vorhanden sowie technisch und rechtlich übertragbar sind.\nEine zusätzliche Neuerstellung eines BIM-/IFC-Modells wird nicht verlangt.\nPlanstände, Revisionen, prüfbare Mengenlisten und das abschließende Dokumentenverzeichnis sind entsprechend dem Vertragsumfang eindeutig zu dokumentieren.\n\n9. Honorar, Bauphasenrahmen und Zahlungsbedingungen (§§ 9, 11 und 12; Anlagen 3 und 4)\n\nDie ursprünglichen vier Honorarpositionen bleiben unverändert:\n- Berechnung / Ausführungsstatik: EUR 13.000,00 netto.\n- Konstruktions- und Ausführungspläne: EUR 20.000,00 netto.\n- Statische Betreuung: EUR 2.000,00 netto.\n- Prüfingenieur: EUR 10.000,00 netto.\n\nHinzu kommt ausschließlich das vorstehend erläuterte Bauwerksbuch mit EUR 2.500,00 netto.\nDas vorgeschlagene Gesamthonorar beträgt damit EUR 47.500,00 netto zuzüglich EUR 9.500,00 Umsatzsteuer, somit EUR 57.000,00 brutto.\nOptionale zusätzliche Betreuungspakete sind darin nicht bestellt oder eingerechnet.\n\nDer bereits in unserer Vertragsvorlage vorgesehene Bauphasenrahmen von achtzehn Monaten ab tatsächlichem B0 bleibt bestehen.\nT0 für den Planungsbeginn sowie geplanter und tatsächlicher B0 werden getrennt dokumentiert.\nDie normale Ausführung innerhalb dieses Rahmens löst für sich kein zusätzliches zeitabhängiges Honorar aus.\nDie Regelungen zu konkret vereinbarten Änderungen sowie gesetzlich begründeten Ansprüchen bleiben bestehen.\n\nEs bleiben vierzehn Kalendertage Zahlungsziel für prüffähige Rechnungen, ohne vertraglichen Haftrücklass oder Vertragsstrafe.\nDie dreijährige vertragliche Gewährleistung und der Ausschluss einer automatischen Indexierung bleiben in unserer Vorlage erhalten.\nBitte bestätigen Sie vor Unterzeichnung die aktuelle Gültigkeit der Honorarpositionen sowie Ihre Ressourcen und die Terminplanung.\n\n10. Liefer- und Rechnungsplan mit Beträgen (Anlagen 3 und 4)\n\nBisher sah der Vertrag die Abrechnung nach Erfüllung des Leistungsbildes ohne konkret ausgefüllten wertmäßigen Kalender vor.\nEntsprechend Ihrer Anmerkung haben wir einen auszufüllenden Liefer- und Rechnungsplan für die fünf Honorarpositionen ergänzt.\nBitte tragen Sie die vorgeschlagenen Lieferdaten, Rechnungszeitpunkte und gegebenenfalls Teilbeträge je Hauptetappe ein.\nDie jeweiligen Positionsbeträge und das vereinbarte Gesamthonorar dürfen dabei nicht überschritten und Leistungen nicht doppelt abgerechnet werden.\nWir möchten diesen Kalender gemeinsam abstimmen und als Vertragsbestandteil unterzeichnen.\n\n11. Nachweise und vollständige Anlagen (§ 14; Anlagen 1 bis 6)\n\nDen von Ihnen angekündigten Versicherungsnachweis bitten wir in aktueller Fassung für die tatsächlich übernommenen Tätigkeiten beizufügen.\nEine zusätzliche vertragliche Mindestdeckung wird nicht verlangt.\nDie betroffenen Anlagen wurden an die vorgenannten Formulierungen angepasst.\nDie fachlichen Nachweispflichten für das Bauwerksbuch wurden auf die für das konkrete Vorhaben anwendbare Rechtslage bezogen, ohne eine pauschale rückwirkende Nachrüstung des 2023 bewilligten Vorhabens zu unterstellen.\nIhr vollständiges vierseitiges Originalangebot vom 2026.08.17 ist unverändert am Ende des Vertrags-PDFs beigefügt.\n\nBitte prüfen Sie den gesamten Vertrag einschließlich der Anlagen und bestätigen Sie uns schriftlich, ob Ihre Anmerkungen und unser gemeinsames Verständnis damit richtig wiedergegeben sind.\nBesonders bitten wir um Bestätigung des vollständigen Bauwerksbuchumfangs, der PI-/ZT-Leistungen einschließlich Preiszuordnung sowie des Gesamthonorars.\n\nFalls einzelne Punkte abweichen, nennen Sie uns bitte die betreffende Vertragsstelle, Ihre gewünschte Ersatzformulierung und gegebenenfalls konkrete Auswirkungen auf Preis oder Termin.\nDie noch offenen Personen-, Nachweis- und Kalenderangaben möchten wir vor der beiderseitigen Unterzeichnung gemeinsam vervollständigen.\n\nVielen Dank für Ihre Prüfung und Ihre Rückmeldung.\n\nMit freundlichen Grüßen\n\nCosmin Adrian Covaciu",
+    "attachments": [
+      {
+        "id": "ae9994fb-1a68-48fa-9753-efe33df4789e",
+        "filename": "2026.10.29 Werkvertrag BERGER R11.pdf",
+        "size": 335514,
+        "mime_type": "application/pdf"
+      },
+      {
+        "id": "d877ea32-c07b-4227-8618-10a586b33812",
+        "filename": "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf",
+        "size": 224847,
+        "mime_type": "application/pdf"
+      }
+    ],
+    "reply_to_email_id": "ed6dfacf-1a5e-4447-8faa-833514e87070",
+    "created_at": "2026-10-29T10:37:30.185701Z",
+    "updated_at": "2026-10-29T11:06:48.509183Z",
+    "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+  },
+  "pech_draft": {
+    "id": "ebe46e54-bdee-407a-971f-1025f67f6482",
+    "kind": "new",
+    "source": "chatgpt",
+    "status": "pending",
+    "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "account_email": "office@ac-wohnart.at",
+    "to": [
+      "ployer@zt-pech.at"
+    ],
+    "cc": [
+      "sekretariat@zt-pech.at"
+    ],
+    "bcc": [],
+    "subject": "Schallergasse 35 – Unterlagenbeschaffung und Terminverschiebung auf 2026.11.03",
+    "body": "Sehr geehrter Herr Dipl.-Ing. Ployer,\n\nvielen Dank nochmals für das sehr aufschlussreiche und hilfreiche Gespräch. Ihre Erläuterungen haben uns geholfen, die Situation besser zu verstehen. Wir hoffen, das dabei aufgezeigte Problem rasch klären zu können.\n\nWir haben inzwischen parallel mehrere Schritte zur Beschaffung der ursprünglich eingereichten Unterlagen eingeleitet: über unseren Rechtsanwalt, bei der Voreigentümerseite und dem damaligen Architekten sowie direkt beim Magistrat. Wir verfolgen diese Anfragen aktiv weiter.\n\nNach den bisherigen Hinweisen könnten sich die behördlichen Originalunterlagen noch bei der Baupolizei befinden. Die entsprechende Abklärung läuft bereits.\n\nWir würden unsere nächste Besprechung daher gerne auf Dienstag, den 2026.11.03, verschieben, um erste Rückmeldungen abzuwarten und das weitere Vorgehen auf einer besseren Grundlage besprechen zu können.\n\nWäre dieser Tag für Sie möglich? Bitte teilen Sie uns mit, welche Uhrzeit Ihnen passen würde.\n\nVielen Dank für Ihr Verständnis und Ihre Unterstützung.\n\nMit freundlichen Grüßen\n\nCosmin Adrian Covaciu",
+    "attachments": [],
+    "reply_to_email_id": null,
+    "created_at": "2026-10-29T16:23:51.529379Z",
+    "updated_at": "2026-10-29T16:23:51.529379Z",
+    "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+  },
+  "pages": [
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": true,
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "account_id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "is_sent": false,
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": false,
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "419532fa-fa26-4228-8b90-149e310773e8",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "Markus Berger",
+            "from_address": "office@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-11-01T18:59:07Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindr",
+            "category": null,
+            "labels": [
+              "SPAM-ALERT",
+              "1: To respond"
+            ],
+            "folder": "Markus Berger",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "account_id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "is_sent": true,
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "is_sent": true,
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "83524b33-5b49-438b-b692-4f36a64593e7",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Fwd: [GitHub] A new public key was added to covaciugnm/iFlyGlasses-Companion",
+            "from_name": "Cosmin Covaciu",
+            "from_address": "covaciu.gnm@gmail.com",
+            "to": [
+              "cesiro.horeca@gmail.com"
+            ],
+            "received_at": "2026-11-01T10:21:05Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi",
+              "Label_44004"
+            ],
+            "folder": "cesiro.horeca@gmail.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "is_sent": false,
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "43ea0f4f-0062-46b3-97b7-fca218157434",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "🎯 Black Friday încă te surprinde!",
+            "from_name": "ALTEX",
+            "from_address": "newsletter@news.altex.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-02T09:14:13Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43879"
+            ],
+            "folder": "ALTEX",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "c5946eb3-8bc0-4fff-955f-93466713c473",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "📅 Just scheduled: 🤖 AI & WEB3 — CLUJ-NAPOCA 🌐 | ⚡ SPECIAL EDITION",
+            "from_name": "Cluj-Napoca AI & WEB3",
+            "from_address": "info@email.meetup.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-02T08:36:05Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44058"
+            ],
+            "folder": "Cluj-Napoca AI & WEB3",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "2f4c50db-7b7e-41b7-a44a-604dc8c9523a",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "INIMA TRADITIONALA",
+            "from_name": "Malvensky",
+            "from_address": "newsletter@malvensky.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-02T07:56:33Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43902"
+            ],
+            "folder": "Malvensky",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "da36c2db-4c7d-454e-a258-8350d238eab9",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "sa folosim",
+            "from_name": "Cesiro Horeca",
+            "from_address": "cesiro.horeca@gmail.com",
+            "to": [
+              "afpetrutiu@gmail.com",
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T21:51:13Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "3: Fyi",
+              "Label_44057"
+            ],
+            "folder": "Cesiro Horeca",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "3a968abf-ea6e-429a-ab06-9de5ec9d018b",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "My FW26 Paris favorites 🤍",
+            "from_name": "Raluca from Sierra Darien",
+            "from_address": "support@sierradarien.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T19:04:30Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43991"
+            ],
+            "folder": "Raluca from Sierra Darien",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "3bbb843e-aa8a-464c-8a7a-0cdd56440df8",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Poate nu facem Black Friday, dar reducerile sunt deja aici",
+            "from_name": "Maria de la Mări-ie",
+            "from_address": "contact@mari-ie.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T19:02:02Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43868"
+            ],
+            "folder": "Maria de la Mări-ie",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "e06f0da6-ca7a-4ae2-b694-cb57de6790da",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "[covaciugnm/openclaw] Run failed: CodeQL - main (b1a9a19)",
+            "from_name": "covaciugnm",
+            "from_address": "notifications@github.com",
+            "to": [
+              "openclaw@noreply.github.com"
+            ],
+            "received_at": "2026-11-01T18:30:55Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43833"
+            ],
+            "folder": "covaciugnm",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "d66a1f01-b109-4509-9571-72a2b5816277",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "cesiro.ro: robots.txt updated. Review changes",
+            "from_name": "Semrush Site Audit",
+            "from_address": "site-audit@semrush.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T15:02:22Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44055"
+            ],
+            "folder": "Semrush Site Audit",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "6adbbef6-bd32-4e88-bf6e-7bc0fad39d6e",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Odkryj ekspertów do Twojej elektroniki! ",
+            "from_name": "OLX",
+            "from_address": "powiadomienia@marketing.olx.pl",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T12:34:23Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43990"
+            ],
+            "folder": "OLX",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9c202100-d7a2-407b-9699-e85acf74632a",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "[GitHub] A new public key was added to covaciugnm/iFLYTEK",
+            "from_name": "GitHub",
+            "from_address": "noreply@github.com",
+            "to": [],
+            "received_at": "2026-11-01T10:26:38Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43888"
+            ],
+            "folder": "GitHub",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "58d3f9a7-0af9-4b96-9a85-5588e9e10e1d",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "[GitHub] A new public key was added to covaciugnm/iFlyGlasses-Companion",
+            "from_name": "GitHub",
+            "from_address": "noreply@github.com",
+            "to": [],
+            "received_at": "2026-11-01T10:16:14Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43888"
+            ],
+            "folder": "GitHub",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "94b5524d-a94b-4cbb-af89-74f5735f22f4",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "[GitHub] A new public key was added to covaciugnm/iFlyGlasses-Companion",
+            "from_name": "GitHub",
+            "from_address": "noreply@github.com",
+            "to": [],
+            "received_at": "2026-11-01T10:14:43Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43888"
+            ],
+            "folder": "GitHub",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "db57c5cb-1ff6-4482-a670-e6ef187e75bb",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Descoperă: Tokio",
+            "from_name": "Skyscanner",
+            "from_address": "no-reply@sender.skyscanner.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T09:14:52Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43839"
+            ],
+            "folder": "Skyscanner",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "39f124e3-6f60-4e31-80ac-922085e55481",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Conectivitatea premium se încheie pe 16.11.2026",
+            "from_name": "Tesla",
+            "from_address": "noreply@tesla.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T08:26:05Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43945"
+            ],
+            "folder": "Tesla",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "0ee96350-636d-4715-b647-ea5a389e4cd4",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Găsește-ți băutura preferată 😋",
+            "from_name": "Euro-market.ro",
+            "from_address": "contact@euro-market.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T08:09:08Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43869"
+            ],
+            "folder": "Euro-market.ro",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f4a410e2-5bdd-4041-b747-737f42ffed1f",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ultima zi citire contoare apă",
+            "from_name": "Administrator bloc",
+            "from_address": "noreply@e-bloc.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T08:01:42Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44054"
+            ],
+            "folder": "Administrator bloc",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "fbd4cc97-8285-49eb-8ad0-fe1013cc8218",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "More usage and a simpler way to work",
+            "from_name": "ChatGPT",
+            "from_address": "noreply@email.openai.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T06:40:51Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_44053"
+            ],
+            "folder": "ChatGPT",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "c1d768ba-db55-42eb-8400-14a8076646ce",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Your Black Friday Surprise Came Early — 30% Off! 🎁",
+            "from_name": "Nomad eSIM",
+            "from_address": "no-reply@getnomad.app",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T04:32:02Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44052"
+            ],
+            "folder": "Nomad eSIM",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "6b6e9ea9-eade-4192-a149-3061035bbb61",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Plata refuzata - comanda 257966727",
+            "from_name": "ING_pentru_Digi@ing.ro",
+            "from_address": "ING_pentru_Digi@ing.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-01T00:51:20Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "1: To respond",
+              "Label_44047"
+            ],
+            "folder": "ING_pentru_Digi@ing.ro",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "df0bab57-20ce-4ff8-b589-c6a0baa8ed10",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "cesiro.com  trebuie reinnoit inainte de 22 NOIEMBRIE 2026",
+            "from_name": "register@domreg.ro",
+            "from_address": "register@domreg.ro",
+            "to": [
+              "covaciu.gnm@gmail.com",
+              "domregro@yahoo.com"
+            ],
+            "received_at": "2026-11-01T00:34:03Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "4: Notification",
+              "Label_43886"
+            ],
+            "folder": "register@domreg.ro",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "630661e6-9c13-4a6c-9b60-3efb6942e3db",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "🥂 Ai paharul pregătit? Black Friday a început la NITELA SHOP!",
+            "from_name": "Nitelashop.ro",
+            "from_address": "hello@nitelashop.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T22:02:07Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44051"
+            ],
+            "folder": "Nitelashop.ro",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9f3113cb-92d5-4084-91c3-c1afb6742f91",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Dressing up without a costume 🤍",
+            "from_name": "Sierra Darien",
+            "from_address": "support@sierradarien.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T19:45:06Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43948"
+            ],
+            "folder": "Sierra Darien",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f3727e2c-e50e-476b-b4b8-171903385e5c",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "[covaciugnm/openclaw] Run failed: CodeQL - main (b1a9a19)",
+            "from_name": "covaciugnm",
+            "from_address": "notifications@github.com",
+            "to": [
+              "openclaw@noreply.github.com"
+            ],
+            "received_at": "2026-10-31T18:31:04Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43833"
+            ],
+            "folder": "covaciugnm",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "cbdfe424-fb93-4433-a58e-bd6b9a4632f6",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Solicitare de access pentru „CV Neamtiu Ilinca.docx”",
+            "from_name": "Florin Neamtiu (prin Documente Google)",
+            "from_address": "drive-shares-dm-noreply@google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T14:46:16Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "1: To respond",
+              "Label_44050"
+            ],
+            "folder": "Florin Neamtiu (prin Documente Google)",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "5edbd241-a4ed-44bc-ba5c-f09420391603",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "'Govee Parallelogram Outdoor LED Panel 24W with RGBIC Light 30.5x30.5cm' 27% price drop",
+            "from_name": "Skroutz",
+            "from_address": "noreply@skroutz.gr",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T14:01:48Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44049"
+            ],
+            "folder": "Skroutz",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "afeacd35-0e00-4d6a-8915-310676fc57c2",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Hey , Have a Spooky Halloween with FoMaKo 👻",
+            "from_name": "FoMaKo",
+            "from_address": "store+96988889394@g.shopifyemail.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T10:23:31Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43951"
+            ],
+            "folder": "FoMaKo",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "c0b96df4-0afc-4e12-861b-2bda7bc0cad7",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Magia decorațiunilor de Crăciun 🌟",
+            "from_name": "Sinsay",
+            "from_address": "message@message.sinsay.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T10:11:06Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43857"
+            ],
+            "folder": "Sinsay",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "75f57b58-14b8-4783-bb1d-d7b461ced226",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai trimis unele date din Contul tău Google la OLX Poland",
+            "from_name": "Google",
+            "from_address": "noreply-accounts@google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T10:04:15Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43848"
+            ],
+            "folder": "Google",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "bbea4e20-98af-46bc-a5a7-11de0469933f",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New listings on Accuway UT-200, Okuma LU 3000 EX-M2SC 1000, Okuma ... and more",
+            "from_name": "Werktuigen",
+            "from_address": "info@mail2.werktuigen.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T09:31:31Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43889"
+            ],
+            "folder": "Werktuigen",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "575af14f-f084-46e9-8118-0886fdbc6d91",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "[GitHub] A new public key was added to covaciugnm/iFLYTEK",
+            "from_name": "GitHub",
+            "from_address": "noreply@github.com",
+            "to": [],
+            "received_at": "2026-10-31T09:31:19Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43888"
+            ],
+            "folder": "GitHub",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9a765a69-383e-41ac-84c4-fd994f3c1d8d",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New listings on Chiron FZ08 MT Precision+ high speed plus, WEILER ... and more",
+            "from_name": "Machineseeker",
+            "from_address": "info@mail2.machineseeker.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T08:29:21Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43838"
+            ],
+            "folder": "Machineseeker",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "1e157a81-8707-4074-96b9-31ffe87f9e4a",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Your 5-hour limit has been removed",
+            "from_name": "Claude Team",
+            "from_address": "no-reply@email.claude.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T07:01:38Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_44048"
+            ],
+            "folder": "Claude Team",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f2494219-ee9b-4923-9fc3-cdcce97e1030",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Plata refuzata - comanda 257966727",
+            "from_name": "ING_pentru_Digi@ing.ro",
+            "from_address": "ING_pentru_Digi@ing.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T06:37:27Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "1: To respond",
+              "Label_44047"
+            ],
+            "folder": "ING_pentru_Digi@ing.ro",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "d6f9ab4a-59d0-4ed6-95e6-9e7b65fdad0a",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Lass dir unsere Gutscheine nicht entgehen!",
+            "from_name": "Sovendus Gutscheine",
+            "from_address": "news@mail.sovendus.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-31T05:06:13Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43887"
+            ],
+            "folder": "Sovendus Gutscheine",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9d1e99c9-a997-498a-ba4e-abe1697493d3",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Your Max 20x plan is now Ultra",
+            "from_name": "Anthropic Team",
+            "from_address": "notice@email.anthropic.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T23:19:06Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_44045"
+            ],
+            "folder": "Anthropic Team",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 35,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schaller Gasse",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "A&C Wohnart",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schallergasse35",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "AC Wohnart",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schallergasse",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "419532fa-fa26-4228-8b90-149e310773e8",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "Markus Berger",
+            "from_address": "office@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-11-01T18:59:07Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindr",
+            "category": null,
+            "labels": [
+              "SPAM-ALERT",
+              "1: To respond"
+            ],
+            "folder": "Markus Berger",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "1120 Wien",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "419532fa-fa26-4228-8b90-149e310773e8",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "Markus Berger",
+            "from_address": "office@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-11-01T18:59:07Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindr",
+            "category": null,
+            "labels": [
+              "SPAM-ALERT",
+              "1: To respond"
+            ],
+            "folder": "Markus Berger",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Berger",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "419532fa-fa26-4228-8b90-149e310773e8",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "Markus Berger",
+            "from_address": "office@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-11-01T18:59:07Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindr",
+            "category": null,
+            "labels": [
+              "SPAM-ALERT",
+              "1: To respond"
+            ],
+            "folder": "Markus Berger",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Werkvertrag R11",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2026-470",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "office@ac-wohnart.at",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "419532fa-fa26-4228-8b90-149e310773e8",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "Markus Berger",
+            "from_address": "office@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-11-01T18:59:07Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindr",
+            "category": null,
+            "labels": [
+              "SPAM-ALERT",
+              "1: To respond"
+            ],
+            "folder": "Markus Berger",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "bmberger.at",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "419532fa-fa26-4228-8b90-149e310773e8",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "Markus Berger",
+            "from_address": "office@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-11-01T18:59:07Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindr",
+            "category": null,
+            "labels": [
+              "SPAM-ALERT",
+              "1: To respond"
+            ],
+            "folder": "Markus Berger",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schaller",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "419532fa-fa26-4228-8b90-149e310773e8",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "Markus Berger",
+            "from_address": "office@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-11-01T18:59:07Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindr",
+            "category": null,
+            "labels": [
+              "SPAM-ALERT",
+              "1: To respond"
+            ],
+            "folder": "Markus Berger",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "BAU-WERTE",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Themis",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "TOMS",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Pech",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "zt-pech.at",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "SCHAUERLEUTE",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "STURM",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Bauwerksbuch",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "STOLEX",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Maritczak",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "REALIG",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Prüfingenieur",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "RUDOLPH",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Capra",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Gasperl",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Füglister",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Paknehad",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Hönig",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Baupolizei",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Fuglister",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Honig",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Pristounig",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Kornhofer",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "roland.gasperl@chello.at",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Asreahan",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "CerhaHempel",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "MA37",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "ARTUS",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Finanzamt",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "MA31",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Wiener Wasser",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "1539234",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "donauversicherung",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "MA6",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "87b6e18a-ea11-47a4-addd-d12c0f5ded54",
+            "account_email": "cosmin.covaciu@ipec.ro",
+            "subject": "Finkenberg update – Find the right prices for you, Covaciu",
+            "from_name": "Booking.com",
+            "from_address": "email.campaign@sg.booking.com",
+            "to": [
+              "cosmin.covaciu@ipec.ro"
+            ],
+            "received_at": "2026-11-01T10:17:33Z",
+            "category": "fyi",
+            "labels": [
+              "8: Marketing"
+            ],
+            "folder": "Booking.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "AR1264971",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Hofhans",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Hausverwaltung",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "971105",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Attensam",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2044001194",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2900010498",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2616052",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "KONE",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Polizze 2044001194",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Frigo",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "43ea0f4f-0062-46b3-97b7-fca218157434",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "🎯 Black Friday încă te surprinde!",
+            "from_name": "ALTEX",
+            "from_address": "newsletter@news.altex.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-11-02T09:14:13Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43879"
+            ],
+            "folder": "ALTEX",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schindler",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "woehr",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Otis",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "26101261",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Lechner",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Zottl",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Commerz",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "AN10011519",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "26/30363",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Weigl",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schmitt",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Böhm",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "TKElevator",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "ANG0232318",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "13991719",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "120031905",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "058899708",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "42017328",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Undeliverable",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Unzustellbar",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "123482077",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "42018142",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "office@bmberger.at",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "419532fa-fa26-4228-8b90-149e310773e8",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "Markus Berger",
+            "from_address": "office@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-11-01T18:59:07Z",
+            "snippet": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindr",
+            "category": null,
+            "labels": [
+              "SPAM-ALERT",
+              "1: To respond"
+            ],
+            "folder": "Markus Berger",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Delivery Status",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "meetingtisch@bmberger.at",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "mailer-daemon",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "sekretariat@zt-pech.at",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "ployer@zt-pech.at",
+        "date_from": "2026-10-31",
+        "date_to": "2026-11-02",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    }
+  ],
+  "errors": [],
+  "period": "2026.10.31–2026.11.02; suprapunere o zi fata de ultima verificare generala 2026.11.01; deduplicare fata de toate registrele ulterioare",
+  "requested": "refresh manual utilizator",
+  "new_email_redactat": {
+    "id": "419532fa-fa26-4228-8b90-149e310773e8",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "AW: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+    "from_name": "Markus Berger",
+    "from_address": "office@bmberger.at",
+    "to": [
+      "office@ac-wohnart.at"
+    ],
+    "cc": [],
+    "received_at": "2026-11-01T18:59:07Z",
+    "text": "Sehr geehrter Herr Covaciu,\r\nIch bin gerade auf Ihrer Seite und kann nur sagen, ich bin sehr beeindruckt. Das ist wirklich toll gemacht!\r\n\r\nEinen Ausführungsplan für das Dachgeschoss habe ich noch nicht gefunden.\r\n\r\n\r\nBei Rückfragen stehe ich Ihnen gerne zur Verfügung.\r\n\r\nMit freundlichen Grüßen\r\nMarkus Berger\r\n\r\n-------------------------------------------------------------------\r\nBmstr. Dipl.-Ing. (FH) Markus Berger GmbH\r\nIngenieurkonsulent für Bauingenieurwesen rB.\r\nSchönbrunner Straße 123 / 2\r\n\r\nA - 1050 Wien\r\n\r\nTel.: +43-1-78 64 614\r\n\r\nMobil: +43-664-283 0 933\r\n\r\nE-Mail: office@bmberger.at<mailto:office@bmberger.at>\r\n\r\n\r\n\r\n________________________________\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at>\r\nGesendet: Mittwoch, 28. Oktober 2026 14:30\r\nAn: Markus Berger <office@bmberger.at>\r\nBetreff: Schallergasse 35 – Zugang zur digitalen Dokumentenmappe\r\n\r\n\r\nSehr geehrter Herr Berger,\r\n\r\ndie vorhandenen Unterlagen zum Projekt Schallergasse 35, 1120 Wien, stehen Ihnen in unserer digitalen Dokumentenmappe zur Verfügung.\r\n\r\nIhre Zugangsdaten:\r\n\r\n  *   Link: https://www.ac-wohnart.at/login\r\n  *   Benutzername: office@bmberger.at\r\n  *   Passwort: [REDACTAT – original complet arhivat criptat local]\r\n\r\nNach der Anmeldung können Sie die für Ihr Konto freigeschalteten Projektunterlagen einsehen und herunterladen.\r\n\r\nBitte bestätigen Sie uns kurz, ob der Zugang funktioniert. Sollten Sie weitere Unterlagen benötigen, teilen Sie uns bitte mit, welche Dokumente fehlen.\r\n\r\nMit freundlichen Grüßen\r\n\r\nCosmin Adrian Covaciu\r\n",
+    "truncated": false,
+    "labels": [
+      "SPAM-ALERT",
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Markus Berger",
+    "thread_id": "<9c6c8170-a9ed-4c3b-bc4c-c771c33a3e3a@ac-wohnart.at>",
+    "is_read": false,
+    "is_sent": false,
+    "attachments": [],
+    "note": ""
+  },
+  "manifest_original_integral": {
+    "cale": "08. Corespondenta/2026.11.02 Refresh manual/2026.11.01 20-59-07 PRIMIT BERGER 419532fa original integral.json.dpapi",
+    "original_json_sha256": "7ce57aab2aadd2a1b0eb5632eb93adc22c4bf730963f483f3ba7b175124a087d",
+    "encrypted_sha256": "17f7f7f1f99701ba36d1906ef78eca958ada485e6b80c3e839bdec1d45a0dbc8",
+    "criptare": "Windows DPAPI CurrentUser; original integral conservat, citatul cu credentiale nu este propagat in copii/index",
+    "decriptare_verificata_identica": true
+  },
+  "nota_protectie": "Originalul integral cu citatul de credentiale este conservat Windows DPAPI CurrentUser; copiile lizibile si indexul redacteaza numai parola din citatul istoric."
+}

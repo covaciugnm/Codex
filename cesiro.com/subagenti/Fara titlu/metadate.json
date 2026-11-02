@@ -1,0 +1,23 @@
+{
+  "id": "01a158d9-1156-73e3-9ce3-7d77ee0a3644",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\cesiro.com",
+  "created_at": 1792491983,
+  "updated_at": 1792493269,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a158d8-a5c3-7df2-86f9-48b3b66d4a17\",\"depth\":1,\"agent_path\":\"/root/audit_formule\",\"agent_nickname\":\"Hilbert\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "cb77d483-a84c-4469-aa78-88e01d9d8942",
+  "project": "cesiro.com",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a158d8-a5c3-7df2-86f9-48b3b66d4a17",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 159389,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 39,
+  "message_count": 3,
+  "content_sha256": "7a88822d83929029f4e6d54bfbc6a97f553d1a984b009537bfc8cd3d2e1ba137",
+  "files_copied": 7,
+  "references_not_copied": 0
+}

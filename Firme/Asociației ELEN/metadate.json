@@ -1,0 +1,23 @@
+{
+  "id": "01a1968f-77c3-7b10-9e0f-274c1354bb48",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Firme",
+  "created_at": 1793527347,
+  "updated_at": 1793528334,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Asociației ELEN",
+  "project_id": "46811615-9aa9-441d-8184-080417183a10",
+  "project": "Firme",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 4235047,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 88,
+  "message_count": 11,
+  "content_sha256": "c124d15f977c0d251bfc37abef3c7ae700d245ee3be3968cb0caeb145e9699d2",
+  "files_copied": 7,
+  "references_not_copied": 17
+}

@@ -1,0 +1,273 @@
+Reverificare independentă — produse, conectivitate, audio și disponibilitate SDK
+Verificat: 30 octombrie 2026. Auditor independent.
+
+Domeniu: afirmații comerciale, Wi-Fi, integrare și audio din 17 răspunsuri finale istorice. Nu este o certificare a întregului proiect.
+Rezultat: 48 afirmații — 35 confirmate în limitele verdictului, 2 completate/corectate, 11 încă necunoscute.
+37 surse; 8 interogări publice SDK/OTA. Zero teste hardware/clinice. Nu se acordă sau extinde un scor 10/10.
+
+Concluzii:
+- Comparația Air 2 trebuie să includă actualizarea documentată pentru Google Play/APK, condiționată de regiune/firmware.
+- Sursele oficiale se contrazic privind limbile. Româna la scris de mână nu stabilește STT în română.
+- Capacitatea Bluetooth nu confirmă microfonul ochelarilor simultan cu ieșirea altor căști.
+- Funcțiile auditive ale unui produs și eficiența pentru utilizator sunt întrebări diferite; nu s-au prescris reglaje.
+- Ordinea latențelor DSP/STT–TTS este o ipoteză de măsurat, nu un rezultat.
+- RPK are raport separat; existența codului de instalare nu stabilește acceptarea unui pachet propriu.
+
+Registru de afirmații (verdictul complet și limitele sunt în JSON cu același ID):
+P01 [confirmat] Air 2 / AINOTE 2 — T01.
+  Surse: S01, S11. Tip dovadă: specificatii.
+  Ce mai trebuie verificat: Identificarea exactă a anunțului rămâne separată.
+P02 [confirmat] Air 2 — hardware — T01, T02.
+  Surse: S01. Tip dovadă: specificatii.
+P03 [confirmat] Air 2 — lumină/cameră — T01.
+  Surse: S02. Tip dovadă: declaratie_producator.
+P04 [confirmat] Air 2 — utilizare — T01.
+  Surse: S01, S05. Tip dovadă: functii_documentate.
+P05 [confirmat] Air 2 — performanță — T01.
+  Surse: S01. Tip dovadă: opinie_documentara.
+  Ce mai trebuie verificat: Test pe documentele și aplicațiile utilizatorului; latență la scris, zoom, căutare și transcriere.
+P06 [corectat] Air 2 — Google Play/APK — T01.
+  Surse: S03. Tip dovadă: omisiune_comparatie_corectata.
+  Ce mai trebuie verificat: Verificarea firmware-ului/regiunii exemplarului și instalarea aplicației dorite.
+P07 [confirmat] Air 2 — română scris — T01.
+  Surse: S03. Tip dovadă: lista_limbi_documentata.
+P08 [inca_necunoscut] Air 2 — STT/traducere română — T01.
+  Surse: S01, S03, S04. Tip dovadă: absenta_din_liste.
+  Ce mai trebuie verificat: Meniu Languages și probă de transcriere/traducere în română pe SKU-ul oferit, ori confirmare oficială explicită pentru versiunea lui.
+P09 [inca_necunoscut] Air 2 — număr de limbi — T01.
+  Surse: S01, S02, S03, S04. Tip dovadă: contradictie_surse_oficiale.
+  Ce mai trebuie verificat: Listă explicită pe model, regiune, versiune și funcție; demonstrație pe dispozitiv.
+C01 [confirmat] Supernote Nomad/Manta — T01.
+  Surse: S06. Tip dovadă: specificatii.
+C02 [confirmat] reMarkable Paper Pro Move — T01.
+  Surse: S09. Tip dovadă: specificatii.
+C03 [confirmat] BOOX Note Air5 C — T01.
+  Surse: S10. Tip dovadă: specificatii.
+C04 [confirmat] AINOTE 2 — T01.
+  Surse: S11. Tip dovadă: specificatii.
+C05 [confirmat] Wi-Fi concurenți — T02.
+  Surse: S01, S07, S08, S09, S10, S11. Tip dovadă: specificatii.
+G01 [confirmat] Ochelari — Bluetooth/Wi-Fi — T03, T04, T14.
+  Surse: S12. Tip dovadă: documentatie_oficiala.
+  Ce mai trebuie verificat: Nicio probă necesară pentru afirmația documentară.
+G02 [confirmat] Ochelari — iOS/Android — T03, T04.
+  Surse: S12. Tip dovadă: documentatie_oficiala.
+G03 [inca_necunoscut] Ochelari — internet autonom — T03, T14.
+  Surse: S12. Tip dovadă: limita_documentatiei.
+  Ce mai trebuie verificat: Manual oficial pe model/firmware sau observație controlată a conectării la router și traducerii fără telefon.
+G04 [inca_necunoscut] Air 2 ↔ ochelari — T01, T02, T05.
+  Surse: S02, S05. Tip dovadă: integrare_nevalidata.
+  Ce mai trebuie verificat: Aplicație/procedură oficială compatibilă cu ambele modele, ori test reproducibil cu tipurile exacte de date transferate.
+G05 [confirmat] Traducere — telefon/cloud/offline — T12, T14.
+  Surse: S12. Tip dovadă: documentatie_oficiala.
+G06 [inca_necunoscut] Microfon accesibil aplicației proprii — T07, T08, T12, T14.
+  Surse: S12, S24, S25. Tip dovadă: integrare_nevalidata.
+  Ce mai trebuie verificat: Captură autorizată pe dispozitiv: profil audio/endpoint, negociere, PCM/codec, permisiuni, rută efectivă și continuitate.
+G07 [inca_necunoscut] Model STT/Translate exact — T12.
+  Surse: S12, S35. Tip dovadă: limita_atribuirii.
+  Ce mai trebuie verificat: Identificator de model returnat de serviciul folosit, document oficial legat de versiunea APK sau confirmare explicită a furnizorului.
+I01 [confirmat] AINOTE Skill — T05.
+  Surse: S30. Tip dovadă: integrare_documentata.
+I02 [confirmat] AINOTE API — T05.
+  Surse: S31, S32. Tip dovadă: API_documentat.
+I03 [confirmat] AINOTE — corp notiță/Focus Star — T05.
+  Surse: S30. Tip dovadă: limita_API_documentata.
+I04 [confirmat] Loomy — ochelari — T05.
+  Surse: S33. Tip dovadă: integrare_documentata.
+I05 [confirmat] Loomy — MCP — T05.
+  Surse: S34. Tip dovadă: integrare_documentata.
+I06 [inca_necunoscut] Punte ochelari–Loomy–AINOTE — T05.
+  Surse: S30, S31, S33, S34. Tip dovadă: ipoteza_de_integrare.
+  Ce mai trebuie verificat: Probă cap-coadă cu o înregistrare, export/text, autorizare MCP, creare notiță și confirmare sincronizare pe tabletă.
+A01 [inca_necunoscut] Ochelari → căști direct — T06.
+  Surse: S12. Tip dovadă: integrare_nevalidata.
+  Ce mai trebuie verificat: Profilurile Bluetooth acceptate ca sursă audio și o probă pe modelele exacte.
+A02 [inca_necunoscut] Telefon intermediar — T06, T07.
+  Surse: S24, S25. Tip dovadă: rutare_nevalidata.
+  Ce mai trebuie verificat: Pe telefonul exact: lista dispozitivelor audio, ruta efectivă AudioRecord/AudioTrack și test simultan în modurile necesare.
+A03 [confirmat] Android — selecție audio — T07.
+  Surse: S24, S25. Tip dovadă: contract_platforma.
+A04 [confirmat] Căști versus compensare auditivă — T06, T07.
+  Surse: S20, S29. Tip dovadă: principiu_audio_medical.
+A05 [confirmat] AirPods Pro 2/3 — Hearing Aid — T06.
+  Surse: S13, S14. Tip dovadă: functie_regionala_documentata.
+  Ce mai trebuie verificat: Pentru utilizator: acces la dispozitivul Apple necesar configurării și verificarea eligibilității funcției.
+A06 [confirmat] AirPods — România — T06.
+  Surse: S14. Tip dovadă: disponibilitate_documentata.
+A07 [confirmat] AirPods — utilizare Android — T06.
+  Surse: S13, S15. Tip dovadă: clarificare_documentata.
+  Ce mai trebuie verificat: Test separat pentru Media Assist, apeluri și scenariul ochelari + Android; nu sunt deduse din asociere.
+A08 [confirmat] Sennheiser Conversation Clear Plus — T06.
+  Surse: S16, S17. Tip dovadă: functie_si_limitare_producator.
+A09 [confirmat] Widex Allure / Android — T06.
+  Surse: S18, S19. Tip dovadă: compatibilitate_conditionata.
+  Ce mai trebuie verificat: Model exact telefon, versiune Android, variantă Allure/firmware și verificare în lista Widex, urmată de probă.
+D01 [confirmat] DSP pe telefon — T07.
+  Surse: S20, S22. Tip dovadă: fezabilitate_conceptuala.
+  Ce mai trebuie verificat: Implementare/test cu înregistrări și măsurare; reglaj individual și nivel de ieșire verificate profesional.
+D02 [confirmat] Coborârea frecvențelor — T07.
+  Surse: S21. Tip dovadă: mecanism_documentat.
+D03 [confirmat] Limitarea compresiei — T07.
+  Surse: S23. Tip dovadă: studiu_primar.
+D04 [confirmat] STT → text → TTS — T07.
+  Surse: S26, S27. Tip dovadă: fezabilitate_conceptuala.
+  Ce mai trebuie verificat: Prototip și teste pe limbă, zgomot, disponibilitatea vocilor și rutarea accesoriilor.
+D05 [confirmat] Pitch versus bandă audibilă — T07.
+  Surse: S26. Tip dovadă: clarificare_tehnica.
+D06 [confirmat] Erori STT și sunet ambiental — T07.
+  Surse: S26, S27. Tip dovadă: inferenta_arhitecturala.
+  Ce mai trebuie verificat: Testarea inteligibilității și erorilor critice; proiectarea separată a unei căi pentru sunete ambientale, dacă este dorită.
+D07 [corectat] Latența DSP versus STT–TTS — T07.
+  Surse: S28, S26, S27. Tip dovadă: precizare_conditie.
+  Ce mai trebuie verificat: Măsurare cap-coadă a acelorași intrări: percentile de latență, timp până la primul rezultat și întârzieri de redare.
+D08 [confirmat] Ajustare individuală / volum — T07.
+  Surse: S29, S24. Tip dovadă: principiu_de_validare.
+  Ce mai trebuie verificat: Audiogramă actuală și verificare profesională a ieșirii/beneficiului cu transductorul ales.
+S01 [confirmat] Bluetooth SDK iFLYTEK — T05, T08.
+  Surse: S12. Tip dovadă: existenta_documentata.
+S02 [inca_necunoscut] SDK public specific modelului — T05, T08.
+  Surse: S12, S35, S36, S37. Tip dovadă: cautare_delimitata.
+  Ce mai trebuie verificat: Link oficial de distribuție specific modelului sau acces oferit de producător/partener; verificarea licenței, versiunilor și exemplelor.
+S03 [confirmat] AIKit/SparkChain/AIoT — T05.
+  Surse: S35, S36, S37. Tip dovadă: separarea_domeniilor.
+S04 [inca_necunoscut] Firmware OTA public — T16.
+  Surse: căutare publică delimitată; vezi jurnalul de mai jos. Tip dovadă: cautare_delimitata.
+  Ce mai trebuie verificat: Pachetul OTA legitim al propriului dispozitiv sau download oficial cu model, versiune, dimensiune și hash.
+
+Surse — URL și secțiune; toate consultate la 30 octombrie 2026:
+S01. iFLYTEK AINOTE Air 2 — produs
+  https://www.iflytek.com/en/products/air/ainote-air2.html
+  Secțiune: Specifications; Transcription; Synchronization. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S02. iFLYTEK la IFA 2026
+  https://www.iflytek.com/en/news-events/news/343.html
+  Secțiune: AINOTE series; Air 2; GlassClaw/Loomy. Data publicării/actualizării: 2026-09-21. Acces: pagina_deschisa.
+S03. AINOTE Air 2 FAQ — UK
+  https://uk.iflytek.com/en/pages/ainote-air2-faq
+  Secțiune: Languages; changelog 2025-01-28 și 2024-12-04. Data publicării/actualizării: neprecizată. Acces: continut_indexat_oficial; deschiderea directa a expirat.
+S04. AINOTE Air 2 — magazin oficial
+  https://store.iflytek.com/products/iflytek-ainote-air-2
+  Secțiune: Titlu de funcții; FAQ Languages. Data publicării/actualizării: neprecizată. Acces: continut_indexat_oficial.
+S05. iFLYTEK suport Air 2
+  https://www.iflytek.com/en/support/faq/ainote_2.html
+  Secțiune: Bluetooth; headphones; AINOTE mobile; export. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa; breadcrumb Air 2 desi URL ainote_2.
+S06. Supernote — comparație Nomad/Manta
+  https://supernote.com/pages/help-me-choose-supernote
+  Secțiune: Ecrane; formate; scenarii. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S07. Supernote Nomad
+  https://supernote.com/products/supernote-nomad
+  Secțiune: Specifications — wireless. Data publicării/actualizării: neprecizată. Acces: continut_indexat_oficial.
+S08. Supernote Manta
+  https://supernote.com/products/supernote-manta
+  Secțiune: Specifications — wireless. Data publicării/actualizării: neprecizată. Acces: continut_indexat_oficial.
+S09. reMarkable Paper Pro Move — suport
+  https://support.remarkable.com/articles/Knowledge/About-reMarkable-Paper-Pro-Move
+  Secțiune: Technical specifications. Data publicării/actualizării: 2026-03-25. Acces: pagina_deschisa.
+S10. BOOX Note Air5 C
+  https://shop.boox.com/products/noteair5c
+  Secțiune: Android 15; Google Play; 10.3 inch Kaleido 3; wireless. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S11. iFLYTEK AINOTE 2 — produs
+  https://www.iflytek.com/en/products/air/ainote-2.html
+  Secțiune: Android 14; Google Play; Specifications. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S12. 讯飞翻译APP — politica oficială
+  https://saas-public.ioss.xfinfr.com/private/config/privacy-policy.html
+  Secțiune: 1.14.1, 1.14.2, 1.14.5, 1.14.8, 1.14.10. Data publicării/actualizării: 2026-09-29. Acces: continut_indexat_oficial; acces direct cu timeout.
+S13. Apple — utilizarea funcției Hearing Aid
+  https://support.apple.com/en-au/120992
+  Secțiune: Requirements; Set up; stored settings; Transparency/Media Assist. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S14. Apple România — funcția de aparat auditiv AirPods Pro 3
+  https://www.apple.com/ro/newsroom/2026/05/hearing-aid-feature-available-on-airpods-pro-3/
+  Secțiune: Disponibilitate în România; nota 1. Data publicării/actualizării: 2026-05-13. Acces: pagina_deschisa.
+S15. Apple — AirPods cu dispozitive non-Apple
+  https://support.apple.com/en-gb/guide/airpods/dev499c9718b/web
+  Secțiune: Pair with Android. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa si continut_indexat_oficial.
+S16. Sennheiser Conversation Clear Plus — manual
+  https://cdn.sennheiser-hearing.com/product-documents/product-downloads/conversation-clear-plus/instruction_manual/Instruction_manual_Conversation_Clear_Plus.pdf
+  Secțiune: Intended use p.4; app setup p.12. Data publicării/actualizării: 2023-01. Acces: PDF_oficial_citit.
+S17. Sennheiser Conversation Clear Plus — produs
+  https://global.sennheiser-hearing.com/products/conversation-clear-plus
+  Secțiune: Speech enhancement; limitare hearing aid. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S18. Widex — pairing
+  https://www.widex.com/en-us/support/pairing/
+  Secțiune: Android streaming; ASHA; LE Audio. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S19. Widex — compatibilitate
+  https://www.widex.com/en-gb/support/compatibility/
+  Secțiune: Allure app; ASHA; LE Audio; device-specific compatibility. Data publicării/actualizării: neprecizată. Acces: continut_indexat_oficial.
+S20. NIDCD — Hearing Aids
+  https://www.nidcd.nih.gov/health/hearing-aids
+  Secțiune: How hearing aids help; digital amplification; limits. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S21. Australian Government — sound quality features
+  https://www.health.gov.au/our-work/hearing-services-program/guide-to-hearing-technology/sound-quality-features
+  Secțiune: Frequency lowering. Data publicării/actualizării: 2023-11-13. Acces: pagina_deschisa.
+S22. Australian Government — speech understanding features
+  https://www.health.gov.au/our-work/hearing-services-program/guide-to-hearing-technology/speech-understanding-features
+  Secțiune: Compression; multiple channels. Data publicării/actualizării: neprecizată. Acces: continut_indexat_oficial.
+S23. Alexander — Nonlinear frequency compression
+  https://pubmed.ncbi.nlm.nih.gov/26936574/
+  Secțiune: Original study; JASA 139, 938–957; DOI 10.1121/1.4941916. Data publicării/actualizării: 2016. Acces: abstract_studiu_primar_citit.
+S24. Android AudioManager
+  https://developer.android.com/reference/android/media/AudioManager
+  Secțiune: setCommunicationDevice; getAvailableCommunicationDevices; volume index. Data publicării/actualizării: neprecizată. Acces: continut_indexat_documentatie_oficiala.
+S25. Android AudioRouting
+  https://developer.android.com/reference/android/media/AudioRouting
+  Secțiune: setPreferredDevice; getRoutedDevice. Data publicării/actualizării: neprecizată. Acces: continut_indexat_documentatie_oficiala.
+S26. Android TextToSpeech
+  https://developer.android.com/reference/android/speech/tts/TextToSpeech
+  Secțiune: setPitch; setSpeechRate; setVoice; speak. Data publicării/actualizării: neprecizată. Acces: continut_indexat_documentatie_oficiala.
+S27. Android SpeechRecognizer
+  https://developer.android.com/reference/android/speech/SpeechRecognizer
+  Secțiune: On-device availability; recognition result/error callbacks. Data publicării/actualizării: neprecizată. Acces: continut_indexat_documentatie_oficiala.
+S28. Android audio latency
+  https://developer.android.com/ndk/guides/audio/audio-latency
+  Secțiune: Round-trip latency; devices; buffers. Data publicării/actualizării: neprecizată. Acces: continut_indexat_documentatie_oficiala.
+S29. ASHA — Hearing Aids For Adults
+  https://www.asha.org/practice-portal/professional-issues/hearing-aids-for-adults/
+  Secțiune: Assessment; fitting; verification; outcome assessment. Data publicării/actualizării: neprecizată. Acces: continut_indexat_documentatie_oficiala.
+S30. AINOTE Agent Skill — pagina oficială
+  https://theainote.com/en-ca/pages/ainote-skill
+  Secțiune: Windows/Mac; Air 2/AINOTE 2; cloud; FAQ editing; Focus Star. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa si continut_indexat_oficial.
+S31. iflyink/ainote — note API
+  https://github.com/iflyink/ainote/blob/main/note/references/open-model-note-api.md
+  Secțiune: Quick Decision, linii 1–95; blob a2f87f992453f1fd24a88d285ba57842ace54893. Data publicării/actualizării: neprecizată. Acces: GitHub_connector.
+S32. iflyink/ainote — port/health
+  https://github.com/iflyink/ainote/blob/main/shared/port-and-health.md
+  Secțiune: Default Entry; Health Endpoint Mapping; blob 9da7efcbfd7e560860475cc3880a1052a808a9bc. Data publicării/actualizării: neprecizată. Acces: GitHub_connector.
+S33. Loomy changelog
+  https://loomy.xunfei.cn/changelog
+  Secțiune: 0.9.31 — asociere ochelari. Data publicării/actualizării: 2026-06-26. Acces: pagina_deschisa.
+S34. Loomy toolbox
+  https://loomy.xunfei.cn/docs/user-guide/toolbox
+  Secțiune: 添加外部MCP. Data publicării/actualizării: neprecizată. Acces: pagina_deschisa.
+S35. iFLYTEK SDK dispatcher
+  https://www.xfyun.cn/sdk/dispatcher?ch=api
+  Secțiune: SparkChain/AIKit — SDK pentru servicii AI. Data publicării/actualizării: neprecizată. Acces: pagina_oficiala_indexata.
+S36. iFLYTEK AIoT Android SDK
+  https://agent-aiot.xfyun.cn/docs/sdk/android/
+  Secțiune: Android client; Demo V1/V2; WebSocket/RTC. Data publicării/actualizării: neprecizată. Acces: pagina_oficiala_indexata.
+S37. iFLYTEK platform quick guide
+  https://www.xfyun.cn/doc/platform/quickguide.html
+  Secțiune: SDK download / console. Data publicării/actualizării: neprecizată. Acces: pagina_oficiala_indexata.
+
+Jurnalul căutării publice SDK/OTA:
+1. "XF-AIGlasses-01" SDK Bluetooth firmware
+  Domenii: web public. Rezultat: Rezultate comerciale; niciun pachet oficial specific modelului identificat.
+2. site:xfyun.cn "讯飞AI眼镜" SDK 蓝牙
+  Domenii: xfyun.cn. Rezultat: Documente generale și politici; distribuție Bluetooth specifică modelului neidentificată.
+3. site:iflytek.com "AI Glasses" SDK firmware download
+  Domenii: iflytek.com. Rezultat: Prezentări de produse/evenimente; nu imagine firmware ori kit hardware.
+4. "讯飞AI眼镜" "固件" 下载 SDK
+  Domenii: web public. Rezultat: Articole despre actualizări; niciun binar oficial verificabil identificat.
+5. 讯飞 AI眼镜 蓝牙 SDK 开发 下载
+  Domenii: xfyun.cn, iflytek.com, xunfei.cn. Rezultat: Indexuri și SDK-uri generale; fără țintă XF-AIGlasses-01 identificată.
+6. 讯飞 AI眼镜 固件 OTA3 下载
+  Domenii: xfyun.cn, iflytek.com, xunfei.cn. Rezultat: Niciun download oficial de imagine OTA pentru model identificat.
+7. "Spark-ASR-2.0" "眼镜"
+  Domenii: iflytek.com, xfyun.cn. Rezultat: Nicio sursă oficială identificată care să lege un endpoint/model exact de APK-ul analizat.
+8. "XF-AIGlasses-01"
+  Domenii: iflytek.com, xfyun.cn. Rezultat: Nicio pagină oficială de distribuție SDK/OTA specifică modelului identificată.
+
+Limita căutării: nu s-au accesat portaluri private, conturi de parteneri, dispozitive sau endpointuri OTA autentificate. Nu a fost identificat un pachet public; aceasta nu dovedește inexistența lui.
+
+Istoric: ../imbunatatire-raspunsuri/istoric-conversatie.json
+SHA-256: 429a95b308bcb879b17957a5963b550719692ca1d5640924a65ff58a85e7075c
+Răspunsurile originale și catalogul nu au fost modificate de acest auditor.
+

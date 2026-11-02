@@ -1,0 +1,158 @@
+[
+  {
+    "source_reference": "#1-scop-rol-și-granițele-documentului",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#10-fallback-și-reziliență",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#11-streaming-vs-batch--model-general",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#12-limbi-suportate-roende-garantat",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#13-latență-bugete-pe-cale",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#14-cost-orientativ-2026",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#15-licențele-modelelor-atașate-în-proiect",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#16-tabelul-central-furnizor--capabilitate--localcloud--limbi",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#17-legătura-cu-stocarea-conversațiilor-backend-selectabil",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#175-export",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#18-integrarea-cu-fluxul-audio-al-ochelarilor-și-cu-hud-ul",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#19-securitate-confidențialitate-i18n-accesibilitate",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#2-legenda-etichetelor",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#20-strategie-de-testare--ci",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#21-roadmap-pe-faze-modulul-ai",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#22-elemente-tentativ--plan-de-validare-pe-hardware",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#23-checklist-de-acoperire-a-cerințelor",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#3-arhitectura-modulului-ai-strategy--provider",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#4-modelul-de-date-conversație-segment-transcript",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#5-stt--speech-to-text-vorbire--text",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#6-tts--text-to-speech-text--vorbire",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#7-traducere-text--text",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#8-pipeline-uri-compuse-orchestrarea-motoarelor",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#9-selecția-motorului-per-funcție-din-setări--profil",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "00-INDEX.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "00-index.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "03-backend-server.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "04-protocol-comunicare.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "07-setari-profil.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "08-afisaj-hud.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "08-stocare-conversatii.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "10-camera-si-viziune.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "12-motoare-stt-tts-traducere.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "14-setari-de-profil.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "15-stocarea-conversatiilor.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "16-securitate-si-confidentialitate.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "17-backend-server-propriu.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "18-ota-si-firmware.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "21-limite-cunoscute-si-validare-hardware.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

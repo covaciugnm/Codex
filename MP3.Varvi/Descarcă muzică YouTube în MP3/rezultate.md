@@ -3875,3 +3875,880 @@ Aceasta este lista verificată pentru integrare; **căutarea automată între ac
   "durationMs": 11631275
 }
 ````
+
+## Asistent
+
+Voi adăuga opțiunile „MP3”, „MP4” și „Ambele”, atât pentru linkuri, cât și pentru importul Excel. Voi păstra metadatele MP3, organizarea pe foldere și pauzele dintre accesările YouTube.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-8025152c-d24e-4e48-b7c6-533da08a55e2",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'rg --files -g AGENTS.md; Get-Content app.py; Get-Content static/app.js; Get-Content requirements.txt'",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "79071",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg --files -g AGENTS.md; Get-Content app.py; Get-Content static/app.js; Get-Content requirements.txt"
+    }
+  ],
+  "aggregatedOutput": "\"\"\"Local YouTube audio library. Run with python app.py.\"\"\"\r\nimport csv\r\nimport io\r\nimport json\r\nimport os\r\nimport re\r\nimport shutil\r\nimport threading\r\nimport uuid\r\nimport time\r\nfrom contextlib import contextmanager\r\nfrom concurrent.futures import ThreadPoolExecutor\r\nfrom datetime import datetime, timezone\r\nfrom pathlib import Path\r\nfrom urllib.parse import parse_qs, urlparse\r\n\r\nfrom flask import Flask, jsonify, render_template, request, send_from_directory\r\nfrom PIL import Image\r\nfrom mutagen.id3 import ID3, APIC, COMM, TALB, TCON, TCOP, TDRC, TIT2, TPE1, TPE2, TPOS, TRCK, TXXX, WOAS\r\nfrom yt_dlp import YoutubeDL\r\nimport imageio_ffmpeg\r\nfrom excel_import import read_excel\r\n\r\nROOT = Path(__file__).resolve().parent\r\nOUTPUT = ROOT / 'downloads'\r\nOUTPUT.mkdir(exist_ok=True)\r\napp = Flask(__name__)\r\napp.config['MAX_CONTENT_LENGTH'] = 11 * 1024 * 1024\r\npool = ThreadPoolExecutor(max_workers=1)\r\nlock = threading.RLock()\r\njobs = {}\r\nimports = {}\r\nnext_request_at = 0.0\r\nCOOLDOWN_FILE = ROOT / '.runtime' / 'youtube-cooldown.json'\r\n\r\n\r\ndef cooldown_remaining():\r\n    try:\r\n        until = float(json.loads(COOLDOWN_FILE.read_text())['until'])\r\n        return max(0, int(until - time.time() + 1))\r\n    except (OSError, ValueError, KeyError, TypeError):\r\n        return 0\r\n\r\n\r\ndef stop_if_limited(job, error):\r\n    message = str(error).lower().replace('’', \"'\")\r\n    signals = ('429', 'too many requests', 'not a bot', 'captcha', 'unusual traffic', 'rate limit')\r\n    if not any(signal in message for signal in signals):\r\n        return False\r\n    reason = 'YouTube a cerut verificare sau a limitat cererile. Descărcarea este oprită; pauză de minimum 30 de minute, fără reluare automată.'\r\n    update(job, stop_reason=reason)\r\n    COOLDOWN_FILE.parent.mkdir(exist_ok=True)\r\n    COOLDOWN_FILE.write_text(json.dumps({'until': time.time() + 1800}), encoding='utf-8')\r\n    return True\r\n\r\n\r\n@contextmanager\r\ndef paced_request(job):\r\n    global next_request_at\r\n    while time.monotonic() < next_request_at:\r\n        remaining = max(1, int(next_request_at - time.monotonic() + 1))\r\n        update(job, message=f'Pauză între accesări YouTube: {remaining} secunde…')\r\n        time.sleep(min(1, max(0, next_request_at - time.monotonic())))\r\n    update(job, message='Accesez YouTube în ritm redus…')\r\n    try:\r\n        yield\r\n    finally:\r\n        next_request_at = time.monotonic() + 20\r\n\r\n\r\ndef finish_job(job, label='Gata'):\r\n    with lock:\r\n        state = jobs[job]\r\n        files, errors = state['files'], state['errors']\r\n        stopped = state.get('stop_reason')\r\n        status = ('partial' if files else 'failed') if errors or stopped else 'done'\r\n        message = f'{label}: {len(files)} salvate, {len(errors)} erori.'\r\n        update(job, status=status, message=f'{stopped} {message}' if stopped else message)\r\nFIELDS = ['file', 'artist', 'title', 'album', 'album_artist', 'genre', 'release_date', 'track', 'disc', 'youtube_title', 'channel', 'url', 'id', 'duration', 'upload_date', 'license', 'description', 'tags', 'categories', 'artist_source', 'album_source', 'cover', 'downloaded_at']\r\nFIELDS += ['source_file', 'source_sheet', 'source_row', 'excel_values']\r\n\r\n\r\ndef safe_name(value, limit=85):\r\n    name = re.sub(r'[<>:\"/\\\\|?*\\x00-\\x1f]', '_', str(value or '')).strip(' .')[:limit].rstrip(' .')\r\n    if not name:\r\n        name = 'Necunoscut'\r\n    if re.match(r'^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(?:\\.|$)', name, re.I):\r\n        name = '_' + name\r\n    return name\r\n\r\n\r\ndef youtube_url(value):\r\n    if not isinstance(value, str) or len(value) > 2048:\r\n        raise ValueError('Introdu un link YouTube valid.')\r\n    p = urlparse(value.strip())\r\n    if p.scheme != 'https' or p.hostname not in {'youtube.com', 'www.youtube.com', 'music.youtube.com', 'm.youtube.com', 'youtu.be'} or p.username or p.password or p.port not in (None, 443):\r\n        raise ValueError('Sunt acceptate doar linkuri HTTPS YouTube / YouTube Music / youtu.be.')\r\n    q = parse_qs(p.query)\r\n    if p.hostname == 'youtu.be':\r\n        video = p.path.strip('/')\r\n    elif p.path == '/watch':\r\n        video = q.get('v', [''])[0]\r\n    elif p.path.startswith(('/shorts/', '/live/')):\r\n        video = p.path.split('/')[2]\r\n    else:\r\n        video = ''\r\n    playlist = q.get('list', [''])[0]\r\n    if playlist and re.fullmatch(r'[\\w-]{10,100}', playlist):\r\n        return 'https://www.youtube.com/playlist?list=' + playlist\r\n    if re.fullmatch(r'[A-Za-z0-9_-]{11}', video):\r\n        return 'https://www.youtube.com/watch?v=' + video\r\n    raise ValueError('Linkul trebuie să indice o piesă sau un playlist, nu un canal.')\r\n\r\n\r\ndef metadata(info, playlist='', index=None):\r\n    original = info.get('title') or info['id']\r\n    artist = info.get('artist') or ', '.join(info.get('artists') or [])\r\n    title = info.get('track') or original\r\n    source = 'YouTube: artist'\r\n    if not artist:\r\n        parts = re.split(r'\\s+[-–—]\\s+', original, maxsplit=1)\r\n        if len(parts) == 2 and all(parts):\r\n            artist, parsed_title = parts\r\n            title = info.get('track') or parsed_title\r\n            source = 'dedus din titlul YouTube'\r\n        else:\r\n            artist = 'Artist necunoscut'\r\n            source = 'indisponibil (canalul nu este presupus artist)'\r\n    album = info.get('album') or playlist or ''\r\n    return dict(artist=artist, title=title, album=album,\r\n                album_artist=info.get('album_artist') or artist, genre=info.get('genre') or '',\r\n                release_date=info.get('release_date') or info.get('release_year') or '',\r\n                track=info.get('track_number') or index or '', disc=info.get('disc_number') or '',\r\n                youtube_title=original, channel=info.get('channel') or info.get('uploader') or '',\r\n                url='https://www.youtube.com/watch?v=' + info['id'], id=info['id'],\r\n                duration=info.get('duration') or '', upload_date=info.get('upload_date') or '',\r\n                license=info.get('license') or '', description=info.get('description') or '',\r\n                tags=json.dumps(info.get('tags') or [], ensure_ascii=False),\r\n                categories=json.dumps(info.get('categories') or [], ensure_ascii=False),\r\n                artist_source=source, album_source='YouTube: album' if info.get('album') else ('playlist' if playlist else 'indisponibil'),\r\n                cover=False, downloaded_at=datetime.now(timezone.utc).isoformat())\r\n\r\n\r\ndef write_tags(path, data, cover=None):\r\n    tags = ID3()\r\n    for key, frame in [('title', TIT2), ('artist', TPE1), ('album', TALB), ('album_artist', TPE2), ('genre', TCON), ('track', TRCK), ('disc', TPOS), ('license', TCOP)]:\r\n        if data.get(key):\r\n            tags.add(frame(encoding=1, text=[str(data[key])]))\r\n    date = str(data.get('release_date') or '')\r\n    if len(date) == 8 and date.isdigit():\r\n        date = f'{date[:4]}-{date[4:6]}-{date[6:]}'\r\n    if date:\r\n        tags.add(TDRC(encoding=1, text=[date]))\r\n    tags.add(WOAS(url=data['url']))\r\n    tags.add(COMM(encoding=1, lang='ron', desc='Descriere YouTube', text=[data['description']]))\r\n    for key in ['youtube_title', 'channel', 'id', 'upload_date', 'tags', 'categories', 'artist_source', 'album_source', 'downloaded_at']:\r\n        tags.add(TXXX(encoding=1, desc=key, text=[str(data[key])]))\r\n    if cover:\r\n        tags.add(APIC(encoding=1, mime='image/jpeg', type=3, desc='Cover', data=cover))\r\n    tags.save(path, v2_version=3, v1=2)\r\n\r\n\r\ndef csv_value(value):\r\n    text = str(value)\r\n    return \"'\" + text if text.lstrip().startswith(('=', '+', '-', '@')) or text.startswith(('\\t', '\\r', '\\n')) else text\r\n\r\n\r\ndef write_catalog(path, row):\r\n    rows = []\r\n    if path.exists():\r\n        with path.open(encoding='utf-8-sig', newline='') as f:\r\n            rows = list(csv.DictReader(f))\r\n    rows = [r for r in rows if r['file'] != csv_value(row['file'])]\r\n    rows.append({key: csv_value(row.get(key, '')) for key in FIELDS})\r\n    temp = path.with_suffix('.csv.tmp')\r\n    with temp.open('w', encoding='utf-8-sig', newline='') as f:\r\n        writer = csv.DictWriter(f, fieldnames=FIELDS)\r\n        writer.writeheader()\r\n        writer.writerows(rows)\r\n    temp.replace(path)\r\n\r\n\r\ndef ffmpeg_path():\r\n    return shutil.which('ffmpeg') or imageio_ffmpeg.get_ffmpeg_exe()\r\n\r\n\r\ndef update(job, **values):\r\n    with lock:\r\n        jobs[job].update(values)\r\n\r\n\r\nclass Log:\r\n    def __init__(self, job):\r\n        self.job = job\r\n    def debug(self, message):\r\n        pass\r\n    def warning(self, message):\r\n        with lock:\r\n            jobs[self.job]['warnings'] = (jobs[self.job]['warnings'] + [str(message)])[-30:]\r\n    def error(self, message):\r\n        self.warning(message)\r\n\r\n\r\ndef run_job(job, url, quality, source=None, finalize=True):\r\n    try:\r\n        update(job, status='running', message='Citesc informațiile YouTube…')\r\n        base = {'quiet': True, 'no_warnings': False, 'logger': Log(job), 'socket_timeout': 30,\r\n                'retries': 0, 'fragment_retries': 0, 'extractor_retries': 0,\r\n                'sleep_interval_requests': 2, 'sleep_interval': 8, 'max_sleep_interval': 8,\r\n                'concurrent_fragment_downloads': 1,\r\n                'ffmpeg_location': ffmpeg_path(), 'noplaylist': True, 'cachedir': str(ROOT / '.runtime' / 'yt-dlp'),\r\n                'js_runtimes': {'node': {}} if shutil.which('node') else {'deno': {}}}\r\n        with paced_request(job), YoutubeDL({**base, 'extract_flat': 'in_playlist', 'skip_download': True, 'ignoreerrors': False}) as ydl:\r\n            listing = ydl.extract_info(url, download=False)\r\n        if not listing:\r\n            raise RuntimeError('YouTube nu a furnizat informații pentru acest link.')\r\n        is_playlist = listing.get('_type') == 'playlist'\r\n        entries = list(listing.get('entries') or []) if is_playlist else [listing]\r\n        if not entries:\r\n            raise RuntimeError('Playlistul este gol sau nu este accesibil.')\r\n        playlist = listing.get('title', '') if is_playlist else ''\r\n        folder = OUTPUT / (safe_name(playlist, 65) + ' [' + safe_name(listing['id'], 45) + ']' if is_playlist else 'Piese individuale')\r\n        if source:\r\n            folder = OUTPUT / source['folder']\r\n            if is_playlist:\r\n                folder = folder / (safe_name(playlist, 65) + ' [' + safe_name(listing['id'], 45) + ']')\r\n        folder.mkdir(parents=True, exist_ok=True)\r\n        update(job, total=len(entries), folder=str(folder.relative_to(OUTPUT)))\r\n        for index, entry in enumerate(entries, 1):\r\n            try:\r\n                if not entry or not re.fullmatch(r'[A-Za-z0-9_-]{11}', entry.get('id', '')):\r\n                    raise RuntimeError('Piesă indisponibilă sau eliminată din playlist.')\r\n                video_url = 'https://www.youtube.com/watch?v=' + entry['id']\r\n                update(job, current=index, percent=0, message=entry.get('title') or video_url)\r\n                def progress(d):\r\n                    if d['status'] == 'downloading':\r\n                        total = d.get('total_bytes') or d.get('total_bytes_estimate') or 0\r\n                        update(job, percent=round(100 * d.get('downloaded_bytes', 0) / total, 1) if total else 0)\r\n                    elif d['status'] == 'finished':\r\n                        update(job, percent=100, message='Conversie MP3 și scriere metadate…')\r\n                staging = folder / '.work' / (entry['id'] + '-' + job[:8])\r\n                staging.mkdir(parents=True, exist_ok=True)\r\n                opts = {**base, 'format': 'bestaudio/best', 'outtmpl': str(staging / '%(id)s.%(ext)s'),\r\n                        'writethumbnail': True, 'progress_hooks': [progress],\r\n                        'postprocessors': [{'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': quality}],\r\n                        'postprocessor_args': {'extractaudio+ffmpeg_o': ['-ar', '44100', '-ac', '2']}}\r\n                with paced_request(job), YoutubeDL(opts) as ydl:\r\n                    info = ydl.extract_info(video_url, download=True)\r\n                    clean_info = ydl.sanitize_info(info)\r\n                mp3 = staging / (entry['id'] + '.mp3')\r\n                if not mp3.exists():\r\n                    raise RuntimeError('Conversia nu a produs un fișier MP3.')\r\n                data = metadata(info, playlist, index if is_playlist else None)\r\n                if source:\r\n                    data.update(source_file=source['file'], source_sheet=source['sheet'], source_row=source['row'],\r\n                                excel_values=json.dumps(source['values'], ensure_ascii=False))\r\n                cover = None\r\n                for thumb in staging.iterdir():\r\n                    if thumb.suffix.lower() in {'.jpg', '.jpeg', '.png', '.webp'}:\r\n                        try:\r\n                            with Image.open(thumb) as picture:\r\n                                picture = picture.convert('RGB')\r\n                                picture.thumbnail((600, 600))\r\n                                buffer = io.BytesIO()\r\n                                picture.save(buffer, 'JPEG', quality=85)\r\n                                cover = buffer.getvalue()\r\n                            break\r\n                        except (OSError, ValueError):\r\n                            continue\r\n                data['cover'] = bool(cover)\r\n                write_tags(mp3, data, cover)\r\n                stem = safe_name(data['artist'], 60) + ' - ' + safe_name(data['title'], 90)\r\n                target = folder / (stem + '.mp3')\r\n                # Never replace an existing user file, even on repeat downloads.\r\n                counter = 1\r\n                while target.exists():\r\n                    suffix = f' [{entry[\"id\"]}]' + (f' ({counter})' if counter > 1 else '')\r\n                    target = folder / (stem + suffix + '.mp3')\r\n                    counter += 1\r\n                mp3.replace(target)\r\n                data['file'] = str(target.relative_to(OUTPUT))\r\n                target.with_suffix('.info.json').write_text(json.dumps({'metadata': data, 'youtube': clean_info}, ensure_ascii=False, indent=2), encoding='utf-8')\r\n                if cover:\r\n                    target.with_suffix('.jpg').write_bytes(cover)\r\n                write_catalog(folder / 'catalog.csv', data)\r\n                write_catalog(OUTPUT / 'catalog.csv', data)\r\n                with lock:\r\n                    jobs[job]['files'].append(data)\r\n                # Only remove files inside this job's known staging directory.\r\n                for temporary in staging.iterdir():\r\n                    if temporary.is_file():\r\n                        temporary.unlink()\r\n                staging.rmdir()\r\n            except Exception as exc:\r\n                with lock:\r\n                    jobs[job]['errors'].append({'index': index, 'title': (entry or {}).get('title', ''), 'error': str(exc),\r\n                                               'source': f\"{source['sheet']} / rând {source['row']}\" if source else ''})\r\n                if stop_if_limited(job, exc):\r\n                    break\r\n        if not finalize:\r\n            return\r\n        finish_job(job)\r\n    except Exception as exc:\r\n        stop_if_limited(job, exc)\r\n        if finalize:\r\n            update(job, status='failed', message=jobs[job].get('stop_reason') or str(exc))\r\n        else:\r\n            with lock:\r\n                jobs[job]['errors'].append({'index': 0, 'title': url, 'error': str(exc),\r\n                                           'source': f\"{source['sheet']} / rând {source['row']}\"})\r\n\r\n\r\ndef import_folders(imported, create=False):\r\n    root = 'Excel - ' + safe_name(Path(imported['filename']).stem, 65)\r\n    folders = {}\r\n    for sheet in imported['sheets']:\r\n        if sheet['skipped']:\r\n            continue\r\n        name = f\"{len(folders) + 1:02d} - {safe_name(sheet['name'], 50)}\"\r\n        folders[sheet['name']] = str(Path(root) / name)\r\n        if create:\r\n            (OUTPUT / folders[sheet['name']]).mkdir(parents=True, exist_ok=True)\r\n    return folders\r\n\r\n\r\ndef run_import(job, imported, quality):\r\n    try:\r\n        run_import_links(job, imported, quality)\r\n    except Exception as exc:\r\n        update(job, status='failed', message=f'Import întrerupt: {exc}')\r\n\r\n\r\ndef run_import_links(job, imported, quality):\r\n    folders = import_folders(imported, create=True)\r\n    for number, entry in enumerate(imported['entries'], 1):\r\n        update(job, batch_current=number, batch_total=len(imported['entries']), current=0, total=0,\r\n               source_label=f\"{entry['sheet']} · rândul {entry['row']}\")\r\n        source = {**entry, 'file': imported['filename'], 'folder': folders[entry['sheet']]}\r\n        run_job(job, entry['url'], quality, source=source, finalize=False)\r\n        if jobs[job].get('stop_reason'):\r\n            break\r\n    finish_job(job, 'Import terminat')\r\n\r\n\r\ndef new_job():\r\n    # Caller holds lock so single-link and Excel starts cannot race.\r\n    if any(j['status'] in {'queued', 'running'} for j in jobs.values()):\r\n        return None\r\n    job = uuid.uuid4().hex\r\n    jobs.clear()\r\n    jobs[job] = dict(id=job, status='queued', total=0, current=0, percent=0, files=[], errors=[], warnings=[], message='În așteptare…')\r\n    return job\r\n\r\n\r\n@app.errorhandler(413)\r\ndef too_large(_):\r\n    return jsonify(error='Fișierul este prea mare. Maximum 10 MB.'), 413\r\n\r\n\r\n@app.post('/api/imports')\r\ndef preview_import():\r\n    upload = request.files.get('file')\r\n    if not upload or not upload.filename.lower().endswith('.xlsx'):\r\n        return jsonify(error='Alege un fișier Excel .xlsx. Pentru .xls, salvează-l mai întâi ca .xlsx.'), 400\r\n    try:\r\n        imported = read_excel(upload.read(), youtube_url)\r\n    except ValueError as exc:\r\n        return jsonify(error=str(exc)), 400\r\n    imported['filename'] = upload.filename.replace('\\\\', '/').split('/')[-1]\r\n    imported['folders'] = import_folders(imported)\r\n    token = uuid.uuid4().hex\r\n    with lock:\r\n        while len(imports) >= 5:\r\n            imports.pop(next(iter(imports)))\r\n        imports[token] = imported\r\n    return jsonify(id=token, **imported)\r\n\r\n\r\n@app.post('/api/imports/<token>/start')\r\ndef start_import(token):\r\n    payload = request.get_json(silent=True) or {}\r\n    quality = str(payload.get('quality', '192')) if isinstance(payload, dict) else ''\r\n    if quality not in {'128', '192', '256', '320'}:\r\n        return jsonify(error='Calitate MP3 invalidă.'), 400\r\n    with lock:\r\n        imported = imports.get(token)\r\n        if not imported:\r\n            return jsonify(error='Importul a expirat. Încarcă din nou fișierul.'), 404\r\n        if not imported['entries']:\r\n            return jsonify(error='Fișierul nu conține linkuri YouTube valide.'), 400\r\n        job = new_job()\r\n        if not job:\r\n            return jsonify(error='O descărcare este deja în lucru. Așteaptă finalizarea.'), 409\r\n        imports.pop(token)\r\n    pool.submit(run_import, job, imported, quality)\r\n    return jsonify(id=job), 202\r\n\r\n\r\n@app.before_request\r\ndef local_only():\r\n    if request.host.split(':')[0] not in {'127.0.0.1', 'localhost'}:\r\n        return jsonify(error='Acces doar local.'), 403\r\n    if request.method == 'POST':\r\n        if request.headers.get('X-MP3-App') != 'local' or (request.headers.get('Origin') and request.headers['Origin'] != request.host_url.rstrip('/')):\r\n            return jsonify(error='Cerere neautorizată.'), 403\r\n        if request.path == '/api/jobs' or (request.path.startswith('/api/imports/') and request.path.endswith('/start')):\r\n            remaining = cooldown_remaining()\r\n            if remaining:\r\n                return jsonify(error=f'Pauză după limitarea YouTube: mai sunt {(remaining + 59) // 60} minute. Nu reluăm automat.'), 429, {'Retry-After': str(remaining)}\r\n\r\n\r\n@app.get('/')\r\ndef home():\r\n    return render_template('index.html')\r\n\r\n\r\n@app.get('/api/status')\r\ndef status():\r\n    return jsonify(output=str(OUTPUT), ffmpeg=bool(Path(ffmpeg_path()).exists()), javascript=bool(shutil.which('deno') or shutil.which('node')))\r\n\r\n\r\n@app.post('/api/jobs')\r\ndef create_job():\r\n    payload = request.get_json(silent=True) or {}\r\n    try:\r\n        url = youtube_url(payload.get('url', ''))\r\n        quality = str(payload.get('quality', '192'))\r\n        if quality not in {'128', '192', '256', '320'}:\r\n            raise ValueError('Calitate MP3 invalidă.')\r\n    except ValueError as exc:\r\n        return jsonify(error=str(exc)), 400\r\n    with lock:\r\n        job = new_job()\r\n        if not job:\r\n            return jsonify(error='O descărcare este deja în lucru. Așteaptă finalizarea.'), 409\r\n    pool.submit(run_job, job, url, quality)\r\n    return jsonify(id=job), 202\r\n\r\n\r\n@app.get('/api/jobs/<job>')\r\ndef get_job(job):\r\n    with lock:\r\n        if job not in jobs:\r\n            return jsonify(error='Sesiune inexistentă.'), 404\r\n        return jsonify(jobs[job])\r\n\r\n\r\n@app.get('/files/<path:name>')\r\ndef files(name):\r\n    if any(part.startswith('.') for part in Path(name).parts):\r\n        return jsonify(error='Fișier indisponibil.'), 404\r\n    return send_from_directory(OUTPUT, name, as_attachment=True)\r\n\r\n\r\nif __name__ == '__main__':\r\n    print('MP3 Varvi: http://127.0.0.1:8765', flush=True)\r\n    app.run(host='127.0.0.1', port=8765, debug=False)\r\nconst $ = id => document.getElementById(id);\r\nlet timer, importId = null, importCount = 0, busy = false;\r\nconst fileUrl = name => '/files/' + name.split(/[\\\\/]/).map(encodeURIComponent).join('/');\r\nfunction setBusy(value) {\r\n  busy = value;\r\n  $('start').disabled = value;\r\n  $('excel-start').disabled = value || !importId || !importCount;\r\n}\r\nasync function responseJSON(response) {\r\n  const data = await response.json();\r\n  if (!response.ok) throw Error(data.error || 'Cererea a eșuat.');\r\n  return data;\r\n}\r\nfunction beginJob(id) {\r\n  clearTimeout(timer);\r\n  localStorage.setItem('mp3-job', id);\r\n  $('job').hidden = false;\r\n  $('error').textContent = '';\r\n  setBusy(true);\r\n  poll(id);\r\n}\r\nasync function poll(id) {\r\n  try {\r\n    const response = await fetch('/api/jobs/' + id);\r\n    if (response.status === 404) {\r\n      localStorage.removeItem('mp3-job');\r\n      setBusy(false);\r\n      $('message').textContent = 'Sesiunea anterioară s-a încheiat. Poți începe o descărcare nouă.';\r\n      return;\r\n    }\r\n    const job = await responseJSON(response);\r\n    $('message').textContent = job.message;\r\n    const batch = job.batch_total ? `LINK ${job.batch_current} / ${job.batch_total} · ${job.source_label} · ` : '';\r\n    $('count').textContent = `${batch}PIESA ${job.current} / ${job.total} · ${job.files.length} SALVATE`;\r\n    $('progress').value = job.percent;\r\n    $('folder').textContent = job.folder || '';\r\n    $('results').replaceChildren();\r\n    for (const file of job.files) {\r\n      const row = document.createElement('tr');\r\n      for (const value of [file.artist + ' — ' + file.title, file.album || '—']) {\r\n        const cell = document.createElement('td'); cell.textContent = value; row.append(cell);\r\n      }\r\n      const cell = document.createElement('td'), link = document.createElement('a');\r\n      link.href = fileUrl(file.file); link.textContent = 'MP3 ↓'; cell.append(link); row.append(cell);\r\n      $('results').append(row);\r\n    }\r\n    const logs = [...job.errors.map(e => `${e.source || ''} Piesa ${e.index}: ${e.title}\\n${e.error}`), ...job.warnings];\r\n    $('details').hidden = !logs.length; $('logs').textContent = logs.join('\\n\\n');\r\n    if (['done', 'partial', 'failed'].includes(job.status)) {\r\n      localStorage.removeItem('mp3-job'); setBusy(false);\r\n      if (job.status === 'failed') $('error').textContent = job.message;\r\n      return;\r\n    }\r\n    timer = setTimeout(() => poll(id), 1200);\r\n  } catch (error) {\r\n    $('error').textContent = 'Conexiune întreruptă; reîncerc automat. ' + error.message;\r\n    timer = setTimeout(() => poll(id), 5000);\r\n  }\r\n}\r\n$('form').addEventListener('submit', async event => {\r\n  event.preventDefault(); $('error').textContent = ''; setBusy(true);\r\n  try {\r\n    const data = await responseJSON(await fetch('/api/jobs', {\r\n      method: 'POST', headers: {'Content-Type': 'application/json', 'X-MP3-App': 'local'},\r\n      body: JSON.stringify({url: $('url').value, quality: $('quality').value})\r\n    }));\r\n    beginJob(data.id);\r\n  } catch (error) { $('error').textContent = error.message; setBusy(false); }\r\n});\r\nfunction resetImport() {\r\n  importId = null; importCount = 0; $('excel-summary').hidden = true;\r\n  $('excel-error').textContent = ''; setBusy(busy);\r\n}\r\n$('excel-file').addEventListener('change', resetImport);\r\n$('excel-form').addEventListener('submit', async event => {\r\n  event.preventDefault(); resetImport();\r\n  const file = $('excel-file').files[0];\r\n  if (!file) return;\r\n  if (file.size > 10 * 1024 * 1024) { $('excel-error').textContent = 'Maximum 10 MB.'; return; }\r\n  $('excel-preview').disabled = true; $('excel-file').disabled = true;\r\n  try {\r\n    const form = new FormData(); form.append('file', file);\r\n    const data = await responseJSON(await fetch('/api/imports', {method: 'POST', headers: {'X-MP3-App': 'local'}, body: form}));\r\n    importId = data.id; importCount = data.entries.length;\r\n    $('excel-summary').hidden = false;\r\n    $('excel-count').textContent = `${data.filename}: ${importCount} linkuri valide, ${data.issues.length} rânduri omise cu probleme sau duplicate.` +\r\n      (!importCount ? ' Completează coloana Link YouTube din Excel, salvează și importă din nou.' : ' Verifică lista, apoi pornește descărcarea.');\r\n    $('excel-sheets').textContent = data.sheets.map(s => `${s.name}: ${s.skipped ? 'fără coloană de linkuri' : s.count + ' linkuri'}`).join(' · ');\r\n    $('excel-links').replaceChildren();\r\n    for (const entry of data.entries) {\r\n      const row = document.createElement('tr'), location = document.createElement('td'), cell = document.createElement('td');\r\n      location.textContent = `${entry.sheet} / ${entry.row}`;\r\n      location.title = data.folders[entry.sheet] || '';\r\n      const link = document.createElement('a'); link.href = entry.url; link.textContent = entry.url;\r\n      link.target = '_blank'; link.rel = 'noopener noreferrer'; cell.append(link); row.append(location, cell); $('excel-links').append(row);\r\n    }\r\n    $('excel-issues').hidden = !data.issues.length;\r\n    $('excel-issue-list').textContent = data.issues.map(i => `${i.sheet}, rând ${i.row}: ${i.reason}`).join('\\n');\r\n  } catch (error) { $('excel-error').textContent = error.message; }\r\n  finally { $('excel-preview').disabled = false; $('excel-file').disabled = false; setBusy(busy); }\r\n});\r\n$('excel-start').addEventListener('click', async () => {\r\n  if (!importId || busy) return;\r\n  setBusy(true); $('excel-error').textContent = '';\r\n  try {\r\n    const data = await responseJSON(await fetch(`/api/imports/${importId}/start`, {\r\n      method: 'POST', headers: {'Content-Type': 'application/json', 'X-MP3-App': 'local'},\r\n      body: JSON.stringify({quality: $('quality').value})\r\n    }));\r\n    importId = null; beginJob(data.id);\r\n    $('job').scrollIntoView({behavior: 'smooth'});\r\n  } catch (error) { $('excel-error').textContent = error.message; setBusy(false); }\r\n});\r\nfetch('/api/status').then(responseJSON).then(s => { $('destination').textContent = s.output; })\r\n  .catch(() => { $('destination').textContent = 'Server indisponibil'; });\r\nconst previous = localStorage.getItem('mp3-job');\r\nif (previous) beginJob(previous);\r\nFlask>=3.1,<4\r\nyt-dlp[default]>=2026.3.17\r\nmutagen>=1.47,<2\r\nPillow>=11,<13\r\nimageio-ffmpeg>=0.6,<1\r\nopenpyxl>=3.1.5,<4\r\ndefusedxml>=0.7.1,<1\r\n",
+  "exitCode": 0,
+  "durationMs": 218
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-8ac43c9d-e3d0-470f-b6f7-93d19108ad2c",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\app.py",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -22,2 +22,3 @@\n from excel_import import read_excel\n+from media_download import download_media, validate_mode, write_video_tags\n \n@@ -80,2 +81,3 @@\n FIELDS += ['source_file', 'source_sheet', 'source_row', 'excel_values']\n+FIELDS += ['format']\n \n@@ -203,3 +205,3 @@\n \n-def run_job(job, url, quality, source=None, finalize=True):\n+def run_job(job, url, quality, source=None, finalize=True, mode='mp3'):\n     try:\n@@ -239,15 +241,11 @@\n                     elif d['status'] == 'finished':\n-                        update(job, percent=100, message='Conversie MP3 și scriere metadate…')\n+                        update(job, percent=100, message='Pregătesc fișierele și metadatele…')\n                 staging = folder / '.work' / (entry['id'] + '-' + job[:8])\n                 staging.mkdir(parents=True, exist_ok=True)\n-                opts = {**base, 'format': 'bestaudio/best', 'outtmpl': str(staging / '%(id)s.%(ext)s'),\n-                        'writethumbnail': True, 'progress_hooks': [progress],\n-                        'postprocessors': [{'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': quality}],\n-                        'postprocessor_args': {'extractaudio+ffmpeg_o': ['-ar', '44100', '-ac', '2']}}\n-                with paced_request(job), YoutubeDL(opts) as ydl:\n-                    info = ydl.extract_info(video_url, download=True)\n-                    clean_info = ydl.sanitize_info(info)\n-                mp3 = staging / (entry['id'] + '.mp3')\n-                if not mp3.exists():\n-                    raise RuntimeError('Conversia nu a produs un fișier MP3.')\n+                with paced_request(job):\n+                    info, clean_info, outputs, conversion_errors = download_media(\n+                        YoutubeDL, base, staging, entry['id'], video_url, quality, mode, progress)\n+                for error in conversion_errors:\n+                    with lock:\n+                        jobs[job]['errors'].append({'index': index, 'title': entry.get('title', ''), 'error': error})\n                 data = metadata(info, playlist, index if is_playlist else None)\n@@ -270,20 +268,26 @@\n                 data['cover'] = bool(cover)\n-                write_tags(mp3, data, cover)\n                 stem = safe_name(data['artist'], 60) + ' - ' + safe_name(data['title'], 90)\n-                target = folder / (stem + '.mp3')\n+                candidate = stem\n                 # Never replace an existing user file, even on repeat downloads.\n                 counter = 1\n-                while target.exists():\n+                while any((folder / (candidate + suffix)).exists() for suffix in ('.mp3', '.mp4', '.info.json', '.jpg')):\n                     suffix = f' [{entry[\"id\"]}]' + (f' ({counter})' if counter > 1 else '')\n-                    target = folder / (stem + suffix + '.mp3')\n+                    candidate = stem + suffix\n                     counter += 1\n-                mp3.replace(target)\n-                data['file'] = str(target.relative_to(OUTPUT))\n-                target.with_suffix('.info.json').write_text(json.dumps({'metadata': data, 'youtube': clean_info}, ensure_ascii=False, indent=2), encoding='utf-8')\n-                if cover:\n-                    target.with_suffix('.jpg').write_bytes(cover)\n-                write_catalog(folder / 'catalog.csv', data)\n-                write_catalog(OUTPUT / 'catalog.csv', data)\n-                with lock:\n-                    jobs[job]['files'].append(data)\n+                for extension, media_path in outputs.items():\n+                    if extension == 'mp3':\n+                        write_tags(media_path, data, cover)\n+                    else:\n+                        write_video_tags(media_path, data, cover)\n+                    target = folder / (candidate + '.' + extension)\n+                    media_path.replace(target)\n+                    record = {**data, 'file': str(target.relative_to(OUTPUT)), 'format': extension}\n+                    # Per-format sidecars keep audio and video metadata independent.\n+                    target.with_name(target.name + '.info.json').write_text(json.dumps({'metadata': record, 'youtube': clean_info}, ensure_ascii=False, indent=2), encoding='utf-8')\n+                    if cover:\n+                        target.with_name(target.name + '.jpg').write_bytes(cover)\n+                    write_catalog(folder / 'catalog.csv', record)\n+                    write_catalog(OUTPUT / 'catalog.csv', record)\n+                    with lock:\n+                        jobs[job]['files'].append(record)\n                 # Only remove files inside this job's known staging directory.\n@@ -325,5 +329,5 @@\n \n-def run_import(job, imported, quality):\n+def run_import(job, imported, quality, mode='mp3'):\n     try:\n-        run_import_links(job, imported, quality)\n+        run_import_links(job, imported, quality, mode)\n     except Exception as exc:\n@@ -332,3 +336,3 @@\n \n-def run_import_links(job, imported, quality):\n+def run_import_links(job, imported, quality, mode='mp3'):\n     folders = import_folders(imported, create=True)\n@@ -338,3 +342,3 @@\n         source = {**entry, 'file': imported['filename'], 'folder': folders[entry['sheet']]}\n-        run_job(job, entry['url'], quality, source=source, finalize=False)\n+        run_job(job, entry['url'], quality, source=source, finalize=False, mode=mode)\n         if jobs[job].get('stop_reason'):\n@@ -384,2 +388,6 @@\n         return jsonify(error='Calitate MP3 invalidă.'), 400\n+    try:\n+        mode = validate_mode(payload.get('mode', 'mp3'))\n+    except ValueError as exc:\n+        return jsonify(error=str(exc)), 400\n     with lock:\n@@ -394,3 +402,3 @@\n         imports.pop(token)\n-    pool.submit(run_import, job, imported, quality)\n+    pool.submit(run_import, job, imported, quality, mode)\n     return jsonify(id=job), 202\n@@ -425,2 +433,5 @@\n     try:\n+        if not isinstance(payload, dict):\n+            raise ValueError('Cerere invalidă.')\n+        mode = validate_mode(payload.get('mode', 'mp3'))\n         url = youtube_url(payload.get('url', ''))\n@@ -435,3 +446,3 @@\n             return jsonify(error='O descărcare este deja în lucru. Așteaptă finalizarea.'), 409\n-    pool.submit(run_job, job, url, quality)\n+    pool.submit(run_job, job, url, quality, mode=mode)\n     return jsonify(id=job), 202\n"
+    },
+    {
+      "path": "D:\\MP3.Varvi\\media_download.py",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "\"\"\"Separate audio/video download and local conversion functions.\"\"\"\nimport subprocess\nfrom pathlib import Path\n\nMODES = {'mp3', 'mp4', 'both'}\n\n\ndef validate_mode(value):\n    if not isinstance(value, str) or value not in MODES:\n        raise ValueError('Alege MP3, MP4 sau Ambele.')\n    return value\n\n\ndef convert_media(ffmpeg, source, target, quality='192'):\n    \"\"\"Create a new local output; never overwrite a destination.\"\"\"\n    args = [ffmpeg, '-hide_banner', '-loglevel', 'error', '-nostdin', '-n', '-i', str(source)]\n    if target.suffix == '.mp3':\n        args += ['-map', '0:a:0', '-vn', '-c:a', 'libmp3lame', '-b:a', quality + 'k', '-ar', '44100', '-ac', '2']\n    else:\n        args += ['-map', '0:v:0', '-map', '0:a:0', '-c:v', 'libx264', '-preset', 'fast', '-crf', '20',\n                 '-pix_fmt', 'yuv420p', '-vf', 'pad=ceil(iw/2)*2:ceil(ih/2)*2',\n                 '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart']\n    result = subprocess.run(args + [str(target)], capture_output=True, text=True, encoding='utf-8', errors='replace')\n    if result.returncode:\n        if target.exists():\n            target.unlink()\n        raise RuntimeError(f'Conversie {target.suffix[1:].upper()} eșuată: {result.stderr[-1500:]}')\n\n\ndef download_media(ydl_factory, base, staging, video_id, url, quality, mode, progress):\n    \"\"\"Download once; both outputs use the same downloaded video source.\"\"\"\n    validate_mode(mode)\n    options = {**base, 'outtmpl': str(staging / '%(id)s.%(ext)s'),\n               'writethumbnail': True, 'progress_hooks': [progress]}\n    if mode == 'mp3':\n        options.update(format='bestaudio/best',\n                       postprocessors=[{'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': quality}],\n                       postprocessor_args={'extractaudio+ffmpeg_o': ['-ar', '44100', '-ac', '2']})\n    else:\n        options.update(format='bv[height<=1080]+ba/b[height<=1080]', merge_output_format='mkv')\n    with ydl_factory(options) as ydl:\n        info = ydl.extract_info(url, download=True)\n        clean_info = ydl.sanitize_info(info)\n    outputs, errors = {}, []\n    if mode == 'mp3':\n        output = staging / (video_id + '.mp3')\n        if not output.exists():\n            raise RuntimeError('Conversia nu a produs un fișier MP3.')\n        outputs['mp3'] = output\n    else:\n        sources = [p for p in staging.iterdir() if p.stem == video_id and p.suffix in {'.mkv', '.mp4', '.webm', '.mov', '.flv'}]\n        if len(sources) != 1:\n            raise RuntimeError('Nu pot identifica fișierul video descărcat.')\n        source = sources[0]\n        for extension in (['mp4', 'mp3'] if mode == 'both' else ['mp4']):\n            target = staging / ('converted.' + extension)\n            try:\n                convert_media(base['ffmpeg_location'], source, target, quality)\n                outputs[extension] = target\n            except RuntimeError as exc:\n                errors.append(str(exc))\n    return info, clean_info, outputs, errors\n\n\ndef write_video_tags(path, data, cover=None):\n    from mutagen.mp4 import MP4, MP4Cover\n    video = MP4(path)\n    for key, atom in [('title', '\\xa9nam'), ('artist', '\\xa9ART'), ('album', '\\xa9alb'),\n                      ('album_artist', 'aART'), ('genre', '\\xa9gen'), ('release_date', '\\xa9day'),\n                      ('description', 'desc')]:\n        if data.get(key):\n            video[atom] = [str(data[key])]\n    video['\\xa9cmt'] = [data['url']]\n    if cover:\n        video['covr'] = [MP4Cover(cover, imageformat=MP4Cover.FORMAT_JPEG)]\n    video.save()\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-002cea3e-3683-4293-a7a9-70f77f44789a",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content tests/test_conversion.py; Get-Content tests/browser.cjs; Get-Content .venv/pyvenv.cfg; Get-Command node -ErrorAction SilentlyContinue; rg -n 'MP3|form' templates/index.html\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "84002",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content tests/test_conversion.py; Get-Content tests/browser.cjs; Get-Content .venv/pyvenv.cfg; Get-Command node -ErrorAction SilentlyContinue; rg -n 'MP3|form' templates/index.html"
+    }
+  ],
+  "aggregatedOutput": "import subprocess\r\nimport tempfile\r\nimport unittest\r\nfrom pathlib import Path\r\nfrom mutagen.mp3 import MP3\r\nfrom yt_dlp import YoutubeDL\r\nfrom yt_dlp.postprocessor.ffmpeg import FFmpegExtractAudioPP\r\nimport app\r\n\r\n\r\nclass ConversionTests(unittest.TestCase):\r\n    def test_real_conversion_with_installed_ffmpeg(self):\r\n        with tempfile.TemporaryDirectory() as tmp:\r\n            source = Path(tmp) / 'sample.wav'\r\n            subprocess.run([app.ffmpeg_path(), '-v', 'error', '-f', 'lavfi', '-i', 'sine=frequency=440:duration=1', str(source)], check=True, capture_output=True)\r\n            with YoutubeDL({'quiet': True, 'ffmpeg_location': app.ffmpeg_path(), 'postprocessor_args': {'extractaudio+ffmpeg_o': ['-ar', '44100', '-ac', '2']}}) as ydl:\r\n                processor = FFmpegExtractAudioPP(ydl, preferredcodec='mp3', preferredquality='192')\r\n                _, result = processor.run({'filepath': str(source), 'ext': 'wav'})\r\n            output = Path(result['filepath'])\r\n            app.write_tags(output, app.metadata({'id': 'abcdefghijk', 'title': 'Artist - Piesă'}))\r\n            audio = MP3(output)\r\n            self.assertEqual(audio.info.sample_rate, 44100)\r\n            self.assertEqual(audio.info.channels, 2)\r\n            self.assertGreater(audio.info.length, 0.9)\r\n            self.assertEqual(str(audio.tags['TIT2']), 'Piesă')\r\nconst {chromium} = require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');\r\n(async()=>{\r\n const browser=await chromium.launch({channel:'msedge',headless:true});\r\n const page=await browser.newPage({viewport:{width:1280,height:900}});\r\n const errors=[];page.on('pageerror',e=>errors.push(e.message));\r\n await page.goto('http://127.0.0.1:8765');\r\n await page.waitForFunction(()=>document.querySelector('#destination').textContent.includes('downloads'));\r\n await page.fill('#url','https://example.com/video');\r\n await page.click('#start');\r\n await page.waitForFunction(()=>document.querySelector('#error').textContent.includes('HTTPS YouTube'));\r\n await page.setInputFiles('#excel-file','outputs/party_20261008/Model_playlist_masa_si_petrecere.xlsx');\r\n await page.click('#excel-preview');\r\n await page.waitForFunction(()=>document.querySelector('#excel-count').textContent.includes('0 linkuri valide'));\r\n if(!await page.locator('#excel-start').isDisabled())throw Error('Empty model must not start');\r\n await page.setInputFiles('#excel-file','.runtime/import-test.xlsx');\r\n await page.click('#excel-preview');\r\n await page.waitForFunction(()=>document.querySelector('#excel-count').textContent.includes('4 linkuri valide'));\r\n if(await page.locator('#excel-links tr').count()!==4)throw Error('Preview row count');\r\n if(await page.locator('#excel-start').isDisabled())throw Error('Valid preview must enable start');\r\n await page.route('**/api/imports/*/start',r=>r.fulfill({json:{id:'browser-test'},status:202}));\r\n await page.route('**/api/jobs/browser-test',r=>r.fulfill({json:{status:'done',message:'Import terminat',current:1,total:1,percent:100,files:[],errors:[],warnings:[],batch_current:4,batch_total:4,source_label:'Românești'}}));\r\n await page.click('#excel-start');\r\n await page.waitForFunction(()=>document.querySelector('#message').textContent==='Import terminat');\r\n await page.screenshot({path:'.runtime/desktop.png',fullPage:true});\r\n await page.setViewportSize({width:390,height:844});\r\n if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw Error('Mobile overflow');\r\n await page.screenshot({path:'.runtime/mobile.png',fullPage:true});\r\n await browser.close();\r\n if(errors.length)throw Error(errors.join('\\n'));\r\n console.log('Browser OK: page, invalid link, real empty model, Excel preview, mocked batch start, mobile layout, no JavaScript errors');\r\n})().catch(e=>{console.error(e);process.exit(1)});\r\nhome = C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\r\ninclude-system-site-packages = false\r\nversion = 3.12.14\r\nexecutable = C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\r\ncommand = C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -m venv D:\\MP3.Varvi\\.venv\r\n\r\nCommandType     Name                                               Version    Source\r\n-----------     ----                                               -------    ------\r\nApplication     node.exe                                           24.18.0.0  C:\\Program Files\\nodejs\\node.exe\r\n5:<title>MP3 Varvi · Muzica ta la drum</title>\r\n10:<header><div class=\"brand\">◉ MP3 VARVI</div><span class=\"badge\">LOCAL · PREGĂTIT PENTRU DRUM</span></header>\r\n11:<section class=\"intro\"><div class=\"eyebrow\">BIBLIOTECA TA, LA TINE</div><h1>Muzica ta.<br><span>Cu toate detaliile.</span></h1><p>Dintr-un link YouTube în MP3, cu artist, titlu și copertă.<br>Organizate în foldere, gata de copiat pe stick.</p></section>\n13:<form class=\"panel\" id=\"form\"><div class=\"controls\"><div><label for=\"url\">LINK PIESĂ SAU PLAYLIST</label><input id=\"url\" type=\"url\" placeholder=\"https://www.youtube.com/playlist?list=…\" required></div><div><label for=\"quality\">CALITATE MP3</label><select id=\"quality\"><option>128</option><option selected>192</option><option>256</option><option>320</option></select></div></div><button id=\"start\">Descarcă muzica ↗</button><p class=\"hint\">kbps · O valoare mai mare nu îmbunătățește sursa YouTube. Un link cu „list=” descarcă întregul playlist.</p><p id=\"error\" role=\"alert\"></p></form>\r\n17:<form id=\"excel-form\"><label for=\"excel-file\">FIȘIER EXCEL · MAXIMUM 10 MB</label><input id=\"excel-file\" type=\"file\" accept=\".xlsx\" required><button id=\"excel-preview\">Verifică linkurile</button></form>\r\n22:<p class=\"hint\">Foldere separate pe foi Excel. Duplicate omise în cadrul importului; linkurile de playlist descarcă toate piesele. Metadatele și numele MP3 sunt preluate din YouTube; datele Excel sunt păstrate separat în CSV și JSON.</p>\r\n23:<button id=\"excel-start\" disabled>Descarcă linkurile importate</button><p class=\"hint\">Se folosește calitatea MP3 selectată mai sus. Descărcarea se face pe rând.</p></div>\r\n26:<section class=\"features\"><div><span class=\"number\">01 / DISPLAY AUTO</span><strong>Mai mult decât un nume</strong><p>Etichete ID3v2.3, copertă JPEG și informațiile muzicale disponibile.</p></div><div><span class=\"number\">02 / ORDINE ÎN COLECȚIE</span><strong>Artist - Piesă.mp3</strong><p>Foldere pe playlisturi, nume sigure pentru Windows și protecție la nume duplicate.</p></div><div><span class=\"number\">03 / TOTUL LA UN LOC</span><strong>Catalog CSV + JSON</strong><p>Catalog pe folder și general. Metadatele suplimentare sunt păstrate și în fișiere JSON.</p></div></section>\r\n27:<footer><p>Salvare: <span id=\"destination\" class=\"path\">…</span> · <a href=\"/files/catalog.csv\">Catalog general CSV</a></p><p>Informațiile depind de YouTube; artistul dedus din titlu este indicat în CSV. Afișarea copertei și a câmpurilor depinde de playerul mașinii. Folosește aplicația pentru conținut pe care ai dreptul să îl descarci.</p></footer>\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 1246
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-56e7df8c-741f-45ec-aa99-40712f4f6c57",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\README.md",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -2,2 +2,10 @@\n \n+## Audio și videoclipuri\n+\n+Selectorul **Ce descărcăm?** oferă MP3, MP4 sau Ambele și se aplică atât linkurilor individuale/playlisturilor, cât și importului Excel. MP3 rămâne opțiunea implicită. Videoclipul include sunet, este limitat la maximum 1080p (în funcție de sursă) și este convertit în MP4 H.264/AAC. Conversia poate dura și folosește mai mult spațiu decât audio.\n+\n+La **Ambele**, aceeași sursă video este descărcată o singură dată; MP4 și MP3 sunt produse local, în același folder, cu același nume de bază. MP3 păstrează ID3 și coperta; MP4 primește etichete pentru artist/titlu/album și coperta disponibilă. CSV are câte un rând pentru fiecare fișier, cu coloana `format`. Fișierele auxiliare noi au nume precum `Artist - Piesă.mp3.info.json` și `Artist - Piesă.mp4.info.json`. Descărcarea și conversia sunt implementate separat în `media_download.py`.\n+\n+Pauzele și oprirea la limitări YouTube se aplică tuturor modurilor. Compatibilitatea redării MP4 depinde de playerul folosit.\n+\n Aplicație locală în Python + HTML pentru piese și playlisturi YouTube / YouTube Music.\n"
+    },
+    {
+      "path": "D:\\MP3.Varvi\\static\\app.js",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -33,3 +33,3 @@\n     const batch = job.batch_total ? `LINK ${job.batch_current} / ${job.batch_total} · ${job.source_label} · ` : '';\n-    $('count').textContent = `${batch}PIESA ${job.current} / ${job.total} · ${job.files.length} SALVATE`;\n+    $('count').textContent = `${batch}PIESA ${job.current} / ${job.total} · ${job.files.length} FIȘIERE SALVATE`;\n     $('progress').value = job.percent;\n@@ -43,3 +43,3 @@\n       const cell = document.createElement('td'), link = document.createElement('a');\n-      link.href = fileUrl(file.file); link.textContent = 'MP3 ↓'; cell.append(link); row.append(cell);\n+      link.href = fileUrl(file.file); link.textContent = (file.format || 'mp3').toUpperCase() + ' ↓'; cell.append(link); row.append(cell);\n       $('results').append(row);\n@@ -64,3 +64,3 @@\n       method: 'POST', headers: {'Content-Type': 'application/json', 'X-MP3-App': 'local'},\n-      body: JSON.stringify({url: $('url').value, quality: $('quality').value})\n+      body: JSON.stringify({url: $('url').value, quality: $('quality').value, mode: $('mode').value})\n     }));\n@@ -107,3 +107,3 @@\n       method: 'POST', headers: {'Content-Type': 'application/json', 'X-MP3-App': 'local'},\n-      body: JSON.stringify({quality: $('quality').value})\n+      body: JSON.stringify({quality: $('quality').value, mode: $('mode').value})\n     }));\n"
+    },
+    {
+      "path": "D:\\MP3.Varvi\\templates\\index.html",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -9,2 +9,3 @@\n <body><main>\r\n+<section class=\"panel\"><label for=\"mode\">CE DESCĂRCĂM? · SE APLICĂ ȘI IMPORTULUI EXCEL</label><select id=\"mode\"><option value=\"mp3\">MP3 · doar muzică</option><option value=\"mp4\">MP4 · videoclip cu sunet</option><option value=\"both\">Ambele · MP3 + MP4</option></select><p class=\"hint\">Videoclipuri până la 1080p, în funcție de sursă. La „Ambele”, descărcăm sursa o singură dată și extragem MP3 local. Conversia video poate dura mai mult.</p></section>\r\n <header><div class=\"brand\">◉ MP3 VARVI</div><span class=\"badge\">LOCAL · PREGĂTIT PENTRU DRUM</span></header>\r\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## Asistent
+
+Funcția de descărcare și conversie este acum într-un modul separat. La „Ambele”, aplicația descarcă o singură sursă video și produce local MP4-ul cu sunet și MP3-ul. Urmează verificarea conversiei reale, a etichetelor și a selectorului pentru linkuri și Excel.
+
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-3a5b8ade-a859-4fb3-9964-785c9a9c25d3",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\media_download.py",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -15,2 +15,4 @@\n     \"\"\"Create a new local output; never overwrite a destination.\"\"\"\n+    if target.exists():\n+        raise RuntimeError(f'Fișierul există deja: {target.name}')\n     args = [ffmpeg, '-hide_banner', '-loglevel', 'error', '-nostdin', '-n', '-i', str(source)]\n"
+    },
+    {
+      "path": "D:\\MP3.Varvi\\tests\\test_video.py",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "import csv\nimport io\nimport subprocess\nimport tempfile\nimport unittest\nfrom contextlib import nullcontext\nfrom pathlib import Path\nfrom unittest.mock import patch\nfrom mutagen.mp4 import MP4\nfrom mutagen.mp3 import MP3\nfrom PIL import Image\nimport app\nfrom media_download import convert_media, download_media\n\n\nclass VideoTests(unittest.TestCase):\n    def tearDown(self):\n        app.jobs.clear(); app.imports.clear()\n\n    def test_real_video_and_audio_from_one_download(self):\n        with tempfile.TemporaryDirectory() as tmp:\n            folder = Path(tmp)\n            source = folder / 'abcdefghijk.mkv'\n            subprocess.run([app.ffmpeg_path(), '-v', 'error', '-f', 'lavfi', '-i', 'color=c=blue:s=160x120:d=1',\n                            '-f', 'lavfi', '-i', 'sine=frequency=440:duration=1', '-c:v', 'libx264', '-c:a', 'aac', '-shortest', str(source)], check=True)\n            with patch('app.YoutubeDL') as factory:\n                ydl = factory.return_value.__enter__.return_value\n                info = {'id': 'abcdefghijk', 'title': 'Artist - Piesă'}\n                ydl.extract_info.return_value = info; ydl.sanitize_info.return_value = info\n                _, _, outputs, errors = download_media(factory, {'ffmpeg_location': app.ffmpeg_path()}, folder,\n                    'abcdefghijk', 'https://youtu.be/abcdefghijk', '192', 'both', lambda _: None)\n                ydl.extract_info.assert_called_once()\n            self.assertFalse(errors)\n            self.assertEqual(set(outputs), {'mp3', 'mp4'})\n            data = app.metadata(info)\n            buffer = io.BytesIO(); Image.new('RGB', (10, 10)).save(buffer, 'JPEG')\n            app.write_video_tags(outputs['mp4'], data, buffer.getvalue())\n            app.write_tags(outputs['mp3'], data, buffer.getvalue())\n            self.assertEqual(MP4(outputs['mp4'])['\\xa9nam'], ['Piesă'])\n            self.assertGreater(MP4(outputs['mp4']).info.length, .9)\n            self.assertEqual(str(MP3(outputs['mp3']).tags['TIT2']), 'Piesă')\n            check = subprocess.run([app.ffmpeg_path(), '-i', str(outputs['mp4']), '-f', 'null', '-'], capture_output=True, text=True)\n            self.assertEqual(check.returncode, 0)\n            self.assertIn('Video: h264', check.stderr)\n            self.assertIn('Audio: aac', check.stderr)\n            original = outputs['mp4'].read_bytes()\n            with self.assertRaises(RuntimeError):\n                convert_media(app.ffmpeg_path(), source, outputs['mp4'])\n            self.assertEqual(original, outputs['mp4'].read_bytes())\n\n    def test_mode_validation_and_submission_for_both_endpoints(self):\n        client = app.app.test_client(); headers = {'X-MP3-App': 'local'}\n        for mode in ('mp3', 'mp4', 'both'):\n            app.jobs.clear()\n            with patch.object(app.pool, 'submit') as submit:\n                response = client.post('/api/jobs', json={'url': 'https://youtu.be/abcdefghijk', 'mode': mode}, headers=headers)\n                self.assertEqual(response.status_code, 202)\n                self.assertEqual(submit.call_args.kwargs['mode'], mode)\n            app.jobs.clear(); app.imports['test'] = {'entries': [{}]}\n            with patch.object(app.pool, 'submit') as submit:\n                response = client.post('/api/imports/test/start', json={'mode': mode}, headers=headers)\n                self.assertEqual(response.status_code, 202)\n                self.assertEqual(submit.call_args.args[-1], mode)\n        for mode in ('bad', None, []):\n            self.assertEqual(client.post('/api/jobs', json={'mode': mode}, headers=headers).status_code, 400)\n            self.assertEqual(client.post('/api/imports/test/start', json={'mode': mode}, headers=headers).status_code, 400)\n\n    def test_both_files_catalog_and_repeat_collision(self):\n        info = {'id': 'abcdefghijk', 'title': 'Artist - Piesă'}\n        with tempfile.TemporaryDirectory() as tmp, patch.object(app, 'OUTPUT', Path(tmp)), patch.object(app, 'paced_request', return_value=nullcontext()), patch.object(app, 'YoutubeDL') as factory, patch.object(app, 'write_video_tags'), patch.object(app, 'write_tags'):\n            factory.return_value.__enter__.return_value.extract_info.return_value = info\n            def fake_download(factory, base, staging, video_id, url, quality, mode, progress):\n                outputs = {}\n                for ext in ('mp3', 'mp4'):\n                    outputs[ext] = staging / ('converted.' + ext)\n                    outputs[ext].write_bytes(ext.encode())\n                return info, info, outputs, []\n            with patch.object(app, 'download_media', side_effect=fake_download):\n                for _ in range(2):\n                    job = app.new_job()\n                    app.run_job(job, 'https://youtu.be/abcdefghijk', '192', mode='both')\n                    self.assertEqual(app.jobs[job]['status'], 'done')\n                    self.assertEqual(len(app.jobs[job]['files']), 2)\n            with (Path(tmp) / 'catalog.csv').open(encoding='utf-8-sig', newline='') as f:\n                rows = list(csv.DictReader(f))\n            self.assertEqual(len(rows), 4)\n            self.assertEqual({r['format'] for r in rows}, {'mp3', 'mp4'})\n            self.assertEqual(len({r['file'] for r in rows}), 4)\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5705fdbc-4b99-441d-8619-774072ed48aa",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \".\\\\.venv\\\\Scripts\\\\python.exe -m unittest discover -s tests -v\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "84302",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v"
+    }
+  ],
+  "aggregatedOutput": "test_artist_and_album_provenance (test_app.AppTests.test_artist_and_album_provenance) ... ok\r\ntest_local_api_and_path_safety (test_app.AppTests.test_local_api_and_path_safety) ... ok\r\ntest_tags_and_catalog_roundtrip (test_app.AppTests.test_tags_and_catalog_roundtrip) ... ok\r\ntest_url_validation (test_app.AppTests.test_url_validation) ... ok\r\ntest_real_conversion_with_installed_ffmpeg (test_conversion.ConversionTests.test_real_conversion_with_installed_ffmpeg) ... ok\r\ntest_batch_continues_after_unavailable_link (test_excel_import.ImportTests.test_batch_continues_after_unavailable_link) ... ok\r\ntest_empty_import_cannot_start (test_excel_import.ImportTests.test_empty_import_cannot_start) ... ok\r\ntest_hyperlinks_formulas_duplicates_and_row_numbers (test_excel_import.ImportTests.test_hyperlinks_formulas_duplicates_and_row_numbers) ... ok\r\ntest_invalid_file (test_excel_import.ImportTests.test_invalid_file) ... ok\r\ntest_preview_does_not_download_and_start_is_serial (test_excel_import.ImportTests.test_preview_does_not_download_and_start_is_serial) ... ok\r\ntest_stable_folders_without_summary (test_excel_import.ImportTests.test_stable_folders_without_summary) ... ok\r\ntest_user_model_is_empty_and_recognized (test_excel_import.ImportTests.test_user_model_is_empty_and_recognized) ... ok\r\ntest_batch_stops_on_429_without_trying_next_link (test_pacing.PacingTests.test_batch_stops_on_429_without_trying_next_link) ... ok\r\ntest_cooldown_blocks_both_start_routes_but_not_preview (test_pacing.PacingTests.test_cooldown_blocks_both_start_routes_but_not_preview) ... ok\r\ntest_countdown_and_spacing_even_on_error (test_pacing.PacingTests.test_countdown_and_spacing_even_on_error) ... ok\r\ntest_unavailable_video_does_not_trigger_cooldown (test_pacing.PacingTests.test_unavailable_video_does_not_trigger_cooldown) ... ok\r\ntest_both_files_catalog_and_repeat_collision (test_video.VideoTests.test_both_files_catalog_and_repeat_collision) ... ok\r\ntest_mode_validation_and_submission_for_both_endpoints (test_video.VideoTests.test_mode_validation_and_submission_for_both_endpoints) ... ok\r\ntest_real_video_and_audio_from_one_download (test_video.VideoTests.test_real_video_and_audio_from_one_download) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 19 tests in 1.315s\r\n\r\nOK\r\n",
+  "exitCode": 0,
+  "durationMs": 3040
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-90adddce-a6f5-4c63-b479-3ab031385552",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Windows\\\\System32\\\\netstat.exe' -ano -p tcp | Select-String ':8765'; Get-Content templates/index.html -First 17; Get-Content start.ps1\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "95331",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Windows\\System32\\netstat.exe' -ano -p tcp | Select-String ':8765'; Get-Content templates/index.html -First 17; Get-Content start.ps1"
+    }
+  ],
+  "aggregatedOutput": "<!doctype html>\r\n<html lang=\"ro\">\r\n<head>\r\n<meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\r\n<title>MP3 Varvi · Muzica ta la drum</title>\r\n<style>\r\n:root{color-scheme:dark;--bg:#101513;--panel:#19221e;--line:#34463a;--accent:#c7ef87;--muted:#a9b6ad}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#f0f4ec;font:16px/1.6 system-ui,sans-serif}main{max-width:1040px;margin:auto;padding:36px 24px}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:22px}.brand{font-size:20px;font-weight:750;letter-spacing:2px}.badge{font-size:12px;color:var(--accent);border:1px solid var(--line);border-radius:20px;padding:5px 12px}.intro{padding:45px 0 28px}.eyebrow{color:var(--accent);font-size:12px;letter-spacing:3px}h1{font-size:clamp(36px,6vw,62px);line-height:1.1;letter-spacing:-2px;margin:16px 0}h1 span{color:var(--accent)}p{color:var(--muted)}.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:22px}label{display:block;font-size:13px;color:var(--muted);margin-bottom:8px}.controls{display:grid;grid-template-columns:1fr 135px;gap:16px}input,select{width:100%;background:#101713;border:1px solid #425347;color:white;padding:14px;border-radius:9px;font:inherit}input:focus,select:focus{outline:2px solid var(--accent)}button{background:var(--accent);color:#17200f;border:0;padding:14px 24px;font:700 15px system-ui;border-radius:9px;cursor:pointer;margin-top:22px}button:disabled{opacity:.45;cursor:wait}.hint{font-size:12px;margin:16px 0 0}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;font-size:14px}.features strong{display:block;color:#edf4e8}.features p{margin:7px 0}.number{font-size:12px;color:var(--accent)}progress{width:100%;height:12px;accent-color:var(--accent)}#message{overflow-wrap:anywhere}#error{color:#ffb4a7}a{color:var(--accent)}.path{font-family:monospace;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:12px 8px;text-align:left;border-bottom:1px solid var(--line)}.scroll{overflow:auto}summary{cursor:pointer;color:var(--muted)}footer{font-size:12px;color:var(--muted);padding:18px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}@media(max-width:650px){.controls,.features{grid-template-columns:1fr}.panel{padding:20px}main{padding:24px 16px}.badge{display:none}}\r\n</style></head>\r\n<body><main>\r\n<section class=\"panel\"><label for=\"mode\">CE DESCĂRCĂM? · SE APLICĂ ȘI IMPORTULUI EXCEL</label><select id=\"mode\"><option value=\"mp3\">MP3 · doar muzică</option><option value=\"mp4\">MP4 · videoclip cu sunet</option><option value=\"both\">Ambele · MP3 + MP4</option></select><p class=\"hint\">Videoclipuri până la 1080p, în funcție de sursă. La „Ambele”, descărcăm sursa o singură dată și extragem MP3 local. Conversia video poate dura mai mult.</p></section>\r\n<header><div class=\"brand\">◉ MP3 VARVI</div><span class=\"badge\">LOCAL · PREGĂTIT PENTRU DRUM</span></header>\r\n<section class=\"intro\"><div class=\"eyebrow\">BIBLIOTECA TA, LA TINE</div><h1>Muzica ta.<br><span>Cu toate detaliile.</span></h1><p>Dintr-un link YouTube în MP3, cu artist, titlu și copertă.<br>Organizate în foldere, gata de copiat pe stick.</p></section>\r\n<p class=\"hint\">Ritm redus: o descărcare pe rând, pauză de 20 secunde între accesări, plus pauze între cereri. La limitare sau verificare YouTube: oprire și minimum 30 minute de așteptare.</p>\r\n<form class=\"panel\" id=\"form\"><div class=\"controls\"><div><label for=\"url\">LINK PIESĂ SAU PLAYLIST</label><input id=\"url\" type=\"url\" placeholder=\"https://www.youtube.com/playlist?list=…\" required></div><div><label for=\"quality\">CALITATE MP3</label><select id=\"quality\"><option>128</option><option selected>192</option><option>256</option><option>320</option></select></div></div><button id=\"start\">Descarcă muzica ↗</button><p class=\"hint\">kbps · O valoare mai mare nu îmbunătățește sursa YouTube. Un link cu „list=” descarcă întregul playlist.</p><p id=\"error\" role=\"alert\"></p></form>\r\n<section class=\"panel\" aria-labelledby=\"excel-heading\">\r\n<h2 id=\"excel-heading\">Importă din Excel</h2>\r\n<p>Alege fișierul .xlsx cu coloana „Link YouTube”. Citim toate foile și păstrăm ordinea rândurilor.</p>\r\n$ErrorActionPreference = 'Stop'\r\nSet-Location -LiteralPath $PSScriptRoot\r\n$pythonExe = Join-Path $PSScriptRoot '.venv\\Scripts\\python.exe'\r\nif (-not (Test-Path -LiteralPath $pythonExe)) {\r\n    $pythonCommand = Get-Command python -ErrorAction SilentlyContinue\r\n    $pyCommand = Get-Command py -ErrorAction SilentlyContinue\r\n    if ($pythonCommand) { & $pythonCommand.Source -m venv .venv }\r\n    elseif ($pyCommand) { & $pyCommand.Source -3 -m venv .venv }\r\n    else { throw 'Instalează Python 3.11 sau mai nou, apoi pornește din nou.' }\r\n    if ($LASTEXITCODE -ne 0) { throw 'Crearea mediului Python a eșuat.' }\r\n}\r\n& $pythonExe -m pip install -r requirements.txt --disable-pip-version-check --no-cache-dir\r\nif ($LASTEXITCODE -ne 0) { throw 'Instalarea dependențelor a eșuat. Verifică internetul.' }\r\nWrite-Host 'Deschide http://127.0.0.1:8765 în browser. Pentru oprire: Ctrl+C.'\r\n& $pythonExe app.py\r\n",
+  "exitCode": 0,
+  "durationMs": 188
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-d9922eab-70b9-4ba5-a085-4f6e29633c8d",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\tests\\browser.cjs",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -7,2 +7,4 @@\n  await page.waitForFunction(()=>document.querySelector('#destination').textContent.includes('downloads'));\n+ if(await page.locator('#mode').inputValue()!=='mp3')throw Error('Default must remain MP3');\n+ await page.selectOption('#mode','both');\n  await page.fill('#url','https://example.com/video');\n@@ -19,6 +21,15 @@\n  if(await page.locator('#excel-start').isDisabled())throw Error('Valid preview must enable start');\n- await page.route('**/api/imports/*/start',r=>r.fulfill({json:{id:'browser-test'},status:202}));\n- await page.route('**/api/jobs/browser-test',r=>r.fulfill({json:{status:'done',message:'Import terminat',current:1,total:1,percent:100,files:[],errors:[],warnings:[],batch_current:4,batch_total:4,source_label:'Românești'}}));\n+ let submittedMode;\n+ await page.route('**/api/imports/*/start',r=>{submittedMode=r.request().postDataJSON().mode;return r.fulfill({json:{id:'browser-test'},status:202})});\n+ await page.route('**/api/jobs/browser-test',r=>r.fulfill({json:{status:'done',message:'Import terminat',current:1,total:1,percent:100,files:[{artist:'Artist',title:'Video',format:'mp4',file:'Video.mp4'},{artist:'Artist',title:'Video',format:'mp3',file:'Video.mp3'}],errors:[],warnings:[],batch_current:4,batch_total:4,source_label:'Românești'}}));\n  await page.click('#excel-start');\n  await page.waitForFunction(()=>document.querySelector('#message').textContent==='Import terminat');\n+ if(submittedMode!=='both')throw Error('Excel mode not submitted');\n+ if(await page.locator('#results a').allTextContents().then(x=>x.join(','))!=='MP4 ↓,MP3 ↓')throw Error('Wrong file labels');\n+ await page.route('**/api/jobs',r=>{submittedMode=r.request().postDataJSON().mode;return r.fulfill({json:{id:'browser-test'},status:202})});\n+ await page.selectOption('#mode','mp4');\n+ await page.fill('#url','https://youtu.be/abcdefghijk');\n+ await page.click('#start');\n+ await page.waitForTimeout(200);\n+ if(submittedMode!=='mp4')throw Error('Single link mode not submitted');\n  await page.screenshot({path:'.runtime/desktop.png',fullPage:true});\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-eb6d8bd9-441d-4314-9190-e6e5129a618e",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfrom pathlib import Path\np=Path('templates/index.html')\ns=p.read_text(encoding='utf-8')\nstart=s.index('<section class=\\\"panel\\\"><label for=\\\"mode\\\">')\nend=s.index('</section>',start)+len('</section>')\nselector=s[start:end]\ns=s[:start]+s[end:]\nposition=s.index('<form class=\\\"panel\\\" id=\\\"form\\\">')\ns=s[:position]+selector+'\\\\n'+s[position:]\ns=s.replace('Dintr-un link YouTube în MP3, cu artist, titlu și copertă.', 'Dintr-un link YouTube în MP3 sau MP4, cu artist, titlu și copertă.')\ns=s.replace('Descarcă muzica ↗', 'Descarcă ↗')\np.write_text(s,encoding='utf-8')\n'@ | .\\\\.venv\\\\Scripts\\\\python.exe -\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "35510",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfrom pathlib import Path\np=Path('templates/index.html')\ns=p.read_text(encoding='utf-8')\nstart=s.index('<section class=\"panel\"><label for=\"mode\">')\nend=s.index('</section>',start)+len('</section>')\nselector=s[start:end]\ns=s[:start]+s[end:]\nposition=s.index('<form class=\"panel\" id=\"form\">')\ns=s[:position]+selector+'\\n'+s[position:]\ns=s.replace('Dintr-un link YouTube în MP3, cu artist, titlu și copertă.', 'Dintr-un link YouTube în MP3 sau MP4, cu artist, titlu și copertă.')\ns=s.replace('Descarcă muzica ↗', 'Descarcă ↗')\np.write_text(s,encoding='utf-8')\n'@ | .\\.venv\\Scripts\\python.exe -"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 181
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-de2b2d41-5d18-4173-b7fd-50ef911c8d4a",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node tests/browser.cjs'",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "39551",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node tests/browser.cjs"
+    }
+  ],
+  "aggregatedOutput": "Browser OK: page, invalid link, real empty model, Excel preview, mocked batch start, mobile layout, no JavaScript errors\n",
+  "exitCode": 0,
+  "durationMs": 3712
+}
+````
+
+## Asistent
+
+Au trecut cele 19 teste, inclusiv conversia reală în MP4 cu imagine și sunet, extragerea MP3 și verificarea metadatelor. În browser, selectorul trimite corect opțiunea aleasă pentru linkuri și Excel, iar rezultatele afișează separat fișierele MP3 și MP4.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-03e1c364-a43c-44cd-bd29-e48332d7d789",
+  "server": "codex_app",
+  "tool": "open_in_codex",
+  "status": "completed",
+  "arguments": {
+    "target": {
+      "type": "browser",
+      "url": "http://127.0.0.1:8765"
+    }
+  },
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\":\"queued\",\"threadId\":\"01a11bbd-6d5c-7df2-9bda-ffd497b27994\"}"
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 49
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-8f8e8cb4-a06f-4fc9-811e-89ebe8b23977",
+  "path": "D:\\MP3.Varvi\\.runtime\\desktop.png"
+}
+````
+
+## Asistent
+
+Am adăugat selectorul **MP3 / MP4 / Ambele** în [aplicație](http://127.0.0.1:8765), inclusiv pentru importul Excel.
+
+- **MP3:** muzică și metadate.
+- **MP4:** videoclip cu sunet, până la 1080p.
+- **Ambele:** o singură descărcare, două fișiere salvate în același folder.
+
+Funcționalitatea este separată în [media_download.py](D:/MP3.Varvi/media_download.py). Pauzele YouTube sunt păstrate.
+
+Verificat: **19 teste**, conversie audio/video reală și interfața în browser. Nu am testat încă un videoclip YouTube real.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-38e9c6ef-7221-4bb9-b619-c7248bc67117",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \".\\\\.venv\\\\Scripts\\\\python.exe app.py\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "64176",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": ".\\.venv\\Scripts\\python.exe app.py"
+    }
+  ],
+  "aggregatedOutput": "MP3 Varvi: http://127.0.0.1:8765\r\n * Serving Flask app 'app'\r\n * Debug mode: off\r\nWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\r\n * Running on http://127.0.0.1:8765\r\nPress CTRL+C to quit\r\n127.0.0.1 - - [23/Oct/2026 02:17:37] \"GET / HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:37] \"GET /static/app.js HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:38] \"GET /favicon.ico HTTP/1.1\" 404 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:38] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:38] \"POST /api/jobs HTTP/1.1\" 400 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:38] \"POST /api/imports HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:38] \"POST /api/imports HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:43] \"GET / HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:43] \"GET /static/app.js HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:43] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:17:43] \"GET /favicon.ico HTTP/1.1\" 404 -\r\n127.0.0.1 - - [23/Oct/2026 02:19:16] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:19:20] \"POST /api/imports HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:19:20] \"POST /api/imports/afa4b1276c094023902db25a71cc6d72/start HTTP/1.1\" 202 -\r\n127.0.0.1 - - [23/Oct/2026 02:19:23] \"GET /api/jobs/286997dd8ada4f2d97e54ac0fda9d021 HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 02:19:32] \"GET /api/jobs/286997dd8ada4f2d97e54ac0fda9d021 HTTP/1.1\" 200 -\r\n",
+  "exitCode": 1,
+  "durationMs": 137734
+}
+````
+
+## Asistent
+
+Voi adăuga o secțiune pentru unirea videoclipurilor: poți adăuga fișiere pe rând, selecta mai multe odată sau alege un folder. Lista va permite schimbarea ordinii înainte de a crea un singur MP4 cu imagine și sunet.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-309e38a3-2b14-46f4-ae47-5c654e68cde9",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-Content media_download.py; Get-Content static/app.js -Tail 20; Get-Content app.py -Tail 65; Get-Content .gitignore'",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "46092",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content media_download.py; Get-Content static/app.js -Tail 20; Get-Content app.py -Tail 65; Get-Content .gitignore"
+    }
+  ],
+  "aggregatedOutput": "\"\"\"Separate audio/video download and local conversion functions.\"\"\"\r\nimport subprocess\r\nfrom pathlib import Path\r\n\r\nMODES = {'mp3', 'mp4', 'both'}\r\n\r\n\r\ndef validate_mode(value):\r\n    if not isinstance(value, str) or value not in MODES:\r\n        raise ValueError('Alege MP3, MP4 sau Ambele.')\r\n    return value\r\n\r\n\r\ndef convert_media(ffmpeg, source, target, quality='192'):\r\n    \"\"\"Create a new local output; never overwrite a destination.\"\"\"\r\n    if target.exists():\r\n        raise RuntimeError(f'Fișierul există deja: {target.name}')\r\n    args = [ffmpeg, '-hide_banner', '-loglevel', 'error', '-nostdin', '-n', '-i', str(source)]\r\n    if target.suffix == '.mp3':\r\n        args += ['-map', '0:a:0', '-vn', '-c:a', 'libmp3lame', '-b:a', quality + 'k', '-ar', '44100', '-ac', '2']\r\n    else:\r\n        args += ['-map', '0:v:0', '-map', '0:a:0', '-c:v', 'libx264', '-preset', 'fast', '-crf', '20',\r\n                 '-pix_fmt', 'yuv420p', '-vf', 'pad=ceil(iw/2)*2:ceil(ih/2)*2',\r\n                 '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart']\r\n    result = subprocess.run(args + [str(target)], capture_output=True, text=True, encoding='utf-8', errors='replace')\r\n    if result.returncode:\r\n        if target.exists():\r\n            target.unlink()\r\n        raise RuntimeError(f'Conversie {target.suffix[1:].upper()} eșuată: {result.stderr[-1500:]}')\r\n\r\n\r\ndef download_media(ydl_factory, base, staging, video_id, url, quality, mode, progress):\r\n    \"\"\"Download once; both outputs use the same downloaded video source.\"\"\"\r\n    validate_mode(mode)\r\n    options = {**base, 'outtmpl': str(staging / '%(id)s.%(ext)s'),\r\n               'writethumbnail': True, 'progress_hooks': [progress]}\r\n    if mode == 'mp3':\r\n        options.update(format='bestaudio/best',\r\n                       postprocessors=[{'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': quality}],\r\n                       postprocessor_args={'extractaudio+ffmpeg_o': ['-ar', '44100', '-ac', '2']})\r\n    else:\r\n        options.update(format='bv[height<=1080]+ba/b[height<=1080]', merge_output_format='mkv')\r\n    with ydl_factory(options) as ydl:\r\n        info = ydl.extract_info(url, download=True)\r\n        clean_info = ydl.sanitize_info(info)\r\n    outputs, errors = {}, []\r\n    if mode == 'mp3':\r\n        output = staging / (video_id + '.mp3')\r\n        if not output.exists():\r\n            raise RuntimeError('Conversia nu a produs un fișier MP3.')\r\n        outputs['mp3'] = output\r\n    else:\r\n        sources = [p for p in staging.iterdir() if p.stem == video_id and p.suffix in {'.mkv', '.mp4', '.webm', '.mov', '.flv'}]\r\n        if len(sources) != 1:\r\n            raise RuntimeError('Nu pot identifica fișierul video descărcat.')\r\n        source = sources[0]\r\n        for extension in (['mp4', 'mp3'] if mode == 'both' else ['mp4']):\r\n            target = staging / ('converted.' + extension)\r\n            try:\r\n                convert_media(base['ffmpeg_location'], source, target, quality)\r\n                outputs[extension] = target\r\n            except RuntimeError as exc:\r\n                errors.append(str(exc))\r\n    return info, clean_info, outputs, errors\r\n\r\n\r\ndef write_video_tags(path, data, cover=None):\r\n    from mutagen.mp4 import MP4, MP4Cover\r\n    video = MP4(path)\r\n    for key, atom in [('title', '\\xa9nam'), ('artist', '\\xa9ART'), ('album', '\\xa9alb'),\r\n                      ('album_artist', 'aART'), ('genre', '\\xa9gen'), ('release_date', '\\xa9day'),\r\n                      ('description', 'desc')]:\r\n        if data.get(key):\r\n            video[atom] = [str(data[key])]\r\n    video['\\xa9cmt'] = [data['url']]\r\n    if cover:\r\n        video['covr'] = [MP4Cover(cover, imageformat=MP4Cover.FORMAT_JPEG)]\r\n    video.save()\r\n    $('excel-issue-list').textContent = data.issues.map(i => `${i.sheet}, rând ${i.row}: ${i.reason}`).join('\\n');\r\n  } catch (error) { $('excel-error').textContent = error.message; }\r\n  finally { $('excel-preview').disabled = false; $('excel-file').disabled = false; setBusy(busy); }\r\n});\r\n$('excel-start').addEventListener('click', async () => {\r\n  if (!importId || busy) return;\r\n  setBusy(true); $('excel-error').textContent = '';\r\n  try {\r\n    const data = await responseJSON(await fetch(`/api/imports/${importId}/start`, {\r\n      method: 'POST', headers: {'Content-Type': 'application/json', 'X-MP3-App': 'local'},\r\n      body: JSON.stringify({quality: $('quality').value, mode: $('mode').value})\r\n    }));\r\n    importId = null; beginJob(data.id);\r\n    $('job').scrollIntoView({behavior: 'smooth'});\r\n  } catch (error) { $('excel-error').textContent = error.message; setBusy(false); }\r\n});\r\nfetch('/api/status').then(responseJSON).then(s => { $('destination').textContent = s.output; })\r\n  .catch(() => { $('destination').textContent = 'Server indisponibil'; });\r\nconst previous = localStorage.getItem('mp3-job');\r\nif (previous) beginJob(previous);\r\n    return jsonify(id=job), 202\r\n\r\n\r\n@app.before_request\r\ndef local_only():\r\n    if request.host.split(':')[0] not in {'127.0.0.1', 'localhost'}:\r\n        return jsonify(error='Acces doar local.'), 403\r\n    if request.method == 'POST':\r\n        if request.headers.get('X-MP3-App') != 'local' or (request.headers.get('Origin') and request.headers['Origin'] != request.host_url.rstrip('/')):\r\n            return jsonify(error='Cerere neautorizată.'), 403\r\n        if request.path == '/api/jobs' or (request.path.startswith('/api/imports/') and request.path.endswith('/start')):\r\n            remaining = cooldown_remaining()\r\n            if remaining:\r\n                return jsonify(error=f'Pauză după limitarea YouTube: mai sunt {(remaining + 59) // 60} minute. Nu reluăm automat.'), 429, {'Retry-After': str(remaining)}\r\n\r\n\r\n@app.get('/')\r\ndef home():\r\n    return render_template('index.html')\r\n\r\n\r\n@app.get('/api/status')\r\ndef status():\r\n    return jsonify(output=str(OUTPUT), ffmpeg=bool(Path(ffmpeg_path()).exists()), javascript=bool(shutil.which('deno') or shutil.which('node')))\r\n\r\n\r\n@app.post('/api/jobs')\r\ndef create_job():\r\n    payload = request.get_json(silent=True) or {}\r\n    try:\r\n        if not isinstance(payload, dict):\r\n            raise ValueError('Cerere invalidă.')\r\n        mode = validate_mode(payload.get('mode', 'mp3'))\r\n        url = youtube_url(payload.get('url', ''))\r\n        quality = str(payload.get('quality', '192'))\r\n        if quality not in {'128', '192', '256', '320'}:\r\n            raise ValueError('Calitate MP3 invalidă.')\r\n    except ValueError as exc:\r\n        return jsonify(error=str(exc)), 400\r\n    with lock:\r\n        job = new_job()\r\n        if not job:\r\n            return jsonify(error='O descărcare este deja în lucru. Așteaptă finalizarea.'), 409\r\n    pool.submit(run_job, job, url, quality, mode=mode)\r\n    return jsonify(id=job), 202\r\n\r\n\r\n@app.get('/api/jobs/<job>')\r\ndef get_job(job):\r\n    with lock:\r\n        if job not in jobs:\r\n            return jsonify(error='Sesiune inexistentă.'), 404\r\n        return jsonify(jobs[job])\r\n\r\n\r\n@app.get('/files/<path:name>')\r\ndef files(name):\r\n    if any(part.startswith('.') for part in Path(name).parts):\r\n        return jsonify(error='Fișier indisponibil.'), 404\r\n    return send_from_directory(OUTPUT, name, as_attachment=True)\r\n\r\n\r\nif __name__ == '__main__':\r\n    print('MP3 Varvi: http://127.0.0.1:8765', flush=True)\r\n    app.run(host='127.0.0.1', port=8765, debug=False)\r\n.venv/\r\n__pycache__/\r\ndownloads/\r\n.runtime/\r\n*.log\r\n",
+  "exitCode": 0,
+  "durationMs": 174
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-e1832d03-fe05-4a36-85b9-c1c4196693eb",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\app.py",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -23,2 +23,3 @@\n from media_download import download_media, validate_mode, write_video_tags\n+from video_merge import create_merge_blueprint\n \n@@ -465,2 +466,4 @@\n \n+app.register_blueprint(create_merge_blueprint(OUTPUT, ROOT / '.runtime', ffmpeg_path))\n+\n if __name__ == '__main__':\n"
+    },
+    {
+      "path": "D:\\MP3.Varvi\\video_merge.py",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "\"\"\"Local video concatenation, upload API and background processing.\"\"\"\nimport json\nimport re\nimport shutil\nimport subprocess\nimport threading\nimport uuid\nfrom concurrent.futures import ThreadPoolExecutor\nfrom pathlib import Path\n\nfrom flask import Blueprint, jsonify, request\n\nEXTENSIONS = {'.mp4', '.mkv', '.mov', '.avi', '.webm', '.m4v', '.mpeg', '.mpg', '.ts'}\nMAX_FILE = 4 * 1024**3\n\n\ndef probe_video(ffmpeg, path):\n    result = subprocess.run([ffmpeg, '-hide_banner', '-i', str(path)], capture_output=True,\n                            text=True, encoding='utf-8', errors='replace', timeout=60)\n    text = result.stderr\n    duration = re.search(r'Duration: (\\d+):(\\d+):(\\d+(?:\\.\\d+)?)', text)\n    if not duration or not re.search(r'Stream .*Video:', text):\n        raise ValueError(f'Videoclip invalid sau durată necunoscută: {path.name}')\n    h, m, s = map(float, duration.groups())\n    seconds = h * 3600 + m * 60 + s\n    if seconds <= 0:\n        raise ValueError('Videoclipul are durată zero.')\n    return seconds, bool(re.search(r'Stream .*Audio:', text))\n\n\ndef run_ffmpeg(args, log_path, duration, progress):\n    with log_path.open('w', encoding='utf-8') as log:\n        with subprocess.Popen(args, stdout=subprocess.PIPE, stderr=log, text=True, encoding='utf-8', errors='replace') as process:\n            for line in process.stdout:\n                if line.startswith('out_time_us='):\n                    try:\n                        progress(min(99, max(0, int(float(line.split('=')[1]) / 1000000 / duration * 100))))\n                    except ValueError:\n                        pass\n            code = process.wait()\n    if code:\n        raise RuntimeError('FFmpeg: ' + log_path.read_text(encoding='utf-8', errors='replace')[-2000:])\n\n\ndef concatenate_videos(ffmpeg, sources, output, work, progress):\n    \"\"\"Normalize mixed clips, adding silence when absent, then join in input order.\"\"\"\n    if len(sources) < 2 or len(sources) > 100:\n        raise ValueError('Alege între 2 și 100 de videoclipuri.')\n    if output.exists():\n        raise ValueError('Fișierul destinație există deja.')\n    work.mkdir(parents=True, exist_ok=True)\n    parts, total_duration = [], 0\n    for index, source in enumerate(sources):\n        progress(index, 0, f'Pregătesc videoclipul {index + 1}/{len(sources)}…')\n        duration, has_audio = probe_video(ffmpeg, source)\n        total_duration += duration\n        part = work / f'part-{index:04d}.mp4'\n        args = [ffmpeg, '-hide_banner', '-loglevel', 'error', '-nostdin', '-n', '-i', str(source)]\n        if not has_audio:\n            args += ['-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo']\n        args += ['-map', '0:v:0', '-map', '0:a:0' if has_audio else '1:a:0',\n                 '-vf', 'scale=1920:1080:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=30',\n                 '-c:v', 'libx264', '-preset', 'fast', '-crf', '20', '-threads', '2', '-pix_fmt', 'yuv420p',\n                 '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-af', 'apad',\n                 '-t', str(duration), '-map_metadata', '-1', '-progress', 'pipe:1', '-nostats', str(part)]\n        run_ffmpeg(args, work / 'ffmpeg.log', duration,\n                   lambda percent: progress(index, percent, f'Convertesc videoclipul {index + 1}/{len(sources)}…'))\n        parts.append(part)\n    listing = work / 'concat.txt'\n    # Generated relative names only: no user path is interpreted by the concat demuxer.\n    listing.write_text(''.join(f\"file '{p.name}'\\n\" for p in parts), encoding='utf-8')\n    temporary = work / 'combined.mp4'\n    progress(len(sources), 0, 'Unesc videoclipurile și finalizez MP4-ul…')\n    run_ffmpeg([ffmpeg, '-hide_banner', '-loglevel', 'error', '-nostdin', '-n', '-f', 'concat', '-safe', '1',\n                '-i', str(listing), '-c', 'copy', '-movflags', '+faststart', '-progress', 'pipe:1', '-nostats', str(temporary)],\n               work / 'ffmpeg.log', total_duration, lambda percent: progress(len(sources), percent, 'Finalizez MP4-ul…'))\n    output.parent.mkdir(parents=True, exist_ok=True)\n    temporary.replace(output)\n\n\ndef create_merge_blueprint(output_root, runtime_root, ffmpeg_provider):\n    blueprint = Blueprint('video_merge', __name__)\n    uploads, jobs = {}, {}\n    lock = threading.RLock()\n    executor = ThreadPoolExecutor(max_workers=1)\n    upload_root = runtime_root / 'merge-uploads'\n\n    @blueprint.before_request\n    def upload_limit():\n        if request.path == '/api/merge/uploads':\n            request.max_content_length = MAX_FILE + 1024 * 1024\n\n    @blueprint.post('/api/merge/uploads')\n    def upload():\n        file = request.files.get('file')\n        if not file or Path(file.filename or '').suffix.lower() not in EXTENSIONS:\n            return jsonify(error='Alege un videoclip MP4, MKV, MOV, AVI, WEBM, M4V, MPEG, MPG sau TS.'), 400\n        with lock:\n            if len(uploads) >= 100:\n                return jsonify(error='Maximum 100 de videoclipuri încărcate. Elimină fișiere sau finalizează unirea.'), 400\n        token = uuid.uuid4().hex\n        upload_root.mkdir(parents=True, exist_ok=True)\n        path = upload_root / (token + Path(file.filename).suffix.lower())\n        size = 0\n        try:\n            with path.open('xb') as destination:\n                while chunk := file.stream.read(1024 * 1024):\n                    size += len(chunk)\n                    if size > MAX_FILE:\n                        raise ValueError('Maximum 4 GB pentru fiecare videoclip.')\n                    if shutil.disk_usage(upload_root).free < len(chunk) + 512 * 1024**2:\n                        raise ValueError('Spațiu insuficient pe disc pentru încărcare.')\n                    destination.write(chunk)\n            if size == 0:\n                raise ValueError('Fișierul este gol.')\n        except (ValueError, OSError) as exc:\n            path.unlink(missing_ok=True)\n            return jsonify(error=str(exc)), 400\n        name = file.filename.replace('\\\\', '/').split('/')[-1]\n        with lock:\n            uploads[token] = {'path': path, 'name': name, 'size': size, 'in_use': False}\n        return jsonify(id=token, name=name, size=size), 201\n\n    @blueprint.post('/api/merge/uploads/<token>/remove')\n    def remove(token):\n        with lock:\n            item = uploads.get(token)\n            if item and item['in_use']:\n                return jsonify(error='Videoclipul este folosit de o unire în curs.'), 409\n            if item:\n                item['path'].unlink(missing_ok=True)\n                uploads.pop(token)\n        return jsonify(ok=True)\n\n    def worker(job, items, name):\n        work = runtime_root / 'merge-work' / job\n        target = output_root / 'Videoclipuri unite' / (name + ' [' + job[:8] + '].mp4')\n        def progress(index, percent, message):\n            with lock:\n                jobs[job].update(status='running', message=message,\n                                 percent=round((index + percent / 100) / (len(items) + 1) * 100, 1))\n        try:\n            concatenate_videos(ffmpeg_provider(), [item['path'] for item in items], target, work, progress)\n            target.with_suffix('.json').write_text(json.dumps({'files_in_order': [i['name'] for i in items]}, ensure_ascii=False, indent=2), encoding='utf-8')\n            with lock:\n                jobs[job].update(status='done', percent=100, message='Videoclipul unit este gata.', file=str(target.relative_to(output_root)))\n        except Exception as exc:\n            with lock:\n                jobs[job].update(status='failed', message=str(exc))\n        finally:\n            with lock:\n                for item in items:\n                    item['in_use'] = False\n            # Keep uploaded copies for retry; discard only this job's generated intermediates.\n            resolved = work.resolve()\n            if resolved.is_relative_to((runtime_root / 'merge-work').resolve()) and resolved.exists():\n                shutil.rmtree(resolved)\n\n    @blueprint.post('/api/merge/jobs')\n    def start():\n        payload = request.get_json(silent=True)\n        ids = payload.get('ids') if isinstance(payload, dict) else None\n        if not isinstance(ids, list) or not 2 <= len(ids) <= 100 or not all(isinstance(i, str) for i in ids) or len(set(ids)) != len(ids):\n            return jsonify(error='Alege între 2 și 100 de videoclipuri distincte.'), 400\n        name = re.sub(r'[<>:\"/\\\\|?*\\x00-\\x1f]', '_', str(payload.get('name') or 'Videoclip unit')).strip(' .')[:70] or 'Videoclip unit'\n        if re.match(r'^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(?:\\.|$)', name, re.I):\n            name = '_' + name\n        with lock:\n            if any(j['status'] in {'queued', 'running'} for j in jobs.values()):\n                return jsonify(error='O unire este deja în lucru.'), 409\n            if any(i not in uploads for i in ids):\n                return jsonify(error='Un fișier a expirat. Adaugă videoclipurile din nou.'), 400\n            items = [uploads[i] for i in ids]\n            for item in items:\n                item['in_use'] = True\n            job = uuid.uuid4().hex\n            jobs.clear()\n            jobs[job] = {'id': job, 'status': 'queued', 'percent': 0, 'message': 'În așteptare…'}\n        executor.submit(worker, job, items, name)\n        return jsonify(id=job), 202\n\n    @blueprint.get('/api/merge/jobs/<job>')\n    def status(job):\n        with lock:\n            return (jsonify(jobs[job]) if job in jobs else (jsonify(error='Unirea nu mai există în această sesiune.'), 404))\n\n    return blueprint\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-aa2a660f-9592-4464-8bae-ba71e13b76c3",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\static\\merge.js",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "(() => {\n  const el = id => document.getElementById(id);\n  const extensions = /\\.(mp4|mkv|mov|avi|webm|m4v|mpeg|mpg|ts)$/i;\n  let clips = [], working = false;\n  function render() {\n    el('merge-list').replaceChildren();\n    clips.forEach((clip, index) => {\n      const row = document.createElement('tr');\n      const name = document.createElement('td');\n      name.textContent = `${index + 1}. ${clip.file.webkitRelativePath || clip.file.name}`;\n      name.style.overflowWrap = 'anywhere';\n      const actions = document.createElement('td');\n      for (const [text, label, action, disabled] of [\n        ['↑', 'Mută mai sus', () => { [clips[index - 1], clips[index]] = [clips[index], clips[index - 1]]; render(); }, index === 0],\n        ['↓', 'Mută mai jos', () => { [clips[index + 1], clips[index]] = [clips[index], clips[index + 1]]; render(); }, index === clips.length - 1],\n        ['Elimină', 'Elimină videoclipul', async () => {\n          try { await release(clip); clips.splice(index, 1); render(); } catch (e) { el('merge-error').textContent = e.message; }\n        }, false]\n      ]) {\n        const button = document.createElement('button'); button.type = 'button'; button.textContent = text;\n        button.title = label; button.setAttribute('aria-label', label + ': ' + clip.file.name);\n        button.style.cssText = 'margin:4px;padding:7px 10px'; button.disabled = working || disabled;\n        button.onclick = action; actions.append(button);\n      }\n      row.append(name, actions); el('merge-list').append(row);\n    });\n    el('merge-count').textContent = `${clips.length} videoclipuri · ordinea din listă este ordinea din filmul final`;\n    el('merge-start').disabled = working || clips.length < 2;\n    for (const id of ['merge-one','merge-many','merge-folder','merge-clear','merge-name']) el(id).disabled = working;\n  }\n  async function json(response) {\n    const data = await response.json(); if (!response.ok) throw Error(data.error || 'Cererea a eșuat.'); return data;\n  }\n  async function release(clip) {\n    if (clip.id) await json(await fetch(`/api/merge/uploads/${clip.id}/remove`, {method:'POST', headers:{'X-MP3-App':'local'}}));\n  }\n  function add(input, folder) {\n    let files = Array.from(input.files);\n    if (folder) files.sort((a,b) => (a.webkitRelativePath || a.name).localeCompare(b.webkitRelativePath || b.name, 'ro', {numeric:true}));\n    let skipped = 0;\n    for (const file of files) {\n      if (!extensions.test(file.name) || !file.size || file.size > 4 * 1024**3 || clips.length >= 100) { skipped++; continue; }\n      const key = `${file.webkitRelativePath || file.name}|${file.size}|${file.lastModified}`;\n      if (clips.some(c => c.key === key)) { skipped++; continue; }\n      clips.push({file, key, id:null});\n    }\n    el('merge-error').textContent = skipped ? `${skipped} fișiere omise: duplicate, format neacceptat, goale sau limite depășite (100 videoclipuri, 4 GB/fișier).` : '';\n    input.value = ''; render();\n  }\n  for (const id of ['merge-one','merge-many','merge-folder']) el(id).addEventListener('change', () => add(el(id), id==='merge-folder'));\n  el('merge-clear').onclick = async () => {\n    try { for (const clip of clips) await release(clip); clips=[]; render(); }\n    catch (e) { el('merge-error').textContent=e.message; }\n  };\n  function upload(clip, index) {\n    return new Promise((resolve, reject) => {\n      const xhr = new XMLHttpRequest(), form = new FormData(); form.append('file',clip.file);\n      xhr.open('POST','/api/merge/uploads'); xhr.setRequestHeader('X-MP3-App','local');\n      xhr.upload.onprogress = event => {\n        const percent = event.lengthComputable ? Math.round(event.loaded/event.total*100) : 0;\n        el('merge-message').textContent = `Copiez local videoclipul ${index+1}/${clips.length}: ${clip.file.name} (${percent}%)`;\n        el('merge-progress').value = percent;\n      };\n      xhr.onerror = () => reject(Error('Conexiune întreruptă la încărcare.'));\n      xhr.onload = () => { try { const data=JSON.parse(xhr.responseText); if(xhr.status>=400)throw Error(data.error); clip.id=data.id;resolve(); } catch(e){reject(e);} };\n      xhr.send(form);\n    });\n  }\n  async function poll(id) {\n    try {\n      const response = await fetch('/api/merge/jobs/'+id);\n      if (response.status===404) { localStorage.removeItem('merge-job'); throw Error('Serverul a fost repornit. Adaugă videoclipurile din nou.'); }\n      const data = await json(response);\n      el('merge-message').textContent=data.message; el('merge-progress').value=data.percent;\n      if (['done','failed'].includes(data.status)) {\n        localStorage.removeItem('merge-job'); working=false;\n        if(data.status==='done') {\n          clips.forEach(c=>c.id=null);\n          const link=el('merge-result'); link.href='/files/'+data.file.split(/[\\\\/]/).map(encodeURIComponent).join('/');\n          link.textContent='Descarcă videoclipul unit · MP4';link.hidden=false;\n        } else el('merge-error').textContent=data.message;\n        render(); return;\n      }\n      setTimeout(()=>poll(id),1200);\n    } catch(e) {\n      el('merge-error').textContent=e.message;\n      if(localStorage.getItem('merge-job'))setTimeout(()=>poll(id),4000);\n      else {working=false;render();}\n    }\n  }\n  el('merge-start').onclick=async()=>{\n    working=true;render();el('merge-error').textContent='';el('merge-result').hidden=true;el('merge-status').hidden=false;\n    try {\n      for(let i=0;i<clips.length;i++)if(!clips[i].id)await upload(clips[i],i);\n      const data=await json(await fetch('/api/merge/jobs',{method:'POST',headers:{'Content-Type':'application/json','X-MP3-App':'local'},body:JSON.stringify({ids:clips.map(c=>c.id),name:el('merge-name').value})}));\n      localStorage.setItem('merge-job',data.id);poll(data.id);\n    }catch(e){el('merge-error').textContent=e.message;working=false;render();}\n  };\n  render();\n  const previous=localStorage.getItem('merge-job');\n  if(previous){working=true;render();el('merge-status').hidden=false;poll(previous);}\n})();\n"
+    },
+    {
+      "path": "D:\\MP3.Varvi\\video_merge.py",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -153,2 +153,7 @@\n                     item['in_use'] = False\n+                if jobs[job]['status'] == 'done':\n+                    for token, item in list(uploads.items()):\n+                        if any(item is used for used in items):\n+                            item['path'].unlink(missing_ok=True)\n+                            uploads.pop(token)\n             # Keep uploaded copies for retry; discard only this job's generated intermediates.\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-be91e15e-e7cb-40e3-8870-b835100e16cc",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfrom pathlib import Path\np=Path('templates/index.html')\ns=p.read_text(encoding='utf-8')\nsection='''<section class=\\\"panel\\\" aria-labelledby=\\\"merge-heading\\\">\n<h2 id=\\\"merge-heading\\\">Unește videoclipuri într-un singur MP4</h2>\n<p>Adaugă videoclipuri pe rând, mai multe odată sau un folder întreg. Schimbă ordinea cu săgețile înainte de unire.</p>\n<div class=\\\"features\\\">\n<div><label for=\\\"merge-one\\\">ADAUGĂ UN VIDEO</label><input id=\\\"merge-one\\\" type=\\\"file\\\" accept=\\\".mp4,.mkv,.mov,.avi,.webm,.m4v,.mpeg,.mpg,.ts\\\"></div>\n<div><label for=\\\"merge-many\\\">ADAUGĂ MAI MULTE VIDEOCLIPURI</label><input id=\\\"merge-many\\\" type=\\\"file\\\" multiple accept=\\\".mp4,.mkv,.mov,.avi,.webm,.m4v,.mpeg,.mpg,.ts\\\"></div>\n<div><label for=\\\"merge-folder\\\">ALEGE UN FOLDER</label><input id=\\\"merge-folder\\\" type=\\\"file\\\" webkitdirectory multiple></div>\n</div>\n<p class=\\\"hint\\\">Folderul include și subfolderele. Videoclipurile se adaugă în ordinea numelor (1, 2, 10). Maximum 100 de videoclipuri, 4 GB fiecare. Copierea și procesarea au loc local pe acest calculator.</p>\n<p id=\\\"merge-count\\\"></p><div class=\\\"scroll\\\"><table><thead><tr><th>Videoclip</th><th>Ordine / eliminare</th></tr></thead><tbody id=\\\"merge-list\\\"></tbody></table></div>\n<button id=\\\"merge-clear\\\" type=\\\"button\\\">Golește lista</button>\n<label for=\\\"merge-name\\\" style=\\\"margin-top:20px\\\">NUMELE VIDEOCLIPULUI FINAL</label><input id=\\\"merge-name\\\" value=\\\"Videoclip unit\\\" maxlength=\\\"70\\\">\n<button id=\\\"merge-start\\\" type=\\\"button\\\" disabled>Unește videoclipurile</button>\n<p class=\\\"hint\\\">Rezultat MP4, 1080p, 30 cadre/s, cu sunet stereo. Proporțiile imaginii se păstrează cu benzi negre; clipurile fără sunet primesc liniște. Fișierele originale rămân intacte. Este necesar spațiu pentru copii temporare și conversie.</p>\n<p class=\\\"hint\\\">Salvare: downloads / Videoclipuri unite</p>\n<p id=\\\"merge-error\\\" role=\\\"alert\\\" style=\\\"color:#ffb4a7\\\"></p>\n<div id=\\\"merge-status\\\" hidden aria-live=\\\"polite\\\"><p id=\\\"merge-message\\\"></p><progress id=\\\"merge-progress\\\" max=\\\"100\\\" value=\\\"0\\\"></progress><p><a id=\\\"merge-result\\\" hidden>Descarcă MP4</a></p></div>\n</section>\n'''\ns=s.replace('<section class=\\\"features\\\">', section+'<section class=\\\"features\\\">',1)\ns=s.replace('<script src=\\\"/static/app.js\\\"></script>', '<script src=\\\"/static/app.js\\\"></script><script src=\\\"/static/merge.js\\\"></script>')\np.write_text(s,encoding='utf-8')\n'@ | .\\\\.venv\\\\Scripts\\\\python.exe -\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "26510",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfrom pathlib import Path\np=Path('templates/index.html')\ns=p.read_text(encoding='utf-8')\nsection='''<section class=\"panel\" aria-labelledby=\"merge-heading\">\n<h2 id=\"merge-heading\">Unește videoclipuri într-un singur MP4</h2>\n<p>Adaugă videoclipuri pe rând, mai multe odată sau un folder întreg. Schimbă ordinea cu săgețile înainte de unire.</p>\n<div class=\"features\">\n<div><label for=\"merge-one\">ADAUGĂ UN VIDEO</label><input id=\"merge-one\" type=\"file\" accept=\".mp4,.mkv,.mov,.avi,.webm,.m4v,.mpeg,.mpg,.ts\"></div>\n<div><label for=\"merge-many\">ADAUGĂ MAI MULTE VIDEOCLIPURI</label><input id=\"merge-many\" type=\"file\" multiple accept=\".mp4,.mkv,.mov,.avi,.webm,.m4v,.mpeg,.mpg,.ts\"></div>\n<div><label for=\"merge-folder\">ALEGE UN FOLDER</label><input id=\"merge-folder\" type=\"file\" webkitdirectory multiple></div>\n</div>\n<p class=\"hint\">Folderul include și subfolderele. Videoclipurile se adaugă în ordinea numelor (1, 2, 10). Maximum 100 de videoclipuri, 4 GB fiecare. Copierea și procesarea au loc local pe acest calculator.</p>\n<p id=\"merge-count\"></p><div class=\"scroll\"><table><thead><tr><th>Videoclip</th><th>Ordine / eliminare</th></tr></thead><tbody id=\"merge-list\"></tbody></table></div>\n<button id=\"merge-clear\" type=\"button\">Golește lista</button>\n<label for=\"merge-name\" style=\"margin-top:20px\">NUMELE VIDEOCLIPULUI FINAL</label><input id=\"merge-name\" value=\"Videoclip unit\" maxlength=\"70\">\n<button id=\"merge-start\" type=\"button\" disabled>Unește videoclipurile</button>\n<p class=\"hint\">Rezultat MP4, 1080p, 30 cadre/s, cu sunet stereo. Proporțiile imaginii se păstrează cu benzi negre; clipurile fără sunet primesc liniște. Fișierele originale rămân intacte. Este necesar spațiu pentru copii temporare și conversie.</p>\n<p class=\"hint\">Salvare: downloads / Videoclipuri unite</p>\n<p id=\"merge-error\" role=\"alert\" style=\"color:#ffb4a7\"></p>\n<div id=\"merge-status\" hidden aria-live=\"polite\"><p id=\"merge-message\"></p><progress id=\"merge-progress\" max=\"100\" value=\"0\"></progress><p><a id=\"merge-result\" hidden>Descarcă MP4</a></p></div>\n</section>\n'''\ns=s.replace('<section class=\"features\">', section+'<section class=\"features\">',1)\ns=s.replace('<script src=\"/static/app.js\"></script>', '<script src=\"/static/app.js\"></script><script src=\"/static/merge.js\"></script>')\np.write_text(s,encoding='utf-8')\n'@ | .\\.venv\\Scripts\\python.exe -"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 590
+}
+````
+
+## Asistent
+
+Secțiunea este adăugată. Folderul include și subfolderele, iar videoclipurile apar în ordine naturală după nume, cu butoane pentru mutare și eliminare. La unire, clipurile sunt aduse la același format, fără întinderea imaginii; cele fără sunet primesc o pistă silențioasă.
+
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-f183f2f0-215d-49c2-82da-bbc0c9b24a93",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\README.md",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -2,2 +2,14 @@\n \n+## Unirea videoclipurilor locale\n+\n+Secțiunea **Unește videoclipuri într-un singur MP4** permite adăugarea unui video, selectarea mai multor fișiere sau alegerea unui folder (inclusiv subfoldere). Lista este cumulativă. La alegerea folderului, fișierele se ordonează natural după cale/nume (1, 2, 10). Folosește săgețile sus/jos pentru ordinea finală și **Elimină** pentru un fișier. **Golește lista** elimină și copiile încărcate temporar.\n+\n+Sunt acceptate MP4, MKV, MOV, AVI, WEBM, M4V, MPEG, MPG și TS, maximum 100 de videoclipuri și 4 GB per fișier. După alegerea numelui, apasă **Unește videoclipurile**. Se copiază fișierele pe serverul local, apoi se procesează în fundal. Progresul este afișat în pagină și poate fi recuperat după reîncărcare cât timp serverul rulează.\n+\n+Rezultatul este MP4 H.264/AAC, 1920×1080, 30 fps, audio stereo 48 kHz. Se păstrează proporțiile cu benzi negre; videoclipurile fără audio primesc liniște, iar pistele audio scurte sunt completate cu liniște. Se folosește prima pistă video și prima pistă audio. Subtitrările/pistele suplimentare nu sunt incluse. Clipurile sunt puse unul după altul, fără tranziții.\n+\n+Salvare în `downloads/Videoclipuri unite`, cu un identificator în nume pentru evitarea suprascrierii. Un JSON alăturat păstrează ordinea numelor sursă. Fișierele originale nu sunt modificate. Copiile încărcate sunt șterse după succes, iar fișierele intermediare sunt șterse după procesare. La eroare, copiile încărcate rămân disponibile pentru reîncercare sau golirea listei. După oprire forțată/restart pot rămâne fișiere în `.runtime/merge-uploads` și `.runtime/merge-work`; acestea sunt temporare, nu originale. Conversia necesită timp și spațiu liber suplimentar, proporțional cu lungimea clipurilor. Unirea rulează local și nu accesează YouTube.\n+\n+Funcționalitatea este separată în `video_merge.py` și `static/merge.js`.\n+\n ## Audio și videoclipuri\n"
+    },
+    {
+      "path": "D:\\MP3.Varvi\\app.py",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -361,2 +361,4 @@\n def too_large(_):\n+    if request.path == '/api/merge/uploads':\n+        return jsonify(error='Videoclipul este prea mare. Maximum 4 GB per fișier.'), 413\n     return jsonify(error='Fișierul este prea mare. Maximum 10 MB.'), 413\n"
+    },
+    {
+      "path": "D:\\MP3.Varvi\\tests\\test_merge.py",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "import io\nimport subprocess\nimport tempfile\nimport time\nimport unittest\nfrom pathlib import Path\nfrom flask import Flask\nfrom mutagen.mp4 import MP4\nimport app\nfrom video_merge import concatenate_videos, create_merge_blueprint\n\n\ndef make_clips(folder):\n    silent = folder / 'clip2.mp4'\n    audio = folder / 'clip10.mp4'\n    subprocess.run([app.ffmpeg_path(), '-v', 'error', '-f', 'lavfi', '-i', 'color=c=blue:s=120x160:d=0.5', '-c:v', 'libx264', '-y', str(silent)], check=True)\n    subprocess.run([app.ffmpeg_path(), '-v', 'error', '-f', 'lavfi', '-i', 'color=c=red:s=160x120:d=0.5',\n                    '-f', 'lavfi', '-i', 'sine=frequency=440:duration=0.5', '-c:v', 'libx264', '-c:a', 'aac', '-shortest', '-y', str(audio)], check=True)\n    return silent, audio\n\n\nclass MergeTests(unittest.TestCase):\n    def test_mixed_video_and_silent_clip_order(self):\n        with tempfile.TemporaryDirectory() as tmp:\n            folder = Path(tmp); sources = make_clips(folder)\n            target = folder / 'joined.mp4'; progress = []\n            concatenate_videos(app.ffmpeg_path(), sources, target, folder / 'work', lambda *args: progress.append(args))\n            media = MP4(target)\n            self.assertGreater(media.info.length, .9)\n            self.assertLess(media.info.length, 1.4)\n            self.assertEqual(media.info.channels, 2)\n            colors = []\n            for second in ('.15', '.8'):\n                result = subprocess.run([app.ffmpeg_path(), '-v', 'error', '-ss', second, '-i', str(target),\n                                         '-frames:v', '1', '-vf', 'crop=100:100,scale=1:1', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], capture_output=True, check=True)\n                colors.append(result.stdout)\n            self.assertGreater(colors[0][2], colors[0][0] + 100)\n            self.assertGreater(colors[1][0], colors[1][2] + 100)\n            self.assertTrue(all(p.exists() for p in sources))\n            with self.assertRaises(ValueError):\n                concatenate_videos(app.ffmpeg_path(), sources, target, folder / 'work', lambda *args: None)\n\n    def test_upload_start_result_and_cleanup(self):\n        with tempfile.TemporaryDirectory() as tmp:\n            root = Path(tmp); sources = make_clips(root)\n            testapp = Flask('merge-test')\n            testapp.register_blueprint(create_merge_blueprint(root/'downloads', root/'runtime', app.ffmpeg_path))\n            client = testapp.test_client(); ids = []\n            for path in sources:\n                response = client.post('/api/merge/uploads', data={'file':(io.BytesIO(path.read_bytes()),path.name)})\n                self.assertEqual(response.status_code, 201); ids.append(response.json['id'])\n            self.assertEqual(client.post('/api/merge/jobs', json={'ids':ids[:1]}).status_code, 400)\n            response = client.post('/api/merge/jobs', json={'ids':ids, 'name':'../Test'})\n            self.assertEqual(response.status_code, 202)\n            job = response.json['id']; status = None\n            deadline = time.monotonic() + 45\n            while time.monotonic() < deadline:\n                status = client.get('/api/merge/jobs/'+job).json\n                if status['status'] in ('done','failed'): break\n                time.sleep(.1)\n            self.assertEqual(status['status'], 'done', status)\n            target = root/'downloads'/status['file']\n            self.assertTrue(target.is_file())\n            self.assertTrue(target.resolve().is_relative_to((root/'downloads').resolve()))\n            self.assertEqual(list((root/'runtime'/'merge-uploads').iterdir()), [])\n            self.assertEqual(client.post('/api/merge/jobs', json={'ids':ids}).status_code, 400)\n\n    def test_reject_nonvideo_upload_and_bad_ids(self):\n        with tempfile.TemporaryDirectory() as tmp:\n            testapp = Flask('merge-errors')\n            testapp.register_blueprint(create_merge_blueprint(Path(tmp)/'out', Path(tmp)/'work', app.ffmpeg_path))\n            client = testapp.test_client()\n            self.assertEqual(client.post('/api/merge/uploads', data={'file':(io.BytesIO(b'abc'),'a.txt')}).status_code,400)\n            self.assertEqual(client.post('/api/merge/uploads', data={'file':(io.BytesIO(b''),'a.mp4')}).status_code,400)\n            for payload in ({'ids':['unknown','unknown']},{'ids':['a','b']}, {'ids':[{},{}]}, []):\n                self.assertEqual(client.post('/api/merge/jobs',json=payload).status_code,400)\n\n    def test_invalid_video_not_published(self):\n        with tempfile.TemporaryDirectory() as tmp:\n            root = Path(tmp); fake = root/'fake.mp4';fake.write_bytes(b'not a movie')\n            with self.assertRaises(ValueError):\n                concatenate_videos(app.ffmpeg_path(),[fake,fake],root/'out.mp4',root/'work',lambda *args:None)\n            self.assertFalse((root/'out.mp4').exists())\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-637949d2-a7bc-4aa3-8394-651784402b0f",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \".\\\\.venv\\\\Scripts\\\\python.exe -m unittest discover -s tests -v\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "31746",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v"
+    }
+  ],
+  "aggregatedOutput": "test_artist_and_album_provenance (test_app.AppTests.test_artist_and_album_provenance) ... ok\r\ntest_local_api_and_path_safety (test_app.AppTests.test_local_api_and_path_safety) ... ok\r\ntest_tags_and_catalog_roundtrip (test_app.AppTests.test_tags_and_catalog_roundtrip) ... ok\r\ntest_url_validation (test_app.AppTests.test_url_validation) ... ok\r\ntest_real_conversion_with_installed_ffmpeg (test_conversion.ConversionTests.test_real_conversion_with_installed_ffmpeg) ... ok\r\ntest_batch_continues_after_unavailable_link (test_excel_import.ImportTests.test_batch_continues_after_unavailable_link) ... ok\r\ntest_empty_import_cannot_start (test_excel_import.ImportTests.test_empty_import_cannot_start) ... ok\r\ntest_hyperlinks_formulas_duplicates_and_row_numbers (test_excel_import.ImportTests.test_hyperlinks_formulas_duplicates_and_row_numbers) ... ok\r\ntest_invalid_file (test_excel_import.ImportTests.test_invalid_file) ... ok\r\ntest_preview_does_not_download_and_start_is_serial (test_excel_import.ImportTests.test_preview_does_not_download_and_start_is_serial) ... ok\r\ntest_stable_folders_without_summary (test_excel_import.ImportTests.test_stable_folders_without_summary) ... ok\r\ntest_user_model_is_empty_and_recognized (test_excel_import.ImportTests.test_user_model_is_empty_and_recognized) ... ok\r\ntest_invalid_video_not_published (test_merge.MergeTests.test_invalid_video_not_published) ... ok\r\ntest_mixed_video_and_silent_clip_order (test_merge.MergeTests.test_mixed_video_and_silent_clip_order) ... ERROR\r\ntest_reject_nonvideo_upload_and_bad_ids (test_merge.MergeTests.test_reject_nonvideo_upload_and_bad_ids) ... ok\r\ntest_upload_start_result_and_cleanup (test_merge.MergeTests.test_upload_start_result_and_cleanup) ... ok\r\ntest_batch_stops_on_429_without_trying_next_link (test_pacing.PacingTests.test_batch_stops_on_429_without_trying_next_link) ... ok\r\ntest_cooldown_blocks_both_start_routes_but_not_preview (test_pacing.PacingTests.test_cooldown_blocks_both_start_routes_but_not_preview) ... ok\r\ntest_countdown_and_spacing_even_on_error (test_pacing.PacingTests.test_countdown_and_spacing_even_on_error) ... ok\r\ntest_unavailable_video_does_not_trigger_cooldown (test_pacing.PacingTests.test_unavailable_video_does_not_trigger_cooldown) ... ok\r\ntest_both_files_catalog_and_repeat_collision (test_video.VideoTests.test_both_files_catalog_and_repeat_collision) ... ok\r\ntest_mode_validation_and_submission_for_both_endpoints (test_video.VideoTests.test_mode_validation_and_submission_for_both_endpoints) ... ok\r\ntest_real_video_and_audio_from_one_download (test_video.VideoTests.test_real_video_and_audio_from_one_download) ... ok\r\n\r\n======================================================================\r\nERROR: test_mixed_video_and_silent_clip_order (test_merge.MergeTests.test_mixed_video_and_silent_clip_order)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"D:\\MP3.Varvi\\tests\\test_merge.py\", line 34, in test_mixed_video_and_silent_clip_order\r\n    result = subprocess.run([app.ffmpeg_path(), '-v', 'error', '-ss', second, '-i', str(target),\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py\", line 571, in run\r\n    raise CalledProcessError(retcode, process.args,\r\nsubprocess.CalledProcessError: Command '['D:\\\\MP3.Varvi\\\\.venv\\\\Lib\\\\site-packages\\\\imageio_ffmpeg\\\\binaries\\\\ffmpeg-win-x86_64-v7.1.exe', '-v', 'error', '-ss', '.15', '-i', 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\tmpn6ioyuqa\\\\joined.mp4', '-frames:v', '1', '-vf', 'crop=100:100,scale=1:1', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-']' returned non-zero exit status 4294967274.\r\n\r\n----------------------------------------------------------------------\r\nRan 23 tests in 1.968s\r\n\r\nFAILED (errors=1)\r\n",
+  "exitCode": 1,
+  "durationMs": 2982
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-950e1917-8629-4cde-b21f-a719badb1bd7",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\tests\\test_merge.py",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -32,3 +32,3 @@\n             colors = []\n-            for second in ('.15', '.8'):\n+            for second in ('0.15', '0.8'):\n                 result = subprocess.run([app.ffmpeg_path(), '-v', 'error', '-ss', second, '-i', str(target),\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-38183c1d-be2d-43da-a45f-631df32cc1c1",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \".\\\\.venv\\\\Scripts\\\\python.exe -m unittest discover -s tests -v\n& 'C:\\\\Windows\\\\System32\\\\netstat.exe' -ano -p tcp | Select-String ':8765'\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "22937",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v\n& 'C:\\Windows\\System32\\netstat.exe' -ano -p tcp | Select-String ':8765'"
+    }
+  ],
+  "aggregatedOutput": "test_artist_and_album_provenance (test_app.AppTests.test_artist_and_album_provenance) ... ok\r\ntest_local_api_and_path_safety (test_app.AppTests.test_local_api_and_path_safety) ... ok\r\ntest_tags_and_catalog_roundtrip (test_app.AppTests.test_tags_and_catalog_roundtrip) ... ok\r\ntest_url_validation (test_app.AppTests.test_url_validation) ... ok\r\ntest_real_conversion_with_installed_ffmpeg (test_conversion.ConversionTests.test_real_conversion_with_installed_ffmpeg) ... ok\r\ntest_batch_continues_after_unavailable_link (test_excel_import.ImportTests.test_batch_continues_after_unavailable_link) ... ok\r\ntest_empty_import_cannot_start (test_excel_import.ImportTests.test_empty_import_cannot_start) ... ok\r\ntest_hyperlinks_formulas_duplicates_and_row_numbers (test_excel_import.ImportTests.test_hyperlinks_formulas_duplicates_and_row_numbers) ... ok\r\ntest_invalid_file (test_excel_import.ImportTests.test_invalid_file) ... ok\r\ntest_preview_does_not_download_and_start_is_serial (test_excel_import.ImportTests.test_preview_does_not_download_and_start_is_serial) ... ok\r\ntest_stable_folders_without_summary (test_excel_import.ImportTests.test_stable_folders_without_summary) ... ok\r\ntest_user_model_is_empty_and_recognized (test_excel_import.ImportTests.test_user_model_is_empty_and_recognized) ... ok\r\ntest_invalid_video_not_published (test_merge.MergeTests.test_invalid_video_not_published) ... ok\r\ntest_mixed_video_and_silent_clip_order (test_merge.MergeTests.test_mixed_video_and_silent_clip_order) ... ok\r\ntest_reject_nonvideo_upload_and_bad_ids (test_merge.MergeTests.test_reject_nonvideo_upload_and_bad_ids) ... ok\r\ntest_upload_start_result_and_cleanup (test_merge.MergeTests.test_upload_start_result_and_cleanup) ... ok\r\ntest_batch_stops_on_429_without_trying_next_link (test_pacing.PacingTests.test_batch_stops_on_429_without_trying_next_link) ... ok\r\ntest_cooldown_blocks_both_start_routes_but_not_preview (test_pacing.PacingTests.test_cooldown_blocks_both_start_routes_but_not_preview) ... ok\r\ntest_countdown_and_spacing_even_on_error (test_pacing.PacingTests.test_countdown_and_spacing_even_on_error) ... ok\r\ntest_unavailable_video_does_not_trigger_cooldown (test_pacing.PacingTests.test_unavailable_video_does_not_trigger_cooldown) ... ok\r\ntest_both_files_catalog_and_repeat_collision (test_video.VideoTests.test_both_files_catalog_and_repeat_collision) ... ok\r\ntest_mode_validation_and_submission_for_both_endpoints (test_video.VideoTests.test_mode_validation_and_submission_for_both_endpoints) ... ok\r\ntest_real_video_and_audio_from_one_download (test_video.VideoTests.test_real_video_and_audio_from_one_download) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 23 tests in 2.043s\r\n\r\nOK\r\n\r\n  TCP    127.0.0.1:8765         0.0.0.0:0              LISTENING       22124\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 3039
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6a4733fa-ed54-47ea-8b74-fd8730da76c3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Invoke-RestMethod http://127.0.0.1:8765/api/jobs/286997dd8ada4f2d97e54ac0fda9d021 | Select-Object status,message,current,total; Get-CimInstance Win32_Process -Filter 'ProcessId=22124' | Select-Object ProcessId,ExecutablePath,CommandLine\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "83895",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Invoke-RestMethod http://127.0.0.1:8765/api/jobs/286997dd8ada4f2d97e54ac0fda9d021 | Select-Object status,message,current,total; Get-CimInstance Win32_Process -Filter 'ProcessId=22124' | Select-Object ProcessId,ExecutablePath,CommandLine"
+    }
+  ],
+  "aggregatedOutput": "Invoke-RestMethod: \r\nLine |\r\n   2 |  Invoke-RestMethod http://127.0.0.1:8765/api/jobs/286997dd8ada4f2d97e5 …\r\n     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | \r\n{\r\n  \"error\": \"Sesiune inexistent\\u0103.\"\r\n}\r\n\r\nProcessId ExecutablePath                                                                           CommandLine\r\n--------- --------------                                                                           -----------\r\n    22124 C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe \"C:\\Users\\User\\.cac…\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 672
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-0ce75100-b68a-41b6-adac-0529977139ce",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-CimInstance Win32_Process -Filter 'ProcessId=22124' | Format-List ProcessId,CommandLine,CreationDate; Get-Content server-error.log -Tail 8; Get-ChildItem -File *.log | Select-Object Name,LastWriteTime\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "44421",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-CimInstance Win32_Process -Filter 'ProcessId=22124' | Format-List ProcessId,CommandLine,CreationDate; Get-Content server-error.log -Tail 8; Get-ChildItem -File *.log | Select-Object Name,LastWriteTime"
+    }
+  ],
+  "aggregatedOutput": "\r\nProcessId    : 22124\r\nCommandLine  : \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" app.py\r\nCreationDate : 23.10.2026 02:19:43\r\n\r\n127.0.0.1 - - [08/Oct/2026 16:49:06] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [08/Oct/2026 16:49:06] \"GET /favicon.ico HTTP/1.1\" 404 -\r\n127.0.0.1 - - [08/Oct/2026 17:02:58] \"GET / HTTP/1.1\" 200 -\r\n127.0.0.1 - - [08/Oct/2026 17:02:58] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [08/Oct/2026 17:02:58] \"GET /favicon.ico HTTP/1.1\" 404 -\r\n127.0.0.1 - - [08/Oct/2026 17:02:58] \"POST /api/jobs HTTP/1.1\" 400 -\r\n127.0.0.1 - - [08/Oct/2026 17:03:26] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [08/Oct/2026 17:03:35] \"GET / HTTP/1.1\" 200 -\r\n\r\nName             LastWriteTime\r\n----             -------------\r\nserver-error.log 08.10.2026 17:03:35\r\nserver.log       08.10.2026 16:48:12\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 501
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-02806041-3288-4a6f-80a2-d51d25a4d517",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\tests\\browser-merge.cjs",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "const {chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');\n(async()=>{\n const browser=await chromium.launch({channel:'msedge',headless:true});\n try {\n  const page=await browser.newPage({viewport:{width:1280,height:1000}});\n  const errors=[];page.on('pageerror',e=>errors.push(e.message));\n  await page.goto('http://127.0.0.1:8765');\n  await page.setInputFiles('#merge-one','.runtime/merge-browser/clip2.mp4');\n  await page.setInputFiles('#merge-many',['.runtime/merge-browser/clip10.mp4']);\n  if(await page.locator('#merge-list tr').count()!==2)throw Error('Additive selection');\n  await page.locator('#merge-list tr').nth(1).getByRole('button',{name:'Mută mai sus: clip10.mp4',exact:true}).click();\n  if(!(await page.locator('#merge-list tr').first().innerText()).includes('clip10.mp4'))throw Error('Reorder');\n  await page.click('#merge-clear');\n  await page.setInputFiles('#merge-folder','.runtime/merge-browser');\n  if(await page.locator('#merge-list tr').count()!==2)throw Error('Folder video filtering');\n  if(!(await page.locator('#merge-list tr').first().innerText()).includes('clip2.mp4'))throw Error('Natural order');\n  await page.fill('#merge-name','Test-browser-unire');\n  await page.click('#merge-start');\n  await page.locator('#merge-result').waitFor({state:'visible',timeout:60000});\n  const href=await page.locator('#merge-result').getAttribute('href');\n  const result=await page.request.get(href);if(!result.ok()||(await result.body()).length<1000)throw Error('Missing result');\n  await page.locator('[aria-labelledby=\"merge-heading\"]').screenshot({path:'.runtime/merge-desktop.png'});\n  await page.setViewportSize({width:390,height:844});\n  if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw Error('Mobile overflow');\n  if(errors.length)throw Error(errors.join('\\n'));\n  console.log('Merge browser OK: single, multiple, folder, order, actual upload/merge/download, mobile');\n  console.log(decodeURIComponent(href));\n } finally {await browser.close();}\n})().catch(e=>{console.error(e);process.exit(1)});\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-b9e272c9-11d9-4a41-a561-799cd530dc26",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfrom pathlib import Path\nimport sys\nsys.path.insert(0,'tests')\nfrom test_merge import make_clips\np=Path('.runtime/merge-browser');p.mkdir(exist_ok=True)\nmake_clips(p)\n(p/'ignore.txt').write_text('not a video')\n'@ | .\\\\.venv\\\\Scripts\\\\python.exe -\nStop-Process -Id 22124\n\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "82255",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfrom pathlib import Path\nimport sys\nsys.path.insert(0,'tests')\nfrom test_merge import make_clips\np=Path('.runtime/merge-browser');p.mkdir(exist_ok=True)\nmake_clips(p)\n(p/'ignore.txt').write_text('not a video')\n'@ | .\\.venv\\Scripts\\python.exe -\nStop-Process -Id 22124\n"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 1066
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-69552146-9729-4479-9342-24ad27e4fed2",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node tests/browser-merge.cjs'",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "55755",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node tests/browser-merge.cjs"
+    }
+  ],
+  "aggregatedOutput": "apiRequestContext.get: Invalid URL\n    at D:\\MP3.Varvi\\tests\\browser-merge.cjs:21:35 {\n  log: [],\n  name: 'TypeError'\n}\n",
+  "exitCode": 1,
+  "durationMs": 3011
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-1a154de7-456c-4ad9-b262-47d1439c5420",
+  "changes": [
+    {
+      "path": "D:\\MP3.Varvi\\tests\\browser-merge.cjs",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -20,3 +20,3 @@\n   const href=await page.locator('#merge-result').getAttribute('href');\n-  const result=await page.request.get(href);if(!result.ok()||(await result.body()).length<1000)throw Error('Missing result');\n+  const result=await page.request.get('http://127.0.0.1:8765'+href);if(!result.ok()||(await result.body()).length<1000)throw Error('Missing result');\n   await page.locator('[aria-labelledby=\"merge-heading\"]').screenshot({path:'.runtime/merge-desktop.png'});\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-369a58c8-cc75-405e-a868-8a2ef86ce476",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node tests/browser-merge.cjs'",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "94013",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node tests/browser-merge.cjs"
+    }
+  ],
+  "aggregatedOutput": "Merge browser OK: single, multiple, folder, order, actual upload/merge/download, mobile\n/files/Videoclipuri unite/Test-browser-unire [38c15801].mp4\n",
+  "exitCode": 0,
+  "durationMs": 2728
+}
+````
+
+## Asistent
+
+Unirea funcționează: am testat clipuri cu dimensiuni diferite, inclusiv unul fără sunet, și am verificat ordinea în MP4-ul final. Au trecut cele 23 de teste și proba completă în browser: adăugare individuală, selecție multiplă, folder, reordonare și descărcarea rezultatului.
+
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-e16d5bed-acc8-4f73-8da3-db223fe61c88",
+  "path": "D:\\MP3.Varvi\\.runtime\\merge-desktop.png"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e22c8dd9-ba9f-4501-8bee-80b204551985",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-ChildItem -LiteralPath 'D:\\\\MP3.Varvi\\\\downloads\\\\Videoclipuri unite' -Filter 'Test-browser-unire*' | Select-Object FullName\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "96148",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-ChildItem -LiteralPath 'D:\\MP3.Varvi\\downloads\\Videoclipuri unite' -Filter 'Test-browser-unire*' | Select-Object FullName"
+    }
+  ],
+  "aggregatedOutput": "\r\nFullName\r\n--------\r\nD:\\MP3.Varvi\\downloads\\Videoclipuri unite\\Test-browser-unire [38c15801].json\r\nD:\\MP3.Varvi\\downloads\\Videoclipuri unite\\Test-browser-unire [38c15801].mp4\r\nD:\\MP3.Varvi\\downloads\\Videoclipuri unite\\Test-browser-unire [51deaedb].json\r\nD:\\MP3.Varvi\\downloads\\Videoclipuri unite\\Test-browser-unire [51deaedb].mp4\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 177
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-cbaa1a10-efe1-43cf-b59e-e6f60ad55217",
+  "server": "codex_app",
+  "tool": "open_in_codex",
+  "status": "completed",
+  "arguments": {
+    "target": {
+      "type": "browser",
+      "url": "http://127.0.0.1:8765"
+    }
+  },
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\":\"queued\",\"threadId\":\"01a11bbd-6d5c-7df2-9bda-ffd497b27994\"}"
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 20
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-934ce2c7-9918-4cf5-a0ce-1a21ccf8f37c",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Remove-Item -LiteralPath 'D:\\\\MP3.Varvi\\\\downloads\\\\Videoclipuri unite\\\\Test-browser-unire [38c15801].json','D:\\\\MP3.Varvi\\\\downloads\\\\Videoclipuri unite\\\\Test-browser-unire [38c15801].mp4','D:\\\\MP3.Varvi\\\\downloads\\\\Videoclipuri unite\\\\Test-browser-unire [51deaedb].json','D:\\\\MP3.Varvi\\\\downloads\\\\Videoclipuri unite\\\\Test-browser-unire [51deaedb].mp4'\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "50544",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Remove-Item -LiteralPath 'D:\\MP3.Varvi\\downloads\\Videoclipuri unite\\Test-browser-unire [38c15801].json','D:\\MP3.Varvi\\downloads\\Videoclipuri unite\\Test-browser-unire [38c15801].mp4','D:\\MP3.Varvi\\downloads\\Videoclipuri unite\\Test-browser-unire [51deaedb].json','D:\\MP3.Varvi\\downloads\\Videoclipuri unite\\Test-browser-unire [51deaedb].mp4'"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 153
+}
+````
+
+## Asistent
+
+Am adăugat în [aplicație](http://127.0.0.1:8765) secțiunea **„Unește videoclipuri într-un singur MP4”**.
+
+Poți:
+- adăuga videoclipuri unul câte unul sau mai multe simultan;
+- selecta un folder, inclusiv subfolderele;
+- schimba ordinea și elimina clipuri;
+- alege numele videoclipului final.
+
+Rezultatul se salvează în [Videoclipuri unite](<D:/MP3.Varvi/downloads/Videoclipuri unite>). Originalele rămân intacte.
+
+Verificat: **23 de teste și unire reală din browser**, inclusiv clipuri fără sunet.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5a65b641-a1f5-4eae-bf4a-4de94ecaa20c",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \".\\\\.venv\\\\Scripts\\\\python.exe app.py\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "17957",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": ".\\.venv\\Scripts\\python.exe app.py"
+    }
+  ],
+  "aggregatedOutput": "MP3 Varvi: http://127.0.0.1:8765\r\n * Serving Flask app 'app'\r\n * Debug mode: off\r\nWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\r\n * Running on http://127.0.0.1:8765\r\nPress CTRL+C to quit\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"GET / HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"GET /static/app.js HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"GET /static/merge.js HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"GET /favicon.ico HTTP/1.1\" 404 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"POST /api/merge/uploads HTTP/1.1\" 201 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"POST /api/merge/uploads HTTP/1.1\" 201 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"POST /api/merge/jobs HTTP/1.1\" 202 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:24] \"GET /api/merge/jobs/51deaedb13b04a4183a7df2ccaca391c HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:25] \"GET /api/merge/jobs/51deaedb13b04a4183a7df2ccaca391c HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"GET / HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"GET /static/app.js HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"GET /static/merge.js HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"GET /favicon.ico HTTP/1.1\" 404 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"POST /api/merge/uploads HTTP/1.1\" 201 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"POST /api/merge/uploads HTTP/1.1\" 201 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"POST /api/merge/jobs HTTP/1.1\" 202 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:31] \"GET /api/merge/jobs/38c15801637c4b8e9b589c64c44fa1d2 HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:33] \"GET /api/merge/jobs/38c15801637c4b8e9b589c64c44fa1d2 HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:33] \"GET /files/Videoclipuri%20unite/Test-browser-unire%20[38c15801].mp4 HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:44] \"GET / HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:44] \"GET /static/merge.js HTTP/1.1\" 200 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:44] \"GET /static/app.js HTTP/1.1\" 304 -\r\n127.0.0.1 - - [23/Oct/2026 03:00:44] \"GET /api/status HTTP/1.1\" 200 -\r\n",
+  "exitCode": 1073807364,
+  "durationMs": 8120014
+}
+````

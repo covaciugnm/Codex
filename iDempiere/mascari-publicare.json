@@ -2,6 +2,30 @@
   "local_originals_preserved": true,
   "masked_files": [
     {
+      "path": "Alege un WMS gratuit pentru iDempi/fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip",
+      "masked_values": {
+        "jwt": 6
+      }
+    },
+    {
+      "path": "Alege un WMS gratuit pentru iDempi/fisiere/Cash_Flow_2026-10-08--d6b8c741.zip",
+      "masked_values": {
+        "jwt": 2
+      }
+    },
+    {
+      "path": "Alege un WMS gratuit pentru iDempi/fisiere/ERP_Productie_2026-10-08--268cd8be.zip",
+      "masked_values": {
+        "jwt": 10
+      }
+    },
+    {
+      "path": "Compară 3 programe HR gratuite/fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip",
+      "masked_values": {
+        "jwt": 6
+      }
+    },
+    {
       "path": "Compară 3 programe HR gratuite/istoric.json",
       "masked_values": {
         "aws_access_key": 1,
@@ -12,6 +36,43 @@
       "path": "Compară 3 programe HR gratuite/rezultate.md",
       "masked_values": {
         "aws_access_key": 1,
+        "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "Compară ERP-uri pentru producție/fisiere/ERP_Productie_2026-10-08--268cd8be.zip",
+      "masked_values": {
+        "jwt": 10
+      }
+    },
+    {
+      "path": "Compară soluții Cash Flow/fisiere/Cash_Flow_2026-10-08--d6b8c741.zip",
+      "masked_values": {
+        "jwt": 2
+      }
+    },
+    {
+      "path": "Creează monografia contabilă/fisiere/Monografie_contabila_RO_2026-10-12--09be2459.zip",
+      "masked_values": {
+        "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "Inventariază documentele ERP/fisiere/Biblioteca_modele_documentate_ERP_RO_2026-10-06--dabb61bd.zip",
+      "masked_values": {
+        "google_api_key": 2,
+        "signed_url_credential": 4
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--5717cc7d/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--5717cc7d/rezultate.md",
+      "masked_values": {
         "signed_url_credential": 2
       }
     }

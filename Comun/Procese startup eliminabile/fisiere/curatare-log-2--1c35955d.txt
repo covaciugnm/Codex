@@ -1,0 +1,57 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261030173024
+Username: DESKTOP-COSMIN\User
+RunAs User: DESKTOP-COSMIN\User
+Configuration Name: 
+Machine: DESKTOP-COSMIN (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\User\Documents\Backup-Startup-2026-10-30\curatare-startup-2.ps1
+Process ID: 41944
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== SERVICII ===
+OK   Autodesk Access Service Host -> Disabled (Stopped)
+OK   Autodesk CER Service -> Disabled (Stopped)
+OK   EasyTuneEngineService -> Disabled (Stopped)
+OK   GBTECService -> Disabled (Stopped)
+OK   OCButtonService -> Disabled (Stopped)
+OK   GigabyteUpdateService -> Disabled (Stopped)
+OK   Wms -> Disabled (Stopped)
+OK   WmsRepair -> Disabled (Stopped)
+=== TASK-URI PROGRAMATE ===
+OK   \GBTECService
+OK   \GCC
+OK   \GraphicsCardEngine
+OK   \OneDrive Per-Machine Standalone Update Task
+OK   \OneDrive Reporting Task-S-1-5-21-3947112371-2596958979-3271516134-1001
+OK   \OneDrive Reporting Task-S-1-5-21-3947112371-2596958979-3271516134-1005
+OK   \OneDrive Startup Task-S-1-5-21-3947112371-2596958979-3271516134-1001
+OK   \OneDrive Startup Task-S-1-5-21-3947112371-2596958979-3271516134-1005
+OK   \Opera scheduled assistant Autoupdate 1773669981
+OK   \Opera scheduled Autoupdate 1699787778
+OK   \cFos\Registration Tasks\Open Browser
+=== RUN (Autodesk sters din HKLM) ===
+OK   sters Autodesk Access Service
+OK   sters StartupApproved Autodesk
+=== APLICATII UTILIZATOR (dezactivate ca in Task Manager, reversibil) ===
+OK   Opera Stable -> dezactivat la startup
+OK   Opera Browser Assistant -> dezactivat la startup
+OK   Weixin -> dezactivat la startup
+OK   Discord -> dezactivat la startup
+OK   Teams -> dezactivat la startup
+=== APLICATII STORE (WhatsApp, iCloud, Widgets, Teams) ===
+OK   AppleInc.iCloud_nzyj5cx40ttqa\iCloudHomeStartupTask -> dezactivat (era 2)
+--   5319275A.WhatsAppDesktop_cv1g1gvanyjgm\WhatsAppStartupTask deja dezactivat (0)
+--   48405AmbientSoftware.WidgetsFree_agy8jafheqhng\WidgetsDesktopTask deja dezactivat (1)
+--   MSTeams_8wekyb3d8bbwe\TeamsTfwStartupTask deja dezactivat (1)
+**********************
+Windows PowerShell transcript end
+End time: 20261030173028
+**********************

@@ -1,0 +1,46 @@
+[
+  {
+    "source_reference": "/C:/Users/User/AppData/Local/Temp/reaudit_native_first_c03.json",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "/C:/Users/User/AppData/Local/Temp/reaudit_technical_c03_c10.json",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_architecture_g123_technical.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/reaudit_settings_contracts_g123.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_reaudit_c03_comparison.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_architecture_g123_technical.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_c03_comparison.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_explicativ_technical_final.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_native_first_c03.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_settings_contracts_g123.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_technical_c03_c10.json",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

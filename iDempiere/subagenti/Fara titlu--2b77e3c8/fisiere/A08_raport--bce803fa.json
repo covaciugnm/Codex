@@ -1,0 +1,2590 @@
+{
+  "schema": "eva.audit.zone.report.v2",
+  "agent": "A08",
+  "phase": "Execuție după acceptarea A11; prima trecere",
+  "result": "RAPORT_PREDAT_LA_A11",
+  "quality_score": null,
+  "reviewer": "A11",
+  "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "plan_manifest": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "arbitration": "ATRIBUIRI_CONFIRMATE_CU_PRECIZARI_DE_INTERFATA",
+  "signed_zone_plan_sha256": "dce61fdc9a94ca209010032b30cde26777d01e90bdc70e28ebef65ba5282863a",
+  "captured_utc": "2026-11-02T14:56:35.083Z",
+  "scope": "De la canalul configurat în ERP până la proiecția comercială și comanda clientului, raportată înapoi comisionarului; managementul operațional și financiar aparține ERP.",
+  "counts": {
+    "controls": 27,
+    "control_statuses": {
+      "FAIL_DOVEDIT": 15,
+      "PARȚIAL": 11,
+      "NEEXECUTAT": 1
+    },
+    "pipelines": 7,
+    "findings": 10,
+    "task_candidates": 18,
+    "full_e2e_accepted": 0
+  },
+  "provenance": {
+    "git": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "installed_image": [
+      "/eva-idempiere-cesiro sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235 eva-idempiere-rest:13 2026-11-02T08:49:19.413514333Z",
+      "/eva-contab-frontend sha256:2ee034275fd69ad7184978f218bddf6f63dfe9410ff6cf3a1686a43b6d65fedb eva-contab-frontend 2026-10-15T21:11:31.331260416Z",
+      "/eva-contab-backend sha256:3f5036fcaa21b83f02102b4269838baee4aaeadaa32890520ee9c8755eaf269b eva-contab-backend 2026-10-15T21:12:03.150712536Z",
+      "/eva-contab-storefront sha256:8915f62ce46beb3309c7e4a90890e0fc6900ffc508ed88b00d3c202840ec82da eva-contab-storefront-next 2026-10-29T12:34:15.737980571Z",
+      "/spree-web sha256:ce8dce27cf1f882888f6bbfe9c35f605d9580050fcacb0587eaf728abf689c0e spree_starter-local:latest 2026-10-15T21:12:10.972132567Z"
+    ],
+    "source_vs_deployment": {
+      "eva-contab-backend / identic": 185,
+      "eva-contab-backend / conținut diferit": 20,
+      "eva-contab-frontend / identic": 185,
+      "eva-contab-storefront / identic": 24
+    },
+    "spree": "Gemfile.lock inspectat: spree_core 5.4.3, spree_i18n 5.3.2. Verificare selectivă de cod pe controlerul campaniilor. Funcționarea tuturor extensiilor în runtime rămâne de probat.",
+    "native": [
+      {
+        "owner": "A01",
+        "capability": "Izolare prin rol și organizație",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MRole.java",
+        "line": 64,
+        "source_sha256": "654ec592009e3709591a7a07abdb70e1837daab806cca69b68f1868c2eced476",
+        "installed_class": "org/compiere/model/MRole.class",
+        "bytecode_sha256": "e525d2b8777c20df06975d51fbccd1d3ea1d3774fb1a3e45a4db753183e39951",
+        "actual_dictionary": {
+          "table": "AD_Role",
+          "table_id": 156,
+          "active": "Y",
+          "windows": [
+            "Role",
+            "Role Data Access",
+            "Role Template"
+          ]
+        },
+        "decision_to_audit": "Reutilizează accesul nativ la ferestre, procese și org în contextul autorizat; API-ul extern trebuie să aplice același context."
+      },
+      {
+        "owner": "A02",
+        "capability": "Identitate internă",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MProduct.java",
+        "line": 54,
+        "source_sha256": "66a73a9ab816dbd4450f41b6f30d417b7ea187e0415a153fcd2d2554893e34e8",
+        "installed_class": "org/compiere/model/MProduct.class",
+        "bytecode_sha256": "2c05bd60cedc601ec9db38d029928b6dcc586e8937e6c2774138c0a763b74729",
+        "actual_dictionary": {
+          "table": "M_Product",
+          "table_id": 208,
+          "active": "Y",
+          "windows": [
+            "Accounting Dimensions",
+            "Expense Type",
+            "Parts and BOMs",
+            "Product",
+            "Product Category",
+            "Product Costs",
+            "Product Planning Data",
+            "Resource",
+            "Spare parts"
+          ]
+        },
+        "decision_to_audit": "Două fișe pentru CPP și CPA. Protejarea codului după redenumire necesită un mecanism permanent dacă se confirmă golul."
+      },
+      {
+        "owner": "A06",
+        "capability": "Angajamente",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MStorageReservation.java",
+        "line": 35,
+        "source_sha256": "1904e5e9746d8136d5164dbf7e0ac3c36fa1bd061f52aa6c6844788ceff7f6c5",
+        "installed_class": "org/compiere/model/MStorageReservation.class",
+        "bytecode_sha256": "f1779cd339f460e3d39a21cb2e66e4159e3a3796a9e16c78f0d52cd9f7e13483",
+        "actual_dictionary": {
+          "table": "M_StorageReservation",
+          "table_id": 200027,
+          "active": "Y",
+          "windows": []
+        },
+        "decision_to_audit": "Confruntă rezervările reale cu componentele G3. Un singur proprietar pe angajament și stare."
+      },
+      {
+        "owner": "A06",
+        "capability": "Preț și condiții",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MPriceList.java",
+        "line": 38,
+        "source_sha256": "4062cf90a1e7eb7a42f01653e9ac5da4b5ceb36470f5c172634fbb3ccf5fba1d",
+        "installed_class": "org/compiere/model/MPriceList.class",
+        "bytecode_sha256": "2c694a78f03abe2e7e8791ff0b5b7ede0162d256059861b19277f9f261758930",
+        "actual_dictionary": {
+          "table": "M_PriceList",
+          "table_id": 255,
+          "active": "Y",
+          "windows": [
+            "Price List"
+          ]
+        },
+        "decision_to_audit": "Configurează liste și versiuni pe canal și monedă, cu selecție la data comenzii."
+      },
+      {
+        "owner": "A06",
+        "capability": "Comanda",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MOrder.java",
+        "line": 74,
+        "source_sha256": "3644adf5ec4519c22ce7b7cf892260d77acd12fd1991872099adeaaae6002281",
+        "installed_class": "org/compiere/model/MOrder.class",
+        "bytecode_sha256": "f0c185df547cc1a56fce31525a4cc4c4ce4e845f868743763f925858cd0b2042",
+        "actual_dictionary": {
+          "table": "C_Order",
+          "table_id": 259,
+          "active": "Y",
+          "windows": [
+            "Business Partner Info",
+            "Purchase Order",
+            "Sales Opportunity",
+            "Sales Order",
+            "Sales Rep Info"
+          ]
+        },
+        "decision_to_audit": "Păstrează documentul ERP drept autoritate după import și validează permisiunile gestionarului."
+      },
+      {
+        "owner": "A07",
+        "capability": "Aviz/expediție",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MInOut.java",
+        "line": 80,
+        "source_sha256": "a3c6801b77bea90c2fa65e49cb0a28d224cdc41e1699fba93f4d598a10d78eda",
+        "installed_class": "org/compiere/model/MInOut.class",
+        "bytecode_sha256": "3e85d32deb2186185619aaae17ba5d0ab9ce5bffe7d3a659c567152157cc46a0",
+        "actual_dictionary": {
+          "table": "M_InOut",
+          "table_id": 319,
+          "active": "Y",
+          "windows": [
+            "Business Partner Info",
+            "Customer Return",
+            "Material Receipt",
+            "Return to Vendor",
+            "Shipment (Customer)"
+          ]
+        },
+        "decision_to_audit": "Leagă C_OrderLine și cantitatea reală. CO nu dovedește singur livrarea la client."
+      },
+      {
+        "owner": "A07",
+        "capability": "Colet",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MPackage.java",
+        "line": 40,
+        "source_sha256": "b08cd31f4d83e598c2719a760ca1a49350481a7550d1e718e3755a0fe6389b22",
+        "installed_class": "org/compiere/model/MPackage.class",
+        "bytecode_sha256": "6b3430502ca39a2de7fdd5cea495c5454dde6b26be1d9963ae632ea3e58f104b",
+        "actual_dictionary": {
+          "table": "M_Package",
+          "table_id": 664,
+          "active": "Y",
+          "windows": [
+            "Shipment (Customer)",
+            "Shipment Package"
+          ]
+        },
+        "decision_to_audit": "Pleacă de la coletul nativ, atașează AWB-ul după validare; câte un efect per colet."
+      },
+      {
+        "owner": "A07",
+        "capability": "Retur autorizat",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MRMA.java",
+        "line": 46,
+        "source_sha256": "95981f6b758bd0ae7cd7ca1e07e89108a3b055e220d3f9ac86653f2f1be2f30e",
+        "installed_class": "org/compiere/model/MRMA.class",
+        "bytecode_sha256": "b5197a0ad7558c1aeb4c8d247d6974516f543cafc6b2daadf5b51c16da84a551",
+        "actual_dictionary": {
+          "table": "M_RMA",
+          "table_id": 661,
+          "active": "Y",
+          "windows": [
+            "Customer RMA",
+            "Vendor RMA"
+          ]
+        },
+        "decision_to_audit": "Folosește RMA pentru returul comercial potrivit. Respingerea înainte de curier are alt traseu."
+      },
+      {
+        "owner": "A07",
+        "capability": "Facturare",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MInvoice.java",
+        "line": 76,
+        "source_sha256": "236f4f9404405023e1a419b004b46b12b2578a93e83cd05ad9dc94d7ad67fed2",
+        "installed_class": "org/compiere/model/MInvoice.class",
+        "bytecode_sha256": "25a81adf0d5dd7ab4cc8777d1ba2a4b667634740a175d146fa594f85ed8c23a5",
+        "actual_dictionary": {
+          "table": "C_Invoice",
+          "table_id": 318,
+          "active": "Y",
+          "windows": [
+            "Business Partner Info",
+            "Invoice Payment Schedule",
+            "Purchase Invoice and Credit/Debit Note",
+            "Sales Invoice and Credit/Debit Note",
+            "Sales Rep Info"
+          ]
+        },
+        "decision_to_audit": "Alege politica firmei și triggerul; leagă livrarea și storno-ul de documentul original."
+      },
+      {
+        "owner": "A03",
+        "capability": "Taxare",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MTax.java",
+        "line": 44,
+        "source_sha256": "710cdd93d7218c146381861e536a9894640a17946a0d32043dcd5197e6b0cc83",
+        "installed_class": "org/compiere/model/MTax.class",
+        "bytecode_sha256": "2168197739729174abdeedc6ab8af2730db98dbf5c7171672f784d3416a45bea",
+        "actual_dictionary": {
+          "table": "C_Tax",
+          "table_id": 261,
+          "active": "Y",
+          "windows": [
+            "Tax Category",
+            "Tax Rate"
+          ]
+        },
+        "decision_to_audit": "Determină cota pe dată, categorie și jurisdicție în ERP; site-ul trebuie să reproducă aceeași decizie."
+      },
+      {
+        "owner": "A03",
+        "capability": "Monedă",
+        "native_source": "org.adempiere.base/src/org/compiere/model/MConversionRate.java",
+        "line": 46,
+        "source_sha256": "ccdb94a5d5febc9a9657bf4637e26ba2306f73f7a6db3f5b03419ba548e31a9d",
+        "installed_class": "org/compiere/model/MConversionRate.class",
+        "bytecode_sha256": "57df4e2945c4dfeeb69f3f71734eb6a205239e1b22659124dad71fdbeff26ddc",
+        "actual_dictionary": {
+          "table": "C_Conversion_Rate",
+          "table_id": 140,
+          "active": "Y",
+          "windows": [
+            "Currency",
+            "Currency Rate"
+          ]
+        },
+        "decision_to_audit": "Reutilizează cursul valid la dată și schema contabilă, inclusiv pentru conversie și rotunjire."
+      }
+    ],
+    "docs": "codul operațional, tabelul AD și imaginea sunt dovezi distincte; fiecare recomandare cere test la rolul/contextul corect înainte de acceptare."
+  },
+  "evidence_index": {
+    "FIX": {
+      "id": "FIX",
+      "path": "A08/fixture_rezultate.json",
+      "sha256": "6364fda90f16962a6a32e4dddafec4e70b78ce662ee02e30d508c7c16cd1d735",
+      "method": "Comenzi HTTP în Flask/TestClient și fișiere sintetice; filtrare pe cont, retur, publicare, adrese, localizare și SEO.",
+      "source_type": "artefact de probă"
+    },
+    "ROUTE": {
+      "id": "ROUTE",
+      "path": "A08/topologie.json",
+      "sha256": "1194673785742b19771bf3466969dbf4bee41f0ca026288f117299342d628425",
+      "method": "99 routere, 30 site-uri, servicii și volume efective, fără cereri în producție.",
+      "source_type": "inventar stare efectivă / proveniență"
+    },
+    "VIEW": {
+      "id": "VIEW",
+      "path": "A08/viewport.json",
+      "sha256": "499804f58db88b3718dff785533c62d2df3451cdfdc32370d6fca324d2cd2683",
+      "method": "Randare reală Chromium headless la 360x800 și 1280x900; măsurători DOM după completare.",
+      "source_type": "artefact de probă"
+    },
+    "SHOTS": {
+      "id": "SHOTS",
+      "path": "A08/checkout-360.png",
+      "sha256": "c87e40071798d5f3711a6e65826a2302db1b761423b0fec81caf7d3bd82a2fbf",
+      "method": "Imagine de la viewport de telefon.",
+      "source_type": "artefact de probă"
+    },
+    "DESKTOP": {
+      "id": "DESKTOP",
+      "path": "A08/checkout-1280.png",
+      "sha256": "3782711b2a320443633b66d98fe795e0ca7be00f19c462f740c1bef8ad93cdab",
+      "method": "Imagine de la viewport desktop.",
+      "source_type": "artefact de probă"
+    },
+    "ORDER": {
+      "id": "ORDER",
+      "path": "Checkout_probe.json",
+      "sha256": "253411b3b3b52cee21663dbdae62afcedfbec325f70cc697c8719a9d75b2e396",
+      "method": "Test transversal al confirmării repetate, cantitate peste disponibil și negativă.",
+      "source_type": "artefact de probă"
+    },
+    "A01": {
+      "id": "A01",
+      "path": "A01_raport.json",
+      "sha256": "1e57c4b95b3457953a56558bcb5b8a588b87f1f682d8169187a754ba78d886cd",
+      "method": "Probele A01, în special A01.F13, urmărite ca referințe transversale.",
+      "source_type": "referință auditor transversal"
+    },
+    "A06": {
+      "id": "A06",
+      "path": "A06_raport.json",
+      "sha256": "da58f0a2cde15dee163c06ff7a61e896fb685bdbafb3358f66d26dc2a089a4f6",
+      "method": "Probele de catalog și comenzi ale executorului A06, constatările sunt păstrate cu ID-ul lor.",
+      "source_type": "referință auditor transversal"
+    },
+    "NATIVE": {
+      "id": "NATIVE",
+      "path": "Matrice_nativa_reutilizare.json",
+      "sha256": "3d452d26576275400ffeeba2bf0846a12d3294d857a236f960f708fbd3ae52a0",
+      "method": "Sursă release13, bundle instalat și metadate AD; nu sunt o probă a întregului flux.",
+      "source_type": "inventar stare efectivă / proveniență"
+    },
+    "PROV": {
+      "id": "PROV",
+      "path": "Provenienta_API_web.json",
+      "sha256": "f0702a817ba3b80bf255c7624229732c53c0fae88596ca97965f5ff9a803f135",
+      "method": "Comparație octeți container ↔ Git per fișier din selecție.",
+      "source_type": "inventar stare efectivă / proveniență"
+    },
+    "LIVE": {
+      "id": "LIVE",
+      "path": "../capturi/MANIFEST.json",
+      "sha256": "06c12dbdd9737c86e69afe27330e7360b5d529a869f27c6c485e8c9d5f5655a1",
+      "method": "Cutoff/imagini pe server.",
+      "source_type": "inventar stare efectivă / proveniență"
+    },
+    "SUITE": {
+      "id": "SUITE",
+      "path": "FE-suite-cu-teme/masuratori.json",
+      "sha256": "d4abf8a28f705c69a5f0c1cdf225bfdb58a32e6900969ddec0e4dcdf025fdcdc",
+      "method": "Suită FE; numărul de suite lansate sau codul 0 nu țin loc de execuția unui caz individual.",
+      "source_type": "artefact de probă"
+    },
+    "SPREE": {
+      "id": "SPREE",
+      "path": "D:/CodexWork/eva-audit-secondary-20261102/spree/app/controllers/eva_campaigns_controller.rb",
+      "sha256": "0d199633bd52fca23e9d9a4e64758aee9453bbf04cad4737a7f9bad8c9ec336a",
+      "method": "Sursă Spree administrată în afara repository-ului; analiză selectivă, statica nu dovedește o divulgare.",
+      "source_type": "artefact de probă"
+    },
+    "SPREELOCK": {
+      "id": "SPREELOCK",
+      "path": "D:/CodexWork/eva-audit-secondary-20261102/spree/Gemfile.lock",
+      "sha256": "553a26b7d794f253739613f2ae31de762acec2d39a4439ed151e3d200b562ef1",
+      "method": "Blocarea versiunii Gem; nu dovedește starea comenzii ERP.",
+      "source_type": "artefact de probă"
+    },
+    "THEMES": {
+      "id": "THEMES",
+      "path": "D:/CodexWork/eva-audit-secondary-20261102/public-theme-fixture/theme_registry.json",
+      "sha256": "c6f975abcd55611a4500ab41faecc30fdc43406fee737322dfa38e06691c0343",
+      "method": "Registrul de teme instalate folosit în mediul local.",
+      "source_type": "artefact de probă"
+    },
+    "LABELS": {
+      "id": "LABELS",
+      "path": "D:/CodexWork/eva-audit-secondary-20261102/public-theme-fixture/default_translations.json",
+      "sha256": "6a1d2b7d1a77580661bdbf2132607f7313839b6e6319926696f8b8b6732b8a97",
+      "method": "Sursa traducerilor TVA 19% și Total factura.",
+      "source_type": "artefact de probă"
+    },
+    "REPRO": {
+      "id": "REPRO",
+      "path": "A08/probe_A08.py",
+      "sha256": "243854d624bee7a3a142bac8a883e75a8445f9578fac54fd8fa968d07de5d7b1",
+      "method": "Program rerulabil, date sintetice și rețea dezactivată.",
+      "source_type": "procedură"
+    },
+    "SCREEN_REPRO": {
+      "id": "SCREEN_REPRO",
+      "path": "A08/render_A08.py",
+      "sha256": "35be6fa8c15e7bc63976bc626f62ecfe9116bdd003e84173d2be0ce577210bbc",
+      "method": "Randare și măsurare cu profil temporar și acces la date locale ale fixture.",
+      "source_type": "procedură"
+    },
+    "TOPO_REPRO": {
+      "id": "TOPO_REPRO",
+      "path": "A08/topologie_A08.py",
+      "sha256": "e7e4b4b39e4ab04c84b767b6360532df12f90c082ac46276622ce06ba2bc7ef6",
+      "method": "Captură fără schimbări în producție",
+      "source_type": "procedură"
+    },
+    "HTML": {
+      "id": "HTML",
+      "path": "A08/checkout_fixture.html",
+      "sha256": "449917a6f6bb3eeaa787885dcfe6dcd04281434b1444235cb6595b634fd2ce8b",
+      "method": "HTML din view checkout și date complet sintetice.",
+      "source_type": "artefact de probă"
+    }
+  },
+  "findings": [
+    {
+      "finding_id": "A08-F01",
+      "title": "Importul administrativ acceptă catalogul altui canal fără sesiune",
+      "severity": "P0 condiționat de expunerea rutei",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "Pe hostul A, POST anonim pentru B a înlocuit 2 produse cu o singură intrare canar, HTTP 200. Ruta nu verifică identitate. În container, /app/data este montat pentru scriere.",
+      "evidence_ids": [
+        "FIX",
+        "PROV",
+        "ROUTE"
+      ],
+      "selector": "factory:api_import_json,cms:import_catalog_payload",
+      "anchors": [
+        {
+          "path": "frontend/storefront/app/factory.py",
+          "line": 425,
+          "symbol": "def api_import_json",
+          "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 870,
+          "symbol": "def import_catalog_payload",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Ținte de rutare diferite: PathPrefix(/admin) cesiro1 duce către Spree. Pentru cesiro.com, regula enumerată trimite la storefront. Niciun apel de scriere extern sau test de acces prin CDN.",
+      "native_first_remediation": "Restrânge importul la identitate tehnică autorizată pentru canalul derivat server-side, revizie verificată și date validate. Blochează importul din magazinul public și păstrează sursa și istoricul în ERP.",
+      "regression": "Încearcă A→B neautentificat, cu grant numai A și cu grant corect B. Primele două nu ating niciun octet; a treia produce versiune explicită.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F02",
+      "title": "Comanda pierde adresa distinctă de facturare",
+      "severity": "Ridicată",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "Cererea sintetică cu adrese A/B salvează B în customer.address și în shipping_address. Nu persistă câmp de facturare distinct în documentul local.",
+      "evidence_ids": [
+        "FIX",
+        "PROV",
+        "ROUTE"
+      ],
+      "selector": "address",
+      "anchors": [
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 966,
+          "symbol": "customer[\"address\"] = shipping_address",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 166,
+          "symbol": "def normalize_shipping_address",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "S-a probat documentul comercial local. Impactul în documentul fiscal depinde de adaptorul ERP.",
+      "native_first_remediation": "Mapează separat adresele în C_BPartner_Location pentru facturare și livrare pe C_Order. Păstrează referințele în confirmare și la reluare.",
+      "regression": "Comandă cu A≠B, interschimbare de limbă, două comenzi de la același client: fiecare reține snapshotul propriu.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F03",
+      "title": "Un checkout public rescrie datele unui cont existent",
+      "severity": "Ridicată",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "După o comandă anonimă folosind e-mailul sintetic deja înregistrat, numele salvat a trecut din A Synthetic în Foreign writer, deși contul era inactiv. Contul a rămas inactiv.",
+      "evidence_ids": [
+        "FIX",
+        "PROV",
+        "ROUTE"
+      ],
+      "selector": "profile_unauth_checkout",
+      "anchors": [
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 186,
+          "symbol": "def ensure_customer_account",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 1024,
+          "symbol": "account = ensure_customer_account",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Nu s-au obținut sesiunea sau parola altcuiva. Modificarea profilului persistent este reproducibilă local.",
+      "native_first_remediation": "Separă datele comenzii invitatului de profil. Leagă un cont/C_BPartner confirmat prin sesiune sau verificare opt-in. Nu actualiza profilul prin simpla egalitate a e-mailului.",
+      "regression": "Cu e-mail existent sau dezactivat și date noi, profilul vechi rămâne identic; schimbarea explicită a utilizatorului autorizat este jurnalizată.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F04",
+      "title": "Schimbarea parolei nu invalidează sesiunea persistentă a magazinului",
+      "severity": "Ridicată",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "După schimbare și răspuns 200, jetonul emise anterior continuă să obțină istoricul cu 200. Dezactivarea explicită a contului duce la 403.",
+      "evidence_ids": [
+        "FIX",
+        "PROV",
+        "ROUTE"
+      ],
+      "selector": "pwd_rotation,account_revoked",
+      "anchors": [
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 1129,
+          "symbol": "def change_customer_password",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 1147,
+          "symbol": "def customer_account_from_session",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Cont store_customer, diferit de incidentul A01.F06 din IAM și de rolul de comisionar ERP, care rămâne de testat separat.",
+      "native_first_remediation": "Folosește politica comună IAM sau reînnoiește tokenul și elimină sesiunile după schimbarea parolei. Păstrează revocarea server-side.",
+      "regression": "Două sesiuni dinainte de schimbare eșuează; sesiunea nouă funcționează doar în canalul permis.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F05",
+      "title": "Returul normalizează greșit ID-ul și nu are idempotency la reîncercare",
+      "severity": "Ridicată",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "Numele salvat ORD-… nu este numele căutat ord-… după safe_id. Pe Windows, două solicitări cu aceeași cheie creează două RET diferite; în simulare cu lookup sensibil la caz solicitarea primește 400 order_not_found.",
+      "evidence_ids": [
+        "FIX",
+        "PROV",
+        "ROUTE"
+      ],
+      "selector": "return-1,return-retry,return-foreign,exact_case_return,case_sensitive_return",
+      "anchors": [
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 98,
+          "symbol": "def safe_id",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 1184,
+          "symbol": "def create_customer_return",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Nu am emis M_RMA și niciun document financiar. Efectul terminal pe filesystemul volumului instalat încă nu a fost probat.",
+      "native_first_remediation": "Validează ID fără modificarea literelor. Persistă un ID durabil al operației și request hash, iar ERP transformă doar retururile validate în M_RMA.",
+      "regression": "Pe volum Linux testat, același ID returnează aceeași cerere la retry. Comanda străină primește refuz.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F06",
+      "title": "Paginile de cont/checkout sunt declarate indexabile și răspunsurile de cont au cache public",
+      "severity": "Medie",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "/cart, /account, /checkout și /returns au meta robots index,follow. Sitemap fixture nu conține aceste pagini. POST autenticat cu lista proprie a primit Cache-Control: public,max-age=300; niciun caching comun efectiv sau acces la date din cache nu a fost demonstrat.",
+      "evidence_ids": [
+        "FIX",
+        "PROV",
+        "ROUTE"
+      ],
+      "selector": "/account,/cart,/returns,checkout,sitemap,own_orders",
+      "anchors": [
+        {
+          "path": "frontend/storefront/templates/shared/seo_head.html",
+          "line": 3,
+          "symbol": "name=\"robots\"",
+          "sha256": "540dea135b697bfead211724c9aba72aa0c9f396502b0e7654da856bb4fa3a3e",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/app/factory.py",
+          "line": 33,
+          "symbol": "def security_headers",
+          "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/app/factory.py",
+          "line": 60,
+          "symbol": "def commerce_page",
+          "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+          "compare_actual": "identic"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Un POST nu este automat refolosit de orice cache. Nu se declară date private divulgate.",
+      "native_first_remediation": "Setează noindex pentru pagini personale și preview. Răspunsurile de cont autentificat trebuie private,no-store; lasă cache comun doar la date publice pe limbă/canal/versiune.",
+      "regression": "Verifică headere și robots după autentificare/ieșire, acces prin două sesiuni și sitemap public.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F07",
+      "title": "O publicare veche poate înlocui oferta mai nouă",
+      "severity": "Ridicată",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "Mesaje cu versiune 2 apoi 1 au lăsat catalogul la version-1. Handlerul salvează payloadul fără compare-and-set și fără versiunea primită.",
+      "evidence_ids": [
+        "FIX",
+        "PROV",
+        "ROUTE"
+      ],
+      "selector": "out_of_order",
+      "anchors": [
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 870,
+          "symbol": "def import_catalog_payload",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Proba se referă la adaptorul Flask de import, nu la toți conectorii POS/Spree/ERP.",
+      "native_first_remediation": "Publică din fișa nativă a canalului cu revizie monotonă, cheie stabilă și confirmare; păstrează ultimul catalog valid în caz de conflict și dezactivează doar prin operație explicită.",
+      "regression": "După v2, v1 și v2 repetat, catalogul rămâne la v2 și conflictul este explicabil.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F08",
+      "title": "Site-uri configurate cu același proces storefront în loc de instanțe per canal",
+      "severity": "Ridicată",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "19 dintre cele 30 de ID-uri de site au hosturi explicite către același eva-contab-storefront; 27 declarații de router merg spre el. 9 site-uri cu host ca ID au doar ruta spre mirror, 1 doar spre spree-web, 1 fără host explicit cu acel ID.",
+      "evidence_ids": [
+        "ROUTE",
+        "PROV",
+        "LIVE"
+      ],
+      "selector": "topologie",
+      "anchors": [
+        {
+          "path": "proxy/traefik/dynamic/firm-cesiro1-next.yml",
+          "line": 11,
+          "symbol": "storefront-next-cesiro1",
+          "sha256": "f24501424397869f100e42cc19f54733d329d293c37f84f1d87c0f45fd518d66",
+          "compare_actual": "nu este în comparația selectivă; verificat doar în commit"
+        },
+        {
+          "path": "docker-compose.yml",
+          "line": 347,
+          "symbol": "  storefront-next:",
+          "sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959",
+          "compare_actual": "nu este în comparația selectivă; verificat doar în commit"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Inventarul de site nu înlocuiește lista contabilă de canale. Nu afirma că toate 30 ar trebui să fie active, că firmele externe au aceeași bază sau că o denumire dovedește absența unei instalări.",
+      "native_first_remediation": "Păstrează aceeași imagine și logică de checkout. Dimensionează și provizionează instanța, stocarea și namespace-ul distinct pe canal, mapate la EVA_CanalVanzare. Reconciliază exemplele/aliasurile cu registrul și documentează excepțiile.",
+      "regression": "Oprește numai fixture-ul A, B rămâne disponibil. Persistența, cache-ul, media, indexul și coada sunt restrictive pe canal.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F09",
+      "title": "Cinci câmpuri de checkout își pierd indicația vizibilă după introducere",
+      "severity": "Medie",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "La 360 și 1280 px, nume, telefon, email, denumire adresă și adresă au exclusiv placeholder. După populare, toate cinci nu mai afișează placeholder. Auditul DOM nu găsește label asociat, aria-label, aria-labelledby sau title.",
+      "evidence_ids": [
+        "VIEW",
+        "SHOTS",
+        "DESKTOP",
+        "HTML"
+      ],
+      "selector": "viewport",
+      "anchors": [
+        {
+          "path": "frontend/storefront/templates/shared/commerce.html",
+          "line": 50,
+          "symbol": "name=\"name\" required",
+          "sha256": "7e495e0cbec10588eb8ab1cc01f1de8a9833099136449cdc67384133dd0b5fd5",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/templates/shared/commerce.html",
+          "line": 77,
+          "symbol": "name=\"address\" required",
+          "sha256": "7e495e0cbec10588eb8ab1cc01f1de8a9833099136449cdc67384133dd0b5fd5",
+          "compare_actual": "identic"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Browserele și cititoarele pot folosi placeholder ca nume calculat. Nu se pretinde test real cu tehnologie asistivă.",
+      "native_first_remediation": "Adaugă etichete vizibile persistente în template-ul comun, asociază for/id, leagă erorile prin aria-describedby. Verifică tastatură și reader.",
+      "regression": "Pentru cele cinci câmpuri indicația rămâne vizibilă după completare și atât cititorul cât și lista de erori indică exact câmpul.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    },
+    {
+      "finding_id": "A08-F10",
+      "title": "Coșul prezintă anticipat factura și o singură cotă TVA",
+      "severity": "Medie (text) / Ridicată (calcul comercial)",
+      "confidence": "Ridicată",
+      "status": "DESCHIS_PENTRU_A11",
+      "observed_fact": "În coșul gol se văd TVA 19% și «Total factura». A06-F05 documentează calculul fix al TVA. Eticheta dintr-un coș nu indică emiterea unei facturi.",
+      "evidence_ids": [
+        "VIEW",
+        "SHOTS",
+        "DESKTOP",
+        "LABELS",
+        "A06"
+      ],
+      "selector": "viewport,checkout",
+      "anchors": [
+        {
+          "path": "frontend/storefront/templates/shared/commerce.html",
+          "line": 40,
+          "symbol": "ui.vat_value",
+          "sha256": "7e495e0cbec10588eb8ab1cc01f1de8a9833099136449cdc67384133dd0b5fd5",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/templates/shared/commerce.html",
+          "line": 42,
+          "symbol": "ui.total_invoice",
+          "sha256": "7e495e0cbec10588eb8ab1cc01f1de8a9833099136449cdc67384133dd0b5fd5",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 934,
+          "symbol": "vat_rate = 0.19",
+          "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+          "compare_actual": "identic"
+        },
+        {
+          "path": "frontend/storefront/static/themes/storefront.js",
+          "line": 94,
+          "symbol": "const VAT_RATE = 0.19",
+          "sha256": "5c7af41dff422695aa0970e28ab00fa978c47bd974dc47071197b71b42e50e9f",
+          "compare_actual": "nu este în comparația selectivă; verificat doar în commit"
+        }
+      ],
+      "reproduction": "Rulează probe_A08.py cu Python și dependențele din antet; pentru viewport, rulează render_A08.py. Topologia se reia cu topologie_A08.py prin SSH cu cheia autorizată. Verifică selectorul dat și apoi filtrele din rutarea capturată.",
+      "limitations": "Verificare comercială și UX pe fixture. Nu emit opinie fiscală privind cota legală a unui produs real.",
+      "native_first_remediation": "Folosește C_Tax și oferta calculată de ERP pentru produs, client, dată și canal. Denumește sumarul «Total comandă», detaliază taxele aplicabile, lasă documentul fiscal pentru etapa configurată.",
+      "regression": "Fixture două cote/produse și livrare parțială: totalul coșului și C_Order coincid și nu se anunță o factură în coș.",
+      "owner": "A08",
+      "reviewer": "A11",
+      "decision": null,
+      "false_positive_history": [
+        {
+          "revision": "r1",
+          "action": "s-au delimitat routerele, efectul în componentă, imaginea instalată și integrarea ERP"
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "id": "A08-C01",
+      "title": "Traseul cabinet → firmă → canal",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "expected": "URL-urile au segmentele exacte /CUI_A, /CUI_A/CUI_A sau /CUI_A/CUI_B și numele configurat al canalului. Antetul indică firma și canalul corecte.",
+      "negative_target": "Segment necunoscut, slash codificat și combinație cabinet B/firmă A nu deschid canalul A.",
+      "observed": "CUI cabinet, firmă, eMag, Trendyol: cele patru URL-fixture au returnat 404 în storefront. În portal A01.F13 confirmă matcher absent și 404. În cele 99 reguli apar pentru acc ruta generică la portal și excepția /florin.",
+      "evidence": [
+        "FIX",
+        "ROUTE",
+        "A01"
+      ],
+      "findings": [
+        "A01.F13"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Demonstrează ulterior aliasurile/domeniile externe într-un cabinet izolat.",
+      "plan_anchors": [
+        "route",
+        "tenancy"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C02",
+      "title": "Numele canalului și identitatea internă",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "expected": "Aceleași referințe interne și comenzi după redenumire; două firme cu numele identic se disting prin CUI.",
+      "negative_target": "Dublură în aceeași firmă este refuzată. Un link vechi se rezolvă numai conform politicii declarate și în firma corectă.",
+      "observed": "Nomele actuale de host sunt mapate la ținte. Configurarea schimbării de nume și conservarea ID-ului intern pe parcursul redenumirii nu au fost exercitate în ERP. URL complet lipsă în fixture.",
+      "evidence": [
+        "ROUTE",
+        "FIX",
+        "A01"
+      ],
+      "findings": [],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Repetă redenumirea și coliziunea în două firme cu aceeași denumire; urmărește cheia DB și comenzile.",
+      "plan_anchors": [
+        "route",
+        "channel"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C03",
+      "title": "Desfășurare per canal",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "expected": "100% din rândurile incluse au o instanță corespunzătoare, inclusiv canalele platformelor. Instanțele sunt distincte conform modelului cerut.",
+      "negative_target": "Oprește exclusiv fixture-ul A; B rămâne disponibil. O rută spre alt container produce eroare, nu alt magazin.",
+      "observed": "19 hosturi din registrul site-urilor au rute explicite spre același container storefront; nu există o instanță distinctă per canal pentru acest set de hosturi configurate. Numitorul din registrul site nu constituie numitor al tuturor canalelor ERP.",
+      "evidence": [
+        "ROUTE",
+        "LIVE"
+      ],
+      "findings": [
+        "A08-F08"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Demonstrează Docker per canal din ERP și sănătatea fiecărei rute cu două clone.",
+      "plan_anchors": [
+        "compose",
+        "route",
+        "spree"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C04",
+      "title": "Izolare stocare și cache",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "expected": "Zero apariții ale canarului în catalog B, fișiere B, coadă B, căutare B și sesiune B; se inventariază DB, Redis, Meili, ActiveStorage.",
+      "negative_target": "Manipulează parametrii tenant, Host și cookie în A; rezultatul nu dezvăluie B.",
+      "observed": "Proba A→B de import a schimbat catalogul canarului altui tenant. Query tenant=B este ignorat când hostul A este public; X-Forwarded-Host schimbă selecția la acest nivel. S-au inventariat montările persistente și imaginile, fără a accesa datele clienților.",
+      "evidence": [
+        "FIX",
+        "ROUTE",
+        "PROV"
+      ],
+      "findings": [
+        "A08-F01",
+        "A08-F08"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Proxy sanitation, cache-uri partajate și test restaurare separate rămân neconfirmate.",
+      "plan_anchors": [
+        "cms",
+        "scope",
+        "media"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C05",
+      "title": "Acces responsabil și comisionar",
+      "pipeline_ids": [
+        "A08-P01"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "expected": "API aplică organizație, canal, proprietar și permisiune; comisionarul are catalog, comandă și situațiile proprii.",
+      "negative_target": "Utilizează URL de administrare direct; zero operații de administrare reușite din site.",
+      "observed": "La nivel Flask, utilizatorul fără sesiune poate suprascrie alt catalog. shop_customer pentru comenzile proprii este distinct de rolul comisionar. Constatările IAM A01.F03 și F09 au alte căi.",
+      "evidence": [
+        "FIX",
+        "ROUTE",
+        "A01",
+        "PROV"
+      ],
+      "findings": [
+        "A08-F01"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Fără E2E cu rolul ERP comisionar. Expunerea diferențiată per router/host/ACL se păstrează explicit.",
+      "plan_anchors": [
+        "rbac",
+        "admin"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C06",
+      "title": "Mapare CPP și CPA",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "expected": "Fiecare variantă și linie de comandă păstrează ID-ul intern unic, inclusiv după schimbarea SKU/EAN.",
+      "negative_target": "SKU dublu sau produs fără mapare nu se substituie automat altui produs.",
+      "observed": "A06-F01 reproduce identificator explicit P1 care este rezolvat ca SKU al altui produs. Fixture A06 persistă alt ID în comanda locală, deși M_Product există nativ.",
+      "evidence": [
+        "A06",
+        "NATIVE",
+        "PROV"
+      ],
+      "findings": [
+        "A06-F01"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Verifică apoi CPP/CPA pe toate canalele și mapează M_Product_ID în C_OrderLine.",
+      "plan_anchors": [
+        "catalog",
+        "fișa"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C07",
+      "title": "Preț și conversii pe canal",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "expected": "Pentru fiecare versiune, totalul brut, net, taxa, moneda și unitatea coincid în toate reprezentările la precizia configurată.",
+      "negative_target": "Trimite preț modificat în client și listă expirată; autoritatea comercială respinge sau recalculează, explicând schimbarea înaintea acceptării.",
+      "observed": "Backend și JS folosesc 0,19 pentru toate liniile, UI etichetează TVA 19%. A06 a probat aceeași fracție pe linii; disponibilitatea unei structuri multivalută nu demonstrează taxarea pe produs/curs/preț specific canal.",
+      "evidence": [
+        "A06",
+        "FIX",
+        "VIEW",
+        "NATIVE"
+      ],
+      "findings": [
+        "A08-F10",
+        "A06-F05"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Testează și promoții, precizie pe monedă și livrări după configurarea de canal.",
+      "plan_anchors": [
+        "catalog",
+        "fișa",
+        "cart"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C08",
+      "title": "Alternative G3 și concurență la ultimul set",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "expected": "Înainte de angajament se văd 20/40 alternative. Cantitățile acceptate respectă 6×S1 + 3×S2 ≤120 la fiecare componentă; refuzul afișează opțiunea disponibilă.",
+      "negative_target": "Răspuns stale din cache după ultimul angajament; nicio acceptare peste capacitate.",
+      "observed": "Checkout_probe: cerere qty=7 la stoc 3 primește 200 new. Este o comandă locală, nu probă de stoc contabil negativ. A06 descrie și riscul agregării multi-G1 la rezervare. S1/S2 real în două canale instalate nu a fost executat integral.",
+      "evidence": [
+        "ORDER",
+        "A06",
+        "NATIVE"
+      ],
+      "findings": [
+        "A06-F03",
+        "A06-F07"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Concurență sincronizată online/ERP cu angajament atomic S1/S2, două firme, stoc 120.",
+      "plan_anchors": [
+        "stock",
+        "catalog",
+        "order"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C09",
+      "title": "Dezactivare produs / ordonarea publicărilor",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "expected": "Lista și detaliul nu mai permit plasarea unei noi comenzi pentru oferta retrasă; istoricul comenzii vechi este lizibil.",
+      "negative_target": "Un eveniment vechi sau o invalidare cache repetată nu republică oferta.",
+      "observed": "Mesaj v2 apoi v1 lasă numele versiunii 1 în fișierul catalog B. Nu este menținută monotonia ofertei sau o cheie de publicare în acest adaptor.",
+      "evidence": [
+        "FIX",
+        "PROV"
+      ],
+      "findings": [
+        "A08-F07"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Repetă retragere și replay pe cache real, alte adaptoare și documente vechi.",
+      "plan_anchors": [
+        "fișa",
+        "catalog",
+        "stock"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C10",
+      "title": "Conversii B2B/B2C și segmente",
+      "pipeline_ids": [
+        "A08-P02"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0028",
+        "P01.C10.T0029"
+      ],
+      "expected": "Utilizatorii eligibili văd prețurile conform listei, pragurilor și grupurilor; prețul privat nu ajunge în răspuns public.",
+      "negative_target": "Solicitare anonimă către cache-ul populat din cont B2B și trecerea între două canale; niciun preț B2B divulgat.",
+      "observed": "A06 a executat componentele B2B. Aceasta nu probează preț personalizat și lipsa de scurgeri la cache-ul portalului. La site price_ron/preț și VAT fix sunt reconfirmate pentru comanda locală.",
+      "evidence": [
+        "A06",
+        "PROV",
+        "FIX",
+        "NATIVE"
+      ],
+      "findings": [
+        "A06-F05"
+      ],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Fixture public/preț K1/preț K2 cu două grupuri și istoric de listă ERP; urmărește răspuns crud și index public.",
+      "plan_anchors": [
+        "catalog",
+        "b2b",
+        "cart"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C11",
+      "title": "Checkout complet cu adrese diferite",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "expected": "Un antet și numărul exact de linii cu cele două locații distincte; poziția și suma transportului ajung în ERP.",
+      "negative_target": "Lipsește adresa de livrare: pasul o cere înainte de confirmare, iar datele deja introduse sunt păstrate.",
+      "observed": "Cererea A pentru facturare și B pentru livrare a produs customer.address=B și shipping_address.address=B. billing_address nu se regăsește în documentul persistat.",
+      "evidence": [
+        "FIX",
+        "NATIVE",
+        "PROV"
+      ],
+      "findings": [
+        "A08-F02"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Comparație cu două locații reale în C_Order și cu factura emisă ulterior în sandbox.",
+      "plan_anchors": [
+        "order",
+        "address",
+        "cart"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C12",
+      "title": "Recalculare înainte de confirmare",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "expected": "Clientul vede suma recalculată și lipsa la stoc înainte de angajarea valorii noi; reluarea folosește valoarea confirmată.",
+      "negative_target": "Client furnizează total sau valută nepermise; nu apare document ERP cu totalul manipulabil.",
+      "observed": "Prețul folosit este citit server-side din catalog. Data și cuantumul se calculează în Flask, însă conformitatea ofertei active pe canal și reconfirmarea clientului după modificare rămân deschise.",
+      "evidence": [
+        "A06",
+        "ORDER",
+        "PROV",
+        "FIX"
+      ],
+      "findings": [
+        "A06-F05",
+        "A08-F10"
+      ],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Simulează ajustarea listelor în timp ce coșul e deschis, reconfirmare explicită și valoarea în ERP.",
+      "plan_anchors": [
+        "order",
+        "catalog",
+        "cart"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C13",
+      "title": "Idempotent inclusiv după pierderea răspunsului",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "expected": "Număr comenzi ERP=1 și aceeași referință este comunicată din nou. Două canale cu același ID extern își păstrează comenzile distincte.",
+      "negative_target": "Același ID extern cu payload schimbat produce conflict urmărit, fără suprascriere tăcută.",
+      "observed": "Același Idempotency-Key și aceeași cerere → două fișiere ORD distincte, ambele cu starea new. Două C_Order în ERP nu au fost demonstrate.",
+      "evidence": [
+        "ORDER",
+        "A06",
+        "PROV"
+      ],
+      "findings": [
+        "A06-F02"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Reia după commitul efectiv al C_Order, înainte de ACK și după relansarea workerului.",
+      "plan_anchors": [
+        "order",
+        "spree"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C14",
+      "title": "Administrarea exclusiv în ERP",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "expected": "Nicio etapă gestionar, pick, aviz, aprobare, AWB sau facturare nu poate fi declanșată de site/comisionar. ERP preia noua comandă pentru fluxul legitim.",
+      "negative_target": "Solicitare fabricată pentru schimbare stare, anulare logistică, emitere document sau livrare este respinsă fără efect în fixture.",
+      "observed": "Probe directe au creat comandă locală și cerere locală de retur. Admin pentru cesiro1 merge spre Spree; /admin al site-ului nu dovedește acces operațional. Plata, emiterea AWB și facturarea ERP nu s-au executat. Pentru import catalog public există abatere distinctă.",
+      "evidence": [
+        "FIX",
+        "ROUTE",
+        "A01"
+      ],
+      "findings": [
+        "A08-F01"
+      ],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Cu responsabil/comisionar și gestionar în laborator, testează fiecare endpoint de administrare, C_Order → pick → aviz → validare → AWB/factură.",
+      "plan_anchors": [
+        "admin",
+        "order",
+        "rbac"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C15",
+      "title": "Checkout accesibil și reluare la eroare",
+      "pipeline_ids": [
+        "A08-P03"
+      ],
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0007",
+        "P01.C10.T0017",
+        "P01.C10.T0018",
+        "P01.C10.T0025"
+      ],
+      "expected": "Etichetele, totalul, erorile și referința pot fi percepute fără mouse; datele rămân după eroare, iar reluarea nu comandă de două ori.",
+      "negative_target": "Eroare generică fără câmp indicat sau buton duplicabil se consemnează cu captură de focus și răspuns API.",
+      "observed": "Capturi reale 360 și 1280px: conținut fără overflow global la aceste dimensiuni; după introducere, cinci identificatori de câmp nu mai au indicație vizibilă. TVA și factura sunt prezentate prematur în coș.",
+      "evidence": [
+        "VIEW",
+        "SHOTS",
+        "FIX",
+        "DESKTOP",
+        "LABELS"
+      ],
+      "findings": [
+        "A08-F09",
+        "A08-F10"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Execută reader și eroarea de API după confirmare, inclusiv restabilirea focusului și starea de retry.",
+      "plan_anchors": [
+        "cart",
+        "order"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C16",
+      "title": "Raport pe proprietar în pagină și export",
+      "pipeline_ids": [
+        "A08-P04"
+      ],
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0005",
+        "P01.C10.T0012",
+        "P01.C10.T0017",
+        "P01.C10.T0025"
+      ],
+      "expected": "Comisionarul A vede numai vânzările proprii și agregările lor. Totalul coincide cu A06 la data de referință.",
+      "negative_target": "Pentru ID sau cursorul de paginare aparținând lui B, nu se scurge nici totalul sau numărul comenzilor B.",
+      "observed": "Cont A a văzut comanda proprie și nu pe B; A cu tokenul lui B/canal schimbat primește 403. Răspunsul declară store_customer și cache public. Filtrarea și exportul comisionarilor distincti rămân de verificat în locul real.",
+      "evidence": [
+        "FIX",
+        "PROV",
+        "A01",
+        "A06"
+      ],
+      "findings": [
+        "A08-F06"
+      ],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Confruntă raport, total, export, paginare și cote comerciale pentru K1/K2 în ERP.",
+      "plan_anchors": [
+        "orders",
+        "rbac"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C17",
+      "title": "Revocarea accesului",
+      "pipeline_ids": [
+        "A08-P04"
+      ],
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0005",
+        "P01.C10.T0012",
+        "P01.C10.T0017",
+        "P01.C10.T0025"
+      ],
+      "expected": "După pragul documentat de revocare, atât API, cât și exportul sunt blocate pe ambele sesiuni. Celălalt comisionar funcționează normal.",
+      "negative_target": "Legătură veche, tab din cache sau cookie păstrat nu redeschid date private; verifică și refresh.",
+      "observed": "Schimbarea parolei clientului nu invalidează tokenul aprobat anterior, 200 pentru lista de comenzi. Dezactivarea explicită produce 403. Nu demonstrează politica rolului ERP de comisionar.",
+      "evidence": [
+        "FIX",
+        "PROV",
+        "A01"
+      ],
+      "findings": [
+        "A08-F04"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Exercită revocarea grantului unui singur canal în două sesiuni și servere distribuite.",
+      "plan_anchors": [
+        "orders",
+        "scope",
+        "rbac"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C18",
+      "title": "Returul și situația comercială",
+      "pipeline_ids": [
+        "A08-P04"
+      ],
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0005",
+        "P01.C10.T0012",
+        "P01.C10.T0017",
+        "P01.C10.T0025"
+      ],
+      "expected": "Cererea poartă referința proprie. Situația afișează corecția primită din ERP; încasările și stocurile urmăresc documentele unice gestionate de A07.",
+      "negative_target": "Cerere repetată sau returul altei persoane nu creează document financiar suplimentar.",
+      "observed": "A primește refuz 400 pentru ordinul B, însă două solicitări proprii duplicate creează două fișiere RET în Windows. Compararea exactă a numelor pe filesystem sensibil la caz produce 400 chiar pentru comanda proprie.",
+      "evidence": [
+        "FIX",
+        "NATIVE",
+        "PROV"
+      ],
+      "findings": [
+        "A08-F05"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Retest Linux izolat, M_RMA aprobat, document financiar de retur, recalcul comision.",
+      "plan_anchors": [
+        "returns",
+        "orders",
+        "rbac"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C19",
+      "title": "Template Cesiro și teme independente",
+      "pipeline_ids": [
+        "A08-P05"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0019",
+        "P01.C10.T0020",
+        "P01.C10.T0021",
+        "P01.C10.T0022",
+        "P01.C10.T0029"
+      ],
+      "expected": "Coșul, ID-urile și totalurile rămân identice pentru aceeași ofertă. Logica de checkout există într-un singur serviciu identificabil.",
+      "negative_target": "O temă incompletă nu devine activă, iar revenirea la versiunea anterioară păstrează coșul.",
+      "observed": "Contractele existente de teme trec în suita repo pentru 9 teme, 72 pagini, 6 limbi. Fixture dezvoltă aceeași logică Flask pentru două teme. Nu s-a executat schimb înainte/după cu coș existent și restaurarea versiunii comerciale.",
+      "evidence": [
+        "SUITE",
+        "FIX",
+        "ROUTE"
+      ],
+      "findings": [],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Compară două teme Cesiro și două coșuri persistente în aceeași identitate.",
+      "plan_anchors": [
+        "cart",
+        "route",
+        "commerce"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C20",
+      "title": "Preview specific eMag/Trendyol",
+      "pipeline_ids": [
+        "A08-P05"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0019",
+        "P01.C10.T0020",
+        "P01.C10.T0021",
+        "P01.C10.T0022",
+        "P01.C10.T0029"
+      ],
+      "expected": "Responsabilul vede structura platformei, imagini, denumire, preț, atribute și stoc exact din fișa ce urmează a fi publicată. Captura include versiunea și diferențele față de referință.",
+      "negative_target": "Atribut obligatoriu lipsă e localizat lângă câmp; previzualizarea rămâne privată și nu publică la partener.",
+      "observed": "Query theme=eMag și theme=Trendyol renderizează același marketplace_pro în fixture. Registrul de teme public folosit nu conține aceste două ID-uri. Rezultatul nu exclude o interfață specializată separată. Nu există referință vizuală specifică platformei în aceste probe.",
+      "evidence": [
+        "FIX",
+        "ROUTE",
+        "THEMES"
+      ],
+      "findings": [],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Identifică și testează ruta dedicată fiecărei platforme, inclusiv preview privat pentru responsabil, cu referințe aprobate.",
+      "plan_anchors": [
+        "fișa",
+        "theme",
+        "catalog"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C21",
+      "title": "Publicare și integritatea conținutului",
+      "pipeline_ids": [
+        "A08-P05"
+      ],
+      "task_candidates": [
+        "P01.C10.T0002",
+        "P01.C10.T0019",
+        "P01.C10.T0020",
+        "P01.C10.T0021",
+        "P01.C10.T0022",
+        "P01.C10.T0029"
+      ],
+      "expected": "Conținutul este afișat ca text sigur, imaginile au alternative și proveniență documentată. Un fișier privat/nelicențiat nu devine public.",
+      "negative_target": "URL media din alt tenant și JS în descriere nu returnează conținut privat sau executabil.",
+      "observed": "Ținta unei publicări neautorizate acceptă produs schimbat fără autentificare. Se păstrează capturi și hashul fișierului media/templating; test complet XSS, fallback media, licență și ACL per obiect nu s-au efectuat.",
+      "evidence": [
+        "FIX",
+        "PROV",
+        "THEMES"
+      ],
+      "findings": [
+        "A08-F01",
+        "A08-F07"
+      ],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Testează URL media din alt canal, scheme disallowed și descriere HTML adversarială pe pagină reală.",
+      "plan_anchors": [
+        "media",
+        "catalog",
+        "seo"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C22",
+      "title": "Disponibilitate pentru șase limbi",
+      "pipeline_ids": [
+        "A08-P06"
+      ],
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0029"
+      ],
+      "expected": "Fiecare text este localizat sau poartă fallback-ul configurat și documentat. Nu apar chei brute. Parametrii comerciali nu se schimbă cu limba.",
+      "negative_target": "Traducere lipsă și caractere grecești, maghiare, diacritice române: căutarea, titlul și confirmarea păstrează textul corect.",
+      "observed": "Cu produse traduse integral, fiecare dintre ro/en/de/hu/bg/el produce html lang așteptat în checkout. Cu produs doar românesc, cererea de/el revine la RO. Suita completă de site se oprește la fixture lipsă. Acoperirea tuturor mesajelor operaționale nu a fost dovedită.",
+      "evidence": [
+        "FIX",
+        "SUITE",
+        "THEMES"
+      ],
+      "findings": [],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Testează toate mesajele de erori, checkout, campanii și situația comisionarului, cu politică de fallback vizibilă.",
+      "plan_anchors": [
+        "lang",
+        "cart",
+        "seo"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C23",
+      "title": "Canonical și sitemap pe canal",
+      "pipeline_ids": [
+        "A08-P06"
+      ],
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0029"
+      ],
+      "expected": "Numai URL public și al canalului corect apare în sitemap. Conturile/preview/export sunt protejate și neindexabile; răspunsul conține canonical coerent.",
+      "negative_target": "Nume de gazdă injectat sau imagine a altui tenant nu produce URL indexabil străin.",
+      "observed": "Sitemap fixture exclude pagini de cont și coș (0 URL private); HTML pentru /account, /cart, /checkout, /returns spune index,follow. Nu s-a demonstrat indexare efectivă a datelor autentificate.",
+      "evidence": [
+        "FIX",
+        "PROV"
+      ],
+      "findings": [
+        "A08-F06"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Cache și canonical pe host/limbă, pagini private și crawler real de laborator.",
+      "plan_anchors": [
+        "sitemap",
+        "seo",
+        "scope"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C24",
+      "title": "Preferințe și conversii marketing",
+      "pipeline_ids": [
+        "A08-P06"
+      ],
+      "task_candidates": [
+        "P01.C10.T0004",
+        "P01.C10.T0018",
+        "P01.C10.T0019",
+        "P01.C10.T0029"
+      ],
+      "expected": "Zero evenimente opționale până la consimțământul aplicabil și după retragere; o conversie urmărită per comandă eligibilă, corelată cu suma și canalul corecte.",
+      "negative_target": "Refuzul nu împiedică operațiile necesare ale coșului; refreshul sau campania altui canal nu repetă conversia.",
+      "observed": "Pagina fixture a încărcat script site comun; în head-ul checkout nu apar trackere externe ori elemente de consimțământ dintre markerii inspectați. Această observație nu probează ciclul de consimțământ. Sursa externă SpreeCampaigns folosește Registry.all și selecții produse/taxoane fără filtru Store vizibil la acel nivel.",
+      "evidence": [
+        "FIX",
+        "SPREE"
+      ],
+      "findings": [],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "În laborator Spree și CDN, instrumentează traficul înainte/după accept, refuz și retragere. Verifică pe două magazine care folosesc aceleași sluguri și date de campanie diferite.",
+      "plan_anchors": [
+        "commerce",
+        "cart",
+        "order"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C25",
+      "title": "Coada și exportul ordinelor eșuate",
+      "pipeline_ids": [
+        "A08-P07"
+      ],
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0006",
+        "P01.C10.T0010",
+        "P01.C10.T0011",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "expected": "Pentru fiecare ID de comandă, registrul indică fie C_Order unic, fie eroare explicabilă și owner. Clientul păstrează referința și starea reîncercabilă.",
+      "negative_target": "Mesaj otrăvit nu blochează restul lotului, nu pierde originalul și nu expune adrese în log.",
+      "observed": "Duplicarea intrării la checkout și înlocuirea catalogului cu versiune anterioară se reproduc. Legătura cu worker real și contorizarea mesajelor necorelate rămân neexecutate.",
+      "evidence": [
+        "ORDER",
+        "FIX",
+        "A06",
+        "ROUTE"
+      ],
+      "findings": [
+        "A06-F02",
+        "A08-F07"
+      ],
+      "coverage": "abatere demonstrată în domeniul precizat; alte ramuri pot fi deschise",
+      "status": "FAIL_DOVEDIT",
+      "full_pass": false,
+      "remaining": "Identifică inbox/outbox și verifică retry după commit într-un worker izolat, cu raport de reconciliere.",
+      "plan_anchors": [
+        "order",
+        "spree"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C26",
+      "title": "Restaurarea unui singur canal",
+      "pipeline_ids": [
+        "A08-P07"
+      ],
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0006",
+        "P01.C10.T0010",
+        "P01.C10.T0011",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "expected": "Canarul A și cheile de referință se refac; B păstrează starea. Reconcilierea nu retransmite comenzi conținând aceeași cheie.",
+      "negative_target": "Restaurare fără index sau media: diferența e identificată cu număr și procedură de reconstrucție înainte de redeschidere.",
+      "observed": "Inventarul identifică volume /app și /app/data pentru storefront și serviciile PostgreSQL, Redis și Meilisearch. Nu s-a restaurat nicio copie de siguranță a unui canal și nu se emite verdict RPO/RTO.",
+      "evidence": [
+        "ROUTE"
+      ],
+      "findings": [],
+      "coverage": "probă operațională neexecutată",
+      "status": "NEEXECUTAT",
+      "full_pass": false,
+      "remaining": "Se cere backup anonimizat restaurabil în laborator separat și două canale cu canari; dovedește că B este neschimbat.",
+      "plan_anchors": [
+        "compose",
+        "spree",
+        "scope"
+      ],
+      "reviewer": "A11",
+      "review": null
+    },
+    {
+      "id": "A08-C27",
+      "title": "Proveniența instanțelor și sursa versiunii active",
+      "pipeline_ids": [
+        "A08-P07"
+      ],
+      "task_candidates": [
+        "P01.C10.T0003",
+        "P01.C10.T0006",
+        "P01.C10.T0010",
+        "P01.C10.T0011",
+        "P01.C10.T0019",
+        "P01.C10.T0025"
+      ],
+      "expected": "Fiecare afirmație are versiunea ei: cod repo, cod activ, configurație, comportament. Diferențele rămân în registru cu proprietar și sursa lipsă.",
+      "negative_target": "Eticheta latest și unul din fișierele experimentale nu țin loc de dovadă asupra aplicației în uz.",
+      "observed": "24 fișiere din aria storefront comparată au hash identic în container. factory.py/cms.py corespund. Imaginile, montările și 99 routere sunt inventariate; 20 fișiere backend diferă de Git. Sursa Spree extrasă fixează spree_core 5.4.3. Nu se generalizează la toate pluginurile/temele.",
+      "evidence": [
+        "PROV",
+        "ROUTE",
+        "SPREE",
+        "LIVE",
+        "SPREELOCK"
+      ],
+      "findings": [],
+      "coverage": "verificări efectuate cu limite explicite",
+      "status": "PARȚIAL",
+      "full_pass": false,
+      "remaining": "Leagă pentru fiecare canal versiunea reală de widget/API extern, worker, tema și politica deployed.",
+      "plan_anchors": [
+        "compose",
+        "route",
+        "spree"
+      ],
+      "reviewer": "A11",
+      "review": null
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A08-P01",
+      "title": "Înregistrare, rutare și izolare fizică",
+      "owner": "A08",
+      "contract": "configurație/rutare → disponibilitate → activare",
+      "upstream_downstream": "A01 acces, A02 identități, A10 medii",
+      "expected": "Un site logic și o instanță Docker identificate pentru fiecare canal, inclusiv eMag/Trendyol. Date private canar A nu apar niciodată în B.",
+      "controls": [
+        "A08-C01",
+        "A08-C02",
+        "A08-C03",
+        "A08-C04",
+        "A08-C05"
+      ],
+      "status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "findings": [
+        "A01.F13",
+        "A08-F08",
+        "A08-F01"
+      ],
+      "evidence": [
+        "FIX",
+        "ROUTE",
+        "A01",
+        "LIVE",
+        "PROV"
+      ],
+      "executed_and_impact": [
+        {
+          "id": "A08-C01",
+          "observed": "CUI cabinet, firmă, eMag, Trendyol: cele patru URL-fixture au returnat 404 în storefront. În portal A01.F13 confirmă matcher absent și 404. În cele 99 reguli apar pentru acc ruta generică la portal și excepția /florin."
+        },
+        {
+          "id": "A08-C02",
+          "observed": "Nomele actuale de host sunt mapate la ținte. Configurarea schimbării de nume și conservarea ID-ului intern pe parcursul redenumirii nu au fost exercitate în ERP. URL complet lipsă în fixture."
+        },
+        {
+          "id": "A08-C03",
+          "observed": "19 hosturi din registrul site-urilor au rute explicite spre același container storefront; nu există o instanță distinctă per canal pentru acest set de hosturi configurate. Numitorul din registrul site nu constituie numitor al tuturor canalelor ERP."
+        },
+        {
+          "id": "A08-C04",
+          "observed": "Proba A→B de import a schimbat catalogul canarului altui tenant. Query tenant=B este ignorat când hostul A este public; X-Forwarded-Host schimbă selecția la acest nivel. S-au inventariat montările persistente și imaginile, fără a accesa datele clienților."
+        },
+        {
+          "id": "A08-C05",
+          "observed": "La nivel Flask, utilizatorul fără sesiune poate suprascrie alt catalog. shop_customer pentru comenzile proprii este distinct de rolul comisionar. Constatările IAM A01.F03 și F09 au alte căi."
+        }
+      ],
+      "remaining": [
+        "Demonstrează ulterior aliasurile/domeniile externe într-un cabinet izolat.",
+        "Repetă redenumirea și coliziunea în două firme cu aceeași denumire; urmărește cheia DB și comenzile.",
+        "Demonstrează Docker per canal din ERP și sănătatea fiecărei rute cu două clone.",
+        "Proxy sanitation, cache-uri partajate și test restaurare separate rămân neconfirmate.",
+        "Fără E2E cu rolul ERP comisionar. Expunerea diferențiată per router/host/ACL se păstrează explicit."
+      ],
+      "e2e_acceptance": false
+    },
+    {
+      "id": "A08-P02",
+      "title": "Publicare catalog de canal și ofertă G3",
+      "owner": "A08",
+      "contract": "catalog ERP → copie publică; versiune ordonată de publicare",
+      "upstream_downstream": "A06 ofertă/rezervări, A05 disponibil fizic, A02 model",
+      "expected": "Prețul public și termenul coincid cu versiunea sursă. P1/CPA arată alt ID față de P1/CPP. 120 componente din fiecare permit maxim 20 S1 sau 40 S2 înainte de alte angajamente.",
+      "controls": [
+        "A08-C06",
+        "A08-C07",
+        "A08-C08",
+        "A08-C09",
+        "A08-C10"
+      ],
+      "status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "findings": [
+        "A06-F01",
+        "A08-F10",
+        "A06-F05",
+        "A06-F03",
+        "A06-F07",
+        "A08-F07"
+      ],
+      "evidence": [
+        "A06",
+        "NATIVE",
+        "PROV",
+        "FIX",
+        "VIEW",
+        "ORDER"
+      ],
+      "executed_and_impact": [
+        {
+          "id": "A08-C06",
+          "observed": "A06-F01 reproduce identificator explicit P1 care este rezolvat ca SKU al altui produs. Fixture A06 persistă alt ID în comanda locală, deși M_Product există nativ."
+        },
+        {
+          "id": "A08-C07",
+          "observed": "Backend și JS folosesc 0,19 pentru toate liniile, UI etichetează TVA 19%. A06 a probat aceeași fracție pe linii; disponibilitatea unei structuri multivalută nu demonstrează taxarea pe produs/curs/preț specific canal."
+        },
+        {
+          "id": "A08-C08",
+          "observed": "Checkout_probe: cerere qty=7 la stoc 3 primește 200 new. Este o comandă locală, nu probă de stoc contabil negativ. A06 descrie și riscul agregării multi-G1 la rezervare. S1/S2 real în două canale instalate nu a fost executat integral."
+        },
+        {
+          "id": "A08-C09",
+          "observed": "Mesaj v2 apoi v1 lasă numele versiunii 1 în fișierul catalog B. Nu este menținută monotonia ofertei sau o cheie de publicare în acest adaptor."
+        },
+        {
+          "id": "A08-C10",
+          "observed": "A06 a executat componentele B2B. Aceasta nu probează preț personalizat și lipsa de scurgeri la cache-ul portalului. La site price_ron/preț și VAT fix sunt reconfirmate pentru comanda locală."
+        }
+      ],
+      "remaining": [
+        "Verifică apoi CPP/CPA pe toate canalele și mapează M_Product_ID în C_OrderLine.",
+        "Testează și promoții, precizie pe monedă și livrări după configurarea de canal.",
+        "Concurență sincronizată online/ERP cu angajament atomic S1/S2, două firme, stoc 120.",
+        "Repetă retragere și replay pe cache real, alte adaptoare și documente vechi.",
+        "Fixture public/preț K1/preț K2 cu două grupuri și istoric de listă ERP; urmărește răspuns crud și index public."
+      ],
+      "e2e_acceptance": false
+    },
+    {
+      "id": "A08-P03",
+      "title": "Coș, checkout și înregistrare ERP",
+      "owner": "A08",
+      "contract": "checkout web → confirmare ERP; cheie stabilă pe origine",
+      "upstream_downstream": "A06 import și rezervare, A05 pick, A07 documente, A01 drepturi",
+      "expected": "O cheie stabilă pe firmă+canal+comandă produce un singur antet. Acceptarea comenzii nu produce pick/aviz/AWB/factură în site.",
+      "controls": [
+        "A08-C11",
+        "A08-C12",
+        "A08-C13",
+        "A08-C14",
+        "A08-C15"
+      ],
+      "status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "findings": [
+        "A08-F02",
+        "A06-F05",
+        "A08-F10",
+        "A06-F02",
+        "A08-F01",
+        "A08-F09"
+      ],
+      "evidence": [
+        "FIX",
+        "NATIVE",
+        "PROV",
+        "A06",
+        "ORDER",
+        "ROUTE",
+        "A01",
+        "VIEW",
+        "SHOTS",
+        "DESKTOP",
+        "LABELS"
+      ],
+      "executed_and_impact": [
+        {
+          "id": "A08-C11",
+          "observed": "Cererea A pentru facturare și B pentru livrare a produs customer.address=B și shipping_address.address=B. billing_address nu se regăsește în documentul persistat."
+        },
+        {
+          "id": "A08-C12",
+          "observed": "Prețul folosit este citit server-side din catalog. Data și cuantumul se calculează în Flask, însă conformitatea ofertei active pe canal și reconfirmarea clientului după modificare rămân deschise."
+        },
+        {
+          "id": "A08-C13",
+          "observed": "Același Idempotency-Key și aceeași cerere → două fișiere ORD distincte, ambele cu starea new. Două C_Order în ERP nu au fost demonstrate."
+        },
+        {
+          "id": "A08-C14",
+          "observed": "Probe directe au creat comandă locală și cerere locală de retur. Admin pentru cesiro1 merge spre Spree; /admin al site-ului nu dovedește acces operațional. Plata, emiterea AWB și facturarea ERP nu s-au executat. Pentru import catalog public există abatere distinctă."
+        },
+        {
+          "id": "A08-C15",
+          "observed": "Capturi reale 360 și 1280px: conținut fără overflow global la aceste dimensiuni; după introducere, cinci identificatori de câmp nu mai au indicație vizibilă. TVA și factura sunt prezentate prematur în coș."
+        }
+      ],
+      "remaining": [
+        "Comparație cu două locații reale în C_Order și cu factura emisă ulterior în sandbox.",
+        "Simulează ajustarea listelor în timp ce coșul e deschis, reconfirmare explicită și valoarea în ERP.",
+        "Reia după commitul efectiv al C_Order, înainte de ACK și după relansarea workerului.",
+        "Cu responsabil/comisionar și gestionar în laborator, testează fiecare endpoint de administrare, C_Order → pick → aviz → validare → AWB/factură.",
+        "Execută reader și eroarea de API după confirmare, inclusiv restabilirea focusului și starea de retry."
+      ],
+      "e2e_acceptance": false
+    },
+    {
+      "id": "A08-P04",
+      "title": "Comisionar și situațiile proprii",
+      "owner": "A08",
+      "contract": "cerere web → filtrare server și proiecție ERP",
+      "upstream_downstream": "A01 control acces, A06 comisioane, A07 retururi",
+      "expected": "Numărul de rânduri, totalul și exportul sunt identice cu referința autorizată. Nici antetul altui comisionar nu este divulgat.",
+      "controls": [
+        "A08-C16",
+        "A08-C17",
+        "A08-C18"
+      ],
+      "status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "findings": [
+        "A08-F06",
+        "A08-F04",
+        "A08-F05"
+      ],
+      "evidence": [
+        "FIX",
+        "PROV",
+        "A01",
+        "A06",
+        "NATIVE"
+      ],
+      "executed_and_impact": [
+        {
+          "id": "A08-C16",
+          "observed": "Cont A a văzut comanda proprie și nu pe B; A cu tokenul lui B/canal schimbat primește 403. Răspunsul declară store_customer și cache public. Filtrarea și exportul comisionarilor distincti rămân de verificat în locul real."
+        },
+        {
+          "id": "A08-C17",
+          "observed": "Schimbarea parolei clientului nu invalidează tokenul aprobat anterior, 200 pentru lista de comenzi. Dezactivarea explicită produce 403. Nu demonstrează politica rolului ERP de comisionar."
+        },
+        {
+          "id": "A08-C18",
+          "observed": "A primește refuz 400 pentru ordinul B, însă două solicitări proprii duplicate creează două fișiere RET în Windows. Compararea exactă a numelor pe filesystem sensibil la caz produce 400 chiar pentru comanda proprie."
+        }
+      ],
+      "remaining": [
+        "Confruntă raport, total, export, paginare și cote comerciale pentru K1/K2 în ERP.",
+        "Exercită revocarea grantului unui singur canal în două sesiuni și servere distribuite.",
+        "Retest Linux izolat, M_RMA aprobat, document financiar de retur, recalcul comision."
+      ],
+      "e2e_acceptance": false
+    },
+    {
+      "id": "A08-P05",
+      "title": "Temă Cesiro și previzualizare platforme",
+      "owner": "A08",
+      "contract": "configurația preview privată → publicare activată explicit în fixture",
+      "upstream_downstream": "A06 mapări, A09 UX, A01 acces, A10 simulatoare",
+      "expected": "În preview apar titlu, imagini, preț, disponibil, seller și atribute din același payload. Preview privat nu devine pagină publică și nu trimite către platformă.",
+      "controls": [
+        "A08-C19",
+        "A08-C20",
+        "A08-C21"
+      ],
+      "status": "PARȚIAL",
+      "findings": [
+        "A08-F01",
+        "A08-F07"
+      ],
+      "evidence": [
+        "SUITE",
+        "FIX",
+        "ROUTE",
+        "THEMES",
+        "PROV"
+      ],
+      "executed_and_impact": [
+        {
+          "id": "A08-C19",
+          "observed": "Contractele existente de teme trec în suita repo pentru 9 teme, 72 pagini, 6 limbi. Fixture dezvoltă aceeași logică Flask pentru două teme. Nu s-a executat schimb înainte/după cu coș existent și restaurarea versiunii comerciale."
+        },
+        {
+          "id": "A08-C20",
+          "observed": "Query theme=eMag și theme=Trendyol renderizează același marketplace_pro în fixture. Registrul de teme public folosit nu conține aceste două ID-uri. Rezultatul nu exclude o interfață specializată separată. Nu există referință vizuală specifică platformei în aceste probe."
+        },
+        {
+          "id": "A08-C21",
+          "observed": "Ținta unei publicări neautorizate acceptă produs schimbat fără autentificare. Se păstrează capturi și hashul fișierului media/templating; test complet XSS, fallback media, licență și ACL per obiect nu s-au efectuat."
+        }
+      ],
+      "remaining": [
+        "Compară două teme Cesiro și două coșuri persistente în aceeași identitate.",
+        "Identifică și testează ruta dedicată fiecărei platforme, inclusiv preview privat pentru responsabil, cu referințe aprobate.",
+        "Testează URL media din alt canal, scheme disallowed și descriere HTML adversarială pe pagină reală."
+      ],
+      "e2e_acceptance": false
+    },
+    {
+      "id": "A08-P06",
+      "title": "Marketing, localizare și indexare",
+      "owner": "A08",
+      "contract": "preferințele clientului → declanșarea trackerelor și publicare sitemap",
+      "upstream_downstream": "A01 date personale, A06 campanii, A09 accesibilitate, A10 observabilitate",
+      "expected": "Nicio cerere de marketing înainte de acord pentru categoria configurată; un eveniment conversie per comandă în cazul permis; zero URL-uri private în sitemap.",
+      "controls": [
+        "A08-C22",
+        "A08-C23",
+        "A08-C24"
+      ],
+      "status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "findings": [
+        "A08-F06"
+      ],
+      "evidence": [
+        "FIX",
+        "SUITE",
+        "THEMES",
+        "PROV",
+        "SPREE"
+      ],
+      "executed_and_impact": [
+        {
+          "id": "A08-C22",
+          "observed": "Cu produse traduse integral, fiecare dintre ro/en/de/hu/bg/el produce html lang așteptat în checkout. Cu produs doar românesc, cererea de/el revine la RO. Suita completă de site se oprește la fixture lipsă. Acoperirea tuturor mesajelor operaționale nu a fost dovedită."
+        },
+        {
+          "id": "A08-C23",
+          "observed": "Sitemap fixture exclude pagini de cont și coș (0 URL private); HTML pentru /account, /cart, /checkout, /returns spune index,follow. Nu s-a demonstrat indexare efectivă a datelor autentificate."
+        },
+        {
+          "id": "A08-C24",
+          "observed": "Pagina fixture a încărcat script site comun; în head-ul checkout nu apar trackere externe ori elemente de consimțământ dintre markerii inspectați. Această observație nu probează ciclul de consimțământ. Sursa externă SpreeCampaigns folosește Registry.all și selecții produse/taxoane fără filtru Store vizibil la acel nivel."
+        }
+      ],
+      "remaining": [
+        "Testează toate mesajele de erori, checkout, campanii și situația comisionarului, cu politică de fallback vizibilă.",
+        "Cache și canonical pe host/limbă, pagini private și crawler real de laborator.",
+        "În laborator Spree și CDN, instrumentează traficul înainte/după accept, refuz și retragere. Verifică pe două magazine care folosesc aceleași sluguri și date de campanie diferite."
+      ],
+      "e2e_acceptance": false
+    },
+    {
+      "id": "A08-P07",
+      "title": "Reconciliere și recuperare a canalului",
+      "owner": "A08",
+      "contract": "mesaj primit → commit ERP → confirmare → reconciliere",
+      "upstream_downstream": "A10 infrastructură, A06 comenzi, A07 evenimente",
+      "expected": "Pentru toate mesajele fixture există rezoluție unică și diferența rămasă are ID explicit. Restaurarea A păstrează datele B și nu repetă efecte externe.",
+      "controls": [
+        "A08-C25",
+        "A08-C26",
+        "A08-C27"
+      ],
+      "status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "findings": [
+        "A06-F02",
+        "A08-F07"
+      ],
+      "evidence": [
+        "ORDER",
+        "FIX",
+        "A06",
+        "ROUTE",
+        "PROV",
+        "SPREE",
+        "LIVE",
+        "SPREELOCK"
+      ],
+      "executed_and_impact": [
+        {
+          "id": "A08-C25",
+          "observed": "Duplicarea intrării la checkout și înlocuirea catalogului cu versiune anterioară se reproduc. Legătura cu worker real și contorizarea mesajelor necorelate rămân neexecutate."
+        },
+        {
+          "id": "A08-C26",
+          "observed": "Inventarul identifică volume /app și /app/data pentru storefront și serviciile PostgreSQL, Redis și Meilisearch. Nu s-a restaurat nicio copie de siguranță a unui canal și nu se emite verdict RPO/RTO."
+        },
+        {
+          "id": "A08-C27",
+          "observed": "24 fișiere din aria storefront comparată au hash identic în container. factory.py/cms.py corespund. Imaginile, montările și 99 routere sunt inventariate; 20 fișiere backend diferă de Git. Sursa Spree extrasă fixează spree_core 5.4.3. Nu se generalizează la toate pluginurile/temele."
+        }
+      ],
+      "remaining": [
+        "Identifică inbox/outbox și verifică retry după commit într-un worker izolat, cu raport de reconciliere.",
+        "Se cere backup anonimizat restaurabil în laborator separat și două canale cu canari; dovedește că B este neschimbat.",
+        "Leagă pentru fiecare canal versiunea reală de widget/API extern, worker, tema și politica deployed."
+      ],
+      "e2e_acceptance": false
+    }
+  ],
+  "task_trace": [
+    {
+      "code": "P01.C10.T0002",
+      "alias": "T211",
+      "title": "Fișa fiecărei platforme de vânzări și canalele ei",
+      "status": "integrat",
+      "pipelines": [
+        "A08-P01",
+        "A08-P02",
+        "A08-P05"
+      ],
+      "covered_controls": [
+        "A08-C01",
+        "A08-C02",
+        "A08-C03",
+        "A08-C04",
+        "A08-C05",
+        "A08-C06",
+        "A08-C07",
+        "A08-C08",
+        "A08-C09",
+        "A08-C10",
+        "A08-C19",
+        "A08-C20",
+        "A08-C21"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0003",
+      "alias": "T212",
+      "title": "Comenzile online urmărite până la încasare",
+      "status": "montat",
+      "pipelines": [
+        "A08-P03",
+        "A08-P07"
+      ],
+      "covered_controls": [
+        "A08-C11",
+        "A08-C12",
+        "A08-C13",
+        "A08-C14",
+        "A08-C15",
+        "A08-C25",
+        "A08-C26",
+        "A08-C27"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0004",
+      "alias": "T213",
+      "title": "Relația cu clienții: rolul comercial și campaniile",
+      "status": "implementare",
+      "pipelines": [
+        "A08-P04",
+        "A08-P06"
+      ],
+      "covered_controls": [
+        "A08-C16",
+        "A08-C17",
+        "A08-C18",
+        "A08-C22",
+        "A08-C23",
+        "A08-C24"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0005",
+      "alias": "T214",
+      "title": "Raportul vânzărilor online pe canal",
+      "status": "montat",
+      "pipelines": [
+        "A08-P04"
+      ],
+      "covered_controls": [
+        "A08-C16",
+        "A08-C17",
+        "A08-C18"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0006",
+      "alias": "T215",
+      "title": "Auditul final al corelării vânzărilor la proprietar",
+      "status": "închis",
+      "pipelines": [
+        "A08-P07"
+      ],
+      "covered_controls": [
+        "A08-C25",
+        "A08-C26",
+        "A08-C27"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0007",
+      "alias": "T216",
+      "title": "Comenzile de pe site, facturate și încasate automat",
+      "status": "montat",
+      "pipelines": [
+        "A08-P02",
+        "A08-P03"
+      ],
+      "covered_controls": [
+        "A08-C06",
+        "A08-C07",
+        "A08-C08",
+        "A08-C09",
+        "A08-C10",
+        "A08-C11",
+        "A08-C12",
+        "A08-C13",
+        "A08-C14",
+        "A08-C15"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0010",
+      "alias": "T219",
+      "title": "Simulatoare de parteneri pentru teste sigure",
+      "status": "închis",
+      "pipelines": [
+        "A08-P07"
+      ],
+      "covered_controls": [
+        "A08-C25",
+        "A08-C26",
+        "A08-C27"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0011",
+      "alias": "T220",
+      "title": "Legarea comenzilor de facturi, livrări și încasări",
+      "status": "montat",
+      "pipelines": [
+        "A08-P07"
+      ],
+      "covered_controls": [
+        "A08-C25",
+        "A08-C26",
+        "A08-C27"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0012",
+      "alias": "T221",
+      "title": "Un singur ecran cu tot drumul comenzii la încasare",
+      "status": "montat",
+      "pipelines": [
+        "A08-P04"
+      ],
+      "covered_controls": [
+        "A08-C16",
+        "A08-C17",
+        "A08-C18"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0017",
+      "alias": "T316",
+      "title": "Vânzarea către firme, pe grupe de clienți",
+      "status": "audit",
+      "pipelines": [
+        "A08-P02",
+        "A08-P03",
+        "A08-P04"
+      ],
+      "covered_controls": [
+        "A08-C06",
+        "A08-C07",
+        "A08-C08",
+        "A08-C09",
+        "A08-C10",
+        "A08-C11",
+        "A08-C12",
+        "A08-C13",
+        "A08-C14",
+        "A08-C15",
+        "A08-C16",
+        "A08-C17",
+        "A08-C18"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0018",
+      "alias": "T317",
+      "title": "Magazinele proprii, fiecare cu prețurile lui",
+      "status": "audit",
+      "pipelines": [
+        "A08-P01",
+        "A08-P02",
+        "A08-P03",
+        "A08-P06"
+      ],
+      "covered_controls": [
+        "A08-C01",
+        "A08-C02",
+        "A08-C03",
+        "A08-C04",
+        "A08-C05",
+        "A08-C06",
+        "A08-C07",
+        "A08-C08",
+        "A08-C09",
+        "A08-C10",
+        "A08-C11",
+        "A08-C12",
+        "A08-C13",
+        "A08-C14",
+        "A08-C15",
+        "A08-C22",
+        "A08-C23",
+        "A08-C24"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0019",
+      "alias": "T318",
+      "title": "Un site pentru fiecare canal propriu, definit în program",
+      "status": "implementare",
+      "pipelines": [
+        "A08-P01",
+        "A08-P05",
+        "A08-P06",
+        "A08-P07"
+      ],
+      "covered_controls": [
+        "A08-C01",
+        "A08-C02",
+        "A08-C03",
+        "A08-C04",
+        "A08-C05",
+        "A08-C19",
+        "A08-C20",
+        "A08-C21",
+        "A08-C22",
+        "A08-C23",
+        "A08-C24",
+        "A08-C25",
+        "A08-C26",
+        "A08-C27"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0020",
+      "alias": "T319",
+      "title": "Vânzările pe Trendyol lucrate din program",
+      "status": "implementare",
+      "pipelines": [
+        "A08-P05"
+      ],
+      "covered_controls": [
+        "A08-C19",
+        "A08-C20",
+        "A08-C21"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0021",
+      "alias": "T320",
+      "title": "Vânzările pe Okazii lucrate din program",
+      "status": "montat",
+      "pipelines": [
+        "A08-P05"
+      ],
+      "covered_controls": [
+        "A08-C19",
+        "A08-C20",
+        "A08-C21"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0022",
+      "alias": "T321",
+      "title": "Vânzările pe Altex lucrate din program",
+      "status": "audit",
+      "pipelines": [
+        "A08-P05"
+      ],
+      "covered_controls": [
+        "A08-C19",
+        "A08-C20",
+        "A08-C21"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0025",
+      "alias": "T343",
+      "title": "Comenzile site-ului lucrate doar din program",
+      "status": "plan",
+      "pipelines": [
+        "A08-P01",
+        "A08-P03",
+        "A08-P04",
+        "A08-P07"
+      ],
+      "covered_controls": [
+        "A08-C01",
+        "A08-C02",
+        "A08-C03",
+        "A08-C04",
+        "A08-C05",
+        "A08-C11",
+        "A08-C12",
+        "A08-C13",
+        "A08-C14",
+        "A08-C15",
+        "A08-C16",
+        "A08-C17",
+        "A08-C18",
+        "A08-C25",
+        "A08-C26",
+        "A08-C27"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0028",
+      "alias": "T352",
+      "title": "Tabelul produs × canal: preț, cantitate, termen",
+      "status": "integrat",
+      "pipelines": [
+        "A08-P02"
+      ],
+      "covered_controls": [
+        "A08-C06",
+        "A08-C07",
+        "A08-C08",
+        "A08-C09",
+        "A08-C10"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    },
+    {
+      "code": "P01.C10.T0029",
+      "alias": "T353",
+      "title": "Denumirile și descrierile pe limbă și canal",
+      "status": "montat",
+      "pipelines": [
+        "A08-P02",
+        "A08-P05",
+        "A08-P06"
+      ],
+      "covered_controls": [
+        "A08-C06",
+        "A08-C07",
+        "A08-C08",
+        "A08-C09",
+        "A08-C10",
+        "A08-C19",
+        "A08-C20",
+        "A08-C21",
+        "A08-C22",
+        "A08-C23",
+        "A08-C24"
+      ],
+      "individual_task_verdict": "Responsabil A12, menține cutoff-ul și dovezile istorice proprii; această zonă furnizează probe tematice."
+    }
+  ],
+  "suspicion": [
+    "Controllerul de campanii Spree (l.38,45,61) folosește registru comun și query-uri produse/taxoni fără filtru de magazin observabil în aceste linii. Verifică scopes/global context, baze separate și politica de publicare cu două magazine înainte de a numi aceasta defect.",
+    "Comisionari: probele de filtru din contul store_customer nu confirmă raportul exclusiv al comisionarului și nu îl substituie.",
+    "Sitemap cu flag sintetic generic «inactive» nu este suficient fără contract de publicare acceptat de conector.",
+    "Fără probă de date private expuse de un CDN sau de acces public la importație; analiza de rutare precizează diferența dintre fixture și hosturile declarate."
+  ],
+  "suite_notes": [
+    "Din suita frontend cu teme, verificarea contractelor trece și raportează 9 teme/72 pagini/6 limbi. Alte scenarii nu ajung la aserțiuni din lipsă de catalog sau tenant de demo în fixture. Nu sunt clasificate automat ca defect de produs.",
+    "Probele A08 au completat catalogul sintetic și au executat handlerii reali, inclusiv cele 6 localizări și fallback separat."
+  ],
+  "limits": {
+    "operational": [
+      "Restaurare în două instanțe de canal, parcurs broker/ERP/E2E, referințe vizuale eMag/Trendyol, ecran de raport comisionar, teste reale cu roluri Șef/Gestionar/Comisionar și worker indisponibil nu sunt confirmate complet.",
+      "Nicio mutație în producție. Rularea checkout și retur a avut date complet sintetice în Windows; semantica de caz a fost și simulată; proxy-ul extern nu a fost atacat.",
+      "Renderizarea măsoară ambele lățimi reale și CSS/JS de la sursă pe HTML local; egress oprit. Nu este o sesiune de plată sau un audit integral cu cititor de ecran."
+    ],
+    "next_action": "A11 redeschide toate diferențele și reproduce prioritar F01, F02, F03, F05, F09 și F10; confirmă versiunile instalate și specifică exact controalele rămase. Se solicită separat matricea tuturor canalelor ERP, două fixture-uri de comisionar și backup extractibil de test pentru restaurare."
+  },
+  "corrections": "Nu s-au modificat codul sau datele EVA. Se acordă scor după reexecutarea cazurilor obligatorii rămase și verdict independent A11."
+}

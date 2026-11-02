@@ -2,7 +2,7 @@
 
 ID: `01a13578-7898-7362-aaf7-f9cefb8e4c53`  
 Proiect: AFIR-FotoVoltaic Production  
-Export UTC: 2026-10-18T14:02:52.615363+00:00
+Export UTC: 2026-11-02T15:26:35.221418+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -366,3 +366,628 @@ Verific în EVA-Mail dacă au sosit mesaje noi de la KSTAR.
 ## Asistent
 
 
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-19T06:01:20.841Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au apărut clarificări sau documente noi de la KSTAR.
+
+
+## Asistent
+
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-19T13:01:27.463Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au sosit noutăți de la KSTAR.
+
+
+## Asistent
+
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-20T05:56:43.844Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au apărut noutăți de la KSTAR.
+
+
+## Asistent
+
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-20T13:05:20.548Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au sosit clarificări sau documente noi de la KSTAR.
+
+
+## Asistent
+
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-21T05:58:36.263Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au sosit noutăți de la KSTAR.
+
+
+## Asistent
+
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-21T12:59:12.510Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au apărut noutăți de la KSTAR.
+
+
+## Asistent
+
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-22T06:01:28.578Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au sosit noutăți de la KSTAR.
+
+
+## Asistent
+
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-22T13:02:04.856Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au apărut noutăți de la KSTAR.
+
+
+## Asistent
+
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-23T06:04:31.446Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante de la KSTAR în EVA-Mail; ultimul răspuns rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-23T13:00:33.693Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-23T14:02:04.472Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-24T07:02:53.247Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-24T13:56:29.718Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-25T07:02:48.811Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-25T14:03:26.747Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-26T06:58:15.563Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-26T13:55:53.560Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-27T07:04:40.917Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-27T14:04:18.679Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-28T07:03:46.043Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-28T13:56:23.798Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-29T06:58:12.546Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-29T14:02:20.361Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu au apărut mesaje sau documente noi relevante în EVA-Mail; ultimul răspuns KSTAR rămâne cel din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+Care sunt opțiunile la chest de pe piață în acest moment cu aceleași tipuri de celule și la prețuri competitive și care sunt prezenți pe piața din Europa România
+
+## Asistent
+
+Voi căuta alternative la sistemul KSTAR de aproximativ 50 kW / 100 kWh, cu celule LFP CATL sau EVE, disponibile în România ori în UE. Voi compara prețurile publice și voi separa configurațiile confirmate de cele pentru care trebuie cerută ofertă.
+
+
+## Asistent
+
+Am găsit câteva alternative apropiate ca putere și capacitate, inclusiv o ofertă Livoltek din România la 96.850 lei fără TVA. Diferența importantă este că multe fișe confirmă celule LFP de 280 sau 314 Ah, dar nu numesc producătorul; le voi marca separat de variantele care declară explicit EVE sau CATL.
+
+## Asistent
+
+**Da, există alternative apropiate de KSTAR 50 kW / 100 kWh, inclusiv cu celule EVE sau CATL confirmate oficial.** Pentru voi, aș pune pe lista scurtă **Solis EverCore, Solis PrimePower și Livoltek**, cu diferențele de mai jos.
+
+Am verificat ofertele publice disponibile acum, la **29 octombrie 2026**. Prețurile sunt pentru echipamente, dacă nu se precizează altfel; transportul, instalarea și punerea în funcțiune trebuie comparate separat.
+
+| Sistem | Celule și comparabilitate cu KSTAR | Preț public găsit | Prezență România / UE |
+|---|---|---|---|
+| **Solis EverCore — 50 kW / 100,5 kWh** | **EVE, LFP 314 Ah**, confirmate de producător. Cea mai apropiată alternativă la configurația KSTAR discutată. | **26.202,55 € cu TVA 21%**, adică aproximativ **21.655 € fără TVA**, pentru sistem cu invertor. [Oferta Rebor](https://www.shop-rebor.com/en/products/solisstorage-evercore-100kwh-50kw-nv) | Ofertat în Olanda; gama este disponibilă și prin ONSA Plus, cu pagină comercială în română. Livrarea și service-ul la locația voastră trebuie confirmate. |
+| **Solis PrimePower — 50 kW / 109,7 kWh** | **CATL, LFP 306 Ah**, confirmate oficial. Este varianta care corespunde cel mai bine preferinței voastre pentru CATL. | **Ofertă necesară pentru sistemul complet.** Există listări europene pentru bateria de 109 kWh, dar nu le-aș compara cu prețul unui BESS cu invertor inclus. | Comercializat în UE; documentația este disponibilă în [centrul oficial SolisStorage](https://www.solisstorage.com/en/download/9/42/0/1). |
+| **Livoltek BES-H50X100 — 50 kW / 100 kWh** | Fișa oficială confirmă **LFP 314 Ah**, dar **nu identifică producătorul celulelor**. Nu pot confirma încă EVE sau CATL. | **96.850,30 lei fără TVA**, respectiv **117.188,86 lei cu TVA**, fără transport, pentru invertor + stocare. [Oferta AFS Group](https://www.afsgroup.ro/produs/sistem-bess-c-i-livoltek-50-kw-100-kwh-invertor-hibrid-stocare-plug-play) | Furnizor în România, produs la comandă, suport pentru punere în funcțiune RO/EN declarat pe pagină. |
+| **SolaX AELIO-P50B100 — 50 kW / 100 kWh** | Fișa oficială indică **LFP 280 Ah**, dar **nu numește producătorul celulelor**. Alternativă de sistem, fără echivalență CATL/EVE demonstrată. | **34.391,50 € cu TVA italian de 10%**, echivalent aproximativ **31.265 € fără TVA**. Tratamentul TVA pentru livrarea în România se stabilește prin ofertă. [Oferta GreenEconomy](https://www.greeneconomy.it/it/applicazioni-commerciali-bess/1245-solax-aelio-p50b100.html) | Ofertat în Italia și în alte piețe UE; vânzătorul indică disponibilitate în depozit. |
+
+**Confirmarea celulelor vine din documentația producătorilor:** Solis declară explicit **EVE 314 Ah pentru EverCore** și **CATL 306 Ah pentru PrimePower**. Livoltek declară 314 Ah, iar SolaX 280 Ah, fără a identifica furnizorul celulelor în fișele consultate. Capacitatea în Ah, singură, nu dovedește marca celulei. [Solis EverCore](https://www.solisstorage.com/en/evercore-ess), [Solis — gama de baterii](https://www.solisstorage.com/en/productlist/6), [fișa Livoltek](https://info-support.livoltek.com/2-Product-Material/datasheets/Battery/BESS-60kW%2B120kWh.pdf), [fișa SolaX](https://www.solaxpower.com/uploads/file/solax-ess-aelio-datasheet-en.pdf).
+
+**Eu aș prioritiza astfel:**
+
+1. **Solis EverCore pentru comparația directă cu KSTAR.** Are același producător de celule declarat și aceeași capacitate de 314 Ah, putere și energie foarte apropiate, plus un preț public pentru ansamblul complet.
+2. **Solis PrimePower dacă CATL rămâne criteriul principal.** Fișa indică **109,7 kWh nominal și 98,7 kWh utilizabil**, cu invertor de 50 kW. Merită o ofertă completă livrată și pusă în funcțiune în România. [Fișa oficială PrimePower](https://storage-official-website.oss-eu-central-1.aliyuncs.com/solisstorage/products/PrimePower-109kWh-50kW-NV/SolisStorage-PrimePower-109kWh-50kW-Global-Datasheet-V1.8_20260209140239.pdf)
+3. **Livoltek pentru verificarea celui mai mic preț public dintre sistemele complete de mai sus.** Oferta locală este interesantă, dar trebuie confirmate producătorul celulelor și serviciile efectiv incluse.
+
+Pentru decizia voastră, aș cere acestor trei furnizori **aceeași ofertă comparabilă: echipament complet, transport, punere în funcțiune, service în România, garanție și plata 30%/70%**. Aș păstra explicit și cerința de **pornire de la zero / Black Start**: timpul rapid de comutare pe backup nu confirmă, singur, capacitatea de a reporni după oprirea completă a sistemului.
+
+**Aș începe cu Solis EverCore și PrimePower înainte de semnarea cu KSTAR.** Sunt cele două alternative găsite pentru care producătorul celulelor este confirmat oficial și configurația este apropiată de ce căutați.
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-30T07:04:37.601Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificarea din 30 octombrie nu a identificat mesaje KSTAR noi în EVA-Mail, inclusiv printre cele citite. Ultimul răspuns rămâne cel din 12 octombrie, deja raportat.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-30T13:56:45.037Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>La verificarea de după-amiază din 30 octombrie nu au apărut mesaje KSTAR noi în EVA-Mail, inclusiv printre cele citite. Ultimul răspuns rămâne cel din 12 octombrie, deja raportat.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-31T06:55:49.574Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificarea din dimineața de 31 octombrie nu a identificat mesaje KSTAR noi în EVA-Mail, inclusiv printre cele citite. Ultimul răspuns rămâne cel din 12 octombrie, deja raportat.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-31T13:57:05.346Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Verificarea din după-amiaza de 31 octombrie nu a identificat mesaje KSTAR noi în EVA-Mail, inclusiv printre cele citite. Ultimul răspuns rămâne cel din 12 octombrie, deja raportat.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-11-01T14:00:38.153Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>La 1 noiembrie, ora 16:00, nu am găsit mesaje sau documente KSTAR noi în EVA-Mail. Ultimul răspuns rămâne cel de la Sebastian Babu din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-11-02T07:04:27.090Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-11-02T13:58:41.266Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>La verificarea din după-amiaza de 2 noiembrie, nu am găsit mesaje sau documente KSTAR noi în EVA-Mail. Ultimul răspuns rămâne cel de la Sebastian Babu din 12 octombrie.</message>
+</heartbeat>
+
+## Utilizator
+
+continua
+
+
+## Asistent
+
+Verific dacă a sosit un răspuns nou de la KSTAR și dacă solicitarea pregătită pentru Sebastian Babu a fost trimisă sau este încă în draft.
+
+## Asistent
+
+**Solicitarea a fost trimisă lui Sebastian Babu pe 13 octombrie.** Am verificat mesajul în dosarul „Trimise” din EVA-Mail. Până la verificarea din **2 noiembrie**, nu am găsit un răspuns ulterior de la KSTAR. Ultimul lor mesaj rămâne cel din 12 octombrie.
+
+În emailul trimis ați cerut explicit confirmarea producătorului și a capacității celulelor pentru echipamentul livrat, cu preferință pentru CATL, documentația oficială, retransmiterea anexelor și procedura de pornire fără rețea (*Black Start*). Ați cerut și proiectul de contract, cu **30% avans la semnare și 70% înainte de expediere**, pe baza raportului de testare și a documentelor de expediție. KSTAR nu a confirmat încă aceste condiții.
+
+Au trecut **20 de zile** de la solicitare. Aș reveni în același fir cu o singură întrebare: „Ne puteți confirma, vă rugăm, primirea mesajului din 13 octombrie și data la care estimați că ne veți putea transmite documentele și proiectul de contract?” Nu am trimis un mesaj nou. Monitorizarea continuă zilnic la **09:00 și 16:00**, ora României.

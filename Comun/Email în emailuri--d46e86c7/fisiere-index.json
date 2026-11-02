@@ -1,10 +1,7 @@
 [
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790086225736.txt",
-    "status": "copiat",
-    "saved_path": "fisiere/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_draft--e16221f4.txt",
-    "bytes": 199922,
-    "sha256": "a473241cb77da2492d252def5661cc4612fd9aee7df3223dfddf358ce23e1cab"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790086225736.txt is JSON with schema: {items: [{...}], total: number, limit: number, offset: number}; probe the structure with jq (type/length/keys), then extract and read the content in full with jq or python, then summarize and quote any key findings verbatim.",
@@ -12,10 +9,7 @@
   },
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790086806994.txt",
-    "status": "copiat",
-    "saved_path": "fisiere/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_draft--5a8982d0.txt",
-    "bytes": 55886,
-    "sha256": "1b9877ab028a5036d36315209368132e676c1117a5e62be8ffffaa5966ebb38d"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790086806994.txt is JSON with schema: {items: [{...}], total: number, limit: number, offset: number}; probe the structure with jq (type/length/keys), then extract and read the content in full with jq or python, then summarize and quote any key findings verbatim.",
@@ -29,8 +23,8 @@
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\MEMORY.md",
     "status": "copiat",
     "saved_path": "fisiere/MEMORY--51c05c25.md",
-    "bytes": 7966,
-    "sha256": "7f49e7b53895bb2fb52637edbf3396d0d7288b6ca922973aa2eea85b852cd64b"
+    "bytes": 8565,
+    "sha256": "2ab9c68aab262327c86a0aa02d3347760bf5a6ec2aba1db02a331fd801ea061a"
   },
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\kstar-baterie-theodor-palady.md",

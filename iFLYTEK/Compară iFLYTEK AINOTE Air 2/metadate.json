@@ -1,0 +1,23 @@
+{
+  "id": "01a18d84-6ed5-7161-97af-816983f4608c",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1793375629,
+  "updated_at": 1793532032,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară iFLYTEK AINOTE Air 2",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 45145649,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 1212,
+  "message_count": 224,
+  "content_sha256": "492159f248e32f6d30f72e8166eae8d95dfd0b8c8b9d095ae5afe362ab80b134",
+  "files_copied": 156,
+  "references_not_copied": 91
+}

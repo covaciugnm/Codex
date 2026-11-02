@@ -1,0 +1,209 @@
+[
+  {
+    "id": "V01",
+    "requestIds": [
+      "S01",
+      "S14"
+    ],
+    "type": "omisiune_confirmata",
+    "before": "Comparația Air 2 omite posibilitatea instalării de aplicații, deși o evidențiază la unele alternative.",
+    "now": "FAQ-ul UK descrie APK și Google Play; acestea se includ în comparație, cu verificare regională/de firmware.",
+    "why": "Reverificare independentă a changelogului oficial 28.01.2025.",
+    "claimIds": [
+      "A01"
+    ],
+    "evidence": [
+      "imbunatatire-raspunsuri/dovada-air2-google-play-apk.txt"
+    ]
+  },
+  {
+    "id": "V02",
+    "requestIds": [
+      "S05",
+      "S08",
+      "S13"
+    ],
+    "type": "dovezi_noi",
+    "before": "În prima etapă nu erau găsite UUID-urile și protocolul hardware.",
+    "now": "APK-ul furnizează UUID-uri, constructori și parsere documentate static.",
+    "why": "Trecerea de la căutare de SDK public la inspecția aplicației Android.",
+    "claimIds": [
+      "A04",
+      "A05"
+    ],
+    "evidence": [
+      "protocol-comunicare/INDEX.html"
+    ]
+  },
+  {
+    "id": "V03",
+    "requestIds": [
+      "S08",
+      "S10"
+    ],
+    "type": "livrabil_nou_cu_limite",
+    "before": "Au fost identificate clase interne; pachetul SDK hardware public nu era confirmat.",
+    "now": "Există un SDK experimental propriu pentru codec/comenzi și o punte recorder cu precondiții.",
+    "why": "Reconstrucție și teste offline; SDK oficial și integrare autonomă rămân nedemonstrate.",
+    "claimIds": [
+      "A04",
+      "A06",
+      "A07"
+    ],
+    "evidence": [
+      "../SDK_Experimental/README.html"
+    ]
+  },
+  {
+    "id": "V04",
+    "requestIds": [
+      "S13",
+      "S15",
+      "S17"
+    ],
+    "type": "eroare_corectata",
+    "before": "Unele câmpuri de model local erau promovate greșit la câmpuri wire; ieșirile/callbackurile erau incomplet diferențiate.",
+    "now": "Modelele locale sunt separate de schemă; ACK-ul și evenimentele OTA sunt documentate separat.",
+    "why": "Constatările independente F1–F4 și corecțiile generatoarelor.",
+    "claimIds": [
+      "A15"
+    ],
+    "evidence": [
+      "audit-calitate/runda-2/audit.json"
+    ]
+  },
+  {
+    "id": "V05",
+    "requestIds": [
+      "S15"
+    ],
+    "type": "versiune_noua",
+    "before": "Răspunsul inițial al catalogului consemna 2.710 parametri.",
+    "now": "Catalogul corectat și îmbogățit conține 2.900 parametri.",
+    "why": "Regenerare după corectarea schemelor și extracția rezultatelor; numărul vechi rămâne istoric.",
+    "claimIds": [
+      "A16"
+    ],
+    "evidence": [
+      "catalog-parametri-functii/acoperire.json"
+    ]
+  },
+  {
+    "id": "V06",
+    "requestIds": [
+      "S11",
+      "S17"
+    ],
+    "type": "formulare_corectata",
+    "before": "Unele documente generate numeau inventarul de canale «contracte complete».",
+    "now": "Inventarul automat este etichetat candidați euristici; invocabilitatea se stabilește separat.",
+    "why": "Constatarea F5; originalele istorice primesc o notă de etapă.",
+    "claimIds": [
+      "A09",
+      "A20"
+    ],
+    "evidence": [
+      "audit-calitate/corectari-runda-1.json"
+    ]
+  },
+  {
+    "id": "V07",
+    "requestIds": [
+      "S16"
+    ],
+    "type": "limita_nerezolvata",
+    "before": "Există trasee OTA în APK, dar lipsește pachetul de firmware.",
+    "now": "Sunt documentate 0 imagini confirmate și un plan de obținere/clasificare; Android este deja cunoscut.",
+    "why": "Răspunsul utilizatorului nu furnizează imaginea; nu se declară o decompilare realizată.",
+    "claimIds": [
+      "A18",
+      "A19"
+    ],
+    "evidence": [
+      "firmware-analiza/audit.json"
+    ]
+  },
+  {
+    "id": "V08",
+    "requestIds": [
+      "S17"
+    ],
+    "type": "domeniu_delimitat",
+    "before": "Scorul auditului local este 10/10 în domeniul declarat.",
+    "now": "Analiza tuturor răspunsurilor nu moștenește un scor global; măsoară separat cerințele, dovezile și experimentele.",
+    "why": "Domenii și unități de evaluare diferite.",
+    "claimIds": [
+      "A20",
+      "A21"
+    ],
+    "evidence": [
+      "imbunatatire-raspunsuri/revizie-independenta.txt"
+    ]
+  },
+  {
+    "id": "V09",
+    "requestIds": [
+      "S14"
+    ],
+    "type": "dovada_noua",
+    "before": "Mecanism de instalare locală neconfirmat în analiza anterioară.",
+    "now": "Lanț RPK de instalare pe dispozitiv GPASS identificat static; suportul real și semnarea rămân necunoscute.",
+    "why": "Urmărire independentă controller → RpkBleClient → NSMSApi.",
+    "claimIds": [
+      "A22"
+    ],
+    "evidence": [
+      "reverificare-detaliata/analiza-rpk.json"
+    ]
+  },
+  {
+    "id": "V10",
+    "requestIds": [
+      "S01"
+    ],
+    "type": "conflict_surse",
+    "before": "Cifrele de limbi puteau fi citite drept proprietate uniformă a Air 2.",
+    "now": "Valorile oficiale sunt contradictorii și dependente de pagină/serie; nu există confirmare pentru română STT.",
+    "why": "Reverificare între paginile producătorului.",
+    "claimIds": [
+      "A23"
+    ],
+    "evidence": [
+      "reverificare-detaliata/verificare-produse-audio.json"
+    ]
+  },
+  {
+    "id": "V11",
+    "requestIds": [
+      "S15"
+    ],
+    "type": "versiune_catalog",
+    "before": "2900 parametri, 199 cu tip necunoscut; 118 fișe Flutter cu output.",
+    "now": "2980 parametri, 76 cu tip necunoscut; 149 fișe Flutter cu output. Conversiile și probele DEX sunt păstrate separat.",
+    "why": "Urmărirea producătorilor/consumatorilor, parserilor delegați și a semnăturilor DEX.",
+    "claimIds": [
+      "A16",
+      "A17"
+    ],
+    "evidence": [
+      "reverificare-detaliata/parametri-reverificati.json",
+      "reverificare-detaliata/listeneri-reverificati.json"
+    ]
+  },
+  {
+    "id": "V12",
+    "requestIds": [
+      "S07"
+    ],
+    "type": "precizare_corectiva",
+    "before": "Latența STT–TTS descrisă categoric ca mai mare.",
+    "now": "Ipoteză plauzibilă, dar diferența trebuie măsurată pe aceeași configurație.",
+    "why": "Lipsa măsurătorilor comparative în proiect.",
+    "claimIds": [
+      "A24"
+    ],
+    "evidence": [
+      "reverificare-detaliata/verificare-produse-audio.json"
+    ]
+  }
+]

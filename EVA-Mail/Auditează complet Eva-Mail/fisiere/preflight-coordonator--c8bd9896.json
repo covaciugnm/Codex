@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-01",
+  "phase": "planning-preconditions-only",
+  "chrome": {"native_window_id":1771826,"title":"Eva-Mail – Google Chrome","ui_control_available":true,"authenticated_inbox_observed":true,"environment":"production-real-data","functional_cases_executed":0},
+  "windows": {"native_window_id":3082314,"app":"EVA","ui_control_available":true,"authentication":"suggested-by-title-not-yet-content-verified","functional_cases_executed":0},
+  "android": {"device_access":"unconfirmed"},
+  "ios": {"device_access":"unconfirmed"},
+  "pending_user_information":["dedicated test accounts and recipients","Android/iPhone devices or emulators"],
+  "ui_owner":"root until explicit handoff to Agent 1",
+  "execution_gate":"WAITING_FOR_PLAN_REVIEW_10_OF_10",
+  "notes":"No message sends, changes, or functional audit actions performed during preflight. Window IDs are transient; refresh before interaction. Existing SSH authorization remains separate from UI authentication."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a0f675-255b-7753-b0b6-3ccd30581fe5",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Firme",
+  "created_at": 1790841267,
+  "updated_at": 1790847730,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Unifică folderele firmelor",
+  "project_id": "46811615-9aa9-441d-8184-080417183a10",
+  "project": "Firme",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 5973217,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 104,
+  "message_count": 24,
+  "content_sha256": "748cf9ef51ee1d4f024e45638db266172554f7ebe51b34b9bbf881a57aaf8be6",
+  "files_copied": 3,
+  "references_not_copied": 4
+}

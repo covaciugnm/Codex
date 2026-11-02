@@ -1,0 +1,46 @@
+MODEL DE RĂSPUNS ȘI SINTEZĂ ACTUALIZATĂ
+Versiune: 30.10.2026. Analiză editorială și documentară; niciun test nou pe ochelari.
+
+1. Concluzia întâi
+Răspunde în 1–3 propoziții la întrebarea concretă și spune condiția care poate schimba decizia. Folosește modelul și contextul cunoscute: utilizatorul are ochelari, Android și nu a descărcat OTA. Nu repeta întrebarea Android/iPhone.
+
+2. Dovada lângă afirmație
+Marchează natural: documentat de producător / observat static în APK / compilat și testat offline / măsurat pe dispozitiv / ipoteză / necunoscut. Citează secțiunea sau clasa/linia relevantă, plus versiunea. „Am găsit o clasă” nu înseamnă „integrarea funcționează”.
+
+3. Răspuns tehnic numai cât cere decizia
+Pentru fiecare funcție: precondiții, intrări și unități, format pe fir, transformări locale, rezultat imediat, evenimente, erori, efecte și limită. Leagă fișa detaliată; nu încărca răspunsul cu numărul tuturor fișierelor.
+Pentru produse: aceleași criterii, model/regiune/firmware, preț verificat și sursă. Necunoscutul nu se transformă în absență.
+
+4. Ce ar închide incertitudinea
+Un test cu intrare, rezultat așteptat, măsurătoare și decizie pentru fiecare rezultat. Cere o informație numai când blochează acel pas și nu există deja în conversație. O explicație de fezabilitate nu promite o aplicație pe care utilizatorul nu a cerut-o.
+
+SINTEZĂ APLICATĂ ACESTUI CAZ
+
+AINOTE Air 2 poate fi luat în calcul și pentru aplicații terțe: FAQ-ul oficial UK descrie Google Play și instalarea APK în jurnalul din 28.01.2025. Aceasta completează comparația inițială, care omitea această capacitate. Verificarea pe regiunea/firmware-ul exemplarului rămâne necesară. Sursa și limita sunt în dovada-air2-google-play-apk.txt; nu este demonstrată instalarea aplicației de ochelari pe Air 2.
+
+Capabilitate                         | Ce știm                              | Ce nu rezultă de aici
+Wi-Fi la ochelari                    | Transfer foto/video descris oficial | Internet sau AI autonome pe ochelari
+Bluetooth în aplicația Android      | GATT și mesaje observate în APK       | Compatibilitate cu orice firmware
+APK/Google Play pe Air 2             | Documentate în FAQ-ul UK             | Integrare directă cu ochelarii
+STT / traducere online              | Trasee cloud documentate în APK      | Numele exact al modelului LLM activ
+Procesare offline                   | Politica o atribuie telefonului      | Toate limbile disponibile offline
+SDK experimental                    | Codec/JAR și teste offline           | Client BLE/audio autonom deja validat
+Microfon ochelari + alte căști        | Arhitectură posibilă prin Android    | Rutare simultană garantată
+RPK/GPASS                           | Instalare pe dispozitiv în cod      | Acceptare pe modelul deținut / semnare
+Firmware                            | Traseu OTA în aplicație               | Imagine de firmware deja recuperată
+
+Pentru o aplicație proprie, prima demonstrație utilă este mică: identificați configurația, observați o interogare de baterie/versiune în aplicația oficială și reproduceți-o într-un client separat. Captura din microfon și redarea în căștile alese vin după confirmarea inițializării și a traseului audio. Fiecare etapă are criterii distincte în E01–E04.
+
+Pentru adaptarea auditivă, comparăm procesarea directă cu STT–TTS pe același material. Măsurăm separat erorile de transcriere, întârzierea până la sunet și cuvintele înțelese de utilizator. Modificarea frecvenței TTS sau o amplificare generică nu demonstrează un beneficiu auditiv individual. E05–E06 sunt planuri, nu rezultate măsurate.
+
+Pentru firmware, următorul rezultat este un pachet real cu origine, versiune și SHA-256. Disponibilitatea unei actualizări sau existența unei clase OTA nu furnizează singură acel fișier. Analiza arhitecturii și funcțiilor începe după identificarea imaginii.
+
+UTILIZAREA NUMERELOR
+
+Scrie „149/443 fișe Flutter au câmpuri output documentate”, nu „SDK-ul este 26,64% complet”.
+Scrie „76/2.980 parametri au tip necunoscut”, fără a pretinde că ceilalți au semantică și intervale complet validate.
+Scrie „40 verificări offline de codec/comenzi”, fără a le prezenta ca 40 operații pe dispozitiv.
+Scorul 10/10 din auditul anterior rămâne atașat domeniului acelui raport.
+
+Pentru următoarea evaluare: publică criteriile înainte de verificare, păstrează constatări cu severitate și dovezi, corectează, apoi cere auditorului un eșantion nou. Nu forța scorul prin restrângerea ascunsă a domeniului.
+

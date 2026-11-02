@@ -1,6 +1,6 @@
 # CesiroSighi
 
-Conversații: 3; subagenți: 0; mesaje: 74; fișiere copiate: 102.
+Conversații: 3; subagenți: 0; mesaje: 74; fișiere copiate: 30.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|

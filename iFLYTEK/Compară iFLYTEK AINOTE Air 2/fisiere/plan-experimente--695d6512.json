@@ -1,0 +1,267 @@
+[
+  {
+    "id": "E01",
+    "title": "Identitatea configurației",
+    "priority": "P0",
+    "status": "propus_neexecutat",
+    "hypothesis": "Identificarea modelului exact, regiunii, firmware-ului și APK-ului permite atribuirea corectă a dovezilor.",
+    "requires": "Ochelarii și Android-ul utilizatorului; versiunea firmware încă lipsește.",
+    "steps": [
+      "Citește modelul și versiunile din ecranele About ale aplicației/dispozitivului.",
+      "Înregistrează ce funcții/pachete offline sunt active și dacă este oferit un OTA."
+    ],
+    "acceptance": "Toate câmpurile de identitate au valoare observată sau lipsă explicită.",
+    "metrics": [
+      "model",
+      "region",
+      "phone_model",
+      "android_version",
+      "apk_version",
+      "firmware_version",
+      "offline_packages"
+    ],
+    "limit": "Nu necesită instalare sau actualizare de firmware.",
+    "methods": [
+      "M02",
+      "M18"
+    ],
+    "sources": []
+  },
+  {
+    "id": "E02",
+    "title": "Cerere–răspuns Bluetooth observată",
+    "priority": "P0",
+    "status": "propus_neexecutat",
+    "hypothesis": "Comenzile reconstruite corespund traficului efectiv pentru profilul utilizatorului.",
+    "requires": "Telefon configurat pentru HCI snoop; aplicația oficială și ochelarii conectați.",
+    "steps": [
+      "Activează captura HCI prin opțiunile Android și reconectează Bluetooth conform documentației AOSP.",
+      "Execută în aplicația oficială citirea versiunii/bateriei și notează momentele.",
+      "Extrage captura disponibilă și compară UUID, MTU, antet, JSON, CRC și răspuns."
+    ],
+    "acceptance": "Captură reproductibilă și decodare concordantă; diferențele nu sunt corectate prin presupuneri.",
+    "metrics": [
+      "mtu_observed",
+      "uuid_observed",
+      "request_hex",
+      "response_hex",
+      "seq",
+      "optnum",
+      "crc_valid",
+      "rtt_ms"
+    ],
+    "limit": "Proba folosește operații de citire. Niciun OTA sau reset pentru această verificare.",
+    "methods": [
+      "M08",
+      "M09"
+    ],
+    "sources": [
+      "AOSP"
+    ]
+  },
+  {
+    "id": "E03",
+    "title": "Client Android autonom minim",
+    "priority": "P0",
+    "status": "propus_neexecutat",
+    "hypothesis": "Un client propriu poate citi bateria fără recorderul deja inițializat în procesul producătorului.",
+    "requires": "E01/E02 și mediu Android de compilare; transportul lipsește din JAR-ul actual.",
+    "steps": [
+      "Implementează permisiuni/scanare/conectare/notificări și secvența de inițializare observată.",
+      "Testează citirea bateriei, apoi deconectare/reconectare.",
+      "Înregistrează separat succesul apelului și răspunsul valid al dispozitivului."
+    ],
+    "acceptance": "Prag pilot propus: 20 reconectări, toate rezultatele raportate; acceptarea cere răspunsuri corecte, nu doar write() reușit.",
+    "metrics": [
+      "attempts",
+      "connect_success",
+      "response_success",
+      "disconnect_recovery_ms",
+      "errors"
+    ],
+    "limit": "Criteriul 20 este un plan de eșantionare, nu un standard de certificare.",
+    "methods": [
+      "M09",
+      "M10"
+    ],
+    "sources": [
+      "AOSP"
+    ]
+  },
+  {
+    "id": "E04",
+    "title": "Microfon ochelari și ieșire separată",
+    "priority": "P0",
+    "status": "propus_neexecutat",
+    "hypothesis": "Captura ochelarilor poate rămâne activă când redarea merge la o ieșire distinctă.",
+    "requires": "Acces audio verificat; modelul căștilor și telefonului.",
+    "steps": [
+      "Stabilește o bază cu căști USB/cu fir, apoi repetă cu căștile Bluetooth propuse.",
+      "Înregistrează ruta efectivă la start, în fundal, după apel telefonic și după reconectare.",
+      "Măsoară prin loopback traseul acustic, separat de timpul callbackurilor."
+    ],
+    "acceptance": "Matrice de combinații reușite/eșuate, cu p50/p95, întreruperi și durata observației.",
+    "metrics": [
+      "route_input",
+      "route_output",
+      "latency_p50_ms",
+      "latency_p95_ms",
+      "dropouts_per_min",
+      "run_minutes"
+    ],
+    "limit": "Pragurile de utilitate se stabilesc pentru scenariul ales; nu sunt deduse din eticheta low-latency.",
+    "methods": [
+      "M10",
+      "M11"
+    ],
+    "sources": [
+      "LATENCY",
+      "AUDIO_ROUTE"
+    ]
+  },
+  {
+    "id": "E05",
+    "title": "STT română și TTS pe același corpus",
+    "priority": "P1",
+    "status": "propus_neexecutat",
+    "hypothesis": "Compararea pe un corpus fix arată dacă un motor alternativ ajută scenariul utilizatorului.",
+    "requires": "Audio și transcrieri de referință verificate; drept de utilizare al înregistrărilor.",
+    "steps": [
+      "Pilot propus: 30 enunțuri × 3 condiții de zgomot × 3 rulări = 270 rulări per configurație.",
+      "Include numere, nume proprii, propoziții obișnuite și doi vorbitori; păstrează set separat de ajustare și evaluare.",
+      "Calculează WER=(S+D+I)/N cu aceeași normalizare; raportează timpul primului text, textului final și primei voci TTS."
+    ],
+    "acceptance": "Rezultate pe condiție și total, erori critice separat; WER nu este evaluarea traducerii sau a înțelegerii de către persoană.",
+    "metrics": [
+      "wer",
+      "critical_word_errors",
+      "first_text_ms",
+      "final_text_ms",
+      "first_tts_ms",
+      "network_mode"
+    ],
+    "limit": "270 este un pilot propus, nu dovadă de putere statistică. Rulările repetate pe aceeași frază nu sunt vorbitori independenți.",
+    "methods": [
+      "M11"
+    ],
+    "sources": [
+      "SCTK",
+      "LATENCY"
+    ]
+  },
+  {
+    "id": "E06",
+    "title": "Inteligibilitate: original, DSP și STT/TTS",
+    "priority": "P1",
+    "status": "propus_neexecutat",
+    "hypothesis": "Un mod de procesare îmbunătățește înțelegerea, nu doar nivelul audio.",
+    "requires": "Audiogramă și praguri de confort evaluate; sistem audio calibrat și specialist pentru reglaj.",
+    "steps": [
+      "Compară aceleași materiale în cele trei moduri, cu ordine contrabalansată și nivel controlat.",
+      "Măsoară cuvinte înțelese, efort perceput, confort și întârziere.",
+      "Separă erorile STT de distorsiunile procesării și de efectul zgomotului."
+    ],
+    "acceptance": "Beneficiu observat și repetabil pentru persoana testată; fără extrapolare clinică la alți utilizatori.",
+    "metrics": [
+      "speech_score",
+      "comfort_rating",
+      "listening_effort",
+      "latency_ms",
+      "stt_errors"
+    ],
+    "limit": "Nu sunt propuse valori generice de câștig sau volum; frecvența vocii TTS nu substituie reglajul individual.",
+    "methods": [
+      "M11"
+    ],
+    "sources": [
+      "HEARING"
+    ]
+  },
+  {
+    "id": "E07",
+    "title": "Punte Loomy–AINOTE",
+    "priority": "P1",
+    "status": "propus_neexecutat",
+    "hypothesis": "Componentele documentate pot fi conectate într-o operație cap-coadă.",
+    "requires": "AINOTE Desktop compatibil, autorizare și acces la un dispozitiv AINOTE pentru verificarea sincronizării.",
+    "steps": [
+      "Verifică API-ul local prin citirea unei resurse de test.",
+      "Folosește o notiță de test distinctă pentru creare și citire prin adaptorul MCP.",
+      "Verifică separat apelul Loomy, răspunsul API și apariția pe tabletă; fără dispozitiv, raportăm doar testul local."
+    ],
+    "acceptance": "Un ID de notiță și conținut verificat în fiecare etapă; confirmarea HTTP nu este dovada sincronizării pe tabletă.",
+    "metrics": [
+      "api_version",
+      "capability",
+      "note_id",
+      "desktop_latency_ms",
+      "sync_observed",
+      "end_to_end_success"
+    ],
+    "limit": "Integrarea rămâne propusă până la probă; un demo MCP nu confirmă controlul lentilelor.",
+    "methods": [
+      "M09",
+      "M12"
+    ],
+    "sources": []
+  },
+  {
+    "id": "E08",
+    "title": "Obținerea pachetului firmware",
+    "priority": "P0",
+    "status": "propus_neexecutat",
+    "hypothesis": "Un pachet OTA autentic și complet permite analiza funcțiilor ochelarilor.",
+    "requires": "Model/firmware exact și actualizare disponibilă sau pachet furnizat legitim; momentan niciun pachet.",
+    "steps": [
+      "Identifică oferta de actualizare din aplicație și metoda de păstrare/export disponibilă.",
+      "Păstrează originalul și hash-ul; identifică tipul fișierului înainte de presupuneri despre CPU.",
+      "Distinge imagine completă, delta, resurse și modele audio; decompilează numai după identificarea corectă."
+    ],
+    "acceptance": "Origine și hash documentate, compatibilitate de model verificată, tip de pachet identificat.",
+    "metrics": [
+      "source",
+      "sha256",
+      "package_version",
+      "package_kind",
+      "architecture",
+      "encryption_status"
+    ],
+    "limit": "Descărcarea și analiza sunt separate de instalare. Directorul privat Android nu este presupus accesibil prin USB.",
+    "methods": [
+      "M18"
+    ],
+    "sources": [
+      "AOSP"
+    ]
+  },
+  {
+    "id": "E09",
+    "title": "Revizie semantică pe eșantion nou",
+    "priority": "P1",
+    "status": "propus_neexecutat",
+    "hypothesis": "O revizie care nu reutilizează doar exemplele deja corectate poate găsi alte clase de erori.",
+    "requires": "Inventarul actual și Smali/Java; fără dispozitiv pentru partea statică.",
+    "steps": [
+      "Alege înaintea verificării un eșantion stratificat: BLE, Wi-Fi, Flutter, cloud, native/JNI.",
+      "Include toate traseele prioritare plus o selecție cu seed public; păstrează și cazurile neclarificate.",
+      "Verifică tipuri, conversii, nulabilitate, rezultat, eroare, condiții și efecte din sursă."
+    ],
+    "acceptance": "Raport de defecte pe strat și rată de neclarificate; nu generalizăm rata unui eșantion fără justificare statistică.",
+    "metrics": [
+      "sample_seed",
+      "sample_ids",
+      "reviewed",
+      "defects",
+      "unresolved",
+      "severity"
+    ],
+    "limit": "Nu înlocuiește testarea dinamică; aceeași unealtă/rubrică nu garantează independență.",
+    "methods": [
+      "M07",
+      "M14"
+    ],
+    "sources": [
+      "JADX"
+    ]
+  }
+]

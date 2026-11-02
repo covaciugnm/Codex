@@ -1,0 +1,23 @@
+{
+  "id": "01a1661b-dfbc-7c20-9b2f-c32762ce921f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1792714465,
+  "updated_at": 1793623746,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Caută emailuri OwnCloud în Eva-Mail",
+  "project_id": "a85004ee-5acd-4f38-b445-2289450e8065",
+  "project": "EVA-Mail",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 346475,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 21,
+  "message_count": 9,
+  "content_sha256": "6f9e2bc856aad2fbee4c1107e2352aa022418ffe52a3482983292e979b0da935",
+  "files_copied": 0,
+  "references_not_copied": 2
+}

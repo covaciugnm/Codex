@@ -1,0 +1,101 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane-reluare-20261101\\calificari.py",
+    "status": "copiat",
+    "saved_path": "fisiere/calificari--6302adb4.py",
+    "bytes": 5836,
+    "sha256": "f759aa682caa02d679484b19bce6e896a3306a46c8617d4c134f20eb2aeada8a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane-reluare-20261101\\categorii.py",
+    "status": "copiat",
+    "saved_path": "fisiere/categorii--74c90da0.py",
+    "bytes": 901,
+    "sha256": "efc2b613bbe0a6f0d000c68e93020c85c43ba714059cab2efc3a56893367e996"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane-reluare-20261101\\completare_categorii.py",
+    "status": "copiat",
+    "saved_path": "fisiere/completare_categorii--079b1897.py",
+    "bytes": 1597,
+    "sha256": "27deaeaabe57ee1a56bc20df613877022572bb4da8b24825f81b4bb639d824d2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane-reluare-20261101\\repartizare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/repartizare--9092ef23.py",
+    "bytes": 5678,
+    "sha256": "26572003dd7143e80d55dfd2a1263d0b2e2831468ad0e73d4652ca10a9d9141e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane-reluare-20261101\\verifica_titular_calificari.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verifica_titular_calificari--7ad5448f.py",
+    "bytes": 2186,
+    "sha256": "cc42497bd77c42d91972382851256737542d89016cc46da220bd6898fa8f1096"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane_archives_20261031.py",
+    "status": "copiat",
+    "saved_path": "fisiere/persoane_archives_20261031--0309fb04.py",
+    "bytes": 2283,
+    "sha256": "a80ddb57c8adbb818b4132b191f6cdec9e634c72eaf67840d410ef7ff7bdcece"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane_copy_20261031.py",
+    "status": "copiat",
+    "saved_path": "fisiere/persoane_copy_20261031--17becf11.py",
+    "bytes": 7558,
+    "sha256": "e606fead86af0e6e365dd3021e281bbc5996c55c0ca40369b3233d04ff9eaf5a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane_ocr_20261031.py",
+    "status": "copiat",
+    "saved_path": "fisiere/persoane_ocr_20261031--6647a9eb.py",
+    "bytes": 3374,
+    "sha256": "32afa09fd9a17789fdb8614959ebce87d330f9328e972dcd214a0a11b5a39ef8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane_scan_20261031.py",
+    "status": "copiat",
+    "saved_path": "fisiere/persoane_scan_20261031--3754261c.py",
+    "bytes": 8824,
+    "sha256": "09c9ab8c57a0c092c067eb4f3a8ecc472584f1c07f0d20c7fe699173948a8e5d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\persoane_supervisor_20261031.py",
+    "status": "copiat",
+    "saved_path": "fisiere/persoane_supervisor_20261031--c2ebb9a6.py",
+    "bytes": 9257,
+    "sha256": "740a23c87d7b22d44813ec00bec0a0ccd1d6c45181a9c8628df23af61c4e368b"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/00. Arhiva/00. Administrativ/Completare 2026-10-31/Diplome acreditari si licente/Stadiu.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Stadiu--23f2ea3e.txt",
+    "bytes": 272,
+    "sha256": "d4c81d77d6f04572c16a7e3166511f4ec2bb9d04e836473787d292e736541800"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/00. Arhiva/00. Administrativ/Completare 2026-10-31/Raport completare.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport completare--ed2c7f64.html",
+    "bytes": 37150170,
+    "sha256": "31831f8a27ffaedcb3a5b3e3f2b709f6bfa96117a20202a61145f585437d67fe"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/00. Arhiva/00. Administrativ/Completare 2026-10-31/Repartizare pe persoane/Progres categorii.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Progres categorii--71afaf32.txt",
+    "bytes": 1146,
+    "sha256": "18cef64b3aabb992eafdceff51b06f95041034e1c4b3cffd49a1efac66366fc6"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

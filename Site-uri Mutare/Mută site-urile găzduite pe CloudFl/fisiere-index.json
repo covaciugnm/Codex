@@ -1,0 +1,111 @@
+[
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\build_registry.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_registry--400d216e.py",
+    "bytes": 6035,
+    "sha256": "c333e5760c86358d5c3afb4368d9d5e22b93bd12855931447af373eb3bdf0105"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\capture_previews.py",
+    "status": "copiat",
+    "saved_path": "fisiere/capture_previews--935dec24.py",
+    "bytes": 8541,
+    "sha256": "882ee5118eb960118baa1d238e8bc35e66ad03f598e50d311e49311586de0877"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\deploy_dashboard.py",
+    "status": "copiat",
+    "saved_path": "fisiere/deploy_dashboard--9821242e.py",
+    "bytes": 2671,
+    "sha256": "0ec6e23fe74b1e9177511b93b9fd47e217527494b5d11a44968399a57ad13023"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\deploy_previews.py",
+    "status": "copiat",
+    "saved_path": "fisiere/deploy_previews--32fb4602.py",
+    "bytes": 2227,
+    "sha256": "5bb85b8e10b6539fb9b4b23c0ac6852f29b0750921f50103b95c50bc9eca8a6a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\discover_routes.py",
+    "status": "copiat",
+    "saved_path": "fisiere/discover_routes--0404b0b7.py",
+    "bytes": 6551,
+    "sha256": "aea6d157093ff127ebb755a06e814bee759ed4544fa8aa9b6be0bdd58b25ff45"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\domain_dashboard.py",
+    "status": "copiat",
+    "saved_path": "fisiere/domain_dashboard--3722f97d.py",
+    "bytes": 1787,
+    "sha256": "08225997e2b3c0b7936cf97187360c44d2d8c094c26ae1aaec08946e57d5a8d4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\monitor_domains.py",
+    "status": "copiat",
+    "saved_path": "fisiere/monitor_domains--03e1ea70.py",
+    "bytes": 12377,
+    "sha256": "bcab9efbd6bbf28d2fbdfd4bb1afda6ad97eb9ee2bdb1b4d6ddc01b224bc4fa3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\qa\\desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/desktop--489fa085.png",
+    "bytes": 88590,
+    "sha256": "9200888a7be05093a15d4e421548a0b94f4420f49b47939e507fabbcf2ff1da2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\qa\\live-check.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/live-check--9c779bf0.cjs",
+    "bytes": 4232,
+    "sha256": "d7a51d281475434a987c112b3686306a38bb67571b4f4e7e76260c7283e884af"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\qa\\live-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/live-mobile--e681baee.png",
+    "bytes": 88312,
+    "sha256": "4a453a935b83f4b427406bc387b80178ccf3439086210909685d97fc79405e04"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\qa\\live-previews.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/live-previews--c21dabcb.cjs",
+    "bytes": 3606,
+    "sha256": "ebb256b2e8784fabfc28af1d2402640ef7fe79c361805c703db2d7a7ff1b1adc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\qa\\preview-bonna.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-bonna--d2d45b11.jpg",
+    "bytes": 137166,
+    "sha256": "c9f20588b67878e97fd1949fc68982c6fbfff226b03616e3805f70433b40108a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\qa\\previews-live-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/previews-live-desktop--28987408.png",
+    "bytes": 188178,
+    "sha256": "83c200345bf02899bd310fcb4aad12fb0b86ce47efa421e6d31091776cee150a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\qa\\previews-live-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/previews-live-mobile--6ca42a0b.png",
+    "bytes": 80607,
+    "sha256": "955c92621c10a35f2632e3c2597d8532624955086758c20bd5fe8d62384863c2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\dashboard\\wp_prefix.py",
+    "status": "copiat",
+    "saved_path": "fisiere/wp_prefix--47c268be.py",
+    "bytes": 9099,
+    "sha256": "9fb1eee695f026a6fc69c26d2c592c7cee6459718ace149392d2ceeb240500c9"
+  },
+  {
+    "source_reference": "https://wordpress.alba-vision.ro/",
+    "status": "referinta_externa_necopiata"
+  }
+]

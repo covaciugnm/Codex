@@ -1,0 +1,23 @@
+{
+  "id": "01a15ddb-c166-7e21-a723-ef051111f49b",
+  "cwd": "S:\\3dscan.eva-org.com",
+  "created_at": 1792576045,
+  "updated_at": 1792672461,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Descarcă obiecte 3D de pe site-uri",
+  "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+  "project": "3D.AppleScan",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 137798,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 39,
+  "message_count": 15,
+  "content_sha256": "b138be61a5dd0a8233ab18d43e7f80aa3f1a9a82deb41ed0d095be523246e447",
+  "files_copied": 2,
+  "references_not_copied": 3
+}

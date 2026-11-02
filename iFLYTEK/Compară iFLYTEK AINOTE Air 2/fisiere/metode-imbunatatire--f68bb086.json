@@ -1,0 +1,210 @@
+[
+  {
+    "id": "M01",
+    "title": "Cerințe și criterii de acceptare",
+    "status": "aplicat",
+    "priority": "P0",
+    "method": "Fiecare solicitare este descompusă în rezultate verificabile, cu dovezi și limite separate. O întrebare de fezabilitate poate fi bine răspunsă fără a livra o aplicație necerută.",
+    "success": "17 solicitări și 40 criterii în registru; nicio cerință fără legătură la răspuns.",
+    "artifact": "cerinte-atomice.json",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M02",
+    "title": "Registru de afirmații și dovezi",
+    "status": "aplicat_selectiv",
+    "priority": "P0",
+    "method": "Fiecare afirmație decisivă are produs/versiune, tip de dovadă, sursă, limită și condiția care ar schimba concluzia.",
+    "success": "Afirmații decisive trasabile; datele de produs din răspunsurile vechi rămân marcate ca nerevalidate dacă nu au fost reverificate.",
+    "artifact": "registru-afirmatii.json",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M03",
+    "title": "Necunoscute transformate în coadă de lucru",
+    "status": "aplicat",
+    "priority": "P0",
+    "method": "Extragem exact ID-urile parametrilor cu tip necunoscut, funcțiile fără ieșiri documentate și ramurile fără căi. Absența extracției nu este declarată defect de implementare.",
+    "success": "Baseline păstrat: 199 tipuri necunoscute, 325 intrări Flutter fără output și 30 recepții fără output. Valorile curente se recalculează în indicatori.json; seturile nu se însumează ca obiecte unice.",
+    "artifact": "coada-verificare.json",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M04",
+    "title": "Răspunsuri în două niveluri",
+    "status": "aplicat_selectiv",
+    "priority": "P1",
+    "method": "Rezumat de decizie cu ce se poate face acum, apoi fișa tehnică cu dovezi, limită și testul următor. Numerele mari sunt explicate prin ce reprezintă.",
+    "success": "Modelul și sinteza curentă includ concluzie, dovadă aplicabilă, necunoscut și următorul pas concret. Nu presupune rescrierea celor 17 răspunsuri istorice.",
+    "artifact": "model-raspuns.txt",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M05",
+    "title": "Indicatori cu numitor și definiție",
+    "status": "aplicat",
+    "priority": "P0",
+    "method": "Măsurăm cantitatea relevantă: câmpuri cunoscute, contracte de rezultate, artefacte validate. Nu raportăm 1107/318284 ca procent semantic: fișele și metodele DEX au granularități diferite.",
+    "success": "Indicatori recalculați din JSON, cu sursă/hash și limită de interpretare; fără scor global fabricat.",
+    "artifact": "indicatori.json",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M06",
+    "title": "Versiuni și reproducibilitate",
+    "status": "aplicat_partial",
+    "priority": "P1",
+    "method": "Amprente pentru intrările folosite, script de regenerare și proveniența istoricului. Schimbarea unui fișier sursă trebuie să facă raportul detectabil ca învechit.",
+    "success": "Toate intrările generatorului au SHA-256; fiecare generație are timestamp și versiune APK.",
+    "artifact": "manifest-intrari.json",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M07",
+    "title": "Verificare prin reprezentări independente",
+    "status": "propus",
+    "priority": "P1",
+    "method": "Pentru metodele critice sau greșit decompilate, comparăm Java cu Smali și CFG; pentru native, cu disassembly și simboluri. A doua unealtă nu este automat o dovadă independentă dacă folosește aceeași ipoteză.",
+    "success": "Fiecare traseu prioritar are minimum două reprezentări reconciliate; diferențele rămân în registru.",
+    "artifact": "plan-experimente.json",
+    "effort": "mediu",
+    "sources": [
+      "JADX"
+    ]
+  },
+  {
+    "id": "M08",
+    "title": "Teste diferențiale și de proprietăți",
+    "status": "propus",
+    "priority": "P1",
+    "method": "Comparator independent al cadrelor: encode/decode, CRC calculat separat, fragmentare/concatenare, lungimi-limită, UTF-8 și date corupte. Ulterior se adaugă cadre capturate legitim de pe dispozitiv.",
+    "success": "Pentru fiecare regulă binară există caz valid, caz invalid și dovadă că testul detectează o mutație relevantă.",
+    "artifact": "plan-experimente.json",
+    "effort": "mediu",
+    "sources": []
+  },
+  {
+    "id": "M09",
+    "title": "Urmărire completă a unei funcții",
+    "status": "propus",
+    "priority": "P0",
+    "method": "Legăm acțiune → Flutter → helper → coadă → bytes → parser → callback → efect observabil. Fiecare traversare păstrează numele de câmp și conversia, inclusiv modelele locale.",
+    "success": "Primele trasee: baterie, versiune, start/stop audio, text, transfer fișiere, OTA; capătul netestat este marcat.",
+    "artifact": "plan-experimente.json",
+    "effort": "mediu",
+    "sources": []
+  },
+  {
+    "id": "M10",
+    "title": "Teste de eșec și stări",
+    "status": "propus",
+    "priority": "P1",
+    "method": "Se documentează permisiune refuzată, Bluetooth oprit, deconectare, timeout, reluare și mesaje necunoscute. Confirmarea apelului este separată de succesul operației.",
+    "success": "O diagramă de stări și cel puțin un test de eșec per operație prioritară, cu rezultat așteptat stabilit înainte.",
+    "artifact": "plan-experimente.json",
+    "effort": "mediu",
+    "sources": [
+      "AOSP"
+    ]
+  },
+  {
+    "id": "M11",
+    "title": "Benchmark pe traseul audio complet",
+    "status": "propus",
+    "priority": "P0",
+    "method": "Separăm captură, STT, traducere, TTS, procesare și ieșire. Măsurăm p50/p95 și erorile pe același material; testul de inteligibilitate este separat de WER.",
+    "success": "Latență măsurată, cu ceas/start/end definite; WER cu normalizare fixată; rezultate pe condiții, fără selectarea doar a celor bune.",
+    "artifact": "plan-experimente.json",
+    "effort": "mare",
+    "sources": [
+      "LATENCY",
+      "SCTK",
+      "HEARING"
+    ]
+  },
+  {
+    "id": "M12",
+    "title": "Comparație de produse orientată spre decizie",
+    "status": "propus",
+    "priority": "P1",
+    "method": "Aceleași coloane pentru toate modelele: SKU/regiune/firmware, română STT vs scris, aplicații, API, conectivitate, dimensiune și cost total. Necunoscutul nu primește automat scor zero.",
+    "success": "Clasament numai când criteriile și ponderile sunt explicite; analiză de sensibilitate la ponderi; dovezi regionale actuale.",
+    "artifact": "analiza-solicitari.json",
+    "effort": "mediu",
+    "sources": []
+  },
+  {
+    "id": "M13",
+    "title": "Istoric al concluziilor și contradicțiilor",
+    "status": "aplicat",
+    "priority": "P1",
+    "method": "Separăm eroarea, omisiunea, rezultatul schimbat prin dovezi noi și limita încă deschisă. «Nu am găsit UUID» din prima etapă nu rămâne concluzia actuală.",
+    "success": "Fiecare concluzie inventariată în acest registru are starea curentă și motivul schimbării; registrul nu pretinde exhaustivitatea tuturor propozițiilor istorice.",
+    "artifact": "evolutie-concluzii.json",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M14",
+    "title": "Audit cu eșantion nou și criterii fixe",
+    "status": "aplicat_partial",
+    "priority": "P0",
+    "method": "Auditorul verifică și exemple care nu au fost folosite la generarea documentelor. Criteriile, eșantionul, severitatea și limitele sunt publicate înainte de a transforma o evaluare într-un scor.",
+    "success": "Constatările corectate sunt reverificate și există un eșantion nou; un prag numeric nu obligă la concluzii favorabile.",
+    "artifact": "revizie-independenta.txt",
+    "effort": "mediu",
+    "sources": []
+  },
+  {
+    "id": "M15",
+    "title": "Claritate fără pierderea preciziei",
+    "status": "aplicat",
+    "priority": "P1",
+    "method": "Un tabel de conectivitate și un rezumat al arhitecturii evită întrebările repetate. Unitățile și sensurile locale ale parametrilor apar lângă valori.",
+    "success": "Cititorul poate distinge radio, transfer de date, execuție AI și instalare software din primul nivel al răspunsului.",
+    "artifact": "model-raspuns.txt",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M16",
+    "title": "Căutare reproductibilă și rezultate negative delimitate",
+    "status": "propus",
+    "priority": "P1",
+    "method": "Registru al interogărilor pe nume de produs, aliasuri chinezești, pachete, clase, registre și depozite oficiale. Duplicatele se reduc prin hash; rezultatele negative au dată și domeniu.",
+    "success": "Fiecare «nu am găsit» precizează sursele și termenii căutați; nu devine «nu există».",
+    "artifact": "analiza-solicitari.json",
+    "effort": "mediu",
+    "sources": []
+  },
+  {
+    "id": "M17",
+    "title": "Maturitate separată pentru documente și produs",
+    "status": "aplicat",
+    "priority": "P0",
+    "method": "Raportăm separat: structură inventariată, semantică analizată, cod compilat, test offline, test hardware și integrare completă. 162721 aserțiuni de structură nu devin 162721 funcții validate.",
+    "success": "Orice număr de teste este însoțit de obiectul verificat; nicio etichetă de produs funcțional fără demonstrație.",
+    "artifact": "indicatori.json",
+    "effort": "mic",
+    "sources": []
+  },
+  {
+    "id": "M18",
+    "title": "Recuperare și analiză firmware cu proveniență",
+    "status": "plan_pregatit",
+    "priority": "P0",
+    "method": "Începem cu modelul/versiunea și un pachet real, apoi identificăm containerul, compresia/delta/criptarea și arhitectura. Indiciile APK nu se declară firmware recuperat.",
+    "success": "Imagine specifică verificată prin origine și hash înainte de analiza funcțiilor; fiecare condiție nerezolvată rămâne explicită.",
+    "artifact": "plan-experimente.json",
+    "effort": "dependent de dispozitiv",
+    "sources": [
+      "AOSP"
+    ]
+  }
+]

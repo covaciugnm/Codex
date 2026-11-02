@@ -2,7 +2,7 @@
 
 ID: `01a0d4e2-dc30-79e3-bad6-bd9fd3a231ad`  
 Proiect: Comun  
-Export UTC: 2026-10-18T07:57:49.755838+00:00
+Export UTC: 2026-11-02T15:26:35.221418+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -11092,7 +11092,7 @@ command: ssh -o BatchMode=yes saga-server@192.168.100.151 "grep -i DATABASE_URL 
 ## Asistent
 
 [external_agent_tool_result]
-      DATABASE_URL: ${DATABASE_URL:-postgresql://wohnart:wohnart@db:5432/wohnart}
+      DATABASE_URL: ${DATABASE_URL:-postgresql[CREDENTIAL_REDACTED]db:5432/wohnart}
 [/external_agent_tool_result]
 
 ## Asistent

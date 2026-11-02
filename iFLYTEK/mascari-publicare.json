@@ -1,0 +1,119 @@
+{
+  "local_originals_preserved": true,
+  "masked_files": [
+    {
+      "path": "Caută iFLYTEK AI Glasses și aplicații/istoric.json",
+      "masked_values": {
+        "google_api_key": 1
+      }
+    },
+    {
+      "path": "Caută iFLYTEK AI Glasses și aplicații/rezultate.md",
+      "masked_values": {
+        "google_api_key": 1
+      }
+    },
+    {
+      "path": "Compară iFLYTEK AINOTE Air 2/fisiere/catalog-extract--e2c6ee33.cjs",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Compară iFLYTEK AINOTE Air 2/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 7
+      }
+    },
+    {
+      "path": "Compară iFLYTEK AINOTE Air 2/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 7
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--8d70ecec/fisiere/repair-method-map-smoke-20261101--d595f1b0.cjs",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--8d70ecec/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 6
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--8d70ecec/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 6
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--a9ea38f1/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--a9ea38f1/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ba3ad4b4/fisiere/classfile-coverage--d9eb6a16.cjs",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ba3ad4b4/fisiere/normalize-smali--05122674.cjs",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ba3ad4b4/fisiere/run-global-checkpoint--8cc5e838.cjs",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ba3ad4b4/fisiere/run-targeted-correlation--159bc392.cjs",
+      "masked_values": {
+        "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ba3ad4b4/fisiere/test-classfile-coverage--3adb3ac4.cjs",
+      "masked_values": {
+        "signed_url_credential": 6
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ba3ad4b4/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 21
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ba3ad4b4/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 21
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--c22edefd/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 15
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--c22edefd/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 15
+      }
+    }
+  ]
+}

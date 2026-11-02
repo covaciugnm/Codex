@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "observedAtUtc": "2026-10-31T12:18:59.3785867Z",
+  "testedApkSha256": "82aa11096fbd474f0669b5ca295e325fd0b0c45c2999360859d1bd93821a9aa8",
+  "model": "SM-A146P",
+  "status": "WAITING_FOR_USB",
+  "installationVerified": false,
+  "launchVerified": false,
+  "countrySelectorVerified": false,
+  "loginTested": false,
+  "serverAcceptanceTested": false,
+  "glassesTested": false,
+  "userAuthorizedInstallation": true,
+  "adbState": "NO_DEVICE",
+  "windowsPhonePresent": false,
+  "networkAuthenticationRequestsByAssistant": 0,
+  "notes": [
+    "APK built and statically verified; ARM64 emulator tests passed.",
+    "No installation of this variant has been attempted because USB/ADB no longer detects the phone.",
+    "Earlier baseline APK installation results do not validate this variant."
+  ]
+}

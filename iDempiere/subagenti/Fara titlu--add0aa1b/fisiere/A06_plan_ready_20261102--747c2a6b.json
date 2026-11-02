@@ -1,0 +1,1444 @@
+{
+  "schema": "eva.audit.plan.a06.v1",
+  "agent": "A06",
+  "document": "Plan audit G3, vânzări, comenzi ERP, CRM și comisionari",
+  "date": "2026-11-02",
+  "faza": "PLAN",
+  "stare": "NEEXECUTAT",
+  "gate": {
+    "responsabil": "A11",
+    "scor": null,
+    "permitere_audit": false,
+    "criteriu": "Planul integrat 10/10 cu semnătura A11 pe versiunea exactă. După poartă, raport cu repro, trasabilitate și concluzia pe fiecare control. Rezultat de produs distinct de nota raportului."
+  },
+  "version": {
+    "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "baseline_precedenta": "76470fedb51e273012e137c4c5847ec41a849848",
+    "manifest": "D:/CodexWork/eva-audit-p01-readonly-20261102/SOURCE_MANIFEST.json",
+    "installed_version": null,
+    "native_core_sha": null,
+    "regula": "Ancore inspectate în copie la nivel de nume de fișier și simbol înainte de execuție. A10 confirmă build/imagine/JAR, A02 core+AD+scheme. Schimbarea SHA obligă la reancorare, schimbările intervenite sunt raportate separat."
+  },
+  "domeniu": {
+    "responsabil": "A06",
+    "perspective": [
+      "Contabilitate și fiscalitate prin A03",
+      "Arhitectură software, integritate tranzacțională și API",
+      "Vânzări, marketing, CRM, drepturi comisionar",
+      "WMS și gestiuni prin A05",
+      "Frontend și UX ERP/site cu A08 și A09"
+    ],
+    "include": "Catalog CPP/CPA de vânzare, buget G3 din surse G1, conversii, prețuri, acceptare și administrare comandă ERP, contract WMS, CRM, canal și calculul comercial al comisionului.",
+    "limite": "A02 deține ne-reutilizarea identităților la nivel DB. A05 deține operația fizică. A07 deține aviz/AWB/factură/retur/ramburs. A03 deține tratamentul contabil/fiscal. A08 deține temă/site/conectori, preview și consimțământ frontend. A09 adaptează meniul și verifică UX transversal. A01 autorizează firme/roluri. A10 controlează infrastructura; A12 corelează taskuri reale."
+  },
+  "premise": [
+    "Stabilește inventarul complet al ecranelor active ERP/site, API, evenimente, procese, tabele și surse de stoc. Mapează instalațiile active sau inactive separat și justifică N/A pe suprafață.",
+    "Cere core iDempiere/AD exact, pluginuri și migrații instalate, conturi sintetice și două cabinete izolate; REST/DB și urmele de tranzacție trebuie să corespundă aceleiași imagini.",
+    "Înregistrează data, moneda, precizia, drepturile, regula de preț și rezervare, politica de credit/comision, factura la validare sau la livrare fără excepții. Dacă lipsesc, verificarea afectată este BLOCAT.",
+    "Producție numai citire de observație autorizată. Sandbox izolat de ieșiri externe și schedulere, adaptoare simulate. Acțiuni parteneri live interzise. Suita trebuie să respecte coada §61. Nu este necesară montare.",
+    "Experimentele cu clienți și date personale folosesc numai fixture fictive. Nu transmite comenzi reale, modificări sau comunicări marketing."
+  ],
+  "fixtures": {
+    "catalog": "P1 CPP și P1 CPA distincte; set cumpărat CPP și set CPA; o rețetă CPA cu 1 P1 CPP, A1, 0,5 h plus S1 și S2 cu componente comune.",
+    "stoc": "120 unități disponibile în fiecare P1/P2/P3; fixture separat cu P2=-120 (liniuța din exemplul inițial tratată ca posibilă neclaritate); G1.1/1.2 și G2.1/2.2, fără dublarea aceleiași poziții.",
+    "identitati": "Două firme și două cabinete cu identificatori diferiți și aliasuri repetate, canale câte două, comisionari A/B, gestionar G/G', responsabil vânzare și rol automat cu autorizare definită.",
+    "preturi": "RON și EUR, B2B/B2C, date de valabilitate consecutive, C_UOM și precizia monedei calibrate. Mix de livrare parțială/retur și sume brut/net în probe.",
+    "refacere": "Salvează seed și starea inițială. Reia dintr-un snapshot de test curat sau un cabinet de test nou. Eșecul la cleanup rămâne vizibil în raport."
+  },
+  "reutilizare": [
+    "Catalog: M_Product și cod intern, M_AttributeSetInstance și PP_Product_BOM/Line. Dovedește separat că ID tehnic, cod afișabil și non-reutilizare globală îndeplinesc scopuri diferite, inclusiv pentru baze separate pe cabinet.",
+    "Disponibil: M_StorageOnHand și M_StorageReservation, document C_Order/C_OrderLine. Observă dacă rezervarea nativă exprimă toate angajamentele comune înainte de a propune extensie EVA.",
+    "Comercial: M_PriceList/Version/ProductPrice, M_DiscountSchema, C_UOM_Conversion, C_BPartner, C_PaymentTerm, C_Campaign, C_Opportunity, C_Commission și documentele derivate. Confirmă fiecare candidat în AD și în execuție.",
+    "Libertate implementare: reutilizează fereastra/procesul nativ dacă rezultatul este echivalent. Situația unde componenta nu există local/în core/în runtime are trei probe separate. Adaptarea limita proiecția canalului și angajamentele lipsă la interfețele demonstrate."
+  ],
+  "ancore": {
+    "set": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+      "linie": 258,
+      "simbol": "disponibilSet",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "bom": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+      "linie": 146,
+      "simbol": "refuzDefinitie",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "explode": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+      "linie": 209,
+      "simbol": "explodeaza",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "lock": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RezervareStoc.java",
+      "linie": 250,
+      "simbol": "blocheaza",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "reserve": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RezervareStoc.java",
+      "linie": 214,
+      "simbol": "disponibil",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "mapping": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalProces.java",
+      "linie": 1076,
+      "simbol": "amprentaMapare",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "rules": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RegulaStocCanal.java",
+      "linie": 36,
+      "simbol": "pasiRegula",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "catalog": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/CitiriStocCanal.java",
+      "linie": 415,
+      "simbol": "efectiv",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "channel": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/OperatiiCanale.java",
+      "linie": 528,
+      "simbol": "refuzReferinte",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "price": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/CanalB2B.java",
+      "linie": 545,
+      "simbol": "setM_PriceList_ID",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "gen": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/GeneratorDocumente.java",
+      "linie": 395,
+      "simbol": "setM_PriceList_ID",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "order": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ValidareComanda.java",
+      "linie": 113,
+      "simbol": "valideaza",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "hist": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/IstoricComanda.java",
+      "linie": 73,
+      "simbol": "detecteaza",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "report": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/VanzariPeCanal.java",
+      "linie": 195,
+      "simbol": "calculeaza",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "web": {
+      "cale": "idempiere/plugins/com.eva.ro.webshop/src/com/eva/ro/webshop/commerce/Orders.java",
+      "linie": 82,
+      "simbol": "save",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "form": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogConfirmComanda.java",
+      "linie": 24,
+      "simbol": "class DialogConfirmComanda",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "b2b": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaCanalB2BForm.java",
+      "linie": 59,
+      "simbol": "class WEvaCanalB2BForm",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "sales": {
+      "cale": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaVanzariPeCanalForm.java",
+      "linie": 30,
+      "simbol": "class WEvaVanzariPeCanalForm",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "portal": {
+      "cale": "frontend/portal/eva_orders.html",
+      "linie": 3,
+      "simbol": "<title>",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "rep": {
+      "cale": "frontend/portal/eva_operare_order.html",
+      "linie": 3,
+      "simbol": "<title>",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    },
+    "list": {
+      "cale": "frontend/portal/eva_catalog.html",
+      "linie": 3,
+      "simbol": "<title>",
+      "functie": "Punct de pornire pentru urmărirea execuției pe SHA. Nu este verdict."
+    }
+  },
+  "pipeline": [
+    {
+      "id": "A06-P1",
+      "titlu": "Publicarea identității și a rețetei",
+      "interfete": "A02→A06→A08/A05",
+      "controale": [
+        "A06-C01",
+        "A06-C02",
+        "A06-C03",
+        "A06-C04",
+        "A06-C12",
+        "A06-C13",
+        "A06-C29"
+      ],
+      "traseu": "Administratorul ERP configurează CPP și CPA ca articole diferite. Responsabilul canalului selectează sursa valorii, variantele, limba și aliasurile. Un consumator citește numai proiecția permisă.",
+      "corelare": "Unește codul produsului, BOM, versiune mapping și canal cu identificatorul articolului din site. Confruntă sursa exactă cu câmpul publicat.",
+      "predare_si_acceptare": "A02 predă ID-uri și restricții de non-reutilizare. A05 semnează posibilitatea operației fizice. A08 regăsește ambele fișe din catalog și materialele de canal.",
+      "negativ_si_recuperare": "BOM ciclic sau alias ambiguu blochează publicarea. Revenirea la versiunea anterioară nu schimbă comenzile istorice.",
+      "ancore": [
+        "mapping",
+        "bom",
+        "catalog",
+        "channel"
+      ],
+      "stare": "NEEXECUTAT",
+      "probe_necesare": [
+        "fixture și moment UTC",
+        "captură UI cu rol și traseu",
+        "apel autorizat în cabinet test și correlation ID",
+        "înainte/după din aceeași tranzacție și sesiune distinctă după commit",
+        "erori și rezultatul reîncercării"
+      ],
+      "inchidere": "Semnăturile ambilor responsabili la handoff, fără cereri orfane. Variantele inaccesibile se marchează BLOCAT."
+    },
+    {
+      "id": "A06-P2",
+      "titlu": "Calcul disponibil comun și rezervare",
+      "interfete": "A05→A06→A08→A05",
+      "controale": [
+        "A06-C05",
+        "A06-C06",
+        "A06-C07",
+        "A06-C08",
+        "A06-C09",
+        "A06-C10",
+        "A06-C32"
+      ],
+      "traseu": "A05 transmite cantități eligibile și politicile de combinare pe depozite. ERP calculează alternativele și comunică proiecțiile canalelor. Două sesiuni angajează simultan componente comuna.",
+      "corelare": "Cheie client/organizație/eligibilitate sursă/produs/ASI când e cazul. Explică unitatea și factorul BOM, bugetul economic unic, de la afișare la commit.",
+      "predare_si_acceptare": "A05 reconciliază stocul fizic și cantitățile predate. A08 prezintă oferta fără sumarea G1+G2. A02 validează izolarea, ordinea lacătelor și rollback.",
+      "negativ_si_recuperare": "Abandonează tranzacția după primul component. Niciun angajament parțial. Valorile noi sunt verificabile din sesiune independentă.",
+      "ancore": [
+        "set",
+        "lock",
+        "reserve",
+        "rules"
+      ],
+      "stare": "NEEXECUTAT",
+      "probe_necesare": [
+        "fixture și moment UTC",
+        "captură UI cu rol și traseu",
+        "apel autorizat în cabinet test și correlation ID",
+        "înainte/după din aceeași tranzacție și sesiune distinctă după commit",
+        "erori și rezultatul reîncercării"
+      ],
+      "inchidere": "Semnăturile ambilor responsabili la handoff, fără cereri orfane. Variantele inaccesibile se marchează BLOCAT."
+    },
+    {
+      "id": "A06-P3",
+      "titlu": "Ofertare, preț și termeni",
+      "interfete": "A06↔A03/A08",
+      "controale": [
+        "A06-C14",
+        "A06-C15",
+        "A06-C16",
+        "A06-C17",
+        "A06-C29"
+      ],
+      "traseu": "B2B și B2C folosesc lista, moneda, taxă, unitate, grup, dată comercială și condiții ale clientului. A08 afișează oferta. ERP păstrează preț și regulă folosite.",
+      "corelare": "Leagă ofertă la comandă și document prin M_Product_ID, preț/UM, cantități, taxă, curs și versiune. Recalculează manual la precizia valutei.",
+      "predare_si_acceptare": "A03 primește totalurile și documentele cu taxe. A08 reproduce valoarea afișată, inclusiv promoția și explicarea refuzului.",
+      "negativ_si_recuperare": "După expirarea listei sau prag depășit cere corectare și reofertare. Păstrează excepțiile aprobate și identitatea aprobatorului.",
+      "ancore": [
+        "price",
+        "catalog",
+        "gen",
+        "b2b"
+      ],
+      "stare": "NEEXECUTAT",
+      "probe_necesare": [
+        "fixture și moment UTC",
+        "captură UI cu rol și traseu",
+        "apel autorizat în cabinet test și correlation ID",
+        "înainte/după din aceeași tranzacție și sesiune distinctă după commit",
+        "erori și rezultatul reîncercării"
+      ],
+      "inchidere": "Semnăturile ambilor responsabili la handoff, fără cereri orfane. Variantele inaccesibile se marchează BLOCAT."
+    },
+    {
+      "id": "A06-P4",
+      "titlu": "Acceptare comandă și administrare doar în ERP",
+      "interfete": "A08→A06→A05/A07",
+      "controale": [
+        "A06-C18",
+        "A06-C19",
+        "A06-C20",
+        "A06-C21",
+        "A06-C22",
+        "A06-C31"
+      ],
+      "traseu": "Plasare în canal sau import fixture platformă, validare firmă și canal, identificare partener, normalizare cerere, rezervare, trimitere în coada gestionarului și predare WMS.",
+      "corelare": "ID extern/canal/firmă→cerere→C_Order_ID și C_OrderLine_ID→referință preluare și pick. Confruntă acțiunile UI cu permisiunile efective pe server.",
+      "predare_si_acceptare": "A05 acceptă linii rezervate și locatori după dezasamblare, A07 acceptă avizul livrabil după confirmarea din ERP. A01 verifică refuzul administrării din site.",
+      "negativ_si_recuperare": "Dublu clic, timeout după commit, revendicare simultană, split și lipsă stoc. Reintrarea folosește cheia inițială și păstrează restanța.",
+      "ancore": [
+        "web",
+        "order",
+        "form",
+        "gen",
+        "portal",
+        "rep"
+      ],
+      "stare": "NEEXECUTAT",
+      "probe_necesare": [
+        "fixture și moment UTC",
+        "captură UI cu rol și traseu",
+        "apel autorizat în cabinet test și correlation ID",
+        "înainte/după din aceeași tranzacție și sesiune distinctă după commit",
+        "erori și rezultatul reîncercării"
+      ],
+      "inchidere": "Semnăturile ambilor responsabili la handoff, fără cereri orfane. Variantele inaccesibile se marchează BLOCAT."
+    },
+    {
+      "id": "A06-P5",
+      "titlu": "Anulare, modificare și reconciliere",
+      "interfete": "A06↔A05/A07/A03",
+      "controale": [
+        "A06-C10",
+        "A06-C11",
+        "A06-C21",
+        "A06-C27"
+      ],
+      "traseu": "Gestionează anulări înainte de pick, comenzi modificate după rezervare și excepții după aviz/factură. Nu trata anularea documentului de livrare ca simplă eliberare a cererii.",
+      "corelare": "Eveniment extern cu versiune → stare intermediară → C_OrderLine → rezervare → M_InOutLine → C_InvoiceLine dacă există. Probează suma eliberată și soldul.",
+      "predare_si_acceptare": "A05 atestă starea fizică. A07 semnează decizia privind aviz, expediere, retur și plată. A03 reconciliază eventualul efect contabil.",
+      "negativ_si_recuperare": "Mesaj vechi sosit după cel nou și returnări repetate. Nu creează al doilea retur automat și nici rezervări negative.",
+      "ancore": [
+        "hist",
+        "form",
+        "reserve",
+        "gen"
+      ],
+      "stare": "NEEXECUTAT",
+      "probe_necesare": [
+        "fixture și moment UTC",
+        "captură UI cu rol și traseu",
+        "apel autorizat în cabinet test și correlation ID",
+        "înainte/după din aceeași tranzacție și sesiune distinctă după commit",
+        "erori și rezultatul reîncercării"
+      ],
+      "inchidere": "Semnăturile ambilor responsabili la handoff, fără cereri orfane. Variantele inaccesibile se marchează BLOCAT."
+    },
+    {
+      "id": "A06-P6",
+      "titlu": "CRM, comisionari și situații proprii",
+      "interfete": "A01/A08→A06→A03/A07",
+      "controale": [
+        "A06-C23",
+        "A06-C24",
+        "A06-C25",
+        "A06-C26",
+        "A06-C30"
+      ],
+      "traseu": "Responsabilul configurează partener/contact/canal/comisionar și drepturi. Comisionarul plasează din site, ERP atribuie sursa și calculează eligibilitatea comercială, apoi afișează situațiile proprii.",
+      "corelare": "C_BPartner/AD_User/campanie→C_Order→C_InvoiceLine→bază eligibilă și run comision→raport pe monedă. Fixează baza din contract și data evenimentului.",
+      "predare_si_acceptare": "A01 semnează filtrarea per comisionar în API, listă și export. A07 predă decont sau retur cu documentele originale. A03 verifică înregistrarea economică o dată.",
+      "negativ_si_recuperare": "Acces alt canal, retragere consimțământ, stornare parțială sau rerulare de comision. Raport fără dedublare falsă ori scurgere de date.",
+      "ancore": [
+        "report",
+        "b2b",
+        "sales",
+        "hist"
+      ],
+      "stare": "NEEXECUTAT",
+      "probe_necesare": [
+        "fixture și moment UTC",
+        "captură UI cu rol și traseu",
+        "apel autorizat în cabinet test și correlation ID",
+        "înainte/după din aceeași tranzacție și sesiune distinctă după commit",
+        "erori și rezultatul reîncercării"
+      ],
+      "inchidere": "Semnăturile ambilor responsabili la handoff, fără cereri orfane. Variantele inaccesibile se marchează BLOCAT."
+    },
+    {
+      "id": "A06-P7",
+      "titlu": "Operarea și urmărirea erorilor în ERP",
+      "interfete": "A06↔A09/A10",
+      "controale": [
+        "A06-C12",
+        "A06-C13",
+        "A06-C19",
+        "A06-C24",
+        "A06-C27",
+        "A06-C28",
+        "A06-C29",
+        "A06-C32"
+      ],
+      "traseu": "Operatorul caută comanda din meniul de vânzări, examinează sursa și starea, corectează prin acțiune autorizată și urmărește progresul până la handoff.",
+      "corelare": "Leagă AD_Menu/formă/proces de evenimentul efectiv și identificatorul de comandă. Măsoară paginarea, conflictul, mesajul și ieșirea din starea de eroare.",
+      "predare_si_acceptare": "A09 validează accesibilitatea, navigarea și meniurile. A10 urmărește observabilitate și reîncercare. Captură fără date personale și fără apeluri externe.",
+      "negativ_si_recuperare": "Buton invizibil pentru rol greșit, POST construit manual de actor fără rol și operație reluată după restart. După conflict, operatorul vede datele curente.",
+      "ancore": [
+        "form",
+        "catalog",
+        "sales",
+        "portal",
+        "rep"
+      ],
+      "stare": "NEEXECUTAT",
+      "probe_necesare": [
+        "fixture și moment UTC",
+        "captură UI cu rol și traseu",
+        "apel autorizat în cabinet test și correlation ID",
+        "înainte/după din aceeași tranzacție și sesiune distinctă după commit",
+        "erori și rezultatul reîncercării"
+      ],
+      "inchidere": "Semnăturile ambilor responsabili la handoff, fără cereri orfane. Variantele inaccesibile se marchează BLOCAT."
+    }
+  ],
+  "controale": [
+    {
+      "id": "A06-C01",
+      "titlu": "Catalog",
+      "actiune": "Creează în cabinetul test P1 CPP și P1 CPA cu aceeași denumire comercială și SKU extern. Deschide ambele fișe din căutare.",
+      "rezultat_masurabil": "Două M_Product_ID, două coduri interne diferite. Selectarea liniei CPA regăsește numai CPA în comandă.",
+      "caz_negativ": "Înlocuiește aliasul SKU și repetă căutarea. Niciun ID intern nu se unește.",
+      "tabele_sau_contracte_candidate": "M_Product, aliasul canalului, AD_Sequence",
+      "ancore": [
+        "mapping",
+        "list"
+      ],
+      "pipeline": [
+        "A06-P1"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Catalog», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Două M_Product_ID, două coduri interne diferite. Selectarea liniei CPA regăsește numai CPA în comandă.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_Product, aliasul canalului, AD_Sequence. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_Product, aliasul canalului, AD_Sequence, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C02",
+      "titlu": "Coduri nereutilizabile",
+      "actiune": "Inactivează P1 CPA, înregistrează alias nou, încearcă să aloci exact vechiul cod altui produs în aceeași firmă și apoi în altă firmă.",
+      "rezultat_masurabil": "Identitatea originală rămâne referibilă istoric. Domeniul de unicitate global cerut este demonstrat inclusiv între cabinete sau consemnat drept lipsă. Zero reatribuiri.",
+      "caz_negativ": "Import concurent a două fișe cu același cod și restaurarea unei arhive vechi. Verifică inclusiv import, API și clone izolate.",
+      "tabele_sau_contracte_candidate": "M_Product, AD_Sequence, restricții DB/AD, registru istoric dacă există",
+      "ancore": [
+        "mapping",
+        "channel"
+      ],
+      "pipeline": [
+        "A06-P1"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Coduri nereutilizabile», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Identitatea originală rămâne referibilă istoric. Domeniul de unicitate global cerut este demonstrat inclusiv între cabinete sau consemnat drept lipsă. Zero reatribuiri.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_Product, AD_Sequence, restricții DB/AD, registru istoric dacă există. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_Product, AD_Sequence, restricții DB/AD, registru istoric dacă există, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C03",
+      "titlu": "Rețetă și identitate",
+      "actiune": "Configurează o unitate P1 CPA = un P1 CPP + un ambalaj + 0,5 ore. Separă rețeta cu efect operațional de articolul disponibil G3.",
+      "rezultat_masurabil": "Selectarea CPA arată codul, ambalajul și timpul. Comanda consumă drept de vânzare numai o dată. Este vizibilă legătura cu operația G2.",
+      "caz_negativ": "Set cumpărat integral în CPP versus set alcătuit numai pentru vânzare. Schimbul celor două identități trebuie respins.",
+      "tabele_sau_contracte_candidate": "M_Product, PP_Product_BOM, PP_Product_BOMLine, identificatori G1/G2",
+      "ancore": [
+        "bom",
+        "explode"
+      ],
+      "pipeline": [
+        "A06-P1"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Rețetă și identitate», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Selectarea CPA arată codul, ambalajul și timpul. Comanda consumă drept de vânzare numai o dată. Este vizibilă legătura cu operația G2.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_Product, PP_Product_BOM, PP_Product_BOMLine, identificatori G1/G2. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_Product, PP_Product_BOM, PP_Product_BOMLine, identificatori G1/G2, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C04",
+      "titlu": "Versiune rețetă",
+      "actiune": "Înregistrează două versiuni de rețetă cu date de valabilitate diferite. Confirmă o comandă înainte și una după schimbare.",
+      "rezultat_masurabil": "Comanda veche poate fi refăcută la versiunea folosită. Noua comandă folosește rețeta valabilă. Nicio schimbare retroactivă a angajamentelor.",
+      "caz_negativ": "Ciclu, componentă din alt client, rețetă ambiguă, coeficient nul sau unitate neconvertibilă. Respinge înainte de ofertare.",
+      "tabele_sau_contracte_candidate": "PP_Product_BOM, PP_Product_BOMLine, C_UOM_Conversion, referință versiune",
+      "ancore": [
+        "bom",
+        "set"
+      ],
+      "pipeline": [
+        "A06-P1"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Versiune rețetă», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Comanda veche poate fi refăcută la versiunea folosită. Noua comandă folosește rețeta valabilă. Nicio schimbare retroactivă a angajamentelor.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru PP_Product_BOM, PP_Product_BOMLine, C_UOM_Conversion, referință versiune. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru PP_Product_BOM, PP_Product_BOMLine, C_UOM_Conversion, referință versiune, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C05",
+      "titlu": "G3 alternative",
+      "actiune": "Publică fără vânzare P1/P2/P3 cu 120 bucăți eligibile fiecare. Configurează S1=6/6/6 și S2=3/3/3.",
+      "rezultat_masurabil": "Oferta arată 120 pe fiecare piesă, 20 S1, 40 S2. Sunt posibilități alternative. Publicarea adaugă zero M_Transaction și zero Fact_Acct.",
+      "caz_negativ": "Repetă cu P2 negativ literal, indisponibil sau absent. Ambele seturi au disponibil zero. Ambiguitatea liniuței din exemplul inițial e vizibilă.",
+      "tabele_sau_contracte_candidate": "M_StorageOnHand, PP_Product_BOMLine, M_Transaction, Fact_Acct",
+      "ancore": [
+        "set",
+        "reserve",
+        "rules"
+      ],
+      "pipeline": [
+        "A06-P2"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «G3 alternative», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Oferta arată 120 pe fiecare piesă, 20 S1, 40 S2. Sunt posibilități alternative. Publicarea adaugă zero M_Transaction și zero Fact_Acct.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_StorageOnHand, PP_Product_BOMLine, M_Transaction, Fact_Acct. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_StorageOnHand, PP_Product_BOMLine, M_Transaction, Fact_Acct, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C06",
+      "titlu": "Combinație mixtă",
+      "actiune": "Angajează 3 S1, 4 S2 și 7 P1 pe un canal. Recalculează oferta în toate canalele eligibile.",
+      "rezultat_masurabil": "Rămân P1=83, P2=90, P3=90. Maximul alternativ este 13 S1 sau 27 S2. G1 fizic rămâne neschimbat până la evenimentul de ieșire.",
+      "caz_negativ": "Solicită încă 14 S1 sau 28 S2. Nu se acceptă totalul imposibil, nu rămâne angajament parțial accidental.",
+      "tabele_sau_contracte_candidate": "M_StorageReservation, identificator angajament EVA, M_StorageOnHand",
+      "ancore": [
+        "set",
+        "reserve",
+        "lock"
+      ],
+      "pipeline": [
+        "A06-P2"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Combinație mixtă», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Rămân P1=83, P2=90, P3=90. Maximul alternativ este 13 S1 sau 27 S2. G1 fizic rămâne neschimbat până la evenimentul de ieșire.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_StorageReservation, identificator angajament EVA, M_StorageOnHand. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_StorageReservation, identificator angajament EVA, M_StorageOnHand, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C07",
+      "titlu": "Concurență între canale",
+      "actiune": "Cu 6 unități din fiecare, pornește simultan comanda A pentru 1 S1 și B pentru 2 S2 din două sesiuni sincronizate. Repetă cu intrarea inversă.",
+      "rezultat_masurabil": "O singură combinație acceptată și o singură rezervare economică. Suma angajamentelor pe orice componentă nu depășește 6.",
+      "caz_negativ": "Oprește tranzacția câștigătoare înainte de commit. A doua poate reîncerca. Nicio rezervă orfană sau blocare permanentă.",
+      "tabele_sau_contracte_candidate": "M_StorageReservation, starea tranzacției separate, identificatori ai cererilor",
+      "ancore": [
+        "lock",
+        "reserve",
+        "order"
+      ],
+      "pipeline": [
+        "A06-P2"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Concurență între canale», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: O singură combinație acceptată și o singură rezervare economică. Suma angajamentelor pe orice componentă nu depășește 6.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_StorageReservation, starea tranzacției separate, identificatori ai cererilor. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_StorageReservation, starea tranzacției separate, identificatori ai cererilor, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C08",
+      "titlu": "G1 multiple și G2",
+      "actiune": "Separă P1/P2/P3 între două G1 eligibile și două G2 care reprezintă aceleași bunuri. Specifică dacă livrarea permite combinarea surselor.",
+      "rezultat_masurabil": "Dacă politica admite transfer, agregă doar G1 eligibile, cu plan fezabil de livrare. Dacă o singură origine este obligatorie, disponibilul se calculează pe origini fezabile. G2 nu dublează nicio cantitate.",
+      "caz_negativ": "P1 numai în G1.1 și P2/P3 numai în G1.2 cu transfer dezactivat. Nu promite o combinație imposibilă.",
+      "tabele_sau_contracte_candidate": "M_Warehouse, M_Locator, M_StorageOnHand, AD_Org_ID, eligibilitate sursă",
+      "ancore": [
+        "reserve",
+        "rules",
+        "set"
+      ],
+      "pipeline": [
+        "A06-P2"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «G1 multiple și G2», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Dacă politica admite transfer, agregă doar G1 eligibile, cu plan fezabil de livrare. Dacă o singură origine este obligatorie, disponibilul se calculează pe origini fezabile. G2 nu dublează nicio cantitate.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_Warehouse, M_Locator, M_StorageOnHand, AD_Org_ID, eligibilitate sursă. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_Warehouse, M_Locator, M_StorageOnHand, AD_Org_ID, eligibilitate sursă, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C09",
+      "titlu": "Restricții de ofertă",
+      "actiune": "Aplică în ordine rezerva de siguranță, plafonul canalului și rotunjirea la multiplu. Compară explicația în UI cu calculul pe hârtie.",
+      "rezultat_masurabil": "Cu 10 bucăți, rezervă 2, plafon 7, multiplu 3, conform ordinii stabilite în fixture rezultă 6. Afișează politica și valoarea restantă.",
+      "caz_negativ": "Suprascriere peste limita fizică, cotă negativă ori limită expirată. Separă explicit precomanda de disponibil garantat.",
+      "tabele_sau_contracte_candidate": "M_StorageReservation, EVA_CanalVanzare, reguli configurabile ale sursei",
+      "ancore": [
+        "rules",
+        "catalog"
+      ],
+      "pipeline": [
+        "A06-P2"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Restricții de ofertă», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Cu 10 bucăți, rezervă 2, plafon 7, multiplu 3, conform ordinii stabilite în fixture rezultă 6. Afișează politica și valoarea restantă.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_StorageReservation, EVA_CanalVanzare, reguli configurabile ale sursei. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_StorageReservation, EVA_CanalVanzare, reguli configurabile ale sursei, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C10",
+      "titlu": "Transfer angajament ERP",
+      "actiune": "Urmărește aceeași rezervare de la cererea de canal la C_OrderLine, inclusiv când ERP creează rezervarea nativă.",
+      "rezultat_masurabil": "Până la ieșire, angajamentul economic al liniei este numărat exact o dată. La tranziție, disponibilul nu oscilează între 0 și stoc complet.",
+      "caz_negativ": "Retry, eșec după transfer în rezervarea nativă și înainte de confirmare. Identificatorii permit reconstruirea proprietarului rezervării.",
+      "tabele_sau_contracte_candidate": "EVA_ComandaSiteLinie, C_OrderLine, M_StorageReservation",
+      "ancore": [
+        "reserve",
+        "gen",
+        "hist"
+      ],
+      "pipeline": [
+        "A06-P2",
+        "A06-P5"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Transfer angajament ERP», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Până la ieșire, angajamentul economic al liniei este numărat exact o dată. La tranziție, disponibilul nu oscilează între 0 și stoc complet.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru EVA_ComandaSiteLinie, C_OrderLine, M_StorageReservation. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru EVA_ComandaSiteLinie, C_OrderLine, M_StorageReservation, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C11",
+      "titlu": "Anulare și expirare",
+      "actiune": "Anulează în ERP o cerere înainte de pick, apoi repetă anularea. Creează separat o cerere expirată și procesează aceeași expirare de două ori.",
+      "rezultat_masurabil": "Eliberarea egală cu angajamentul inițial are loc o dată. Istoricul separă expirarea, anularea, persoana și timpul. Alte comenzi nu sunt afectate.",
+      "caz_negativ": "După aviz CO respinge eliberarea prematură și predă la A07 pentru reconciliere fizică. Concurență anulare/pick nu generează stoc fictiv.",
+      "tabele_sau_contracte_candidate": "C_Order, C_OrderLine, M_InOut, M_StorageReservation, stare cerere",
+      "ancore": [
+        "reserve",
+        "hist",
+        "form"
+      ],
+      "pipeline": [
+        "A06-P5"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Anulare și expirare», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Eliberarea egală cu angajamentul inițial are loc o dată. Istoricul separă expirarea, anularea, persoana și timpul. Alte comenzi nu sunt afectate.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_Order, C_OrderLine, M_InOut, M_StorageReservation, stare cerere. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_Order, C_OrderLine, M_InOut, M_StorageReservation, stare cerere, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C12",
+      "titlu": "Conversii per canal",
+      "actiune": "Configurează separat nume, descriere, SKU, EAN, variantă, limbă, unitate, categorie, preț și sursa valorii pentru două canale ale aceluiași articol.",
+      "rezultat_masurabil": "Pagina și cererea rezolvă ID intern corect și valorile canalului propriu. Revenirea la implicit produce valoarea nativă. Celălalt canal rămâne la valorile sale.",
+      "caz_negativ": "Alias ambiguu sau expirat, SKU identic în alt canal, caractere de escape și câmp absent. Arată exact eroarea și acțiunea de corectare.",
+      "tabele_sau_contracte_candidate": "M_Product, M_AttributeSetInstance, dicționar de conversie, jurnal modificări",
+      "ancore": [
+        "mapping",
+        "catalog",
+        "channel"
+      ],
+      "pipeline": [
+        "A06-P1",
+        "A06-P7"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Conversii per canal», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Pagina și cererea rezolvă ID intern corect și valorile canalului propriu. Revenirea la implicit produce valoarea nativă. Celălalt canal rămâne la valorile sale.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_Product, M_AttributeSetInstance, dicționar de conversie, jurnal modificări. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_Product, M_AttributeSetInstance, dicționar de conversie, jurnal modificări, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C13",
+      "titlu": "SKU extern schimbat",
+      "actiune": "Prinde o comandă pe SKU vechi înainte ca responsabilul să schimbe maparea. Reprocesează evenimentul după schimbare.",
+      "rezultat_masurabil": "Linia istorică păstrează identitatea și mappingul de comandă. Linia nouă folosește maparea activă. Nu se schimbă în tăcere produsul vechi.",
+      "caz_negativ": "Ștergere/inactivare mapare, două editări suprapuse. Conflict vizibil înainte de salvare.",
+      "tabele_sau_contracte_candidate": "EVA_ComandaSiteLinie, M_Product, versiune mapare",
+      "ancore": [
+        "mapping",
+        "hist"
+      ],
+      "pipeline": [
+        "A06-P1",
+        "A06-P7"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «SKU extern schimbat», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Linia istorică păstrează identitatea și mappingul de comandă. Linia nouă folosește maparea activă. Nu se schimbă în tăcere produsul vechi.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru EVA_ComandaSiteLinie, M_Product, versiune mapare. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru EVA_ComandaSiteLinie, M_Product, versiune mapare, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C14",
+      "titlu": "UM și rotunjiri",
+      "actiune": "Vinde două baxuri de câte 6 bucăți fără să confunzi unitatea de preț cu unitatea de stoc. Verifică separat un set cu identitate CPA.",
+      "rezultat_masurabil": "QtyEntered=2 baxuri, efect economic=12 bucăți la factor 6. Identitatea setului rămâne distinctă de conversia UM.",
+      "caz_negativ": "1/3 dintr-un bax de bun indivizibil sau factor lipsă. Nu trunchia fără mesaj și fără politica explicită.",
+      "tabele_sau_contracte_candidate": "C_UOM, C_UOM_Conversion, C_OrderLine, M_PriceList",
+      "ancore": [
+        "explode",
+        "price"
+      ],
+      "pipeline": [
+        "A06-P3"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «UM și rotunjiri», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: QtyEntered=2 baxuri, efect economic=12 bucăți la factor 6. Identitatea setului rămâne distinctă de conversia UM.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_UOM, C_UOM_Conversion, C_OrderLine, M_PriceList. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_UOM, C_UOM_Conversion, C_OrderLine, M_PriceList, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C15",
+      "titlu": "Preț și monedă",
+      "actiune": "Aplică două liste cu versiuni înainte/după data comenzii. Verifică B2B fără TVA inclus și B2C cu TVA inclus. Compară sursa prețului la ofertă și în ERP.",
+      "rezultat_masurabil": "O singură versiune aplicabilă la data comercială, moneda acelei liste și totalul calculat după precizia documentului, concordante între ecran și comandă.",
+      "caz_negativ": "Listă din alt client, versiune viitoare și lipsa cursului. Refuz explicit sau conversie trasabilă conform politicii.",
+      "tabele_sau_contracte_candidate": "M_PriceList, M_PriceList_Version, M_ProductPrice, C_Currency, C_Conversion_Rate",
+      "ancore": [
+        "price",
+        "gen",
+        "b2b"
+      ],
+      "pipeline": [
+        "A06-P3"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Preț și monedă», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: O singură versiune aplicabilă la data comercială, moneda acelei liste și totalul calculat după precizia documentului, concordante între ecran și comandă.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_PriceList, M_PriceList_Version, M_ProductPrice, C_Currency, C_Conversion_Rate. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_PriceList, M_PriceList_Version, M_ProductPrice, C_Currency, C_Conversion_Rate, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C16",
+      "titlu": "Promoții și credit",
+      "actiune": "Exercită în scenarii distincte pragul de cantitate, promoția cu dată-limită, prioritatea discounturilor, limita de credit B2B și acceptarea excepției de către rol competent.",
+      "rezultat_masurabil": "Preț efectiv explicabil prin regula nativă activă, o singură aplicare a reducerii și total reproducibil. Politica aprobării lasă rol și motiv.",
+      "caz_negativ": "Două reguli suprapuse, client B2C care cere termeni B2B și credit depășit simultan prin două comenzi. Refuz sau trimitere la aprobare conform setării.",
+      "tabele_sau_contracte_candidate": "M_DiscountSchema, C_BP_Group, C_BPartner, C_PaymentTerm, C_OrderLine",
+      "ancore": [
+        "price",
+        "b2b",
+        "channel"
+      ],
+      "pipeline": [
+        "A06-P3"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Promoții și credit», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Preț efectiv explicabil prin regula nativă activă, o singură aplicare a reducerii și total reproducibil. Politica aprobării lasă rol și motiv.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_DiscountSchema, C_BP_Group, C_BPartner, C_PaymentTerm, C_OrderLine. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_DiscountSchema, C_BP_Group, C_BPartner, C_PaymentTerm, C_OrderLine, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C17",
+      "titlu": "Total, TVA și finanțe",
+      "actiune": "Pe un document test cu două linii inclusiv discount/transport, urmărește prețul net, taxa, totalul și repartizarea la aviz/factură.",
+      "rezultat_masurabil": "Diferența între totalul canalului și documentul ERP este 0 la precizia valutei sau apare motivul de reconciliere. Corectează prin documentul prevăzut, nu prin alterarea istoricului.",
+      "caz_negativ": "Cotă lipsă, rotunjire pe grup față de linie, livrare parțială și retur. A03 confirmă tratamentul fiscal aplicabil în fixture.",
+      "tabele_sau_contracte_candidate": "C_OrderTax, C_Tax, C_InvoiceTax, C_Order, C_Invoice, Fact_Acct",
+      "ancore": [
+        "gen",
+        "order",
+        "report"
+      ],
+      "pipeline": [
+        "A06-P3"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Total, TVA și finanțe», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Diferența între totalul canalului și documentul ERP este 0 la precizia valutei sau apare motivul de reconciliere. Corectează prin documentul prevăzut, nu prin alterarea istoricului.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_OrderTax, C_Tax, C_InvoiceTax, C_Order, C_Invoice, Fact_Acct. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_OrderTax, C_Tax, C_InvoiceTax, C_Order, C_Invoice, Fact_Acct, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C18",
+      "titlu": "Idempotenta intrării",
+      "actiune": "Introdu o comandă autorizată din canal în test, dublează notificarea în paralel, apoi simulează pierderea răspunsului după commit și reîncearcă.",
+      "rezultat_masurabil": "O singură comandă logică per cabinet/firmă/canal/identitate externă. Răspunsul repetat indică aceeași referință. O singură rezervare.",
+      "caz_negativ": "Același ID extern în două canale este valid ca două comenzi. Aceeași cheie cu conținut diferit intră în rezolvare controlată.",
+      "tabele_sau_contracte_candidate": "EVA_ComandaSite, C_Order, C_OrderLine, cheie de deduplicare, jurnal",
+      "ancore": [
+        "web",
+        "order",
+        "hist"
+      ],
+      "pipeline": [
+        "A06-P4"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Idempotenta intrării», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: O singură comandă logică per cabinet/firmă/canal/identitate externă. Răspunsul repetat indică aceeași referință. O singură rezervare.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru EVA_ComandaSite, C_Order, C_OrderLine, cheie de deduplicare, jurnal. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru EVA_ComandaSite, C_Order, C_OrderLine, cheie de deduplicare, jurnal, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C19",
+      "titlu": "Administrarea în ERP",
+      "actiune": "Comisionarul plasează pe site, gestionarul revendică în ERP și verifică disponibilul, apoi predă către pick. Urmărește acțiunile permise fiecărui rol.",
+      "rezultat_masurabil": "Clientul vede referința și starea permisă. Numai ERP permite administrarea/pick/aviz/validare. Identitatea responsabilului se păstrează.",
+      "caz_negativ": "Încearcă din site operații administrative directe și din ERP cu rol de comisionar. Refuz și zero modificări la document.",
+      "tabele_sau_contracte_candidate": "AD_Role, C_Order, C_OrderLine, istoricul schimbării, tranziție A05/A07",
+      "ancore": [
+        "web",
+        "form",
+        "portal",
+        "rep"
+      ],
+      "pipeline": [
+        "A06-P4",
+        "A06-P7"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Administrarea în ERP», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Clientul vede referința și starea permisă. Numai ERP permite administrarea/pick/aviz/validare. Identitatea responsabilului se păstrează.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru AD_Role, C_Order, C_OrderLine, istoricul schimbării, tranziție A05/A07. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru AD_Role, C_Order, C_OrderLine, istoricul schimbării, tranziție A05/A07, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C20",
+      "titlu": "Revendicare concurentă",
+      "actiune": "Doi gestionari autorizați revendică simultan aceeași comandă în ERP. Apoi încearcă să predea aceleași linii către două liste de pick.",
+      "rezultat_masurabil": "Un singur gestionar titular pentru acea etapă, un singur handoff per linie. Al doilea vede numele/starea în limitele rolului și poate reîncărca.",
+      "caz_negativ": "Pierderea sesiunii înainte de commit și revocarea dreptului între selectare și salvare. Nicio listă activă duplicată.",
+      "tabele_sau_contracte_candidate": "C_Order, C_OrderLine, stare lucru, M_InOutLine",
+      "ancore": [
+        "form",
+        "order",
+        "gen"
+      ],
+      "pipeline": [
+        "A06-P4"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Revendicare concurentă», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Un singur gestionar titular pentru acea etapă, un singur handoff per linie. Al doilea vede numele/starea în limitele rolului și poate reîncărca.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_Order, C_OrderLine, stare lucru, M_InOutLine. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_Order, C_OrderLine, stare lucru, M_InOutLine, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C21",
+      "titlu": "Lipsă și livrare parțială",
+      "actiune": "Pe o comandă de 10 solicită livrarea a 6 cu 4 restante, apoi repetă evenimentul de disponibilitate în alte canale.",
+      "rezultat_masurabil": "Livrat+restant+anulat reconciliază exact 10. Angajamentul celor 4 rămâne conform politicii. Expedierea comunică A07 liniile și cantitățile.",
+      "caz_negativ": "Refuz client la split sau regula completă obligatorie. Nicio cantitate expediată/rezervată de două ori.",
+      "tabele_sau_contracte_candidate": "C_OrderLine, M_InOutLine, M_StorageReservation, DeliveryRule",
+      "ancore": [
+        "gen",
+        "reserve",
+        "form"
+      ],
+      "pipeline": [
+        "A06-P4",
+        "A06-P5"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Lipsă și livrare parțială», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Livrat+restant+anulat reconciliază exact 10. Angajamentul celor 4 rămâne conform politicii. Expedierea comunică A07 liniile și cantitățile.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_OrderLine, M_InOutLine, M_StorageReservation, DeliveryRule. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_OrderLine, M_InOutLine, M_StorageReservation, DeliveryRule, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C22",
+      "titlu": "G2 integral în S1",
+      "actiune": "Pentru comandă cu piese individuale toate ambalate în S1 solicită din ERP operația de dezasamblare, apoi transferul pieselor în noii locatori înainte de pick.",
+      "rezultat_masurabil": "A05 întoarce operație/locatori/linii confirmate. Pick devine permis doar pentru cantitățile eliberate. Cererea G3 rămâne angajată până la handoff.",
+      "caz_negativ": "Eroare după desfacere sau înregistrare dublă de manoperă/ambalaj. Creditează operația reală în G1 o dată în colaborare cu A03.",
+      "tabele_sau_contracte_candidate": "M_Warehouse, M_Locator, document G2, M_InOutLine, Fact_Acct",
+      "ancore": [
+        "reserve",
+        "form",
+        "gen"
+      ],
+      "pipeline": [
+        "A06-P4"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «G2 integral în S1», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: A05 întoarce operație/locatori/linii confirmate. Pick devine permis doar pentru cantitățile eliberate. Cererea G3 rămâne angajată până la handoff.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_Warehouse, M_Locator, document G2, M_InOutLine, Fact_Acct. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_Warehouse, M_Locator, document G2, M_InOutLine, Fact_Acct, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C23",
+      "titlu": "Oportunitate și atribuire",
+      "actiune": "În cabinetul izolat creează partener, contact și oportunitate. Convertește în ofertă/comandă cu canal și comisionar atribuiți.",
+      "rezultat_masurabil": "Un lanț trasabil de la oportunitate la comandă, fără a dubla partenerul. Discountul și condițiile comerciale provin din sursa selectată.",
+      "caz_negativ": "Contact cu același e-mail în altă firmă și preluarea oportunității altui comisionar. Nu expune date sau atribuire străină.",
+      "tabele_sau_contracte_candidate": "C_BPartner, C_BPartner_Location, AD_User, C_Opportunity, C_Order, SalesRep_ID",
+      "ancore": [
+        "b2b",
+        "gen",
+        "report"
+      ],
+      "pipeline": [
+        "A06-P6"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Oportunitate și atribuire», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Un lanț trasabil de la oportunitate la comandă, fără a dubla partenerul. Discountul și condițiile comerciale provin din sursa selectată.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_BPartner, C_BPartner_Location, AD_User, C_Opportunity, C_Order, SalesRep_ID. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_BPartner, C_BPartner_Location, AD_User, C_Opportunity, C_Order, SalesRep_ID, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C24",
+      "titlu": "Comisionari proprii",
+      "actiune": "Doi comisionari pe același canal și unul pe alt canal solicită listă, detaliu și situații proprii de vânzare. Modifică ID-ul canalului în test.",
+      "rezultat_masurabil": "Comisionarul vede numai comenzile, liniile, sumele și comisioanele proprii aprobate pe canalul autorizat. Totalul listei se reproduce din înregistrările permise.",
+      "caz_negativ": "Rută CUI/slug și identificatori ai unui comisionar sau firme străine. Nicio existență inferată prin export/total/paginare.",
+      "tabele_sau_contracte_candidate": "AD_User, AD_Role, C_BPartner, SalesRep_ID, C_Campaign, C_Order",
+      "ancore": [
+        "sales",
+        "report",
+        "channel"
+      ],
+      "pipeline": [
+        "A06-P6",
+        "A06-P7"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Comisionari proprii», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Comisionarul vede numai comenzile, liniile, sumele și comisioanele proprii aprobate pe canalul autorizat. Totalul listei se reproduce din înregistrările permise.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru AD_User, AD_Role, C_BPartner, SalesRep_ID, C_Campaign, C_Order. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru AD_User, AD_Role, C_BPartner, SalesRep_ID, C_Campaign, C_Order, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C25",
+      "titlu": "Comision și retur",
+      "actiune": "Înregistrează regula de comision cu bază și moment explicit. Testează vânzare, livrare parțială, retur parțial și reimport duplicat.",
+      "rezultat_masurabil": "Jurnalul păstrează baza brut/netă, moneda, rata, cine primește și ajustarea. Totalul comisionului egal cu suma pozițiilor eligibile după retur. Evenimentul repetat are delta zero.",
+      "caz_negativ": "Comision al platformei vs comision al agentului vs cost de transport. Nu amesteca bazele sau monedele. În lipsa politicii marchează BLOCAT.",
+      "tabele_sau_contracte_candidate": "C_Commission, C_CommissionRun, C_CommissionAmt, C_CommissionDetail, C_InvoiceLine, C_AllocationHdr",
+      "ancore": [
+        "report",
+        "hist",
+        "price"
+      ],
+      "pipeline": [
+        "A06-P6"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Comision și retur», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Jurnalul păstrează baza brut/netă, moneda, rata, cine primește și ajustarea. Totalul comisionului egal cu suma pozițiilor eligibile după retur. Evenimentul repetat are delta zero.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_Commission, C_CommissionRun, C_CommissionAmt, C_CommissionDetail, C_InvoiceLine, C_AllocationHdr. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_Commission, C_CommissionRun, C_CommissionAmt, C_CommissionDetail, C_InvoiceLine, C_AllocationHdr, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C26",
+      "titlu": "Raport pe canal",
+      "actiune": "Generează situațiile de vânzări cu facturi parțiale, stornări și două monede. Reconciliază indicatorii cu documentele.",
+      "rezultat_masurabil": "Fiecare subtotal și numărătoare se reproduc pe canal, campanie și monedă. Exportul accesibil are exact filtrele rolului. A03/A07 pot regăsi documentele.",
+      "caz_negativ": "Multiplicare prin join la linii și sumarea RON cu EUR fără conversie. Erorile se afișează separat de cifra comercială.",
+      "tabele_sau_contracte_candidate": "C_Invoice, C_InvoiceLine, C_Campaign, C_Currency, Fact_Acct",
+      "ancore": [
+        "report",
+        "sales"
+      ],
+      "pipeline": [
+        "A06-P6"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Raport pe canal», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Fiecare subtotal și numărătoare se reproduc pe canal, campanie și monedă. Exportul accesibil are exact filtrele rolului. A03/A07 pot regăsi documentele.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_Invoice, C_InvoiceLine, C_Campaign, C_Currency, Fact_Acct. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_Invoice, C_InvoiceLine, C_Campaign, C_Currency, Fact_Acct, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C27",
+      "titlu": "Mesaj în ordine inversă",
+      "actiune": "Introdu o versiune nouă de comandă înainte de o copie veche și repetă-o după aviz. Separă modificări nefacturate de cele deja documentate.",
+      "rezultat_masurabil": "Versiunea veche nu rescrie starea nouă. Revizuirea ulterioară avizului/facturii creează traseu autorizat și păstrează istoricul inițial.",
+      "caz_negativ": "Același timestamp, versiuni incompatibile, dublă notificare după repornirea workerului. Pune în coadă de rezolvare o singură dată.",
+      "tabele_sau_contracte_candidate": "C_Order, M_InOut, C_Invoice, versiune intrare, jurnal",
+      "ancore": [
+        "hist",
+        "gen",
+        "order"
+      ],
+      "pipeline": [
+        "A06-P5",
+        "A06-P7"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Mesaj în ordine inversă», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Versiunea veche nu rescrie starea nouă. Revizuirea ulterioară avizului/facturii creează traseu autorizat și păstrează istoricul inițial.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_Order, M_InOut, C_Invoice, versiune intrare, jurnal. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_Order, M_InOut, C_Invoice, versiune intrare, jurnal, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C28",
+      "titlu": "Setări și recuperare UX",
+      "actiune": "Cu responsabil de vânzări și comisionar, navighează meniu → setări sursă → catalog → comandă → stare. Testează tastatura, filtru lung, paginare și reluare după eroare.",
+      "rezultat_masurabil": "Persoana găsește firma/canalul/rolul, vede unități și disponibil alternativ, află de ce s-a refuzat și ce poate face în ERP. Înregistrarea corectată rămâne unică.",
+      "caz_negativ": "Configurații concurente și referință dezactivată între deschiderea ecranului și salvare. Nu afișa succes după o excepție.",
+      "tabele_sau_contracte_candidate": "AD_Menu, AD_Window, AD_Process, AD_Message, AD_Role, EVA_CanalVanzare",
+      "ancore": [
+        "catalog",
+        "channel",
+        "form",
+        "sales"
+      ],
+      "pipeline": [
+        "A06-P7"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Setări și recuperare UX», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Persoana găsește firma/canalul/rolul, vede unități și disponibil alternativ, află de ce s-a refuzat și ce poate face în ERP. Înregistrarea corectată rămâne unică.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru AD_Menu, AD_Window, AD_Process, AD_Message, AD_Role, EVA_CanalVanzare. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru AD_Menu, AD_Window, AD_Process, AD_Message, AD_Role, EVA_CanalVanzare, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C29",
+      "titlu": "Ajustări în masă",
+      "actiune": "În previzualizare selectează 3 articole din 2 pagini și modifică prețul pe un singur canal. Compară numărul afectat, costul, rolul, rezultatul simulării și istoricul.",
+      "rezultat_masurabil": "Numai cele 3 identificatoare selectate și canalul ales se modifică la aplicarea autorizată. Filtrul altui canal și listele native rămân trasabile. Reluarea nu cumulează reducerea.",
+      "caz_negativ": "Preț sub cost, referință inactivată între previzualizare și aplicare, selecție prea mare. Confirmarea părții valide se face numai dacă politica declarată permite rezultat parțial.",
+      "tabele_sau_contracte_candidate": "M_ProductPrice, M_PriceList_Version, modificări pe canal și aprobări",
+      "ancore": [
+        "catalog",
+        "mapping",
+        "price"
+      ],
+      "pipeline": [
+        "A06-P1",
+        "A06-P3",
+        "A06-P7"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Ajustări în masă», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Numai cele 3 identificatoare selectate și canalul ales se modifică la aplicarea autorizată. Filtrul altui canal și listele native rămân trasabile. Reluarea nu cumulează reducerea.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru M_ProductPrice, M_PriceList_Version, modificări pe canal și aprobări. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru M_ProductPrice, M_PriceList_Version, modificări pe canal și aprobări, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C30",
+      "titlu": "Campanie și consimțământ",
+      "actiune": "Creează două contacte sintetice, unul eligibil și unul retras. Simulează segmentul campaniei și previzualizarea destinatarilor în mediul izolat fără trimitere.",
+      "rezultat_masurabil": "Numai contactul eligibil din firma/canalul selectat apare. Conversia/contactul poate fi atribuit unui document verificabil. A08 verifică comunicarea și localizarea.",
+      "caz_negativ": "Retragere după pregătire, alt canal și duplicat de contact. Suprimarea contactului în ultima verificare și deduplicarea nu afectează istoricul.",
+      "tabele_sau_contracte_candidate": "C_Campaign, C_BPartner, AD_User, evidență preferință și proveniență",
+      "ancore": [
+        "sales",
+        "b2b",
+        "report"
+      ],
+      "pipeline": [
+        "A06-P6"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Campanie și consimțământ», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Numai contactul eligibil din firma/canalul selectat apare. Conversia/contactul poate fi atribuit unui document verificabil. A08 verifică comunicarea și localizarea.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_Campaign, C_BPartner, AD_User, evidență preferință și proveniență. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_Campaign, C_BPartner, AD_User, evidență preferință și proveniență, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C31",
+      "titlu": "Cerere cu adrese și transport",
+      "actiune": "Simulează o comandă B2C cu adrese de facturare și livrare diferite și un B2B cu CUI și punct de lucru separat. Verifică datele transmise ERP cu cele vizibile la vânzare.",
+      "rezultat_masurabil": "Comanda păstrează partenerul, destinatarul, adresele, termenul și valorile acceptate, chiar dacă ulterior partenerul își modifică datele. PII este mascat în probe.",
+      "caz_negativ": "Lipsa adresei obligatorii sau adresă din alt cabinet. Respinge și explică ce câmp trebuie reparat, fără a repeta o rezervare.",
+      "tabele_sau_contracte_candidate": "C_BPartner, C_BPartner_Location, C_Order, C_OrderLine",
+      "ancore": [
+        "web",
+        "gen",
+        "order"
+      ],
+      "pipeline": [
+        "A06-P4"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Cerere cu adrese și transport», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Comanda păstrează partenerul, destinatarul, adresele, termenul și valorile acceptate, chiar dacă ulterior partenerul își modifică datele. PII este mascat în probe.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru C_BPartner, C_BPartner_Location, C_Order, C_OrderLine. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru C_BPartner, C_BPartner_Location, C_Order, C_OrderLine, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    },
+    {
+      "id": "A06-C32",
+      "titlu": "Actualizare ofertă și cache",
+      "actiune": "Cu două canale care împart același pool, publică un disponibil de 20 S1. Un canal angajează 1 S1 și celălalt păstrează în cache pagina veche. Refă checkoutul în al doilea canal.",
+      "rezultat_masurabil": "Oferta este recalculată la angajare. Cel mult 19 S1 restante sunt acceptate. Cache-ul și UI se aliniază în termenul configurat și măsurat, cu marcarea timpului ultimei actualizări.",
+      "caz_negativ": "Ofertă expirată, semnal invalidare întârziat sau restart între commit și publicare. Nu permite vânzarea bazată doar pe copia memorată.",
+      "tabele_sau_contracte_candidate": "Versiune ofertă, stoc eligibil, angajament, eveniment publicare sau refresh",
+      "ancore": [
+        "web",
+        "lock",
+        "catalog"
+      ],
+      "pipeline": [
+        "A06-P2",
+        "A06-P7"
+      ],
+      "probe": {
+        "frontend": "Înregistrează intrarea și ieșirea pentru «Actualizare ofertă și cache», rolul, cabinetul, firma, canalul și mesajul afișat la respingere, cu date sintetice.",
+        "backend": "Tracează acțiunea până la procesul apelat, tranzacție, operator, document ori motivul refuzului. Confruntă rezultatul obținut cu: Oferta este recalculată la angajare. Cel mult 19 S1 restante sunt acceptate. Cache-ul și UI se aliniază în termenul configurat și măsurat, cu marcarea timpului ultimei actualizări.",
+        "db": "Compară înainte/după prin citiri în fixture și verifică proprietatea client/organizație/document pentru Versiune ofertă, stoc eligibil, angajament, eveniment publicare sau refresh. Înregistrările noi trebuie regăsite din sesiune independentă.",
+        "native": "Pentru Versiune ofertă, stoc eligibil, angajament, eveniment publicare sau refresh, verifică schema, AD și implementarea în versiunea instalată. Documentează proba nativă ajunsă din UI normal, alternativă configurabilă sau extensia necesară. Numele tabelelor sunt candidați, nu dovezi de activare.",
+        "ux": "Un utilizator cu rolul relevant explică în propriile cuvinte rezultatul, motivul refuzului și pasul de recuperare. Compară decizia permisă în UI și server."
+      },
+      "stare": "NEEXECUTAT",
+      "dovezi_recoltate": [],
+      "rezultat_observat": null
+    }
+  ],
+  "trasabilitate_manuale": {
+    "C10.T0030": [
+      "A06-C19",
+      "A06-C24",
+      "A06-C28"
+    ],
+    "C10.T0031": [
+      "A06-C09",
+      "A06-C12",
+      "A06-C15",
+      "A06-C16",
+      "A06-C28"
+    ],
+    "C10.T0032": [
+      "A06-C19",
+      "A06-C24",
+      "A06-C28"
+    ],
+    "C10.T0033": [
+      "A06-C18",
+      "A06-C19",
+      "A06-C24",
+      "A06-C25"
+    ],
+    "C10.T0034": [
+      "A06-C01",
+      "A06-C02",
+      "A06-C03",
+      "A06-C12",
+      "A06-C13"
+    ],
+    "C10.T0035": [
+      "A06-C14",
+      "A06-C15",
+      "A06-C16",
+      "A06-C17"
+    ],
+    "C10.T0036": [
+      "A06-C29"
+    ],
+    "C10.T0037": [
+      "A06-C12",
+      "A06-C28"
+    ],
+    "C10.T0038": [
+      "A06-C23",
+      "A06-C30"
+    ],
+    "C10.T0039": [
+      "A06-C18",
+      "A06-C27"
+    ],
+    "C10.T0040": [
+      "A06-C18",
+      "A06-C27",
+      "A06-C31"
+    ],
+    "C10.T0041": [
+      "A06-C18",
+      "A06-C27",
+      "A06-C31"
+    ],
+    "C10.T0042": [
+      "A06-C18",
+      "A06-C27",
+      "A06-C31"
+    ],
+    "C10.T0043": [
+      "A06-C18",
+      "A06-C27",
+      "A06-C31"
+    ],
+    "C10.T0044": [
+      "A06-C13",
+      "A06-C18",
+      "A06-C31"
+    ],
+    "C10.T0045": [
+      "A06-C03",
+      "A06-C05",
+      "A06-C06",
+      "A06-C08",
+      "A06-C09",
+      "A06-C32"
+    ],
+    "C10.T0046": [
+      "A06-C07",
+      "A06-C10",
+      "A06-C11",
+      "A06-C20"
+    ],
+    "C10.T0047": [
+      "A06-C18",
+      "A06-C19",
+      "A06-C27",
+      "A06-C28"
+    ],
+    "C10.T0048": [
+      "A06-C19",
+      "A06-C20",
+      "A06-C21",
+      "A06-C22"
+    ],
+    "C10.T0049": [
+      "A06-C10",
+      "A06-C11",
+      "A06-C21"
+    ],
+    "C10.T0050": [
+      "A06-C17",
+      "A06-C21",
+      "A06-C27"
+    ],
+    "C10.T0051": [
+      "A06-C11",
+      "A06-C25",
+      "A06-C27"
+    ],
+    "C10.T0052": [
+      "A06-C24",
+      "A06-C28"
+    ],
+    "C10.T0053": [
+      "A06-C17",
+      "A06-C25",
+      "A06-C26"
+    ],
+    "C10.T0054": [
+      "A06-C25",
+      "A06-C26"
+    ],
+    "C10.T0055": [
+      "A06-C23",
+      "A06-C24",
+      "A06-C25",
+      "A06-C26"
+    ],
+    "C10.T0056": [
+      "A06-C18",
+      "A06-C27",
+      "A06-C28",
+      "A06-C32"
+    ],
+    "C10.T0057": [
+      "A06-C19",
+      "A06-C28"
+    ],
+    "C10.T0058": [
+      "A06-C05",
+      "A06-C06",
+      "A06-C07",
+      "A06-C10",
+      "A06-C21",
+      "A06-C22",
+      "A06-C26"
+    ],
+    "C10.T0059": "POS/terminal planificat ulterior, predare A07/A08 pentru delimitare. A12 verifică statutul real independent.",
+    "C10.T0060": "POS/terminal planificat ulterior, predare A07/A08 pentru delimitare. A12 verifică statutul real independent."
+  },
+  "nota_manuale": "Cheile sunt identificatorii PROPUȘI în Manual_arhitectura_2026-10-25/Date_manual_C10.json, nu inventarul finalizatelor din registrul P01. A12 păstrează ambele și rezolvă conflicte de identitate înainte de execuție.",
+  "template_evidenta": {
+    "control_id": "A06-Cnn",
+    "pipeline_id": "A06-Pn",
+    "task_real_si_alias": null,
+    "sha_sursa": null,
+    "sha_core": null,
+    "build_instalat": null,
+    "cabinet_test": null,
+    "rol_actor": null,
+    "input_sintetic": null,
+    "pasi_reproductibili": null,
+    "ancora_cod_si_AD": null,
+    "proba_ui": null,
+    "proba_server_si_correlation_id": null,
+    "proba_db_inainte_dupa": null,
+    "asteptat": null,
+    "observat": null,
+    "negativ_retry": null,
+    "verdict": null,
+    "nivel_dovada": null,
+    "id_constatare": null,
+    "acceptare_handoff": null
+  },
+  "criterii_inchidere": [
+    "PASS cere protocol reproductibil și toate probele necesare; BLOCAT și NEEXECUTAT rămân vizibile. Nu se acordă punctaj rezultatului produsului prin simpla inventariere.",
+    "Cod și propuneri anterioare sunt surse distincte; valoarea produsului și nota auditului se raportează distinct.",
+    "A06 mapează controalele pe taskurile reale transmise de A12 și cere confirmarea consumatorilor. Reface erorile, completează fiecare dovadă lipsă, retestează după remediere și prezintă A11 verificarea finală."
+  ],
+  "numitori": {
+    "controale": 32,
+    "pipeline": 7,
+    "ancore_candidat": 21,
+    "controale_executate": 0
+  }
+}
+

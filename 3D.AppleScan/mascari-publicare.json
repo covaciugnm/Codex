@@ -2,6 +2,18 @@
   "local_originals_preserved": true,
   "masked_files": [
     {
+      "path": "Arhivează conversațiile Alibaba/istoric.json",
+      "masked_values": {
+        "signed_query_sig": 1
+      }
+    },
+    {
+      "path": "Arhivează conversațiile Alibaba/rezultate.md",
+      "masked_values": {
+        "signed_query_sig": 1
+      }
+    },
+    {
       "path": "Arhivează conversațiile Codex/istoric.json",
       "masked_values": {
         "signed_url_credential": 3
@@ -14,6 +26,24 @@
       }
     },
     {
+      "path": "Enumeră nodurile implicite ale cam/istoric.json",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "Enumeră nodurile implicite ale cam/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "Planifică aplicația iPhone 3D Scan/fisiere/backend-seo--9cf62972.mjs",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
       "path": "Planifică aplicația iPhone 3D Scan/istoric.json",
       "masked_values": {
         "signed_url_credential": 1
@@ -23,6 +53,36 @@
       "path": "Planifică aplicația iPhone 3D Scan/rezultate.md",
       "masked_values": {
         "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--6e49f7d3/istoric.json",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--6e49f7d3/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--83aa5d7e/fisiere/backend-seo--9cf62972.mjs",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--83aa5d7e/istoric.json",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--83aa5d7e/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 2
       }
     },
     {

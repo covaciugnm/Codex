@@ -1,0 +1,3 @@
+import java.math.*;import java.util.*;import com.eva.ro.contab.documente.NirReceptie;
+public class A11Nir {static Map<String,Object> line(String s,int q,int price){Map<String,Object> m=new LinkedHashMap<>();m.put("cod",s);m.put("cant",BigDecimal.valueOf(q));m.put("pret",BigDecimal.valueOf(price));return m;}
+public static void main(String[] args){for(String r: List.of("8\n2"," \n2","bad\n2","0\n2","8\n2\n99")) {var i=line("First",8,31);var j=line("Second",6,53);Map<String,Object> m=new HashMap<>(),e=new HashMap<>();m.put("bunuri",List.of(i,j));e.put("receptionat",r);NirReceptie.calculeaza(m,e);System.out.println(r.replace("\n","/")+"|"+i.get("receptionat")+"|"+j.get("receptionat")+"|"+m.get("total_receptionat"));}}}

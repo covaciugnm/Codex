@@ -589,7 +589,7 @@ async def admin_upload_page_file(
 16:      POSTGRES_DB: ${POSTGRES_DB:-wohnart}
 18:      - pgdata:/var/lib/postgresql/data
 20:      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-wohnart} -d ${POSTGRES_DB:-wohnart}"]
-34:      DATABASE_URL: ${DATABASE_URL:-postgresql://wohnart:wohnart@db:5432/wohnart}
+34:      DATABASE_URL: ${DATABASE_URL:-postgresql[CREDENTIAL_REDACTED]db:5432/wohnart}
 [/external_agent_tool_result]
 
 ## Asistent
@@ -1055,7 +1055,7 @@ with psycopg.connect(os.environ["DATABASE_URL"]) as conn:
 print("OK - parola schimbata pentru " + email if n else "Contul " + email + " nu exista.")
 '
 35:DATABASE_URL = os.environ.get(
-36:    "DATABASE_URL", "postgresql://wohnart:wohnart@db:5432/wohnart"
+36:    "DATABASE_URL", "postgresql[CREDENTIAL_REDACTED]db:5432/wohnart"
 270:            pool = ConnectionPool(DATABASE_URL, min_size=1, max_size=8,
 Shell cwd was reset to \\192.168.100.169\Comun\
 [/external_agent_tool_result]

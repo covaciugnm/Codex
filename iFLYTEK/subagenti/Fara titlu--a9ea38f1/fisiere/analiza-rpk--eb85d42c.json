@@ -1,0 +1,375 @@
+{
+  "schemaVersion": "1.0",
+  "checkedDate": "2026-10-30",
+  "title": "Analiză independentă RPK — instalare către ochelari versus stocare pe telefon",
+  "apk": {
+    "version": "1.0.3899",
+    "sha256": "73170cdc5c3331cd6055607015c04ed8e0a314f4c0bd2fd4651e2b732d1b3da2"
+  },
+  "verdict": "APK-ul conține un lanț implementat pentru import și distribuție RPK prin Bluetooth către un dispozitiv GPASS, cu confirmare a instalării din partea dispozitivului. Acesta este mai mult decât un nume de metodă ori un runtime pe telefon. Nu avem dovada executării fluxului pe ochelarii utilizatorului și nici că aceștia acceptă o aplicație proprie.",
+  "historicalImpact": {
+    "turn": "T14",
+    "status": "corectat_prin_completare",
+    "oldScope": "Nu fusese identificat un mecanism confirmat de instalare locală.",
+    "replacement": "S-a identificat acum static un mecanism RPK de instalare către ochelari compatibili. Suportul pe XF-AIGlasses-01, toolchain-ul de dezvoltare și politica de semnare trebuie validate. RPK, APK Android și firmware OTA sunt categorii distincte."
+  },
+  "methodology": [
+    "Urmărire manuală selectivă: dispatch MethodChannel, wrapper, controller, import/validare, transport și interpretarea răspunsurilor.",
+    "Au fost citite sursele JADX și comparate SHA-256 ale celor 9 fișiere cu exemplarele arhivate; toate identice.",
+    "Analiza este statică; nu s-au invocat metode de instalare/dezinstalare, nu s-au conectat dispozitive și nu s-au solicitat tokenuri/actualizări cloud.",
+    "Nu s-a recuperat pachet RPK sau firmware de pe dispozitiv; nici engine-ul de execuție de pe ochelari."
+  ],
+  "score": null,
+  "sources": [
+    {
+      "id": "PF",
+      "file": "reconstituit/jadx/app/src/main/java/com/alipay/verifyiotidentity/obfuscated/pf.java",
+      "sha256": "36201a11ab620673c5b74405ad73d432b6b01e64393f54e607ac09364207bc07",
+      "fastCopyEqualsArchived": true
+    },
+    {
+      "id": "CLIENT",
+      "file": "reconstituit/jadx/app/src/main/java/com/antgroup/glasses/inside/rpkmanage/GPassRpkClient.java",
+      "sha256": "c66a2b5edefa5668c720c7b8fe88e6469db04d139eced0235d64615c2c22fb9d",
+      "fastCopyEqualsArchived": true
+    },
+    {
+      "id": "CTRL",
+      "file": "reconstituit/jadx/app/src/main/java/com/antgroup/glasses/inside/rpkmanage/RpkController.java",
+      "sha256": "0c07c1d20bbab0fc76a0d16fee536c696a176e13d1b9672f356ddf1f90d23870",
+      "fastCopyEqualsArchived": true
+    },
+    {
+      "id": "BLE",
+      "file": "reconstituit/jadx/app/src/main/java/com/antgroup/glasses/inside/rpkmanage/internal/RpkBleClient.java",
+      "sha256": "0ab7de6dafc273eadaeaff5ae467761e7361eb7b586a67821eb1558a4e944efa",
+      "fastCopyEqualsArchived": true
+    },
+    {
+      "id": "CAP",
+      "file": "reconstituit/jadx/app/src/main/java/com/antgroup/glasses/inside/rpkmanage/model/RpkCapabilities.java",
+      "sha256": "dfbffac18a1cc49746edc539e332d0e31eb32041177c22a2ba3bd6102ed58e50",
+      "fastCopyEqualsArchived": true
+    },
+    {
+      "id": "INSPECT",
+      "file": "reconstituit/jadx/app/src/main/java/com/antgroup/glasses/inside/rpkmanage/SfrpkPackageInspector.java",
+      "sha256": "f069eae64d032556f130f730b17037d9357d5b5a66ffd48ee5ff95ffd4427588",
+      "fastCopyEqualsArchived": true
+    },
+    {
+      "id": "TRANSPORT",
+      "file": "reconstituit/jadx/app/src/main/java/com/antgroup/glasses/inside/bluetooth/GPassBluetoothHandler.java",
+      "sha256": "db5661e99c9fcdfd60969c8551a76756828c56b4ef7f7f9de84cb0b52055a1bc",
+      "fastCopyEqualsArchived": true
+    },
+    {
+      "id": "CONSENT",
+      "file": "reconstituit/jadx/app/src/main/java/com/antgroup/glasses/inside/rpkmanage/RpkConsentPolicy.java",
+      "sha256": "33e868919c541e4d723782f268b25abf28d5f33f386da92889c3400d28c69d45",
+      "fastCopyEqualsArchived": true
+    },
+    {
+      "id": "STORE",
+      "file": "reconstituit/jadx/app/src/main/java/com/antgroup/glasses/inside/rpkmanage/RpkLocalPackageStore.java",
+      "sha256": "d353415f66a9eaefa0a20ebf0458c695c0ed16699c32b6927fe0a9249b94a19b",
+      "fastCopyEqualsArchived": true
+    }
+  ],
+  "observations": [
+    {
+      "id": "R01",
+      "status": "confirmat_static",
+      "claim": "Metodele Flutter ajung la implementarea RPK.",
+      "details": "Dispatchul leagă rpkInstallLocal→h1, installRpk→E0 și rpkInstallServerUpdate→j1. installRpk importă fișierul; callbackul de succes apelează D0, care pornește installLocalPackage.",
+      "evidence": [
+        {
+          "source": "PF",
+          "from": 2216,
+          "to": 2221,
+          "method": "onMethodCall"
+        },
+        {
+          "source": "PF",
+          "from": 2279,
+          "to": 2298,
+          "method": "onMethodCall"
+        },
+        {
+          "source": "PF",
+          "from": 2381,
+          "to": 2395,
+          "method": "onMethodCall"
+        },
+        {
+          "source": "PF",
+          "from": 929,
+          "to": 951,
+          "method": "E0"
+        },
+        {
+          "source": "PF",
+          "from": 404,
+          "to": 423,
+          "method": "l.onSuccess"
+        },
+        {
+          "source": "PF",
+          "from": 911,
+          "to": 914,
+          "method": "D0"
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "status": "confirmat_static",
+      "claim": "Local și server converg către instalarea Bluetooth.",
+      "details": "Controllerul verifică fișierul local ori descarcă/importă pachetul server, interoghează capabilitățile și inventarul, apoi apelează ble.install.",
+      "evidence": [
+        {
+          "source": "CLIENT",
+          "from": 59,
+          "to": 72,
+          "method": "installLocalPackage / installServerUpdate"
+        },
+        {
+          "source": "CTRL",
+          "from": 219,
+          "to": 220,
+          "method": "installBle"
+        },
+        {
+          "source": "CTRL",
+          "from": 224,
+          "to": 257,
+          "method": "installServerInternal"
+        },
+        {
+          "source": "CTRL",
+          "from": 265,
+          "to": 280,
+          "method": "installStoredLocal"
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "status": "confirmat_static",
+      "claim": "Octeții pachetului sunt trimiși către dispozitivul conectat.",
+      "details": "transfer citește fișierul și trimite blocurile prin sendBusinessData(8472,...). Implementarea GPassBluetoothHandler folosește NSMSApi.sendData cu connectedDeviceId. Blocul de transfer este limitat la min(200000, limita primită); aceasta nu este valoarea MTU ATT.",
+      "evidence": [
+        {
+          "source": "BLE",
+          "from": 379,
+          "to": 423,
+          "method": "transfer"
+        },
+        {
+          "source": "TRANSPORT",
+          "from": 578,
+          "to": 601,
+          "method": "sendBusinessData"
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "status": "confirmat_static",
+      "claim": "Instalarea este un protocol cu confirmare de la ochelari.",
+      "details": "Controlul folosește business ID 8462 și protobuf. Protocol version=2; PREPARE action 11, apoi READY/consimțământ, transfer, COMMIT action 13. Sunt corelate taskId/sessionId, packageId și versionCode. Rezultatul acceptat este INSTALLED_ACTIVE, INSTALLED_PENDING sau ALREADY_INSTALLED.",
+      "evidence": [
+        {
+          "source": "BLE",
+          "from": 553,
+          "to": 662,
+          "method": "install"
+        },
+        {
+          "source": "BLE",
+          "from": 763,
+          "to": 780,
+          "method": "request"
+        },
+        {
+          "source": "BLE",
+          "from": 445,
+          "to": 470,
+          "method": "transfer"
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "status": "confirmat_static",
+      "claim": "Capabilitățile sunt citite de la dispozitiv, nu stabilite pentru toate modelele.",
+      "details": "queryCapabilities cere action 17 și transformă răspunsul în RpkCapabilities: runtime/firmware, formate, scheme de semnare, limite de dimensiune/spațiu, multi-app, pending activation, rollback/resume, uninstall și politica unsigned/signature. Inventarul folosește action 18 și include versiunile active/pending și running.",
+      "evidence": [
+        {
+          "source": "BLE",
+          "from": 356,
+          "to": 364,
+          "method": "queryCapabilityResponse"
+        },
+        {
+          "source": "BLE",
+          "from": 705,
+          "to": 722,
+          "method": "queryCapabilities / queryInstalledApps"
+        },
+        {
+          "source": "CAP",
+          "from": 9,
+          "to": 54,
+          "method": "constructor/fields"
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "status": "confirmat_static",
+      "claim": "Validările clientului au un domeniu precis.",
+      "details": "Conexiune Bluetooth activă, protocol 2, un singur task, fișier local existent și dimensiune neschimbată. Pentru managed se verifică formatul dacă lista acceptată este nevidă. Dimensiunea/spațiul sunt limitate dacă dispozitivul raportează valori pozitive; un update trebuie să depășească max(activeVersionCode,pendingVersionCode) când această valoare e pozitivă. Nu se vede în validate o decizie locală care să impună toate capability flags de semnare.",
+      "evidence": [
+        {
+          "source": "BLE",
+          "from": 195,
+          "to": 220,
+          "method": "checkVersion / ensureHandler"
+        },
+        {
+          "source": "BLE",
+          "from": 553,
+          "to": 560,
+          "method": "install"
+        },
+        {
+          "source": "CTRL",
+          "from": 265,
+          "to": 278,
+          "method": "installStoredLocal"
+        },
+        {
+          "source": "CTRL",
+          "from": 501,
+          "to": 552,
+          "method": "validate / validateVersionForInstall"
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "status": "confirmat_static",
+      "claim": "Verificarea locală de integritate nu este verificarea finală a semnatarului.",
+      "details": "inspect verifică structura ZIP/SFU/security, hashul payloadului, concordanța manifestelor și permisiunilor. parseGpass citește declarația ECDSA/certificate și hashul lor; nu validează aici lanțul criptografic. Codul marchează trust=glasses-only, iar COMMIT întoarce integrityVerified/authenticityVerified și identificatori de politică.",
+      "evidence": [
+        {
+          "source": "INSPECT",
+          "from": 399,
+          "to": 422,
+          "method": "parseGpass"
+        },
+        {
+          "source": "INSPECT",
+          "from": 880,
+          "to": 923,
+          "method": "inspect"
+        },
+        {
+          "source": "BLE",
+          "from": 648,
+          "to": 662,
+          "method": "install result security"
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "status": "confirmat_static",
+      "claim": "Importul external nu dovedește acceptarea pachetelor nesemnate.",
+      "details": "inspectForExternalTransport citește manifestul, calculează hashul fișierului și întoarce SF-EXTERNAL-OPAQUE; securityEnvelopeParsed și payloadHashVerified sunt false. Pachetul opac este transmis pentru decizia dispozitivului. Existența modului unsigned în parser sau a câmpului allowsUnsignedPackages nu furnizează o valoare pentru modelul utilizatorului.",
+      "evidence": [
+        {
+          "source": "INSPECT",
+          "from": 964,
+          "to": 989,
+          "method": "inspectForExternalTransport"
+        },
+        {
+          "source": "CAP",
+          "from": 113,
+          "to": 119,
+          "method": "signature policy getters"
+        },
+        {
+          "source": "STORE",
+          "from": 87,
+          "to": 94,
+          "method": "import checks"
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "status": "confirmat_static",
+      "claim": "Consimțământul și autentificarea cloud sunt alte precondiții ale anumitor căi.",
+      "details": "Politicile sunt DEVICE_DEFAULT/REQUIRED/NOT_REQUIRED; chiar dacă este cerut NOT_REQUIRED, clientul tratează WAITING_CONSENT și USER_REJECTED. Cererile cloud cu path/query/body hash cer capabilityVersion>=8; această condiție nu se aplică automat întregului protocol RPK local.",
+      "evidence": [
+        {
+          "source": "CONSENT",
+          "from": 6,
+          "to": 18,
+          "method": "enum / toProto"
+        },
+        {
+          "source": "BLE",
+          "from": 595,
+          "to": 618,
+          "method": "install consent"
+        },
+        {
+          "source": "BLE",
+          "from": 787,
+          "to": 822,
+          "method": "getCloudAuth"
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "status": "confirmat_static",
+      "claim": "Există un indiciu de configurare pentru dezvoltare, nu dovadă de deployment în producție.",
+      "details": "pf.m0 construiește clientul cu baseUrl http://gpass.dl.alipaydev.com. Constatarea privește configurația din APK; nu am contactat această gazdă și nu concluzionez că este endpointul OTA al ochelarilor.",
+      "evidence": [
+        {
+          "source": "PF",
+          "from": 1913,
+          "to": 1917,
+          "method": "m0"
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "status": "inca_necunoscut",
+      "claim": "Execuția propriei aplicații pe XF-AIGlasses-01.",
+      "details": "Nu avem răspunsuri live de capabilități/inventar, un RPK legitim analizat, runtime-ul, toolchain-ul, permisiunile ori criteriile reale de semnare ale firmware-ului. Prezența codului într-un SDK pentru mai multe dispozitive nu stabilește suportul activ pe exemplarul utilizatorului.",
+      "evidence": []
+    }
+  ],
+  "nextReadOnlyEvidence": [
+    "Identificarea modelului și firmware-ului, versiunii APK și modului de conectare GPASS.",
+    "Observarea răspunsului queryCapabilities fără instalare: runtimeVersion/runtimeApiVersion, supportedPackageFormats/signatureSchemes, maxRpkSize, policy flags și trustPolicyVersion.",
+    "Observarea queryInstalledApps fără modificare: packageId, active/pending version, running și trust state.",
+    "Documentație oficială de dezvoltare/semnare ori un pachet legitim distribuit de producător, cu hash și proveniență.",
+    "Verificarea dacă metodele sunt expuse în fluxul de produs pentru acest model sau doar în integrarea/debug GPASS."
+  ],
+  "notEstablished": [
+    "Un app store public, drept de publicare sau SDK public reutilizabil.",
+    "Acceptarea unsigned, a semnăturii proprii sau a unui APK Android.",
+    "Limbajul și engine-ul executat pe ochelari; numele SFU/RPK nu îl stabilesc.",
+    "Acceptarea de firmware modificat; mecanismul RPK nu o demonstrează.",
+    "Performanța, memoria disponibilă, permisiunile audio și accesul unui RPK la microfon/difuzoare.",
+    "Succesul pe dispozitiv; toate funcțiile au fost urmărite static."
+  ]
+}

@@ -12,6 +12,30 @@
       "masked_values": {
         "signed_url_credential": 1
       }
+    },
+    {
+      "path": "Identifică anunțurile Primăriei Sebeș/fisiere/audit--affd4043.py",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Identifică anunțurile Primăriei Sebeș/fisiere/index--358cb8d7.html",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Identifică anunțurile Primăriei Sebeș/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Identifică anunțurile Primăriei Sebeș/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "id": "01a15499-ef88-7bb2-a62a-b685b5db3eb1",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+  "created_at": 1792420736,
+  "updated_at": 1792420885,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Caută emailurile de la Ovidiu Sasu",
+  "project_id": "a62819fc-eecd-41a3-acfa-724e26db8d88",
+  "project": "AFIR-FotoVoltaic Production",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 111661,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 26,
+  "message_count": 9,
+  "content_sha256": "7c4ecfec7203b551fc2fb13aa05475a72a5d2fa765797cbb3dc4bd1362ab4b63",
+  "files_copied": 0,
+  "references_not_copied": 6
+}

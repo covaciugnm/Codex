@@ -1,0 +1,23 @@
+{
+  "id": "01a16277-c4e8-7843-bf83-293049f7a3ff",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1792653378,
+  "updated_at": 1792653887,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Redactează e-mail cu CI atașat",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 47059,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 12,
+  "message_count": 4,
+  "content_sha256": "b11a618918db5b1913c2a9e577c348be8fc6ede42818b462a33b5af47f04e260",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

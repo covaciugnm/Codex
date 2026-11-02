@@ -1,0 +1,23 @@
+{
+  "id": "01a168de-a466-7f60-84c0-a9b6e60b148d",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1792760783,
+  "updated_at": 1792764320,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a168da-206e-7220-8edc-5c436090e802\",\"depth\":1,\"agent_path\":\"/root/audit_nativ\",\"agent_nickname\":\"Hegel\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a168da-206e-7220-8edc-5c436090e802",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 325119,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 68,
+  "message_count": 3,
+  "content_sha256": "f3099a0291ef048a669e1b6cd73952e2f4cf14b6b41251c92b65835f89751f4c",
+  "files_copied": 0,
+  "references_not_copied": 2
+}

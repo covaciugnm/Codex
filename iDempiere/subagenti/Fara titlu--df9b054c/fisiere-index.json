@@ -1,0 +1,51 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A09_plan.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A09_plan--e248ea52.json",
+    "bytes": 177215,
+    "sha256": "46ff16ae0213ef2204b0fb476e8bf0f1a6562dc587b01f5111efa66811464dfb"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A09/A09_addendum_android.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A09_addendum_android--f1c272c0.json",
+    "bytes": 5604,
+    "sha256": "182f638890c9642e26524ac6e00f3a266530217d30492cee604ca5b534dba081"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A09/native_actions.json",
+    "status": "copiat",
+    "saved_path": "fisiere/native_actions--8693bce5.json",
+    "bytes": 73723,
+    "sha256": "20368214cf6672b215044a8958a9c602f1c6e4519a5c82d5b10d1118ec4e7e01"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A09_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A09_raport--8c00d980.json",
+    "bytes": 120876,
+    "sha256": "d1950b3eb92043ba76509d85f4ff1b193e52bf474972b091294db870a912d476"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A05\\physical-inventory.png",
+    "status": "copiat",
+    "saved_path": "fisiere/physical-inventory--226b57ad.png",
+    "bytes": 161446,
+    "sha256": "8e5b8acd587191feaebe00e6764cd1f29d4a969f0edc299be6ae5df89d725fcd"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\portal-error-360.png",
+    "status": "copiat",
+    "saved_path": "fisiere/portal-error-360--bc2b1856.png",
+    "bytes": 10679,
+    "sha256": "6cc242a7932a8eef338bde394f61e6ff99e52d7a6c8590938d89ba69073645d7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\portal-ok-360.png",
+    "status": "copiat",
+    "saved_path": "fisiere/portal-ok-360--74c8f576.png",
+    "bytes": 25155,
+    "sha256": "dfbb75bb917cd54f775f6324b853fcb2777059a65067eb7c09382e26fa8b42be"
+  }
+]

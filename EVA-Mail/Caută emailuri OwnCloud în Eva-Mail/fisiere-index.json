@@ -1,0 +1,10 @@
+[
+  {
+    "source_reference": "https://owcl.cesiro.com/owncloud",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "plugin://dev-6aa3eadee6ec8191a9bc3b9608c0f1bc@created-by-me-remote/",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

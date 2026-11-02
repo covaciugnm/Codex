@@ -1,0 +1,3624 @@
+# Rezultate — Fara titlu
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_60443867a6204b54916f0b85ddfb2f0b",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_73aee9ae30384c18aabc0a26310bc549",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "agentPath": "/root/template_auditor"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_e8fc87d659004dc3bf3c7f671e2ea6e8",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_96a7a59fc9314050b53613ef6ee6f9f8",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "agentPath": "/root/template_auditor"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_56a3d9ca2ba14298b58670d1cba22348",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_072576fe91ad4e48afbeacf623e7459a",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-2044-72b0-ace8-e3c96af38038",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_4a28bff0663a4e7e9ac8c3e58d93c23e",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "agentPath": "/root/template_auditor"
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_ebe2fcd93b154ef8bf3e6631bc26fb22",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-2044-72b0-ace8-e3c96af38038",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_8fb99e2f209f40c0bb110a8bbdd862b0",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "agentPath": "/root/template_auditor"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_28712493412c4694bf0e9525bb766932",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_f407d2941e6140aab82c6d043e109f3a",
+  "kind": "interacted",
+  "agentThreadId": "01a18da7-3eb0-75a1-907d-ecd031aab547",
+  "agentPath": "/root/template_auditor"
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_997da67b4b2e4b17bf30f002ca541602",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a18da7-2044-72b0-ace8-e3c96af38038",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_77db56f4a1ed4caea60b26b17600eb11",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Template v3 **APROBAT de auditorul independent** după remedierea tuturor punctelor A01–A08 și M01. Aprobarea privește metodologia; catalogul factual și implementarea HTML necesită verificare finală.
+
+**Structura cărții HTML**
+
+1. Rezumat executiv și shortlist pe cerințe.
+2. Metodologie, data-limită **30.10.2026**, legendă și glosar.
+3. Zece capitole pentru producători.
+4. În fiecare capitol: prezentarea producătorului, inventarul auditat și subcapitolele modelelor.
+5. Ecosisteme complete: ochelari + telefon/tabletă/neckband/puck + aplicații + hearing aid.
+6. Analiza dezvoltării software și accesibilității auditive.
+7. Matrice comparativă cu filtre pentru toate dimensiunile.
+8. Cost total, întrebări pentru furnizori și plan PoC.
+9. Registrul surselor, contradicțiilor și informațiilor neconfirmate.
+
+**Inventarul obligatoriu**
+
+Pentru fiecare producător, tabel „modele căutate / incluse / excluse / neconfirmate”, cu motiv și surse din cataloage oficiale, magazin, regiunea China/global și portal developer.
+
+Se includ modelele comercializate în orice moment dintre 01.01–30.10.2026, chiar lansate anterior; disponibilitatea actuală se separă de dovada vânzării în interval. Se marchează distinct disponibil, preorder, anunțat, prototip, retras și neconfirmat.
+
+Seriile audio-only, display-only și fără waveguide rămân în inventar cu etichete clare. Modelul, generația, varianta regională și bundle-ul nu se confundă. Disponibilitatea hardware nu confirmă accesul SDK.
+
+**Template pentru fiecare producător**
+
+Entitatea juridică/brandul, sediul verificat, website, cataloage China/global, developer portal, magazine, aplicații, suport, politici de actualizare, distribuție, OEM/ODM, contacte publice, maturitatea dovezilor și limitele inventarului.
+
+**Template pentru fiecare model/variantă**
+
+| Secțiune | Câmpuri obligatorii |
+|---|---|
+| Identitate | Model exact, generație, SKU, variante, regiune, lansare, statut în 2026 și la cutoff |
+| Optică | Waveguide/birdbath/prismă/altele, monocular/binocular, see-through/passthrough, tehnologie display, culoare, rezoluție W/H **per ochi**, FOV H/V/D, Hz, eye-box, eye-relief, IPD, dioptrii/Rx, dimming/transparență |
+| Luminozitate | Valoare, unitate și punct de măsurare; source-nits și at-eye-nits nu se compară direct |
+| Calcul | SoC/GPU/NPU, TOPS doar documentat, RAM/storage, edge/cloud/telefon/companion |
+| Camere/senzori | Număr, rezoluție, FPS, FOV, RGB/stereo/depth, indicator confidențialitate, IMU/GPS/magnetometru/proximity/light |
+| AR | 3DoF/6DoF, tracking mâini/ochi, ancore, mapping și acces API separat |
+| Alimentare | mAh/Wh, autonomie cu scenariu, încărcare/conector/putere/timp |
+| Ergonomie | Greutate cu configurație, dimensiuni, IP, temperatură, comportament termic, compatibilitate cu aparate auditive |
+| Audio | Microfoane/array, beamforming, AEC, NR, AGC, speakere open-ear/bone/in-ear, mono/stereo/spatial confirmat, sample rates/codecs |
+| Conectivitate | Wi-Fi generație/benzi/hotspot/Direct; Bluetooth versiune/profil/codecs; USB-C charging/data/DP separat; UVC/UAC/HDCP unde relevante; tether wired/wireless |
+| Compatibilitate | PC/Android/iOS, modele/OS minime, DRM, controller/gamepad și limitări |
+| Companions | Telefon/tabletă/neckband/puck/telecomandă, rol calcul/control/display/power, obligatoriu/opțional/inclus/separat, compatibilitate și preț |
+| OS/aplicații | OS/version, APK/sideload/store/root/bootloader, Android/iOS app links/region/version, offline/cloud/login |
+| SDK | Versiune și model suportat, platforme, licență, cost, aprobare enterprise, download, documentație, examples/repos, mentenanță |
+| API | Display liber/templates, fotografie/video, microfon/raw PCM, speaker PCM/full duplex, input, senzori/pose, background/autostart, networking, modele AI proprii |
+| Reviewuri | Link/data/model/firmware, hands-on vs anunț, metodă, sponsorizare, constatări și limite; „căutat, negăsit” când cazul |
+| Achiziție | Oficial/distribuitor/Alibaba exact-match, furnizor, MOQ/preț/monedă/data/cantitate, transport/taxe/garanție/retur, SDK inclus și validarea variantei |
+| Evaluare | Avantaje, dezavantaje, potrivire pe aplicații, hard gates, necunoscute, contradicții și surse |
+
+Fiecare capabilitate are cinci niveluri separate: **hardware existent → funcție în aplicația comercială → acces SDK public → acces condiționat → validare practică**. Domeniul dovezii este model × variantă × firmware × SDK × companion.
+
+**Analiza hearing aid / accesibilitate auditivă**
+
+- Subtitrări/transcriere/traducere: română și alte limbi, offline/cloud, diarizare, identificare/direcție vorbitor și latență STT.
+- Routing explicit: sursă → procesare → destinație, cu rol transmitter/receiver/broadcast assistant, protocol, host/OS, model hearing aid verificat, bilateral, media/apel/live mic și conexiuni simultane.
+- LE Audio, LC3, HAP/unicast, Auracast broadcast, ASHA și MFi sunt câmpuri distincte. Bluetooth sau Auracast generic **nu confirmă** compatibilitatea cu un aparat auditiv.
+- Fezabilitate DSP: PCM-in, PCM-out, full duplex, background susținut, control output și **latență măsurată acustic-in → DSP → acustic-out**. Latența STT/cloud/codec este separată.
+- DSP analizat: gain pe benzi, WDRC, MPO/limiter, feedback cancellation, NR/beamforming, AEC separat, profil auditiv/calibrare.
+- Speakere analizate: SPL/headroom, distorsiune, scurgere, feedback și interferența dintre sunetul direct și cel procesat la open-ear.
+- Stări concluzie: fezabilitate teoretică / demonstrat prin SDK / validat prototip / nefezabil documentat / necunoscut.
+- Necunoscutele critice înseamnă **fezabilitate nevalidată**. Nu se inventează prag universal de latență/gain și nu se deduce eficacitatea clinică din instalarea unui APK.
+- Orice statut medical cere jurisdicție, indicație, identificator și sursă verificabilă.
+
+**Schema normalizată**
+
+Entități: `manufacturers`, `models`, `variants`, `companions`, `sources`, `claims`, `reviews`, `offers`, `relationships`, `evaluations`, `inventory`.
+
+Afirmație:
+
+```text
+entityId, field, value, unit,
+state: confirmed | conditional | unknown | conflicting | not_applicable,
+sourceIds, originalValue, evidenceLevel,
+scope: model/variant/region/firmware/SDK/companion,
+asOf, location, conflictNote
+```
+
+`false` și `0` necesită dovezi; lipsa informației devine `null/unknown`. Fiecare afirmație factuală trebuie legată de surse. Promisiunea producătorului, testul independent și inferența autorului rămân distincte.
+
+**Matrice și filtre**
+
+Registru unic de câmpuri:
+
+```text
+key, label, group, type, unit, enum,
+applicability, filterType
+```
+
+Fiecare câmp tehnic produce o coloană sau un filtru avansat vizibil, cu aceeași funcționalitate. Nu rămân dimensiuni exclusiv în proză.
+
+- Numeric: interval min/max, inclusiv W și H separat.
+- Enum/relații: selecție multiplă OR.
+- Între coloane: AND.
+- Boolean: da/nu/necunoscut/condiționat.
+- Orice câmp: filtre necunoscut/conflict/nu se aplică.
+- Text și date: căutare/interval.
+- Reset, count rezultate, selector coloane/grupuri, preseturi, sticky header, scroll orizontal, export CSV filtrat.
+- Capitol/model în `<details><summary>`, ancore, expand/collapse total, tastatură, mobil, print cu detaliile deschise.
+
+**Evaluare reproductibilă**
+
+Deschiderea se separă de capacitatea tehnică și utilitatea auditivă.
+
+Dimensiuni 0–4: instalare/distribuție, control UI, acces API la hardware relevant, lifecycle/background, documentație/licență/ecosistem. Un HUD poate primi maximum pentru UI fără funcții spațiale; lipsa camerelor nu este „închidere”.
+
+Scor:
+
+```text
+100 × Σ_knownApplicable(w × s) / (4 × Σ_knownApplicable(w))
+coverage = Σ_knownApplicable(w) / Σ_allApplicable(w)
+```
+
+Necunoscutul nu primește zero. Clasament numai cu hard gates îndeplinite, coverage ≥80% și dovezi comparabile; altfel provizoriu/neclasificat.
+
+Ponderi instalare/UI/API/lifecycle/ecosistem:
+
+- Visual AI: 20/15/35/20/10; gates cameră API + display API + inferență proprie.
+- HUD/subtitrări: 15/35/15/20/15; gates text-render + rută STT.
+- Spatial AR: 15/25/30/15/15; gates 6DoF + pose + spatial rendering.
+- OEM: 20/20/20/15/25; gates ODM explicit + licență + furnizor validat.
+
+Performanța este vector separat: rezoluție/FOV/tracking/calcul/latență/greutate/autonomie. Nu se emite scor clinic hearing aid.
+
+**Cost și achiziție**
+
+TCO = ochelari + compute obligatoriu + accesorii + licențe + subscriptions + AI usage + transport/taxe, cu monedă, dată și perioadă. Componente necunoscute împiedică un total pretins complet.
+
+Alibaba: exact-match / variantă apropiată / doar căutare. Listing activ nu dovedește stoc, autenticitate sau SDK; „Verified Supplier” nu înseamnă distribuitor autorizat.
+
+**Checklist QA final**
+
+A01 inventar justificat; A02 hardware/app/API/test separate; A03 companions/connectivity complete; A04 DSP/acustică; A05 hearing routing; A06 scoruri/coverage/gates; A07 filtre; A08 cost/reviewuri/Alibaba; M01 rezumat/glosar/PoC.
+
+Teste HTML: AND/OR, necunoscut/conflict/N/A, reset/count, fără rezultate, keyboard, ancore, expand/collapse, print, export cu Unicode și escaping CSV/formula injection, concordanță export/tabel, surse multiple și conflicte. Linkurile inaccesibile se raportează ca neverificate, fără a fi declarate automat inexistente.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-55389701-2518-405a-803a-245ebbc1dcf4",
+  "query": "site.rokid.com glasses AR Lite Max 2 Station 2 AI Glasses 2026 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com glasses AR Lite Max 2 Station 2 AI Glasses 2026",
+      "site.rayneo.com X3 Pro X2 Air 3s Air 4 Pro glasses",
+      "site.inmoxr.com INMO AIR3 GO2 AIR2 glasses"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn14news12",
+      "snippet": "I’ve worn smart glasses for over 5 years — here’s the best AR and AI glasses in 2026 ... Some smart glasses, like the Viture",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/V1pbAtSvwM6ucn1Fsh3pgCW5L4zuqNOT9Cg2iENhi_NXWXJ3Cl2a8PCgW9SvzQKWbPdPLIccLmJ2kAgAeexukrc8ggsYTE-wo_IOF6PK_U--SDgMbA3jP8wTafP5dfUQ",
+      "title": "I've worn smart glasses for over 5 years - here's the best AR and AI glasses in 2026",
+      "url": "https://www.tomsguide.com/computing/vr-ar/best-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn14search0",
+      "snippet": "Recalled INMO Air3 Smart Glasses ... Sold At: Amazon.com, Kickstarter.com, inmoxr.com, Model AIR 3 from December 2025 to August 2026 for between $900 and $1300.",
+      "title": "VOLUNTARY PRODUCT SAFETY IMPROVEMENT INMO Smart Glass AIR3 | INMO Official Website",
+      "url": "https://www.inmo.com/pages/recall"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn14search1",
+      "snippet": "$329.00 Save $30.00 Learn more RayNeo Air 4 Pro AR Glasses HOT Entry-Level AR Entertainment $299.00 Learn more RayNeo Air 3s AR Glasses $269.00 Learn",
+      "title": "RayNeo Air Glasses Comparison: 4 Pro vs 3s vs 2s – RayNeo",
+      "url": "https://www.rayneo.com/pages/air-series-comparison"
+    },
+    {
+      "type": "text_result",
+      "domain": "heytalaya.com",
+      "ref_id": "turn14search2",
+      "snippet": "Image: Talaya graphic with RayNeo prices and figures: the X3 Pro AI and AR glasses at $1,299 with a 12MP camera, the Air 4 Pro",
+      "title": "RayNeo glasses: X3 Pro, Air, GT and iO prices and specs | Talaya",
+      "url": "https://heytalaya.com/2026/10/rayneo-glasses-guide/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartbrille.kaufen",
+      "ref_id": "turn14search3",
+      "snippet": "Kurz gesagt: RayNeo ist die Brillenmarke von TCL und verkauft in Deutschland drei Arten von Brillen: Videobrillen für Filme und Gaming (Air 4 Pro ab",
+      "title": "RayNeo 2026: Air, GT, iO und X3 Pro im Überblick",
+      "url": "https://smartbrille.kaufen/rayneo/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn14search4",
+      "snippet": "INMO AIR2 officially mass-produced and became the No.1 in sales of the JD XR INMO AIR2 ... INMO AIR3, INMO GO2, INMO X series AI",
+      "title": "About INMO",
+      "url": "https://www.inmo.com/pages/about-us"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmoxr.com",
+      "ref_id": "turn14search5",
+      "snippet": "I have smartglasses that are controlled with a ring 🤯 - INMO GO3 ... * INMO Air3",
+      "title": "INMO GO3",
+      "url": "https://www.inmoxr.com/pages/inmo-go2"
+    },
+    {
+      "type": "text_result",
+      "domain": "glassesresearch.org",
+      "ref_id": "turn14search6",
+      "snippet": "INMO's own company-history page states that the company debuted an INMO X-series 5G all-in-one AR glasses concept/product family in May 2021 and, more importantly for",
+      "title": "INMO smart-glasses lineage - GlassesResearch",
+      "url": "https://glassesresearch.org/lineages/INMO/"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn14search7",
+      "snippet": "Rokid AI Glasses provide smart assistance ... * Max 2 glasses + original Rokid Station ... Choose Rokid AR Spatial for Max 2 plus Station",
+      "title": "Rokid AR Glasses Series | Portable Smart Display Glasses",
+      "url": "https://global.rokid.com/collections/rokid-ar-glasses-series"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kickstarter.com",
+      "ref_id": "turn14search8",
+      "snippet": "- Main Unit: The main unit of INMO AR glasses is warranted against defects in materials and workmanship under normal use for a period of",
+      "url": "https://www.kickstarter.com/projects/inmo-air3-ar-glasses/inmo-air3-smart-ar-glasses/faqs"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn14search9",
+      "snippet": "#### RayNeo Air 4 Pro AR Glasses ... #### RayNeo X3 Pro AI+AR Glasses ... Wear the Screen, Live the Scene World's First HDR10 Display",
+      "title": "RayNeo Shop | Official AR Glasses, Bundles & Accessories - RayNeo",
+      "url": "https://www.rayneo.com/pages/rayneo-shop"
+    },
+    {
+      "type": "text_result",
+      "domain": "inmolens.com",
+      "ref_id": "turn14search10",
+      "snippet": "INMO GO2 ... INMO AIR3",
+      "title": "影目INMO-定义未来眼镜",
+      "url": "https://inmolens.com/download"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn14search11",
+      "snippet": "The recall applies to black INMO AIR3 glasses with a label printed with “AIR3” and “INMO” on the inside of the right temple, sold between",
+      "title": "INMO AIR3 Recall Update Performance: Video, Apps and Settings After V3.16",
+      "url": "https://www.inmo.com/ja/blogs/inmo-insights/inmo-air3-recall-update-performance"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit13",
+      "snippet": "I'm looking to purchase prescription lenses for my Air3s, but have found that pretty much anything connected to the model has been removed from the",
+      "title": "INMO Air3 prescription lenses",
+      "url": "https://www.reddit.com/r/inmoxr/comments/1wv7mbc/inmo_air3_prescription_lenses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae-pic-a1.aliexpress-media.com",
+      "ref_id": "turn14search14",
+      "snippet": "INMO Air 3 使用方式说明 User Guide for INMO Air 3 ... 将设备像普通眼镜一样戴在头上 Wear the device on your head like regular glasses 2.",
+      "title": "INMO Air 3 使用方式说明",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/S9a0c4a7811e9402f9e6f4ca4411e5449Z.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae01.alicdn.com",
+      "ref_id": "turn14search15",
+      "snippet": "发布日期 / Release Date：2026 年 2 月 / February 2026 ... Rokid Glasses 是一款融合 AR 增强现实与 AI 智能交互的便携式穿戴设备，仅重 49g，外观接近普通眼",
+      "title": "Rokid Glasses 智能眼镜使用说明书",
+      "url": "https://ae01.alicdn.com/kf/Sca60ced8be924acba5fb4d81b0dd01c6C.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae-pic-a1.aliexpress-media.com",
+      "ref_id": "turn14search16",
+      "snippet": "Compatibility: INMO GO2, INMO AIR2 AR glasses",
+      "title": "INMO Ring2 Detailed English Introduction",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/S5c9a3f007851449a92fcd9c35da5405ap.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.media-amazon.com",
+      "ref_id": "turn14search17",
+      "snippet": "- Step2：Long press the right glasses leg for 2 times - Step3：Long press the right glasses leg at the pop-up interface",
+      "title": "INMO AIR 2 USER GUIDER",
+      "url": "https://m.media-amazon.com/images/I/91jxvIhTLGL.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae01.alicdn.com",
+      "ref_id": "turn14search18",
+      "snippet": "Model: TCL RayNeo Air 4 Pro (Smart Display Glasses) ... - 1 Pair of TCL RayNeo Air 4 Pro Smart Glasses",
+      "title": "TCL RayNeo Air 4 Pro User Manual",
+      "url": "https://ae01.alicdn.com/kf/Sd7850f51a2674ff8a4e49b043e20a1afI.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "file.iyanbao.com",
+      "ref_id": "turn14search19",
+      "snippet": "AIR2，INMO AIR3 分辨率提升了8.1 倍、视场角提升2 倍，亮度提升 ... INMO GO2 还将在后续引入AI 定向拾音算法，通提高在多人 ... 根据wellsenn XR 数据，2023 年~2024 年Q3，",
+      "title": "华福证券\n电子\n2024 年12 月02 日\n电子\n强于大市（维持评级）\n影目科技发布AR+AI 眼",
+      "url": "https://file.iyanbao.com/pdf/708ee-fd27b461-0afe-4926-b9ff-6d7968e0a90b.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit20",
+      "snippet": "[Thursday April 09 2026] [+3 votes] ... Send an email to inmo support. ... I finally just shipped my glasses back earlier this week, and",
+      "title": "Air 3 issues",
+      "url": "https://www.reddit.com/r/inmoxr/comments/1sh0lp0/air_3_issues/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit21",
+      "snippet": "INMO XR | Never just glasses ... More likely that they've just given up on Air 3 and are focused on Go3 type glasses for",
+      "title": "INMO Air4 Coming Soon? INMO removed INMO Air3 from website",
+      "url": "https://www.reddit.com/r/inmoxr/comments/1w1k54h/inmo_air4_coming_soon_inmo_removed_inmo_air3_from/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit22",
+      "snippet": "Rokid Max AR Lite \\- upcoming set that includes Rokid Max 2 and Rokid Station 2. ... Rokid Max \\- previous model of the glasses",
+      "title": "Rokid Max Models and Differences?",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1gvhlvg"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit23",
+      "snippet": "Since the guide is very light, I could attach it to the front glass of the INMO Air3 using double-sided silicone tape. ... Just go",
+      "title": "INMO Air3: Cheap Way to Add Sunglass Lenses",
+      "url": "https://www.reddit.com/r/inmoxr/comments/1rn4n1l/inmo_air3_cheap_way_to_add_sunglass_lenses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit24",
+      "snippet": "I purchased the INMO AIR 3's and I was so excited for them to arrive... ... Yea I don't trust INMO because they rebranded their",
+      "title": "🚨WARNING🚨 DO NOT BUY FROM INMO",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1qp4euj/warning_do_not_buy_from_inmo/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit25",
+      "snippet": "Is there any way to reposition (like bottom right) and resize the display screen in these glasses?[Thursday August 06 2026] [+2 votes] ... https://github.com/vodacthe/smart\\_companion/tree/main ...",
+      "title": "Inmo air 3 and iphone",
+      "url": "https://www.reddit.com/r/inmoxr/comments/1vhh5hj/inmo_air_3_and_iphone/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit26",
+      "snippet": "My inmo air3 comes with a ring and touchpad, glasses, and a neckband. ... Inmo is a company intentionally cheating its customers.",
+      "title": "I'm looking to sell my Inmo Air3",
+      "url": "https://www.reddit.com/r/inmoxr/comments/1srv2z0/im_looking_to_sell_my_inmo_air3/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit27",
+      "snippet": "I've tried adjusting the glasses to fit but the blur remains. ... Why do the 3s air work perfect for me but the 4's don't?",
+      "title": "3s air vs 4 pro",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1rk2bc0/3s_air_vs_4_pro/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit28",
+      "snippet": "It is true that some INMO Air3 units were recalled due to overheating issues, and we have provided proper after-sales handling for all users whose",
+      "title": "🚀 INMO AIR3 OTA Update Highlights",
+      "url": "https://www.reddit.com/r/inmoxr/comments/1x1b78y/inmo_air3_ota_update_highlights/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit29",
+      "snippet": "INMO Air3 looks like that and it is wireless ... Hardware gets all the attention with new glasses, but the software is what would make",
+      "title": "INMO FUTURE — The Consumer-Grade Spatial Smart Glasses.",
+      "url": "https://www.reddit.com/r/inmoxr/comments/1x7gpyd/inmo_future_the_consumergrade_spatial_smart/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit30",
+      "snippet": "today's Rokid Open Day 2026 event, the new AR glasses were officially unveiled, supporting electrochromic lenses, 6DoF (6 Degrees of Freedom), and a 58° FoV",
+      "title": "Rokid New product",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1ug7hva/rokid_new_product/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn14news31",
+      "snippet": "What's a little odd is that these glasses aren't available on Amazon.com, when almost everything else RayNeo makes is. ... Previously, with the Air 3s",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/oMrEcfYwmOlck7tqsJi5svllO63x6jtkAwvKb0ObvMSNX7BxpNbfEpKVSazhszcjSki8s36WVx1ozotJ-FEXcYmHtlCM-H2U1TyhYTBf-lHmWKtrMY0VTFe8ZM6S-7KF",
+      "title": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use",
+      "url": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn14news32",
+      "snippet": "I used RayNeo's X3 Pro for a month — these AR glasses are futuristic, but there's a big problem ... As a result, the glasses",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/dT5Dj-hAlphYMS4LbspbBgM1IO_ye9b8KV-EwFoptKDkTRH7kotHppsW9oFZxxImv0Zgp6hPz8I0xBRXSTNe9dBCK9H31ZQA6J_gL5cqga2hiZijTOT8IP0wdUyt4cz-",
+      "title": "I used RayNeo's X3 Pro for a month - these AR glasses are futuristic, but there's a big problem",
+      "url": "https://www.androidcentral.com/wearables/i-used-rayneo-x3-pro-for-a-month-these-ar-glasses-are-futuristic-but-theres-a-problem"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn14news33",
+      "snippet": "RayNeo Air 3s Pro review: Getting my mind to adjust to the 201-inch screen simulation took a while - but once it did, these display",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/V7ksVxU5J-dQqc5WRR76ef3LPH3wFYTNrgDSPR4EEIWuV_yrME1XY4rGr9D2nGQEgZ00Bw44z28XrWEq5cqXc8R2hol83PHPtZKAYyLLj2FHNYsWL9nU2DyHQZIlsK5G",
+      "title": "RayNeo Air 3s Pro review: Getting my mind to adjust to the 201-inch screen simulation took a while - but once it did, these display glasses proved impressive",
+      "url": "https://www.techradar.com/pro/rayneo-air-3s-pro-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn14news34",
+      "snippet": "But even by that standard, the vibes are way off with TCL's RayNeo X3 Pro AR Smart Glasses. ... They're comfortable to wear, a lot",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/8RCqgXFS_BfmN1evwlbzfAzKIbAcHK1TgQrtgoXLRoDVmpL_8iWueoezF1pOMAP9JD9tjzPpc623hrF-ZGhg9fAk23hz-3Lb0DWuV43CH782fjqzEOmKGf5R3p6Sq0ph",
+      "title": "I wore the most advanced smart glasses for two months - the tech is futuristic, but the look is not",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/tcl-rayneo-x3-pro-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.t3.com",
+      "ref_id": "turn14news35",
+      "snippet": "Building on the foundations laid by the company's previous products, including RayNeo Air 2 XR glasses, the Air 4 Pro smart glasses are designed as",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/CxKHduRpg4w6osQk7ensdbz8a7ulkvUzPmg_DGg7VCt5oCjP0Ms4PNd9hPxPWuxNkzkFEIyd5wtHrpy4PknTlnreCLi6fTDG7DbJ5rNEnKtX7pHzZc8KcD2yOPEn7zwc",
+      "title": "RayNeo just pulled off a world first for AR glasses",
+      "url": "https://www.t3.com/tech/rayneo-air-4-pro-launch"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn14search36",
+      "snippet": "* \"ENGO's Lite AR tech \"ActiveLook\" Now Powers American Magic's Pursuit o | Engo Eyewear\". engoeyewear.com. ... \"Ray-Ban Meta Glasses Review 2025: Are AI-Powered Smart",
+      "title": "Smartglasses",
+      "url": "https://en.wikipedia.org/wiki/Smartglasses"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_2b73c7045b87498aa3ac3e6ec49ede5d",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ed435042-cdf4-4183-9d3b-a5c1ddb9577d",
+  "query": "https://global.rokid.com/collections/rokid-ar-glasses-series",
+  "action": {
+    "type": "openPage",
+    "url": "https://global.rokid.com/collections/rokid-ar-glasses-series"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn18view0",
+      "snippet": "Total lines: 663",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/hz946Qu3p82trFC6jHVP3znm7IlUWiwZ931VAfcXSzBjjO3HyOQ3LT-S6KFsXfl3q1NkMbQA4BCTobauAfXdtVr2tUEypyEnTZpQ5FId9P4-AUMcjR4ZrAOha5dKOy7h",
+      "title": "Rokid AR Glasses Series | Portable Smart Display Glasses",
+      "url": "https://global.rokid.com/collections/rokid-ar-glasses-series"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn18view1",
+      "snippet": "Total lines: 742",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/g7YyU0-NFRmbBvffERtRoPzrFQuEpHJcQOQlVE58jBhwKxne-2UOMJ0XDPnoA8PkWIM8Xfw74Y6pIL_-DM-2OY0LXLwuyDpGL_j-vwdUF_yGoixvRQsjiKhBsQ9ozXyJUoM9C6SYIw6N9GJrxlTjiA",
+      "title": "RayNeo Shop | Official AR Glasses, Bundles & Accessories - RayNeo",
+      "url": "https://www.rayneo.com/pages/rayneo-shop"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn18view2",
+      "snippet": "Total lines: 225",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/cyK4B7Q-g3XRXrYCIkb44BvG5-RRN96JDwvPb5xrB0Y1XGo3xHwC7phQpH-w5Ns5EUueaapz8fK_494Tjygln-E2MiKi3viWLuNSd2pPzN73ypYcjpXxycdIPlw64lrm",
+      "title": "INMO Official Website | AI & AR Glasses | Never just glasses",
+      "url": "https://www.inmo.com/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1af1dc02-6d28-42a5-9812-ce8ed6b1e5a4",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn21view0",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn21view1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn21view2",
+      "snippet": "Total lines: 920",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/w9JdOQR7kZh8Eq7zwI5iE-eVeRrWl5WUr8v20qAd6e9sN5c9zpINdqTubXV-xBr4vDU-EvP7fgFDS5AlH0aqvkBaFj8gQOKHc-hk_mgwt700z5SYEbrQoL_gVJADBUg-",
+      "title": "Rokid AI Glasses & AR Glasses | Official Store",
+      "url": "https://global.rokid.com/cart/44984888033459%3A1"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn21view3",
+      "snippet": "Total lines: 918",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/5N9P3Xq5MIPiYRlEEnGL1D4fmg5Cg-JplKacd-F8mejQqqE0fh2Q843wlJ-wgGzA4PCvCRfcMSe0O3VevtE2wtVZLp-3VNk-R1B6hziiPz6tbhZ9p0pppjDdnLqUtUrY",
+      "title": "Rokid AI Glasses & AR Glasses | Official Store",
+      "url": "https://global.rokid.com/cart/45032232648883%3A1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn21view4",
+      "snippet": "Total lines: 633",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ue01zBFa2KrdPyF4DAc7sLJfnSU0Ji7qJmO9wrafMTNP5t7Ww-bje4wEqbY_HYNaX08vpG5KueTiESVScEl7xf9Aa5EIGDjdtDSWyf7Ovfyw2yIiHOgpo1KLJzG0kWio",
+      "title": "INMO GO3 AI Glasses | Translation & Hands-Free AI | Smart Teleprompter Glasses | INMO Official Website",
+      "url": "https://www.inmo.com/pages/inmo-go3-ai-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn21view5",
+      "snippet": "Total lines: 236",
+      "title": "Magic AI Glasses J | AI Glasses Designed by Jackson Wang | INMO Official Website",
+      "url": "https://www.inmo.com/pages/magic-ai-glasses-j"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d5be2037-53d0-4762-a8e1-9446910f6d3e",
+  "query": "site.rokid.com \"Glasses\" \"640\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com \"Glasses\" \"640\"",
+      "site.rokid.com \"Style\" \"12\"",
+      "site.rayneo.com \"X3 Pro\" \"Specifications\"",
+      "site.inmo.com \"GO3\" \"Specifications\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.tomshardware.com",
+      "ref_id": "turn24search0",
+      "snippet": "# RayNeo X3 Pro AR glasses review: Intriguing, high-priced glasses with alarming battery life ... ## Specifications",
+      "title": "RayNeo X3 Pro AR glasses review: Intriguing, high-priced glasses with alarming battery life | Tom's Hardware",
+      "url": "https://www.tomshardware.com/peripherals/wearable-tech/rayneo-x3-pro-ar-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn24search1",
+      "snippet": "Diagram Description: A visual representation of the INMO GO3 glasses, highlighting the location of the camera, touchpad, microphones, speakers, indicator light, power button, GO button,",
+      "title": "INMO GO3 AI Smart Glasses: Quick Start Guide, Specifications, and Safety Information",
+      "url": "https://manuals.plus/m/f070e74e22a5650f5f9ce3c6da6a3d0967ad191e909cf2edcb2b2583128f7871"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrarwiki.com",
+      "ref_id": "turn24search2",
+      "snippet": "Website | https://www.rayneo.com/products/x3-pro-ai-display-glasses ... RayNeo's specifications are 640 x 480 pixels per eye, 16.77 million colors, an average brightness of 3,500 nits and a peak",
+      "title": "RayNeo X3 Pro - VR & AR Wiki - Virtual Reality & Augmented Reality Wiki",
+      "url": "https://vrarwiki.com/wiki/RayNeo_X3_Pro"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn24search3",
+      "snippet": "Feature | Air 4 Pro | X3 Pro",
+      "title": "The Complete AR Glasses Buying Guide: 7 Essential Factors for First-Ti - RayNeo",
+      "url": "https://www.rayneo.com/blogs/news/the-complete-ar-glasses-buying-guide-7-essential-factors-for-first-time-buyers-4"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn24search4",
+      "snippet": "A practical English reference for Model IMG301 Reference edition prepared in July 2026 from the INMO GO3 Function Tutorial and official INMO product materials. ...",
+      "title": "INMO GO3 English User Guide",
+      "url": "https://manuals.plus/m/b4da04007222128dfdb1d9010abcf4ae975c199c646cc25ff1f7485eae65c402"
+    },
+    {
+      "type": "text_result",
+      "domain": "shop.cnps.ai",
+      "ref_id": "turn24search5",
+      "snippet": "* Image: INMO GO3 AI Smart Glasses | 53g MicroLED AR Glasses with AI Translator, Hot-Swap Battery & Camera ... ### Specifications at a Glance",
+      "title": "INMO GO3 AI Smart Glasses with Translation | CNPS.AI",
+      "url": "https://shop.cnps.ai/products/inmo-go3-ai-smart-glasses-53g-microled-ar-glasses-with-ai-translator-hot-swap-battery-camera"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bhphotovideo.com",
+      "ref_id": "turn24search12",
+      "snippet": "Specifications ... Gafas AR RayNeo x 1 Gamuza limpiadora x 1",
+      "title": "X3 Pro 说明书 国内版_英西法德意日繁",
+      "url": "https://www.bhphotovideo.com/lit_files/1293361.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn24search6",
+      "snippet": "#### Specifications ... Optical Engine | RayNeo Self-Developed Micro LED Fireﬂy Optical Engine (FOV 30°) ... The digital apparatus complies with Canadian CAN ICES‐3 (B)/NMB‐3(B).",
+      "title": "RayNeo X3 Pro Ai Glasses User Manual - Manuals+",
+      "url": "https://manuals.plus/rayneo/x3-pro-ai-glasses-manual"
+    },
+    {
+      "type": "text_result",
+      "domain": "unboundxr.fr",
+      "ref_id": "turn24search7",
+      "snippet": "# RayNeo X3 Pro",
+      "title": "RayNeo X3 Pro | Unbound XR",
+      "url": "https://unboundxr.fr/rayneo-x3-pro"
+    },
+    {
+      "type": "text_result",
+      "domain": "fccid.io",
+      "ref_id": "turn24search13",
+      "snippet": "The EUT is a INMO Operation | GO3 2402~2480 MHz --- | --- The EUT is a INMO Frequency: | GO3 None The EUT is",
+      "title": "Measurement Report",
+      "url": "https://fccid.io/m/af38c86a032dd14e2ae7aa883bffb27191279f61195518c5d0108f4fde528c41.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartwearguide.com",
+      "ref_id": "turn24search8",
+      "snippet": "INMO GO3 specifications Manufacturer product documentation INMO current bundle listings Manufacturer store",
+      "title": "INMO GO3 - SmartWearGuide",
+      "url": "https://smartwearguide.com/devices/inmo-go3/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartglasses.fyi",
+      "ref_id": "turn24search9",
+      "snippet": "GO3's official specifications do not state a camera resolution; AI Watch's review reports 8 megapixels. ... INMO GO3 | Two 270 mAh batteries included |",
+      "title": "INMO GO3 review: a week of strengths and frustrations—start with the glasses — SmartGlasses.fyi",
+      "url": "https://smartglasses.fyi/en/journal/inmo-go3-review/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn24search10",
+      "snippet": "RayNeo X3 Pro is built with a Triple Mic and Dual Speaker audio configuration, which is published in RayNeo's product and retail specifications rather than",
+      "title": "Camera Glasses Connectivity and App Compatibility Guide - RayNeo",
+      "url": "https://www.rayneo.com/blogs/news/camera-glasses-connectivity-app-compatibility"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn24search11",
+      "snippet": "## Follow Rokid Glasses and explore the word#Rokid #aiglasses #SmartGlasses #explore #HandsFree ... The display specification is dual monochrome green Micro-LED, 480 x 640 per",
+      "title": "1.1 Glasses Introduction – Rokid",
+      "url": "https://global.rokid.com/ja-jp/blogs/academy-glasses/glasses-1-1-overview"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digas.gr",
+      "ref_id": "turn24search14",
+      "snippet": "N ’GO3 ... General Specifications",
+      "title": "Breaking the rules",
+      "url": "https://www.digas.gr/image/catalog/pdf/ngo3___fitxatecnica_en.pdf?srsltid=AfmBOopd9hd9A2ODgxp_m5udo-M_DRZYuGWL6kYhW56QLYuFxuV6Zm2c"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn24search15",
+      "snippet": "Rokid Glasses ... 640*400",
+      "title": "\\ \\ \\ \\ \\ \\ \\ \\",
+      "url": "https://manuals.plus/m/a940ef359c05fc995b56625df0525dd84414e3b2c4ec5b8e8a4464166d7600e7.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "kaiyi-go.com",
+      "ref_id": "turn24search16",
+      "snippet": "X3 PRO EV Vehicle Specification Key Dimensions | Value --- | --- Vehicle Specification Overall Length x Width x Height (L x W x H)",
+      "title": "INTELLIGENT",
+      "url": "https://kaiyi-go.com/wp-content/uploads/2025/05/X3-PRO-EV-99kW-Final.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rxelectronics.jp",
+      "ref_id": "turn24search17",
+      "snippet": "The X3 Pro premium true wireless sport earbuds are for people who never want to stop moving. ... **SPECIFICATIONS:**",
+      "title": "Microsoft Word - DESCRIPTION_TREBLAB X3-Pro",
+      "url": "https://www.rxelectronics.jp/datasheet/66/x3-pro-w.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn24reddit18",
+      "snippet": "I have a little-to-no information about RayNeo X3 Pro full specifications yet they went bold to say it far better than most smart glasses.",
+      "title": "What is RayNeo X3 Pro try to achieve? Does it work well in daily use or just a pure gimmick?",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1p0x6qv/what_is_rayneo_x3_pro_try_to_achieve_does_it_work/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn24reddit19",
+      "snippet": "I have a little-to-no information about RayNeo X3 Pro full specifications yet they went bold to say it far better than most smart glasses.",
+      "title": "What is RayNeo X3 Pro try to achieve? does it work really well or just a pure gimmick?",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/1p14fxm/what_is_rayneo_x3_pro_try_to_achieve_does_it_work/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn24reddit20",
+      "snippet": "I bought the RayNeo X3 Pro just after it went on sale. ... Despite the product not reflecting its described specifications, RayNeo's refund policy -",
+      "title": "Cautionary Tale for RayNeo X3 Pro",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1q5m559/cautionary_tale_for_rayneo_x3_pro/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn24reddit21",
+      "snippet": "# Technical Specifications (Hardware) ... * **RayNeo X3 Pro:** Thanks to the display positioning and cameras, it aims for **face-tracking translation**.",
+      "title": "Critical Comparison: RayNeo X3 Pro vs. Even Realities G2",
+      "url": "https://www.reddit.com/r/virtualreality/comments/1p4bapc/critical_comparison_rayneo_x3_pro_vs_even/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn24reddit22",
+      "snippet": "I am hoping to hear comments regarding factual differences between the various glasses (e.g. differences in specifications and functionalities), opinions from owners and potential buyers,",
+      "title": "Which AR/AI glasses for Christmas/Holiday gift?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1p0g1ow/which_arai_glasses_for_christmasholiday_gift/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn24news23",
+      "snippet": "RayNeo X3 Pro: Specifications",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/oQoyAPHviE3y3srxGYh8pzSVRu86-lYqpBZj08QL8xNDVVEdBmXB3spOJtuRIVRtGJ_k0Y5AFPhX4m9xU9_ETbzjPeAmhrpmyIaZ3Hm150h8Bs-JtorTy8D1V98lZ7LS",
+      "title": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use",
+      "url": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn24reddit24",
+      "snippet": "Obviously I'm probably comparing apples to blueberries here but I wanna clear up my confusion hahah, the IO look amazing though, if it had the",
+      "title": "Inside the Hardware & AI: A RayNeo AMA with GT & iO Product Managers",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1w7685v/inside_the_hardware_ai_a_rayneo_ama_with_gt_io/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-48a84cf4-a33e-44c1-bc35-6313d677d97b",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn27view0",
+      "snippet": "Total lines: 891",
+      "title": "RayNeo X3 Pro AI-Powered Smart Glasses - Best Smart Glasses with Camera - RayNeo",
+      "url": "https://www.rayneo.com/products/x3-pro-ai-display-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn27view1",
+      "snippet": "Total lines: 1578",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ti3WmODhdly6BvSSF0QcHNbiWCpe2D_NeyqKEVdyxikjAJbk3jBJdzqHr5lrGcL8uveSUvDMxTvdxKSH6pzKfykVEyPsFwEgWqwkVEYc-qs-sidUlwVs2PWz8v4wWGbjLojKhzkkajaF90kIxx-YqRcNLR7UfLQyQV5pZ7aSl9w",
+      "title": "RayNeo GT Max AR Glasses | 267\" Cinema for Movies & Gaming",
+      "url": "https://www.rayneo.com/products/rayneo-gt-max-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn27view2",
+      "snippet": "Total lines: 1471",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Wib8sttlUXwAmxz8p1sNbSQxdG3dUhT4N_9oorevNkQ5ZX9FKlfoHzvnOA6YqowSLTbeEvunKXTf_N-MHa5e5wrW9zY_IZ3tKjgk_C57oJ12Q7OHkeZHQFLeGgidB9hcmOtqaIMektlth07RLRQe6Q",
+      "title": "RayNeo GT AR Glasses | Native 3DoF for Travel & Daily Viewing",
+      "url": "https://www.rayneo.com/products/rayneo-gt-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn27view3",
+      "snippet": "Total lines: 1321",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/R8ym3bTwqVFT1oS1v98AlyyCkIX_KbgJEujZ5gqYZxvhccmRJt-YqGPuCH5HzdMEQL4tFFk3tCh6t8jtFI5TptL13EtI52Rqo5nCR5wG31_rSz-32hHBofrvAAbO3mDz5WWYwhNvSTo9Zjyly547Kg",
+      "title": "RayNeo iO AI Glasses | Smart Glasses with Invisible Display",
+      "url": "https://www.rayneo.com/products/rayneo-io-ai-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn27view4",
+      "snippet": "Total lines: 1090",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/SH03nmqPvtsl9rFy6zQIcwx1FhJzQZTNYk29JdP-g8FFwmEpbqc1qr0aWuKQfl2ux_XbpqnUlFFAGZ2shTRTbzJjLAiwWJXbjjJOrADDsfB09JvjCHdRTDNlRbSiFT1J",
+      "title": "Rokid AI Glasses Style | Smart AI Glasses with AI Assistance",
+      "url": "https://global.rokid.com/products/rokid-ai-glasses-style?variant=45179509997747"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn27view5",
+      "snippet": "Total lines: 592",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/hohJL4Y6C3nxkcAowauk_xYcbMsyp1SuCz5Wv0O2xi8oyjwa9TNs66rLnP9XVKgRFEPFwAh6_rF5_795sKkTXZYjmumT8GNDuN_0UCry924",
+      "title": "Rokid Max 2 AR Glasses | World's First Myopia Adjustment",
+      "url": "https://global.rokid.com/products/rokid-max-2-ar-glasses?variant=44984888033459"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn27view6",
+      "snippet": "Total lines: 1058",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/FOV-xZ62v5K9duxJ6ajJ2EBpQlo4XfSBZZg2oO8lKOM5CdlQkgqjWXKWA8M-SLYmcEsi-SmWZr7P5IfxxvAF-RCGzaBAyGUGVFWmp-lK4tsykcSWwszcM42HyiQbPZESNHClim0cUbyxhV5064CMW1N6WpmmSn_kKS4uBLbcFcA",
+      "title": "Rokid Glasses | World's Lightest AI & AR Glasses",
+      "url": "https://global.rokid.com/products/b-h-rokid-glasses-with-display?variant=46066446368947"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-43561865-8c45-4dc4-ab2e-6fe891d0bc37",
+  "query": "'Resolution'",
+  "action": {
+    "type": "findInPage",
+    "url": null,
+    "pattern": "Resolution"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn29view0",
+      "snippet": "Total lines: 1578",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/sZiuMdeuKISCT3hdl-ZmCjhLYOfuUgUAddCuMYWGkg-0b0R4w7JeoWK4XDQk_oYLJT_sYWJA_dfwj_vgvu21l-W73Ku8VSE2zVBDRBvjx9aWneCr403UciQTZcRPZtZcNlJuPKTMxyDorOo-DeN9cnpXmMA3ZOFR9br_k5E_6wA",
+      "title": "RayNeo GT Max AR Glasses | 267\" Cinema for Movies & Gaming",
+      "url": "https://www.rayneo.com/products/rayneo-gt-max-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn29view1",
+      "snippet": "Total lines: 1471",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/T-A6EoyWnXcx_kN_oGyeQfUA1yqcL8f_vF2AVew97y9WyI0K1gTJ-J2pKD8N7dOI9_taRStov3GIKtWGW5Ie04MDdSw2ejoxFD3pv4eOu7D1DpFBh9H5z0nmO6G2kvayhenOaH0FZ4puMDwVqk9LIQ",
+      "title": "RayNeo GT AR Glasses | Native 3DoF for Travel & Daily Viewing",
+      "url": "https://www.rayneo.com/products/rayneo-gt-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn29view2",
+      "snippet": "Total lines: 1321",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/eB-yCyDoEaqi29_V1gL0FyBPD4z2ARC1cRmvlodi-04to94dYU2KBpjAQQzbcpOp53pqT5S5wYJ-IBhBlaPdRWMsY60Xim3WGpK49TwiMM1Cl6gNvN_96511_AxeAdaT1Pz6QMnuawLVtdYECNpFiw",
+      "title": "RayNeo iO AI Glasses | Smart Glasses with Invisible Display",
+      "url": "https://www.rayneo.com/products/rayneo-io-ai-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn29view3",
+      "snippet": "Total lines: 1090",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/_XlJRN2dP-WAEgqARQP1_quPVzN3ugRSYAiJqGyNFGheczcnbh5CvwXhi1jVsinkXTtB1v5UtlH5xw-EOBGi5MoO12jDLKwK6IkgSIsJmekuCCVAwKwjPCkxoZaxDjfN",
+      "title": "Rokid AI Glasses Style | Smart AI Glasses with AI Assistance",
+      "url": "https://global.rokid.com/products/rokid-ai-glasses-style?variant=45179509997747"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn29view4",
+      "snippet": "Total lines: 592",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/kI-pnFJ-tcsZ6drzAR9kY-p4Tu7nRV-_9PrPFGdifFl095hYLzw_uP8oAqXG0ldUPirJR7-h0WGJQqw9WhwuBKCD26fQuIS4OZlvElZVQFo",
+      "title": "Rokid Max 2 AR Glasses | World's First Myopia Adjustment",
+      "url": "https://global.rokid.com/products/rokid-max-2-ar-glasses?variant=44984888033459"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn29view5",
+      "snippet": "Total lines: 1058",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/gqyjdiOLb5Eo05FxNT5sPzVsBcYHA03JadQ6PCpAt07vyvuKA-qr4ib8H3ipbzq7PVX3IBnMTyhOdlvda505THZByDqpPriRS8HitvI4xMqcwO-zePc26wxIFc6n5WphB2l_-XrvSKhq5W0_N1mQU5RXnCFtr_yjxCxTdBIR5RY",
+      "title": "Rokid Glasses | World's Lightest AI & AR Glasses",
+      "url": "https://global.rokid.com/products/b-h-rokid-glasses-with-display?variant=46066446368947"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn29view6",
+      "snippet": "Total lines: 633",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/VmEZDukeQiBWB99Wf_HxOeU-QfIIKKmIuerhvUncbk-1EKx1Ohb799a2T8Q2PaVPW_aq_EFeTnsccm-rNte_5VwABFAwA569HUBht_ozSv1LutWvohJD8ZmBxzX0SCz4",
+      "title": "INMO GO3 AI Glasses | Translation & Hands-Free AI | Smart Teleprompter Glasses | INMO Official Website",
+      "url": "https://www.inmo.com/pages/inmo-go3-ai-glasses"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-8d8ebdb7-5c9c-4b94-b716-ee06fb81cc96",
+  "query": "site.alibaba.com/product-detail \"Rokid\" \"Glasses\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.alibaba.com/product-detail \"Rokid\" \"Glasses\"",
+      "site.alibaba.com/product-detail \"RayNeo\"",
+      "site.alibaba.com/product-detail \"INMO\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.alibaba.com",
+      "ref_id": "turn32search0",
+      "snippet": "# Rokid Smart Glasses AI Display AR Real-Time Translation Photo Video Exam Prompter Black ... ### Alibaba.com order protection",
+      "title": "Rokid Smart Glasses Ai Display Ar Real-time Translation Photo Video Exam Prompter Black - Buy Product on Alibaba.com",
+      "url": "https://www.alibaba.com/product-detail/Rokid-Smart-Glasses-AI-Display-AR_1601780559671.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae01.alicdn.com",
+      "ref_id": "turn32search12",
+      "snippet": "Rokid Glasses 智能眼镜使用说明书",
+      "title": "Rokid Glasses 智能眼镜使用说明书",
+      "url": "https://ae01.alicdn.com/kf/Sca60ced8be924acba5fb4d81b0dd01c6C.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.9ji.com",
+      "ref_id": "turn32search1",
+      "snippet": "乐奇 ROKID Glasses AI智能眼镜 灵伴科技 黑色",
+      "title": "乐奇 ROKID Glasses AI智能眼镜 灵伴科技 黑色 乐奇 ROKID Glasses AI智能眼镜 灵伴科技 黑色 报价_参数_怎么样-九机",
+      "url": "https://m.9ji.com/product/rush/896770"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.alibaba.com",
+      "ref_id": "turn32search2",
+      "snippet": "100%Rokid Air Smart Glasses Foldable Portable 3D Movie Watching Game Portable AR Head Mounted Display Device Monitor All-in-One",
+      "title": "Alibaba.com: Rokid Air Smart Glasses, Foldable Portable AR Device, 3D Movie & Game Support : Electronics",
+      "url": "https://www.alibaba.com/product-introduction/100-Rokid-Air-Smart-Glasses-Foldable_1600484720108.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hktdc.com",
+      "ref_id": "turn32search3",
+      "snippet": "Rokid Glasses",
+      "url": "https://www.hktdc.com/event/hkelectronicsfairae/en/product/1Z03NS42Q"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn32search4",
+      "snippet": "### RayNeo Sound Tube for GT / GT MAX",
+      "title": "Products - RayNeo",
+      "url": "https://www.rayneo.com/collections/all"
+    },
+    {
+      "type": "text_result",
+      "domain": "store.rokid.com",
+      "ref_id": "turn32search5",
+      "snippet": "### Rokid Glasses Clip On Sunglasses",
+      "title": "All",
+      "url": "https://store.rokid.com/collections/all"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.maigoo.com",
+      "ref_id": "turn32search6",
+      "snippet": "# INMO",
+      "title": "INMO品牌介绍-INMOAR眼镜-买购APP",
+      "url": "https://www.maigoo.com/brand/4117065.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.alibaba.co.uk",
+      "ref_id": "turn32search7",
+      "snippet": "# Smart Ar Glasses Headband Augmented Reality Display 3D Video Glasses Max AR Glasses ... Rokid Max",
+      "title": "Smart Ar Glasses Headband Augmented Reality Display 3d Video Glasses Max Ar Glasses - Buy Product on Alibaba.com",
+      "url": "https://www.alibaba.co.uk/product-detail/Rokid-Smart-Ar-Glasses-Headband-Augmented_1600555301061.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.alibaba.com",
+      "ref_id": "turn32search8",
+      "snippet": "Rokid Glass 2 Foldable AR Glasses Industry Application Version Security Industry Exhibition and Other Industries Are Available$799-800 MOQ: 1 Delivery by Jun 18 4.9/5.0 (37",
+      "url": "https://www.alibaba.com/pla/Rokid-Glass-2-foldable-AR-glasses_1600496530630.html?biz=pla&mark=google_shopping&product_id=1600496530630&searchText=ar+hardware"
+    },
+    {
+      "type": "text_result",
+      "domain": "mall.jd.com",
+      "ref_id": "turn32search9",
+      "snippet": "ROKID Glasses〖新品〗",
+      "title": "ROKID凝丰专卖店品牌介绍 - 京东",
+      "url": "https://mall.jd.com/introduction-12287159.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.scmp.com",
+      "ref_id": "turn32search10",
+      "snippet": "Rokid, a Chinese maker of augmented reality (AR) glasses, is set to launch its latest AR Spatial eyewear globally through Alibaba Group Holding’s AliExpress e-commerce",
+      "title": "Chinese AR glasses maker Rokid prepares for global launch on AliExpress during 618 event | South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3313482/chinese-ar-glasses-maker-rokid-prepares-global-launch-aliexpress-during-618-event?pgtype=topic"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae-pic-a1.aliexpress-media.com",
+      "ref_id": "turn32search13",
+      "snippet": "this magnetic eyeglass frame is a practical accessory for Rokid Visual Glasses.",
+      "title": "PRODUCT MANUAL",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa99b6b5739284af18e12ad96ea83e06aX.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.broadwaylifestyle.com",
+      "ref_id": "turn32search11",
+      "snippet": "# Rokid AI Glasses (BK)",
+      "title": "Rokid AI Glasses (BK) – Broadwaylifestyle - Global",
+      "url": "https://global.broadwaylifestyle.com/products/rokid-ai-glasses-bk"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit14",
+      "snippet": "Right now I am in China for business stuff and decided to buy Rokid AI glasses (with the green screen).",
+      "title": "Buying AI glasses in China (October 2026)",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xezt06/buying_ai_glasses_in_china_october_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "alegerglobal.com",
+      "ref_id": "turn32search15",
+      "snippet": "LARGE FOV AR GLASSES ... Contact us at glass@rokid.ai Website: www.rokid.com/en",
+      "title": "Microsoft Word - CS2 Catelog_V2.docx",
+      "url": "https://alegerglobal.com/wp-content/uploads/2021/11/Rokid-Industry-Catalog.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thewirechina.com",
+      "ref_id": "turn32search16",
+      "snippet": "Rokid manufactures AI and augmented reality (AR) glasses. ... Alibaba’s Quark AI Glasses",
+      "title": "Artboard 1 copy",
+      "url": "https://www.thewirechina.com/wp-content/uploads/2026/05/Company-in-the-News-Rokid.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit17",
+      "snippet": "* Tencent WorkBuddy and Alibaba Qoder integrations ... I'm considering ordering the new Rokid Glasses 2 directly from JD.com and having them shipped to Estonia",
+      "title": "Rokid Glasses 2 officially launched! ¥3,699 (~€498 / ~$555), better optics, 25% longer battery life and new AI features",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xgr2nh/rokid_glasses_2_officially_launched_3699_498_555/"
+    },
+    {
+      "type": "text_result",
+      "domain": "fccid.io",
+      "ref_id": "turn32search18",
+      "snippet": "| 交互指示灯 Interaction Indicator Lights 丨 操作状況指示ランプ 丨 Interaktionsindikatorlicht 蓝牙配对状态 消息通知 开机 指示灯蓝色呼吸 手机接受到新消息通知指示灯绿色呼吸两次 指示灯白色呼吸至熄灭 眼镜功能使用中「导航、录音、录像、拍照、翻译等」 关机 指示灯白色长亮 指示灯白色呼吸至熄灭 电话接听功能 AI助手状态 充电状态 来电",
+      "title": "RV203 使用说明折页 V1.7-压缩",
+      "url": "https://fccid.io/m/60028b3877a54049e3bc810d77f39c1955a3a40e421e4fe84468ca233d068b30.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "fcc.report",
+      "ref_id": "turn32search19",
+      "snippet": "Rokid Glass RG201 is the smart AR glasses with the foldable and light-weight design, the AI-powered edge computing center, the clear and sharp AR display",
+      "title": "08·13二代眼镜说明书英文版",
+      "url": "https://fcc.report/FCC-ID/2AW2RRG201/4865589.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit20",
+      "snippet": "**Qwen by Alibaba:** These were the glasses I found most often, likely present in every mall I visited. ... When I asked salespeople which glasses",
+      "title": "Smart Glasses Retail Report Shenzhen — What I saw this week 𝗣𝗮𝗿𝘁 𝟭",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1vcw32z/smart_glasses_retail_report_shenzhen_what_i_saw/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit21",
+      "snippet": "https://global.rokid.com/products/rokid-glasses",
+      "title": "Selling brand new Rokid Ai glasses with display",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1wv3xqj/selling_brand_new_rokid_ai_glasses_with_display/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit22",
+      "snippet": "There are two main versions of Rokid AI Glasses:",
+      "title": "[Rokid AI Glasses Version Overview] Mainland China Version, International (Global) Version, Founder Version.",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1wtry3v/rokid_ai_glasses_version_overview_mainland_china/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit23",
+      "snippet": "Yes, I did end up selling the glasses, lenses, and charging case. ... Rokid then offered me a pathetic **$15 refund** for a product I",
+      "title": "How to actually buy the new Rokid Display Glasses?",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1u0u5gr/how_to_actually_buy_the_new_rokid_display_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit24",
+      "snippet": "Selling my Rokid Al display glasses bought from kickstarter.",
+      "title": "FS USA ROKID AI GLASSES",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1w9co2i/fs_usa_rokid_ai_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit25",
+      "snippet": "With this level of technology and market support, I honestly wouldn’t be surprised if Rokid eventually manages to surpass Meta’s display glasses.",
+      "title": "full color AI Glasses ? AR ？OR ?",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1wmt9lu/full_color_ai_glasses_ar_or/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit26",
+      "snippet": "Funny enough — I bought my **Rokid glasses** from a **Kickstarter backer** and had to pay them the *customs fee* for both the glasses *and*",
+      "title": "Rokid AI accessories review: Power capsule (2x capsules 1x case) and Metal Alloy Pill charging case and some QoL accessory ideas you should look into for daily use comfortably",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1rqq5uo/rokid_ai_accessories_review_power_capsule_2x/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit27",
+      "snippet": "Furthermore, you will most likely not be able to use them with the \"Hi Rokid\" app, they probably simply won't pair with those Glasses so",
+      "title": "Display Glasses",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1qk8rct/display_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit28",
+      "snippet": "https://global.rokid.com/products/rokid-ai-glasses-style-prescription-lens",
+      "title": "Got my Rokid AI sunglass clip ons.",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1r9xk1j/got_my_rokid_ai_sunglass_clip_ons/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn32reddit29",
+      "snippet": "Rokid, a pioneer in augmented reality (AR), today launched Rokid Glasses, its latest AR device.",
+      "title": "This is how you can pay with Rokid Glasses and Alipay",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1levn63"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn32news30",
+      "snippet": "Above is a compilation of a few short clips captured with the Rokid AI Glasses Style using the camera's native 2.5K 30fps 3:4 mode.",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/-FbQgjM8Q8xM3T2LrmCdKEz54sX4LZ917Auo68ly4hg2yDvB7AQfvS67ptG4HuGUzVWJQliBYsMwAmHnJ4Ry7K-4jiwrURlG26-_rAzwsCte0zxStnTXxWh1hsWK-ZQC",
+      "title": "Rokid AI Glasses Style review: could these smart glasses dethrone Meta's Ray-Bans?",
+      "url": "https://www.digitalcameraworld.com/cameras/digital-cameras/rokid-ai-glasses-style-review-could-these-smart-glasses-dethrone-metas-ray-bans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn32news31",
+      "snippet": "Razer has just unveiled its Motoko headphones at CES - an audio-first wearable that can \"see\" the world around you but communicate entirely through voice",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/3eu8Al3STTeM4rzuVvGsXz3IifM2KUNndS_EAoRDQw7xRgW5dtu2xsd_lqdWj1RDFi8fbb1JnmwSBrVltlX_SH8h4nIMMRSJp1MCRTZEahYLiqWcbY5SKP92Y-vgGqMF",
+      "title": "Rokid's new AI glasses are lighter, cheaper, and ready to challenge Meta's Ray-Bans",
+      "url": "https://www.techradar.com/ai-platforms-assistants/rokids-new-ai-glasses-are-lighter-cheaper-and-ready-to-challenge-metas-ray-bans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn32news32",
+      "snippet": "I used the Rokid AI Glasses Style for a month, wearing them on days it was bright enough to use sunglasses and not look too",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/VcVdKVlxswFlYeCwzPb1R5BZO7y-q89gbK9eWwrCpTNknSozNEaQUYuOAE0qCT_TkpB7TPIybOw49hPqUQVBDIlt-uPFUpXUzg3-Y5dA-kDcvm5d9VGtDcc0a2_6dk3U",
+      "title": "I've spent a month with the Rokid AI Glasses Style: they're excellent smart glasses let down by an ugly design",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/ive-spent-a-month-with-the-rokid-ai-glasses-style-theyre-excellent-smart-glasses-let-down-by-an-ugly-design"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn32news33",
+      "snippet": "I traveled 5,000 miles with Rokid Glasses — this Meta Ray-Ban Display rival impressed me ... You may remember I tested an early version of",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/-YluQ2RqnZ3Os1xIq3vVerSFUmmHUEzENMdl4pXYKsvz_rTZjjAtZ77AlcFGDovH_ujvlNoF3JmPl0iQ7JSRWdU2Rgakg_nxyMh4pA3jr4xgKBq5g1gg_CwS5BaVtnRQ",
+      "title": "I traveled 5,000 miles with Rokid Glasses - this Meta Ray-Ban Display rival impressed me",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/rokid-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn32academia34",
+      "snippet": "Title: INMO: A Model-Agnostic and Scalable Module for Inductive Collaborative Filtering",
+      "title": "INMO: A Model-Agnostic and Scalable Module for Inductive Collaborative Filtering",
+      "url": "https://arxiv.org/abs/2107.05247"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn32news35",
+      "snippet": "[Image 0: Two pairs of Rokid smart glasses, one with black frames and dark lenses and another with translucent grey frames and orange lenses, are",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/eoVcJLkkyOx6S5bXu0R3i24WvPrR2CuRrHyTVoJIpeDHF_AdKSZfwjBA06ZpQ5_kow7Hf8Nh5JkcjVkx50NWuSBo3JhMIYC5PLp3zrkYEgyiw5_oiMn1DfJDhTGaOsK5",
+      "title": "These new AI smart glasses could actually make sense for photographers (and they're cheaper than RayBans)",
+      "url": "https://www.digitalcameraworld.com/tech/these-new-ai-smart-glasses-could-actually-make-sense-for-photographers-and-theyre-cheaper-than-raybans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn32news36",
+      "snippet": "While the Rokid AI Glasses Style do a good job of not trying to do too much and still look like regular sunglasses, and they",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/LloO26HAGlpY50ncxFO1vNH0J4auCdOT43hB6_-PDbs0YINrN5fEEvR5xkQT7Qs8qrt8zUf745lb-SNiFPwnvBDpGbD_DRo8Mgro3PYJtA-3yEbIE4ub-e72uiWf-Ofp",
+      "title": "I wore the most popular Ray-Ban Meta alternatives for a month - and they're a lot better than I expected",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/rokid-ai-glasses-style-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "open.rokid.com",
+      "ref_id": "turn32view0",
+      "snippet": "Total lines: 0",
+      "title": "Rokid open Platform",
+      "url": "https://open.rokid.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "open.rayneo.com",
+      "ref_id": "turn32view1",
+      "snippet": "Total lines: 1",
+      "title": "open.rayneo.com",
+      "url": "https://open.rayneo.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "developer.inmolens.com",
+      "ref_id": "turn32view2",
+      "snippet": "Total lines: 0",
+      "title": "INMO 开发者平台",
+      "url": "https://developer.inmolens.com/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1c87776e-f0f6-42b2-9b6e-716bcc4242b9",
+  "query": "Rokid CXR-S CXR-L SDK Android iOS GitHub ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Rokid CXR-S CXR-L SDK Android iOS GitHub",
+      "RayNeo X3 Pro Android SDK microphone camera Qualcomm developer",
+      "INMO AIR3 GO3 SDK developer APK Android"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.qualcomm.com",
+      "ref_id": "turn34search0",
+      "snippet": "RayNeo X3 Pro | RayNeo X3 Pro AI-Powered Smart Glasses - Best Smart Glasses with Camera ... Qualcomm Spaces Configuration Tool | Snapdragon Spaces Compatibility",
+      "title": "Get Started with RayNeo X3 Pro AR Development",
+      "url": "https://www.qualcomm.com/developer/project/get-started-with-rayneo-x3-pro-ar-development"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn34search1",
+      "snippet": "Applies to | Rokid AI Glasses Style (non-display) ... CXR-S or equivalent glasses-side SDK | Bidirectional phone/glasses bridge | Not qualified ... * `android-client:test19` application",
+      "title": "rokid-ai-glasses/docs/developer/sdk-and-cxr/README.md at main · aimindseye/rokid-ai-glasses · GitHub",
+      "url": "https://github.com/aimindseye/rokid-ai-glasses/blob/main/docs/developer/sdk-and-cxr/README.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "inmo.com.vn",
+      "ref_id": "turn34search2",
+      "snippet": "Image: Logo INMO cho Hoa Kỳ ### INMO GO3",
+      "title": "Tải ứng dụng & hướng dẫn – INMO | INMO Việt Nam",
+      "url": "https://inmo.com.vn/pages/manuals-downloads/"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn34search3",
+      "snippet": "# Rokid CXR-M SDK Documentation (Mobile-Side) ... * Android minSdk >= 28",
+      "title": "clawsses/docs/rokid-sdk/README.md at main · chen3856/clawsses · GitHub",
+      "url": "https://github.com/chen3856/clawsses/blob/main/docs/rokid-sdk/README.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn34search4",
+      "snippet": "The boot sequence follows Android init with Qualcomm BSP and Rokid customizations layered on top: ... Standalone app replacement | cxr-l/api-reference.md ... * Code examples",
+      "title": "GitHub - buildwithfenna/rokid-docs: Community-maintained documentation for Rokid AR glasses development. CXR SDK suite, YodaOS internals, hardware specs, and reverse-engineered references. · GitHub",
+      "url": "https://github.com/buildwithfenna/rokid-docs"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn34search5",
+      "snippet": "INMO Air 3 User Guide | Official user manual for the INMO Air 3 glasses ... Power on and complete Android setup ... Go to",
+      "title": "inmo_air_3_wiki/docs/setup-and-configuration.md at main · sam1am/inmo_air_3_wiki · GitHub",
+      "url": "https://github.com/sam1am/inmo_air_3_wiki/blob/main/docs/setup-and-configuration.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "marcinmiazga.com",
+      "ref_id": "turn34search6",
+      "snippet": "* SDK: CocoaPods `RGCxrClient` (see iOS chapters) ... The CXR-S SDK (Maven artifact `cxr-service-bridge`) lets Rokid glasses-side Android apps join the CXR protocol and work",
+      "title": "Introduction · CXR-L(EN) - Marcin Miazga",
+      "url": "https://marcinmiazga.com/cxr-l-sdk/introduction"
+    },
+    {
+      "type": "text_result",
+      "domain": "qgithub.com",
+      "ref_id": "turn34search7",
+      "snippet": "* CXR-L SDK (`com.rokid.cxr:client-l:1.1.2`，Maven) — 手机端与眼镜通信，内置 16KB 对齐 so，兼容 Android 16；v3.5 从 1.1.0 升级，pin cxr-service-bridge:1.0-20260715.121510-107 timestamped snapshot（与 1.1.2 POM 指向一致，区别于 relea",
+      "title": "GitHub - mdloverm/RokidLab: Rokid 眼镜配套手机应用：应用商店 / 乐奇 AI 助理 / 双向投屏 / ADB 工具 | Companion Android app for Rokid AR glasses: app store, AI assistant, screen mirroring, ADB tools · GitHub",
+      "url": "https://qgithub.com/mdloverm/RokidLab"
+    },
+    {
+      "type": "text_result",
+      "domain": "inmo.com.vn",
+      "ref_id": "turn34search8",
+      "snippet": "# Tài liệu INMO Air3 ... Phát triển Biết thêm về unity sdk INMO được phát hành trên github.",
+      "title": "Tài liệu INMO Air3 | Hỗ trợ INMO",
+      "url": "https://inmo.com.vn/support/air3/"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn34search9",
+      "snippet": "CXR-L SDK 是面向手机与 Rokid 眼镜协同的开发工具包。 ... CXR-L SDK 是面向手机与 Rokid 眼镜协同的开发工具包，帮助开发者在手机侧快速通过与Rokid AI APP 建立与眼镜侧应用的联动能力。",
+      "title": "GitHub - e7naq3y/CXR-L-SDK: CXR-L SDK 开发文档及示例 v1.0.1 · GitHub",
+      "url": "https://github.com/e7naq3y/CXR-L-SDK"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn34search10",
+      "snippet": "│ │ CXR-S SDK │ │ CXR-L SDK │ │ CXRService │ │ ... The CXR-M SDK is a developer toolkit for building mobile companion",
+      "title": "rokid-docs/README.md at main · buildwithfenna/rokid-docs · GitHub",
+      "url": "https://github.com/buildwithfenna/rokid-docs/blob/main/README.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn34search11",
+      "snippet": "This module uses the Android CXR-M 1.2.2 SDK (`com.rokid.cxr:client-m`) to connect directly to Rokid Glasses with Bluetooth and Wi-Fi P2P. ... Rokid's CXR-L integration uses",
+      "title": "xg-glass-sdk/devices/device-rokid/README.md at main · hkust-spark/xg-glass-sdk · GitHub",
+      "url": "https://github.com/hkust-spark/xg-glass-sdk/blob/main/devices/device-rokid/README.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit12",
+      "snippet": "Recently, Rokid has published a new **CXR-L SDK** (for Rokid Glasses) available for both Android and iOS.",
+      "title": "Authentication problem with CXR-L SDK (iOS)",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1tkh3ba/authentication_problem_with_cxrl_sdk_ios/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit13",
+      "snippet": "This uses the global Hi Rokid app authorization flow, then installs APKs through a CXR-L CUSTOMAPP session. ... Install Rokid-APKs on your Android phone. ...",
+      "title": "Rokid-APKs v1.2.0 update - new Hi Rokid / CXR-L install mode",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1t3wn3w/rokidapks_v120_update_new_hi_rokid_cxrl_install/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit14",
+      "snippet": "“Dev” process was basically “Hi Codex, build a basic Mediapipe hand tracking demo for Rokid Glasses.” ... CXR-S is for native apps on the device,",
+      "title": "Hand tracking on Rokid Glasses",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1pz65bn/hand_tracking_on_rokid_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit15",
+      "snippet": "I originally started this because the older Rokid APK uploader flow was not behaving reliably with newer Rokid SDK, so I reworked it and then",
+      "title": "Rokid-APKs - install APKs on Rokid Glasses from your Android phone",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1sdgnf8/rokidapks_install_apks_on_rokid_glasses_from_your/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit16",
+      "snippet": "Next, I switched to the CXR-L SDK and tried connecting it to the international \"Hi Rokid\" Android app. ... For Android it’s easy; for iOS",
+      "title": "Seriously, how are you guys developing custom apps for Rokid glasses? (Stuck with CXR-M & CXR-L)",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1tascq5/seriously_how_are_you_guys_developing_custom_apps/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit17",
+      "snippet": "I built it to browse community-made Rokid apps from **awesome-rokid**, install phone APKs, and push Glasses APKs directly from your Android phone using Hi Rokid",
+      "title": "RokidBrew, a community app store for Rokid AR glasses",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1t6l2mn/rokidbrew_a_community_app_store_for_rokid_ar/"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn34search18",
+      "snippet": "<tr><td>Operating System</td><td>Android</td></tr> ... <tr><td>Optical Engine</td><td>RayNeo Self-Developed Micro LED Firefly Optical Engine (FOV 30°)</td></tr>",
+      "title": "RayNeo 6976972040242_a5,X3 Pro AI Powered Smart Glasses User Manual",
+      "url": "https://manuals.plus/m/cfe8763231e1493f1f520dd8fcb2a70298cd04832e361f9e78acf844641b99b8_optim.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit19",
+      "snippet": "Not sure how the Rokid do it in iOS or Android. ... CXR-L/M SDKs doesn’t publicly define the contract/API to work with the native AI",
+      "title": "Local AI with Rokid Glasses",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1t8i2rt/local_ai_with_rokid_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit20",
+      "snippet": "A while ago I shared an open-source SDK that gives plain Android apps 6DoF head tracking on the RayNeo X3 Pro, without Unity. v0.2 is",
+      "title": "RayNeo X3 Pro SDK v0.2: put ordinary Android Views in the room (Kotlin, no Unity, open source)",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1xflpp4/rayneo_x3_pro_sdk_v02_put_ordinary_android_views/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit21",
+      "snippet": "Is the android demo app working for u? Tried on different devices but the app cannot find my hi rokid app.",
+      "title": "CXR-L SDK Demo not working",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1t8oj9y/cxrl_sdk_demo_not_working/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit22",
+      "snippet": "To make this happen on the Rokid AI Glasses, I had to write a custom Unity-Android bridge for the Rokid CXR-L SDK. ... Rokid's documented",
+      "title": "My hacky Unity bridge for Rokid AI Glasses (open source)",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1taxjxa/my_hacky_unity_bridge_for_rokid_ai_glasses_open/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit23",
+      "snippet": "I wanted to use the X3 Pro’s 6DoF tracking (SLAM) from a normal Kotlin/C++ Android app. ... https://github.com/AlexSKuznetsov/rayneo-x3-spatial-sdk",
+      "title": "Open-source: 6DoF head tracking + world-locked rendering on RayNeo X3 Pro from a plain Android app (no Unity)",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1xdp61o/opensource_6dof_head_tracking_worldlocked/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn34reddit24",
+      "snippet": "I have read about the sdk document for Rokid Glasses, and I have a couple of questions that I hope the community or Rokid support",
+      "title": "Trying to develop my own GPT copilot app in Rokid glass",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1pn29gj/trying_to_develop_my_own_gpt_copilot_app_in_rokid/"
+    },
+    {
+      "type": "text_result",
+      "domain": "5.imimg.com",
+      "ref_id": "turn34search25",
+      "snippet": "X3 Pro ... - Qualcomm’s AR1 Gen 1 Platform - RayNeo Image Plus Dual Camera",
+      "title": "X3 Pro\n\n**X3 Pro**\n- Binocular Full-Color AI+AR Gl",
+      "url": "https://5.imimg.com/data5/SELLER/Doc/2026/1/578549315/VI/EC/TF/11078779/rayneo-x3-pro-ar-glasses-argf20.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.qualcomm.com",
+      "ref_id": "turn34search26",
+      "snippet": "echo halBufferMgrMode=0 >/vendor/etc/camera/camxoverridesettings.txt",
+      "title": "Qualcomm Intelligent Multimedia SDK (QIM SDK) Reference",
+      "url": "https://docs.qualcomm.com/bundle/publicresource/80-50450-50_REV_AC_Qualcomm_Intelligent_Multimedia_SDK__QIM_SDK__Reference.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn34search27",
+      "snippet": "In addition to the powerful hardware, Rokid Glass RG201 offers a set of software development kits (SDK) optimized for the solutions in different scenarios. ...",
+      "title": "08·13二代眼镜说明书英文版",
+      "url": "https://manuals.plus/m/4fb43b3c7297e7f67fffa8351728fc871a4c70b7d62cf97c5ce3ce2b3469e73e.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae-pic-a1.aliexpress-media.com",
+      "ref_id": "turn34search28",
+      "snippet": "Smartphones: iPhone 15 and above series, Android devices with DP output ... 3D Mode: Unlock 3D viewing experience with RayNeo XR App for enhanced",
+      "title": "RayNeo 4 Pro AR Smart Glasses",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sed117d72a77741f68962d2a75ec8dbc8s.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.webfleet.com",
+      "ref_id": "turn34search29",
+      "snippet": "Table 1-1 Software Decode SDK Files (Continued) ... <td>Android_Sources/Texas Instruments/Jelly Bean (4.1.x 4.2.x)/ OMAP4/mydroid/hardware/ti/omap4xxx/camera</td> ... <td>Qualcomm/JellyBean Kitkat (4.",
+      "title": "Software Decode SDK for Android  Developer Guide (en)",
+      "url": "https://media.webfleet.com/fl_attachment/media/doc/documentations/pro-m-laser-scanner-developer-documentation.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn34news30",
+      "snippet": "[Image 0: TCL RayNeo X3 Pro] ... [Image 1: TCL RayNeo X3 Pro] ... There's even a couple of games that offer a little bit",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/nRyIJmNUaPcTD_1NBVVcBfpY4bFQUsajoFGhI3MqM_doC3AP0rXLF73MiJmbnteyee4kn8fQ8n4_ijxQ-BOnvGPTyHNLQout2PiQrUNET4yfZRldUZQA5PsuRvyn2AEk",
+      "title": "I wore the most advanced smart glasses for two months - the tech is futuristic, but the look is not",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/tcl-rayneo-x3-pro-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn34news31",
+      "snippet": "Under the frame sits a Qualcomm Snapdragon AR1 Gen 1 processor - the purpose-built platform for this class of device - paired with 4GB of",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/xHAJYqGcKcRvnAm145dUKJ80LKqeDzXJNl5VqZDcTnBXA1urhow5rGjkxEUasPsmsHvqVt2WAAHBpGFeamzvy_aMwZheXF9byk55g7Eu3qX_qXlpzokTCks13OoyTBF5",
+      "title": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use",
+      "url": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn34news32",
+      "snippet": "[Image 0: RayNeo X3 Pro review on Android Central] Rounding out the hardware, the glasses are powered by Qualcomm's latest Snapdragon AR1 Gen 1 platform,",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/trgkcxrlVDJrnBGY0Z0qLAVJg0lX71agHEOVq5v4hx9FzexD9FNdR_fPLoc_7B-aCRTHlR7f6n9HSYuZLn2oKyqCwejYBSgGfRT2faqm_IgNEPVLHpp6N3DDkyGtUYJj",
+      "title": "I used RayNeo's X3 Pro for a month - these AR glasses are futuristic, but there's a big problem",
+      "url": "https://www.androidcentral.com/wearables/i-used-rayneo-x3-pro-for-a-month-these-ar-glasses-are-futuristic-but-theres-a-problem"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6be13b81-707b-4d93-9a4e-d8db7cb9ad6f",
+  "query": "site.rokid.com \"Glasses 2\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com \"Glasses 2\"",
+      "site.inmolens.com \"AIR3\" \"GO2\"",
+      "site.rayneo.com \"V3\" \"X2 Lite\"",
+      "site.alibaba.com \"INMO AIR\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn38search0",
+      "snippet": "Rokid Glasses 2 | RV301/RV302/",
+      "title": "Security Center – Rokid",
+      "url": "https://global.rokid.com/en-hispano/pages/security-center"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.notebookcheck.net",
+      "ref_id": "turn38search1",
+      "snippet": "The Rokid Glasses 2 are available in two colors — Black which cost CNY 3699 (~$555/€498), and Tortoiseshell that's CNY 3849 (~$577/€518).",
+      "title": "Rokid Glasses 2 launch with upgraded design, bigger battery, and Dolby Audio support - Notebookcheck News",
+      "url": "https://www.notebookcheck.net/Rokid-Glasses-2-launch-with-upgraded-design-bigger-battery-and-Dolby-Audio-support.1435436.0.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "heytalaya.com",
+      "ref_id": "turn38search2",
+      "snippet": "On Oct. 27 it also launched Glasses 2, the full-color Rokid Color and the Rokid Ring, priced so far only in yuan. ... Image: Front",
+      "title": "Rokid Glasses: price, specs, US availability and lineup | Talaya",
+      "url": "https://heytalaya.com/2026/10/rokid-glasses-guide/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn38search3",
+      "snippet": "INMO AIR3, INMO GO2, INMO X series AI photo glasses released the first batch of blind orders exceeding 10,000 units",
+      "title": "About INMO",
+      "url": "https://www.inmo.com/pages/about-us"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.notebookcheck.com",
+      "ref_id": "turn38search4",
+      "snippet": "Nun hat Rokid mit den Rokid Glasses 2 einen Nachfolger vorgestellt.",
+      "title": "Neue Smart-Glasses starten mit überarbeitetem Design, größerem Akku und Dolby-Audio - Notebookcheck News",
+      "url": "https://www.notebookcheck.com/Neue-Smart-Glasses-starten-mit-ueberarbeitetem-Design-groesserem-Akku-und-Dolby-Audio.1436554.0.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "device.report",
+      "ref_id": "turn38search5",
+      "snippet": "INMO GO2 ||| ||| https://ae01.alicdn.com/kf/Sb3b776e889e9427193a3f65a1766543cB.pdf https://ae01.alicdn.com/kf/Sf0c3ec05dbca48c5a0d5cee0592a9713w.pdf ... * 2BP9S-IMA301 - SICHUAN YINGMU TECHNOLOGY CO.,",
+      "title": "Inmo Manuals, Certifications & Device Specifications",
+      "url": "https://device.report/inmo"
+    },
+    {
+      "type": "text_result",
+      "domain": "chinese.alibaba.com",
+      "ref_id": "turn38search6",
+      "snippet": "## INMO Air Smart AR Glasses 3D Real-Time Text Translation and 3D Prompt with Camera Full-Color True Wireless for Movie Watching",
+      "title": "Alibaba.com",
+      "url": "https://chinese.alibaba.com/catalog/ar_cid201931001"
+    },
+    {
+      "type": "text_result",
+      "domain": "inmolens.com",
+      "ref_id": "turn38search7",
+      "snippet": "INMO GO3 ... INMO AIR3",
+      "title": "影目INMO-定义未来眼镜",
+      "url": "https://inmolens.com/inmo-go/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.alibaba.com",
+      "ref_id": "turn38search8",
+      "snippet": "INMO Air 3 AR Smart Glasses with AI Display Projector Full-Color 1080P GPS Navigation Camera$828-863 MOQ: 1 Delivery by Oct 03 4.8/5.0 (31 reviews)",
+      "url": "https://www.alibaba.com/pla/INMO-Air-3-AR-Smart-Glasses_1601789376431.html?biz=pla&mark=google_shopping&pcy=nl_en&product_id=1601789376431&searchText=smart+glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "chinese.alibaba.com",
+      "ref_id": "turn38search9",
+      "snippet": "INMO Air 智能增强现实（AR）眼镜，具有3D实时文字翻译和带摄像头的3D提示功能，全彩真无线，适合观看电影",
+      "title": "Promotional chinese, Buy chinese Promotional Products and Items from chinese Manufacturers and Suppliers at alibaba.com",
+      "url": "https://chinese.alibaba.com/promotion/promotion_ar%E6%97%B6%E9%97%B4-promotion-list.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.notebookcheck.pl",
+      "ref_id": "turn38search10",
+      "snippet": "# Rokid Glasses 2 debiutują z ulepszoną konstrukcją, większą baterią i obsługą Dolby Audio",
+      "title": "Rokid Glasses 2 debiutują z ulepszoną konstrukcją, większą baterią i obsługą Dolby Audio - Notebookcheck.pl",
+      "url": "https://www.notebookcheck.pl/Rokid-Glasses-2-debiutuja-z-ulepszona-konstrukcja-wieksza-bateria-i-obsluga-Dolby-Audio.1436753.0.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "nghenhinvietnam.vn",
+      "ref_id": "turn38search11",
+      "snippet": "Khả năng ghi hình trên Rokid Glasses 2 đạt bước tiến lớn với camera độ phân giải 12MP được cải tiến mạnh mẽ.",
+      "title": "Kính thông minh Rokid Glasses 2 ra mắt: Bước tiến mới về thiết kế, thời lượng pin và trải nghiệm âm thanh chuẩn Dolby",
+      "url": "https://nghenhinvietnam.vn/kinh-thong-minh-rokid-glasses-2-ra-mat-buoc-tien-moi-ve-thiet-ke-thoi-luong-pin-va-trai-nghiem-am-thanh-chuan-dolby"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn38reddit12",
+      "snippet": "Rokid Glasses 2 were officially unveiled today (October 27, 2026) in China, and the upgrades look pretty interesting! ... I'm considering ordering the new Rokid",
+      "title": "Rokid Glasses 2 officially launched! ¥3,699 (~€498 / ~$555), better optics, 25% longer battery life and new AI features",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xgr2nh/rokid_glasses_2_officially_launched_3699_498_555/"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae-pic-a1.aliexpress-media.com",
+      "ref_id": "turn38search13",
+      "snippet": "INMO Air 3 使用方式说明",
+      "title": "INMO Air 3 使用方式说明",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/S9a0c4a7811e9402f9e6f4ca4411e5449Z.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "device.report",
+      "ref_id": "turn38search14",
+      "snippet": "- 2024：发布雷鸟X2 Lite；推出全球首个AI+AR开发者平台“RayNeo AI Studio” ... - 一体式产品：雷鸟X2、雷鸟X3 Pro、雷鸟V3 / V3 Slim",
+      "title": "幻灯片 1",
+      "url": "https://device.report/m/5fed5c472830df7e6c9bd1156df9d2d82699381921c53b0bd2acb194d3754b29.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn38reddit15",
+      "snippet": "Why did RayNeo never release the X2 Lite, which was displayed in late 2023, touted for release in Q3 (I think?) ... Both the RayNeo",
+      "title": "I’m an American working with RayNeo in China. Ask me anything.",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1lg2lev/im_an_american_working_with_rayneo_in_china_ask/"
+    },
+    {
+      "type": "text_result",
+      "domain": "file.iyanbao.com",
+      "ref_id": "turn38search16",
+      "snippet": "雷鸟X2 Lite ... 模型语音助手Rayneo AI，可实现多轮自然语言对话、头脑风暴等多项能力；支持 ... GOOVIS V3",
+      "title": "Table First|Table Summary",
+      "url": "https://file.iyanbao.com/pdf/bd101-f7bec01a-bff6-4634-80ec-47dea38e774e.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "13115299.s21i.faiusr.com",
+      "ref_id": "turn38search17",
+      "snippet": "- INMO Air — 观影为主",
+      "title": "AR终端定位与应用场景属性",
+      "url": "https://13115299.s21i.faiusr.com/61/1/ABUIABA9GAAgnN_7owYo2YmtlQc.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "aigc.idigital.com.cn",
+      "ref_id": "turn38search18",
+      "snippet": "嶊餩紩❡ㅷ 㣢儑碫㘗 | INMO\u0001Air ♧⡤䒭 | INMO\u0001Air2 None | INMO\u0001Go None --- | --- | --- | --- 嶊餩紩❡ㅷ ⯕㷖 | INMO\u0001Air 㘌湬꣋⴩⯕岚㼋 | INMO\u0001Air2",
+      "title": "2024䎃⚥㕂AR❡⚌〄㾝峯㻋灇瑕",
+      "url": "https://aigc.idigital.com.cn/djyanbao/%E3%80%90%E4%BA%BF%E6%AC%A7%E6%99%BA%E5%BA%93%E3%80%912024%E5%B9%B4%E4%B8%AD%E5%9B%BDAR%E4%BA%A7%E4%B8%9A%E5%8F%91%E5%B1%95%E6%B4%9E%E5%AF%9F%E7%A0%94%E7%A9%B6-2024-02-05.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.media-amazon.com",
+      "ref_id": "turn38search19",
+      "snippet": "\"Success\" will appear after successful installation of the APK on the Air2.",
+      "title": "INMO AIR 2 USER GUIDER",
+      "url": "https://m.media-amazon.com/images/I/A1dVJdJ74fL.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn38reddit20",
+      "snippet": "I got my glasses 2 weeks after I placed the order. On your post I don’t see anything from Rokid customer service.",
+      "title": "[Removed]",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1uvny03/removed/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn38reddit21",
+      "snippet": "The groundbreaking Spatial Computing Glasses X3 Pro, next-gen portable cinema Air 3s series, and AI-enhanced shooting glasses V3 Slim demonstrate RayNeo's full-stack ecosystem capabilities, setting",
+      "title": "RayNeo Launches X3 Pro: Redefining AR with Cutting-Edge Tech",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1kwy52m"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-aaa9f389-d0bb-4a2a-8999-f49078b6bc89",
+  "query": "https://www.rayneo.cn",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.rayneo.cn"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.cn",
+      "ref_id": "turn40view0",
+      "snippet": "Total lines: 87",
+      "title": "雷鸟智能眼镜 | 雷鸟创新，引领新一代交互变革",
+      "url": "https://www.rayneo.cn/"
+    },
+    {
+      "type": "text_result",
+      "domain": "inmolens.com",
+      "ref_id": "turn40view1",
+      "snippet": "Total lines: 0",
+      "title": "影目INMO-定义未来眼镜",
+      "url": "https://inmolens.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn40view2",
+      "snippet": "Total lines: 37",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/6VjZj5yCoIhuwlMt4KrJBSl1LqgaXiVJxEpwQko6FYWPckY4Km49AbkNgfWkiKWs8lE6PsG_7Rq32m9PWA6fV8OSOZM8tnmNoNZG6-mGCj4",
+      "title": "Rokid Official Website - Discover the Future of AI Glasses",
+      "url": "https://www.rokid.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn40view3",
+      "snippet": "Total lines: 1321",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/mWDwAui-nS3YzEq8D2PeDC05JBXzgFg-I9uFiU1f29kzSsZyMcTF0gJQ4fam3AKGCEmGlOzXwkMaHIbFVhJwMmLnq5i5AF4O5k5d0S_h1eMzWUU5cPxT-_pjtq_JfRKF9149uwSxb7d6lbIlF7rnVg",
+      "title": "RayNeo iO AI Glasses | Smart Glasses with Invisible Display",
+      "url": "https://www.rayneo.com/products/rayneo-io-ai-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn40view4",
+      "snippet": "Total lines: 633",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/NwfBPIne_0ox-LTmBRj3wiOPFK8cCJTQW7zuQKf8cOobA4727kU9zffBZx_KBV0w6DB307ey8SLnfNc7N2qjOcA6wkdyoPU9E1T9HbFECkjp4OedPKd-3Wtp7p-6jYrO",
+      "title": "INMO GO3 AI Glasses | Translation & Hands-Free AI | Smart Teleprompter Glasses | INMO Official Website",
+      "url": "https://www.inmo.com/pages/inmo-go3-ai-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn40view5",
+      "snippet": "Total lines: 236",
+      "title": "Magic AI Glasses J | AI Glasses Designed by Jackson Wang | INMO Official Website",
+      "url": "https://www.inmo.com/pages/magic-ai-glasses-j"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_cc987e4bc85d45449be58b3c5f43c935",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-e6a65d49-1b0e-4dd0-a0d8-74ceb89df155",
+  "query": "https://www.inmoxr.com/pages/inmo-air3-specs",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.inmoxr.com/pages/inmo-air3-specs"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.inmoxr.com",
+      "ref_id": "turn44view0",
+      "snippet": "Total lines: 224",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/WUem_4J4g3Srv8iGmrlTIgJ5cb32hgpgdvWhKLqwcwuQW2Ob_TGUdCGjhqvFK3L45R8jws4IZ6kIRDyC1uG4PVBPoB18omFZkCIiztzusZwNSsOt9fLK-KKdVArj6NSM",
+      "title": "INMO Official Website | AI & AR Glasses | Never just glasses",
+      "url": "https://www.inmoxr.com/pages/inmo-air3-specs"
+    },
+    {
+      "type": "text_result",
+      "domain": "inmolens.com",
+      "ref_id": "turn44view1",
+      "snippet": "Total lines: 0",
+      "title": "影目INMO-定义未来眼镜",
+      "url": "https://inmolens.com/inmo-go/"
+    },
+    {
+      "type": "text_result",
+      "domain": "rayneo.cn",
+      "ref_id": "turn44view2",
+      "snippet": "Total lines: 1",
+      "title": "RayNeo V4",
+      "url": "https://rayneo.cn/v4.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "rayneo.cn",
+      "ref_id": "turn44view3",
+      "snippet": "Total lines: 1",
+      "title": "RayNeo Air 4",
+      "url": "https://rayneo.cn/Air4.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn44view4",
+      "snippet": "Total lines: 483",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/lBVqT5bAuzgSwwWEZteD91Q4dMqXq7Qt6vp5qoc9LnEMrnKTNu_7Y9KmSr88Sz7bPcf4t9xxLO-LmmGlcUcbcm8v0Oc0WX8I0XaaJIEwQZpFNe8vIdpqj5i6dVXY2h4oUZjb7Yzx_BefdTnXAKlUzViXhfiyF314Z6j9yarQwARGlHTdf3_LP5-A9tOMmvE3XNCegxV6VUhjnIxmVrjp0w",
+      "title": "‎INMO Global App - App Store",
+      "url": "https://apps.apple.com/us/app/inmo-glasses/id6758009618"
+    },
+    {
+      "type": "text_result",
+      "domain": "play.google.com",
+      "ref_id": "turn44view5",
+      "snippet": "Total lines: 178",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/DoMhX5feoGimPTPw-i0jBSBdOsZ0AYblfAcbtJf_KGfbKs0YeM2gop79mW-mYbsRWL01ZMvxOlcjUTMg3rCKI-ZDXZE6MGfI3Dpw1l3ZVJedCA8KImlYzHRCrn6Fss3Wngyo2yJnNQbM0aGOLYa-cz-SQF4_wvcW-Mo369-NEwW-LuZarimWyZBARSb1PgvJheBKRBQWlySbhyRCNDS_tg",
+      "title": "INMO Global - Apps on Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.inmo.app.googleplay"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn44view6",
+      "snippet": "Total lines: 453",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/fyKvQgj_xGUeSdl3biN9hP2I1GM1JEFDAf64lcESY67WEd5li9GMEOfvWfYMhfTfXENHzBpdWZATNrlymZd567rfifG_ijbHSI4R0sKVcPbkeil3qlnsy4GUZVVtbRLnLRja4FyW5hcmz6RiUMX7vA",
+      "title": "RayNeo Download Center | Apps, Firmware & Setup Tools - RayNeo",
+      "url": "https://www.rayneo.com/pages/download"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn44view7",
+      "snippet": "Total lines: 539",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/xCKj3KGrZR5cN-I0Q_9CJOESj7W91DDQEUDpLc1o9Cl5LtNj2IKQz5IxIeOuYf2cMa_87_1cIe5z-c6hWZu2YtJIAp2fbVvk8LTC5mAvE22EQJkMBmh66zKI9-_nIxde",
+      "title": "Download Rokid AI App | Smart App for Rokid Glasses",
+      "url": "https://global.rokid.com/pages/app-download"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-4a8a615a-8baf-4e62-aa4c-cce1d91b8c57",
+  "query": "site.alibaba.com \"RayNeo\" \"product-detail\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.alibaba.com \"RayNeo\" \"product-detail\"",
+      "site.alibaba.com \"INMO GO3\" \"product-detail\"",
+      "site.rokid.com \"Glass3\"",
+      "site.rayneo.cn \"V4\" 参数"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn45search0",
+      "snippet": "Rokid Glass3 | RG301、RG303 | 2026/6/29 | 2029/1/1",
+      "title": "Security Center – Rokid",
+      "url": "https://global.rokid.com/en-hispano/pages/security-center"
+    },
+    {
+      "type": "text_result",
+      "domain": "rayneo.cn",
+      "ref_id": "turn45search1",
+      "title": "RayNeo V4",
+      "url": "https://rayneo.cn/v4.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "glassesresearch.org",
+      "ref_id": "turn45search2",
+      "snippet": "* Official product name: Rokid Glass 3 / Rokid Glass3",
+      "title": "Rokid Glass 3 — GLS-0184 - GlassesResearch",
+      "url": "https://glassesresearch.org/models/RokidGlass3/"
+    },
+    {
+      "type": "text_result",
+      "domain": "src.rayneo.cn",
+      "ref_id": "turn45search3",
+      "snippet": "每份已发布的安全公告可能包含以下信息，并以清晰、结构化的格式呈现。 ... RayNeo V4 | 90 Days | 2024-06 | 2027-06 | PSTI ... 雷鸟创新致力于为我们的智能眼镜提供持续的安全更新，覆盖 RayNeo 品牌。 ... 升级程序支持在沟通时限、确认预期或披露协调活动被延误或未按预期达成时，实现管理层知情与纠正措施。 ... * *.rayneo.cn .",
+      "title": "RayNeo 安全中心",
+      "url": "https://src.rayneo.cn/"
+    },
+    {
+      "type": "text_result",
+      "domain": "x-docs.rokid.com",
+      "ref_id": "turn45search4",
+      "snippet": "# Glass3 SDK FAQ Overview ​ ... https://ar-center.rokid.com/login",
+      "title": "Glass3 SDK FAQ Overview | Rokid Sprite Enterprise",
+      "url": "https://x-docs.rokid.com/docs/en/faq/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "x-docs.rokid.com",
+      "ref_id": "turn45search5",
+      "snippet": "`git clone https://github.com/RokidSuuport/glass3_sdk_demo.git`",
+      "title": "Demo Running Guide | Rokid Sprite Enterprise",
+      "url": "https://x-docs.rokid.com/docs/en/downloads/demo-guide.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "rayneo.cn",
+      "ref_id": "turn45search6",
+      "snippet": "行业领先的AR光学技术，自研自产全球最小的 「全彩Micro-LED光引擎」 ... 行业领先的自研SLAM算法，在AI+AR多模态大模型、手眼交互上拥有核心能力 ... 具备领先的智能硬件产品实现能力，具备强大的系统整合与交付能力 ... 视频、游戏等领域拥有完整的产品和运营能力，是AR自建场景和生态的强有力基础 ... 雷鸟 X3 Pro 雷鸟 V4 雷鸟 GT Max 雷鸟 GT 雷鸟 Ai",
+      "title": "雷鸟智能眼镜 | 雷鸟创新，引领新一代交互变革",
+      "url": "https://rayneo.cn/"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrarwiki.com",
+      "ref_id": "turn45search7",
+      "snippet": "Products | AR and display glasses: X series (RayNeo X2, RayNeo X3 Pro), Air series (Air 2, Air 2s, Air 3s, Air 4 Pro), GT",
+      "title": "RayNeo - VR & AR Wiki - Virtual Reality & Augmented Reality Wiki",
+      "url": "https://vrarwiki.com/wiki/RayNeo"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jd.com",
+      "ref_id": "turn45search8",
+      "snippet": "* ROKID Glass3 系列 乐奇智能AI眼镜 文娱及行业开发应用 Glass3〖文娱版〗",
+      "title": "乐奇 - 京东",
+      "url": "https://www.jd.com/hprm/13202b7090f6c6c6f5e5.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "create.roblox.com",
+      "ref_id": "turn45search9",
+      "snippet": "Glass³ | 9438868521 | 7547304785 | | 7547304892",
+      "title": "Materiales | Documentación del Centro de creación de Roblox",
+      "url": "https://create.roblox.com/docs/es-es/parts/materials"
+    },
+    {
+      "type": "text_result",
+      "domain": "pc-sjzs.zhanqirsj.com",
+      "ref_id": "turn45search10",
+      "snippet": "大会围绕AI+AR产业趋势、产品战略升级、行业解决方案及生态合作体系展开，并正式发布全新一代企业端产品灵眸Rvis系统，同步公布Rokid Glass3硬件配件方案、生态合作政策，并启动全球生态伙伴招募。",
+      "title": "世界浙商网-乐奇企业端发布灵眸Rvis：让AI从“给答案”走向“把现场工作做完”",
+      "url": "https://pc-sjzs.zhanqirsj.com/sjzs/news?id=25625"
+    },
+    {
+      "type": "text_result",
+      "domain": "x-docs.rokid.com",
+      "ref_id": "turn45search11",
+      "title": "Rokid Glass3企业版",
+      "url": "https://x-docs.rokid.com/lingmou_manual.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bartondoor.com",
+      "ref_id": "turn45search12",
+      "snippet": "GLASS³",
+      "title": "2783 STERLING",
+      "url": "https://www.bartondoor.com/product/chi-sterling-garage-doors/2783-Flyer.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.princess-ceramic.com",
+      "ref_id": "turn45search13",
+      "snippet": "GLASS3-023MU3",
+      "title": "Glass\nMosaik\nFormate Mosaik\nGlass, Glass 1, Glass",
+      "url": "https://www.princess-ceramic.com/produkte?cHash=59d9411269ae2ff66af2bd725dc6a385&tx_spproducts_productcategorys%5Baction%5D=pdf&tx_spproducts_productcategorys%5Bcontroller%5D=Productcategorys&tx_spproducts_productcategorys%5Bseries%5D=Glass"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn45reddit14",
+      "snippet": "I don't know why you guys are still buying the RayNeo 3 from China. ... https://www.alibaba.com/product-detail/VITURE-Luma-XR-Glasses-146-1200p\\_1601625435713.html?",
+      "title": "Alibaba price interesting",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1pxgpsu/alibaba_price_interesting/"
+    },
+    {
+      "type": "text_result",
+      "domain": "yunpan.cdn.site.joinf.com",
+      "ref_id": "turn45search15",
+      "snippet": "V4 → RGBW LED 灯带 ... ● 长按(1-6秒)：每个通道的无级调光，每次长按松开后再次长按，亮度反方向变化。 ... 此时，如果灯光类型设置为色温、RGB或RGBW，则配对遥控器不会改变灯光类型。 ... <tr><td>2键</td><td>短按顺序切换10个动态模式，长按2秒设置变化速度(1-10级)</td></tr>",
+      "title": "未命名 -1",
+      "url": "https://yunpan.cdn.site.joinf.com/4889627347823677/aiheeWTyh2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "krassky.lv",
+      "ref_id": "turn45search16",
+      "snippet": "GLASS3 Collection",
+      "title": "SICIS COLORPEDIA",
+      "url": "https://krassky.lv/cms/files/objects2/0/001/135/COLOR-PEDIA.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "chromogenics.com",
+      "ref_id": "turn45search17",
+      "snippet": "Glass3",
+      "title": "2019 05 28   Sida 1 (7)",
+      "url": "https://chromogenics.com/wp-content/uploads/2021/04/chromogenics-dynamic-glass-technical-specification-eng-ver20190528.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6226af99-d370-41fe-bab6-a4f46948e1d8",
+  "query": "site.inmolens.com INMO AIR3 1920 1080 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.inmolens.com INMO AIR3 1920 1080",
+      "site.inmo.com \"AIR3\" \"SDK\"",
+      "site.rayneo.com \"Air 2\" \"Tech Specs\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "uk.rayneo.com",
+      "ref_id": "turn46search0",
+      "snippet": "# Tech Specs RayNeo Air 2s",
+      "title": "Tech Specs - RayNeo.UK",
+      "url": "https://uk.rayneo.com/pages/tech-specs"
+    },
+    {
+      "type": "text_result",
+      "domain": "developer.inmolens.com",
+      "ref_id": "turn46search1",
+      "snippet": "`// Initialize INMO AR SDK using INMO.AR.SDK;public class ImmersiveApp : MonoARBehaviour { private IMOS.Session arSession; void Start() { SDK sdk = new INMOSDK.Initialize(); sdk.Display =",
+      "title": "INMO Developers — Build the Future of AR",
+      "url": "https://developer.inmolens.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn46search2",
+      "snippet": "The only SDK artifact INMO ever published (`com.inmo:inmo_arsdk:0.0.1` on their Gitee Maven, single release from 2023) was downloaded and unpacked: 7.8 KB, 6DOF-pose-service-only (`ArServiceSession.ge",
+      "title": "INMO adapter (Android) · Issue #30 · hkust-spark/xg-glass-sdk · GitHub",
+      "url": "https://github.com/hkust-spark/xg-glass-sdk/issues/30"
+    },
+    {
+      "type": "text_result",
+      "domain": "extentos.com",
+      "ref_id": "turn46search3",
+      "snippet": "Unusually open at build time — the in-scope INMO Air3 is a standalone Android 14 device that ships (internationally) with the Google Play Store, plus",
+      "title": "INMO for developers: SDK, app model & distribution (2026) · Extentos",
+      "url": "https://extentos.com/docs/ecosystem/platforms/inmo"
+    },
+    {
+      "type": "text_result",
+      "domain": "inmo.com.vn",
+      "ref_id": "turn46search4",
+      "snippet": "# Tài liệu INMO Air3 ... Phát triển Biết thêm về unity sdk INMO được phát hành trên github.",
+      "title": "Tài liệu INMO Air3 | Hỗ trợ INMO",
+      "url": "https://inmo.com.vn/support/air3/"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn46search12",
+      "snippet": "The INMO AIR3 Smart Glasses offer multiple ways to interact with the interface: ... - **2024 AIR3** — “The world's first 1080P all-in-one AR glasses”",
+      "title": "inmo AIR3 Smart AR Glasses Instruction Manual",
+      "url": "https://manuals.plus/asin/B0G25CRXX6.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kickstarter.com",
+      "ref_id": "turn46search5",
+      "snippet": "AIR3 balances advanced features (1080P resolution, triple floating screens, AI assistant, 16MP wide-angle camera) with comfort for all-day wear. ... Details here: https://www.inmoxr.com/pages/inmo-air",
+      "url": "https://www.kickstarter.com/projects/inmo-air3-ar-glasses/inmo-air3-smart-ar-glasses/faqs?comment=Q29tbWVudC00NjMxNTUyNA%3D%3D"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn46search6",
+      "snippet": "For watching movies, INMO AIR3 is the recommended model, offering a full-color 1080P binocular display and standalone Android 14 media playback. ... Display | Binocular",
+      "title": "AI Glasses vs AR Glasses for Travel, Translation and Movies | INMO",
+      "url": "https://www.inmo.com/blogs/inmo-insights/ai-glasses-vs-ar-glasses-travel-translation-movies"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn46search7",
+      "snippet": "INMO Air3 adopts a binocular display (images projected to both eyes), 1080P resolution (world’s first all-in-one waveguide AR glasses with 1920×1080), 36° wide field of",
+      "title": "Vergleich: INMO Air3 vs. Meta Ray-Ban Smart Glasses",
+      "url": "https://www.inmo.com/de/blogs/news/whats-difference-between-inmo-air3-and-meta-ray-ban-display-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn46search8",
+      "snippet": "INMO AIR3, INMO GO2, INMO X series AI photo glasses released the first batch of blind orders exceeding 10,000 units ... The world's first 1080P",
+      "title": "About INMO",
+      "url": "https://www.inmo.com/pages/about-us"
+    },
+    {
+      "type": "text_result",
+      "domain": "note.com",
+      "ref_id": "turn46search9",
+      "snippet": "210-255455 INMO AIR3 [IMA301]210-255455 INMO AIR3 [IMA301] 2025-08-13登録 SICHUAN YINGMU TECHNOLOGY CO., LTD2025-08-13登録 S giteki.lang-ship.com ### SDK",
+      "title": "INMO AIR 3｜AsobiDyne",
+      "url": "https://note.com/asobidyne/n/nd27a9ffe33ef"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.huaqiangmarket.com",
+      "ref_id": "turn46search10",
+      "snippet": "AI AR Smart Glasses INMO AIR3 16MP 1080P OLED Screen Camera Open API SDK Augmented Reality Independent Android 600nits",
+      "title": "Open API SDK Support - Huaqiangbei Electronics Market",
+      "url": "https://www.huaqiangmarket.com/search/open-api-sdk-support"
+    },
+    {
+      "type": "text_result",
+      "domain": "note.com",
+      "ref_id": "turn46search11",
+      "snippet": "This article collects and organizes information posted in the official INMO Air3 Discord community (#help-center, #bug-report, #tickets, #android-development) as of January 12, 2026. ... Compatibility",
+      "title": "[January 2026 Edition] INMO Air3 Bug and Troubleshooting Summary｜ミスターVR",
+      "url": "https://note.com/mrvr/n/n2a252f0ea13e?hl=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "fccid.io",
+      "ref_id": "turn46search13",
+      "snippet": "| Product Name Power Rating | | INMO AIR3 Input: DC 5V 2A | Product Name Adapter | | INMO AIR3 N/A Battery | Product",
+      "title": "Measurement Report",
+      "url": "https://fccid.io/m/aaf58b0e88bed0f58e2ae5da009db34ea5399137c28f4394cb1861cb6eddece3.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "hube.com.cn",
+      "ref_id": "turn46search14",
+      "snippet": "左侧产品图为佩戴黑色眼镜的男性头像照片，下方文字为“INMO AIR3”“2024年11月29日发布”“智能移动终端”“光波导技术”。 ... - Micro-OLED屏幕：全球首发0.44英寸Micro-OLED屏幕，分辨率提升至1920×1080（1080P），成为全球首个实现1080P分辨率的一体式AR眼镜。 ... www.iresearch.com.cn",
+      "title": "幻灯片 1",
+      "url": "https://hube.com.cn/static/news/2024%E5%B9%B4%E6%B6%88%E8%B4%B9%E7%BA%A7AR%E7%9C%BC%E9%95%9C%E5%B8%82%E5%9C%BA%E5%8A%A8%E6%80%81%E4%B8%8E%E8%A1%8C%E4%B8%9A%E8%B6%8B%E5%8A%BF%E6%B4%9E%E5%AF%9F.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn46reddit15",
+      "snippet": "There's an sdk but I believe they want apps to go through Google play ... How do i add Google services to the inmo air",
+      "title": "I have inmo air 3 ama",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1nuc7ti/i_have_inmo_air_3_ama/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn46view0",
+      "snippet": "Total lines: 453",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/XmdjmLlXQBy3TIaIVCjwGvNLI_cQP5xxwXriIy1_27Pz_cZiP95pA5Zf4o8Th6hVJJuyzA-OiFMBmfjkZznquc4YMe31r1htwUwbKem_MLHkbepkz9uR6AoAT_8H6SUPxgXaIr9vDO3ItxMoZb6C3g",
+      "title": "RayNeo Download Center | Apps, Firmware & Setup Tools - RayNeo",
+      "url": "https://www.rayneo.com/pages/download"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn46view1",
+      "snippet": "Total lines: 539",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/yLn4RbD8qN3RnqUJSyKRVj3Zix3SIatC67T8q-SyO7VI3py14cXBSdfdh0F40OMVdk5D5ILsuHVet21rUbTQ7H5q00QTwiMp76rkgSwGItLfaMHhH-qU8I3JGHF6DDNJ",
+      "title": "Download Rokid AI App | Smart App for Rokid Glasses",
+      "url": "https://global.rokid.com/pages/app-download"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn46view2",
+      "snippet": "Total lines: 592",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/z1gKvSJJMVVo3OOGrxJLgKEGAxCLo74i7bX5jE89YeR_ZF7fqt8kxXuT-qlnJTHanhFa2vWO-dPro8RHOoKXXDBkNQ_Olv78vMLznnjKPuk",
+      "title": "Rokid Max 2 AR Glasses | World's First Myopia Adjustment",
+      "url": "https://global.rokid.com/products/rokid-max-2-ar-glasses?variant=44984888033459"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn46view3",
+      "snippet": "Total lines: 1090",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/eVVL4z0x8Ol49Xy5I-A3mHQT0UY-wz3zS1duRs6_OTPXe88CiE4pPdHRjHTT5K657NmA8E9fQT1Q9J84vn4EnYhjpXcAgqv4bAlXmVOE4_BM5Y5hidyEa06Af9sw6f76",
+      "title": "Rokid AI Glasses Style | Smart AI Glasses with AI Assistance",
+      "url": "https://global.rokid.com/products/rokid-ai-glasses-style?variant=45179509997747"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-41a76d61-8888-4faa-9f19-44e21fa3834e",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn47view0",
+      "snippet": "Total lines: 1090",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/VVFotD3gGSYpYL1aFnnHw-S87N9X6egiSZTow0m2xd5DCs_iSdvgzpvHFG07a1zeFdEvBqCvGMmc-ni7pA7DGySOg5GXqrnN4fOLkmiiZLhUMh128GNce_r96xyPH6fF",
+      "title": "Rokid AI Glasses Style | Smart AI Glasses with AI Assistance",
+      "url": "https://global.rokid.com/products/rokid-ai-glasses-style?variant=45179509997747"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn47view1",
+      "snippet": "Total lines: 453",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Y-4mXdO5E9DWU0SWHVCWJdEQSWVk1Xu5rz7LuoolWjHfaknTzJUo9S3mm4pWRqABvTwswHoliW_5g0Bpg6_E71OSbIGMQFoYmxUCeJ8LZvMnDfmUu9BkregrPV6RDWPUwQd5cgs75tDmmg7YZsWroQ",
+      "title": "RayNeo Download Center | Apps, Firmware & Setup Tools - RayNeo",
+      "url": "https://www.rayneo.com/pages/download"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn47view2",
+      "snippet": "Total lines: 539",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/zmHM_tTf0KiintWhvqVHFyNwVEVCLUrrxjfdRqBR38a2KThicHS3emUeLB0OoyjZZ1iRYhx53qoNOtQOhBlJqc6JEetmtxUvIKmbDjUt_mSfB-su7BjeMIQ-qQpdupTc",
+      "title": "Download Rokid AI App | Smart App for Rokid Glasses",
+      "url": "https://global.rokid.com/pages/app-download"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn47view3",
+      "snippet": "Total lines: 236",
+      "title": "Magic AI Glasses J | AI Glasses Designed by Jackson Wang | INMO Official Website",
+      "url": "https://www.inmo.com/pages/magic-ai-glasses-j"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn47view4",
+      "snippet": "Total lines: 1250",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/KW1ojM1Ao3IY4a2x3nvlWlvJIzHQxFQlPaLffKLZbcSsnWkDPyyqL8mKDzCFR7eySpoZDRdmEpq9XorbvA6_CB08HB6FR2JkOyPGX1XWCgk",
+      "title": "RayNeo Air 4 Pro AR Smart Glasses - Best AR Glasses 2026 - RayNeo",
+      "url": "https://www.rayneo.com/products/rayneo-air-4-pro-ar-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn47view5",
+      "snippet": "Total lines: 1403",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/8fJM9rP59dE15EV2XeD6upOk9-O6iaSmGkudVIopnCGZxOE4ZHh6Hk9rbDiWDOoUX9OZsm_6m9UWeogvn-QIAR6e-4Khd00IfV3iH4HHZAA",
+      "title": "RayNeo Air 3s Video Glasses - Smart Glasses with Screen - RayNeo",
+      "url": "https://www.rayneo.com/products/rayneo-air-3s-xr-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn47view6",
+      "snippet": "Total lines: 1963",
+      "title": "RayNeo Air 3s Pro - Best Gaming Glasses for Eye Protection - RayNeo",
+      "url": "https://www.rayneo.com/products/ar-glasses-rayneo-air-3s-pro-features"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn47view7",
+      "snippet": "Total lines: 754",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/rrZb6yFsGH0OijMAbrMYT7_9GnwGf9QTgFP4W4E0n-i931gOuLNtnuXRHw2ICPxa_1dfo4MWtUcGwiD3dB-PPA9HvGnbYEhZlckcS2tDqBlGEKNeNqZfSJpzOpLGCgTpqaRgQsAlwG78HaepgebwzQ",
+      "title": "RayNeo X2 Waveguide Glasses - Best Smart Glasses for Filming - RayNeo",
+      "url": "https://www.rayneo.com/products/tcl-rayneo-x2"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_98b3d16658d44e2390f71a3356233cf9",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-9dd7481b-817c-4712-a886-21270b6d300b",
+  "query": "site.global.rokid.com \"Max 2\" \"1920\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.global.rokid.com \"Max 2\" \"1920\"",
+      "site.global.rokid.com \"Station 2\" \"5000\"",
+      "site.inmolens.com \"GO2\" \"640\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn48search0",
+      "snippet": "The default resolution of max and max2 is 1920*1080, and it can reach 1920*1200 when connected to station 2. The Rokid Max 2 features a",
+      "title": "What is the display resolution of the Rokid Max 2?",
+      "url": "https://global.rokid.com/blogs/max-2/what-is-the-display-resolution-of-the-rokid-max-2"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn48search1",
+      "snippet": "Can Max connect Station2 achieve 1920*1200 resolution? ... The Rokid Max 2 offers two options for users with vision correction needs: -Built-in Diopter Adjustment: The",
+      "title": "Max 2 – Rokid",
+      "url": "https://global.rokid.com/blogs/max-2"
+    },
+    {
+      "type": "text_result",
+      "domain": "rokid-glasses.ru",
+      "ref_id": "turn48search2",
+      "snippet": "Image: Очки дополненной реальности Rokid Max 2 Image: Очки дополненной реальности Rokid Max 2 2 Image: Очки дополненной реальности Rokid Max 2 3 Image: Очки",
+      "title": "Очки дополненной реальности Rokid Max 2 — купить на официальном сайте Rokid",
+      "url": "https://rokid-glasses.ru/product/ochki-dopolnennoj-realnosti-rokid-max-2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.ru",
+      "ref_id": "turn48search3",
+      "snippet": "Rokid MAX 2 оснащены встроенной диоптрийной регулировкой от 0,00D до -6,00D, что позволяет использовать очки без дополнительных корректирующих линз. ... 1920:1200",
+      "title": "Rokid Max 2 - купить AR-очки Rokid Max 2 от производителя",
+      "url": "https://www.rokid.ru/rokid-max-2"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ozon.ru",
+      "ref_id": "turn48search4",
+      "snippet": "Image: Rokid Station 2 карманное ТВ AR, пространство 5000 мАч, 8/128 ГБ, подходит #1",
+      "title": "Rokid Station 2 карманное ТВ AR, пространство 5000 мАч, 8/128 ГБ, подходит купить на OZON по низкой цене (4827894028)",
+      "url": "https://www.ozon.ru/product/rokid-station-2-karmannoe-tv-ar-prostranstvo-5000-mach-8-128-gb-podhodit-4827894028/?from_sku=1688480235&oos_search=false"
+    },
+    {
+      "type": "text_result",
+      "domain": "glassesdb.com",
+      "ref_id": "turn48search5",
+      "snippet": "# Rokid Max 2 ... Resolution 1920×1080 default; up to 1920×1200",
+      "title": "Rokid Max 2 Specs & Overview | GlassesDB",
+      "url": "https://glassesdb.com/glasses/rokid-max-2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.skillsive.com",
+      "ref_id": "turn48search6",
+      "snippet": "Las únicas cifras que INMO publica para la GO2 aparecen en una tabla que la compara con la INMO GO de primera generación, y la",
+      "title": "INMO GO2 — especificación | Skillsive",
+      "url": "https://www.skillsive.com/es/tools/xr-devices/inmo-go2"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bestdenki.com.sg",
+      "ref_id": "turn48search7",
+      "snippet": "ROKID PORTABLE DEVICES AR SPATIAL: MAX 2 + STATION 2 ... RESOLUTION: 1920 × 1080 (FULL HD PER EYE)",
+      "title": "ROKID PORTABLE DEVICES AR SPATIAL: MAX 2 + STATION 2",
+      "url": "https://www.bestdenki.com.sg/9102450-rokid-portable-devices-ar-spatial-max-2-station-2.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.alza.sk",
+      "ref_id": "turn48search8",
+      "snippet": "VR okuliare – k hernej konzole, k mobilu, k počítaču, rozlíšenie 1920 x 1080 px, 215\" obrazovka, obnovovacia frekvencia 120 Hz, s mikrofónom, HD smerový",
+      "title": "Rokid Max 2 - VR okuliare | Alza.sk",
+      "url": "https://www.alza.sk/gaming/rokid-max-2-levne-d13276556.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "pdf.dfcfw.com",
+      "ref_id": "turn48search12",
+      "snippet": "（1）显示方案：光学显示方面，INMO GO2 搭载 JBD 蜂鸟 Mini II 光引擎，采用双目单绿 Micro LED + 衍射光波导的设计，实现 30° 视场角，最高亮度 2,000nit，分辨率为 640*480。",
+      "title": "华金证券*行业快报*消费电子*INMO：Air3重塑未来移动终端，GO2专注同传翻译华金证券-电子-眼镜终端-消费电子*孙远峰",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202412021641148484_1.pdf?1733173860000.pdf="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.idealo.de",
+      "ref_id": "turn48search9",
+      "snippet": "Image: Rokid Station2: Google-zertifizierter Spatial Calculator für Smart Glasses mit Beam-Technologie, 8GB RAM, 128GB Speicher und 5000-mAh-Akku",
+      "title": "Rokid Station2 | Preisvergleich bei idealo.de",
+      "url": "https://www.idealo.de/preisvergleich/Liste/123624145/rokid-station2.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.skillsive.com",
+      "ref_id": "turn48search10",
+      "snippet": "Les seuls chiffres qu'INMO publie pour le GO2 figurent dans un tableau le comparant à la première génération, l'INMO GO, et la ligne Affichage est",
+      "title": "INMO GO2 — fiche technique | Skillsive",
+      "url": "https://www.skillsive.com/fr/tools/xr-devices/inmo-go2"
+    },
+    {
+      "type": "text_result",
+      "domain": "rokid.vn",
+      "ref_id": "turn48search11",
+      "snippet": "Equivalent | 4K stereo (2 × 1920×1080) ... Max 2 is a comprehensive upgrade: brighter display (1000 nits vs 600 nits), Qualcomm AR1 Gen1 next-gen",
+      "title": "Rokid Max 2 — XR Glasses 4K · FOV 50° · 3D Spatial Audio | DroidShop",
+      "url": "https://rokid.vn/en/rokid-max.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "msa.maryland.gov",
+      "ref_id": "turn48search13",
+      "snippet": "GO2 ... INMS 640 Intelligence Led Enforcement (3)",
+      "title": "Spring 2013",
+      "url": "https://msa.maryland.gov/megafile/msa/speccol/sc5300/sc5339/000113/016000/016573/unrestricted/20130422e.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.unithaitravel.com",
+      "ref_id": "turn48search14",
+      "snippet": "| โปรแกรมการเดนิ ทาง None | | ออกเดนิ ทางส ู่ สนามบนิ นารติ ะ ประเทศญปี่ ่นุ โดยสายการบนิ ไทย เทยี่ วบนิ ท ี่ TG 640 | | วนั",
+      "title": "GO2-ICN TG001",
+      "url": "https://www.unithaitravel.com/__files/t/jp/9205-GO2NRT-TG004.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "cases.stretto.com",
+      "ref_id": "turn48search15",
+      "snippet": "3070 Bristol Street, Suite 640 ... Please see the attached document that sets forth our position served and filed earlier in the week. ... Cc:",
+      "title": "Microsoft Word - Reliant - Motion for OSC to Grady (002).docx",
+      "url": "https://cases.stretto.com/public/x374/13251/PLEADINGS/1325105082580000000099.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sercolandtechnik.ch",
+      "ref_id": "turn48search16",
+      "snippet": "GO2-0240 / GO2-0242 / GO2-0486 / GO2-0487 ... TRION 660 – 640 (Typ L54)",
+      "title": "Radialverteiler einschließlich",
+      "url": "https://www.sercolandtechnik.ch/files/240264_LUKat_DE-CH_reduziert.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "document.epiq11.com",
+      "ref_id": "turn48search17",
+      "snippet": "PLEASE TAKE FURTHER NOTICE that any response to the Motion must conform with Local Bankruptcy Rule 9013-1(f)(1), must be filed with the Bankruptcy Court no",
+      "title": "PLEASE TAKE FURTHER NOTICE that any response to the Motion must conform with Local Bankruptcy Rule 9013-1(f)(1), must be filed with the Bankruptcy Court no less than 14 days prior to the above hearing date, and must be served no less than 14 days prior to the above hearing date upon (i) the Debtor’s counsel of record, Golden Goodrich LLP, 3070 Bristol Street, Suite 640, Costa Mesa, CA 92626, Attention: David M. Goodrich, fax (714) 966-1002, dgoodrich@go2.law, and (ii) the Office of the United States Trustee. Pursuant to Local Bankruptcy Rule 9013-1(h), the failure to timely file and serve an opposition to the Motion may be deemed by the Court to be consent to the relief requested in the Motion.",
+      "url": "https://document.epiq11.com/document/getdocumentbycode?docId=4571177&projectCode=HAI&source=DM"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn48view0",
+      "snippet": "Total lines: 1250",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/KVvCbIpkJ6wvzF3GkMAPINBbrnbTCQ5aU_0r4crBOsDQK6v-c5Z4YV5pRVuyLw-tANiEVY_e0ud_-0CLZXCjDApe5yt6m44WNb18YLZCGGc",
+      "title": "RayNeo Air 4 Pro AR Smart Glasses - Best AR Glasses 2026 - RayNeo",
+      "url": "https://www.rayneo.com/products/rayneo-air-4-pro-ar-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn48view1",
+      "snippet": "Total lines: 1403",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/i6rLiDZuhjAiWOpFmoHC43RUubayxQgygPnvMwfhgo0_6s6EYhqRJPTEccvmKDUwv1BlCxh1mwe8MWWwtg_cS3f4YXwc_SSZbr8ff-VN2Uw",
+      "title": "RayNeo Air 3s Video Glasses - Smart Glasses with Screen - RayNeo",
+      "url": "https://www.rayneo.com/products/rayneo-air-3s-xr-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn48view2",
+      "snippet": "Total lines: 1963",
+      "title": "RayNeo Air 3s Pro - Best Gaming Glasses for Eye Protection - RayNeo",
+      "url": "https://www.rayneo.com/products/ar-glasses-rayneo-air-3s-pro-features"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn48view3",
+      "snippet": "Total lines: 754",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/9r3fzgqlnvLmVcr-loX8Rbwk3EfAlffJxKqKVPFm1kfOiZlx28Bb-rr5HLSo1p_tjv3tVjyLTN33Z3sL4XYl-jl5YbFrEGskOMs5rNN50N1edpI1fEWOQHRrPer6gZp2MXld9UC1o_CFlK_djQ1XDA",
+      "title": "RayNeo X2 Waveguide Glasses - Best Smart Glasses for Filming - RayNeo",
+      "url": "https://www.rayneo.com/products/tcl-rayneo-x2"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ef5343dd-5e63-41f9-80c7-609564c940cf",
+  "query": "Alibaba Rayneo X3 Pro 160 glasses ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Alibaba Rayneo X3 Pro 160 glasses",
+      "Alibaba INMO GO3 160 smart glasses",
+      "site.rokid.com \"Station 2\" \"Snapdragon\"",
+      "site.inmolens.com \"GO2\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.alibaba.com",
+      "ref_id": "turn49search0",
+      "snippet": "# RayNeo X3 Pro AI+AR智能眼镜，3500nits，全球版",
+      "title": "Rayneo X3 Pro Ai+ar智能眼镜，3500nits，全球版 - Buy Tcl Rayneo X3 Pro Ai Glasses global Version Product on Alibaba.com",
+      "url": "https://www.alibaba.com/product-detail/TCL-RayNeo-X3-Pro-AI-Glasses_1600989292035.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmolens.com",
+      "ref_id": "turn49search1",
+      "snippet": "INMO GO 翻译版、INMO GO2 ... INMOLENS App",
+      "title": "影目INMO-定义未来眼镜",
+      "url": "https://www.inmolens.com/download"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.alibaba.com",
+      "ref_id": "turn49search2",
+      "snippet": "For INMO GO3 Real-time Translation AR Smart AI Glasses with Photo/Video/Audio/Speech Identification and XR Technology$456.80-576.80 MOQ: 1 Delivery by Sep 26 4.5/5.0 (203 reviews)",
+      "title": "For INMO GO3 Real-time Translation AR Smart AI Glasses with Photo/Video/Audio/Speech Identification and XR Technology in Alibaba.com",
+      "url": "https://www.alibaba.com/pla/INMO-GO3-Real-time-Translation-AR-Smart_1601781968022.html?biz=pla&mark=google_shopping&pcy=gb_en&product_id=1601781968022&searchText=ar+hardware"
+    },
+    {
+      "type": "text_result",
+      "domain": "germany.alibaba.com",
+      "ref_id": "turn49search3",
+      "snippet": "# RayNeo X3 Pro AI+AR Smart Glasses, 3500 nits, Globale Version",
+      "title": "Rayneo X3 Pro Ai+ar Smart Glasses,3500 Nits,Globale Version - Buy Product on Alibaba.com",
+      "url": "https://germany.alibaba.com/product-detail/TCL-Rayneo-X2-AR-Glasses-RTS_1600989292035.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.alibaba.com",
+      "ref_id": "turn49search4",
+      "snippet": "Alibaba.com protects you from payment to delivery with Trade Assurance. ... Internation Version INMO GO3 AI Smart Glasses Real-Time Translation Via Qwen Large Language Model",
+      "title": "Alibaba.com",
+      "url": "https://www.alibaba.com/premium/ar_smart_glasses/5.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn49search5",
+      "snippet": "INMO AIR3, INMO GO2, INMO X series AI photo glasses released the first batch of blind orders exceeding 10,000 units",
+      "title": "About INMO",
+      "url": "https://www.inmo.com/pages/about-us"
+    },
+    {
+      "type": "text_result",
+      "domain": "oculos.io",
+      "ref_id": "turn49search6",
+      "snippet": "* Image: INMO GO3 glasses in gray and black, a small camera at the top corner, red ring at the hinge, INMO wordmark on the",
+      "title": "Smart glasses catalog · oculos.io",
+      "url": "https://oculos.io/en/glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "shop.cnps.ai",
+      "ref_id": "turn49search7",
+      "snippet": "Open INMO GO3 AI Smart Glasses | ≈58g MicroLED AR Glasses with AI Translator, Hot-Swap Battery & Camera when you want the IMG301 table at",
+      "title": "AR Smart Glasses | INMO GO3 | CNPS.AI",
+      "url": "https://shop.cnps.ai/collections/ar-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.inmoxr.com",
+      "ref_id": "turn49search8",
+      "snippet": "INMO GO2 offers a suite of intelligent features designed to revolutionize your communication and understanding of the world.",
+      "title": "Features | INMO Support Center",
+      "url": "https://support.inmoxr.com/go2/guides/features/"
+    },
+    {
+      "type": "text_result",
+      "domain": "korean.alibaba.com",
+      "ref_id": "turn49search9",
+      "snippet": "Alibaba ... 썬더 버드 RayNeo X3 Pro 개념 AI 안경 리얼 무선 쌍안경 풀 컬러 디스플레이 광학 파동 가이드 XR 안경 휴대용",
+      "title": "Alibaba.com에서 고품질의 rayneo x3 프로 안경 제조사와 rayneo x3 프로 안경 출처를 명시하기",
+      "url": "https://korean.alibaba.com/g/rayneo-x3-pro-glasses.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ontechlive.com",
+      "ref_id": "turn49search10",
+      "snippet": "### Rokid Station 2 8GB/128GB Controlador AR 128GB Snapdragon AR 5h",
+      "title": "Produtos Rokid - OntechLive",
+      "url": "https://ontechlive.com/marca/rokid/"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.maigoo.com",
+      "ref_id": "turn49search11",
+      "snippet": "〖新品首发〗INMO GO2 智能AR眼镜 实时同声翻译机 演讲提词器AI会议助手出国旅游上课翻译神器 AI眼镜",
+      "title": "INMO品牌网购_INMO网店_INMO产品排行榜→买购APP",
+      "url": "https://m.maigoo.com/brand/product_4117065.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit12",
+      "snippet": "They also had Alibaba’s Qwen glasses, INMO GO3, and RayNeo video glasses.",
+      "title": "I found VITURE and Baidu Glasses in stores 🍀",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1w0w9wb/i_found_viture_and_baidu_glasses_in_stores/"
+    },
+    {
+      "type": "text_result",
+      "domain": "kind.krx.co.kr",
+      "ref_id": "turn49search13",
+      "snippet": "A price-vs-release-date chart for smart glasses, with the y-axis labeled “Price” (ticks at $300, $500, $1,000) and the x-axis labeled “Release Date” (2023, 2024, 2025,",
+      "title": "Microsoft PowerPoint - ì‡¬íﬂ¼ìŠﬂë°Ÿë‘—ì²´ 2025 Compact IR Book_v7_ê¸°ìŠ–ê³µê°œIR.pptx",
+      "url": "https://kind.krx.co.kr/external/dst/irReference/17423/%EC%82%AC%ED%94%BC%EC%97%94%EB%B0%98%EB%8F%84%EC%B2%B4%202025.09%20%EA%B8%B0%EC%97%85%EC%84%A4%EB%AA%85%ED%9A%8C%28IR%29%20%EC%9E%90%EB%A3%8C.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit14",
+      "snippet": "I just didn't have the time to double check but theres quite a lot of stores in Alibaba that claim to sell from RayNeo X3",
+      "title": "Somebody knows about this AR Glasses?",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1pd83m8/somebody_knows_about_this_ar_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "5.imimg.com",
+      "ref_id": "turn49search15",
+      "snippet": "X3 Pro ... - Binocular Full-Color AI+AR Glasses ... - MicroLED Display (RayNeo Firefly Optical Engine)",
+      "title": "X3 Pro\n\n**X3 Pro**\n- Binocular Full-Color AI+AR Gl",
+      "url": "https://5.imimg.com/data5/SELLER/Doc/2026/1/578549315/VI/EC/TF/11078779/rayneo-x3-pro-ar-glasses-argf20.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "doc.irasia.com",
+      "ref_id": "turn49search16",
+      "snippet": "### X3 Pro ... Below it, a promotional image with large text “V3 Slim”, a smiling woman holding glasses, and the RayNeo logo; Chinese text",
+      "title": "PowerPoint 演示文稿",
+      "url": "https://doc.irasia.com/listco/hk/tclelectronics/cpresent/pre260327.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit17",
+      "snippet": "The Inmo go3 are not a dependable product. ... I just got my glasses last night and I'm having a tough time setting them up.",
+      "title": "Inmo Go3 opinion?",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1vsvu6j/inmo_go3_opinion/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bhphotovideo.com",
+      "ref_id": "turn49search18",
+      "snippet": "X3 Pro User Manual ... - RayNeo AR Glasses *1",
+      "title": "X3 Pro 说明书 国内版_英西法德意日繁",
+      "url": "https://www.bhphotovideo.com/lit_files/1293361.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "fomalhaut.co.jp",
+      "ref_id": "turn49search19",
+      "snippet": "| Data Shipment 2026/6/2 Document ID 3441 | REPORT NAME 3441-TD-INMO_INMO GO 2_IMG201 | PRODUCT TYPE Healthcare / Io | MANUFAC TURER INMO | MODEL",
+      "title": "0000-List_Schedule_Master.xlsx",
+      "url": "https://fomalhaut.co.jp/wp-content/uploads/2026/06/0000-List_Schedule_Master2606.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.healthyteennetwork.org",
+      "ref_id": "turn49search20",
+      "snippet": "Station 2: Seed Packet Building Station, Part 1 ... Blue line-art flower illustration of a snapdragon beside the text “Snapdragon: I work to strengthen my",
+      "title": "Station 2: Seed Packet Building Station, Part 1",
+      "url": "https://www.healthyteennetwork.org/wp-content/uploads/2025/05/Seeds-of-Healing_Installation-DIY-Guide.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit21",
+      "snippet": "I was an early backer and really want these to work, these are my 7th pair of smart glasses and they have had by far",
+      "title": "Inmo Go3 Glasses",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1vg2q3e/inmo_go3_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit22",
+      "snippet": "I tested 9 AI smart glasses across 4 real-world tests - See and Understand (aisle and allergen tests), Think and Decide (AI reasoning), Do Things",
+      "title": "I tested 9 AI smart glasses across 4 real-world situations — unsponsored, here’s what happened",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1ssuhcp/i_tested_9_ai_smart_glasses_across_4_realworld/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit23",
+      "snippet": "For instance, in China they have a telecom company and an eyewear chain as major partners. ... Subsequently, the INMO GO3 will also introduce features",
+      "title": "INMO GO3 — Smart Glasses with many different styles, binocular display, smart ring and replaceable batteries",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1o8182w/inmo_go3_smart_glasses_with_many_different_styles/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit24",
+      "snippet": "So I just got my X3 pros 24 hours ago. ... Please do not confuse these with the Air3/Air4 AR glasses. ... Having never purchased",
+      "title": "X3 Pro Initial Impressions",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1qf3vhh/x3_pro_initial_impressions/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit25",
+      "snippet": "Given the modest hardware but focus on practicality, do you think this lightweight 'AI companion' approach is the key to getting smart glasses to go",
+      "title": "INMO GO3 AI Smart Glasses Appear at FCC",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1qufgq4/inmo_go3_ai_smart_glasses_appear_at_fcc/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit26",
+      "snippet": "I originally purchased the X2 glasses by TCL RAYNEO earlier last year and was majorly upset how after only 3 months RAYNEO sent out an",
+      "title": "TCL RayNeo X3 Pro AR glasses hands-on review: The next generation",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1j3feew/tcl_rayneo_x3_pro_ar_glasses_handson_review_the/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit27",
+      "snippet": "It is described as the world's first 1080p all-in-one smart glasses, with an independent operating system that does not require connection to a mobile phone.",
+      "title": "Does this sound like INMO GO3 smart glasses will get a camera? It would be a first in the \"GO\" series",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1lt281v/does_this_sound_like_inmo_go3_smart_glasses_will/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit28",
+      "snippet": "**Qwen by Alibaba:** These were the glasses I found most often, likely present in every mall I visited. ... Interestingly, the eyewear store chain LOHO",
+      "title": "Smart Glasses Retail Report Shenzhen — What I saw this week 𝗣𝗮𝗿𝘁 𝟭",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1vcw32z/smart_glasses_retail_report_shenzhen_what_i_saw/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn49reddit29",
+      "snippet": "https://www.reddit.com/r/augmentedreality/comments/1o8182w/inmo\\_go3\\_smart\\_glasses\\_with\\_many\\_different\\_styles/ ... Don't know for certain if inmo go3 yet, but for other brands, for China version",
+      "title": "INMO GO3 — Don't miss this if you go to CES",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1pq922m/inmo_go3_dont_miss_this_if_you_go_to_ces/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn49news30",
+      "snippet": "RayNeo, the AR glasses arm of TCL, launched the X3 Pro globally in December 2025, following a well-received debut in the Chinese market.",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/2SU-ZoNNyvS1_jAbb90A2847klKtqgVb4kYxbteo9ZRLQnpUSzTOHri-jHM_bNDpnP1UGEGdwxy0CzM-ADUcuoeuYWtEZVYSKWZh92IolK_Rl-nE4sQeHunEruGJgq4c",
+      "title": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use",
+      "url": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.t3.com",
+      "ref_id": "turn49news31",
+      "snippet": "Equally, on the listing page for the INMO GO3 smart glasses, it says \"The GO3 records every conversation, call, and meeting automatically, then transcribes and",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/RC3vsFPjgsW3-6Uu9iBtL7HQMbpjPUieF9xhtqIeK3FcMjKhQ4s_yWuvpbd0L_V_IGFajwtShWsmWuOqGFI-zg3pHqhUL80R6gl21T7iTtQ1FvDgoy2uhltAJDdZhHqz",
+      "title": "These new smart glasses with a display solve the camera issue in simple, unique fashion",
+      "url": "https://www.t3.com/tech/vr/these-new-smart-glasses-with-a-display-solve-the-camera-issue-in-simple-unique-fashion"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn49news32",
+      "snippet": "With the X3 Pro, however, RayNeo has an ambitious goal: making smart glasses with a heads-up display.",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/5gdsI0bNZmD9pZMqivs6LdryFs-9494sUwE9_nr-3ArtB7nvI-qCfxO4qgnlUPWvECETdHLs3AHJcpmPBulc4bWslbOqqavJzB7R_jybGBsWa6nA0K4r_5LzyH1tAXLn",
+      "title": "I used RayNeo's X3 Pro for a month - these AR glasses are futuristic, but there's a big problem",
+      "url": "https://www.androidcentral.com/wearables/i-used-rayneo-x3-pro-for-a-month-these-ar-glasses-are-futuristic-but-theres-a-problem"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn49news33",
+      "snippet": "But even by that standard, the vibes are way off with TCL's RayNeo X3 Pro AR Smart Glasses.",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/FUVSlWty45fTUg8Vet8MrFZjySdYq7s0kz3QHrPxCFM3-tdmFgF9ngpie8f_TQUMSCSyrA1lS1lX4xmKCEeGWP3JyrSX0IHqrX-aFQg1Z2SoYEKsCSYEA4sWLOZWfpTN",
+      "title": "I wore the most advanced smart glasses for two months - the tech is futuristic, but the look is not",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/tcl-rayneo-x3-pro-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn49news34",
+      "snippet": "We've already seen the RayNeo X3 Pro glasses before - I saw them at CES last year - and they're your run-of-the-mill AI smart glasses.",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/_6xHecxUNLXWXzM_2oErnI8KgMuHdb-ezQa4Ey-b6YO2jk4IlPG-6uG8KViRdRuWDqw5fxavg7-IBsQpl02cvgmMJRTHtUuN5unBxpcJlRC5f8kFggTsRRmr02aKYBqx",
+      "title": "Truly phoneless AI glasses to the first specs with HDR10 - here are the best smart glasses from CES 2026",
+      "url": "https://www.techradar.com/tech/truly-phoneless-ai-glasses-to-the-first-specs-with-hdr10-here-are-the-best-smart-glasses-from-ces-2026"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn49news35",
+      "snippet": "RayNeo Air 3s Pro review: Getting my mind to adjust to the 201-inch screen simulation took a while - but once it did, these display",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/U3-k6aT1EbKc960yYIkB6O1_P2tRwOH59jjbr4GcD8JzEX63N5QP9gWYMYkarOk__Yejh06-T3-L57ux8LqoEzpSQsqGQqiSbZj8047MHuosnZj1dw-vWyXHDjKieQ8T",
+      "title": "RayNeo Air 3s Pro review: Getting my mind to adjust to the 201-inch screen simulation took a while - but once it did, these display glasses proved impressive",
+      "url": "https://www.techradar.com/pro/rayneo-air-3s-pro-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn49view0",
+      "snippet": "Total lines: 1963",
+      "title": "RayNeo Air 3s Pro - Best Gaming Glasses for Eye Protection - RayNeo",
+      "url": "https://www.rayneo.com/products/ar-glasses-rayneo-air-3s-pro-features"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-3b441a11-a056-4ccb-818c-e3f74b13756e",
+  "query": "site.rayneo.com \"Air 3s\" \"650\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rayneo.com \"Air 3s\" \"650\"",
+      "site.rayneo.com \"Air 3s Pro\" \"1200\"",
+      "site.rokid.com \"Station 2\" \"8GB\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn50search0",
+      "snippet": "# Air 3s Pro AR Glasses: 201\" 120Hz 1200Nits Display | RayNeo Official - RayNeo",
+      "title": "Air 3s Pro AR Glasses: 201\" 120Hz 1200Nits Display | RayNeo Official - RayNeo",
+      "url": "https://www.rayneo.com/pages/ar-glasses-rayneo-air-3s-pro-1200nits"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartwearables.io",
+      "ref_id": "turn50search1",
+      "snippet": "Image: RayNeo Air 3s ... 76g Powered by connected device Micro-OLED, 201-inch equivalent, 1080P, 120Hz, 650 nits 3D surround audio",
+      "title": "RayNeo Air 3s Price Comparison - Best Deals from $199 | Smart Wearables",
+      "url": "https://www.smartwearables.io/prices/rayneo-air-3s"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn50search2",
+      "snippet": "RayNeo’s Air line of display glasses has four models: Air 2s, Air 3s, Air 3s Pro, and Air 4 Pro. ... Brightness as RayNeo states",
+      "title": "RayNeo Air 2s vs Air 3s vs Air 3s Pro vs Air 4 Pro",
+      "url": "https://www.rayneo.com/en-ca/blogs/news/rayneo-air-series-spec-table-compared"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tanotis.com",
+      "ref_id": "turn50search3",
+      "snippet": "Take your mobile gaming and movie streaming to the virtual big screen when you put on a pair of Air 3s Pro XR Glasses from",
+      "title": "Buy in India RayNeo Air 3s Pro XR Glasses – Tanotis",
+      "url": "https://www.tanotis.com/products/tanotis-bhpv-raair3spro"
+    },
+    {
+      "type": "text_result",
+      "domain": "ontechlive.com",
+      "ref_id": "turn50search4",
+      "snippet": "O Rokid Station 2 é um controlador AR avançado que combina 8 GB de RAM com 128 GB de armazenamento, proporcionando desempenho fluido e espaço",
+      "title": "Rokid Station 2 8GB/128GB Controlador AR 128GB Snapdragon AR 5h - OntechLive",
+      "url": "https://ontechlive.com/produto/rokid-station-2-8gb-128gb-controlador-ar-128gb-snapdragon-ar-5h/"
+    },
+    {
+      "type": "text_result",
+      "domain": "zetbuy.com",
+      "ref_id": "turn50search5",
+      "snippet": "RayNeo Air 3s Pro are equipped with a proprietary four-speaker system and RayNeo surround sound technology to generate studio-quality sound that dynamically adapts to head",
+      "title": "RayNeo Air 3S Pro AR Glasses",
+      "url": "https://zetbuy.com/products/rayneo-air-3s-pro-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.pccomponentes.com",
+      "ref_id": "turn50search6",
+      "snippet": "* Image: Gafas RayNeo Air 3S Pro Micro-OLED 201\" 1200 nits Sonido Envolvente",
+      "title": "Gafas RayNeo Air 3S Pro Micro-OLED 201\" 1200 nits Sonido Envolvente | PcComponentes.com",
+      "url": "https://www.pccomponentes.com/gafas-rayneo-air-3s-pro-micro-oled-201-1200-nits-sonido-envolvente"
+    },
+    {
+      "type": "text_result",
+      "domain": "cloud-b.edupage.org",
+      "ref_id": "turn50search12",
+      "snippet": "RAYNEO AIR 3S XR ... <tr><td>•</td><td>Micro-OLED (Sony), rozlíšenie 1920 × 1080 pixelov na oko (FHD), obnovovacia frekvencia až 120 Hz, jas 650 nitov, kontrastný pomer",
+      "title": "RECENZIE\n\nRAYNEO AIR 3S XR\n\n# K mobilu aj hernej k",
+      "url": "https://cloud-b.edupage.org/cloud/NEXTECH_4_2026.pdf?z%3AvDNN8hOkqzzQpybL9JPOhgye%2FodksnPfBR4IC8dD1lvrXLnD91o4Yg%2Bztzjt%2FssslW2iQV7ZCPDoF3bqHDkUpA%3D%3D="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.arcompare.com",
+      "ref_id": "turn50search7",
+      "snippet": "RayNeo’s Air line is four glasses that look alike on paper — all 76 g, all 1,080p per eye at 120Hz, all around 46° —",
+      "title": "Which RayNeo Air Should You Buy? | AR Compare",
+      "url": "https://www.arcompare.com/guides/which-rayneo-air/"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn50search13",
+      "snippet": "VAT) | RayNeo Air 2s 379 | RayNeo Air 3s 269 | RayNeo Air 3s Pro 299 | Air 3s Pro Upgrade Bullet Points Model",
+      "title": "Difference RayNeo Air 2s vs RayNeo Air3s vs RayNeo Air 3s Pro.xlsx",
+      "url": "https://manuals.plus/m/199f9250b801f83202d2e1cb7f94ec06ba9e14da049fa03736591370912fb50c.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "shopee.ph",
+      "ref_id": "turn50search8",
+      "snippet": "RayNeo Air 3s AR Glasses 201\" Screen 650 nits works for iPhone15 16 17 Series MacBooks PS5 Xbox ASW",
+      "title": "RayNeo Air 3s AR Glasses 201\" Screen 650 nits works for iPhone15 16 17 Series MacBooks PS5 Xbox ASW | Shopee Philippines",
+      "url": "https://shopee.ph/RayNeo-Air-3s-AR-Glasses-201-Screen-650-nits-works-for-iPhone15-16-17-Series-MacBooks-PS5-Xbox-ASW-i.1768522347.42779944680"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.ithome.com",
+      "ref_id": "turn50search9",
+      "snippet": "两款眼镜采用孔雀光学引擎 2.0，搭载第 5.5 代 Micro-OLED 镜片，采用苹果 iPad Pro 同源双层 OLED，实现了 1200 尼特入眼亮度、20 万比 1 的对比度、98% DCI-P3 色域、3840Hz 高频 PWM 调光，还支持调校五档色彩模式。 ... 京东雷鸟 RayNeo Air 3s1499",
+      "title": "雷鸟 Air 3s / 3s Pro AR 眼镜发布：苹果 iPad Pro 同源双层 OLED，定价 1499 元起",
+      "url": "https://m.ithome.com/mip/html/856405.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smarty.cz",
+      "ref_id": "turn50search10",
+      "snippet": "RayNeo Air 3S Pro AR brýle ... * Virtuální 201\" plátno: Plocha s 120Hz obnovovací frekvencí pro plynulost bez hranic.",
+      "title": "RayNeo Air 3S Pro AR brýle - Smarty.cz",
+      "url": "https://www.smarty.cz/RayNeo-Air-3S-Pro-AR-bryle-4p257859"
+    },
+    {
+      "type": "text_result",
+      "domain": "shopee.com.my",
+      "ref_id": "turn50search11",
+      "snippet": "Rokid Station 2 Media Box – 8GB RAM + 128GB, Portable AR Companion for Rokid Max 2 & AR Glasses, 5000mAh Battery",
+      "title": "Rokid Station 2 Media Box – 8GB RAM + 128GB, Portable AR Companion for Rokid Max 2 & AR Glasses, 5000mAh Battery | Shopee Malaysia",
+      "url": "https://shopee.com.my/Rokid-Station-2-Media-Box-%E2%80%93-8GB-RAM-128GB-Portable-AR-Companion-for-Rokid-Max-2-AR-Glasses-5000mAh-Battery-i.897783013.43572206257"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn50search14",
+      "snippet": "<tr><td>Station 2 Memory/Storage</td><td>8GB RAM, 128GB ROM</td></tr> ... <tr><td>Included Components</td><td>Rokid Max 2 AR Glasses, Rokid Station 2, USB C cable, Eyewear storage case, Warranty card ",
+      "title": "Rokid AR Spatial AR Glasses Pack & Station 2 User Manual",
+      "url": "https://manuals.plus/asin/B0DRFG5ZWZ.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit15",
+      "snippet": "The Air 3S is 650 nits where as the Air 3S Pro is 1200. ... I am looking to get the Rayneo 3S Pro for",
+      "title": "My Review Of The New RayNeo Air 3S Pro",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1mygt4u/my_review_of_the_new_rayneo_air_3s_pro/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.shopro.lt",
+      "ref_id": "turn50search16",
+      "snippet": "1x RayNeo Air 3s Pro glasses ... Up to 1200 nits",
+      "title": "MB KOMPIUTERIŲ GURU",
+      "url": "https://www.shopro.lt/index.php?product_id=375828&route=product%2Fpdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit17",
+      "snippet": "Every aspect of air 3s pro seems better than xreal but xreal has electrochromic dimming and looks like real sunglasses rayneo seems a little too",
+      "title": "Which one should I buy? Xreal air 2 pro vs rayneo air 3s pro",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1l7jwdt"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit18",
+      "snippet": "RayNeo has launched the Air 3s Pro only in China so far, afaik. ... * Dual-layer OLED microdisplays deliver 1200 nits brightness, 200,000:1 contrast ratio,",
+      "title": "Are the RayNeo Air 3s PRO the brightest video glasses yet at 1200 nits?",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1l14ju8/are_the_rayneo_air_3s_pro_the_brightest_video/"
+    },
+    {
+      "type": "text_result",
+      "domain": "pdf.dfcfw.com",
+      "ref_id": "turn50search19",
+      "snippet": "（1）眼镜本体：雷鸟 Air 3s 系列全系采用孔雀光学引擎 2.0+第 5.5 代全新 Micro-OLED 屏幕，采用苹果 iPad Pro 同源双层 OLED，实现了 1200 尼特入眼亮度、20 万比 1 的对比度、98% DCI-P3 色域、3840Hz 高频 PWM 调光，还支持调校五档色彩模式。",
+      "title": "华金证券*行业周报*电子*如何看待眼镜终端演变过程中的投资机遇？华金证券-电子-行业周报*熊军",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202506021683655785_1.pdf?1748897684000.pdf="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit20",
+      "snippet": "Hey there, just bought a new set of 3s pro's from China and have been looking into setting them up for my steam deck before",
+      "title": "Rayneo Air 3S First Impressions",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1lkobsq"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit21",
+      "snippet": "I’m torn between picking up the VITURE Pro XR (on sale right now for $299 from $459) and the RayNeo Air 3s Pro ($249) for",
+      "title": "VITURE Pro XR vs RayNeo Air 3s Pro - Which is Better for Travel/Movies with iPhone? (Also, I Have a HUGE Head)",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1o6oq9t"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit22",
+      "snippet": "They still offer 1200 NITs too. ... There is maybe slightly more air in the sound from the Air 4 Pro but that's all. ...",
+      "title": "How does the rayneo air 4 pro 2d to 3d conversion work and is it good for games?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1r9ia57/how_does_the_rayneo_air_4_pro_2d_to_3d_conversion/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit23",
+      "snippet": "I did the same thing and returned them and got the RayNeo Air 3S Pro and WOW the difference is amazing. ... HDR10 in the",
+      "title": "Just got my RayNeo Air 3s, is it worth upgrading to the Air 4 Pro?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1rcsz09/just_got_my_rayneo_air_3s_is_it_worth_upgrading/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit24",
+      "snippet": "RayNeo Air 3S/3S Pro have the best display of all the glasses I’ve used. ... In my experience the Air 3S displays are just as",
+      "title": "Is it worth it to return Viture pro XR for Rayneo 3s pro?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1mypbmv"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit25",
+      "snippet": "Theres plenty of improvements space for the existing S2 and S3 in the fashion of firmware and even fixing the shitty software 'Rayneo XR' has",
+      "title": "Air 3s Pro about to be announced!",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1kud4bm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit26",
+      "snippet": "The main difference that I’ve seen seems to be the amount of nits 650 vs 1200. ... I have the Air 3S but not the",
+      "title": "Trying to decide if I should get the  Air 3S?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1ohpcvx/trying_to_decide_if_i_should_get_the_air_3s/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn50reddit27",
+      "snippet": "The viewing angle on the xreal one pro is 57 vs 47 which is much better but the brightness on 3s pro (1200 vs 700)",
+      "title": "Rayneo air 3s pro vs xreal one pro",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1muji6i/rayneo_air_3s_pro_vs_xreal_one_pro/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn50news28",
+      "snippet": "[Image 0: RayNeo Air 3s Pro] Resolution: Dual Sony Micro OLED screens with 1920 x 1080 resolution per eye.Screen Size: 201-inch equivalent screen size at",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/eoV5mchtdKwebQIqS5IEDP-XUh3pLV5pkiHFv2EXeCOusP9ye1cHe1wlJU6n1h4O98mb8zL83hkKUnG08dW8v0wgwvuskmL3LbDrIS0OzK6fqKVUJfCt9DO6KPbxA60a",
+      "title": "RayNeo Air 3s Pro review: Getting my mind to adjust to the 201-inch screen simulation took a while - but once it did, these display glasses proved impressive",
+      "url": "https://www.techradar.com/pro/rayneo-air-3s-pro-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn50news29",
+      "snippet": "The standard Air 3s is decent at 650 nits, and while RayNeo is using a similar image engine on the Air 3s Pro, it somehow",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/DVtVr9lxm6B5WyzgTtIxRDnN3ZUSRmaGbwI2FEWywqhnY2IrUFRsPBBaRr0RlbqPNcw8VmU7HUL1zWCKU2dX5FioPQQmBspRysDNshMfLJ0tnTFLBygLiMWTMHP6qCqn",
+      "title": "RayNeo's latest XR glasses come with a single upgrade, but it's a game-changer - meet the brightest XR glasses available today",
+      "url": "https://www.androidcentral.com/gaming/virtual-reality/air-3s-pro-rayneo-best-xr-glasses-are-true-game-changer"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn50view0",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn50view1",
+      "snippet": "Total lines: 153",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/OP7IEZ33ntYXnek5bZXjshVD0yB19vVqM60B9lNofaRMV4fuGD5j6wqAR_IiMmx-8RgQtvismGi5kJl1HORZTIgmhRkVDPTvCIzOcGgkBp-r7CAcrX1BL5evy5PzTQw0",
+      "title": "VOLUNTARY PRODUCT SAFETY IMPROVEMENT INMO Smart Glass AIR3 | INMO Official Website",
+      "url": "https://www.inmo.com/pages/recall"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inmo.com",
+      "ref_id": "turn50view2",
+      "snippet": "Total lines: 170",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/nDatWa9EoJIbxZGNikNI8-erb-9SdJ6MxKv0UQsdqlnBlysDS8Aq7AKYAnJMbnBil0VPZBoewlhC5LvfvL54fdVDertjIa7j_JrvxqSgGk7_cIz6N-K1P6qOyTjaJReS",
+      "title": "INMO AIR3 Recall Update Performance: Video, Apps and Settings After V3.16",
+      "url": "https://www.inmo.com/ja/blogs/inmo-insights/inmo-air3-recall-update-performance"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Cercetare verificată la **30.10.2026**. Cele mai importante corecții față de lista inițială:
+
+- **INMO AIR3 are recall oficial pentru supraîncălzire**; nu trebuie recomandat direct pentru achiziție fără verificarea remedierii.
+- **INMO GO3 este RTOS**, nu Android; SDK-ul AIR3 nu se transferă.
+- **Rokid Glass3 enterprise** este diferit de consumer **Rokid Glasses** și merită rând propriu.
+- **Rokid Glasses 2 este preorder**, iar Rokid Color este anunțat pentru 2027; nu trebuie numărate drept modele deja livrate.
+- **RayNeo iO „MFi Certified” nu înseamnă compatibilitate MFi hearing aid**. Senzorul bone-conduction este intrare, nu speaker.
+
+### Rokid — modele principale
+
+| Model / statut | Date verificate | Surse |
+|---|---|---|
+| **Rokid Glasses / With Display — disponibil global, variantă China separată** | Waveguide binocular MicroLED verde; rezoluție declarată **480×640**, FOV30°, 1.500nit; 49g; Snapdragon AR1, 2GB/32GB; cameră12MP, video până3K30; 4mic, 2speakere direcționale; Wi-Fi6, BT5.3, IMU, IPX4; 210mAh; charging magnetic,80%/20min; captions, translation, teleprompter, navigation; SDK declarat. | [Produs și specificații oficiale](https://global.rokid.com/products/b-h-rokid-glasses-with-display?variant=46066446368947) |
+| **Rokid AI Glasses Style — disponibil global, fără display** | 38,5g fără lentile Rx; cameră SonyIMX68112MP,3K30,FOV109°,f/2.25; 32GB; 4mic cu reducere zgomot,2speakere open-ear; Wi-Fi6,BT5.3,IPX4; Hi Rokid obligatoriu, iOS16+/Android12+; preț pagină329USD. SDK specific Style neconfirmat, nu deduce din consumer display SDK. | [Produs oficial](https://global.rokid.com/products/rokid-ai-glasses-style?variant=45179509997747) |
+| **Rokid Max2 — disponibil global** | OLED display tethered; rezoluție implicit1920×1080/ochi, până1920×1200 cu Station2;60–120Hz, dar Station2 folosește90Hz; dioptrii0…−6; microfon confirmat; nu se împerechează Bluetooth independent, căștile se conectează la host. | [Achiziție](https://global.rokid.com/products/rokid-max-2-ar-glasses?variant=44984888033459), [rezoluție oficială](https://global.rokid.com/blogs/max-2/what-is-the-display-resolution-of-the-rokid-max-2), [FAQ oficial](https://global.rokid.com/blogs/max-2) |
+| **Rokid Glass3 RG301/RG303 — enterprise, lansare oficială29.06.2026** | YodaOS-Sprite Enterprise; canvas fix480×640 verde, cameră fixed-focus,2mic; Android SDK; iOS/HarmonyOS nesuportate; API pickup near-field/far-field/omnidirectional; comutare≈3sec, fără API public gain/sensitivity. Video SDK implicit1080×1920≈15–19fps; latență playback≈300ms **video**, nu hearing audio. | [FAQ developer primar](https://x-docs.rokid.com/docs/en/faq/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.html), [demo](https://x-docs.rokid.com/docs/en/downloads/demo-guide.html), [manual oficial](https://x-docs.rokid.com/lingmou_manual.pdf), [lifecycle](https://global.rokid.com/en-hispano/pages/security-center) |
+
+**Bundle-uri/companions — nu dubla numărul modelelor:**
+
+- **AR Spatial / AR Lite:** Max2+Station2, host de calcul spațial.
+- **AR Joy2:** Max2+Station original, Android TV.
+- Station2 este host dedicat; nu tabletă generală. Camera USB/SSD pe al doilea port nu sunt suportate conform FAQ, portul fiind charging-only.
+- Power Capsule și charging case sunt alimentare, nu calcul.
+- GameSir controller și Rokid Hub sunt accesorii.
+- [Catalog oficial AR](https://global.rokid.com/collections/rokid-ar-glasses-series).
+
+**Inventar suplimentar de păstrat cu statut neconfirmat în 2026:**
+
+- **Max RA201**, **Max Pro RA202 + Station Pro RAS201 / AR Studio**, **Bolon AI RV201/RV202**: apar în [registrul oficial de suport](https://global.rokid.com/en-hispano/pages/security-center); acesta dovedește identitatea/lifecycle, nu stocul sau comercializarea în2026.
+- **Rokid Air**, **Glass2 RG201**: listing Alibaba găsit, dar fără validare stoc/variantă actuală.
+- **Glasses2 RV301…RV305:** preorder China, livrare raportată pentru noiembrie; data din security center este27.11.2026, divergentă față de presa11.11.2026. A se marca **preorder / dată divergentă**.
+- **Rokid Color:** anunț octombrie2026, livrare raportată aprilie2027; **exclus din „comercializat și livrat până30oct”**, inclus anexă pipeline.
+- [Relatare lansare Glasses2](https://www.notebookcheck.net/Rokid-Glasses-2-launch-with-upgraded-design-bigger-battery-and-Dolby-Audio-support.1435436.0.html). Specificațiile noii generații trebuie lăsate provizorii până la fișa primară.
+
+**Software Rokid**
+
+- [Developer portal oficial](https://open.rokid.com/), dinamic, fără text extractibil.
+- [Aplicații oficiale](https://global.rokid.com/pages/app-download): **Hi Rokid1.16.0,30oct2026**, cere firmware `1.28.016-20261029-150201`; captions, agent store, translation cu playback audio opțional, teleprompter și control cameră.
+- Glass3 are documentație primară clară, proiecte Android pentru telefon și ochelari, debugging prin cablu dedicat.
+- CXR-L/M/S pentru consumer: diferențele de naming/versiune din surse comunitare sunt inconsistente; **nu aș marca public PCM/full-duplex/background „Da” fără documentul modelului exact**.
+- [Repo universitar care implementează CXR-M1.2.2](https://github.com/hkust-spark/xg-glass-sdk/blob/main/devices/device-rokid/README.md): util pentru PoC, **sursă implementator terț**, nu contract oficial fabricant.
+
+**Reviewuri Rokid**
+
+- [Tom’s Guide — Rokid Glasses, utilizare pe5.000mile](https://www.tomsguide.com/computing/smart-glasses/rokid-glasses-review): hands-on, relevant pentru uz cotidian.
+- [TechRadar — Style, o lună](https://www.techradar.com/computing/virtual-reality-augmented-reality/ive-spent-a-month-with-the-rokid-ai-glasses-style-theyre-excellent-smart-glasses-let-down-by-an-ugly-design): autonomie observată aproximativ5–6ore în sesiuni mixte față de marketing12ore; costurile lentilelor/case contează.
+- [DigitalCameraWorld — Style](https://www.digitalcameraworld.com/cameras/digital-cameras/rokid-ai-glasses-style-review-could-these-smart-glasses-dethrone-metas-ray-bans): evaluare foto/video.
+
+**Alibaba Rokid**
+
+- [Rokid Glasses — listing exact ca denumire](https://www.alibaba.com/product-detail/Rokid-Smart-Glasses-AI-Display-AR_1601780559671.html): Guangdong Daoran Film And Television Equipment; MOQ2; preț indexat731,84USD. Varianta/SDK/autorizarea neconfirmate.
+- [Rokid Air](https://www.alibaba.com/product-introduction/100-Rokid-Air-Smart-Glasses-Foldable_1600484720108.html): listing vechi, MOQ5,179USD la pragul inițial; nu dovedește suport2026.
+- [Rokid Max](https://www.alibaba.co.uk/product-detail/Rokid-Smart-Ar-Glasses-Headband-Augmented_1600555301061.html).
+- [Glass2 industrial](https://www.alibaba.com/pla/Rokid-Glass-2-foldable-AR-glasses_1600496530630.html?biz=pla&mark=google_shopping&product_id=1600496530630&searchText=ar+hardware): **nu consumer Glasses2 lansat2026**.
+
+### RayNeo — inventar și date
+
+Catalogul global confirmă **GT Max, GT, Air4Pro, Air3s, Air3sPro, iO, X3Pro, X2**. Air3sPro și X2 apar „Sold out”. Lista comparativă mai include Air2/Air2s. China are suplimentar **V4 și Air4**, iar V3/V3Slim apar în documente istorice.
+
+| Model | Specificații / interpretare | Sursă |
+|---|---|---|
+| **X3Pro — disponibil global** | Waveguide binocular MicroLED color640×480;30°;3.500nit avg/6.000peak; AR1Gen1,4GB/32GB;12MP+spatial camera;3mic beamforming;245mAh;76±1g;Wi-Fi6,BT5.3,USB2-C; AIOS,6DoF+SLAM,Android/Unity ARDK, Gemini,14limbi. | [Produs oficial](https://www.rayneo.com/products/x3-pro-ai-display-glasses) |
+| **X2 — listat sold-out, EOL declarat** | Waveguide color; cameră16MP; model older pentru developeri. Nu recomand achiziție nouă fără clarificarea suportului. | [Produs](https://www.rayneo.com/products/tcl-rayneo-x2), [EOL oficial](https://src.rayneo.cn/) |
+| **iO — disponibil global** | Waveguide binocular MicroLED verde;33g;23,5°;1.300nit eye-level;camera absentă;4mic+bone-conduction sensor;240mAh;BT5.4,MFi certified;IP54;translation continuă6,2h declarată. Rezoluție, speaker și SDK specific neconfirmate în pagina extrasă. | [Produs oficial](https://www.rayneo.com/products/rayneo-io-ai-glasses) |
+| **GT — disponibil global** | MicroOLED1920×1080;FOV46°;120Hz2D/60Hz3D;68g;3DoF nativ;luminozitate1.200nit non-pinned/336nit pinned;quad-speaker B&O,head-tracked spatial audio;USB-C DP. | [Produs](https://www.rayneo.com/products/rayneo-gt-ar-glasses) |
+| **GT Max — disponibil global** | MicroOLED1920×1080;FOV59°;120Hz2D/60Hz3D;78g;aceleași moduri/pinned brightness,quad audio;USB-C DP;PocketTVPro pentru DolbyVision. | [Produs](https://www.rayneo.com/products/rayneo-gt-max-ar-glasses) |
+| **Air4Pro — disponibil global** | MicroOLED FullHD,120Hz,1.200nit,HDR10,76g,quad B&O,spatial sound/Whisper;host extern, fără cameră. | [Produs](https://www.rayneo.com/products/rayneo-air-4-pro-ar-smart-glasses), [comparație fabricant](https://www.rayneo.com/blogs/news/the-complete-ar-glasses-buying-guide-7-essential-factors-for-first-time-buyers-4) |
+| **Air3s — disponibil global** | MicroOLED1080p,120Hz,650nit to-eye;display tethered. | [Produs](https://www.rayneo.com/products/rayneo-air-3s-xr-glasses), [tabel oficial](https://www.rayneo.com/en-ca/blogs/news/rayneo-air-series-spec-table-compared) |
+| **Air3sPro — sold-out global** | MicroOLED1080p,120Hz,1.200nit to-eye;quad-speaker;display tethered. | [Produs](https://www.rayneo.com/products/ar-glasses-rayneo-air-3s-pro-features), [fișă](https://www.rayneo.com/pages/ar-glasses-rayneo-air-3s-pro-1200nits) |
+| **Air2s — model vechi/listat, EOL** | Patru speakere; sursa oficială amestecă600nit key specs și5.000nit marketing: păstrează separat baza măsurării. | [Comparație oficială](https://www.rayneo.com/en-ca/blogs/news/rayneo-air-series-spec-table-compared), [specs](https://uk.rayneo.com/pages/tech-specs) |
+| **Air2 — model vechi/listat, EOL** | Două speakere; model display tethered; verificare stoc2026 incompletă. | [Specificații](https://uk.rayneo.com/pages/tech-specs), [EOL](https://src.rayneo.cn/) |
+| **V4 — China, produs oficial cu buy link** | Camera/audio AI; pagina vizuală nu a expus specificațiile; nu completa cifre din analogie cu V3. | [Produs China](https://rayneo.cn/v4.html) |
+| **Air4 — China, produs oficial** | Pagina China este „Air4”, navigația „Air4(Pro)”; versiunea non-Pro trebuie păstrată separat până la confirmarea SKU. | [Produs China](https://rayneo.cn/Air4.html) |
+
+**Inventar neconfirmat:** V3/V3Slim, Air3 China, Air original, X2Lite. Ultimul nu trebuie presupus produs comercial din simpla prezentare CES. [Catalog China](https://www.rayneo.cn/), [catalog global](https://www.rayneo.com/pages/rayneo-shop).
+
+**Companions RayNeo**
+
+- PocketTV streaming box129USD; PocketTVPro199USD; GoogleTV media hosts, nu tablete.
+- JoyDock89USD: NintendoSwitch adaptor/power.
+- USB-C charging adaptor35USD, HDMI64USD.
+- GT/GTMax „Sound Tube”19USD: direcționare acustică spre ureche; **nu hearing aid/DSP**.
+- GT suportă USB-C video pe iPad compatibil,PC/Mac,Android,iPhone; incompatibilitățile concrete trebuie păstrate. [Catalog/accesorii](https://www.rayneo.com/pages/rayneo-shop).
+
+**Software RayNeo**
+
+- [Ghid Qualcomm primar, X3Pro](https://www.qualcomm.com/developer/project/get-started-with-rayneo-x3-pro-ar-development): Android/Unity ARDK,OpenXR,ADB; audio,cameră,gyroscope prin Android native APIs. Aceasta justifică API acces documentat, dar nu latență full-duplex măsurată.
+- [Portal developer](https://open.rayneo.com/).
+- [Download oficial](https://www.rayneo.com/pages/download): XR App pentru Air,Android8+cuDP; AR App pentru X,Android/iOS. Nu extrapola vechile minime la iO.
+- Public Android API pentru audio face X3Pro candidat PoC; **nu există în sursele verificate validare hearing aid, gain calibrat sau latență acustică**.
+
+**Reviewuri RayNeo**
+
+- [TechRadar X3Pro,14iul2026](https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review): display apreciat; autonomie activă foarte limitată, inclusiv≈45min în scenarii intensive; ecosistem dificil.
+- [Tom’s Hardware X3Pro](https://www.tomshardware.com/peripherals/wearable-tech/rayneo-x3-pro-ar-glasses-review): problemă autonomie.
+- [TechRadar Air3sPro,31ian2026](https://www.techradar.com/pro/rayneo-air-3s-pro-smart-glasses-review): confort/display și plug-and-play evaluate favorabil; dependent de host.
+- Reviewuri individuale GT/GTMax/iO/V4: **nefinalizate**, nu inventa.
+
+**Alibaba RayNeo**
+
+[Listing X3Pro global](https://www.alibaba.com/product-detail/TCL-RayNeo-X3-Pro-AI-Glasses_1600989292035.html): Shenzhen Omni-In Technology,MOQ1,1.250USD indexat. Identificarea titlului este X3Pro, dar URL-ul versiunii germane păstrează **X2** și atribute generice3Dshutter/>80"; cere SKU/foto/firmware și drepturile SDK înainte de comandă. Listingul nu validează autorizarea.
+
+### INMO — modele și inventar
+
+| Model / statut | Date verificate | Surse |
+|---|---|---|
+| **GO3 IMG301 — disponibil global/China, variante de verificat** | Waveguide binocular MicroLED verde640×480,30°,1.500nit eye-level;RTOS,dual-core,256MB+64GB;≈58g;270mAh schimbabil,spare inclus;4mic/2speaker;camera8MP confirmată în app oficial. Ring4,INMO Speaker opționale; captions/translation/navigation. SDK public GO3 neconfirmat. | [Fișă oficială](https://www.inmo.com/pages/inmo-go3-ai-glasses), [app fabricant](https://apps.apple.com/us/app/inmo-global/id6758009618) |
+| **AIR3 — comercializat Dec2025–Aug2026, recall** | Waveguide binocular full-color1920×1080,36°;Android14;8GB/128GB;Snapdragon nespecificat exact în sursa primară accesibilă;16MP;GooglePlay instalare;Unity developer portal. Greutatea și performanța după update necesită verificare: surse divergente119/135g. | [Comparație oficială](https://www.inmo.com/de/blogs/news/whats-difference-between-inmo-air3-and-meta-ray-ban-display-glasses), [FAQ crowdfunding fabricant](https://www.kickstarter.com/projects/inmo-air3-ar-glasses/inmo-air3-smart-ar-glasses/faqs), [SDK](https://developer.inmolens.com/) |
+| **GO2 — China actual/catalog și support; global statut neconfirmat** | Produs translation cu sistem Android propriu potrivit istoricului fabricant; aplicație INMOGO Android. Nu transfera APK/SDK AIR3. | [Catalog China](https://inmolens.com/inmo-go/), [download oficial](https://www.inmolens.com/download), [istoric](https://www.inmo.com/pages/about-us) |
+| **Magic AI Glasses J — pagină oficială actuală; comandabilitatea neconfirmată** | Fără HUD documentat;40,1g;camera8MP;open-ear audio,voice navigation/translation;BT5.2;Memories App Android/iOS;SDK neconfirmat. | [Pagina oficială](https://www.inmo.com/pages/magic-ai-glasses-j) |
+| **AIR2 / AIR / GO original** | Generații istorice; AIR/AIR2 încă au aplicație INMOLENS Android, GO/GO2 INMOGO; dovada vânzării2026 insuficientă. | [Download](https://www.inmolens.com/download), [istoric](https://www.inmo.com/pages/about-us) |
+| **INMO X / R2 / X R2** | X este familie camera AI; R2 are appINMOX Android/iOS în download actual, în timp ce pagina istorică spune „Coming soon” pentruXR2: identitatea/statusul trebuie clarificate. | Aceleași surse oficiale |
+
+**Recall AIR3 — obligatoriu vizibil**
+
+[Pagina oficială](https://www.inmo.com/pages/recall) cere oprirea utilizării și contactarea suportului pentru actualizare, din cauza supraîncălzirii brațului stâng. Menționează vânzări Amazon/Kickstarter/inmoxr.com,Dec2025–Aug2026,900–1.300USD. [Explicație updateV3.16](https://www.inmo.com/ja/blogs/inmo-insights/inmo-air3-recall-update-performance). Nu interpreta actualizarea drept validare independentă a remedierii sau performanței.
+
+**Aplicații INMO**
+
+- [INMO Global Android](https://play.google.com/store/apps/details?id=com.inmo.app.googleplay).
+- [INMO Global iOS](https://apps.apple.com/us/app/inmo-global/id6758009618): iOS17+,GO3,versiune2.4.1 la verificare. App reviews includ probleme de background/iOS; acestea sunt anecdote ale utilizatorilor, nu comportament universal.
+- [Download China pe model](https://www.inmolens.com/download).
+- [Developer AIR3](https://developer.inmolens.com/): spatial tracking,6DoF,gestures,build/deploy. Portalul dinamic limitează inspecția completă a API.
+- **Nu s-a confirmat** PCM/audio full-duplex/background public peGO3; nu presupune sideload Android peRTOS.
+
+**Ecosistem auditiv INMO**
+
+GO3+telefon+INMO Speaker+Ring4; speakerul extern redă traducerea și poate folosi voice cloning opțional. **Acesta transformă/redă vocea pentru interlocutor, nu corectează auzul purtătorului.** [Descriere oficială a rutelor](https://www.inmo.com/blogs/inmo-insights/ai-glasses-vs-ar-glasses-travel-translation-movies). Nicio tabletă dedicată confirmată; Air3 are compute integrat, touchpad/ring fiind controllere.
+
+**Reviewuri INMO**
+
+- [GO3 — evaluare o săptămână](https://smartglasses.fyi/en/journal/inmo-go3-review/): utilă pentru confort, baterii schimbabile și limite; trebuie păstrată clasificarea hands-on declarată.
+- [AIR3 — bug roundup ianuarie2026](https://note.com/mrvr/n/n2a252f0ea13e?hl=en): agregator comunitar, nu review controlat.
+- [T3 GO3,22oct2026](https://www.t3.com/tech/vr/these-new-smart-glasses-with-a-display-solve-the-camera-issue-in-simple-unique-fashion): articol despre produs, **nu test hands-on**.
+- Pentru GO2/AIR2/X/R2/MagicJ: review specific actual neconfirmat.
+
+**Alibaba INMO**
+
+- [AIR3](https://www.alibaba.com/pla/INMO-Air-3-AR-Smart-Glasses_1601789376431.html?biz=pla&mark=google_shopping&pcy=nl_en&product_id=1601789376431&searchText=smart+glasses): Shanghai Blue Lemon,MOQ1,828–863USD indexat; **recall și firmware obligatoriu de verificat**.
+- [GO3](https://www.alibaba.com/pla/INMO-GO3-Real-time-Translation-AR-Smart_1601781968022.html?biz=pla&mark=google_shopping&pcy=gb_en&product_id=1601781968022&searchText=ar+hardware): Dongguan Hecheng Interactive,MOQ1,456,80–576,80USD indexat; variantă regională/SDK/garanție neconfirmate.
+
+Nu am obținut dovadă de interoperabilitate hearing aid verificată, certificare medicală sau latență acustică măsurată pentru niciunul dintre aceste modele. Pentru shortlist tehnic: **X3Pro și Glass3 enterprise** au cele mai concrete documente primare de dezvoltare inspectate; **Rokid Glasses** rămâne candidat consumer; **GO3/iO** sunt atractive pentru captions, dar deschiderea SDK trebuie validată separat.
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_3e78a9ce0a504778a157795dd50275ed",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_a05cab96be364a578247889dcf31dfce",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_b0ceaee2bfdf450bbe71b4cd0e16b7bf",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_bc9c979404684182886bab24bc489969",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_9843a30cca9a48f7affa972fb2934bbc",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Am transmis root-ului generatorul în **3 bucăți**, pentru **3 producători și 38 modele**, cu surse, reviewuri, oferte și necunoscute explicite.
+
+Salvarea mea a rămas blocată la aprobarea shell și a fost întreruptă; **nu confirm existența fișierului**. Root poate salva și executa generatorul fără reluarea cercetării.

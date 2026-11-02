@@ -1,0 +1,24 @@
+'use strict';
+const assert=require('node:assert/strict');const {parseSignature,extractStubSignature,matchStub}=require('./match-stub.cjs');
+const base={type:'class',methods:[{independentDexMatch:true,ownerJavaNames:['a.b','p000a.b'],methodJavaNames:['m','renamed'],parameterJavaNames:[['java.lang.String[]']],returnJavaNames:['void'],accessFlags:128,dexSha256:'a'.repeat(64),rawDescriptor:'La/b;->m([Ljava/lang/String;)V',methodIndex:3}]};
+let count=0;function test(fn){fn();count++;}
+test(()=>assert.equal(matchStub('p000a.b.m(java.lang.String[]):void',[base]).status,'UNIQUE_VERIFIED_IDENTITY'));
+test(()=>assert.equal(matchStub('a.b.renamed(java.lang.String[]):void',[base]).status,'UNIQUE_VERIFIED_IDENTITY'));
+test(()=>assert.equal(matchStub('a.b.m(java.lang.String...):void',[base]).status,'UNIQUE_VERIFIED_IDENTITY'));
+test(()=>assert.equal(matchStub('a.b.m(java.lang.Object[]):void',[base]).status,'UNRESOLVED'));
+test(()=>assert.equal(matchStub('a.b.m(java.lang.String[]):boolean',[base]).status,'UNRESOLVED'));
+test(()=>assert.equal(matchStub('guessed.b.m(java.lang.String[]):void',[base]).status,'UNRESOLVED'));
+test(()=>assert.equal(matchStub('a.b.m(java.lang.String[], int):void',[base]).status,'UNRESOLVED'));
+test(()=>{const other={methods:[{...base.methods[0],dexSha256:'b'.repeat(64)}]};assert.equal(matchStub('a.b.m(java.lang.String[]):void',[base,other]).status,'AMBIGUOUS');});
+test(()=>assert.equal(matchStub('a.b.m(java.lang.String[]):void',[base,base]).candidates.length,1));
+test(()=>assert.equal(matchStub('a.b.m(java.lang.String[]):void',[{methods:[{...base.methods[0],independentDexMatch:false}]}]).status,'UNRESOLVED'));
+test(()=>assert.equal(matchStub('a.b.m(java.lang.String...):void',[{methods:[{...base.methods[0],accessFlags:0}]}]).status,'UNRESOLVED'));
+test(()=>assert.equal(parseSignature('a.b.m(java.util.Map<X,Y>):void').parameters.length,1));
+test(()=>assert.equal(parseSignature('not a signature'),null));
+test(()=>assert.equal(extractStubSignature('throw new UnsupportedOperationException("Method not decompiled: p000a.b.m(java.lang.String[]):void");',0),'p000a.b.m(java.lang.String[]):void'));
+test(()=>assert.equal(extractStubSignature('throw new UnsupportedOperationException("ordinary application exception");',0),null));
+const callback={methods:[{...base.methods[0],name:'l',methodJavaNames:['l','onPerformStreamCallback'],parameterJavaNames:[['com.iflytek.fanyi.blc.service.bean.AISummaryResponse']],accessFlags:0,rawDescriptor:'La/b;->l(Lcom/iflytek/fanyi/blc/service/bean/AISummaryResponse;)V',methodIndex:4},{...base.methods[0],name:'onPerformStreamCallback',methodJavaNames:['onPerformStreamCallback'],parameterJavaNames:[['com.iflytek.fanyi.blc.service.bean.IResponse']],accessFlags:64,rawDescriptor:'La/b;->onPerformStreamCallback(Lcom/iflytek/fanyi/blc/service/bean/IResponse;)V',methodIndex:5}]};
+test(()=>assert.equal(matchStub('p000a.b.onPerformStreamCallback(com.iflytek.fanyi.blc.service.bean.AISummaryResponse):void',[callback]).candidates[0]?.rawDescriptor,'La/b;->l(Lcom/iflytek/fanyi/blc/service/bean/AISummaryResponse;)V'));
+test(()=>assert.equal(matchStub('p000a.b.onPerformStreamCallback(com.iflytek.fanyi.blc.service.bean.IResponse):void',[callback]).candidates[0]?.methodIndex,5));
+test(()=>assert.equal(matchStub('p000a.b.onPerformStreamCallback(com.iflytek.fanyi.blc.service.bean.AISummaryResponse):void',[{methods:[callback.methods[1]]}]).status,'UNRESOLVED'));
+console.log(JSON.stringify({passed:true,tests:count}));

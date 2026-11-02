@@ -1,0 +1,37 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Audit_calitate_C03_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_calitate_C03_C10_2026-10-23--86417c7f.html",
+    "bytes": 31244,
+    "sha256": "2e9f80c6a980c47816e0a64c484b3b90b421f4669d8923939b9a66462bb00102"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Audit_final_corectii_C03_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_final_corectii_C03_C10_2026-10-23--6aad110b.html",
+    "bytes": 7364,
+    "sha256": "247c3e18da0e471aaab2d9199fffd37102bf0afa0894c81968f8ebe3fa52485d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Checklist_C03_C10_stare_finala_2026-10-23.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Checklist_C03_C10_stare_finala_2026-10-23--af59710d.json",
+    "bytes": 230728,
+    "sha256": "806f027d81b77f02f38caac9b65e386b2f00c4a41eadffe2f47c4fe59a1da849"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Checklist_implementator_corectii_C03_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Checklist_implementator_corectii_C03_C10_2026-10-23--97617594.html",
+    "bytes": 54927,
+    "sha256": "0a1b33103cdff5d594fb3e8a0bc0571ebcc4c8a5aea3491729edb71fb1a0f619"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Jurnal_corectii_autoverificare_C03_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Jurnal_corectii_autoverificare_C03_C10_2026-10-23--26e71cc0.html",
+    "bytes": 99891,
+    "sha256": "424e1c66f4f78683791d376d83a0436505687f43adf1b14a51c7de11ecd641e9"
+  }
+]

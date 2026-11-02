@@ -1,0 +1,11 @@
+2026.10.14 — Programare activă: verificare emailuri BERGER și PECH
+
+Verificări zilnice la 10:00 și 16:00, Europe/Bucharest, cu rezultatele în acest chat.
+Automatizare: verificare-emailuri-berger-i-pech; ACTIVE; heartbeat atașat acestui chat.
+Scop: mesaje noi primite/trimise în office@ac-wohnart.at și covaciu.gnm@gmail.com, căutări globale și notificări de nelivrare pentru BERGER/PECH; observații/contrapropuneri/servicii/prețuri/calendare/atașamente, numai diferențe față de arhivă și ultima verificare, inclusiv verificarea generală de la 08:00.
+Se verifică sincronizarea și toate paginile; mesajele/atașamentele relevante se arhivează cu metadate și istoric, jurnalele și indexul se actualizează.
+Ultimul răspuns: această operație configurează programarea; nu este o nouă scanare de emailuri sau confirmare comercială.
+Următorul pas: executarea verificării programate și raportarea noutăților sau a lipsei acestora cu limitele sincronizării.
+Verificarea generală Schallergasse 35 de la 08:00 rămâne activă și neschimbată.
+Nu se trimit emailuri, nu se modifică documentele comerciale, nu se semnează și nu se efectuează plăți.
+Sursă: 2026.10.14 Programare verificari Berger Pech.json în același folder și configurarea salvată în Codex.

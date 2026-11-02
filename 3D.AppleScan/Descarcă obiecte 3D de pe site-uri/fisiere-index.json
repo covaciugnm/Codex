@@ -1,0 +1,28 @@
+[
+  {
+    "source_reference": "T:/3DScan.eva-org.com",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "T:\\3DScan.eva-org.com",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/3DScan/Obiecte/_downloader/CITESTE-MA.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/CITESTE-MA--2e3e6e90.txt",
+    "bytes": 1786,
+    "sha256": "18ff1b4a90834c0b61e396c9118635f3f9df12934d82995e655ecb05c6dc0c6d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/3DScan/Obiecte/_downloader/download_models.py",
+    "status": "copiat",
+    "saved_path": "fisiere/download_models--681e2491.py",
+    "bytes": 15051,
+    "sha256": "953d1665c2f7d7d88db80f2e939dc474e9ffd8d93eb15bbdeddc79b5cc245f55"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\3DScan\\Obiecte",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

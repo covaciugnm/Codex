@@ -1,0 +1,51 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\audit_optim_verif.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit_optim_verif--d2e78cc5.png",
+    "bytes": 2215870,
+    "sha256": "9e25ae4192505f1042a209b273aacbb2faf0fc043563988a897eafc31c8dd7d6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\independent_audit_nov01\\mavati.png",
+    "status": "copiat",
+    "saved_path": "fisiere/mavati--f6cf1058.png",
+    "bytes": 36916,
+    "sha256": "182d6efcf073efb6c33b68259bb8b609a410b607d49ca148a131d0f82c12391d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\independent_audit_nov01\\mavati_cui.png",
+    "status": "copiat",
+    "saved_path": "fisiere/mavati_cui--8507a340.png",
+    "bytes": 39344,
+    "sha256": "861652469d867ca360e6dc4308a73f943e12f2f7f287cae380b876fa713fa883"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\independent_audit_nov01\\revo.png",
+    "status": "copiat",
+    "saved_path": "fisiere/revo--9de6eead.png",
+    "bytes": 832181,
+    "sha256": "c3dfc6303b007db072c7c13e4815250cf3a2d2993520581d34fbb2561722a707"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. RAPORT ARHIVA/Audit independent - 2026-11-01/Constatari.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Constatari--5e45abfd.html",
+    "bytes": 15023,
+    "sha256": "7c7c68a9b35fdb02831030c9cf7f3e7f9c732011c8ff4911a4c33b519a1fbce5"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. RAPORT ARHIVA/Audit independent - 2026-11-01/Dubluri.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Dubluri--c9e8f218.html",
+    "bytes": 97788,
+    "sha256": "0ffd347d21b2d119d905254eeef5cde0ed9451d46f9813effe69c39b81d290eb"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. RAPORT ARHIVA/Audit independent - 2026-11-01/Index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Index--0e06fa32.html",
+    "bytes": 9029,
+    "sha256": "3b44ed94fbe79ab92bb8db7a25a44552d3edc53e9713c900e8e9dbdec2ec3684"
+  }
+]

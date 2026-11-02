@@ -8,9 +8,9 @@
   "title": "Toms intalnire despre SChallerGasse 35",
   "project_id": "5c179290-3222-4036-8042-710f2e84db88",
   "project": "Comun",
-  "assignment_method": "workspace_path",
+  "assignment_method": "app_assignment",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-18T07:57:49.755838+00:00",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
   "source_bytes": 47230,
   "invalid_json_lines": 0,
   "history_source": "items",
@@ -18,6 +18,6 @@
   "item_count": 166,
   "message_count": 166,
   "content_sha256": "a3ac0be55010e94d5df3bcdb4d76821b40de2aad4a9029d67abfde287b87c7a2",
-  "files_copied": 6,
-  "references_not_copied": 4
+  "files_copied": 5,
+  "references_not_copied": 5
 }

@@ -1,0 +1,4014 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style type="text/css">
+      html {
+        overflow-x: initial !important;
+      }
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #333333;
+        --select-text-bg-color: #b5d6fc;
+        --select-text-font-color: auto;
+        --monospace: "Lucida Console", Consolas, "Courier", monospace;
+        --title-bar-height: 20px;
+      }
+      .mac-os-11 {
+        --title-bar-height: 28px;
+      }
+      html {
+        font-size: 14px;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        white-space: pre-wrap;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+        inset: 0px;
+        font-size: 1rem;
+        line-height: 1.42857;
+        overflow-x: hidden;
+        background: inherit;
+      }
+      iframe {
+        margin: auto;
+      }
+      a.url {
+        word-break: break-all;
+      }
+      a:active,
+      a:hover {
+        outline: 0px;
+      }
+      .in-text-selection,
+      ::selection {
+        text-shadow: none;
+        background: var(--select-text-bg-color);
+        color: var(--select-text-font-color);
+      }
+      #write {
+        margin: 0px auto;
+        height: auto;
+        width: inherit;
+        word-break: normal;
+        overflow-wrap: break-word;
+        position: relative;
+        white-space: normal;
+        overflow-x: visible;
+        padding-top: 36px;
+      }
+      #write.first-line-indent p {
+        text-indent: 2em;
+      }
+      #write.first-line-indent li p,
+      #write.first-line-indent p * {
+        text-indent: 0px;
+      }
+      #write.first-line-indent li {
+        margin-left: 2em;
+      }
+      .for-image #write {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+      body.typora-export {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .typora-export .footnote-line {
+        white-space: pre-wrap;
+      }
+      .typora-export .task-list-item input {
+        pointer-events: none;
+      }
+      @media screen and (max-width: 500px) {
+        body.typora-export {
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+        #write {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      #write li > figure:last-child {
+        margin-bottom: 0.5rem;
+      }
+      #write ol,
+      #write ul {
+        position: relative;
+      }
+      img {
+        max-width: 100%;
+        vertical-align: middle;
+        image-orientation: from-image;
+      }
+      button,
+      input,
+      select,
+      textarea {
+        color: inherit;
+        font: inherit;
+      }
+      input[type="checkbox"],
+      input[type="radio"] {
+        line-height: normal;
+        padding: 0px;
+      }
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+      #write h1,
+      #write h2,
+      #write h3,
+      #write h4,
+      #write h5,
+      #write h6,
+      #write p,
+      #write pre {
+        width: inherit;
+        position: relative;
+      }
+      #write svg h1,
+      #write svg h2,
+      #write svg h3,
+      #write svg h4,
+      #write svg h5,
+      #write svg h6,
+      #write svg p {
+        position: static;
+      }
+      p {
+        line-height: inherit;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        break-after: avoid-page;
+        break-inside: avoid;
+        orphans: 4;
+      }
+      p {
+        orphans: 4;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.8rem;
+      }
+      h3 {
+        font-size: 1.6rem;
+      }
+      h4 {
+        font-size: 1.4rem;
+      }
+      h5 {
+        font-size: 1.2rem;
+      }
+      h6 {
+        font-size: 1rem;
+      }
+      .md-math-block,
+      .md-rawblock,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .hidden {
+        display: none;
+      }
+      .md-blockmeta {
+        color: rgb(204, 204, 204);
+        font-weight: 700;
+        font-style: italic;
+      }
+      a {
+        cursor: pointer;
+      }
+      sup.md-footnote {
+        padding: 2px 4px;
+        background-color: rgba(238, 238, 238, 0.7);
+        color: rgb(85, 85, 85);
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      sup.md-footnote a,
+      sup.md-footnote a:hover {
+        color: inherit;
+        text-transform: inherit;
+        text-decoration: inherit;
+      }
+      #write input[type="checkbox"] {
+        cursor: pointer;
+        width: inherit;
+        height: inherit;
+      }
+      figure {
+        overflow-x: auto;
+        margin: 1.2em 0px;
+        max-width: calc(100% + 16px);
+        padding: 0px;
+      }
+      figure > table {
+        margin: 0px;
+      }
+      thead,
+      tr {
+        break-inside: avoid;
+        break-after: auto;
+      }
+      thead {
+        display: table-header-group;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0px;
+        width: 100%;
+        overflow: auto;
+        break-inside: auto;
+        text-align: left;
+      }
+      table.md-table td {
+        min-width: 32px;
+      }
+      .CodeMirror-gutters {
+        border-right: 0px;
+        background-color: inherit;
+      }
+      .CodeMirror-linenumber {
+        user-select: none;
+      }
+      .CodeMirror {
+        text-align: left;
+      }
+      .CodeMirror-placeholder {
+        opacity: 0.3;
+      }
+      .CodeMirror pre {
+        padding: 0px 4px;
+      }
+      .CodeMirror-lines {
+        padding: 0px;
+      }
+      div.hr:focus {
+        cursor: none;
+      }
+      #write pre {
+        white-space: pre-wrap;
+      }
+      #write.fences-no-line-wrapping pre {
+        white-space: pre;
+      }
+      #write pre.ty-contain-cm {
+        white-space: normal;
+      }
+      .CodeMirror-gutters {
+        margin-right: 4px;
+      }
+      .md-fences {
+        font-size: 0.9rem;
+        display: block;
+        break-inside: avoid;
+        text-align: left;
+        overflow: visible;
+        white-space: pre;
+        background: inherit;
+        position: relative !important;
+      }
+      .md-fences-adv-panel {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 8px;
+        overflow-x: auto;
+      }
+      #write .md-fences.mock-cm {
+        white-space: pre-wrap;
+      }
+      .md-fences.md-fences-with-lineno {
+        padding-left: 0px;
+      }
+      #write.fences-no-line-wrapping .md-fences.mock-cm {
+        white-space: pre;
+        overflow-x: auto;
+      }
+      .md-fences.mock-cm.md-fences-with-lineno {
+        padding-left: 8px;
+      }
+      .CodeMirror-line,
+      twitterwidget {
+        break-inside: avoid;
+      }
+      svg {
+        break-inside: avoid;
+      }
+      .footnotes {
+        opacity: 0.8;
+        font-size: 0.9rem;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      .footnotes + .footnotes {
+        margin-top: 0px;
+      }
+      .md-reset {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        outline: 0px;
+        vertical-align: top;
+        background: 0px 0px;
+        text-decoration: none;
+        text-shadow: none;
+        float: none;
+        position: static;
+        width: auto;
+        height: auto;
+        white-space: nowrap;
+        cursor: inherit;
+        -webkit-tap-highlight-color: transparent;
+        line-height: normal;
+        font-weight: 400;
+        text-align: left;
+        box-sizing: content-box;
+        direction: ltr;
+      }
+      li div {
+        padding-top: 0px;
+      }
+      blockquote {
+        margin: 1rem 0px;
+      }
+      li .mathjax-block,
+      li p {
+        margin: 0.5rem 0px;
+      }
+      li blockquote {
+        margin: 1rem 0px;
+      }
+      li {
+        margin: 0px;
+        position: relative;
+      }
+      blockquote > :last-child {
+        margin-bottom: 0px;
+      }
+      blockquote > :first-child,
+      li > :first-child {
+        margin-top: 0px;
+      }
+      .footnotes-area {
+        color: rgb(136, 136, 136);
+        margin-top: 0.714rem;
+        padding-bottom: 0.143rem;
+        white-space: normal;
+      }
+      #write .footnote-line {
+        white-space: pre-wrap;
+      }
+      @media print {
+        body,
+        html {
+          border: 1px solid transparent;
+          height: 99%;
+          break-after: avoid;
+          break-before: avoid;
+          font-variant-ligatures: no-common-ligatures;
+        }
+        #write {
+          margin-top: 0px;
+          border-color: transparent !important;
+          padding-top: 0px !important;
+          padding-bottom: 0px !important;
+        }
+        .typora-export * {
+          -webkit-print-color-adjust: exact;
+        }
+        .typora-export #write {
+          break-after: avoid;
+        }
+        .typora-export #write::after {
+          height: 0px;
+        }
+        .is-mac table {
+          break-inside: avoid;
+        }
+        #write > p:nth-child(1) {
+          margin-top: 0px;
+        }
+        .typora-export-show-outline .typora-export-sidebar {
+          display: none;
+        }
+        figure {
+          overflow-x: visible;
+        }
+      }
+      .footnote-line {
+        margin-top: 0.714em;
+        font-size: 0.7em;
+      }
+      a img,
+      img a {
+        cursor: pointer;
+      }
+      pre.md-meta-block {
+        font-size: 0.8rem;
+        min-height: 0.8rem;
+        white-space: pre-wrap;
+        background: rgb(204, 204, 204);
+        display: block;
+        overflow-x: hidden;
+      }
+      p > .md-image:only-child:not(.md-img-error) img,
+      p > img:only-child {
+        display: block;
+        margin: auto;
+      }
+      #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img {
+        left: -2em;
+        position: relative;
+      }
+      p > .md-image:only-child {
+        display: inline-block;
+        width: 100%;
+      }
+      #write .MathJax_Display {
+        margin: 0.8em 0px 0px;
+      }
+      .md-math-block {
+        width: 100%;
+      }
+      .md-math-block:not(:empty)::after {
+        display: none;
+      }
+      .MathJax_ref {
+        fill: currentcolor;
+      }
+      [contenteditable="true"]:active,
+      [contenteditable="true"]:focus,
+      [contenteditable="false"]:active,
+      [contenteditable="false"]:focus {
+        outline: 0px;
+        box-shadow: none;
+      }
+      .md-task-list-item {
+        position: relative;
+        list-style-type: none;
+      }
+      .task-list-item.md-task-list-item {
+        padding-left: 0px;
+      }
+      .md-task-list-item > input {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-left: -1.2em;
+        margin-top: calc(1em - 10px);
+        border: none;
+      }
+      .math {
+        font-size: 1rem;
+      }
+      .md-toc {
+        min-height: 3.58rem;
+        position: relative;
+        font-size: 0.9rem;
+        border-radius: 10px;
+      }
+      .md-toc-content {
+        position: relative;
+        margin-left: 0px;
+      }
+      .md-toc-content::after,
+      .md-toc::after {
+        display: none;
+      }
+      .md-toc-item {
+        display: block;
+        color: rgb(65, 131, 196);
+      }
+      .md-toc-item a {
+        text-decoration: none;
+      }
+      .md-toc-inner:hover {
+        text-decoration: underline;
+      }
+      .md-toc-inner {
+        display: inline-block;
+        cursor: pointer;
+      }
+      .md-toc-h1 .md-toc-inner {
+        margin-left: 0px;
+        font-weight: 700;
+      }
+      .md-toc-h2 .md-toc-inner {
+        margin-left: 2em;
+      }
+      .md-toc-h3 .md-toc-inner {
+        margin-left: 4em;
+      }
+      .md-toc-h4 .md-toc-inner {
+        margin-left: 6em;
+      }
+      .md-toc-h5 .md-toc-inner {
+        margin-left: 8em;
+      }
+      .md-toc-h6 .md-toc-inner {
+        margin-left: 10em;
+      }
+      @media screen and (max-width: 48em) {
+        .md-toc-h3 .md-toc-inner {
+          margin-left: 3.5em;
+        }
+        .md-toc-h4 .md-toc-inner {
+          margin-left: 5em;
+        }
+        .md-toc-h5 .md-toc-inner {
+          margin-left: 6.5em;
+        }
+        .md-toc-h6 .md-toc-inner {
+          margin-left: 8em;
+        }
+      }
+      a.md-toc-inner {
+        font-size: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+      .footnote-line a:not(.reversefootnote) {
+        color: inherit;
+      }
+      .reversefootnote {
+        font-family: ui-monospace, sans-serif;
+      }
+      .md-attr {
+        display: none;
+      }
+      .md-fn-count::after {
+        content: ".";
+      }
+      code,
+      pre,
+      samp,
+      tt {
+        font-family: var(--monospace);
+      }
+      kbd {
+        margin: 0px 0.1em;
+        padding: 0.1em 0.6em;
+        font-size: 0.8em;
+        color: rgb(36, 39, 41);
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(173, 179, 185);
+        border-radius: 3px;
+        box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px,
+          rgb(255, 255, 255) 0px 0px 0px 2px inset;
+        white-space: nowrap;
+        vertical-align: middle;
+      }
+      .md-comment {
+        color: rgb(162, 127, 3);
+        opacity: 0.6;
+        font-family: var(--monospace);
+      }
+      code {
+        text-align: left;
+        vertical-align: initial;
+      }
+      a.md-print-anchor {
+        white-space: pre !important;
+        border-width: initial !important;
+        border-style: none !important;
+        border-color: initial !important;
+        display: inline-block !important;
+        position: absolute !important;
+        width: 1px !important;
+        right: 0px !important;
+        outline: 0px !important;
+        background: 0px 0px !important;
+        text-decoration: initial !important;
+        text-shadow: initial !important;
+      }
+      .os-windows.monocolor-emoji .md-emoji {
+        font-family: "Segoe UI Symbol", sans-serif;
+      }
+      .md-diagram-panel > svg {
+        max-width: 100%;
+      }
+      [lang="flow"] svg,
+      [lang="mermaid"] svg {
+        max-width: 100%;
+        height: auto;
+      }
+      [lang="mermaid"] .node text {
+        font-size: 1rem;
+      }
+      table tr th {
+        border-bottom: 0px;
+      }
+      video {
+        max-width: 100%;
+        display: block;
+        margin: 0px auto;
+      }
+      iframe {
+        max-width: 100%;
+        width: 100%;
+        border: none;
+      }
+      .highlight td,
+      .highlight tr {
+        border: 0px;
+      }
+      mark {
+        background: rgb(255, 255, 0);
+        color: rgb(0, 0, 0);
+      }
+      .md-html-inline .md-plain,
+      .md-html-inline strong,
+      mark .md-inline-math,
+      mark strong {
+        color: inherit;
+      }
+      .md-expand mark .md-meta {
+        opacity: 0.3 !important;
+      }
+      mark .md-meta {
+        color: rgb(0, 0, 0);
+      }
+      @media print {
+        .typora-export h1,
+        .typora-export h2,
+        .typora-export h3,
+        .typora-export h4,
+        .typora-export h5,
+        .typora-export h6 {
+          break-inside: avoid;
+        }
+      }
+      .md-diagram-panel .messageText {
+        stroke: none !important;
+      }
+      .md-diagram-panel .start-state {
+        fill: var(--node-fill);
+      }
+      .md-diagram-panel .edgeLabel rect {
+        opacity: 1 !important;
+      }
+      .md-fences.md-fences-math {
+        font-size: 1em;
+      }
+      .md-fences-advanced:not(.md-focus) {
+        padding: 0px;
+        white-space: nowrap;
+        border: 0px;
+      }
+      .md-fences-advanced:not(.md-focus) {
+        background: inherit;
+      }
+      .mermaid-svg {
+        margin: auto;
+      }
+      .typora-export-show-outline .typora-export-content {
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+      }
+      .typora-export-sidebar {
+        width: 300px;
+        font-size: 0.8rem;
+        margin-top: 80px;
+        margin-right: 18px;
+      }
+      .typora-export-show-outline #write {
+        --webkit-flex: 2;
+        flex: 2 1 0%;
+      }
+      .typora-export-sidebar .outline-content {
+        position: fixed;
+        top: 0px;
+        max-height: 100%;
+        overflow: hidden auto;
+        padding-bottom: 30px;
+        padding-top: 60px;
+        width: 300px;
+      }
+      @media screen and (max-width: 1024px) {
+        .typora-export-sidebar,
+        .typora-export-sidebar .outline-content {
+          width: 240px;
+        }
+      }
+      @media screen and (max-width: 800px) {
+        .typora-export-sidebar {
+          display: none;
+        }
+      }
+      .outline-content li,
+      .outline-content ul {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        list-style: none;
+        overflow-wrap: anywhere;
+      }
+      .outline-content ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .outline-content strong {
+        font-weight: 400;
+      }
+      .outline-expander {
+        width: 1rem;
+        height: 1.42857rem;
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+        cursor: pointer;
+        padding-left: 4px;
+      }
+      .outline-expander::before {
+        content: "";
+        position: relative;
+        font-family: Ionicons;
+        display: inline-block;
+        font-size: 8px;
+        vertical-align: middle;
+      }
+      .outline-item {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        cursor: pointer;
+      }
+      .outline-expander:hover::before {
+        content: "";
+      }
+      .outline-h1 > .outline-item {
+        padding-left: 0px;
+      }
+      .outline-h2 > .outline-item {
+        padding-left: 1em;
+      }
+      .outline-h3 > .outline-item {
+        padding-left: 2em;
+      }
+      .outline-h4 > .outline-item {
+        padding-left: 3em;
+      }
+      .outline-h5 > .outline-item {
+        padding-left: 4em;
+      }
+      .outline-h6 > .outline-item {
+        padding-left: 5em;
+      }
+      .outline-label {
+        cursor: pointer;
+        display: table-cell;
+        vertical-align: middle;
+        text-decoration: none;
+        color: inherit;
+      }
+      .outline-label:hover {
+        text-decoration: underline;
+      }
+      .outline-item:hover {
+        border-color: rgb(245, 245, 245);
+        background-color: var(--item-hover-bg-color);
+      }
+      .outline-item:hover {
+        margin-left: -28px;
+        margin-right: -28px;
+        border-left: 28px solid transparent;
+        border-right: 28px solid transparent;
+      }
+      .outline-item-single .outline-expander::before,
+      .outline-item-single .outline-expander:hover::before {
+        display: none;
+      }
+      .outline-item-open > .outline-item > .outline-expander::before {
+        content: "";
+      }
+      .outline-children {
+        display: none;
+      }
+      .info-panel-tab-wrapper {
+        display: none;
+      }
+      .outline-item-open > .outline-children {
+        display: block;
+      }
+      .typora-export .outline-item {
+        padding-top: 1px;
+        padding-bottom: 1px;
+      }
+      .typora-export .outline-item:hover {
+        margin-right: -8px;
+        border-right: 8px solid transparent;
+      }
+      .typora-export .outline-expander::before {
+        content: "+";
+        font-family: inherit;
+        top: -1px;
+      }
+      .typora-export .outline-expander:hover::before,
+      .typora-export
+        .outline-item-open
+        > .outline-item
+        > .outline-expander::before {
+        content: "−";
+      }
+      .typora-export-collapse-outline .outline-children {
+        display: none;
+      }
+      .typora-export-collapse-outline .outline-item-open > .outline-children,
+      .typora-export-no-collapse-outline .outline-children {
+        display: block;
+      }
+      .typora-export-no-collapse-outline .outline-expander::before {
+        content: "" !important;
+      }
+      .typora-export-show-outline
+        .outline-item-active
+        > .outline-item
+        .outline-label {
+        font-weight: 700;
+      }
+      .md-inline-math-container mjx-container {
+        zoom: 0.95;
+      }
+      mjx-container {
+        break-inside: avoid;
+      }
+      .md-alert.md-alert-note {
+        border-left-color: rgb(9, 105, 218);
+      }
+      .md-alert.md-alert-important {
+        border-left-color: rgb(130, 80, 223);
+      }
+      .md-alert.md-alert-warning {
+        border-left-color: rgb(154, 103, 0);
+      }
+      .md-alert.md-alert-tip {
+        border-left-color: rgb(31, 136, 61);
+      }
+      .md-alert.md-alert-caution {
+        border-left-color: rgb(207, 34, 46);
+      }
+      .md-alert {
+        padding: 0px 1em;
+        margin-bottom: 16px;
+        color: inherit;
+        border-left: 0.25em solid rgb(0, 0, 0);
+      }
+      .md-alert-text-note {
+        color: rgb(9, 105, 218);
+      }
+      .md-alert-text-important {
+        color: rgb(130, 80, 223);
+      }
+      .md-alert-text-warning {
+        color: rgb(154, 103, 0);
+      }
+      .md-alert-text-tip {
+        color: rgb(31, 136, 61);
+      }
+      .md-alert-text-caution {
+        color: rgb(207, 34, 46);
+      }
+      .md-alert-text {
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+      .md-alert-text svg {
+        fill: currentcolor;
+        position: relative;
+        top: 0.125em;
+        margin-right: 1ch;
+        overflow: visible;
+      }
+      .md-alert-text-container::after {
+        content: attr(data-text);
+        text-transform: capitalize;
+        pointer-events: none;
+        margin-right: 1ch;
+      }
+
+      :root {
+        --side-bar-bg-color: #fafafa;
+        --control-text-color: #777;
+      }
+
+      @include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+      /* open-sans-regular - latin-ext_latin */
+      /* open-sans-italic - latin-ext_latin */
+      /* open-sans-700 - latin-ext_latin */
+      /* open-sans-700italic - latin-ext_latin */
+      html {
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body {
+        font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica,
+          Arial, "Segoe UI Emoji", sans-serif;
+        color: rgb(51, 51, 51);
+        line-height: 1.6;
+      }
+
+      #write {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 30px;
+        padding-bottom: 100px;
+      }
+
+      @media only screen and (min-width: 1400px) {
+        #write {
+          max-width: 1024px;
+        }
+      }
+
+      @media only screen and (min-width: 1800px) {
+        #write {
+          max-width: 1200px;
+        }
+      }
+
+      #write > ul:first-child,
+      #write > ol:first-child {
+        margin-top: 30px;
+      }
+
+      a {
+        color: #4183c4;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        position: relative;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        line-height: 1.4;
+        cursor: text;
+      }
+      h1:hover a.anchor,
+      h2:hover a.anchor,
+      h3:hover a.anchor,
+      h4:hover a.anchor,
+      h5:hover a.anchor,
+      h6:hover a.anchor {
+        text-decoration: none;
+      }
+      h1 tt,
+      h1 code {
+        font-size: inherit;
+      }
+      h2 tt,
+      h2 code {
+        font-size: inherit;
+      }
+      h3 tt,
+      h3 code {
+        font-size: inherit;
+      }
+      h4 tt,
+      h4 code {
+        font-size: inherit;
+      }
+      h5 tt,
+      h5 code {
+        font-size: inherit;
+      }
+      h6 tt,
+      h6 code {
+        font-size: inherit;
+      }
+      h1 {
+        font-size: 2.25em;
+        line-height: 1.2;
+        border-bottom: 1px solid #eee;
+      }
+      h2 {
+        font-size: 1.75em;
+        line-height: 1.225;
+        border-bottom: 1px solid #eee;
+      }
+
+      /*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+      h3 {
+        font-size: 1.5em;
+        line-height: 1.43;
+      }
+      h4 {
+        font-size: 1.25em;
+      }
+      h5 {
+        font-size: 1em;
+      }
+      h6 {
+        font-size: 1em;
+        color: #777;
+      }
+      p,
+      blockquote,
+      ul,
+      ol,
+      dl,
+      table {
+        margin: 0.8em 0;
+      }
+      li > ol,
+      li > ul {
+        margin: 0 0;
+      }
+      hr {
+        height: 2px;
+        padding: 0;
+        margin: 16px 0;
+        background-color: #e7e7e7;
+        border: 0 none;
+        overflow: hidden;
+        box-sizing: content-box;
+      }
+
+      li p.first {
+        display: inline-block;
+      }
+      ul,
+      ol {
+        padding-left: 30px;
+      }
+      ul:first-child,
+      ol:first-child {
+        margin-top: 0;
+      }
+      ul:last-child,
+      ol:last-child {
+        margin-bottom: 0;
+      }
+      blockquote {
+        border-left: 4px solid #dfe2e5;
+        padding: 0 15px;
+        color: #777777;
+      }
+      blockquote blockquote {
+        padding-right: 0;
+      }
+      table {
+        padding: 0;
+        word-break: initial;
+      }
+      table tr {
+        border: 1px solid #dfe2e5;
+        margin: 0;
+        padding: 0;
+      }
+      table tr:nth-child(2n),
+      thead {
+        background-color: #f8f8f8;
+      }
+      table th {
+        font-weight: bold;
+        border: 1px solid #dfe2e5;
+        border-bottom: 0;
+        margin: 0;
+        padding: 6px 13px;
+      }
+      table td {
+        border: 1px solid #dfe2e5;
+        margin: 0;
+        padding: 6px 13px;
+      }
+      table th:first-child,
+      table td:first-child {
+        margin-top: 0;
+      }
+      table th:last-child,
+      table td:last-child {
+        margin-bottom: 0;
+      }
+
+      .CodeMirror-lines {
+        padding-left: 4px;
+      }
+
+      .code-tooltip {
+        box-shadow: 0 1px 1px 0 rgba(0, 28, 36, 0.3);
+        border-top: 1px solid #eef2f2;
+      }
+
+      .md-fences,
+      code,
+      tt {
+        border: 1px solid #e7eaed;
+        background-color: #f8f8f8;
+        border-radius: 3px;
+        padding: 0;
+        padding: 2px 4px 0px 4px;
+        font-size: 0.9em;
+      }
+
+      code {
+        background-color: #f3f4f4;
+        padding: 0 2px 0 2px;
+      }
+
+      .md-fences {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+      }
+
+      .md-task-list-item > input {
+        margin-left: -1.3em;
+      }
+
+      @media print {
+        html {
+          font-size: 13px;
+        }
+        pre {
+          page-break-inside: avoid;
+          word-wrap: break-word;
+        }
+      }
+
+      .md-fences {
+        background-color: #f8f8f8;
+      }
+      #write pre.md-meta-block {
+        padding: 1rem;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: #f7f7f7;
+        border: 0;
+        border-radius: 3px;
+        color: #777777;
+        margin-top: 0 !important;
+      }
+
+      .mathjax-block > .code-tooltip {
+        bottom: 0.375rem;
+      }
+
+      .md-mathjax-midline {
+        background: #fafafa;
+      }
+
+      #write > h3.md-focus:before {
+        left: -1.5625rem;
+        top: 0.375rem;
+      }
+      #write > h4.md-focus:before {
+        left: -1.5625rem;
+        top: 0.285714286rem;
+      }
+      #write > h5.md-focus:before {
+        left: -1.5625rem;
+        top: 0.285714286rem;
+      }
+      #write > h6.md-focus:before {
+        left: -1.5625rem;
+        top: 0.285714286rem;
+      }
+      .md-image > .md-meta {
+        /*border: 1px solid #ddd;*/
+        border-radius: 3px;
+        padding: 2px 0px 0px 4px;
+        font-size: 0.9em;
+        color: inherit;
+      }
+
+      .md-tag {
+        color: #a7a7a7;
+        opacity: 1;
+      }
+
+      .md-toc {
+        margin-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .sidebar-tabs {
+        border-bottom: none;
+      }
+
+      #typora-quick-open {
+        border: 1px solid #ddd;
+        background-color: #f8f8f8;
+      }
+
+      #typora-quick-open-item {
+        background-color: #fafafa;
+        border-color: #fefefe #e5e5e5 #e5e5e5 #eee;
+        border-style: solid;
+        border-width: 1px;
+      }
+
+      /** focus mode */
+      .on-focus-mode blockquote {
+        border-left-color: rgba(85, 85, 85, 0.12);
+      }
+
+      header,
+      .context-menu,
+      .megamenu-content,
+      footer {
+        font-family: "Segoe UI", "Arial", sans-serif;
+      }
+
+      .file-node-content:hover .file-node-icon,
+      .file-node-content:hover .file-node-open-state {
+        visibility: visible;
+      }
+
+      .mac-seamless-mode #typora-sidebar {
+        background-color: #fafafa;
+        background-color: var(--side-bar-bg-color);
+      }
+
+      .mac-os #write {
+        caret-color: AccentColor;
+      }
+
+      .md-lang {
+        color: #b4654d;
+      }
+
+      /*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+      #md-notification .btn {
+        border: 0;
+      }
+
+      .dropdown-menu .divider {
+        border-color: #e5e5e5;
+        opacity: 0.4;
+      }
+
+      .ty-preferences .window-content {
+        background-color: #fafafa;
+      }
+
+      .ty-preferences .nav-group-item.active {
+        color: white;
+        background: #999;
+      }
+
+      .menu-item-container a.menu-style-btn {
+        background-color: #f5f8fa;
+        background-image: linear-gradient(
+          180deg,
+          hsla(0, 0%, 100%, 0.8),
+          hsla(0, 0%, 100%, 0)
+        );
+      }
+    </style>
+    <title>讯飞翻译APP隐私政策</title>
+  </head>
+  <body class="typora-export os-windows">
+    <div class="typora-export-content">
+      <div id="write" class="">
+        <p>
+          <strong><span>讯飞翻译APP隐私政策</span></strong>
+        </p>
+        <p><span>更新日期：2026年9月29日</span></p>
+        <p><span>生效日期：2026年9月29日</span></p>
+        <p>
+          <strong><span>【功能更新说明】</span></strong>
+        </p>
+        <ol start="">
+          <li>
+            <p>
+              <span
+                >本版本新增讯飞AI眼镜的新功能的个人信息处理条款。本次新增条款仅适用于您将讯飞AI眼镜与讯飞翻译APP配对连接并使用该特定功能的场景。如您非讯飞AI眼镜的用户，则不适用于本次新增的个人信息处理条款。</span
+              >
+            </p>
+          </li>
+        </ol>
+        <p>
+          <strong
+            ><span
+              >《讯飞翻译APP隐私政策》（以下简称“本政策”）仅适用于安徽听见科技有限公司（以下简称“听见科技”或“我们”）为您提供的讯飞翻译APP产品与/或服务。您在使用本软件前，请仔细阅读本政策，以了解我们处理您个人信息的详情。其中有关个人敏感信息以及与您个人信息权益相关的重要内容我们已用加粗形式提示，请特别关注。如您是未满14周岁的未成年人，请在您的父母或其他监护人陪同下仔细阅读并充分理解本政策，并征得您父母或其他监护人的同意后使用讯飞翻译APP产品与/或服务。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>特别提示：</span></strong>
+        </p>
+        <p>
+          <strong
+            ><span
+              >1、您同意本政策仅代表您已了解讯飞翻译APP提供的功能，以及功能运行所需的必要个人信息，并不代表您已同意我们可以收集非必要个人信息，非必要个人信息的收集会根据您使用过程中的授权情况单独征求您的同意。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >2、对于个人敏感信息，我们会在收集前通过弹窗等方式单独征得您的同意。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >3、相应的设备权限并不会默认开启，当涉及重要或敏感的设备权限时，我们会在您使用到相应业务功能时，通过弹窗等方式单独征得您的同意后开启；权限开启后，您可以随时在“我的-应用权限设置”页面内或在设备系统权限设置页面自行关闭权限；您若不同意开启某业务功能对应的权限，将不会影响其他非相关业务功能的正常使用。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >4、如您拒绝本政策，您仍然能够在非注册/登录状态下使用讯飞翻译APP的基本功能。您也可以在后续使用服务过程中自行选择同意，以使用讯飞翻译APP的全部功能。</span
+            ></strong
+          >
+        </p>
+        <p><span>本政策将帮助您了解以下内容：</span></p>
+        <p><span>一、定义与解释</span></p>
+        <p><span>二、我们如何收集和使用您的个人信息</span></p>
+        <p><span>三、我们如何使用Cookie和同类技术</span></p>
+        <p>
+          <span>四、我们如何委托处理、共享、转让、公开披露您的个人信息</span>
+        </p>
+        <p><span>五、我们如何保护您的个人信息</span></p>
+        <p><span>六、我们如何存储您的个人信息</span></p>
+        <p><span>七、您如何实现管理您个人信息的权利</span></p>
+        <p><span>八、我们如何保护未成年人的个人信息</span></p>
+        <p><span>九、您的个人信息如何在全球范围内转移</span></p>
+        <p><span>十、我们如何更新本政策</span></p>
+        <p><span>十一、如何联系我们</span></p>
+        <p><span>十二、其他</span></p>
+        <p>
+          <strong><span>一、定义与解释</span></strong>
+        </p>
+        <ol start="">
+          <li>
+            <p>
+              <span
+                >讯飞翻译APP产品与/或服务：是指讯飞翻译APP的经营者听见科技向用户提供的账号注册、文本翻译、对话翻译、拍照翻译、沉浸式翻译、旁听同传、绑定硬件设备及数据同步等服务，以下简称“本服务”。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >安徽听见科技有限公司：讯飞听见的经营者，智能语音产品经营者，专业从事智能语音及语言技术研究、语音信息服务、信息系统集成、计算机技术开发、翻译服务等业务。基于深耕多年的智能语音语言技术，推出了一系列以语音转文字及翻译为核心功能的产品和服务，帮助解决日常会议、大型发布会、课程培训、媒体节目制作、多语种交流沟通等多场景下的信息获取、内容整理、效率提升等问题。注册地址/常用办公地址：安徽省合肥市高新区长宁社区服务中心习友路3333号中国(合肥)国际智能语音产业园A区2号科研楼2001室，联系电话：4000199199；如您想要更详细的了解我们公司、平台，您可以通过本政策第十一章提供的联系方式与我们联系。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >用户：是指注册、登录以及使用本软件并通过启用、浏览或上传数据至讯飞翻译APP服务的用户，在本政策中更多地称为“您”。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >关联公司：指任何直接或间接控制听见科技、受听见科技控制或与听见科技受共同控制的任何一方。此处的“控制”和“受控制”分别指通过投票权、合同或其他方式而督导某一方的管理政策的权利。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >账号：指您完成真实信息注册后，享有的用户账号，该用户账号由您负责保管；您应当对以您账号下进行的所有行为负法律责任。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >个人信息：个人信息是以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。为免疑义，个人信息包括但不限于敏感个人信息。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >敏感个人信息：敏感个人信息是一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账号、行踪轨迹等信息，以及不满十四周岁未成年人的个人信息。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >个人信息的处理：个人信息的处理包括个人信息的收集、存储、使用、加工、传输、提供、公开、删除等。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >个人信息处理者：个人信息处理者是指在个人信息处理活动中自主决定处理目的、处理方式的组织、个人。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >个人信息主体：个人信息主体指个人信息所标识或者关联的自然人。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >自动化决策：自动化决策是指通过计算机程序自动分析、评估个人的行为习惯、兴趣爱好或者经济、健康、信用状况等，并进行决策的活动。
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >去标识化：去标识化指个人信息经过处理，使其在不借助额外信息的情况下，无法识别特定自然人的过程。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >匿名化：匿名化指个人信息经过处理无法识别特定自然人且不能复原的过程。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >设备：设备是指可用于访问讯飞翻译APP服务的装置，例如台式计算机、笔记本电脑、平板电脑或智能手机。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >唯一设备标识符：唯一设备标识符（专属 ID 或
+                UUID）是指由设备制造商编入到设备中的一串字符，可用于以独有方式标识相应设备（移动设备的
+                IMEI
+                号）。唯一设备标识符有多种用途，包括可在不能使用cookies时用以提供广告。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >IP地址：每台上网的设备都会指定一个编号，称为互联网协议 (IP)
+                地址。这些编号通常都是根据地理区域指定的。IP
+                地址通常可用于识别设备连接至互联网时所在的位置。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >SSL：SSL（Secure Socket
+                Layer）又称为安全套接层，是在传输通信协议（TCP/IP）上实现的一种安全协议。SSL支持各种类型的网络，同时提供三种基本的安全服务，均通过使用公开密钥和对称密钥技术以达到信息保密的效果。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p><span>信息收集技术：</span></p>
+            <p>
+              <span
+                >（1）Cookie（网络饼干）：Cookie是您浏览网页时，网站服务器放在客户端（您的计算机、移动电话或其他智能终端内）里面的一个小小的文本文件，可用于改善您的使用体验。</span
+              >
+            </p>
+            <p>
+              <span
+                >（2）Log files（日志文件）：Log
+                files储存自动收集的若干数据。该等数据包括互联网协议（IP）地址、浏览器类型、互联网服务提供商（ISP）、引用/退出页面、操作系统、日期/时间戳和点击流数据等。</span
+              >
+            </p>
+            <p>
+              <span
+                >（3）ET Tag（实体标签）：ET
+                Tag是在互联网浏览器与互联网服务器之间背后传送的HTTP协议标头，可代替Cookie，用以追踪个别使用者，使我们可更深入地了解和改善我们的服务。</span
+              >
+            </p>
+            <p>
+              <span
+                >（4）JavaScript（脚本语言）：JavaScript是一种编程语言，用于制作更具互动性和动态的网页。JavaScript可以设定Cookie、阅读Cookie及删除Cookie。</span
+              >
+            </p>
+          </li>
+        </ol>
+
+        <p>
+          <strong><span>二、我们如何收集和使用您的个人信息</span></strong>
+        </p>
+        <p>
+          <span
+            >听见科技作为个人信息的处理者，会遵循合法、正当、必要和诚信的原则，出于如下所述的目的收集和使用您的个人信息。</span
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >1. 向您提供产品与/或服务过程中您主动提供的个人信息</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >讯飞翻译APP的功能服务包括文本翻译、对话翻译、拍照翻译、沉浸式翻译、旁听同传、绑定硬件设备及数据同步等。您仅需要向我们提供该功能所对应的基本必要的个人信息，相关法律法规和规范性文件有特殊要求的除外。若您拒绝提供，我们将无法向您提供相应的功能服务。提示您注意：如果您提供的是非本人的个人信息，请您确保已取得相关主体的同意。讯飞翻译APP完整功能及所需处理个人信息详情如下：</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.1账号注册/登录：</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >为保障您的个人空间使用安全，您需要注册并登录“讯飞账号”后，才可以正常使用在注册并登录后的服务，包括沉浸式翻译、旁听同传服务，您在注册和登录时需要向我们提供您的</span
+          ><strong><span>手机号码</span></strong
+          ><span>，并且通过输入</span><strong><span>短信验证码</span></strong
+          ><span>，以便我们对您的用户身份进行核验。</span
+          ><strong
+            ><span
+              >此类信息属于该功能的必要信息，如您不提供您将无法完成注册/登录</span
+            ></strong
+          ><span>。您的</span><strong><span>账号、密码</span></strong
+          ><span
+            >将被加密保存在我们的服务器上，只有您自己才能使用，建议您妥善保管好您的密码信息，谨防您的账号被他人盗用。您如果不选择注册并登录，不影响您正常使用基础翻译功能。</span
+          >
+        </p>
+        <p>
+          <span
+            >对于我们在您使用我们及我们关联公司为您提供的产品与/或服务时收集到的信息，我们会通过讯飞账号系统将它们进行关联，以便为您提供更加便捷的服务。您可以使用该账号来访问/使用/购买我们及我们关联公司为您提供的各项应用产品、服务、网站和其他软硬一体设备。具体地，您可以通过点击并阅读我们的</span
+          ><a href="https://account.xunfei.cn/pass/rules/priv.html"
+            ><strong><span>《讯飞账号隐私政策》</span></strong></a
+          ><span>以了解讯飞账号处理您个人信息的详情。</span>
+        </p>
+        <p><span>（2）使用的第三方SDK</span></p>
+        <p>
+          <span>一键登录功能通过中国移动SDK来实现，该SDK将收集您的</span
+          ><strong
+            ><span
+              >网络类型、网络地址（ip地址）、运营商类型、本机号码信息、SIM卡状态，设备类型、设备操作系统、硬件厂商、OAID。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >在您使用手机号登陆时，为了向您提供账号管理功能，科大讯飞账号SDK需要收集您的</span
+          ><strong
+            ><span
+              >手机号码、设备信息与网络日志（注册/登录时间、设备ID（Android手机设备Android
+              ID、智能硬件设备标识SN）、设备型号、操作系统版本）、网络信息（常用登录IP地址）、用户账号行为记录信息</span
+            ></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <span
+            >为了识别⽤户的⼿机号码快速登录及号码校验，问题查询、分析、风险控制，中移互联网有限公司的号码认证SDK需要收集您的</span
+          ><strong
+            ><span
+              >网络类型、网络地址（ip地址）、运营商类型、本机号码信息、SIM卡状态、设备类型、设备操作系统、硬件厂商、OAID、应用包名、应用包签名。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.2</span></strong
+          ><span> </span><strong><span>文本翻译及智能释义</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>当您使用文本翻译功能服务时，我们会收集您输入的待翻译的</span
+          ><strong><span>文本信息</span></strong
+          ><span>，</span
+          ><strong
+            ><span
+              >此为文本翻译功能服务的必要信息。如您不能提供，您将无法使用完整的文本翻译功能，也无法获得对应的翻译结果。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >当您启用【智能释义】功能后，为帮助您深入理解翻译结果中的特定词汇、短语或句子，我们会对</span
+          ><strong><span>您输入的文本</span></strong
+          ><span>及讯飞翻译APP返回的</span><strong><span>翻译结果</span></strong
+          ><span>进行分析，以为您生成翻译文本的智能解释。</span>
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >在您使用文本翻译服务时，如果您需要通过剪贴板粘贴文本，我们需要调用您的剪贴板权限，以获取您的剪贴板内容。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.3</span></strong
+          ><span> </span><strong><span>对话翻译</span></strong>
+        </p>
+        <p>
+          <strong><span>1.3.1 交传模式</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>在您使用对话翻译功能项下的交传模式服务时，我们将收集您的</span
+          ><strong><span>语音信息</span></strong
+          ><span
+            >以在云端服务器进行语音转写、翻译、语音合成，语音合成的声音可在本软件通过手机扬声器或手机连接耳机等硬件设备播放收听。</span
+          ><strong
+            ><span
+              >此类信息属于录音、转写、翻译、合成功能的必要信息，如您不能提供，您将无法使用对话翻译功能项下的交传模式。</span
+            ></strong
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span>在您使用对话翻译功能服务时，我们需要调用您的</span
+          ><strong><span>麦克风权限</span></strong
+          ><span>以获取您的语音信息，</span
+          ><strong
+            ><span
+              >此为该功能服务所必须的系统权限，若您拒绝，您将无法使用对话翻译功能。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.3.2 对话同传模式</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >当您主动启用对话同传模式后，在您使用对话翻译功能项下的对话同传服务时，我们将收集您的</span
+          ><strong><span>语音信息</span></strong
+          ><span
+            >以在云端服务器进行语音转写、翻译、语音合成，语音合成的声音可在本软件通过手机扬声器或手机连接耳机等硬件设备播放收听。</span
+          ><strong
+            ><span
+              >此类信息属于录音、转写、翻译、合成功能的必要信息，如您不能提供，您将无法使用对话翻译功能项下的对话同传模式。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span>每次会话结束后，系统会在云端自动保存本次生成的对话同传</span
+          ><strong><span>音频、对应的翻译文本信息</span></strong
+          ><span
+            >。您可通过在讯飞翻译APP界面选择语种查阅上述内容，并可选择收藏、删除、复制对应的</span
+          ><strong><span>翻译文本信息</span></strong
+          ><span
+            >。如您选择删除，讯飞翻译APP将在云端删除您的相应历史记录。</span
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span>在您使用对话翻译功能服务时，我们需要调用您的</span
+          ><strong><span>麦克风权限</span></strong
+          ><span>以获取您的语音信息，</span
+          ><strong
+            ><span
+              >此为该功能服务所必须的系统权限，若您拒绝，您将无法使用对话翻译功能。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.4</span></strong
+          ><span> </span><strong><span>拍照翻译</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>在您使用拍照翻译功能服务时，我们将收集</span
+          ><strong><span>您拍摄的包含文字的图片</span></strong
+          ><span>，或者您</span
+          ><strong><span>从相册中上传的包含文字的图片</span></strong
+          ><span>，并对图片中包含的文字提供翻译服务。</span
+          ><strong
+            ><span
+              >此类信息属于拍照翻译的必要信息，如您不能提供，您将无法使用拍照翻译功能。</span
+            ></strong
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span>在您使用拍照翻译功能服务时，我们需要调用您的</span
+          ><strong><span>相机权限和存储权限</span></strong
+          ><span>（</span><strong><span>仅限安卓系统</span></strong
+          ><span>）以获取您的图片信息，我们需要调用您的</span
+          ><strong><span>相机/相册权限（仅限iOS系统）</span></strong
+          ><span>以获取您拍照的图片信息/您从相册中选取的图片信息，</span
+          ><strong
+            ><span
+              >此为上传图片所必须的系统权限，若您拒绝，您将无法使用拍照翻译功能。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.5</span></strong
+          ><span> </span><strong><span>沉浸式翻译</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>当您使用沉浸式翻译功能服务时，我们需收集您</span
+          ><strong
+            ><span
+              >框选的屏幕当前页面内容信息（用于屏幕内容翻译），或正在播放的音视频声音信息（用于音视频翻译），并将上述信息仅用于实时转写与翻译。此类信息是提供沉浸式翻译服务的必要信息，若您不提供，将无法正常使用沉浸式翻译功能。</span
+            ></strong
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >在您使用沉浸式翻译功能服务时，我们需根据功能场景调用以下系统权限，具体说明如下：</span
+          >
+        </p>
+        <p>
+          <strong><span>屏幕录制权限</span></strong
+          ><span
+            >：是屏幕内容翻译、音视频翻译的共同必要权限，用于获取您框选的屏幕内容或播放的音视频声音，以支撑翻译功能实现；</span
+          ><strong
+            ><span
+              >若您拒绝，您将无法对屏幕展示的内容或正在播放的音视频进行翻译；</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>麦克风权限（仅限安卓系统）</span></strong
+          ><span
+            >：仅在您使用音视频翻译功能时调用，用于获取正在播放的音视频声音信息以实现实时转译；</span
+          ><strong
+            ><span>若您拒绝，将无法对正在播放的音视频进行翻译；</span></strong
+          >
+        </p>
+        <p>
+          <strong><span>悬浮窗权限</span></strong
+          ><span
+            >：是屏幕内容翻译、音视频翻译的共同必要权限，用于在屏幕置顶展示翻译结果，方便您在不打断原操作的情况下查看，</span
+          ><strong
+            ><span
+              >若您拒绝，则无法查看翻译结果，影响您的沉浸式使用体验。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span>1.6 旁听同传、AI总结（可选）及话搭子（可选）</span></strong
+          >
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>在您使用旁听同传功能服务时，我们将收集</span
+          ><strong><span>您的语音信息</span></strong
+          ><span>以在云端服务器进行旁听同传。</span
+          ><strong
+            ><span
+              >此类信息属于旁听同传功能的必要信息，如您不能提供，您将无法使用完整的旁听同传功能</span
+            ></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <span
+            >当您使用旁听同传功能产生记录后，您可以选择启用AI总结功能。如您启用AI总结功能，该功能将基于旁听同传过程中产生的、我们收集的翻译文本记录为您自动生成</span
+          ><strong
+            ><span
+              >对话、会话、会议内容的主题、摘要、注释、待办。该AI总结结果由人工智能模型自动生成，仅供参考，建议您结合原始翻译内容进行审慎判断。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >在您使用旁听同传功能服务时，我们会为您提供话搭子功能，该功能将基于旁听同传过程中产生的</span
+          ><strong><span>翻译文本记录</span></strong
+          ><span>为您实时自动生成</span><strong><span>摘要</span></strong
+          ><span>和</span><strong><span>对应话术</span></strong
+          ><span>。</span
+          ><strong
+            ><span
+              >该话搭子功能由人工智能模型自动生成，仅供参考。前述的文本摘要和对应话术信息属于使用话搭子功能的必要信息；
+              如您不同意，您可以拒绝使用该功能，您仍可正常使用基础的旁听同传服务。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span>每次旁听同传会话结束后，系统会在云端自动保存本次生成的</span
+          ><strong
+            ><span>旁听同传音频对应的翻译文本信息、AI总结结果</span></strong
+          ><span>（如您启用AI总结功能）、“话搭子”文本（包括</span
+          ><strong><span>摘要与对应话术</span></strong
+          ><span
+            >，如您启用了话搭子功能）。您可通过【旁听同传】-【历史记录】查阅上述内容，并可选择删除。如您选择删除，讯飞翻译APP将在云端删除您的相应历史记录。</span
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span>在您使用旁听同传功能服务时，我们需要调用您的</span
+          ><strong><span>麦克风权限</span></strong
+          ><span>以获取您的语音信息，</span
+          ><strong
+            ><span
+              >此为该功能服务所必须的系统权限，若您拒绝，您将无法使用旁听同传功能。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.7 历史记录、收藏记录</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>当您使用</span><strong><span>文本翻译功能服务</span></strong
+          ><span>时，我们需要获取</span
+          ><strong><span>您主动输入的原文及译文文本信息</span></strong
+          ><span>，用于</span
+          ><strong><span>保存您的文本翻译历史记录</span></strong
+          ><span
+            >，您也可以手动收藏翻译记录作为收藏记录。您可以在文本翻译模块一键清空历史记录或者在我的-我的收藏模块一键清空收藏记录。</span
+          >
+        </p>
+        <p>
+          <span>当您使用</span><strong><span>对话翻译功能</span></strong
+          ><span>时，我们需获取</span
+          ><strong><span>您的语音识别的原文和译文记录</span></strong
+          ><span>，用于</span
+          ><strong><span>保存您的对话翻译记录，</span></strong
+          ><span>或您手动收藏翻译记录作为收藏记录。您可以在</span
+          ><strong
+            ><span
+              >对话翻译模块一键清空历史记录、在我的-我的收藏模块一键清空收藏记录</span
+            ></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <span>当您使用</span><strong><span>拍照翻译功能</span></strong
+          ><span>时，我们需要获取</span
+          ><strong><span>您的图片内容的原文和译文记录</span></strong
+          ><span>，用于</span
+          ><strong><span>保存您的拍照翻译记录，</span></strong
+          ><span>或您手动收藏翻译记录作为收藏记录。您可以在</span
+          ><strong
+            ><span
+              >拍照翻译模块一键清空历史记录、在我的-我的收藏模块一键清空收藏记录</span
+            ></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <span>当您使用</span><strong><span>旁听同传功能</span></strong
+          ><span>时，我们需要获取</span
+          ><strong><span>您的语音内容的原文和译文记录，</span></strong
+          ><span>用于</span
+          ><strong><span>保存您的对话翻译记录或收藏记录</span></strong
+          ><span>。您可以在</span
+          ><strong
+            ><span
+              >旁听同传模块一键清空历史记录、在我的-我的收藏模块一键清空收藏记录。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.8</span></strong
+          ><span> </span><strong><span>剪贴板</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>在您使用文本或图片复制的快捷翻译功能时，会触发系统的</span
+          ><strong><span>剪贴板权限</span></strong
+          ><span>，我们需要获取您</span
+          ><strong><span>剪贴板中的内容</span></strong
+          ><span>，以完成文本或图片的快捷翻译。</span
+          ><strong
+            ><span
+              >在此过程中，我们不会读取和上传您的剪贴板信息到我们的服务器。</span
+            ></strong
+          >
+        </p>
+        <p><span>（2）调用的权限</span></p>
+        <p>
+          <span
+            >当您使用剪贴板功能是，我们需要调用您的剪贴板权限，以获取您剪贴板的内容。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.9</span></strong
+          ><span> </span><strong><span>付费权益功能</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >当您需要更多翻译权益时，您可以通过权益购买页面购买额外的翻译权益包，在您选择通过“购买权益”购买翻译权益及生成对应订单的过程中，我们会收集您的订单信息，包括订单编号、用户手机号、交易金额、交易时间、支付方式、权益包类型（包括商品名称、具体权益数量和单位、权益有效期、适用功能）、</span
+          ><strong><span>User ID</span></strong
+          ><span
+            >（即您注册讯飞翻译APP产品与/或服务之后由讯飞翻译APP产品与/或服务为您生成的您的个人专属的标识符，非您的手机号），用于向您展示您的订单信息以便于您对订单进行查阅、管理。</span
+          ><strong
+            ><span
+              >此类信息为实现订单管理所必要的信息，如您不提供，您将无法进行支付；或者如您不希望提供前述信息的，请您不要使用该付费功能。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >如您有退款需求的，如果您是安卓系统用户，您可以可通过拨打400-019-9199联系我们的客服人员。在为您办理退款的过程中，为完成身份验证并妥善处理您的退款请求，我们需要收集：您的手机号：若退款成功，我们需要获取您的手机号以便于撤回您账号下对应的权益；您账号权益使用额度：判断您是否符合退款标准；以及订单编号：用于为您变更您账号下的订单状态。</span
+          >
+        </p>
+        <p><span>（2）使用的第三方SDK</span></p>
+        <p>
+          <span
+            >当您选择使用本付费权益功能时，我们会接入第三方支付SDK以完成您的付费请求。对于iOS用户需要收集您的</span
+          ><strong
+            ><span
+              >用户标识信息（IDFV），订单交易信息（苹果物品
+              ID、折扣、物品数量）</span
+            ></strong
+          ><span
+            >，货品交付与款货品交付与使用状态；对于安卓用户，我们会接入微信Open
+            SDK以及支付宝Alipay SDK，分别需要收集您的</span
+          ><strong
+            ><span
+              >设备标识信息（Android
+              ID、OAID）、设备参数及系统信息（设备型号、操作系统）、网络相关信息（IP地址、网络运营商）</span
+            ></strong
+          ><span>等信息，具体可以点击</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/third-party.html"
+            ><strong><span>《讯飞翻译APP第三方信息共享清单》</span></strong></a
+          ><span>进行查阅。</span>
+        </p>
+        <p>
+          <strong><span>1.10 练习</span></strong>
+        </p>
+        <p>
+          <span>（1）信息范围</span>
+        </p>
+        <p>
+          <span>
+            当您使用练习功能（场景化英语学习功能）时，我们将收集您的音频信息，以便为您提供英语口语与听力练习服务，并基于练习情况生成专属的学习报告。
+          </span>
+        </p>
+        <p>
+          <strong><span>1.11 离线模式</span></strong>
+        </p>
+        <p>
+          <span>（1）信息范围</span>
+        </p>
+        <p>
+          <span>
+            在您使用讯飞翻译APP的文本翻译、对话翻译功能的中英、中俄、中西语种时，讯飞翻译APP可以提供离线翻译功能并会将历史记录同步至云端。同步离线记录至云端的开关默认关闭，您可以通过讯飞翻译APP【我的】-【离线翻译】找到入口，开启【同步离线记录至云端】。如您默认关闭的情形下，
+            <strong>
+              您通过使用讯飞翻译所产生的翻译记录（包括原文和译文文本）将保存在您本地设备上。
+            </strong>
+          </span>
+        </p>
+        <p>
+          <span>
+            如您开启【同步离线记录至云端】，那么在您同时主动开启【允许使用移动网络上传】的情况下，我们将通过您使用的移动网络将您本地存储的全部前述个人信息（包括本地存储的全部历史记录）上传至云端存储。上传至云端存储后，本地将不再存储历史记录。您可以在历史记录中查阅已存储在云端的您使用讯飞翻译APP的历史记录。如您未开启【允许使用移动网络上传】开关，则讯飞翻译APP会在识别到您的设备接入无线网络时将您的个人信息上传到云端。
+            <strong>上传至云端存储后，本地将不再存储历史记录。</strong>
+          </span>
+        </p>
+
+        <p><span>（2）调用的权限范围</span></p>
+
+        <p>
+          <span
+            >为支持您使用讯飞翻译APP的离线翻译功能，讯飞翻译APP可能会调用您的以下设备权限：</span
+          >
+        </p>
+        <p>
+          <span>
+            <strong>设备网络访问权限、查看网络状态权限：</strong
+            >主要用于为您下载离线翻译资源包，以及在您开启云同步功能时将本地记录上传至云端。
+            <strong
+              >如果您拒绝提供此类权限，您将无法下载离线资源包或将记录同步至云端，但不会影响您在无网络状态下使用已下载完成的离线翻译功能。</strong
+            ></span
+          >
+        </p>
+        <p>
+          <span>
+            <strong>读取/写入外部存储权限：</strong>
+            主要用于在您的本地设备中保存（写入）离线翻译的历史记录，以及在您触发云端同步时提取（读取）这些记录进行上传。
+            <strong
+              >如果您拒绝提供此权限，将无法正常在本地生成和保存离线翻译历史记录。</strong
+            >
+          </span>
+        </p>
+
+        <p>
+          <strong><span>1.12 连接硬件设备（翻译机）</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >在您使用绑定硬件设备的功能服务时，我们需要获取您扫描二维码上传的</span
+          ><strong><span>硬件设备SN号</span></strong
+          ><span>，进行本软件与讯飞翻译系列设备的绑定。</span
+          ><strong><span>此类信息属于绑定硬件功能服务的必要信息。</span></strong
+          ><span
+            >讯飞翻译系列设备处理您个人信息的规则适用于智能硬件所配套的单独的隐私政策，如无单独的隐私政策，则其处理规则请参考本政策。</span
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span>当您绑定硬件设备时，我们需要调用您的</span
+          ><strong
+            ><span>相机权限或访问相册权限用于扫描或上传绑定二维码</span></strong
+          ><span>。</span
+          ><strong
+            ><span>如您拒绝开启前述权限，您将无法绑定硬件设备。</span></strong
+          >
+        </p>
+        <p><span>（3）使用的第三方SDK</span></p>
+        <p>
+          <span
+            >当您扫描设备二维码时，华为统一扫码SDK需要收集您主动提交的数据（图片、文本）、传感器信息（加速度传感器、光照传感器）、网络信息、应用信息、设备信息、运营商信息（运营商的名称）、系统信息（系统设置、系统属性、设备型号、操作系统）和Wi-Fi信息（Wi-Fi状态）。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.13 连接硬件设备（耳机）</span></strong>
+        </p>
+        <p>
+          <span
+            >您可以通过连接“讯飞AI翻译耳机”（本节简称耳机）来使用讯飞翻译APP，听见科技是相关个人信息处理活动中的个人信息处理者。</span
+          >
+        </p>
+        <p><span>1.13.1 连接耳机</span></p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >您可以进入手机端【系统设置-蓝牙】搜索并连接，或点击【讯飞翻译APP首页-耳机配对】模块按照提示将讯飞翻译APP与耳机连接。在您连接耳机时，我们会获取</span
+          ><strong
+            ><span
+              >耳机日志数据、耳机设备信息（MAC地址、设备SN、耳机名称、固件版本）</span
+            ></strong
+          ><span
+            >。请您知悉，在您使用耳机过程中遇到问题需要我们介入排查时，需要您提供前述信息。</span
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >为实现连接目的，在初次连接耳机时，讯飞翻译APP需要开启设备的</span
+          ><strong><span>蓝牙权限、连接查找附近设备权限</span></strong
+          ><span
+            >。对于Android
+            6.0-11.0版本的用户，在您初次连接耳机时，讯飞翻译APP需要开启设备的</span
+          ><strong><span>位置权限</span></strong
+          ><span
+            >。若您拒绝，耳机将无法与翻译APP进行连接，并无法使用后续耳机翻译功能。</span
+          >
+        </p>
+        <p><span>（3）使用的第三方SDK</span></p>
+        <p>
+          <span>为了实现连接目的，</span
+          ><strong><span>科大讯飞蓝牙SDK</span></strong
+          ><span>需要收集您的蓝牙设备名称、设备地址。</span>
+        </p>
+        <p><span>1.13.2 语音翻译</span></p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >在耳机与讯飞翻译APP已完成连接的情况下，当您在讯飞翻译APP使用耳机翻译功能时（旁听同传、通话翻译、线上同传、面对面翻译），设定好语种对并开启后，耳机将自动收集</span
+          ><strong><span>您的语音</span></strong
+          ><span>，实时翻译语音内容，并在讯飞翻译APP相应页面展示</span
+          ><strong><span>语音转写的原文和译文文本</span></strong
+          ><span
+            >。收集的语音包括通过耳机麦克风收集的语音和手机收集后通过蓝牙传输给耳机的语音。</span
+          >
+        </p>
+        <p>
+          <span
+            >在旁听同传、面对面翻译两个功能使用过程中，您可以通过生成二维码或链接分享实时对话的识别翻译结果给到第三方。</span
+          >
+        </p>
+        <p>
+          <span
+            >在旁听同传、线上同传两个功能使用过程中，针对收集的中文、英文的语音，您可以开启角色分离的功能，讯飞翻译APP将自动区分不同说话人的识别和翻译结果。</span
+          >
+        </p>
+        <p>
+          <span
+            >针对所有耳机翻译功能的识别和翻译结果，您可以对内容进行查看、编辑、删除、收藏、反馈（点赞或点踩）等操作，通过生成的二维码或链接分享给第三方。</span
+          >
+        </p>
+        <p>
+          <span
+            >本场景下，部分语种之间的互译可以在您使用讯飞翻译APP的设备端本地处理（离线翻译支持语种），部分语种之间的互译需要上传到云端处理（在线翻译支持语种）。</span
+          >
+        </p>
+        <p>
+          <span
+            >针对通过耳机使用旁听同传功能的，我们会为您提供话搭子功能，该功能将基于旁听同传过程中产生的</span
+          ><strong><span>翻译文本记录</span></strong
+          ><span>为您实时自动生成</span><strong><span>摘要</span></strong
+          ><span>和</span><strong><span>对应话术</span></strong
+          ><span>。</span
+          ><strong
+            ><span
+              >该话搭子功能由人工智能模型自动生成，仅供参考。前述的文本摘要和对应话术信息属于使用话搭子功能的必要信息；
+              如您不同意，您可以随时关闭该功能，但您仍可正常使用基础的旁听同传服务。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >针对所有耳机翻译功能的识别和翻译结果，当您在使用上述语音翻译功能（旁听同传、通话翻译、线上同传、面对面翻译）产生记录后，可选择是否启用AI总结功能。该功能将基于语音翻译会话中产生的双语翻译文本记录，为您自动生成主题、对话/会议内容摘要（要点概括）、注释、待办事项。</span
+          >
+        </p>
+        <p>
+          <span
+            >针对通过耳机使用面对面翻译和通话翻译功能的，且已开启【音色克隆】功能的，您可以选择是否启用【实时声音复刻】功能。如您启用该功能的，在我们所支持的语种范围内，我们将从【音色克隆】功能已收集的您的</span
+          ><strong><span>音频</span></strong
+          ><span>中提取您的</span><strong><span>声音特征</span></strong
+          ><span
+            >，并进行实时复刻处理，并在您结束会话之后删除不会留存，旨在复制参与对话的自然人的声音音色，从而提升翻译沟通的自然度与真实感。</span
+          >
+        </p>
+        <p>
+          <strong><span>我们特别提示您，声音特征属于敏感个人信息</span></strong
+          ><span
+            >。如您开启【实时声音复刻】功能，我们将同步收集并处理参与对话的</span
+          ><strong><span>所有自然人</span></strong
+          ><span>的</span><strong><span>声音特征</span></strong
+          ><span>，以完成对参与对话的各方声音的实时复刻。</span
+          ><strong
+            ><span
+              >因此，在启用本功能之前，请您务必充分征询与您对话的自然人的意见，并确保已依法取得其单独同意。未经对方同意，请勿开启本功能。</span
+            ></strong
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >在耳机与讯飞翻译APP已完成连接的情况下，为实现对话翻译的目的，当通过您使用讯飞翻译APP的设备端的麦克风收集语音时（旁听同传功能），讯飞翻译APP需要调用并开启您设备的</span
+          ><strong><span>麦克风权限</span></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <span
+            >旁听同传、通话翻译、线上同传三大翻译功能需要开启悬浮窗权限，用于在屏幕置顶展示翻译结果，方便您在不打断原操作的情况下查看，若您拒绝，则无法查看翻译结果，影响您的翻译使用体验；</span
+          ><strong><span>但不影响您正常使用讯飞翻译APP的其他功能</span></strong
+          ><span>。</span>
+        </p>
+        <p><span>1.13.3 AI助手</span></p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >当您使用语音指令、触控耳机特定区域、点击讯飞翻译APP其中一种方式唤醒AI助手后，我们会收集您的</span
+          ><strong><span>语音信息</span></strong
+          ><span>，并针对语音内容给出实时的文本和语音回答。</span>
+        </p>
+        <p><span>1.13.4 音色克隆</span></p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>当您使用音色克隆服务时，我们会收集您提供的</span
+          ><strong><span>10s左右的语音</span></strong
+          ><span
+            >（包括从语音中提取的声音特征），以便为您定制专属音色，在对话翻译场景下，译文将以该定制音色播出。</span
+          >
+        </p>
+        <p><span>（2）调用权限的范围</span></p>
+        <p>
+          <span>为实现音色克隆的目的，讯飞翻译APP需要开启</span
+          ><strong><span>麦克风权限</span></strong
+          ><span>。如果您拒绝提供此权限，将无法使用音色克隆功能。</span>
+        </p>
+        <p><span>1.13.5 离线翻译</span></p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >在耳机与讯飞翻译APP已完成链接的情况下，讯飞翻译APP可以提供离线翻译功能并支持将通过耳机面对面翻译后的历史记录同步至云端。同步离线记录至云端的开关默认关闭，您可以通过讯飞翻译APP【我的】-【离线翻译】找到入口，开启【同步离线记录至云端】。如您默认关闭的情形下，</span
+          ><strong
+            ><span
+              >您通过使用耳机所产生的面对面翻译记录（包括您使用讯飞翻译APP的历史记录</span
+            ></strong
+          ><span>，</span
+          ><strong
+            ><span>该历史记录所对应的开始使用时间（精确到分钟）</span></strong
+          ><span>、</span><strong><span>单次使用时长</span></strong
+          ><span>，</span
+          ><strong
+            ><span>语音转写的原文和译文文本）将保存在您本地设备上</span></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <span
+            >如您开启【同步离线记录至云端】，那么在您同时主动开启【允许使用移动网络上传】的情况下，我们将通过您使用的移动网络将您本地存储的全部前述个人信息（包括本地存储的全部历史记录）上传至云端存储。</span
+          ><strong
+            ><span>上传至云端存储后，本地将不再存储历史记录。</span></strong
+          ><span>您可以</span
+          ><strong><span>在面对面翻译的历史记录中查阅</span></strong
+          ><span>已存储在云端的您使用讯飞翻译APP的历史记录</span
+          ><strong><span>，</span></strong
+          ><span>该历史记录所对应的开始使用时间（精确到分钟）</span
+          ><strong><span>、</span></strong
+          ><span>单次使用时长</span><strong><span>，</span></strong
+          ><span>语音转写的原文和译文文本以及音频。</span
+          ><strong
+            ><span
+              >如您未开启【允许使用移动网络上传】开关，则讯飞翻译APP会在识别到您的设备接入无线网络时将您的个人信息上传到云端。</span
+            ></strong
+          ><span>上传至云端存储后，本地将不再存储历史记录。**</span>
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >为支持您通过耳机使用讯飞翻译APP的离线翻译功能，讯飞翻译APP可能会调用您的以下设备权限：</span
+          >
+        </p>
+        <p>
+          <strong><span>设备网络访问权限、查看网络状态权限</span></strong
+          ><span
+            >：主要用于为您下载离线翻译资源包，以及在您开启云同步功能时将本地记录上传至云端。</span
+          ><strong
+            ><span
+              >如果您拒绝提供此类权限，您将无法下载离线资源包或将记录同步至云端，但不会影响您在无网络状态下使用已下载完成的离线翻译功能。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>读取/写入外部存储权限</span></strong
+          ><span
+            >：主要用于在您的本地设备中保存（写入）离线翻译的历史记录，以及在您触发云端同步时提取（读取）这些记录进行上传。</span
+          ><strong
+            ><span
+              >如果您拒绝提供此权限，将无法正常在本地生成和保存离线翻译历史记录。</span
+            ></strong
+          >
+        </p>
+        <p><span>1.13.6 自定义词库</span></p>
+        <p>
+          <span
+            >针对耳机用户在使用旁听同传（耳机模式）功能时，您可以通过【我的】→【自定义词库】路径，开启【自定义词库】功能。开启后，您可以通过主动键入的方式添加您希望优化翻译效果的词汇或短语，例如专业术语、人名、地名、品牌名称等。</span
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >我们提示您，您在自定义词库中主动键入的词汇，可能会包含个人信息（如他人姓名、联系方式、身份证号等）。根据相关法律法规要求，请您在键入任何可能涉及第三方的个人信息前，务必事先充分告知相关个人信息主体，并依法取得其明确同意。未经同意，请勿录入他人个人信息。同时，请您不要录入非必要或高敏感度的个人信息或者其他数据。您亦有权随时对自定义词库中的词汇进行编辑或删除。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.14</span></strong
+          ><span> </span><strong><span>连接硬件设备（AI眼镜）</span></strong>
+        </p>
+        <p>
+          <span
+            >您可以通过连接“讯飞AI眼镜”（本节简称AI眼镜）来使用讯飞翻译APP，听见科技是相关个人信息处理活动中的个人信息处理者。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.14.1</span></strong
+          ><span> </span><strong><span>连接AI眼镜</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >您可以进入您的设备端通过【系统设置-蓝牙】搜索并连接，或点击【讯飞翻译APP首页-硬件翻译】模块并选择【讯飞AI眼镜】，按照提示将讯飞翻译APP与AI眼镜连接。在您连接AI眼镜时，我们会获取您的</span
+          ><strong
+            ><span
+              >用户ID、连接时间、设备型号、网络环境、设备操作系统、设备操作系统版本号、产品版本、固件版本、操作界面、操作IP</span
+            ></strong
+          ><span
+            >。请您知悉，在您使用AI眼镜过程中遇到问题需要我们介入排查时，需要您提供前述信息。</span
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >为实现连接目的，在初次连接AI眼镜时，讯飞翻译APP需要开启设备的蓝牙权限，以及查找附近设备权限。对于Android
+            10.0以上版本的用户，在您初次连接AI眼镜时，讯飞翻译APP需要开启设备的位置权限。若您拒绝，AI眼镜将无法与讯飞翻译APP进行连接，并无法使用后续AI眼镜的功能。</span
+          >
+        </p>
+        <p>
+          <span>
+            对于使用iOS设备的用户，我们会在您初次通过AI眼镜连接讯飞翻译APP时，调用您的地理位置权限以实现查找附近的设备以保障AI眼镜与本应用之间的连接稳定性，以及在应用进入后台运行状态时及时响应眼镜的相关操作，本应用可能需要在后台保持运行或唤醒。该功能本身不以获取、记录或分析您的精确位置信息为目的。
+            <strong>
+              您有权选择不授予该权限，但可能会导致AI眼镜无法正常使用或者影响使用效果。该定位权限仅用于系统提供的后台近场设备检测能力，我们不会基于该功能获取、存储或上传您的精确地理位置信息，也不会基于该功能形成您的运动轨迹或行踪轨迹。
+            </strong>
+          </span>
+        </p>
+        <p><span>（3）使用的第三方SDK</span></p>
+        <p>
+          <span>为了实现连接目的，</span
+          ><strong><span>科大讯飞蓝牙SDK</span></strong
+          ><span>需要收集您的蓝牙设备名称、设备地址。</span>
+        </p>
+        <p>
+          <strong><span>1.14.2</span></strong
+          ><span> </span><strong><span>语音翻译</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >在AI眼镜与讯飞翻译APP已完成连接的情况下，当您在讯飞翻译APP使用AI眼镜翻译功能时（旁听同传、通话翻译、线上同传、面对面翻译），设定好语种并开启后，AI眼镜将自动收集您的</span
+          ><strong><span>语音信息</span></strong
+          ><span>，实时翻译</span><strong><span>语音内容</span></strong
+          ><span
+            >，并在AI眼镜端侧以及讯飞翻译APP相应页面展示语音转写的原文和译文文本。收集的</span
+          ><strong><span>语音信息</span></strong
+          ><span>包括通过AI眼镜</span
+          ><strong><span>麦克风收集的语音</span></strong
+          ><span>和通过讯飞翻译APP调用的您的设备的麦克风所直接收集的</span
+          ><strong><span>语音</span></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <span
+            >在旁听同传、面对面翻译两个功能使用过程中，您可以通过生成二维码或链接分享实时对话的识别翻译结果给到第三方。</span
+          >
+        </p>
+        <p>
+          <span
+            >针对所有AI眼镜翻译功能的识别和翻译结果，您可以对内容进行查看、删除、收藏等操作，通过生成的链接分享给第三方。</span
+          >
+        </p>
+        <p>
+          <span
+            >本场景下，部分语种之间的互译可以在您所使用的讯飞翻译APP的设备端本地处理（离线翻译支持语种），非AI眼镜硬件设备端，部分语种之间的互译则需要上传到云端处理（在线翻译支持语种）。</span
+          >
+        </p>
+        <p>
+          <span
+            >针对所有AI眼镜翻译功能的识别和翻译结果，当您在使用上述语音翻译功能（旁听同传、通话翻译、线上同传、面对面翻译）产生记录后，可选择是否启用【AI总结功能】。该功能将基于语音翻译会话中产生的</span
+          ><strong><span>双语翻译文本记录</span></strong
+          ><span>，为您自动生成</span
+          ><strong
+            ><span
+              >主题、对话会议内容摘要（要点概括）、注释、待办事项</span
+            ></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <span
+            >针对通过AI眼镜使用面对面翻译功能的，且已开启【音色克隆】功能的，您可以选择是否启用【实时声音复刻】功能。如您启用该【实时声音复刻】功能的，在我们所支持的语种范围内，我们将从【音色克隆】功能已收集的</span
+          ><strong><span>音频</span></strong
+          ><span>中提取与您对话的自然人的</span
+          ><strong><span>声音特征</span></strong
+          ><span>，并进行实时复刻处理，</span
+          ><strong><span>并在您结束会话之后删除该声音特征</span></strong
+          ><span
+            >。本功能旨在复制与您对话的自然人的声音音色，从而提升您在使用本功能时的翻译沟通的自然度与真实感。</span
+          >
+        </p>
+        <p>
+          <span
+            >针对通过AI眼镜使用通话翻译功能的，且已开启【音色克隆】功能的，您可以选择是否启用【实时声音复刻】功能。如您启用该功能的，在我们所支持的语种范围内，我们将从【音色克隆】功能已收集的</span
+          ><strong><span>音频</span></strong
+          ><span>中提取您对话中的自然人的</span
+          ><strong><span>声音特征</span></strong
+          ><span>，并进行实时复刻处理，</span
+          ><strong><span>并在您结束会话之后删除该声音特征</span></strong
+          ><span
+            >。本功能旨在复制您对话中的自然人的声音音色，从而提升您在使用本功能时的翻译沟通的自然度与真实感。</span
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >我们特别提示您，声音特征属于敏感个人信息。如您开启【实时声音复刻】功能，我们将同步收集并处理参与对话的所有自然人的声音特征，以完成对参与对话的各方声音的实时复刻。因此，在启用本功能之前，请您务必充分征询与您对话的自然人的意见，并确保已依法取得其单独同意。未经对方同意，请勿开启本功能。</span
+            ></strong
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >在AI眼镜与讯飞翻译APP已完成连接的情况下，为实现对话翻译的目的，当通过您使用讯飞翻译APP的设备的麦克风收集语音时（旁听同传功能），讯飞翻译APP需要调用设备的麦克风权限。</span
+          >
+        </p>
+        <p>
+          <span
+            >旁听同传、通话翻译、线上同传三大翻译功能需要调用您使用讯飞翻译APP的设备的悬浮窗权限，用于在屏幕置顶展示翻译结果，方便您在不打断原操作的情况下查看。</span
+          ><strong
+            ><span
+              >若您拒绝，则无法查看翻译结果，影响您的翻译使用体验，但不影响您正常使用讯飞翻译APP的其他功能</span
+            ></strong
+          ><span>。</span>
+        </p>
+        <p>
+          <strong><span>1.14.3</span></strong
+          ><span> </span><strong><span>AI助手</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >当您使用语音指令、触控AI眼镜特定区域、点击讯飞翻译APP对应入口其中一种方式唤醒AI助手后，我们会收集您的语音信息，并针对语音内容给出实时的</span
+          ><strong><span>文本</span></strong
+          ><span>和</span><strong><span>语音回</span></strong
+          ><span>答。</span>
+        </p>
+        <p>
+          <span>在此过程中，AI助手会判断您的</span
+          ><strong><span>语音指令意图</span></strong
+          ><span>。如果识别出您有视觉翻译或视觉搜索的需求，</span
+          ><strong><span>AI眼镜将自动执行拍照操作</span></strong
+          ><span>，并对拍摄的照片进行图像理解。</span>
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >在AI眼镜与讯飞翻译APP已完成连接的情况下，为了使用AI助手功能，如果识别出您有视觉翻译或视觉搜索的需求，我们将会调用您AI眼镜端的摄像头。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.14.4</span></strong
+          ><span> </span><strong><span>音色克隆</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>当您使用音色克隆服务时，我们会收集您提供的</span
+          ><strong
+            ><span
+              >10s左右的语音信息（包括从语音中提取的声音特征）</span
+            ></strong
+          ><span
+            >，以便为您定制专属音色，在对话翻译场景下，译文将以该定制音色播出。</span
+          >
+        </p>
+        <p><span>（2）调用权限的范围</span></p>
+        <p>
+          <span
+            >为实现音色克隆的目的，讯飞翻译APP需要调用您使用讯飞翻译APP的设备的</span
+          ><strong><span>麦克风权限</span></strong
+          ><span>。如果您拒绝提供此权限，将无法使用音色克隆功能。</span>
+        </p>
+        <p>
+          <strong><span>1.14.5</span></strong
+          ><span> </span><strong><span>离线翻译</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >在AI眼镜与讯飞翻译APP已完成连接的情况下，讯飞翻译APP可以提供离线翻译功能并支持将通过AI眼镜面对面翻译后的历史记录同步至云端。同步离线记录至云端的开关默认关闭，您可以通过讯飞翻译APP【我的】-【离线翻译】找到入口，开启【同步离线记录至云端】。在【同步离线记录至云端】开关默认关闭的情形下，您通过使用AI眼镜所产生的面对面翻译记录（包括您使用讯飞翻译APP的历史记录，该历史记录所对应的开始使用时间（精确到分钟）、单次使用时长，语音转写的原文和译文文本）将保存在您本地设备上。</span
+          >
+        </p>
+        <p>
+          <span
+            >如您开启【同步离线记录至云端】，那么在您同时主动开启【允许使用移动网络上传】的情况下，我们将通过您使用的移动网络将您本地存储的全部前述个人信息（包括本地存储的全部历史记录）上传至云端存储。上传至云端存储后，本地将不再存储历史记录。您可以在面对面翻译的历史记录中查阅已存储在云端的您使用讯飞翻译APP的</span
+          ><strong><span>历史记录</span></strong
+          ><span>，该历史记录所对应的</span
+          ><strong><span>开始使用时间（精确到分钟）</span></strong
+          ><span>、</span><strong><span>单次使用时长</span></strong
+          ><span>，</span><strong><span>语音转写的原文</span></strong
+          ><span>和</span><strong><span>译文文本</span></strong
+          ><span>以及</span><strong><span>音频</span></strong
+          ><span
+            >。如您未开启【允许使用移动网络上传】开关，则讯飞翻译APP会在识别到您的设备接入无线网络时将您的个人信息上传到云端。上传至云端存储后，本地将不再存储历史记录。</span
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >为支持您通过AI眼镜使用讯飞翻译APP的离线翻译功能，讯飞翻译APP可能会调用您的以下设备权限：</span
+          >
+        </p>
+        <p>
+          <span
+            >设备网络访问权限、查看网络状态权限：主要用于为您下载离线翻译资源包，以及在您开启云同步功能时将本地记录上传至云端。如果您拒绝提供此类权限，您将无法下载离线资源包或将记录同步至云端，但不会影响您在无网络状态下使用已下载完成的离线翻译功能。</span
+          >
+        </p>
+        <p>
+          <span
+            >读取/写入外部存储权限：主要用于在您的本地设备中保存（写入）离线翻译的历史记录，以及在您触发云端同步时提取（读取）这些记录进行上传。如果您拒绝提供此权限，将无法正常在本地生成和保存离线翻译历史记录。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.14.6 自定义词库</span></strong>
+        </p>
+        <p>
+          <span
+            >针对AI眼镜用户在使用旁听同传（AI眼镜模式）功能时，您可以通过【我的】→【自定义词库】路径，开启【自定义词库】功能。开启后，您可以通过主动键入的方式添加您希望优化翻译效果的词汇或短语，例如专业术语、人名、地名、品牌名称等。</span
+          >
+        </p>
+        <p>
+          <span
+            >我们提示您，您在自定义词库中主动键入的词汇，可能会包含个人信息（如他人姓名、联系方式、身份证号等）。</span
+          ><strong
+            ><span
+              >根据相关法律法规要求，请您在键入任何可能涉及第三方的个人信息前，务必事先充分告知相关个人信息主体，并依法取得其明确同意。未经同意，请勿录入他人个人信息。同时，请您不要录入敏感个人信息或者非必要或高敏感度的其他数据。您亦有权随时对自定义词库中的词汇进行编辑或删除。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.14.7 AI视界</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >您可以通过触控AI眼镜的特定区域或者通过特定语音指令唤醒的路径启用 AI
+            视界功能。当AI视界功能启用时，您可以通过AI视界功能进行视觉翻译或视觉搜索，我们将会收集您通过AI眼镜摄像头拍摄的</span
+          ><strong><span>图像信息</span></strong
+          ><span>，并将该</span><strong><span>图像信息</span></strong
+          ><span
+            >通过蓝牙传输至讯飞翻译APP，并由讯飞翻译APP上传至云端模型进行处理。识别或翻译结果所对应的音频信息将在AI眼镜端语音播报，音频信息转文字后的</span
+          ><strong><span>文本信息</span></strong
+          ><span>将在镜片上显示。</span
+          ><strong
+            ><span
+              >您通过AI眼镜摄像头拍摄的图像信息为实现本AI视界功能的必要信息；如您不提供或者无法提供的，您将无法使用本AI视界功能。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >我们提示您，您通过AI视界功能拍摄的图像信息可能包含他人肖像、面部特征或其他可识别特定自然人身份的内容，属于敏感个人信息。请您在使用本功能时避免拍摄他人隐私信息或在征得他人明确同意的前提下进行拍摄。</span
+            ></strong
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >为实现将图像通过蓝牙传输至讯飞翻译APP，AI眼镜需要向讯飞翻译APP发出请求，并由讯飞翻译APP调用您设备的蓝牙权限；若您拒绝，则AI眼镜无法与讯飞翻译APP连接，无法通过蓝牙进行传输。</span
+          >
+        </p>
+        <p>
+          <span
+            >为实现将您通过AI视界的图像从讯飞翻译APP上传至云端进行处理，讯飞翻译APP需要调用网络权限；若您拒绝，您将无法使用
+            AI 视界功能。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.14.8 GlassClaw</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p><span>您可以主动启用AI眼镜的GlassClaw模式。</span></p>
+        <p>
+          <span
+            >如您同时是合肥科讯创想软件开发有限公司所开发与运营的Loomy产品的用户，您可以通过Loomy账号下的界面远程控制功能与您的讯飞翻译APP账号进行关联并适配。</span
+          ><strong
+            ><span
+              >在您完成关联前，请务必阅读Loomy提供的隐私政策以及服务协议，以了解Loomy对您个人信息的处理活动。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >当您完成讯飞翻译APP与Loomy账号的适配后，您可以通过进入AI眼镜的GlassClaw模式以启用GlassClaw功能。您知悉并同意：当您启用GlassClaw功能后，讯飞翻译APP会将您的语音指令所产生的</span
+          ><strong><span>语音信息</span></strong
+          ><span>在云端识别与转写为</span><strong><span>文本信息</span></strong
+          ><span
+            >后，将该等文本信息提供给Loomy，由Loomy按照您的指令指示进行处理。处理后的结果</span
+          ><strong><span>音频信息</span></strong
+          ><span>将在AI眼镜端语音播报，音频信息转文字后的</span
+          ><strong><span>文本信息</span></strong
+          ><span>将在AI眼镜端显示。</span>
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >为实现 GlassClaw
+            模式下语音指令的实时采集，讯飞翻译APP需要获取您的麦克风权限；若您拒绝，则您无法在
+            GlassClaw 模式下使用语音指令。</span
+          >
+        </p>
+        <p>
+          <span
+            >为实现GlassClaw模式下AI眼镜的图像数据采集的功能，讯飞翻译APP需要调用您AI眼镜的摄像头；若您拒绝，则您无法在GlassClaw模式下使用拍摄功能。</span
+          >
+        </p>
+        <p>
+          <span
+            >为实现AI眼镜与讯飞翻译APP
+            之间传输语音及图像数据，讯飞翻译APP需要获取您的蓝牙权限；若您拒绝，则您无法使用GlassClaw的相关功能。</span
+          >
+        </p>
+        <p>
+          <span
+            >为实现将语音及图像数据上传至Loomy云端处理，讯飞翻译APP需要网络权限；若您拒绝，则您无法使用GlassClaw的相关功能。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.14.9 提词器</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>当您使用提词文本功能时，您可以手动创建</span
+          ><strong><span>文本</span></strong
+          ><span
+            >，或从设备本地导入TXT、DOC、DOCX格式的文件。您创建的或导入的</span
+          ><strong><span>提词文本内容</span></strong
+          ><span
+            >将存储在讯飞翻译APP云端及AI眼镜端侧。我们收集这些信息是为了向您提供</span
+          ><strong><span>提词内容</span></strong
+          ><span
+            >的存储、同步、展示及管理服务。您可以对提词文本进行编辑、重命名、删除等操作。</span
+          >
+        </p>
+        <p>
+          <span
+            >您可以设置您的提词滚动模式，即您可以自行选择演讲跟随模式或匀速滚动模式。</span
+          >
+        </p>
+        <p>
+          <span
+            >当您在眼镜端选择【演讲跟随】模式时，为实现基于语音识别的内容定位与自动滚动功能，我们将通过AI眼镜的麦克风采集您的</span
+          ><strong><span>实时语音数据</span></strong
+          ><span
+            >。采集的实时语音数据将上传至云端服务器对实时语音数据进行实时转写（ASR）并进行语音识别处理，实时识别您的语音数据并与提词文本的关键词进行比对，驱动眼镜端提词文本的自动滚动。实时语音数据仅用于提供实时提词器的处理目的，处理完成后，原始音频文件将立即删除，不予保留。该功能需要保持讯飞翻译APP与AI眼镜的连接，且设备处于联网状态。</span
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >我们特别提示您，我们不会将您的实时语音数据用于任何其他目的（包括但不限于用户画像、模型训练），处理完成后即时删除。如您不希望我们处理您的实时语音数据的，您可以选择匀速滚动模式。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >提词文本内容、实时语音数据属于实现本功能的必要信息；如您无法提供或者拒绝提供，我们将无法为您提供本提词器的功能。</span
+            ></strong
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >为实现【演讲跟随】功能，当您开启该模式时，AI眼镜需要采集您的语音，并通过讯飞翻译APP传输至云端进行语音识别。因此，我们需要调用麦克风权限。若您拒绝授予该权限，您将无法使用演讲跟随功能，但匀速滚动模式仍可正常使用。</span
+          >
+        </p>
+        <p>
+          <span
+            >为实现语音数据的上传与云端识别，讯飞翻译APP需要获取您的设备网络权限。若您拒绝授予该权限，演讲跟随功能将不可用，提词器将自动切换为匀速滚动模式。</span
+          >
+        </p>
+        <p>
+          <span
+            >为实现从本地设备导入TXT、DOC、DOCX格式的提词文件，讯飞翻译APP需要存储/文件读取权限（Android）；我们将通过系统文件选择器访问您所选的文件，无需额外授予存储权限（iOS）。若您拒绝授予相关权限（Android端），您将无法导入本地文件，但仍可手动创建提词文本。</span
+          >
+        </p>
+        <p>
+          <span
+            >为实现讯飞翻译APP与AI眼镜之间的提词文本同步及指令传输，讯飞翻译APP需要获取您的设备的蓝牙权限。若您拒绝授予该权限，您仍可在讯飞翻译APP正常编辑文本，但无法将提词文本同步至眼镜端以开启提词功能。</span
+          >
+        </p>
+        <p>
+          <strong><span>1.14.10</span></strong
+          ><span> </span><strong><span>AI眼镜拍照、录像与相册</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >您可以通过触控AI眼镜特定区域，或者通过特定唤醒词的语音指令以启用AI眼镜的拍摄功能。当您启用AI眼镜的拍摄功能时，您通过AI眼镜摄像头拍摄的</span
+          ><strong><span>图像信息</span></strong
+          ><span>和录制的</span><strong><span>视频信息</span></strong
+          ><span
+            >，将存储在眼镜端侧本地。在您拍照或录像时，眼镜上的指示灯将自动亮起，以提示您及周围人员AI眼镜的摄像头正在工作。</span
+          ><strong
+            ><span
+              >您不得通过任何物理遮挡（如贴纸、胶带）、技术手段（如修改固件）或其他方式遮盖或致使该指示灯无法正常显示。</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >在AI眼镜与讯飞翻译APP保持蓝牙连接的前提下，您可以通过启动讯飞翻译APP端的Wi-Fi快传功能，将存储在眼镜端的照片和视频导入手机系统相册。传输过程中，文件通过Wi-Fi直连通道进行传输，不经过任何第三方服务器。</span
+          >
+        </p>
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span
+            >为保障“Wi-Fi快传”功能的正常使用，我们需调用您的蓝牙权限，用于建立设备间的快传连接。如您拒绝授予该权限，将无法使用相册文件导入功能。其中，iOS端用户需手动将设备连接至眼镜发出的Wi-Fi热点；安卓端则采用Wi-Fi直连技术，您点击传输后即可自动建立连接，无需额外手动操作。此外，为实现媒体文件的本地保存，我们需调用您的存储/相册写入权限（安卓端）或照片库写入权限（iOS端）。如您拒绝授予该权限，已导入的媒体文件将无法保存至您的系统相册。</span
+          >
+        </p>
+
+        <p>
+          <strong><span>1.14.11</span></strong
+          ><span> </span><strong><span>点咖啡</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>
+            当您主动使用“点咖啡”功能时，为向您提供附近咖啡门店查询及相关服务，我们可能获取您的
+            <strong>位置信息</strong>
+            ，并将该位置信息提供给第三方服务提供商，用于查询您附近的咖啡门店。
+          </span>
+        </p>
+        <p>
+          <span>
+            我们仅在您主动使用“点咖啡”功能时获取相关
+            <strong
+              >位置信息，不会因您使用本应用的其他功能而持续获取您的精确位置信息。除实现本功能所必需的处理外，我们不会将上述位置信息用于其他目的</strong
+            >
+            。
+          </span>
+        </p>
+
+        <p>
+          <span>
+            我们仅在实现“点咖啡”功能所必需的期限内处理相关位置信息。对于我们自身不再需要使用的相关位置信息，我们将按照适用法律法规的要求及时删除或进行匿名化处理。
+          </span>
+        </p>
+
+        <p><span>（2）调用的权限范围</span></p>
+        <p>
+          <span>
+            为了实现您使用“点咖啡”功能的目的，我们需要调用您的地理位置权限。您可以拒绝向本应用提供定位权限。
+            <strong>
+              拒绝提供定位权限不会影响您使用与“点咖啡”功能无关的不需要获取定位权限的其他功能，但您可能无法使用基于当前位置查询附近咖啡门店的功能。
+            </strong>
+          </span>
+        </p>
+
+        <p>
+          <strong><span>1.14.12</span></strong
+          ><span> </span><strong><span>城市伴游功能</span></strong>
+        </p>
+
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span>
+            当您主动使用“城市伴游”功能时，为帮助您获取附近的旅游景点、商户及其他城市服务信息，我们可能使用您的
+            <strong>位置信息</strong> ，以判断您所在位置附近可提供的相关服务。
+          </span>
+        </p>
+
+        <p><span>（2）使用的第三方SDK</span></p>
+
+        <p>
+          <span>
+            在您使用“城市伴游”功能期间，我们会使用蚂蚁智能SDK根据实现该功能所必需的范围调用或处理您的位置信息，用于向您提供附近旅游资源及相关信息。
+          </span>
+        </p>
+
+        <p>
+          <span>
+            蚂蚁智能SDK会收集您的
+            <strong>语音信息</strong>
+            ，用于识别唤醒词、识别您的语音指令并正确启动和提供相应的城市伴游服务；
+          </span>
+        </p>
+
+        <p>
+          <span>
+            蚂蚁智能SDK会收集您的
+            <strong>设备及运行信息</strong>
+            ，用于实现AI眼镜与讯飞翻译APP之间的连接并保障“城市伴游”服务正常运行；
+          </span>
+        </p>
+
+        <p>
+          <span>
+            蚂蚁智能SDK会收集您的
+            <strong>照片、图像信息</strong>
+            ，在您主动使用“识图识物”“景点识别”“图像问答”等功能时，蚂蚁智能SDK会收集您通过AI眼镜设备拍摄的照片、图像信息，用于图片识别、场景理解、景点识别、物体识别及向您提供相关问答服务。
+          </span>
+        </p>
+
+        <p>
+          <span>
+            蚂蚁智能SDK会收集您的<strong
+              >位置信息，当您主动使用“定位轮询模式”时，经您授权</strong
+            >
+            ，蚂蚁智能SDK会获取您的<strong>实时地理位置信息</strong>
+            ，用于识别您所在的景区、景点，触发相应的景点讲解，并根据您的当前位置提供周边信息推荐。
+          </span>
+        </p>
+
+        <p>
+          <span>
+            蚂蚁智能SDK会收集您的
+            <strong>服务使用信息</strong>
+            。在您使用“城市伴游”功能的过程中，蚂蚁智能SDK可能处理与您使用服务相关的
+            <strong>景点播报记录</strong> 、<strong>意图识别结果</strong> 及其他
+            <strong>必要的服务运行信息</strong>
+            ，用于服务状态管理、问题排查、服务体验分析及功能优化。
+          </span>
+        </p>
+
+        <p>
+          <span>
+            <strong
+              >我们将根据实际接入及使用情况，对第三方 SDK
+              的个人信息处理活动进行管理，并在第三方清单中向您进一步说明 SDK
+              名称、第三方服务提供者、处理目的、处理的个人信息类型及相关权限等信息。</strong
+            >
+          </span>
+        </p>
+
+        <p>
+          <span>
+            <strong>
+              有关蚂蚁智能服务对个人信息的具体处理规则，请以蚂蚁智能服务及相关服务页面实际展示的隐私政策或其他规则为准
+            </strong>
+          </span>
+        </p>
+
+        <p><span>（3）调用的权限范围</span></p>
+
+        <p>
+          <span>
+            如果您拒绝提供定位权限，或者在设备系统中关闭定位权限，您可能无法使用“城市伴游”功能，但不影响您使用与定位无关的其他功能。
+          </span>
+        </p>
+
+        <p>
+          <span>
+            如“城市伴游”功能涉及对精确位置信息的持续或重复获取，并可能形成能够反映您行动轨迹的信息，我们将按照适用法律法规对相关信息采取相应的保护措施，并在法律要求的情况下，就处理该类信息的必要性及对个人权益的影响向您进行特别告知，并依法取得您的单独同意。
+          </span>
+        </p>
+
+        <p>
+          <span>
+            我们将根据提供“城市伴游”功能所必需的期限处理相关位置信息。对于我们自身不再需要使用的相关位置信息，我们将按照适用法律法规的要求及时删除或进行匿名化处理。
+          </span>
+        </p>
+
+        <p>
+          <strong><span>1.15</span></strong
+          ><span> </span><strong><span>用户反馈及网络诊断</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >当您向我们提出意见或建议时，为了方便与您联系或帮助您解决问题，我们可能需要收集您</span
+          ><strong><span>自行输入的手机号码</span></strong
+          ><span
+            >。此类信息为非必要信息，若您不提供，我们可能无法向您及时反馈处理结果，但不影响您正常使用用户反馈功能。</span
+          >
+        </p>
+        <p>
+          <span
+            >您也可以通过点击【我的】-【意见反馈】，进入到意见反馈界面，向我们反馈您的意见或建议以及自行点击【网络诊断】。在您使用意见反馈功能时，我们会收集您的日志信息，包括但不限于故障记录、技术数据、设备标识信息（AndroidID、OAID）、网络相关信息（网络类型、状态、IP地址）、设备参数及系统信息（设备名称、设备型号、手机制造商、操作系统及版本、系统语言）、用户操作时间、UserID（即您注册讯飞翻译APP产品与/或服务之后生成的此产品个人专属标识符，非您的手机号），用于分析排查问题，此类信息属于此功能所需的必要信息，若您不提供，我们则无法在您使用【意见反馈】功能时对您的反馈意见进行处理。</span
+          >
+        </p>
+        <p>
+          <span
+            >当您在“意见反馈”页面主动触发网络诊断时，我们会临时收集设备与App信息、当前网络环境信息（含网络类型、IP地址、网关、DNS等）、服务端点链路探测结果（含DNS解析、TCP连接、Ping延时及首包响应时间）及业务端点真实请求连通性结果。上述信息仅用于定位和排查您反馈的网络问题，不会用于其他目的。诊断由您手动触发，不会自动执行。</span
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >2. 向您提供产品与/或服务过程中我们主动收集的个人信息</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >在符合法律法规前提下，为了保障您的账号安全和更好地为您提供优质的服务，我们会收集和使用您在使用讯飞翻译APP产品与/或服务过程中产生的如下信息：</span
+          >
+        </p>
+        <p>
+          <strong><span>2.1</span></strong
+          ><span> </span><strong><span>问题排查与安全维护</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >当您使用讯飞翻译APP时，我们会根据您在软件安装及使用中，包括静默状态下/或后台运行时的具体权限，接收并记录您的相关</span
+          ><strong><span>设备信息</span></strong
+          ><span
+            >，以进行安装冲突检测、问题排查与定位、保障您的账号与使用安全，包括</span
+          ><strong
+            ><span
+              >IP地址、手机硬件型号、手机系统信息、手机屏幕信息、操作系统信息、翻译APP安装信息、MAC地址、软件安装列表、服务提供商网络ID、接入网络的方式、类型和状态、唯一设备识别码（Android</span
+            ></strong
+          ><span> </span
+          ><strong
+            ><span
+              >ID(Android)/OAID(Android)/IDFA(iOS)/IDFV(iOS)/OPENUDID(iOS)/GUID(Android/IMEI(Android)/IMSI(Android)）</span
+            ></strong
+          ><span
+            >。此为进行问题排查与安全维护的必要信息，如您拒绝我们收集上述信息，我们将无法为本软件进行安全监测，可能会影响您账号的使用安全与相关问题的及时排查。</span
+          >
+        </p>
+        <p>
+          <span
+            >当您使用“讯飞AI翻译耳机”过程中遇到问题，需要我们介入排查时，需要您提供</span
+          ><strong
+            ><span
+              >耳机日志数据、耳机设备信息（MAC地址、设备SN、耳机名称、固件版本）</span
+            ></strong
+          ><span
+            >。此为进行问题排查与安全维护的必要信息，如您拒绝我们收集上述信息，我们将无法完成问题排查。</span
+          >
+        </p>
+        <p><span>（2）调用权限的范围</span></p>
+        <p>
+          <span>为了进行问题排查与安全维护的必要信息，讯飞翻译APP需要开启</span
+          ><strong
+            ><span
+              >读取手机状态权限（安卓版）和/或用户跟踪权限（IOS版）</span
+            ></strong
+          ><span
+            >。如果您拒绝提供此权限，将无法为本软件进行安全监测，可能会影响您账号的使用安全与相关问题的及时排查。</span
+          >
+        </p>
+        <p><span>（3）使用的第三方SDK</span></p>
+        <p>
+          <span
+            >请您知悉，为了向您提供问题排查与安全运维的服务，科大讯飞股份有限公司的</span
+          ><strong><span>iDATA SDK</span></strong
+          ><span
+            >需要收集您的品牌信息（设备制造商、设备型号、设备品牌）、系统信息（系统版本、CPU架构、api等级、空间占用）、网络信息、设备信息（Android
+            ID/读取OAID）。</span
+          >
+        </p>
+        <p>
+          <span
+            >为了提供设备应用性能监控和统计分析服务，排查应用性能崩溃原因，提高应用稳定性，</span
+          ><strong><span>友盟U-APM应用性能监控SDK</span></strong
+          ><span
+            >需要收集您的设备信息（Android ID/IDFA/OAID/OpenUDID/GUID）。</span
+          >
+        </p>
+        <p>
+          <strong><span>2.2</span></strong
+          ><span> </span><strong><span>运营统计与分析</span></strong>
+        </p>
+        <p><span>（1）信息范围</span></p>
+        <p>
+          <span
+            >当您使用讯飞翻译APP产品与/或服务时，我们会自动收集您在使用讯飞翻译APP产品与/或服务时的详细情况并作为网络</span
+          ><strong><span>日志信息</span></strong
+          ><span>进行保存，包括讯飞翻译APP</span
+          ><strong
+            ><span
+              >软件版本号、输入框类型、输入的文本类型、搜索查询内容、网络状态、运营商、使用的语言、访问日期和时间、设备崩溃、系统活动、浏览记录、下载记录和点击记录</span
+            ></strong
+          ><span
+            >，以便我们统计讯飞翻译APP产品与/或服务的使用情况，进行问题排查，保障服务稳定和网络安全，并通过数据统计进行运营分析、改进和优化产品交互体验。</span
+          >
+        </p>
+        <p><span>（2）调用权限的范围</span></p>
+        <p>
+          <span>为了数据统计进行运营分析，讯飞翻译APP需要开启</span
+          ><strong><span>访问网络信息、访问网络权限</span></strong
+          ><span>，如果您拒绝提供此权限，将无法改进和优化产品交互体验。</span>
+        </p>
+        <p><span> </span></p>
+        <p><span>（3）使用的第三方SDK</span></p>
+        <p>
+          <span>为了通过数据统计改进及优化服务体验，</span
+          ><strong><span>讯飞AI营销云平台SDK</span></strong
+          ><span
+            >需要收集您的设备/网络/系统信息（设备品牌、型号、操作系统版本及api信息、磁盘总空间、系统内存空间、屏幕宽高，分辨率、屏幕像素密度，系统版本号，设备厂商，设备型号，手机运营商、SIM卡信息、网络类型、IP地址，运营商信息，WIFI状态、OAID）。</span
+          >
+        </p>
+        <p><span> </span></p>
+        <p>
+          <strong><span>3. 个人信息处理说明</span></strong>
+        </p>
+        <p>
+          <span
+            >（1）为便于您进一步明细上述功能服务所设权限调用您的个人信息详情，我们将调用情况总结如下表。</span
+          ><strong
+            ><span
+              >请您注意，您开启任一权限即代表您授权我们可以收集和使用相关个人信息来为您提供对应服务，您一旦关闭任一权限即代表您取消了授权，我们将不再基于对应权限继续收集和使用相关个人信息，也无法为您提供该权限所对应的服务。但是，您关闭权限的决定不会影响此前基于您的授权所进行的信息收集及使用。</span
+            ></strong
+          >
+        </p>
+        <figure class="table-figure">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <strong><span>系统权限</span></strong>
+                </th>
+                <th>
+                  <strong><span>对应业务功能</span></strong>
+                </th>
+                <th>
+                  <strong><span>调用权限目的</span></strong>
+                </th>
+                <th>
+                  <strong><span>请求权限时机</span></strong>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong><span>蓝牙权限</span></strong>
+                </td>
+                <td>
+                  <strong><span>讯飞AI翻译耳机、AI眼镜的连接</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >讯飞AI翻译耳机、AI眼镜与讯飞翻译APP连接实现AI眼镜与讯飞翻译APP之间的互连及数据传输</span
+                    ></strong
+                  >
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >首次使用需要开启蓝牙权限的功能时弹窗询问</span
+                    ></strong
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>查找附近设备权限</span></strong>
+                </td>
+                <td>
+                  <strong><span>AI眼镜的连接</span></strong>
+                </td>
+                <td>
+                  <strong><span>发现并扫描附近的AI眼镜设备</span></strong>
+                </td>
+                <td>
+                  <strong><span>首次连接AI眼镜时</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong
+                    ><span>位置权限（针对Android 6.0-11版本）</span></strong
+                  >
+                </td>
+                <td>
+                  <strong><span>讯飞AI翻译耳机的连接</span></strong>
+                </td>
+                <td>
+                  <strong><span>讯飞AI翻译耳机与讯飞翻译APP连接</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >首次使用需要开启蓝牙权限的功能时弹窗询问</span
+                    ></strong
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong><span>位置权限（针对iOS用户）</span></strong>
+                </td>
+                <td>
+                  <strong><span>AI眼镜的连接、点咖啡、城市伴游</span></strong>
+                </td>
+                <td>
+                  <strong><span>AI眼镜的连接</span></strong>
+                </td>
+                <td>
+                  <strong><span>首次连接AI眼镜时</span></strong>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong><span>位置权限（Android 10.0以上）</span></strong>
+                </td>
+                <td>
+                  <strong><span>AI眼镜的连接</span></strong>
+                </td>
+                <td>
+                  <strong><span>AI眼镜的连接</span></strong>
+                </td>
+                <td>
+                  <strong><span>首次连接讯飞翻译耳机、AI眼镜时</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>麦克风</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >对话翻译、旁听同传、沉浸式翻译（仅限安卓）、音色克隆、ClassClaw、提词器（演讲跟随模式）、口语练习</span
+                    ></strong
+                  >
+                </td>
+                <td>
+                  <strong><span>使用麦克风用于录制音频</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span>首次使用需要调用麦克风的功能时弹框询问</span></strong
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>相机</span></strong>
+                </td>
+                <td>
+                  <strong><span>拍照翻译、绑定翻译机</span></strong>
+                </td>
+                <td>
+                  <strong><span>图片拍摄、绑定设备扫一扫</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span>首次使用需要调用摄像头的功能时弹框询问</span></strong
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>相册（IOS版）</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span>拍照翻译、绑定翻译机、同传保存分享码</span></strong
+                  >
+                </td>
+                <td>
+                  <strong><span>上传/保存图片、绑定设备扫一扫</span></strong>
+                </td>
+                <td>
+                  <strong><span>首次使用相册选取照片时弹框询问</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>悬浮窗</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >沉浸式翻译、旁听同传、通话翻译、线上同传</span
+                    ></strong
+                  >
+                </td>
+                <td>
+                  <strong><span>沉浸式翻译或旁听同传结果显示</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span>首次使用需要调用悬浮窗的功能时弹框询问</span></strong
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>屏幕录制</span></strong>
+                </td>
+                <td>
+                  <strong><span>沉浸式翻译</span></strong>
+                </td>
+                <td>
+                  <strong><span>开启沉浸式翻译</span></strong>
+                </td>
+                <td>
+                  <strong><span>使用沉浸式翻译时弹框询问</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>剪贴板</span></strong>
+                </td>
+                <td>
+                  <strong><span>访问剪贴板内容、文本翻译</span></strong>
+                </td>
+                <td>
+                  <strong><span>复制、粘贴</span></strong>
+                </td>
+                <td>
+                  <strong><span>使用复制、粘贴功能时</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>读取手机状态（安卓版）</span></strong>
+                </td>
+                <td>
+                  <strong><span>问题排查与安全维护、提词器</span></strong>
+                </td>
+                <td>
+                  <strong><span>获取设备信息</span></strong>
+                </td>
+                <td>
+                  <strong><span>系统不弹窗</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>存储（安卓版）</span></strong>
+                </td>
+                <td>
+                  <strong><span>拍照翻译、提词器</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span>上传/保存图片或文件、绑定设备扫一扫</span></strong
+                  >
+                </td>
+                <td>
+                  <strong><span>首次使用存储选取照片时弹框询问</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>连接查找附近设备权限</span></strong>
+                </td>
+                <td>
+                  <strong><span>讯飞AI翻译耳机的连接</span></strong>
+                </td>
+                <td>
+                  <strong><span>讯飞AI翻译耳机与讯飞翻译APP连接</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >首次使用需要开启蓝牙权限的功能时弹窗询问</span
+                    ></strong
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong><span>位置权限（针对iOS用户）</span></strong>
+                </td>
+                <td>
+                  <strong><span>AI眼镜的连接、点咖啡、城市伴游</span></strong>
+                </td>
+                <td>
+                  <strong><span>AI眼镜的连接</span></strong>
+                </td>
+                <td>
+                  <strong><span>首次连接AI眼镜时</span></strong>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong><span>用户跟踪权限（IOS版）</span></strong>
+                </td>
+                <td>
+                  <strong><span>问题排查与安全维护</span></strong>
+                </td>
+                <td>
+                  <strong><span>获取设备信息</span></strong>
+                </td>
+                <td>
+                  <strong><span>首次使用应用程序时</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>访问网络信息、访问网络权限</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >离线翻译、AI视界、GlassClaw、提词器（演讲跟随模式）运营统计和分析</span
+                    ></strong
+                  >
+                </td>
+                <td>
+                  <strong><span>连接网络、获取网络状态信息</span></strong>
+                </td>
+                <td>
+                  <strong><span>首次使用应用程序时</span></strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong
+                    ><span
+                      >存储/相册写入权限（Android）/照片库写入权限（iOS）</span
+                    ></strong
+                  >
+                </td>
+                <td>
+                  <strong><span>相册（Wi-Fi快传）</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span>将导入的媒体文件保存至手机系统相册</span></strong
+                  >
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >通过Wi-Fi快传将眼镜端照片/视频导入手机时</span
+                    ></strong
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong><span>读取/写入外部存储权限</span></strong>
+                </td>
+                <td>
+                  <strong><span>离线翻译</span></strong>
+                </td>
+                <td>
+                  <strong
+                    ><span
+                      >在本地设备中保存（写入）离线翻译历史记录；在云端同步时提取（读取）记录进行上传</span
+                    ></strong
+                  >
+                </td>
+                <td>
+                  <strong
+                    ><span>生成离线翻译历史记录或触发云端同步时</span></strong
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </figure>
+        <p>
+          <span
+            >请您知悉，手机状态权限为第三方SDK直接获取。具体地，您可以通过阅读</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/third-party.html"
+            ><strong><span>《讯飞翻译APP第三方信息共享清单》</span></strong></a
+          ><span>以了解第三方SDK获取您设备权限的详情。</span>
+        </p>
+        <p>
+          <span
+            >（2）根据适用的法律法规，我们可能会对您的个人信息进行技术处理，使得根据该信息无法精确识别到用户个人，并对技术处理后的信息进行匿名化或去标识化的学术研究或统计分析（包括使用匿名化或去标识化后的语音信息进行模型算法的训练），以更好地提升产品功能和服务能力。</span
+          >
+        </p>
+        <p>
+          <span
+            >（3）根据相关法律法规规定，以下情形中处理您的个人信息无需征得您的同意：</span
+          >
+        </p>
+        <p>
+          <span
+            >•
+            为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需；</span
+          >
+        </p>
+        <p><span>• 为履行法定职责或者法定义务所必需；</span></p>
+        <p>
+          <span
+            >•
+            为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；</span
+          >
+        </p>
+        <p>
+          <span
+            >•
+            为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；</span
+          >
+        </p>
+        <p>
+          <span
+            >•
+            依照本法规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；</span
+          >
+        </p>
+        <p><span>• 法律、行政法规规定的其他情形。</span></p>
+        <p>
+          <span>（4）您可以通过点击查阅</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/person-info.html"
+            ><strong><span>《讯飞翻译APP个人信息收集清单》</span></strong></a
+          ><span
+            >以快速了解我们收集您个人信息的基本情况，包括信息种类、使用目的、使用场景等。</span
+          >
+        </p>
+        <p>
+          <strong><span>三、我们如何使用Cookie和同类技术</span></strong>
+        </p>
+        <p>
+          <span
+            >我们的产品和服务不会使用Cookie和同类技术收集和使用您的个人信息。</span
+          >
+        </p>
+        <p>
+          <span
+            >我们的产品和服务上可能会有广告商或其他合作方第三方服务提供商放置的cookies及同类技术。这些cookies及同类技术可能会收集与您相关的非个人身份信息，以用于分析用户如何使用该等服务、向您发送您可能感兴趣的广告，或用于评估广告服务的效果。这些第三方cookies及同类技术收集和使用该等信息，不受本政策的约束，而是受相关使用者的隐私政策约束，我们不对第三方的cookies及同类技术承担责任。</span
+          >
+        </p>
+        <p>
+          <span
+            >您可以通过浏览器设置拒绝或管理cookies及同类技术。具体地，您可以依据本政策第七章所述方式进行设置。但请注意，如果停用cookies或同类技术，您有可能无法享受最佳的服务体验，某些服务也可能无法正常使用。</span
+          >
+        </p>
+        <p><span> </span></p>
+        <p>
+          <strong
+            ><span
+              >四、我们如何委托处理、共享、转让、公开披露您的个人信息</span
+            ></strong
+          >
+        </p>
+        <p>
+          <strong><span>1.</span></strong
+          ><span> </span><strong><span>委托处理</span></strong>
+        </p>
+        <p>
+          <span
+            >为了向您提供更完善、更优质的产品和服务，我们会委托第三方（包括公司、组织和个人）处理您的某些个人信息。对我们委托处理您个人信息的第三方，我们会与其签署严格的数据处理协议，明确约定委托处理的目的、期限、处理方式、个人信息的种类、保护措施以及双方的权利和义务等，并对第三方的个人信息处理活动进行监督，要求第三方仅按照我们的要求、本政策的规定以及其他任何相关的保密和安全措施来处理您的个人信息，不得超出约定的处理目的、处理方式等处理个人信息。如果您拒绝我们的第三方在提供服务时收集为提供服务所必需的个人信息，将可能导致您在使用讯飞翻译APP产品与/或服务的过程中无法享受该第三方提供的服务。具体地，您可以通过点击阅读</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/third-party.html"
+            ><strong><span>《讯飞翻译APP第三方信息共享清单》</span></strong></a
+          ><span>以了解我们委托处理您个人信息的详情。</span>
+        </p>
+        <ol start="2">
+          <li>
+            <p>
+              <strong><span>共享</span></strong>
+            </p>
+          </li>
+        </ol>
+        <p>
+          <span
+            >我们不会与第三方（包括公司、组织和个人）共享您的个人信息，但以下情况除外：</span
+          >
+        </p>
+        <p>
+          <span
+            >（1）在获取明确同意的情况下共享：获得您的明确同意后，我们会与第三方共享您的个人信息。</span
+          >
+        </p>
+        <p>
+          <span
+            >（2）在法定情形下的共享：我们会根据法律法规规定、诉讼争议解决需要，或按行政、司法机关依法提出的要求，对第三方共享您的个人信息。</span
+          >
+        </p>
+        <p>
+          <span
+            >（3）与关联公司间共享：为了与我们的其他产品或服务所关联，为您提供更好的服务，或保护听见科技关联公司或其他用户或公众的人身财产安全免遭侵害，您的信息会在听见科技的关联公司内共享。我们仅会出于特定、明确而合法的且在本政策所声明的目的范围内，在听见科技的关联公司之间共享您的个人信息，并且只会共享提供服务所必要的信息。例如：在注册讯飞翻译APP账号时为了避免重复注册，我们需要对拟注册的账号进行唯一性校验。对于与关联公司共享的信息，我们会要求关联公司对您的信息采取不低于本政策声明的保护措施，并且严格遵守相关法律法规与监管要求。关联公司如要改变个人信息的处理目的，将需要再次征求您的授权同意。</span
+          >
+        </p>
+        <p>
+          <span
+            >（4）与授权合作伙伴共享：仅为实现本政策中声明的目的，我们的某些服务将由我们和授权合作伙伴共同提供。我们会与合作伙伴共享您的某些个人信息，以提供更好的客户服务和用户体验。我们仅会出于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享提供服务所必要的个人信息。我们的合作伙伴无权将共享的个人信息用于任何其他用途。目前，我们的授权合作伙伴包括以下类型：</span
+          >
+        </p>
+        <p>
+          <span
+            >a.供应商、服务提供商和其他合作伙伴。我们将信息发送给支持我们业务的供应商、服务提供商和其他合作伙伴，这些支持包括提供技术基础设施服务、分析我们服务的使用方式、衡量广告和服务的有效性、提供客户服务或进行学术研究和调查。</span
+          >
+        </p>
+        <p>
+          <span>具体地，您可以通过点击阅读</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/third-party.html"
+            ><strong><span>《讯飞翻译APP第三方信息共享清单》</span></strong></a
+          ><span>以了解我们共享您个人信息的详情。</span>
+        </p>
+        <p>
+          <span
+            >对我们与之共享个人信息的公司、组织和个人，我们会要求他们按照我们的说明、本政策以及其他任何相关的保密和安全措施来处理个人信息，不得超出约定的处理目的、处理方式等处理个人信息，并且要求他们的处理行为不得违反中华人民共和国个人信息保护和数据安全相关的法律、法规、国家标准和其他规范性文件。原则上，我们与之共享个人信息的公司、组织和个人无权将我们共享的个人信息用于本政策之外的任何其他用途。
+          </span>
+        </p>
+        <p><span>b.第三方SDK</span></p>
+        <p>
+          <span
+            >讯飞翻译APP中的部分功能由我们合作的第三方机构（以下称“SDK技术服务提供方”）以SDK插件的形式提供，SDK技术服务提供方会基于向您提供功能或服务之必须获取相应权限及信息。我们会审慎选择第三方SDK，督促相关第三方按照本政策或另行与您达成的约定处理您的个人信息，并采取适当的安全技术和管理措施保障您的个人信息安全。具体地，您可以通过点击阅读</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/third-party.html"
+            ><strong><span>《讯飞翻译APP第三方信息共享清单》</span></strong></a
+          ><span>了解第三方SDK处理您个人信息的详情。</span>
+        </p>
+        <p>
+          <strong><span>3. 转让</span></strong>
+        </p>
+        <p>
+          <span
+            >我们不会将您的个人信息转让给任何第三方（包括公司、组织和个人），但以下情况除外：</span
+          >
+        </p>
+        <p><span>（1）在获取明确同意的情况下转让；</span></p>
+        <p>
+          <span
+            >（2）根据适用的法律法规、法律程序的要求、强制性的行政或司法要求所必须的情况下进行转让；</span
+          >
+        </p>
+        <p>
+          <span
+            >（3）在本产品服务提供者发生合并、收购或破产清算情形，或其他涉及合并、收购或破产清算情形时，如涉及到个人信息转让，我们会告知您接收方的名称或者姓名和联系方式，并要求新的持有您个人信息的接收方继续受本政策的约束，对于接收方变更原先的处理目的、处理方式的，我们将要求该接收方重新向您征求授权同意。</span
+          >
+        </p>
+        <p>
+          <strong><span>4. 公开披露</span></strong>
+        </p>
+        <p><span>我们仅会在以下情况下，公开披露您的个人信息：</span></p>
+        <p>
+          <span
+            >（1）获得您授权同意或基于您的主动选择，我们可能会公开披露您的个人信息；</span
+          >
+        </p>
+        <p>
+          <span
+            >（2）在法律、法律程序、诉讼或政府主管部门强制性要求的情况下，我们可能会公开披露您的个人信息。</span
+          >
+        </p>
+        <p>
+          <span
+            >（3）如果我们确定您出现违反法律法规或严重违反本产品相关协议规则的情况，或为保护本产品及其关联公司用户或公众的人身财产安全免遭侵害，我们可能依据法律法规或本产品相关协议规则披露关于您的个人信息，包括相关违规行为以及本产品已对您采取的措施。</span
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >5.
+              委托处理、共享、转让、公开披露个人信息时事先征得授权同意的例外</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >以下情形中，委托处理、共享、转让、公开披露您的个人信息无需事先征得您的授权同意。</span
+          >
+        </p>
+        <p><span>（1）与我们履行法律法规规定的义务相关的；</span></p>
+        <p><span>（2）与国家安全、国防安全直接相关的；</span></p>
+        <p><span>（3）与公共安全、公共卫生、重大公共利益直接相关的；</span></p>
+        <p><span>（4）与刑事侦查、起诉、审判和判决执行等直接相关的；</span></p>
+        <p>
+          <span
+            >（5）出于维护您或其他个人生命、财产等重大合法权益但又很难得到本人同意的；</span
+          >
+        </p>
+        <p><span>（6）您自行向社会公众公开的个人信息；</span></p>
+        <p>
+          <span
+            >（7）从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。</span
+          >
+        </p>
+        <p>
+          <span
+            >请您知悉：根据法律规定，委托处理、共享、转让及公开披露经匿名化处理的个人信息的，不属于个人信息的对外委托处理、共享、转让及公开披露的处理行为，对此类数据的保存及处理将无需另行向您通知并征得您的同意。</span
+          >
+        </p>
+        <p>
+          <strong><span>五、我们如何保护您的个人信息</span></strong>
+        </p>
+        <ol start="">
+          <li>
+            <p>
+              <span
+                >我们非常重视用户的隐私和个人信息保护，也会采取合理的措施保护用户的个人信息。除法律法规规定或本政策另有约定的情形外，我们将运用各种安全技术和程序建立完善的管理制度来保护您的个人信息，以免遭受未经授权的访问、使用或披露。未经用户许可我们不会向第三方公开、透露用户个人信息，我们会对相关信息采用专业加密存储与传输方式，保障用户个人信息的安全。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p><span>数据安全措施</span></p>
+          </li>
+        </ol>
+        <p>
+          <span
+            >（1）我们已采用符合业界标准的安全防护措施，包括建立合理的制度规范、安全技术来防止您的个人信息遭到未经授权的访问使用、修改，避免数据的损坏或丢失。例如，我们的网络服务采取了传输层安全协议等加密技术，通过https等方式提供浏览服务，确保用户数据在传输过程中的安全；我们采取加密技术（TLS、SSL）、匿名化或去标识化处理和保护机制对用户个人信息进行加密保存，并通过隔离技术进行隔离；我们通过建立数据分类分级制度、数据安全管理规范、数据安全开发规范来管理规范个人信息的存储和使用；我们通过信息接触者保密协议等方式，仅允许有必要知悉这些信息的我们及我们关联方的员工、合作伙伴访问个人信息，并为此设置了严格的访问权限控制和监控机制，同时要求接触到您个人信息的所有人员履行相应的保密义务。如果未能履行这些义务，会被追究法律责任或被中止与我们的合作关系；我们已举办安全和隐私保护培训课程，加强员工对于保护个人信息重要性的认识；我们已制定并组织实施个人信息安全事件应急预案等。</span
+          >
+        </p>
+        <p>
+          <span
+            >（2）我们已采取一切合理可行的措施，确保未收集无关的个人信息。我们只会在达成本政策所述目的所需的期限内保留您的个人信息，除非需要延长保留期或受到法律的允许。</span
+          >
+        </p>
+        <p>
+          <span
+            >（3）互联网并非绝对安全的环境，而且电子邮件、即时通讯、及与其他用户的交流方式并未加密，我们强烈建议您不要通过此类方式发送个人信息。请使用复杂密码，协助我们保证您的账号安全。</span
+          >
+        </p>
+        <p>
+          <span
+            >（4）互联网环境并非百分之百安全，我们将尽力确保或担保您发送给我们的任何信息的安全性。如果我们的物理、技术、或管理防护设施遭到破坏，导致信息被非授权访问、公开披露、篡改、或毁坏，导致您的合法权益受损，我们将承担相应的法律责任。</span
+          >
+        </p>
+        <p>
+          <span
+            >（5）在不幸发生个人信息安全事件后，我们将按照法律法规的要求，及时向您告知：安全事件发生的原因、可能造成的危害、涉及个人信息的种类、我们已采取或将要采取的处置措施、您可自主防范和降低风险的建议和可采取的措施等。我们将及时将事件相关情况以邮件、短信、电话、发送通知等方式告知您，难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。同时，我们还将按照监管部门要求，主动上报个人信息安全事件的处置情况。请您知悉，根据可适用法律法规的规定，如采取措施能够有效避免信息泄露、篡改、丢失造成危害的，我们可以不向您进行告知。</span
+          >
+        </p>
+        <p>
+          <strong><span>六、我们如何存储您的个人信息</span></strong>
+        </p>
+        <p>
+          <span
+            >本产品与/或服务仅面向于中华人民共和国提供。收集的有关您的信息和资料将保存在中华人民共和国境内大陆地区的服务器上。</span
+          >
+        </p>
+        <p><span>1.存储信息的地点</span></p>
+        <p>
+          <span
+            >听见科技遵守法律法规的规定，收集的有关您的信息和资料将保存在中华人民共和国境内大陆地区的服务器上。以下情形除外：</span
+          >
+        </p>
+        <p><span>• 法律法规有明确规定；</span></p>
+        <p><span>• 获得您的明确授权；</span></p>
+        <p><span>• 基于其他合法依据。</span></p>
+        <p><span>2.存储信息的期限</span></p>
+        <p>
+          <span
+            >一般而言，我们将在您使用讯飞翻译APP产品与/或服务期间为实现本政策所述处理目的所必需的时间内保留您的个人信息，除非可适用的法律法规或国家规范性文件另有规定。具体参考法规包括：</span
+          >
+        </p>
+        <p>
+          <span
+            >（1）《中华人民共和国网络安全法》第三章第二十一条规定：采取监测、记录网络运行状态、网络安全事件的技术措施，并按照规定留存相关的网络日志不少于六个月。</span
+          >
+        </p>
+        <p>
+          <span
+            >（2）《中华人民共和国电子商务法》第二章第三十一条规定：商品和服务信息、交易信息保存时间自交易完成之日起不少于三年；法律、行政法规另有规定的，依照其规定。</span
+          >
+        </p>
+        <p>
+          <span
+            >在超过上述期限，或您主动要求删除您的个人信息或注销您的账号后，我们将根据适用法律法规的要求尽快删除您的个人信息，除非可适用的法律法规或国家规范性文件要求在更长的期间内保留这些信息。但在下列情况下，听见科技因需符合法律要求，更改个人信息的存储时间：</span
+          >
+        </p>
+        <p><span>• 为遵守适用的法律法规等有关规定；</span></p>
+        <p><span>• 为遵守法院判决、裁定或其他法律程序的规定；</span></p>
+        <p><span>• 为遵守相关政府机关或法定授权组织的要求；</span></p>
+        <p>
+          <span
+            >•
+            为执行相关服务协议或本政策、维护社会公共利益，为保护公民人身财产安全或其他合法权益所合理必需的用途。</span
+          >
+        </p>
+        <p>
+          <span
+            >当讯飞翻译APP的相关服务发生停止运营的情形时，听见科技将采取包括发送通知和公告形式通知您，并在法律法规要求的期限内删除服务器中留存的您的个人信息。</span
+          >
+        </p>
+        <p>
+          <strong><span>七、您如何实现管理您个人信息的权利</span></strong>
+        </p>
+        <p>
+          <span
+            >1.按照中国相关的法律、法规、标准，您在个人信息处理活动中享有若干权利，具体包括：</span
+          >
+        </p>
+        <p>
+          <span
+            >•
+            您对个人信息处理享有知情权、决定权，有权限制或者拒绝他人对您个人信息进行处理，法律、行政法规另有规定的除外；</span
+          >
+        </p>
+        <p>
+          <span
+            >•
+            您有权向个人信息处理者查阅、复制您的个人信息，法律另有规定情形的除外；</span
+          >
+        </p>
+        <p>
+          <span
+            >•
+            您发现您的个人信息不准确或不完整的，有权请求个人信息处理者更正、补充；</span
+          >
+        </p>
+        <p><span>• 您有权请求删除您的个人信息；</span></p>
+        <p>
+          <span>• 您有权请求将您的个人信息转移至您指定的个人信息处理者；</span>
+        </p>
+        <p>
+          <span
+            >• 您有权要求个人信息处理者对其个人信息处理规则进行解释说明；</span
+          >
+        </p>
+        <p>
+          <span
+            >2.我们保障您对自己的个人信息行使前述权利，并为您提供相关操作路径，具体地，您可以参考以下步骤进行相关操作：</span
+          >
+        </p>
+        <p><span>（1）查阅、更正、补充、删除您的个人信息：</span></p>
+        <p>
+          <span
+            >您有权访问、更正、删除您的用户信息。您可以通过以下方式管理您的个人信息：</span
+          >
+        </p>
+        <p>
+          <span>①访问更正您的信息，您可以通过以下步骤修改个人账号密码：</span>
+        </p>
+        <p><span>• 点击“我的”</span></p>
+        <p><span>• 点击”头像账号区域”</span></p>
+        <p><span>• 点击“修改密码”</span></p>
+        <p><span>• 查看修改密码所需信息</span></p>
+        <p><span>②查阅/删除历史记录：</span></p>
+        <p><span>• 点击各翻译模块的“历史记录”</span></p>
+        <p><span>• 查看历史记录列表</span></p>
+        <p><span>• 点击单条记录删除或一键清空历史记录 </span></p>
+        <p><span>③查阅/删除收藏记录：</span></p>
+        <p><span>• 点击“我的”</span></p>
+        <p><span>• 点击“我的收藏”</span></p>
+        <p><span>• 查看收藏列表</span></p>
+        <p><span>• 点击单条记录删除或一键清空收藏记录</span></p>
+        <p><span>④删除缓存：</span></p>
+        <p><span>• 点击“我的”</span></p>
+        <p><span>• 点击“清除缓存”</span></p>
+        <p><span>⑤查阅交易信息以及付款记录：</span></p>
+        <p><span>• 点击“我的”</span></p>
+        <p><span>• 点击“我的权益”</span></p>
+        <p><span>• 点击“交易记录”</span></p>
+        <p><span>（2）获取您的个人信息副本</span></p>
+        <p>
+          <span
+            >您有权获取您的个人信息副本，您可以在APP中点击【我的】模块-关于我们-个人信息导出，进行个人信息的导出。您也可以通过根据本政策第十一章所述的方式联系我们的客服，我们将在15个工作日内对您的请求进行处理。</span
+          >
+        </p>
+        <p><span>（3）转移您的个人信息</span></p>
+        <p>
+          <span
+            >您有权请求将您的个人信息转移至您指定的个人信息处理者，符合国家网信部门规定条件的，我们会为您提供转移的途径。您可以通过根据本政策第十一章所述的方式联系我们的客服，我们将在15个工作日内对您的请求进行处理。特别提示：根据《网络数据安全管理条例》第二十五条，对符合下列条件的个人信息转移请求，我们会为您指定的其他网络数据处理者访问、获取有关个人信息提供途径：</span
+          >
+        </p>
+        <p><span>• 能够验证请求人的真实身份；</span></p>
+        <p>
+          <span>• 请求转移的是本人同意提供的或者基于合同收集的个人信息；</span>
+        </p>
+        <p><span>• 转移个人信息具备技术可行性；</span></p>
+        <p><span>• 转移个人信息不损害他人合法权益。</span></p>
+        <p>
+          <span
+            >如果您请求转移个人信息的次数明显超出合理范围的，我们可能会根据转移个人信息的成本收取一定的必要费用。</span
+          >
+        </p>
+        <p><span>（4）改变您授权同意的范围或撤回授权</span></p>
+        <p>
+          <span
+            >您可以通过删除信息、关闭设备功能、在软件中进行隐私设置等方式改变您授权我们继续收集个人信息的范围或撤回您的授权，具体地，您可以通过以下方式进行操作：</span
+          >
+        </p>
+        <p><span>• 点击“我的”</span></p>
+        <p><span>• 点击“应用权限设置”</span></p>
+        <p><span>• 以管理APP使用的系统权限</span></p>
+        <p>
+          <span
+            >请您知悉，每个业务功能需要一些基本的个人信息才能得以完成。对于额外收集的个人信息的收集和使用，您可以随时给予或收回您的授权同意。当您撤回同意或授权后，我们无法继续为您提供撤回同意或授权所对应的服务，也不再处理您相应的个人信息。但您撤回同意或授权的决定，不会影响此前基于您的授权而开展的个人信息处理。</span
+          >
+        </p>
+        <p><span>（5）注销账号</span></p>
+        <p>
+          <span>您随时可注销此前注册的账号，您可以通过以下方式自行操作：</span>
+        </p>
+        <p>
+          <span
+            >您可以在APP中点击“我的”-“头像账号区域”-“注销账号”后进行账号注销操作。您也可以通过</span
+          ><a
+            href="mailto:iflytranslate@iflytek.com"
+            target="_blank"
+            class="url"
+            >iflytranslate@iflytek.com</a
+          ><span
+            >联系客服线下注销账号。为保证安全，我们收到您的请求后需要您提供账号（手机号码）以核对身份，核验成功后我们将在15个工作日内进行账号注销处理。您注销账号后，我们将停止为您提供依赖账号登录的产品和服务。除法律法规另有规定外，我们将尽快删除或匿名化处理您的个人信息。</span
+          >
+        </p>
+        <p><span>（6）响应您的上述请求</span></p>
+        <p>
+          <span
+            >听见科技将采取适当的技术手段，保证您对于自己的个人资料可进行查阅、补充、更正、删除，或通过讯飞翻译APP产品与/或服务发布的反馈或投诉渠道申请听见科技对相关信息进行补充、更正、删除、复制、转移；听见科技收到您的申请后将按流程予以处理，为保障安全，按照流程，听见科技可能会先要求您验证自己的身份，我们需要您提供账号（手机号码）以及短信验证码，待核验成功后再处理您的请求。</span
+          ><strong><span>听见科技将在15个工作日内做出答复</span></strong
+          ><span
+            >，对于您合理的请求，听见科技原则上不收取费用，但对多次重复、超出合理限度的请求，听见科技将视情收取一定成本费用。对于那些无端重复、需要过多技术手段（例如，需要开发新系统或从根本上改变现行惯例）、给他人合法权益带来风险或者非常不切实际（例如，涉及备份磁带上存放的信息）的请求，听见科技可能会予以拒绝。</span
+          >
+        </p>
+        <p>
+          <span
+            >如果您无法查阅、补充、更正、删除、复制、转移您的个人信息，或改变您授权同意的范围或撤回授权、注销账号、限制自动化决策和关闭消息通知，或您需要查阅、补充、更正、删除、复制、转移您在使用讯飞翻译APP时所产生的其他个人信息，或您认为听见科技存在任何违反法律法规或与您关于个人信息的收集或使用的约定，您可通过听见科技对外公布的相关产品或服务的官方反馈渠道与听见科技联系。</span
+          >
+        </p>
+        <p><span>请您知悉：在以下情形中，我们将无法响应您的请求：</span></p>
+        <p><span>（1）与我们履行法律法规规定的义务相关的；</span></p>
+        <p><span>（2）与国家安全、国防安全直接相关的；</span></p>
+        <p><span>（3）与公共安全、公共卫生、重大公共利益直接相关的；</span></p>
+        <p><span>（4）与犯罪侦查、起诉、审判和执行判决等直接相关的；</span></p>
+        <p><span>（5）我们有充分证据表明您存在主观恶意或滥用权利的；</span></p>
+        <p>
+          <span
+            >（6）出于您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</span
+          >
+        </p>
+        <p>
+          <span
+            >（7）响应您的请求将导致您或其他个人、组织的合法权益受到严重损害的；</span
+          >
+        </p>
+        <p><span>（8）涉及商业秘密的。</span></p>
+        <p>
+          <strong><span>八、我们如何保护未成年人的个人信息</span></strong>
+        </p>
+        <p>
+          <span
+            >1.听见科技非常重视对未成年人个人信息的保护，我们将根据国家相关法律法规的规定保护未成年人的个人信息。</span
+          >
+        </p>
+        <p>
+          <span
+            >2.我们将不满18周岁的任何人均视为未成年人。根据相关法律法规的规定，若您是年满14周岁的未成年人，我们在收集您的个人信息之前，会征得您或您的监护人的同意，并且当您、父母或者其他监护人要求我们更正、删除未成年人个人信息的，我们将及时采取措施予以更正、删除，但法律、行政法规另有规定的除外。</span
+          >
+        </p>
+        <p>
+          <span
+            >3.若您是不满14周岁的未成年人（下称儿童），我们在收集您的个人信息之前，会征得您的父母或其他监护人的同意。</span
+          >
+        </p>
+        <p>
+          <span
+            >4.我们在处理儿童个人信息时，将采取以下措施予以保障：对于收集到的儿童个人信息，我们除遵守本政策关于用户个人信息的约定外，还会秉持正当必要、知情同意、目的明确、安全保障、依法利用的原则，严格遵循《未成年人保护法》《儿童个人信息网络保护规定》等法律法规的要求进行存储、使用、披露，且不会超过实现收集、使用目的所必须的期限，到期后我们会对儿童个人信息进行删除。具体地，请通过阅读</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/children.html"
+            ><strong><span>《儿童隐私保护政策》</span></strong></a
+          ><span>以了解详情。</span>
+        </p>
+        <p>
+          <span>5.若您是未成年人的父母或监护人，如您对本政策及</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/children.html"
+            ><strong><span>《儿童隐私保护政策》</span></strong></a
+          ><span
+            >中所述相关事宜有任何疑问、意见、建议或投诉、举报需求，请通过第十一章所述方式与我们进行反馈。</span
+          >
+        </p>
+        <p>
+          <strong><span>九、您的个人信息如何在全球范围转移</span></strong>
+        </p>
+        <p>
+          <strong
+            ><span
+              >原则上，我们在中华人民共和国境内收集产生的个人信息，会存储在中华人民共和国境内，不会进行跨境传输。</span
+            ></strong
+          ><span
+            >如因业务等需要，确需向境外提供您的个人信息的，我们会向您告知境外接收方的名称或者姓名、联系方式、处理目的、处理方式、个人信息的种类以及您向境外接收方行使本法规定权利的方式和程序等事项，并在获得您的单独同意或具备其他合法性基础、满足法律法规规定的跨境提供应具备的条件后，才会将您的个人信息转移到您使用产品与/或服务所在国家/地区的境外管辖区，或者使您的个人信息受到来自这些管辖区的访问。</span
+          >
+        </p>
+        <p>
+          <span
+            >请您知悉，此类管辖区可能设有不同的个人信息保护相关法律法规，我们会遵守管辖区内相关法律法规的要求确保您的个人信息得到充分保护。如此类管辖区未设立个人信息保护相关的法律法规，我们会尽力保障您的个人信息得到在中华人民共和国境内足够同等的保护。</span
+          >
+        </p>
+        <p>
+          <span
+            >如果您是来自香港特别行政区、澳门特别行政区的用户，我们在此特别提示，您的个人资料将跨境转移到中华人民共和国境内大陆地区听见科技的服务器上进行处理，我们会采取所有合理的措施保障您的个人资料安全。</span
+          >
+        </p>
+        <p>
+          <strong><span>十、我们如何更新本政策</span></strong>
+        </p>
+        <ol start="">
+          <li>
+            <p>
+              <span
+                >为给您提供更好的服务，讯飞翻译APP产品与/或服务将不时更新与变化，我们会适时对本政策进行修订，这些修订构成本政策的一部分。</span
+              ><strong
+                ><span
+                  >但是未经您明确同意，我们不会削减您按照本政策所应享有的权利。</span
+                ></strong
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >本政策更新后，我们会在讯飞翻译APP发出更新版本，通过弹窗、产品主页面或消息通知、产品公告栏或其他适当的方式再次提醒您阅读更新后的隐私政策，以便您及时了解本政策的最新版本。如果您不同意本政策，或对本政策修改、更新的内容有异议，您可以在游客模式下受限访问，或者您可以选择停止使用讯飞翻译APP产品与/或服务或者注销讯飞翻译APP账号。但请您知悉，您账号注销之前、停止使用本服务之前的行为和活动仍受本政策的约束。</span
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                >对于重大变更，我们还会提供更为显著的通知（我们会通过包括但不限于邮件、短信或在浏览页面做特别提示等方式，说明本政策的具体变更部分）。</span
+              >
+            </p>
+          </li>
+        </ol>
+        <p><span>本政策所指的重大变更包括但不限于：</span></p>
+        <p>
+          <span
+            >（1）我们的服务模式发生重大变化。如处理个人信息的目的、处理的个人信息的类型、个人信息的使用方式等；</span
+          >
+        </p>
+        <p>
+          <span
+            >（2）我们在所有权结构、组织架构等方面发生重大变化。如业务调整、破产并购等引起的所有变更等；</span
+          >
+        </p>
+        <p>
+          <span>（3）个人信息共享、转让或公开披露的主要对象发生变化；</span>
+        </p>
+        <p>
+          <span
+            >（4）您参与个人信息处理方面的权利及其行使方式发生重大变化；</span
+          >
+        </p>
+        <p>
+          <span
+            >（5）我们负责处理个人信息安全的责任部门、联络方式及投诉渠道发生变化时；</span
+          >
+        </p>
+        <p><span>（6）个人信息安全影响评估报告表明存在高风险时；</span></p>
+        <p>
+          <span
+            >（7）伴随政策或法律发布实施，为响应国家政策或者法律规范，做出变更。</span
+          >
+        </p>
+        <ol start="4">
+          <li>
+            <p>
+              <span
+                >我们鼓励您在使用我们产品与/或服务的过程中查阅本政策。具体地，您可以通过“我的-关于我们-隐私政策”中查看本政策。</span
+              >
+            </p>
+          </li>
+        </ol>
+        <p>
+          <strong><span>十一、如何联系我们</span></strong>
+        </p>
+        <p>
+          <span
+            >为更好地保护您的个人信息，我们设立有专门的网络安全与个人信息保护部门。如您在使用讯飞翻译APP的过程中对本政策或对您的个人信息有任何疑问或建议，请通过以下联系方式与我们联系：</span
+          >
+        </p>
+        <p>
+          <strong
+            ><span>电子邮件: </span
+            ><a
+              href="mailto:iflytranslate@iflytek.com"
+              target="_blank"
+              class="url"
+              >iflytranslate@iflytek.com</a
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span>联系邮箱（个人信息保护负责人）：</span
+            ><a href="mailto:dpo@iflytek.com" target="_blank" class="url"
+              >dpo@iflytek.com</a
+            ></strong
+          >
+        </p>
+        <p>
+          <strong
+            ><span
+              >联系地址：安徽省合肥市高新区长宁社区服务中心习友路3333号中国(合肥)国际智能语音产业园A区2号科研楼2001室</span
+            ></strong
+          >
+        </p>
+        <p>
+          <span
+            >如果您对我们的回复不满意，特别是您认为我们的个人信息处理行为损害了您的合法权益，且在您向我们反馈后我们无法提供让您满意的回复且拒绝改进的，您可以向相关监管机构进行投诉和举报。</span
+          >
+        </p>
+        <p>
+          <span>
+            投诉举报电话4000-199-199，我们将尽快审核所涉问题，并在收到您的投诉反馈后的15个工作日内予以回复。
+          </span>
+        </p>
+        <p>
+          <strong><span>十二、其他</span></strong>
+        </p>
+        <p>
+          <span
+            >与本政策相关的任何纠纷，双方应经友好协商解决；若不能协商解决，您在此同意向安徽省合肥市高新区人民法院提起诉讼。如果有管辖权的任何法院裁定或判决本政策的任何条款无效，则该条款将从本政策中移除，但该条款的无效不影响本政策其余条款的效力。本政策的其余条款将继续执行。</span
+          >
+        </p>
+        <p>
+          <span
+            >如果您是来自香港地区的资料当事人，您需同意本政策以及根据《个人资料（私隐）条例》（香港法例第486章）发出的</span
+          ><a
+            href="https://saas-public.ioss.xfinfr.com/private/config/info-statement.html"
+            ><strong><span>《讯飞翻译APP收集个人资料声明》</span></strong></a
+          ><span>。</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

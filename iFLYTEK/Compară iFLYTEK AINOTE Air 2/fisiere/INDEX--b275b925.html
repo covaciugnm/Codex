@@ -1,0 +1,215 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Firmware iFLYTEK: posibilități și dovezi</title><link rel="stylesheet" href="../catalog-parametri-functii/catalog.css"></head><body><p id="reverificare-detaliata" style="padding:16px;background:#e5f2ed;border-left:4px solid #177963"><a href="../reverificare-detaliata/INDEX.html"><strong>Reverificare detaliată: RPK, produse, parametri și protocol</strong></a> · 2980 parametri · 76 tipuri încă necunoscute · dovezi și limite.</p><p id="audit-calitate" style="padding:16px;background:#e0eef5;border-left:4px solid #247392"><a href="../audit-calitate/INDEX.html"><strong>Audit independent al documentației</strong></a> · 10/10 · runda 3 · domeniul și limitele sunt în raport.</p><header><div class="eyebrow">iFLYTEK · audit firmware · 30 octombrie 2026</div><h1>Firmware: ce putem extrage și ce ne lipsește</h1><nav><a href="../INDEX.html">Catalog APK</a><a href="../catalog-parametri-functii/INDEX.html">Parametri și funcții</a><a href="../protocol-comunicare/INDEX.html">Protocol</a><a href="audit.json">Audit JSON</a></nav></header><main class="wrap"><p><strong>Da, o imagine de firmware poate fi analizată prin dezasamblare și decompilare, dacă formatul și arhitectura sunt accesibile.</strong> Pentru ochelarii analizați, nu avem încă un pachet de firmware identificat. Avem codul Android al actualizării și indicii din Dart AOT despre obținerea pachetului.</p><div class="cards"><article><div class="metric">8</div>fișiere binare candidate din APK</article><article><div class="metric">139</div>arhive locale inspectate după numele intrărilor</article><article><div class="metric">0</div>imagini de firmware confirmate pentru acest model</article></div><h2>Ce confirmă codul aplicației</h2><table><tr><th>Dovadă</th><th>Ce permite să afirmăm</th><th>Sursă</th></tr><tr><td><code>startGlassOTA(path, otaVer)</code></td><td>Flutter transmite o cale locală și versiunea către managerul Android.</td><td><a href="../reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/wifip2p/WifiManagerPlugin.java">WifiManagerPlugin</a> · linia 513</td></tr><tr><td><code>startOTA(String filePath, String otaVersion, ...)</code></td><td>Managerul primește un fișier; dacă filePath este gol, folosește getFilesDir() + /ota_package.bin.</td><td><a href="../reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/GlassOTAManager.java">GlassOTAManager.startOTA</a> · linia 1450</td></tr><tr><td>Dimensiune, MD5, transfer și stare OTA</td><td>Aplicația pregătește și transferă un pachet. MD5 nu dovedește că pachetul este decriptat, nesemnat sau acceptă modificări.</td><td><a href="../reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/GlassOTAManager.java">GlassOTAManager.enterOTA</a> · linia 735</td></tr><tr><td><code>/hardware/upgrade/checkFirmwareVersion</code></td><td>Șir extras din libapp.so. Este indiciu de rută pentru verificarea versiunii, nu un contract HTTP reconstituit.</td><td><a href="indicii-dart-ota.json">Șiruri AOT și offseturi</a></td></tr><tr><td><code>allowBackup="false"</code>; debuggable nu este activat în manifest</td><td>Nu ne putem baza pe backupul obișnuit sau pe run-as pentru acces la datele versiunii de producție. Comportamentul telefonului trebuie verificat separat.</td><td><a href="../reconstituit/jadx/app/src/main/AndroidManifest.xml">AndroidManifest.xml, linia 132</a></td></tr></table><p>Calea implicită uzuală pentru utilizatorul Android 0 este <code>/data/user/0/com.iflytek.translateapp/files/ota_package.bin</code>. Este o deducție din getFilesDir(), nu un fișier găsit pe telefon. O cale explicită trimisă în argumentul path poate fi complet diferită.</p><h2>Ce am verificat în materialele existente</h2><div class="scroll"><table><tr><th>Fișier</th><th>Octeți</th><th>Clasificare</th></tr><tr><td><code>DebugProbesKt.bin</code></td><td>1.728</td><td>Kotlin debug resource.</td></tr><tr><td><code>assets/EVAD_ESR.bin</code></td><td>162.408</td><td>Audio/VAD resource candidate; executable glasses firmware not established.</td></tr><tr><td><code>assets/FYJ2mic_dirdiv_1204.bin</code></td><td>1.587.559</td><td>Embedded neural-network graph (FC, Relu, FSMN, etc.); not a CPU firmware image. <a href="FYJ2mic_dirdiv_1204.json">Structură extrasă</a></td></tr><tr><td><code>assets/FYJ2mic_dirpf_1204.bin</code></td><td>1.809.768</td><td>Embedded neural-network graph (FC, Relu, FSMN, etc.); not a CPU firmware image. <a href="FYJ2mic_dirpf_1204.json">Structură extrasă</a></td></tr><tr><td><code>assets/FYJ2mic_omndiv_1204.bin</code></td><td>643.175</td><td>Embedded neural-network graph (FC, Relu, FSMN, etc.); not a CPU firmware image. <a href="FYJ2mic_omndiv_1204.json">Structură extrasă</a></td></tr><tr><td><code>assets/flutter_assets/AssetManifest.bin</code></td><td>107.273</td><td>Flutter asset manifest.</td></tr><tr><td><code>assets/models/ant_iflytekair2_model_v1.5.bin</code></td><td>1.787.088</td><td>Audio model loaded by AgseEncoder on Android; not established as glasses firmware.</td></tr><tr><td><code>assets/models/ant_rayneov4_model_v1.2.bin</code></td><td>1.796.488</td><td>Audio model loaded by AgseEncoder on Android; not established as glasses firmware.</td></tr></table></div><p>Modelele <code>ant_iflytekair2...</code> și <code>ant_rayneov4...</code> sunt copiate din assets și încărcate de AgseEncoder. Fișierele FYJ2mic conțin un graf de rețea neuronală și date binare asociate. Numele <code>aes_...</code> din model_info nu este, singur, dovadă de criptare AES.</p><p>În arhiva de documentație Rokid, intrarea payload.bin de 134 octeți este un pointer Git LFS către un obiect de 906.017.679 octeți, nu conținutul firmware-ului. Se referă oricum la un alt produs. Celelalte potriviri sunt cod OTA / exemple, fără identificarea unui firmware iFLYTEK pentru ochelari.</p><p><a href="fisiere-binare.json">Antete, dimensiuni și SHA-256</a> · <a href="arhive-candidati.json">Intrări din arhive</a> · <a href="urluri-candidate-ota.json">URL-uri directe candidate</a> · <a href="modele-audio.json">Modele extrase</a></p><h2>Ce se poate recupera dintr-un firmware accesibil</h2><table><tr><th>Artefact</th><th>Rezultat realist</th></tr><tr><td>Cod mașină pentru CPU / MCU</td><td>Instrucțiuni, funcții identificate, graful apelurilor, referințe la date și pseudocod apropiat de C, în funcție de arhitectură și calitatea analizei.</td></tr><tr><td>Sistem de fișiere / partiții</td><td>Executabile, biblioteci, configurații, resurse și modele, dacă sunt prezente și se pot decoda.</td></tr><tr><td>Comenzi și protocoale</td><td>Handler-e pentru codurile opt, parseri, structuri, validări și limite efective, care pot fi corelate cu dicționarele aplicației.</td></tr><tr><td>Cod nativ optimizat / fără simboluri</td><td>Numele originale, tipurile, comentariile și separarea inițială în fișiere C/C++ nu sunt garantate. Funcțiile inline pot să nu mai existe separat.</td></tr><tr><td>Modele și servicii cloud</td><td>Pot exista resurse sau clienți în firmware. Codul backend și modelul cloud nu se recuperează dintr-un dispozitiv care doar apelează serviciul.</td></tr></table><p>Arhitectura procesorului ochelarilor, limbajul sursă, sistemul de operare și formatul pachetului nu sunt confirmate de acest audit. ARM64-ul din libapp.so descrie aplicația Android, nu demonstrează arhitectura ochelarilor.</p><h2>Condiții care schimbă metoda de analiză</h2><ul><li><b>Pachet comprimat:</b> se identifică formatul și se despachetează.</li><li><b>Actualizare diferențială:</b> poate fi necesară imaginea versiunii de bază pentru reconstrucție.</li><li><b>Pachet criptat:</b> este necesar conținutul lizibil sau mecanismul legitim de decriptare; entropia ridicată nu dovedește singură criptarea.</li><li><b>Pachet semnat:</b> semnătura poate permite verificarea originii și poate bloca instalarea unui pachet modificat; nu implică automat imposibilitatea citirii codului.</li><li><b>Citire directă din dispozitiv:</b> posibilitatea depinde de interfețele hardware expuse și protecția memoriei; nu presupunem că USB, JTAG sau SWD permit extragerea.</li></ul><h2>Traseul concret pentru telefonul Android al utilizatorului</h2><ol><li>Se identifică în aplicație modelul, versiunea firmware și disponibilitatea unei actualizări. Utilizatorul are ochelarii și Android; nu a descărcat încă o actualizare.</li><li>Se urmărește obținerea metadatelor și a pachetului destinat acestui model: versiune, URL, dimensiune, hash și cale locală. Nu se presupune că butonul de actualizare separă descărcarea de instalare.</li><li>Se verifică accesul la fișier prin exportul aplicației, stocare accesibilă sau un mediu de analiză autorizat. ADB singur nu oferă acces universal la directorul privat al unei aplicații de producție.</li><li>Pachetul recuperat se păstrează nemodificat, cu SHA-256. Se identifică antetul, compresia, partițiile, arhitectura și eventualele dependențe de o versiune anterioară.</li><li>Se importă componentele executabile într-un analizor potrivit, se exportă funcțiile / pseudocodul și se leagă rezultatele de catalogul parametrilor și comenzilor.</li></ol><p>Nu am rulat o actualizare, nu am modificat ochelarii și nu am accesat telefonul. Nu este disponibil încă fișierul de intrare pentru decompilarea firmware-ului acestui model.</p><h2>Surse primare și dovezi locale</h2><ul><li><a href="https://github.com/NationalSecurityAgency/ghidra">Ghidra: dezasamblare și decompilare</a></li><li><a href="https://github.com/NationalSecurityAgency/ghidra/blob/master/Ghidra/Features/Decompiler/src/main/doc/decompileplugin.xml">Ghidra: documentația decompilatorului</a></li><li><a href="https://developer.android.com/training/data-storage/app-specific">Android: directoare private ale aplicației</a></li><li><a href="https://developer.android.com/tools/adb">Android Debug Bridge</a></li></ul><p>Documentația generică iFLYOS OTA nu a fost tratată drept contract al acestor ochelari.</p><details><summary>Dovezi Java</summary><div class="source"><a href="../reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/GlassOTAManager.java">com/example/recorde_translate_plugin/glass/GlassOTAManager.java</a> · linia 1450<pre>y.obfuscated.yia
+    public void reconnectIfNeeded() {
+        requestTransferRecovery(&quot;socket_disconnect&quot;);
+    }
+
+    public void startOTA(String filePath, String otaVersion, OTACallback callback) {
+        this.otaFilePath = filePath;
+        this.otaVersion = otaVersion;
+        if (TextUtils.isEmpty(filePath)) {
+            this.otaFilePath = this.mContext.getFilesDir() + &quot;/ota_package.bin&quot;;
+        }
+        this.otaCallback = callback;
+        this.mRetryCount = 0;
+        this.mBitmapReceived = false;
+        this.mAwaitingOtaStatus = false;
+        this.mTransferRecoveryPending.set(false);
+        this.mSocketConnectGeneration.incrementAndGet();
+        checkPermissions();
+    }
+
+    public void stopOTA() {
+        this.mAwaitingOtaStatus = false;
+        OTAStateMachine oTAStateMachine = this.otaStateMachine;
+        if (oTAStateMachine != null &amp;&amp; oTAStateMachine.getHandler() != null) {
+            this.otaStateMachine.getHandler().removeMessages(42);
+            this.otaStateMachine.getHandler().removeMessages(40);
+            this.otaStateMachine.getHandler().removeMessages(20);
+            this.otaStateMachine.getHandler().removeMessages(15);
+            this.otaStateMachine.getHandler().</pre></div><div class="source"><a href="../reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/GlassOTAManager.java">com/example/recorde_translate_plugin/glass/GlassOTAManager.java</a> · linia 1454<pre> = otaVersion;
+        if (TextUtils.isEmpty(filePath)) {
+            this.otaFilePath = this.mContext.getFilesDir() + &quot;/ota_package.bin&quot;;
+        }
+        this.otaCallback = callback;
+        this.mRetryCount = 0;
+        this.mBitmapReceived = false;
+        this.mAwaitingOtaStatus = false;
+        this.mTransferRecoveryPending.set(false);
+        this.mSocketConnectGeneration.incrementAndGet();
+        checkPermissions();
+    }
+
+    public void stopOTA() {
+        this.mAwaitingOtaStatus = false;
+        OTAStateMachine oTAStateMachine = this.otaStateMachine;
+        if (oTAStateMachine != null &amp;&amp; oTAStateMachine.getHandler() != null) {
+            this.otaStateMachine.getHandler().removeMessages(42);
+            this.otaStateMachine.getHandler().removeMessages(40);
+            this.otaStateMachine.getHandler().removeMessages(20);
+            this.otaStateMachine.getHandler().removeMessages(15);
+            this.otaStateMachine.getHandler().removeMessages(14);
+        }
+        OTAStateMachine oTAStateMachine2 = this.otaStateMachine;
+        if (oTAStateMachine2 != null) {
+            oTAStateMachine2.sendMessage(2);
+        }
+        if (this.otaCallback != null) {
+            this.otaCallback = </pre></div><div class="source"><a href="../reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/GlassOTAManager.java">com/example/recorde_translate_plugin/glass/GlassOTAManager.java</a> · linia 753<pre>{
+                    File file = new File(path);
+                    length = file.length();
+                    md5 = MD5Utils.getMd5(file);
+                }
+                long j = length;
+                String str = md5;
+                kc4 kc4Var = new kc4() { // from class: com.example.recorde_translate_plugin.glass.GlassOTAManager.6
+                    @Override // com.alipay.verifyiotidentity.obfuscated.kc4
+                    public void onFailed(int i, @NonNull String s) {
+                        Logger.e(&quot;OTAManager&quot;, &quot;进入 OTA 失败: code=&quot; + i + &quot;, msg=&quot; + s);
+                        GlassOTAManager.this.otaStateMachine.sendMessage(16, i);
+                    }
+
+                    @Override // com.alipay.verifyiotidentity.obfuscated.kc4
+                    public void onSuccess(String msgJson) {
+                        try {
+                            Logger.d(&quot;OTAManager&quot;, &quot;onSuccess called: otaStateMachine=&quot; + GlassOTAManager.this.otaStateMachine + &quot;, msgJson=&quot; + msgJson);
+                            JSONObject jSONObject = new JSONObject(msgJson);
+                            if (jSONObject.has(aa4.k2)) {
+                                GlassOTAManager.this.mResponseOtaBitmap = jSONObje</pre></div><div class="source"><a href="../reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/GlassOTAManager.java">com/example/recorde_translate_plugin/glass/GlassOTAManager.java</a> · linia 867<pre>ger.e(&quot;OTAManager&quot;, &quot;眼镜 WiFi 连接超时(60s)，触发 OTA 失败&quot;);
+        glassOTAManager.otaStateMachine.sendMessage(15);
+    }
+
+    private File getCurrentTransferFile() {
+        if (TextUtils.isEmpty(this.otaFilePath)) {
+            return null;
+        }
+        File file = new File(this.otaFilePath);
+        if (file.exists() &amp;&amp; file.canRead()) {
+            return file;
+        }
+        Logger.e(&quot;OTAManager&quot;, &quot;OTA 文件不存在或无法读取: $mCurrentUploadFilePath&quot;);
+        return null;
+    }
+
+    public static GlassOTAManager getInstance(Activity context) {
+        if (instance != null &amp;&amp; (instance.mActivity == null || instance.mActivity.isFinishing() || instance.mActivity.isDestroyed())) {
+            instance.release();
+        }
+        if (instance == null) {
+            synchronized (GlassOTAManager.class) {
+                try {
+                    if (instance == null) {
+                        instance = new GlassOTAManager(context);
+                    }
+                } catch (Throwable th) {
+                    throw th;
+                }
+            }
+        }
+        return instance;
+    }
+
+    private void handleCommand(PayLoadCommand payLoadCommand) {
+        CommKeyValuePair cmdMap = payLoadCommand.get</pre></div><div class="source"><a href="../reconstituit/jadx/app/src/main/java/com/alipay/glass/audio/AgseEncoder.java">com/alipay/glass/audio/AgseEncoder.java</a> · linia 64<pre>b.append(&quot;2&quot;);
+        sb.append(str);
+        sb.append(&quot;dest_ant_agse.bin&quot;);
+        return sb.toString();
+    }
+
+    private boolean loadModelFromAssets(Context context) throws Throwable {
+        getModelDir(context);
+        String modelPath = getModelPath(context);
+        String str = this.mProduct == AgseAudioProduct.rayneov4 ? &quot;models/ant_rayneov4_model_v1.2.bin&quot; : &quot;models/ant_iflytekair2_model_v1.5.bin&quot;;
+        Log.i(TAG, &quot;loadModelFromAssets copy &quot; + str + &quot;--&gt;&quot; + modelPath);
+        AndroidCameraUtil.copyAsset2File(context, str, modelPath);
+        return true;
+    }
+
+    private static byte[] shortsToBytes(short[] shorts) {
+        if (shorts == null || shorts.length == 0) {
+            return new byte[0];
+        }
+        ByteBuffer byteBufferAllocate = ByteBuffer.allocate(shorts.length * 2);
+        byteBufferAllocate.order(ByteOrder.LITTLE_ENDIAN);
+        for (short s : shorts) {
+            byteBufferAllocate.putShort(s);
+        }
+        return byteBufferAllocate.array();
+    }
+
+    public synchronized byte[] encode(byte[] pcmData) {
+        if (!this.mInitialized) {
+            Log.e(TAG, &quot;AgseEncoder not initialized&quot;);
+            return null;
+        }
+        if (pcmData == n</pre></div><div class="source"><a href="../reconstituit/jadx/app/src/main/java/com/alipay/glass/audio/AgseEncoder.java">com/alipay/glass/audio/AgseEncoder.java</a> · linia 67<pre>text);
+        String str = this.mProduct == AgseAudioProduct.rayneov4 ? &quot;models/ant_rayneov4_model_v1.2.bin&quot; : &quot;models/ant_iflytekair2_model_v1.5.bin&quot;;
+        Log.i(TAG, &quot;loadModelFromAssets copy &quot; + str + &quot;--&gt;&quot; + modelPath);
+        AndroidCameraUtil.copyAsset2File(context, str, modelPath);
+        return true;
+    }
+
+    private static byte[] shortsToBytes(short[] shorts) {
+        if (shorts == null || shorts.length == 0) {
+            return new byte[0];
+        }
+        ByteBuffer byteBufferAllocate = ByteBuffer.allocate(shorts.length * 2);
+        byteBufferAllocate.order(ByteOrder.LITTLE_ENDIAN);
+        for (short s : shorts) {
+            byteBufferAllocate.putShort(s);
+        }
+        return byteBufferAllocate.array();
+    }
+
+    public synchronized byte[] encode(byte[] pcmData) {
+        if (!this.mInitialized) {
+            Log.e(TAG, &quot;AgseEncoder not initialized&quot;);
+            return null;
+        }
+        if (pcmData == null || pcmData.length == 0) {
+            return null;
+        }
+        try {
+            short[] sArrProcess = this.mAgseJni.Process(this.micNum, bytesToShorts(pcmData));
+            if (sArrProcess == null) {
+                Log.w(TAG, &quot;AGSE Process returned nul</pre></div><div class="source"><a href="../reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/wifip2p/WifiManagerPlugin.java">com/example/recorde_translate_plugin/glass/wifip2p/WifiManagerPlugin.java</a> · linia 392<pre>          b = 4;
+                }
+                break;
+            case -799158142:
+                if (str2.equals(&quot;startGlassOTA&quot;)) {
+                    b = 5;
+                }
+                break;
+            case -608432967:
+                if (str2.equals(&quot;startFileSync&quot;)) {
+                    b = 6;
+                }
+                break;
+            case -539145396:
+                if (str2.equals(&quot;search_wifi&quot;)) {
+                    b = 7;
+                }
+                break;
+            case -454474302:
+                if (str2.equals(&quot;openWifiSettings&quot;)) {
+                    b = 8;
+                }
+                break;
+            case 26301395:
+                if (str2.equals(&quot;send_file&quot;)) {
+                    b = 9;
+                }
+                break;
+            case 34621758:
+                if (str2.equals(&quot;exitGlassOTA&quot;)) {
+                    b = 10;
+                }
+                break;
+            case 215037663:
+                if (str2.equals(&quot;select_file&quot;)) {
+                    b = 11;
+                }
+                break;
+            case 255442575:
+                if (str2.equals(&quot;stop_search_wifi&quot;)) {
+                    b = 12;
+                }</pre></div></details></main></body></html>

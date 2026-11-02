@@ -1,0 +1,1390 @@
+{
+  "schema": "eva.audit/zone-plan-v2",
+  "zone_id": "A07",
+  "title": "Expediție, AWB, factură, retur și încasare",
+  "prepared_by": "/root/a07_livrari_plati",
+  "phase": "PLAN",
+  "state": "NEEXECUTAT",
+  "product_review": false,
+  "score": null,
+  "reviewer": "A11",
+  "repo_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "capture": "capturi/MANIFEST.json; copia folosită de serviciul /claude/taskuri",
+  "boundary": "A07 deține lanțul operațional de la predarea avizului și politica de facturare până la stingerea creanței. A03 validează separat GL, perioade, TVA și declarații. A05 stabilește pick și custodie. A06 stabilește contractul comercial al comenzii. A04 coordonează importurile de bază, A02 constrângerile de model, A01 RBAC, A08 interfața canalului, A09 UX, A10 reluarea și infrastructura.",
+  "isolation": "Date sintetice, cabinet dedicat, Docker --internal, schedulere externe oprite, curier/bancă/PSP simulați cu jurnal. Scrieri operaționale numai prin PO/procese native în fixture. SQL de verificare doar SELECT. Producție doar confirmări de versiune/dicționar, fără modificări. §26 scrierile partenerilor sunt excluse din teste. Înainte de suite se consultă coada §61; §62 nu presupune montare.",
+  "native_evidence": [
+    "Înregistrează bundle, versiune, commit core exact și hash plugin. Identifică AD_Table, AD_Window, AD_Process și rolul activ pe instalarea testată.",
+    "Compară sursa core aplicabilă (inclusiv MInOut, MPackage dacă disponibil, MRMA, MInvoice, MPayment, MAllocationHdr) și traseul EVA cu intrările reale în dicționar. Citește codurile/stările din versiunea instalată; nu deduce capabilitatea funcțională din tabel sau seed.",
+    "Rulează fixture-ul numai după aprobare. Refolosește documentele native și legăturile pe linii. Justifică orice extensie după diferență funcțională, efect contabil, idempotency, interfață și alternativă de configurare."
+  ],
+  "evidence": {
+    "package": "O probă are ID-ul controlului, data UTC, SHA și hash imagine, rol, firmă/canal, stare înainte/după, captură UI redactată, ID-uri native, SELECT și rezultat, jurnal de adaptor simulat, hash și autor. Audit la momentul închiderii taskului și la SHA curent se disting.",
+    "verdict": "Inițial NEEXECUTAT. Pentru PASS → pași, numere și probă reproductibilă. Defect → efect observat, impact, severitate, condiție, remediere nativă, test regresie. Blocaj tehnic → NEEXECUTAT/BLOCAT cu motiv și acces necesar. A11 examinează contradicții și negative, repetă probe reprezentative cu ID-uri distincte și returnează fișa incompletă.",
+    "cleanup": "Cabinet de test izolat cu copie inițială, audit ID per rundă, conservarea probelor redactate. Se restaurează doar datele fixture-ului, conform procedurii A10."
+  },
+  "fixtures": {
+    "F01": "Client sintetic A, două gestiuni G1/G2 eligibile și un locator blocat, 10 bucăți comandate, 7 culese, 3 restante, proces PC configurabil.",
+    "F02": "Comandă 120 RON, 2 expedieri de 70 și 50, avans 30, două colete plus relație master/child, adaptor local cu mod succes/timeout/duplicat.",
+    "F03": "Două canale cu politică la aprobare ori livrare reală, documente cu adrese distincte și condiții de retur, transport comercial explicit.",
+    "F04": "Decont 40+50 RON brut, reținere 8, virament 82; aceeași sumă la doi parteneri, extras duplicat și două monede; convențiile semnului se declară în fixture.",
+    "F05": "Livrate 7 buc, retur parțial 2, lot/locator din corpul de test, una deteriorată, două perioade una închisă, factură deja achitată și variantă fără factură.",
+    "F06": "Cabinete A/B, firme A1/A2, două canale, roluri gestionar/validare/contabil/comisionar, documente pereche fără date personale."
+  },
+  "anchor_candidates": [
+    {
+      "id": "S01",
+      "path": "idempiere/seeds/seed_eva_shipment_ws.sql",
+      "symbol": "CreateInOut",
+      "line": 2,
+      "sha256": "a0802866abff0b7bbbe05345a13018fbbf8d0f9868517b23c8463b7e444d2784",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S02",
+      "path": "idempiere/seeds/seed_eva_invoice_ws.sql",
+      "symbol": "CreateInvoice",
+      "line": 2,
+      "sha256": "db78a1aec34b640e929b962cb0599f1c561d3c8f664b558188e88f2dc49006a6",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S03",
+      "path": "idempiere/seeds/seed_eva_payment_ws.sql",
+      "symbol": "C_Payment",
+      "line": 28,
+      "sha256": "0000e81c00535a7193e71db1a319024b6e96ddd421ab46cebb99ddec744b9d8f",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S04",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/banca/ImportExtras.java",
+      "symbol": "class ImportExtras",
+      "line": 37,
+      "sha256": "3897a41217c6d6bee7f6f41b25972c6ec1e92ee98a55cb841a0a4b73a37b630b",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S05",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ImpliciteLivrare.java",
+      "symbol": "public static Implicite efective(",
+      "line": 39,
+      "sha256": "cec44a969c535fe01e0d55be95ad4202e446f11adc69bbce246456bc52838432",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S06",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogSeriiLivrare.java",
+      "symbol": "class DialogSeriiLivrare",
+      "line": 36,
+      "sha256": "48640b94a3d6e0670167b3fad8684506ce061c2d1af94b91a018e7539821ead2",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S07",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ImportDecontCurier.java",
+      "symbol": "class ImportDecontCurier",
+      "line": 34,
+      "sha256": "c435b3f4e15131a40059528323a177b41d9764af757aad90c79ff6f7ca1c4b70",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S08",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ParserDecont.java",
+      "symbol": "public static String normAwb",
+      "line": 83,
+      "sha256": "d7dc19f2848b67ac0a5bfe722d319f82fbabd88168faa701ec957adc886e431e",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S09",
+      "path": "idempiere/plugins/com.eva.ro.contab/test/TestT22Livrare.java",
+      "symbol": "class TestT22Livrare",
+      "line": 23,
+      "sha256": "f210ed129c5c79d0502248f34e72f4c636371f7525de78958c02fd81d4f9a6a2",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S10",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/AplicareDecont.java",
+      "symbol": "class AplicareDecont",
+      "line": 25,
+      "sha256": "2459aec07f0621084652751db7176cf25054010f3038d1209b74b030544273ef",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S11",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/AlocarePlata.java",
+      "symbol": "class AlocarePlata",
+      "line": 56,
+      "sha256": "90537e1f73e2e124302f0de4262db5eb342e550e1d4bd599a3fb4bfc28437902",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S12",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/trezorerie/StornoPlata.java",
+      "symbol": "public static int storneaza(",
+      "line": 50,
+      "sha256": "69e568275449196737b0b845bcf9c4fdab50913662d79e1aab4f3ca1e8df6aa7",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S13",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaReconciliereForm.java",
+      "symbol": "class WSagaReconciliereForm",
+      "line": 69,
+      "sha256": "0325c26d6fa03465bc840b93510ff8e85a248f8bcb7a9b8ee3ad4cb2ea3c2766",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S14",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/LegaturaRamburs.java",
+      "symbol": "public static Map<Integer, Integer> leaga(",
+      "line": 45,
+      "sha256": "bd551b3194ed4f4a62f38f9a8e15caee8d2ea820bbe5e590e6e122c19b3f8721",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S15",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/banca/ReconciliereBanca.java",
+      "symbol": "class ReconciliereBanca",
+      "line": 25,
+      "sha256": "4f5dc999b5e1a1201213d6121c96862836cee556e7159e8aadc105586aff2dc8",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S16",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/banca/PosteazaExtrase.java",
+      "symbol": "class PosteazaExtrase",
+      "line": 43,
+      "sha256": "89df7a52d52fd7b565afaca65ea4dcac56e318ad878142129b352ef6fbf5d2a8",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S17",
+      "path": "backend/app/routers/reconciliation.py",
+      "symbol": "def _svc_scoped(",
+      "line": 47,
+      "sha256": "b57c3b6f8cf326949c7cfe2d169cc4b6d3ca31815ecac865cabace27280cb98a",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    },
+    {
+      "id": "S18",
+      "path": "idempiere/plugins/com.eva.ro.contab/test/TestT22Ramburs.java",
+      "symbol": "class TestT22Ramburs",
+      "line": 28,
+      "sha256": "7651aab6e50214392b2a7a4175186f59e8ef441461ddc0e036247ff9acb31df6",
+      "level": "Localizare în corpus, fără verdict runtime sau probă funcțională"
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A07.P1",
+      "title": "Aviz, aprobare și expediere",
+      "actors": "gestionar → responsabil vânzări",
+      "flow": "IU pick și aviz → serviciul documentelor → M_InOut/Line/MA → aprobare → comandă AWB",
+      "handoff": "A05 livrează cantități/locator/lot și proprietarul rezervării. A06 livrează comanda și adresele.",
+      "db_candidates": [
+        "M_InOut",
+        "M_InOutLine",
+        "M_InOutLineMA",
+        "M_Transaction",
+        "C_OrderLine"
+      ],
+      "expected": "CO confirmat, 7 livrate, 3 rămase din 10.",
+      "negative": "Documente DR/IP/WP, răspuns pierdut și doi operatori simultan.",
+      "fixture": "F01",
+      "anchors": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "requirements": [
+        "U27",
+        "U32"
+      ],
+      "historical": [
+        "C03-A01",
+        "C03-A03",
+        "C03-A04"
+      ],
+      "correlation": "AD_Client_ID, AD_Org_ID, canal, C_Order_ID/linia ↔ M_InOut_ID/linia ↔ colet/referință externă ↔ C_Invoice_ID ↔ C_Payment_ID/alocare; se păstrează granularitatea per eveniment.",
+      "transaction": "Persistă referința și starea în aceeași tranziție locală. La efect extern necunoscut verifică mai întâi jurnalul/coletul, apoi reconciliere; demonstrează comportamentul la reluare și commit concurent.",
+      "state": "NEEXECUTAT"
+    },
+    {
+      "id": "A07.P2",
+      "title": "Colete și ramburs la emitere",
+      "actors": "responsabil vânzări sau regulă automată aprobată",
+      "flow": "aprobare → colet și cheie de corelare → adaptor curier simulat → rezultat AWB → reconciliere",
+      "handoff": "A05 predă expediție fizică și colete. A10 preia retry și monitorizare.",
+      "db_candidates": [
+        "M_InOut",
+        "M_Package",
+        "M_PackageLine",
+        "C_Order",
+        "C_Payment",
+        "C_AllocationLine"
+      ],
+      "expected": "Valorile brute 70+50, avans 30 alocat primei expediții, ramburs 40+50=90.",
+      "negative": "Timeout după emitere și răspuns duplicat, colet schimbat, eșec parțial.",
+      "fixture": "F02",
+      "anchors": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "requirements": [
+        "U28",
+        "U30"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "correlation": "AD_Client_ID, AD_Org_ID, canal, C_Order_ID/linia ↔ M_InOut_ID/linia ↔ colet/referință externă ↔ C_Invoice_ID ↔ C_Payment_ID/alocare; se păstrează granularitatea per eveniment.",
+      "transaction": "Persistă referința și starea în aceeași tranziție locală. La efect extern necunoscut verifică mai întâi jurnalul/coletul, apoi reconciliere; demonstrează comportamentul la reluare și commit concurent.",
+      "state": "NEEXECUTAT"
+    },
+    {
+      "id": "A07.P3",
+      "title": "Facturare și confirmare de livrare",
+      "actors": "responsabil vânzări / regulă autorizată → contabil",
+      "flow": "politica canalului → aviz eligibil → confirmare semnată → factură → legături pe linii → contabilizare",
+      "handoff": "A06 furnizează preț/TVA la comandă. A03 verifică postul și perioada.",
+      "db_candidates": [
+        "C_Invoice",
+        "C_InvoiceLine",
+        "M_InOut",
+        "M_InOutLine",
+        "C_DocType",
+        "Fact_Acct"
+      ],
+      "expected": "Niciun document pozitiv peste cantitatea și suma eligibile. Factura, stornarea și TVA ajung în capitolul corect.",
+      "negative": "CO fără dovadă transport, litigiu/retur deschis, evenimente în ordine inversă.",
+      "fixture": "F03",
+      "anchors": [
+        "S02",
+        "S09",
+        "S12"
+      ],
+      "requirements": [
+        "U27",
+        "U29"
+      ],
+      "historical": [
+        "C03-A01",
+        "C10-EXT-03"
+      ],
+      "correlation": "AD_Client_ID, AD_Org_ID, canal, C_Order_ID/linia ↔ M_InOut_ID/linia ↔ colet/referință externă ↔ C_Invoice_ID ↔ C_Payment_ID/alocare; se păstrează granularitatea per eveniment.",
+      "transaction": "Persistă referința și starea în aceeași tranziție locală. La efect extern necunoscut verifică mai întâi jurnalul/coletul, apoi reconciliere; demonstrează comportamentul la reluare și commit concurent.",
+      "state": "NEEXECUTAT"
+    },
+    {
+      "id": "A07.P4",
+      "title": "Decont și potrivire cu încasare",
+      "actors": "operator trezorerie → contabil",
+      "flow": "fișier curier/PSP → normalizare → excepții → extras → plată → alocare → balanță",
+      "handoff": "A04 deține parserul general. A03 preia reconcilierea contabilă. A01 controlează firma și IBAN.",
+      "db_candidates": [
+        "C_BankStatement",
+        "C_BankStatementLine",
+        "C_Payment",
+        "C_AllocationHdr",
+        "C_AllocationLine",
+        "C_Invoice",
+        "Fact_Acct"
+      ],
+      "expected": "Încasare 90, comision 8, virament 82. Soldul băncii și suma plăților se justifică separat.",
+      "negative": "Același fișier redenumit, AWB cu zero inițial, cont greșit, monedă diferită, potrivire ambiguă.",
+      "fixture": "F04",
+      "anchors": [
+        "S03",
+        "S04",
+        "S07",
+        "S08",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "requirements": [
+        "U30"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "correlation": "AD_Client_ID, AD_Org_ID, canal, C_Order_ID/linia ↔ M_InOut_ID/linia ↔ colet/referință externă ↔ C_Invoice_ID ↔ C_Payment_ID/alocare; se păstrează granularitatea per eveniment.",
+      "transaction": "Persistă referința și starea în aceeași tranziție locală. La efect extern necunoscut verifică mai întâi jurnalul/coletul, apoi reconciliere; demonstrează comportamentul la reluare și commit concurent.",
+      "state": "NEEXECUTAT"
+    },
+    {
+      "id": "A07.P5",
+      "title": "Retur, credit și restituire",
+      "actors": "gestionar → contabil → trezorerie",
+      "flow": "cerere → autorizare RMA → recepție → decizie calitate/stoc → credit → sold/restituire",
+      "handoff": "A05 confirmă custodia și locatorul. A03 asigură tratamentul financiar.",
+      "db_candidates": [
+        "M_RMA",
+        "M_RMALine",
+        "M_InOut",
+        "M_InOutLine",
+        "C_Invoice",
+        "C_Payment",
+        "C_AllocationHdr",
+        "Fact_Acct"
+      ],
+      "expected": "Returnate 2 din 7, credit ≤ 2, nicio a doua restituire pentru evenimentul reluat.",
+      "negative": "Anulare înainte de predare sau marfă nerecepționată, credit deja alocat, retur în altă firmă.",
+      "fixture": "F05",
+      "anchors": [
+        "S01",
+        "S02",
+        "S03",
+        "S12",
+        "S14"
+      ],
+      "requirements": [
+        "U29",
+        "U30",
+        "U32"
+      ],
+      "historical": [
+        "C03-A01"
+      ],
+      "correlation": "AD_Client_ID, AD_Org_ID, canal, C_Order_ID/linia ↔ M_InOut_ID/linia ↔ colet/referință externă ↔ C_Invoice_ID ↔ C_Payment_ID/alocare; se păstrează granularitatea per eveniment.",
+      "transaction": "Persistă referința și starea în aceeași tranziție locală. La efect extern necunoscut verifică mai întâi jurnalul/coletul, apoi reconciliere; demonstrează comportamentul la reluare și commit concurent.",
+      "state": "NEEXECUTAT"
+    },
+    {
+      "id": "A07.P6",
+      "title": "Trasabilitate operator și continuitate",
+      "actors": "contabil, supervizor, comisionar, auditor",
+      "flow": "comandă → aviz → colet → factură → încasare → alocare → stornare → jurnal",
+      "handoff": "A09 asigură navigare și accesibilitate. A01 verifică izolarea, A10 recuperează coada.",
+      "db_candidates": [
+        "C_Order",
+        "M_InOut",
+        "C_Invoice",
+        "C_Payment",
+        "C_AllocationLine",
+        "AD_ChangeLog",
+        "Fact_Acct"
+      ],
+      "expected": "Toate documentele afișate aparțin firmei, iar suma deschisă coincide cu documentele native.",
+      "negative": "Schimbare firmă din adresă, rescriere meniu, retry/reluare după restart.",
+      "fixture": "F06",
+      "anchors": [
+        "S05",
+        "S06",
+        "S11",
+        "S13",
+        "S14"
+      ],
+      "requirements": [
+        "U25",
+        "U26",
+        "U27",
+        "U30"
+      ],
+      "historical": [
+        "C10-EXT-01"
+      ],
+      "correlation": "AD_Client_ID, AD_Org_ID, canal, C_Order_ID/linia ↔ M_InOut_ID/linia ↔ colet/referință externă ↔ C_Invoice_ID ↔ C_Payment_ID/alocare; se păstrează granularitatea per eveniment.",
+      "transaction": "Persistă referința și starea în aceeași tranziție locală. La efect extern necunoscut verifică mai întâi jurnalul/coletul, apoi reconciliere; demonstrează comportamentul la reluare și commit concurent.",
+      "state": "NEEXECUTAT"
+    }
+  ],
+  "controls": [
+    {
+      "id": "A07.K01",
+      "pipeline": "A07.P1",
+      "title": "Prag de avizare",
+      "fixture": "F01",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → responsabil vânzări, seed fixture cu identificatori unici.",
+      "steps": [
+        "Preia în ERP 10 bucăți, confirmă 7 din locator autorizat și deschide avizul.",
+        "Solicită 11 sau un locator din altă gestiune.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Aviz cu 7, rest de livrat 3, totalul liniilor/MA corespunde tranzacțiilor.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Prag de avizare», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Aviz cu 7, rest de livrat 3, totalul liniilor/MA corespunde tranzacțiilor.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P1. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Solicită 11 sau un locator din altă gestiune.",
+      "anchors": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "historical": [
+        "C03-A01",
+        "C03-A03",
+        "C03-A04"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K02",
+      "pipeline": "A07.P1",
+      "title": "Starea reală a documentului",
+      "fixture": "F01",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → responsabil vânzări, seed fixture cu identificatori unici.",
+      "steps": [
+        "Forțează în cabinet PC aprobare manuală și rulează completarea. Reîncarcă ID-ul.",
+        "Procesul raportează succes intermediar sau eșuează între salvare și refresh.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Dacă DocStatus rămâne IP/WP, 0 AWB și 0 facturi, aceeași rezervare și document pentru reluare.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Starea reală a documentului», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Dacă DocStatus rămâne IP/WP, 0 AWB și 0 facturi, aceeași rezervare și document pentru reluare.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P1. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Procesul raportează succes intermediar sau eșuează între salvare și refresh.",
+      "anchors": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "historical": [
+        "C03-A01",
+        "C03-A03",
+        "C03-A04"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K03",
+      "pipeline": "A07.P1",
+      "title": "Aprobare comercială manuală",
+      "fixture": "F01",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → responsabil vânzări, seed fixture cu identificatori unici.",
+      "steps": [
+        "Gestionează și emite aviz, apoi aprobă din rolul de vânzări.",
+        "Gestionarul sau comisionarul încearcă URL/API direct.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Succesiune jurnalizată, actor și oră pentru fiecare pas. Emiterea disponibilă numai după aprobare.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Aprobare comercială manuală», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Succesiune jurnalizată, actor și oră pentru fiecare pas. Emiterea disponibilă numai după aprobare.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P1. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Gestionarul sau comisionarul încearcă URL/API direct.",
+      "anchors": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "historical": [
+        "C03-A01",
+        "C03-A03",
+        "C03-A04"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K04",
+      "pipeline": "A07.P1",
+      "title": "Aprobare automată configurabilă",
+      "fixture": "F01",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → responsabil vânzări, seed fixture cu identificatori unici.",
+      "steps": [
+        "Compară două canale, unul manual și unul automat cu regulă eligibilă.",
+        "Regula lipsește ori comanda se află în excepție.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Regula se aplică doar canalului țintă, păstrează versiunea și motivul.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Aprobare automată configurabilă», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Regula se aplică doar canalului țintă, păstrează versiunea și motivul.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P1. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Regula lipsește ori comanda se află în excepție.",
+      "anchors": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "historical": [
+        "C03-A01",
+        "C03-A03",
+        "C03-A04"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K05",
+      "pipeline": "A07.P1",
+      "title": "Respingere după CO înainte de curier",
+      "fixture": "F01",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → responsabil vânzări, seed fixture cu identificatori unici.",
+      "steps": [
+        "Respinge expedierea după CO fără predare fizică și înregistrează corecția.",
+        "Respinge de două ori și încearcă repunerea prematură în disponibil.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "0 AWB și 0 RMA automat. Stoc fizic, rezervare și mișcare se reconciliază prin document nativ corelat.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Respingere după CO înainte de curier», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «0 AWB și 0 RMA automat. Stoc fizic, rezervare și mișcare se reconciliază prin document nativ corelat.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P1. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Respinge de două ori și încearcă repunerea prematură în disponibil.",
+      "anchors": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "historical": [
+        "C03-A01",
+        "C03-A03",
+        "C03-A04"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K06",
+      "pipeline": "A07.P2",
+      "title": "Identitatea coletului și etichetei",
+      "fixture": "F02",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări sau regulă automată aprobată, seed fixture cu identificatori unici.",
+      "steps": [
+        "Emite separat pentru două expediții și două colete pentru care curierul simulat folosește AWB principal + numere copil.",
+        "Doi operatori emit același colet în paralel.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Cardinalitatea respectă contractul curierului, fiecare colet are referință persistată; reimprimarea refolosește aceeași etichetă.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Identitatea coletului și etichetei», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Cardinalitatea respectă contractul curierului, fiecare colet are referință persistată; reimprimarea refolosește aceeași etichetă.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P2. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Doi operatori emit același colet în paralel.",
+      "anchors": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K07",
+      "pipeline": "A07.P2",
+      "title": "Rezultat necunoscut la curier",
+      "fixture": "F02",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări sau regulă automată aprobată, seed fixture cu identificatori unici.",
+      "steps": [
+        "Simulează acceptare la curier și pierderea răspunsului înainte de salvare. Repornește workerul.",
+        "Adaptor fără căutare sigură: poate continua numai după rezolvare manuală.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Operatorul vede în reconciliere; regăsirea aceleiași referințe evită al doilea transport plătibil.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Rezultat necunoscut la curier», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Operatorul vede în reconciliere; regăsirea aceleiași referințe evită al doilea transport plătibil.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P2. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Adaptor fără căutare sigură: poate continua numai după rezolvare manuală.",
+      "anchors": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K08",
+      "pipeline": "A07.P2",
+      "title": "Ramburs net repartizat",
+      "fixture": "F02",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări sau regulă automată aprobată, seed fixture cu identificatori unici.",
+      "steps": [
+        "Pentru brut 70/50 și avans 30 repartizat primei expediții calculează AWB pe fiecare.",
+        "Reia emiterea după o nouă încasare sau anularea unui colet.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "COD1=40, COD2=50, total=90. Totalul pe colete nu depășește creanța eligibilă.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Ramburs net repartizat», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «COD1=40, COD2=50, total=90. Totalul pe colete nu depășește creanța eligibilă.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P2. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Reia emiterea după o nouă încasare sau anularea unui colet.",
+      "anchors": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K09",
+      "pipeline": "A07.P2",
+      "title": "Adrese și opțiuni pe expediție",
+      "fixture": "F02",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări sau regulă automată aprobată, seed fixture cu identificatori unici.",
+      "steps": [
+        "Comandă cu adrese de facturare și livrare distincte, adresă nouă a partenerului și punct de ridicare.",
+        "Schimbă adresa implicită după comandă și cere AWB fără localitate.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "AWB păstrează copia de livrare a comenzii; factura folosește adresa de facturare; tariful efectiv include opțiunile canalului.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Adrese și opțiuni pe expediție», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «AWB păstrează copia de livrare a comenzii; factura folosește adresa de facturare; tariful efectiv include opțiunile canalului.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P2. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Schimbă adresa implicită după comandă și cere AWB fără localitate.",
+      "anchors": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K10",
+      "pipeline": "A07.P2",
+      "title": "Ramburs zero și monedă",
+      "fixture": "F02",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări sau regulă automată aprobată, seed fixture cu identificatori unici.",
+      "steps": [
+        "Simulează colet integral achitat și curier care acceptă doar RON.",
+        "Plată peste valoarea comenzii sau sumă negativă.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Rambursul solicitat este 0 pentru colet plătit; valută neacceptată cere rezolvare înainte de emitere.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Ramburs zero și monedă», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Rambursul solicitat este 0 pentru colet plătit; valută neacceptată cere rezolvare înainte de emitere.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P2. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Plată peste valoarea comenzii sau sumă negativă.",
+      "anchors": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K11",
+      "pipeline": "A07.P3",
+      "title": "Factură la validarea internă",
+      "fixture": "F03",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări / regulă autorizată → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Selectează politica facturare la aprobare pentru canalul A și validează același aviz de două ori.",
+        "Schimbă regula după avizare pentru a verifica versionarea deciziei.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Exact o facturare pentru liniile eligibile și trimitere la aviz; reluarea arată documentul existent.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Factură la validarea internă», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Exact o facturare pentru liniile eligibile și trimitere la aviz; reluarea arată documentul existent.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P3. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Schimbă regula după avizare pentru a verifica versionarea deciziei.",
+      "anchors": [
+        "S02",
+        "S09",
+        "S12"
+      ],
+      "historical": [
+        "C03-A01",
+        "C10-EXT-03"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K12",
+      "pipeline": "A07.P3",
+      "title": "Factură după livrare fără incidente",
+      "fixture": "F03",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări / regulă autorizată → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Livrează un colet, blochează altul pentru incident; testează setarea pentru facturare separată ori a întregii comenzi.",
+        "Eveniment livrat înainte de predat, duplicat sau fără semnătură validă.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "0 facturi la simplul CO. După confirmare se facturează strict setul eligibil definit de politică; restul rămâne vizibil.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Factură după livrare fără incidente», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «0 facturi la simplul CO. După confirmare se facturează strict setul eligibil definit de politică; restul rămâne vizibil.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P3. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Eveniment livrat înainte de predat, duplicat sau fără semnătură validă.",
+      "anchors": [
+        "S02",
+        "S09",
+        "S12"
+      ],
+      "historical": [
+        "C03-A01",
+        "C10-EXT-03"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K13",
+      "pipeline": "A07.P3",
+      "title": "TVA și cost de transport",
+      "fixture": "F03",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări / regulă autorizată → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Verifică două cote din fixture și transportul facturat distinct după regula contractului.",
+        "Curs lipsă, perioadă închisă, preț brut importat ca net.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Suma liniilor net+TVA+transport cohérează cu comanda în toleranța de rotunjire configurată; A03 confirmă separat.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «TVA și cost de transport», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Suma liniilor net+TVA+transport cohérează cu comanda în toleranța de rotunjire configurată; A03 confirmă separat.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P3. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Curs lipsă, perioadă închisă, preț brut importat ca net.",
+      "anchors": [
+        "S02",
+        "S09",
+        "S12"
+      ],
+      "historical": [
+        "C03-A01",
+        "C10-EXT-03"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K14",
+      "pipeline": "A07.P3",
+      "title": "Retur anterior facturării",
+      "fixture": "F03",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile responsabil vânzări / regulă autorizată → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Deschide un retur înainte de confirmarea livrării în politica de facturare târzie.",
+        "Operatorul încearcă ocolirea blocării prin proces în fundal.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Cantitatea contestată are blocare vizibilă. După decizie și reconciliere, suma eligibilă este documentată.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Retur anterior facturării», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Cantitatea contestată are blocare vizibilă. După decizie și reconciliere, suma eligibilă este documentată.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P3. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Operatorul încearcă ocolirea blocării prin proces în fundal.",
+      "anchors": [
+        "S02",
+        "S09",
+        "S12"
+      ],
+      "historical": [
+        "C03-A01",
+        "C10-EXT-03"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K15",
+      "pipeline": "A07.P4",
+      "title": "Import decont curier",
+      "fixture": "F04",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile operator trezorerie → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Importă fixtura 40/50, comision 8, virament 82. Repetă sub alt nume.",
+        "Linie AWB necunoscută și separatori zecimali diferiți.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Aceleași linii sursă, 1 decont economic, 90 brut, 8 cost, 82 net; fără plată dublă.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Import decont curier», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Aceleași linii sursă, 1 decont economic, 90 brut, 8 cost, 82 net; fără plată dublă.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P4. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Linie AWB necunoscută și separatori zecimali diferiți.",
+      "anchors": [
+        "S03",
+        "S04",
+        "S07",
+        "S08",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K16",
+      "pipeline": "A07.P4",
+      "title": "Import extras și proprietatea contului",
+      "fixture": "F04",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile operator trezorerie → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Importă extrasul numai pe contul și extrasele cabinetului din fixture, reimportă parțial.",
+        "IBAN din cabinet vecin și două linii egale în aceeași zi, dar cu referințe diferite.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Unică identitatea tranzacției pe IBAN, extras, dată și referință conform profilului. Suma se reconciliază cu soldul.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Import extras și proprietatea contului», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Unică identitatea tranzacției pe IBAN, extras, dată și referință conform profilului. Suma se reconciliază cu soldul.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P4. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "IBAN din cabinet vecin și două linii egale în aceeași zi, dar cu referințe diferite.",
+      "anchors": [
+        "S03",
+        "S04",
+        "S07",
+        "S08",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K17",
+      "pipeline": "A07.P4",
+      "title": "Potrivire ambiguă",
+      "fixture": "F04",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile operator trezorerie → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Introdu două facturi cu aceeași sumă/partener și un virament fără referință suficientă.",
+        "Forțează ID-ul unei facturi din altă organizație fără drepturi.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "0 alocări automate; UI prezintă candidații, contextul și motivul pentru alegerea umană.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Potrivire ambiguă», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «0 alocări automate; UI prezintă candidații, contextul și motivul pentru alegerea umană.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P4. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Forțează ID-ul unei facturi din altă organizație fără drepturi.",
+      "anchors": [
+        "S03",
+        "S04",
+        "S07",
+        "S08",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K18",
+      "pipeline": "A07.P4",
+      "title": "Avans, plăți parțiale și alocări",
+      "fixture": "F04",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile operator trezorerie → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Alocă 30 avans și 40 încasare la prima factură de 70. Reia la plată deja alocată.",
+        "Doi operatori încearcă simultan alocarea aceluiași avans.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Sold prima factură 0. Avans consumat o singură dată; sold alocabil al plății nu este negativ.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Avans, plăți parțiale și alocări», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Sold prima factură 0. Avans consumat o singură dată; sold alocabil al plății nu este negativ.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P4. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Doi operatori încearcă simultan alocarea aceluiași avans.",
+      "anchors": [
+        "S03",
+        "S04",
+        "S07",
+        "S08",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K19",
+      "pipeline": "A07.P4",
+      "title": "Valută, comisioane și diferențe",
+      "fixture": "F04",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile operator trezorerie → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Compară plata în valuta facturii și în altă valută, cu rată valabilă, taxă PSP și virament net.",
+        "Curs absent sau diferență peste toleranță cere aprobare/excepție.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Moneda, cursul, data și diferența de curs sunt explicite; diferența sau rotunjirea apare într-un document potrivit.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Valută, comisioane și diferențe», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Moneda, cursul, data și diferența de curs sunt explicite; diferența sau rotunjirea apare într-un document potrivit.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P4. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Curs absent sau diferență peste toleranță cere aprobare/excepție.",
+      "anchors": [
+        "S03",
+        "S04",
+        "S07",
+        "S08",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K20",
+      "pipeline": "A07.P4",
+      "title": "Contestație PSP și restituire duplicată",
+      "fixture": "F04",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile operator trezorerie → contabil, seed fixture cu identificatori unici.",
+      "steps": [
+        "Simulează refund și chargeback cu identificatori diferiți, apoi retransmite fiecare eveniment.",
+        "Mesaj inversat ca ordine sau semn; fără asociere certă, cere reconciliere.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Istoricul distinge refund, chargeback, încasarea inițială și orice comision. Aceeași referință are efect unic.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Contestație PSP și restituire duplicată», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Istoricul distinge refund, chargeback, încasarea inițială și orice comision. Aceeași referință are efect unic.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P4. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Mesaj inversat ca ordine sau semn; fără asociere certă, cere reconciliere.",
+      "anchors": [
+        "S03",
+        "S04",
+        "S07",
+        "S08",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "historical": [
+        "C10-EXT-02"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K21",
+      "pipeline": "A07.P5",
+      "title": "Autorizare retur parțial",
+      "fixture": "F05",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → contabil → trezorerie, seed fixture cu identificatori unici.",
+      "steps": [
+        "Inițiază în ERP retur 2/7 și autorizează cu referință la livrare.",
+        "Cerere 8/7 sau altă firmă.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "RMA cu firma, partenerul, documentul, motivul și cantitatea; total autorizat/recepționat nu depășește livrat minus retururile anterioare.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Autorizare retur parțial», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «RMA cu firma, partenerul, documentul, motivul și cantitatea; total autorizat/recepționat nu depășește livrat minus retururile anterioare.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P5. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Cerere 8/7 sau altă firmă.",
+      "anchors": [
+        "S01",
+        "S02",
+        "S03",
+        "S12",
+        "S14"
+      ],
+      "historical": [
+        "C03-A01"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K22",
+      "pipeline": "A07.P5",
+      "title": "Primirea fizică și carantina",
+      "fixture": "F05",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → contabil → trezorerie, seed fixture cu identificatori unici.",
+      "steps": [
+        "Recepționează 2 bunuri returnate, unul deteriorat și unul reutilizabil în locatori distincți.",
+        "RMA autorizat fără marfă primită sau retur în tranzit.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Recepție documentată pe lot/locator și stare. Disponibilul crește doar pentru marfa eliberată efectiv.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Primirea fizică și carantina», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Recepție documentată pe lot/locator și stare. Disponibilul crește doar pentru marfa eliberată efectiv.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P5. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "RMA autorizat fără marfă primită sau retur în tranzit.",
+      "anchors": [
+        "S01",
+        "S02",
+        "S03",
+        "S12",
+        "S14"
+      ],
+      "historical": [
+        "C03-A01"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K23",
+      "pipeline": "A07.P5",
+      "title": "Notă de credit și respectarea facturii",
+      "fixture": "F05",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → contabil → trezorerie, seed fixture cu identificatori unici.",
+      "steps": [
+        "Alege tipul de document și creditează doar cele 2 unități acceptate conform politicii.",
+        "Retur fără factură emisă ori perioadă închisă; ține decizia deschisă fără credit fictiv.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Credit ≤ 2 și valorile/TVA sunt corelate cu factura și perioada. O singură compensare sau restituire ulterioară.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Notă de credit și respectarea facturii», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Credit ≤ 2 și valorile/TVA sunt corelate cu factura și perioada. O singură compensare sau restituire ulterioară.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P5. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Retur fără factură emisă ori perioadă închisă; ține decizia deschisă fără credit fictiv.",
+      "anchors": [
+        "S01",
+        "S02",
+        "S03",
+        "S12",
+        "S14"
+      ],
+      "historical": [
+        "C03-A01"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K24",
+      "pipeline": "A07.P5",
+      "title": "Storno încasare și realocare",
+      "fixture": "F05",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile gestionar → contabil → trezorerie, seed fixture cu identificatori unici.",
+      "steps": [
+        "Simulează o plată returnată de bancă după închidere și verifică documentul corectiv.",
+        "Reluarea evenimentului și dată într-o perioadă închisă.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Legătură la plata inițială, sold redeschis corect, documente și postări echilibrate per schemă.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Storno încasare și realocare», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Legătură la plata inițială, sold redeschis corect, documente și postări echilibrate per schemă.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P5. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Reluarea evenimentului și dată într-o perioadă închisă.",
+      "anchors": [
+        "S01",
+        "S02",
+        "S03",
+        "S12",
+        "S14"
+      ],
+      "historical": [
+        "C03-A01"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K25",
+      "pipeline": "A07.P6",
+      "title": "Lanț operator dintr-o singură comandă",
+      "fixture": "F06",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile contabil, supervizor, comisionar, auditor, seed fixture cu identificatori unici.",
+      "steps": [
+        "Cu rol contabil deschide prin navigare toate documentele pereche și compară sumele cu registrul.",
+        "Comisionarul accesează documente financiare ale altui canal sau trimite direct o comandă de administrare.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Nu există link fără drept, țintă fără ID sau sumă diferită. Fiecare stare permite identificarea responsabilului și acțiunii următoare.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Lanț operator dintr-o singură comandă», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Nu există link fără drept, țintă fără ID sau sumă diferită. Fiecare stare permite identificarea responsabilului și acțiunii următoare.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P6. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Comisionarul accesează documente financiare ale altui canal sau trimite direct o comandă de administrare.",
+      "anchors": [
+        "S05",
+        "S06",
+        "S11",
+        "S13",
+        "S14"
+      ],
+      "historical": [
+        "C10-EXT-01"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K26",
+      "pipeline": "A07.P6",
+      "title": "Eșec la granița tranzacțională",
+      "fixture": "F06",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile contabil, supervizor, comisionar, auditor, seed fixture cu identificatori unici.",
+      "steps": [
+        "Oprește fixture-ul între salvarea documentului și confirmarea evenimentului pentru o factură și o alocare.",
+        "Doi consumatori citesc simultan, confirmare întârziată și identificator refolosit pentru alt payload.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Reprocesarea folosește ID-ul persistent și produce o singură factură/platǎ/alocare. Operațiile incomplete apar într-o coadă justificată.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Eșec la granița tranzacțională», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Reprocesarea folosește ID-ul persistent și produce o singură factură/platǎ/alocare. Operațiile incomplete apar într-o coadă justificată.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P6. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Doi consumatori citesc simultan, confirmare întârziată și identificator refolosit pentru alt payload.",
+      "anchors": [
+        "S05",
+        "S06",
+        "S11",
+        "S13",
+        "S14"
+      ],
+      "historical": [
+        "C10-EXT-01"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    },
+    {
+      "id": "A07.K27",
+      "pipeline": "A07.P6",
+      "title": "Jurnal și dovezi confidențiale",
+      "fixture": "F06",
+      "prerequisites": "Gate A11, SHA/profil instalat identificate, date izolate și rolurile contabil, supervizor, comisionar, auditor, seed fixture cu identificatori unici.",
+      "steps": [
+        "Exportă ecran și traseu de stare pentru auditor cu rol limitat.",
+        "Introdu număr AWB/IBAN al altei firme în căutarea directă și în URL.",
+        "Reîncarcă ecranul în altă sesiune autorizată și citește documentele legate înainte/după; înregistrează rezultatul fiecărui pas."
+      ],
+      "expected": "Sunt vizibile numai ID-urile permise și momentele etapelor; se maschează conturile/adresele și se păstrează corelarea.",
+      "frontend_ux": "Înregistrează ecranul și acțiunea corespunzătoare «Jurnal și dovezi confidențiale», rolul, starea, motivul eventualei blocări și drumul de recuperare. Reîmprospătează și compară cifra/ID-ul cu backendul.",
+      "backend": "Localizează procesul PO/clasa/WS efectiv folosită pentru această tranziție. Capturează contextul și numărul efectelor, inclusiv cazul negativ; compară cu regula «Sunt vizibile numai ID-urile permise și momentele etapelor; se maschează conturile/adresele și se păstrează corelarea.»",
+      "db_proof": "SELECT înainte și după, filtrat explicit pe AD_Client_ID, organizație și ID-urile fixture, în tabelele candidate ale A07.P6. Conservă numărul documentelor, status, cantități, solduri și ID-urile liniilor. Dacă modelul instalat diferă, identifică și citează tabelul/coloana folosită.",
+      "negative": "Introdu număr AWB/IBAN al altei firme în căutarea directă și în URL.",
+      "anchors": [
+        "S05",
+        "S06",
+        "S11",
+        "S13",
+        "S14"
+      ],
+      "historical": [
+        "C10-EXT-01"
+      ],
+      "state": "NEEXECUTAT",
+      "observed": null,
+      "evidence": [],
+      "finding": null,
+      "review": null
+    }
+  ],
+  "self_check": {
+    "controls": 27,
+    "pipelines": 6,
+    "evidence_executed": 0,
+    "scores_granted": 0,
+    "task_inventory": "Ancore pentru taskurile P01 cu denumire relevantă. A12 validează toți titularii și subtaskurile registrului. Un task agregat/anulat nu primește verdict funcțional din starea de registru.",
+    "scope_exception": "Nu se poate acorda conformitate pentru curieri reali ori flux fiscal din fixturi. Poate fi verificat contractul adaptorului pe stub și circuitul intern nativ pe mediul exact documentat."
+  },
+  "task_links": [
+    {
+      "canonical": "P01.C04.T0001",
+      "technical": "T167",
+      "parent": null,
+      "state": "pauză",
+      "title": "P01.T167 — P01.C04.T0001 · Trezorerie: citirea automată a extraselor de cont prin open banking Smart Fintech"
+    },
+    {
+      "canonical": "P01.C04.T0001.01",
+      "technical": "T167.01",
+      "parent": "T167",
+      "state": "pauză",
+      "title": "P01.T167.01 — P01.C04.T0001.01 · Trezorerie: specificația de reluare a citirii extraselor prin open banking"
+    },
+    {
+      "canonical": "P01.C04.T0001.02",
+      "technical": "T167.02",
+      "parent": "T167",
+      "state": "pauză",
+      "title": "P01.T167.02 — P01.C04.T0001.02 · Trezorerie: îmbinarea serverului de citire a extraselor bancare în versiunea comună"
+    },
+    {
+      "canonical": "P01.C04.T0001.03",
+      "technical": "T167.03",
+      "parent": "T167",
+      "state": "pauză",
+      "title": "P01.T167.03 — P01.C04.T0001.03 · Trezorerie: ecranul de autorizare a băncii și de citire a extraselor"
+    },
+    {
+      "canonical": "P01.C04.T0002",
+      "technical": "T168",
+      "parent": null,
+      "state": "montat",
+      "title": "P01.T168 — P01.C04.T0002 · Trezorerie: stingerea creanțelor din încasările comenzilor online — rambursuri și Stripe"
+    },
+    {
+      "canonical": "P01.C04.T0002.01",
+      "technical": "T168.01",
+      "parent": "T168",
+      "state": "montat",
+      "title": "P01.T168.01 — P01.C04.T0002.01 · Trezorerie: stingerea facturilor din rambursurile încasate de curier"
+    },
+    {
+      "canonical": "P01.C04.T0002.02",
+      "technical": "T168.02",
+      "parent": "T168",
+      "state": "montat",
+      "title": "P01.T168.02 — P01.C04.T0002.02 · Trezorerie: stingerea viramentelor Stripe pe extras și înregistrarea comisionului"
+    },
+    {
+      "canonical": "P01.C04.T0005",
+      "technical": "T171",
+      "parent": null,
+      "state": "montat",
+      "title": "P01.T171 — P01.C04.T0005 · Trezorerie: compararea extraselor bancare din EvA cu banca din SAGA pe anul 2026"
+    },
+    {
+      "canonical": "P01.C10.T0007",
+      "technical": "T216",
+      "parent": null,
+      "state": "montat",
+      "title": "P01.T216 — P01.C10.T0007 · Vânzări: preluarea comenzilor de pe site, facturarea și potrivirea încasărilor"
+    },
+    {
+      "canonical": "P01.C10.T0007.01",
+      "technical": "T216.01",
+      "parent": "T216",
+      "state": "agregat",
+      "title": "P01.T216.01 — P01.C10.T0007.01 · Vânzări: întocmirea fișei pe canal — prețuri și cantități proprii pentru fiecare site"
+    },
+    {
+      "canonical": "P01.C10.T0007.02",
+      "technical": "T216.02",
+      "parent": "T216",
+      "state": "agregat",
+      "title": "P01.T216.02 — P01.C10.T0007.02 · Vânzări: transmiterea pe site a numărului facturii și a documentelor comenzii"
+    },
+    {
+      "canonical": "P01.C10.T0008",
+      "technical": "T217",
+      "parent": null,
+      "state": "montat",
+      "title": "P01.T217 — P01.C10.T0008 · Vânzări: deschiderea directă a vederilor de livrări, deconturi și încasări"
+    },
+    {
+      "canonical": "P01.C10.T0011",
+      "technical": "T220",
+      "parent": null,
+      "state": "montat",
+      "title": "P01.T220 — P01.C10.T0011 · Vânzări: corelarea comenzii cu factura, livrarea, decontul curierului și încasarea"
+    },
+    {
+      "canonical": "P01.C10.T0013",
+      "technical": "T222",
+      "parent": null,
+      "state": "montat",
+      "title": "P01.T222 — P01.C10.T0013 · Vânzări: adăugarea ecranelor de conectări externe și reconciliere în bara programului"
+    },
+    {
+      "canonical": "P01.C10.T0016",
+      "technical": "T315",
+      "parent": null,
+      "state": "audit",
+      "title": "P01.T315 — P01.C10.T0016 · Retururi pe documente native: autorizație, recepție, notă de credit"
+    },
+    {
+      "canonical": "P01.C10.T0020",
+      "technical": "T319",
+      "parent": null,
+      "state": "implementare",
+      "title": "P01.T319 — P01.C10.T0020 · Legătura cu Trendyol: comenzi, colete, produse, decont"
+    },
+    {
+      "canonical": "P01.C10.T0024",
+      "technical": "T342",
+      "parent": null,
+      "state": "plan",
+      "title": "P01.T342 — P01.C10.T0024 · Curierii în program: AWB pentru Sameday și FAN Courier"
+    }
+  ],
+  "capture_sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf",
+  "source_manifest_sha256": "92913cb2d26fc933e17b8946651f0750518c868a6f73ebdf3cd7f96b39ac8b8a"
+}

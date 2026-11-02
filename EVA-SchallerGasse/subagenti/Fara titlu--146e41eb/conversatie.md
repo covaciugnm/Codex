@@ -2,7 +2,7 @@
 
 ID: `01a139c8-7903-7da3-9a9b-766b146e41eb`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-18T14:02:52.615363+00:00
+Export UTC: 2026-11-02T15:26:35.221418+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -33,3 +33,29 @@ Corecția este finalizată și aprobată de auditor:
 - Versiunile vechi și auditul anterior sunt păstrate în `Istoric`, marcate `DEPASIT`.
 
 Nu mai există editări în curs.
+
+## Asistent
+
+Am citit vizual toate cele **13 pagini**.
+
+**Ce schimbă opțiunile noastre:**
+
+- **PDF p. 12 / tipărită 15:** dacă DONAU reziliază o ramură, putem cere încetarea întregului pachet la aceeași dată. Clauza prevede recuperarea avantajului de durată.
+- **PDF p. 13 / tipărită 16:** DONAU renunță la recuperarea avantajului de durată când vânzarea clădirii împiedică respectarea duratei convenite. Este o apărare importantă privind costul ieșirii, **nu un drept nou de reziliere**.
+- Aceeași pagină: în contradicții între dispozițiile poliței prevalează varianta favorabilă asiguratului.
+- Nu am identificat reziliere anuală generală sau încetare automată pentru schimbarea administratorului, revocarea mandatului ori deces.
+
+**Documentul este incomplet ca înscris de origine:** începe cu „Abschnitt B: Deckungserweiterungen”, pagina tipărită **4 din 16**, și cuprinde paginile 4–16. Paginile 1–3 trebuie căutate în celelalte anexe înainte de a fi cerute.
+
+Memo cu extrase și verificarea fiecărei pagini: `2026.10.29 Raspuns Donau/2026.10.29 Lectura integrala extensii RV.txt`.
+
+## Asistent
+
+**DONAU nu a refuzat eliminarea apei și chiriilor:** Pfeiffer a spus la **2026.07.14** că le-ar putea exclude pentru dispariția riscului, solicitând documente justificative.
+
+- Confirmarea instalatorului este pertinentă pentru apă; nu dovedește lipsa chiriilor.
+- Autorizația și descrierea pot clarifica durata și riscurile șantierului, dar nu am identificat o regulă care să impună toate trei documentele pentru orice renunțare.
+- Putem cere modificarea prin acord chiar dacă riscul există. Un drept legal obligatoriu potrivit §§ 41a/68 necesită însă fapte dovedite; neocuparea temporară nu înseamnă automat risc sau interes zero.
+- Primele actuale apă + chirii însumează **3.169,44 EUR/an**; economia trebuie confirmată prin act adițional.
+
+Nota, extrasele contractuale și sursele RIS actuale sunt salvate în **`2026.10.29 Renuntare componente Donau`**. Am inclus confirmarea DONAU din **2026.10.29** privind plata primită și acoperirea în vigoare.

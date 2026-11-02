@@ -1,4 +1,23 @@
 {
   "local_originals_preserved": true,
-  "masked_files": []
+  "masked_files": [
+    {
+      "path": "Identifică fabrica de nuci/fisiere/291fac62-66a7-4de3-91db-dbe3ebf99949.chunks--2803a96c.json",
+      "masked_values": {
+        "google_api_key": 1
+      }
+    },
+    {
+      "path": "Identifică fabrica de nuci/istoric.json",
+      "masked_values": {
+        "google_api_key": 2
+      }
+    },
+    {
+      "path": "Identifică fabrica de nuci/rezultate.md",
+      "masked_values": {
+        "google_api_key": 2
+      }
+    }
+  ]
 }

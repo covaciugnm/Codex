@@ -1,0 +1,47 @@
+{
+  "search": {
+    "items": [
+      {
+        "id": "005475c6-a8a0-40ac-b6c7-ec2f55953bb2",
+        "account_email": "office@ac-wohnart.at",
+        "subject": "Ihre Nachricht: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052 ID:13273588",
+        "from_name": "Donau Kundenservice",
+        "from_address": "donau@donauversicherung.at",
+        "to": [
+          "office@ac-wohnart.at"
+        ],
+        "received_at": "2026-10-14T16:25:39Z",
+        "snippet": "​\r\n            \r\n\r\nGuten Tag,\r\nschnelles Service ist uns wichtig! Unser Team kümmert sich daher so r",
+        "category": "fyi",
+        "labels": [
+          "1: To respond",
+          "99: Important"
+        ],
+        "folder": "Donau Kundenservice",
+        "is_read": true,
+        "is_starred": false,
+        "is_sent": false,
+        "has_attachments": true,
+        "attachment_names": [
+          "emb_img_1788331051020_DONAU_Serviceline_Header_2025_herbst.jpg",
+          "emb_img_1762416716038_icons_serviceline_2025_video_chat.jpg",
+          "emb_img_1762416713456_icons_serviceline_2025_live_chat.jpg",
+          "emb_img_1762416710860_icons_serviceline_2025_email.jpg",
+          "emb_img_1762416707230_icons_serviceline_2025_telefon.jpg"
+        ]
+      }
+    ],
+    "total": 1,
+    "limit": 50,
+    "offset": 0
+  },
+  "office": {
+    "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "email": "office@ac-wohnart.at",
+    "provider": "imap",
+    "permission": "owner",
+    "searchable": true,
+    "is_active": true,
+    "last_sync": "2026-10-19T20:30:13.085096Z"
+  }
+}

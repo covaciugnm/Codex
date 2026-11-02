@@ -8,16 +8,16 @@
   "title": "IP address Spamhaus blocklist issue",
   "project_id": "5c179290-3222-4036-8042-710f2e84db88",
   "project": "Comun",
-  "assignment_method": "workspace_path",
+  "assignment_method": "app_assignment",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-18T07:57:49.755838+00:00",
-  "source_bytes": 420495,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 58406,
   "invalid_json_lines": 0,
   "history_source": "items",
   "rollout_exists": true,
   "item_count": 138,
   "message_count": 138,
   "content_sha256": "5809c445c1436d39b85bc982a9733e9f2207c4512d7eb91fe111bd3fc33c3738",
-  "files_copied": 4,
-  "references_not_copied": 4
+  "files_copied": 1,
+  "references_not_copied": 7
 }

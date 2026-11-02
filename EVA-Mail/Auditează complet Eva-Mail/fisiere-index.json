@@ -1,0 +1,94 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/eMail/re-audit-2026-11-01/plan-agent-1.md",
+    "status": "copiat",
+    "saved_path": "fisiere/plan-agent-1--fb78da06.md",
+    "bytes": 26807,
+    "sha256": "9e915b874ac4c8e83677ddcc239b4f5caabde649282c78238c7c95b1538160bb"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/eMail/re-audit-2026-11-01/review-agent-2-batch-01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/review-agent-2-batch-01--326e43f9.md",
+    "bytes": 3440,
+    "sha256": "57332713c6a0f1fbbd5b4e774d6622376f0ae6b0edea5ec004b2ff6d2270d11e"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/eMail/re-audit-2026-11-01/review-agent-2-plan-v1.2.md",
+    "status": "copiat",
+    "saved_path": "fisiere/review-agent-2-plan-v1.2--7d099d92.md",
+    "bytes": 3240,
+    "sha256": "cf663c77341030157b9cd237bbc25ea28ace2fc7b4fd681b3f9bf8beafa21d7b"
+  },
+  {
+    "source_reference": "/Z:/00.Roboti/EVA.Pro/eMail/audit-2026-10-30/Raport-audit-EVA-2026-10-30.html",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/eMail/audit-2026-10-30/UI-20h-addendum.html",
+    "status": "copiat",
+    "saved_path": "fisiere/UI-20h-addendum--19d99bed.html",
+    "bytes": 4554,
+    "sha256": "cae01fb5f7b839e8118c93cc94868848acffc45edba743eac29738a95b6ee9ee"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\eMail\\audit-2026-10-30\\build_report.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_report--af52579c.py",
+    "bytes": 33076,
+    "sha256": "affc63d77acbfd7a9d41cad94b7fc411c619fafbd67724137c0b4957d92f76ed"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\eMail\\audit-2026-10-30\\extended_checks.py",
+    "status": "copiat",
+    "saved_path": "fisiere/extended_checks--622bb6b4.py",
+    "bytes": 1299,
+    "sha256": "2f54ec51c0edcb1b7c55f00bc8a1ce87dcd068382a29ac69d199c3112430cbc1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\eMail\\audit-2026-10-30\\probe_http.py",
+    "status": "copiat",
+    "saved_path": "fisiere/probe_http--18c10d72.py",
+    "bytes": 2081,
+    "sha256": "1e8605a210dbbe1a766a0fd55692aaa760643a5b988f24f4f2e2f093970d0794"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\eMail\\audit-2026-10-30\\reproduce_security.py",
+    "status": "copiat",
+    "saved_path": "fisiere/reproduce_security--0051525d.py",
+    "bytes": 2693,
+    "sha256": "bafd931f18716084b3ee9fe56a535eef1697590659342278e17e320114371ec3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\eMail\\audit-2026-10-30\\ssh_audit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ssh_audit--180640ba.py",
+    "bytes": 2024,
+    "sha256": "de3362dfaa393db2c49d6be9d1a08b8b37d8113e0d12790362974c4403652421"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail\\audit-2026-10-30\\UI-20h-addendum.html",
+    "status": "copiat",
+    "saved_path": "fisiere/UI-20h-addendum--19d99bed.html",
+    "bytes": 4554,
+    "sha256": "cae01fb5f7b839e8118c93cc94868848acffc45edba743eac29738a95b6ee9ee"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail\\re-audit-2026-11-01\\gate-coordonator.json",
+    "status": "copiat",
+    "saved_path": "fisiere/gate-coordonator--43e1f665.json",
+    "bytes": 792,
+    "sha256": "e467fce1ed3a47c5e0cb3fb74eea0a18b7a308a5635b22d3cda89bc524b4b58e"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail\\re-audit-2026-11-01\\preflight-coordonator.json",
+    "status": "copiat",
+    "saved_path": "fisiere/preflight-coordonator--c8bd9896.json",
+    "bytes": 982,
+    "sha256": "fff0a93af3195f4138bc5ee969af517da19fd77d3e398383b275818ef6e1cb7e"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Mail",
+    "status": "referinta_externa_necopiata"
+  }
+]

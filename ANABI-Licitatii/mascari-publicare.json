@@ -1,4 +1,29 @@
 {
   "local_originals_preserved": true,
-  "masked_files": []
+  "masked_files": [
+    {
+      "path": "Compară ofertele auto ANABI/istoric.json",
+      "masked_values": {
+        "google_api_key": 8
+      }
+    },
+    {
+      "path": "Compară ofertele auto ANABI/rezultate.md",
+      "masked_values": {
+        "google_api_key": 8
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ff113266/istoric.json",
+      "masked_values": {
+        "google_api_key": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--ff113266/rezultate.md",
+      "masked_values": {
+        "google_api_key": 1
+      }
+    }
+  ]
 }

@@ -1,0 +1,23 @@
+{
+  "id": "01a191a9-f91f-76e2-85cf-df92d057b378",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Firme",
+  "created_at": 1793445198,
+  "updated_at": 1793531976,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Organizează documentele firmelor",
+  "project_id": "46811615-9aa9-441d-8184-080417183a10",
+  "project": "Firme",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 7069423,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 194,
+  "message_count": 44,
+  "content_sha256": "b5857d96da39e8a8a9aa1888cbf5bafd4c6e5bba7cbf5eec306564af2b1aec3e",
+  "files_copied": 19,
+  "references_not_copied": 3
+}

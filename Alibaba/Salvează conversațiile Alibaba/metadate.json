@@ -1,0 +1,23 @@
+{
+  "id": "01a167f3-eac4-7493-acb9-842b2b14e4c4",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1792745401,
+  "updated_at": 1793315734,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Salvează conversațiile Alibaba",
+  "project_id": "2daf6940-5c6c-4dd4-9a8b-29112447ad28",
+  "project": "Alibaba",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 34344372,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 356,
+  "message_count": 71,
+  "content_sha256": "53d18e11772aee1d2b528c9f4688776d3a07192b89686d9a88cd9f5b0279ebf8",
+  "files_copied": 27,
+  "references_not_copied": 7
+}

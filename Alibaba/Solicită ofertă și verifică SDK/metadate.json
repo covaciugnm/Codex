@@ -1,0 +1,23 @@
+{
+  "id": "01a18cc2-0674-7002-a40c-ac35b39c560a",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1793362888,
+  "updated_at": 1793363127,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Solicită ofertă și verifică SDK",
+  "project_id": "2daf6940-5c6c-4dd4-9a8b-29112447ad28",
+  "project": "Alibaba",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 466520,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 17,
+  "message_count": 3,
+  "content_sha256": "ea085bd5aa35672b97a49d294b1f726422c7fbc9928a0670fb6c446cfb9f0d07",
+  "files_copied": 0,
+  "references_not_copied": 5
+}

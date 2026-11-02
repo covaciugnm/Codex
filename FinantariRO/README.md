@@ -1,6 +1,6 @@
 # FinantariRO
 
-Conversații: 4; subagenți: 14; mesaje: 138; fișiere copiate: 93.
+Conversații: 5; subagenți: 15; mesaje: 190; fișiere copiate: 207.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -22,3 +22,5 @@ Conversații: 4; subagenți: 14; mesaje: 138; fișiere copiate: 93.
 | [Fara titlu](subagenti/Fara%20titlu--455c56db/conversatie.md) | Subagent | 3 |
 | [Fara titlu](subagenti/Fara%20titlu--dc833d16/conversatie.md) | Subagent | 1 |
 | [Fara titlu](subagenti/Fara%20titlu--ac21f4bb/conversatie.md) | Subagent | 1 |
+| [Identifică anunțurile Primăriei Sebeș](Identific%C4%83%20anun%C8%9Burile%20Prim%C4%83riei%20Sebe%C8%99/conversatie.md) | Conversație | 46 |
+| [Fara titlu](subagenti/Fara%20titlu--60d8d585/conversatie.md) | Subagent | 6 |

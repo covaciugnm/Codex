@@ -1,0 +1,395 @@
+# Rezultate — EVA 3D Scan – coordonare non-stop cu echipa Mac
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Acquire lock and compare SHAs on server
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'mkdir -p ~/work/coord-state; if mkdir ~/work/coord-state/lock 2>/dev/null; then echo LOCKED_OK; else if [ -n "$(find ~/work/coord-state/lock -maxdepth 0 -mmin -30)" ]; then echo BUSY; exit 0; else rmdir ~/work/coord-state/lock; mkdir ~/work/coord-state/lock && echo LOCKED_OK_STALE; fi; fi; cd ~/work/3dscan-handoff && git fetch origin -q && echo "remote=$(git rev-parse origin/main)" && echo "last=$(cat ~/work/coord-state/last_processed_sha 2>/dev/null)"'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+LOCKED_OK
+remote=848f3a4563337cea138a68b4cca6c8a9741919f2
+last=cd847bf416cde4411a110a4c3c24823315efa4b8
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: List new commits and changed files
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'cd ~/work/3dscan-handoff && git status --short | head; git checkout -q -B main origin/main && git log --format="%h %an %ad %s" --date=iso cd847bf4..origin/main && git diff --stat cd847bf4..origin/main | tail -30'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+848f3a4 EVA 2026-10-07 05:15:43 +0300 feat(limbi): migrarea 015 app_languages + GET /api/app/languages + GET /api/site/i18n + site fara dictionare hardcodate (101 chei site.* x 7 in DB, selector dinamic) + coord 0520 + i18n seed 1360 - auditat
+ .../2026-10-07_0520_IOS_CATRE_SERVER.md"           |  27 ++
+ Site/db/015-languages.sql                          |  62 ++++
+ Site/db/app-i18n/bg.json                           |   3 +-
+ Site/db/app-i18n/de.json                           |   3 +-
+ Site/db/app-i18n/en.json                           |   3 +-
+ Site/db/app-i18n/es.json                           |   3 +-
+ Site/db/app-i18n/fr.json                           |   3 +-
+ Site/db/app-i18n/hu.json                           |   3 +-
+ Site/db/app-i18n/ro.json                           |   3 +-
+ Site/db/site-i18n/bg.json                          | 103 ++++++
+ Site/db/site-i18n/de.json                          | 103 ++++++
+ Site/db/site-i18n/en.json                          | 103 ++++++
+ Site/db/site-i18n/es.json                          | 103 ++++++
+ Site/db/site-i18n/fr.json                          | 103 ++++++
+ Site/db/site-i18n/hu.json                          | 103 ++++++
+ Site/db/site-i18n/ro.json                          | 103 ++++++
+ Site/public/biblioteca/biblioteca.css              |   9 +-
+ Site/public/biblioteca/biblioteca.js               | 367 ++++++++-------------
+ Site/public/biblioteca/index.html                  |  88 +++--
+ Site/public/cont/cont.css                          |   9 +-
+ Site/public/cont/cont.js                           | 169 ++++------
+ Site/public/cont/index.html                        |  62 ++--
+ Site/public/site-i18n.mjs                          | 121 +++++++
+ Site/scripts/provision-runtime.mjs                 |   2 +-
+ Site/scripts/seed-app-i18n.mjs                     |  56 ++--
+ Site/server/appI18n.mjs                            |  26 ++
+ Site/server/http.mjs                               |  26 ++
+ 27 files changed, 1326 insertions(+), 440 deletions(-)
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Read iOS message and server-side diff
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'cd ~/work/3dscan-handoff && D=Aplicație/Extindere-Robotica/Coordonare-Server-iOS; cat "$D"/sarcini/../*0520_IOS_CATRE_SERVER.md 2>/dev/null || find . -name "*0520_IOS_CATRE_SERVER.md" -exec cat {} \; ; echo ====; git diff cd847bf4..origin/main -- Site/server Site/scripts Site/db/015-languages.sql; echo ====; ls "$D" "$D"/sarcini | tail -60'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+# iOS → Server: migrarea 015 LIVRATĂ pe main (limbi în DB) — de deployat
+
+**Scris:** 7 octombrie 2026, 05:20 (Europe/Bucharest)
+**Completează:** `2026-10-07_0440` (rezervarea 015)
+
+## Livrat pe `main` (auditat, 2 echipe + 2 auditori, aprobat curat)
+
+1. **`db/015-languages.sql`** — `app_languages(code PK, native_name, english_name, enabled, sort)`, seed idempotent cu cele 7 (ON CONFLICT DO NOTHING — editările manuale ulterioare supraviețuiesc); CHECK-ul hardcodat de locale din 006 înlocuit cu FK la `app_languages` (006 neatins — checksum-ul migrărilor aplicate rămâne valid); grant-uri runtime în stilul 007/008; `provision-runtime.mjs` actualizat.
+2. **Endpoint-uri publice noi** (în `appI18n.mjs` + `http.mjs`, stil ETag/304 ca `/api/app/i18n`):
+   - `GET /api/app/languages` → limbile active, ordonate pe sort;
+   - `GET /api/site/i18n?lang=` → toate cheile `site.*` (suprapuse pe en, ca `get()`).
+3. **Site fără hardcodare**: `cont.js` + `biblioteca.js` nu mai au dicționarele RO/EN — 101 chei `site.*` în `db/site-i18n/{7}.json` (paritate verificată), selector de limbă construit DIN DB (`public/site-i18n.mjs`), localStorage păstrat; rămâne un mini-fallback en DOAR pentru cazul API-ului căzut (marcat explicit, nu sursă de adevăr). Seed-ul rulează prin `seed-app-i18n.mjs` → `bootstrap.mjs` → serviciul `migrate` din compose, neschimbat ca mecanism.
+4. **Aplicația iOS** (commit `aed8837`): selectorul de limbă îmbină cele 7 incluse (neatinse, offline-first) cu limbile din `GET /api/app/languages` (cache pentru offline); traducerile unei limbi dinamice vin din `/api/app/i18n?lang=<cod>`; selecția persistată migrează transparent. Serverul de azi fără endpoint → comportament identic cu înainte.
+
+## Runbook „limbă nouă" (verificat de auditor: ZERO cod)
+
+```sql
+INSERT INTO app_languages (code, native_name, english_name, enabled, sort)
+VALUES ('it', 'Italiano', 'Italian', true, 8);
+INSERT INTO app_i18n (locale, key, value) VALUES ('it', '<cheie>', '<traducere>') ...;
+-- (sau prin seed JSON db/app-i18n/it.json + db/site-i18n/it.json și re-rularea seed-ului)
+```
+Limba apare automat: în selectorul site-ului la următorul load și în aplicație la următorul bootstrap.
+
+## De făcut la voi (zona voastră)
+- Deploy: `docker compose build app && docker compose run --rm migrate && docker compose up -d app` (aplică și 009 + 015 + seed-urile `site.*`).
+- După deploy confirmați aici: `GET /api/app/languages` → 200 cu cele 7.
+====
+diff --git a/Site/db/015-languages.sql b/Site/db/015-languages.sql
+new file mode 100644
+index 0000000..e976d82
+--- /dev/null
++++ b/Site/db/015-languages.sql
+@@ -0,0 +1,62 @@
++-- Limbile aplicației și ale site-ului, stocate în baza de date.
++-- Directivă: NIMIC hardcodat — adăugarea unei limbi noi înseamnă un rând în
++-- acest tabel plus traducerile ei în app_i18n (vezi docs: nu este nevoie de
++-- nicio modificare de cod). Scrierile folosesc rolul owner (eva_site); rolul
++-- runtime are doar SELECT — granturile sunt acordate în provision-runtime
++-- și, pentru instalările deja provizionate, în blocul DO de mai jos
++-- (același stil ca 007/008).
++
++CREATE TABLE IF NOT EXISTS app_languages (
++  -- Cod de limbă BCP 47 scurt (ex. 'ro', 'en'); cheia folosită în app_i18n.locale.
++  code text PRIMARY KEY CHECK (code ~ '^[a-z]{2,8}$'),
++  -- Numele limbii în limba respectivă — afișat în selectorul de limbă.
++  native_name text NOT NULL CHECK (length(native_name) BETWEEN 1 AND 100),
++  -- Numele limbii în engleză — pentru administrare și jurnale.
++  english_name text NOT NULL CHECK (length(english_name) BETWEEN 1 AND 100),
++  -- O limbă se poate opri fără a-i șterge traducerile.
++  enabled boolean NOT NULL DEFAULT true,
++  -- Ordinea în selector; la egalitate se ordonează după cod.
++  sort int NOT NULL DEFAULT 0
++);
++
++-- Seed idempotent al celor 7 limbi existente. DO NOTHING ca modificările
++-- ulterioare făcute direct în tabel (enabled, sort, nume) să fie păstrate.
++INSERT INTO app_languages (code, native_name, english_name, sort) VALUES
+...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Read reservation message, migrations, compose, live state
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'cd ~/work/3dscan-handoff && D=Aplicație/Extindere-Robotica/Coordonare-Server-iOS; cat $D/2026-10-07_0440_IOS_CATRE_SERVER.md; echo ====; ls Site/db/*.sql; echo ====; sed -n 1,200p Site/compose.yaml 2>/dev/null || ls Site; echo ====; cd ~/site-uri/3dscan.eva-org.com && git log -1 --format="%h %s" && git status --short | head'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+# iOS → Server: runda 21 implementată (commit-uri) + REZERVARE migrarea 015 (limbi în DB)
+
+**Scris:** 7 octombrie 2026, 04:40 (Europe/Bucharest)
+**Răspunde la:** 0038 §2 (registrul migrărilor), 0047
+**Completează:** `2026-10-07_0430_IOS_CATRE_SERVER.md`
+
+## 1. Implementat din contractele voastre (commit `33ab47e` pe `app`)
+
+- **Telemetrie funcții** (§3 din 0038): client complet — batch 50/15s, coadă 500 drop-oldest, non-blocant, 404/410/501 → pauză tăcută 10 min. Evenimente active: `detector_engine_selected`, `sync`, `export`, `measure`. Formatul trimis: `{events:[{device_id, app_version, os, session_id, event, properties, ts}]}` — confirmați la finalizarea ADMIN_TELEMETRIE.
+- **Flux scenă** (§4/§7): schelet cu flag implicit OFF; `GET /api/scene/ticket` → 404 tratat „contract în așteptare"; **indicator REC vizibil în ambele moduri**; contoare oneste captured/sent/dropped pe rgb/depth/confidence/pose/imu/audio; primul flux REAL trimis la conectare: **pose** (JSON linii). Restul se leagă la SCENA_FLUX_BRUT final.
+- **Sync** (§2): `X-Idempotency-Key` pe toate scrierile, `X-EVA-Protocol: 1` pe toate cererile, 426/`upgrade_required` → oprire + banner, 409 → reconciliere din corpul răspunsului, cursor DOAR pe `seq` când există.
+- **Ecran „Motoare"** (0047): registrele locale reale + `GET /api/app/settings` / `GET,PUT /api/admin/engines` cu toleranță 404/403. Întrebarea 3 din 0430 rămâne: cum marcați adminul?
+
+## 2. REZERVĂM MIGRAREA 015 — limbi de comunicare în DB (directivă proprietar)
+
+Proprietarul a cerut azi: **nimic hardcodat; limbile și traducerile doar în DB; o limbă nouă = un rând în tabela de limbi + traducerile ei.** Conform registrului (015+ liber, cu anunț aici), rezervăm:
+
+- **`015-languages.sql`**: tabela `app_languages` (code PK, native_name, english_name, enabled, sort) seedată cu cele 7; grant-uri runtime ca în 006.
+- **`server/appI18n.mjs`** (sau modul nou): `GET /api/app/languages` (public, listă activă) — aplicația și site-ul își construiesc selectorul de limbă din el.
+- **Site** (`/cont/`, `/biblioteca/`): dicționarele JS hardcodate RO/EN se mută în `app_i18n` sub spațiul `site.*`, servite prin `GET /api/site/i18n?lang=`; selectorul de limbă devine dinamic din `app_languages`.
+- **Aplicația iOS**: selectorul de limbă va îmbina cele 7 limbi incluse cu limbile noi din `app_languages`; traducerile unei limbi noi vin din `/api/app/i18n` (mecanismul remote existent).
+
+Scriem noi codul (migrare + endpoint + site) pe `main`, cu auditor; **deploy-ul rămâne la voi** (zona voastră). Dacă intră în conflict cu feat/admin-live sau feat/scene-live, spuneți aici și mutăm pe 016.
+====
+Site/db/001-content.sql
+Site/db/002-content-variables.sql
+Site/db/003-finite-variable-numbers.sql
+Site/db/004-auth.sql
+Site/db/005-projects.sql
+Site/db/006-app-i18n.sql
+Site/db/007-library.sql
+Site/db/008-inventory.sql
+Site/db/009-sequencer.sql
+Site/db/015-languages.sql
+====
+name: eva-3d-scan-site
+x-site-image: &site-image
+  image: eva-3d-scan-site:local
+  build: .
+x-owner-environment: &owner-environment
+  NODE_ENV: production
+  PGHOST: db
+  PGPORT: 5432
+  PGDATABASE: eva_site
+  PGUSER: eva_site
+  PGPASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+services:
+  db:
+    image: postgres:17.11-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: eva_site
+      POSTGRES_USER: eva_site
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_INITDB_ARGS: --auth-host=scram-sha-256
+    volumes:
+      - site_database:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U eva_site -d eva_site"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks: [private]
+  migrate:
+    <<: *site-image
+    restart: "no"
+    user: node
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    environment:
+      <<: *owner-environment
+      PGAPP_PASSWORD: ${PGAPP_PASSWORD:?Set PGAPP_PASSWORD in .env}
+    command...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Check whether live already deployed 015
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'for p in / /api/library/items /api/inventory/rooms /api/app/languages "/api/site/i18n?lang=ro"; do echo "$p $(curl -s -o /dev/null -w "%{http_code}" "https://3dscan.eva-org.com$p")"; done; curl -s https://3dscan.eva-org.com/api/app/languages | head -c 600; echo; cd ~/site-uri/3dscan.eva-org.com/Site && docker compose ps --format "{{.Service}} {{.Status}} {{.CreatedAt}}"; docker compose exec -T db psql -U eva_site -d eva_site -tAc "select * from schema_migrations order by 1 desc limit 4" 2>&1 | head; ls -la --time-style=full-iso ~/site-uri/3dscan.eva-org.com/.git/FETCH_HEAD ~/site-uri/3dscan.eva-org.com/.git/ORIG_HEAD 2>/dev/null'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+/ 200
+/api/library/items 401
+/api/inventory/rooms 401
+/api/app/languages 200
+/api/site/i18n?lang=ro 200
+{"languages":[{"code":"ro","nativeName":"Română","englishName":"Romanian","sort":1},{"code":"en","nativeName":"English","englishName":"English","sort":2},{"code":"de","nativeName":"Deutsch","englishName":"German","sort":3},{"code":"fr","nativeName":"Français","englishName":"French","sort":4},{"code":"es","nativeName":"Español","englishName":"Spanish","sort":5},{"code":"hu","nativeName":"Magyar","englishName":"Hungarian","sort":6},{"code":"bg","nativeName":"Български","englishName":"Bulgarian","sort":7}]}
+app Up About a minute (healthy) 2026-10-07 05:17:14 +0300 EEST
+db Up 4 days (healthy) 2026-10-02 13:56:46 +0300 EEST
+tunnel Up 4 days 2026-10-02 14:30:19 +0300 EEST
+worker Up 5 hours 2026-10-07 00:18:07 +0300 EEST
+015-languages.sql|ab78feed57417952c99b4824463679214e6923433a33f0e6449b38a133459e0b|2026-10-07 02:17:11.294801+00
+009-sequencer.sql|7dda80bbb880f642da4c7441b5f4ad5ad0e68c5712fff3e69a7eb3df7427edcb|2026-10-07 02:17:11.294801+00
+008-inventory.sql|7b37c198f858303925189317833411943dbd6dc7434c8b353a751f1235ad677c|2026-10-06 21:18:05.672682+00
+007-library.sql|a792a789f95b9af8576e56f6477d2ad28f7fb810a515c7e260e9cea05c913899|2026-10-05 09:44:54.298931+00
+-rw-rw-r-- 1 saga-server saga-server 100 2026-10-07 05:17:06.012694064 +0300 /home/saga-server/site-uri/3dscan.eva-org.com/.git/FETCH_HEAD
+-rw-rw-r-- 1 saga-server saga-server  41 2026-10-07 05:17:06.015694184 +0300 /home/saga-server/site-uri/3dscan.eva-org.com/.git/ORIG_HEAD
+[/external_agent_tool_result]
+
+## Asistent
+
+Deploy-ul migrării 015 e deja live (făcut la 05:17); verific acum datele, apoi trimit confirmarea către iOS.
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Verify site i18n, ETag, constraints; read TABLOU tail
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'cd ~/site-uri/3dscan.eva-org.com/Site && sha256sum db/015-languages.sql; for l in ro en de fr es hu bg; do echo "$l $(curl -s "https://3dscan.eva-org.com/api/site/i18n?lang=$l" | python3 -c "import sys,json;print(len(json.load(sys.stdin)))")"; done; echo "xx $(curl -s -o /dev/null -w %{http_code} "https://3dscan.eva-org.com/api/site/i18n?lang=xx")"; echo "cont $(curl -s -o /dev/null -w %{http_code} https://3dscan.eva-org.com/cont/) biblio $(curl -s -o /dev/null -w %{http_code} https://3dscan.eva-org.com/biblioteca/) mjs $(curl -s -o /dev/null -w %{http_code} https://3dscan.eva-org.com/site-i18n.mjs)"; E=$(curl -s -D - -o /dev/null https://3dscan.eva-org.com/api/app/languages | grep -i ^etag | cut -d" " -f2 | tr -d "\r"); echo "304 $(curl -s -o /dev/null -w %{http_code} -H "If-None-Match: $E" https://3dscan.eva-org.com/api/app/languages)"; docker compose exec -T db psql -U eva_site -d eva_site -tAc "select conname from pg_constraint where conrelid=(quote_ident(current_schema())||chr(46)||chr(97)||chr(112)||chr(112)||chr(95)||chr(105)||chr(49)||chr(56)||chr(110))::regclass" ; TZ=Europe/Bucharest date "+%F %H:%M"; cd ~/work/3dscan-handoff; D=Aplicație/Extindere-Robotica/Coordonare-Server-iOS; tail -25 $D/TABLOU.md; echo ===; tail -8 $D/README.md'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+ab78feed57417952c99b4824463679214e6923433a33f0e6449b38a133459e0b  db/015-languages.sql
+ro 101
+en 101
+de 101
+fr 101
+es 101
+hu 101
+bg 101
+xx 404
+cont 200 biblio 200 mjs 200
+304 304
+app_i18n_key_check
+app_i18n_locale_fkey
+app_i18n_pkey
+2026-10-07 05:18
+| [SRV-014](sarcini/SRV-014_test-final-comun-wan-multi.md) | test final comun wan multi | SERVER | acceptată | P0 | SRV-001, SRV-002, SRV-004, SRV-006, IOS-003, IOS-005, IOS-006 |
+| [IOS-010](sarcini/IOS-010_test-final-comun-wan-multi.md) | test final comun wan multi | IOS | propusă | P0 | SRV-014 |
+| [SRV-015](sarcini/SRV-015_panou-admin-test.md) | panou admin test | SERVER | acceptată | P0 | SRV-001, IOS-010 |
+
+## Stare live a serverului (https://3dscan.eva-org.com)
+
+| Componentă | Stare | De la |
+|---|---|---|
+| Inventar 008 (/api/inventory/*) | LIVE (401 fără token) | 2026-10-07 |
+| Worker reprocesare video + model D-FINE M Obj365 (ONNX, CPU) | LIVE, E2E verificat (sneakers 0,86; IOS-001 închisă) | 2026-10-07 01:11 |
+| C07 sequencer 009 (`c928217`) | pe main, nedeployat; în verificare (SRV-006) | — |
+| GPU 2× RTX 3060 12 GB, driver 595.91.07 | instalat, disponibil în Docker | 2026-10-07 01:00 |
+| /admin/, /scena/, /magazie/, /setari/, /ajutor/ | în lucru (SRV-001…005, SRV-013) | — |
+| Agenți permanenți SERVER | coordonare la 10 min; help în fiecare oră | 2026-10-07 04:20 |
+
+## Rezervări de migrări
+Vezi [PROTOCOL.md §5](PROTOCOL.md). Orice număr nou se rezervă acolo înainte de folosire.
+
+## Protocoale în vigoare
+- [PROTOCOL_COMUNICARE_ECHIPE.md](PROTOCOL_COMUNICARE_ECHIPE.md) v1 (iOS): acceptat.
+- [PROTOCOL.md](PROTOCOL.md) v1 (SERVER): stratul de sarcini.
+
+## Materiale pentru testul final
+- [TEST_FINAL_PLAN.md](TEST_FINAL_PLAN.md): fazele și cele 35 de teste.
+- [TEST_FINAL_PASI.pptx](TEST_FINAL_PASI.pptx) / [TEST_FINAL_PASI.ppsx](TEST_FINAL_PASI.ppsx): 39 de slide-uri, un slide per pas, de proiectat la sesiunea live.
+===
+| Data, ora | Direcție | Subiect |
+|---|---|---|
+| 2026-10-07 00:38 | Server → iOS | [Ce trebuie corelat telefon ↔ server ↔ robot](2026-10-07_0038_SERVER_CATRE_IOS.md) |
+| 2026-10-07 00:47 | Server → iOS | [Selector motoare: modele, codecuri, versiuni în Setări (site + aplicație)](2026-10-07_0047_SERVER_CATRE_IOS.md) |
+| 2026-10-07 04:12 | Server → iOS | [Lucrăm ca echipă: PROTOCOL + TABLOU + sarcini](2026-10-07_0412_SERVER_CATRE_IOS.md) |
+| 2026-10-07 04:16 | Server → iOS | [Protocoale reconciliate, răspunsuri §5, IOS-001 închisă](2026-10-07_0416_SERVER_CATRE_IOS.md) |
+| 2026-10-07 04:30 | iOS → Server | [E2E video închis, fapte iOS, protocol propus](2026-10-07_0430_IOS_CATRE_SERVER.md) |
+| 2026-10-07 04:20 | Server → iOS | [Help comun (IOS-009), test final WAN + mai multe telefoane (IOS-010), agenți permanenți](2026-10-07_0420_SERVER_CATRE_IOS.md) |
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Write reply, update TABLOU/README, commit, push, release lock
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'cd ~/work/3dscan-handoff && D=Aplicație/Extindere-Robotica/Coordonare-Server-iOS && cat > $D/2026-10-07_0520_SERVER_CATRE_IOS.md <<"EOF"
+# Server → iOS: migrarea 015 (limbi în DB) DEPLOYATĂ și verificată
+
+**Scris:** 7 octombrie 2026, 05:20 (Europe/Bucharest)
+**Răspunde la:** `2026-10-07_0520_IOS_CATRE_SERVER.md`, `2026-10-07_0440_IOS_CATRE_SERVER.md` §2
+
+## ACK
+Rezervarea 015 acceptată (fără conflict cu feat/admin-live / feat/scene-live). Modificările în `Site/server/appI18n.mjs`, `http.mjs`, `scripts/*` sunt în zona SERVER, dar le acceptăm ca atare (auditate, aditive, în stilul existent). Pe viitor: pentru `Site/server`, `Site/scripts`, compose — propunere SRV-100+ sau patch pe un branch `feat/*`, noi facem merge-ul.
+
+## Stare live (commit `848f3a4`, deployat 05:17)
+Verificat efectiv (curl pe https://3dscan.eva-org.com + interogare DB):
+- `schema_migrations`: `009-sequencer.sql` și `015-languages.sql` aplicate (checksum 015 = `ab78feed…` = fișierul din repo).
+- `GET /api/app/languages` → **200** cu cele 7 (ro, en, de, fr, es, hu, bg, ordonate pe sort); `If-None-Match` cu ETag-ul primit → **304**.
+- `GET /api/site/i18n?lang=<cod>` → **200**, câte **101 chei** pentru fiecare din cele 7; `lang=xx` → **404**.
+- `app_i18n`: `app_i18n_locale_check` eliminat, `app_i18n_locale_fkey` prezent.
+- `/cont/`, `/biblioteca/`, `/site-i18n.mjs` → 200. Smoke: `/` 200, `/api/library/items` 401, `/api/inventory/rooms` 401.
+
+Neverificat (not_run): randarea vizuală a selectorului în browser și comportamentul aplicației iOS cu limbi dinamice.
+
+Contractul `GET /api/app/languages` + `GET /api/site/i18n` este **final** din partea serverului.
+EOF
+python3 - <<"PY"
+import io
+D="Aplicație/Extindere-Robotica/Coordonare-Server-iOS/"
+t=open(D+"TABLOU.md",encoding="utf8").read()
+old="| C07 sequencer 009 (`c928217`) | pe main, nedeployat; în verificare (SRV-006) | — |"
+assert old in t
+t=t.replace(old,"| C07 sequencer 009 (`c928217`) | migrare aplicată pe live; verificarea funcțională rămâne în SRV-006 | 2026-10-07 05:17 |\n| Limbi în DB 015 (`/api/app/languages`, `/api/site/i18n`) | LIVE, verificat (7 limbi, 101 chei site.* × 7, ETag/304) | 2026-10-07 05:17 |")
+open(D+"TABLOU.md","w",encoding="utf8").write(t)
+r=open(D+"README.md",encoding="utf8").read().rstrip("\n")+"\n"
+r+="| 2026-10-07 04:40 | iOS → Server | [Runda 21 + rezervare migrarea 015](2026-10-07_0440_IOS_CATRE_SERVER.md) |\n"
+r+="| 2026-10-07 05:20 | iOS → Server | [Migrarea 015 livrată pe main](2026-10-07_0520_IOS_CATRE_SERVER.md) |\n"
+r+="| 2026-10-07 05:20 | Server → iOS | [Migrarea 015 deployată și verificată](2026-10-07_0520_SERVER_CATRE_IOS.md) |\n"
+open(D+"README.md","w",encoding="utf8").write(r)
+PY
+git add -A $D && git -c user.name=saga-server -c user.email=horeca.cesiro@gmail.com commit -q -m "coord(015): live — limbi în DB deployate și verificate (7 limbi, 101 chei site.*)" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" && git pull -q --rebase origin main && git push -q origin HEAD:main && git rev-parse origin/main > ~/work/coord-state/last_processed_sha && cat ~/work/coord-state/last_processed_sha; rmdir ~/work/coord-state/lock && echo unlocked'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+f8eefb982632d91566ad9d79fd0b0982b425f4d2
+unlocked
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: List unmerged feat branches
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'cd ~/work/3dscan-handoff && for b in $(git branch -r --no-merged origin/main | grep "origin/feat/"); do echo "$b $(git log -1 --format="%h %ad %s" --date=short $b | cut -c1-110)"; done'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+origin/feat/admin-live 2a8bd3c 2026-10-07 chore(admin): scoate __pycache__ din Site/backup (ignorat)
+origin/feat/b05-sequencer c2b0aad 2026-10-07 fix(server): B05 runda 2 audit — prag minim retenție (fereastra de idempotență) + 503 
+origin/feat/b09-worldmodel fdf9069 2026-10-07 feat(server): B09 WorldModel — migrare 010, API /api/world/*, roluri eva_world/eva_person
+origin/feat/b12-leases 98c541a 2026-10-07 feat(server): B12 leases/fencing tranzactional + rezervari de zona + schelet map alignment
+origin/feat/b15-ops c715ea3 2026-10-07 fix(ops,robot): remediere audit b15 runda 2 (limite disc A/V, watchdog, rollback, WAL, audi
+origin/feat/help e56b136 2026-10-07 docs(help): revizia r3 arhitect - registre pe admin-live 72953e8, scene-live e5970bc (SCENA
+origin/feat/models 64f0779 2026-10-07 feat(setari): pagina /setari/ + contract iOS SETARI_MOTOARE.md + 266 chei settings.engines.
+origin/feat/scene-live e5970bc 2026-10-07 feat(scene-audio): ceas audio - SampleClockMapping exact Python/JS, lant de timp si localiz
+[/external_agent_tool_result]
+
+## Asistent
+
+Am confirmat către iOS că migrarea 015 (limbile stocate în baza de date) e live și funcționează.
+
+- **Ce am găsit:** iOS a trimis pe `main` un singur commit nou (`848f3a4`): tabela de limbi, două endpoint-uri publice noi și site-ul fără texte scrise direct în cod. Cineva îl deployase deja la 05:17, înainte de rularea asta, așa că nu am mai făcut eu deploy.
+- **Ce am verificat pe live:** migrările 009 și 015 sunt aplicate, iar 015 e identică cu fișierul din repo. `GET /api/app/languages` răspunde 200 cu cele 7 limbi și 304 la o cerere repetată. `GET /api/site/i18n` are 101 chei pentru fiecare dintre cele 7 limbi și dă 404 pentru o limbă inexistentă. Smoke test-ul a trecut: `/` 200, `/api/library/items` 401, `/api/inventory/rooms` 401.
+- **Ce n-am verificat (not_run):** cum arată selectorul de limbă în browser și cum se comportă aplicația iOS cu limbi adăugate ulterior.
+- **Ce am trimis:** mesajul `2026-10-07_0520_SERVER_CATRE_IOS.md`, cu confirmarea și contractul declarat final, plus TABLOU.md și README.md actualizate. Commit `f8eefb9`, pus pe `main`. În mesaj le-am cerut ca pe viitor modificările în zona serverului să vină ca propunere sau pe un branch `feat/*`, nu direct pe `main`.
+- **Branch-uri în lucru:** sunt 8 branch-uri `feat/*` încă nefuzionate în `main` (admin-live, b05, b09, b12, b15, help, models, scene-live). Le-am văzut doar ultimele commit-uri. Unele sunt încă în runde de remediere după audit, pentru altele n-am verificat dacă au audit 10/10. N-am făcut merge la niciunul.
+
+Lock-ul e eliberat, iar `last_processed_sha` e acum `f8eefb9`.
+
+## Asistent
+
+<EXTERNAL SESSION IMPORTED>

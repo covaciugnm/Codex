@@ -1,0 +1,6 @@
+2026.10.13 | QA al versiunii editoriale N01.3
+Documentul de 16 pagini a avut toate paginile N01.2 inspectate individual la rezoluția originală de auditorul separat, cu verificarea fidelității celor 16 puncte, 7 repere și 30 mapări. Nota sa este păstrată.
+N01.3 corectează exclusiv o trimitere N07 la P07 în punctul P02; textul de fond rămâne neschimbat. Word/PDF și JSON N01.2 sunt păstrate în dosarul 2026.10.13 Istoric obiectii negociere N01.2. Corecția și hashurile sunt în 2026.10.13 Istoric corectie editoriala N01.3.json.
+După reexport Word readonly și randare cu render_docx.py, SHA-256 ale imaginilor paginilor 1 și 3–16 sunt IDENTICE cu N01.2. Acoperirea vizuală anterioară se reutilizează pe această probă. Numai pagina 2 diferă și a fost inspectată individual de root la rezoluția originală: PASS, trimiterea P07 este corectă, fără text tăiat, suprapuneri, rânduri sau caractere lipsă. Numerotarea este 2/16.
+Set final imagini: C:/Users/User/.codex/visualizations/2026/10/01/01a0f6eb-c105-7760-973e-241d6f6be8c1/2026.10.13 QA baza negociere/Obiectii N01.3.
+Aceasta este verificarea raportului de negociere; nu acceptare comercială. Contractele R05 sunt nemodificate.

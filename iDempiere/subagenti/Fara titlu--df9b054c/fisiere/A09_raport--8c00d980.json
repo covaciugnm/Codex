@@ -1,0 +1,2727 @@
+{
+  "schema": "eva.audit.executor-report.v2",
+  "agent": "A09",
+  "zone_id": "A09",
+  "phase": "EXECUTIE",
+  "status": "PARTIAL_CU_LIMITARI",
+  "quality_score": null,
+  "reviewer": "A11",
+  "captured_utc": "2026-11-02T15:07:01.800314+00:00",
+  "cutoff_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "plan_manifest": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "zone_plan_sha256": "46ff16ae0213ef2204b0fb476e8bf0f1a6562dc587b01f5111efa66811464dfb",
+  "scope": "Meniu, dicționar instalat, portal, ergonomie și accesibilitate, patru suprafețe mobile, import/print și contracte cu operațiile ERP. Toate cele 29 de verificări au fost examinate; starea reflectă ceea ce s-a putut proba, nu simpla consultare.",
+  "counts": {
+    "controls": 29,
+    "by_status": {
+      "INCONCLUDENT": 17,
+      "FAIL_DOVEDIT": 9,
+      "BLOCAT_ACCES": 3
+    },
+    "pipelines": 7,
+    "chapters": 20,
+    "owner_findings": 5,
+    "evidence": 39
+  },
+  "findings": [
+    {
+      "finding_id": "A09-F01",
+      "title": "Tipurile native Form și Workflow sunt inversate în portal",
+      "severity": "MAJOR",
+      "confidence": "ridicată pentru efectul măsurat; limitele sunt explicite",
+      "classification": "FUNCȚIONAL",
+      "controls": [
+        "A09-C01",
+        "A09-C02",
+        "A09-C03"
+      ],
+      "evidence_ids": [
+        "A09-E-ACTION",
+        "A09-E-META",
+        "A09-E-UI"
+      ],
+      "preconditions": "Pentru fiecare AD_Menu X/F, compară X_AD_Menu.ACTION_Form/ACTION_WorkFlow cu handlerul pe rândul real. Cele 224 forme și 12 workflow au tip opus și object_id greșit; celelalte acțiuni nu sunt implicate. Fișierul handlerului are același hash în container și în Git.",
+      "expected_requirement": "236/236 obiecte trebuie să coincidă ca tip și ID cu AD. Menu 1000364 → form 1000133. Testul trebuie rulat și pe ruta reală cu rol limitat.",
+      "observed_fact": "Pentru fiecare AD_Menu X/F, compară X_AD_Menu.ACTION_Form/ACTION_WorkFlow cu handlerul pe rândul real. Cele 224 forme și 12 workflow au tip opus și object_id greșit; celelalte acțiuni nu sunt implicate. Fișierul handlerului are același hash în container și în Git.",
+      "file_symbol_lines_sha": {
+        "locations": "backend/app/routers/idempiere_meta.py:66,360,362; core X_AD_Menu.java:354,366",
+        "sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+      },
+      "reproduction": "Pentru fiecare AD_Menu X/F, compară X_AD_Menu.ACTION_Form/ACTION_WorkFlow cu handlerul pe rândul real. Cele 224 forme și 12 workflow au tip opus și object_id greșit; celelalte acțiuni nu sunt implicate. Fișierul handlerului are același hash în container și în Git.",
+      "evidence_level": "LOCAL_ISOLATED_TEST",
+      "impact": "Tipurile native Form și Workflow sunt inversate în portal",
+      "native_first_remediation": "Folosește constantele oficial native pentru X/F în arbore, detaliu și căutare. Asociază AD_Form_ID și AD_Workflow_ID cu tipul corect. Teste pentru ambele tipuri, cod necunoscut și o instanță fără permisiune.",
+      "regression": "236/236 obiecte trebuie să coincidă ca tip și ID cu AD. Menu 1000364 → form 1000133. Testul trebuie rulat și pe ruta reală cu rol limitat.",
+      "owner": "A09 cu titularul backend",
+      "A11_decision": null,
+      "status": "CONFIRMAT",
+      "false_positive_history": "A11 va testa contraexemple pe hash fix. Metadatele, efectul în fixture și disponibilitatea în rol sunt delimitate în observație."
+    },
+    {
+      "finding_id": "A09-F02",
+      "title": "Canale distincte primesc etichete identice în tema de meniu",
+      "severity": "MAJOR",
+      "confidence": "ridicată pentru efectul măsurat; limitele sunt explicite",
+      "classification": "FUNCȚIONAL",
+      "controls": [
+        "A09-C03",
+        "A09-C05"
+      ],
+      "evidence_ids": [
+        "A09-E-THEME"
+      ],
+      "preconditions": "replay cu A01 și A02, același nume de magazin: fișe diferite ori comune, inclusiv text diferit doar prin diacritice. Etichetele în pereche rămân identice; codurile și filtrarea clientului sunt distincte. Toate trei cazurile apar pe Git și JAR instalat.",
+      "expected_requirement": "Test pentru alt cabinet, două coduri omonime în aceeași fișă/fișe diferite, comparație la litere și diacritice, selecția serializată identifică același canal.",
+      "observed_fact": "replay cu A01 și A02, același nume de magazin: fișe diferite ori comune, inclusiv text diferit doar prin diacritice. Etichetele în pereche rămân identice; codurile și filtrarea clientului sunt distincte. Toate trei cazurile apar pe Git și JAR instalat.",
+      "file_symbol_lines_sha": {
+        "locations": "EvaSagaMenuDef.java:151,167,177-181",
+        "sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+      },
+      "reproduction": "replay cu A01 și A02, același nume de magazin: fișe diferite ori comune, inclusiv text diferit doar prin diacritice. Etichetele în pereche rămân identice; codurile și filtrarea clientului sunt distincte. Toate trei cazurile apar pe Git și JAR instalat.",
+      "evidence_level": "LOCAL_ISOLATED_TEST",
+      "impact": "Canale distincte primesc etichete identice în tema de meniu",
+      "native_first_remediation": "Păstrează identitatea și regulile existente. După traducere/normalizare, adaugă codul stabil sau un indicator distinct numai când etichetele în același părinte coincid.",
+      "regression": "Test pentru alt cabinet, două coduri omonime în aceeași fișă/fișe diferite, comparație la litere și diacritice, selecția serializată identifică același canal.",
+      "owner": "A09",
+      "A11_decision": null,
+      "status": "CONFIRMAT",
+      "false_positive_history": "A11 va testa contraexemple pe hash fix. Metadatele, efectul în fixture și disponibilitatea în rol sunt delimitate în observație."
+    },
+    {
+      "finding_id": "A09-F03",
+      "title": "La eroare temporară cardul de meniu nu oferă reluare și nu anunță schimbarea",
+      "severity": "MEDIE",
+      "confidence": "ridicată pentru efectul măsurat; limitele sunt explicite",
+      "classification": "UX",
+      "controls": [
+        "A09-C23",
+        "A09-C26"
+      ],
+      "evidence_ids": [
+        "A09-E-UI",
+        "A09-E-UIERR"
+      ],
+      "preconditions": "În profil Chromium proaspăt, fă get-urile metadata să răspundă 503. La 360 px cardul și copiii afișează același mesaj, 0 controale locale pentru reluare și 0 regiuni de anunțare. Navigarea generală sau refresh-ul browserului rămân posibile. Nu s-a testat cititor fizic.",
+      "expected_requirement": "Un singur mesaj anunțabil, reluare tastabilă după 503→200, fără reload total; la 403 nu se afișează detalii și nu se reîncearcă la infinit.",
+      "observed_fact": "În profil Chromium proaspăt, fă get-urile metadata să răspundă 503. La 360 px cardul și copiii afișează același mesaj, 0 controale locale pentru reluare și 0 regiuni de anunțare. Navigarea generală sau refresh-ul browserului rămân posibile. Nu s-a testat cititor fizic.",
+      "file_symbol_lines_sha": {
+        "locations": "frontend/static/eva-module.js:897; frontend/portal/eva_module_menu.html:48",
+        "sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+      },
+      "reproduction": "În profil Chromium proaspăt, fă get-urile metadata să răspundă 503. La 360 px cardul și copiii afișează același mesaj, 0 controale locale pentru reluare și 0 regiuni de anunțare. Navigarea generală sau refresh-ul browserului rămân posibile. Nu s-a testat cititor fizic.",
+      "evidence_level": "LOCAL_ISOLATED_TEST",
+      "impact": "La eroare temporară cardul de meniu nu oferă reluare și nu anunță schimbarea",
+      "native_first_remediation": "În containerul existent afișează starea o singură dată, localizat, cu retry prin aceeași funcție initMenu și focus accesibil. 401/403 și 503 trebuie să aibă acțiuni explicite diferite.",
+      "regression": "Un singur mesaj anunțabil, reluare tastabilă după 503→200, fără reload total; la 403 nu se afișează detalii și nu se reîncearcă la infinit.",
+      "owner": "A09",
+      "A11_decision": null,
+      "status": "CONFIRMAT",
+      "false_positive_history": "A11 va testa contraexemple pe hash fix. Metadatele, efectul în fixture și disponibilitatea în rol sunt delimitate în observație."
+    },
+    {
+      "finding_id": "A09-F04",
+      "title": "Deschiderea formei alese prin portal pierde ținta ERP",
+      "severity": "MEDIE",
+      "confidence": "ridicată pentru efectul măsurat; limitele sunt explicite",
+      "classification": "UX",
+      "controls": [
+        "A09-C03"
+      ],
+      "evidence_ids": [
+        "A09-E-UI",
+        "A09-E-META",
+        "A09-E-ACTION"
+      ],
+      "preconditions": "Pagina /app/module/menu/1000364 oferă linkul Deschide iDempiere WebUI către /webui/ fără ID-ul formei. Href verificat la 360 și 1280. Nu s-a urmărit o sesiune ZK autentificată după click; un redirect special din exterior nu este presupus.",
+      "expected_requirement": "Din ruta cabinetului, utilizatorul autorizat ajunge la WGestiuneWmsForm (ID 1000133) în firma corectă; utilizatorul fără acces este refuzat fără divulgare de date.",
+      "observed_fact": "Pagina /app/module/menu/1000364 oferă linkul Deschide iDempiere WebUI către /webui/ fără ID-ul formei. Href verificat la 360 și 1280. Nu s-a urmărit o sesiune ZK autentificată după click; un redirect special din exterior nu este presupus.",
+      "file_symbol_lines_sha": {
+        "locations": "frontend/static/eva-module.js:40,927-934",
+        "sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+      },
+      "reproduction": "Pagina /app/module/menu/1000364 oferă linkul Deschide iDempiere WebUI către /webui/ fără ID-ul formei. Href verificat la 360 și 1280. Nu s-a urmărit o sesiune ZK autentificată după click; un redirect special din exterior nu este presupus.",
+      "evidence_level": "LOCAL_ISOLATED_TEST",
+      "impact": "Deschiderea formei alese prin portal pierde ținta ERP",
+      "native_first_remediation": "Reutilizează mecanismul de navigare nativ autentificat spre obiect AD, verificat pentru versiunea instalată și pentru rol. Dacă nu există destinație suportată, afișează calea scurtă, numele meniului și rolul necesar.",
+      "regression": "Din ruta cabinetului, utilizatorul autorizat ajunge la WGestiuneWmsForm (ID 1000133) în firma corectă; utilizatorul fără acces este refuzat fără divulgare de date.",
+      "owner": "A09",
+      "A11_decision": null,
+      "status": "CONFIRMAT",
+      "false_positive_history": "A11 va testa contraexemple pe hash fix. Metadatele, efectul în fixture și disponibilitatea în rol sunt delimitate în observație."
+    },
+    {
+      "finding_id": "A09-F05",
+      "title": "Verificarea importului construiește lista completă înainte de afișare",
+      "severity": "MEDIE",
+      "confidence": "ridicată pentru efectul măsurat; limitele sunt explicite",
+      "classification": "SCALABILITATE",
+      "controls": [
+        "A09-C19"
+      ],
+      "evidence_ids": [
+        "A09-E-THEME",
+        "A09-E-T227"
+      ],
+      "preconditions": "Cinci rulări ale comparatorului produc lista completă de 10.001 elemente; trei bucle ale formei adaugă câte un obiect ZK pentru fiecare rând de stoc/partener/balanță. Este o limită arhitecturală pe volum; nu există măsurare a timpului DOM sau o degradare procentuală dovedită.",
+      "expected_requirement": "10.001 rânduri, ultima pagină, filtre, chei duplicate, listă goală, numărătoare și total exact; măsoară p50/p95 și numărul de componente ZK materializate.",
+      "observed_fact": "Cinci rulări ale comparatorului produc lista completă de 10.001 elemente; trei bucle ale formei adaugă câte un obiect ZK pentru fiecare rând de stoc/partener/balanță. Este o limită arhitecturală pe volum; nu există măsurare a timpului DOM sau o degradare procentuală dovedită.",
+      "file_symbol_lines_sha": {
+        "locations": "WSagaVerificareImportForm.java:346,354,357,371; VerificareImportSaga.java:407",
+        "sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+      },
+      "reproduction": "Cinci rulări ale comparatorului produc lista completă de 10.001 elemente; trei bucle ale formei adaugă câte un obiect ZK pentru fiecare rând de stoc/partener/balanță. Este o limită arhitecturală pe volum; nu există măsurare a timpului DOM sau o degradare procentuală dovedită.",
+      "evidence_level": "BUILD_OR_UNIT_TEST + STATIC_SOURCE",
+      "impact": "Verificarea importului construiește lista completă înainte de afișare",
+      "native_first_remediation": "Reutilizează modelul paginat/încărcare la cerere din ZK și cheia stabilă. Stabilește bugetul de răspuns pe date sintetice, separă totalurile de pagina vizibilă și păstrează filtrul/exportul.",
+      "regression": "10.001 rânduri, ultima pagină, filtre, chei duplicate, listă goală, numărătoare și total exact; măsoară p50/p95 și numărul de componente ZK materializate.",
+      "owner": "A09",
+      "A11_decision": null,
+      "status": "CONFIRMAT",
+      "false_positive_history": "A11 va testa contraexemple pe hash fix. Metadatele, efectul în fixture și disponibilitatea în rol sunt delimitate în observație."
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "A09-C01",
+      "title": "Acoperire 20 capitole",
+      "pipeline": "A09-P1",
+      "expected": "20/20 rânduri clasificate; fiecare funcție de utilizator are cale testabilă, capitolele tehnice au titular și dovadă distinctă.",
+      "negative": "Caută în arbore și prin acces direct pentru rol fără drept.",
+      "status": "INCONCLUDENT",
+      "observed": "20 capitole mapate, 18 cu ținte sau suport AD; C15 și C16 reprezintă infrastructură și documentare. Forme și workflow sunt inversate în portal, inclusiv WMS.",
+      "remaining_or_retest": "Exercită în continuare fiecare parcurs cu rolul nominal și compară limbile.",
+      "evidence_ids": [
+        "A09-E-META",
+        "A09-E-MATCH",
+        "A09-E-ACTION"
+      ],
+      "finding_ids": [
+        "A09-F01"
+      ],
+      "task_links": [
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T312",
+          "canonical": "P01.C03.T0008",
+          "state": "audit",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T28",
+          "canonical": null,
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C02",
+      "title": "Meniu real față de inventarul q31",
+      "pipeline": "A09-P1",
+      "expected": "Diferențele au ID, mediu și explicație; fiecare destinație vizibilă se deschide în contextul așteptat.",
+      "negative": "Nume duplicat și formă dezinstalată nu trimit la altă funcție.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "756 ID-uri q31 regăsite în cele 945 active la CESIRO, 189 noi față de listă și unul doar în q31. 125 denumiri distincte de ținte din JAR au corespondent exact în meniul activ. Clasificarea a 236 ținte în portal e eronată.",
+      "remaining_or_retest": "Comparația de nume nu dovedește drept efectiv pentru fiecare rol și limbă; reconciliază pe AUUID per cabinet.",
+      "evidence_ids": [
+        "A09-E-META",
+        "A09-E-MATCH",
+        "A09-E-ACTION",
+        "A09-E-THEME"
+      ],
+      "finding_ids": [
+        "A09-F01"
+      ],
+      "task_links": [
+        {
+          "id": "T28",
+          "canonical": null,
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C03",
+      "title": "Separarea zonelor WMS, Gestiuni, Comenzi, Canale",
+      "pipeline": "A09-P1",
+      "expected": "Fiecare obiectiv are punct de pornire identificabil și destinația corectă; se consemnează clicurile, reveniri, ecrane și acțiuni fără rezultat.",
+      "negative": "Omonimele din două zone nu lansează alt proces cu efect material.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Tema instalată are nouă rădăcini. Gestiuni se găsește în Fișiere; Confirmări de culegere sub Vânzări/Facturare/Corelare; Gestiunea WMS există ca formă nativă. Ruta generică din portal pierde ținta la deschiderea WebUI. Etichetele sursă pot confunda două canale.",
+      "remaining_or_retest": "Testează traseul fiecăruia dintre cei patru operatori în cabinet, pe rol.",
+      "evidence_ids": [
+        "A09-E-MATCH",
+        "A09-E-META",
+        "A09-E-ACTION",
+        "A09-E-UI",
+        "A09-E-THEME"
+      ],
+      "finding_ids": [
+        "A09-F01",
+        "A09-F02",
+        "A09-F04"
+      ],
+      "task_links": [
+        {
+          "id": "T28",
+          "canonical": null,
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T221",
+          "canonical": "P01.C10.T0012",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T338",
+          "canonical": "P01.C03.T0024",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C04",
+      "title": "Dreptul în meniu și în serviciu",
+      "pipeline": "A09-P1",
+      "expected": "0 rânduri, exporturi sau identificatori dezvăluiți fără drept; meniul și refuzul serverului concordă.",
+      "negative": "ID corect în cabinet greșit sau rol expirat.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Formele au granturi diferite. Scenariile A01 au înregistrat modificări permise în alt cabinet/canal pentru un membru autentificat. Efectul e demonstrat la API față de cerința de zero acces inter-cabinet.",
+      "remaining_or_retest": "Repetă intrarea din acest meniu și încercarea prin ID cu rolurile denumite; nu presupune că dicționarul filtrează automat API.",
+      "evidence_ids": [
+        "A09-E-META",
+        "A09-E-ACCESS",
+        "A09-E-A01",
+        "A09-E-AFIND"
+      ],
+      "finding_ids": [
+        "A01.F02",
+        "A01.F03"
+      ],
+      "task_links": [
+        {
+          "id": "T333",
+          "canonical": "P01.C03.T0019",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C05",
+      "title": "Context între două ferestre",
+      "pipeline": "A09-P1",
+      "expected": "Fiecare fereastră arată explicit firma, perioada și gestiunea sa; filtrele nu schimbă alt context.",
+      "negative": "Navigare Back/Forward după schimbarea rolului.",
+      "status": "INCONCLUDENT",
+      "observed": "Testele de variabile și filtrare verifică izolarea contextului de canal; coliziunea de etichete persistă pe două binare.",
+      "remaining_or_retest": "Două sesiuni ZK simultane în firme distincte și revenire Back/Forward neobservate.",
+      "evidence_ids": [
+        "A09-E-A01",
+        "A09-E-JVM",
+        "A09-E-RECHECK"
+      ],
+      "finding_ids": [
+        "A09-F02"
+      ],
+      "task_links": [
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T333",
+          "canonical": "P01.C03.T0019",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C06",
+      "title": "Taburi pentru configurarea G1/G2/G3",
+      "pipeline": "A09-P2",
+      "expected": "Tipul, organizația, titularul și ID-ul persistă; G3 unică în domeniul definit. Toate operațiile după rol.",
+      "negative": "Propune G3 ca gestiune contabilă, locator cross-org sau al doilea G3 activ.",
+      "status": "INCONCLUDENT",
+      "observed": "Gestiuni, Gestiunea WMS și Acces telefoane sunt ținte active. GardenWorld a activat perechi reale; relația dintre o G1 și multiple G2 independente necesită regulă distinctă.",
+      "remaining_or_retest": "Nici dovada relansării după salvare din taburi distincte G1/G2/G3, nici refuzul celei de-a doua G3 nu sunt acoperite.",
+      "evidence_ids": [
+        "A09-E-META",
+        "A09-E-PAIR",
+        "A09-E-RUNFIND"
+      ],
+      "finding_ids": [
+        "A05-F06"
+      ],
+      "task_links": [
+        {
+          "id": "T333",
+          "canonical": "P01.C03.T0019",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T355",
+          "canonical": "P01.C03.T0029",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C07",
+      "title": "Identitate CPP/CPA în câmpurile de căutare",
+      "pipeline": "A09-P2",
+      "expected": "Selectorul distinge două ID-uri permanente, sursă și UOM; aliasul ambiguu cere alegere autorizată, codul inactiv nu se realocă.",
+      "negative": "P1 singur în CPP, respectiv set exclusiv CPA.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Au fost create două ID distincte CPP/CPA; reatribuirea vechiului cod după redenumire și confundarea ID explicit cu SKU sunt reproductibile.",
+      "remaining_or_retest": "Picker-ul și mesajul la alias ambiguu necesită probe UI distincte.",
+      "evidence_ids": [
+        "A09-E-PRODUCT",
+        "A09-E-S06",
+        "A09-E-RUNFIND"
+      ],
+      "finding_ids": [
+        "A05-F08",
+        "A06-F01"
+      ],
+      "task_links": [
+        {
+          "id": "T354",
+          "canonical": "P01.C03.T0028",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T355",
+          "canonical": "P01.C03.T0029",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C08",
+      "title": "Efect unic ambalaj și manoperă",
+      "pipeline": "A09-P2",
+      "expected": "Un singur cost pentru aceeași operație, cutia consumată o singură dată; ecranul distinge operația fizică de documentul contabil.",
+      "negative": "O ambalare fizică ulterioară este operație distinctă; G2 nu dublează stocul contabil.",
+      "status": "INCONCLUDENT",
+      "observed": "Replay al aceleiași dezasamblări după commit a scăzut de două ori stocul fizic. Reconcilierea unui cost suplimentar G1 pentru ambalaj/manoperă NU a fost măsurată aici.",
+      "remaining_or_retest": "Rerulează pe document cu cost cutii și manoperă pe G1; reperul e per operație persistentă.",
+      "evidence_ids": [
+        "A09-E-RETRY",
+        "A09-E-WMS",
+        "A09-E-RUNFIND"
+      ],
+      "finding_ids": [
+        "A05-F01"
+      ],
+      "task_links": [
+        {
+          "id": "T355",
+          "canonical": "P01.C03.T0029",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T339",
+          "canonical": "P01.C03.T0025",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C09",
+      "title": "Stoc virtual, disponibil versus rezervat",
+      "pipeline": "A09-P2",
+      "expected": "După rezervare: 19 S1 sau 38 S2 din aceleași componente; stocul G3 nu are total fizic însumat.",
+      "negative": "Concurență și aceeași rezervare afișată în două G1.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "120 din fiecare componentă → 20/40, inițial; după o alocare S1 → 19/38 în funcția din JAR. Probe A06 identifică deducerea repetată în agregarea multi-G1.",
+      "remaining_or_retest": "Vizualizarea efectivă pe ecran și două sesiuni de rezervare rămân de probat.",
+      "evidence_ids": [
+        "A09-E-G3",
+        "A09-E-S06"
+      ],
+      "finding_ids": [
+        "A06-F07"
+      ],
+      "task_links": [
+        {
+          "id": "T354",
+          "canonical": "P01.C03.T0028",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C10",
+      "title": "Setare dependentă inactivă",
+      "pipeline": "A09-P2",
+      "expected": "Salvarea respinge referința ori o gestionează conform politicii aprobate, prezintă câmpul și soluția; 0 salvări parțiale.",
+      "negative": "Al doilea administrator modifică simultan aceeași regulă.",
+      "status": "INCONCLUDENT",
+      "observed": "Schema și dialogurile de gestiune sunt identificate și există probe pe perechi.",
+      "remaining_or_retest": "Schimbarea simultană a regulii și salvarea unui locator dezactivat printr-un formular deja deschis nu au probă.",
+      "evidence_ids": [
+        "A09-E-META",
+        "A09-E-PAIR",
+        "A09-E-GARD"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T333",
+          "canonical": "P01.C03.T0019",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T355",
+          "canonical": "P01.C03.T0029",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C11",
+      "title": "Comandă ERP și deficit fizic",
+      "pipeline": "A09-P3",
+      "expected": "Pasul de pick devine eligibil doar după dezasamblarea efectivă și atribuirea locatorului; următoarea acțiune are titular explicit.",
+      "negative": "Oprește între operații, redeschide; nu se repetă nota și nu se pierde lipsa.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "În GardenWorld operația de dezambalare a produs mișcări; componentele au intrat în același locator și reluarea poate produce o notă suplimentară.",
+      "remaining_or_retest": "Preluare de un gestionar, alegerea locatorului nou și handoff către pick în aceeași comandă rămân obligatorii.",
+      "evidence_ids": [
+        "A09-E-WMS",
+        "A09-E-RETRY",
+        "A09-E-RUNFIND"
+      ],
+      "finding_ids": [
+        "A05-F07"
+      ],
+      "task_links": [
+        {
+          "id": "T355",
+          "canonical": "P01.C03.T0029",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T338",
+          "canonical": "P01.C03.T0024",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T221",
+          "canonical": "P01.C10.T0012",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C12",
+      "title": "Aprobare aviz, AWB și factură",
+      "pipeline": "A09-P3",
+      "expected": "Stările ERP arată separat CO/validare/expediere/livrare; efecte în ordinea aprobată pentru politica selectată.",
+      "negative": "Retur sau problemă deschisă înaintea facturării la livrare, callback duplicat.",
+      "status": "INCONCLUDENT",
+      "observed": "Există probe independente pe metodele de livrare A07 și pe CO nativ în GardenWorld. Niciuna nu înseamnă livrare confirmată pentru emiterea facturii.",
+      "remaining_or_retest": "Sunt necesare comparații end-to-end pe Aviz→validare→AWB și pe cele două politici, inclusiv retur/callback tardiv.",
+      "evidence_ids": [
+        "A09-E-A07",
+        "A09-E-DOC"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T221",
+          "canonical": "P01.C10.T0012",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C13",
+      "title": "Comisionar și limita de administrare",
+      "pipeline": "A09-P3",
+      "expected": "Catalogul și comanda proprie sunt accesibile; 0 preluări administrative și 0 situații ale altui comisionar.",
+      "negative": "Utilizator cu aceleași nume de canal în alt cabinet.",
+      "status": "INCONCLUDENT",
+      "observed": "Accesul la propriul canal și drepturile la scriere nu sunt echivalente. Cererea PUT pe canal străin și ruta CUI care răspunde 404 au fost reproduse în A01.",
+      "remaining_or_retest": "Verifică apoi rolurile efective și fiecare acțiune ERP interzisă pe site.",
+      "evidence_ids": [
+        "A09-E-A01",
+        "A09-E-AFIND",
+        "A09-E-META"
+      ],
+      "finding_ids": [
+        "A01.F03",
+        "A01.F13"
+      ],
+      "task_links": [
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T221",
+          "canonical": "P01.C10.T0012",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C14",
+      "title": "Android C17 scanare și lot",
+      "pipeline": "A09-P4",
+      "expected": "Qty numărată corespunde operației reale, jurnalul diferențiază scanări intenționate de retry, lotul/locatorul persistă.",
+      "negative": "Scanare de produs/lot greșit și lipsa permisiunii camerei.",
+      "status": "INCONCLUDENT",
+      "observed": "Suita Java TestApiMobilInventar și testele de citire au exercitat contractul. Inventarul ADB de planificare are 0 dispozitive; sursa/apk dedicată a fost identificată.",
+      "remaining_or_retest": "Camera Android, scannerul, scanările succesive și notificările reale nu sunt probate prin Java. Supliment AND02 este separat până la aviz.",
+      "evidence_ids": [
+        "A09-E-JVM",
+        "A09-E-AMOB",
+        "A09-E-GARD",
+        "A09-E-ANDROIDINV"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T334",
+          "canonical": "P01.C03.T0020",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T335",
+          "canonical": "P01.C03.T0021",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T336",
+          "canonical": "P01.C03.T0022",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T338",
+          "canonical": "P01.C03.T0024",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C15",
+      "title": "iPhone C18 cameră și reluare",
+      "pipeline": "A09-P4",
+      "expected": "Comportamentul funcțional și efectele sunt identice cu scenariul de referință; operatorul vede clar în așteptare/confirmat.",
+      "negative": "Cod invalid și conexiune pierdută între request și răspuns.",
+      "status": "BLOCAT_ACCES",
+      "observed": "Contractul ERP este accesibil pe server, iar C18 este un capitol distinct; corpusul curent nu conține o dovadă vouchată de build/client iOS.",
+      "remaining_or_retest": "Necesită client iOS distribuibil, simulator/device identificat, condiții cameră și reluare.",
+      "evidence_ids": [
+        "A09-E-TASKREG",
+        "A09-E-AMOB",
+        "A09-E-ANDROIDINV"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T312",
+          "canonical": "P01.C03.T0008",
+          "state": "audit",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T334",
+          "canonical": "P01.C03.T0020",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C16",
+      "title": "Concurență offline la inventar",
+      "pipeline": "A09-P4",
+      "expected": "Regula de conflict este aplicată o dată, cu diferență explicată și rezoluție urmărită, fără suprascriere tăcută.",
+      "negative": "Scanner trimite cheia aceluiași eveniment cu altă cantitate.",
+      "status": "INCONCLUDENT",
+      "observed": "Core iDempiere a răspuns cu CO și refuz explicit la competiție în fixture, iar API de inventar are suite pe request/chei.",
+      "remaining_or_retest": "Nu se deduce gestionarea conflictului din două telefoane. Politica Android online va fi confirmată cu suplimentul.",
+      "evidence_ids": [
+        "A09-E-JVM",
+        "A09-E-RACE",
+        "A09-E-DOC"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T334",
+          "canonical": "P01.C03.T0020",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T336",
+          "canonical": "P01.C03.T0022",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C17",
+      "title": "Revocare dispozitiv și audit mobil",
+      "pipeline": "A09-P4",
+      "expected": "Zero confirmări noi, mesaj de reautorizare, eveniment jurnalizat fără jeton în clar.",
+      "negative": "Tentativă din dispozitiv revocat după schimbarea profilului local.",
+      "status": "INCONCLUDENT",
+      "observed": "Ecranul de acces telefoane este activ pentru 7 granturi; protecția la API este testată în suita JVM.",
+      "remaining_or_retest": "Revocarea din UI pe un dispozitiv asociat și reluarea cererii pe acel dispozitiv nu au fost executate.",
+      "evidence_ids": [
+        "A09-E-ACCESS",
+        "A09-E-META",
+        "A09-E-AMOB"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T333",
+          "canonical": "P01.C03.T0019",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T334",
+          "canonical": "P01.C03.T0020",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C18",
+      "title": "Import cu progres și erori",
+      "pipeline": "A09-P5",
+      "expected": "Se disting așteptare, procesare, final, parțial și eșec; ID job stabil și totalurile succes+eșec+omise egale cu intrarea.",
+      "negative": "Dublu clic sau timeout după acceptarea cererii; un fișier respins nu blochează vizualizarea diagnosticului.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Pe fixtures auxiliare, există un rezultat DATE COMPLETE după lipsa datelor și polling după refuz/dispărut; textul de stare poate ghida greșit după eșec.",
+      "remaining_or_retest": "Retestează efectele din ecranul efectiv și păstrează numărul de rânduri/familie.",
+      "evidence_ids": [
+        "A09-E-RECON",
+        "A09-E-POLL",
+        "A09-E-T227"
+      ],
+      "finding_ids": [
+        "A04-F03",
+        "A04-F04"
+      ],
+      "task_links": [
+        {
+          "id": "T227",
+          "canonical": "P01.C11.T0005",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C19",
+      "title": "Filtrare și paginare mare",
+      "pipeline": "A09-P5",
+      "expected": "0 omisiuni și 0 dubluri între pagini pentru snapshot fix. Înregistrează p50/p95 și evaluarea față de bugetul mediului stabilit înainte de rulare.",
+      "negative": "În ultima pagină schimbă filtrul în rezultat vid și revino.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Comparatorul din Git materializează 10.001 rânduri, chei 00000–10000; forma creează un ListItem pentru fiecare rând. Nu există fereastră server-side/paginare a acestei construcții.",
+      "remaining_or_retest": "Măsoară p50/p95, memorie JVM și număr DOM pe forma ZK instalată. Nu se extrapolează latența UI din timpii funcției Java.",
+      "evidence_ids": [
+        "A09-E-THEME",
+        "A09-E-ACTION"
+      ],
+      "finding_ids": [
+        "A09-F05"
+      ],
+      "task_links": [
+        {
+          "id": "T227",
+          "canonical": "P01.C11.T0005",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C20",
+      "title": "Fișier tipărit și export",
+      "pipeline": "A09-P5",
+      "expected": "Total și număr rânduri identice cu selecția autorizată, lizibil în imprimare, fără rând ascuns din firma B.",
+      "negative": "Rol fără export sau cu date HR restrânse; fișier gol/decupat este înregistrat.",
+      "status": "INCONCLUDENT",
+      "observed": "AD_PrintFormat există, iar suita portal include export și propagarea tipurilor de conținut.",
+      "remaining_or_retest": "Niciun PDF sau XLSX mare generat din rolul expus nu a fost confruntat rând-cu-rând aici.",
+      "evidence_ids": [
+        "A09-E-FE",
+        "A09-E-CLOSE",
+        "A09-E-META"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T227",
+          "canonical": "P01.C11.T0005",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C21",
+      "title": "Perioadă închisă și reconciliere",
+      "pipeline": "A09-P5",
+      "expected": "Documentul și perioada rămân aceleași, diferența și sursa sunt explicate; 0 înregistrări în perioada închisă dintr-o citire.",
+      "negative": "Dată la limita zilei locale sau fus de afișare diferit.",
+      "status": "INCONCLUDENT",
+      "observed": "SQL sintetic și obiectele Închidere lună/Balanță există. Traseul utilizatorului până la document și menținerea filtrului nu sunt identice cu un test contabil.",
+      "remaining_or_retest": "Rerulează pentru rol numai citire la limita perioadei și verifică selecția după revenire.",
+      "evidence_ids": [
+        "A09-E-T227",
+        "A09-E-CLOSE",
+        "A09-E-META"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T227",
+          "canonical": "P01.C11.T0005",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C22",
+      "title": "Navigare completă cu tastatură",
+      "pipeline": "A09-P6",
+      "expected": "Fiecare acțiune necesară se poate termina, focus vizibil, restaurat la controlul inițiator, fără capcană.",
+      "negative": "Escape în confirmare și editare nesalvată.",
+      "status": "INCONCLUDENT",
+      "observed": "Linkurile locale au primit focus programatic; capturile ZK arată scurtături reale Alt+F/Alt+N/Alt+S și restabilirea sesiunii GardenWorld.",
+      "remaining_or_retest": "Focus programatic și existența shortcuturilor nu certifică Tab/Shift+Tab/Escape ori absența unei capcane; necesar traseu pe tastatură reală/simulată pe ZK.",
+      "evidence_ids": [
+        "A09-E-UI",
+        "A09-E-UI360",
+        "A09-E-NATIVEKEY"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T08",
+          "canonical": null,
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C23",
+      "title": "Etichete și mesaje pentru tehnologie asistivă",
+      "pipeline": "A09-P6",
+      "expected": "Fiecare câmp obligatoriu și eroare au nume/descriere asociabile, starea nu depinde exclusiv de culoare; flux realizabil.",
+      "negative": "Eroare simultană pe două câmpuri și tooltip fără focus.",
+      "status": "FAIL_DOVEDIT",
+      "observed": "Portalul injectează două mesaje identice la 503, fără rol alert, regiune live, focus dedicat sau mecanism de reluare în card. Checkout are separat cinci câmpuri fără etichetă persistentă în proba A08.",
+      "remaining_or_retest": "Cititor de ecran real, VoiceOver/TalkBack și conturile nominale rămân de verificat.",
+      "evidence_ids": [
+        "A09-E-UI",
+        "A09-E-UIERR",
+        "A09-E-NATIVESCREEN",
+        "A09-E-CHECKOUT"
+      ],
+      "finding_ids": [
+        "A09-F03",
+        "A08-F09"
+      ],
+      "task_links": [
+        {
+          "id": "T08",
+          "canonical": null,
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C24",
+      "title": "Redimensionare și atingere",
+      "pipeline": "A09-P6",
+      "expected": "Acțiunile principale și mesajele sunt vizibile sau accesibile prin derulare; zero suprapuneri care împiedică activitatea.",
+      "negative": "Tastatură virtuală deschisă peste ultimul câmp și text tradus mai lung.",
+      "status": "INCONCLUDENT",
+      "observed": "La 360 și 1280 am măsurat viewport real și linkurile vizibile dintr-un portal cu meniul sintetic alimentat de rezultatul real al handlerului. Există probe distincte de checkout la aceleași lățimi.",
+      "remaining_or_retest": "Vizualizează la zoom 200%, tastatură virtuală și orientare pe ZK și pe dispozitive.",
+      "evidence_ids": [
+        "A09-E-UI",
+        "A09-E-UI360",
+        "A09-E-UI1280",
+        "A09-E-CHECKOUT"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T08",
+          "canonical": null,
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T335",
+          "canonical": "P01.C03.T0021",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C25",
+      "title": "Ajutor și vocabular contabil",
+      "pipeline": "A09-P6",
+      "expected": "Ajutorul deschis aparține ecranului și versiunii, explică următoarea acțiune și rolul; termenii și unitățile corespund datelor.",
+      "negative": "Ajutor lipsă sau limbă fără traducere, etichetă ambiguă pentru două gestiuni.",
+      "status": "INCONCLUDENT",
+      "observed": "211 verificări TestAjutor și 69 TestT22Ajutor declarate în ieșirile JVM; ZK a arătat ajutorul contextual Physical Inventory.",
+      "remaining_or_retest": "Verifică termenii CPP/CPA, aviz/livrat și ghidul contabil în limba utilizatorului pe fiecare ecran propus.",
+      "evidence_ids": [
+        "A09-E-JVM",
+        "A09-E-NATIVESCREEN",
+        "A09-E-MATCH"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T08",
+          "canonical": null,
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T221",
+          "canonical": "P01.C10.T0012",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T354",
+          "canonical": "P01.C03.T0028",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C26",
+      "title": "Design stabil și recuperare din eroare",
+      "pipeline": "A09-P6",
+      "expected": "Mesajul apare în zona de stare existentă, acțiunile și grila își păstrează poziția convenită; datele valide sunt păstrate.",
+      "negative": "Reautentificare, pierderea sesiunii, apăsare repetată pe salvare.",
+      "status": "INCONCLUDENT",
+      "observed": "ZK a refuzat explicit câmpurile obligatorii și a afișat «Record saved» la corectare; portalul generic oferă în card numai «Eroare la încărcare.» și repetă mesajul.",
+      "remaining_or_retest": "Pentru §15 cere comparații înainte/după pe ecranele transformate; măsurare separată la expirarea sesiunii.",
+      "evidence_ids": [
+        "A09-E-UIERR",
+        "A09-E-NATIVEERR",
+        "A09-E-NATIVESAVE"
+      ],
+      "finding_ids": [
+        "A09-F03"
+      ],
+      "task_links": [
+        {
+          "id": "T08",
+          "canonical": null,
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T314",
+          "canonical": "P01.C10.T0015",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C27",
+      "title": "Android ERP general C19",
+      "pipeline": "A09-P7",
+      "expected": "Selecția și filtrul se păstrează la revenire în sesiunea valabilă; după logout datele nu mai sunt vizibile.",
+      "negative": "Deep link după logout și notificare întârziată pentru firma B.",
+      "status": "BLOCAT_ACCES",
+      "observed": "C19 privește ERP general. APK-ul local identificat aparține inventarului/ambalării; nu este o probă pentru acces general.",
+      "remaining_or_retest": "Necesită build Android ERP general, două firme, rol contabil și probă revocare/logout/deep link.",
+      "evidence_ids": [
+        "A09-E-TASKREG",
+        "A09-E-MATCH",
+        "A09-E-ANDROIDINV"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T312",
+          "canonical": "P01.C03.T0008",
+          "state": "audit",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C28",
+      "title": "iPhone ERP general C20",
+      "pipeline": "A09-P7",
+      "expected": "Contextul nou este explicit, 0 rânduri din firma anterioară; operațiile admise sunt egale cu drepturile desktop.",
+      "negative": "Client cu versiune API depășită sau dispozitiv neasociat.",
+      "status": "BLOCAT_ACCES",
+      "observed": "C20 vizează iOS ERP general; serviciul și catalogul P01 există, clientul iOS general nu e documentat printr-un build verificabil în corpusul primit.",
+      "remaining_or_retest": "Necesită build iOS, simulator/telefon dedicat, VoiceOver și rol contabil.",
+      "evidence_ids": [
+        "A09-E-TASKREG",
+        "A09-E-MATCH",
+        "A09-E-ANDROIDINV"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T312",
+          "canonical": "P01.C03.T0008",
+          "state": "audit",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    },
+    {
+      "control_id": "A09-C29",
+      "title": "Separarea aplicațiilor generale de WMS",
+      "pipeline": "A09-P7",
+      "expected": "Patru suprafețe sunt documentate separat, lipsa pachetului/semnăturii/accesului rămâne BLOCAT la execuție; niciun drept suplimentar doar din tipul clientului.",
+      "negative": "Dispozitiv înregistrat pentru citire contabilă solicită scriere inventar și invers.",
+      "status": "INCONCLUDENT",
+      "observed": "C17–C20 sunt diferențiate în catalog, iar taskurile T335/T336/T338 sunt încadrate în C03. Existența API de mobil, a clientului Android WMS și a unei forme de gestiune nu certifică patru clienți.",
+      "remaining_or_retest": "Înregistrează proveniența separată a clienților și testele de refuz pentru roluri între suprafețe; addendum în curs.",
+      "evidence_ids": [
+        "A09-E-TASKREG",
+        "A09-E-MATCH",
+        "A09-E-ANDROIDINV",
+        "A09-E-AMOB"
+      ],
+      "finding_ids": [],
+      "task_links": [
+        {
+          "id": "T312",
+          "canonical": "P01.C03.T0008",
+          "state": "audit",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T335",
+          "canonical": "P01.C03.T0021",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T336",
+          "canonical": "P01.C03.T0022",
+          "state": "închis",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        },
+        {
+          "id": "T338",
+          "canonical": "P01.C03.T0024",
+          "state": "montat",
+          "scope": "legătură funcțională, nu verdictul fișei A12"
+        }
+      ],
+      "executed_at": "2026-11-02T15:07:01.800314+00:00",
+      "executor": "A09",
+      "required_environment": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "reviewer": "A11",
+      "review_status": null
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline_id": "A09-P1",
+      "title": "Descoperirea unei operații din meniul nativ sau din tema EVA",
+      "status": "FAIL_DOVEDIT",
+      "expected": "0 acțiuni vizibile fără destinație explicată; 0 rânduri ale firmei B în A; fiecare capitol mapat sau limită consemnată",
+      "document_path": "Meniu → arbore → AD_Menu → fereastră/proces/formă → context client/org → rezultat autorizat",
+      "state_and_faults": "afișare, intrare, revenire, schimbare firmă, redeschidere",
+      "control_ids": [
+        "A09-C01",
+        "A09-C02",
+        "A09-C03",
+        "A09-C04",
+        "A09-C05"
+      ],
+      "coverage_by_status": {
+        "INCONCLUDENT": 2,
+        "FAIL_DOVEDIT": 3
+      },
+      "observed_per_stage": [
+        {
+          "control": "A09-C01",
+          "observed": "20 capitole mapate, 18 cu ținte sau suport AD; C15 și C16 reprezintă infrastructură și documentare. Forme și workflow sunt inversate în portal, inclusiv WMS.",
+          "remaining": "Exercită în continuare fiecare parcurs cu rolul nominal și compară limbile."
+        },
+        {
+          "control": "A09-C02",
+          "observed": "756 ID-uri q31 regăsite în cele 945 active la CESIRO, 189 noi față de listă și unul doar în q31. 125 denumiri distincte de ținte din JAR au corespondent exact în meniul activ. Clasificarea a 236 ținte în portal e eronată.",
+          "remaining": "Comparația de nume nu dovedește drept efectiv pentru fiecare rol și limbă; reconciliază pe AUUID per cabinet."
+        },
+        {
+          "control": "A09-C03",
+          "observed": "Tema instalată are nouă rădăcini. Gestiuni se găsește în Fișiere; Confirmări de culegere sub Vânzări/Facturare/Corelare; Gestiunea WMS există ca formă nativă. Ruta generică din portal pierde ținta la deschiderea WebUI. Etichetele sursă pot confunda două canale.",
+          "remaining": "Testează traseul fiecăruia dintre cei patru operatori în cabinet, pe rol."
+        },
+        {
+          "control": "A09-C04",
+          "observed": "Formele au granturi diferite. Scenariile A01 au înregistrat modificări permise în alt cabinet/canal pentru un membru autentificat. Efectul e demonstrat la API față de cerința de zero acces inter-cabinet.",
+          "remaining": "Repetă intrarea din acest meniu și încercarea prin ID cu rolurile denumite; nu presupune că dicționarul filtrează automat API."
+        },
+        {
+          "control": "A09-C05",
+          "observed": "Testele de variabile și filtrare verifică izolarea contextului de canal; coliziunea de etichete persistă pe două binare.",
+          "remaining": "Două sesiuni ZK simultane în firme distincte și revenire Back/Forward neobservate."
+        }
+      ],
+      "evidence_ids": [
+        "A09-E-A01",
+        "A09-E-ACCESS",
+        "A09-E-ACTION",
+        "A09-E-AFIND",
+        "A09-E-JVM",
+        "A09-E-MATCH",
+        "A09-E-META",
+        "A09-E-RECHECK",
+        "A09-E-THEME",
+        "A09-E-UI"
+      ],
+      "finding_ids": [
+        "A01.F02",
+        "A01.F03",
+        "A09-F01",
+        "A09-F02",
+        "A09-F04"
+      ],
+      "E2E_complet": false,
+      "handoff": [
+        "A01",
+        "A02",
+        "A03"
+      ]
+    },
+    {
+      "pipeline_id": "A09-P2",
+      "title": "Configurarea gestiunii G1/G2/G3 în taburi compatibile",
+      "status": "FAIL_DOVEDIT",
+      "expected": "0 legături inter-firmă sau incompatibile; G3 nu creează stoc; fiecare alegere are ID și etichetă univoce",
+      "document_path": "Setări → tab tipizat → relație gestiune/locator/rețetă → validare server → salvare → recitire",
+      "state_and_faults": "salvare, anulare, modificare concurentă, referință inactivă",
+      "control_ids": [
+        "A09-C06",
+        "A09-C07",
+        "A09-C08",
+        "A09-C09",
+        "A09-C10"
+      ],
+      "coverage_by_status": {
+        "INCONCLUDENT": 3,
+        "FAIL_DOVEDIT": 2
+      },
+      "observed_per_stage": [
+        {
+          "control": "A09-C06",
+          "observed": "Gestiuni, Gestiunea WMS și Acces telefoane sunt ținte active. GardenWorld a activat perechi reale; relația dintre o G1 și multiple G2 independente necesită regulă distinctă.",
+          "remaining": "Nici dovada relansării după salvare din taburi distincte G1/G2/G3, nici refuzul celei de-a doua G3 nu sunt acoperite."
+        },
+        {
+          "control": "A09-C07",
+          "observed": "Au fost create două ID distincte CPP/CPA; reatribuirea vechiului cod după redenumire și confundarea ID explicit cu SKU sunt reproductibile.",
+          "remaining": "Picker-ul și mesajul la alias ambiguu necesită probe UI distincte."
+        },
+        {
+          "control": "A09-C08",
+          "observed": "Replay al aceleiași dezasamblări după commit a scăzut de două ori stocul fizic. Reconcilierea unui cost suplimentar G1 pentru ambalaj/manoperă NU a fost măsurată aici.",
+          "remaining": "Rerulează pe document cu cost cutii și manoperă pe G1; reperul e per operație persistentă."
+        },
+        {
+          "control": "A09-C09",
+          "observed": "120 din fiecare componentă → 20/40, inițial; după o alocare S1 → 19/38 în funcția din JAR. Probe A06 identifică deducerea repetată în agregarea multi-G1.",
+          "remaining": "Vizualizarea efectivă pe ecran și două sesiuni de rezervare rămân de probat."
+        },
+        {
+          "control": "A09-C10",
+          "observed": "Schema și dialogurile de gestiune sunt identificate și există probe pe perechi.",
+          "remaining": "Schimbarea simultană a regulii și salvarea unui locator dezactivat printr-un formular deja deschis nu au probă."
+        }
+      ],
+      "evidence_ids": [
+        "A09-E-G3",
+        "A09-E-GARD",
+        "A09-E-META",
+        "A09-E-PAIR",
+        "A09-E-PRODUCT",
+        "A09-E-RETRY",
+        "A09-E-RUNFIND",
+        "A09-E-S06",
+        "A09-E-WMS"
+      ],
+      "finding_ids": [
+        "A05-F01",
+        "A05-F06",
+        "A05-F08",
+        "A06-F01",
+        "A06-F07"
+      ],
+      "E2E_complet": false,
+      "handoff": [
+        "A02",
+        "A05",
+        "A06"
+      ]
+    },
+    {
+      "pipeline_id": "A09-P3",
+      "title": "Gestionar preia comanda și transmite avizul spre validare",
+      "status": "FAIL_DOVEDIT",
+      "expected": "1 document per efect autorizat; 0 AWB înainte de aprobare și 0 facturi premature sub politica selectată",
+      "document_path": "Comenzi ERP → deficit fizic → dezasamblare → locator → pick → aviz → autorizare vânzări → AWB → confirmare livrare → factură",
+      "state_and_faults": "DR/IP/WP/WC/CO; temporizare, întrerupere și știre de retur",
+      "control_ids": [
+        "A09-C11",
+        "A09-C12",
+        "A09-C13"
+      ],
+      "coverage_by_status": {
+        "FAIL_DOVEDIT": 1,
+        "INCONCLUDENT": 2
+      },
+      "observed_per_stage": [
+        {
+          "control": "A09-C11",
+          "observed": "În GardenWorld operația de dezambalare a produs mișcări; componentele au intrat în același locator și reluarea poate produce o notă suplimentară.",
+          "remaining": "Preluare de un gestionar, alegerea locatorului nou și handoff către pick în aceeași comandă rămân obligatorii."
+        },
+        {
+          "control": "A09-C12",
+          "observed": "Există probe independente pe metodele de livrare A07 și pe CO nativ în GardenWorld. Niciuna nu înseamnă livrare confirmată pentru emiterea facturii.",
+          "remaining": "Sunt necesare comparații end-to-end pe Aviz→validare→AWB și pe cele două politici, inclusiv retur/callback tardiv."
+        },
+        {
+          "control": "A09-C13",
+          "observed": "Accesul la propriul canal și drepturile la scriere nu sunt echivalente. Cererea PUT pe canal străin și ruta CUI care răspunde 404 au fost reproduse în A01.",
+          "remaining": "Verifică apoi rolurile efective și fiecare acțiune ERP interzisă pe site."
+        }
+      ],
+      "evidence_ids": [
+        "A09-E-A01",
+        "A09-E-A07",
+        "A09-E-AFIND",
+        "A09-E-DOC",
+        "A09-E-META",
+        "A09-E-RETRY",
+        "A09-E-RUNFIND",
+        "A09-E-WMS"
+      ],
+      "finding_ids": [
+        "A01.F03",
+        "A01.F13",
+        "A05-F07"
+      ],
+      "E2E_complet": false,
+      "handoff": [
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ]
+    },
+    {
+      "pipeline_id": "A09-P4",
+      "title": "Inventariere și ambalare de pe Android/iPhone",
+      "status": "INCONCLUDENT",
+      "expected": "Aceeași operație reaplicată are un singur efect; confirmarea afișată corespunde stării persistate, lotului și locatorului",
+      "document_path": "Asociere → autorizare → selectare document → scanare → confirmare/retry → stare server → reconciliere ERP",
+      "state_and_faults": "rezervat, în așteptare, reconectat, confirmat, conflict, acces revocat",
+      "control_ids": [
+        "A09-C14",
+        "A09-C15",
+        "A09-C16",
+        "A09-C17"
+      ],
+      "coverage_by_status": {
+        "INCONCLUDENT": 3,
+        "BLOCAT_ACCES": 1
+      },
+      "observed_per_stage": [
+        {
+          "control": "A09-C14",
+          "observed": "Suita Java TestApiMobilInventar și testele de citire au exercitat contractul. Inventarul ADB de planificare are 0 dispozitive; sursa/apk dedicată a fost identificată.",
+          "remaining": "Camera Android, scannerul, scanările succesive și notificările reale nu sunt probate prin Java. Supliment AND02 este separat până la aviz."
+        },
+        {
+          "control": "A09-C15",
+          "observed": "Contractul ERP este accesibil pe server, iar C18 este un capitol distinct; corpusul curent nu conține o dovadă vouchată de build/client iOS.",
+          "remaining": "Necesită client iOS distribuibil, simulator/device identificat, condiții cameră și reluare."
+        },
+        {
+          "control": "A09-C16",
+          "observed": "Core iDempiere a răspuns cu CO și refuz explicit la competiție în fixture, iar API de inventar are suite pe request/chei.",
+          "remaining": "Nu se deduce gestionarea conflictului din două telefoane. Politica Android online va fi confirmată cu suplimentul."
+        },
+        {
+          "control": "A09-C17",
+          "observed": "Ecranul de acces telefoane este activ pentru 7 granturi; protecția la API este testată în suita JVM.",
+          "remaining": "Revocarea din UI pe un dispozitiv asociat și reluarea cererii pe acel dispozitiv nu au fost executate."
+        }
+      ],
+      "evidence_ids": [
+        "A09-E-ACCESS",
+        "A09-E-AMOB",
+        "A09-E-ANDROIDINV",
+        "A09-E-DOC",
+        "A09-E-GARD",
+        "A09-E-JVM",
+        "A09-E-META",
+        "A09-E-RACE",
+        "A09-E-TASKREG"
+      ],
+      "finding_ids": [],
+      "E2E_complet": false,
+      "handoff": [
+        "A01",
+        "A02",
+        "A05",
+        "A10"
+      ]
+    },
+    {
+      "pipeline_id": "A09-P5",
+      "title": "Import, listă lungă, verificare diferențe și fișier descărcat",
+      "status": "FAIL_DOVEDIT",
+      "expected": "Totalul și numărul rândurilor din fișier egale cu selecția autorizată, fără date străine ori dubluri după retry",
+      "document_path": "Selectare firmă/perioadă → import → stare job → verificare → listă paginată → export/tipar → fișier deschis și recitit",
+      "state_and_faults": "job în lucru, eșec parțial, reluare, filtre active, PDF/XLSX",
+      "control_ids": [
+        "A09-C18",
+        "A09-C19",
+        "A09-C20",
+        "A09-C21"
+      ],
+      "coverage_by_status": {
+        "FAIL_DOVEDIT": 2,
+        "INCONCLUDENT": 2
+      },
+      "observed_per_stage": [
+        {
+          "control": "A09-C18",
+          "observed": "Pe fixtures auxiliare, există un rezultat DATE COMPLETE după lipsa datelor și polling după refuz/dispărut; textul de stare poate ghida greșit după eșec.",
+          "remaining": "Retestează efectele din ecranul efectiv și păstrează numărul de rânduri/familie."
+        },
+        {
+          "control": "A09-C19",
+          "observed": "Comparatorul din Git materializează 10.001 rânduri, chei 00000–10000; forma creează un ListItem pentru fiecare rând. Nu există fereastră server-side/paginare a acestei construcții.",
+          "remaining": "Măsoară p50/p95, memorie JVM și număr DOM pe forma ZK instalată. Nu se extrapolează latența UI din timpii funcției Java."
+        },
+        {
+          "control": "A09-C20",
+          "observed": "AD_PrintFormat există, iar suita portal include export și propagarea tipurilor de conținut.",
+          "remaining": "Niciun PDF sau XLSX mare generat din rolul expus nu a fost confruntat rând-cu-rând aici."
+        },
+        {
+          "control": "A09-C21",
+          "observed": "SQL sintetic și obiectele Închidere lună/Balanță există. Traseul utilizatorului până la document și menținerea filtrului nu sunt identice cu un test contabil.",
+          "remaining": "Rerulează pentru rol numai citire la limita perioadei și verifică selecția după revenire."
+        }
+      ],
+      "evidence_ids": [
+        "A09-E-ACTION",
+        "A09-E-CLOSE",
+        "A09-E-FE",
+        "A09-E-META",
+        "A09-E-POLL",
+        "A09-E-RECON",
+        "A09-E-T227",
+        "A09-E-THEME"
+      ],
+      "finding_ids": [
+        "A04-F03",
+        "A04-F04",
+        "A09-F05"
+      ],
+      "E2E_complet": false,
+      "handoff": [
+        "A03",
+        "A04",
+        "A10"
+      ]
+    },
+    {
+      "pipeline_id": "A09-P6",
+      "title": "Ajutor, accesibilitate și remedierea unei erori de validare",
+      "status": "FAIL_DOVEDIT",
+      "expected": "0 comandă esențială inaccesibilă; eroarea are control asociat, explicație și o cale de remediere",
+      "document_path": "Ecran → focus → ajutor contextual → introducere → eroare identificabilă → corectare → confirmare → revenire",
+      "state_and_faults": "dialog/modale, focus restabilit, traducere lipsă, timeout",
+      "control_ids": [
+        "A09-C22",
+        "A09-C23",
+        "A09-C24",
+        "A09-C25",
+        "A09-C26"
+      ],
+      "coverage_by_status": {
+        "INCONCLUDENT": 4,
+        "FAIL_DOVEDIT": 1
+      },
+      "observed_per_stage": [
+        {
+          "control": "A09-C22",
+          "observed": "Linkurile locale au primit focus programatic; capturile ZK arată scurtături reale Alt+F/Alt+N/Alt+S și restabilirea sesiunii GardenWorld.",
+          "remaining": "Focus programatic și existența shortcuturilor nu certifică Tab/Shift+Tab/Escape ori absența unei capcane; necesar traseu pe tastatură reală/simulată pe ZK."
+        },
+        {
+          "control": "A09-C23",
+          "observed": "Portalul injectează două mesaje identice la 503, fără rol alert, regiune live, focus dedicat sau mecanism de reluare în card. Checkout are separat cinci câmpuri fără etichetă persistentă în proba A08.",
+          "remaining": "Cititor de ecran real, VoiceOver/TalkBack și conturile nominale rămân de verificat."
+        },
+        {
+          "control": "A09-C24",
+          "observed": "La 360 și 1280 am măsurat viewport real și linkurile vizibile dintr-un portal cu meniul sintetic alimentat de rezultatul real al handlerului. Există probe distincte de checkout la aceleași lățimi.",
+          "remaining": "Vizualizează la zoom 200%, tastatură virtuală și orientare pe ZK și pe dispozitive."
+        },
+        {
+          "control": "A09-C25",
+          "observed": "211 verificări TestAjutor și 69 TestT22Ajutor declarate în ieșirile JVM; ZK a arătat ajutorul contextual Physical Inventory.",
+          "remaining": "Verifică termenii CPP/CPA, aviz/livrat și ghidul contabil în limba utilizatorului pe fiecare ecran propus."
+        },
+        {
+          "control": "A09-C26",
+          "observed": "ZK a refuzat explicit câmpurile obligatorii și a afișat «Record saved» la corectare; portalul generic oferă în card numai «Eroare la încărcare.» și repetă mesajul.",
+          "remaining": "Pentru §15 cere comparații înainte/după pe ecranele transformate; măsurare separată la expirarea sesiunii."
+        }
+      ],
+      "evidence_ids": [
+        "A09-E-CHECKOUT",
+        "A09-E-JVM",
+        "A09-E-MATCH",
+        "A09-E-NATIVEERR",
+        "A09-E-NATIVEKEY",
+        "A09-E-NATIVESAVE",
+        "A09-E-NATIVESCREEN",
+        "A09-E-UI",
+        "A09-E-UI1280",
+        "A09-E-UI360",
+        "A09-E-UIERR"
+      ],
+      "finding_ids": [
+        "A08-F09",
+        "A09-F03"
+      ],
+      "E2E_complet": false,
+      "handoff": [
+        "A01",
+        "A03",
+        "A08"
+      ]
+    },
+    {
+      "pipeline_id": "A09-P7",
+      "title": "ERP general pe Android și iOS",
+      "status": "INCONCLUDENT",
+      "expected": "Aceleași drepturi ca în ERP desktop, 0 rânduri din sesiunea veche, acțiunile WMS necesită dreptul distinct",
+      "document_path": "Selectare cabinet → autentificare → rol și firmă → deschidere raport → filtrare → logout → deep link → acces refuzat",
+      "state_and_faults": "online, fundal, reluare, versiune neacceptată, logout, memorie cache",
+      "control_ids": [
+        "A09-C27",
+        "A09-C28",
+        "A09-C29"
+      ],
+      "coverage_by_status": {
+        "BLOCAT_ACCES": 2,
+        "INCONCLUDENT": 1
+      },
+      "observed_per_stage": [
+        {
+          "control": "A09-C27",
+          "observed": "C19 privește ERP general. APK-ul local identificat aparține inventarului/ambalării; nu este o probă pentru acces general.",
+          "remaining": "Necesită build Android ERP general, două firme, rol contabil și probă revocare/logout/deep link."
+        },
+        {
+          "control": "A09-C28",
+          "observed": "C20 vizează iOS ERP general; serviciul și catalogul P01 există, clientul iOS general nu e documentat printr-un build verificabil în corpusul primit.",
+          "remaining": "Necesită build iOS, simulator/telefon dedicat, VoiceOver și rol contabil."
+        },
+        {
+          "control": "A09-C29",
+          "observed": "C17–C20 sunt diferențiate în catalog, iar taskurile T335/T336/T338 sunt încadrate în C03. Existența API de mobil, a clientului Android WMS și a unei forme de gestiune nu certifică patru clienți.",
+          "remaining": "Înregistrează proveniența separată a clienților și testele de refuz pentru roluri între suprafețe; addendum în curs."
+        }
+      ],
+      "evidence_ids": [
+        "A09-E-AMOB",
+        "A09-E-ANDROIDINV",
+        "A09-E-MATCH",
+        "A09-E-TASKREG"
+      ],
+      "finding_ids": [],
+      "E2E_complet": false,
+      "handoff": [
+        "A01",
+        "A08",
+        "A10"
+      ]
+    }
+  ],
+  "evidence_index": [
+    {
+      "evidence_id": "A09-E-META",
+      "path": "executie/A09/menu-live.json",
+      "sha256": "625dc99aae612a7012b1a49243c6fbcb79c756f7eb20d2e87fdb433c92a106f3",
+      "bytes": 339330,
+      "kind": "LIVE_READ_ONLY",
+      "scope": "945 meniuri active și 138 forme EVA; grant_count este numărul de rânduri active, nu verdict de acces al unui rol.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-MATCH",
+      "path": "executie/A09/coverage.json",
+      "sha256": "74913b1d7ba1d5b90afe53ac73d52b05bec06dd04b6ce4f5bcf82d4e4aa6d363",
+      "bytes": 16690,
+      "kind": "LIVE_READ_ONLY",
+      "scope": "Reconciliere q31, tema instalată, 20 capitole, căutare clienți nativi în corpusul Git.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-ACTION",
+      "path": "executie/A09/native_actions.json",
+      "sha256": "20368214cf6672b215044a8958a9c602f1c6e4519a5c82d5b10d1118ec4e7e01",
+      "bytes": 73723,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "236 rânduri reale de dicționar, handler și constantă iDempiere; hash al handlerului egal celui din container.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-ACTIONRAW",
+      "path": "executie/A09/render_menu_payload.json",
+      "sha256": "ccaf2030075b89691a82ae59d6d95c40f980a5193ce412115327f71bc0381351",
+      "bytes": 417,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Rezultatul handlerului real pentru Gestiunea WMS; input consfințit prin CASES în ACTION.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-THEME",
+      "path": "executie/A09/vs-versions.json",
+      "sha256": "d38bc05def8a8adaad89e674f8cdeede7e8e51f0eb7f51ff856f25b5df77e75c",
+      "bytes": 2848,
+      "kind": "BUILD_OR_UNIT_TEST",
+      "scope": "Fixture de canale omonime pe două binare și 10.001 rânduri pe comparatorul Git.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-JVM",
+      "path": "executie/A09/suites.json",
+      "sha256": "e39b9ada623969b357bdee6f80e6271f6c8c6cb5e462b8d9387b9be2cda39238",
+      "bytes": 4135,
+      "kind": "BUILD_OR_UNIT_TEST",
+      "scope": "Execuții Java inclusiv testele mobile și meniu; eșecurile inițiale păstrate.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-RECHECK",
+      "path": "executie/A09/recheck.json",
+      "sha256": "9b06e8954b4b0519d61fc15b4b0b9e6571a23838818877c9921fa7457b6d7175",
+      "bytes": 2328,
+      "kind": "BUILD_OR_UNIT_TEST",
+      "scope": "Reluare Git vs instalat cu conversia file URI a harness-ului de Windows și JVM line separator; criterii intacte.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-UI",
+      "path": "executie/A09/portal.json",
+      "sha256": "ad8126999fd294dce7a47bfa0d167a997b00119590e2ff52180cde7be7fd94aa",
+      "bytes": 3331,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Cerere Flask și capturi Chromium pe 360 și 1280 px. Fixture de cabinet; focalizare programatică, fără telefon real.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-UI360",
+      "path": "executie/A09/portal-ok-360.png",
+      "sha256": "dfbb75bb917cd54f775f6324b853fcb2777059a65067eb7c09382e26fa8b42be",
+      "bytes": 25155,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Captură mobilă după focalizarea acțiunilor în portal.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-UI1280",
+      "path": "executie/A09/portal-ok-1280.png",
+      "sha256": "890b3739450a10075f0eef8dbc0eb0945442948cb5c38c729396b36a8694d2a0",
+      "bytes": 40617,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Captură desktop în portal.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-UIERR",
+      "path": "executie/A09/portal-error-360.png",
+      "sha256": "6cc242a7932a8eef338bde394f61e6ff99e52d7a6c8590938d89ba69073645d7",
+      "bytes": 10679,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Ruta cu răspuns de metadate 503.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-NATIVESCREEN",
+      "path": "executie/A05/physical-inventory.png",
+      "sha256": "8e5b8acd587191feaebe00e6764cd1f29d4a969f0edc299be6ae5df89d725fcd",
+      "bytes": 161446,
+      "kind": "SANDBOX_E2E",
+      "scope": "Ecran ZK Physical Inventory în GardenWorld; se disting document, gestiune, tooltip și taburi.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-NATIVEKEY",
+      "path": "executie/A05/sandbox-ui-info.txt",
+      "sha256": "087413a96959d914b0fcdd012f7c7ff2f2bd49b8fd872e8cf89199ada5dcf350",
+      "bytes": 2265,
+      "kind": "SANDBOX_E2E",
+      "scope": "Comenzi native cu titluri și scurtături pe ecranul ZK GardenWorld.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-NATIVEERR",
+      "path": "executie/A05/sandbox-ui-save.txt",
+      "sha256": "bb5f7339113ca86b09415237f76f6d67a56a26cfbd2e39fdc5aeda64fa4e8b6c",
+      "bytes": 421,
+      "kind": "SANDBOX_E2E",
+      "scope": "Încercare de salvare respinsă cu lista de câmpuri obligatorii.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-NATIVESAVE",
+      "path": "executie/A05/sandbox-ui-write.txt",
+      "sha256": "d6cc16f9ab9dfeaa8d99c8f5a73539da6f4187ce34df84291cee688106bb2841",
+      "bytes": 502,
+      "kind": "SANDBOX_E2E",
+      "scope": "Document GardenWorld salvat din UI după selectarea câmpurilor obligatorii.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-DOC",
+      "path": "executie/A05/sandbox-inventory-durable.txt",
+      "sha256": "973c793cc779097c811c532c6d65d255b479cc4e061cc2f8e34566b4a8d09797",
+      "bytes": 115,
+      "kind": "SANDBOX_E2E",
+      "scope": "CO și linii, mișcare 20→18 și Fact_Acct reconciliat în fixture.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-RACE",
+      "path": "executie/A05/sandbox-inventory-retry.txt",
+      "sha256": "fd9ca46b301a4207e2640b345fb72ed8d3f225b9cbd09e6a2c30aba64a42f942",
+      "bytes": 277,
+      "kind": "SANDBOX_E2E",
+      "scope": "Două reîncercări; răspuns 200 CO și 500 stale document.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-PAIR",
+      "path": "executie/A05/sandbox-warehouse-fixture.txt",
+      "sha256": "bbaa113739eee73e0921f4ed305f46a2af9cc3c9469ff95f9a466447918671b7",
+      "bytes": 317,
+      "kind": "SANDBOX_E2E",
+      "scope": "Perechi G1/G2 și activare din GardenWorld.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-PRODUCT",
+      "path": "executie/A05/sandbox-product-identity.txt",
+      "sha256": "d3648e66d3e7695cefbc7e0f955759cb971864f1f7976fd2af05953fd8e3a408",
+      "bytes": 442,
+      "kind": "SANDBOX_E2E",
+      "scope": "Pereche CPP și CPA reală în fixture; test de unicitate și reutilizare după redenumire.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-WMS",
+      "path": "executie/A05/sandbox-wms-cycle.txt",
+      "sha256": "95d921e97bfa278202cfd57831a8281702d0ee2f9a77628a4a5d153f6a1e072d",
+      "bytes": 1534,
+      "kind": "SANDBOX_E2E",
+      "scope": "Asamblare/dezasamblare cu BOM și efect de stoc.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-RETRY",
+      "path": "executie/A05/sandbox-wms-idempotency.txt",
+      "sha256": "7765a543ed13d2ea277803fadfc86a0f2581f2f71cee1f81db06f279a370eda0",
+      "bytes": 469,
+      "kind": "SANDBOX_E2E",
+      "scope": "După retry, sold set scade din nou de la 1 la 0.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-G3",
+      "path": "executie/A06/G3-results.txt",
+      "sha256": "cd270fe5ae60f6ac6c38e4ea5fd30f20abe5b935ca320d3ba384bccafc5add20",
+      "bytes": 951,
+      "kind": "BUILD_OR_UNIT_TEST",
+      "scope": "Oracle numeric G3 testat pe JAR-ul instalat.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-A01",
+      "path": "executie/A01/fixture_results.json",
+      "sha256": "19425f1545698c389b0b815f9d9ed370dff4c10cbba68f82bdaffd87d9b19c45",
+      "bytes": 20433,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Izolare, cereri portal și răspunsuri API distincte față de probele A09.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-ACCESS",
+      "path": "executie/A01/native_metadata.json",
+      "sha256": "df15d4973bf850e168493f8ec0861bdcf64d04e8666f0685ffa5f7ccf3ba4478",
+      "bytes": 4862,
+      "kind": "LIVE_READ_ONLY",
+      "scope": "Obiecte de drepturi pe rol/gestiune și MRole core versus JVM instalată.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-AMOB",
+      "path": "executie/A01/TestApiMobil.log",
+      "sha256": "d4334db6c79b8ae8c9bc4a768f06af200de62e1604f1c01453bc90f86ba826c6",
+      "bytes": 26581,
+      "kind": "BUILD_OR_UNIT_TEST",
+      "scope": "Teste gardă și rutare ambalare.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-RECON",
+      "path": "executie/A04/recon-verdict.json",
+      "sha256": "66c770b9ecd829f13d3393f1200d61f727fb1d6369092762307b33129d0c0ac0",
+      "bytes": 2979,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Fixture rapoarte import, cazuri cu rânduri lipsă și eroare de citire.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-POLL",
+      "path": "executie/A04/poll-results.jsonl",
+      "sha256": "0eae6323f07832c6a91ea4d6ec8d31439bf7ec99ad0c001fccdc0bdb6c03f31d",
+      "bytes": 583,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Polling după răspunsuri terminale ale jobului.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-CLOSE",
+      "path": "executie/A03/closing_synthetic.json",
+      "sha256": "587743aabcb7342116f30944bc5a876a53845397186751d2443825d99af371ee",
+      "bytes": 519,
+      "kind": "INTEGRATION_TEST",
+      "scope": "Fixture de închidere SQL.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-T227",
+      "path": "executie/A12_T227_SQL_sintetic.json",
+      "sha256": "9918cce9084f5462ae4557ebcabeff0fb0ede27abbe7a6d026cf27dc8a18549b",
+      "bytes": 4689,
+      "kind": "INTEGRATION_TEST",
+      "scope": "Citire T227 pe input sintetic parametrizat.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-CHECKOUT",
+      "path": "executie/A08/viewport.json",
+      "sha256": "499804f58db88b3718dff785533c62d2df3451cdfdc32370d6fca324d2cd2683",
+      "bytes": 13475,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "360/1280 pe checkout, nu ERP nativ.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-A07",
+      "path": "executie/A07/backend_methods_runtime.json",
+      "sha256": "d9d42a81ef85854155885e47df95eb710f382e43f2321f1f2873a0b6c5fb7250",
+      "bytes": 11483,
+      "kind": "BUILD_OR_UNIT_TEST",
+      "scope": "Trasee livrare/plată executate separat în A07; nu înlocuiesc aprobarea din UI.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-FE",
+      "path": "executie/FE-suite-cu-teme/masuratori.json",
+      "sha256": "d4abf8a28f705c69a5f0c1cdf225bfdb58a32e6900969ddec0e4dcdf025fdcdc",
+      "bytes": 5952,
+      "kind": "BUILD_OR_UNIT_TEST",
+      "scope": "Suite portal local, nu probe dispozitiv.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-GARD",
+      "path": "executie/A05/suite-results.json",
+      "sha256": "2278f45d436239c69092104f38e084a5e79ebefdd3e1f8dad5b214efdb9fa820",
+      "bytes": 6985,
+      "kind": "BUILD_OR_UNIT_TEST",
+      "scope": "Suite WMS/G2 și componente mobil.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-TASKREG",
+      "path": "executie/../capturi/00_CAPITOLE_PROIECTE.json",
+      "sha256": "16f151952fa7afa355d18a261ef5e336d97a8b9e30ece06c966fcaff1e30b9d3",
+      "bytes": 55283,
+      "kind": "LIVE_READ_ONLY",
+      "scope": "Definiția oficială C17..C20. Taskuri aplicative mobile sub C03.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-ANDROIDINV",
+      "path": "executie/A09/android_source_manifest.json",
+      "sha256": "175679ba7e4d40290aa54883c98cdeef0e877921645fa94e869f0fd36aae62f7",
+      "bytes": 55834,
+      "kind": "LIVE_READ_ONLY",
+      "scope": "Numai inventar suplimentar propus, fără probe funcționale ori verdict din sursa adăugată înainte de A11.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-RUNFIND",
+      "path": "executie/A05_raport.json",
+      "sha256": "3a59da8d4b4db5a535aed0f3fceeb4ce8123be28fac36ec92bd21154dc760d82",
+      "bytes": 212897,
+      "kind": "SANDBOX_E2E",
+      "scope": "Referințe explicite la efectele fizice constatate de A05; raportul nu înlocuiește probă brută.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-AFIND",
+      "path": "executie/A01_raport.json",
+      "sha256": "1e57c4b95b3457953a56558bcb5b8a588b87f1f682d8169187a754ba78d886cd",
+      "bytes": 234069,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Legături către constatările A01.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-S06",
+      "path": "executie/A06_raport.json",
+      "sha256": "da58f0a2cde15dee163c06ff7a61e896fb685bdbafb3358f66d26dc2a089a4f6",
+      "bytes": 51924,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Legături către constatările de rezervare și SKU din A06.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    },
+    {
+      "evidence_id": "A09-E-S08",
+      "path": "executie/A08_raport.json",
+      "sha256": "2b01142eeec982c6e75b3b3f43b27100579af4f2edcfa3c7d218be5c21a51bf8",
+      "bytes": 107246,
+      "kind": "LOCAL_ISOLATED_TEST",
+      "scope": "Observația A08-F09 privind etichetele de checkout.",
+      "captured_or_resolved_at": "2026-11-02T15:07:01.800314+00:00",
+      "sanitization": "Probe sintetice ori metadate de sistem, fără secrete de acces sau identități de utilizator."
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": "P01.C01",
+      "title": "Contabilitate generală și situații financiare",
+      "targets": [
+        {
+          "id": 1000004,
+          "name": "Balanță de verificare",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 20,
+      "pipeline": [
+        "A09-P1",
+        "A09-P5"
+      ]
+    },
+    {
+      "chapter": "P01.C02",
+      "title": "Închideri de lună și perioade",
+      "targets": [
+        {
+          "id": 104,
+          "name": "Calendar Year and Period",
+          "trees": 1,
+          "grant_records": 7
+        },
+        {
+          "id": 1000070,
+          "name": "Închidere lună",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 16,
+      "pipeline": [
+        "A09-P1",
+        "A09-P5"
+      ]
+    },
+    {
+      "chapter": "P01.C03",
+      "title": "Gestiuni și stocuri",
+      "targets": [
+        {
+          "id": 1000013,
+          "name": "Documente de inventar",
+          "trees": 1,
+          "grant_records": 19
+        },
+        {
+          "id": 1000019,
+          "name": "Gestiuni",
+          "trees": 1,
+          "grant_records": 14
+        },
+        {
+          "id": 1000364,
+          "name": "Gestiunea WMS",
+          "trees": 1,
+          "grant_records": 19
+        },
+        {
+          "id": 1000366,
+          "name": "Confirmări de culegere",
+          "trees": 1,
+          "grant_records": 19
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 52,
+      "pipeline": [
+        "A09-P2",
+        "A09-P3",
+        "A09-P4"
+      ]
+    },
+    {
+      "chapter": "P01.C04",
+      "title": "Trezorerie, bănci și decontări",
+      "targets": [
+        {
+          "id": 1000064,
+          "name": "Reconciliere bancă",
+          "trees": 1,
+          "grant_records": 19
+        },
+        {
+          "id": 1000159,
+          "name": "Bancă: reconciliere extras ↔ plăți",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 43,
+      "pipeline": [
+        "A09-P1",
+        "A09-P5"
+      ]
+    },
+    {
+      "chapter": "P01.C05",
+      "title": "Facturare și e-Factura",
+      "targets": [
+        {
+          "id": 1000163,
+          "name": "e-Factura: generează și trimite",
+          "trees": 1,
+          "grant_records": 19
+        },
+        {
+          "id": 1000164,
+          "name": "e-Factura: sincronizare SPV",
+          "trees": 1,
+          "grant_records": 19
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 15,
+      "pipeline": [
+        "A09-P3",
+        "A09-P5"
+      ]
+    },
+    {
+      "chapter": "P01.C06",
+      "title": "Declarații fiscale ANAF",
+      "targets": [
+        {
+          "id": 1000099,
+          "name": "Formulare ANAF (declarații goale)",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 74,
+      "pipeline": [
+        "A09-P1",
+        "A09-P5",
+        "A09-P6"
+      ]
+    },
+    {
+      "chapter": "P01.C07",
+      "title": "Salarizare, resurse umane și REGES",
+      "targets": [
+        {
+          "id": 1000131,
+          "name": "Pontaj lunar (zile lucrate, concedii, medical)",
+          "trees": 1,
+          "grant_records": 14
+        },
+        {
+          "id": 1000321,
+          "name": "REGES › Ajutor",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 25,
+      "pipeline": [
+        "A09-P1",
+        "A09-P5",
+        "A09-P6"
+      ]
+    },
+    {
+      "chapter": "P01.C08",
+      "title": "Mijloace fixe și imobilizări",
+      "targets": [
+        {
+          "id": 1000153,
+          "name": "Amortizare imobilizări (lună)",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 8,
+      "pipeline": [
+        "A09-P1",
+        "A09-P5"
+      ]
+    },
+    {
+      "chapter": "P01.C09",
+      "title": "Documente, registre legale și tipărire",
+      "targets": [
+        {
+          "id": 1000013,
+          "name": "Documente de inventar",
+          "trees": 1,
+          "grant_records": 19
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 49,
+      "pipeline": [
+        "A09-P5",
+        "A09-P6"
+      ]
+    },
+    {
+      "chapter": "P01.C10",
+      "title": "Vânzări online, parteneri și comenzi",
+      "targets": [
+        {
+          "id": 1000328,
+          "name": "Vânzări online — setări",
+          "trees": 1,
+          "grant_records": 19
+        },
+        {
+          "id": 1000329,
+          "name": "Corelare — comenzi",
+          "trees": 1,
+          "grant_records": 19
+        },
+        {
+          "id": 1000363,
+          "name": "Vânzări pe canal",
+          "trees": 1,
+          "grant_records": 19
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 101,
+      "pipeline": [
+        "A09-P1",
+        "A09-P2",
+        "A09-P3"
+      ]
+    },
+    {
+      "chapter": "P01.C11",
+      "title": "Importul datelor și pornirea firmei",
+      "targets": [
+        {
+          "id": 1000369,
+          "name": "Import SAGA: arhiva firmei (.sqlite)",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 58,
+      "pipeline": [
+        "A09-P5",
+        "A09-P6"
+      ]
+    },
+    {
+      "chapter": "P01.C12",
+      "title": "Monografia contabilă și auditul financiar",
+      "targets": [
+        {
+          "id": 1000007,
+          "name": "Monografie contabilă",
+          "trees": 1,
+          "grant_records": 14
+        },
+        {
+          "id": 1000340,
+          "name": "Monografia companiei",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 20,
+      "pipeline": [
+        "A09-P1",
+        "A09-P5"
+      ]
+    },
+    {
+      "chapter": "P01.C13",
+      "title": "Administrare, drepturi și securitate",
+      "targets": [
+        {
+          "id": 1000365,
+          "name": "Acces telefoane și gestiuni",
+          "trees": 1,
+          "grant_records": 7
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 86,
+      "pipeline": [
+        "A09-P1",
+        "A09-P4",
+        "A09-P7"
+      ]
+    },
+    {
+      "chapter": "P01.C14",
+      "title": "Interfață, ajutor și temă",
+      "targets": [
+        {
+          "id": 1000321,
+          "name": "REGES › Ajutor",
+          "trees": 1,
+          "grant_records": 14
+        }
+      ],
+      "classification": "Puncte de intrare AD, funcționare per rol încă distinctă",
+      "source_task_count": 47,
+      "pipeline": [
+        "A09-P1",
+        "A09-P6"
+      ]
+    },
+    {
+      "chapter": "P01.C15",
+      "title": "Infrastructură, build, teste și montare",
+      "targets": [],
+      "classification": "Proces tehnic sau documentar",
+      "source_task_count": 48,
+      "pipeline": [
+        "A09-P5",
+        "A09-P7"
+      ]
+    },
+    {
+      "chapter": "P01.C16",
+      "title": "Analiză funcțională, documentare și audit transversal",
+      "targets": [],
+      "classification": "Proces tehnic sau documentar",
+      "source_task_count": 31,
+      "pipeline": [
+        "A09-P1",
+        "A09-P6"
+      ]
+    },
+    {
+      "chapter": "P01.C17",
+      "title": "Aplicația mobilă Android de inventariere și ambalare",
+      "targets": [
+        {
+          "id": 1000013,
+          "name": "Documente de inventar",
+          "trees": 1,
+          "grant_records": 19
+        },
+        {
+          "id": 1000365,
+          "name": "Acces telefoane și gestiuni",
+          "trees": 1,
+          "grant_records": 7
+        }
+      ],
+      "classification": "Suport ERP asociat, nu client mobil",
+      "source_task_count": 0,
+      "pipeline": [
+        "A09-P4"
+      ]
+    },
+    {
+      "chapter": "P01.C18",
+      "title": "Aplicația mobilă iPhone de inventariere și ambalare",
+      "targets": [
+        {
+          "id": 1000013,
+          "name": "Documente de inventar",
+          "trees": 1,
+          "grant_records": 19
+        },
+        {
+          "id": 1000365,
+          "name": "Acces telefoane și gestiuni",
+          "trees": 1,
+          "grant_records": 7
+        }
+      ],
+      "classification": "Suport ERP asociat, nu client mobil",
+      "source_task_count": 0,
+      "pipeline": [
+        "A09-P4"
+      ]
+    },
+    {
+      "chapter": "P01.C19",
+      "title": "Aplicația mobilă iDempiere pentru Android",
+      "targets": [
+        {
+          "id": 1000365,
+          "name": "Acces telefoane și gestiuni",
+          "trees": 1,
+          "grant_records": 7
+        }
+      ],
+      "classification": "Suport ERP asociat, nu client mobil",
+      "source_task_count": 0,
+      "pipeline": [
+        "A09-P7"
+      ]
+    },
+    {
+      "chapter": "P01.C20",
+      "title": "Aplicația mobilă iDempiere pentru iPhone",
+      "targets": [
+        {
+          "id": 1000365,
+          "name": "Acces telefoane și gestiuni",
+          "trees": 1,
+          "grant_records": 7
+        }
+      ],
+      "classification": "Suport ERP asociat, nu client mobil",
+      "source_task_count": 0,
+      "pipeline": [
+        "A09-P7"
+      ]
+    }
+  ],
+  "source_versions": {
+    "git": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "theme": {
+      "installed": {
+        "jar": "D:/CodexWork/a09-version-assets/installed-theme.jar",
+        "h": "af35b0ac2770e83c682fa142069427502646c4d0884d12bbb9f329a3d677e976",
+        "bytes": 369811
+      },
+      "git": {
+        "jar": "D:/CodexWork/a09-version-assets/git-theme.jar",
+        "h": "92675a18b5f5d17ec034edaff681bd4e4908ee2c6632f0452d9f7824b403506f",
+        "bytes": 369835
+      }
+    },
+    "native_core": {
+      "path": "D:\\CodexWork\\eva-audit-secondary-20261102\\native\\org.adempiere.base\\src\\org\\compiere\\model\\X_AD_Menu.java",
+      "hash": "d840967dc283fb149a9ef0d22a61cc79852eb06fbaa33210e263056f78d708b7",
+      "constants": [
+        "ACTION_WorkFlow=F (linia 354)",
+        "ACTION_Form=X (linia 366)"
+      ]
+    },
+    "backend_for_menu": "7d22bd013fab0b32507f955a65a4f9d1fea995a4905409711eed3a644b221e82",
+    "core_source_vs_installed": "Candidații de sursă nativă și evidențele runtime sunt descrise separat în MATCH, META și ACTION. Coincidența unui handler nu dovedește întreg deploymentul."
+  },
+  "limits": [
+    "Zero rulat pe un telefon fizic/iPhone; nicio dovadă de client C18/C19/C20 instalabil. A09-AND01..06 au un addendum în așteptarea A11. Dovada de inventariere nu e clasificată drept test Android.",
+    "Probele mobil și accesibilitate nu confirmă cititorul de ecran, gesturile fizice, cameră, scanner, două sesiuni ZK sau toate filtrele de rol.",
+    "Capturile desktop ale ferestrei native provin dintr-un cabinet GardenWorld sintetic A05. Portalul și checkoutul sunt fixtures distincte.",
+    "Nu există reconstituirea tuturor fluxurilor end-to-end ale celor 20 capitole. C15/C16 sunt tehnice/documentare.",
+    "Programul TestT314Rol rămâne cu o verificare a bytecode-ului neconcludentă pe Git și încă două diferențe pe JAR instalat. Nu sunt clasificate ca încălcări reale de acces."
+  ],
+  "next_actions": [
+    "A11 reproduce cazurile F01–F05, verifică denominatoarele și diferența între teste efective, note istorice și probe transferate.",
+    "Reexecută pe dispozitive și roluri sintetice disponibile, pe un ZK izolat disponibil și pe formă instalată cu 10.001 rânduri.",
+    "Pentru F01 publică ambele controale native X/F în regresia backend; orice corectare de produs are următorul SHA și teste proprii."
+  ],
+  "false_positive_history": [
+    "TestT314Meniu inițial 185/2 pe Windows provenit din tratarea URI ca path; aceeași suită cu corecția infrastructurii are 194/0 pe ambele combinații.",
+    "Fișierele CSV q31 rămân capturi istorice; diferența de un ID nu este un defect al cabinetului. Capturile 360/1280 ale portalului nu se referă la iPhone/Android."
+  ],
+  "safe_execution": "Metadate prin BEGIN READ ONLY + ROLLBACK și §61. Fișierele nu conțin date personale; testele locale folosesc roluri/date sintetice. Nu au fost lansate acțiuni de business pe producție.",
+  "A11_review": null,
+  "individual_sheets": [
+    {
+      "id": "A09-C01",
+      "path": "executie/A09/fise/A09-C01.json",
+      "sha256": "7374553dbe43a266aeca7fcbc9a0387248313ef44b8b79f37ad3eded3278fbee"
+    },
+    {
+      "id": "A09-C02",
+      "path": "executie/A09/fise/A09-C02.json",
+      "sha256": "3fe7047c877cc269586c4568988f9e74f70920003b1cdee07f77a17a845a6789"
+    },
+    {
+      "id": "A09-C03",
+      "path": "executie/A09/fise/A09-C03.json",
+      "sha256": "fbecf64a96dbd4d05af7886edf92cbf7779aca8cd9332210f54d0a918aa06b0c"
+    },
+    {
+      "id": "A09-C04",
+      "path": "executie/A09/fise/A09-C04.json",
+      "sha256": "8c56231fb346c2f5422bdb99b10602b0e78102ec139a065fb9c23a14014393da"
+    },
+    {
+      "id": "A09-C05",
+      "path": "executie/A09/fise/A09-C05.json",
+      "sha256": "7b61559d510ae6e2d1c3aa0d4cb19f0aa4fe5b652fbd01b171daffa6b0654d2e"
+    },
+    {
+      "id": "A09-C06",
+      "path": "executie/A09/fise/A09-C06.json",
+      "sha256": "857d8d23af0debb0992287065db6eb77b62e1905cc007ea8b9ba8747d0a8e6fb"
+    },
+    {
+      "id": "A09-C07",
+      "path": "executie/A09/fise/A09-C07.json",
+      "sha256": "1a0260c62ce9cd18afc8b3f14f6f741757c747197ffdfd6203ecc50fc1388822"
+    },
+    {
+      "id": "A09-C08",
+      "path": "executie/A09/fise/A09-C08.json",
+      "sha256": "aaa0dc2172715fe5475527e70b630d15c72664d2815a2212977d858df1bc50a3"
+    },
+    {
+      "id": "A09-C09",
+      "path": "executie/A09/fise/A09-C09.json",
+      "sha256": "6f40b486712aaf5a5c193bfd8e5df352563b054c910954017031e5615987725c"
+    },
+    {
+      "id": "A09-C10",
+      "path": "executie/A09/fise/A09-C10.json",
+      "sha256": "e2e572e1d7cb07eeb4752c05812f740cf7fba96cb6aa79504c75b67509ed9776"
+    },
+    {
+      "id": "A09-C11",
+      "path": "executie/A09/fise/A09-C11.json",
+      "sha256": "31b63de8aaef6bc2353e43661735885943b80aa2a7436378b2c83f4f760bb2ff"
+    },
+    {
+      "id": "A09-C12",
+      "path": "executie/A09/fise/A09-C12.json",
+      "sha256": "2e125f8cc948450d1488e5766b67e396e04fa253bf3325d65a2b3e5f0fd34efe"
+    },
+    {
+      "id": "A09-C13",
+      "path": "executie/A09/fise/A09-C13.json",
+      "sha256": "fc081e3d396538667b8255d61da4910283b1c94b95c4b02d9f72462aeff26374"
+    },
+    {
+      "id": "A09-C14",
+      "path": "executie/A09/fise/A09-C14.json",
+      "sha256": "1393861ecdeef7b74440bc43db337323b4da5a107dc11bb59227b0a5214a0502"
+    },
+    {
+      "id": "A09-C15",
+      "path": "executie/A09/fise/A09-C15.json",
+      "sha256": "62305d92dd660fd39cefd5e0ceee4b7107ee15836ed06c6d15051d63f5fe3606"
+    },
+    {
+      "id": "A09-C16",
+      "path": "executie/A09/fise/A09-C16.json",
+      "sha256": "15ffab109f5161c2eac4b41dfde6db7c1d0e5d213df2a5dc4f3cd84f143dc288"
+    },
+    {
+      "id": "A09-C17",
+      "path": "executie/A09/fise/A09-C17.json",
+      "sha256": "a8e11f9fd8761f38d2718e29b93f1a360c9a9d5145b5bee52b398bf287285908"
+    },
+    {
+      "id": "A09-C18",
+      "path": "executie/A09/fise/A09-C18.json",
+      "sha256": "b23d2d052e3b13c59bda27c9e1da77ce10c4473f0aed6a0b6c7c7e9668dc9a7e"
+    },
+    {
+      "id": "A09-C19",
+      "path": "executie/A09/fise/A09-C19.json",
+      "sha256": "abe7e485217f3777ba45c2fafd6fd97af3699c21e2066924574096f96fe6cb60"
+    },
+    {
+      "id": "A09-C20",
+      "path": "executie/A09/fise/A09-C20.json",
+      "sha256": "19d60ddbf2584403bf00fad73f9c5e27a23b9976b921ac5fb50c5dd916405c8d"
+    },
+    {
+      "id": "A09-C21",
+      "path": "executie/A09/fise/A09-C21.json",
+      "sha256": "67b5f26af847780d15db03bc1d7d7ebc0c54c2aa81695e2354552a9187311b41"
+    },
+    {
+      "id": "A09-C22",
+      "path": "executie/A09/fise/A09-C22.json",
+      "sha256": "af647e5f80c26b9eb302823f0d14f74cb5b5416d05f94336e2a5512a5c6312f4"
+    },
+    {
+      "id": "A09-C23",
+      "path": "executie/A09/fise/A09-C23.json",
+      "sha256": "03733ea9cd263b6cadaf9b78c6e08c069294be7ee90d0ff9be7841c4fc227e5c"
+    },
+    {
+      "id": "A09-C24",
+      "path": "executie/A09/fise/A09-C24.json",
+      "sha256": "d7127111c6b1a36c95dc17db72ce0c60b33657d8da79efcaa94729b36512609e"
+    },
+    {
+      "id": "A09-C25",
+      "path": "executie/A09/fise/A09-C25.json",
+      "sha256": "73688cbfff1211032bc16ab58487c279eef390653bad178c1eb210713ccbec2c"
+    },
+    {
+      "id": "A09-C26",
+      "path": "executie/A09/fise/A09-C26.json",
+      "sha256": "09b4deacccc5828031435e2f431be28f339bf9478b45172816203fc933579db5"
+    },
+    {
+      "id": "A09-C27",
+      "path": "executie/A09/fise/A09-C27.json",
+      "sha256": "51658f3504fe53b93a9be2ba5e7d3da01e8e0a8a6f7ea3b608b479fe368b3e8c"
+    },
+    {
+      "id": "A09-C28",
+      "path": "executie/A09/fise/A09-C28.json",
+      "sha256": "c75f6551b6c46219cf5ea09e7e1c1f20abf13f974a9236c631c7e96ea0fc8957"
+    },
+    {
+      "id": "A09-C29",
+      "path": "executie/A09/fise/A09-C29.json",
+      "sha256": "21089cde8b56ca34fb474af17b79f79a8025e3534416fea0fc9cb3ae1d22d8b4"
+    },
+    {
+      "id": "A09-P1",
+      "path": "executie/A09/fise/A09-P1.json",
+      "sha256": "af94f57fc1af99fc10b26d240bc3330537f3460ee4a6846ad3fbaed4c94ba488"
+    },
+    {
+      "id": "A09-P2",
+      "path": "executie/A09/fise/A09-P2.json",
+      "sha256": "134498b971e3fc10287e930a7eca0fe664fd18acfaecbe9f37e19493cde0bb8b"
+    },
+    {
+      "id": "A09-P3",
+      "path": "executie/A09/fise/A09-P3.json",
+      "sha256": "5f6951313df3c4eac83c950c92ea6d5eb028d869fa2bdfff906242a1e168de1e"
+    },
+    {
+      "id": "A09-P4",
+      "path": "executie/A09/fise/A09-P4.json",
+      "sha256": "213a3a089a0142f8bf00d31b0732f3ad04ff654342b9d89c7d8144f61de6e158"
+    },
+    {
+      "id": "A09-P5",
+      "path": "executie/A09/fise/A09-P5.json",
+      "sha256": "c4b4c8cd9f558f667fcf9ce861026ca3f917836cfbcb291356b779377f062cb3"
+    },
+    {
+      "id": "A09-P6",
+      "path": "executie/A09/fise/A09-P6.json",
+      "sha256": "896e69c8b0071b039a219a8e19909619e8984c2e904bed19f8e5af860c23d8e4"
+    },
+    {
+      "id": "A09-P7",
+      "path": "executie/A09/fise/A09-P7.json",
+      "sha256": "721c3890654cc0f130f5031e0672a7707303427fbfa80189eb03653570b18c89"
+    }
+  ]
+}

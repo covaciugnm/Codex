@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Covaciu;Cosmin;;;
+FN:Cosmin Covaciu
+ORG:CESIRO
+TITLE:Production Manager
+TEL;TYPE=CELL:+40741119266
+EMAIL;TYPE=WORK:production@cesiro.ro
+URL:https://production.cesiro.ro
+END:VCARD

@@ -1,0 +1,62 @@
+[
+  [
+    "01",
+    "NIR asociază diferența cu articolul greșit după un rând gol sau neinterpretabil",
+    "ridicată",
+    "A04-C04 A04-C08",
+    "P1 are 7×10, P2 are 5×100. Implicit pe linia 1 și «3» pe linia 2 trebuie să păstreze P1=7 și P2=3 (370 lei).",
+    "În metoda din sursă și în JAR, intrările '\\n3' și 'eroare\\n3' produc [3,5] și 530 lei. Intrarea de control '7\\n3' produce [7,3] și 370 lei. 6 cazuri × 2 implementări; diferența de 160 lei și articolul greșit sunt reproductibile.",
+    "CatalogDocumente.java:94,96; NirReceptie.java:26,34–41; D0901.sablon.html:16",
+    "E-NIR-CODE E-NIR-JAR E-NIR-CLASS",
+    "Mapare după identitatea sau poziția fiecărei linii native din recepție. Implicit numai pentru aceeași linie și respingere explicită a valorii neinterpretate; testați două linii cu prețuri diferite și tipărirea.",
+    "Afectează calculul documentului NIR. Nici o dovadă că motorul nativ de stoc a făcut aceeași mișcare sau că s-au afectat date reale."
+  ],
+  [
+    "02",
+    "Verificatorul auxiliar reduce două facturi diferite la un număr de document",
+    "ridicată",
+    "A04-C16 A04-C18 A04-C24",
+    "Un N1 la vânzări și un N1 la cumpărări sunt două documente. Dacă există numai cel de cumpărări, unul trebuie să lipsească.",
+    "Recon.invoices(): 2 intrări SAGA, 1 document ERP, ieșire «1 potrivit, 0 lipsă». Cheia dicționarului este DocumentNo, sensul și partenerul nu sunt păstrate. Un credit −100 comparat la un debit +100 este acceptat pe valori absolute; semnul economic trebuie derivat și din tipul de document, absent din SELECT-ul acestui script.",
+    "backend/saga-migration/recon/recon.py:126–141",
+    "E-RECON",
+    "Folosiți chei de firmă, semnificație tip de document/partener/monedă, PK sursă și ID țintă. Legați raportul de C_Invoice și C_InvoiceLine. Control distinct pentru coliziune, semn și document lipsă.",
+    "Constatare confirmată în scriptul auxiliar. Nu atribuiți automat defectul procesului instalat VerificareImportSaga sau taskului T227."
+  ],
+  [
+    "03",
+    "Raportul auxiliar poate declara DATE COMPLETE cu rânduri lipsă ori cu citirea unei familii eșuată",
+    "ridicată",
+    "A04-C12 A04-C18 A04-C24",
+    "Un raport complet necesită documentarea fiecărui reziduu și succesul tuturor familiilor obligatorii.",
+    "Recon.run(), cu GL echilibrat: 0 rânduri lipsă → complet; 1 și 100 rânduri lipsă → complet; 101 → nu afișează complet. Excepție explicită la citirea partenerilor și 0 rânduri evaluate → afișează eroarea și DATE COMPLETE. În controlul +10 la o factură de 100, detectează diferența în text, fără a adăuga o lipsă la verdictul pe entitate.",
+    "backend/saga-migration/recon/recon.py:139–141,195–217,220–233",
+    "E-RECON E-RECON-VERDICT",
+    "Numitor și stare per familie, stări nepotrivit/eroare/exclus justificat, cod de ieșire distinct pentru reconciliere incompletă. Comparați explicit și etichetați reziduurile.",
+    "Rezultatul executabilului de comparație este afectat. Nu s-a observat că acest script aprobă automat o migrare în producție."
+  ],
+  [
+    "04",
+    "Portalul continuă să interogheze un job după 401 sau 404",
+    "medie",
+    "A04-C25 A04-C22",
+    "La expirarea sesiunii ori dispariția jobului operatorul vede eroarea și primește o cale de recuperare; verificarea automată se oprește sau se limitează explicit.",
+    "Fixtura execută funcția pollJob reală. Răspunsurile JSON 401 și 404 lasă textul «Import în curs … stare: ?» și reprogramează la 3000 ms. Repetarea aceleiași condiții replanifică fără limită în sursă. Pentru 200/imported spinnerul se oprește și nu se reprogramează.",
+    "frontend/portal/eva_import_saga.html:539–562; frontend/app.py:2549 și 3696",
+    "E-POLL",
+    "Tratați response.ok și familia de erori, oferiți relogare sau revenire la listă și păstrați ID-ul ultimei rulări. Retry limitat pentru erori tranzitorii.",
+    "Execuție JS cu DOM și transport sintetice. Nu a fost demonstrată ruta publicată pe cabinetul utilizatorului sau frecvența acestui defect în exploatare."
+  ],
+  [
+    "05",
+    "Două intrări ZIP cu aceeași destinație lasă pe disc numai ultima tabelă",
+    "ridicată",
+    "A04-C11 A04-C12",
+    "O arhivă cu două surse diferite la aceeași cale se respinge ori se rezolvă explicit înainte de simulare.",
+    "_materialize_source + _assert_archive_integrity pe ZIP cu două CLIENTI.DBF având conținut diferit: manifest doi membri, marcaj duplicate_basenames, integritate ok=true, fișier păstrat de 6 bytes doar din ultimul membru. Arhiva simplă a fost acceptată, traversarea ../ a fost respinsă. Aliasul imbricat a fost respins de validarea ulterioară, astfel că afirmația se limitează la calea demonstrată.",
+    "backend/app/routers/saga_import.py:372–406,663–684,706–735",
+    "E-ZIP",
+    "Respingeți coliziunile de cale canonică înainte de extragere și înainte de preview/apply. Construiți manifest cu hash și origine pe membru, păstrând directoarele distincte când politica o permite.",
+    "Octeții DBF sintetici verifică transportul, manifestul și garda de integritate. Nu au fost interpretați ca tabele SAGA valide și nu s-a creat un document contabil."
+  ]
+]

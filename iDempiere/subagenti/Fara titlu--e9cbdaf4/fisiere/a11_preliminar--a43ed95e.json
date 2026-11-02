@@ -1,0 +1,68 @@
+{
+  "schema": "eva.audit.preliminary-review.v1",
+  "reviewer": "A11",
+  "state": "PREGATIRE_INCHEIATA_FARA_APROBARE",
+  "scope": "Revizie preliminară de metodologie A12 și pregătirea rubricii globale; fără audit implementare",
+  "reviewed_artifact": "A12_plan_taskuri.json",
+  "reviewed_version_note": "Lectura versiunii candidate comunicată de A12 la începutul rundei; se cere reverificarea versiunii finale și fixarea hashului înaintea oricărei note.",
+  "score": null,
+  "gate": "INCHIS",
+  "implementation_audit_started": false,
+  "rubric": {
+    "file": "A11_rubrica_control.json",
+    "sha256": "4b1937a2f46606f29e4db10e7105806d0b7b462168c7ab7c03cbc5cafad0215d",
+    "criteria": 10,
+    "plan_subchecks": 50,
+    "report_subchecks": 50
+  },
+  "strengths": [
+    "Inventariere exhaustivă P01 cu statusuri/paginare/reconciliere",
+    "Criterii atomice și trasabilitate frontend/backend/DB/pipeline",
+    "36 controale și 9 familii de scenarii, cu rezultate neexecutate explicit",
+    "Separă nota auditului de conformitatea implementării",
+    "Producție read-only și nicio corecție ERP/cod/task în misiunea de audit"
+  ],
+  "mandatory_corrections": [
+    {
+      "id": "A11-PRE-A12-01",
+      "priority": "P1",
+      "where": "task_report_template.implementation_verdict_at_closure / current_code_snapshot",
+      "issue": "Verdictul la data închiderii nu are propriul snapshot cod/deploy/evidență istorică. Codul actual nu dovedește retroactiv conformitatea.",
+      "required": "Adaugă closure_code_snapshot, deployed_version_at_closure și dovezi datate; în lipsă păstrează NEDETERMINAT pentru conformitatea istorică.",
+      "status": "TRANSMIS_A12_DE_REVERIFICAT"
+    },
+    {
+      "id": "A11-PRE-A12-02",
+      "priority": "P2",
+      "where": "finding_template / evidence_template",
+      "issue": "Încrederea și nivelul probator nu sunt câmpuri explicite independente de severitate și status.",
+      "required": "Adaugă confidence cu justificare și evidence_level (static/test local/build/integration/sandbox/live read-only/istoric), compatibile cu rubrica A11.",
+      "status": "TRANSMIS_A12_DE_REVERIFICAT"
+    },
+    {
+      "id": "A11-PRE-A12-03",
+      "priority": "P2",
+      "where": "finding_template.status / scoring_policy / reaudit",
+      "issue": "RESPINS_CU_DOVEZI poate fi interpretat ca ștergere a constatării; controlul nu are toate stările de incertitudine/dependență explicite.",
+      "required": "Păstrează istoricul constatării și contra-dovezile/reviewerul. Aliniază INCONCLUDENT, BLOCAT_ACCES, NEEXECUTAT_DEPENDENTA_FAIL; incertitudinea nu este fals pozitiv demonstrat.",
+      "status": "TRANSMIS_A12_DE_REVERIFICAT"
+    },
+    {
+      "id": "A11-PRE-A12-04",
+      "priority": "P1",
+      "where": "șabloane și harta A01–A10",
+      "issue": "Șabloanele nu au încă exemplu executabil pe task/flux concret și proprietari rezolvați.",
+      "required": "După inventarul autoritativ și harta zonelor, instanțiază cel puțin un contract concret task→UI/API→serviciu→DB→pipeline→scenariu, cu așteptări determinate și observat NEEXECUTAT, fără audit înainte de gate.",
+      "status": "ASTEPATA_INTRARI_COORDONATOR"
+    }
+  ],
+  "global_inputs_before_scoring": [
+    "Planul complet și cele 10 fișe nominale, fiecare cu domenii reale și controale concrete",
+    "Inventar autoritativ complet P01 și numitor finalizate, fără a substitui propunerile istorice",
+    "SHA exact fixat și corpus, nativ/configurații/versiuni instalate separate",
+    "Matrice medii/acces și restricții, probe posibile/neexecutabile declarate",
+    "Harta contractelor între zone și cu A12",
+    "Versiunea A12 corectată, rubrică și manifest hash"
+  ],
+  "next_action": "A11 va fi relansat de coordonator pe pachetul complet. Nicio notă nu este acordată acum."
+}

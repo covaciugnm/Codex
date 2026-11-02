@@ -1,0 +1,30 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),cp=require('node:child_process');
+const option=(name,fallback)=>{const i=process.argv.indexOf(name);return i<0?fallback:process.argv[i+1];};
+const root=path.resolve(__dirname,'../decompilation-repair-2026-11-01'),planFile=path.resolve(option('--plan',path.join(root,'PILOT-PLAN.json'))),gateId=option('--gate','G1'),hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+const bytes=fs.readFileSync(planFile),plan=JSON.parse(bytes),planSha256=hash(bytes),gates=JSON.parse(fs.readFileSync(path.join(root,'audit/GATES.json'),'utf8')),gate=gates.gates.find(g=>(g.id||g.gate)===gateId);
+if(!gate||gate.status!=='PASS'||gate.score!==10||gate.planSha256!==planSha256)throw Error('Explicit auditor '+gateId+' PASS 10/10 for this exact plan SHA-256 is required. No run was started.');
+function verify(file,sha256,size){const b=fs.readFileSync(file);if(hash(b)!==sha256||(size!==undefined&&b.length!==size))throw Error('Input integrity mismatch '+file);return b;}
+function metrics(text){const result={};for(const[k,re]of Object.entries({jadxError:/JADX ERROR:/g,jadxWarning:/JADX WARN(?:ING)?:/g,generatedUnsupportedStub:/throw new (?:java\.lang\.)?UnsupportedOperationException\("Method not decompiled:/g,methodNotDecompiledText:/Method not decompiled:/g,inconsistentCode:/Code decompiled incorrectly/g,dumpSkipped:/Method dump skipped/g}))result[k]=[...text.matchAll(re)].length;return result;}
+async function main(){
+ if(plan.runs.length>plan.scope.maximumRuns)throw Error('Run count exceeds bounded plan');const started=Date.now(),deadline=started+plan.budget.maxTotalWallMs,results={schemaVersion:1,planSha256,gate:{id:gate.id||gate.gate,score:gate.score,evidence:gate.evidence},startedAt:new Date(started).toISOString(),semanticRepairsApproved:0,baselineModified:false,runs:[]};
+ const resultFile=path.resolve(option('--results','D:/Codex-iflytek-decompilation-repair-20261101/pilot/'+gateId+'-RESULTS.json'));fs.mkdirSync(path.dirname(resultFile),{recursive:true});
+ const save=()=>fs.writeFileSync(resultFile,JSON.stringify(results,null,2)+'\n');save();
+ for(const run of plan.runs){
+  if(Date.now()>=deadline){results.stopReason='Global pilot deadline reached';break;}
+  verify(plan.toolchain.jar,plan.toolchain.jarSha256);verify(plan.sourceComponent.path,plan.sourceComponent.sha256);for(const r of plan.selectedDex)verify(r.path,r.sha256,r.bytes);
+  const selected=hash(Buffer.from(plan.selectedDex.map(r=>r.entry+':'+r.sha256).sort().join('\n')));if(selected!==plan.dexSetSha256)throw Error('DEX set mismatch');
+  if(fs.existsSync(run.freshOutputDirectory))throw Error('A fresh output directory is required; refusing to overwrite '+run.freshOutputDirectory);fs.mkdirSync(run.freshOutputDirectory,{recursive:true});for(const p of Object.values(run.env))fs.mkdirSync(p,{recursive:true});
+  const stdout=fs.openSync(run.logs.stdout,'w'),stderr=fs.openSync(run.logs.stderr,'w'),begin=Date.now(),timeout=Math.min(run.timeoutMs,deadline-begin);let timedOut=false;
+  console.log('PILOT START',run.id,run.target);const exit=await new Promise((resolve,reject)=>{const child=cp.spawn(run.executable,run.args,{stdio:['ignore',stdout,stderr],windowsHide:true,env:{...process.env,...run.env}});const timer=setTimeout(()=>{timedOut=true;child.kill('SIGTERM');},timeout);child.on('error',e=>{clearTimeout(timer);reject(e);});child.on('close',(code,signal)=>{clearTimeout(timer);resolve({code,signal});});});fs.closeSync(stdout);fs.closeSync(stderr);
+  const out=fs.readFileSync(run.logs.stdout),err=fs.readFileSync(run.logs.stderr),log=out.toString('utf8')+'\n'+err.toString('utf8'),source=fs.existsSync(run.outputFile)?fs.readFileSync(run.outputFile):null;
+  const counts=source?metrics(source.toString('utf8')):null,target=plan.targets.find(t=>t.name===run.target),delta={};if(counts)for(const[k,n]of Object.entries(counts))delta[k]=n-(target.baselineMetrics[k]||0);
+  const summaries=[...log.matchAll(/finished with errors, count:\s*(\d+)/g)],loader=[...log.matchAll(/^ERROR\s*-\s*Failed to process zip file:([^\r\n]+)/gm)].map(m=>m[1].trim());
+  const cfg=[];function collect(folder){for(const e of fs.readdirSync(folder,{withFileTypes:true})){const p=path.join(folder,e.name);if(e.isDirectory()){if(!['cache','tmp','config'].includes(e.name))collect(p);}else if(e.name.endsWith('.dot')){const b=fs.readFileSync(p);cfg.push({path:p,sha256:hash(b),bytes:b.length});}}}collect(run.freshOutputDirectory);
+  const item={id:run.id,target:run.target,purpose:run.purpose,inputKind:run.inputKind,mode:run.mode,command:{executable:run.executable,args:run.args,env:run.env},startedAt:new Date(begin).toISOString(),finishedAt:new Date().toISOString(),durationMs:Date.now()-begin,timeoutMs:timeout,timedOut,exitCode:exit.code,signal:exit.signal,toolErrorCount:summaries.length?Number(summaries.at(-1)[1]):null,loaderEvents:loader,logs:{stdout:{path:run.logs.stdout,sha256:hash(out),bytes:out.length},stderr:{path:run.logs.stderr,sha256:hash(err),bytes:err.length}},source:source?{path:run.outputFile,sha256:hash(source),bytes:source.length,metrics:counts,deltaFromBaselineClass:delta}:null,cfg,methodCoverage:{status:'UNVERIFIED; source marker counts do not establish raw method or nested-class closure coverage'},classification:timedOut?'timed-out candidate; no promotion':run.evidenceOnly?'representation-only evidence; not a Java repair':'unverified candidate; no semantic repair claimed',auditorDecision:'PENDING_G2_G3'};
+  results.runs.push(item);save();console.log('PILOT DONE',run.id,'exit',exit.code,'timeout',timedOut,JSON.stringify(counts));
+  if(!timedOut&&(!run.allowedExitCodes.includes(exit.code)||!source)){results.stopReason='Infrastructure/coverage failure in '+run.id;break;}
+ }
+ results.finishedAt=new Date().toISOString();results.durationMs=Date.now()-started;save();fs.writeFileSync(path.resolve(option('--summary',path.join(root,'PILOT-RESULTS.json'))),JSON.stringify(results,null,2)+'\n');console.log('PILOT RESULTS',resultFile);
+}
+main().catch(e=>{console.error(e);process.exitCode=1;});

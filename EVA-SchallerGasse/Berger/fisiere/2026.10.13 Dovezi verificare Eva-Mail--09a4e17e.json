@@ -1,0 +1,2086 @@
+{
+  "data_lizibila": "2026.10.13",
+  "mailboxes": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"mailboxes\": [\n    {\n      \"id\": \"79db1e1a-c6e9-44b7-89ad-c9cd76899528\",\n      \"email\": \"factura3@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-05-28T15:05:35.568110Z\"\n    },\n    {\n      \"id\": \"137dbd8c-3cd2-48ff-8e86-db5c0290663d\",\n      \"email\": \"admin@nova-robotics.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-29T17:38:56.048744Z\"\n    },\n    {\n      \"id\": \"94f39814-f872-470a-a4b6-b3601c96e414\",\n      \"email\": \"factura1@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n      \"email\": \"covaciu.gnm@gmail.com\",\n      \"provider\": \"gmail\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-13T02:04:19.931424Z\"\n    },\n    {\n      \"id\": \"61d34ecc-27ac-48b0-98c6-0dbf637edf9a\",\n      \"email\": \"cosmin@ig.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-09T23:30:10.009451Z\"\n    },\n    {\n      \"id\": \"a784aaf0-c0e1-422a-8b01-303f74660c56\",\n      \"email\": \"covaciu.gnm@eva-org.com\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-05T20:30:06.421684Z\"\n    },\n    {\n      \"id\": \"4fa7391b-56f5-4e3f-9985-1838429347b8\",\n      \"email\": \"mariuscodewnk@yahoo.com\",\n      \"provider\": \"yahoo\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-13T05:00:05.717113Z\"\n    },\n    {\n      \"id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n      \"email\": \"office@ac-wohnart.at\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-13T05:00:15.337790Z\"\n    },\n    {\n      \"id\": \"4387d9c0-409c-48ca-8afc-ee4fff7d41ed\",\n      \"email\": \"factura2@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-06-21T23:30:06.079888Z\"\n    },\n    {\n      \"id\": \"30b3ba70-9bd8-46a2-993c-18ea0e621036\",\n      \"email\": \"vaidae104@gmail.com\",\n      \"provider\": \"gmail\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-12T03:04:32.821274Z\"\n    },\n    {\n      \"id\": \"07ce0e1a-529f-40aa-90e1-3b99b52d89d1\",\n      \"email\": \"factura@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-06-25T10:00:12.428091Z\"\n    },\n    {\n      \"id\": \"16488f9f-3815-4e45-8947-39d52637fb6f\",\n      \"email\": \"production@cesiro.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-16T20:30:20.790286Z\"\n    },\n    {\n      \"id\": \"d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5\",\n      \"email\": \"cosmin.covaciu@cesiro.com\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-13T05:00:07.201327Z\"\n    },\n    {\n      \"id\": \"3af45560-d448-4125-97cd-f12519882779\",\n      \"email\": \"office@alba-vision.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-12T20:30:23.206837Z\"\n    },\n    {\n      \"id\": \"cc655410-6d31-4ff6-a01f-2bd267bbe840\",\n      \"email\": \"cosmin.covaciu@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-13T04:30:06.847051Z\"\n    },\n    {\n      \"id\": \"54f7feea-ba99-47bb-99f1-c441f9eeafea\",\n      \"email\": \"link_covaciu@yahoo.com\",\n      \"provider\": \"yahoo\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-08-02T20:30:05.901517Z\"\n    },\n    {\n      \"id\": \"5cbbba25-f4d8-4b0b-b726-f33324e355d4\",\n      \"email\": \"cosmin.covaciu@cesiro.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-13T05:00:09.742231Z\"\n    },\n    {\n      \"id\": \"shared:cesiro.horeca@gmail.com\",\n      \"email\": \"cesiro.horeca@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"team\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:dancorproiectsrl@gmail.com\",\n      \"email\": \"dancorproiectsrl@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:3dspacearideit@gmail.com\",\n      \"email\": \"3dspacearideit@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:3dspacearide@gmail.com\",\n      \"email\": \"3dspacearide@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "mailboxes": [
+        {
+          "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+          "email": "factura3@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-05-28T15:05:35.568110Z"
+        },
+        {
+          "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+          "email": "admin@nova-robotics.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-29T17:38:56.048744Z"
+        },
+        {
+          "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+          "email": "factura1@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+          "email": "covaciu.gnm@gmail.com",
+          "provider": "gmail",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-13T02:04:19.931424Z"
+        },
+        {
+          "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+          "email": "cosmin@ig.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-09T23:30:10.009451Z"
+        },
+        {
+          "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+          "email": "covaciu.gnm@eva-org.com",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-05T20:30:06.421684Z"
+        },
+        {
+          "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+          "email": "mariuscodewnk@yahoo.com",
+          "provider": "yahoo",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-13T05:00:05.717113Z"
+        },
+        {
+          "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+          "email": "office@ac-wohnart.at",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-13T05:00:15.337790Z"
+        },
+        {
+          "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+          "email": "factura2@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-06-21T23:30:06.079888Z"
+        },
+        {
+          "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+          "email": "vaidae104@gmail.com",
+          "provider": "gmail",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-12T03:04:32.821274Z"
+        },
+        {
+          "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+          "email": "factura@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-06-25T10:00:12.428091Z"
+        },
+        {
+          "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+          "email": "production@cesiro.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-16T20:30:20.790286Z"
+        },
+        {
+          "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+          "email": "cosmin.covaciu@cesiro.com",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-13T05:00:07.201327Z"
+        },
+        {
+          "id": "3af45560-d448-4125-97cd-f12519882779",
+          "email": "office@alba-vision.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-12T20:30:23.206837Z"
+        },
+        {
+          "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+          "email": "cosmin.covaciu@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-13T04:30:06.847051Z"
+        },
+        {
+          "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+          "email": "link_covaciu@yahoo.com",
+          "provider": "yahoo",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-08-02T20:30:05.901517Z"
+        },
+        {
+          "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+          "email": "cosmin.covaciu@cesiro.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-13T05:00:09.742231Z"
+        },
+        {
+          "id": "shared:cesiro.horeca@gmail.com",
+          "email": "cesiro.horeca@gmail.com",
+          "provider": "",
+          "permission": "team",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:dancorproiectsrl@gmail.com",
+          "email": "dancorproiectsrl@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:3dspacearideit@gmail.com",
+          "email": "3dspacearideit@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:3dspacearide@gmail.com",
+          "email": "3dspacearide@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        }
+      ]
+    },
+    "isError": false
+  },
+  "searches": [
+    {
+      "args": {
+        "query": "Schallergasse",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"c384374a-c419-4747-a768-326f41f4e4b2\",\n      \"account_email\": \"covaciu.gnm@gmail.com\",\n      \"subject\": \"1120 WIEN, Schallergasse 35\",\n      \"from_name\": \"Frigo Peter Rupert\",\n      \"from_address\": \"peter.frigo@frigo.at\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-12T14:12:36Z\",\n      \"snippet\": \"Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"IMPORTANT\",\n        \"CATEGORY_PERSONAL\",\n        \"INBOX\",\n        \"3: Fyi\",\n        \"Label_43905\"\n      ],\n      \"folder\": \"Frigo Peter Rupert\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"image001.png\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "c384374a-c419-4747-a768-326f41f4e4b2",
+              "account_email": "covaciu.gnm@gmail.com",
+              "subject": "1120 WIEN, Schallergasse 35",
+              "from_name": "Frigo Peter Rupert",
+              "from_address": "peter.frigo@frigo.at",
+              "to": [
+                "covaciu.gnm@gmail.com"
+              ],
+              "received_at": "2026-10-12T14:12:36Z",
+              "snippet": "Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie",
+              "category": "fyi",
+              "labels": [
+                "UNREAD",
+                "IMPORTANT",
+                "CATEGORY_PERSONAL",
+                "INBOX",
+                "3: Fyi",
+                "Label_43905"
+              ],
+              "folder": "Frigo Peter Rupert",
+              "is_read": false,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": true,
+              "attachment_names": [
+                "image001.png"
+              ]
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Schaller",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"c384374a-c419-4747-a768-326f41f4e4b2\",\n      \"account_email\": \"covaciu.gnm@gmail.com\",\n      \"subject\": \"1120 WIEN, Schallergasse 35\",\n      \"from_name\": \"Frigo Peter Rupert\",\n      \"from_address\": \"peter.frigo@frigo.at\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-12T14:12:36Z\",\n      \"snippet\": \"Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"IMPORTANT\",\n        \"CATEGORY_PERSONAL\",\n        \"INBOX\",\n        \"3: Fyi\",\n        \"Label_43905\"\n      ],\n      \"folder\": \"Frigo Peter Rupert\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"image001.png\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "c384374a-c419-4747-a768-326f41f4e4b2",
+              "account_email": "covaciu.gnm@gmail.com",
+              "subject": "1120 WIEN, Schallergasse 35",
+              "from_name": "Frigo Peter Rupert",
+              "from_address": "peter.frigo@frigo.at",
+              "to": [
+                "covaciu.gnm@gmail.com"
+              ],
+              "received_at": "2026-10-12T14:12:36Z",
+              "snippet": "Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie",
+              "category": "fyi",
+              "labels": [
+                "UNREAD",
+                "IMPORTANT",
+                "CATEGORY_PERSONAL",
+                "INBOX",
+                "3: Fyi",
+                "Label_43905"
+              ],
+              "folder": "Frigo Peter Rupert",
+              "is_read": false,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": true,
+              "attachment_names": [
+                "image001.png"
+              ]
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "1120 Wien",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"c384374a-c419-4747-a768-326f41f4e4b2\",\n      \"account_email\": \"covaciu.gnm@gmail.com\",\n      \"subject\": \"1120 WIEN, Schallergasse 35\",\n      \"from_name\": \"Frigo Peter Rupert\",\n      \"from_address\": \"peter.frigo@frigo.at\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-12T14:12:36Z\",\n      \"snippet\": \"Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"IMPORTANT\",\n        \"CATEGORY_PERSONAL\",\n        \"INBOX\",\n        \"3: Fyi\",\n        \"Label_43905\"\n      ],\n      \"folder\": \"Frigo Peter Rupert\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"image001.png\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "c384374a-c419-4747-a768-326f41f4e4b2",
+              "account_email": "covaciu.gnm@gmail.com",
+              "subject": "1120 WIEN, Schallergasse 35",
+              "from_name": "Frigo Peter Rupert",
+              "from_address": "peter.frigo@frigo.at",
+              "to": [
+                "covaciu.gnm@gmail.com"
+              ],
+              "received_at": "2026-10-12T14:12:36Z",
+              "snippet": "Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie",
+              "category": "fyi",
+              "labels": [
+                "UNREAD",
+                "IMPORTANT",
+                "CATEGORY_PERSONAL",
+                "INBOX",
+                "3: Fyi",
+                "Label_43905"
+              ],
+              "folder": "Frigo Peter Rupert",
+              "is_read": false,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": true,
+              "attachment_names": [
+                "image001.png"
+              ]
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "A&C Wohnart",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "TOMS",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"96ae0ba7-1552-4619-8439-f17ac8c86313\",\n      \"account_email\": \"vaidae104@gmail.com\",\n      \"subject\": \"Ai trimis unele date din Contul tău Google la Claude\",\n      \"from_name\": \"Google\",\n      \"from_address\": \"noreply-accounts@google.com\",\n      \"to\": [\n        \"vaidae104@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-11T12:00:01Z\",\n      \"snippet\": \"Urmărește datele din Contul tău Google vaidae104@gmail.com Ai primit acest e-mail deoarece ai folosit Conectează-te cu Google pentru a te conecta la Claude pe 11 octombrie la 14:59. Acest e-mail rezumă\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"CATEGORY_UPDATES\",\n        \"INBOX\",\n        \"8: Marketing\",\n        \"Label_82\"\n      ],\n      \"folder\": \"Google\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "96ae0ba7-1552-4619-8439-f17ac8c86313",
+              "account_email": "vaidae104@gmail.com",
+              "subject": "Ai trimis unele date din Contul tău Google la Claude",
+              "from_name": "Google",
+              "from_address": "noreply-accounts@google.com",
+              "to": [
+                "vaidae104@gmail.com"
+              ],
+              "received_at": "2026-10-11T12:00:01Z",
+              "snippet": "Urmărește datele din Contul tău Google vaidae104@gmail.com Ai primit acest e-mail deoarece ai folosit Conectează-te cu Google pentru a te conecta la Claude pe 11 octombrie la 14:59. Acest e-mail rezumă",
+              "category": "fyi",
+              "labels": [
+                "UNREAD",
+                "CATEGORY_UPDATES",
+                "INBOX",
+                "8: Marketing",
+                "Label_82"
+              ],
+              "folder": "Google",
+              "is_read": false,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": false,
+              "attachment_names": []
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Zottl",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "BAU-WERTE",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "SCHAUERLEUTE",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Schmitt",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "KONE",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Weigl",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Füglister",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Fuglister",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Otis",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Schindler",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "TK Elevator",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "2616052",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "2044001194",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "2900010498",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Maritczak",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Commerz",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "donauversicherung",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Capra",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Paknehad",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Themis",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "STURM",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "42018142",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "42017328",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "MA6",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"5d3f1b6f-ed43-486c-9338-d816803ed9f9\",\n      \"account_email\": \"cosmin.covaciu@ipec.ro\",\n      \"subject\": \"Industrial Robots Market Intelligence\",\n      \"from_name\": \"Colin Schwartz\",\n      \"from_address\": \"colin.s@updatecover.com\",\n      \"to\": [\n        \"cosmin.covaciu@ipec.ro\"\n      ],\n      \"received_at\": \"2026-10-12T09:32:33Z\",\n      \"snippet\": \"        ✉ E-mail extern — Mesaj primit din exteriorul IPEC. Verificați expeditorul înainte de a acce\",\n      \"category\": null,\n      \"labels\": [],\n      \"folder\": null,\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "5d3f1b6f-ed43-486c-9338-d816803ed9f9",
+              "account_email": "cosmin.covaciu@ipec.ro",
+              "subject": "Industrial Robots Market Intelligence",
+              "from_name": "Colin Schwartz",
+              "from_address": "colin.s@updatecover.com",
+              "to": [
+                "cosmin.covaciu@ipec.ro"
+              ],
+              "received_at": "2026-10-12T09:32:33Z",
+              "snippet": "        ✉ E-mail extern — Mesaj primit din exteriorul IPEC. Verificați expeditorul înainte de a acce",
+              "category": null,
+              "labels": [],
+              "folder": null,
+              "is_read": true,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": false,
+              "attachment_names": []
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "058899708",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Wiener Wasser",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "MA31",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "120031905",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "123482077",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Attensam",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "ARTUS",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Hönig",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Honig",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "STOLEX",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Lechner",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "bmberger.at",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "zt-pech.at",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "2026-470",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "ANG0232318",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "13991719",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "is_sent": false,
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"e3f73ec8-0948-4690-9630-07d2caebed87\",\n      \"account_email\": \"office@ac-wohnart.at\",\n      \"subject\": \"Re: test trimitee\",\n      \"from_name\": \"Cesiro Horeca\",\n      \"from_address\": \"cesiro.horeca@gmail.com\",\n      \"to\": [\n        \"office@ac-wohnart.at\"\n      ],\n      \"received_at\": \"2026-10-10T21:19:55Z\",\n      \"snippet\": \"Test înapoi\\r\\n\\r\\nOn Sun, 11 Oct 2026 at 00:18, <office@ac-wohnart.at> wrote:\\r\\n\\r\\n> test rrimitere\\r\\n\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"1: To respond\",\n        \"99: Important\"\n      ],\n      \"folder\": \"Cesiro Horeca\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "e3f73ec8-0948-4690-9630-07d2caebed87",
+              "account_email": "office@ac-wohnart.at",
+              "subject": "Re: test trimitee",
+              "from_name": "Cesiro Horeca",
+              "from_address": "cesiro.horeca@gmail.com",
+              "to": [
+                "office@ac-wohnart.at"
+              ],
+              "received_at": "2026-10-10T21:19:55Z",
+              "snippet": "Test înapoi\r\n\r\nOn Sun, 11 Oct 2026 at 00:18, <office@ac-wohnart.at> wrote:\r\n\r\n> test rrimitere\r\n",
+              "category": "fyi",
+              "labels": [
+                "1: To respond",
+                "99: Important"
+              ],
+              "folder": "Cesiro Horeca",
+              "is_read": true,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": false,
+              "attachment_names": []
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "is_sent": true,
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"65cc1357-c8b2-4cc0-bac2-35b999386777\",\n      \"account_email\": \"office@ac-wohnart.at\",\n      \"subject\": \"test trimitee\",\n      \"from_name\": \"office@ac-wohnart.at\",\n      \"from_address\": \"office@ac-wohnart.at\",\n      \"to\": [\n        \"cesiro.horeca@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-10T21:18:35.007869Z\",\n      \"snippet\": \"test rrimitere\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"SENT\",\n        \"3: Fyi\"\n      ],\n      \"folder\": \"cesiro.horeca@gmail.com\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": true,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "65cc1357-c8b2-4cc0-bac2-35b999386777",
+              "account_email": "office@ac-wohnart.at",
+              "subject": "test trimitee",
+              "from_name": "office@ac-wohnart.at",
+              "from_address": "office@ac-wohnart.at",
+              "to": [
+                "cesiro.horeca@gmail.com"
+              ],
+              "received_at": "2026-10-10T21:18:35.007869Z",
+              "snippet": "test rrimitere",
+              "category": "fyi",
+              "labels": [
+                "SENT",
+                "3: Fyi"
+              ],
+              "folder": "cesiro.horeca@gmail.com",
+              "is_read": true,
+              "is_starred": false,
+              "is_sent": true,
+              "has_attachments": false,
+              "attachment_names": []
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "sender": "peter.frigo",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"c384374a-c419-4747-a768-326f41f4e4b2\",\n      \"account_email\": \"covaciu.gnm@gmail.com\",\n      \"subject\": \"1120 WIEN, Schallergasse 35\",\n      \"from_name\": \"Frigo Peter Rupert\",\n      \"from_address\": \"peter.frigo@frigo.at\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-12T14:12:36Z\",\n      \"snippet\": \"Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"IMPORTANT\",\n        \"CATEGORY_PERSONAL\",\n        \"INBOX\",\n        \"3: Fyi\",\n        \"Label_43905\"\n      ],\n      \"folder\": \"Frigo Peter Rupert\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"image001.png\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "c384374a-c419-4747-a768-326f41f4e4b2",
+              "account_email": "covaciu.gnm@gmail.com",
+              "subject": "1120 WIEN, Schallergasse 35",
+              "from_name": "Frigo Peter Rupert",
+              "from_address": "peter.frigo@frigo.at",
+              "to": [
+                "covaciu.gnm@gmail.com"
+              ],
+              "received_at": "2026-10-12T14:12:36Z",
+              "snippet": "Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie",
+              "category": "fyi",
+              "labels": [
+                "UNREAD",
+                "IMPORTANT",
+                "CATEGORY_PERSONAL",
+                "INBOX",
+                "3: Fyi",
+                "Label_43905"
+              ],
+              "folder": "Frigo Peter Rupert",
+              "is_read": false,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": true,
+              "attachment_names": [
+                "image001.png"
+              ]
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Frigo",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"c384374a-c419-4747-a768-326f41f4e4b2\",\n      \"account_email\": \"covaciu.gnm@gmail.com\",\n      \"subject\": \"1120 WIEN, Schallergasse 35\",\n      \"from_name\": \"Frigo Peter Rupert\",\n      \"from_address\": \"peter.frigo@frigo.at\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-12T14:12:36Z\",\n      \"snippet\": \"Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"IMPORTANT\",\n        \"CATEGORY_PERSONAL\",\n        \"INBOX\",\n        \"3: Fyi\",\n        \"Label_43905\"\n      ],\n      \"folder\": \"Frigo Peter Rupert\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"image001.png\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "c384374a-c419-4747-a768-326f41f4e4b2",
+              "account_email": "covaciu.gnm@gmail.com",
+              "subject": "1120 WIEN, Schallergasse 35",
+              "from_name": "Frigo Peter Rupert",
+              "from_address": "peter.frigo@frigo.at",
+              "to": [
+                "covaciu.gnm@gmail.com"
+              ],
+              "received_at": "2026-10-12T14:12:36Z",
+              "snippet": "Sehr geehrter Herr COVACIU! Ich habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie",
+              "category": "fyi",
+              "labels": [
+                "UNREAD",
+                "IMPORTANT",
+                "CATEGORY_PERSONAL",
+                "INBOX",
+                "3: Fyi",
+                "Label_43905"
+              ],
+              "folder": "Frigo Peter Rupert",
+              "is_read": false,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": true,
+              "attachment_names": [
+                "image001.png"
+              ]
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Hausverwaltung",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Prüfingenieur",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Bauwerksbuch",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Berger",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Pech",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "REALIG",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "RUDOLPH",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Finanzamt",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Böhm",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "query": "Cerha Hempel",
+        "date_from": "2026-10-11",
+        "date_to": "2026-10-13",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [],\n  \"total\": 0,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [],
+          "total": 0,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    }
+  ],
+  "context_searches": [
+    {
+      "args": {
+        "sender": "peter.frigo",
+        "date_from": "2026-09-09",
+        "date_to": "2026-09-11",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"items\": [\n    {\n      \"id\": \"974d8861-ff7f-41f7-a617-6c772b429f60\",\n      \"account_email\": \"covaciu.gnm@eva-org.com\",\n      \"subject\": \"WG: 1120 WIEN, Schallergasse 35\",\n      \"from_name\": \"Frigo Peter Rupert\",\n      \"from_address\": \"peter.frigo@frigo.at\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-09-10T08:18:25Z\",\n      \"snippet\": \"Sehr geehrter Herr COVACIU! Wunschgemäß übermittle ich Ihnen das aktualisierte Verwaltungsangebot samt Infomaterial zu I\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"3: Fyi\"\n      ],\n      \"folder\": \"Frigo Peter Rupert\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"image001.png\",\n        \"image002.png\",\n        \"Vorstellung Immobilien Frigo.pdf\",\n        \"1120 WIEN, Schallergasse 35.pdf\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+          }
+        ],
+        "structuredContent": {
+          "items": [
+            {
+              "id": "974d8861-ff7f-41f7-a617-6c772b429f60",
+              "account_email": "covaciu.gnm@eva-org.com",
+              "subject": "WG: 1120 WIEN, Schallergasse 35",
+              "from_name": "Frigo Peter Rupert",
+              "from_address": "peter.frigo@frigo.at",
+              "to": [
+                "covaciu.gnm@gmail.com"
+              ],
+              "received_at": "2026-09-10T08:18:25Z",
+              "snippet": "Sehr geehrter Herr COVACIU! Wunschgemäß übermittle ich Ihnen das aktualisierte Verwaltungsangebot samt Infomaterial zu I",
+              "category": "fyi",
+              "labels": [
+                "3: Fyi"
+              ],
+              "folder": "Frigo Peter Rupert",
+              "is_read": true,
+              "is_starred": false,
+              "is_sent": false,
+              "has_attachments": true,
+              "attachment_names": [
+                "image001.png",
+                "image002.png",
+                "Vorstellung Immobilien Frigo.pdf",
+                "1120 WIEN, Schallergasse 35.pdf"
+              ]
+            }
+          ],
+          "total": 1,
+          "limit": 50,
+          "offset": 0
+        },
+        "isError": false
+      }
+    }
+  ],
+  "full_new_emails": [
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"id\": \"c384374a-c419-4747-a768-326f41f4e4b2\",\n  \"account_email\": \"covaciu.gnm@gmail.com\",\n  \"subject\": \"1120 WIEN, Schallergasse 35\",\n  \"from_name\": \"Frigo Peter Rupert\",\n  \"from_address\": \"peter.frigo@frigo.at\",\n  \"to\": [\n    \"covaciu.gnm@gmail.com\"\n  ],\n  \"cc\": [],\n  \"received_at\": \"2026-10-12T14:12:36Z\",\n  \"text\": \"Sehr geehrter Herr COVACIU!\\r\\n\\r\\nIch habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie bitte Bescheid.\\r\\n\\r\\nMit freundlichen Grüßen\\r\\n\\r\\n[cid:image001.png@01DD5A64.7D779000]\\r\\n\\r\\n\",\n  \"truncated\": false,\n  \"labels\": [\n    \"UNREAD\",\n    \"IMPORTANT\",\n    \"CATEGORY_PERSONAL\",\n    \"INBOX\",\n    \"3: Fyi\",\n    \"Label_43905\"\n  ],\n  \"category\": \"fyi\",\n  \"folder\": \"Frigo Peter Rupert\",\n  \"thread_id\": \"1a130758113b7853\",\n  \"is_read\": false,\n  \"is_sent\": false,\n  \"attachments\": [\n    {\n      \"id\": \"bd01729c-c331-411b-bbef-cb32011047ff\",\n      \"name\": \"image001.png\",\n      \"size\": 37110,\n      \"content_type\": \"image/png\",\n      \"has_text\": false,\n      \"text_chars\": 0,\n      \"page_count\": null,\n      \"text\": null\n    }\n  ],\n  \"note\": \"\"\n}"
+        }
+      ],
+      "structuredContent": {
+        "id": "c384374a-c419-4747-a768-326f41f4e4b2",
+        "account_email": "covaciu.gnm@gmail.com",
+        "subject": "1120 WIEN, Schallergasse 35",
+        "from_name": "Frigo Peter Rupert",
+        "from_address": "peter.frigo@frigo.at",
+        "to": [
+          "covaciu.gnm@gmail.com"
+        ],
+        "cc": [],
+        "received_at": "2026-10-12T14:12:36Z",
+        "text": "Sehr geehrter Herr COVACIU!\r\n\r\nIch habe Ihnen am 10.09.2026 das aktualisierte Angebot übermittelt und hoffe, dass dieses Mal die Übermittlung geklappt hat. Sollten Sie noch Fragen dazu haben, geben Sie bitte Bescheid.\r\n\r\nMit freundlichen Grüßen\r\n\r\n[cid:image001.png@01DD5A64.7D779000]\r\n\r\n",
+        "truncated": false,
+        "labels": [
+          "UNREAD",
+          "IMPORTANT",
+          "CATEGORY_PERSONAL",
+          "INBOX",
+          "3: Fyi",
+          "Label_43905"
+        ],
+        "category": "fyi",
+        "folder": "Frigo Peter Rupert",
+        "thread_id": "1a130758113b7853",
+        "is_read": false,
+        "is_sent": false,
+        "attachments": [
+          {
+            "id": "bd01729c-c331-411b-bbef-cb32011047ff",
+            "name": "image001.png",
+            "size": 37110,
+            "content_type": "image/png",
+            "has_text": false,
+            "text_chars": 0,
+            "page_count": null,
+            "text": null
+          }
+        ],
+        "note": ""
+      },
+      "isError": false
+    }
+  ],
+  "excluded_verification": [
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"id\": \"5d3f1b6f-ed43-486c-9338-d816803ed9f9\",\n  \"account_email\": \"cosmin.covaciu@ipec.ro\",\n  \"subject\": \"Industrial Robots Market Intelligence\",\n  \"from_name\": \"Colin Schwartz\",\n  \"from_address\": \"colin.s@updatecover.com\",\n  \"to\": [\n    \"cosmin.covaciu@ipec.ro\"\n  ],\n  \"cc\": [],\n  \"received_at\": \"2026-10-12T09:32:33Z\",\n  \"text\": \"        ✉ E-mail extern — Mesaj primit din exteriorul IPEC. Verificați expeditorul înainte de a accesa linkuri sau atașamente.\\r\\n\\r\\n\\r\\n\\r\\n        ⚠ Expeditor nevalidat — Această adresă nu se află în lista de expeditori validați. Dacă este un partener legitim, contactați departamentul IT pentru validare.\\r\\n\\r\\n\\r\\n\\r\\nHi,\\r\\n\\r\\nOur latest Industrial Robots Market study provides insights into market growth, demand trends, key players, emerging trends, and regional developments.\\r\\n\\r\\nIt can help businesses assess growth areas and evaluate relevant market developments.\\r\\n\\r\\nCan I share some preview pages of this report?\\r\\n\\r\\nBest regards,\\r\\nColin\\r\\nClient Partner\\r\\n[https://info-updatecover-com.gmailroute.net/kNUQhR_cKKa1ciearMX9vpHoKC4QyP8Pc560TGCrFbOTPocSLnKdUDNkfUTGGvIUrti74lnN8eYaTDErWaNFfe1P7FkLQQAhqX5jNEldn2MqJlDdAaZIruyUMa6GO9Ru3O_kbf8hdVNntq7ibGAhe_k1IAcc1kBzLJlg8ciYN-4ajgmFXjZi7ZabsoQ9lD-bJfEQrFrujjMuuzmFN3xkoB]\\r\\n\",\n  \"truncated\": false,\n  \"labels\": [],\n  \"category\": null,\n  \"folder\": null,\n  \"thread_id\": \"AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAMbFPGzVx3NCv14b+Yk27pM=\",\n  \"is_read\": true,\n  \"is_sent\": false,\n  \"attachments\": [],\n  \"note\": \"\"\n}"
+        }
+      ],
+      "structuredContent": {
+        "id": "5d3f1b6f-ed43-486c-9338-d816803ed9f9",
+        "account_email": "cosmin.covaciu@ipec.ro",
+        "subject": "Industrial Robots Market Intelligence",
+        "from_name": "Colin Schwartz",
+        "from_address": "colin.s@updatecover.com",
+        "to": [
+          "cosmin.covaciu@ipec.ro"
+        ],
+        "cc": [],
+        "received_at": "2026-10-12T09:32:33Z",
+        "text": "        ✉ E-mail extern — Mesaj primit din exteriorul IPEC. Verificați expeditorul înainte de a accesa linkuri sau atașamente.\r\n\r\n\r\n\r\n        ⚠ Expeditor nevalidat — Această adresă nu se află în lista de expeditori validați. Dacă este un partener legitim, contactați departamentul IT pentru validare.\r\n\r\n\r\n\r\nHi,\r\n\r\nOur latest Industrial Robots Market study provides insights into market growth, demand trends, key players, emerging trends, and regional developments.\r\n\r\nIt can help businesses assess growth areas and evaluate relevant market developments.\r\n\r\nCan I share some preview pages of this report?\r\n\r\nBest regards,\r\nColin\r\nClient Partner\r\n[https://info-updatecover-com.gmailroute.net/kNUQhR_cKKa1ciearMX9vpHoKC4QyP8Pc560TGCrFbOTPocSLnKdUDNkfUTGGvIUrti74lnN8eYaTDErWaNFfe1P7FkLQQAhqX5jNEldn2MqJlDdAaZIruyUMa6GO9Ru3O_kbf8hdVNntq7ibGAhe_k1IAcc1kBzLJlg8ciYN-4ajgmFXjZi7ZabsoQ9lD-bJfEQrFrujjMuuzmFN3xkoB]\r\n",
+        "truncated": false,
+        "labels": [],
+        "category": null,
+        "folder": null,
+        "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAMbFPGzVx3NCv14b+Yk27pM=",
+        "is_read": true,
+        "is_sent": false,
+        "attachments": [],
+        "note": ""
+      },
+      "isError": false
+    }
+  ],
+  "download_metadata": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"id\":\"bd01729c-c331-411b-bbef-cb32011047ff\",\"filename\":\"image001.png\",\"mime_type\":\"image/png\",\"size\":37110,\"storage\":\"database\",\"url\":\"https://api.eva-org.com/api/v1/files/eyJkIjoiYmQwMTcyOWMtYzMzMS00MTFiLWJiZWYtY2IzMjAxMTA0N2ZmIiwiZSI6MTc5MTg3MTY1NywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.8xqPwIbSS7Ij87TeShlSVdqxwBOLXq0Hb0gg50x_cY0\",\"expires_at\":\"2026-10-13T06:07:37Z\",\"mode\":\"download\",\"note\":\"Download the URL to retrieve the complete original file and attach it using your client's file tools.\"}"
+      },
+      {
+        "type": "resource_link",
+        "uri": "https://api.eva-org.com/api/v1/files/eyJkIjoiYmQwMTcyOWMtYzMzMS00MTFiLWJiZWYtY2IzMjAxMTA0N2ZmIiwiZSI6MTc5MTg3MTY1NywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.8xqPwIbSS7Ij87TeShlSVdqxwBOLXq0Hb0gg50x_cY0",
+        "name": "image001.png",
+        "title": "image001.png",
+        "description": "Complete original EVA file, available at this temporary HTTP download URL.",
+        "mimeType": "image/png",
+        "size": 37110
+      }
+    ],
+    "structuredContent": {
+      "id": "bd01729c-c331-411b-bbef-cb32011047ff",
+      "filename": "image001.png",
+      "mime_type": "image/png",
+      "size": 37110,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiYmQwMTcyOWMtYzMzMS00MTFiLWJiZWYtY2IzMjAxMTA0N2ZmIiwiZSI6MTc5MTg3MTY1NywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.8xqPwIbSS7Ij87TeShlSVdqxwBOLXq0Hb0gg50x_cY0",
+      "expires_at": "2026-10-13T06:07:37Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    },
+    "isError": false
+  },
+  "audit_local": {
+    "index_data": "2026.10.12 19:24:35 România",
+    "intrari": 5595,
+    "fisiere_noi_sau_modificate": 0,
+    "exceptii": "Două fișiere temporare Office ~$ fără conținut extern nou; nu sunt documente de proiect."
+  },
+  "comparatie_arhiva": [
+    {
+      "id": "c384374a-c419-4747-a768-326f41f4e4b2",
+      "in_arhiva": false,
+      "exclus": false,
+      "motiv": "Mesaj relevant nou Frigo, citit integral"
+    },
+    {
+      "id": "96ae0ba7-1552-4619-8439-f17ac8c86313",
+      "in_arhiva": false,
+      "exclus": true,
+      "motiv": "Notificare Google/Claude, exclusă anterior"
+    },
+    {
+      "id": "5d3f1b6f-ed43-486c-9338-d816803ed9f9",
+      "in_arhiva": false,
+      "exclus": true,
+      "motiv": "Marketing Industrial Robots, verificat integral"
+    },
+    {
+      "id": "e3f73ec8-0948-4690-9630-07d2caebed87",
+      "in_arhiva": false,
+      "exclus": true,
+      "motiv": "Test email office, exclus anterior"
+    },
+    {
+      "id": "65cc1357-c8b2-4cc0-bac2-35b999386777",
+      "in_arhiva": false,
+      "exclus": true,
+      "motiv": "Test email office, exclus anterior"
+    }
+  ],
+  "rezultat": {
+    "mesaje_relevante_noi": 1,
+    "atasamente_relevante_noi": 1,
+    "anexe_documentare_noi": 0,
+    "imagini_semnatura_noi": 1,
+    "cautari_complete": 59,
+    "cautari_context": 1,
+    "perioada": "2026.10.11–13"
+  },
+  "note": "Toate paginile au fost preluate: fiecare total este <=1. Filtrarea Eva pe zile include două teste din2026.10.10 21:xx UTC/2026.10.11 00:xx România. Mesajul Frigo este integral, netrunchiat. Verificarea contextuală2026.09.10 indică o copie de mesaj în altă căsuță, cu ID diferit; oferta identică era deja arhivată și nu este numărată din nou. Exporturile API nu reprezintă MIME integral."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a158d8-a5c3-7df2-86f9-48b3b66d4a17",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\cesiro.com",
+  "created_at": 1792491955,
+  "updated_at": 1792579359,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Corectează fișierul NOMEXP",
+  "project_id": "cb77d483-a84c-4469-aa78-88e01d9d8942",
+  "project": "cesiro.com",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1587713,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 141,
+  "message_count": 17,
+  "content_sha256": "2c44ee8417fd03cc3be4ecb96f487d0d2d7980e3c754b584858ae5b86e730f24",
+  "files_copied": 24,
+  "references_not_copied": 0
+}

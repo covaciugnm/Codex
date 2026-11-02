@@ -1,0 +1,13 @@
+[
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail\\re-audit-2026-11-01",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail\\re-audit-2026-11-01\\record-batch-01.py",
+    "status": "copiat",
+    "saved_path": "fisiere/record-batch-01--712c3446.py",
+    "bytes": 11063,
+    "sha256": "fbdaba7ce61f025f79ea141a2e4f1e404d89621adf309704204a4361e66f9bd3"
+  }
+]

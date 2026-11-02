@@ -1,0 +1,14 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/audit_extins_c10_20261024.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\audit_extins_c10_probe.cjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_audit_extins_c10_20261024.py",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

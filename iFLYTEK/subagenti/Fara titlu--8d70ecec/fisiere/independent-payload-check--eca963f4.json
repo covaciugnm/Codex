@@ -1,0 +1,23 @@
+{
+  "scope": "Independent static ZIP and native-byte audit; no APK or collected code executed",
+  "baselineSha256": "c10d5475f384d433884e44417126f1077478790241ab174bc5987a08a98f038c",
+  "variantSha256": "82aa11096fbd474f0669b5ca295e325fd0b0c45c2999360859d1bd93821a9aa8",
+  "entries": 2338,
+  "changes": [
+    {
+      "name": "lib/arm64-v8a/libapp.so",
+      "oldSha256": "17745c9106afa9fbdf3077ea2d0771437b1435371aec73d8ad13ef5e71ad2f06",
+      "newSha256": "804d43836a21f5ac3e8946f9e7bd78cf7ebac472b67922684c7953acf0046d8e"
+    }
+  ],
+  "unchanged": {
+    "dex": 6,
+    "so": 79,
+    "assets": 1046
+  },
+  "libBytes": 25887664,
+  "changedBytes": 527,
+  "uncoveredBytes": 0,
+  "rangeHashesVerified": true,
+  "assemblyReportShaMatches": true
+}

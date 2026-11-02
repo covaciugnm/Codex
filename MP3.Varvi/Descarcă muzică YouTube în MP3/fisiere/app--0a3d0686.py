@@ -20,6 +20,8 @@ from mutagen.id3 import ID3, APIC, COMM, TALB, TCON, TCOP, TDRC, TIT2, TPE1, TPE
 from yt_dlp import YoutubeDL
 import imageio_ffmpeg
 from excel_import import read_excel
+from media_download import download_media, validate_mode, write_video_tags
+from video_merge import create_merge_blueprint
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / 'downloads'
@@ -78,6 +80,7 @@ def finish_job(job, label='Gata'):
         update(job, status=status, message=f'{stopped} {message}' if stopped else message)
 FIELDS = ['file', 'artist', 'title', 'album', 'album_artist', 'genre', 'release_date', 'track', 'disc', 'youtube_title', 'channel', 'url', 'id', 'duration', 'upload_date', 'license', 'description', 'tags', 'categories', 'artist_source', 'album_source', 'cover', 'downloaded_at']
 FIELDS += ['source_file', 'source_sheet', 'source_row', 'excel_values']
+FIELDS += ['format']
 
 
 def safe_name(value, limit=85):
@@ -201,7 +204,7 @@ class Log:
         self.warning(message)
 
 
-def run_job(job, url, quality, source=None, finalize=True):
+def run_job(job, url, quality, source=None, finalize=True, mode='mp3'):
     try:
         update(job, status='running', message='Citesc informațiile YouTube…')
         base = {'quiet': True, 'no_warnings': False, 'logger': Log(job), 'socket_timeout': 30,
@@ -237,19 +240,15 @@ def run_job(job, url, quality, source=None, finalize=True):
                         total = d.get('total_bytes') or d.get('total_bytes_estimate') or 0
                         update(job, percent=round(100 * d.get('downloaded_bytes', 0) / total, 1) if total else 0)
                     elif d['status'] == 'finished':
-                        update(job, percent=100, message='Conversie MP3 și scriere metadate…')
+                        update(job, percent=100, message='Pregătesc fișierele și metadatele…')
                 staging = folder / '.work' / (entry['id'] + '-' + job[:8])
                 staging.mkdir(parents=True, exist_ok=True)
-                opts = {**base, 'format': 'bestaudio/best', 'outtmpl': str(staging / '%(id)s.%(ext)s'),
-                        'writethumbnail': True, 'progress_hooks': [progress],
-                        'postprocessors': [{'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': quality}],
-                        'postprocessor_args': {'extractaudio+ffmpeg_o': ['-ar', '44100', '-ac', '2']}}
-                with paced_request(job), YoutubeDL(opts) as ydl:
-                    info = ydl.extract_info(video_url, download=True)
-                    clean_info = ydl.sanitize_info(info)
-                mp3 = staging / (entry['id'] + '.mp3')
-                if not mp3.exists():
-                    raise RuntimeError('Conversia nu a produs un fișier MP3.')
+                with paced_request(job):
+                    info, clean_info, outputs, conversion_errors = download_media(
+                        YoutubeDL, base, staging, entry['id'], video_url, quality, mode, progress)
+                for error in conversion_errors:
+                    with lock:
+                        jobs[job]['errors'].append({'index': index, 'title': entry.get('title', ''), 'error': error})
                 data = metadata(info, playlist, index if is_playlist else None)
                 if source:
                     data.update(source_file=source['file'], source_sheet=source['sheet'], source_row=source['row'],
@@ -268,24 +267,30 @@ def run_job(job, url, quality, source=None, finalize=True):
                         except (OSError, ValueError):
                             continue
                 data['cover'] = bool(cover)
-                write_tags(mp3, data, cover)
                 stem = safe_name(data['artist'], 60) + ' - ' + safe_name(data['title'], 90)
-                target = folder / (stem + '.mp3')
+                candidate = stem
                 # Never replace an existing user file, even on repeat downloads.
                 counter = 1
-                while target.exists():
+                while any((folder / (candidate + suffix)).exists() for suffix in ('.mp3', '.mp4', '.info.json', '.jpg')):
                     suffix = f' [{entry["id"]}]' + (f' ({counter})' if counter > 1 else '')
-                    target = folder / (stem + suffix + '.mp3')
+                    candidate = stem + suffix
                     counter += 1
-                mp3.replace(target)
-                data['file'] = str(target.relative_to(OUTPUT))
-                target.with_suffix('.info.json').write_text(json.dumps({'metadata': data, 'youtube': clean_info}, ensure_ascii=False, indent=2), encoding='utf-8')
-                if cover:
-                    target.with_suffix('.jpg').write_bytes(cover)
-                write_catalog(folder / 'catalog.csv', data)
-                write_catalog(OUTPUT / 'catalog.csv', data)
-                with lock:
-                    jobs[job]['files'].append(data)
+                for extension, media_path in outputs.items():
+                    if extension == 'mp3':
+                        write_tags(media_path, data, cover)
+                    else:
+                        write_video_tags(media_path, data, cover)
+                    target = folder / (candidate + '.' + extension)
+                    media_path.replace(target)
+                    record = {**data, 'file': str(target.relative_to(OUTPUT)), 'format': extension}
+                    # Per-format sidecars keep audio and video metadata independent.
+                    target.with_name(target.name + '.info.json').write_text(json.dumps({'metadata': record, 'youtube': clean_info}, ensure_ascii=False, indent=2), encoding='utf-8')
+                    if cover:
+                        target.with_name(target.name + '.jpg').write_bytes(cover)
+                    write_catalog(folder / 'catalog.csv', record)
+                    write_catalog(OUTPUT / 'catalog.csv', record)
+                    with lock:
+                        jobs[job]['files'].append(record)
                 # Only remove files inside this job's known staging directory.
                 for temporary in staging.iterdir():
                     if temporary.is_file():
@@ -323,20 +328,20 @@ def import_folders(imported, create=False):
     return folders
 
 
-def run_import(job, imported, quality):
+def run_import(job, imported, quality, mode='mp3'):
     try:
-        run_import_links(job, imported, quality)
+        run_import_links(job, imported, quality, mode)
     except Exception as exc:
         update(job, status='failed', message=f'Import întrerupt: {exc}')
 
 
-def run_import_links(job, imported, quality):
+def run_import_links(job, imported, quality, mode='mp3'):
     folders = import_folders(imported, create=True)
     for number, entry in enumerate(imported['entries'], 1):
         update(job, batch_current=number, batch_total=len(imported['entries']), current=0, total=0,
                source_label=f"{entry['sheet']} · rândul {entry['row']}")
         source = {**entry, 'file': imported['filename'], 'folder': folders[entry['sheet']]}
-        run_job(job, entry['url'], quality, source=source, finalize=False)
+        run_job(job, entry['url'], quality, source=source, finalize=False, mode=mode)
         if jobs[job].get('stop_reason'):
             break
     finish_job(job, 'Import terminat')
@@ -354,6 +359,8 @@ def new_job():
 
 @app.errorhandler(413)
 def too_large(_):
+    if request.path == '/api/merge/uploads':
+        return jsonify(error='Videoclipul este prea mare. Maximum 4 GB per fișier.'), 413
     return jsonify(error='Fișierul este prea mare. Maximum 10 MB.'), 413
 
 
@@ -382,6 +389,10 @@ def start_import(token):
     quality = str(payload.get('quality', '192')) if isinstance(payload, dict) else ''
     if quality not in {'128', '192', '256', '320'}:
         return jsonify(error='Calitate MP3 invalidă.'), 400
+    try:
+        mode = validate_mode(payload.get('mode', 'mp3'))
+    except ValueError as exc:
+        return jsonify(error=str(exc)), 400
     with lock:
         imported = imports.get(token)
         if not imported:
@@ -392,7 +403,7 @@ def start_import(token):
         if not job:
             return jsonify(error='O descărcare este deja în lucru. Așteaptă finalizarea.'), 409
         imports.pop(token)
-    pool.submit(run_import, job, imported, quality)
+    pool.submit(run_import, job, imported, quality, mode)
     return jsonify(id=job), 202
 
 
@@ -423,6 +434,9 @@ def status():
 def create_job():
     payload = request.get_json(silent=True) or {}
     try:
+        if not isinstance(payload, dict):
+            raise ValueError('Cerere invalidă.')
+        mode = validate_mode(payload.get('mode', 'mp3'))
         url = youtube_url(payload.get('url', ''))
         quality = str(payload.get('quality', '192'))
         if quality not in {'128', '192', '256', '320'}:
@@ -433,7 +447,7 @@ def create_job():
         job = new_job()
         if not job:
             return jsonify(error='O descărcare este deja în lucru. Așteaptă finalizarea.'), 409
-    pool.submit(run_job, job, url, quality)
+    pool.submit(run_job, job, url, quality, mode=mode)
     return jsonify(id=job), 202
 
 
@@ -451,6 +465,8 @@ def files(name):
         return jsonify(error='Fișier indisponibil.'), 404
     return send_from_directory(OUTPUT, name, as_attachment=True)
 
+
+app.register_blueprint(create_merge_blueprint(OUTPUT, ROOT / '.runtime', ffmpeg_path))
 
 if __name__ == '__main__':
     print('MP3 Varvi: http://127.0.0.1:8765', flush=True)

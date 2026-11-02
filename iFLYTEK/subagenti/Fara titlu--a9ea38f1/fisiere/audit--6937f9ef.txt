@@ -1,0 +1,139 @@
+AUDIT INDEPENDENT — iFLYTEK — RUNDA 1
+Data: 2026-10-30
+Scor: 8.2/10
+Verdict: corectare necesară; nu este aprobat 10/10.
+
+DOMENIU ȘI LIMITE
+- catalog-parametri-functii: generators, data, pages and 112 command-constructor inventory
+- firmware-analiza: generators, evidence, classification and acquisition plan
+- protocol-comunicare: binary framing, BLE/Wi-Fi, audio and cloud contracts
+- documentatie: ARHITECTURA, FUNCTIONALITATI, NATIV_DART and REUTILIZARE
+- Software/SDK_Experimental: README and PROTOCOL; Software/Biblioteca_Glasses/Cercetare reports
+- Root INDEX and selected prior hearing-research.json claims
+
+Excluderi:
+- Manual semantic review of every one of 318284 DEX methods
+- Complete factual revalidation of the separate 93-model AI_Glasses_2026 market catalog
+- Line-by-line review of all machine-translated third-party source pages
+- Firmware decompilation, live device traffic, authenticated cloud calls, phone access
+Scores evaluate the documented, explicitly scoped evidence. They do not certify all historical chat answers or all files in the workspace. Earlier AINOTE purchase/comparison answers were not available as assistant messages in the supplied history; no blanket correctness claim is made for them.
+
+CRITERII (10 × 1 punct)
+C1. Provenance and traceability: 1/1
+APK identity is consistent. All 115 catalog source hashes independently matched the saved Java sources; function and parameter IDs/reverse references were intact.
+
+C2. Frame layouts and transport facts: 1/1
+BLE/GATT, header offsets, little-/big-endian distinctions, m07 audio layouts, Wi-Fi transfer distinction and battery CRC fixture matched the inspected code.
+
+C3. Parameter types and value classes: 0.65/1
+Context-specific names and String/boolean autotts distinction are preserved, but float fields are assigned to object and profile-specific parser schemas are omitted.
+
+C4. Wire data versus internal application models: 0.3/1
+Automatic schema attribution promotes constructed Java fields into claimed wire paths; this affects work state, state info and file lists.
+
+C5. Function input, result, event and error contracts: 0.65/1
+Dispatch branches and source excerpts are useful, but all 443 Flutter entries have empty outputParameterIds. Known OTA event fields and error states are not described as separate result contracts.
+
+C6. STT/translation/cloud evidence boundaries: 1/1
+gRPC/TLS, custom JSON-plus-buffer marshalling, routes and token/header roles are separated from model identity; no unsupported exact LLM or X-sign algorithm is asserted.
+
+C7. Firmware feasibility and actual possession: 1/1
+No firmware image is claimed recovered; AOT route strings, OTA handlers, private Android storage and signature/encryption distinctions are correctly qualified.
+
+C8. Consistency across earlier and newer documents: 0.6/1
+Older research-stage claims remain unmarked as superseded; candidate channel lists are labelled complete contracts in some reports.
+
+C9. Usability and structural verification: 1/1
+Five principal pages and deep links loaded without JS errors. IDs, parameter/function reverse links and stored source hashes passed independent read-only checks.
+
+C10. Uncertainty, scope and practical limitations: 1/1
+Hardware/cloud non-validation, internal/official SDK distinction and lack of original C++/Dart/firmware sources are clearly disclosed; this audit additionally records limits of historical coverage.
+
+CONSTATĂRI
+F1 [P1] Constructed Java models are represented as JSON wire response schemas
+Fișiere: tools/catalog-extract.cjs: response parsing block; schemaLinks on class-name occurrence; catalog-parametri-functii/functii.json: f-8ea4363aeebc6ee1 (opt 62007) and command f-0edd98fb66552d43; opt 61005, 62004, 61001 and 70400 response entries
+com/iflytek/easytrans/headset/bluetooth/device/CoreBluetoothDevice.java:4188 — Reads errCode, workState, type, then constructs WorkState(i37, v6(i37), iOptInt). msg is generated locally; state is the Java representation of workState.
+com/iflytek/easytrans/headset/bluetooth/bean/WorkState.java:10 — msg/state/type are Java fields without an observed wire-deserialization operation here.
+com/iflytek/easytrans/headset/bluetooth/device/CoreBluetoothDevice.java:4254 — 70400 reads pageNum,totalFiles,data; data may be an array or a string containing JSON. Each entry reads name,fileType,fileList. FileListResponse.pageSize is arrayList.size(); DeviceFileInfo fields are constructed with local defaults.
+com/iflytek/easytrans/headset/bluetooth/bean/StateInfo.java:34 — create() calls DeviceInfoParsers and converts the typed glasses/headset result to a legacy StateInfo. Legacy stateL/stateR/master are not the glasses wire schema.
+Impact: A client generated from schemaPaths would expect keys or paths never read from the glasses, and miss the actual nested layout.
+Corecție: Keep wire fields/paths, callback results, internal models and derived fields in distinct namespaces. Follow actual JSONObject/Gson/toMap parsing/serialization before assigning schemaPaths. Remove class-mention-only attribution. Model arrays and JSON-string alternatives explicitly.
+
+F2 [P2] Float parameters are classified as object/reference values
+Fișiere: tools/catalog-enrich.cjs: final valueClassId mapping; catalog-parametri-functii/parametri.json: p-d9757e2b932f6626, p-bd08b561a9d465a1, p-46177466f393da09
+translate_sdk.TrackPlayer.playbackSpeedRate and two float method arguments have javaType=float, valueClass=număr real, but valueClassId=object. CLASE_VALORI has no real-number category.
+Impact: Filtering and value-class descriptions give the wrong representation for these inputs.
+Corecție: Add a floating-point value class with Java binary32/binary64 storage semantics and JSON finite-number caveat; map float/double/Float/Double to it and validate the mapping.
+
+F3 [P2] Profile-specific battery/system/version/state parser contracts are omitted
+Fișiere: tools/catalog-extract.cjs: non-recursive bean directory scan; catalog-parametri-functii/scheme.json; APP_GET_BATTERY, APP_GET_SYSTEM_INFO, APP_GET_VERSION detailed entries
+com/iflytek/easytrans/headset/bluetooth/bean/common/DeviceInfoParsers.java:92 — parseBatteryInfo reads glasses bat with battery fallback and batChanging with charging fallback; parseStateInfo reads state; parseSystemInfo reads sn/mac; parseVersionInfo reads version. Headset branches are explicitly separate.
+The detailed schemas contain no .bean.glasses. entries; the three named commands have outputParameterIds=[] in round 1.
+Impact: The most basic glasses queries lack known result parameters while legacy/internal models are included elsewhere.
+Corecție: Include relevant common/glasses/headset types and actual DeviceInfoParsers paths. Link profile-specific results and transformations to the commands; do not equate internal model field names with wire keys.
+
+F4 [P2] Known asynchronous Flutter result/event fields are not catalogued
+Fișiere: catalog-parametri-functii/functii.json: f-23b4cbc1ac5e5b16 startGlassOTA; tools/catalog-extract.cjs: Flutter extraction
+com/example/recorde_translate_plugin/glass/wifip2p/WifiManagerPlugin.java:513 — startGlassOTA takes path/otaVer, immediately acknowledges through Result.success(new HashMap()), then emits maps on the event sink. Event fields include type/status/message/progress. Known status values are -1 enter error, 0 connect, 1 start and 3 check success; type includes status,error,ota_progress,success. onOTACheckError forwards another dynamic status.
+In round 1 all 443 Flutter entries have outputParameterIds=[]; startGlassOTA.errors=[] despite this available callback contract.
+Impact: The catalogue exposes source excerpts but does not provide the requested structured output parameters, event variants and error meaning for a central operation.
+Corecție: Separate synchronous MethodChannel acknowledgement from asynchronous EventChannel/callback messages. Catalogue fields, discriminators, observed values and conditional omissions from each real producer; do not infer operation success from Result.success alone. Generalize safely across relevant recorded branches.
+
+F5 [P2] Historical research claims and complete-contract labels conflict with later results
+Fișiere: ../Biblioteca_Glasses/Cercetare/Raport_SDK.txt: AUDIT LOCAL and section 1; ../Biblioteca_Glasses/Cercetare/Raport_Bluetooth_extins.txt: IMPLICATIE PENTRU PROIECT; documentatie/ARHITECTURA.md: Contracte complete; protocol-comunicare/INDEX.html: Contracte Flutter complete
+Raport_SDK says binaries were not decompiled and no GATT UUIDs were identified. Later documents do identify/decompile them, but the early report is not clearly marked as a historical stage.
+The channel inventory contains candidate method/event/enum strings and unresolved entries, so 'complete contracts' overstates what that inventory represents, even though a nearby caveat partially qualifies it.
+Impact: Readers entering through an older report can conclude that the known protocol/SDK analysis has not been done, or mistake a string inventory for an invocable API specification.
+Corecție: Preserve historical reports but add prominent stage/supersession notes and links to the current verified reports. Replace 'complete contracts' with 'channel/argument candidate inventory' or equivalent accurate wording. Update generator templates as well as generated copies.
+
+VERIFICĂRI
+{
+  "functionCount": 1107,
+  "parameterCount": 2710,
+  "uniqueFunctionIds": 1107,
+  "uniqueParameterIds": 2710,
+  "brokenFunctionParameterRelations": 0,
+  "sourceHashesChecked": 115,
+  "sourceHashMismatches": 0,
+  "batteryFixture": {
+    "jsonBytes": 36,
+    "lengthField": 39,
+    "frameBytes": 53,
+    "computedCRC": 164,
+    "storedCRC": 164,
+    "correct": true
+  },
+  "browser": {
+    "pages": [
+      "catalog-parametri-functii/INDEX.html",
+      "catalog-parametri-functii/PARAMETRI.html#p-d9757e2b932f6626",
+      "catalog-parametri-functii/FUNCTII.html#f-8ea4363aeebc6ee1",
+      "firmware-analiza/INDEX.html",
+      "protocol-comunicare/INDEX.html"
+    ],
+    "javascriptErrors": []
+  },
+  "primarySourcesReopened": [
+    "https://github.com/NationalSecurityAgency/ghidra",
+    "https://developer.android.com/training/data-storage/app-specific",
+    "https://saas-public.ioss.xfinfr.com/private/config/privacy-policy.html",
+    "https://support.evenrealities.com/hc/en-us/articles/13755354799247-Language-Support"
+  ],
+  "sourceChecks": [
+    "m07 audio layouts and ml0 use",
+    "k36 Buffer marshaller",
+    "TranslateServiceImpl nine factories and X-sign",
+    "CoreBluetoothDevice work state/file list/state transformations",
+    "DeviceInfoParsers glasses/headset split",
+    "WorkState and StateInfo classes",
+    "WifiManagerPlugin startGlassOTA callback",
+    "firmware-audit.py archive-member-name scope",
+    "SDK README/PROTOCOL and general result reports"
+  ]
+}
+
+URMĂTORUL PAS
+Correct F1-F5, regenerate affected outputs, run targeted structural/semantic checks, and request an independent re-audit. 10/10 requires no remaining identified defect within the declared audited scope; unavailable firmware is a documented limit, not an automatic deduction.
+
+Nu au fost modificate documentele evaluate. Raportul surprinde baseline-ul rundei 1 înaintea regenerării de remediere.
+

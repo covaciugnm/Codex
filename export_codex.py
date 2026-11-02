@@ -286,6 +286,8 @@ def copy_files(items, row, destination):
                     digest = hashlib.file_digest(stream, 'sha256').hexdigest()
                 item.update(status='copiat', saved_path='fisiere/' + filename, bytes=target.stat().st_size, sha256=digest)
         except (OSError, ValueError) as exc:
+            if isinstance(exc, OSError) and (exc.errno == 28 or getattr(exc, 'winerror', None) == 112):
+                raise RuntimeError('Export incomplet: spatiu insuficient la copierea unui fisier. Copia partiala este pastrata; nu publicati.') from exc
             item.update(status='eroare_copiere', error=str(exc))
         report.append(item)
         file_totals[item['status']] += 1

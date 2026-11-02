@@ -1,0 +1,2739 @@
+{
+  "schema": "eva.audit.zone.report.v1",
+  "zone_id": "A04",
+  "cutoff_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "plan_manifest": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "status": "PARTIAL_CU_LIMITARI",
+  "captured_utc": "2026-11-02T14:43:03.517Z",
+  "quality_score": null,
+  "reviewer": "A11",
+  "implementation_verdict": "Cinci constatări reproduse la nivelul componentelor identificate. Achiziția, importul operațional și go-live rămân necertificate de această trecere.",
+  "counts": {
+    "controls": 29,
+    "pipelines": 6,
+    "findings": 5,
+    "source_tasks_with_individual_A12_review": 56,
+    "A04_surfaces_assigned": 146,
+    "complete_E2E": 0,
+    "shared_BE_subtests_passed": 66
+  },
+  "limits": [
+    "Serverul a refuzat slotul propriu §61 cu rc=10 (6 din 6 ocupate); A04 nu a rulat SQL pe CESIRO fără slot. E-AD și E-SQL sunt capturi autorizate deja colectate de A12, nu o nouă sesiune proprie.",
+    "Prima încercare cu ID canonic a fost respinsă de parserul cozii. Aliasul P01.T227 pentru P01.C11.T0005 a fost recunoscut.",
+    "Niciun partener extern, nicio scriere pe produs. Fără click real prin cabinet pentru PO/recepție/match ori import complet; fără certificare globală.",
+    "E-BE = selecție din XML comun (66/66 PASS), cu presupunerile fixturei de test. E-FE = 6 teste/11 aserțiuni eșuate 302 vs 200, fără dovadă de regresie pentru operator autenticat.",
+    "Fixturile sunt componente în memorie, arhive temporare sau JAR analizat; problema NIR e la documentul tipizabil și nu se extrapolează la stocul contabil."
+  ],
+  "evidence_index": {
+    "E-NIR-CODE": {
+      "path": "A04/nir-code.txt",
+      "sha256": "869842445f0065180828b288f025c35590127b3353178855b678bf9d8a63c27f"
+    },
+    "E-NIR-JAR": {
+      "path": "A04/nir-jar.txt",
+      "sha256": "869842445f0065180828b288f025c35590127b3353178855b678bf9d8a63c27f"
+    },
+    "E-NIR-CLASS": {
+      "path": "A04/nir-origin.txt",
+      "sha256": "5b87177dcca6ea46c06ba24be4b2d4a3bb2b021cb9c5ecae9a9c4134064a29a1"
+    },
+    "E-RECON": {
+      "path": "A04/recon-fixture.json",
+      "sha256": "484ce6347574ac83f2cbb39cc2a91cd4e0bb5f7d7fce22486e69dc577fb201a0"
+    },
+    "E-RECON-VERDICT": {
+      "path": "A04/recon-verdict.json",
+      "sha256": "66c770b9ecd829f13d3393f1200d61f727fb1d6369092762307b33129d0c0ac0"
+    },
+    "E-POLL": {
+      "path": "A04/poll-results.jsonl",
+      "sha256": "0eae6323f07832c6a91ea4d6ec8d31439bf7ec99ad0c001fccdc0bdb6c03f31d"
+    },
+    "E-ZIP": {
+      "path": "A04/archive-fixture.json",
+      "sha256": "32d9dbefea060819c7ff0716f147fa68f6ff68b41771a6fe8749a688d204559e"
+    },
+    "E-BE": {
+      "path": "A04/backend-66.json",
+      "sha256": "d2cdf30551238fbc3faf63348cc04215ad098b2205e2fa37b8ab474d8141ccf6"
+    },
+    "E-FE": {
+      "path": "FE-suite-cu-teme/test_saga_completeness_audit_ui.txt",
+      "sha256": "3f63bf64282e407a83d3238d05ffbbb5a5c06010335cddb13b8e67cdfb8c51a3"
+    },
+    "E-AD": {
+      "path": "A12_DB_metadate_CESIRO.json",
+      "sha256": "af7d2448ff6cc1d80eeed5e7c122171e8be55c4589393bf84fdd1f19df6f6dcc"
+    },
+    "E-SQL": {
+      "path": "A12_T227_SQL_sintetic.json",
+      "sha256": "9918cce9084f5462ae4557ebcabeff0fb0ede27abbe7a6d026cf27dc8a18549b"
+    },
+    "E-T227": {
+      "path": "A12_test_local_T227.json",
+      "sha256": "d899f7a1a2ddd440cc6ec7a67731c5a83a3904d44758b5fbf6c5384646a022b6"
+    },
+    "E-SLOT": {
+      "path": "A04/metadata.json",
+      "sha256": "d13d28bd4e059859bec667141a2169434007d85111c73347098e12416b001307"
+    },
+    "E-ANCHOR": {
+      "path": "A04/ancore_controle.json",
+      "sha256": "33ca3083b39c68d56ca6bc6d428d5df6d292a10db74ce9cefa67144856090ee3"
+    },
+    "E-NATIVE": {
+      "path": "A04/nativ.json",
+      "sha256": "8e83fdbb28cbb90cdff061b562eac73febbfc122dd9f588e86309d0c75d3da4a"
+    },
+    "E-SURFACE": {
+      "path": "A04/suprafete.json",
+      "sha256": "4fd464f575bb4307f85eba28300cb39a2972a6009c1030a123897de6f1a97df2"
+    }
+  },
+  "reproducibility": {
+    "NIR": [
+      "A04/NirAudit.java",
+      "compilează împreună cu FormatRO și NirReceptie ale sursei; rerulează cu com.eva.ro.contab_13.0.0.jar înaintea claselor locale pe classpath. nir-origin.txt confirmă încărcarea."
+    ],
+    "recon": [
+      "A04/recon_fixture.py",
+      "A04/recon_verdict.py",
+      "Execută Recon din sursa fixată cu rânduri sintetice și stub psycopg fără DB."
+    ],
+    "portal": [
+      "A04/poll_fixture.cjs",
+      "Execută funcția pollJob extrasă din HTML cu FE/transport sintetice."
+    ],
+    "archive": [
+      "A04/archive_fixture.py",
+      "Execută materializarea upload și garda reală cu octeți sintetici în director temporar, rețea blocată."
+    ],
+    "db": [
+      "A04/metadata_remote.cjs",
+      "A04/metadata.sql",
+      "Context read-only și slot propriu obligatoriu."
+    ]
+  },
+  "tasks": [
+    {
+      "original": "T01.06",
+      "canonical": null,
+      "title": "P01.T01.06 — Q-1 (12.2): rezumatul importului — nr. Reg. Com. din DU.RGCOM (ultima perioadă), regimul anilor dinaintea primei închideri pe profit = micro «DE CONFIRMAT» (neb",
+      "status": "montat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T01.13",
+      "canonical": null,
+      "title": "P01.T01.13 — Q-Q1-3 import: rezumatul arhivei pornește de la prima activitate a firmei (min. primul an din REGISTRU / prima lună din INCHIDERI), nu din 2011; chei JSON nesch",
+      "status": "montat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T07",
+      "canonical": null,
+      "title": "P01.T07 — Portalul de pornire firmă (+ SEC-04 / D-07)",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T07.01",
+      "canonical": null,
+      "title": "P01.T07.01 — (a) pregatire-rezumat din butonul paginii: fotografia celor ~989 de tabele cu ad_client_id identică înainte / după (0 rânduri diferite, inclusiv AD_SysConfig); (b) REZUMAT_<client>.json are cheile",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T07.02",
+      "canonical": null,
+      "title": "P01.T07.02 — PRELUARE §39 a celor patru taskuri (de la eva-contab-22 oprită ≈09:11 și eva-contab-d5 oprită ≈22:40, același cont; ListAgents 23:45 = 0 sesiuni accesibile, mesaj imposibil) la cuvântul proprietarului",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T07.03",
+      "canonical": null,
+      "title": "P01.T07.03 — PRELUARE §39 a celor patru taskuri (de la eva-contab-22 oprită ≈09:11 și eva-contab-d5 oprită ≈22:40, același cont; ListAgents 23:45 = 0 sesiuni accesibile, mesaj imposibil) la cuvântul proprietarului",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T07.04",
+      "canonical": null,
+      "title": "P01.T07.04 — 11_…livrare",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T07.05",
+      "canonical": null,
+      "title": "P01.T07.05 — Arhitect spec r1 PREDAT t07-spec@cff75812f5 (merge-tree rc 0, doc-only, valideaza --faza spec rc 0, 161 trimiteri verificate mecanic, O-1/O-2 aplicate, A-T07-1 condiționat de T18 L1). Decizii 25",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T07.06",
+      "canonical": null,
+      "title": "P01.T07.06 — Ramura de LOT t07-r1-lot = master + BE + FE + DevOps (merge de mână --no-ff, C8 v1.7), jaruri din git archive al vârfului, rb_export.sh (R-DC 0), suita backend completă cu",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T10",
+      "canonical": null,
+      "title": "P01.T10 — Import/pornire + e-Factura (echipa E2: EF-01…EF-10)",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T10.01",
+      "canonical": null,
+      "title": "P01.T10.01 — T09, T10, T14, T04d — integrate fără proba completă din buton. Din T10 s-au MONTAT 13–14.10: SPV-OAuth (conectarea la ANAF din Setări, callback acc.eva-org.com)",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T10.02",
+      "canonical": null,
+      "title": "P01.T10.02 — Q-6 (12.2, confirmat A1): criteriul B(f) e greșit, nu garda — «Validez» global-valoric e blocat corect de ordinea închiderilor (2023-02/2023-12 deschise); de co",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18",
+      "canonical": null,
+      "title": "P01.T18 — Lanțul de pornire a unei firme în 5 pași (harta)",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.01",
+      "canonical": null,
+      "title": "P01.T18.01 — PRELUARE §39 a celor patru taskuri (de la eva-contab-22 oprită ≈09:11 și eva-contab-d5 oprită ≈22:40, același cont; ListAgents 23:45 = 0 sesiuni accesibile, mesaj imposibil) la cuvântul proprietarului",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.02",
+      "canonical": null,
+      "title": "P01.T18.02 — PRELUARE §39 a celor patru taskuri (de la eva-contab-22 oprită ≈09:11 și eva-contab-d5 oprită ≈22:40, același cont; ListAgents 23:45 = 0 sesiuni accesibile, mesaj imposibil) la cuvântul proprietarului",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.03",
+      "canonical": null,
+      "title": "P01.T18.03 — PRELUARE §39 a celor patru taskuri (de la eva-contab-22 oprită ≈09:11 și eva-contab-d5 oprită ≈22:40, același cont; ListAgents 23:45 = 0 sesiuni accesibile, mesaj imposibil) la cuvântul proprietarului",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.04",
+      "canonical": null,
+      "title": "P01.T18.04 — Pasul 4: rândul «e-Factura» = mesaje SPV în fereastra de 60 de zile, asociate (Sigur+Confirmat), de decis (Probabil+Ambiguu), neasociate; 0 cod nou în efactura/",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.05",
+      "canonical": null,
+      "title": "P01.T18.05 — Pasul 5: rândul «bănci» din starea T17 (configurarea Smart Accounts + ultimul extras importat pe fiecare IBAN); fereastra cerută (01:3): ≥ 60 de zile sau 2 luni + luna curentă — CONDIȚIONAT de",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.06",
+      "canonical": null,
+      "title": "P01.T18.06 — F-4 [DOC] P-4 (poartă de rol pe router) fără inventarul apelanților (A5b / X28). L-am făcut: toate apelurile trec prin proxy-urile Flask frontend/app.py:5512-5680, @require_manager (rol manager/super",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.07",
+      "canonical": null,
+      "title": "P01.T18.07 — LOCK tools/teste/cabinet_test_jar_montat.sh pentru P01-T18.7 (brief 15): se adaugă DOAR opțiunea --env-file <fișier> și variabila EVA_SPV_SIMULATOR_URL (env suplimentar în containerul cabinetului",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.08",
+      "canonical": null,
+      "title": "P01.T18.08 — Lotul L1 al taskului P01.T18 — găsit în 11_brief_arhitect_spec_L1.md",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T18.09",
+      "canonical": null,
+      "title": "P01.T18.09 — Lotul L2 al taskului P01.T18 — găsit în 13_brief_arhitect_spec_L2.md",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T27.04",
+      "canonical": null,
+      "title": "P01.T27.04 — T27b S78 — Preluarea soldurilor inițiale",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T32.03",
+      "canonical": null,
+      "title": "P01.T32.03 — T32 L2: A3 N49/N174, A4 ArtTipImporter",
+      "status": "montat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T32.10",
+      "canonical": null,
+      "title": "P01.T32.10 — Revalidarea setărilor «③ Validează setările» — NU cere nicio acțiune acum: nu e deploy, nu e update și nu cere reimportul firmelor deja importate (ele merg norm",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T32.16",
+      "canonical": null,
+      "title": "P01.T32.16 — Catalogul de erori: cele 5 coduri T07 adăugate — integrat — FINALIZAT 12.10.2026 10:53 — MONTAT r21-20261013 (master 96d8bcf35c) pe q31/ses/asociatie/aride/cesi",
+      "status": "montat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T96",
+      "canonical": null,
+      "title": "P01.T96 — Super-admin: rezumat importuri pe cabinete + bare de progres (programator portal)",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T98",
+      "canonical": null,
+      "title": "P01.T98 — Fixuri importer (programator)",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T100",
+      "canonical": null,
+      "title": "P01.T100 — Citirea celor 211 importere + harta importurilor paralele (read-only)",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T101",
+      "canonical": null,
+      "title": "P01.T101 — Programator portal (backend + frontend + provisioner, pașii 1–3 pornire firmă)",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T102.02",
+      "canonical": null,
+      "title": "P01.T102.02 — Audit pornire firmă (portal)",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T102.03",
+      "canonical": null,
+      "title": "P01.T102.03 — Audit tabele-copil + pornire",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T102.04",
+      "canonical": null,
+      "title": "P01.T102.04 — Audit plugin pașii 3–4",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T102.06",
+      "canonical": null,
+      "title": "P01.T102.06 — Audit pasul 5",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T103",
+      "canonical": null,
+      "title": "P01.T103 — Auditor importuri (read-only)",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T223",
+      "canonical": "P01.C11.T0001",
+      "title": "P01.T223 — P01.C11.T0001 · Import de date: reverificarea portalului de pornire a unei firme noi",
+      "status": "anulat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T223.01",
+      "canonical": "P01.C11.T0001.01",
+      "title": "P01.T223.01 — P01.C11.T0001.01 · Import de date: specificația reluării portalului de pornire a firmei",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T223.02",
+      "canonical": "P01.C11.T0001.02",
+      "title": "P01.T223.02 — P01.C11.T0001.02 · Import de date: partea de server a portalului de pornire a firmei",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T223.03",
+      "canonical": "P01.C11.T0001.03",
+      "title": "P01.T223.03 — P01.C11.T0001.03 · Import de date: ecranele portalului de pornire în cele șase limbi",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T223.04",
+      "canonical": "P01.C11.T0001.04",
+      "title": "P01.T223.04 — P01.C11.T0001.04 · Import de date: mediul efemer de test al portalului de pornire",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T223.05",
+      "canonical": "P01.C11.T0001.05",
+      "title": "P01.T223.05 — P01.C11.T0001.05 · Import de date: îmbinarea și testarea lotului portalului de pornire",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T224",
+      "canonical": "P01.C11.T0002",
+      "title": "P01.T224 — P01.C11.T0002 · Import de date: arhiva de facturi electronice și importul din SAGA la pornire",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T224.01",
+      "canonical": "P01.C11.T0002.01",
+      "title": "P01.T224.01 — P01.C11.T0002.01 · Import de date: proba din buton a importului e-Factura la pornirea firmei",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T224.02",
+      "canonical": "P01.C11.T0002.02",
+      "title": "P01.T224.02 — P01.C11.T0002.02 · Import de date: corectarea criteriului probei de import pe arhiva de test",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.01",
+      "canonical": "P01.C11.T0003.01",
+      "title": "P01.T225.01 — P01.C11.T0003.01 · Import de date: tabela de stare a celor cinci pași de pornire pe firmă",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.02",
+      "canonical": "P01.C11.T0003.02",
+      "title": "P01.T225.02 — P01.C11.T0003.02 · Import de date: pasul 2 al pornirii — lunile închise după import",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.03",
+      "canonical": "P01.C11.T0003.03",
+      "title": "P01.T225.03 — P01.C11.T0003.03 · Import de date: pasul 3 al pornirii — neconcordanțele dintre arhivă și program",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.04",
+      "canonical": "P01.C11.T0003.04",
+      "title": "P01.T225.04 — P01.C11.T0003.04 · Import de date: pasul 4 al pornirii — facturile din e-Factura pe ultimele 60 de zile",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.05",
+      "canonical": "P01.C11.T0003.05",
+      "title": "P01.T225.05 — P01.C11.T0003.05 · Import de date: pasul 5 al pornirii — extrasele bancare ale ultimelor două luni",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.06",
+      "canonical": "P01.C11.T0003.06",
+      "title": "P01.T225.06 — P01.C11.T0003.06 · Import de date: starea pornirii afișată în portal, pe pagina «Cum pornim»",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.07",
+      "canonical": "P01.C11.T0003.07",
+      "title": "P01.T225.07 — P01.C11.T0003.07 · Import de date: simulatorul de e-Factura pentru probele de pornire",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.08",
+      "canonical": "P01.C11.T0003.08",
+      "title": "P01.T225.08 — P01.C11.T0003.08 · Import de date: specificația pașilor 1, 2 și 4 ai pornirii",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T225.09",
+      "canonical": "P01.C11.T0003.09",
+      "title": "P01.T225.09 — P01.C11.T0003.09 · Import de date: specificația pasului 3 — neconcordanțele de la pornire",
+      "status": "agregat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T226",
+      "canonical": "P01.C11.T0004",
+      "title": "P01.T226 — P01.C11.T0004 · Import de date: preluarea soldurilor inițiale la pornirea firmei",
+      "status": "montat",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T227",
+      "canonical": "P01.C11.T0005",
+      "title": "P01.T227 — P01.C11.T0005 · Import de date: verificarea cifrelor importate față de SAGA",
+      "status": "închis",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    },
+    {
+      "original": "T229",
+      "canonical": "P01.C11.T0007",
+      "title": "P01.T229 — P01.C11.T0007 · Import de date: pașii 1–3 ai pornirii unei firme noi din portal",
+      "status": "plan",
+      "role": "Dosarul individual se verifică în A12. Asocierea cu zonă nu este un verdict per task."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "A04-F01",
+      "title": "NIR asociază diferența cu articolul greșit după un rând gol sau neinterpretabil",
+      "severity": "ridicată",
+      "confidence": "Ridicată pentru reproducerea directă în componenta identificată; acoperirea E2E este menționată explicit.",
+      "scope": "A04",
+      "control_ids": [
+        "A04-C04",
+        "A04-C08"
+      ],
+      "related_task_candidates": [
+        {
+          "original": "T02.01",
+          "canonical": null,
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        },
+        {
+          "original": "T02.04",
+          "canonical": null,
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        },
+        {
+          "original": "T02.06",
+          "canonical": null,
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        }
+      ],
+      "expected_requirement": "P1 are 7×10, P2 are 5×100. Implicit pe linia 1 și «3» pe linia 2 trebuie să păstreze P1=7 și P2=3 (370 lei).",
+      "observed_fact": "În metoda din sursă și în JAR, intrările '\\n3' și 'eroare\\n3' produc [3,5] și 530 lei. Intrarea de control '7\\n3' produce [7,3] și 370 lei. 6 cazuri × 2 implementări; diferența de 160 lei și articolul greșit sunt reproductibile.",
+      "source_where": "CatalogDocumente.java:94,96; NirReceptie.java:26,34–41; D0901.sablon.html:16",
+      "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "evidence_ids": [
+        "E-NIR-CODE",
+        "E-NIR-JAR",
+        "E-NIR-CLASS"
+      ],
+      "remediation_native_first": "Mapare după identitatea sau poziția fiecărei linii native din recepție. Implicit numai pentru aceeași linie și respingere explicită a valorii neinterpretate; testați două linii cu prețuri diferite și tipărirea.",
+      "limitation": "Afectează calculul documentului NIR. Nici o dovadă că motorul nativ de stoc a făcut aceeași mișcare sau că s-au afectat date reale.",
+      "status": "REPRODUS; trimis A11. Nicio schimbare de produs.",
+      "reviewer_decision": null,
+      "false_positive_history": "Caz de control pozitiv și limitarea de aplicabilitate în observație."
+    },
+    {
+      "finding_id": "A04-F02",
+      "title": "Verificatorul auxiliar reduce două facturi diferite la un număr de document",
+      "severity": "ridicată",
+      "confidence": "Ridicată pentru reproducerea directă în componenta identificată; acoperirea E2E este menționată explicit.",
+      "scope": "A04",
+      "control_ids": [
+        "A04-C16",
+        "A04-C18",
+        "A04-C24"
+      ],
+      "related_task_candidates": [
+        {
+          "original": "T103",
+          "canonical": null,
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        },
+        {
+          "original": "T227",
+          "canonical": "P01.C11.T0005",
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        }
+      ],
+      "expected_requirement": "Un N1 la vânzări și un N1 la cumpărări sunt două documente. Dacă există numai cel de cumpărări, unul trebuie să lipsească.",
+      "observed_fact": "Recon.invoices(): 2 intrări SAGA, 1 document ERP, ieșire «1 potrivit, 0 lipsă». Cheia dicționarului este DocumentNo, sensul și partenerul nu sunt păstrate. Un credit −100 comparat la un debit +100 este acceptat pe valori absolute; semnul economic trebuie derivat și din tipul de document, absent din SELECT-ul acestui script.",
+      "source_where": "backend/saga-migration/recon/recon.py:126–141",
+      "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "evidence_ids": [
+        "E-RECON"
+      ],
+      "remediation_native_first": "Folosiți chei de firmă, semnificație tip de document/partener/monedă, PK sursă și ID țintă. Legați raportul de C_Invoice și C_InvoiceLine. Control distinct pentru coliziune, semn și document lipsă.",
+      "limitation": "Constatare confirmată în scriptul auxiliar. Nu atribuiți automat defectul procesului instalat VerificareImportSaga sau taskului T227.",
+      "status": "REPRODUS; trimis A11. Nicio schimbare de produs.",
+      "reviewer_decision": null,
+      "false_positive_history": "Caz de control pozitiv și limitarea de aplicabilitate în observație."
+    },
+    {
+      "finding_id": "A04-F03",
+      "title": "Raportul auxiliar poate declara DATE COMPLETE cu rânduri lipsă ori cu citirea unei familii eșuată",
+      "severity": "ridicată",
+      "confidence": "Ridicată pentru reproducerea directă în componenta identificată; acoperirea E2E este menționată explicit.",
+      "scope": "A04",
+      "control_ids": [
+        "A04-C12",
+        "A04-C18",
+        "A04-C24"
+      ],
+      "related_task_candidates": [
+        {
+          "original": "T103",
+          "canonical": null,
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        },
+        {
+          "original": "T227",
+          "canonical": "P01.C11.T0005",
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        }
+      ],
+      "expected_requirement": "Un raport complet necesită documentarea fiecărui reziduu și succesul tuturor familiilor obligatorii.",
+      "observed_fact": "Recon.run(), cu GL echilibrat: 0 rânduri lipsă → complet; 1 și 100 rânduri lipsă → complet; 101 → nu afișează complet. Excepție explicită la citirea partenerilor și 0 rânduri evaluate → afișează eroarea și DATE COMPLETE. În controlul +10 la o factură de 100, detectează diferența în text, fără a adăuga o lipsă la verdictul pe entitate.",
+      "source_where": "backend/saga-migration/recon/recon.py:139–141,195–217,220–233",
+      "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "evidence_ids": [
+        "E-RECON",
+        "E-RECON-VERDICT"
+      ],
+      "remediation_native_first": "Numitor și stare per familie, stări nepotrivit/eroare/exclus justificat, cod de ieșire distinct pentru reconciliere incompletă. Comparați explicit și etichetați reziduurile.",
+      "limitation": "Rezultatul executabilului de comparație este afectat. Nu s-a observat că acest script aprobă automat o migrare în producție.",
+      "status": "REPRODUS; trimis A11. Nicio schimbare de produs.",
+      "reviewer_decision": null,
+      "false_positive_history": "Caz de control pozitiv și limitarea de aplicabilitate în observație."
+    },
+    {
+      "finding_id": "A04-F04",
+      "title": "Portalul continuă să interogheze un job după 401 sau 404",
+      "severity": "medie",
+      "confidence": "Ridicată pentru reproducerea directă în componenta identificată; acoperirea E2E este menționată explicit.",
+      "scope": "A04",
+      "control_ids": [
+        "A04-C25",
+        "A04-C22"
+      ],
+      "related_task_candidates": [
+        {
+          "original": "T96",
+          "canonical": null,
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        },
+        {
+          "original": "T223",
+          "canonical": "P01.C11.T0001",
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        },
+        {
+          "original": "T229",
+          "canonical": "P01.C11.T0007",
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        }
+      ],
+      "expected_requirement": "La expirarea sesiunii ori dispariția jobului operatorul vede eroarea și primește o cale de recuperare; verificarea automată se oprește sau se limitează explicit.",
+      "observed_fact": "Fixtura execută funcția pollJob reală. Răspunsurile JSON 401 și 404 lasă textul «Import în curs … stare: ?» și reprogramează la 3000 ms. Repetarea aceleiași condiții replanifică fără limită în sursă. Pentru 200/imported spinnerul se oprește și nu se reprogramează.",
+      "source_where": "frontend/portal/eva_import_saga.html:539–562; frontend/app.py:2549 și 3696",
+      "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "evidence_ids": [
+        "E-POLL"
+      ],
+      "remediation_native_first": "Tratați response.ok și familia de erori, oferiți relogare sau revenire la listă și păstrați ID-ul ultimei rulări. Retry limitat pentru erori tranzitorii.",
+      "limitation": "Execuție JS cu DOM și transport sintetice. Nu a fost demonstrată ruta publicată pe cabinetul utilizatorului sau frecvența acestui defect în exploatare.",
+      "status": "REPRODUS; trimis A11. Nicio schimbare de produs.",
+      "reviewer_decision": null,
+      "false_positive_history": "Caz de control pozitiv și limitarea de aplicabilitate în observație."
+    },
+    {
+      "finding_id": "A04-F05",
+      "title": "Două intrări ZIP cu aceeași destinație lasă pe disc numai ultima tabelă",
+      "severity": "ridicată",
+      "confidence": "Ridicată pentru reproducerea directă în componenta identificată; acoperirea E2E este menționată explicit.",
+      "scope": "A04",
+      "control_ids": [
+        "A04-C11",
+        "A04-C12"
+      ],
+      "related_task_candidates": [
+        {
+          "original": "T98",
+          "canonical": null,
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        },
+        {
+          "original": "T224",
+          "canonical": "P01.C11.T0002",
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        },
+        {
+          "original": "T229",
+          "canonical": "P01.C11.T0007",
+          "basis": "Vecinătate funcțională pentru verificare A12, fără atribuirea defectului acelui task."
+        }
+      ],
+      "expected_requirement": "O arhivă cu două surse diferite la aceeași cale se respinge ori se rezolvă explicit înainte de simulare.",
+      "observed_fact": "_materialize_source + _assert_archive_integrity pe ZIP cu două CLIENTI.DBF având conținut diferit: manifest doi membri, marcaj duplicate_basenames, integritate ok=true, fișier păstrat de 6 bytes doar din ultimul membru. Arhiva simplă a fost acceptată, traversarea ../ a fost respinsă. Aliasul imbricat a fost respins de validarea ulterioară, astfel că afirmația se limitează la calea demonstrată.",
+      "source_where": "backend/app/routers/saga_import.py:372–406,663–684,706–735",
+      "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "evidence_ids": [
+        "E-ZIP"
+      ],
+      "remediation_native_first": "Respingeți coliziunile de cale canonică înainte de extragere și înainte de preview/apply. Construiți manifest cu hash și origine pe membru, păstrând directoarele distincte când politica o permite.",
+      "limitation": "Octeții DBF sintetici verifică transportul, manifestul și garda de integritate. Nu au fost interpretați ca tabele SAGA valide și nu s-a creat un document contabil.",
+      "status": "REPRODUS; trimis A11. Nicio schimbare de produs.",
+      "reviewer_decision": null,
+      "false_positive_history": "Caz de control pozitiv și limitarea de aplicabilitate în observație."
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "A04-C01",
+      "title": "Furnizor în două firme",
+      "requirement_id": "R-A04-01",
+      "pipeline_ids": [
+        "A04-P1"
+      ],
+      "expected": "Un singur partener activ și o adresă de facturare în A. Fără adresă privată sau comandă în B. Pentru firme din același client verificați explicit politica de partajare.",
+      "observed": "AD C_BPartner și fișa furnizorului din sursa EVA sunt identificabile. Nu s-a executat prin rol A/B în registrul de parteneri.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaFurnizoriForm.java",
+          "line": 27,
+          "symbol": "class WSagaFurnizoriForm",
+          "snippet": "public class WSagaFurnizoriForm extends WEvaFormBase {",
+          "sha256": "2bae7e2bab6423a84070b10721f5d9cfbde6f4e084c7e6e0a2129580be8e0abe"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/table/FurnizoriImporter.java",
+          "line": 30,
+          "symbol": "class FurnizoriImporter",
+          "snippet": "public class FurnizoriImporter extends StagingImporter {",
+          "sha256": "4fafccf1b074a5c3c8b34b4b2aa66ecbd2c41a1e9e1e399870538f6507de2b7d"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Org"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_BPartner"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_BPartner_Location"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Introduceți furnizorul sintetic F-A cu sediu și termene 30 zile în firma A. Selectați-l în comanda A. Încercați selectarea cheii sale private în B.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C02",
+      "title": "Condiții de aprovizionare",
+      "requirement_id": "R-A04-02",
+      "pipeline_ids": [
+        "A04-P1"
+      ],
+      "expected": "Linia păstrează furnizorul ales, versiunea de preț și conversia în UOM de stoc. Comparați cererea, răspunsurile și PO, inclusiv rotunjirea la precizia configurată.",
+      "observed": "Procesul amonte și catalogul de achiziții sunt ancorate. RFQ cu două oferte și conversia UOM nu au probă operațională.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NATIVE",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "tools/inventar_idempiere_saga_eva/idempiere_zone.csv",
+          "line": 12,
+          "symbol": "Requisition-to-Invoice",
+          "snippet": "Requisition-to-Invoice (Purchasing)|—,\"Achiziții: necesar, RfQ, comenzi furnizor, recepții, facturi furnizor\",\"Nativ: Purchase Order, Material Receipt, Purchase Invoice and Credit/Debit Note (în acest folder). Lipsesc: NIR RO, DVI / poziții tarifare, TVA nedeductibil 50%; EvA: Intrări lei / valută\",q31; WSagaIntrariForm.java",
+          "sha256": "c5624a701ad364b8b8cb10f2ebb2f7604f18993491e9f62376e4d961ce844d79"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_OrderLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_RfQ"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_RfQResponse"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Product_PO"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_ProductPrice"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Configurați în ERP două oferte pentru un articol, cu monede, unități și valabilități diferite. Cereți ofertă și generați o comandă pe baza răspunsului selectat.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C03",
+      "title": "Comanda de aprovizionare",
+      "requirement_id": "R-A04-03",
+      "pipeline_ids": [
+        "A04-P1"
+      ],
+      "expected": "IsSOTrx=N, documentul și liniile apar la furnizorul, organizația și prețul așteptate. Prin Complete confirmați starea reală și zero mișcări de stoc înainte de recepție.",
+      "observed": "MOrder.completeIt este identificat. Niciun PO sintetic de 12 bucăți nu a fost completat de A04 în cabinet.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NATIVE",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "tools/inventar_idempiere_saga_eva/idempiere_zone.csv",
+          "line": 12,
+          "symbol": "Requisition-to-Invoice",
+          "snippet": "Requisition-to-Invoice (Purchasing)|—,\"Achiziții: necesar, RfQ, comenzi furnizor, recepții, facturi furnizor\",\"Nativ: Purchase Order, Material Receipt, Purchase Invoice and Credit/Debit Note (în acest folder). Lipsesc: NIR RO, DVI / poziții tarifare, TVA nedeductibil 50%; EvA: Intrări lei / valută\",q31; WSagaIntrariForm.java",
+          "sha256": "c5624a701ad364b8b8cb10f2ebb2f7604f18993491e9f62376e4d961ce844d79"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Order"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_OrderLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Transaction"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Creați în fereastra nativă un PO pentru 12 bucăți la 10 RON, fără TVA în această probă. Finalizați prin rolul autorizat și redeschideți documentul.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C04",
+      "title": "Recepție parțială și NIR",
+      "requirement_id": "R-A04-04",
+      "pipeline_ids": [
+        "A04-P2"
+      ],
+      "expected": "După prima recepție cantitatea cumulată fizică și documentară este 7, restul deschis 5. După a doua este 12 și restul 0. Ambele recepții își păstrează legătura cu linia PO. NIR păstrează sursa și cantitatea.",
+      "observed": "NIR calculat greșit pentru diferențe pe linii (F01). Calea nativă MInOut completeIt și matching sunt identificabile; recepția succesivă 7+5 rămâne nedemonstrată.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NIR-CODE",
+        "E-NIR-JAR",
+        "E-NIR-CLASS",
+        "E-NATIVE"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+          "line": 21,
+          "symbol": "calculeaza(",
+          "snippet": "public static void calculeaza(Map<String, Object> model, Map<String, Object> emitere) {",
+          "sha256": "772a19b2ebf7843670204e6d63c03a2fb6aad8da48439c53cd939ade912fc158"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_OrderLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InOut"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InOutLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_StorageOnHand"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Transaction"
+        }
+      ],
+      "finding_ids": [
+        "A04-F01"
+      ],
+      "next_action": "Din PO de 12 înregistrați prima recepție de 7 pentru G1.1. Citiți documentul, previzualizați NIR. Înregistrați restul de 5 în locația convenită.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C05",
+      "title": "Set cumpărat și ambalare reversibilă",
+      "requirement_id": "R-A04-05",
+      "pipeline_ids": [
+        "A04-P2"
+      ],
+      "expected": "2 seturi CPP plus 12 bucăți CPP afectează stocul contabil al recepției. 0 stoc CPA suplimentar pentru o asamblare reversibilă. Păstrați mapările SKU furnizor → identitate internă pe articol și UOM.",
+      "observed": "Există model de produs și recepție, dar scenariul set cumpărat față de CPA reversibil nu a fost reprodus în A04. Transfer către A02/A05.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NATIVE",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+          "line": 21,
+          "symbol": "calculeaza(",
+          "snippet": "public static void calculeaza(Map<String, Object> model, Map<String, Object> emitere) {",
+          "sha256": "772a19b2ebf7843670204e6d63c03a2fb6aad8da48439c53cd939ade912fc158"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InOutLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Product"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Product_PO"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_StorageOnHand"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Recepționați 2 seturi indivizibile cumpărate și 12 bucăți primare în G1. Mapați coduri CPP distincte de codul CPA pentru ambalarea ulterioară în G2.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C06",
+      "title": "Lot și locator la recepție",
+      "requirement_id": "R-A04-06",
+      "pipeline_ids": [
+        "A04-P2"
+      ],
+      "expected": "Mișcările aferente loturilor însumează 7 la recepție, al doilea articol însumează 5. Comparați stoc înainte/după separat pentru client, locator, articol și ASI. Arătați ramura nativă dacă linia nu are MA.",
+      "observed": "Ramurile MInOut pentru update stoc, MA și comanda există; nici o alocare reală pe loturile 4+3 nu a fost reprodusă de A04.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NATIVE",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+          "line": 21,
+          "symbol": "calculeaza(",
+          "snippet": "public static void calculeaza(Map<String, Object> model, Map<String, Object> emitere) {",
+          "sha256": "772a19b2ebf7843670204e6d63c03a2fb6aad8da48439c53cd939ade912fc158"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InOutLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InOutLineMA"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Locator"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Transaction"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Recepționați 7 bucăți din două loturi 4+3 într-un locator G1 și 5 bucăți fără ASI pentru un alt articol configurat astfel. Reconciliați linii MA cu mișcările efective.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C07",
+      "title": "Potrivire comandă, recepție și factură",
+      "requirement_id": "R-A04-07",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "expected": "Sumă netă 70 RON. Asocierile recepției și facturii însumează 7 pentru ramura aplicabilă. Legăturile cu PO și Fact_Acct sunt verificabile pornind de la identificatorii documentelor.",
+      "observed": "Core MInOut:2054/2073/2095 trimite spre MMatchPO / MMatchInv; AD instalat inventariat. Asocierea reală pentru factura 70 și efectul Fact_Acct nu au fost provocate.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NATIVE",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+          "line": 21,
+          "symbol": "calculeaza(",
+          "snippet": "public static void calculeaza(Map<String, Object> model, Map<String, Object> emitere) {",
+          "sha256": "772a19b2ebf7843670204e6d63c03a2fb6aad8da48439c53cd939ade912fc158"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_InvoiceLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_MatchInv"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_MatchPO"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Înregistrați factura furnizor pentru 7 la 10 RON. Aplicați fluxul nativ de corespondențe conform politicii din cabinet. Reconciliați cantitățile și conturile.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C08",
+      "title": "Diferență de cantitate și preț",
+      "requirement_id": "R-A04-08",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "expected": "În politica strictă diferențele de 1 bucată și 1 RON/bucată sunt vizibile pentru decizie. Nu apare recepție fictivă pentru bucata lipsă. În politica tolerantă diferențele sunt aprobate și contabilizate conform schemei documentate.",
+      "observed": "F01 dovedește o diferență de recepție greșit atribuită NIR; acceptarea strictă/tolerantă M_MatchInv peste 7 nu a fost reprodusă.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NIR-CODE",
+        "E-NIR-JAR",
+        "E-NATIVE"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+          "line": 21,
+          "symbol": "calculeaza(",
+          "snippet": "public static void calculeaza(Map<String, Object> model, Map<String, Object> emitere) {",
+          "sha256": "772a19b2ebf7843670204e6d63c03a2fb6aad8da48439c53cd939ade912fc158"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_InvoiceLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InOutLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_MatchInv"
+        }
+      ],
+      "finding_ids": [
+        "A04-F01"
+      ],
+      "next_action": "Folosiți recepția de 7 cu factură pentru 8 la 11. Rulați mai întâi cu regula strictă, apoi cu politica de toleranță explicit configurată, în copii curate.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C09",
+      "title": "Valută, TVA și costuri accesorii",
+      "requirement_id": "R-A04-09",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "expected": "La cursul de probă 5.00, baza de 100 EUR produce 500 RON înaintea taxelor și accesoriilor. Totalurile și alocările însumează documentele sursă la precizia monedei, cu justificarea reziduului de rotunjire.",
+      "observed": "Există mecanisme C_Conversion_Rate și Landed Cost în AD conform selecției capturate. Cursul 5.00, distribuirea și reziduul nu au fost executate.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/f5_import_cursuri.py",
+          "line": 19,
+          "symbol": "def read_rates",
+          "snippet": "def read_rates(sch):",
+          "sha256": "c79102d165e9f65aa041fc785ed46cb2a812d09b01d45d92ad30e301b2e27792"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Conversion_Rate"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_InvoiceTax"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_LandedCost"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_LandedCostAllocation"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Configurați oferta în EUR și moneda contabilă în RON. Modelați cursul, data contabilă, taxele și distribuția unui cost de transport pe două linii, fără apel extern.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C10",
+      "title": "Retur de furnizor și credit",
+      "requirement_id": "R-A04-10",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "expected": "Mișcarea returului este −2 și diferența cantitativă cumulată 5. Creditul de 20 net la preț 10 și documentele de origine sunt legate și vizibile. Factura și plata restante se reconciliază cu A07.",
+      "observed": "MInOut.java:2881 și 2898 caută matchingurile la reversare. Nu s-au executat retur RMA al celor două bucăți și stingerea creditului.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NATIVE",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/NirReceptie.java",
+          "line": 21,
+          "symbol": "calculeaza(",
+          "snippet": "public static void calculeaza(Map<String, Object> model, Map<String, Object> emitere) {",
+          "sha256": "772a19b2ebf7843670204e6d63c03a2fb6aad8da48439c53cd939ade912fc158"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_AllocationLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InOut"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_MatchInv"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_RMA"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Returnați 2 din 7 recepționate prin tipul de document și politica de retur ale firmei. Urmăriți creditul și corectarea asocierilor în ordine inversă dacă este cerută.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C11",
+      "title": "Preluare arhivă sigură",
+      "requirement_id": "R-A04-11",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "expected": "Arhiva validă are ID și hash. Fiecare probă invalidă este respinsă sau plasată în carantină înaintea scrierilor ERP. 0 artefacte pe căi nepermise.",
+      "observed": "Arhiva normală este acceptată; ../ este blocat cu EVA-SAGA_ZIP_TRAVERSAL. Coliziunea de cale intră cu integritate ok și suprascrie o sursă, defect F05.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-ZIP",
+        "E-BE"
+      ],
+      "source_anchors": [
+        {
+          "path": "frontend/portal/eva_import_saga.html",
+          "line": 494,
+          "symbol": "/dry-run",
+          "snippet": "fetch('/app/api/saga/import/dry-run',{method:'POST',body:fd}).then(function(r){return r.json();}).then(function(d){",
+          "sha256": "5ff713d44c7464eafd037e38480ff8b87f58d1a5f25f5b0a900ca1ba8e504e86"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3696,
+          "symbol": "/jobs/",
+          "snippet": "@app.route(\"/app/api/saga/import/jobs/<int:job_id>\")",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Client"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Org"
+        }
+      ],
+      "finding_ids": [
+        "A04-F05"
+      ],
+      "next_action": "Prin interfața autorizată încărcați arhiva sintetică și verificați semnătura, identitatea firmei și hash-ul. Folosiți copii separate corupte, cu cale ieșită din arhivă și expansiune peste limita aprobată.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C12",
+      "title": "Universul tabelelor SAGA și al rândurilor",
+      "requirement_id": "R-A04-12",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "expected": "Pentru fiecare tabel sursă există exact o decizie operațional/arhivat/exclus justificat/blocat. În fiecare tabel eligibil rândurile sursă = reușite unice + respinse + amânate + exclus justificat. Un tabel necunoscut rămâne în raport.",
+      "observed": "Defect F05 și verdict auxiliar F03. Numărătorul pe toate familiile unei arhive operaționale nu a fost reconciliat. Registrul Java oferă liste runnable, iar rezultatul unei tabele nu înseamnă verdict global.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-ZIP",
+        "E-RECON-VERDICT",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportRegistry.java",
+          "line": 247,
+          "symbol": "runnable(",
+          "snippet": "public static List<SagaTableImporter> runnable() {",
+          "sha256": "89d4aa50322b1881970676f413121e83ce1a9429fb30c505ac02c0b47418602e"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3710,
+          "symbol": "archive-table-audit",
+          "snippet": "@app.route(\"/app/api/saga/import/archive-table-audit\")",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Column"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Table"
+        }
+      ],
+      "finding_ids": [
+        "A04-F03",
+        "A04-F05"
+      ],
+      "next_action": "Faceți manifest din arhivă și registrul handlerelor. Clasificați fiecare tabel, inclusiv tabele goale, extensii necunoscute și copii istorice. Contorizați fiecare rând relevant o singură dată.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C13",
+      "title": "Ordine și dependențe",
+      "requirement_id": "R-A04-13",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "expected": "0 facturi orfane. Rândul blocat rămâne identificabil și devine eligibil numai după rezolvarea dependenței; FK și ID-urile sunt din clientul țintă.",
+      "observed": "ImportOrchestrator.runTable și legături părinte–copil identificate. Părintele returnează propriul TableReport, copiii se loghează separat. Încă nu s-a verificat din UI pierderea unui total sau FK orfan.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-BE"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+          "line": 48,
+          "symbol": "runAll(",
+          "snippet": "public static RunReport runAll(ImportCtx ctx, SagaArchive archive) {",
+          "sha256": "4b5d36bea3f0964f9084ebb49c8d5c5df78c2bf4bfed7fb26a71576fa69ca36e"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3672,
+          "symbol": "/run",
+          "snippet": "@app.route(\"/app/api/saga/import/run\", methods=[\"POST\"])",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Org"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_AcctSchema"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_BPartner"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_InvoiceLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Period"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Planificați bootstrap fiscal → conturi/perioade → parteneri/articole → documente → alocări → reconciliere. Introduceți o factură al cărei furnizor nu s-a mapat.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C14",
+      "title": "Simulare, validare și drept de aplicare",
+      "requirement_id": "R-A04-14",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "expected": "Simularea nu modifică documente/stoc/solduri. Aplicarea în altă firmă, altă fază sau pe o arhivă schimbată este refuzată cu zero efecte contabile.",
+      "observed": "18 suite de garde stage0 și 5 native runner, între cele 66 de teste BE, au trecut în rularea comună. Nu sunt operații efectuate pe buildul instalat.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-BE"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/saga_stage0_guard.py",
+          "line": 57,
+          "symbol": "def check_cli_apply_allowed",
+          "snippet": "def check_cli_apply_allowed(*, import_run_id, phase, expected=(None, None, None), firm=None):",
+          "sha256": "893d72f70e8ab1d6fb6291d0adf5020805fd80fa953c2c3bd31dce0f54b4a7f6"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3665,
+          "symbol": "/dry-run",
+          "snippet": "@app.route(\"/app/api/saga/import/dry-run\", methods=[\"POST\"])",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "GL_Journal"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Inventory"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Rulați preflight cu un import_run_id asociat strict arhivei, firmei și fazei. Capturați numărul de PO contabile înainte și după preview și refuz.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C15",
+      "title": "Constituirea firmei și decupajul de dată",
+      "requirement_id": "R-A04-15",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "expected": "Fiecare document intră o singură dată ca istoric sau sold de deschidere, cu politica explicită. Firma, perioada și schema afișate coincid cu cele ale PO.",
+      "observed": "Configurația și data de început se tratează în preflight, core și analizele A12. Cele două date care traversează cutoverul nu au fost încercate împreună în iDempiere.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-BE",
+        "E-T227"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/saga_import_preflight.py",
+          "line": 854,
+          "symbol": "def run_preflight",
+          "snippet": "def run_preflight(",
+          "sha256": "95129ed2cac616eafaf49b69ec1c77561ba10b22f21165310635e9fcbf096753"
+        },
+        {
+          "path": "frontend/portal/eva_import_saga.html",
+          "line": 296,
+          "symbol": "archive-table-audit",
+          "snippet": "fetch('/app/api/saga/import/archive-table-audit?include_empty=1&sample_rows=0')",
+          "sha256": "5ff713d44c7464eafd037e38480ff8b87f58d1a5f25f5b0a900ca1ba8e504e86"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Client"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Org"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_AcctSchema"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_DocType"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Period"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Alegeți în ERP clientul/organizația, data ultimei zile în sistemul vechi, prima zi operațională, valuta și calendarul. Importați o operație exact pe fiecare parte a graniței.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C16",
+      "title": "Solduri inițiale GL și subregistre",
+      "requirement_id": "R-A04-16",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "expected": "Datoria rămasă este 60 după plată. Total Debite=Credite la precizia configurată. Postarea soldurilor și reluarea istoriei au zero componente contabile suprapuse. Diferența pe cont/partener/perioadă are raport explicit.",
+      "observed": "F02/F03 limitează folosirea recon.py pentru solduri. T227 a reprodus SQL pentru parteneri și documente nepostate pe 3 CTE sintetice, inclusiv cost/stoc. Fără operațiunea GL 100→60.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-SQL",
+        "E-RECON",
+        "E-RECON-VERDICT"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/recon/recon.py",
+          "line": 54,
+          "symbol": "class Recon",
+          "snippet": "class Recon:",
+          "sha256": "64bc2655000fc89a0da7aaf24d4856d6d15a9917d2fc63fe4fa666f8b1cb0fe1"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+          "line": 74,
+          "symbol": "runTable(",
+          "snippet": "public static TableReport runTable(ImportCtx ctx, SagaArchive archive, String tableName)",
+          "sha256": "4b5d36bea3f0964f9084ebb49c8d5c5df78c2bf4bfed7fb26a71576fa69ca36e"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_AllocationLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "GL_Journal"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "GL_JournalLine"
+        }
+      ],
+      "finding_ids": [
+        "A04-F02"
+      ],
+      "next_action": "Importați un sold deschis furnizor de 100, stins ulterior cu 40, și un registru GL în aceeași balanță. Comparați scenariul solduri numai față de istoricul complet.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C17",
+      "title": "Parteneri, produse și adrese",
+      "requirement_id": "R-A04-17",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "expected": "Fiecare cheie sursă validă are fie mapare unică justificată, fie conflict explicit. CPP și CPA au două identități distincte. Un partener cu două roluri legitim mapat rămâne un partener cu flagurile corecte.",
+      "observed": "Există staging FurnizoriImporter și AD C_BPartner/M_Product, dar maparea identităților CPP/CPA, cu aliasuri colidente, nu s-a reprodus end-to-end.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-AD",
+        "E-BE"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaFurnizoriForm.java",
+          "line": 27,
+          "symbol": "class WSagaFurnizoriForm",
+          "snippet": "public class WSagaFurnizoriForm extends WEvaFormBase {",
+          "sha256": "2bae7e2bab6423a84070b10721f5d9cfbde6f4e084c7e6e0a2129580be8e0abe"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/table/FurnizoriImporter.java",
+          "line": 30,
+          "symbol": "class FurnizoriImporter",
+          "snippet": "public class FurnizoriImporter extends StagingImporter {",
+          "sha256": "4fafccf1b074a5c3c8b34b4b2aa66ecbd2c41a1e9e1e399870538f6507de2b7d"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_BPartner"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_BPartner_Location"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_UOM"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Product"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Mapați 2 furnizori omonimi, un partener cu ambele roluri și două produse CPP/CPA având același SKU sursă. Păstrați codul istoric ca alias.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C18",
+      "title": "Facturi, conversie și semne istorice",
+      "requirement_id": "R-A04-18",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "expected": "Documentele au monedă, curs și dată conform sursei. O factură de 100 EUR și un credit de 20 EUR dau net 80 EUR înainte de plăți. Fiecare linie țintă are părinte identificabil.",
+      "observed": "F02/F03. Recon.invoices vede 1 factură din 2 și o declară potrivită; nu s-a executat înregistrarea în ERP a facturii/storno în valută.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-RECON",
+        "E-RECON-VERDICT",
+        "E-T227"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/InvoiceHeaderImporter.java",
+          "line": 37,
+          "symbol": "class InvoiceHeaderImporter",
+          "snippet": "public abstract class InvoiceHeaderImporter extends AbstractSagaTableImporter {",
+          "sha256": "6f851f3af4822d52e36a1119ebf6cf755ad989ba182984e3fc69ac5900ff593e"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Currency"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_InvoiceLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_InvoiceTax"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        }
+      ],
+      "finding_ids": [
+        "A04-F02",
+        "A04-F03"
+      ],
+      "next_action": "Importați factura externă și storno parțial cu headere, linii și chei distincte. Reconciliați suma tranzacției, taxele și moneda contabilă pe fiecare partener.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C19",
+      "title": "Stoc la data tranziției",
+      "requirement_id": "R-A04-19",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "expected": "G1.1=7 și G1.2=5. Totalul contabil este 12, fără multiplicarea comună în G2/G3. Data inventarului și statutul CO explică mișcările, păstrați și inventarul fizic local.",
+      "observed": "A12 a verificat codul SQL T227 cu stock/cost 5×5. MAX pe două costuri nu stabilește costul corect pe schemă; este indicator de urmărit, nu o constatare separată A04. Nu s-a importat stocul 7+5.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-SQL",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/imp/InventoryImporter.java",
+          "line": 25,
+          "symbol": "class InventoryImporter",
+          "snippet": "public class InventoryImporter {",
+          "sha256": "fb953477206c76dcaaf26cbf8a60de968a028971aab414e06b0a50bbc9318a51"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportRegistry.java",
+          "line": 247,
+          "symbol": "runnable(",
+          "snippet": "public static List<SagaTableImporter> runnable() {",
+          "sha256": "89d4aa50322b1881970676f413121e83ce1a9429fb30c505ac02c0b47418602e"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Inventory"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InventoryLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_StorageOnHand"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Transaction"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Alegeți modul istoric sau modul stoc inițial. Importați 7 bucăți în G1.1 și 5 în G1.2, cu aceeași referință externă de produs și ASI configurat.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C20",
+      "title": "Restul familiilor și accesul la istoric",
+      "requirement_id": "R-A04-20",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "expected": "Registrul de destinații acoperă toate familiile prezente. Un rând doar arhivat este etichetat astfel. Pentru solicitările care cer utilizare operațională obțineți dovadă de la agentul funcțional proprietar.",
+      "observed": "Captura AD include obiecte și procese de migrare. Registrul nominal C11 are 56 rânduri pentru revizuirea A12. Acoperirea tuturor familiilor dintr-o arhivă operațională și controlul HR rămân deschise.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportRegistry.java",
+          "line": 247,
+          "symbol": "runnable(",
+          "snippet": "public static List<SagaTableImporter> runnable() {",
+          "sha256": "89d4aa50322b1881970676f413121e83ce1a9429fb30c505ac02c0b47418602e"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3710,
+          "symbol": "archive-table-audit",
+          "snippet": "@app.route(\"/app/api/saga/import/archive-table-audit\")",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "A_Asset"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Role"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Table"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Order"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Payment"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "GL_Journal"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Includeți comenzi, active, contracte, salarizare, declarații, extrase, note și tabele arhivate. Pentru fiecare familie verificați cardinalități, origine și câte un exemplu controlat cu rolul autorizat.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C21",
+      "title": "Idempotență și concurență",
+      "requirement_id": "R-A04-21",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "expected": "Un singur efect pe identitate business și firmă. La reluare aceeași mapare sau o referință de duplicat și zero delte în stoc/sold. Verificați cheile în schema instalată.",
+      "observed": "Endpointurile folosesc replay, acquire_import_gate și active import pe firmă. 66 de teste BE sintetice; două POST simultane pe cabinet cu comparația soldurilor și a identității nu au fost executate.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-BE"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+          "line": 48,
+          "symbol": "runAll(",
+          "snippet": "public static RunReport runAll(ImportCtx ctx, SagaArchive archive) {",
+          "sha256": "4b5d36bea3f0964f9084ebb49c8d5c5df78c2bf4bfed7fb26a71576fa69ca36e"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3672,
+          "symbol": "/run",
+          "snippet": "@app.route(\"/app/api/saga/import/run\", methods=[\"POST\"])",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_BPartner"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Transaction"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Cu aceeași firmă și hash lansați două cereri în paralel și repetați aceeași cerere după succes. Comparați stocul, datoria, numărul de documente și identificatorii.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C22",
+      "title": "Reluare și tranzacții",
+      "requirement_id": "R-A04-22",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "expected": "Nicio unitate raportată ca reușită fără toate componentele sale. După reluare rezultatul reconciliază 100% cu rularea curată. Delta rămasă este explicită dacă operatorul trebuie să remedieze ceva.",
+      "observed": "F04 în progresul jobului. Worker și stare de reluare ancorate; pierderea workerului între commit și lineage și reconcilierea cu un import curat nu sunt probate.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-POLL",
+        "E-BE"
+      ],
+      "source_anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+          "line": 48,
+          "symbol": "runAll(",
+          "snippet": "public static RunReport runAll(ImportCtx ctx, SagaArchive archive) {",
+          "sha256": "4b5d36bea3f0964f9084ebb49c8d5c5df78c2bf4bfed7fb26a71576fa69ca36e"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3672,
+          "symbol": "/run",
+          "snippet": "@app.route(\"/app/api/saga/import/run\", methods=[\"POST\"])",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_PInstance"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_InvoiceLine"
+        }
+      ],
+      "finding_ids": [
+        "A04-F04"
+      ],
+      "next_action": "Injectați în cabinet izolat o întrerupere între header, linie și actualizarea lineage. Inventariați limitele tranzacționale reale și reluați numai unitățile nefinalizate.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C23",
+      "title": "Finisare, anulare și restaurare",
+      "requirement_id": "R-A04-23",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "expected": "Revenirea se verifică pe clona separată prin aceleași totaluri și identificatori contractați. Documentele CO primesc procedura compensatoare potrivită. Raportul păstrează originea, starea și autorul.",
+      "observed": "Planul cere restaurare pe clona A04. Nu există restaurare realizată de A04 pe cabinet izolat și nu există dovadă de reversare nativă a unui document CO.",
+      "status": "BLOCAT_RUNTIME",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-SLOT"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/saga_stage0_guard.py",
+          "line": 57,
+          "symbol": "def check_cli_apply_allowed",
+          "snippet": "def check_cli_apply_allowed(*, import_run_id, phase, expected=(None, None, None), firm=None):",
+          "sha256": "893d72f70e8ab1d6fb6291d0adf5020805fd80fa953c2c3bd31dce0f54b4a7f6"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3665,
+          "symbol": "/dry-run",
+          "snippet": "@app.route(\"/app/api/saga/import/dry-run\", methods=[\"POST\"])",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Client"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Org"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_InOut"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Fixați punctul de revenire al cabinetului de test, opriți rularea parțială, conservați probele și restaurați numai copia dedicată sau folosiți corecția nativă justificată. Comparați inventarul și hash-urile de bază.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C24",
+      "title": "Reconciliere și acceptul punerii în funcțiune",
+      "requirement_id": "R-A04-24",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "expected": "Nicio diferență neexplicată pe firmă/perioadă/cont/monedă/partener/gestiune. Rotunjirea se acceptă numai la precizia stabilită și cu sursa identificată. Semnatarul desemnat și manifestul documentează deschiderea.",
+      "observed": "F02/F03 demonstrează un rezultat complet eronat în scriptul auxiliar. SQL T227 pe CTE și testele A12 sunt probe independente pentru implementarea distinctă. Acceptul semnat de pornire nu este verificat.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-RECON",
+        "E-RECON-VERDICT",
+        "E-SQL"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/recon/recon.py",
+          "line": 54,
+          "symbol": "class Recon",
+          "snippet": "class Recon:",
+          "sha256": "64bc2655000fc89a0da7aaf24d4856d6d15a9917d2fc63fe4fa666f8b1cb0fe1"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+          "line": 74,
+          "symbol": "runTable(",
+          "snippet": "public static TableReport runTable(ImportCtx ctx, SagaArchive archive, String tableName)",
+          "sha256": "4b5d36bea3f0964f9084ebb49c8d5c5df78c2bf4bfed7fb26a71576fa69ca36e"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_AllocationLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_StorageOnHand"
+        }
+      ],
+      "finding_ids": [
+        "A04-F02",
+        "A04-F03"
+      ],
+      "next_action": "Încrucișați balanță, solduri pe furnizor, stoc valorizat, documente deschise și TVA, în ambele sensuri până la rândul sursă. Schimbați o mapare de cont care lasă totalul general egal.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C25",
+      "title": "Volum, progres și confidențialitate",
+      "requirement_id": "R-A04-25",
+      "pipeline_ids": [
+        "A04-P6"
+      ],
+      "expected": "Percentilele sunt raportate față de plafonul convenit înainte de test, cu metodă repetabilă. Progresul se corelează cu numitorul real și este monoton pe aceeași fază. 0 marcatori confidențiali în răspunsuri sau loguri pentru rolul neautorizat.",
+      "observed": "F04 confirmat sintetic; control 200/imported oprește repetarea. FE suite 302 au contract de sesiune nestabilit, nu sunt dovadă de indisponibilitate pentru utilizatorul conectat. P50/P95, volum și roluri lipsesc.",
+      "status": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-POLL",
+        "E-FE"
+      ],
+      "source_anchors": [
+        {
+          "path": "frontend/portal/eva_import_saga.html",
+          "line": 494,
+          "symbol": "/dry-run",
+          "snippet": "fetch('/app/api/saga/import/dry-run',{method:'POST',body:fd}).then(function(r){return r.json();}).then(function(d){",
+          "sha256": "5ff713d44c7464eafd037e38480ff8b87f58d1a5f25f5b0a900ca1ba8e504e86"
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 3696,
+          "symbol": "/jobs/",
+          "snippet": "@app.route(\"/app/api/saga/import/jobs/<int:job_id>\")",
+          "sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_PInstance"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Role"
+        }
+      ],
+      "finding_ids": [
+        "A04-F04"
+      ],
+      "next_action": "Pe fixture mică și lotul reprezentativ aprobat înregistrați P50/P95, throughput, memorie, job după refresh și exportul raportului prin rol limitat. Introduceți marcatori sintetici de salarii și conturi bancare.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C26",
+      "title": "Necesitate și aprobare de cumpărare",
+      "requirement_id": "R-A04-26",
+      "pipeline_ids": [
+        "A04-P1"
+      ],
+      "expected": "Cantitatea din PO aprobat este 12 și există trasabilitate la cerere/linie. Toate modificările cantității înainte de aprobare rămân identificabile.",
+      "observed": "M_Requisition și MOrder se verifică pe nivelele cod/metadata accesibile. Aprobarea bugetului și generarea PO nu au fost exercitate.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NATIVE",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "tools/inventar_idempiere_saga_eva/idempiere_zone.csv",
+          "line": 12,
+          "symbol": "Requisition-to-Invoice",
+          "snippet": "Requisition-to-Invoice (Purchasing)|—,\"Achiziții: necesar, RfQ, comenzi furnizor, recepții, facturi furnizor\",\"Nativ: Purchase Order, Material Receipt, Purchase Invoice and Credit/Debit Note (în acest folder). Lipsesc: NIR RO, DVI / poziții tarifare, TVA nedeductibil 50%; EvA: Intrări lei / valută\",q31; WSagaIntrariForm.java",
+          "sha256": "c5624a701ad364b8b8cb10f2ebb2f7604f18993491e9f62376e4d961ce844d79"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Order"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_OrderLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Requisition"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_RequisitionLine"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Creați cerere de achiziție pentru 12 bucăți. Folosiți fluxul de aprobare configurat pentru a transforma liniile eligibile într-o comandă.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C27",
+      "title": "Achiziții externe și TVA deductibil parțial",
+      "requirement_id": "R-A04-27",
+      "pipeline_ids": [
+        "A04-P3"
+      ],
+      "expected": "Suma achitată furnizorului, baza vamală, TVA deductibil/nedeductibil și costurile capitalizate se reconciliază independent la precizia convenită. Fiecare sumă are document și politică determinate.",
+      "observed": "Rutele native, FX și mecanismul de preflight există în surse. Starea DVI instalată și reconcilierea unei facturi vamale cu tratament fiscal datat nu au fost testate.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-AD"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/f5_import_cursuri.py",
+          "line": 19,
+          "symbol": "def read_rates",
+          "snippet": "def read_rates(sch):",
+          "sha256": "c79102d165e9f65aa041fc785ed46cb2a812d09b01d45d92ad30e301b2e27792"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java",
+          "line": 10,
+          "symbol": "class WSagaIntrariForm",
+          "snippet": "public class WSagaIntrariForm extends WSagaIesiriForm {",
+          "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_InvoiceTax"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_LandedCost"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Folosiți un set sintetic cu factură în valută, document vamal, cheltuieli și deductibilitate parțială. Contabilul configurează tratamentul aplicabil datei și operației și documentează temeiul oficial la execuție.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C28",
+      "title": "Setări inițiale ale firmei",
+      "requirement_id": "R-A04-28",
+      "pipeline_ids": [
+        "A04-P4"
+      ],
+      "expected": "Fiecare câmp obligatoriu are origine, valoare, validare și drept. Două firme cu aceeași structură au ID-uri rezolvate în contextul propriu. Opțiunile G1 și G2 incompatibile sunt refuzate înainte de înregistrarea unui stoc contabil.",
+      "observed": "Modelele de configurare şi validarea source/target sunt identificate. Două firme cu configurare incompatibilă și depozitele G1/G2 nu au fost operate în UI în această trecere.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-AD",
+        "E-BE"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/saga_import_preflight.py",
+          "line": 854,
+          "symbol": "def run_preflight",
+          "snippet": "def run_preflight(",
+          "sha256": "95129ed2cac616eafaf49b69ec1c77561ba10b22f21165310635e9fcbf096753"
+        },
+        {
+          "path": "frontend/portal/eva_import_saga.html",
+          "line": 296,
+          "symbol": "archive-table-audit",
+          "snippet": "fetch('/app/api/saga/import/archive-table-audit?include_empty=1&sample_rows=0')",
+          "sha256": "5ff713d44c7464eafd037e38480ff8b87f58d1a5f25f5b0a900ca1ba8e504e86"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "AD_Org"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_AcctSchema"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_BankAccount"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Period"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Locator"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "M_Warehouse"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Verificați listele de parametri pentru client/organizație, conturi implicite, clase de regim fiscal, perioade, bănci/IBAN sintetice, jurnal, depozite și locatori de destinație. Comparați configurația exportată și prezentată înainte de aplicare.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    },
+    {
+      "control_id": "A04-C29",
+      "title": "Plăți istorice și avansuri",
+      "requirement_id": "R-A04-29",
+      "pipeline_ids": [
+        "A04-P5"
+      ],
+      "expected": "Documentul este stins cu 30+70=100 o singură dată. Sold rămas 0 în moneda documentului. Păstrați ID-uri de avans, plată și alocare și urma contabilă aferentă.",
+      "observed": "Testele de reconciliere BE sunt sintetice; nu s-au efectuat în registrul nativ avans 30, factură 100, plată 70 și alocările aferente.",
+      "status": "PARȚIAL",
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-BE",
+        "E-SQL"
+      ],
+      "source_anchors": [
+        {
+          "path": "backend/saga-migration/recon/recon.py",
+          "line": 54,
+          "symbol": "class Recon",
+          "snippet": "class Recon:",
+          "sha256": "64bc2655000fc89a0da7aaf24d4856d6d15a9917d2fc63fe4fa666f8b1cb0fe1"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportOrchestrator.java",
+          "line": 74,
+          "symbol": "runTable(",
+          "snippet": "public static TableReport runTable(ImportCtx ctx, SagaArchive archive, String tableName)",
+          "sha256": "4b5d36bea3f0964f9084ebb49c8d5c5df78c2bf4bfed7fb26a71576fa69ca36e"
+        }
+      ],
+      "ad_catalog_observed": [
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_AllocationHdr"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_AllocationLine"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Invoice"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "C_Payment"
+        },
+        {
+          "isview": "N",
+          "isactive": "Y",
+          "tablename": "Fact_Acct"
+        }
+      ],
+      "finding_ids": [],
+      "next_action": "Importați achiziția cu avans de 30, factură sintetică de 100 și plată ulterioară de 70. Comparați metoda declarată la sursă și alocările efective în ERP.",
+      "missing": "Scenariul complet prin rol/fereastră, PO și delta contabilă necesită cabinet izolat cu slot propriu. Cap. și task se validează prin fișele A12."
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline_id": "A04-P1",
+      "business_outcome": "Obținerea unei comenzi de achiziție aprobate",
+      "controls": [
+        "A04-C01",
+        "A04-C02",
+        "A04-C03",
+        "A04-C26"
+      ],
+      "anchored_state_machine": "Cerere DR → aprobare conform workflow instalat → RfQ/răspuns → PO DR → IP/CO conform regulilor → sold deschis 12.",
+      "expected": "PO finalizat, livrat=0, comandat=12, un PO pentru transformarea unică a necesarului.",
+      "observed": [
+        {
+          "control": "A04-C01",
+          "state": "PARȚIAL",
+          "observed": "AD C_BPartner și fișa furnizorului din sursa EVA sunt identificabile. Nu s-a executat prin rol A/B în registrul de parteneri."
+        },
+        {
+          "control": "A04-C02",
+          "state": "PARȚIAL",
+          "observed": "Procesul amonte și catalogul de achiziții sunt ancorate. RFQ cu două oferte și conversia UOM nu au probă operațională."
+        },
+        {
+          "control": "A04-C03",
+          "state": "PARȚIAL",
+          "observed": "MOrder.completeIt este identificat. Niciun PO sintetic de 12 bucăți nu a fost completat de A04 în cabinet."
+        },
+        {
+          "control": "A04-C26",
+          "state": "PARȚIAL",
+          "observed": "M_Requisition și MOrder se verifică pe nivelele cod/metadata accesibile. Aprobarea bugetului și generarea PO nu au fost exercitate."
+        }
+      ],
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-AD",
+        "E-NATIVE"
+      ],
+      "finding_ids": [],
+      "status": "PARȚIAL",
+      "missing": "Starea finală de proces și efectele întregului document, verificate în cabinet izolat."
+    },
+    {
+      "pipeline_id": "A04-P2",
+      "business_outcome": "Recepționarea trasabilă a achiziției în G1 și NIR",
+      "controls": [
+        "A04-C04",
+        "A04-C05",
+        "A04-C06"
+      ],
+      "anchored_state_machine": "PO în așteptare → recepție DR → verificare lot și locator → CO → tranzacție stoc → NIR și rest PO → a doua recepție.",
+      "expected": "Suma netă de mișcări 12 în cele două recepții. NIR identifică separat cantitatea documentară și cea constatată.",
+      "observed": [
+        {
+          "control": "A04-C04",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "NIR calculat greșit pentru diferențe pe linii (F01). Calea nativă MInOut completeIt și matching sunt identificabile; recepția succesivă 7+5 rămâne nedemonstrată."
+        },
+        {
+          "control": "A04-C05",
+          "state": "PARȚIAL",
+          "observed": "Există model de produs și recepție, dar scenariul set cumpărat față de CPA reversibil nu a fost reprodus în A04. Transfer către A02/A05."
+        },
+        {
+          "control": "A04-C06",
+          "state": "PARȚIAL",
+          "observed": "Ramurile MInOut pentru update stoc, MA și comanda există; nici o alocare reală pe loturile 4+3 nu a fost reprodusă de A04."
+        }
+      ],
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NIR-CODE",
+        "E-NIR-JAR",
+        "E-NIR-CLASS",
+        "E-NATIVE",
+        "E-AD"
+      ],
+      "finding_ids": [
+        "A04-F01"
+      ],
+      "status": "PARȚIAL",
+      "missing": "Starea finală de proces și efectele întregului document, verificate în cabinet izolat."
+    },
+    {
+      "pipeline_id": "A04-P3",
+      "business_outcome": "Validarea facturii furnizor și a diferențelor/retururilor",
+      "controls": [
+        "A04-C07",
+        "A04-C08",
+        "A04-C09",
+        "A04-C10",
+        "A04-C27"
+      ],
+      "anchored_state_machine": "Invoice DR → comparație PO/recepție → CO → potrivire și postare → retur/credit conform condiției → reconciliere.",
+      "expected": "Factură 70 pentru 7×10, respectiv 50 după credit de 20 în scenariul retur. Diferențele rămân explicite și verificabile.",
+      "observed": [
+        {
+          "control": "A04-C07",
+          "state": "PARȚIAL",
+          "observed": "Core MInOut:2054/2073/2095 trimite spre MMatchPO / MMatchInv; AD instalat inventariat. Asocierea reală pentru factura 70 și efectul Fact_Acct nu au fost provocate."
+        },
+        {
+          "control": "A04-C08",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "F01 dovedește o diferență de recepție greșit atribuită NIR; acceptarea strictă/tolerantă M_MatchInv peste 7 nu a fost reprodusă."
+        },
+        {
+          "control": "A04-C09",
+          "state": "PARȚIAL",
+          "observed": "Există mecanisme C_Conversion_Rate și Landed Cost în AD conform selecției capturate. Cursul 5.00, distribuirea și reziduul nu au fost executate."
+        },
+        {
+          "control": "A04-C10",
+          "state": "PARȚIAL",
+          "observed": "MInOut.java:2881 și 2898 caută matchingurile la reversare. Nu s-au executat retur RMA al celor două bucăți și stingerea creditului."
+        },
+        {
+          "control": "A04-C27",
+          "state": "PARȚIAL",
+          "observed": "Rutele native, FX și mecanismul de preflight există în surse. Starea DVI instalată și reconcilierea unei facturi vamale cu tratament fiscal datat nu au fost testate."
+        }
+      ],
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-NATIVE",
+        "E-AD",
+        "E-NIR-CODE",
+        "E-NIR-JAR"
+      ],
+      "finding_ids": [
+        "A04-F01"
+      ],
+      "status": "PARȚIAL",
+      "missing": "Starea finală de proces și efectele întregului document, verificate în cabinet izolat."
+    },
+    {
+      "pipeline_id": "A04-P4",
+      "business_outcome": "Identificarea completă a sursei și simularea importului",
+      "controls": [
+        "A04-C11",
+        "A04-C12",
+        "A04-C13",
+        "A04-C14",
+        "A04-C28"
+      ],
+      "anchored_state_machine": "Recepționat → identificat → inventariat → previzualizat → eligibil/blocat, cu motiv pe tabel și rând.",
+      "expected": "O decizie per tabel, 0 scrieri în documente operaționale la preview. Hash-ul, firma și faza rămân aceleași la confirmare.",
+      "observed": [
+        {
+          "control": "A04-C11",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "Arhiva normală este acceptată; ../ este blocat cu EVA-SAGA_ZIP_TRAVERSAL. Coliziunea de cale intră cu integritate ok și suprascrie o sursă, defect F05."
+        },
+        {
+          "control": "A04-C12",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "Defect F05 și verdict auxiliar F03. Numărătorul pe toate familiile unei arhive operaționale nu a fost reconciliat. Registrul Java oferă liste runnable, iar rezultatul unei tabele nu înseamnă verdict global."
+        },
+        {
+          "control": "A04-C13",
+          "state": "PARȚIAL",
+          "observed": "ImportOrchestrator.runTable și legături părinte–copil identificate. Părintele returnează propriul TableReport, copiii se loghează separat. Încă nu s-a verificat din UI pierderea unui total sau FK orfan."
+        },
+        {
+          "control": "A04-C14",
+          "state": "PARȚIAL",
+          "observed": "18 suite de garde stage0 și 5 native runner, între cele 66 de teste BE, au trecut în rularea comună. Nu sunt operații efectuate pe buildul instalat."
+        },
+        {
+          "control": "A04-C28",
+          "state": "PARȚIAL",
+          "observed": "Modelele de configurare şi validarea source/target sunt identificate. Două firme cu configurare incompatibilă și depozitele G1/G2 nu au fost operate în UI în această trecere."
+        }
+      ],
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-ZIP",
+        "E-BE",
+        "E-RECON-VERDICT",
+        "E-AD"
+      ],
+      "finding_ids": [
+        "A04-F05",
+        "A04-F03"
+      ],
+      "status": "PARȚIAL",
+      "missing": "Starea finală de proces și efectele întregului document, verificate în cabinet izolat."
+    },
+    {
+      "pipeline_id": "A04-P5",
+      "business_outcome": "Trecerea la exploatare a unei firme cu solduri reconciliate",
+      "controls": [
+        "A04-C15",
+        "A04-C16",
+        "A04-C17",
+        "A04-C18",
+        "A04-C19",
+        "A04-C20",
+        "A04-C29"
+      ],
+      "anchored_state_machine": "Bootstrap → parteneri și produse → documente de stoc/facturi → alocări și note → verificări pe familie → reconciliere.",
+      "expected": "Fiecare rând eligibil are efect identificabil, excepție justificată sau blocaj. Totaluri reconciliate pe toate dimensiunile.",
+      "observed": [
+        {
+          "control": "A04-C15",
+          "state": "PARȚIAL",
+          "observed": "Configurația și data de început se tratează în preflight, core și analizele A12. Cele două date care traversează cutoverul nu au fost încercate împreună în iDempiere."
+        },
+        {
+          "control": "A04-C16",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "F02/F03 limitează folosirea recon.py pentru solduri. T227 a reprodus SQL pentru parteneri și documente nepostate pe 3 CTE sintetice, inclusiv cost/stoc. Fără operațiunea GL 100→60."
+        },
+        {
+          "control": "A04-C17",
+          "state": "PARȚIAL",
+          "observed": "Există staging FurnizoriImporter și AD C_BPartner/M_Product, dar maparea identităților CPP/CPA, cu aliasuri colidente, nu s-a reprodus end-to-end."
+        },
+        {
+          "control": "A04-C18",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "F02/F03. Recon.invoices vede 1 factură din 2 și o declară potrivită; nu s-a executat înregistrarea în ERP a facturii/storno în valută."
+        },
+        {
+          "control": "A04-C19",
+          "state": "PARȚIAL",
+          "observed": "A12 a verificat codul SQL T227 cu stock/cost 5×5. MAX pe două costuri nu stabilește costul corect pe schemă; este indicator de urmărit, nu o constatare separată A04. Nu s-a importat stocul 7+5."
+        },
+        {
+          "control": "A04-C20",
+          "state": "PARȚIAL",
+          "observed": "Captura AD include obiecte și procese de migrare. Registrul nominal C11 are 56 rânduri pentru revizuirea A12. Acoperirea tuturor familiilor dintr-o arhivă operațională și controlul HR rămân deschise."
+        },
+        {
+          "control": "A04-C29",
+          "state": "PARȚIAL",
+          "observed": "Testele de reconciliere BE sunt sintetice; nu s-au efectuat în registrul nativ avans 30, factură 100, plată 70 și alocările aferente."
+        }
+      ],
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-BE",
+        "E-T227",
+        "E-SQL",
+        "E-RECON",
+        "E-RECON-VERDICT",
+        "E-AD"
+      ],
+      "finding_ids": [
+        "A04-F02",
+        "A04-F03"
+      ],
+      "status": "PARȚIAL",
+      "missing": "Starea finală de proces și efectele întregului document, verificate în cabinet izolat."
+    },
+    {
+      "pipeline_id": "A04-P6",
+      "business_outcome": "Reluarea, restaurarea și decizia de acceptare a migrării",
+      "controls": [
+        "A04-C21",
+        "A04-C22",
+        "A04-C23",
+        "A04-C24",
+        "A04-C25"
+      ],
+      "anchored_state_machine": "În curs → întrerupt/eroare → reluare controlată/compensare → reconciliere → acceptat sau neacceptat.",
+      "expected": "Un efect per firmă/cheie sursă și operație. Zero diferențe nejustificate față de rularea curată. Decizia de go-live aparține responsabilului.",
+      "observed": [
+        {
+          "control": "A04-C21",
+          "state": "PARȚIAL",
+          "observed": "Endpointurile folosesc replay, acquire_import_gate și active import pe firmă. 66 de teste BE sintetice; două POST simultane pe cabinet cu comparația soldurilor și a identității nu au fost executate."
+        },
+        {
+          "control": "A04-C22",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "F04 în progresul jobului. Worker și stare de reluare ancorate; pierderea workerului între commit și lineage și reconcilierea cu un import curat nu sunt probate."
+        },
+        {
+          "control": "A04-C23",
+          "state": "BLOCAT_RUNTIME",
+          "observed": "Planul cere restaurare pe clona A04. Nu există restaurare realizată de A04 pe cabinet izolat și nu există dovadă de reversare nativă a unui document CO."
+        },
+        {
+          "control": "A04-C24",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "F02/F03 demonstrează un rezultat complet eronat în scriptul auxiliar. SQL T227 pe CTE și testele A12 sunt probe independente pentru implementarea distinctă. Acceptul semnat de pornire nu este verificat."
+        },
+        {
+          "control": "A04-C25",
+          "state": "NECONFORMITATE_COMPONENTĂ; E2E INCOMPLET",
+          "observed": "F04 confirmat sintetic; control 200/imported oprește repetarea. FE suite 302 au contract de sesiune nestabilit, nu sunt dovadă de indisponibilitate pentru utilizatorul conectat. P50/P95, volum și roluri lipsesc."
+        }
+      ],
+      "evidence_ids": [
+        "E-ANCHOR",
+        "E-BE",
+        "E-POLL",
+        "E-SLOT",
+        "E-RECON",
+        "E-RECON-VERDICT",
+        "E-SQL",
+        "E-FE"
+      ],
+      "finding_ids": [
+        "A04-F04",
+        "A04-F02",
+        "A04-F03"
+      ],
+      "status": "PARȚIAL",
+      "missing": "Starea finală de proces și efectele întregului document, verificate în cabinet izolat."
+    }
+  ],
+  "next": [
+    "A10 acordă slot din coada reală și instanță izolată. Pregătiți fixture G1.1/G1.2 și roluri A/B.",
+    "Rulați UI de cumpărare→recepție 7+5→matching→retur/credit. Sondați rolurile, Fact_Acct și costurile pe fiecare tranziție.",
+    "Importați un eșantion operațional sintetic prin firma de test, apoi reluare concurentă, întrerupere după commit, restaurare și reconciliere pe familii cu etalon.",
+    "Retestați observațiile NIR pe formular și tipărire; verificați dacă portalul auxiliar este publicat și dacă rezultatul Recon este folosibil la decizia de punere în funcțiune.",
+    "A11 reproduce constatările și verifică independent completitudinea raportului, iar A12 le urmărește în dosarele taskurilor apropiate."
+  ]
+}

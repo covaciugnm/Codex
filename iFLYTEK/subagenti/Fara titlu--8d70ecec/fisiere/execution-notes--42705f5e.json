@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-01",
+  "interruptedAttempts": [
+    {
+      "stage": "raw-unpacking",
+      "reason": "UNC individual object writes were slow; run was interrupted and repeated using a local D: content store. Final input and raw-entry verification covers the repeated complete run.",
+      "observedOrchestratorExitCode": 1,
+      "superseded": true
+    },
+    {
+      "stage": "first Bavvo 1.0.1222 JADX attempt",
+      "reason": "Two initial launcher attempts used java -jar, whose bundle Main-Class is the GUI. A thread snapshot showed loaded classes but no CLI export. Both were interrupted and superseded by explicit java -cp jadx-1.5.6-all.jar jadx.cli.JadxCLI. Cache/config/tmp were also redirected to D: after detecting the nearly full C: default cache location.",
+      "observedOrchestratorExitCode": 1,
+      "jadxExitCode": null,
+      "logRetained": false,
+      "note": "Incomplete launcher logs were overwritten before formal decompilation output was registered. A local thread snapshot identified jadx.gui workers. No interrupted launcher output is presented as a completed result; final job reports preserve the explicit CLI commands and real CLI exit codes.",
+      "superseded": true
+    }
+  ]
+}

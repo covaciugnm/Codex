@@ -1,0 +1,60 @@
+ALIBABA — ARHIVA LOCALA
+
+Structura:
+  software/extensie       extensia Chrome v3, sursa principala
+  software/server         serverul Python Flask + pagina de vizualizare
+  software/copii-siguranta versiunile anterioare ale extensiei
+  conversatii             conversatiile si fisierele partenerilor
+
+Deschide software/server/Deschide-arhiva.cmd. Acesta porneste serverul local,
+daca nu ruleaza, si deschide http://127.0.0.1:8766/ .
+Serverul asculta numai pe acest calculator. Nu trimite arhiva catre alte servicii.
+Pagina si lansatorul ruleaza separat pe portul 8766. Serverul de comunicare
+folosit de extensie ramane pe portul 8765. Indicatorul verde inseamna ca
+serverul raspunde; rosu inseamna ca este oprit sau nu raspunde. Butonul
+Porneste serverul lanseaza numai server.py al acestui proiect, in fundal.
+Nu creeaza o instanta noua daca serverul raspunde deja. Pagina poate ramane
+deschisa cand serverul de comunicare este oprit, cat timp lansatorul ruleaza.
+Daca si lansatorul este oprit, foloseste Deschide-arhiva.cmd. Acesta trebuie
+deschis o data dupa repornirea Windows; nu este instalata pornire automata.
+Pagina permite cautarea partenerilor si a mesajelor, vizualizarea imaginilor,
+redarea clipurilor si deschiderea documentelor. Nu trimite mesaje Alibaba.
+
+Extensia trimite serverului mesajele incarcate in pagina Alibaba deschisa.
+Butonul "Parcurge toate conversatiile din lista" incarca pe rand discutiile.
+Pastreaza Chrome si fila Alibaba deschise; parcurgerea poate marca discutiile
+drept citite. Lista Arhivate necesita deschidere si o rulare separata.
+Mesajele deja salvate se combina cu cele noi. Dupa intreruperea parcurgerii,
+porneste din nou: lista se reia, iar mesajele cu aceeasi cheie nu se dubleaza.
+Nu exista pornire automata a serverului la autentificarea Windows.
+
+Calea generala se modifica in software/server/config.json, campul root.
+Opreste serverul inainte de modificare, apoi porneste din nou. Datele vechi
+nu se muta automat la schimbarea caii. Nu modifica valoarea token.
+Folderele noi poarta numele partenerului si ID-ul sau pentru a evita confuziile.
+Folderele importate isi pastreaza numele existente.
+
+Format: conversation.json (date), conversation.txt (text), conversation.html
+(copie independenta), files/ (atasamente). Nu exista dialogurile Save As.
+Serverul descarca fisierele folosind linkurile Alibaba. Linkurile expirate,
+fisierele care cer autentificare separata si clipurile blob pot ramane lipsa.
+Raportul indica istoricul partial, fisierele esuate si cele fara link direct.
+Reincarca discutia in Alibaba si foloseste Reincearca fisierele.
+
+Importurile vechi nu contin intotdeauna legatura exacta intre imagine si mesaj;
+aceste fisiere apar la finalul conversatiei. Ordinea mesajelor fara data
+recunoscuta ramane cea din export, nu se inventeaza expeditorul sau data.
+
+Dependentele Python sunt izolate in software/server/packages.
+Test server: python software/server/test_server.py
+Test extensie: node software/extensie/test-bridge.cjs
+Jurnale: software/server/server-error.log si server-output.log.
+
+Extensia deja instalata in Chrome este incarcata din
+Z:/kit/alibaba_conversation_exporter/alibaba_conversation_exporter.
+Aceasta este o copie de activare; sursa principala este software/extensie.
+Dupa actualizarea copiei, reincarca extensia in chrome://extensions si fila
+Alibaba. Daca Chrome solicita permisiuni, utilizatorul trebuie sa le accepte.
+Pentru a elimina definitiv dependenta de vechea cale, extensia trebuie
+incarcata manual din software/extensie; noul ID trebuie trecut in server.py
+(EXTENSION), apoi serverul repornit.

@@ -1,0 +1,11 @@
+﻿id,check,status,observation
+A01,"Toate cele 14 containere din inventarul existent, identitate SHA256",PASS,12 containere vendor + 2 derivate; includ spliturile XAPK
+A02,"DEX: integritate, definitii, semnaturi, instructiuni",PASS,36 DEX unice; definitii si semnaturi comparate integral cu Androguard; instructiuni reverificate prin esantion sistematic
+A03,Comparatie cu vechiul catalog al APK oficial,PASS,"{""reference_apk_sha256"": ""73170cdc5c3331cd6055607015c04ed8e0a314f4c0bd2fd4651e2b732d1b3da2"", ""prior_archive_sha256"": ""13673d666902043345302b09b5b3ca48e79068492f7a94b15e09f4c03523928f"", ""methods_prior"": 318284, ""methods_current"": 318284, ""methods_only_prior"": 0, ""methods_only_current"": 0, ""fields_prior"": 163611, ""fields_current"": 163611, ""fields_only_prior"": 0, ""fields_only_current"": 0}"
+A04,Biblioteci native: simboluri/importuri/dependente,PASS,Toate fisierele .so din intrari; nu echivaleaza cu recuperarea functiilor interne stripate
+A05,Nume de variabile originale,LIMITARE,Nume disponibile numai daca exista debug_info; registrele si parametrii anonimi nu sunt nume originale
+A06,Flutter AOT: toate versiunile,DESCHIS,Catalogul AOT existent verificat numai pentru hashul original documentat; celelalte libapp.so au nevoie de recuperare AOT specifica versiunii
+A07,Protocoale si servere validate practic,DESCHIS,"Constatari statice; fara executie APK, autentificare, SMS sau teste de trafic/dispozitiv"
+A08,Chei: evidenta fara valori brute,PASS,"Fingerprint, forma si locatie; candidatii pot fi hashuri/identificatori/teste; validitatea nu este confirmata"
+A09,Starea decompilarii JADX,INFORMARE,"Reconciliat cu manifestele curente, pe componente, inclusiv cod Java existent si exit codes. Vezi 01_Inventar/existing-work-reconciliation.csv. Nu se repeta decompilarea existenta."
+A10,Scor 10/10 pentru recuperare completa,NEACORDAT,Punctele A06 si A07 raman deschise. Raportul nu certifica sursa originala sau functionalitatea pe dispozitiv.

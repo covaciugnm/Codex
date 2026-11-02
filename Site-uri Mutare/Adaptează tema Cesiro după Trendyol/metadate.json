@@ -1,0 +1,23 @@
+{
+  "id": "01a15dd0-c186-7722-8205-48cff8a3f04d",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\MutareSite",
+  "created_at": 1792575324,
+  "updated_at": 1792676947,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Adaptează tema Cesiro după Trendyol",
+  "project_id": "dd69849b-902a-43ff-8975-e480a0b8d7bd",
+  "project": "Site-uri Mutare",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 44471889,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 529,
+  "message_count": 50,
+  "content_sha256": "bec7f246eb0872d78d9f698e89eaee986f7195a87d67da8c6808d06c6dac1020",
+  "files_copied": 237,
+  "references_not_copied": 6
+}

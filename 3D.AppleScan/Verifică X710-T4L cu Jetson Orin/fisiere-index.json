@@ -1,0 +1,126 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-a60dabd6-3d41-439e-9005-16554ee6b132.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-a60dabd6-3d41-439e-9005-16554ee6b132--b04afe62.jpg",
+    "bytes": 237216,
+    "sha256": "2ec935c1ed73ba58396698123f9a02136db55640b766511aac9de288551eeb32"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-c4e7c71f-bd4d-43c9-82b3-0439a41babcb.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-c4e7c71f-bd4d-43c9-82b3-0439a41babcb--bfd9bff9.jpg",
+    "bytes": 178361,
+    "sha256": "4ea9cf82e38fdf6b3aa59baa83add8d44e26e572721bb3c46ed08ce13d317cbc"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-a60dabd6-3d41-439e-9005-16554ee6b132.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-a60dabd6-3d41-439e-9005-16554ee6b132--b04afe62.jpg",
+    "bytes": 237216,
+    "sha256": "2ec935c1ed73ba58396698123f9a02136db55640b766511aac9de288551eeb32"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-c4e7c71f-bd4d-43c9-82b3-0439a41babcb.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-c4e7c71f-bd4d-43c9-82b3-0439a41babcb--bfd9bff9.jpg",
+    "bytes": 178361,
+    "sha256": "4ea9cf82e38fdf6b3aa59baa83add8d44e26e572721bb3c46ed08ce13d317cbc"
+  },
+  {
+    "source_reference": "https://antmicro.com/blog/2026/02/oculink-to-10-gbe-adapter",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://assets.balluff.com/documents/DRF_957344_AA_000/Appendix_ARM_NVIDIA_Jetson_AGX_Orin.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cdrdv2-public.intel.com/742525/Dell%20Campbell%20Pond%20X710_T2L_T4L_14.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.nvidia.com/embedded/jetpack/downloads",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.nvidia.com/embedded/jetson-linux-archive",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.baslerweb.com/knowledge/how-to-troubleshoot-lost-packets-or-frames-while-using-gige-cameras",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.docker.com/engine/network/drivers/host/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/hardware_layout.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/jetson/archives/r36.3/DeveloperGuide/HR/JetsonModuleAdaptationAndBringUp/JetsonAgxOrinSeries.html?highlight=gpio",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/jetson/archives/r36.4.4/DeveloperGuide/HR/JetsonModuleAdaptationAndBringUp/JetsonAgxOrinSeries.html#enabling-more-spi-interrupts-for-pcie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/jetson/archives/r36.4/DeveloperGuide/SD/Kernel/KernelCustomization.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/jetson/archives/r36.4/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html?highlight=software+packages+update+mechanism",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/jetson/archives/r36.5.2/ReleaseNotes/Jetson_Linux_Release_Notes_r36.5.2.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/jetson/archives/r39.2.1/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.1.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://forums.developer.nvidia.com/t/how-agx-orin-connect-to-the-net-by-the-x710-ethernet-controller/300076",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://forums.developer.nvidia.com/t/jetson-agx-orin-pcie-x8-lane-bifurcation-to-2x-x4-supported-or-need-a-pcie-switch-a/355875",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://forums.developer.nvidia.com/t/the-issue-regarding-intel-x710-ethernet-controller/259370",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/intel/ethernet-linux-i40e",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://mindvision.com.cn/wp-content/uploads/2024/08/MV-QR-CP-19-0279-MV-XGC4701C-M-A0.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://packages.ubuntu.com/jammy-updates/arm64/linux-modules-5.15.0-1041-nvidia-tegra/filelist",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.intel.com/content/www/us/en/products/sku/189464/intel-ethernet-network-adapter-x710t4l/specifications.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.intel.com/content/www/us/en/products/sku/88209/intel-ethernet-converged-network-adapter-x550t2/specifications.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.mindvision.com.cn/archives/9315",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.nvidia.com/en-eu/edge-computing/products/igx/",
+    "status": "referinta_externa_necopiata"
+  }
+]

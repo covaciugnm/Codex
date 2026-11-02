@@ -1,0 +1,263 @@
+[
+ [
+  1,
+  30,
+  "Configurarea G1/G2 și drepturile gestionarului",
+  "Creează în cabinetul de test G1.1 și G1.2, apoi zonele G2.1 și G2.2. Alege gestionarul și locatorii de recepție, raft, expediție. Încearcă un locator din cealaltă firmă.",
+  "Două surse contabile identificabile și două perimetre fizice. Selectoarele nu amestecă tipurile, cererea modificată este refuzată fără rând orfan.",
+  "M_Warehouse,M_Locator,EVA_PerecheWms",
+  "WSagaGestiuniForm|PerecheWms|ModelWms"
+ ],
+ [
+  1,
+  30,
+  "Număr independent de gestiuni și politica explicită a legăturilor",
+  "Compară cazul două G1/două G2 cu cazul unei G1 având două zone fizice gestionate distinct și cazul transferului între responsabili. Identifică dacă modelarea folosește warehouse, locator sau pereche și ce vede fiecare gestionar.",
+  "Pentru fiecare topologie solicitată, cantități urmărite o singură dată și proveniență până la G1. Limitările unei legături 1:1 au exemplu reproductibil și diferență față de cerință. Un locator nu substituie automat dreptul de gestionar.",
+  "M_Warehouse,M_Locator,EVA_PerecheWms,AD_Role_OrgAccess",
+  "PerecheWms|ModelWms|DialogLocatoriGestiune"
+ ],
+ [
+  1,
+  34,
+  "Activare repetată sau concurentă cu stoc inițial",
+  "Activează simultan aceeași pereche pe G1.1 cu 80 P1 și pe G1.2 cu 40, inițial fără evidență G2. Reia după răspuns pierdut. Introdu separat un sold negativ înainte de activare.",
+  "Sold inițial total fizic 120 în cele două perimetre. Aceeași activare nu produce 160 pe G1.1. Situația cu negativ primește o decizie explicită și nu modifică parțial perechea.",
+  "EVA_PerecheWms,EVA_StocWms,EVA_MiscareWms,M_StorageOnHand",
+  "PerecheWms|StocWms|RegulaLegatura"
+ ],
+ [
+  1,
+  31,
+  "CPP și CPA cu identități distincte, permanente",
+  "Configurează P1 CPP și P1 ambalat CPA cu două coduri diferite. Arhivează produsul și încearcă realocarea codului pe alt SKU și reimportul aceluiași EAN ambiguu.",
+  "Identificatori interni distinct și trasabili în rețetă, etichetă, selectoare. Zero realocări după dezactivare. Ambiguitatea cere alegere sau refuz, fără liniile altui produs.",
+  "M_Product,C_UOM,AD_Sequence,PP_Product_BOMLine",
+  "SetLista|CampScanare"
+ ],
+ [
+  2,
+  35,
+  "Recepție, amplasare și reluarea evenimentului",
+  "Pornește cu sold zero. Primește 10 P1 în G1, completează recepția, amplasează 7 și 3 pe rafturi G2. Retrimite același eveniment.",
+  "G1 +10, G2 total +10 împărțit 7 și 3. Nicio a doua recepție, mutarea pe raft nu dublează cantitatea ori costul.",
+  "M_InOut,M_InOutLine,M_Transaction,M_StorageOnHand,EVA_MiscareWms,EVA_StocWms,Fact_Acct",
+  "OglindaWms|StocWms|EvaWmsOglindaEvents"
+ ],
+ [
+  2,
+  36,
+  "Transfer, tranzit și destinație între G1 distincte",
+  "Transferă 5 din G1.1 în G1.2 cu tranzit configurat. Confirmă 3 și ulterior 2. Reia prima confirmare și evaluează în fiecare etapă disponibilul comercial.",
+  "La sosirea finală, sursa −5, destinația +5, tranzit 0. Nicio cantitate în două locuri simultan disponibilă. Pentru aceeași schemă, reconciliază debit și credit și conturile fiecărui document, inclusiv posibile linii net zero.",
+  "M_Movement,M_MovementLine,M_Transaction,M_StorageOnHand,Fact_Acct",
+  "OglindaWms|RegulaLegatura"
+ ],
+ [
+  2,
+  33,
+  "Cost și preț după importul soldului",
+  "Importă două articole cu aceeași valoare numerică inițială setată explicit ca valoare de stoc respectiv preț de canal. Compară document, schemă de cost și listă de prețuri cu A03/A06.",
+  "Zero modificări ale prețului la schimbarea izolată a costului și invers. Costul inițial este reconciliat pe cantitate și metodă, fără postarea G2 drept stoc suplimentar.",
+  "M_Cost,M_CostDetail,M_ProductPrice,M_PriceList_Version,Fact_Acct",
+  "RegulaLegatura|ImportInventar"
+ ],
+ [
+  3,
+  32,
+  "Unitate de bază, conversie aprobată și compoziție",
+  "Înregistrează 6 bucăți ca 1 unitate comercială conform conversiei aprobate pe produs. Încearcă conversie lipsă, circularitate BOM și împărțire la zero.",
+  "6 bucăți rămân 6 în stocul de bază. Conversia comercială nu creează identitatea CPA. Definiția invalidă nu produce nicio mișcare.",
+  "C_UOM,C_UOM_Conversion,PP_Product_BOM,PP_Product_BOMLine",
+  "SetLista|ListaMaterialeWms|NotaSetWms"
+ ],
+ [
+  3,
+  37,
+  "Asamblare reversibilă S1",
+  "Pornește de la șase bucăți din fiecare P în G2 și asamblează un S1; identifică versiunea BOM. Reia după pierderea răspunsului și simulează pe altă clonă lipsa P3.",
+  "În G2 există +1 S1 și −6 din fiecare componentă. În G1 piesele au rămas proprietate contabilă, iar S1 reversibil nu are stoc contabil suplimentar. Dacă P3 lipsește, fluxul este integral refuzat sau rămâne explicit în proiect, fără mișcări parțiale.",
+  "PP_Product_BOM,PP_Product_BOMLine,EVA_StocWms,EVA_MiscareWms,M_Transaction",
+  "DialogNotaSetWms|NotaSetWmsProces|NotaSetWms|StocWms"
+ ],
+ [
+  3,
+  37,
+  "Set cumpărat indivizibil și set doar CPA",
+  "Recepționează un set cumpărat ca atare fără dezmembrare și configurează separat un set doar CPA. Compară rezultat în G1/CPP și G2/CPA, apoi încearcă producția contabilă pentru setul reversibil.",
+  "Setul cumpărat rămâne o unitate în G1. Setul exclusiv CPA apare doar în disponibilitatea comercială și evidența fizică potrivită. Producția nativă care generează produs stocat necesită rezultat contabil real și justificare documentată.",
+  "M_Product,PP_Product_BOM,M_Production,M_StorageOnHand,Fact_Acct",
+  "SetLista|NotaSetWms|RegulaLegatura"
+ ],
+ [
+  3,
+  38,
+  "Dezasamblare înainte de pick și rețetă istorică",
+  "Cu toate cele 120 piese din fiecare P ambalate în 20 S1, solicită 1 P1. Modifică acum BOM, apoi desfă 1 S1 bazat pe rețeta folosită la asamblare și indică locatorii pentru componente.",
+  "Înainte de pregătire nu există P1 liber. După dezambalare rămân 19 S1 și câte 6 piese brute în G2; după pick P1 liber scade la 5, iar 1 este în expediție. Noua rețetă nu rescrie istoricul.",
+  "PP_Product_BOM,EVA_StocWms,EVA_MiscareWms,M_Locator",
+  "NotaSetWms|ListaMaterialeWms|StocWms"
+ ],
+ [
+  3,
+  39,
+  "Cutii și manoperă de asamblare",
+  "Împachetează P1 CPA din P1 CPP + cutie A1 + 0,5 h. Înregistrează operațiunea și costul, repetă același identificator, apoi execută o nouă reambalare care consumă fizic altă cutie.",
+  "Prima operație și reluarea consumă împreună 1 cutie și 0,5 h. Operațiunea nouă are identificator nou și consumul real propriu. Un singur traseu contabil pentru fiecare cost. A03 verifică delimitarea manoperei deja înregistrate prin salarii.",
+  "EVA_MiscareWms,M_InventoryLine,M_Transaction,M_CostDetail,Fact_Acct",
+  "NotaSetWmsProces|DialogNotaSetWms|RegulaLegatura"
+ ],
+ [
+  4,
+  40,
+  "G3 alternative complete și angajament global",
+  "Începe cu 120 din fiecare P distribuite 80+40 pe cele două G1. Citește G3. Rezervă 10 S1 și 10 S2. Solicită în același context încă 31 P1.",
+  "G3 inițial P1 120, S1 20, S2 40, neaditive. După rezervări rămân 30 din fiecare și alternativele S1 5 sau S2 10. A 31-a bucată disponibilă nu poate fi angajată fără aprobare de politică distinctă. G3 nu generează M_Transaction.",
+  "C_OrderLine,M_StorageReservation,M_StorageOnHand,EVA_StocWms",
+  "RezervareStoc|RegulaLegatura|SetLista"
+ ],
+ [
+  4,
+  40,
+  "Concurența între canale și valurile de pick",
+  "Lasă un singur S1 echivalent și pornește comenzi concurente în două canale pentru S1 și 6 P1. Reia evenimentul câștigător și simulează inversarea ordinii de blocare.",
+  "Din cele două ordine concurente cel mult una poate angaja ultimele 6 P1. Cealaltă primește lipsă/propune așteptare. Retry nu dublează angajamentul. Nicio rezervare blocată după rollback.",
+  "C_Order,C_OrderLine,M_StorageReservation,EVA_StocWms,EVA_MiscareWms",
+  "RezervareStoc|StocWms|AlegerePozitii"
+ ],
+ [
+  4,
+  41,
+  "Lot, serie, expirare și ASI zero",
+  "Folosește două loturi cu 4 și 8 bucăți. Solicită 6 și configurează FEFO, un lot neeligibil și un produs fără ASI. Compară suma liniilor MA + reprezentarea validă cu ASI 0.",
+  "Pentru loturile eligibile 4+2 sau alternativa justificată prin setări. Nicio serie sau cantitate repetată. ASI 0 fără lot este urmărit, nu pierdut prin join. Lotul expirat izolat și nesubstituit fără drept.",
+  "M_AttributeSetInstance,M_InOutLineMA,M_MovementLineMA,M_InventoryLineMA,M_Transaction",
+  "Fefo|LoturiArticole|StocWms"
+ ],
+ [
+  4,
+  42,
+  "Pick în ERP și aviz de expediție",
+  "Gestionează comanda din iDempiere, validează stoc și pregătiri, mută doar cantitatea efectiv culeasă pe locatorul expediție, confirmă pick și avizul, apoi predă A07 pentru validare comercială.",
+  "Un traseu identificabil comandă–linii–loturi–locator–pick–aviz. Avizul conține livratul, păstrează restul deschis. În fluxul configurat, AWB se inițiază numai după validare. CO document nu dovedește primirea de client.",
+  "C_OrderLine,M_InOut,M_InOutLine,M_InOutLineMA,EVA_MiscareWms",
+  "WSagaComenziForm|ApiAmbalare|OglindaWms"
+ ],
+ [
+  4,
+  42,
+  "Colet anulat între aviz și curier",
+  "Respinge expedierea după documentul CO înainte de predarea curierului. Reia același eveniment; urmărește document compensator și confirmarea locației reale.",
+  "Rezervarea este eliberată numai în acord cu starea fizică și documentară; traseu de inversare aprobat, fără a crea automat retur fictiv sau livrare dublă. Identificator original păstrat.",
+  "M_InOut,M_Transaction,EVA_MiscareWms,C_OrderLine",
+  "OglindaWms|ApiAmbalare"
+ ],
+ [
+  5,
+  43,
+  "Numărare și diferență aprobată",
+  "Numără 8 față de 10 scriptic în G2. Deschide diferența; la aprobarea pentru G1 compară MInventory, tranzacția și impactul contabil cu A03. Retrimite validarea.",
+  "Numărarea G2 nu postează pierderea în GL. După aprobare, ajustarea nativă este −2 în G1 exact o dată și este legată de constatare. Abaterea neaprobată rămâne vizibilă.",
+  "M_Inventory,M_InventoryLine,M_Transaction,M_StorageOnHand,Fact_Acct",
+  "WInventarForm|RegistruWms|RegulaLegatura"
+ ],
+ [
+  5,
+  44,
+  "Import de numărători cu document în DR",
+  "Pe draftul unei numărători deschise importă două loturi ale aceluiași produs în doi locatori. Reia fișierul și importă un rând invalid. Compară Import Inventory nativ cu actualizarea documentului țintă existent.",
+  "O singură înregistrare per cheia țintă document/locator/produs/lot. Cantități și erori reconciliate per rând. Se documentează dacă procesul nativ creează document nou sau poate actualiza DR. Un CO nu se suprascrie.",
+  "I_Inventory,M_Inventory,M_InventoryLine,M_InventoryLineMA",
+  "ImportInventar|ScriereInventar|WInventarForm"
+ ],
+ [
+  5,
+  50,
+  "Două numărători simultane și tastare offline",
+  "Același locator și versiune citită de două dispozitive. Unul salvează 8 și celălalt 9 după reconectare. Reia prima cerere cu aceeași cheie și simulează închiderea documentului în interval.",
+  "Un singur câștigător la versiunea inițială. Conflictul arată cantitate curentă și permite recitire, nu suprascrie în tăcere. Retry identic nu dublează inventarul și documentul CO refuză editare.",
+  "M_Inventory,M_InventoryLine,M_AttributeSetInstance,EVA_StocWms",
+  "ScriereInventar|RegistruWms|ApiInventar"
+ ],
+ [
+  6,
+  45,
+  "Etichete și reproduceri",
+  "Tipărește o etichetă pentru produs CPP, pentru CPA și pentru locator. Scanează fiecare și retipărește aceeași etichetă după schimbarea aliasului SKU.",
+  "Trei entități identificabile distinct. Retipărirea nu creează produs sau mișcare. Codul intern rămâne același și vechea etichetă se tratează conform valabilității setate.",
+  "AD_PrintFormat,M_Product,M_Locator,EVA_MiscareWms",
+  "GeneratorEticheteCoduri|DialogEticheteCoduri|CampScanare"
+ ],
+ [
+  6,
+  46,
+  "Scanare pe suprafețele ERP inventariate",
+  "Reconciliază cele 15 ecrane istorice cu cele active în AD. Pe fiecare, scanează cod valid, necunoscut și ambiguu prin tastatură/HID. Verifică focus și protecția împotriva apăsării Enter automate.",
+  "Pentru fiecare ecran activ există probă cu codul corect, o eroare în limba cerută și zero salvări la cod ambiguu. Ecranele înlocuite au succesor documentat.",
+  "AD_Form,AD_Window,M_Product,M_Locator",
+  "CampScanare|PoliticaScanare|GazdaScanare"
+ ],
+ [
+  6,
+  47,
+  "Gestionari, dispozitive revocate și acces la locatori",
+  "Alege o firmă, rol și locator permis. Modifică identificatorii spre altă firmă; revocă dispozitivul și reîncearcă cu cererea nedifuzată anterior.",
+  "Zero date sau mișcări în tenantul străin, zero înregistrări după revocare. Schimbarea firmei în UI golește selecțiile anterioare, mesaj fără detaliile firmei străine.",
+  "AD_Client,AD_Org,AD_Role,AD_Role_OrgAccess,M_Locator,EVA_MiscareWms",
+  "ApiInventar|ApiAmbalare|DialogLocatoriGestiune"
+ ],
+ [
+  6,
+  48,
+  "Același contract WMS pe mobil și ERP",
+  "Execută aceeași numărătoare, apoi același pick, din suprafețe echivalente. Verifică unitate, revizie, lot, proiect și drepturi în traseul până la PO.",
+  "Un rezultat economic pentru fiecare eveniment, aceeași validare a lotului și unității. Contractul diferențiază lipsă, conflict, neautorizat, document închis și permite recuperare în UX.",
+  "M_InventoryLine,M_InOutLine,M_AttributeSetInstance,EVA_MiscareWms",
+  "ScriereInventar|ApiInventar|ApiAmbalare"
+ ],
+ [
+  6,
+  49,
+  "Acoperirea dispozitivelor Android și iPhone",
+  "Mapează clientul nativ ori web efectiv instalat per platformă și versiune cu A09. În fixture autorizat testează instalare, permisiune cameră refuzată, alternativă HID și reconectare pe fiecare.",
+  "Android și iPhone primesc rezultate separate și identificator build. La refuz cameră se poate continua prin metoda permisă ori apare remediu. Lipsa clientului sau a dispozitivului este consemnată separat.",
+  "AD_Role,M_Locator,M_InventoryLine",
+  "ApiInventar|CampScanare|ApiAmbalare"
+ ],
+ [
+  6,
+  51,
+  "Pick mobil cu scanare dublă sau cantitate parțială",
+  "Pregătește 6 bucăți din două loturi. Scanează prima serie de două ori, confirmă numai 4 și reconectează terminalul. Compară pick, aviz și rest.",
+  "Cel mult 4 confirmate, 2 încă deschise; nici duplicarea seriei, nici replay nu consumă mai mult. Lista mobilă indică sursa lotului și soldul rămas.",
+  "C_OrderLine,M_InOutLine,M_InOutLineMA,EVA_MiscareWms",
+  "ApiAmbalare|Fefo|OglindaWms"
+ ],
+ [
+  7,
+  52,
+  "Retur parțial cu control calitate",
+  "Returnează o bucată dintr-o comandă a cărei origine include două loturi. Orientează în carantină, apoi aprobă repunerea sau rebutul. Rulează returul duplicat cu același identificator.",
+  "Recepție fizică o singură dată, legătură la aviz și lotul concret. Disponibilul vandabil crește numai după acceptare. A07/A03 documentează corecția financiară separat.",
+  "M_RMA,M_RMALine,M_InOut,M_InOutLineMA,EVA_MiscareWms,Fact_Acct",
+  "OglindaWms|StocWms|RegulaLegatura"
+ ],
+ [
+  7,
+  53,
+  "Reconciliere și probă operațională completă",
+  "Execută traseul recepție→asamblare→dezasamblare→pick→aviz→retur și reconciliază fiecare eveniment cu document, lot și cost. Măsoară p50/p95 pentru operațiunile pilot și exportă cazurile nereconciliate.",
+  "Diferența cantitativă nejustificată este zero pe produs/lot/perimetru după exprimare în piesele CPP. Cost contabil fără dublare. Timpii reali și numărul erorilor au bază de comparație; ținte SLA aprobate separat.",
+  "M_Transaction,M_StorageOnHand,EVA_StocWms,EVA_MiscareWms,M_CostDetail,Fact_Acct",
+  "RegulaLegatura|StocWms|OglindaWms"
+ ],
+ [
+  5,
+  43,
+  "Document nativ, rezultat de proces și postare",
+  "Pentru document DR cu lipsă de aprobare rulează procesul autorizat și observă booleanul, statutul persistent, mesajul și postarea. Reia apoi pe document pregătit corespunzător.",
+  "Un rezultat boolean adevărat se compară explicit cu DocStatus, Processed, Posted, M_Transaction și Fact_Acct. Status nefinal/în așteptare nu este tratat ca ajustare finală. Perioada închisă permite numai traseul explicit acceptat.",
+  "M_Inventory,M_Transaction,Fact_Acct,C_PeriodControl",
+  "RegulaLegatura|OglindaWms|WInventarForm"
+ ]
+]

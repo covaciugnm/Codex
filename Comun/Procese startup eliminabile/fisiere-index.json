@@ -1,0 +1,287 @@
+[
+  {
+    "source_reference": "C:\\Program Files (x86)\\4G Hostless Modem\\Vodafone QuickStart\\CancelAutoPlay_df.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Adobe\\Acrobat 11.0\\Acrobat\\Acrotray.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Common Files\\Adobe\\OOBE\\PDApp\\UWA\\UpdaterStartupUtility.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\CryptoIDE\\CryptoIDEMon.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\GIGABYTE\\EasyTuneEngineService\\GraphicsCardEngineStarter.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\GIGABYTE\\GBTECService\\LiquidSensord.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Google\\Chrome Remote Desktop\\157.0.8103.7\\remoting_host.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Tencent\\Weixin\\Weixin.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Autodesk\\AdODIS\\V1\\Setup\\AdskAccessService.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Autodesk\\AdODIS\\V1\\Setup\\AdskAccessServiceHost.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Autodesk\\Autodesk CER\\service\\cer_service.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Bulk Image Downloader\\BIDDropBox.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\GIGABYTE\\Control Center\\GCC.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Git\\git-bash.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Google\\Chrome\\Application\\PlatformExperienceHelper\\platform_experience_helper.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\LogiDownloadAssistant\\bin\\logi_download_assistant.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\Common\\Client\\v1.6.0\\resources\\app.asar",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\Common\\Client\\v1.6.0\\rsAppUI.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\EPP",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\EPP\\Uninstall.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\EPP\\rsHelper.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\EPP\\ui\\app.asar",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\SafeNet\\Authentication\\SAC\\x64\\SACMonitor.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1016.8622.0_x64__2p2nqsd0c76g0\\app\\resources\\codex-windows-sandbox-service.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\cFosSpeed\\spd.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\ProgramData",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\ProgramData\\Google\\Chrome Remote Desktop\\host.json",
+    "status": "eroare_copiere",
+    "error": "[Errno 13] Permission denied: 'C:\\\\ProgramData\\\\Google\\\\Chrome Remote Desktop\\\\host.json'"
+  },
+  {
+    "source_reference": "C:\\ProgramData\\ReasonLabs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Google\\GoogleUpdater\\157.0.8089.0\\updater.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\2b841c3d44b123ec\\bin\\node.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Opera\\assistant\\browser_assistant.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Opera\\opera.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\7zS0A9C4249",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\7zSC727BC69",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\7zSC727BC69\\UnifiedStub-installer.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\Stub.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\ReasonLabs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\ReasonLabs\\EPP",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\curatare-log-2.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/curatare-log-2--1c35955d.txt",
+    "bytes": 2592,
+    "sha256": "746195b06814b933d0ca15fddcb2ed05d12d172a1e65ef1df1ee7732ec3c4a7c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\curatare-log.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/curatare-log--59b8e3b7.txt",
+    "bytes": 5496,
+    "sha256": "6606aaf2ce8f66a7d27f0c7917f394f1c7296960691438e59a3498a777cb0c0c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\curatare-startup-2.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/curatare-startup-2--beda158f.ps1",
+    "bytes": 3287,
+    "sha256": "9ac667ffa14e3c459822c83c0255bcc412bc936b56fdcb8bcde3813674dccfdd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\curatare-startup.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/curatare-startup--0083ded5.ps1",
+    "bytes": 2765,
+    "sha256": "66c61e16d35c098c10f76ff6618559af408e0798f915201b4938b13ae8360cc5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\dezinstalare-reasonlabs-log.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/dezinstalare-reasonlabs-log--2f63720e.txt",
+    "bytes": 1018,
+    "sha256": "3a3ed4d7843dc946f8e838154ec5fbe869bc77a5022901a600a65a001d3f4b8d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\dezinstalare-reasonlabs.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/dezinstalare-reasonlabs--2e012997.ps1",
+    "bytes": 958,
+    "sha256": "420995fbf415eb82faadf0f555903ad9af53ea0ac59a9fd4baf828af4fd58cec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\opreste-procese-log.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/opreste-procese-log--3255f674.txt",
+    "bytes": 22,
+    "sha256": "e6150dd23ec908cda34ea2c3ad2f2aff8858476deb24c25dad4497ebabe0b426"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\opreste-procese.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/opreste-procese--16c21aee.ps1",
+    "bytes": 466,
+    "sha256": "18a1703d5d1655bdd343977e75e3c7a543d1ce80a59ae62ecb954a6e2ead054b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\reoprire-reasonlabs-log.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/reoprire-reasonlabs-log--8f30c07d.txt",
+    "bytes": 1055,
+    "sha256": "a44ddd5eb7654733cdccff1e88df0207f27b3bb605f7372dfaa3b85336081f4f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\reoprire-reasonlabs.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/reoprire-reasonlabs--06110529.ps1",
+    "bytes": 735,
+    "sha256": "ec6281116097cc20d8b6c791441052855307f4ff01661a61d529d2b124549cdf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\rs-cleanup.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/rs-cleanup--90bb8789.txt",
+    "bytes": 132,
+    "sha256": "fe921308ab1e1817fc616eb5d6474a91710d6f2aef4f982bdd85440e8be46df3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Backup-Startup-2026-10-30\\sterge-rs-rest.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/sterge-rs-rest--0fe936e1.ps1",
+    "bytes": 324,
+    "sha256": "5513027fbb9f878abcbca1c9d386bf8db4c674c6458001798e308782e0484dc8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_b55ed36a9a78cc75\\RtkAudUService64.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Windows\\System32\\reg.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\Windows\\\\(system32|SysWOW64)\\\\(svchost|lsass|services)",
+    "status": "unitate_sau_server_inaccesibil"
+  }
+]

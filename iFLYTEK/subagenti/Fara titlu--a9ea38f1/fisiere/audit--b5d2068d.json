@@ -1,0 +1,214 @@
+{
+  "audit": "iFLYTEK documentation independent audit",
+  "round": 2,
+  "date": "2026-10-30",
+  "status": "passed_within_declared_scope",
+  "score": 10,
+  "maximum": 10,
+  "previousScore": 8.2,
+  "reviewer": "auditor_documentatie",
+  "method": "Independent read-only re-audit of corrections F1-F5, regenerated records and templates, direct Java source inspection, all receive-schema attribution records, source fingerprints, bidirectional references, and browser behaviour. Existing project tests were not accepted as sole evidence.",
+  "scope": {
+    "primary": [
+      "All five round-1 findings and affected generated documents/templates",
+      "catalog-parametri-functii: 1107 function entries, 2900 parameter entries and 116 schemas; automatic structural checks plus targeted manual semantic review",
+      "All 90 BLE receive entries checked for the wire/local-model attribution regression",
+      "DeviceInfoParsers system/version/battery/state branches, WorkState and file-list transformations, and OTA callback result variants",
+      "Updated historical research notices, architecture/protocol labels and result UI",
+      "Unchanged firmware/protocol/cloud findings from round 1 retained after checking for relevant changes"
+    ],
+    "excluded": [
+      "Manual semantic review of every one of 318284 DEX methods or every one of the 2900 parameter records",
+      "Complete factual revalidation of the separate 93-model AI_Glasses_2026 market catalog",
+      "Line-by-line review of all machine-translated third-party source pages",
+      "Live BLE/firmware/phone access, authenticated cloud calls, recovering a firmware image or measuring audio performance"
+    ],
+    "coverageNote": "10/10 means no identified defect remains in the declared audited scope after the documented checks. It is not a guarantee that every unreviewed behaviour is correct, nor certification of the complete firmware, all historical chat answers, or all files in the workspace. The absence of the firmware image is a disclosed input limitation, not a document-quality failure."
+  },
+  "criteria": [
+    {
+      "id": "C1",
+      "criterion": "Provenance and traceability",
+      "score": 1,
+      "max": 1,
+      "result": "128/128 source SHA-256 fingerprints independently matched the stored Java files. Dataset fingerprints and APK identity are recorded."
+    },
+    {
+      "id": "C2",
+      "criterion": "Frame layouts and transport facts",
+      "score": 1,
+      "max": 1,
+      "result": "No relevant framing/transport changes or regression identified. The source-based checks and independently recomputed CRC fixture from round 1 remain applicable."
+    },
+    {
+      "id": "C3",
+      "criterion": "Parameter types and value classes",
+      "score": 1,
+      "max": 1,
+      "result": "The three float inputs now use the real-number category. Generic Number and unions have separate classifications. Profile parser keys and fallbacks are present and distinct from model names."
+    },
+    {
+      "id": "C4",
+      "criterion": "Wire data versus internal application models",
+      "score": 1,
+      "max": 1,
+      "result": "WorkState, StateInfo, file-list models and related fields are separated into localModelParameterIds/localModelPaths. 62007 and 70400 wire paths match the inspected reads. All 90 receive entries were checked for the former model-field promotion pattern."
+    },
+    {
+      "id": "C5",
+      "criterion": "Function input, result, event and error contracts",
+      "score": 1,
+      "max": 1,
+      "result": "startGlassOTA now distinguishes the immediate empty-map acknowledgement from eight asynchronous callbacks, with event fields, observed statuses and conditional message omission. Generic Result observations are recorded conservatively, with incomplete/delegated contracts explicitly limited."
+    },
+    {
+      "id": "C6",
+      "criterion": "STT/translation/cloud evidence boundaries",
+      "score": 1,
+      "max": 1,
+      "result": "The existing marshalling, route, authentication and model-identity distinctions remain intact; no unsupported LLM identity, secret or universal server constraint was introduced."
+    },
+    {
+      "id": "C7",
+      "criterion": "Firmware feasibility and actual possession",
+      "score": 1,
+      "max": 1,
+      "result": "The firmware analysis continues to distinguish OTA route clues, the Android transfer path, candidate assets and an actual firmware image; no device extraction or decompilation is claimed."
+    },
+    {
+      "id": "C8",
+      "criterion": "Consistency across earlier and newer documents",
+      "score": 1,
+      "max": 1,
+      "result": "All four historical research reports inspected have prominent stage notes and current-result paths. Architecture/protocol labels describe channel inventories as heuristic candidates rather than complete invocable contracts."
+    },
+    {
+      "id": "C9",
+      "criterion": "Usability and structural verification",
+      "score": 1,
+      "max": 1,
+      "result": "Bidirectional input/output/local-model references passed. Independent browser checks confirmed local-model sections, OTA acknowledgement/event presentation, real-number filtering and mobile width without JS errors."
+    },
+    {
+      "id": "C10",
+      "criterion": "Uncertainty, scope and practical limitations",
+      "score": 1,
+      "max": 1,
+      "result": "The documentation explicitly distinguishes parsed evidence from incomplete/delegated structures and hardware validation. The audit preserves its exclusions and does not extend the score to unreviewed corpus content."
+    }
+  ],
+  "findings": [],
+  "resolvedFindings": [
+    {
+      "id": "F1",
+      "status": "closed",
+      "evidence": [
+        "CoreBluetoothDevice.java:4188 onward reads errCode/workState/type; the generated receive schema contains exactly those names. WorkState.msg/state are retained only as local model fields.",
+        "CoreBluetoothDevice.java:4254 onward reads data[] items name/fileType/fileList; generated paths match those nesting rules, and locally computed pageSize/default fields are excluded from wire outputs.",
+        "StateInfo/Common DeviceInfoParsers branching is represented without substituting legacy stateL/stateR/master for the glasses state message."
+      ]
+    },
+    {
+      "id": "F2",
+      "status": "closed",
+      "evidence": [
+        "p-d9757e2b932f6626, p-bd08b561a9d465a1 and p-46177466f393da09 are real-number entries; the browser real filter yields three results."
+      ]
+    },
+    {
+      "id": "F3",
+      "status": "closed",
+      "evidence": [
+        "62001/62002/62003/62004 receive entries include glasses and headset paths, derived from DeviceInfoParsers.",
+        "Glasses bat/battery and batChanging/charging precedence and fallback are documented. Model fields are separately linked."
+      ]
+    },
+    {
+      "id": "F4",
+      "status": "closed",
+      "evidence": [
+        "WifiManagerPlugin.java:513-622 confirms the eight OTA callback maps and immediate Result.success(new HashMap()). All are now represented.",
+        "The result extraction records explicit producer expressions without inventing delegated result shapes. 118 Flutter functions now have output parameter records; remaining extraction limits are stated."
+      ]
+    },
+    {
+      "id": "F5",
+      "status": "closed",
+      "evidence": [
+        "Four research reports begin with NOTĂ DE ETAPĂ ISTORICĂ and current-result paths.",
+        "ARHITECTURA and protocol labels, including generator templates, no longer promote the candidate inventory to complete contracts."
+      ]
+    }
+  ],
+  "checks": {
+    "functionCount": 1107,
+    "parameterCount": 2900,
+    "schemaCount": 116,
+    "sourceHashesChecked": 128,
+    "sourceHashMismatches": 0,
+    "brokenBidirectionalReferences": 0,
+    "receiveEntriesCheckedForAttributionRegression": 90,
+    "unsupportedModelWirePathAttributionsFound": 0,
+    "flutterFunctionsWithOutputParameters": 118,
+    "resultObservationRecords": 275,
+    "historicalReportsMarked": 4,
+    "independentSemanticAssertions": [
+      "62007 wire keys are errCode/type/workState",
+      "WorkState.msg retained as model only",
+      "No invented 62007 JSON msg/state paths",
+      "Both profiles have explicit 62001/62002/62003/62004 paths",
+      "70400 has data[].name/data[].fileType/data[].fileList",
+      "70400 does not claim pageSize/createTime as wire reads",
+      "float/double mapping is real",
+      "OTA has eight separate callback variants",
+      "OTA has separate immediate empty-map Result acknowledgement",
+      "OTA event fields and error notifications are documented"
+    ],
+    "browser": {
+      "passed": [
+        "WorkState wire/local sections rendered",
+        "OTA ACK and callback variants rendered",
+        "OTA page at 390x844 has no horizontal overflow",
+        "Real-number parameter page rendered",
+        "Real filter returns three entries",
+        "Audit hub loads",
+        "Firmware page loads"
+      ],
+      "javascriptErrors": []
+    },
+    "artifactHashes": [
+      {
+        "file": "catalog-parametri-functii/functii.json",
+        "sha256": "38c84b31fd8442eaaad42598ea4db65a7e2bdcba7bd9872e900b8cc1ddf16bfc"
+      },
+      {
+        "file": "catalog-parametri-functii/parametri.json",
+        "sha256": "86b8937d53356acbd9f3adcf6daae3936119f4af641cd348283046ebf4768163"
+      },
+      {
+        "file": "catalog-parametri-functii/clase-valori.json",
+        "sha256": "67a5103037a7d16bfddb56dabe523ed8ec823f510d9fdc514b29007a6f6ad43e"
+      },
+      {
+        "file": "catalog-parametri-functii/acoperire.json",
+        "sha256": "a57bdf98a60a40afb65f18e230f30c97643be89cb4b438b9a5ddb442e4c222e1"
+      }
+    ],
+    "sourceFilesDirectlyReinspected": [
+      "tools/catalog-extract.cjs",
+      "tools/catalog-response-contracts.cjs",
+      "tools/catalog-flutter-results.cjs",
+      "tools/catalog-enrich.cjs",
+      "tools/audit-history-notes.cjs",
+      "catalog-parametri-functii/catalog-ui.js",
+      "reconstituit/jadx/app/src/main/java/com/iflytek/easytrans/headset/bluetooth/device/CoreBluetoothDevice.java",
+      "reconstituit/jadx/app/src/main/java/com/iflytek/easytrans/headset/bluetooth/bean/common/DeviceInfoParsers.java",
+      "reconstituit/jadx/app/src/main/java/com/iflytek/easytrans/headset/bluetooth/bean/WorkState.java",
+      "reconstituit/jadx/app/src/main/java/com/iflytek/easytrans/headset/bluetooth/bean/StateInfo.java",
+      "reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/glass/wifip2p/WifiManagerPlugin.java",
+      "reconstituit/jadx/app/src/main/java/com/umeng/umeng_apm_sdk/UmengApmSdkPlugin.java"
+    ]
+  },
+  "next": "Publish the round-2 audit status and keep both audit rounds. No correction restart is required for an identified defect in this scope. Future evidence or implementation changes should trigger a new audit, not reuse this score as an unconditional guarantee.",
+  "auditorChangedEvaluatedDocuments": false
+}

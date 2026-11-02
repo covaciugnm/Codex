@@ -1,0 +1,17 @@
+[
+  {
+    "name": "apktool_3.0.3.jar",
+    "url": "https://github.com/iBotPeaches/Apktool/releases/download/v3.0.3/apktool_3.0.3.jar",
+    "sha256": "dbf930b076c6b9be08d57c449cacefc3bdd6b71ebd59b3066fc0e1f5b14f9423"
+  },
+  {
+    "name": "build-tools_r36_windows.zip",
+    "url": "https://dl.google.com/android/repository/build-tools_r36_windows.zip",
+    "sha256": "aa1095cb14d83e483818a748a2c06faaeb8e601561b06a356a119a1b2ca280d3"
+  },
+  {
+    "name": "platform-tools_r37.0.1-win.zip",
+    "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+    "sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99"
+  }
+]

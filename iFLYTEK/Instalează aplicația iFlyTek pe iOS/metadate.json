@@ -1,0 +1,23 @@
+{
+  "id": "01a18c48-143c-78f0-971b-b4d2c6b35d14",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1793354896,
+  "updated_at": 1793375570,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Instalează aplicația iFlyTek pe iOS",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 13453846,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 233,
+  "message_count": 95,
+  "content_sha256": "2e473706542be7c4ad92f110f41a12997bd319cf85f405fcbf50811a4739f896",
+  "files_copied": 17,
+  "references_not_copied": 47
+}

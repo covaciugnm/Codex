@@ -1,0 +1,23 @@
+{
+  "id": "01a196cf-5346-7ea2-b1ac-8a55fbcb4be2",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Firme",
+  "created_at": 1793531532,
+  "updated_at": 1793531976,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a191a9-f91f-76e2-85cf-df92d057b378\",\"depth\":1,\"agent_path\":\"/root/auditor_firme\",\"agent_nickname\":\"Carson\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "46811615-9aa9-441d-8184-080417183a10",
+  "project": "Firme",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a191a9-f91f-76e2-85cf-df92d057b378",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 7815747,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 43,
+  "message_count": 3,
+  "content_sha256": "9f1698f829bb35f786e86deea40ad1710883d515bcd04de2f50da9581ece3e10",
+  "files_copied": 7,
+  "references_not_copied": 0
+}

@@ -1,0 +1,67 @@
+NOTĂ DE ETAPĂ ISTORICĂ — actualizare de orientare, 30.10.2026
+Textul de mai jos descrie stadiul cercetării la momentul redactării lui.
+Etapele ulterioare au decompilat componentele Android din APK 1.0.3899 și au identificat UUID-uri GATT, constructori de comenzi și parseri.
+Afirmațiile de mai jos despre lipsa decompilării / a UUID-urilor / a unui protocol documentat trebuie citite numai în contextul acelei etape.
+Rezultatul actual este o reconstrucție experimentală din APK, cu limite explicite; nu este un SDK oficial și nu a fost validat pe ochelari sau în cloud.
+Catalog actual: ../APK_Reconstituit_2026-10-30/catalog-parametri-functii/INDEX.html
+Protocol: ../APK_Reconstituit_2026-10-30/protocol-comunicare/INDEX.html
+Firmware: ../APK_Reconstituit_2026-10-30/firmware-analiza/INDEX.html
+Audit și corectări: ../APK_Reconstituit_2026-10-30/audit-calitate/INDEX.html
+
+--- RAPORTUL ETAPEI INIȚIALE ---
+
+CERCETARE SDK iFLYTEK — 30 octombrie 2026
+Obiect: ochelari XF-AIGlasses-01 si AINOTE Air 2. Cercetare documentara, fara instalare sau teste pe hardware.
+
+AUDIT LOCAL
+128 ZIP-uri, 21.462 fisiere text/cod eligibile sub 1 MB, excluzand vendor/node_modules/package-lock/yarn.lock. Zero potriviri pentru XF-AIGlasses, GlassClaw, 讯飞AI眼镜, 讯飞 AI 眼镜 si 科大讯飞蓝牙SDK. Nu au fost decompilate binarele. Manifestul contine si 5 descarcari esuate. Absenta termenilor nu demonstreaza absenta unui SDK privat.
+
+1. OCHELARI: SDK BLUETOOTH EXISTA IN APLICATIE
+Politica sectiunea 1.14.1 mentioneaza 科大讯飞蓝牙SDK. Nu am identificat pachet public, Maven/CocoaPods, UUID-uri GATT ori specificatie de comenzi pentru model.
+https://saas-public.ioss.xfinfr.com/private/config/privacy-policy.html
+Lista tertilor descrie acest SDK la castile de traducere; linkul duce la politica de cont, nu la SDK. Include si Ant Intelligent Services SDK si Alipay Glasses Service SDK, pentru servicii/plati, nu acces general la hardware.
+https://saas-public.ioss.xfinfr.com/private/config/third-party.html
+1.14.7: imagini AI Vision prin Bluetooth spre aplicatie/cloud. 1.14.8: GlassClaw cu Loomy. 1.14.9: teleprompter TXT/DOC/DOCX prin aplicatie. 1.14.10: transfer foto/video Wi-Fi (hotspot pe iOS, direct pe Android). 1.14.2: traducerea offline documentata ruleaza pe dispozitivul aplicatiei, nu pe hardware-ul ochelarilor.
+Nu sunt confirmate RTSP, UVC, ADB, instalare APK sau acces direct la router pe XF-AIGlasses-01.
+
+2. LOOMY: CALE DE EXTINDERE PRIN MCP
+Changelog 0.9.31 / 26 iunie 2026 confirma asociere ochelari si autorizare QR.
+https://loomy.xunfei.cn/changelog
+Toolbox permite instrumente MCP personalizate prin JSON.
+https://loomy.xunfei.cn/docs/user-guide/toolbox
+Ipoteza de testat: ochelari -> Translation/GlassClaw -> Loomy -> MCP propriu -> API AINOTE Desktop -> cloud -> Air 2. Componentele sunt documentate, traseul complet nu a fost verificat. MCP nu acorda automat acces la pixeli sau flux video.
+
+3. AINOTE AIR 2: INTEGRARE OFICIALA GASITA
+Producatorul confirma AINOTE Skill pe AINOTE 2 si Air 2, autorizare prin AINOTE Desktop Windows/Mac si sincronizare cloud.
+https://theainote.com/en-ca/pages/ainote-skill
+Repo recomandat de producator: https://github.com/iflyink/ainote
+API local implicit http://127.0.0.1:46588; portul real vine din configuratie.
+Note: health/list/fileList/search/file-content/create/rename/move/delete. Agenda: overview/item/create/update/delete/operate. Focus stars: citire. Sincronizare: /open-model/sync.
+Corpul existent al unei note nu are endpoint de rescriere in referinta inspectata; redenumirea, mutarea si stergerea sunt operatii distincte.
+Referintele API si clientul Python au fost copiate alaturi ca surse, nu instalate sau executate. Capabilitatile efective depind de versiunea aplicatiei si autorizare.
+
+4. AIKIT / AIOT
+SDK Android Kotlin/Java (modul + demo), iOS Swift/Objective-C (referinta/early access; pachet complet in pregatire), Java, C/RTOS cu xc_aiot.h si API xc_*. Transport WebSocket/RTC, audio/text/imagine, comenzi si callback-uri. Integrare pentru hardware/aplicatii proprii, fara compatibilitate XF demonstrata.
+https://aikit.xfyun.cn/docs/sdk/overview/
+https://aikit.xfyun.cn/docs/sdk/android/
+https://aikit.xfyun.cn/docs/sdk/ios/
+https://aikit.xfyun.cn/docs/sdk/c-cpp/
+
+5. ALTE SDK / API / CLI OFICIALE
+AIUI (voce si interactiune, SDK/HTTP): https://doc.iflyos.cn/aiui/sdk/
+ASR/TTS/OCR/traducere/Spark: servicii de procesare, nu drivere ochelari.
+CLI @xfyun/cli: https://www.xfyun.cn/xfyun-cli/doc
+https://github.com/iflytek/iFly-Skills
+https://github.com/iflytek/ifly-workflow-mcp-server
+https://github.com/iflytek/ifly-spark-agent-mcp
+Contul, autorizarea si cota serviciilor se configureaza separat.
+
+6. PROIECTE PENTRU ALTE DISPOZITIVE
+https://github.com/GuoZhuang-cn/HuaweiEyewearLiveTranscribe — demo Bluetooth SCO/AudioRecord; posibil punct de plecare numai daca XF expune microfon standard. Netestat pe XF.
+https://github.com/ebowwa/HeyCyanSmartGlassesSDK — HeyCyan, nu compatibilitate XF confirmata.
+https://www.oneglance.cn/docs/sdk/android/intro.html — Glance, BLE/camera/Wi-Fi; nu XF.
+https://github.com/wingsfly/glassclaw — RayNeo X3 Pro, nu GlassClaw iFLYTEK.
+https://github.com/ainote-dev/ainote-mcp — serviciu ainote.dev, nu proiectul oficial iflyink/ainote.
+
+URMATORUL TEST UTIL
+AINOTE Desktop actualizat + autorizare + health/read; apoi Loomy asociat ochelarilor si instrument MCP de citire. Pentru acces nativ cerut producatorului: SDK Android AAR/iOS XCFramework pentru XF-AIGlasses-01, GATT/UUID, autentificare, protocol transfer Wi-Fi, API afisaj/camera si licenta/regiuni. Nicio cerere nu a fost trimisa.

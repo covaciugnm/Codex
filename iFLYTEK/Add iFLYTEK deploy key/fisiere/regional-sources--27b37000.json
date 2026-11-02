@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-30",
+  "revision": 2,
+  "configs": [
+    {
+      "id": "rokid",
+      "cn": "https://www.rokid.com/zh-CN",
+      "eu": "https://global.rokid.com/",
+      "note": "Site-ul chinezesc oficial folosește .com/zh-CN, nu un .cn confirmat. Magazinul global deservește piețe internaționale; nu am confirmat un domeniu oficial european separat. Pagina CN are Glasses 2 cu rezervare și canale JD/Tmall; nu dovedește livrare UE. Taxele neîncasate la checkout pot reveni cumpărătorului.",
+      "extra": [
+        "https://global.rokid.com/pages/shipping-policy",
+        "https://ar.rokid.com/"
+      ]
+    },
+    {
+      "id": "rayneo",
+      "cn": "https://rayneo.cn/",
+      "eu": "https://eu.rayneo.com/",
+      "note": "Domeniu .cn și magazin UE oficial confirmate. CN trimite la open.rayneo.cn; UE la open.rayneo.com. Pagina UE X3 Pro documentează Android ARDK/Unity ARDK și mediul Android virtual. Nu rezultă identitate firmware CN/UE. Pagina shipping UE a returnat navigația, fără condiții lizibile; livrarea în România rămâne de verificat la checkout.",
+      "extra": [
+        "https://open.rayneo.cn/",
+        "https://open.rayneo.com/",
+        "https://eu.rayneo.com/products/x3-pro-ai-display-glasses",
+        "https://eu.rayneo.com/pages/rayneo-io-ai-glasses",
+        "https://eu.rayneo.com/pages/shipping-policy"
+      ]
+    },
+    {
+      "id": "inmo",
+      "cn": "https://inmolens.com/",
+      "eu": "https://www.inmo.com/",
+      "note": "CN oficial pe inmolens.com; .cn separat neconfirmat. Magazin global cu România în politica de livrare, nu magazin UE distinct demonstrat. GO3 CN promovează INMO Speaker opțional cu redare a traducerii și imitarea vocii, 9 limbi offline, 77 limbi ascultate/261 traduse; funcțiile nu sunt transferate automat firmware-ului global și româna nu este confirmată nominal de aceste numere.",
+      "extra": [
+        "https://inmolens.com/go3",
+        "https://inmolens.com/download",
+        "https://download.inmolens.com/inmo/apk",
+        "https://www.inmo.com/policies/shipping-policy"
+      ]
+    },
+    {
+      "id": "even",
+      "cn": "https://support.evenrealities.com/hc/zh-cn",
+      "eu": "https://www.evenrealities.com/en-DE",
+      "note": "Suport oficial în chineză pe același .com; domeniu .cn distinct neconfirmat. Pagina Germania prezintă G2 A/B și trimite direct către Even Hub. Politica include România și garanție comercială de doi ani pentru cumpărări UE/EFTA, sub condițiile sale. Nu dovedește disponibilitate G1 după retragerea directă.",
+      "extra": [
+        "https://support.evenrealities.com/hc/en-us/articles/13744807098127-Shipping-policy",
+        "https://support.evenrealities.com/hc/en-us/articles/13558587234575-Warranty-Policy",
+        "https://support.evenrealities.com/hc/zh-cn/articles/13489269281167-常见问题"
+      ]
+    },
+    {
+      "id": "llvision",
+      "cn": "https://www.llvision.com/",
+      "eu": "https://leion.glass/fr",
+      "note": "Producătorul chinez folosește llvision.com. LEION are pagini comerciale în franceză și politică pentru Europa pe magazinul global, fără a presupune entitate sau depozit UE. România este inclusă; transport Europa 15 EUR, condiții și taxe la checkout. Politica actualizată 24.09.2026 separă stocul de precomenzi.",
+      "extra": [
+        "https://leion.glass/en-pl/policies/shipping-policy",
+        "https://leion.glass/fr/products/leion-pro-translation-access"
+      ]
+    },
+    {
+      "id": "smartxy",
+      "cn": "https://smartxy.com.cn/about/",
+      "eu": null,
+      "note": "Domeniul .com.cn identifică Shenzhen Xingyi și activitatea OEM/ODM. Nu am identificat un magazin/site oficial distinct pentru Europa. Certificările, configurația pentru export, licența SDK și serviciul UE trebuie stabilite în oferta proiectului. Timeout la homepage; pagina About a fost disponibilă în index.",
+      "extra": [
+        "https://smartxy.com.cn/contact/",
+        "https://smartxy.com.cn/products/"
+      ]
+    },
+    {
+      "id": "xreal",
+      "cn": "https://www.xreal.cn/",
+      "eu": "https://eu.shop.xreal.com/",
+      "note": "xreal.cn redirecționează la xreal.com/cn. Magazinul UE are politică de livrare care include România și indică expediere din Franța. Politica comercială de garanție este separată de drepturile legale; nu se aplică automat unui SKU importat din China. Pagina CN și magazinul UE pot avea inventare diferite.",
+      "extra": [
+        "https://www.xreal.com/cn",
+        "https://www.xreal.com/de/contact-us",
+        "https://eu.shop.xreal.com/pages/shipping-policy",
+        "https://eu.shop.xreal.com/pages/warranty-policy"
+      ]
+    },
+    {
+      "id": "hiar",
+      "cn": "https://www.hiar.com/",
+      "eu": null,
+      "note": "HiAR și HiScene au site-uri oficiale chinezești .com; nu am identificat .cn sau magazin oficial european separat. Catalogul CN confirmă G300/G200/H100. Disponibilitatea, service-ul UE, limba documentației și accesul la SDK rămân de contractat B2B.",
+      "extra": [
+        "https://www.hiscene.com/",
+        "https://doc.hiar.com/"
+      ]
+    },
+    {
+      "id": "xvisio",
+      "cn": "https://www.xvisiotech.com/",
+      "eu": null,
+      "note": "Site oficial chinezesc și versiune internațională în engleză. Compania declară R&D și în Europa, dar aceasta nu dovedește magazin european, stoc ori contract de service UE. Nu am identificat un domeniu oficial .cn sau un site comercial european separat.",
+      "extra": [
+        "https://en.xvisiotech.com/",
+        "https://en.xvisiotech.com/about"
+      ]
+    },
+    {
+      "id": "madgaze",
+      "cn": "https://www.madgaze.com/",
+      "eu": null,
+      "note": "Domeniul oficial istoric .com este confirmat de campania brandului și registrul Smart Government Innovation LAB Hong Kong. Site-ul nu a putut fi accesat prin instrument. Nici .cn, nici magazin oficial UE actual nu au fost confirmate. Inaccesibilitatea nu dovedește închiderea companiei.",
+      "extra": [
+        "https://www.smartlab.gov.hk/en/it-solutions/s-0177",
+        "https://www.indiegogo.com/en/projects/madgaze/mad-gaze-the-world-s-most-advanced-smart-glass"
+      ]
+    }
+  ]
+}

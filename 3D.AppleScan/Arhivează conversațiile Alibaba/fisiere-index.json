@@ -1,0 +1,80 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a18972-cb9f-77a1-8385-91ddf546eab3\\60CD2833-C036-4CEA-AA59-C237FBA4E3AD\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a18972-cb9f-77a1-8385-91ddf546eab3\\6CCE13C9-DC90-4A95-BE65-B3A99594A4FB\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a18972-cb9f-77a1-8385-91ddf546eab3\\6CCE13C9-DC90-4A95-BE65-B3A99594A4FB\\2-Photo-2.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a18972-cb9f-77a1-8385-91ddf546eab3\\6CCE13C9-DC90-4A95-BE65-B3A99594A4FB\\3-Photo-3.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\EVA_Alibaba_diagnostic_2026-10-30\\Raport_diagnostic_EVA_Alibaba_2026-10-30.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_diagnostic_EVA_Alibaba_2026-10-30--8482c083.pdf",
+    "bytes": 28778,
+    "sha256": "b2ab8db378067c689bbbb106289ae30291868b8896a44fc83241c9d3519c544e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\EVA_Alibaba_diagnostic_2026-10-30\\page-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-1--336bf4f0.png",
+    "bytes": 117935,
+    "sha256": "c95aee77e358885818a869fb76290cf289c7834155e4235d212fce5ed0e117f5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\EVA_Alibaba_diagnostic_2026-10-30\\page-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-2--4ab2a050.png",
+    "bytes": 167129,
+    "sha256": "69f6c9ce9b393637f0b5e8186e2f60b6cf6450f77495073625e7051db1c159e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\EVA_Alibaba_diagnostic_2026-10-30\\page-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-3--422c41a0.png",
+    "bytes": 133436,
+    "sha256": "b8dfe96909bbc90a3bb5dbd85224b062c79e5c46140f935314af128fa87c7252"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\EVA_Alibaba_diagnostic_2026-10-30\\page-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-4--24aa518d.png",
+    "bytes": 127901,
+    "sha256": "d9e653fdaf85bae81a47ef66074f19edf094de73e2a350ccfee5ed36a6cc229a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\EVA_Alibaba_diagnostic_2026-10-30\\page-5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-5--97314116.png",
+    "bytes": 16567,
+    "sha256": "64efeae1244c14fd8f46b9540deb0475720a9eddd68fe3b3b5827414a217e151"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a18972-cb9f-77a1-8385-91ddf546eab3\\\\60CD2833-C036-4CEA-AA59-C237FBA4E3AD\\\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a18972-cb9f-77a1-8385-91ddf546eab3\\\\6CCE13C9-DC90-4A95-BE65-B3A99594A4FB\\\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a18972-cb9f-77a1-8385-91ddf546eab3\\\\6CCE13C9-DC90-4A95-BE65-B3A99594A4FB\\\\2-Photo-2.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a18972-cb9f-77a1-8385-91ddf546eab3\\\\6CCE13C9-DC90-4A95-BE65-B3A99594A4FB\\\\3-Photo-3.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "S:\\3dscan.eva-org.com",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

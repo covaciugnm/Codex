@@ -220,7 +220,7 @@ services:
     profiles: ["tools"]
     entrypoint: ["/usr/local/bin/migrate"]
     environment:
-      MIGRATE_DATABASE_URL: postgres://evaprint_owner:${POSTGRES_PASSWORD:?}@db:5432/evaprint?sslmode=disable
+      MIGRATE_DATABASE_URL: postgres[CREDENTIAL_REDACTED]db:5432/evaprint?sslmode=disable
       EVAPRINT_APP_PASSWORD: ${EVAPRINT_APP_PASSWORD:?}
       EVAPRINT_IMPORTER_PASSWORD: ${EVAPRINT_IMPORTER_PASSWORD:?}
       MIGRATIONS_DIR: /migrations
@@ -234,7 +234,7 @@ services:
     profiles: ["tools"]
     entrypoint: ["/usr/local/bin/importer"]
     environment:
-      IMPORTER_DATABASE_URL: postgres://evaprint_importer:${EVAPRINT_IMPORTER_PASSWORD:?}@db:5432/evaprint?sslmode=disable
+      IMPORTER_DATABASE_URL: postgres[CREDENTIAL_REDACTED]db:5432/evaprint?sslmode=disable
       ASSET_PACKAGE_DIR: /package
     volumes:
       - ./EVA_PRINT_WEBSITE_BRIEF_2026-10-02:/package:ro
@@ -252,7 +252,7 @@ services:
     ports:
       - "127.0.0.1:4150:8080"
     environment:
-      DATABASE_URL: postgres://evaprint_app:${EVAPRINT_APP_PASSWORD:?}@db:5432/evaprint?sslmode=disable
+      DATABASE_URL: postgres[CREDENTIAL_REDACTED]db:5432/evaprint?sslmode=disable
       SESSION_SECRET: ${SESSION_SECRET:?}
       PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-https://print.eva-org.com}
       TRUSTED_PROXY_HEADER: ${TRUSTED_PROXY_HEADER:-CF-Connecting-IP}
@@ -1124,10 +1124,10 @@ command: cd "/u/licitatii.eva-org.com/generator"; grep -o '.\{200\}/repes/api/au
 [external_agent_tool_result]
 ss(e){const t=this.getAddress(e);return!e.county||t.length<=this.lineLength+15}addExtraLine(e){return!e||e.length<=this.descriptionLineLength}getAuctionPicturesUrls(e){return e.asset.pictures.map(t=>`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`)}initFavorite(){const e=JSON.parse(localStorage.getItem("favorites"))||[];this.isFavorite=e&&e.indexOf(this.auction.asset.id)>-1}addToFavorites(
 analyticsService.trackEvent("SUBSCRIBE","AUCTIONS","Abonare")})}onSlideshowIndexChange(e){this.galleryIndex=e+1}onPrintClick(){window.print()}getAuctionPicturesUrls(e){return e.asset.pictures.map(t=>`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`)}getAuctionPictureUrl(e,t){return`/repes/api/auctions/${this.auction.caseId}/${e.id}/pictures/${t}/thumbnail`}get auctionLocationMapLink(){retur
-p?center=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return"/repes/api/auctions/request/"}getAddress(e){if(e){if(e.originalAddress)return e.originalAddress;{let t="";return
+p?center=${this.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return"/repes/api/auctions/request/"}getAddress(e){if(e){if(e.originalAddress)return e.originalAddress;{let t="";return
 
 ===== request/ ctx
-.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=AIzaSyBWmIubH1BUra0oA_Aq4mczPnzsKCHhDTk`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return"/repes/api/auctions/request/"}getAddress(e){if(e){if(e.originalAddress)return e.originalAddress;{let t="";return t=(e.street||"")+(e.streetNo?" nr. "+e.streetNo:""),e.city&&(t&&(t+=", "),t+=e.city),e.county?(t&&(t+=", "),t+=e.county):e.region&&(t&&(t+=", "),t+=e.region),e.country&&(t&&(t+=", "),t+=this.translateService.instant
+.auction.asset.address.gpsLocation}&zoom=13&size=600x200&markers=${this.auction.asset.address.gpsLocation}&key=[CREDENTIAL_REDACTED]`}get documentDownloadUrl(){return`/repes/api/auctions/${this.auction.caseId}/${this.auction.id}/publication/`}get requestDownloadUrl(){return"/repes/api/auctions/request/"}getAddress(e){if(e){if(e.originalAddress)return e.originalAddress;{let t="";return t=(e.street||"")+(e.streetNo?" nr. "+e.streetNo:""),e.city&&(t&&(t+=", "),t+=e.city),e.county?(t&&(t+=", "),t+=e.county):e.region&&(t&&(t+=", "),t+=e.region),e.country&&(t&&(t+=", "),t+=this.translateService.instant
 
 ===== 2026-10-12 in scripts
 prepare.mjs:13:est(x.title)?'Anulată':x.auctionDate>='2026-10-12'&&!/^(NEADJUDECAT|A

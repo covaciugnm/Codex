@@ -1,0 +1,86 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\build_a02_plan.js",
+    "status": "copiat",
+    "saved_path": "fisiere/build_a02_plan--38ce2ba7.js",
+    "bytes": 84245,
+    "sha256": "75790bdfeb54f6436958c3138c45d430583172ac4357d0897107a3d72ea64a28"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-a02-db.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-a02-db--a1737bbf.cjs",
+    "bytes": 6315,
+    "sha256": "f1c41c7a7ddedfa9859014fce893d78946018a06c389b3c0222b838a3b30573f"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-a02-fixture.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-a02-fixture--8662a09b.cjs",
+    "bytes": 8055,
+    "sha256": "1816a91c1e9a167526ccd7deb25d3ce953bc8deeea51521408d33e25667abd25"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-a02-migration.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-a02-migration--36c6373d.cjs",
+    "bytes": 4409,
+    "sha256": "af5a35ca441022e7b48c6c1e3547a33d985674a38de577b5a520626bfa82d247"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-a02-pure.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-a02-pure--6c239b7f.cjs",
+    "bytes": 2017,
+    "sha256": "3051690b6a3524be136675d9a1433a7651a38f1ee2e4ff09092c8e11df9074fb"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-a02-report.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-a02-report--1fbdd881.cjs",
+    "bytes": 24908,
+    "sha256": "44748266907f5ebeada9026bcd3f4b9dcd6eb26d533b7ae132b51c15f5107720"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-surface-index.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-surface-index--47cd3588.cjs",
+    "bytes": 28703,
+    "sha256": "b64ce9d00ecbeaf6dd35a57d9976634a22d24a82b69b774d04e8a61e638e4da0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Index_suprafete.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Index_suprafete--70b53d82.json",
+    "bytes": 1248427,
+    "sha256": "7c6df62ecb88a6258d0c986cf65a420ce27f83e289aa99f7f8c3f6920d7c63e2"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A02/PG_fixture_rezultate.json",
+    "status": "copiat",
+    "saved_path": "fisiere/PG_fixture_rezultate--ea995565.json",
+    "bytes": 2265,
+    "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A02/PG_migrari_rezultate.json",
+    "status": "copiat",
+    "saved_path": "fisiere/PG_migrari_rezultate--2b98a269.json",
+    "bytes": 2305,
+    "sha256": "753846562407397ca8d13fe8b985b802a676afc78defdf73b8489441f649a9e3"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A02_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A02_raport--ec3f8e0c.json",
+    "bytes": 70270,
+    "sha256": "b6894f76d4e8ed44f954ae08bd0d726e23bc207ad9d8c2e26ca169d5be9083d4"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\A02_plan.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A02_plan--d1583b7a.json",
+    "bytes": 325032,
+    "sha256": "7adf2db648b7529b82bd0402b0d1070261efaacf34b12e9d65503af11a613859"
+  }
+]

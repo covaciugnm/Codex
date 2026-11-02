@@ -1,0 +1,23 @@
+{
+  "id": "01a1980e-c434-7773-823d-b73e5b045700",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail",
+  "created_at": 1793552467,
+  "updated_at": 1793553629,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a18cd1-8b09-7f83-85e9-09f55ea8812c\",\"depth\":1,\"agent_path\":\"/root/agent_2_review\",\"agent_nickname\":\"Boyle\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "a85004ee-5acd-4f38-b445-2289450e8065",
+  "project": "EVA-Mail",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a18cd1-8b09-7f83-85e9-09f55ea8812c",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 2190983,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 72,
+  "message_count": 3,
+  "content_sha256": "1fd9f287dfb3694bc7a767824476e2e4ddb576f6257b6b7505cb734895d58767",
+  "files_copied": 3,
+  "references_not_copied": 0
+}

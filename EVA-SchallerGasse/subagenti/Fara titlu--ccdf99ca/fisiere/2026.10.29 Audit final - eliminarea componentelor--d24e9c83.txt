@@ -1,0 +1,18 @@
+2026.10.29 — Audit final al sintezei privind eliminarea componentelor DONAU
+
+Fișier auditat: 2026.10.29 Concluzie juridica - eliminarea componentelor.txt
+SHA-256: b29fdf32dc547d142059ce7bf984b63274a6ff386f2be40f6f82a3112daf4b8c
+
+VERDICT: corespunzător pentru livrare ca analiză documentară și juridică. Nu am identificat erori materiale nerezolvate în versiunea de mai sus. Verdictul nu confirmă deja încetarea unor acoperiri și nu certifică rezultatul unei dispute cu asigurătorul.
+
+Controale și corecții închise:
+• Independența unei ramuri, existența unui drept de încetare și data efectului sunt delimitate. Primele separate sunt indicii; termenul 2036 nu este înlăturat automat. OGH 7 Ob 13/85 nu este prezentat drept izvor al unui drept general de modificare unilaterală; adăugarea de riscuri rămâne, în principiu, supusă acordului.
+• §41a/42 este delimitat de simpla negociere comercială și de dispariția interesului conform §68/68a. Perioada anuală nu este confundată cu rata trimestrială. Nu este promisă retroactivarea la 2026.07.01.
+• Completarea subsidiară §51 alin.1/3 a fost verificată față de textul legal salvat: reducere imediată a sumei și proporțional a primei pentru supraasigurare considerabilă; plata restituirii la sfârșitul perioadei. Lipsa chiriilor actuale nu este tratată drept dovadă suficientă a valorii zero a interesului.
+• Confirmarea instalatorului, autorizația și descrierea lucrărilor sunt raportate la excluderea bazată pe Risikowegfall. Nu devin condiții generale pentru orice Kündigung valabilă și nici solicitări automat abuzive. Închiderea apei ca obligație preventivă nu dovedește singură dispariția interesului; Mieten-BU este raportată și la veniturile viitoare acoperite.
+• Au fost introduse drepturile contractuale concrete 1242K/3031K. Originalul istoric a fost verificat vizual la p.15, 24 și 25: notificare scrisă, preaviz de o lună, sfârșitul perioadei; fără drept derivat de încetare a întregii ramuri Sturm. Poziția textului 3031K înainte de lit.b este reflectată prin limita privind întinderea exactă. Aceste drepturi nu sunt extinse la Leitungswasser ori Mieten-BU.
+• La Paketkündigungsklausel a fost completată recuperarea avantajului de durată și separată eventuala renunțare în caz de vânzare. Sunt menționate paginile 1–3 lipsă din setul RV și necunoașterea economiei aferente suplimentelor.
+
+Surse decisive: polița 2026.06.03 p.3–4; PDF istoric 89 pagini, clauzele 1242K/3031K; extensii RV p.12–13 / pagini tipărite15–16; originalele RIS și registrele din Surse și Surse audit; notele celor trei colaboratori. Auditul a inclus lectura integrală a sintezei inițiale, comunicarea corecțiilor și verificarea completărilor finale. Nu s-au modificat jurnale, indexul, emailuri sau polița.
+
+Limite rămase: set contractual incomplet; faptele tehnice și perspectiva închirierii necesită probe; întinderea suplimentului 3031K și recalcularea trebuie stabilite concret. Acestea sunt declarate în sinteză și nu justifică promisiunea unei eliminări deja realizate.

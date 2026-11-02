@@ -1,0 +1,6352 @@
+# Rezultate — Compară ochelari AI similari Even G2
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## Asistent
+
+Voi verifica modelele comparabile cu Even G2 și disponibilitatea lor, cu accent pe afișaj discret, funcții AI și utilizarea de zi cu zi.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c06e9747-5a70-47e4-b37e-00bf31107f26",
+  "query": "Even G2 smart glasses October 2026 release competitors ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Even G2 smart glasses October 2026 release competitors",
+      "best AI smart glasses display Even G2 Meta Ray Ban Display Rokid 2026"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.framesandfeatures.com",
+      "ref_id": "turn0search0",
+      "title": "Best smart glasses with a display in 2026 | Frames & Features",
+      "url": "https://www.framesandfeatures.com/best/with-display/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn0search1",
+      "snippet": "I’ve worn smart glasses for over 5 years — here’s the best AR and AI glasses in 2026 ... 👎 Even R1 smart ring is",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/l74_MTzV8w0JeAI4CCFn5yFi5Wm_iuQR80ffYFUyWUr5PKfWQSXOsWEVmHAm1QsPNe6UCbUGuz0nUCLdx3IUxk5q8aWHKuiYtxL9jC-H_zcog7EfIM3p_jXjG35qYh3t",
+      "title": "I've worn smart glasses for over 5 years - here's the best AR and AI glasses in 2026",
+      "url": "https://www.tomsguide.com/computing/vr-ar/best-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "theexpertranking.com",
+      "ref_id": "turn0search2",
+      "title": "Best AI Glasses with Display (2026): 6 Tested and Ranked",
+      "url": "https://theexpertranking.com/hardware/best-ai-glasses-with-display/"
+    },
+    {
+      "type": "text_result",
+      "domain": "aitooltesting.com",
+      "ref_id": "turn0search3",
+      "title": "Best AI Smart Glasses in 2026 · AI Tool Testing",
+      "url": "https://aitooltesting.com/guides/best-ai-smart-glasses-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.memo-mind.com",
+      "ref_id": "turn0search4",
+      "title": "Best Smart Glasses with Display in 2026: How to Choose",
+      "url": "https://www.memo-mind.com/blogs/buyers-guide/best-smart-glasses-with-display-in-2026"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartwearguide.com",
+      "ref_id": "turn0search5",
+      "title": "Our Top 10 HUD & information glasses - SmartWearGuide",
+      "url": "https://smartwearguide.com/our-top-10/smart-glasses/information/"
+    },
+    {
+      "type": "text_result",
+      "domain": "buildforglasses.com",
+      "ref_id": "turn0search6",
+      "title": "Best Smart Glasses With a Display (2026), Compared",
+      "url": "https://buildforglasses.com/guides/best-smart-glasses-with-display/"
+    },
+    {
+      "type": "text_result",
+      "domain": "oxivue.com",
+      "ref_id": "turn0search7",
+      "title": "Smart Glasses With Display: 3 Types, $599 to $799 (2026) · OXIVUE",
+      "url": "https://oxivue.com/guides/smart-glasses-with-display"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrx.vr-expert.com",
+      "ref_id": "turn0search8",
+      "title": "The Best AI Glasses We've Tested for 2026 - VRX by VR Expert",
+      "url": "https://vrx.vr-expert.com/the-best-ai-glasses-weve-tested-for-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "theairankings.com",
+      "ref_id": "turn0search9",
+      "title": "Best AI Glasses in 2026: Tested, Ranked and Compared | The AI Rankings",
+      "url": "https://theairankings.com/best-ai-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wareable.com",
+      "ref_id": "turn0search10",
+      "title": "Best smart glasses and AR specs: We test Ray-Ban Meta, Oakley, and more",
+      "url": "https://www.wareable.com/ar/the-best-smartglasses-google-glass-and-the-rest"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wired.com",
+      "ref_id": "turn0search11",
+      "title": "Ranking the Best Smart Glasses: Meta, Viture, & More (2026) | WIRED",
+      "url": "https://www.wired.com/gallery/best-smart-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn0news37",
+      "snippet": "Best camera glasses in 2026: smart wearable tech for eye-level photography ... My top pick is the Ray-Ban Meta Smart Glasses Gen 2, which come",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/cOsbCff4xA2tkNnB8nsG_sUai6urQYBbmLyIMl9vpYGr0eoFvZ5IzeHj8zMA2HCRqVIDXmVUp7aa7nu9v2enriGrmRFjvOTqeBjGum3SRzUzC-_ejNgVktkt_CUotBqu",
+      "title": "Best camera glasses in 2026: smart wearable tech for eye-level photography",
+      "url": "https://www.digitalcameraworld.com/buying-guides/best-camera-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn0news38",
+      "snippet": "There are three smart glass variants you can buy today: video glasses like the RayNeo Air models or Rokid Max 2 use Micro-OLED tech to",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/SH-GQLz_2KZButVyfY_OmB6nTvdeEgr7GTq9-rskHjXaTREALs4OwS86AcL9DRvUWnV_AK7fxWvkdnv-D-iUxbaw0qROqCIz2BfJWEr_CLWwMRuLHf80j2TFmaXaJ0wC",
+      "title": "I used the MemoMind One: These camera-free smart glasses made me feel like 007",
+      "url": "https://www.androidcentral.com/gaming/virtual-reality/memomind-one-camera-free-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.t3.com",
+      "ref_id": "turn0news39",
+      "snippet": "The company has announced a major update to its Even G2 smart glasses, alongside a new developer platform called the Even Hub, positioning the device",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/mwwyzAmjNRBWbOq8--hEWspWDB61Fq3T3f9sZ9jTTaf3cBPriwwJyXAT6w0KJDTv2DsXPJCKjosxhG117kjl0E0EqyQDAYoIjKwVUxa0zINs2l68BSetYhl5PKxdU4Bg",
+      "title": "Meta Ray-Ban rival Even Realities brings real-time conversation coaching to smart glasses",
+      "url": "https://www.t3.com/tech/vr/even-realities-conversation-coaching-smart-glasses-update-0326"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn0news40",
+      "snippet": "[Image 2: Best of AWE 2026] ... An obviously important part of smart glasses are the lenses you see through especially now that displays are",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/EW6MpjNrXy0sbLYFr_ljq3n6TuK8nNRF1_nwK1c3TaqJyV_JW5PefWyCdei95bG6bwDX8hSN49rnVh-YoY-o_vykaIyl1kiP1y5lnL2DOamqlYqPdobFbe3cj9o59NMC",
+      "title": "Best of AWE 2026: 7 top gadgets that show us the future of XR",
+      "url": "https://www.tomsguide.com/computing/augmented-reality/best-of-awe-2026-the-top-gadgets-that-show-us-the-future-of-xr"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn0news41",
+      "snippet": "To catch you up, these specs boast similar tech to the Meta Ray-Ban and HSTN smart glasses we've come to know and love - I'm",
+      "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/CTK2UdHH8kukWHYpcp6sq4-1280-80.jpg",
+      "title": "Smart glasses might soon be everywhere, and based on what I've tried that's no bad thing",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/smart-glasses-might-soon-be-everywhere-and-based-on-what-ive-tried-thats-no-bad-thing"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-2f9bcdb3-2ecf-41c7-871c-d230c461bb17",
+  "query": "site.evenrealities.com G2 599 36g languages Romanian shipping ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.evenrealities.com G2 599 36g languages Romanian shipping",
+      "site.global.rokid.com glasses 599 display 49g translation Romanian",
+      "site.hallidayglobal.com G2 glasses 2026",
+      "site.meta.com ray ban display countries available 799"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "about.fb.com",
+      "ref_id": "turn1search0",
+      "title": "New Features for Meta Ray-Ban Display",
+      "url": "https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/"
+    },
+    {
+      "type": "text_result",
+      "domain": "about.fb.com",
+      "ref_id": "turn1search1",
+      "title": "Meta Ray-Ban Display: AI Glasses With an EMG Wristband",
+      "url": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/?stream=top"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn1search2",
+      "title": "Language Support – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/13755354799247-Language-Support"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hallidayglobal.com",
+      "ref_id": "turn1search3",
+      "title": "Halliday G2 | Display AI Glasses Built to Enhance Every Moment",
+      "url": "https://www.hallidayglobal.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartspecscheck.co.uk",
+      "ref_id": "turn1search4",
+      "title": "Meta Ray-Ban Display: UK release date and availability",
+      "url": "https://smartspecscheck.co.uk/availability/meta-ray-ban-display/"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.hallidayglobal.com",
+      "ref_id": "turn1search5",
+      "title": "General FAQs – Halliday Support",
+      "url": "https://support.hallidayglobal.com/hc/en-us/articles/60154389484825-General-FAQs"
+    },
+    {
+      "type": "text_result",
+      "domain": "evenrealities1545.zendesk.com",
+      "ref_id": "turn1search6",
+      "title": "Shipping policy – Even Support Center",
+      "url": "https://evenrealities1545.zendesk.com/hc/en-us/articles/9859311572367-Shipping-policy"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.engadget.com",
+      "ref_id": "turn1search7",
+      "title": "Meta has delayed the international rollout of its display glasses",
+      "url": "https://www.engadget.com/social-media/meta-has-delayed-the-international-rollout-of-its-display-glasses-120056833.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ray-ban.com.cn",
+      "ref_id": "turn1search8",
+      "title": "Preguntas frecuentes sobre Ray-Ban | Meta | Ray-Ban® LATAM",
+      "url": "https://www.ray-ban.com.cn/latam/c/preguntas-frecuentes-ray-ban-meta-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn1search9",
+      "snippet": "I went hands-on with the Halliday G2 — the smart glasses made for meetingsDate: Tue Jul 21 13:00:00 2026 UTC ... Preorders begin today (July",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/08NwykTRXYxLaXOGBn_nPH4gMtUrezGg4-Eu8X29IRg7hYunBtfFDllZYjY9YBHuDthSr3sHo2jWW3KkoR8-NNgTghS9ePbVJIXsEsik8WRWtr-eQ9bnERL5KVyhQ-uB",
+      "title": "I went hands-on with the Halliday G2 - the smart glasses made for meetings",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/i-went-hands-on-with-the-halliday-g2-the-smart-glasses-made-for-meetings"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.t3.com",
+      "ref_id": "turn1news29",
+      "snippet": "Unlike the Snap Specs, which are full AR glasses, the Display glasses share many of the capabilities of the Ray-Ban Meta glasses currently available, including",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/YJCab3WCit15nyAYmVjIB93NX6UaryU_ja7vmqWEM4YTghVnQX9Vh2pXVNHccif0-7kY4A1Wkhjg8mwYRIEngGDdMMsDluyKqvNgt3AmRfgR-DiscsTVAfApt8VZhNBh",
+      "title": "Meta Ray-Ban Display finally coming to the UK and Europe - the smart glasses with a screen set to arrive next month",
+      "url": "https://www.t3.com/tech/vr/meta-ray-ban-display-finally-coming-to-the-uk-and-europe-the-smart-glasses-with-a-screen-set-to-arrive-soon"
+    },
+    {
+      "type": "text_result",
+      "domain": "apnews.com",
+      "ref_id": "turn1news30",
+      "snippet": "The glasses, called Meta Ray-Ban Display, will be available Sept. 30 and cost $799.",
+      "title": "Meta unveils AI-powered smart glasses with display and neural wristband at Connect event",
+      "url": "https://apnews.com/article/250fdea4b876ef79457c488a4aca2862"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn1news31",
+      "snippet": "Here’s how you can try the Meta Ray-Ban Display glasses (in a couple of months when slots are available) ... Now these $799 glasses are",
+      "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/Rk5WTTkSLECVpVoXemmSyX-1280-80.jpg",
+      "title": "Here's how you can try the Meta Ray-Ban Display glasses (in a couple of months when slots are available)",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/heres-how-you-can-try-the-meta-ray-ban-display-glasses-in-a-couple-of-months-when-slots-are-available"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn1news32",
+      "snippet": "Meta adds a teleprompter and EMG handwriting to Ray-Ban Display, but it's also delaying international availability to prioritize the US market. ... That's why you",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/C4PBZaE0zHwo2XXPPnb0KKeaLLGy5CXMMWDbWj3C-EnzNnROm03cxQ_IUwzmM8RJR8avEa4OC-QnCjakeMo7eOvm3QPHlbVRHefwl7yNsjBlkVVtW3ieiwjdSP5Po8mE",
+      "title": "Meta adds a teleprompter and EMG handwriting to Ray-Ban Display, but it's also delaying international availability to prioritize the US market. Here's what this tells us about how the smart display glasses are doing.",
+      "url": "https://www.androidcentral.com/apps-software/meta/meta-ray-ban-display-updates-ces-2026"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn1news33",
+      "snippet": "But, the list of new features comes with a bit of bad news - Meta has put its \"early 2026\" international rollout for the Ray-Ban",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/dY6b-Bkq7tciRWzxFykknQqrbe73YdHx3XFfckq5gFpEhMS7uUoXQOPjQvX2EOHFZZkcFXx6u0bbSPMXaJWdF7dFwglrl3jjT1fRu2_qv7_FXeJudwjorWdhJQXS_yXe",
+      "title": "Camera glasses are about to get more useful while on camera with teleprompters. But, Meta's Ray-Ban Display is so popular, the international launch is on hold",
+      "url": "https://www.digitalcameraworld.com/tech/camera-glasses-are-about-to-get-more-useful-while-on-camera-with-teleprompters-but-metas-ray-ban-display-is-so-popular-the-international-launch-is-on-hold"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b22261f5-82e2-4c8b-8979-39ea5b8aeb7b",
+  "query": "site.rayneo.com X3 Pro 1299 76g ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rayneo.com X3 Pro 1299 76g",
+      "site.evenrealities.com G2 36g 599 two days"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "eu.rayneo.com",
+      "ref_id": "turn2search0",
+      "title": "RayNeo X3 Pro AI+AR Glasses - RayNeo.EU",
+      "url": "https://eu.rayneo.com/products/x3-pro-ai-display-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "gedd.it",
+      "ref_id": "turn2search1",
+      "title": "Even Realities Discount & Promo Codes | Gedd.it",
+      "url": "https://gedd.it/www.evenrealities.com"
+    },
+    {
+      "type": "text_result",
+      "domain": "idevice.com",
+      "ref_id": "turn2search2",
+      "title": "Even Realities G2 vs Xreal One Pro: which should you buy?",
+      "url": "https://idevice.com/versus/even-realities-vs-xreal-one-pro"
+    },
+    {
+      "type": "text_result",
+      "domain": "unboundxr.com",
+      "ref_id": "turn2search11",
+      "title": "X3 Pro User Manual",
+      "url": "https://unboundxr.com/b2b/amfile/file/download/file/195/product/3127/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn2search3",
+      "title": "What New Smart Glasses Are Available Now (or Coming in September… - RayNeo",
+      "url": "https://www.rayneo.com/blogs/news/new-smart-glasses-available-now-coming-soon-rayneo-50-guide"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartwearguide.com",
+      "ref_id": "turn2search4",
+      "title": "RayNeo X3 Pro - SmartWearGuide",
+      "url": "https://smartwearguide.com/devices/rayneo-x3-pro/"
+    },
+    {
+      "type": "text_result",
+      "domain": "eu.rayneo.com",
+      "ref_id": "turn2search5",
+      "title": "RayNeo X3 Pro Launch 2025 - RayNeo.EU",
+      "url": "https://eu.rayneo.com/pages/x3-pro-launch"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.aivitamin.tech",
+      "ref_id": "turn2search6",
+      "title": "Smart Glasses with Display & Ambient AI Prompts | Even G2 ｜ AI Vitamin",
+      "url": "https://www.aivitamin.tech/products/even-g2"
+    },
+    {
+      "type": "text_result",
+      "domain": "buildforglasses.com",
+      "ref_id": "turn2search7",
+      "title": "RayNeo X3 Pro: price, battery, apps and reviews",
+      "url": "https://buildforglasses.com/devices/rayneo-x3-pro/"
+    },
+    {
+      "type": "text_result",
+      "domain": "device.report",
+      "ref_id": "turn2search8",
+      "title": "X3 Pro 说明书 国内版_英西法德意日繁 PDF document",
+      "url": "https://device.report/m/2184c3ef4ce645ceb31ea8b555de652339de11000df44b1e34aa0c256b777f60"
+    },
+    {
+      "type": "text_result",
+      "domain": "oculos.io",
+      "ref_id": "turn2search9",
+      "title": "RayNeo RayNeo X3 Pro · oculos.io",
+      "url": "https://oculos.io/pt/glasses/rayneo-x3-pro"
+    },
+    {
+      "type": "text_result",
+      "domain": "stylistme.com",
+      "ref_id": "turn2search10",
+      "title": "RAYNEO X3 Pro : lunettes RA MicroLED 43\", IA Gemini et Snapdragon AR1",
+      "url": "https://stylistme.com/produit/rayneo-x3-pro"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn2news14",
+      "snippet": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use ... At 76 grams, the X3 Pro is",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/rWkE34BLBTKng_VBIcmmRCY3ck7Sqi3xQFl2Jne1Fmj8RLnSenLm9D2BAXgHcKi7Dr2w7FSyHgo52X4CHRBjYEsMwi3m-RTh7EJSWdLpbk5Yvkx0Ej9fwT46BhlHQkms",
+      "title": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use",
+      "url": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn2news15",
+      "snippet": "RayNeo deserves credit for making the X3 Pro considerably thinner and more consumer-friendly than its predecessor; while the glasses still look a little chunky at",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/y0kGHZFu4vARCX0cO-iZCowJiMPJGLrhonhRrbbcCS0k7neqfu0c23fPqKmS8yMlQmHNNR7L39WSBCNZzJMmVPzUasFRtmWHherEcFhZL0_cCaPYtxmcErkkGccbUXjA",
+      "title": "I used RayNeo's X3 Pro for a month - these AR glasses are futuristic, but there's a big problem",
+      "url": "https://www.androidcentral.com/wearables/i-used-rayneo-x3-pro-for-a-month-these-ar-glasses-are-futuristic-but-theres-a-problem"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn2view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn2view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Pentru ceva apropiat de Even G2, contează mult diferența dintre ochelarii pentru text discret și cei cu cameră și afișaj color. Am verificat și un detaliu util pentru România: Even include româna în lista pentru traducere vocală și România în țările de livrare.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-2b40155c-e364-4c11-ab06-f3c79c5b0b09",
+  "query": "site.evenrealities.com \"G2\" \"36\" \"640\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.evenrealities.com \"G2\" \"36\" \"640\"",
+      "site.rokid.com \"Glasses\" \"599\" \"49\"",
+      "site.memo-mind.com \"One\" \"599\" display",
+      "site.rayneo.com \"iO\" \"249\" display"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "vrarwiki.com",
+      "ref_id": "turn3search0",
+      "title": "MemoMind One - VR & AR Wiki - Virtual Reality & Augmented Reality Wiki",
+      "url": "https://vrarwiki.com/wiki/MemoMind_One"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartglassesdecoded.com",
+      "ref_id": "turn3search1",
+      "title": "Rokid Glasses in 2026: Price, Specs, What You Get",
+      "url": "https://smartglassesdecoded.com/learn/rokid-glasses-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bgr.com",
+      "ref_id": "turn3search2",
+      "title": "Hands-On: XGIMI's MemoMind AI Glasses Solve One Of AR's Biggest Issues",
+      "url": "https://www.bgr.com/2067803/memomind-memo-one-ai-glasses-hands-on-ces-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.notebookcheck.net",
+      "ref_id": "turn3search3",
+      "title": "MemoMind: Real AR glasses with a display and discreet design, now discounted - Notebookcheck News",
+      "url": "https://www.notebookcheck.net/MemoMind-Real-AR-glasses-with-a-display-and-discreet-design-now-discounted.1285422.0.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "registry.deploy.report",
+      "ref_id": "turn3search4",
+      "title": "Rokid Glasses price (2026): $299 verified · DEPLOY",
+      "url": "https://registry.deploy.report/models/rokid-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "memwey.github.io",
+      "ref_id": "turn3search5",
+      "title": "Even Realities · Startup Due Diligence",
+      "url": "https://memwey.github.io/startup-due-diligence/companies/even-realities/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartglassesgeek.com",
+      "ref_id": "turn3search6",
+      "title": "Compare XGIMI MemoMind One With Other Smart Glasses - Smart Glasses Geek",
+      "url": "https://smartglassesgeek.com/compare/?compare=xgimi-memomind-one"
+    },
+    {
+      "type": "text_result",
+      "domain": "oculos.io",
+      "ref_id": "turn3search7",
+      "title": "Even Realities Even G2 · oculos.io",
+      "url": "https://oculos.io/pt/glasses/even-realities-g2"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn3search8",
+      "title": "乐奇旗下的四副眼镜是四个产品：两副的近视账单差着六百块，一副只在日本卖_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/al3l03ep/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.phonearena.com",
+      "ref_id": "turn3search9",
+      "title": "Rokid Glasses review: AI glasses with a screen - PhoneArena",
+      "url": "https://www.phonearena.com/reviews/rokid-glasses-review_id7961"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.arcompare.com",
+      "ref_id": "turn3search10",
+      "title": "AR Glasses Database - Compare 99+ Models",
+      "url": "https://www.arcompare.com/ar-glasses/?category=Mid-range"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartglassesdaily.com",
+      "ref_id": "turn3search11",
+      "title": "Rokid smart glasses — news, reviews & specs - Smart Glasses Daily",
+      "url": "https://smartglassesdaily.com/en/brand/rokid"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn3news12",
+      "snippet": "Memo One uses a dual-eye customizable display built on a decade of XGIMI's optical engineering. ... [Image 1: MemoMind frame options] ... Memo One is",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/DyMzVPLikFbDYjp56XlF3ptOZ7Ko-UJsb-Jg0sfw-mGU4dXjRhEeqNK6cg75nOPtuIUVC3q10No4C7sPVw9G2mVUpGM7Yyr6LBg3RhZzThj9YSCfIGfeMMnkah0rcJ9O",
+      "title": "Wear MemoMind for a Week, and Nobody Will Notice",
+      "url": "https://www.tomsguide.com/ai/wear-memomind-for-a-week-and-nobody-will-notice"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d546d241-6582-44eb-ba5a-15a838bab6d4",
+  "query": "https://www.evenrealities.com",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.evenrealities.com"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.evenrealities.com",
+      "ref_id": "turn4view0",
+      "snippet": "Total lines: 261",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/0-Y0FaFDTPMcZLCfHspGmnxxI2_B6V0ApwUjsHn7M9Sc67fke9BZrh7owICbRdgKiLKi1RlxCfrOq-UwRyy5HPyWASj4DMvtmkCmM8WU-xJQIEVPK6gP-_0nrtcSdvprTUqW-NCn3XxdTIgzLAOg0dGwr3adzX2RVzvtL95OSvs",
+      "title": "Even Realities | Smart Glasses & Wearable Technology",
+      "url": "https://www.evenrealities.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn4view1",
+      "snippet": "Total lines: 918",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/b6Zv0y2vP1t1MMRijHPDcjH_XCjpCYutcoVM1krHWdqxcM0v99ihkwTLqjJGIjeMbABTT5BlPi9EGwJZrbG0YCgHuEEkVQDMeW8AyTruJe-WpyeI4SqNSjam4TY4TDah",
+      "title": "Rokid AI Glasses & AR Glasses | Official Store",
+      "url": "https://global.rokid.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.memo-mind.com",
+      "ref_id": "turn4view2",
+      "snippet": "Total lines: 699",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/n2dao-0D-fNZikdhIf7K1EGEtN3Vs5CiuBHJYKHbyN2mntyjiFW_0UAkvKSulLx_sUnxwCH4DVfLv_z9g-2GdsyFSzzbXRQ5oHkr7yIAix75qKBE_nTq0NHXvfbYMH4yeexJrX4KL3UzHC9dJJ93jQ",
+      "title": "MemoMind One AI Glasses – Features, Display & AI Memory",
+      "url": "https://www.memo-mind.com/pages/memomind-one"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn4view3",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-52e1682f-6b43-4bd0-bbc9-40cab4d39c74",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.evenrealities.com",
+      "ref_id": "turn5view0",
+      "snippet": "Total lines: 640",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/j8128N4TlFCfo0qo0plTH8z-efQoGKKQPy9dH1aH-8P0ed4Ax69G0FmeakWaAGjlT__WBB11cfMQZ70MOkHhMMhbQnFlE8RfYFPtd87MSiJ8U2Eb6Nt7Qwg27e_1gUxJhCFJhBOMIFhAiUJetIPxrP8ZrvWg3QRx5CgvwIUJQ9E",
+      "title": "Smart Glasses with Display & Ambient AI Prompts | Even G2",
+      "url": "https://www.evenrealities.com/smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn5view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Dacă vrei ochelari în stilul Even G2 — aspect normal, afișaj în lentile și AI pentru conversații, traducere și informații discrete — eu aș alege tot Even G2 pentru utilizare zilnică.** Alternativa directă cea mai interesantă este **Halliday G2**, iar pentru cameră și afișaj color aș lua în calcul **Meta Ray-Ban Display**.
+
+Am verificat informațiile disponibile la **26 octombrie 2026**. Clasamentul de mai jos este evaluarea mea pe baza specificațiilor și a surselor consultate, nu un test personal.
+
+| Model | Pentru cine îl recomand | Avantaje relevante | Compromisul principal |
+|---|---|---|---|
+| **Even Realities G2** | **Purtare zilnică, prezentări și conversații** | 36 g; afișaj verde în ambele lentile; teleprompter, traducere, rezumate și indicații AI; autonomie declarată de până la două zile | Fără cameră; accent pe informație textuală. [Specificații oficiale](https://www.evenrealities.com/smart-glasses) |
+| **Halliday G2** | **Alternativa apropiată de Even, cu sunet integrat** | Afișaj binocular verde, difuzoare pentru apeluri și muzică, funcții dedicate ședințelor; fără cameră | 49 g; autonomie declarată de 12 ore; produs recent, cu livrări în loturi. [Specificații oficiale](https://www.hallidayglobal.com/) |
+| **Meta Ray-Ban Display** | **Cameră, comunicații și interfață vizuală mai bogată** | Afișaj color, cameră, sunet și control prin brățara Neural Band; de la **799 USD**, cu brățară inclusă | Autonomie declarată de până la șase ore; funcțiile și disponibilitatea depind de țară. [Prezentare oficială](https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/?stream=top) |
+| **Rokid Glasses — versiunea With Display** | **Combinație de cameră și text în câmpul vizual** | Afișaj monocrom, cameră și funcții pentru subtitrări și asistență AI | Oferta și prețurile diferă între versiuni; trebuie ales explicit modelul **With Display**. [Magazin oficial](https://global.rokid.com/) |
+| **RayNeo X3 Pro** | **Experimentare cu AR color și funcții avansate** | Afișaj color în ambii ochi, Gemini, cameră de 12 MP, navigație și suport pentru dezvoltare AR | 76 g și **1.399 €** în magazinul european: l-aș alege pentru tehnologie, mai puțin pentru discreție și confort zilnic. [Specificații oficiale](https://eu.rayneo.com/products/x3-pro-ai-display-glasses) |
+
+*Autonomiile sunt declarațiile producătorilor, măsurate în condiții diferite; nu reprezintă ore de traducere sau afișare continuă.*
+
+**De ce aș pune Even G2 primul pentru tine:** reperul tău sugerează că vrei să citești informații fără să scoți telefonul și să poți purta ochelarii firesc. Greutatea mică, afișajul binocular și controlul opțional prin inelul R1 se potrivesc bine acestui scop. G2 are și microfoane pentru conversații, chiar dacă nu are cameră. [Even G2](https://www.evenrealities.com/smart-glasses)
+
+**Halliday G2 merită comparat serios dacă vrei și apeluri ori răspunsuri audio.** Prețul oficial de lansare este acum **549 USD**, redus de la 599 USD. Aș verifica însă costul ulterior al serviciilor AI: oferta include un an de plan Basic, cu niveluri superioare contra cost. [Oferta și condițiile Halliday](https://support.hallidayglobal.com/hc/en-us/articles/60154389484825-General-FAQs)
+
+Pentru utilizare în România, două diferențe contează:
+
+- **Even confirmă româna pentru afișarea textului și ca limbă de intrare vocală în Translate**, iar România apare în lista de livrare. Asta nu garantează aceeași disponibilitate sau calitate pentru toate funcțiile AI în română. [Limbi acceptate](https://support.evenrealities.com/hc/en-us/articles/13755354799247-Language-Support), [livrare](https://evenrealities1545.zendesk.com/hc/en-us/articles/9859311572367-Shipping-policy)
+- **Meta a extins Display în Germania, Franța și Italia din 13 octombrie**, dar România nu apare în piețele anunțate. Unele funcții noi rămân limitate regional. [Anunțul Meta](https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/)
+
+**Alegerea mea: Even G2 pentru discreție și lucru; Halliday G2 dacă sunetul integrat este esențial; Meta Ray-Ban Display dacă vrei ca AI-ul să folosească și camera.**
+
+Îi vei folosi mai ales pentru **ședințe și sugestii AI în română**, **traducere**, sau **navigație și asistență prin cameră**?
+
+## Asistent
+
+Voi verifica ce platforme oferă SDK sau API public și ce permit efectiv: aplicații pe afișaj, acces la senzori ori integrarea propriului asistent AI.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-4d40c078-8b4d-49fa-93bb-f74adaa34544",
+  "query": "site.hub.evenrealities.com SDK G2 developer ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.hub.evenrealities.com SDK G2 developer",
+      "site.developers.meta.com wearables display SDK developer",
+      "site.rokid.com glasses SDK developer",
+      "site.hallidayglobal.com SDK developer G2"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "developers.meta.com",
+      "ref_id": "turn6search0",
+      "title": "Build for AI glasses from Meta",
+      "url": "https://developers.meta.com/wearables/"
+    },
+    {
+      "type": "text_result",
+      "domain": "developers.meta.com",
+      "ref_id": "turn6search1",
+      "title": "Meta for Developers",
+      "url": "https://developers.meta.com/wearables/faq/"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn6search2",
+      "title": "Overview | Documentation",
+      "url": "https://hub.evenrealities.com/docs/reference/app-submission"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn6search3",
+      "title": "Home | Even Hub",
+      "url": "https://hub.evenrealities.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "developerdoc.rokid.com",
+      "ref_id": "turn6search4",
+      "title": "Rokid AR Platform",
+      "url": "https://developerdoc.rokid.com/sdk?lang=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "developers.meta.com",
+      "ref_id": "turn6search5",
+      "title": "Meta for Developers",
+      "url": "https://developers.meta.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "developers.meta.com",
+      "ref_id": "turn6search6",
+      "title": "Blog | Meta Horizon OS Developers",
+      "url": "https://developers.meta.com/blog/introducing-meta-wearables-device-access-toolkit/?trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+      "type": "text_result",
+      "domain": "pub.dev",
+      "ref_id": "turn6search7",
+      "title": "meta_wearables_dat_flutter - Dart API docs",
+      "url": "https://pub.dev/documentation/meta_wearables_dat_flutter/latest/index.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.skills.sh",
+      "ref_id": "turn6search8",
+      "title": "sdk-reference — even-realities/everything-evenhub",
+      "url": "https://www.skills.sh/even-realities/everything-evenhub/sdk-reference"
+    },
+    {
+      "type": "text_result",
+      "domain": "x-docs.rokid.com",
+      "ref_id": "turn6search9",
+      "title": "Rokid Sprite Enterprise",
+      "url": "https://x-docs.rokid.com/docs/en/"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn6search10",
+      "title": "even_hub_dev_simulator/SDK.en.md at main · oneticket99/even_hub_dev_simulator · GitHub",
+      "url": "https://github.com/oneticket99/even_hub_dev_simulator/blob/main/SDK.en.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn6news30",
+      "snippet": "Meta is rolling out access for developers (via the Developer Preview) for them to begin creating mobile and web apps. ... The Meta Wearables Device",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/B70oDqZLNY8DjjwGg07sD9q9a064jHuPacwsN9qORdnJ07Z3TeT4vaTodeiUoWaE2g5TrWj2jdZng4x7u7746FF4OOE9CRXG9r4sm7sDsX2he9OFHNnNZ_H5CzTtjMKT",
+      "title": "Meta's Ray-Ban Display build for the future, opens its doors to developers",
+      "url": "https://www.androidcentral.com/gaming/virtual-reality/metas-ray-ban-display-build-for-the-future-opens-its-doors-to-developers"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn6news31",
+      "snippet": "Rokid's developer documentation advises testing agents in its Interactive Inview simulator before performing a final check on the actual glasses.",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/1MKmH6ddBwTCz6F6MCKeSgQUTwl_wleAmHZ9uZz-mPf6OOEFYwSlFd945toEgIR7E6JjZOwu-bscSv_zhKOZ6hrJT4V6VUN5gCyV3Hy23UQDYFxq6X-5JKA4TIScw4QY",
+      "title": "Rokid wants anyone to build AI agents for its smart glasses",
+      "url": "https://www.androidcentral.com/gaming/virtual-reality/rokid-wants-anyone-to-build-ai-agents-for-its-smart-glasses"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-4157c916-e6ec-46f9-ae51-ea5c74014e34",
+  "query": "site.rayneo.com X3 Pro SDK Unity ARDK developer ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rayneo.com X3 Pro SDK Unity ARDK developer",
+      "site.hallidayglobal.com developer SDK",
+      "site.open-platform.memo-mind.com SDK"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.qualcomm.com",
+      "ref_id": "turn7search0",
+      "title": "Get Started with RayNeo X3 Pro AR Development",
+      "url": "https://www.qualcomm.com/developer/project/get-started-with-rayneo-x3-pro-ar-development"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn7search1",
+      "title": "GitHub - vincentwi/ar-glasses-master-sdk: Unified cross-device SDK for AR smart glasses (RayNeo, XREAL, Meta, Rokid, Brilliant Frame, Viture, Vuzix). One API, all devices. · GitHub",
+      "url": "https://github.com/vincentwi/ar-glasses-master-sdk"
+    },
+    {
+      "type": "text_result",
+      "domain": "extentos.com",
+      "ref_id": "turn7search2",
+      "title": "RayNeo (TCL) for developers: SDK, app model & distribution (2026) · Extentos",
+      "url": "https://extentos.com/docs/ecosystem/platforms/rayneo"
+    },
+    {
+      "type": "text_result",
+      "domain": "open-platform.memo-mind.com",
+      "ref_id": "turn7search3",
+      "title": "API Reference | MemoMind Documentation",
+      "url": "https://open-platform.memo-mind.com/docs/reference/index/?lang=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "open-platform.memo-mind.com",
+      "ref_id": "turn7search4",
+      "title": "MemoMind Developer Platform",
+      "url": "https://open-platform.memo-mind.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn7search5",
+      "title": "ar-glasses-master-sdk/docs/deep-reads/07-rayneo-frame.md at main · vincentwi/ar-glasses-master-sdk · GitHub",
+      "url": "https://github.com/vincentwi/ar-glasses-master-sdk/blob/main/docs/deep-reads/07-rayneo-frame.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "open.rayneo.com",
+      "ref_id": "turn7search6",
+      "title": "RayNeo Open Platform",
+      "url": "https://open.rayneo.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit12",
+      "title": "RayNeo X3 Pro SDK v0.2: put ordinary Android Views in the room (Kotlin, no Unity, open source)",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1xflpp4/rayneo_x3_pro_sdk_v02_put_ordinary_android_views/"
+    },
+    {
+      "type": "text_result",
+      "domain": "open-platform.memo-mind.com",
+      "ref_id": "turn7search7",
+      "title": "Developer Platform Terms · MemoMind",
+      "url": "https://open-platform.memo-mind.com/terms/?lang=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn7news30",
+      "snippet": "The X3 Pro runs RayNeo's AIOS, an Android-based operating system, and is integrated with Google Gemini 2.5 (Beta) for multimodal AI assistance. ... What's a",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Ak2tZ3wx0dyDFZvIRm56iMHWKQAa9h4kcZTFvStkmls3pxKZudt-U0h2LkNKga8K-TEfPeaotcwUXr7O8zOMduUTEhkJlTGiEFdn55_wHOQgcx00EvLO7im4vABiRmqA",
+      "title": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use",
+      "url": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn7view0",
+      "snippet": "Total lines: 135",
+      "title": "Overview | Documentation",
+      "url": "https://hub.evenrealities.com/docs/"
+    },
+    {
+      "type": "text_result",
+      "domain": "developerdoc.rokid.com",
+      "ref_id": "turn7view1",
+      "snippet": "Total lines: 0",
+      "title": "Rokid AR Platform",
+      "url": "https://developerdoc.rokid.com/sdk?lang=en"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Da — Even G2, Rokid Glasses, Meta Ray-Ban Display și RayNeo X3 Pro au instrumente oficiale pentru dezvoltare.** Dar diferă mult unde rulează aplicația și cât acces ai la hardware.
+
+Situația verificată pentru **octombrie 2026**:
+
+| Ochelari | SDK / platformă | Ce poți dezvolta | Limita importantă |
+|---|---|---|---|
+| **Even G2** | **Even Hub SDK**, JavaScript / TypeScript | Aplicații cu text și interacțiuni pe afișaj, acces la microfon, comenzi de pe ochelari și inelul R1 | Codul rulează pe telefon, în aplicația Even; ochelarii afișează informația și colectează input. Fără cameră sau difuzoare. [Documentație](https://hub.evenrealities.com/docs/) |
+| **Rokid Glasses** | **CXR-L SDK** pentru Android/iOS; dezvoltare Android direct pe ochelari | Cameră, audio, afișaj, butoane; aplicații proprii și acces la IMU pentru dezvoltarea pe dispozitiv | CXR-L folosește aplicația Rokid AI; SDK-ul comercial CXR-M se obține separat prin contactarea companiei. [SDK-uri oficiale](https://developerdoc.rokid.com/sdk?lang=en) |
+| **Meta Ray-Ban Display** | **Wearables Device Access Toolkit** și platformă **Web Apps** | Integrarea aplicațiilor Android/iOS; aplicații HTML/CSS/JS pentru afișaj; cameră, audio și interacțiuni, în funcție de API și dispozitiv | Accesul complet depinde de țările acceptate; publicarea în catalog are condiții separate. [Documentație și FAQ](https://developers.meta.com/wearables/faq/) |
+| **RayNeo X3 Pro** | **Android ARDK + OpenXR Unity ARDK** | Aplicații Android pe ochelari, interfețe și scene AR, urmărirea mișcării, SLAM și detectarea suprafețelor; acces nativ la cameră/audio | Configurare mai tehnică: Android, ADB, eventual Unity/C#. [Ghid oficial Qualcomm](https://www.qualcomm.com/developer/project/get-started-with-rayneo-x3-pro-ar-development) |
+| **Halliday G2** | **Nu am confirmat un SDK public oficial** | — | Nu l-aș cumpăra pentru dezvoltare proprie fără confirmare scrisă de la producător. |
+
+Mai există **MemoMind One**, cu platformă oficială pentru dezvoltatori: **Glass SDK cu API-uri C, Phone Web SDK și simulator Desktop Studio**. Este o opțiune suplimentară de investigat, dar disponibilitatea hardware trebuie verificată separat. [Documentație MemoMind](https://open-platform.memo-mind.com/docs/reference/index/?lang=en)
+
+**Pentru ce ai descris tu, aș alege astfel:**
+
+- **Even G2** pentru un asistent propriu care ascultă, trimite informații către backend-ul tău și afișează răspunsuri discrete. SDK-ul are pachet npm, simulator și posibilitatea de testare prin QR/sideload. Este alegerea mea pentru un prim proiect axat pe text. [Even Hub](https://hub.evenrealities.com/docs/reference/app-submission)
+- **Rokid Glasses** dacă aplicația trebuie să **vadă prin cameră**, să proceseze audio și să afișeze rezultate, cu posibilitatea de a rula cod direct pe ochelari.
+- **RayNeo X3 Pro** dacă obiectivul este **AR spațial, obiecte 3D și Unity**, nu doar răspunsuri sau notificări.
+
+**Aș păstra Even G2 pe primul loc pentru un „copilot” personal discret; pentru cameră și acces mai larg la hardware, aș trece la Rokid.** Existența SDK-ului permite construirea propriei aplicații AI, dar nu implică automat acces la toate funcțiile asistentului AI integrat de producător.
+
+## Asistent
+
+Voi compara Even G2 cu Rokid Glasses cu afișaj, inclusiv hardware, autonomie, funcții AI și accesul prin SDK. Voi marca separat specificațiile confirmate și informațiile pe care producătorii nu le precizează.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-722d2b1b-322b-43f3-8a34-167bd47f1677",
+  "query": "site.rokid.com glasses specifications 49 480 398 battery 210 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com glasses specifications 49 480 398 battery 210",
+      "site.support.evenrealities.com G2 battery microphone offline subscription"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "rokidstore.com.au",
+      "ref_id": "turn8search0",
+      "title": "Rokid Glasses Specifications – Rokid AU Store",
+      "url": "https://rokidstore.com.au/pages/rokid-glasses-specifications"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn8search1",
+      "title": "Rokid Visual Glasses User Manual",
+      "url": "https://manuals.plus/ae/1005010158857888"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn8search2",
+      "title": "G2 Glasses Frequently Disconnect from the Even Realities App – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/17123822627727-G2-Glasses-Frequently-Disconnect-from-the-Even-Realities-App"
+    },
+    {
+      "type": "text_result",
+      "domain": "rokid.vn",
+      "ref_id": "turn8search3",
+      "title": "Rokid Glasses — World's Lightest AR+AI Glasses 49g | DroidShop",
+      "url": "https://rokid.vn/en/rokid-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae01.alicdn.com",
+      "ref_id": "turn8search12",
+      "title": "Rokid Glasses 智能眼镜使用说明书",
+      "url": "https://ae01.alicdn.com/kf/Sca60ced8be924acba5fb4d81b0dd01c6C.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "glassesresearch.org",
+      "ref_id": "turn8search4",
+      "title": "Rokid Glasses — GLS-0064 - GlassesResearch",
+      "url": "https://glassesresearch.org/models/RokidGlasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartglassesdecoded.com",
+      "ref_id": "turn8search5",
+      "title": "Rokid Glasses in 2026: Price, Specs, What You Get",
+      "url": "https://smartglassesdecoded.com/learn/rokid-glasses-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "azuaiai.com",
+      "ref_id": "turn8search6",
+      "title": "Rokid Glasses | 49g Ultra-Light AI & AR Smart Glasses",
+      "url": "https://azuaiai.com/works/rokid/"
+    },
+    {
+      "type": "text_result",
+      "domain": "180by2.co.za",
+      "ref_id": "turn8search7",
+      "title": "Rokid Glasses Display Smart Glasses | 180by2 South Africa",
+      "url": "https://180by2.co.za/products/rokid-glasses?_pos=1&_psq=rokid&_ss=e&_v=1.0"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartwearguide.com",
+      "ref_id": "turn8search8",
+      "title": "Rokid Glasses - SmartWearGuide",
+      "url": "https://smartwearguide.com/devices/rokid-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn8search9",
+      "title": "49g Ultra-Light AR glasses with AI - Rokid – Rokid UK",
+      "url": "https://gb.rokid.com/products/rokid-glasses?variant=54342552224057"
+    },
+    {
+      "type": "text_result",
+      "domain": "xr.watch",
+      "ref_id": "turn8search10",
+      "title": "Rokid Glasses | xr.watch",
+      "url": "https://xr.watch/product/rokid-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.prnewswire.com",
+      "ref_id": "turn8search11",
+      "title": "Rokid Glasses Aim to Prove Smart Wearables can be Fashion Forward at IFA 2025",
+      "url": "https://www.prnewswire.com/news-releases/rokid-glasses-aim-to-prove-smart-wearables-can-be-fashion-forward-at-ifa-2025-302547511.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae-pic-a1.aliexpress-media.com",
+      "ref_id": "turn8search13",
+      "title": "PRODUCT MANUAL",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa99b6b5739284af18e12ad96ea83e06aX.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evenrealities.com",
+      "ref_id": "turn8view0",
+      "snippet": "Total lines: 640",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/9NIkyn8tg6CfHTmMziuixM5_yPhFys96ul_RVX-VP3e2sKRi9-dtdhw9Nc2flzxOSTbxWqiamWmXDWOFc4Jzqzs8eWcGQyA9X7vjx5SlV4tifGGUBGt_GwLjUngMvN450WA1Jze1VCb0ZakMvrlj6iRjxhdVzjdUU7jN8Y4Q0ek",
+      "title": "Smart Glasses with Display & Ambient AI Prompts | Even G2",
+      "url": "https://www.evenrealities.com/smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "developerdoc.rokid.com",
+      "ref_id": "turn8view1",
+      "snippet": "Total lines: 0",
+      "title": "Rokid AR Platform",
+      "url": "https://developerdoc.rokid.com/sdk?lang=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn8view2",
+      "snippet": "Total lines: 918",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/8pxdgLAGHsZMNtZfployqg0eDFmjfjga6lQA7xkwuykzgK0t_vkxCBFFbyjP42hbLbD2Aw3YU3rRd_ThLXFkwleJ74QSYenh-W09lvYEJG_vKuwzs1B9ODis_mzcP1zw",
+      "title": "Rokid AI Glasses & AR Glasses | Official Store",
+      "url": "https://global.rokid.com/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1627a004-dab2-44d3-b3c1-db2fe3173ae5",
+  "query": "site.support.evenrealities.com G2 \"offline\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.support.evenrealities.com G2 \"offline\"",
+      "site.hub.evenrealities.com \"container\" \"audio\" SDK",
+      "site.global.rokid.com \"89\" \"Romanian\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn9search0",
+      "title": "G2 General Q&A – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/14601104557839-G2-General-Q-A"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit12",
+      "title": "Even g2 offline usage",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1uhbtd5/even_g2_offline_usage/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit13",
+      "title": "! Offline Features !",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1pbuue7/offline_features/"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn9search1",
+      "title": "Conversate – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/14273795154319-Conversate"
+    },
+    {
+      "type": "text_result",
+      "domain": "devpost.com",
+      "ref_id": "turn9search2",
+      "title": "Always on Track | Devpost",
+      "url": "https://devpost.com/software/always-on-track"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.npmjs.com",
+      "ref_id": "turn9search3",
+      "title": "@evenrealities/even_hub_sdk - npm",
+      "url": "https://www.npmjs.com/package/%40evenrealities/even_hub_sdk"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn9search4",
+      "title": "Video Series | Documentation",
+      "url": "https://hub.evenrealities.com/docs/learn/videos"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit14",
+      "title": "Internet dependent",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1pbh4fw/internet_dependent/"
+    },
+    {
+      "type": "text_result",
+      "domain": "githubhelp.com",
+      "ref_id": "turn9search5",
+      "title": "ithinkthisiscool/open-g2-hub - GitHubHelp",
+      "url": "https://githubhelp.com/ithinkthisiscool/open-g2-hub"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn9search6",
+      "title": "even-adventure-hud/doc/even_hub_sdk_readme.md at main · myclark/even-adventure-hud · GitHub",
+      "url": "https://github.com/myclark/even-adventure-hud/blob/main/doc/even_hub_sdk_readme.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "aiagentsfortravel.com",
+      "ref_id": "turn9search7",
+      "title": "Even Realities G2: What It Does, Cost and Alternatives",
+      "url": "https://aiagentsfortravel.com/tools/even-realities-g2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrarwiki.com",
+      "ref_id": "turn9search8",
+      "title": "Even Realities G2 - VR & AR Wiki - Virtual Reality & Augmented Reality Wiki",
+      "url": "https://vrarwiki.com/wiki/Even_Realities_G2"
+    },
+    {
+      "type": "text_result",
+      "domain": "framesandfeatures.com",
+      "ref_id": "turn9search9",
+      "title": "Even G2: camera-free display glasses for text and prompts",
+      "url": "https://framesandfeatures.com/devices/even-realities-g2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn9search10",
+      "title": "GitHub - AM-Guru/evenRealities-webflasher: Self-contained browser flasher and recovery console for Even Realities G2 and R1 devices. · GitHub",
+      "url": "https://github.com/AM-Guru/evenRealities-webflasher"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.npmjs.com",
+      "ref_id": "turn9search11",
+      "title": "@evenrealities/evenhub-simulator - npm",
+      "url": "https://www.npmjs.com/package/%40evenrealities/evenhub-simulator"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn9view0",
+      "snippet": "Total lines: 1030",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/-QRpWkzMV8wZUdEZv2Q9q4J2CjnoDbTRZynuQRf2z0oQcre893tlhj21EpqarDVaifq6q6Jeu1GNSUa_Cc8YweZ-ezlVwcGg1z-lof1Q2IIohjgTDKR6Yh1nPDGrNrJT",
+      "title": "Rokid smart glasses with display for hands-free info – Rokid UK",
+      "url": "https://gb.rokid.com/products/rokid-glasses?variant=54342552224057"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn9view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn9view2",
+      "snippet": "Total lines: 135",
+      "title": "Overview | Documentation",
+      "url": "https://hub.evenrealities.com/docs/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-dbaa8740-ae03-463e-aa0c-be8fce722bdf",
+  "query": "'Battery'",
+  "action": {
+    "type": "findInPage",
+    "url": null,
+    "pattern": "Battery"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn10view0",
+      "snippet": "Total lines: 418",
+      "title": "Device APIs | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/device-apis"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn10view1",
+      "snippet": "Total lines: 276",
+      "title": "Display & UI System | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/display"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn10view2",
+      "snippet": "Total lines: 137",
+      "title": "Architecture | Documentation",
+      "url": "https://hub.evenrealities.com/docs/get-started/architecture"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn10view3",
+      "snippet": "Total lines: 124",
+      "title": "Background & Lifecycle | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/background-lifecycle"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn10view4",
+      "snippet": "Total lines: 1030",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/NwsR8P_PhuJ11oIlOBgBu7Sq-j4DSCmKtuLS5KcbCe2dnHLrX-Xfoa3KA8NJWnYvX-KJgxx7HctCOOHFNpCmoYdqSsOWb4zKlzLbVn42HUIgm8v21O_RdsVhI1hlMGx2",
+      "title": "Rokid smart glasses with display for hands-free info – Rokid UK",
+      "url": "https://gb.rokid.com/products/rokid-glasses?variant=54342552224057"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn10view5",
+      "snippet": "Total lines: 1030",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/WWrhDMTNnr4vpyquQ33RYSFa3kWCqNGk9UnqLysr_MzCDWYKFJ5BrpZEE-KeaAflcOQuF2VbnYG8H_THMn8ATs2J8_XlonWe9LfnjefP2-5DJdkoN4ZKao0LYUmf5EqA",
+      "title": "Rokid smart glasses with display for hands-free info – Rokid UK",
+      "url": "https://gb.rokid.com/products/rokid-glasses?variant=54342552224057"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn10view6",
+      "snippet": "Total lines: 1030",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/KUhrK51VAwbHMYvQBqe_H2aSXXLc1UuLW5IYkp-LhkW3NVssxN7G16VcfAKVTUUFFmpj7__cfI_PNy_L78GB9jFg6aokNoAfpZ_HaFVLUtvF1eqMZpHOSodIHbESxbZE",
+      "title": "Rokid smart glasses with display for hands-free info – Rokid UK",
+      "url": "https://gb.rokid.com/products/rokid-glasses?variant=54342552224057"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Am găsit o neconcordanță importantă la Rokid: pagina actuală indică 480 × 400 și câmp vizual de 30°, iar comunicatul de lansare indica 480 × 398 și 23°. Voi păstra ambele valori marcate. Pentru dezvoltare, diferența principală este clară: Even rulează aplicațiile pe telefon, în timp ce Rokid permite și aplicații Android direct pe ochelari.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6aa0f90a-a532-48de-9044-a80ce451f4f8",
+  "query": "site.developerdoc.rokid.com \"CXR-L\" \"display\" camera audio ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.developerdoc.rokid.com \"CXR-L\" \"display\" camera audio",
+      "site.support.evenrealities.com \"Compatibility\" \"iOS\"",
+      "site.evenrealities.com \"192\" \"G2\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn11search0",
+      "title": "Compatibility – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/13744432133903-Compatibility"
+    },
+    {
+      "type": "text_result",
+      "domain": "developerdoc.rokid.com",
+      "ref_id": "turn11search1",
+      "title": "Rokid AR Platform",
+      "url": "https://developerdoc.rokid.com/sdk?lang=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn11search2",
+      "title": "‎Even Realities App - App Store",
+      "url": "https://apps.apple.com/us/app/even-realities/id6747017725?platform=ipad"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn11search3",
+      "title": "xg-glass-sdk/devices/device-rokid/README.md at main · hkust-spark/xg-glass-sdk · GitHub",
+      "url": "https://github.com/hkust-spark/xg-glass-sdk/blob/main/devices/device-rokid/README.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "glassesresearch.org",
+      "ref_id": "turn11search4",
+      "title": "Even Realities G2 (GLS-0048) - GlassesResearch",
+      "url": "https://glassesresearch.org/models/catalog/gls-0048/"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn11search5",
+      "title": "rokid-ai-glasses/docs/developer/companion-app/requirements.md at main · aimindseye/rokid-ai-glasses · GitHub",
+      "url": "https://github.com/aimindseye/rokid-ai-glasses/blob/main/docs/developer/companion-app/requirements.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "gadgets.teknium.io",
+      "ref_id": "turn11search6",
+      "title": "The Hermes Workshop · a showcase of hardware for an agent with hands",
+      "url": "https://gadgets.teknium.io/"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn11search7",
+      "title": "Akku und Laden – Even Support Center DE",
+      "url": "https://support.evenrealities.com/hc/de-de/articles/13499279151375-Akku-und-Laden"
+    },
+    {
+      "type": "text_result",
+      "domain": "appshunter.io",
+      "ref_id": "turn11search8",
+      "title": "Even Realities app for iPhone — Download",
+      "url": "https://appshunter.io/ios/app/even-realities/id6747017725"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.aivitamin.tech",
+      "ref_id": "turn11search9",
+      "title": "Smart Glasses with Display & Ambient AI Prompts | Even G2 ｜ AI Vitamin",
+      "url": "https://www.aivitamin.tech/products/even-g2"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn11search10",
+      "title": "Rokid-Nexus/TESTPLAN.md at main · Anezium/Rokid-Nexus · GitHub",
+      "url": "https://github.com/Anezium/Rokid-Nexus/blob/main/TESTPLAN.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "oculos.io",
+      "ref_id": "turn11search11",
+      "title": "Even Realities Even G2 · oculos.io",
+      "url": "https://oculos.io/pt/glasses/even-realities-g2"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn11view0",
+      "snippet": "Total lines: 418",
+      "title": "Device APIs | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/device-apis"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn11view1",
+      "snippet": "Total lines: 276",
+      "title": "Display & UI System | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/display"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn11view2",
+      "snippet": "Total lines: 124",
+      "title": "Background & Lifecycle | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/background-lifecycle"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn11view3",
+      "snippet": "Total lines: 137",
+      "title": "Architecture | Documentation",
+      "url": "https://hub.evenrealities.com/docs/get-started/architecture"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c95303a5-704c-4828-bb13-fdbb828625ca",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn12view0",
+      "snippet": "Total lines: 418",
+      "title": "Device APIs | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/device-apis"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn12view1",
+      "snippet": "Total lines: 276",
+      "title": "Display & UI System | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/display"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn12view2",
+      "snippet": "Total lines: 124",
+      "title": "Background & Lifecycle | Documentation",
+      "url": "https://hub.evenrealities.com/docs/build/background-lifecycle"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn12view3",
+      "snippet": "Total lines: 137",
+      "title": "Architecture | Documentation",
+      "url": "https://hub.evenrealities.com/docs/get-started/architecture"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn12view4",
+      "snippet": "Total lines: 92",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/XUkwz-dfc6UzLb2txxCXz8I7NoqKQCiuRNqaeRg3mitVgORKuLMk919j5GuCdu4S7hDMiZzKbzfA3omhntfiMqQpEnoWzVQ4BVAG8QQb2qQpOpDWlekpUggAhE8lePAQ",
+      "title": "Language Support – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/13755354799247-Language-Support"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Even G2 este mai potrivit pentru un asistent discret, bazat pe conversații și text. Rokid Glasses oferă mai multe posibilități hardware și de dezvoltare: cameră, difuzoare, stocare și aplicații Android direct pe ochelari.**
+
+Compar **Even Realities G2** cu **Rokid Glasses „With Display”**, nu cu Rokid Style sau Max. Informațiile sunt verificate pentru **26 octombrie 2026**. „Neconfirmat” înseamnă că documentația consultată nu permite o concluzie sigură.
+
+**Hardware și construcție**
+
+| Caracteristică | Even G2 | Rokid Glasses cu afișaj |
+|---|---|---|
+| Greutate declarată | **36 g** | **49 g** |
+| Diferență de greutate | Cu 13 g mai ușori | Aproximativ 36% mai grei |
+| Materiale principale | Magneziu și titan | Ramă TR90; balamale din aliaj de titan, conform paginii UK |
+| Variante de formă | G2 A și G2 B | Configurația depinde de piață |
+| Procesor | Modelul nu este precizat clar în fișa oficială consultată | **Qualcomm Snapdragon AR1**; documentația regională indică și NXP RT600 |
+| RAM | Neprecizată public în sursele consultate | **2 GB** |
+| Stocare | Neprecizată public în sursele consultate | **32 GB** |
+| Cameră pe ochelari | **Nu** | **Da, 12 MP** |
+| Microfoane | **4** | **4** |
+| Difuzoare | **Nu** | **Două, direcționale, open-ear** |
+| Senzori de mișcare | IMU, accesibilă prin SDK | IMU, accesibilă în dezvoltarea pe dispozitiv |
+| Protecție | **IP65** | **IPX4** |
+| Interpretarea protecției | Protecție declarată la praf și jeturi de apă | Protecție declarată la stropire; „X” nu certifică rezistența la praf |
+| Lentile cu dioptrii | Personalizate; producătorul promovează −12…+12 D, în funcție de configurație | Inserție optică magnetică; compatibilitatea se verifică prin serviciul de lentile |
+| Lentile progresive | Prin parteneri autorizați, nu prin comanda online standard | Nu am confirmat suportul |
+
+Surse: [Even — fișa produsului](https://www.evenrealities.com/smart-glasses), [Rokid — specificații actuale](https://gb.rokid.com/products/rokid-glasses-with-display), [Rokid — specificații regionale](https://rokidstore.com.au/pages/rokid-glasses-specifications).
+
+**Afișaj și optică**
+
+| Caracteristică | Even G2 | Rokid Glasses |
+|---|---|---|
+| Tehnologie | MicroLED + waveguide | MicroLED + waveguide |
+| Afișare | În ambii ochi | În ambii ochi |
+| Culori | Verde monocrom | Verde monocrom |
+| Rezoluție declarată în fișa actuală | **640 × 350** | **480 × 400**, cu neconcordanțele explicate mai jos |
+| Suprafață utilizabilă în SDK | **576 × 288 per ochi** | Nu am confirmat o valoare unică pentru toate căile SDK |
+| Câmp vizual declarat | **27,5°** | **30°** în fișa actuală |
+| Luminozitate declarată | **1.200 niți** | **1.500 niți** |
+| Rată de reîmprospătare | **60 Hz** | Neconfirmată în documentația oficială consultată |
+| Reglare automată a luminozității | Da | Nu am confirmat detaliile |
+| Transmisia luminii prin lentilă | **98%**, conform producătorului | Neconfirmată |
+| Text și pictograme | Da | Da |
+| Fotografii color afișate în lentile | Nu | Nu; camera color nu transformă afișajul în unul color |
+| Utilizare principală | Text, liste, notificări, indicații | Text, notificări și rezultate ale funcțiilor audio/video |
+| Înlocuitor pentru monitor de lucru | Nu l-aș alege pentru această utilizare | Nu l-aș alege pentru această utilizare |
+
+Surse: [Even — optică](https://www.evenrealities.com/smart-glasses), [Even — suprafața SDK](https://hub.evenrealities.com/docs/build/display), [Rokid — afișaj](https://gb.rokid.com/products/rokid-glasses-with-display).
+
+**Atenție la specificațiile Rokid:** comunicatul oficial de lansare menționează **480 × 398 și 23°**, iar pagina actuală indică **480 × 400 și 30°**. Nu am găsit o explicație oficială care să confirme dacă diferența provine din revizia hardware, piață sau documentație. Pentru achiziție, aș cere specificația exactă a unității livrate. [Comunicatul Rokid din 2025](https://www.prnewswire.com/news-releases/rokid-glasses-aim-to-prove-smart-wearables-can-be-fashion-forward-at-ifa-2025-302547511.html)
+
+La Even, **640 × 350 hardware și 576 × 288 în SDK sunt valori diferite documentate**. Pentru proiectarea propriei aplicații contează dimensiunea disponibilă prin SDK.
+
+**Cameră, sunet și interacțiune**
+
+| Capacitate | Even G2 | Rokid Glasses |
+|---|---|---|
+| Fotografiere din perspectiva purtătorului | Nu | Da |
+| Senzor cameră | — | **Sony IMX681, 12 MP** |
+| Rezoluție foto | — | **3024 × 4032** |
+| Diafragmă | — | **f/2,25** |
+| Unghi diagonal cameră | — | **109°**, conform fișei regionale |
+| Autofocus | — | Nu; focalizare fixă |
+| Distanță de claritate declarată | — | Aproximativ **34 cm–infinit** |
+| Înregistrare video | Nu | Până la **3K/30 fps**, în formatele acceptate |
+| Indicator de captură | Nu se aplică | Da |
+| AI care analizează obiectul privit | Nu prin ochelari; se poate folosi separat camera telefonului | Da, folosind camera |
+| Citirea unui document prin cameră | Necesită telefon sau altă cameră | Posibilă prin captură și OCR/AI; calitatea depinde de distanță, lumină și procesare |
+| Răspuns AI auzit direct | Nu | Da |
+| Muzică și apeluri audio | Nu prin ochelari | Da |
+| Comenzi tactile | Touchpad pe brațe | Touchpad și butoane |
+| Control vocal al funcțiilor integrate | Da | Da |
+| Control prin inel | **Even R1**, opțional | Nu am confirmat un echivalent oficial |
+| Urmărirea ochilor | Nu am confirmat | Nu am confirmat |
+
+Surse: [Rokid — cameră și audio](https://rokidstore.com.au/pages/rokid-glasses-specifications), [Rokid — formate video](https://gb.rokid.com/products/rokid-glasses-with-display), [Even — intrări și senzori](https://hub.evenrealities.com/docs/build/device-apis).
+
+**Autonomie și conectivitate**
+
+| Caracteristică | Even G2 | Rokid Glasses |
+|---|---|---|
+| Baterie în ochelari | **192 mAh / 0,744 Wh** | **210 mAh** |
+| Autonomie declarată | Până la **două zile de utilizare tipică, intermitentă** | Aproximativ **8–10 ore de utilizare zilnică** |
+| Autonomie la transcriere continuă | Nu am confirmat o măsurătoare comparabilă | Nu am confirmat o măsurătoare comparabilă |
+| Încărcare | Contacte în cutie | Conector magnetic |
+| Timp declarat de încărcare | Aproximativ **1–1,5 ore**, complet | Aproximativ **80% în 20 minute** |
+| Cutie de încărcare | **2.000 mAh**, circa șapte reîncărcări | Până la zece reîncărcări; verifică includerea în pachet |
+| Bluetooth | **BLE 5.4** în fișa comercială; unele pagini SDK indică 5.2 | **Bluetooth 5.3** |
+| Wi-Fi pe ochelari | Nu este declarat în fișa consultată | **Wi-Fi 6** |
+| Aplicație mobilă | Even Realities | Rokid AI / Hi Rokid, în funcție de versiune |
+| Compatibilitate telefon | **iOS 16+ / Android 11+** | Android și iOS; versiunea minimă trebuie verificată pentru aplicația regională |
+| Aplicații proprii fără telefon | Nu prin arhitectura oficială Even Hub | Posibile prin dezvoltarea Android pe ochelari |
+| Funcții AI fără internet | Even nu garantează funcționare offline în FAQ-ul actual | Nu trebuie presupus că asistentul AI complet funcționează offline |
+
+Surse: [Even — baterie](https://support.evenrealities.com/hc/de-de/articles/13499279151375-Akku-und-Laden), [Even — compatibilitate](https://support.evenrealities.com/hc/en-us/articles/13744432133903-Compatibility), [Even — utilizare offline](https://support.evenrealities.com/hc/en-us/articles/14601104557839-G2-General-Q-A), [Rokid — autonomie și conectivitate](https://gb.rokid.com/products/rokid-glasses-with-display).
+
+**Cele două autonomii nu sunt direct comparabile.** „Două zile” la Even înseamnă utilizare intermitentă, nu 48 de ore de microfon și afișaj active. Camera, transmisia și redarea audio pot modifica substanțial consumul Rokid.
+
+**Funcții AI și utilizare în română**
+
+| Funcție | Even G2 | Rokid Glasses |
+|---|---|---|
+| Întrebări către asistent | Da, Even AI | Da, asistent Rokid |
+| Transcriere conversații | Da | Da |
+| Rezumate de ședință | Da, prin Conversate | Da, promovate în funcțiile de transcriere |
+| Sugestii în timpul conversației | **AI Cues**: explicații, răspunsuri sugerate, acțiuni | Asistență conversațională; nu am confirmat echivalența exactă cu AI Cues |
+| Pregătirea contextului înainte de ședință | **Prep Notes** | Nu am confirmat o funcție identică |
+| Teleprompter | Da | Da |
+| Traducere afișată | Da | Da |
+| Navigație | Da | Da |
+| Notificări | Vizuale | Vizuale și sonore |
+| Înțelegerea imaginilor din fața ta | Necesită camera telefonului într-o aplicație proprie | Disponibilă prin camera ochelarilor |
+| Română — afișare | **Confirmată explicit** | Necesită verificare pentru funcția și firmware-ul dorit |
+| Română — transcriere Conversate | **Confirmată explicit** | Nu am confirmat granular din documentația consultată |
+| Română — traducere intrare/ieșire | **Confirmată explicit** | Numărul total de limbi promovat nu confirmă singur fiecare mod |
+| Traducere bidirecțională cu româna | Da, dacă și cealaltă limbă acceptă acest mod | De verificat |
+| Model AI propriu prin aplicația ta | Posibil prin backend-ul tău | Posibil prin aplicația și backend-ul tău |
+
+Surse: [Even — Conversate](https://support.evenrealities.com/hc/en-us/articles/14273795154319-Conversate), [Even — suport lingvistic](https://support.evenrealities.com/hc/en-us/articles/13755354799247-Language-Support), [Rokid — funcții integrate](https://gb.rokid.com/products/rokid-glasses-with-display).
+
+**SDK și dezvoltare — diferențele care contează cel mai mult**
+
+| Capacitate | Even G2 | Rokid Glasses |
+|---|---|---|
+| SDK public | **Even Hub SDK** | **CXR-L SDK**, plus dezvoltare pe dispozitiv |
+| Tehnologii principale | JavaScript / TypeScript; aplicație web găzduită în WebView | Android/iOS pentru integrarea mobilă; Android pentru aplicații pe ochelari |
+| Unde rulează logica ta | **Pe telefon** | Pe telefon sau **direct pe ochelari** |
+| Sistem pentru aplicații pe ochelari | Nu este oferit un mediu pentru aplicații Android native | **YodaOS-Sprite, AOSP Android Go, API 31** |
+| Aplicație oficială necesară | Da, pentru ruta Even Hub | Da pentru CXR-L; nu pentru execuția independentă pe dispozitiv |
+| Controlul afișajului | Containere de text, liste, imagini și meniuri | Capabilități de afișare prin SDK; controlul depinde de ruta aleasă |
+| HTML/CSS randat direct în lentile | **Nu**. Aplicația web trimite comenzi către containerele ochelarilor | Nu presupune suport de browser complet; depinde de aplicația implementată |
+| Limite UI documentate | Canvas **576 × 288**, 16 niveluri de verde; până la 12 containere, în limitele fiecărui tip | Nu am confirmat o limită generală echivalentă |
+| Acces la microfon | Da; flux PCM de **16 kHz**, conform documentației | Da; detaliile fluxului depind de SDK |
+| Selectarea microfonului telefon/ochelari | Da | Depinde de implementare |
+| Acces la camera ochelarilor | Nu există cameră | Da |
+| Acces la camera telefonului | Da, prin API și permisiuni | Poate fi implementat în aplicația mobilă |
+| Acces IMU | Da | Da, documentat pentru dezvoltarea pe dispozitiv |
+| Evenimente tactile | Da, inclusiv sursa ochelari/inel | Da, în funcție de SDK |
+| Localizare | API pentru localizarea telefonului | Se poate integra; GPS dedicat pe ochelari nu este confirmat |
+| Backend propriu | Da; domenii permise în manifest și configurare CORS | Da, prin aplicația proprie și conectivitatea disponibilă |
+| Instalare/testare | Simulator, QR sideload, build privat | SDK mobil și aplicații Android pe dispozitiv |
+| SDK comercial separat | Nu este necesar pentru pluginurile Even Hub obișnuite | **CXR-M**, prin contact comercial |
+| Constrângere CXR-M | — | Nu poate rula alături de Rokid AI App pe același dispozitiv, potrivit documentației |
+| Risc la rulare în fundal | WebView poate fi suspendat pe Android; trebuie restaurate starea și conexiunile | Depinde de ruta și ciclul de viață Android |
+| Motor 3D / SLAM public confirmat pentru acest model | Nu | Nu am confirmat; nu trebuie confundat cu alte produse AR Rokid |
+| LLM mare executat local | Nu pe ochelari prin Even Hub | Cei 2 GB RAM nu justifică presupunerea că poate rula local un asistent mare, de nivel cloud |
+
+Surse: [Even — arhitectură](https://hub.evenrealities.com/docs/get-started/architecture), [Even — UI](https://hub.evenrealities.com/docs/build/display), [Even — API hardware](https://hub.evenrealities.com/docs/build/device-apis), [Even — SDK public](https://www.npmjs.com/package/@evenrealities/even_hub_sdk), [Even — fundal și suspendare](https://hub.evenrealities.com/docs/build/background-lifecycle), [Rokid — cele trei rute de dezvoltare](https://developerdoc.rokid.com/sdk?lang=en).
+
+**Ce aș alege pentru proiecte concrete**
+
+Acestea sunt recomandările mele tehnice, deduse din capabilitățile de mai sus:
+
+| Proiect | Alegerea mea | Motiv |
+|---|---|---|
+| Copilot pentru ședințe, cu răspunsuri discrete în română | **Even G2** | Greutate mică, suport lingvistic explicit și afișaj axat pe text |
+| Teleprompter și notițe personale | **Even G2** | Interfață simplă și control opțional prin inel |
+| Dashboard conectat la CRM sau baza ta de date | **Even G2** | Dezvoltare rapidă în TypeScript, dacă accepți dependența de telefon |
+| AI care vede un obiect și îl explică | **Rokid** | Cameră accesibilă aplicației |
+| OCR pentru etichete, documente și echipamente | **Rokid** | Captură vizuală directă; OCR-ul trebuie implementat sau integrat |
+| Asistent care vorbește și afișează răspunsul | **Rokid** | Microfoane, cameră și difuzoare |
+| Aplicație care trebuie să ruleze fără telefon | **Rokid** | Execuție Android locală |
+| Aplicație complet offline | **Rokid, de evaluat prin prototip** | Execuția locală ajută, dar recunoașterea vocală, OCR-ul și AI-ul offline trebuie validate separat |
+| Scanare 3D metrică / măsurători precise | **Niciunul fără o validare suplimentară** | Nu am confirmat senzor de adâncime, calibrare metrică și SDK de reconstrucție adecvat |
+
+**Pentru dezvoltare proprie, aș cumpăra Even G2 dacă produsul tău este în principal „ascultă și afișează text”. Aș cumpăra Rokid dacă produsul trebuie să „vadă, asculte, vorbească și execute cod pe ochelari”.**
+
+## Asistent
+
+**Da, Rokid este mai capabil hardware și mai flexibil pentru dezvoltare. Dar asta nu înseamnă că este mai bun la fiecare utilizare.**
+
+| Ce înseamnă „mai performant” | Avantaj |
+|---|---|
+| Cameră, recunoașterea obiectelor, fotografii și video | **Rokid** |
+| Difuzoare, muzică și răspunsuri vocale | **Rokid** |
+| Aplicații Android executate direct pe ochelari | **Rokid** |
+| Posibilități pentru dezvoltarea unui asistent AI propriu | **Rokid**, mai ales dacă trebuie să vadă și să vorbească |
+| Greutate și discreție | **Even G2** — 36 g față de 49 g |
+| Autonomie declarată pentru utilizare intermitentă | **Even G2** |
+| Rezoluția nominală a afișajului | **Even G2**, potrivit fișelor actuale |
+| Viteza și precizia răspunsurilor AI | **Nu avem un câștigător demonstrat**; depind de model, conexiune și aplicație |
+
+Diferența de arhitectură explică mult: **Rokid poate executa aplicații pe ochelari; Even G2 folosește telefonul pentru logica aplicațiilor Even Hub.** Procesorul local mai puternic nu garantează răspunsuri AI mai rapide, deoarece procesarea poate avea loc pe telefon sau în cloud. [SDK Rokid](https://developerdoc.rokid.com/sdk?lang=en), [arhitectură Even Hub](https://hub.evenrealities.com/docs/get-started/architecture)
+
+**Pentru tine, dacă prioritatea este să dezvolți aplicații și să experimentezi cu hardware-ul, aș favoriza Rokid.** Dacă vrei în primul rând un copilot discret pentru ședințe și text, purtat multe ore, aș favoriza Even G2.
+
+## Asistent
+
+Voi verifica cea mai recentă generație hardware Rokid și data lansării, separat pentru modelul cu afișaj despre care discutăm.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c7527cc6-103c-495e-a853-4f7b111b74da",
+  "query": "Rokid latest glasses generation September October 2026 Glasses 2 launch ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Rokid latest glasses generation September October 2026 Glasses 2 launch",
+      "site.rokid.com 2026 September 24 new generation glasses",
+      "site.global.rokid.com \"2026\" \"Glasses\" \"launch\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn13search0",
+      "title": "News – Rokid",
+      "url": "https://global.rokid.com/blogs/news"
+    },
+    {
+      "type": "text_result",
+      "domain": "abit.ee",
+      "ref_id": "turn13search1",
+      "title": "Rokid announces more humanlike glasses of a new generation",
+      "url": "https://abit.ee/en/smart-glasses/rokid-smart-glasses-ai-glasses-hangzhou-augmented-reality-en"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.globenewswire.com",
+      "ref_id": "turn13search2",
+      "title": "Rokid Glasses Launches in Canada in Partnership with Ming's",
+      "url": "https://www.globenewswire.com/news-release/2026/07/29/3335511/0/en/rokid-glasses-launches-in-canada-in-partnership-with-ming-s-optical.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.prnewswire.com",
+      "ref_id": "turn13search3",
+      "title": "Rokid Launches the World's First Open AI Ecosystem Smart Glasses -- Ultra-Light, Prescription-First, and Built to Work with ChatGPT, Qwen, DeepSeek, and More",
+      "url": "https://www.prnewswire.com/news-releases/rokid-launches-the-worlds-first-open-ai-ecosystem-smart-glasses--ultra-light-prescription-first-and-built-to-work-with-chatgpt-qwen-deepseek-and-more-302654439.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.globenewswire.com",
+      "ref_id": "turn13search4",
+      "title": "Press Release Distribution and Management",
+      "url": "https://www.globenewswire.com/en/search/organization/Rokid"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn13search5",
+      "title": "Rokid Introduces Super Light AI Smart Glasses at CES 2026, Without a S",
+      "url": "https://global.rokid.com/blogs/news/rokid-introduces-super-light-ai-smart-glasses-at-ces-2026-without-a-screen"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn13search6",
+      "title": "Travel Set Live Registration – Rokid UK",
+      "url": "https://gb.rokid.com/pages/travel-set-live-registration"
+    },
+    {
+      "type": "text_result",
+      "domain": "about.fb.com",
+      "ref_id": "turn13search7",
+      "title": "New Features for Meta Ray-Ban Display",
+      "url": "https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn13search8",
+      "title": "Rokid’s new AI glasses are a lighter, longer-recording answer to Meta",
+      "url": "https://global.rokid.com/blogs/news/rokid-s-new-ai-glasses-are-a-lighter-longer-recording-answer-to-meta-ray-bans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.linkedin.com",
+      "ref_id": "turn13search9",
+      "title": "#rokid #rokidai #aiglasses #accessibletech #inclusivedesign #wearableai #ces2026 #smartglasses #productlaunch #limitlessai | Rokid Corporation Ltd",
+      "url": "https://www.linkedin.com/posts/rokid-inc_rokid-rokidai-aiglasses-activity-7419076063147896832-KqSR"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn13search10",
+      "title": "Rokid UK | AI Glasses & AR Smart Glasses",
+      "url": "https://gb.rokid.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.metaversewatcher.io",
+      "ref_id": "turn13search11",
+      "title": "Rokid Sets October 27 Hangzhou Launch for Second-Gen Glasses",
+      "url": "https://www.metaversewatcher.io/rokid-jungle-2026-october-27-hangzhou-full-color-teaser/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit12",
+      "title": "Gen2 real look",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1wou3t3/gen2_real_look/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit13",
+      "title": "full color Glasses is coming?",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1wo59zl/full_color_glasses_is_coming/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn13youtube15",
+      "title": "Rokid AI Glasses Style | Official Launch at CES 2026#rokid #ces2026 - YouTube",
+      "url": "https://www.youtube.com/watch?v=THyvo_eh7AE"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn13news32",
+      "snippet": "Date: Wed Sep 2 04:39:51 2026 UTC ... When Rokid invited me to a media briefing for its new AI + AR glasses, I tried",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/07zi0a-a3V1Y2MBYecDVDtG5t7db5d2ozzQG_-l2F-tov-JcpC0KJjH5kLln2azTyfSKbSTLrvPmL0BopH9UZ06_VnxeLzNtOMkIANAvjpSzyhKMVLqciv01KAqW6U2g",
+      "title": "I tried Rokid's AI + AR glasses for a month, and the general 'bad vibes' I have around wearables are slowly subsiding, but I can't stop worrying about my personal data",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/i-tried-rokids-ai-ar-glasses-for-a-month-and-the-general-bad-vibes-i-have-around-wearables-are-slowly-subsiding-but-i-cant-stop-worrying-about-my-personal-data"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn13news33",
+      "snippet": "Rokid is making it easier to build apps for its AI glasses, and you won't need a coding background or even to own a pair",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Jshln5ddOSRSG7PCX_b5d1j3GeSjME1khEYeA7pCbHhpovxUBd_09ovmL1k0Kz9TsWOntT2BOx5wch-JBXtMY4IZZF-hIs1xvMTNMEzMPwanlLm6ENNqLRLo7gPdnCTv",
+      "title": "Rokid wants anyone to build AI agents for its smart glasses",
+      "url": "https://www.androidcentral.com/gaming/virtual-reality/rokid-wants-anyone-to-build-ai-agents-for-its-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn13news34",
+      "snippet": "Razer has just unveiled its Motoko headphones at CES - an audio-first wearable that can \"see\" the world around you but communicate entirely through voice",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/E4xACOiiromDt8Xjihh41rVU9Z8G3xxN9lb4wALnyZ4OiW0rLshLWF-uwCrTIZD_f3r_BXALnait9q4woDKQKRzauP-xCQZyEnXPTkiy1UkyvInHB8swotLJd6z8Iuy-",
+      "title": "Rokid's new AI glasses are lighter, cheaper, and ready to challenge Meta's Ray-Bans",
+      "url": "https://www.techradar.com/ai-platforms-assistants/rokids-new-ai-glasses-are-lighter-cheaper-and-ready-to-challenge-metas-ray-bans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn13news35",
+      "snippet": "AI Glasses Style, announced at CES 2026, launches globally on January 19. ... Rokid has also announced an accessibility initiative, offering a $20 subsidy for",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/cVInBwKiI4aIo7VN7a7zUAsTkHW_xu4DM5mKfyYR8b-T5NtZJMh_gVfS8mOvyIm_O1xO495AjdJUNrXDpxiZVCMhFajMybNUJn7bQJm_dlQfFItsxOQNTUeo4Ka25E_w",
+      "title": "These new AI smart glasses could actually make sense for photographers (and they're cheaper than RayBans)",
+      "url": "https://www.digitalcameraworld.com/tech/these-new-ai-smart-glasses-could-actually-make-sense-for-photographers-and-theyre-cheaper-than-raybans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn13news36",
+      "snippet": "All of this came to a head in early December when Meta decided to slice 30% of Reality Labs' budget starting in January 2026, a",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/IGHP2ST60fJuPo72x7wY0f_uI41YvMfniW4XKvuUALj7ExGFeF6kcpmmHRtqjyxUplQXPfJr3VMh6FuqEWfsWZJxhYcAiQZvxPm0V5__NEpADezVWTW4q0tEuuwwVZUv",
+      "title": "VR isn't dead, and 2025 has only proven how ridiculous those claims continue to be. That, and XR glasses have finally found their mojo",
+      "url": "https://www.androidcentral.com/gaming/virtual-reality/vr-xr-smart-glasses-2025-report-card"
+    },
+    {
+      "type": "text_result",
+      "domain": "cincodias.elpais.com",
+      "ref_id": "turn13news37",
+      "snippet": "Date: Wed Apr 29 14:00:00 2026 UTC ... Y el gigante Rokid acaba de anunciar su llegada a Europa, con su familia Rokid Glasses, unas",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Kds4kzvQ5AMj7Qy3309aX2xoRosiWamy1TMJrpv0eBUeMOYiZLyHpKhGV4tevXYGKzVUD5xqskc8MFHk0H0kKM7sznZoVHXvpbLY8_DXGzYHDvhC53xfNQfav4tTi6mdJtLGz4U2Y_BlwbHZTfdWOE68Y2nQG6FJwKXURsRRD0G-Cji6EJ7sKtaQsRNJCCnf1eKJa6ZbvFPSgq1Vp_5Gdfj2ZqBjz2Lj11kzpLTIhDw",
+      "title": "Rokid trae a Europa sus gafas con IA y traducción en tiempo real desde 449 euros",
+      "url": "https://cincodias.elpais.com/smartlife/smartphones/2026-04-29/rokid-trae-a-europa-sus-gafas-con-ia-y-traduccion-en-tiempo-real-desde-449-euros.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-f2751496-29d2-4e86-9aea-35411983e0fe",
+  "query": "Rokid 2026 10月27日 二代 发布 官方 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Rokid 2026 10月27日 二代 发布 官方",
+      "site.rokid.com \"2026\" \"27\"",
+      "Rokid Jungle 2026 October 27 official second generation"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.wecanar.com",
+      "ref_id": "turn14search0",
+      "title": "Rokid 第二代带显示 AI 眼镜定档 10 月 27 日发布，性能与续航升级、整机更轻 — 我看AR",
+      "url": "https://www.wecanar.com/index.php/archives/5966/"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.10jqka.com.cn",
+      "ref_id": "turn14search1",
+      "title": "乐奇（Rokid）二代全球首秀，专访蔡国祥：AR眼镜的“iPhone时刻”还要三年",
+      "url": "https://news.10jqka.com.cn/20260924/c680277479.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn14search2",
+      "title": "关于我们 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/about"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.guandian.hk",
+      "ref_id": "turn14search3",
+      "title": "Rokid第二代AI眼鏡杭州全球首秀 10月27日發佈 - 觀點網",
+      "url": "https://www.guandian.hk/article/20260929/10014027.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrtuoluo.net",
+      "ref_id": "turn14search4",
+      "title": "Rokid官宣10月27日举行新品发布会，下一代全彩AI眼镜或将亮相_VR陀螺",
+      "url": "https://vrtuoluo.net/546125.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn14search5",
+      "title": "乐奇Rokid二代眼镜定档10月27日：现在2200入一代，还是等5天看二代？_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/al380reg/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.93913.com",
+      "ref_id": "turn14search6",
+      "title": "乐奇Rokid发布二代AI眼镜：更轻更强，主打全天佩戴 – 93913-元宇宙&AI信息与产业服务",
+      "url": "https://www.93913.com/124951.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.metaversewatcher.io",
+      "ref_id": "turn14search7",
+      "title": "Rokid Sets October 27 Hangzhou Launch for Second-Gen Glasses",
+      "url": "https://www.metaversewatcher.io/rokid-jungle-2026-october-27-hangzhou-full-color-teaser/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn14search8",
+      "title": "Rokid定档10月27日发布会、极米100元定金锁“到手不高于2999元”、三星11月上市：这轮AI眼镜撞上双11，等谁、不等谁_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/apqm7n2w/"
+    },
+    {
+      "type": "text_result",
+      "domain": "min.news",
+      "ref_id": "turn14search9",
+      "title": "Rokid releases second-generation AI glasses: lighter and more powerful, designed for all-day wear. - iMedia",
+      "url": "https://min.news/en/digital/c28cefed6764f8a4526ac7c6bd67490c.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sohu.com",
+      "ref_id": "turn14search10",
+      "title": "Rokid第二代AI眼镜，戳到了牛马的心坎上_Glasses_无感_外观",
+      "url": "https://www.sohu.com/a/1080412425_122647867"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jikemijing.com",
+      "ref_id": "turn14search11",
+      "title": "AI眼镜日报｜乐奇Rokid发布第二代AI眼镜、Counterpoint：上半年全球AI眼镜出货量同比增长263% - 日报 - 极刻觅镜",
+      "url": "https://www.jikemijing.com/news/n_GXT4yGFTPB1Xue-pAJXH4jCc"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-76e1d823-9c8b-4e75-820c-67fd7bc4b306",
+  "query": "https://news.10jqka.com.cn/20260924/c680277479.shtml",
+  "action": {
+    "type": "openPage",
+    "url": "https://news.10jqka.com.cn/20260924/c680277479.shtml"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "news.10jqka.com.cn",
+      "ref_id": "turn15view0",
+      "snippet": "Total lines: 144",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/YEycZJFyu_U8Lpo_zeU2beQoYhRMQLS42qzYj6rjeh_rJEwhRaf7rWnMkz3aJE3uSSzRj9Rdk3jc-Pr_lXwapKeHnqgfzzFba6XPxhF_4mBbowajivVa8nnP54RXs_MPP84Ft6LMCjthqsvHtiUQ_7HZMHaCwsxYNJae3-bQFE58DiODqVJ-mcbTnVGKn6zS",
+      "title": "乐奇（Rokid）二代全球首秀，专访蔡国祥：AR眼镜的“iPhone时刻”还要三年",
+      "url": "https://news.10jqka.com.cn/20260924/c680277479.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrtuoluo.net",
+      "ref_id": "turn15view1",
+      "snippet": "Total lines: 263",
+      "title": "Rokid官宣10月27日举行新品发布会，下一代全彩AI眼镜或将亮相_VR陀螺",
+      "url": "https://vrtuoluo.net/546125.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn15view2",
+      "snippet": "Total lines: 56",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Bh-oEXsnFwom69kK5N1AwbOxTDU0Jw-CM7neNWE0tF5P_J9ytMKneDpNcEYoouMu_KLgtMySS8HrvNrfLpL4JmMXBY3jfOVGrD9WKXBzaGo",
+      "title": "乐奇 Rokid - 官方网站",
+      "url": "https://www.rokid.com/zh-CN"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Pentru modelul cu afișaj, cea mai nouă generație prezentată este Rokid Glasses 2, cu lansarea completă programată pe 27 octombrie 2026 — mâine.** Prima prezentare publică a avut loc pe **24 septembrie 2026**, la Hangzhou. Data și prezentarea sunt confirmate într-un interviu cu vicepreședintele Rokid. [Sursa](https://news.10jqka.com.cn/20260924/c680277479.shtml)
+
+Trebuie să corectez contextul comparației precedente: **specificațiile de 49 g, Snapdragon AR1 și 2 GB RAM / 32 GB stocare se refereau la Rokid Glasses comercializat acum, nu la generația 2.**
+
+| Model | Momentul lansării / prezentării | Situație la 26 octombrie 2026 |
+|---|---|---|
+| **Rokid Glasses — cu afișaj, generația existentă** | Lansare internațională în 2025 | Modelul disponibil în magazinele globale și discutat anterior |
+| **Rokid Glasses 2 — cu afișaj** | Prezentat **24 septembrie 2026**; lansare completă **27 octombrie 2026** | Specificațiile complete, prețul și planul comercial urmează să fie anunțate |
+| **Rokid AI Glasses Style — fără afișaj** | Prezentat **6 ianuarie 2026**; disponibil global din **19 ianuarie 2026** | Familie separată, orientată spre cameră și audio |
+
+Surse: [istoricul oficial Rokid](https://www.rokid.com/zh-CN/about), [interviul despre generația 2](https://news.10jqka.com.cn/20260924/c680277479.shtml), [anunțul oficial Style](https://www.youtube.com/watch?v=THyvo_eh7AE).
+
+Pentru **Glasses 2**, prezentarea din septembrie confirmă modificări ale ramei, brațe mai flexibile, suporturi nazale revizuite și îmbunătățiri optice și fotografice. **Modelul prezentat atunci avea tot afișaj verde monocrom**, potrivit vicepreședintelui companiei. Nu aș considera afișajul color confirmat: informațiile despre un posibil model color la evenimentul din octombrie sunt încă anticipări. [Interviu](https://news.10jqka.com.cn/20260924/c680277479.shtml)
+
+**Eu aș aștepta anunțul de mâine înainte să cumpăr.** Pentru tine vor conta mai ales disponibilitatea versiunii globale, compatibilitatea SDK și dacă noua generație păstrează dezvoltarea Android direct pe ochelari; acestea nu trebuie presupuse din specificațiile primei generații.
+
+## Asistent
+
+Voi verifica ce diferențe sunt deja confirmate pentru Rokid Glasses 2 și le voi separa de specificațiile încă nepublicate înaintea lansării din 27 octombrie.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-e04bb257-c344-48b2-82f5-79c880fc75a6",
+  "query": "Rokid Glasses 2 September 24 2026 specifications weight chip battery ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Rokid Glasses 2 September 24 2026 specifications weight chip battery",
+      "site.rokid.com 二代 2026 眼镜 参数"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn16search0",
+      "title": "Rokid Help Center | FAQs, Support & Tutorials",
+      "url": "https://global.rokid.com/pages/faq"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae01.alicdn.com",
+      "ref_id": "turn16search12",
+      "title": "Rokid Glasses 智能眼镜使用说明书",
+      "url": "https://ae01.alicdn.com/kf/Sca60ced8be924acba5fb4d81b0dd01c6C.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "hk.rokid.com",
+      "ref_id": "turn16search1",
+      "title": "FAQ – Rokid HK",
+      "url": "https://hk.rokid.com/pages/faq"
+    },
+    {
+      "type": "text_result",
+      "domain": "rokidstore.com.au",
+      "ref_id": "turn16search2",
+      "title": "Rokid Glasses Specifications – Rokid AU Store",
+      "url": "https://rokidstore.com.au/pages/rokid-glasses-specifications"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.sohu.com",
+      "ref_id": "turn16search3",
+      "title": "乐奇（Rokid）二代全球首秀，专访蔡国祥：AI眼镜的“iPhone时刻”还要三年_搜狐网",
+      "url": "https://m.sohu.com/a/1080583407_121157270"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn16search4",
+      "title": "乐奇Rokid二代眼镜定档10月27日：现在2200入一代，还是等5天看二代？_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/al380reg/"
+    },
+    {
+      "type": "text_result",
+      "domain": "ai.zol.com.cn",
+      "ref_id": "turn16search5",
+      "title": "乐奇发布第二代AI眼镜：全球首发、暗光影像升级、主动交互突破_人工智能-中关村在线",
+      "url": "https://ai.zol.com.cn/1252/12528174.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "rokidstore.com.au",
+      "ref_id": "turn16search6",
+      "title": "5.1 Glasses Tech Specs – Rokid AU Store",
+      "url": "https://rokidstore.com.au/blogs/rokid-glasses-overview/5-1-glasses-tech-specs"
+    },
+    {
+      "type": "text_result",
+      "domain": "finance.sina.com.cn",
+      "ref_id": "turn16search7",
+      "title": "第二代乐奇Rokid AI眼镜上手：颜值更高，佩戴「轻感」十足超舒服_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-inisxxkx0191766.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn16search8",
+      "title": "关于我们 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/about"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn16news29",
+      "snippet": "Date: Wed Sep 23 07:40:46 2026 UTC ... The camera hardware was also solid - the Rokid AI Glasses Style - a more affordable counterpart",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/tRblLDELNQeToOo5iNsi4oP5jQAtRWufFv0OlLUIaCMtAhjmYdcX2pnCDosu-VBIJt3HuU_nUVFxf2l5cL53hwpWKJa3GPdD5XVpeef99D5HVpCHwSTDXkzqaCljJsrf",
+      "title": "Best camera glasses in 2026: smart wearable tech for eye-level photography",
+      "url": "https://www.digitalcameraworld.com/buying-guides/best-camera-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn16news30",
+      "snippet": "Date: Mon Apr 20 10:13:26 2026 UTC ... Plus, shout-out to the all-day battery life if you're using them casually. ... Weight ... [Image 2:",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/j8bb2UN-pJRBEjnt9W9MN29dGvaACxdpgPley0cA7a_zMWblPyBnWh4DCRHSs-9I3RYXXUEKjx78bS8kWUG1V-t0QM_A5sqPoZyZ6LDMudGQ-kPMDVQGwL8mvAEDwugv",
+      "title": "I traveled 5,000 miles with Rokid Glasses - this Meta Ray-Ban Display rival impressed me",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/rokid-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn16news31",
+      "snippet": "CES 2026 just started in Las Vegas, but Rokid is already making waves with a radical move: smart glasses without a traditional microdisplay. ... The",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/GTeheW2q-E-ViEzyy58mvBY2sYxhsTiV_NzNdRv9f7NDn2-h8a_Ul-4y3qDS8ALNtgwbcfII1QtHL8Rq6eAsfKB5kNAbuIK2azip8-kWW8BrF2H65YMkXeVmz8Dn90IQ",
+      "title": "Rokid's new AI glasses are a lighter, longer-recording answer to Meta Ray-Bans",
+      "url": "https://www.androidcentral.com/gaming/virtual-reality/rokids-new-ai-glasses-are-a-lighter-longer-recording-answer-to-meta-ray-bans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn16news32",
+      "snippet": "Rokid AI Glasses Style: Specifications ... [Image 6: Hands-on photograph of Rokid AI Glasses Style] ... Also, Rokid claims that the 210 mAh battery will",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/HLNJNvA-uDIEd6X9igGYk3EDxfWRjZde-9pLc45KCQXAMJFY0NTO-mwKdl16c55S4y9-jN8JS5BbuNQQ5GlgE-caU0FRUJKTn3_0vHHEsVUb-3TlWMWD655Q6ZlIqGN2",
+      "title": "Rokid AI Glasses Style review: could these smart glasses dethrone Meta's Ray-Bans?",
+      "url": "https://www.digitalcameraworld.com/cameras/digital-cameras/rokid-ai-glasses-style-review-could-these-smart-glasses-dethrone-metas-ray-bans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn16news33",
+      "snippet": "Date: Sun Feb 22 12:15:00 2026 UTC ... After showcasing its Rokid Glasses that bring AR and AI together at IFA last year, Rokid is",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/8Nes5P7WopttCSdZRBeE2BkoxEO7SCQSQ4VtGGs0cK62R73Q1lPallQ48C6o9hixEdZ3UBgbQPAv5mV3rBdqI7uU_ZYd49-3hGphsS68SOvzzi4RE2P4ik_-hZfFSEQy",
+      "title": "I wore the most popular Ray-Ban Meta alternatives for a month - and they're a lot better than I expected",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/rokid-ai-glasses-style-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn16news34",
+      "snippet": "Date: Sat Apr 4 15:00:00 2026 UTC ... The black plastic frame and flat lenses adopted by Rokid's specs remind me of movie theatre 3D",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/MlcuF40EQQHIUs1K_j77jkHipC4Hyfb4q8XwIbS0yAV3ULtEhsDCKj6b33jUgs-flOWjVZZHHXzNo-OJaEtVIbbLjucy2ZzyxLNev9UdD-neUCwiWAInhyue1uP80SGU",
+      "title": "I've spent a month with the Rokid AI Glasses Style: they're excellent smart glasses let down by an ugly design",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/ive-spent-a-month-with-the-rokid-ai-glasses-style-theyre-excellent-smart-glasses-let-down-by-an-ugly-design"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.10jqka.com.cn",
+      "ref_id": "turn16view0",
+      "snippet": "Total lines: 144",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/bq1Nl8fdnFmmU2Apj7QjVFhpypPT9emDeCsEqbhaaHAIJaUuLXl18l8s9LPB8ohdqVUFBYYJjkFhCGgdJ7T-jyUVoNU-MmSpgyXNz0vFjXIctuUkcaVfJ3SpvVNe-MAxeqBwgAU-oCVifq3APQZsQjjjB_Sy-kUbNZ6XqxHbEM3mtKXOktSybdpVxClqS4WT",
+      "title": "乐奇（Rokid）二代全球首秀，专访蔡国祥：AR眼镜的“iPhone时刻”还要三年",
+      "url": "https://news.10jqka.com.cn/20260924/c680277479.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sohu.com",
+      "ref_id": "turn16view1",
+      "snippet": "Total lines: 75",
+      "title": "Rokid第二代AI眼镜，戳到了牛马的心坎上_Glasses_无感_外观",
+      "url": "https://www.sohu.com/a/1080412425_122647867"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn16view2",
+      "snippet": "Total lines: 1027",
+      "title": "Rokid smart glasses with display for hands-free info – Rokid UK",
+      "url": "https://gb.rokid.com/products/rokid-glasses-with-display"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Rokid Glasses 2 aduce îmbunătățiri prezentate la confort, optică și fotografiere, dar încă nu putem demonstra cât de mult crește performanța hardware față de generația 1.** La **26 octombrie 2026**, specificațiile complete ale generației 2 sunt încă așteptate la evenimentul din **27 octombrie**.
+
+Prin „Rokid 1” mă refer la **Rokid Glasses cu afișaj**, modelul de 49 g discutat anterior.
+
+| Caracteristică | Rokid Glasses 1 | Rokid Glasses 2 | Ce putem concluziona acum |
+|---|---|---|---|
+| **Disponibilitate** | Comercializat internațional | Prezentat pe 24 septembrie; lansare completă programată pe 27 octombrie 2026 | Disponibilitatea globală a generației 2 nu este confirmată |
+| **Greutate** | **49 g** | Valoare exactă neconfirmată | Nu putem cuantifica reducerea |
+| **Forma ramei** | Mai rectangulară | Contur mai rotunjit | Schimbare vizibilă de design |
+| **Brațe** | Mai rigide | Material flexibil, deformabil | Potențial mai confortabile la purtare îndelungată |
+| **Suporturi nazale** | Tip „air cushion” | Silicon medical, suprafață de sprijin revizuită | Adaptare mai bună la forme diferite ale nasului |
+| **Culori prezentate** | Depind de piață și configurație | Negru și imitație de carapace de țestoasă | Mai multe opțiuni estetice |
+| **Afișaj color?** | **Nu, verde monocrom** | **Tot verde monocrom în modelul prezentat în septembrie** | Generația 2 prezentată nu trebuie confundată cu un eventual model color |
+| **Transparența lentilelor** | Optica generației existente | Transmisie îmbunătățită în zona din afara ghidului optic | Îmbunătățire declarată; fără procent comparabil public |
+| **Rezoluție** | Documentație contradictorie: 480 × 400 în magazinul UK, 480 × 640 în FAQ | Neconfirmată | Nu putem afirma că G2 are rezoluție mai mare |
+| **Câmp vizual** | 30° în documentația actuală; 23° în comunicatul inițial | Neconfirmat | Nu putem afirma că G2 are imagine mai largă |
+| **Luminozitate** | Până la **1.500 niți** | Neconfirmată | Nicio comparație numerică sigură |
+| **Procesor** | **Snapdragon AR1 Gen 1 + NXP RT600** | Configurație exactă neconfirmată | Nu există bază verificată pentru un procent de creștere a vitezei |
+| **RAM / stocare** | **2 GB / 32 GB** | Neconfirmate | Nu presupunem că au crescut |
+| **Cameră** | **Sony IMX681, 12 MP** | Senzorul și rezoluția neconfirmate | Calitatea fotografiei poate crește și fără mai mulți megapixeli |
+| **Fotografiere** | Foto și video din perspectiva purtătorului | Rezultate fotografice îmbunătățite, conform prezentării | Îmbunătățire declarată, fără test comparativ complet |
+| **Microfoane / difuzoare** | Patru microfoane, două difuzoare | Configurația exactă neconfirmată | Nu putem cuantifica avantajul audio |
+| **Baterie** | **210 mAh** | Capacitate neconfirmată | Nu putem compara capacitățile |
+| **Autonomie** | Aproximativ 8–10 ore de utilizare mixtă, declarate | Durată exactă neconfirmată | Nu putem confirma un câștig procentual |
+| **Conectivitate** | Wi-Fi 6, Bluetooth 5.3 | Versiuni neconfirmate | Fără avantaj demonstrat |
+| **Protecție** | **IPX4** | Neconfirmată | Nu presupunem aceeași certificare |
+| **Preț** | Variază cu piața și pachetul | Vicepreședintele Rokid indică un preț ușor mai mare, în aceeași zonă | Prețul global rămâne necunoscut |
+
+Datele generației 1 provin din [FAQ-ul oficial Rokid](https://global.rokid.com/pages/faq) și [fișa magazinului UK](https://gb.rokid.com/products/rokid-glasses-with-display). Modificările generației 2 privind rama, lentilele, afișajul monocrom și poziționarea de preț provin din [interviul cu vicepreședintele Rokid de la prezentarea din septembrie](https://news.10jqka.com.cn/20260924/c680277479.shtml).
+
+**Funcții și dezvoltare software**
+
+| Capacitate | Rokid Glasses 1 | Rokid Glasses 2 |
+|---|---|---|
+| Traducere, teleprompter, navigație, transcriere | Disponibile, în funcție de piață și software | Continuă aceeași categorie de utilizări; lista globală finală trebuie confirmată |
+| Notițe de ședință cu fotografii integrate | Nu am confirmat aceeași implementare | La demonstrație, fotografiile au fost combinate cu transcrierea într-un rezumat cronologic |
+| Fotografiere în timpul înregistrării unei ședințe | Nu am confirmat comportamentul echivalent | Demonstrată fără întreruperea înregistrării audio |
+| SDK mobil | **CXR-L pentru Android/iOS**, documentat | Compatibilitatea exactă a generației 2 nu este încă verificată |
+| Aplicații Android direct pe ochelari | Documentate pentru modelul existent | **Nu trebuie presupus automat că funcționează identic** |
+| Reutilizarea aplicației dezvoltate pentru generația 1 | Există platforma documentată | Necesită confirmare SDK și testare pe noul hardware |
+| Funcții exclusive generației 2 | — | Nu este clar care vor rămâne exclusive și care ar putea ajunge pe generația 1 prin actualizare |
+
+Surse: [demonstrația relatată de FocusXR](https://www.sohu.com/a/1080412425_122647867), [platforma oficială SDK Rokid](https://developerdoc.rokid.com/sdk?lang=en).
+
+**Pentru tine, aș amâna achiziția până după prezentarea din 27 octombrie.** Generația 2 poate fi alegerea mai bună pentru confort și cameră, dar pentru dezvoltare aș decide numai după confirmarea a trei lucruri: **SDK compatibil, instalarea aplicațiilor proprii pe ochelari și disponibilitatea versiunii globale**. În acest moment, generația 1 are avantajul documentației existente; generația 2 are avantajele prezentate de design și utilizare, încă fără o comparație completă de performanță.
+
+## Asistent
+
+Verific sursa anunțului și locația exactă, ca să disting între evenimentul din China și disponibilitatea internațională.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-eba2e61d-e00d-4e7a-9fc0-d8ccbb5e7dfa",
+  "query": "https://vrtuoluo.net/546125.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://vrtuoluo.net/546125.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "vrtuoluo.net",
+      "ref_id": "turn17view0",
+      "snippet": "Total lines: 263",
+      "title": "Rokid官宣10月27日举行新品发布会，下一代全彩AI眼镜或将亮相_VR陀螺",
+      "url": "https://vrtuoluo.net/546125.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-45b93155-67c9-433c-b0c1-e2947d763065",
+  "query": "\"Rokid Jungle 2026\" \"杭州\" \"27\" 地点 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Rokid Jungle 2026\" \"杭州\" \"27\" 地点",
+      "\"Rokid\" \"2026年10月27日\" 发布会 地址"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn18search0",
+      "title": "博士眼镜与乐奇Rokid达成战略合作，共启AI眼镜“验配一体化”新篇章 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wecanar.com",
+      "ref_id": "turn18search1",
+      "title": "Rokid 第二代带显示 AI 眼镜定档 10 月 27 日发布，性能与续航升级、整机更轻 — 我看AR",
+      "url": "https://www.wecanar.com/index.php/archives/5966/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn18search2",
+      "title": "二代乐奇眼镜首秀、10月27日发布：漏光、开放、配镜三道关，折腾党先分清捡一代、等二代还是等全彩_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a82p7g0n/"
+    },
+    {
+      "type": "text_result",
+      "domain": "ai.zol.com.cn",
+      "ref_id": "turn18search3",
+      "title": "乐奇发布第二代AI眼镜：全球首发、暗光影像升级、主动交互突破_人工智能-中关村在线",
+      "url": "https://ai.zol.com.cn/1252/12528174.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn18search4",
+      "title": "Rokid定档10月27日发布会、极米100元定金锁“到手不高于2999元”、三星11月上市：这轮AI眼镜撞上双11，等谁、不等谁_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/apqm7n2w/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrarworld.cn",
+      "ref_id": "turn18search5",
+      "title": "Rokid Jungle 2026 - VRAR星球",
+      "url": "https://www.vrarworld.cn/t/Rokid%20Jungle%202026.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn18search6",
+      "title": "乐奇Rokid二代眼镜定档10月27日：现在2200入一代，还是等5天看二代？_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/al380reg/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.dian8dian.com",
+      "ref_id": "turn18search7",
+      "title": "Rokid 宣布 10 月 27 日杭州发布新品，全彩 AI 眼镜成焦点 | 点点资讯",
+      "url": "https://www.dian8dian.com/rokid-xuan-bu-10-yue-27-ri-hang-zhou-fa-bu-xin-pin-quan-cai"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn18view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Evenimentul anunțat este „Rokid Jungle 2026”, pe 27 octombrie 2026, în Hangzhou, China.** Nu am confirmat sala/adresa exactă sau ora începerii.
+
+Anunțul poate fi urmărit în aceste surse:
+
+| Sursă | Ce confirmă |
+|---|---|
+| **[VR陀螺 — articol din 9 octombrie 2026](https://vrtuoluo.net/546125.html)** | Reproduce anunțul și afișul Rokid: eveniment pe **27 octombrie, în Hangzhou**. La final are legătura către sursa „Rokid乐奇” de pe WeChat. |
+| **[Interviu cu vicepreședintele Rokid, 24 septembrie](https://news.10jqka.com.cn/20260924/c680277479.shtml)** | Acesta precizează că parametrii, funcțiile și informațiile de comercializare ale generației 2 vor fi prezentate la evenimentul din **27 octombrie, Hangzhou**. |
+| **[DoctorGlasses — anunț oficial al partenerului comercial](https://www.doctorglasses.com.cn/sys-nd/222.html)** | Confirmă că **a doua generație va intra în vânzare pe 27 octombrie**, inclusiv în anumite magazine DoctorGlasses din China. |
+
+**Precizare față de răspunsurile mele anterioare:** data se referă la prezentarea și comercializarea anunțate în **China**. Nu am confirmat o lansare simultană în Europa sau livrări în România.
+
+Pagina originală WeChat este indicată de articolul VR陀螺, dar nu am reușit să o deschid direct; de aceea ți-am oferit și confirmarea publicată chiar de partenerul comercial.
+
+## Asistent
+
+Voi verifica modelul exact din pagina Muziker, în special dacă are afișaj în lentile.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-10f11e01-4b93-4236-b03f-73668e99bcda",
+  "query": "https://www.muziker.ro/rokid-ai-glasses",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.muziker.ro/rokid-ai-glasses"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.muziker.ro",
+      "ref_id": "turn19view0",
+      "snippet": "Total lines: 316",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/jUTrQ3GLUn9ZzhTw4i_ZjJ5onZ1vfxy9Anh4g9skDRwGKuz3_pygIHS3RSwmtrn-KiUeLVHZ4lc017_BshxYVvhQ9ERAt8ekb3YfgrLiCbReHKTZk4uye39H0S7M9NAP",
+      "title": "Rokid AI Glasses - Muziker",
+      "url": "https://www.muziker.ro/rokid-ai-glasses"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Nu pot confirma sigur din această pagină: Muziker amestecă specificațiile a două modele diferite.**
+
+| Ce apare în pagina Muziker | Ce indică |
+|---|---|
+| Descrierea spune **„Rokid AI Glasses Style”**, **38,5 g** | Modelul **fără afișaj** |
+| Tabelul tehnic indică **49 g** | Modelul **Rokid Glasses cu afișaj** discutat de noi |
+| Nu precizează rezoluția și tehnologia afișajului | Nu confirmă că produsul livrat are ecran în lentile |
+
+Aceste contradicții sunt chiar în [pagina produsului Muziker, cod 1279400](https://www.muziker.ro/rokid-ai-glasses).
+
+**Versiunea comparabilă cu Even G2 este „Rokid Glasses — With Display”**, cu afișaj binocular MicroLED verde. **Rokid AI Glasses Style nu are afișaj**, deci nu îți poate arăta răspunsuri AI sau subtitrări în lentile. [Diferențele oficiale Rokid](https://global.rokid.com/pages/faq)
+
+Înainte de comandă, cere-le această confirmare:
+
+> „Pentru produsul 1279400, confirmați că livrați Rokid Glasses WITH DISPLAY, cu afișaj binocular MicroLED, și nu Rokid AI Glasses Style fără afișaj? Vă rog să precizați codul producătorului/EAN și generația hardware.”
+
+**Nu aș comanda pe baza acestei fișe până nu clarifică modelul exact.**
+
+## Asistent
+
+Voi căuta magazine din România care vând explicit Rokid Glasses cu afișaj și voi verifica prețul, stocul și identificarea modelului.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-9cdada31-cbc9-44ee-9358-3f0677f6d79b",
+  "query": "Rokid Glasses display cumpara Romania 49g ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Rokid Glasses display cumpara Romania 49g",
+      "\"Rokid\" \"Glasses\" \"lei\" \"Micro\"",
+      "\"Rokid\" \"AI Glasses\" site:ro -site:muziker.ro"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.olx.ro",
+      "ref_id": "turn20search0",
+      "title": "Ochelari inteligenti Rokid – Ochelari AR/AI cu afisaj Bucuresti Sectorul 2 • OLX.ro",
+      "url": "https://www.olx.ro/d/oferta/ochelari-inteligenti-rokid-ochelari-ar-ai-cu-afisaj-IDkApIw.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.olx.ro",
+      "ref_id": "turn20search1",
+      "title": "Ochelari Rokid Glasses afișaj vizual, traducere în timp real, informații de navigare, control vocal, ochelari audio, negri Oradea • OLX.ro",
+      "url": "https://www.olx.ro/d/oferta/ochelari-rokid-glasses-afisaj-vizual-traducere-in-timp-real-informatii-de-navigare-control-vocal-ochelari-audio-negri-IDl1Cma.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ubuy.com.ro",
+      "ref_id": "turn20search2",
+      "title": "Rokid Glasses (with Display), AI & AR Smart Glasses, România | Ubuy",
+      "url": "https://www.ubuy.com.ro/ro/productuk/TU892P3W0-glasses-with-display-ai-ar-smart-glasses-first-ai-glasses-with-chatgpt-gemini-support-ultra-light-49g-real-time-translation"
+    },
+    {
+      "type": "text_result",
+      "domain": "premiumshop.ro",
+      "ref_id": "turn20search3",
+      "title": "Glasses AR Rokid RV101 with AI black - Premium Shop",
+      "url": "https://premiumshop.ro/produs/glasses-ar-rokid-rv101-with-ai-black/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.muziker.ro",
+      "ref_id": "turn20search4",
+      "title": "Rokid - Muziker",
+      "url": "https://www.muziker.ro/rokid"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lerato.ro",
+      "ref_id": "turn20search5",
+      "title": "🥇Accesorii originale Rokid Romania - Lerato © Pret avantajos",
+      "url": "https://www.lerato.ro/rokid"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.olx.ro",
+      "ref_id": "turn20search6",
+      "title": "Ochelari AI si AR inteligenți Bucuresti Sectorul 1 • OLX.ro",
+      "url": "https://www.olx.ro/d/oferta/ochelari-ai-si-ar-inteligenti-IDklzVe.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.pandashop.md",
+      "ref_id": "turn20search7",
+      "title": "Ochelari VR Rokid Glasses RV101 – cumpără în Chișinău și Moldova | PandaShop",
+      "url": "https://www.pandashop.md/ro/product/-virtualnoj-realnosti-rokid-glasses-rv101-01285969/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.pandashop.md",
+      "ref_id": "turn20search8",
+      "title": "Ochelari VR Rokid – cumpără în Chișinău și Moldova | PandaShop",
+      "url": "https://www.pandashop.md/ro/catalog/electronics/gadgets/vr/rokid/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.joom.com",
+      "ref_id": "turn20search9",
+      "title": "Cumpără Ochelari Inteligenți AI ROKID | Joom",
+      "url": "https://www.joom.com/ro/products/69344fdd0ab8d7018150c3f2"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn20news29",
+      "snippet": "And now, Rokid Glasses has shown me this future, while keeping the glasses featherweight at just 49g (1.7 ounces). ... That 12MP camera is capable",
+      "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/SaJUacraEdBS3dsfc2yD3h-1280-80.jpg",
+      "title": "I just tested the futuristic Rokid Glasses - bringing AR and AI together to make Meta nervous",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/i-just-tested-the-futuristic-rokid-glasses-bringing-ar-and-ai-together-to-make-meta-nervous"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-38e899c2-bfda-4521-9489-43a96b3df378",
+  "query": "https://www.lerato.ro/rokid",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.lerato.ro/rokid"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.lerato.ro",
+      "ref_id": "turn21view0",
+      "snippet": "Total lines: 1074",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/0Zjch47yZxZUcAhLTE-ZxhDRgrqvHI4JaNS-M22CfzTjUiYMIz1QZxOxUEmDdK31xZHD5cHqGv5SuAFCwlCgOM5shfkDTKW3lRduxGCrSdpxRo5HCoOmGa8mf1uBz-VW",
+      "title": "🥇Accesorii originale Rokid Romania - Lerato © Pret avantajos",
+      "url": "https://www.lerato.ro/rokid"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn21view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-86555121-7b41-4276-9b61-d691e2d06250",
+  "query": "\"Rokid RV101\" \"stoc\" site:ro",
+  "action": {
+    "type": "search",
+    "query": "\"Rokid RV101\" \"stoc\" site:ro",
+    "queries": null
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "xprice.ro",
+      "ref_id": "turn22search0",
+      "title": "Ochelari AR Rokid RV101, 480 × 640 px, Camera 12MP, Asistenta AI, 210mAh, Bluetooh 5.3, WiFi, Negru, istoric prețuri și alternative mai ieftine | xPrice",
+      "url": "https://xprice.ro/istoric-pret/ochelari-ar-rokid-rv101-480-640-px-camera-12mp-asistenta-ai-210mah-bluetooh-53-wifi-negru/pd/8342cbc7cbbabef644b7c46579d3728f/"
+    },
+    {
+      "type": "text_result",
+      "domain": "premiumshop.ro",
+      "ref_id": "turn22search1",
+      "title": "Glasses AR Rokid RV101 with AI black - Premium Shop",
+      "url": "https://premiumshop.ro/produs/glasses-ar-rokid-rv101-with-ai-black/"
+    },
+    {
+      "type": "text_result",
+      "domain": "distrinode.ro",
+      "ref_id": "turn22search2",
+      "title": "Ochelari inteligenți și dispozitive portabile AR | DistriNode.ro",
+      "url": "https://distrinode.ro/ochelari-inteligenti-si-dispozitive-portabile-ar"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lerato.ro",
+      "ref_id": "turn22search3",
+      "title": "🥇Ochelari AR Rokid RV101, 480 × 640 px, Camera 12MP, Asistenta AI, 210mAh, Bluetooh 5.3, WiFi, Negru - Lerato",
+      "url": "https://www.lerato.ro/ochelari-ar-rokid-rv101-480-640-px-camera-12mp-asistenta-ai-210mah-bluetooh-5-3-wifi-negru.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lerato.ro",
+      "ref_id": "turn22view0",
+      "snippet": "Total lines: 1074",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Wjihw7edIgO_EFXOn82IdSICTnBlmSe37bnyVfaLLuNPI8NYefmGjh4IKqpTYYK8DHubz6nb5gmX9gyNFt4C8DlWgtb807DeGL962VblxPqEGFS9RWYd7VInAdRD8iy-",
+      "title": "🥇Accesorii originale Rokid Romania - Lerato © Pret avantajos",
+      "url": "https://www.lerato.ro/rokid"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b0ffc94a-2c08-4fac-bd19-3065e22c1d22",
+  "query": "https://distrinode.ro/ochelari-inteligenti-si-dispozitive-portabile-ar",
+  "action": {
+    "type": "openPage",
+    "url": "https://distrinode.ro/ochelari-inteligenti-si-dispozitive-portabile-ar"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn23view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lerato.ro",
+      "ref_id": "turn23view1",
+      "snippet": "Total lines: 1363",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/JgyINZZHJ7GrIWcOX13U_ioeYxoec4wVPEKyXGSAYmCOudsx9mq6MlrrXjF-EZMzw-qR1IdTr_yYwZN3tn6TVIkZpKo_0SvnV-ZJwahk4NZgMXN5U30HzimbOyRAqohM",
+      "title": "🥇Ochelari AR Rokid RV101, 480 × 640 px, Camera 12MP, Asistenta AI, 210mAh, Bluetooh 5.3, WiFi, Negru - Lerato",
+      "url": "https://www.lerato.ro/ochelari-ar-rokid-rv101-480-640-px-camera-12mp-asistenta-ai-210mah-bluetooh-5-3-wifi-negru.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-cfdd5a2d-011c-45d6-af0f-cf84c853c129",
+  "query": "site:distrinode.ro \"RV101\" \"4.940\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site:distrinode.ro \"RV101\" \"4.940\"",
+      "\"RV101\" \"lei\" \"stoc\" -site:olx.ro -site:pandashop.md -site:lerato.ro -site:xprice.ro -site:premiumshop.ro"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "distrinode.ro",
+      "ref_id": "turn24search0",
+      "title": "Ochelari inteligenți și dispozitive portabile AR | DistriNode.ro",
+      "url": "https://distrinode.ro/ochelari-inteligenti-si-dispozitive-portabile-ar"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autopieseonline24.ro",
+      "ref_id": "turn24search1",
+      "title": "Regulator ax cu came Audi A6 C6 3.2 FSI quattro 255 CP Benzina AUK 2004",
+      "url": "https://www.autopieseonline24.ro/audi/a6-4f2-c6/17895/15076/regulator-ax-cu-came"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autopieseonline24.ro",
+      "ref_id": "turn24search2",
+      "title": "Regulator ax cu came Audi A6 C6 2.4 quattro 177 CP Benzina BDW 2005",
+      "url": "https://www.autopieseonline24.ro/audi/a6-4f2-c6/18417/15076/regulator-ax-cu-came"
+    },
+    {
+      "type": "text_result",
+      "domain": "mediagalaxy.ro",
+      "ref_id": "turn24search3",
+      "title": "Slim Gaming Full HD+ | Media Galaxy",
+      "url": "https://mediagalaxy.ro/slim-gaming/cpl/filtru/format-ecran-5910/full-hd-1/"
+    },
+    {
+      "type": "text_result",
+      "domain": "altex.ro",
+      "ref_id": "turn24search4",
+      "title": "Laptop Gaming ASUS TUF A16 FA608UP-RV101, AMD Ryzen 7 260 pana la 5.1GHz, 16\" Full HD+, 32GB, SSD 1TB, NVIDIA GeForce RTX 5070 8GB, FreeDos, Jaeger Gray | Altex",
+      "url": "https://altex.ro/laptop-gaming-asus-tuf-a16-fa608up-rv101-amd-ryzen-7-260-pana-la-5-1ghz-16-full-hd-32gb-ssd-1tb-nvidia-geforce-rtx-5070-8gb-freedos-jaeger-gray/cpd/FA608UPRV101/"
+    },
+    {
+      "type": "text_result",
+      "domain": "voglia.ro",
+      "ref_id": "turn24search5",
+      "title": "ROCHIE VERDE DIN DANTELA CU FLORI APLICATE",
+      "url": "https://voglia.ro/rochii/rochie-verde-din-dantela-cu-flori-aplicate"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lerato.ro",
+      "ref_id": "turn24view0",
+      "snippet": "Total lines: 1363",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/3nyg2eapZNanvyYn2FpRdeGWbFjRYRf6cA1lFnH-TvSy-1BoCzVTPS0JVSa6Ba8mtw26LnRVORo6qJa8bzRHmP20Y9E0ao2HUV8McQFBdk_W4HuwoEpJJZdqa099EHMg",
+      "title": "🥇Ochelari AR Rokid RV101, 480 × 640 px, Camera 12MP, Asistenta AI, 210mAh, Bluetooh 5.3, WiFi, Negru - Lerato",
+      "url": "https://www.lerato.ro/ochelari-ar-rokid-rv101-480-640-px-camera-12mp-asistenta-ai-210mah-bluetooh-5-3-wifi-negru.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lerato.ro",
+      "ref_id": "turn24view1",
+      "snippet": "Total lines: 1363",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/syviR-I6IbEt76_BN-cTW_23eBerxifbjuBaGxSvXhwccn9vrRwmuBiKDVUcFsNPaufm19gXoPBU97mHys29MYboN5gQ0ecUfxFqp8POlBOFm4R8LgNrRJSBy4_NTVr1",
+      "title": "🥇Ochelari AR Rokid RV101, 480 × 640 px, Camera 12MP, Asistenta AI, 210mAh, Bluetooh 5.3, WiFi, Negru - Lerato",
+      "url": "https://www.lerato.ro/ochelari-ar-rokid-rv101-480-640-px-camera-12mp-asistenta-ai-210mah-bluetooh-5-3-wifi-negru.html"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Am găsit listări în România pentru Rokid Glasses RV101 cu afișaj, dar nu o ofertă în stoc pe care s-o pot confirma fără rezerve.**
+
+| Magazin | Preț afișat | Disponibilitate și observații |
+|---|---:|---|
+| **[Lerato — Rokid RV101](https://www.lerato.ro/ochelari-ar-rokid-rv101-480-640-px-camera-12mp-asistenta-ai-210mah-bluetooh-5-3-wifi-negru.html)** | **3.096,99 lei**, TVA inclus | **Indisponibil momentan.** Fișa identifică explicit afișajul, camera de 12 MP și greutatea de 49 g. Poți activa alerta de stoc. |
+| **[Premium Shop — Rokid RV101](https://premiumshop.ro/produs/glasses-ar-rokid-rv101-with-ai-black/)** | **4.343,53 lei** | **Stoc epuizat**, conform paginii indexate. Modelul cu afișaj este identificat clar. |
+| **[DistriNode — caută RV101 în pagină](https://distrinode.ro/ochelari-inteligenti-si-dispozitive-portabile-ar)** | **4.940,87 lei** | Listarea indexată indică **63 bucăți / un furnizor**, dar descrierea conține erori: „fără cameră” și „fără baterie”. Necesită confirmarea modelului și a stocului înainte de plată. |
+
+**Prima mea opțiune ar fi Lerato**, dacă poate aduce produsul la prețul afișat. Pentru cumpărare imediată, **DistriNode este pista de verificat**, însă nu pot confirma că stocul indicat corespunde exact modelului dorit.
+
+Mesajul de trimis magazinului:
+
+> „Doresc Rokid Glasses RV101 WITH DISPLAY, cu afișaj binocular MicroLED, cameră de 12 MP și greutate de 49 g. Confirmați modelul, disponibilitatea efectivă, termenul de livrare și dacă este inclusă cutia de încărcare?”
+
+Aceste listări sunt pentru **RV101, modelul existent**, nu o ofertă confirmată pentru Rokid Glasses 2.
+
+## Asistent
+
+Voi verifica dacă Amazon.de listează Rokid Glasses cu afișaj și ce informații sunt disponibile despre preț și livrare.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-098d4cd9-6299-478e-8c9f-b8b54c283015",
+  "query": "site:amazon.de Rokid Glasses Display 49g RV101 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site:amazon.de Rokid Glasses Display 49g RV101",
+      "site:amazon.de \"Rokid\" \"Glasses\" \"599\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search0",
+      "title": "👀 AI Browser Is Here. AI Short Films Fall Short. Navigate Like Iron Man. | China AI Briefing (formerly China AI Daily) Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/4903d535-7506-4bee-95c9-938fd1e8a4c1/episodes/f1338327-3cba-43aa-afa3-10f0b4fbb079/china-ai-briefing-formerly-china-ai-daily-%F0%9F%91%80-ai-browser-is-here-ai-short-films-fall-short-navigate-like-iron-man"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search1",
+      "title": "Rokid vs Even G2どっちのAIグラスがいい？ / Fable 5がサブスクに組み込まれた！ | マクラジ┃マクリンのAI・ガジェットーーク Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/608ef26b-88e1-4033-8fe7-11c672675e2d/episodes/eb96d71d-7319-4f87-980d-99bd3ee92727/%E3%83%9E%E3%82%AF%E3%83%A9%E3%82%B8%E2%94%83%E3%83%9E%E3%82%AF%E3%83%AA%E3%83%B3%E3%81%AEai%E3%83%BB%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%BC%E3%83%BC%E3%82%AF-rokid-vs-even-g2%E3%81%A9%E3%81%A3%E3%81%A1%E3%81%AEai%E3%82%B0%E3%83%A9%E3%82%B9%E3%81%8C%E3%81%84%E3%81%84%EF%BC%9F-fable-5%E3%81%8C%E3%82%B5%E3%83%96%E3%82%B9%E3%82%AF%E3%81%AB%E7%B5%84%E3%81%BF%E8%BE%BC%E3%81%BE%E3%82%8C%E3%81%9F%EF%BC%81"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search2",
+      "title": "Smart Glasses 2025: vielseitig, unauffällig und fast schon nützlich | c’t uplink | c’t uplink - der IT-Podcast aus Nerdistan Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/999fb65f-db28-4d93-ac03-f7f7f2e5e4f8/episodes/1939be7d-e77a-407d-90fc-73bb7e8c97f4/c%E2%80%99t-uplink---der-it-podcast-aus-nerdistan-smart-glasses-2025-vielseitig-unauff%C3%A4llig-und-fast-schon-n%C3%BCtzlich-c%E2%80%99t-uplink"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search3",
+      "title": "E134 - Developing for AI Glasses + AI Glasses News with Christoph Spinger from Telekom MMS | Spatial Realities Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/9b61273d-b50a-4dcf-a1d8-c7130f42b858/episodes/40b2c79a-0c3e-4d49-b659-fccf9f66a2a7/spatial-realities-e134---developing-for-ai-glasses-ai-glasses-news-with-christoph-spinger-from-telekom-mms"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search4",
+      "title": "E136 - AI Glasses Hackathon & IFA Recap, Hardware News with HTC VIVE Eagle and RayNeo iO and NextApp Feature with Greg Fawsom | Spatial Realities Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/9b61273d-b50a-4dcf-a1d8-c7130f42b858/episodes/c5bb88c5-4b55-40b9-a08d-3ac9fb4388aa/spatial-realities-e136---ai-glasses-hackathon-ifa-recap-hardware-news-with-htc-vive-eagle-and-rayneo-io-and-nextapp-feature-with-greg-fawsom"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search5",
+      "title": "#SGGQA 295 – Intel and Arm Chips, Xiaomi 13 Ultra Teaser, Right to Repair Win in Colorado, Slow Galaxy Charging, Social Media Laws Going CRAZY | Talking Tech with SomeGadgetGuy (#SGGQA) Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/ff058384-b6fc-4cb3-863d-fe580842cad9/episodes/727b0df6-903a-4948-8586-92f5619c9fcd/talking-tech-with-somegadgetguy-sggqa-sggqa-295-%E2%80%93-intel-and-arm-chips-xiaomi-13-ultra-teaser-right-to-repair-win-in-colorado-slow-galaxy-charging-social-media-laws-going-crazy"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search6",
+      "title": "E119 - 10x Expertinnen über 2026 in XR! CES Zusammenfassung, Meta und Apple News | Spatial Realities Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/9b61273d-b50a-4dcf-a1d8-c7130f42b858/episodes/145a2756-f78e-4a8e-a108-cfffe782fcf5/spatial-realities-e119---10x-expertinnen-%C3%BCber-2026-in-xr-ces-zusammenfassung-meta-und-apple-news"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search7",
+      "title": "Smart glasses or ‘pervert glasses’? | The Global Story Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/25ca2491-b8f4-4520-8fc5-032670f8893e/episodes/a64a32ae-82d4-4346-b261-f18da93419b3/the-global-story-smart-glasses-or-%E2%80%98pervert-glasses%E2%80%99"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search8",
+      "title": "Meta Made a Tamagotchi for Its AI | Tech Brew Ride Home Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/a317dc33-a1a2-4b3c-b2a9-6bed1b779ad3/episodes/d2682213-ef29-4256-8d10-0f0fb41e08c4/tech-brew-ride-home-meta-made-a-tamagotchi-for-its-ai"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search9",
+      "title": "Vuzix Z100 Smart Glasses offer heads up display and more | Techstination Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/8a62059e-654f-4661-86f3-33d42476e05c/episodes/c216e474-d253-4579-8612-a22a6a8db86c/techstination-vuzix-z100-smart-glasses-offer-heads-up-display-and-more"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cdn.amazon.de",
+      "ref_id": "turn25search10",
+      "title": "Amazon.de Best Sellers: The most popular items in Blue Light Blocking Glasses",
+      "url": "https://www.cdn.amazon.de/-/en/gp/bestsellers/drugstore/27390038031/ref%3Dzg_b_bs_27390038031_1"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.amazon.de",
+      "ref_id": "turn25search11",
+      "title": "Santiago Hervella (Vision Pros - 0028) | Vision Pros Episode auf Amazon Music",
+      "url": "https://music.amazon.de/podcasts/d49da6c3-a58a-4aae-8157-618b48dae769/episodes/d0e7e453-13b5-4a85-8336-63b90237356b/vision-pros-santiago-hervella-vision-pros---0028"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-cebb8361-001f-4a20-8d9f-a46f43fb3bd5",
+  "query": "\"Rokid Glasses\" \"amazon.de\" -site:music.amazon.de ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Rokid Glasses\" \"amazon.de\" -site:music.amazon.de",
+      "\"Rokid\" \"mit Display\" Amazon kaufen"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.notebookcheck.com",
+      "ref_id": "turn26search0",
+      "title": "Rokid Glasses mit Display bei Amazon günstiger erhältlich – wir testen die AR-Brille - Notebookcheck News",
+      "url": "https://www.notebookcheck.com/Rokid-Glasses-mit-Display-bei-Amazon-guenstiger-erhaeltlich-wir-testen-die-AR-Brille.1328601.0.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartspecscheck.co.uk",
+      "ref_id": "turn26search1",
+      "title": "Rokid Glasses availability by country",
+      "url": "https://smartspecscheck.co.uk/availability/rokid-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.idealo.de",
+      "ref_id": "turn26search2",
+      "title": "Rokid Glasses mit Display | Preisvergleich bei idealo.de",
+      "url": "https://www.idealo.de/preisvergleich/Liste/123733039/rokid-glasses-mit-display.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn26search3",
+      "title": "Rokid-Brille | Weltweit leichteste KI- und AR-Brille",
+      "url": "https://global.rokid.com/de-deutsch/products/rokid-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.china-gadgets.de",
+      "ref_id": "turn26search4",
+      "title": "Rokid Glasses mit Display: Konkurrenzlose AR-Brille im Test",
+      "url": "https://www.china-gadgets.de/rokid-glasses-ar-brille-test/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.nextag.de",
+      "ref_id": "turn26search5",
+      "title": "Rokid | Machen Sie den Preisvergleich bei Nextag",
+      "url": "https://www.nextag.de/shopping/products?search=rokid"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartbrille.kaufen",
+      "ref_id": "turn26search6",
+      "title": "Rokid 2026: Alle Smart Glasses, Preise und Tests",
+      "url": "https://smartbrille.kaufen/rokid/"
+    },
+    {
+      "type": "text_result",
+      "domain": "ar-directory.huskynarr.de",
+      "ref_id": "turn26search7",
+      "title": "Rokid AI Glasses – Specs, Preis & Vergleich | AR Directory",
+      "url": "https://ar-directory.huskynarr.de/rokid/ai-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartbrille.kaufen",
+      "ref_id": "turn26search8",
+      "title": "Vuzix Smart Glasses 2026: Modelle, Preise & Alternativen",
+      "url": "https://smartbrille.kaufen/vuzix/"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn26view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ccec9b35-e95a-4b53-bef5-a4d24974db97",
+  "query": "https://www.notebookcheck.com/Rokid-Glasses-mit-Display-bei-Amazon-guenstiger-erhaeltlich-wir-testen-die-AR-Brille.1328601.0.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.notebookcheck.com/Rokid-Glasses-mit-Display-bei-Amazon-guenstiger-erhaeltlich-wir-testen-die-AR-Brille.1328601.0.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.notebookcheck.com",
+      "ref_id": "turn27view0",
+      "snippet": "Total lines: 107",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/LrixLs7Rbgqg6EdZJHDqNmoq546uojmU7SN3QYa75nnw0a1GHL0xMngcN_abZpojffN61onBcawqwp3JVljc5gec6m2q06GY0pqHuQNe_-zhA00aI7iMWyuUJ9UU8BxV",
+      "title": "Rokid Glasses mit Display bei Amazon günstiger erhältlich – wir testen die AR-Brille - Notebookcheck News",
+      "url": "https://www.notebookcheck.com/Rokid-Glasses-mit-Display-bei-Amazon-guenstiger-erhaeltlich-wir-testen-die-AR-Brille.1328601.0.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-0bd83cc4-7a41-49ab-94d4-b931665bb9a7",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn28view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Da — am găsit o listare Amazon.de pentru Rokid Glasses cu afișaj**, modelul comparabil cu Even G2:
+
+👉 **[Rokid Glasses cu afișaj — Amazon.de](https://www.amazon.de/dp/B0FZTKF41M)**  
+Cod Amazon (ASIN): **B0FZTKF41M**
+
+Listarea este identificată de [Notebookcheck](https://www.notebookcheck.com/Rokid-Glasses-mit-Display-bei-Amazon-guenstiger-erhaeltlich-wir-testen-die-AR-Brille.1328601.0.html) ca modelul cu afișaj verde, cameră și difuzoare, vândut atunci de producător și expediat de Amazon.
+
+**Nu am putut confirma prețul actual, stocul sau livrarea în România**, deoarece pagina Amazon a returnat o eroare la accesare. Introdu adresa ta de livrare pentru a vedea oferta disponibilă.
+
+Este modelul existent **Rokid Glasses**, nu o listare confirmată pentru **Glasses 2**.
+
+## Asistent
+
+Voi verifica denumirea folosită în anunț și dacă acesta promite începerea vânzărilor pe 27 octombrie, nu doar prezentarea produsului.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-4a444d46-eb70-4f4f-a8d4-b1edf0feb934",
+  "query": "https://www.doctorglasses.com.cn/sys-nd/222.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn29view0",
+      "snippet": "Total lines: 139",
+      "title": "博士眼镜与乐奇Rokid达成战略合作，共启AI眼镜“验配一体化”新篇章 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.10jqka.com.cn",
+      "ref_id": "turn29view1",
+      "snippet": "Total lines: 144",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/6w8DlDH2CA8oNisNfIZItHAUEhTtkkd-KvnNKv7gvCZ6kwUl6PL883NHA28KbhxxXuvRZL3pcXSMxXU7HAhNlsgvB_5J_W_PmoSet6QCad4pefDAFeR8ZFPGWiOy6WxKivMH7Gn7JDfh_xTa_ixk-q4cDfpxdIhAtpOHF6eTv8wsz0HeJBjF9Rht58GV_SLJ",
+      "title": "乐奇（Rokid）二代全球首秀，专访蔡国祥：AR眼镜的“iPhone时刻”还要三年",
+      "url": "https://news.10jqka.com.cn/20260924/c680277479.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sohu.com",
+      "ref_id": "turn29view2",
+      "snippet": "Total lines: 75",
+      "title": "Rokid第二代AI眼镜，戳到了牛马的心坎上_Glasses_无感_外观",
+      "url": "https://www.sohu.com/a/1080412425_122647867"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Da: sursele spun că generația a doua va putea fi cumpărată după prezentarea de mâine, 27 octombrie 2026, în China.** Nu este confirmată disponibilitatea simultană pe Amazon.de sau în România.
+
+**Denumirea necesită o precizare:**
+
+| Produs | Denumire verificată |
+|---|---|
+| Modelul existent, inclusiv cel de pe Amazon.de | **Rokid Glasses**, uneori completat cu **„With Display” / „mit Display”** |
+| Noua generație | **„第二代乐奇 AI 眼镜”** — „ochelarii AI Rokid de generația a doua”, în comunicatul partenerului oficial |
+| Denumirea folosită în prezentările presei | **Rokid Glasses 2**; nu am confirmat încă numele comercial internațional final |
+
+Așadar, am folosit anterior „Rokid Glasses 2” prea categoric ca denumire oficială globală. Aceasta apare în [prezentarea FocusXR](https://www.sohu.com/a/1080412425_122647867), dar comunicatul comercial folosește formularea „generația a doua”.
+
+Despre cumpărare există două confirmări explicite:
+
+- **Vicepreședintele Rokid** spune în interviu că produsul poate fi cumpărat imediat după lansare. [Interviul din 24 septembrie](https://news.10jqka.com.cn/20260924/c680277479.shtml)
+- **DoctorGlasses**, partenerul comercial, anunță începerea vânzărilor pe **27 octombrie**, inclusiv în anumite magazine proprii din China. [Comunicatul oficial](https://www.doctorglasses.com.cn/sys-nd/222.html)
+
+**Pentru o comandă din România, încă lipsește confirmarea versiunii globale și a datei sale de livrare.**
+
+## Asistent
+
+**În engleză:**
+
+Hello! Do you have the new second-generation Rokid AI glasses with a display, launching today, October 27, 2026?
+
+I’m looking for the new generation, not the first-generation Rokid Glasses or the display-free Rokid Style. Could you please confirm:
+
+- The official product name and model number.
+- Whether they are in stock and available to buy and take home today.
+- The price and what is included.
+- Whether this is the Chinese or international version, and whether it supports English and works in Romania.
+- Whether it supports the official developer SDK and installing custom applications.
+
+Could I try them on and see the display before buying?
+
+**În chineză simplificată:**
+
+您好！请问你们店里有今天（2026年10月27日）发布的新一代乐奇 Rokid 带显示屏的 AI 眼镜吗？
+
+我想买的是第二代新品，不是第一代 Rokid Glasses，也不是没有显示屏的 Rokid Style。麻烦帮我确认一下：
+
+- 产品的正式名称和具体型号是什么？
+- 现在有现货吗？今天可以直接购买并带走吗？
+- 售价是多少？包装内包含哪些配件？
+- 这是中国版还是国际版？是否支持英语，能否在罗马尼亚正常激活和使用？
+- 是否支持官方开发者 SDK，以及安装自己开发的应用程序？
+
+购买前可以试戴一下，体验镜片上的显示效果吗？
+
+## Asistent
+
+Voi folosi ca reper hotelul Holiday Inn Express Beijing Conference Center din imagine și voi căuta magazinele 博士眼镜 (DoctorGlasses) din apropiere, inclusiv informații despre disponibilitatea noii generații Rokid.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-223d66eb-5c45-4ad1-b31a-2499696f13f3",
+  "query": "博士眼镜 北京 门店 北苑 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "博士眼镜 北京 门店 北苑",
+      "Holiday Inn Express Beijing Conference Center address",
+      "博士眼镜 北京 Rokid 二代 门店 10月27日"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn30search0",
+      "title": "线下体验店 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/map"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn30search1",
+      "title": "千问13号发货、Rokid27号官宣：现在抢1996的雷鸟iO前，先看清三家的\"三场赌局\"_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a3m0qlvd/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ihg.com",
+      "ref_id": "turn30search2",
+      "title": "Holiday Inn Express Beijing Conference Center Map & Driving Directions | Parking Options for Holiday Inn Express Beijing Conference Center in Beijing",
+      "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/beijing/bjscc/hoteldetail/directions"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn30search3",
+      "title": "乐奇二代前夜，北京有个十几个AI眼镜一次凑齐试完的窗口：10.28关门，这90分钟别乱花_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/anv92vdp/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sohu.com",
+      "ref_id": "turn30search4",
+      "title": "极刻觅镜 | AI眼镜退货率30%至70%：这个数字统计的是线上渠道，线下验光试戴后成交的订单退货率明显更低_Rokid_品牌_门店",
+      "url": "https://www.sohu.com/a/1092078268_123023378"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ac906f8f-90a5-47bb-b088-527918646178",
+  "query": "\"博士眼镜\" \"北京\" \"门店\" 地址 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"博士眼镜\" \"北京\" \"门店\" 地址",
+      "\"博士眼镜\" \"北苑\"",
+      "\"博士眼镜\" \"北京\" \"朝阳\"",
+      "site.doctorglasses.com.cn 北京 门店"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "pdf.dfcfw.com",
+      "ref_id": "turn31search12",
+      "title": "博士眼镜连锁股份有限公司 2024 年半年度报告全文",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202408281639529171_1.pdf?1724873220000.pdf="
+    },
+    {
+      "type": "text_result",
+      "domain": "m.mxj.com.cn",
+      "ref_id": "turn31search0",
+      "title": "博士眼镜全国有多少家门店_博士眼镜店铺分布地图-盟享加",
+      "url": "https://m.mxj.com.cn/map/89679.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "32606142.s21i.faiusr.com",
+      "ref_id": "turn31search13",
+      "title": "博士眼镜连锁股份有限公司2024 年半年度报告全文",
+      "url": "https://32606142.s21i.faiusr.com/61/ABUIABA9GAAgq5HWtgYoibSpEA.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wanlitong.com",
+      "ref_id": "turn31search14",
+      "title": "<table id=\"e1\">",
+      "url": "https://www.wanlitong.com/wap/event/prepaidcard_marchant/beijing.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ditu.amap.com",
+      "ref_id": "turn31search1",
+      "title": "石人工博士眼镜(北京眼镜城店) - 北京市朝阳区 - 购物服务;专卖店;眼镜店 | 地址营业时间 | 高德地图",
+      "url": "https://ditu.amap.com/place/B0FFJ22988"
+    },
+    {
+      "type": "text_result",
+      "domain": "money.finance.sina.com.cn",
+      "ref_id": "turn31search2",
+      "title": "博士眼镜(300622)_公司公告_博士眼镜：2024年年度报告新浪财经_新浪网",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10873881&stockid=300622"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn31search3",
+      "title": "博士眼镜连锁股份有限公司官网 - 您身边的视力保护专家，智能眼镜交付的最后一公里！ - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/h-col-135.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "pdf.dfcfw.com",
+      "ref_id": "turn31search15",
+      "title": "博士眼镜连锁股份有限公司 2024 年年度报告全文",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202504141656456235_1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "k.sina.cn",
+      "ref_id": "turn31search4",
+      "title": "2026北京眼镜店排名前五！NICE TO CU凭实力霸榜，附硬核竞品对比|北京市|穿搭|古驰（Gucci）|宝姿(Ports)|山本耀司(YOHJI YAMAMOTO)_新浪新闻",
+      "url": "https://k.sina.cn/article_7438412485_1bb5d2ac500101efcu.html?from=fashion"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.qiyoutuo.com",
+      "ref_id": "turn31search5",
+      "title": "北京主流眼镜店实测排行 多维度配镜服务全对比",
+      "url": "https://www.qiyoutuo.com/NewsDetail/7416860.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.echinagov.com",
+      "ref_id": "turn31search6",
+      "title": "2026年北京专业的大人斜弱视眼镜店,离焦镜片配镜联系电话与配镜全攻略 - 北京孙小杰眼镜店 - 移动触屏版",
+      "url": "https://www.echinagov.com/news/guotao/Article-MA4Km-688.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "disc.static.szse.cn",
+      "ref_id": "turn31search16",
+      "title": "博士眼镜连锁股份有限公司 2025 年年度报告全文",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-28/abfa2f77-bc38-402c-8d0a-ced55ecb6338.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "money.finance.sina.com.cn",
+      "ref_id": "turn31search7",
+      "title": "博士眼镜(300622)_公司公告_博士眼镜：关于博士眼镜连锁股份有限公司申请向不特定对象发行可转换公司债券的审核问询函的回复(修订稿)新浪财经_新浪网",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11661487&stockid=300622"
+    },
+    {
+      "type": "text_result",
+      "domain": "pdf.dfcfw.com",
+      "ref_id": "turn31search17",
+      "title": "证券代码：300622                             证券简称：博士眼镜",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202211091580116383_1.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-12c60914-7aa4-4f5c-8322-7d7ac801c11a",
+  "query": "\"博士眼镜\" \"北京\" \"卓荣\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"博士眼镜\" \"北京\" \"卓荣\"",
+      "\"博士眼镜\" \"北京\" \"北苑\"",
+      "\"博士眼镜\" \"北京\" \"望京\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "qccdata.qichacha.com",
+      "ref_id": "turn32search12",
+      "title": "发行人律师关于本次发行的文件　　　　　　　　　　　　　　　　　　　　　　　　　补充法律意见书（三）",
+      "url": "https://qccdata.qichacha.com/Disclosure/3241fac20040ecc3b3e38c14137c50c3.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wanlitong.com",
+      "ref_id": "turn32search13",
+      "title": "<table id=\"e1\">",
+      "url": "https://www.wanlitong.com/wap/event/prepaidcard_marchant/beijing.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.nowcoder.com",
+      "ref_id": "turn32search0",
+      "title": "博士眼镜连锁股份有限公司2026年校招职位信息-牛客网",
+      "url": "https://www.nowcoder.com/enterprise/29890?urlSource=sitemap"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.echinagov.com",
+      "ref_id": "turn32search1",
+      "title": "2026年北京可靠的专业验光·离焦镜地址在哪指南：聚焦视觉健康未来，解析几家专业验光与离焦镜机构的差异化优势",
+      "url": "https://www.echinagov.com/news/guotao/Article-9RmZw1bA-281.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.echinagov.com",
+      "ref_id": "turn32search2",
+      "title": "2026年北京高散光配眼镜、高度数配镜哪家好？专业验配机构深度评测与选择指南",
+      "url": "https://www.echinagov.com/news/guotao/Article-MA4Km-706.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "51sjxx.com",
+      "ref_id": "turn32search3",
+      "title": "北京市眼镜店名录查询〖全国眼镜店名录〗_最新北京市眼镜店名录查询〖全国眼镜店名录〗联系电话与地址_拾集小象",
+      "url": "https://51sjxx.com/wen/3227.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cnblogs.com",
+      "ref_id": "turn32search4",
+      "title": "2026年北京眼镜店卖的眼镜质量好的推荐，烁客眼镜店上榜！ - 工业推荐榜 - 企业博客",
+      "url": "https://www.cnblogs.com/myxiaofei/p/19526485"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.b2b168.com",
+      "ref_id": "turn32search5",
+      "title": "〖望眼镜〗望眼镜黄页|公司名录-望眼镜供应商|制造商|生产厂家 - 八方资源网",
+      "url": "https://www.b2b168.com/k-wangyanjing/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cepf.org.cn",
+      "ref_id": "turn32search14",
+      "title": "<table id=\"e1\">",
+      "url": "https://www.cepf.org.cn/gyxm/lsfzyxczx/QSJH/STWM_XMDT/202108/P020240108622994231954.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "policy.taikang.com",
+      "ref_id": "turn32search15",
+      "title": "序号  | 网点全称  | 网点简称  | 省  | 市  | 区  | 详细地址",
+      "url": "https://policy.taikang.com/tkcms/file/upload/tkonline2020/gwfwzx/%E6%98%8E%E7%9B%AE%E4%BF%9D%E4%BA%A7%E5%93%81-%E7%9C%BC%E7%A7%91%E5%8F%8A%E8%A7%86%E5%85%89%E6%9C%8D%E5%8A%A1%E6%9C%BA%E6%9E%84_20240110155536342.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "11xxw.cn",
+      "ref_id": "turn32search6",
+      "title": "全国眼镜店电话号码通讯录名录大全查询 - 11信息网",
+      "url": "https://11xxw.cn/newsinfo-2143.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn32view0",
+      "snippet": "Total lines: 134",
+      "title": "博士眼镜连锁股份有限公司官网 - 您身边的视力保护专家，智能眼镜交付的最后一公里！",
+      "url": "https://www.doctorglasses.com.cn/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d4ffeca2-ea24-43b5-8e61-faf77b9c0d33",
+  "query": "https://www.doctorglasses.com.cn/sys-nd/222.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn33view0",
+      "snippet": "Total lines: 139",
+      "title": "博士眼镜与乐奇Rokid达成战略合作，共启AI眼镜“验配一体化”新篇章 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn33view1",
+      "snippet": "Total lines: 9",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/VavWiFefSrKns5BrENzoznFfrSZxcomrNv7Gx_XnaREB3o9sP1C8R1vdHB6LXUmV8tcSnAfVPc_9B0S9uRwEu2QAFxDp6rnHU1iaDcrGrgE",
+      "title": "线下体验店 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/map"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn33view2",
+      "snippet": "Total lines: 146",
+      "title": "博士眼镜连锁股份有限公司官网 - 您身边的视力保护专家，智能眼镜交付的最后一公里！ - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/h-col-219.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d927689c-a95a-4f55-a4bb-eaf955100f32",
+  "query": "\"博士眼镜\" \"北京\" \"顺义\" 门店 地址 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"博士眼镜\" \"北京\" \"顺义\" 门店 地址",
+      "\"博士眼镜\" \"北京\" \"知春\" 电话",
+      "site.rokid.com/zh-CN/map \"北辰\" \"84444080\"",
+      "\"博士眼镜\" \"北京\" \"10月27日\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "qxb-pdf-osscache.qixin.com",
+      "ref_id": "turn34search12",
+      "title": "博士眼镜连锁股份有限公司2025年半年度报告全文",
+      "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/e43eb94073271039685427013e351bba.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.100est.com",
+      "ref_id": "turn34search13",
+      "title": "博士眼镜连锁股份有限公司2024 年年度报告全文",
+      "url": "https://www.100est.com/res/financial-report/r2024/SZ300622_202504141656456235.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "pdf.dfcfw.com",
+      "ref_id": "turn34search14",
+      "title": "博士眼镜连锁股份有限公司 2024 年年度报告全文",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202504141656456235_1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.cninfo.com.cn",
+      "ref_id": "turn34search15",
+      "title": "博士眼镜连锁股份有限公司2023 年半年度报告全文",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-08-29/1217673521.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "pdf.dfcfw.com",
+      "ref_id": "turn34search16",
+      "title": "博士眼镜连锁股份有限公司 2024 年半年度报告全文",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202408281639529171_1.pdf?1724873220000.pdf="
+    },
+    {
+      "type": "text_result",
+      "domain": "32606142.s21i.faiusr.com",
+      "ref_id": "turn34search17",
+      "title": "博士眼镜连锁股份有限公司2024 年半年度报告全文",
+      "url": "https://32606142.s21i.faiusr.com/61/ABUIABA9GAAgq5HWtgYoibSpEA.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "money.finance.sina.com.cn",
+      "ref_id": "turn34search0",
+      "title": "博士眼镜(300622)_公司公告_博士眼镜：2024年年度报告新浪财经_新浪网",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10873881&stockid=300622"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn34search1",
+      "title": "千问13号发货、Rokid27号官宣：现在抢1996的雷鸟iO前，先看清三家的\"三场赌局\"_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a3m0qlvd/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xreal.com",
+      "ref_id": "turn34search2",
+      "title": "XREAL 门店查询｜购买渠道",
+      "url": "https://www.xreal.com/cn/stores"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cnblogs.com",
+      "ref_id": "turn34search3",
+      "title": "2026顺义配镜店口碑推荐，价格透明零套路不踩坑 - mypinpai - 企业博客",
+      "url": "https://www.cnblogs.com/mypinpai/p/21196452"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ldqxn.com",
+      "ref_id": "turn34search4",
+      "title": "2026年甄选顺义区配电竞用的防蓝光眼镜哪家好，用户力荐实力参考-亮点黔西南-品牌资讯",
+      "url": "https://www.ldqxn.com/pinpai/2412328.html"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Nu am putut confirma un magazin DoctorGlasses apropiat de hotel care să aibă mâine Rokid generația a doua în stoc.** În imagine, reperul este **Holiday Inn Express Beijing Conference Center**, în zona Beiyuan.
+
+Anunțul oficial spune că lansarea din **27 octombrie 2026** se face în **anumite magazine DoctorGlasses**, cu demonstrații și posibilitatea de probare. Nu publică lista magazinelor participante și nu garantează cumpărarea cu ridicare imediată. [Anunțul DoctorGlasses](https://www.doctorglasses.com.cn/sys-nd/222.html)
+
+**Pentru a afla exact magazinul cel mai apropiat care vinde mâine, contactul util este serviciul oficial DoctorGlasses: `400-600-3663`, apelat din China.** Poți cere recepției hotelului să sune. [Contact oficial](https://www.doctorglasses.com.cn/h-col-219.html)
+
+Arată recepției acest mesaj în chineză:
+
+> 您好，麻烦帮我致电博士眼镜客服400-600-3663。我住在北京会议中心智选假日酒店，想购买10月27日上市的第二代乐奇Rokid AI眼镜。请问距离酒店最近、明天有现货可以付款后直接取走的博士眼镜门店是哪一家？请确认门店地址、电话、营业时间，以及是否可以预留一副。谢谢！
+
+Înseamnă:
+
+> „Vă rog să sunați la DoctorGlasses. Sunt cazat la Holiday Inn Express Beijing Conference Center și vreau să cumpăr a doua generație Rokid AI, lansată pe 27 octombrie. Care este cel mai apropiat magazin care are mâine stoc pentru cumpărare și ridicare imediată? Vă rog să confirmați adresa, telefonul, programul și dacă poate rezerva o pereche.”
+
+**Aș confirma stocul înainte de deplasare:** un magazin cu exemplare pentru demonstrație poate să nu aibă încă produse disponibile pentru ridicare.
+
+## Asistent
+
+Voi verifica dacă există un punct de vânzare Rokid sau DoctorGlasses la aeroporturile din Beijing. Imaginea indică Beijing, dar nu arată aeroportul de plecare.
+
+
+## Asistent
+
+De la ce aeroport pleacă zborul spre Budapesta: Beijing Capital (PEK), Beijing Daxing (PKX) sau altul? Poți scrie și numărul zborului.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-894d31c8-48ac-44dd-b353-fb8a4ab1f3f6",
+  "query": "Rokid 博士眼镜 北京 首都机场 大兴机场 门店 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Rokid 博士眼镜 北京 首都机场 大兴机场 门店",
+      "site.rokid.com/zh-CN/map 机场 北京",
+      "site.bcia.com.cn 眼镜",
+      "site.bdia.com.cn 眼镜"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn35search0",
+      "title": "线下体验店 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/map"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn35search1",
+      "title": "Offline Experience Store - Rokid",
+      "url": "https://www.rokid.com/en-US/map"
+    },
+    {
+      "type": "text_result",
+      "domain": "maps.apple.com",
+      "ref_id": "turn35search2",
+      "title": "Ruoqi Rokid AR Glasses (Zhongguancun Lingzhan Guangchang Branch) in Beijing China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118741719438229&lsp=57879"
+    },
+    {
+      "type": "text_result",
+      "domain": "whlyj.beijing.gov.cn",
+      "ref_id": "turn35search12",
+      "title": "附件 1：\n\n“北京礼物”门店列表\n\n<visual_element id=\"e1\">\n北京礼物（B",
+      "url": "https://whlyj.beijing.gov.cn/zwgk/tzgg/202511/P020251107428792288264.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bcia.com.cn",
+      "ref_id": "turn35search3",
+      "title": "购物-北京首都国际机场",
+      "url": "https://www.bcia.com.cn/gw.html"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Da, locația din imagine este în Beijing. Și da: există magazine listate oficial de Rokid la ambele aeroporturi din Beijing.** Nu am însă confirmarea că vor avea **generația a doua mâine, 27 octombrie**, pentru cumpărare imediată.
+
+| Aeroport | Magazin | Amplasare | Telefon |
+|---|---|---|---|
+| **Beijing Capital — PEK, T2** | 翼蓝数码 — Yilan Digital | Terminalul 2, spațiul **GC209** | **+86 155 6531 6188** |
+| **Beijing Capital — PEK, T2** | 陶朱新造局 — Taozhu | Clădirea parcării T2, vizavi de Starbucks | **+86 176 9240 5886** |
+| **Beijing Capital — PEK, T3** | 陶朱新造局 — Taozhu | Clădirea parcării T3, nivel **B1**, vizavi de FamilyMart | **+86 176 9240 5886** |
+| **Beijing Daxing — PKX** | 翼蓝数码 — Yilan Digital | Plecări internaționale, aripa **E**, lângă poarta **80** | **+86 187 6716 8879** |
+
+Acestea sunt puncte din [locatorul oficial Rokid](https://www.rokid.com/zh-CN/map), nu magazine DoctorGlasses. **Programul de noapte și stocul modelului nou trebuie confirmate telefonic.**
+
+Poate trimite sau arăta acest mesaj în chineză:
+
+> 您好，请问你们店明天（10月27日）有新上市的第二代乐奇Rokid AI眼镜现货吗？可以直接购买并带走吗？我明天晚上飞布达佩斯，请问你们营业到几点？可以预留一副吗？
+
+„Aveți mâine, 27 octombrie, noua generație a doua Rokid AI în stoc, pentru cumpărare și ridicare imediată? Zbor seara spre Budapesta. Până la ce oră sunteți deschiși? Puteți rezerva o pereche?”
+
+**Ce cod de aeroport sau număr de zbor apare pe bilet?** Cu acesta pot identifica magazinul relevant pentru plecare; destinația Budapesta singură nu stabilește aeroportul și terminalul.
+
+## Asistent
+
+Verific ce statut au magazinele din aeroport și ce alte produse vând.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6734c1f2-fc17-4fa6-ac67-d0ef12ee0435",
+  "query": "陶朱新造局 首都机场 店 品牌 产品 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "陶朱新造局 首都机场 店 品牌 产品",
+      "翼蓝数码 首都机场 大兴机场 产品 品牌"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "bj.people.com.cn",
+      "ref_id": "turn36search0",
+      "title": "機器人科技體驗店入駐首都機場",
+      "url": "https://bj.people.com.cn/BIG5/n2/2025/1014/c82840-41379209.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cah.com.cn",
+      "ref_id": "turn36search1",
+      "title": "大疆“领衔”入驻 首都机场三号航站楼打造硬核科技街区 - 成员动态 - 首都机场集团",
+      "url": "https://www.cah.com.cn/content/2026/05-19/7462305199802028032.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cah.com.cn",
+      "ref_id": "turn36search2",
+      "title": "首都机场 T3 “中国智造” 主题街区全面投运 国门商业再添国潮科技新地标 - 成员动态 - 首都机场集团",
+      "url": "https://www.cah.com.cn/content/2026/07-10/7481137699617771520.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cah.com.cn",
+      "ref_id": "turn36search3",
+      "title": "大兴机场商圈驶入高质量发展“快车道” - 成员动态 - 首都机场集团",
+      "url": "https://www.cah.com.cn/content/2026/01-15/7417371439398916096.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.52hrtt.com",
+      "ref_id": "turn36search4",
+      "title": "机器人体验店开进首都机场_全球_新闻_华人头条",
+      "url": "https://www.52hrtt.com/sa/n/w/info/F1763519033002"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.airport-brands.com",
+      "ref_id": "turn36search5",
+      "title": "集成 - 国内机场商业品牌库",
+      "url": "https://www.airport-brands.com/52"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.sohu.com",
+      "ref_id": "turn36search6",
+      "title": "首程控股第三家机器人科技体验店落地首都机场_搜狐网",
+      "url": "https://m.sohu.com/a/943513067_362042/"
+    },
+    {
+      "type": "text_result",
+      "domain": "sina.cn",
+      "ref_id": "turn36search7",
+      "title": "智能硬件店变打卡景点，顾客体验外骨骼机器人|智能硬件商店|陶朱新造局|上纬新材|智能硬件|京东mall|智能眼镜|外骨骼机器人_新浪新闻",
+      "url": "https://sina.cn/news/detail/5349973889910540.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "voasg.com",
+      "ref_id": "turn36search8",
+      "title": "首程控股春节前密集落子 陶朱新造局三店联动构建机器人线下生态网络",
+      "url": "https://voasg.com/acn-newswire/%E9%A6%96%E7%A8%8B%E6%8E%A7%E8%82%A1%E6%98%A5%E8%8A%82%E5%89%8D%E5%AF%86%E9%9B%86%E8%90%BD%E5%AD%90-%E9%99%B6%E6%9C%B1%E6%96%B0%E9%80%A0%E5%B1%80%E4%B8%89%E5%BA%97%E8%81%94%E5%8A%A8%E6%9E%84%E5%BB%BA/"
+    },
+    {
+      "type": "text_result",
+      "domain": "bkso.baidu.com",
+      "ref_id": "turn36search9",
+      "title": "陶朱新造局_百度百科",
+      "url": "https://bkso.baidu.com/item/%E9%99%B6%E6%9C%B1%E6%96%B0%E9%80%A0%E5%B1%80/66817958?fromModule=lemma_inlink"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sohu.com",
+      "ref_id": "turn36search10",
+      "title": "商贸公司：五家特色快闪店亮相大兴机场国际区域_旅客_文化_消费",
+      "url": "https://www.sohu.com/a/962758039_121117477"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.visitbeijing.com.cn",
+      "ref_id": "turn36search11",
+      "title": "北京上新一大波首店！网友：排队也要去！",
+      "url": "https://www.visitbeijing.com.cn/article/4RZmEetHOQs"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Sunt magazine partenere listate pe site-ul oficial Rokid, care vând mai multe mărci.** Nu am dovezi că sunt deținute sau operate de Rokid. Formularea mea anterioară „magazine oficiale” putea crea confuzie. [Locatorul Rokid](https://www.rokid.com/zh-CN/map)
+
+| Magazin din aeroport | Ce fel de magazin este | Ce mai vinde |
+|---|---|---|
+| **陶朱新造局 — Taozhu**, Beijing Capital T2/T3 | Magazin de robotică și tehnologie, cu demonstrații | Pentru **T3** sunt documentate: roboți de companie **Loona**, roboți transformabili **Robosen**, roboți pentru jocuri de masă **SenseRobot**, traducătoare și căști **iFlytek**, căști **Shokz**, electrocasnice inteligente **MOVA**, ochelari AR și stabilizatoare |
+| **翼蓝数码 — Bluedge**, Beijing Capital / Daxing | Magazin de electronice și accesorii pentru călătorie | Baterii externe, căști cu anularea zgomotului, cabluri și alte accesorii. Sortimentul exact diferă între puncte |
+
+Produsele Taozhu T3 sunt descrise într-un [reportaj despre magazinul din aeroport](https://bj.people.com.cn/BIG5/n2/2025/1014/c82840-41379209.html). Operatorul aeroportului descrie Bluedge ca [magazin cu produse de mai multe mărci](https://www.cah.com.cn/content/2026/07-10/7481137699617771520.html), iar [prezentarea punctului Daxing](https://www.sohu.com/a/962758039_121117477) enumeră accesoriile.
+
+**Pentru Rokid generația a doua, listarea oficială confirmă punctul de vânzare, dar nu stocul pentru 27 octombrie.** La telefon trebuie cerut explicit **第二代乐奇Rokid AI眼镜** și confirmată ridicarea în aceeași zi.
+
+## Asistent
+
+Îți reunesc magazinele din aeroporturi și programez verificări din oră în oră pentru mâine, după ora Beijingului, ca să urmăresc anunțurile despre lansare și disponibilitatea în magazine.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-99c55c4e-bb08-4aa6-a8bd-106d6c523f38",
+  "query": "site.rokid.com/zh-CN/map \"机场\" \"北京\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com/zh-CN/map \"机场\" \"北京\"",
+      "site.doctorglasses.com.cn \"10 月 27 日\" \"第二代\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn37search0",
+      "title": "博士眼镜与乐奇Rokid达成战略合作，共启AI眼镜“验配一体化”新篇章 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn37search1",
+      "title": "线下体验店 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/map"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn37search2",
+      "title": "Rokid 10月27日发布会前20天：二代已首秀却连售价都没公布、全彩还停在EVT样机、量产要等明年上半年，AI眼镜闲鱼已跌去七成——出货暴涨263%和退货率30%-70%量的是三把不同的尺子，冲一代党、等二代党、蹲全彩党、先租党、劝退党，掏钱前把这四条路线算清_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a6zpgrke/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn37search3",
+      "title": "乐奇二代在数贸会展出了，10月27日才开发布会：一代现在抄底还是等？我把9大变化和价格账一起摆给你看_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/avgp88rm/"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Folosesc instrucțiunile pentru programările Codex ca să setez monitorizarea în această conversație, doar pentru ziua de mâine.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-9aaa6846-aea5-46b3-81b0-837af92a267f",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\skills\\\\.system\\\\openai-docs\\\\SKILL.md'\"",
+  "cwd": "S:\\3dscan.eva-org.com",
+  "processId": null,
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\skills\\.system\\openai-docs\\SKILL.md'",
+      "name": "SKILL.md",
+      "path": "C:\\Users\\User\\.codex\\skills\\.system\\openai-docs\\SKILL.md"
+    }
+  ],
+  "aggregatedOutput": "Failed to create unified exec process: The directory name is invalid. (os error 267)",
+  "exitCode": -1,
+  "durationMs": 0
+}
+````
+
+## Asistent
+
+Am identificat patru puncte din aeroporturi în lista Rokid: trei la Capital (PEK) și unul la Daxing (PKX). Monitorizarea va căuta și stocul generației a doua, ora închiderii și posibilitatea de ridicare în aceeași zi, nu doar anunțul de lansare.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-db65bc25-342f-48f3-96eb-f470769ab45e",
+  "server": "codex_app",
+  "tool": "automation_update",
+  "status": "failed",
+  "arguments": {
+    "mode": "create",
+    "kind": "heartbeat",
+    "name": "Rokid 2 — disponibilitate Beijing 27 octombrie",
+    "prompt": "Pe 27 octombrie 2026, după ora Beijingului (Asia/Shanghai), verifică din oră în oră anunțurile publice despre lansarea și disponibilitatea pentru cumpărare cu ridicare în aceeași zi a generației a doua 乐奇 Rokid AI眼镜 / 第二代乐奇AI眼镜. Folosește prioritar rokid.com, locatorul https://www.rokid.com/zh-CN/map, DoctorGlasses https://www.doctorglasses.com.cn/sys-nd/222.html și anunțurile oficiale ale magazinelor și aeroporturilor. Caută magazine participante din Beijing și prioritizează: PEK T2 翼蓝数码 GC209, +86 15565316188; PEK T2 陶朱新造局 în clădirea parcării vizavi de Starbucks, +86 17692405886; PEK T3 陶朱新造局 în clădirea parcării B1 vizavi de FamilyMart, același telefon; PKX 翼蓝数码 la plecări internaționale aripa E lângă poarta 80, +86 18767168879. Utilizatorul călătorește spre Budapesta în noaptea următoare; aeroportul exact nu este încă confirmat. Prezintă în română noutățile verificate, cu linkuri, ora Beijingului, denumire model, preț, adresă, terminal, acces înainte/după securitate, program și stoc când sursele le confirmă. Distinge demonstrație, precomandă și stoc pentru ridicare imediată; nu deduce disponibilitatea generației a doua doar din listarea unui comerciant Rokid. Nu suna și nu trimite mesaje magazinelor. La prima verificare amintește utilizatorului să confirme telefonic stocul și programul. Continuă verificările în ziua de 27 octombrie până când lansarea și cel puțin un punct din Beijing cu disponibilitate explicit confirmată pentru cumpărare în aceeași zi sunt identificate; atunci raportează și oprește această monitorizare. În orice caz, nu continua după 27 octombrie ora 23:59 Beijing.",
+    "rrule": "DTSTART:20261026T160000Z\nRRULE:FREQ=HOURLY;INTERVAL=1;COUNT=24",
+    "status": "ACTIVE"
+  },
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "automation_update received invalid arguments: targetThreadId: Missing targetThreadId or destination=thread; rrule: Immediate automation creates cannot include DTSTART because it may change local wall-clock times to UTC. Omit DTSTART, or retry with mode=suggested_create when the user intentionally requested anchored or timezone-specific RFC semantics.."
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 71
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-1e5d64ca-70ca-4519-9b1c-4fa81869c166",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\skills\\\\.system\\\\openai-docs\\\\SKILL.md'\"",
+  "cwd": "C:\\Users\\User",
+  "processId": "47236",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\skills\\.system\\openai-docs\\SKILL.md'",
+      "name": "SKILL.md",
+      "path": "C:\\Users\\User\\.codex\\skills\\.system\\openai-docs\\SKILL.md"
+    }
+  ],
+  "aggregatedOutput": "Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.\r\n---\r\nname: \"openai-docs\"\r\ndescription: \"Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding agent' when they refer to Codex—and for OpenAI APIs/products and ChatGPT Work. Also use for model choice/migration, prompting, SDKs, Responses, Realtime, agents, evals, and Chat/Work/Codex comparisons. Do not use for generic app/software tasks that merely mention Codex.\"\r\nmetadata:\r\n  short-description: \"Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, and self-knowledge; OpenAI APIs and ChatGPT Work. 'You'/'this app' means Codex only.\"\r\n---\r\n\r\n# OpenAI Docs\r\n\r\nProvide current, cited OpenAI product, API, model, and Codex guidance. Read zero or one primary reference.\r\n\r\n**First substantive action:** Search the user's exact requested official OpenAI documentation topic and any explicitly named model using a concise, topic-specific query of 2-6 essential terms. When an already-available direct official documentation search and page-retrieval capability is present, use it first: search, then fetch or open the matching official page before general web search. Otherwise, immediately use official-domain web search, then actually open or fetch the relevant official page. Complete this source order before reading a reference, inspecting local or repository files, running a Codex manual or model resolver, drafting a plan, or answering from memory. Use the actual fetched page, not a search snippet or an unopened link. If one official search or page does not establish the answer, search another appropriate official domain and actually open or fetch the result. Preserve the exact requested model; never substitute a newer model.\r\n\r\n**Only exception:** An explicitly requested, genuinely broad, cross-topic Codex setup, orientation, or system-map synthesis may use the manual first when shell execution and an allowed temporary cache are available. A specific Codex feature, setting, command, error, model, or requested citation remains docs-first. Mixed Chat/Work/Codex comparisons are official documentation questions, not manual-first Codex requests.\r\n\r\nFor generic software tasks, answer the software task directly. OpenAI implementation, debugging, SDK, API, prompting, agent, and eval requests are not generic.\r\n\r\nFor a straightforward factual or citation-only request, follow the source order and do not read a route reference. This includes straightforward API facts, ChatGPT Work or mixed Chat/Work/Codex comparisons, model tiers, aliases, Pro mode, reasoning settings, factual migration baselines, and narrow Codex facts. Prioritize `learn.chatgpt.com` for ChatGPT Work.\r\n\r\n## Choose one primary route\r\n\r\nUse the first matching route, and read its reference only when the requested task needs that specialized workflow:\r\n\r\n- **Explicitly requested local documentation integration:** Read [integration guidance](references/mcp-diagnostics.md) only when the user explicitly requests that local integration.\r\n- **Model migration, upgrades, or model-specific prompting:** Read [model-migration.md](references/model-migration.md) for actual migration planning, implementation, dynamic target resolution, or prompt changes. Preserve an explicitly requested target.\r\n- **Model selection and comparisons:** Read [model-selection.md](references/model-selection.md) only when nuanced current, latest, default, cost, latency, quality, or modality tradeoffs need more guidance. Do not run a migration resolver for selection alone.\r\n- **Product, API, ChatGPT Work, and mixed Chat/Work/Codex documentation:** Read [official-docs.md](references/official-docs.md) only when fetched official pages leave source selection, API schemas, or the requested implementation unresolved. This route is not manual-first.\r\n- **Explicitly broad Codex setup, orientation, or cross-topic synthesis:** Read [codex-self-knowledge.md](references/codex-self-knowledge.md) when the eligible Codex manual or deeper Codex procedures are needed.\r\n\r\nRead at most one primary reference. Do not open every route, bundled model guide, or helper script. Read a supporting reference or run a helper only when the chosen workflow demonstrably needs it.\r\n\r\n## Source and execution boundaries\r\n\r\n- Search, open, fetch, and cite only `developers.openai.com`, `platform.openai.com`, and `learn.chatgpt.com`. Cite the page that supports the claim. State uncertainty when official sources do not establish pricing, availability, account access, limits, or behavior.\r\n- Preserve an explicitly requested model for selection, migration, and prompting. Resolve an unspecified latest or current migration target only after searching and fetching current official guidance.\r\n- Use `references/latest-model.md` only as a disclosed fallback after current official model guidance does not answer the question. Read `references/upgrading-to-gpt-6-astra.md` only for an actual, requested GPT-6 migration; read `references/prompting-guide.md` only for requested prompting work.\r\n- Before building, running, editing, debugging, or testing an API-backed app or tool, use `openai-platform-api-key` first when available. Documentation, conceptual examples, model selection, and read-only guidance do not require an API key.\r\n- Say \"OpenAI Docs\" or \"official OpenAI documentation\" in user-facing answers. Keep exact official citations and examples concise.\r\n",
+  "exitCode": 0,
+  "durationMs": 216507
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-c2534b7f-28e2-408d-82d5-58da0c85a2ef",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -NoProfile -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\skills\\\\.system\\\\openai-docs\\\\SKILL.md'\"",
+  "cwd": "C:\\Users\\User",
+  "processId": "10274",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\skills\\.system\\openai-docs\\SKILL.md'",
+      "name": "SKILL.md",
+      "path": "C:\\Users\\User\\.codex\\skills\\.system\\openai-docs\\SKILL.md"
+    }
+  ],
+  "aggregatedOutput": "Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.\r\n---\r\nname: \"openai-docs\"\r\ndescription: \"Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding agent' when they refer to Codex—and for OpenAI APIs/products and ChatGPT Work. Also use for model choice/migration, prompting, SDKs, Responses, Realtime, agents, evals, and Chat/Work/Codex comparisons. Do not use for generic app/software tasks that merely mention Codex.\"\r\nmetadata:\r\n  short-description: \"Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, and self-knowledge; OpenAI APIs and ChatGPT Work. 'You'/'this app' means Codex only.\"\r\n---\r\n\r\n# OpenAI Docs\r\n\r\nProvide current, cited OpenAI product, API, model, and Codex guidance. Read zero or one primary reference.\r\n\r\n**First substantive action:** Search the user's exact requested official OpenAI documentation topic and any explicitly named model using a concise, topic-specific query of 2-6 essential terms. When an already-available direct official documentation search and page-retrieval capability is present, use it first: search, then fetch or open the matching official page before general web search. Otherwise, immediately use official-domain web search, then actually open or fetch the relevant official page. Complete this source order before reading a reference, inspecting local or repository files, running a Codex manual or model resolver, drafting a plan, or answering from memory. Use the actual fetched page, not a search snippet or an unopened link. If one official search or page does not establish the answer, search another appropriate official domain and actually open or fetch the result. Preserve the exact requested model; never substitute a newer model.\r\n\r\n**Only exception:** An explicitly requested, genuinely broad, cross-topic Codex setup, orientation, or system-map synthesis may use the manual first when shell execution and an allowed temporary cache are available. A specific Codex feature, setting, command, error, model, or requested citation remains docs-first. Mixed Chat/Work/Codex comparisons are official documentation questions, not manual-first Codex requests.\r\n\r\nFor generic software tasks, answer the software task directly. OpenAI implementation, debugging, SDK, API, prompting, agent, and eval requests are not generic.\r\n\r\nFor a straightforward factual or citation-only request, follow the source order and do not read a route reference. This includes straightforward API facts, ChatGPT Work or mixed Chat/Work/Codex comparisons, model tiers, aliases, Pro mode, reasoning settings, factual migration baselines, and narrow Codex facts. Prioritize `learn.chatgpt.com` for ChatGPT Work.\r\n\r\n## Choose one primary route\r\n\r\nUse the first matching route, and read its reference only when the requested task needs that specialized workflow:\r\n\r\n- **Explicitly requested local documentation integration:** Read [integration guidance](references/mcp-diagnostics.md) only when the user explicitly requests that local integration.\r\n- **Model migration, upgrades, or model-specific prompting:** Read [model-migration.md](references/model-migration.md) for actual migration planning, implementation, dynamic target resolution, or prompt changes. Preserve an explicitly requested target.\r\n- **Model selection and comparisons:** Read [model-selection.md](references/model-selection.md) only when nuanced current, latest, default, cost, latency, quality, or modality tradeoffs need more guidance. Do not run a migration resolver for selection alone.\r\n- **Product, API, ChatGPT Work, and mixed Chat/Work/Codex documentation:** Read [official-docs.md](references/official-docs.md) only when fetched official pages leave source selection, API schemas, or the requested implementation unresolved. This route is not manual-first.\r\n- **Explicitly broad Codex setup, orientation, or cross-topic synthesis:** Read [codex-self-knowledge.md](references/codex-self-knowledge.md) when the eligible Codex manual or deeper Codex procedures are needed.\r\n\r\nRead at most one primary reference. Do not open every route, bundled model guide, or helper script. Read a supporting reference or run a helper only when the chosen workflow demonstrably needs it.\r\n\r\n## Source and execution boundaries\r\n\r\n- Search, open, fetch, and cite only `developers.openai.com`, `platform.openai.com`, and `learn.chatgpt.com`. Cite the page that supports the claim. State uncertainty when official sources do not establish pricing, availability, account access, limits, or behavior.\r\n- Preserve an explicitly requested model for selection, migration, and prompting. Resolve an unspecified latest or current migration target only after searching and fetching current official guidance.\r\n- Use `references/latest-model.md` only as a disclosed fallback after current official model guidance does not answer the question. Read `references/upgrading-to-gpt-6-astra.md` only for an actual, requested GPT-6 migration; read `references/prompting-guide.md` only for requested prompting work.\r\n- Before building, running, editing, debugging, or testing an API-backed app or tool, use `openai-platform-api-key` first when available. Documentation, conceptual examples, model selection, and read-only guidance do not require an API key.\r\n- Say \"OpenAI Docs\" or \"official OpenAI documentation\" in user-facing answers. Keep exact official citations and examples concise.\r\n",
+  "exitCode": 0,
+  "durationMs": 195645
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-27d06e53-0b6a-471e-83b1-d8eb3c3b9a5a",
+  "server": "codex_app",
+  "tool": "automation_update",
+  "status": "completed",
+  "arguments": {
+    "mode": "suggested_create",
+    "kind": "heartbeat",
+    "destination": "thread",
+    "name": "Rokid 2 — disponibilitate Beijing",
+    "prompt": "Verifică din oră în oră pe 27 octombrie 2026 (ora Beijingului) lansarea generației a doua 第二代乐奇Rokid AI眼镜 și anunțurile de stoc pentru cumpărare cu ridicare în aceeași zi în Beijing. Prioritizează surse oficiale Rokid, https://www.rokid.com/zh-CN/map, DoctorGlasses și aeroporturile. Urmărește în special PEK T2 翼蓝数码 GC209 (+86 15565316188), PEK T2 陶朱新造局 în parcarea T2 vizavi de Starbucks și PEK T3 陶朱新造局 în parcarea B1 vizavi de FamilyMart (+86 17692405886), PKX 翼蓝数码 la plecări internaționale aripa E lângă poarta 80 (+86 18767168879). Călătorul zboară noaptea spre Budapesta, aeroportul exact încă necunoscut. Raportează în română noutățile cu linkuri și ora Beijingului; include model, preț, adresă, terminal, program, acces și stoc numai când sunt confirmate. Distinge probarea, precomanda și cumpărarea cu ridicare imediată. Nu presupune că un comerciant listat are noul model. La prima verificare amintește să confirme telefonic stocul și programul. Nu contacta magazinele. Oprește monitorizarea după confirmarea lansării și a unui punct de vânzare din Beijing cu stoc pentru ridicare în aceeași zi; în orice caz nu continua după 27 octombrie 2026 ora 23:59 Beijing.",
+    "rrule": "DTSTART:20261026T160000Z\nRRULE:FREQ=HOURLY;INTERVAL=1;COUNT=24",
+    "status": "ACTIVE"
+  },
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 55
+}
+````
+
+## Asistent
+
+**Am găsit patru puncte de vânzare din aeroporturile Beijingului listate oficial de Rokid.** Sunt magazine partenere cu mai multe mărci; **stocul generației a doua pentru mâine nu este încă confirmat**.
+
+| Aeroport | Magazin | Unde se află | Telefon |
+|---|---|---|---|
+| **Capital — PEK, T2** | **翼蓝数码 — Bluedge** | Terminalul 2, spațiul **GC209** | **+86 155 6531 6188** |
+| **Capital — PEK, T2** | **陶朱新造局 — Taozhu** | Clădirea parcării T2, vizavi de **Starbucks** | **+86 176 9240 5886** |
+| **Capital — PEK, T3** | **陶朱新造局 — Taozhu** | Clădirea parcării T3, nivel **B1**, vizavi de **FamilyMart** | **+86 176 9240 5886** |
+| **Daxing — PKX** | **翼蓝数码 — Bluedge** | Plecări internaționale, aripa **E**, lângă poarta **80** | **+86 187 6716 8879** |
+
+Sursa: [locatorul oficial Rokid](https://www.rokid.com/zh-CN/map). Acestea sunt toate punctele din cele două aeroporturi pe care le-am identificat în listă. Programul de noapte trebuie confirmat.
+
+**Am pregătit cardul de programare — trebuie activat din cardul afișat în aplicație.** Verificările propuse sunt **din oră în oră pe 27 octombrie, între 00:00 și 23:00, ora Beijingului**, urmărind:
+
+- lansarea și denumirea exactă a noului model;
+- magazinele din Beijing care anunță stoc pentru cumpărare și ridicare imediată;
+- prioritar magazinele din aeroporturi, inclusiv programul și prețul.
+
+Monitorizarea se oprește după confirmarea lansării și a unui magazin din Beijing cu disponibilitate explicită pentru ridicare în aceeași zi, cel târziu la sfârșitul zilei.
+
+Activarea din card este necesară deoarece instrumentul de programare nu a acceptat crearea directă cu o dată de început fixă în fusul orar Beijing și a cerut folosirea cardului de confirmare.
+
+## Asistent
+
+Verific separat prezența DoctorGlasses în Beijing și participarea magazinelor la lansarea Rokid.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-88877a10-d24b-40a8-a414-1f7516a23e21",
+  "query": "site.doctorglasses.com.cn 北京 博士眼镜 门店 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.doctorglasses.com.cn 北京 博士眼镜 门店",
+      "博士眼镜 2026 半年度 北京 门店 8106 8108"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "static.cninfo.com.cn",
+      "ref_id": "turn38search12",
+      "title": "博士眼镜连锁股份有限公司2026年半年度报告全文",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225517622.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn38search0",
+      "title": "博士眼镜连锁股份有限公司官网 - 您身边的视力保护专家，智能眼镜交付的最后一公里！ - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/h-col-136.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.cninfo.com.cn",
+      "ref_id": "turn38search13",
+      "title": "博士眼镜连锁股份有限公司2025年半年度报告全文",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224589027.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.100est.com",
+      "ref_id": "turn38search14",
+      "title": "博士眼镜连锁股份有限公司2024 年年度报告全文",
+      "url": "https://www.100est.com/res/financial-report/r2024/SZ300622_202504141656456235.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "vip.stock.finance.sina.com.cn",
+      "ref_id": "turn38search1",
+      "title": "博士眼镜(300622)_公司公告_博士眼镜：2026年半年度报告新浪财经_新浪网",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12558636&stockid=300622"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Da, DoctorGlasses (博士眼镜) are magazine în Beijing.** Îmi cer scuze: răspunsurile anterioare nu au separat suficient de clar existența magazinelor de disponibilitatea noului Rokid.
+
+Prezența în Beijing este confirmată în [raportul oficial pentru primul semestru 2026](https://static.cninfo.com.cn/finalpage/2026-08-28/1225517622.PDF). Documentele companiei identifică, de exemplu, magazinele **8106 în districtul Shunyi** și **8108 în Shijingshan**, fără adrese stradale complete în tabelul respectiv. [Raportul din 2025](https://static.cninfo.com.cn/finalpage/2025-08-28/1224589027.PDF)
+
+Ce rămâne neconfirmat:
+
+- **Care magazine din Beijing participă mâine la lansarea Rokid generația a doua.**
+- Care au **stoc de vânzare cu ridicare imediată**.
+- Existența unui **DoctorGlasses în aeroporturile PEK sau PKX**.
+
+Anunțul spune doar „anumite magazine DoctorGlasses”, fără lista filialelor. [Anunțul lansării](https://www.doctorglasses.com.cn/sys-nd/222.html)
+
+Pentru identificarea filialei participante, numărul oficial este **400-600-3663**, apelabil din China. Magazinele din aeroport enumerate anterior sunt **alți parteneri Rokid**, nu DoctorGlasses.
+
+## Asistent
+
+Verific ora anunțată pentru evenimentul Rokid din 27 octombrie.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1cb79d6c-a15c-4b82-85de-086c44f51bea",
+  "query": "Rokid Jungle 2026 10月27日 发布会 几点 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Rokid Jungle 2026 10月27日 发布会 几点",
+      "乐奇 2026 10月27日 发布会 14:00 时间"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "k.sina.com.cn",
+      "ref_id": "turn39search0",
+      "title": "10月27日乐奇AI眼镜新品发布会锁定央视新闻|AI助手|AI·未来|超凡一步|智能|助手_新浪新闻",
+      "url": "https://k.sina.com.cn/article_2210168325_m83bc7e0503301lhek.html?from=ent&subch=oent"
+    },
+    {
+      "type": "text_result",
+      "domain": "tidenews.com.cn",
+      "ref_id": "turn39search1",
+      "title": "数贸体验官｜第二代乐奇AI眼镜全球首秀，多重升级等你解锁！_潮新闻官网",
+      "url": "https://tidenews.com.cn/video_detail.html?id=3569985"
+    },
+    {
+      "type": "text_result",
+      "domain": "finance.sina.com.cn",
+      "ref_id": "turn39search2",
+      "title": "新一代乐奇AI眼镜数贸会首秀 正式发布定档10月27日_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/roll/2026-09-25/doc-iniszrtv4379526.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrarworld.cn",
+      "ref_id": "turn39search3",
+      "title": "Rokid Jungle 2026 发布会定档：10月27日杭州见，主打“更智能 更出彩” - VRAR星球",
+      "url": "https://www.vrarworld.cn/xinwenrili/13994.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tuoluo.cn",
+      "ref_id": "turn39search4",
+      "title": "Rokid新品海报现智能戒指元素，新一代AI眼镜或支持微手势交互，10月27日揭晓_陀螺科技",
+      "url": "https://www.tuoluo.cn/article/detail-10131582.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ai.zol.com.cn",
+      "ref_id": "turn39search5",
+      "title": "乐奇发布第二代AI眼镜：全球首发、暗光影像升级、主动交互突破_人工智能-中关村在线",
+      "url": "https://ai.zol.com.cn/1252/12528174.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn39search6",
+      "title": "二代乐奇眼镜首秀、10月27日发布：漏光、开放、配镜三道关，折腾党先分清捡一代、等二代还是等全彩_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a82p7g0n/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrarworld.cn",
+      "ref_id": "turn39search7",
+      "title": "Rokid Jungle 2026 - VRAR星球",
+      "url": "https://www.vrarworld.cn/t/Rokid%20Jungle%202026.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "weibo.com",
+      "ref_id": "turn39search8",
+      "title": "乐奇Rokid Color曝光 彩显AI眼镜或亮相10月27日发布会",
+      "url": "https://weibo.com/2/detail/5357103271117099"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sina.cn",
+      "ref_id": "turn39search9",
+      "title": "10 月 27 日杭州，Rokid 把 2026 年的眼镜想好了吗|rokid jungle 2026|乐奇ai眼镜|10月27日|中国·杭州_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5352526393377669.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.itsdw.cn",
+      "ref_id": "turn39search10",
+      "title": "乐奇二代AI眼镜首秀支持自定义唤醒词 - IT时代网",
+      "url": "https://www.itsdw.cn/news/28260.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrtuoluo.net",
+      "ref_id": "turn39search11",
+      "title": "Rokid官宣10月27日举行新品发布会，下一代全彩AI眼镜或将亮相_VR陀螺",
+      "url": "https://www.vrtuoluo.net/546125.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn39reddit12",
+      "title": "影石聊AI价值、流浪地球3定档、懂淘发布双11出海策略",
+      "url": "https://www.reddit.com/r/u_ArticleLogical9458/comments/1xfaw78/%E5%BD%B1%E7%9F%B3%E8%81%8Aai%E4%BB%B7%E5%80%BC%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%833%E5%AE%9A%E6%A1%A3%E6%87%82%E6%B7%98%E5%8F%91%E5%B8%83%E5%8F%8C11%E5%87%BA%E6%B5%B7%E7%AD%96%E7%95%A5/"
+    },
+    {
+      "type": "text_result",
+      "domain": "szb.hkwb.net",
+      "ref_id": "turn39search13",
+      "title": "02 要闻\n2026年4月1日星期三\n值班主任：杨杰\n一版责编：羊位高\n责任编辑：符文茜\n版式：张蔚",
+      "url": "https://szb.hkwb.net/epaper/xml/hkrb/20260401/A02B20260401C.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-fc76c958-682f-4963-ac38-41885fa64206",
+  "query": "\"乐奇\" \"10月27日\" \"点\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"乐奇\" \"10月27日\" \"点\"",
+      "\"Rokid\" \"2026\" \"27\" \"14:30\"",
+      "\"乐奇\" \"10月27日\" \"直播\" 时间"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ifanr.com",
+      "ref_id": "turn40search0",
+      "title": "早报｜微信回应未适配iPhone Duo/比亚迪：L3有望2028年落地/乐奇彩显AI眼镜意外曝光 | 爱范儿",
+      "url": "https://www.ifanr.com/1685530"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn40search1",
+      "title": "下午2点开屏的不是全彩：乐奇二代把力气花在参数表之外，价签捂到10月27日——等货党先把六行升级清单和一份跳票记录对完再掏钱_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a260pked/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn40search2",
+      "title": "乐奇的小绿框漏光，TDK说他能抹平：一条\"掀光波导桌\"的新闻，10.27发布会前该这么读_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/aqrq53pv/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn40search3",
+      "title": "乐奇二代前夜，北京有个十几个AI眼镜一次凑齐试完的窗口：10.28关门，这90分钟别乱花_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/anv92vdp/"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Nu am găsit încă o oră de începere confirmată oficial.** Este confirmată data: **mâine, 27 octombrie 2026**, la **Hangzhou**, pentru evenimentul **Rokid Jungle 2026**.
+
+Anunțul publicat astăzi de contul oficial **CCTV / 央视文艺** indică urmărirea lansării prin **央视新闻 – „超凡一步”**, dar textul nu precizează ora. [Anunțul CCTV](https://k.sina.com.cn/article_2210168325_m83bc7e0503301lhek.html?from=ent&subch=oent)
+
+Prin urmare, **nu pot confirma ora 14:00 sau 14:30**. Ora **14:30** afișată pe pagina de mai sus este ora publicării anunțului de astăzi, nu ora lansării de mâine.
+
+## Asistent
+
+Verific direct site-ul Rokid și materialele oficiale de lansare, inclusiv afișele, unde ora poate apărea doar în imagine.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-31314b0e-c790-4f91-90b3-27d665b27628",
+  "query": "site.rokid.com \"2026\" \"27\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com \"2026\" \"27\"",
+      "\"乐奇\" \"10月27日\" \"发布会\" \"时间\"",
+      "\"Rokid Jungle 2026\" 时间"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ifanr.com",
+      "ref_id": "turn41search0",
+      "title": "早报｜微信回应未适配iPhone Duo/比亚迪：L3有望2028年落地/乐奇彩显AI眼镜意外曝光 | 爱范儿",
+      "url": "https://www.ifanr.com/1685530"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrarworld.cn",
+      "ref_id": "turn41search1",
+      "title": "Rokid Jungle 2026 - VRAR星球",
+      "url": "https://www.vrarworld.cn/t/Rokid%20Jungle%202026.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn41search2",
+      "title": "乐奇二代前夜，北京有个十几个AI眼镜一次凑齐试完的窗口：10.28关门，这90分钟别乱花_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/anv92vdp/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn41search3",
+      "title": "乐奇二代在数贸会展出了，10月27日才开发布会：一代现在抄底还是等？我把9大变化和价格账一起摆给你看_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/avgp88rm/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn41search4",
+      "title": "乐奇的小绿框漏光，TDK说他能抹平：一条\"掀光波导桌\"的新闻，10.27发布会前该这么读_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/aqrq53pv/"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.xinxunwang.com",
+      "ref_id": "turn41search5",
+      "title": "第二代Rokid AI眼镜10月27日发布-商业资讯-国内资讯-新讯网_提供全新中文资讯商业网站",
+      "url": "https://news.xinxunwang.com/china/syzx/406103.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrtuoluo.net",
+      "ref_id": "turn41search6",
+      "title": "Rokid官宣10月27日举行新品发布会，下一代全彩AI眼镜或将亮相_VR陀螺",
+      "url": "https://www.vrtuoluo.net/546125.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jiuyangongshe.com",
+      "ref_id": "turn41search7",
+      "title": "投资日历：下周有望发布大利好 揭秘下一个主线事件",
+      "url": "https://www.jiuyangongshe.com/a/11ep6nv3lyw"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.metaversewatcher.io",
+      "ref_id": "turn41search8",
+      "title": "Rokid Sets October 27 Hangzhou Launch for Second-Gen Glasses",
+      "url": "https://www.metaversewatcher.io/rokid-jungle-2026-october-27-hangzhou-full-color-teaser/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn41search9",
+      "title": "乐奇Rokid二代眼镜定档10月27日：现在2200入一代，还是等5天看二代？_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/al380reg/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn41search10",
+      "title": "乐奇发布会前4天，创始人朋友圈漏出\"Rokid Color\"：全彩眼镜是来买的，还是再来等半年？_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a4qx308x/"
+    },
+    {
+      "type": "text_result",
+      "domain": "techielobang.com",
+      "ref_id": "turn41search11",
+      "title": "Rokid Jungle 2026 to Showcase Full-Color AI Glasses? | TechieLobang",
+      "url": "https://techielobang.com/blog/2026/10/14/rokid-jungle-2026-showcase-full-color-ai-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn41view0",
+      "snippet": "Total lines: 56",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/_24HLrtqAiFb5QrmZWXW1Ivuh9ENsvj8DIBZxcVwsKETUKXF81CRzctpO5FrvFIFeDpvgs6q2OTqg7xARgBoJtxYI37EdJWhcYObF1u-K88",
+      "title": "乐奇 Rokid - 官方网站",
+      "url": "https://www.rokid.com/zh-CN"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-14563181-9d64-4bed-83cc-cc51d29e24ea",
+  "query": "https://techielobang.com/blog/2026/10/14/rokid-jungle-2026-showcase-full-color-ai-glasses/",
+  "action": {
+    "type": "openPage",
+    "url": "https://techielobang.com/blog/2026/10/14/rokid-jungle-2026-showcase-full-color-ai-glasses/"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "techielobang.com",
+      "ref_id": "turn42view0",
+      "snippet": "Total lines: 50",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Nwbg0QKKSyewZNv2Jjwl6cPEnMvoWm-rELkW-ULszJI1eo0WUlPHSoIEStTxZNxBv5cdUGIcDJOSAAwAD6J5hBG4I2X0U4EVEmaLzCKW6bLFUriFBt_PJZW-YD1nb_0y",
+      "title": "Rokid Jungle 2026 to Showcase Full-Color AI Glasses? | TechieLobang",
+      "url": "https://techielobang.com/blog/2026/10/14/rokid-jungle-2026-showcase-full-color-ai-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrtuoluo.net",
+      "ref_id": "turn42view1",
+      "snippet": "Total lines: 263",
+      "title": "Rokid官宣10月27日举行新品发布会，下一代全彩AI眼镜或将亮相_VR陀螺",
+      "url": "https://www.vrtuoluo.net/546125.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "glasses.rokid.com",
+      "ref_id": "turn42view3",
+      "snippet": "Total lines: 317",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/IxbJzHjg33aYZqnvaO8GqoJLR3Y5NWXSDcaj8RfKkivzwdhRot8TqjHRK73lmcYObfCpMTG4JIqOhlOaOWa4n_CKmixMpjnhwB8PYhQR91_KPOOVEnnRIPMlykWexOKe1sbZbIl6fMjeQnNznOjqOBNI1xPjXyNlBls_z59dd20",
+      "title": "乐奇AI眼镜",
+      "url": "https://glasses.rokid.com/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-93e12a9a-f589-4fae-ac2f-93d5a9e1ca14",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn43view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrarworld.cn",
+      "ref_id": "turn43view2",
+      "snippet": "Total lines: 253",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/a0Gyy3iOi3PeRgm7s-hZdse7l-9v5eCMXnIXc8vmIQDo6I8Ple4RK2J8ngeSHVqZDD5JgJhhy6K9pU2d5WgKu8wgsp3s4rCXcyyCKM7KSXAuxEq8EvLLlCDRSHyZZWrW",
+      "title": "Rokid Jungle 2026 发布会定档：10月27日杭州见，主打“更智能 更出彩” - VRAR星球",
+      "url": "https://www.vrarworld.cn/xinwenrili/13994.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b499ba78-bde9-41e3-93d5-34cb31531e6a",
+  "query": "https://res.vrtuoluo.cn/production/admin/uploads/20261009/1791534481196-pasted_image_1791534480155.png",
+  "action": {
+    "type": "openPage",
+    "url": "https://res.vrtuoluo.cn/production/admin/uploads/20261009/1791534481196-pasted_image_1791534480155.png"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn44view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b448b31b-a172-490e-af10-e2b72ffeef76",
+  "query": "\"乐奇\" \"10月27日\" \"19:00\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"乐奇\" \"10月27日\" \"19:00\"",
+      "\"乐奇\" \"10月27日\" \"19:30\"",
+      "site.rokid.com 发布会 2026"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ifanr.com",
+      "ref_id": "turn45search0",
+      "title": "早报｜微信回应未适配iPhone Duo/比亚迪：L3有望2028年落地/乐奇彩显AI眼镜意外曝光 | 爱范儿",
+      "url": "https://www.ifanr.com/1685530"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrtuoluo.net",
+      "ref_id": "turn45search1",
+      "title": "Rokid官宣10月27日举行新品发布会，下一代全彩AI眼镜或将亮相_VR陀螺",
+      "url": "https://www.vrtuoluo.net/546125.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn45search2",
+      "title": "最新动态 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/news"
+    },
+    {
+      "type": "text_result",
+      "domain": "prtimes.jp",
+      "ref_id": "turn45search3",
+      "title": "Rokidで見える 全国ツアー、大阪・梅田 蔦屋書店で関西の　　　　　インバウンド接客にAIグラスの可能性を提案 | Hangzhou Lingban Technology Co. Ltd.のプレスリリース",
+      "url": "https://prtimes.jp/main/html/rd/p/000000007.000178032.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn45search4",
+      "title": "关于我们 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/about"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn45search5",
+      "title": "News – Rokid",
+      "url": "https://global.rokid.com/blogs/news"
+    },
+    {
+      "type": "text_result",
+      "domain": "developer.cloud.tencent.com",
+      "ref_id": "turn45search6",
+      "title": "2026新品说明会海报流出，Rokid四季度或将推出全彩显示AI眼镜 - 腾讯云开发者社区-腾讯云",
+      "url": "https://developer.cloud.tencent.com/news/4466619"
+    },
+    {
+      "type": "text_result",
+      "domain": "gb.rokid.com",
+      "ref_id": "turn45search7",
+      "title": "Travel Set Live Registration – Rokid UK",
+      "url": "https://gb.rokid.com/pages/travel-set-live-registration"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn45search8",
+      "title": "乐奇 Rokid - 官方网站",
+      "url": "https://www.rokid.com/zh-CN"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Am verificat acum direct site-ul chinezesc Rokid: nu am găsit ora lansării în paginile accesibile.** Asta nu înseamnă că Rokid nu a publicat-o pe alte canale.
+
+Am verificat:
+
+- [Pagina principală Rokid China](https://www.rokid.com/zh-CN) și [pagina ochelarilor](https://glasses.rokid.com/) — nu afișează în conținutul accesibil ora evenimentului.
+- [Secțiunea oficială de știri](https://www.rokid.com/zh-CN/news) — rezultatele disponibile nu includ programul lansării.
+- Am găsit **[anunțul original Rokid pe WeChat](https://mp.weixin.qq.com/s/FU5cw_Y61ncNRl6fkNU3rw)**, indicat ca sursă de presa care a preluat afișul. **WeChat nu îmi permite deschiderea lui aici**, iar imaginea afișului nu s-a încărcat pentru verificare.
+
+Răspunsul meu anterior trebuia formulat mai precis: **eu nu am reușit să verific ora, nu că ora nu ar fi fost anunțată.** Dacă deschizi linkul WeChat și îmi trimiți captura afișului, pot citi ora și o convertesc imediat pentru România și Budapesta.
+
+## Asistent
+
+**În afișul trimis nu apare ora lansării.** A doua captură arată:
+
+- **10月27日 | 中国·杭州** — „27 octombrie | Hangzhou, China”.
+- **扫码预约直播** — „Scanează codul QR pentru a rezerva vizionarea transmisiunii live”.
+
+**Ora 10:04 AM din prima captură este ora publicării articolului pe 9 octombrie**, nu ora evenimentului.
+
+Următorul pas este să deschizi codul QR **în WeChat**: salvează imaginea, apoi folosește **Scan → selectează imaginea din galerie**. Pagina de rezervare a transmisiunii poate afișa ora programată. Dacă îmi trimiți captura acelei pagini, o traduc.
+
+## Asistent
+
+Verific anunțurile de astăzi despre eveniment, noul model și disponibilitatea în Beijing.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-9c4e88b9-bb6a-49da-9534-5ee60ce3a770",
+  "query": "乐奇 Rokid 2026 10月27日 发布会 时间 售价 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "乐奇 Rokid 2026 10月27日 发布会 时间 售价",
+      "Rokid Jungle 2026 October 27 launch glasses",
+      "博士眼镜 乐奇 10月27日 北京 二代"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn46search0",
+      "title": "博士眼镜与乐奇Rokid达成战略合作，共启AI眼镜“验配一体化”新篇章 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "finance.sina.com.cn",
+      "ref_id": "turn46search1",
+      "title": "新一代乐奇AI眼镜数贸会首秀 正式发布定档10月27日_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/roll/2026-09-25/doc-iniszrtv4379526.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn46search2",
+      "title": "乐奇二代前夜，北京有个十几个AI眼镜一次凑齐试完的窗口：10.28关门，这90分钟别乱花_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/anv92vdp/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn46search3",
+      "title": "Rokid定档10月27日发布会、极米100元定金锁“到手不高于2999元”、三星11月上市：这轮AI眼镜撞上双11，等谁、不等谁_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/apqm7n2w/"
+    },
+    {
+      "type": "text_result",
+      "domain": "tidenews.com.cn",
+      "ref_id": "turn46search4",
+      "title": "数贸体验官｜第二代乐奇AI眼镜全球首秀，多重升级等你解锁！_潮新闻官网",
+      "url": "https://tidenews.com.cn/video_detail.html?id=3569985"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn46search5",
+      "title": "乐奇Rokid二代眼镜定档10月27日：现在2200入一代，还是等5天看二代？_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/al380reg/"
+    },
+    {
+      "type": "text_result",
+      "domain": "ai.zol.com.cn",
+      "ref_id": "turn46search6",
+      "title": "乐奇发布第二代AI眼镜：全球首发、暗光影像升级、主动交互突破_人工智能-中关村在线",
+      "url": "https://ai.zol.com.cn/1252/12528174.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.metaversewatcher.io",
+      "ref_id": "turn46search7",
+      "title": "Rokid Sets October 27 Hangzhou Launch for Second-Gen Glasses",
+      "url": "https://www.metaversewatcher.io/rokid-jungle-2026-october-27-hangzhou-full-color-teaser/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn46search8",
+      "title": "线下体验店 - 乐奇 Rokid",
+      "url": "https://www.rokid.com/zh-CN/map"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrarworld.cn",
+      "ref_id": "turn46search9",
+      "title": "Rokid Jungle 2026 发布会定档：10月27日杭州见，主打“更智能 更出彩” - VRAR星球",
+      "url": "https://www.vrarworld.cn/xinwenrili/13994.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "finance.sina.com.cn",
+      "ref_id": "turn46search10",
+      "title": "第二代乐奇Rokid AI眼镜上手：颜值更高，佩戴「轻感」十足超舒服_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-inisxxkx0191766.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn46youtube17",
+      "title": "Rokid Jungle Live👏Are Future Headsets Limited to Apple Vision? Ready for AR Glasses Like Iron Man's! - YouTube",
+      "url": "https://www.youtube.com/watch?v=4ct8CZEXd8U"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn46news31",
+      "snippet": "And while the Rokid AI Glasses Style don't carry the Ray-Ban logo on the frame, they look strikingly similar to Meta's AI eyewear. ... If",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/yL71WYClygeo8p9fi9SCAg8zPQ13O2bE7IO6fPYmabEy3tXr2QmLjKvjvflrxGfgRcZp2KU0HIeODuJJKsPlTNhdp6x_8bvifSJVWN-LNpqEKCTWCQ2ogh1yu6XlGuTM",
+      "title": "Rokid's new AI glasses are lighter, cheaper, and ready to challenge Meta's Ray-Bans",
+      "url": "https://www.techradar.com/ai-platforms-assistants/rokids-new-ai-glasses-are-lighter-cheaper-and-ready-to-challenge-metas-ray-bans"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn46news32",
+      "snippet": "Date: Wed Sep 2 04:39:51 2026 UTC ... One of the most intriguing features of Rokid's AI glasses is the Micro-LED screens, which emit a",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/YXrPxshlRBoO8O7W3nHCtxHRCjNaH3DYnOV0as2lXMm9GOhcPNnQxNly5yH84JnynkQ9X8tfDidttEBd7RWRGLvRtwJF4fzJp5hraaxvJEnoGVcT2_H1fqu4O9ejvenU",
+      "title": "I tried Rokid's AI + AR glasses for a month, and the general 'bad vibes' I have around wearables are slowly subsiding, but I can't stop worrying about my personal data",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/i-tried-rokids-ai-ar-glasses-for-a-month-and-the-general-bad-vibes-i-have-around-wearables-are-slowly-subsiding-but-i-cant-stop-worrying-about-my-personal-data"
+    },
+    {
+      "type": "text_result",
+      "domain": "cincodias.elpais.com",
+      "ref_id": "turn46news33",
+      "snippet": "Date: Wed Apr 29 14:00:00 2026 UTC ... Kas Rokid AI Glasses NEO son una opción perfecta.",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ryo-aJ9bv1owC98q9ruMeUic0TxEpbUvxdclB73KEfHuau3vlFly6PCQUCeCie2FzTbpzO1RwtJ_jAihBqik_oa9l3hIiDBAZoSALj2qmr2HV1P6JO9rMMt1dRFVf6VT9FqiEb-RBNDbHPjpGWS0v3AA4rvMrxSpJEWGbeZnvgmPeOpCid7roP1YLVQXszAioAp7SqhzhFsForxbWwSDLxwVe7zfs0mxBnQ3ui2s1TU",
+      "title": "Rokid trae a Europa sus gafas con IA y traducción en tiempo real desde 449 euros",
+      "url": "https://cincodias.elpais.com/smartlife/smartphones/2026-04-29/rokid-trae-a-europa-sus-gafas-con-ia-y-traduccion-en-tiempo-real-desde-449-euros.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn46news34",
+      "snippet": "That's because we just had the international launch event for the Rokid Glasses, which are up now on Kickstarter if you want to score a",
+      "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/6LKroaWisxQ4Xj7K6WMM8G-1280-80.jpg",
+      "title": "These impressive new smart glasses with a screen put Meta on notice",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/these-impressive-new-smart-glasses-with-a-screen-put-meta-on-notice"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn46news35",
+      "snippet": "Best camera glasses in 2026: smart wearable tech for eye-level photography ... The camera hardware was also solid - the Rokid AI Glasses Style -",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/VciJBgcx8aOr6dBGopP-n8fBmYZt118hG7iXlrXyKKMcAf8bRZ8BfNn14HCINn_jvZ_gRvVIzNahlaqOUvIDY69glbXeRBktto4v5lHeWPtS57fKvgDCl4ZxxOJreBnj",
+      "title": "Best camera glasses in 2026: smart wearable tech for eye-level photography",
+      "url": "https://www.digitalcameraworld.com/buying-guides/best-camera-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn46news36",
+      "snippet": "Rokid wants anyone to build AI agents for its smart glasses ... [Image 0: Rokid booth at IFA 2026]",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/anfd7BT2SCpcw_XGs1umpDUf4u_M8iGHq5sylNqGpGtiuIRDJWBNglkcjPvnWwosZYeuPuWTRxnFOctnagfZVhrZMmAVBRut99hLDqro0cPYBC6zrs52blZacXsejeAR",
+      "title": "Rokid wants anyone to build AI agents for its smart glasses",
+      "url": "https://www.androidcentral.com/gaming/virtual-reality/rokid-wants-anyone-to-build-ai-agents-for-its-smart-glasses"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-5efd0b7c-9fc8-407c-b7e7-8046bc46bd79",
+  "query": "\"乐奇\" \"10月27日\" \"直播\" \"2026\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"乐奇\" \"10月27日\" \"直播\" \"2026\"",
+      "\"乐奇\" \"发布会\" \"今晚\"",
+      "\"Rokid\" \"October 27\" \"2026\" launch time"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn47search0",
+      "title": "乐奇二代前夜，北京有个十几个AI眼镜一次凑齐试完的窗口：10.28关门，这90分钟别乱花_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/anv92vdp/"
+    },
+    {
+      "type": "text_result",
+      "domain": "min.news",
+      "ref_id": "turn47search1",
+      "title": "Rokid releases second-generation AI glasses: lighter and more powerful, designed for all-day wear. - iMedia",
+      "url": "https://min.news/en/digital/c28cefed6764f8a4526ac7c6bd67490c.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sohu.com",
+      "ref_id": "turn47search2",
+      "title": "Rokid乐奇10月27日引爆全彩军备竞赛下半场！AI眼镜赛道正式迈入‘天天戴’时代_用户_MicroLED_新品",
+      "url": "https://www.sohu.com/a/1085705499_122066679"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn47search3",
+      "title": "二代乐奇首秀，一代机主的第一笔账：1500的近视镜片带不走——升不升我排成三档，发布会前先把这五个问题问明白_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a5rxee88/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn47search4",
+      "title": "今日AI圈值得关注的动态 2026年9月25日_IT互联网_什么值得买",
+      "url": "https://post.smzdm.com/p/apqvemox/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn47view0",
+      "snippet": "Total lines: 56",
+      "title": "乐奇 Rokid - 官方网站",
+      "url": "https://www.rokid.com/zh-CN"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn47view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**La verificarea de acum — 27 octombrie, ora 13:13 în Beijing / 07:13 în România — nu am găsit încă noutăți oficiale despre preț sau stocul din Beijing.**
+
+| Ce urmărim | Situația verificată |
+|---|---|
+| **Evenimentul de astăzi** | Anunțat pentru 27 octombrie, Hangzhou |
+| **Ora exactă** | Încă nu am putut-o confirma din sursele accesibile |
+| **Prețul generației a doua** | Nu am găsit un preț oficial publicat |
+| **DoctorGlasses** | Anunțul confirmă lansarea în anumite magazine, fără lista filialelor participante |
+| **Beijing și aeroporturi** | Nu am găsit confirmare de stoc pentru noul model, cu ridicare astăzi |
+
+[Site-ul Rokid](https://www.rokid.com/zh-CN) și [anunțul DoctorGlasses](https://www.doctorglasses.com.cn/sys-nd/222.html) nu oferă deocamdată informația necesară pentru a recomanda un magazin cu stoc confirmat.
+
+**Pentru cumpărarea înaintea zborului, cel mai util pas acum este confirmarea telefonică:** DoctorGlasses la **400-600-3663** sau magazinele din aeroport enumerate mai sus. Întrebarea esențială este dacă au **generația a doua disponibilă pentru ridicare astăzi**, nu doar un exemplar de probă.
+
+## Asistent
+
+Compar imaginile și specificațiile cu modelul Rokid existent și verific ce produs indică linkul Alibaba.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-9b27fcd5-3ee4-4d9d-b80b-8fbf038996ae",
+  "query": "https://www.alibaba.com/x/1lBQypO?ck=pdp",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.alibaba.com/x/1lBQypO?ck=pdp"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn48view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn48view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-726d4c8e-eabd-482d-b696-e7c8ada16a30",
+  "query": "site.global.rokid.com glasses \"210\" \"49\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.global.rokid.com glasses \"210\" \"49\"",
+      "site.rokid.com glasses \"12MP\" \"49g\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "rokidstore.com.au",
+      "ref_id": "turn49search0",
+      "title": "Rokid Glasses Specifications – Rokid AU Store",
+      "url": "https://rokidstore.com.au/pages/rokid-glasses-specifications"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kickstarter.com",
+      "ref_id": "turn49search1",
+      "title": "Rokid Glasses, World's Lightest Full-function AI&AR Glasses by Rokid Team » Rokid Glasses, World's Lightest Full-function AI&AR Glasses by Rokid Team — Kickstarter",
+      "url": "https://www.kickstarter.com/projects/rokid/new-rokid-glassesworlds-lighest-full-function-ai-glasses?_bhlid=95b95db819c37e78630ce27b26a9f11a1faadcb0"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kickstarter.com",
+      "ref_id": "turn49search2",
+      "title": "Rokid Glasses, World's Lightest Full-function AI&AR Glasses by Rokid Team » Rokid Glasses, World's Lightest Full-function AI&AR Glasses by Rokid Team — Kickstarter",
+      "url": "https://www.kickstarter.com/projects/rokid/new-rokid-glassesworlds-lighest-full-function-ai-glasses?result=project&total_hits=3"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.prnewswire.com",
+      "ref_id": "turn49search3",
+      "title": "Rokid Officially Launches Rokid Glasses: The World's Lightest Full-Function AI & AR Smart Glasses",
+      "url": "https://www.prnewswire.com/news-releases/rokid-officially-launches-rokid-glasses-the-worlds-lightest-full-function-ai--ar-smart-glasses-302539782.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "eshop.hkcsl.com",
+      "ref_id": "turn49search12",
+      "title": "Product Information Sheet",
+      "url": "https://eshop.hkcsl.com/on/demandware.static/-/Library-Sites-HKTSharedLibrary/default/dw2a374c64/pdf/Rokid/ROKID%20AI%20GLASSES.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "rokidglasses.vn",
+      "ref_id": "turn49search4",
+      "title": "Rokid Việt Nam",
+      "url": "https://rokidglasses.vn/pages/support/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kinhrokid.vn",
+      "ref_id": "turn49search5",
+      "title": "Kính thông minh Rokid",
+      "url": "https://www.kinhrokid.vn/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn49news18",
+      "snippet": "And now, Rokid Glasses has shown me this future, while keeping the glasses featherweight at just 49g (1.7 ounces). ... That 12MP camera is capable",
+      "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/SaJUacraEdBS3dsfc2yD3h-1280-80.jpg",
+      "title": "I just tested the futuristic Rokid Glasses - bringing AR and AI together to make Meta nervous",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/i-just-tested-the-futuristic-rokid-glasses-bringing-ar-and-ai-together-to-make-meta-nervous"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn49news19",
+      "snippet": "Aside from the clunky name, Rokid's glasses claimed to allow wearers to capture hands-free 12MP photos and videos, receive real-time translations across 89 languages with",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ff6M5sAMC7fDMDdjWeO_LGa9LhvWh7IlLmbBo9TvxTAU_RpApD9VxUnHu-f0mRJr319wQI1CMAeraxHIEfuJu_N3EEN1WdDJ3EynDknD5li9D4ycpCVaKaH7lajeN41Q",
+      "title": "I tried Rokid's AI + AR glasses for a month, and the general 'bad vibes' I have around wearables are slowly subsiding, but I can't stop worrying about my personal data",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/i-tried-rokids-ai-ar-glasses-for-a-month-and-the-general-bad-vibes-i-have-around-wearables-are-slowly-subsiding-but-i-cant-stop-worrying-about-my-personal-data"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.digitalcameraworld.com",
+      "ref_id": "turn49news20",
+      "snippet": "And at just 38.5g, they're significantly lighter than Meta's Ray-Ban Smart Glasses, which weigh either 49g (Generation 1) or 51-53g (Generation 2). ... The glasses",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/MZNtieg7pjl7qdIQoF825hBQ65nwyEnG5L9DUiErrmTM37Sw_pwUnM6qLmtacDr47MU59w1KHO3gJAJjE1oXZAB5l-643Rd4vfQy3aZAlklbm-2QnSzmekzUWMoV6_ng",
+      "title": "These new AI smart glasses could actually make sense for photographers (and they're cheaper than RayBans)",
+      "url": "https://www.digitalcameraworld.com/tech/these-new-ai-smart-glasses-could-actually-make-sense-for-photographers-and-theyre-cheaper-than-raybans"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Din imaginile trimise, pare să fie versiunea veche — Rokid Glasses, prima generație cu display — nu noua generație anunțată pentru 27 octombrie.** Nu am putut deschide linkul Alibaba, deci identificarea se bazează pe fotografii și specificațiile afișate.
+
+| Indiciu din imaginile tale | Ce indică |
+|---|---|
+| **49 g** | Greutatea modelului Rokid Glasses lansat în 2025 |
+| **Baterie de 210 mAh** | Coincide cu specificațiile modelului existent |
+| **12 MP, 3024 × 4032, F/2.25, 109°** | Coincid cu specificațiile camerei modelului existent |
+| **„Rokid AI Assistant 2.0”** | Denumirea versiunii asistentului software; **nu dovedește generația a doua a ochelarilor** |
+
+Referințe: [comunicatul Rokid din august 2025](https://www.prnewswire.com/news-releases/rokid-officially-launches-rokid-glasses-the-worlds-lightest-full-function-ai--ar-smart-glasses-302539782.html) și [fișa de specificații](https://rokidstore.com.au/pages/rokid-glasses-specifications).
+
+Fotografiile combină și referințe la **GPT/Gemini** cu **Doubao/Qwen/DeepSeek/Zhipu**; din ele nu se poate stabili sigur dacă produsul livrat este versiunea internațională sau cea pentru China.
+
+**Înainte de comandă, cere vânzătorului confirmarea aceasta:**
+
+> Is this the first-generation Rokid Glasses or the new second-generation model launching on October 27, 2026? “AI Assistant 2.0” does not identify the hardware generation. Please send a photo of the actual box label showing the exact model number, and confirm whether this is the Chinese or international version.
+
+## Asistent
+
+**Aceste specificații întăresc identificarea: oferta pare să fie pentru Rokid Glasses din prima generație, cu display.**
+
+Combinația din fișă corespunde modelului existent:
+
+| Componentă | Specificațiile ofertei |
+|---|---|
+| Procesor | Qualcomm Snapdragon **AR1 + NXP RT600** |
+| Cameră | **Sony IMX681**, 12 MP |
+| Memorie | **2 GB RAM + 32 GB** |
+| Baterie | **210 mAh** |
+| Greutate | **49 g** |
+| Display | **480 × 640**, câmp vizual **30°** |
+
+**Fișa are și o neconcordanță:** scrie „Micro OLED”, în timp ce modelul Rokid Glasses descris anterior folosește **MicroLED**. Aș trata descrierea comerciantului ca posibil inexactă.
+
+**Nu există în aceste capturi o dovadă că oferta este pentru generația a doua.** Pentru confirmarea produsului efectiv livrat, cere fotografia etichetei de pe cutie, cu **numărul exact de model**; „AI Assistant 2.0” nu identifică generația hardware.
+
+## Asistent
+
+Poți trimite acest mesaj în chineză:
+
+您好！我想购买的是将于 **2026年10月27日发布的第二代乐奇 Rokid AI 眼镜（带显示屏）**。
+
+这是 Rokid 官方微信公众号的发布会预告：
+https://mp.weixin.qq.com/s/FU5cw_Y61ncNRl6fkNU3rw
+
+您之前发来的图片和参数（49克、210mAh、Snapdragon AR1 + NXP RT600、Sony IMX681）与第一代 Rokid Glasses 的配置一致。“AI Assistant 2.0”是软件名称，不能据此确认是第二代硬件。
+
+麻烦您帮忙确认：
+1. 您提供的是第一代还是第二代产品？
+2. 请提供实际包装盒上型号标签的照片。
+3. 是中国版还是国际版？能否在罗马尼亚正常激活和使用？
+4. 如果有第二代，价格是多少？今天能否在北京购买并直接取货？具体在哪家门店？
+
+我的朋友今晚从北京飞往布达佩斯，希望能在出发前购买。谢谢您的帮助！
+
+---
+
+**Traducere:** „Doresc a doua generație Rokid AI cu display, anunțată pentru 27 octombrie 2026. Specificațiile trimise corespund primei generații; «AI Assistant 2.0» nu confirmă hardware de generația a doua. Vă rog să confirmați generația, să trimiteți fotografia etichetei cutiei și să precizați versiunea regională, funcționarea în România, prețul și magazinul din Beijing unde se poate cumpăra și ridica astăzi. Prietenul meu zboară în această noapte spre Budapesta.”
+
+## Asistent
+
+Mesajul înseamnă: **„Acestea sunt specificațiile și aspectul produsului real după despachetare.”**
+
+Nu confirmă încă generația. Poți răspunde:
+
+> 明白，谢谢。请明确确认：这是第一代，还是2026年10月27日发布的第二代乐奇AI眼镜？请拍一下包装盒上的产品型号标签。我要的是第二代，不是仅升级了AI Assistant 2.0软件的第一代。谢谢！
+
+**Traducere:** „Am înțeles, mulțumesc. Vă rog să confirmați explicit: este prima generație sau a doua generație Rokid AI, anunțată pentru 27 octombrie 2026? Trimiteți o fotografie a etichetei cu modelul de pe cutie. Doresc generația a doua, nu prima generație cu software-ul AI Assistant 2.0 actualizat.”
+
+## Asistent
+
+**Acum se vede codul de model: RV101**, atât sub sigla „Made for iPhone”, cât și pe eticheta de jos. Cutia este inscripționată **Rokid Glasses — 乐奇智能眼镜**.
+
+Împreună cu specificațiile trimise anterior, **indică modelul existent, prima generație cu display**. Fotografiile nu susțin afirmația că ar fi noua generație anunțată pentru 27 octombrie. Eticheta în chineză sugerează ambalaj pentru piața chineză, dar nu confirmă singură restricțiile regionale.
+
+Poți trimite:
+
+> 谢谢，照片上可以看到型号是 RV101。结合您之前提供的参数，这看起来是第一代 Rokid Glasses。我要购买的是2026年10月27日发布的第二代带显示屏的乐奇AI眼镜。请确认第二代的准确型号，以及今天是否有现货可以直接购买取走。如果目前只有第一代，也请明确告知，谢谢！
+
+„Mulțumesc, în fotografie se vede modelul RV101. Împreună cu specificațiile anterioare, acesta pare prima generație. Doresc a doua generație cu display, anunțată pentru 27 octombrie 2026. Vă rog să confirmați codul exact al generației a doua și dacă există stoc pentru cumpărare și ridicare astăzi. Dacă aveți doar prima generație, vă rog să precizați.”
+
+## Asistent
+
+Verific acum dacă lansarea a avut loc și dacă Rokid a publicat prețul și disponibilitatea generației a doua.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-eace113d-edc3-43b6-a2d9-6ff1cadada5a",
+  "query": "\"Rokid\" \"2026-10-27\" 发布 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Rokid\" \"2026-10-27\" 发布",
+      "\"乐奇\" \"10月27日\" 售价 二代",
+      "site.rokid.com \"2\" \"2026\" Glasses"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "news.mydrivers.com",
+      "ref_id": "turn50search0",
+      "title": "3199元起！Rokid乐奇眼镜2发布：可拍4K视频+AI实时回溯--快科技--科技改变未来",
+      "url": "https://news.mydrivers.com/1/1161/1161065.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn50search1",
+      "title": "乐奇二代在数贸会展出了，10月27日才开发布会：一代现在抄底还是等？我把9大变化和价格账一起摆给你看_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/avgp88rm/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn50search2",
+      "title": "下午2点开屏的不是全彩：乐奇二代把力气花在参数表之外，价签捂到10月27日——等货党先把六行升级清单和一份跳票记录对完再掏钱_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a260pked/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sohu.com",
+      "ref_id": "turn50search3",
+      "title": "为什么AR眼镜都在急着拥抱全彩_Rokid_单绿_Micro",
+      "url": "https://www.sohu.com/a/1092571913_122647867"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn50search4",
+      "title": "二代乐奇首秀，一代机主的第一笔账：1500的近视镜片带不走——升不升我排成三档，发布会前先把这五个问题问明白_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a5rxee88/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tmtpost.com",
+      "ref_id": "turn50search5",
+      "title": "乐奇Rokid发布三款AI穿戴新品，拓展显示与交互方案-钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8183616.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wecanar.com",
+      "ref_id": "turn50search6",
+      "title": "Rokid 第二代带显示 AI 眼镜定档 10 月 27 日发布，性能与续航升级、整机更轻 — 我看AR",
+      "url": "https://www.wecanar.com/index.php/archives/5966/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn50search7",
+      "title": "乐奇2代数贸会首秀、10月27日正式揭晓：全球首发高通AR1+，却配单色屏——等全彩还是先上这代？搞机党先看清这三层_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a70p6olo/"
+    },
+    {
+      "type": "text_result",
+      "domain": "openrokid.csdn.net",
+      "ref_id": "turn50search8",
+      "title": "乐奇 Rokid 开放社区",
+      "url": "https://openrokid.csdn.net/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn50view0",
+      "snippet": "Total lines: 64",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/2vwYlEyFwLg3NKz7trOSAJHoPox-VKAcd9nJ2yhtH3G3d3A9GnDGdLWB8B2NTphwO1DDm8KolKiDQ_PboysgZXOhmsXlBnmIu-uQv-B6g3c",
+      "title": "乐奇 Rokid - 官方网站",
+      "url": "https://www.rokid.com/zh-CN"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-4c25c947-8bc2-40ad-b5be-76d49ead1ec5",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn51view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "item.jd.com",
+      "ref_id": "turn51view1",
+      "snippet": "Total lines: 5",
+      "title": "京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！",
+      "url": "https://item.jd.com/100423120538.html"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Da — Rokid Glasses 2 au fost prezentate oficial pe 27 octombrie 2026.** Acum apar și pe [site-ul oficial Rokid](https://www.rokid.com/zh-CN), cu buton de **rezervare/precomandă** și [link către JD.com](https://item.jd.com/100423120538.html).
+
+**Pentru cumpărare: sunt la precomandă, cu livrări anunțate din 14 noiembrie.** Nu am confirmare de stoc pentru ridicare imediată în Beijing sau în aeroport. [Relatarea lansării](https://news.mydrivers.com/1/1161/1161065.htm)
+
+| Variantă | Preț anunțat în China | Cu subvenția chineză* |
+|---|---:|---:|
+| **Negru — Classic Black** | **3.699 CNY** | 3.199 CNY |
+| **Tortoiseshell — 玳瑁色** | **3.849 CNY** | 3.349 CNY |
+
+*Prețul subvenționat depinde de eligibilitate; nu îl considera automat disponibil pentru un cumpărător străin. [Prețurile de la lansare](https://www.tmtpost.com/8183616.html)
+
+Au fost prezentate și **Rokid Color**, un model separat cu display color, și **Rokid Ring**. Așadar, **Glasses 2 și Color sunt două produse diferite**.
+
+Pentru oferta partenerului chinez, cere explicit **„Rokid Glasses 2 / 乐奇眼镜2”**: fotografiile cu **RV101 și bateria de 210 mAh** trimise anterior indică modelul vechi.
+
+## Asistent
+
+Verific dacă DoctorGlasses a anunțat stoc cu ridicare imediată sau doar precomenzi și exemplare pentru probă.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ced245aa-0598-4d97-a029-97dbcb5fda18",
+  "query": "\"博士眼镜\" \"乐奇\" \"现货\" \"2026\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"博士眼镜\" \"乐奇\" \"现货\" \"2026\"",
+      "\"博士眼镜\" \"Glasses 2\" 预售",
+      "\"乐奇\" \"11月14日\" \"博士\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn52search0",
+      "title": "Rokid Glasses 2首发避坑：不戴眼镜党入手前必看的3个隐藏短板_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/aqrq9mmp/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn52search1",
+      "title": "文章筛选 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nr/"
+    },
+    {
+      "type": "text_result",
+      "domain": "finance.sina.com.cn",
+      "ref_id": "turn52search2",
+      "title": "阿里千问眼镜开售3小时登顶热销榜首，AI“百镜大战”开打｜有点新消费|AI_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/wm/2026-03-12/doc-inhqtusm4691993.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn52search3",
+      "title": "云栖大会千问N1排队、豫园眼镜伴游刷屏、讯飞出境翻译走红：国庆出游想买AI眼镜之前，先把退货率、续航、配镜这三本账算完_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/arzq7zlw/"
+    },
+    {
+      "type": "text_result",
+      "domain": "caifuhao.eastmoney.com",
+      "ref_id": "turn52search4",
+      "title": "26-10-20盘前总结_财富号_东方财富网",
+      "url": "https://caifuhao.eastmoney.com/news/20261020091030019024770"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn52view0",
+      "snippet": "Total lines: 139",
+      "title": "博士眼镜与乐奇Rokid达成战略合作，共启AI眼镜“验配一体化”新篇章 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn52view1",
+      "snippet": "Total lines: 134",
+      "title": "博士眼镜连锁股份有限公司官网 - 您身边的视力保护专家，智能眼镜交付的最后一公里！",
+      "url": "https://www.doctorglasses.com.cn/"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**DoctorGlasses participă la lansare, dar nu am confirmarea că are perechi disponibile pentru cumpărare și ridicare imediată în Beijing.**
+
+[Anunțul lor oficial](https://www.doctorglasses.com.cn/sys-nd/222.html) spune că noul model debutează pe 27 octombrie în **anumite magazine**, unde poate fi văzut și probat. Nu precizează stocurile, filialele participante sau data predării produsului.
+
+**Corectez o nuanță din răspunsul anterior:** data de livrare din precomenzile online nu dovedește că toate magazinele fizice trebuie să aștepte aceeași dată. Disponibilitatea DoctorGlasses rămâne de verificat direct.
+
+Trimite partenerului:
+
+> 请帮我确认北京的博士眼镜门店是否有 Rokid Glasses 2 第二代现货，可以付款后当场带走，而不是预订或仅供试戴。如果有，请提供具体门店地址、电话和营业时间。谢谢！
+
+„Te rog să verifici dacă vreun DoctorGlasses din Beijing are **Rokid Glasses 2 în stoc, cu ridicare imediată după plată**, nu doar precomandă sau exemplar de probă. Dacă da, trimite adresa, telefonul și programul.”
+
+## Asistent
+
+Verific direct site-ul DoctorGlasses, inclusiv anunțurile și canalele lor de cumpărare.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-8875d737-de79-4995-9a0e-6281ed12a2ca",
+  "query": "https://www.doctorglasses.com.cn/sys-nd/222.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn53view0",
+      "snippet": "Total lines: 139",
+      "title": "博士眼镜与乐奇Rokid达成战略合作，共启AI眼镜“验配一体化”新篇章 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nd/222.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn53view1",
+      "snippet": "Total lines: 1291",
+      "title": "文章筛选 - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/sys-nr/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn53view2",
+      "snippet": "Total lines: 206",
+      "title": "博士眼镜连锁股份有限公司官网 - 您身边的视力保护专家，智能眼镜交付的最后一公里！ - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/h-col-136.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-13eda4fd-5311-45aa-8610-07c82a9ea514",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "mall.jd.com",
+      "ref_id": "turn54view0",
+      "snippet": "Total lines: 240",
+      "title": "博士眼镜官方旗舰店 - 京东",
+      "url": "https://mall.jd.com/index-713230.html?from=pc"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn54view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn54view2",
+      "snippet": "Total lines: 163",
+      "title": "博士眼镜连锁股份有限公司官网 - 您身边的视力保护专家，智能眼镜交付的最后一公里！ - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/h-col-222.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.doctorglasses.com.cn",
+      "ref_id": "turn54view3",
+      "snippet": "Total lines: 146",
+      "title": "博士眼镜连锁股份有限公司官网 - 您身边的视力保护专家，智能眼镜交付的最后一公里！ - 博士眼镜",
+      "url": "https://www.doctorglasses.com.cn/h-col-219.html"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Am intrat direct pe site-ul oficial DoctorGlasses. Ei confirmă debutul generației a doua în anumite magazine pe 27 octombrie, dar nu confirmă public stoc pentru ridicare imediată în Beijing.**
+
+[Anunțul oficial](https://www.doctorglasses.com.cn/sys-nd/222.html) precizează că vor exista zone de prezentare și probare. **Nu enumeră filialele participante, cantitățile disponibile sau data predării produselor.**
+
+Am verificat și:
+
+- **[Lista de știri](https://www.doctorglasses.com.cn/sys-nr/):** cel mai recent anunț afișat despre Rokid rămâne cel din 19 octombrie.
+- **[Magazinul lor oficial JD](https://mall.jd.com/index-713230.html?from=pc):** în pagina accesibilă nu am găsit o ofertă Rokid Glasses 2.
+- **[Canalele de cumpărare](https://www.doctorglasses.com.cn/h-col-136.html):** au și magazin în miniaplicația WeChat, al cărui catalog nu îl pot verifica aici; magazinul Tmall nu s-a încărcat.
+
+**Deci nu pot spune că „nu le au”. Pot spune că site-ul public nu dovedește că le poți plăti și lua pe loc.** Confirmarea filialei și a stocului se poate cere la numărul lor oficial **400-600-3663**. [Contact DoctorGlasses](https://www.doctorglasses.com.cn/h-col-219.html)
+
+## Asistent
+
+Caut fișele oficiale pentru Rokid Glasses 2, Rokid Color și Rokid Ring și verific ce specificații sunt publicate pentru fiecare.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d3136309-fc3c-4782-a8b3-f0991ea83630",
+  "query": "site.rokid.com \"Color\" \"Ring\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com \"Color\" \"Ring\"",
+      "site.rokid.com \"glasses-2\"",
+      "Rokid Color Ring 2026 参数 规格"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ithome.com",
+      "ref_id": "turn55search0",
+      "title": "Rokid Color 双目全彩智能眼镜发布：仅重 55g，神奇“魔戒”手势操控 - IT之家",
+      "url": "https://www.ithome.com/1/018/477.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn55search1",
+      "title": "Security Center – Rokid",
+      "url": "https://global.rokid.com/pages/security-center"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sina.cn",
+      "ref_id": "turn55search2",
+      "title": "把 1200 万像素塞进 55 克眼镜，第一视角影像终于不用妥协|Rokid|Rokid Color|Rokid Ring_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5358658686812247.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lazada.com.ph",
+      "ref_id": "turn55search3",
+      "title": "Shop Rokid Glasses 2 Cheap – Fast & Easy | Lazada Philippines",
+      "url": "https://www.lazada.com.ph/tag/rokid-glasses-2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.php.cn",
+      "ref_id": "turn55search4",
+      "title": "Rokid Glasses 2发布，第一视角拍摄支持4K 30fps-手机软件-PHP中文网",
+      "url": "https://www.php.cn/faq/3341520.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn55reddit12",
+      "title": "FIRST LOOK: Rokid just revealed the new \"Rokid Color\" smart glasses!",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xgvn3o/first_look_rokid_just_revealed_the_new_rokid/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.metaversewatcher.io",
+      "ref_id": "turn55search5",
+      "title": "Rokid Sets October 27 Hangzhou Launch for Second-Gen Glasses",
+      "url": "https://www.metaversewatcher.io/rokid-jungle-2026-october-27-hangzhou-full-color-teaser/"
+    },
+    {
+      "type": "text_result",
+      "domain": "tao.hooos.com",
+      "ref_id": "turn55search6",
+      "title": "ROKID_淘宝天猫折扣_ROKID相关商品大全价格图片搜索赛选_综合排行榜(2) - 虎窝淘",
+      "url": "https://tao.hooos.com/search?page=2&w=ROKID"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae01.alicdn.com",
+      "ref_id": "turn55search13",
+      "title": "Rokid Glasses 智能眼镜使用说明书",
+      "url": "https://ae01.alicdn.com/kf/Sca60ced8be924acba5fb4d81b0dd01c6C.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "x-docs.rokid.com",
+      "ref_id": "turn55search14",
+      "title": "Rokid Glass3企业版",
+      "url": "https://x-docs.rokid.com/lingmou_manual.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn55search7",
+      "title": "Rokid Help Center | FAQs, Support & Tutorials",
+      "url": "https://global.rokid.com/pages/faq"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn55search8",
+      "title": "乐奇发布会前4天，创始人朋友圈漏出\"Rokid Color\"：全彩眼镜是来买的，还是再来等半年？_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a4qx308x/"
+    },
+    {
+      "type": "text_result",
+      "domain": "ainewsfeed.tech",
+      "ref_id": "turn55search9",
+      "title": "Rokid launches Glasses 2 and brings Qianwen Office to AI glasses | AI News Feed",
+      "url": "https://ainewsfeed.tech/articles/rokid-launches-glasses-2-and-brings-qianwen-office-to-ai-glasses-37295-en-us-v1/"
+    },
+    {
+      "type": "text_result",
+      "domain": "murakami.pro",
+      "ref_id": "turn55search10",
+      "title": "Rokid AIグラスの価格・機能・評判まとめ〖2026年10月〗 - ムラカミドットプロ〖公式〗",
+      "url": "https://murakami.pro/rokid-ai-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rokid.com",
+      "ref_id": "turn55view0",
+      "snippet": "Total lines: 64",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/7B1mOJyKyrfymxjSYPSxVKS_58GrTthjTws8NLgEWVB9iD6jAg3-ifBZ6_lblRkq-3ersxEbYtlT1ZbkEQe_E9i7eWKFkmqaYjTuAUgatwQ",
+      "title": "乐奇 Rokid - 官方网站",
+      "url": "https://www.rokid.com/zh-CN"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-f10ce96e-703e-4d35-929e-e81d6819a3c0",
+  "query": "site.rokid.com \"Rokid Color\" 参数 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com \"Rokid Color\" 参数",
+      "site.rokid.com \"Rokid Ring\" 参数",
+      "site.rokid.com \"Glasses 2\" \"263\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.tmtpost.com",
+      "ref_id": "turn56search0",
+      "title": "乐奇Rokid发布三款AI穿戴新品，拓展显示与交互方案-钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8183616.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn56reddit12",
+      "title": "Rokid Glasses 2 officially launched! ¥3,699 (~€498 / ~$555), better optics, 25% longer battery life and new AI features",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xgr2nh/rokid_glasses_2_officially_launched_3699_498_555/"
+    },
+    {
+      "type": "text_result",
+      "domain": "weibo.com",
+      "ref_id": "turn56search1",
+      "title": "乐奇Rokid Color曝光 彩显AI眼镜或亮相10月27日发布会",
+      "url": "https://weibo.com/2/detail/5357103271117099"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn56view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn56view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6666270e-8ff8-4083-82cf-981de49655c1",
+  "query": "site.rokid.com \"Rokid Ring\" specifications ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com \"Rokid Ring\" specifications",
+      "site.rokid.com \"Glasses 2\" specs pdf",
+      "site.rokid.com \"Color\" \"55\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ithome.com",
+      "ref_id": "turn57search0",
+      "title": "Rokid Glasses 2 智能眼镜发布：双芯架构、行业首发视频超夜算法，3699 元起 - IT之家",
+      "url": "https://www.ithome.com/1/018/475.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.mydrivers.com",
+      "ref_id": "turn57search1",
+      "title": "3199元起！Rokid乐奇眼镜2发布：可拍4K视频+AI实时回溯--快科技--科技改变未来",
+      "url": "https://news.mydrivers.com/1/1161/1161065.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn57search2",
+      "title": "Security Center – Rokid",
+      "url": "https://global.rokid.com/en-hispano/pages/security-center"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn57reddit12",
+      "title": "Rokid Glasses 2 officially launched! ¥3,699 (~€498 / ~$555), better optics, 25% longer battery life and new AI features",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xgr2nh/rokid_glasses_2_officially_launched_3699_498_555/"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.t0001.com",
+      "ref_id": "turn57search3",
+      "title": "Rokid Glasses 2 AI 眼镜实现日常化个人 AI 终端升级_大广网",
+      "url": "https://news.t0001.com/newsflash/202610/1457042.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ainewsfeed.tech",
+      "ref_id": "turn57search4",
+      "title": "Rokid launches Glasses 2 and brings Qianwen Office to AI glasses | AI News Feed",
+      "url": "https://ainewsfeed.tech/articles/rokid-launches-glasses-2-and-brings-qianwen-office-to-ai-glasses-37295-en-us-v1/"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrarwiki.com",
+      "ref_id": "turn57search5",
+      "title": "Rokid Glass 2 - VR & AR Wiki - Virtual Reality & Augmented Reality Wiki",
+      "url": "https://vrarwiki.com/wiki/Rokid_Glass_2"
+    },
+    {
+      "type": "text_result",
+      "domain": "live.pconline.com.cn",
+      "ref_id": "turn57view0",
+      "snippet": "Total lines: 21",
+      "title": "Rokid Jungle 2026",
+      "url": "https://live.pconline.com.cn/3727.html"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn57view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Există specificații publicate la lansare pentru toate trei, dar nu am găsit încă fișe tehnice oficiale complete, în PDF, pentru fiecare.** Documentația disponibilă este încă fragmentată.
+
+| Produs | Documentație găsită | Ce conține |
+|---|---|---|
+| **Rokid Glasses 2** | Apare pe [site-ul oficial Rokid](https://www.rokid.com/zh-CN); pagina „Află mai multe” nu s-a încărcat. Există o [prezentare tehnică din cadrul lansării](https://www.ithome.com/1/018/475.htm). | Baterie **263 mAh**, cameră **12 MP**, filmare **4K/30 fps**, **4 microfoane omnidirecționale + unul cu conducție osoasă**, protecție **IPX4**, sunet Dolby |
+| **Rokid Color** | [Prezentare de la eveniment, cu specificațiile anunțate](https://www.ithome.com/1/018/477.htm). Nu am găsit un PDF oficial complet. | Display binocular **MicroLED color**, modul optic **0,16 cm³**, acoperire **100% sRGB**, greutate anunțată **55 g**, variante **2 GB + 64 GB / 4 GB + 64 GB** |
+| **Rokid Ring** | Prezentat împreună cu Color în [aceeași relatare a lansării](https://www.ithome.com/1/018/477.htm). Nu am găsit o fișă tehnică oficială separată. | Control prin microgesturi; monitorizarea pulsului, temperaturii, oxigenării și somnului. **Bateria, autonomia, dimensiunile și protecția la apă nu sunt confirmate în materialul verificat.** |
+
+**Am găsit și o confirmare oficială utilă pentru identificarea generației:** [pagina Rokid de suport și securitate](https://global.rokid.com/pages/security-center) listează:
+
+- **Rokid Glasses:** RV101 / RV102.
+- **Rokid Glasses 2:** RV301 / RV302 / RV303 / RV304 / RV305.
+
+Prin urmare, **cutia RV101 trimisă de partener este din generația anterioară**.
+
+Pentru o comparație tehnică riguroasă mai lipsesc, în special la **Color și Ring**, parametri precum autonomia, conectivitatea, senzorii exacți și compatibilitatea SDK. Nu aș completa aceste câmpuri folosind specificațiile primei generații.
+
+## Asistent
+
+Voi căuta documentația și materialele tehnice de la lansare, apoi voi compara cele trei modele. Voi marca separat specificațiile confirmate, funcțiile promise prin actualizări și informațiile care încă lipsesc.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-0d07d018-b6d7-4abc-8589-4b03482d9da8",
+  "query": "site.rokid.com \"Glasses 2\" \"参数\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.rokid.com \"Glasses 2\" \"参数\"",
+      "site.rokid.com \"Color\" \"参数\"",
+      "Rokid Glasses 2 Color Ring 规格 参数 2026 263 55"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ithome.com",
+      "ref_id": "turn58search0",
+      "title": "Rokid Color 双目全彩智能眼镜发布：仅重 55g，神奇“魔戒”手势操控 - IT之家",
+      "url": "https://www.ithome.com/1/018/477.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tmtpost.com",
+      "ref_id": "turn58search1",
+      "title": "乐奇Rokid发布三款AI穿戴新品，拓展显示与交互方案-钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8183616.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae01.alicdn.com",
+      "ref_id": "turn58search12",
+      "title": "Rokid Glasses 智能眼镜使用说明书",
+      "url": "https://ae01.alicdn.com/kf/Sca60ced8be924acba5fb4d81b0dd01c6C.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.t0001.com",
+      "ref_id": "turn58search2",
+      "title": "Rokid Glasses 2 AI 眼镜实现日常化个人 AI 终端升级_大广网",
+      "url": "https://news.t0001.com/newsflash/202610/1457042.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn58search3",
+      "title": "乐奇二代国补3199起、全彩Color却要等明年4月：发布会当晚，先看清哪台什么时候能到你手上再下单_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/arzrvwow/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn58search4",
+      "title": "Rokid Glasses 2适合长期佩戴吗？从镜片、镜腿到配镜方式逐项看__什么值得买",
+      "url": "https://post.smzdm.com/p/az8oex00/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn58reddit13",
+      "title": "Rokid Glasses 2 officially launched! ¥3,699 (~€498 / ~$555), better optics, 25% longer battery life and new AI features",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xgr2nh/rokid_glasses_2_officially_launched_3699_498_555/"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn58search5",
+      "title": "User Manuals – Rokid",
+      "url": "https://global.rokid.com/en-deutsch/pages/user-manuals"
+    },
+    {
+      "type": "text_result",
+      "domain": "rokidstore.com.au",
+      "ref_id": "turn58search6",
+      "title": "Rokid Glasses Specifications – Rokid AU Store",
+      "url": "https://rokidstore.com.au/pages/rokid-glasses-specifications"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn58search7",
+      "title": "Rokid Glasses | World's Lightest AI & AR Glasses",
+      "url": "https://global.rokid.com/en-hispano/products/rokid-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "subsilicon.cn",
+      "ref_id": "turn58search8",
+      "title": "Rokid Glasses · 产品档案 · SubSilicon",
+      "url": "https://subsilicon.cn/hardware/rokid-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn58search9",
+      "title": "乐奇发布会最出圈的居然是魔戒：1699 元用指尖盲操眼镜，这笔配件钱谁该花_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a26x9nqp/"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn58search10",
+      "title": "下午2点开屏的不是全彩：乐奇二代把力气花在参数表之外，价签捂到10月27日——等货党先把六行升级清单和一份跳票记录对完再掏钱_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a260pked/"
+    },
+    {
+      "type": "text_result",
+      "domain": "jp.rokid.com",
+      "ref_id": "turn58search11",
+      "title": "購入前・製品仕様 - Rokid (Japan)",
+      "url": "https://jp.rokid.com/blogs/faq-prepurchase-specs"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn58view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn58view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn58view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn58view3",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn58view4",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1f6031c6-2b8b-4342-ac0d-50afd270e495",
+  "query": "site.ifanr.com \"263\" \"Rokid\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ifanr.com \"263\" \"Rokid\"",
+      "site.rokid.com \"glasses-2\" \"规格\"",
+      "site.rokid.com \"Ring\" \"pdf\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "news.pedaily.cn",
+      "ref_id": "turn59search0",
+      "title": "下一个时代，从眼前开始：乐奇Rokid新品定义AI眼镜新形态_投资界",
+      "url": "https://news.pedaily.cn/202610/570947.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bilibili.com",
+      "ref_id": "turn59search1",
+      "title": "ROKID京东自营旗舰店乐奇AI眼镜 智能眼镜 (263)_哔哩哔哩_bilibili",
+      "url": "https://www.bilibili.com/video/BV1gT2DBCECT/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.pandashop.md",
+      "ref_id": "turn59search2",
+      "title": "Широкий ассортимент от Rokid, цены: купить товары от Rokid в Кишинёве – доставка по Молдове",
+      "url": "https://www.pandashop.md/ru/brand/rokid/"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn59search12",
+      "title": "User Manual",
+      "url": "https://manuals.plus/m/8825862c69dd8b82944389abfb10b2b5a2cd32bf32882fcebaee4eb5ee33acc4_optim.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jikemijing.com",
+      "ref_id": "turn59search3",
+      "title": "AI眼镜日报｜乐奇Rokid发布第二代AI眼镜、Counterpoint：上半年全球AI眼镜出货量同比增长263% - 日报 - 极刻觅镜",
+      "url": "https://www.jikemijing.com/news/n_GXT4yGFTPB1Xue-pAJXH4jCc"
+    },
+    {
+      "type": "text_result",
+      "domain": "blog.51cto.com",
+      "ref_id": "turn59search4",
+      "title": "AI 眼镜要好用，也要让人愿意戴_mb6ad76ff4586ff的技术博客_51CTO博客",
+      "url": "https://blog.51cto.com/u_17806215/15040963"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.gadgetpilipinas.net",
+      "ref_id": "turn59search5",
+      "title": "Rokid AI Glasses Take 41% of AR Shipments in H1 2026",
+      "url": "https://www.gadgetpilipinas.net/2026/09/rokid-ar-shipments-h1-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "fenuli.com",
+      "ref_id": "turn59search6",
+      "title": "Compare smart glasses — Fenuli",
+      "url": "https://fenuli.com/smart-glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "fr.linkedin.com",
+      "ref_id": "turn59search7",
+      "title": "Rokid wants anyone to build AI agents for its smart glasses | Érick LAMY",
+      "url": "https://fr.linkedin.com/posts/%C3%A9rick-lamy-950307309_rokid-wants-anyone-to-build-ai-agents-for-activity-7506604915876745216-qIjo"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn59search8",
+      "title": "2025-02-05 华西证券 AIAR眼镜系列报告（一）：新一代计算交互平台，百镜大战风起云涌 | PDF",
+      "url": "https://www.scribd.com/document/1013155639/2025-02-05-%E5%8D%8E%E8%A5%BF%E8%AF%81%E5%88%B8-AIAR%E7%9C%BC%E9%95%9C%E7%B3%BB%E5%88%97%E6%8A%A5%E5%91%8A-%E4%B8%80-%E6%96%B0%E4%B8%80%E4%BB%A3%E8%AE%A1%E7%AE%97%E4%BA%A4%E4%BA%92%E5%B9%B3%E5%8F%B0-%E7%99%BE%E9%95%9C%E5%A4%A7%E6%88%98%E9%A3%8E%E8%B5%B7%E4%BA%91%E6%B6%8C"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.docomo.ne.jp",
+      "ref_id": "turn59search13",
+      "title": "Rokid AR Joy Pack展示店舗一覧",
+      "url": "https://www.docomo.ne.jp/binary/pdf/product/rokidmax/rokidmax_shoplist.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.swjtu.edu.cn",
+      "ref_id": "turn59search14",
+      "title": "普通高等学校本科专业设置申请表",
+      "url": "https://news.swjtu.edu.cn/__local/7/98/1F/1830D4FB713E425B72A0746D9D3_56ACED16_D1785.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn59view0",
+      "snippet": "Total lines: 373",
+      "title": "User Manuals – Rokid",
+      "url": "https://global.rokid.com/pages/user-manuals"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn59view1",
+      "snippet": "Total lines: 1159",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/1Z-1f1O-ovAKiNI4TpvzXKifWll-DXfZZIFTPdOwGu395xCn7Z2RaBgjgug8dKlJGCtdZ62SCRc5BD5AU4q2vTqlz_vTQ2_-YWmRmeQhxZXxaMh4qq1RIEpjS502g2423D-ZnbO0BWFS16wQYFyCpJeyQH7dlrL2T1I6ROV-svQ",
+      "title": "Rokid Glasses | World's Lightest AI & AR Glasses",
+      "url": "https://global.rokid.com/en-hispano/products/rokid-glasses"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-78d26634-0678-4014-9485-7384ac49426e",
+  "query": "\"Rokid Glasses 2\" site.ifanr.com 2026 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Rokid Glasses 2\" site.ifanr.com 2026",
+      "\"Rokid Ring\" site.rokid.com 手势",
+      "\"Rokid Color\" \"分辨率\" \"2026\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn60search0",
+      "title": "Security Center – Rokid",
+      "url": "https://global.rokid.com/pages/security-center"
+    },
+    {
+      "type": "text_result",
+      "domain": "k.sina.com.cn",
+      "ref_id": "turn60search1",
+      "title": "刚刚，Rokid首款全彩AI眼镜亮相，4999元起|AI戒指|杭州市|高通|芯片|Apple_新浪新闻",
+      "url": "https://k.sina.com.cn/article_5952915705_162d248f906703rrng.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tmtpost.com",
+      "ref_id": "turn60search2",
+      "title": "乐奇Rokid发布三款AI穿戴新品，拓展显示与交互方案-钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8183616.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn60search3",
+      "title": "乐奇发布会前4天，创始人朋友圈漏出\"Rokid Color\"：全彩眼镜是来买的，还是再来等半年？_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a4qx308x/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn60reddit12",
+      "title": "Rokid Glasses 2 officially launched! ¥3,699 (~€498 / ~$555), better optics, 25% longer battery life and new AI features",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xgr2nh/rokid_glasses_2_officially_launched_3699_498_555/"
+    },
+    {
+      "type": "text_result",
+      "domain": "oculos.io",
+      "ref_id": "turn60search4",
+      "title": "为智能眼镜做开发 · oculos.io",
+      "url": "https://oculos.io/zh/develop"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn60view0",
+      "snippet": "Total lines: 373",
+      "title": "User Manuals – Rokid",
+      "url": "https://global.rokid.com/pages/user-manuals"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn60view1",
+      "snippet": "Total lines: 1159",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/aVxXlD1ZIMND4XJWglWrGanDGPesrvLx2URlAbD0xayUFikMjeyLIsCsNIElRxVDsxkaa11vEcCE6zPyQwzD1LSjSgSK7Ub5VcLItKSsrJEaRDQt9IQ0Rx5Q0YTla93iMwQRyG11LMPfMagOSgduFTttJYQ9h__z5hpN2kMf0w4",
+      "title": "Rokid Glasses | World's Lightest AI & AR Glasses",
+      "url": "https://global.rokid.com/en-hispano/products/rokid-glasses"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Am găsit detalii suplimentare despre camere, optică și gesturile inelului. Există însă neconcordanțe între pagini, inclusiv la rezoluția Gen 1 și denumirea procesorului Gen 2; le voi indica în comparație. Încerc și salvarea locală a surselor, pentru a le putea consulta ulterior.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e952eec4-b550-4188-89eb-9d45a4d9b04e",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -NoProfile -Command '$rokidDir = '\"'C:\\\\Users\\\\User\\\\Downloads\\\\Rokid-specificatii-2026-10-27'; New-Item -ItemType Directory -Path \"'$rokidDir -Force | Out-Null; $rokidSources = @(@('\"'Gen1-specificatii-oficiale.html','https://global.rokid.com/en-hispano/products/rokid-glasses'),@('Rokid-manuale-oficiale.html','https://global.rokid.com/pages/user-manuals'),@('Rokid-modele-oficiale.html','https://global.rokid.com/pages/security-center'),@('Gen2-Color-Ring-lansare.html','https://www.tmtpost.com/8183616.html'),@('Color-Ring-prezentare.html','https://www.ithome.com/1/018/477.htm')); foreach (\"'$rokidSource in $rokidSources) { try { Invoke-WebRequest -UseBasicParsing -Uri $rokidSource[1] -OutFile (Join-Path $rokidDir $rokidSource[0]) -TimeoutSec 20; Get-Item -LiteralPath (Join-Path $rokidDir $rokidSource[0]) | Select-Object FullName,Length } catch { Write-Output ($rokidSource[0] + '\"': ' + \"'$_.Exception.Message) } }'",
+  "cwd": "C:\\Users\\User",
+  "processId": "82308",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$rokidDir = 'C:\\Users\\User\\Downloads\\Rokid-specificatii-2026-10-27'; New-Item -ItemType Directory -Path $rokidDir -Force | Out-Null; $rokidSources = @(@('Gen1-specificatii-oficiale.html','https://global.rokid.com/en-hispano/products/rokid-glasses'),@('Rokid-manuale-oficiale.html','https://global.rokid.com/pages/user-manuals'),@('Rokid-modele-oficiale.html','https://global.rokid.com/pages/security-center'),@('Gen2-Color-Ring-lansare.html','https://www.tmtpost.com/8183616.html'),@('Color-Ring-prezentare.html','https://www.ithome.com/1/018/477.htm')); foreach ($rokidSource in $rokidSources) { try { Invoke-WebRequest -UseBasicParsing -Uri $rokidSource[1] -OutFile (Join-Path $rokidDir $rokidSource[0]) -TimeoutSec 20; Get-Item -LiteralPath (Join-Path $rokidDir $rokidSource[0]) | Select-Object FullName,Length } catch { Write-Output ($rokidSource[0] + ': ' + $_.Exception.Message) } }"
+    }
+  ],
+  "aggregatedOutput": "Gen1-specificatii-oficiale.html: Response status code does not indicate success: 403 (Forbidden).\r\nRokid-manuale-oficiale.html: Response status code does not indicate success: 403 (Forbidden).\r\nRokid-modele-oficiale.html: Response status code does not indicate success: 403 (Forbidden).\r\n\r\nFullName                                                                           Length\r\n--------                                                                           ------\r\nC:\\Users\\User\\Downloads\\Rokid-specificatii-2026-10-27\\Gen2-Color-Ring-lansare.html 145029\r\nC:\\Users\\User\\Downloads\\Rokid-specificatii-2026-10-27\\Color-Ring-prezentare.html    29425\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 2535
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c25230c2-3efa-485b-8004-013d57b1ebb6",
+  "query": "site.ifanr.com \"Glasses 2\" \"一周\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ifanr.com \"Glasses 2\" \"一周\"",
+      "site.rokid.com \"Glasses 2\" \"56\"",
+      "\"Rokid Color\" \"640\" \"30\"",
+      "\"Rokid Ring\" \"续航\" \"2026\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "k.sina.com.cn",
+      "ref_id": "turn61search0",
+      "title": "刚刚，Rokid首款全彩AI眼镜亮相，4999元起|AI戒指|杭州市|高通|芯片|Apple_新浪新闻",
+      "url": "https://k.sina.com.cn/article_5952915705_162d248f906703rrng.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "blog.51cto.com",
+      "ref_id": "turn61search1",
+      "title": "AI 眼镜要好用，也要让人愿意戴_mb6ad76ff4586ff的技术博客_51CTO博客",
+      "url": "https://blog.51cto.com/u_17806215/15040963"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn61search2",
+      "title": "乐奇二代国补3199起、全彩Color却要等明年4月：发布会当晚，先看清哪台什么时候能到你手上再下单_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/arzrvwow/"
+    },
+    {
+      "type": "text_result",
+      "domain": "pingce.ifeng.com",
+      "ref_id": "turn61search3",
+      "title": "乐奇Rokid发布全彩AI眼镜Rokid Color：0.16cc Micro-LED全彩光机，售价4999元起_凤凰网",
+      "url": "https://pingce.ifeng.com/c/8xZHfqMxmSb"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn61search4",
+      "title": "乐奇发布会最出圈的居然是魔戒：1699 元用指尖盲操眼镜，这笔配件钱谁该花_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/a26x9nqp/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zhenyes.com",
+      "ref_id": "turn61search5",
+      "title": "Rokid Glasses 2+Color双箭齐发：AI眼镜终于摘掉“尝鲜”标签_方向对了科技网",
+      "url": "https://www.zhenyes.com/industry/9172.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "sigmaintell.com",
+      "ref_id": "turn61search6",
+      "title": "Rokid在日本发布38.5g无屏AI眼镜 - 群智咨询-Sigmaintell",
+      "url": "https://sigmaintell.com/news.php?cid=26&id=24639"
+    },
+    {
+      "type": "text_result",
+      "domain": "news.pedaily.cn",
+      "ref_id": "turn61search7",
+      "title": "下一个时代，从眼前开始：乐奇Rokid新品定义AI眼镜新形态_投资界",
+      "url": "https://news.pedaily.cn/202610/570947.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "oculos.io",
+      "ref_id": "turn61search8",
+      "title": "Build for smart glasses · oculos.io",
+      "url": "https://oculos.io/en/develop"
+    },
+    {
+      "type": "text_result",
+      "domain": "post.smzdm.com",
+      "ref_id": "turn61search9",
+      "title": "乐奇二代在数贸会展出了，10月27日才开发布会：一代现在抄底还是等？我把9大变化和价格账一起摆给你看_智能眼镜_什么值得买",
+      "url": "https://post.smzdm.com/p/avgp88rm/"
+    },
+    {
+      "type": "text_result",
+      "domain": "library.upol.cz",
+      "ref_id": "turn61search12",
+      "title": "Univerzita Palackého v Olomouci",
+      "url": "https://library.upol.cz/arl-upol/cs/csg/?key=14147770098&repo=upolrepo"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn61view0",
+      "snippet": "Total lines: 1159",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/et-LDdoj5ZuQtBvYlazoUO3f-rxXFO1y2rCyb5SGHSJFMuQCVF1ZJsmWjguTRjKaQpBPWr64SDKvn8ibhhxvP6GbkdsTQtntr5tWhd2PmTyJmJjhbuwIwNV1tDVbJsuENDGLCfggtyAIDHqS1JN_eX6kp6O12qd37T8kF24J3W0",
+      "title": "Rokid Glasses | World's Lightest AI & AR Glasses",
+      "url": "https://global.rokid.com/en-hispano/products/rokid-glasses"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Am descărcat două materiale despre lansare și am confruntat specificațiile cu paginile Rokid. Gen 2 aduce îmbunătățiri de cameră, baterie, sunet și optică; Color aduce display-ul color. Nu există încă suficiente date verificate pentru a spune că Color este superior la toate componentele.**
+
+Fișierele salvate sunt **pagini HTML cu prezentările lansării, nu fișe PDF oficiale**:
+
+- [Gen 2, Color și Ring — prezentarea lansării](C:/Users/User/Downloads/Rokid-specificatii-2026-10-27/Gen2-Color-Ring-lansare.html)
+- [Color și Ring — prezentarea de la eveniment](C:/Users/User/Downloads/Rokid-specificatii-2026-10-27/Color-Ring-prezentare.html)
+
+Serverul Rokid a refuzat descărcarea directă a paginilor oficiale cu eroare 403, deși o parte din conținut poate fi consultată prin căutare. Nu am găsit PDF-uri oficiale complete pentru cele trei produse noi.
+
+**Comparația hardware**
+
+„Neconfirmat” înseamnă că nu am găsit o specificație suficient de sigură; nu înseamnă că funcția lipsește. Datele produselor noi se referă la prezentarea pentru China.
+
+| Caracteristică | Rokid Glasses — Gen 1 | Rokid Glasses 2 — Gen 2 | Rokid Color |
+|---|---|---|---|
+| **Tip de produs** | Ochelari AI cu cameră și display | Evoluția modelului cu display | Model separat, cu display color |
+| **Coduri de model** | RV101 / RV102 | RV301 / RV302 / RV303 / RV304 / RV305 | Neconfirmate |
+| **Tehnologia afișajului** | MicroLED + ghid de undă, binocular | Display binocular verde; optică revizuită | **MicroLED color, binocular** |
+| **Culori afișate** | Verde monocrom | Verde monocrom | **16,77 milioane de culori**, anunțate |
+| **Rezoluția display-ului** | Surse contradictorii: vezi observația de mai jos | Neconfirmată independent | Neconfirmată |
+| **Câmp vizual al display-ului** | 30° pe pagina oficială globală | Neconfirmat | Neconfirmat |
+| **Luminozitate** | Până la 1.500 niți, declarată | Nu am verificat o valoare exactă | Nu am verificat o valoare exactă |
+| **Modul optic** | Modelul inițial | Volum declarat cu **30% mai mic** | Modul color de **0,16 cm³**, realizat cu JBD |
+| **Greutate** | **49 g** | Nu am găsit o valoare sigură și consecventă | **55 g, fără suportul nazal**, conform prezentării |
+| **Procesor principal** | Snapdragon AR1 | Platformă Qualcomm; relatările diferă între **AR1 și AR1+** | Neconfirmat |
+| **Coprocesor** | NXP RT600 | **BES2800BP** | Neconfirmat |
+| **RAM / stocare** | **2 GB / 32 GB** | Neconfirmate | **2 GB / 64 GB** sau **4 GB / 64 GB** |
+| **Camera** | Sony IMX681, **12 MP**, F/2.25 | **12 MP**, ansamblu optic nou 1GM5P; HDR și procesare RAW14 anunțate | Camera apare în demonstrații; senzorul exact nu este confirmat |
+| **Fotografii Gen 1** | 3024 × 4032 | Nu am verificat dimensiunile finale ale fișierelor | Neconfirmate |
+| **Video** | Pagina globală enumeră până la **3K/30 fps**, în anumite formate | **4K/30 fps și 2K/60 fps** anunțate | Modurile exacte nu sunt confirmate |
+| **Baterie** | **210 mAh** | **263 mAh**, aproximativ **25% mai mare** | Neconfirmată |
+| **Microfoane** | 4 | **4 omnidirecționale + 1 cu conducție osoasă** | Neconfirmate |
+| **Difuzoare** | Două difuzoare deschise | Unități AAC noi, sunet Dolby anunțat | Configurație exactă neconfirmată |
+| **Conectivitate** | Wi-Fi 6, Bluetooth 5.3 | Versiuni neconfirmate | Versiuni neconfirmate |
+| **Protecție la apă** | Nu o stabilesc din documentele verificate | **IPX4** | Neconfirmată |
+| **Lentile cu dioptrii** | Inserție dedicată | Soluție magnetică dedicată | Specificațiile complete de adaptare nu sunt confirmate |
+
+Surse: [specificațiile oficiale Gen 1](https://global.rokid.com/en-hispano/products/rokid-glasses), [codurile oficiale de model](https://global.rokid.com/pages/security-center), [Gen 2 — relatare de la lansare](https://www.ithome.com/1/018/475.htm), [Color — relatare de la lansare](https://www.ithome.com/1/018/477.htm), [detaliile tehnice prezentate la eveniment](https://www.tmtpost.com/8183616.html).
+
+**Două corecții față de informațiile discutate anterior:**
+
+- **Rezoluția Gen 1 nu trebuie prezentată fără rezervă drept 480 × 640.** Pagina oficială globală afișează **480 × 400**, în timp ce un laborator care a citit direct configurația unui aparat raportează **480 × 640 la 60 Hz**. Nu pot stabili din aceste surse dacă diferența provine din regiune, raportarea suprafeței utile sau o eroare de documentație. [Măsurătorile laboratorului](https://oculos.io/en/develop)
+- **Nu transfer automat greutatea de 49 g de la Gen 1 la Gen 2.** Unele articole o repetă, dar documentația verificată nu este suficient de consecventă.
+
+**Ce se schimbă în utilizare**
+
+| Funcție / experiență | Gen 1 | Gen 2 | Color |
+|---|---|---|---|
+| **Traducere, subtitrări, prompter, notificări** | Funcțiile de bază ale modelului | Continuate și extinse | Interfața color permite prezentare mai bogată; lista finală pe regiuni lipsește |
+| **Reflexii și efecte de curcubeu în lentile** | Optica inițială | Producătorul declară **−70% reflexii**, **−60% efect de curcubeu** | Nu sunt publicate comparații echivalente |
+| **Confort** | Rama și suporturile inițiale | Brațe flexibile, deschidere cu **22% mai mare**, suporturi nazale revizuite | Greutate declarată de 55 g; confortul nu poate fi dedus doar din greutate |
+| **Fotografiere** | Cameră pentru captură din perspectiva purtătorului | Previzualizare înainte de fotografiere; îmbunătățiri pentru noapte, HDR și stabilizare | Previzualizare color demonstrată |
+| **Conținut multimedia în lentile** | Interfață monocromă | Interfață monocromă | **Fotografii, videoclipuri și interfețe color demonstrate** |
+| **AI pentru întâlniri și memorie** | Depinde de versiunea software | Rezumate cu audio și imagini, traducerea apelurilor și regăsirea informațiilor anunțate | Nu presupun automat aceeași listă și același calendar software |
+| **Control prin inelul nou** | Compatibilitate neconfirmată | Compatibilitate completă neconfirmată | **Combinația Color + Ring a fost demonstrată** |
+
+Procentele de îmbunătățire sunt **declarații ale producătorului**, nu rezultate ale unui test independent. Funcțiile AI prezentate la lansare nu constituie dovada că toate sunt deja activate în firmware-ul livrat. [Prezentarea lansării](https://www.tmtpost.com/8183616.html)
+
+**Rokid Ring — funcțiile anunțate și demonstrate**
+
+| Funcție | Ce face |
+|---|---|
+| **Atingere simplă / dublă** | Selectare și confirmare în interfață |
+| **Glisare stânga–dreapta** | Navigare între elemente |
+| **Glisarea degetului mare pe arătător** | Exemplu demonstrat: schimbarea melodiei |
+| **Pocnit din degete** | Exemplu demonstrat: declanșarea fotografiei |
+| **Gest de rotație** | Navigare într-un meniu circular sau reglarea volumului |
+| **Suprafață folosită ca touchpad** | Control prin mișcări pe o suprafață; a fost prezentată și derularea cu două degete |
+| **Controlul conținutului din Color** | Navigare prin videoclipuri și interacțiune cu aplicații/jocuri |
+| **Monitorizare personală** | Puls, temperatură, SpO₂, somn și estimarea caloriilor, anunțate |
+
+Gesturile concrete provin din [reportajul realizat la eveniment de 智东西](https://k.sina.com.cn/article_5952915705_162d248f906703rrng.html); funcțiile de monitorizare sunt menționate în [prezentarea Color și Ring](https://www.ithome.com/1/018/477.htm).
+
+**Încă lipsesc pentru Ring:** autonomia, capacitatea bateriei, timpul de încărcare, greutatea, mărimile, rezistența la apă, lista exactă a senzorilor și documentația SDK. Nu am confirmat nici folosirea lui independentă ca mouse pentru PC, nici compatibilitatea cu Gen 1. Funcția de „touchpad” demonstrată nu dovedește automat aceste compatibilități.
+
+**Pentru dezvoltare**, acesta rămâne un gol important: nu am găsit documentație publică verificabilă care să detalieze accesul aplicațiilor la gesturile Ring sau la senzorii Color. Existența unui ecosistem de aplicații Rokid nu este suficientă pentru a confirma accesul SDK la fiecare funcție nouă.
+
+## Asistent
+
+Verific dacă Even G2 are un inel dedicat și ce funcții oferă.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-45b7c34b-2fc7-4174-a94c-f45c35f6b8d7",
+  "query": "site.evenrealities.com G2 R1 ring controls",
+  "action": {
+    "type": "search",
+    "query": "site.evenrealities.com G2 R1 ring controls",
+    "queries": null
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn62search0",
+      "title": "How to Control – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/13772400722063-How-to-Control"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn62search1",
+      "title": "Glasses control – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/17451427112975-Glasses-control"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn62search2",
+      "title": "R1 Cannot Control G2 Although the App Does Not Indicate a Disconnection – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/17115532994191-R1-Cannot-Control-G2-Although-the-App-Does-Not-Indicate-a-Disconnection"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn62search3",
+      "title": "Overview | Documentation",
+      "url": "https://hub.evenrealities.com/docs/get-started/overview"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wareable.com",
+      "ref_id": "turn62search4",
+      "title": "Even Realities G2 review: Stealthy smart specs with serious software | Wareable",
+      "url": "https://www.wareable.com/wearable-tech/even-realities-g2-r1-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn62search5",
+      "title": "Gesture Customization – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/17948162341391-Gesture-Customization"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn62search6",
+      "title": "How to Wear the Ring – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/13772976194959-How-to-Wear-the-Ring"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn62reddit12",
+      "title": "Control G2 brightness with R1",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1x2nkbd/control_g2_brightness_with_r1/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.itechguides.com",
+      "ref_id": "turn62search7",
+      "title": "Even Realities G2 Smart Glasses: 10 Hacks, Gestures and Setup Tips",
+      "url": "https://www.itechguides.com/even-realities-g2-smart-glasses-10-essential-hacks-for-faster-smarter-use/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn62news28",
+      "snippet": "Instead of Augmented Reality, you get binocular, monochromatic waveguide displays that offer eye-level access to notifications, notes, translations, news, even a teleprompter, that only you",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/mSttzhKRMBW8tL-lqKgHP0AXX09n5up0x6Ky6_5-I4UajSHivXJKbUexPJoMRD4qaZjLG5q9Rv395VhlapGUynr_cg2j3fJfD0dZAnd0L0UxLP9dK1HEzkZgfWbxlUKs",
+      "title": "Even Realities G2 smart glasses show the limits of speaker- and camera-free frames",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/even-realities-g2-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn62news29",
+      "snippet": "And I haven't even touched on the all-new Even Realities R1 smart ring, which complements the G2 by being a low-key controller to scroll and",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/80dWfJ0OsFKawBR_k9m-nWdAIcferwF1A6crehXdYsm4OP7H6PTmZYCdKDbGYq8gDa2dH678CbekX7Dh5mlHDytla8oulggTPQgWdEauhfNp8c-6bqKOR9tffbcDl7Q2",
+      "title": "I wore the Even Realities G2 smart glasses for a week, and it's the first pair of AR glasses I'd actually buy",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/even-realities-g2-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn62news30",
+      "snippet": "Even Realities has made a name for itself by trying to make tech less loud, and today it's back with a new pair of wearables:",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/NJ47isQr3FXMiuR3JRPaR16yBXmwpUrlVvs4zW-Qr5sYq1IkHsvT7mdnKUakDYBbN1YlBUI2lflJrn6L63wQZ7LBnk-SdNcRsmlFt_DofAhazVflifYfAjwiz0cVghls",
+      "title": "Even Realities' new smart glasses and ring aim to make everyday tech less distracting",
+      "url": "https://www.androidcentral.com/wearables/even-realities-new-smart-glasses-and-ring-aim-to-make-everyday-tech-less-distracting"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Da. Even G2 are un inel dedicat, numit Even R1**, disponibil ca accesoriu opțional. Ochelarii pot fi controlați și fără el, prin suprafețele tactile de pe brațe. [Documentația oficială](https://hub.evenrealities.com/docs/get-started/overview)
+
+| Funcție Even R1 | Ce permite |
+|---|---|
+| **Atingere simplă** | Confirmare/selectare; schimbarea vizualizării |
+| **Atingere dublă** | Deschiderea Dashboard-ului sau revenire, în funcție de context |
+| **Glisare sus/jos** | Derularea meniurilor și conținutului |
+| **Atingere urmată de apăsare lungă** | Deschiderea meniului |
+| **Apăsare lungă personalizabilă** | Acces rapid la o funcție aleasă, cu software compatibil |
+| **Monitorizare personală** | Pași, calorii, somn, puls, HRV, SpO₂ și temperatură |
+
+Surse: [comenzile și monitorizarea R1](https://support.evenrealities.com/hc/en-us/articles/13772400722063-How-to-Control), [personalizarea gesturilor](https://support.evenrealities.com/hc/en-us/articles/17948162341391-Gesture-Customization).
+
+Se poartă cu **touchpad-ul orientat spre degetul mare**, care îl atinge sau glisează pe el. Controlul G2 necesită conexiuni stabile între **inel, aplicația Even de pe telefon și ochelari**. [Condițiile de conectare](https://support.evenrealities.com/hc/en-us/articles/17451427112975-Glasses-control)
+
+**Față de Rokid Ring, Even R1 are deja documentație publică explicită pentru comenzile de control.** Nu am găsit confirmare că R1 oferă gesturile în aer sau funcția de touchpad pe masă demonstrate pentru noul Rokid Ring.

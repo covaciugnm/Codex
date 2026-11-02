@@ -65,7 +65,7 @@ services:
       db: {condition: service_healthy}
     environment:
       <<: *app-env
-      SUPERUSER_DATABASE_URL: postgresql+psycopg://dracula_owner:${POSTGRES_PASSWORD}@db:5432/dracula_design
+      SUPERUSER_DATABASE_URL: postgresql+psycopg[CREDENTIAL_REDACTED]db:5432/dracula_design
     volumes:
       - ./database:/app/database:ro
       - ./data:/app/data

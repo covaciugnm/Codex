@@ -1,38 +1,93 @@
 [
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\2026.10.14 Donau audit scanari\\20260526163520179.png",
-    "status": "copiat",
-    "saved_path": "fisiere/20260526163520179--ac70afcb.png",
-    "bytes": 247866,
-    "sha256": "afab43a90ca9b645b7310defca9ad800f5ea56f44e8025d52086a9d938c08b22"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\2026.10.14 Donau audit scanari\\contact.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\head-left.png",
     "status": "copiat",
-    "saved_path": "fisiere/contact--7a6efa45.png",
-    "bytes": 2654885,
-    "sha256": "77a80da499b15be8583c2f280f82e3450f2941e8b1ca04b0fed1a376290c5df0"
+    "saved_path": "fisiere/head-left--166a8663.png",
+    "bytes": 23303,
+    "sha256": "07a1ea69ef53e6cb17aba496fcee697ef7a5446e927e772e4cb32838dd871fd2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\head-right.png",
+    "status": "copiat",
+    "saved_path": "fisiere/head-right--46a94d53.png",
+    "bytes": 35092,
+    "sha256": "0c82bd63d6013d2f5f10ccbd891d1edd78c5ed81cc5ce1fcd27d681b978db156"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\mandat.png",
+    "status": "copiat",
+    "saved_path": "fisiere/mandat--55ae42eb.png",
+    "bytes": 170161,
+    "sha256": "71d7f296a26c16b62a2e04ca22121fd59bc85ce5ca02fe2150bb84807844d076"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\row-left.png",
+    "status": "copiat",
+    "saved_path": "fisiere/row-left--483f82b6.png",
+    "bytes": 23941,
+    "sha256": "d8346b88e6774daddc62092ef4b9174d5e82f2b3fe85496bc948211f9726fc92"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\row-right.png",
+    "status": "copiat",
+    "saved_path": "fisiere/row-right--dffdf1e0.png",
+    "bytes": 53662,
+    "sha256": "893da75d87dbeeb572406ae03c78d3f4dab28ae22a3599c14bfe6de03567ccc5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\signature.png",
+    "status": "copiat",
+    "saved_path": "fisiere/signature--9244ff8a.png",
+    "bytes": 59949,
+    "sha256": "cb27df2f18d52cb6454c4ec7fac239398daa06000b5f215998d4ab8917b14128"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\tabel.png",
+    "status": "copiat",
+    "saved_path": "fisiere/tabel--edde9c81.png",
+    "bytes": 140710,
+    "sha256": "3c325f638d68d41f8ad8ae877f0bd49629d3a0aefc9b023ef0017514d5e1b749"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/p15--400d4ade.png",
+    "bytes": 216813,
+    "sha256": "1d5207a601e53b99542809e28a91db52d9e80b3f835954d3bb04e3c8faae76c9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/p24--778911dd.png",
+    "bytes": 187371,
+    "sha256": "2475ff464db031e02a8f6403ca09a4f66ba0146e2b398813cc88d23e9d6d3d57"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/p25--da10828c.png",
+    "bytes": 218030,
+    "sha256": "8d76d70249f009ead2c723d010477728758957e1dcc80152f47458b4e34577ea"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-purchase\\2026.10.14 Contract pagina 10.png",
-    "status": "copiat",
-    "saved_path": "fisiere/2026.10.14 Contract pagina 10--e825b730.png",
-    "bytes": 178282,
-    "sha256": "fdeab115523bf7998c898e1aa027da919952fb1a5614f51c9bff36adbd3d12f7"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-purchase\\2026.10.14 Contract pagina 12.png",
-    "status": "copiat",
-    "saved_path": "fisiere/2026.10.14 Contract pagina 12--0c1806f1.png",
-    "bytes": 157292,
-    "sha256": "cc3f178b79c0fa1f74c6ba988b92afeb11e0ac9085f9cd283d4a50f048ced215"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-purchase\\2026.10.14 Contract pagina 4.png",
-    "status": "copiat",
-    "saved_path": "fisiere/2026.10.14 Contract pagina 4--2711101b.png",
-    "bytes": 187424,
-    "sha256": "a133e827dedf218f6ab5b60713dae3e1a9f4660f7fd910c93253d52136040d01"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.14 Analiza juridica Donau\\2026.10.14 Audit email polita si plata.txt",
@@ -201,6 +256,83 @@
     "saved_path": "fisiere/2026.10.14 Polita istorica conditii p37--24c4b5bb.png",
     "bytes": 113368,
     "sha256": "2268d08e954c27cf51c9fe30daed926bde70ecf7f5373a3600bc972ec6eba49c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 image001.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 image001--238dbf81.png",
+    "bytes": 50740,
+    "sha256": "bd86311aaa1f9e5d5ba2d7ddd65465437ac6076412b9c45c3ed19c3c5e31e590"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 1120 Wien, Schallergasse 35_Antrag p10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 1120 Wien, Schallergasse 35_Antrag p10--8891b66c.png",
+    "bytes": 141297,
+    "sha256": "6776f87cd9830767cc646576080ceccbeb7e57b4d257603a0513bc060f2318ea"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 703920_Antrag p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 703920_Antrag p1--a79719e3.png",
+    "bytes": 367808,
+    "sha256": "7ff0efcc3e028cc7499ff87960fdf2c7f7c9b6dab18ed1b4b622c931d6ca149b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p12--570a00b7.png",
+    "bytes": 281964,
+    "sha256": "4887fae333bd4c9f30dffe6b8970db95c3bb8802f297406de634ee1b5f29e81d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p13--a16f862a.png",
+    "bytes": 169112,
+    "sha256": "9a57caa758e212c2c0f62b802005a1d2b436a411e39fcc83a82fdbc38ed99673"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Polizze 2044001194 per 17.03.2023 p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Polizze 2044001194 per 17.03.2023 p1--0c7ee003.png",
+    "bytes": 170516,
+    "sha256": "edf3ae0ab3478e50fda8a846b0056f639889ba98c33a5a98932b8ab94611e587"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35 p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse --e7605c87.png",
+    "bytes": 43194,
+    "sha256": "9c131e6bc338bcb70a50ecd38b8043c500c6d71039be9ddf50ba6f5028466634"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Vollmacht Hofhans p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Vollmacht Hofhans p1--0ca750b7.png",
+    "bytes": 244584,
+    "sha256": "b7a891d2d147c8bdae04c14825c1c9ecc477758a4785cda9e384b047ef49bfc6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Vollmacht Hofhans p2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Vollmacht Hofhans p2--96464cd3.png",
+    "bytes": 472213,
+    "sha256": "6ba57e35c4d6ef3aa67c8e33dd868e02d71dff7e572edb1397fc705c141791b4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Renuntare componente Donau\\2026.10.29 Audit final - eliminarea componentelor.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Audit final - eliminarea componentelor--d24e9c83.txt",
+    "bytes": 3146,
+    "sha256": "dc623686e0b71d9642033f3d6366bc1c8365aa1bd3ad8cdcf0ddae888dd450ff"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Renuntare componente Donau\\2026.10.29 Nota audit - componente independente si modificarea politei.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.29 Nota audit - componente independente si modi--71811382.txt",
+    "bytes": 10698,
+    "sha256": "62122362841469fb58f4ef3c039e4ba691d61a292d64872b54bd71a5fe3ebd7f"
   },
   {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita curenta p1.png",

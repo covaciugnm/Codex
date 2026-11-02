@@ -1,0 +1,319 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\30\\01a18d15-0888-7691-8734-f2ac73ef8c75\\nvidia\\build.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build--9429451a.mjs",
+    "bytes": 4413,
+    "sha256": "eb65f9e62fa1ab463b45cdbcd7961c95dcc1baceadd41df1d13cfb58946a1a19"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\30\\01a18d15-0888-7691-8734-f2ac73ef8c75\\nvidia\\refresh.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/refresh--832a21f1.mjs",
+    "bytes": 4659,
+    "sha256": "5cee086a11484ccccbfbbd75b24c9a6d9e92a2a721d89f03e41ea7a13996d528"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\30\\01a18d15-0888-7691-8734-f2ac73ef8c75\\nvidia\\update.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/update--6468e392.mjs",
+    "bytes": 6935,
+    "sha256": "375d3ce6a3bdd5e84851e8134e3084e2f39f428ec5e6147fb3f2f9b189008a73"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Nvidia/SH/Noi/Oferte_NVIDIA_Noi.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Oferte_NVIDIA_Noi--b21c6a34.xlsx",
+    "bytes": 14264,
+    "sha256": "0dac653e24dddd23ebd900e1d0921874731362ec1b383ad76b37db617fbc9db2"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Nvidia/SH/Second_Hand/Oferte_NVIDIA_SH.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Oferte_NVIDIA_SH--e0e27915.xlsx",
+    "bytes": 12991,
+    "sha256": "f9950356f0d8a8a88ffe3342b050a2d4727f11e612608affefae80f8f9de515d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Nvidia\\SH\\monitorizare\\Noi_De_verificat.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Noi_De_verificat--8eea4a7f.png",
+    "bytes": 49895,
+    "sha256": "cac07c94140e0e7d2034d6d80962320943f70823eb3e1256e0deee8e9f691390"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Nvidia\\SH\\monitorizare\\Noi_Excluse.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Noi_Excluse--b2b78253.png",
+    "bytes": 56973,
+    "sha256": "b65e372fce5514c0981d1cb64e0b963c3acdfec3e38f2cc2a11d7d5d7a0654ed"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Nvidia\\SH\\monitorizare\\Noi_Oferte.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Noi_Oferte--16edea0b.png",
+    "bytes": 60849,
+    "sha256": "30452596dcab40013d6d938bf0c72307098ce63640cf593c70064773ecd557ff"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Nvidia\\SH\\monitorizare\\SH_De_verificat.png",
+    "status": "copiat",
+    "saved_path": "fisiere/SH_De_verificat--08fc4db3.png",
+    "bytes": 28087,
+    "sha256": "61386de61e4514e067062d176128adb68cadd1174d7da2c33d6d1f4c724cdbb6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Nvidia\\SH\\monitorizare\\SH_Excluse.png",
+    "status": "copiat",
+    "saved_path": "fisiere/SH_Excluse--6d056bf6.png",
+    "bytes": 59980,
+    "sha256": "1adca471df705c3369a53a25fcef224ead225b1e9e82424ec15fec5090ecde2f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Nvidia\\SH\\monitorizare\\SH_Oferte.png",
+    "status": "copiat",
+    "saved_path": "fisiere/SH_Oferte--672d76b0.png",
+    "bytes": 35498,
+    "sha256": "d53656898d52bd84dfc3a6026a8035b8a7b96d2045d70b2f706cc3478c3efff9"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Nvidia\\SH\\monitorizare\\oferte.json",
+    "status": "copiat",
+    "saved_path": "fisiere/oferte--f44295a1.json",
+    "bytes": 23459,
+    "sha256": "74d294d780c3c2e7e7faeee46ad5eb7224d931f7b7396eaa4bf7913c25d6c063"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Nvidia\\SH\\monitorizare\\Noi_2026-10-31.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Noi_2026-10-31--c3631532.png",
+    "bytes": 43537,
+    "sha256": "9849826b9201e21a59e86de079c255943d48e67de8ff442b623939b664da5ba0"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Nvidia\\SH\\monitorizare\\Noi_Oferte.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Noi_Oferte--16edea0b.png",
+    "bytes": 60849,
+    "sha256": "30452596dcab40013d6d938bf0c72307098ce63640cf593c70064773ecd557ff"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Nvidia\\SH\\monitorizare\\SH_2026-10-31.png",
+    "status": "copiat",
+    "saved_path": "fisiere/SH_2026-10-31--816b87c6.png",
+    "bytes": 55016,
+    "sha256": "5ea5e075db952c904649e68a03cbdc9c299bde7e8cacb999459e77988cf58252"
+  },
+  {
+    "source_reference": "https://de.rs-online.com/web/p/entwicklungstools-prozessor/0606863",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://de.rs-online.com/web/p/entwicklungstools-prozessor/2539662",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dlcdnwebimgs.asus.com/files/media/202506/5c0fb57c-4e48-4e96-8c97-04bf8df2677c/asus-ascent-gx10-datasheet.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://h20195.www2.hp.com/v2/GetPDF.aspx/c09208797",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://lenovopress.lenovo.com/lp2321-thinkstation-pgx",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://marketplace.nvidia.com/en-eu/enterprise/personal-ai-supercomputers/dgx-spark/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ro.msi.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.acer.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.acer.com/ro-ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.advania.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.alza.cz/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.asbis.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.atea.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.bechtle.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.compari.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.compari.ro/sisteme-desktop-c3083/asus/ascent-gx10-90ms0371-m00030-p1266569188/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.cyberport.de/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.dell.com/en-gb/shop/desktop-computers/spd/dellpromaxwithgb10fcm1253",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.dell.com/en-my/shop/desktop-computers/spd/dellpromaxwithgb10fcm1253",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.dell.com/en-sg/shop/desktop-computers/spd/dellpromaxwithgb10fcm1253",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.dell.com/en-us/shop/desktop-computers/spd/dellpromaxwithgb10fcm1253",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.dustingroup.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ebay.de/itm/398028165227",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.econocom.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.emag.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.emag.ro/sistem-desktop-lenovo-thinkstation-pgx-nvidia-gb10-grace-blackwell-superchip-128gb-1tb-ssd-gb10-grace-blackwell-dgx-os-30kl000cmw/pd/DG13ZL2BM/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.emag.ro/supercomputer-ai-desktop-pc-compact-asus-ascent-gx10-cu-procesor-arm-v9-2-a-gb10-128gb-ddr5-1tb-ssd-nvidiar-blackwell-integrated-gpu-wi-fi-7-gig-2x2-bluetoothr-5-hdmi-2-1-nvidiar-dgxtm-os-90ms0371-m00/pd/D2P8GR3BM/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.flax.ro/calculator-lenovo-thinkstation-pgx-sff-nvidia-gb10-grace-cortex-x925-cortex-a725-ram-128gb-ssd-4tb-nvidia-gb10-blackwell-nvidia-dgx-os-30kl0009rc-954507",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.gigabyte.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.hp.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.hp.com/ro-ro/products/workstations/product-details/2103697246",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.hp.com/us-en/workstations/zgx-nano-ai-station.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.inmac-wstore.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.itpro.com/hardware/8-reasons-the-nvidia-powered-dell-pro-precision-with-gb10-could-become-every-ai-developers-favorite-tool",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.lenovo.com/ro/ro/p/workstations/thinkstationp/lenovo-thinkstation-pgx-sff/len102s0023?srsltid=AYCX9vIEZoxPuow4bB3rp5HIWnyW-n2Zp108R7PE5y8ZB7AqxypZsF_D",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/lenovo-thinkstation-pgx-sff/len102s0023?srsltid=AYCX9vK1uonb_NxisxiQZYFnbmh0EuRYlBRlCUTYIqjcJ1yh6j9iJsev",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.mediamarkt.de/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.mmn.it/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.msi.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.notebooksbilliger.de/asus+ascent+gx10+ki+supercomputer+907864",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.olx.pl/d/oferta/nvidia-jetson-agx-thor-developer-kit-CID99-ID1adjjT.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.pcgarage.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.pcgarage.ro/sisteme-nettop/lenovo/thinkstation-pgx-nvidia-gb10-blackwell-128-gb-ram-4-tb-ssd/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.pcgarage.ro/sisteme-nettop/lenovo/thinkstation-pgx-nvidia-gb10-blackwell-128gb-ram-1-tb-ssd/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.prosol.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reichelt.de/de/de/shop/produkt/nvidia_jetson_agx_orin_dev_kit_12-kern_cpu_64_gb_ddr5-383698",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.senetic.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.senetic.ro/product/90MS0371-M00030",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.senetic.ro/product/BTO100_FCM1253_EMEA",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.softwareone.com/",
+    "status": "referinta_externa_necopiata"
+  }
+]

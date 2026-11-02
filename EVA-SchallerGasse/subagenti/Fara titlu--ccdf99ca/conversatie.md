@@ -2,7 +2,7 @@
 
 ID: `01a139c8-c3ce-7e50-81b9-ad2eccdf99ca`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-18T14:02:52.615363+00:00
+Export UTC: 2026-11-02T15:26:35.221418+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -64,3 +64,61 @@ Nu am editat fișiere și nu am creat draftul.
 **Textul final este verificat și poate fi salvat ca draft în Eva-Mail.** Corecțiile privind alocarea plății și eventuala durată2036 deja existentă sunt aplicate.
 
 Am salvat **„2026.10.14 Reaudit final email Eva-Mail Donau.txt”**, cu hashul textului și sursele juridice. Nu am creat sau trimis emailul.
+
+## Asistent
+
+Verific anexele originale și limitele probelor privind mandatul și prelungirea până în 2036.
+
+## Asistent
+
+### Concluzii verificate vizual
+
+- **Vollmacht Hofhans, p.1–2:** mandat datat **2018.06.15**, de la **Hofhans către Seipt & Partner**. Include obținerea documentelor, gestionarea daunelor și efectuarea încheierilor, rezilierilor și corespondenței de asigurare. Semnătura apare peste ștampila Hofhans; persoana nu poate fi identificată sigur. P.2 conține condițiile brokerului. **Nu dovedește singur mandatul fostului proprietar către Hofhans.**
+
+- **703920_Antrag, p.1:** cerere din **2020.06.03**, atribuită prin numele tipărit și semnătură lui **Elmar Ziervogl / Seipt**, pentru **Columba Immobilien GmbH, reprezentată de Hofhans**. Solicită durata până în **2031.01.01**.
+
+- **Polița veche, p.1:** anexa intitulată „Polizze2044001194 per03.06.2020” conține efectiv **X712.261-2**, emisă **2020.06.23**, cu durata **2020.06.03–2031.01.01**. Această probă înlocuiește constatarea anterioară că polița veche lipsea.
+
+- **Cererea2022, p.1 și10 / polița2023, p.1:** termen **2033.01.01**; data cererii este **2022.11.14**. La p.10 apare Seipt; câmpul asiguratului nu are semnătură identificabilă. Aceasta nu dovedește automat invaliditatea reprezentării.
+
+- **Sammelantrag, p.1:** rândul Schallergasse35 indică **2026.01.01–2036.01.01**; ștampilă și grafism de semnătură Seipt, data **2026.01.08**. Există astfel o probă concretă pentru solicitarea prelungirii **2033→2036**.
+
+- **image001.png:** mesaj Nadine Fuchs din **2025.11.12**, prin care solicită pregătirea cererii colective pentru conversia din2026 și trimiterea acesteia spre semnare. Este corespondență pregătitoare; nu dovedește singură acceptarea proprietarului.
+
+**Golul real:** proba relației și puterilor fostului proprietar → Hofhans, valabile la modificare, și legătura cu acțiunile Seipt. Nu putem presupune autenticitatea semnăturilor, dar nici nulitatea ori necesitatea automată a unui mandat special pentru zece ani. Cercetătorul confirmă că OGH7Ob127/18d admite asemenea prelungiri în cadrul administrării obișnuite.
+
+## Asistent
+
+Trei completări necesare:
+
+1. **Paketkündigungsklausel:** adăugați că prevede și recuperarea avantajului pentru durata contractului. Eventuala renunțare de la pagina16 trebuie analizată separat.
+2. **Rezilierea din2026.10.01:** mențineți-o expres și solicitați confirmarea înregistrării. Afirmația DONAU că nu există „alte rezilieri” nu trebuie prezentată ca absență a notificării A&C.
+3. **2036 este termenul ordinar invocat:** DONAU rezervă explicit drepturile legale speciale și încetarea după sinistru, dacă sunt îndeplinite condițiile.
+
+În rest, raportul este corect și păstrează limitele probelor.
+
+## Asistent
+
+Verific dacă fiecare componentă poate fi reziliată separat și ce termene rămân aplicabile, inclusiv când toate apar pe aceeași poliță.
+
+## Asistent
+
+Jurisprudența distinge între contractele grupate într-o poliță și simplele extensii ale unei acoperiri. Chiar dacă o ramură poate fi reziliată separat, trebuie respectat termenul ei. Iar adăugarea altor acoperiri necesită, în principiu, acordul asigurătorului.
+
+## Asistent
+
+Nota și sursele RIS sunt salvate în **„2026.10.29 Renuntare componente Donau”**.
+
+Concluzii:
+
+- Ramurile distincte pot fi reziliate separat, **cu respectarea temeiului și termenului propriu**.
+- Primele separate sunt indicii de autonomie, nu drept de ieșire imediată.
+- Termenul comun2036 poate rămâne aplicabil fiecărei ramuri.
+- **OGH7Ob13/85 nu permite modificarea unilaterală:** reducerea combinată cu adăugarea altor acoperiri poate necesita acordul asigurătorului.
+- Documentele Pfeiffer privesc excluderea pentru dispariția riscului; nu condiționează orice reziliere valabilă.
+
+## Asistent
+
+Auditul final este salvat. **Sinteza este corespunzătoare pentru livrare**, inclusiv completările privind §51, clauzele1242K/3031K și termenul2027.01.01.
+
+Nu sunt identificate erori materiale nerezolvate. Limitele probelor și faptul că analiza nu reprezintă notificare de încetare sunt precizate.

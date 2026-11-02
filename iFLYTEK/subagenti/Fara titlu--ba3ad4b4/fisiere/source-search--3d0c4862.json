@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-01",
+  "scope": "Bounded public original application source search; not a proof that no private or unindexed source exists",
+  "method": "Exact Android package identifiers plus source/GitHub queries, followed by official iFLYTEK GitHub organization repository listing",
+  "applications": [
+    {
+      "package": "com.iflytek.translateapp",
+      "name": "iFLYTEK Translate",
+      "queries": ["com.iflytek.translateapp github source code", "\"com.iflytek.translateapp\" site:github.com"],
+      "result": "No public original application source repository identified in the returned search results or official organization listing",
+      "alternative": "Existing static decompilation for original 1.0.3899; separate extraction and comparison for other discovered versions and channel variants"
+    },
+    {
+      "package": "com.iflytek.bavvo",
+      "name": "Bavvo",
+      "queries": ["com.iflytek.bavvo github source", "\"com.iflytek.bavvo\" site:github.com", "\"Bavvo\" \"source code\" iFLYTEK"],
+      "result": "No public original application source repository identified in the returned search results or official organization listing",
+      "alternative": "Extract all discovered XAPK versions, including base and configuration split APKs, and decompile DEX statically"
+    },
+    {
+      "package": "com.iflytek.loomy.mobile",
+      "name": "Loomy Android",
+      "queries": ["site:github.com/iflytek Loomy Android source code", "\"Loomy\" \"Android\" \"source code\" iFLYTEK", "\"com.iflytek.loomy.mobile\" source github"],
+      "result": "No public original Android application source repository identified; official Loomy tutorial is documentation rather than this APK source",
+      "alternative": "Static extraction and DEX decompilation of the discovered Android 0.0.8 APK"
+    },
+    {
+      "package": "com.ainote.mobile.doxent_oversea_app",
+      "name": "AINOTE Android",
+      "queries": ["\"AINOTE\" \"Android\" \"source\" \"github\" iFLYTEK", "\"com.ainote.mobile.doxent_oversea_app\" source github"],
+      "result": "Returned results identify application distribution and a third-party static reverse engineering case study, not an official original application source repository",
+      "excludedResults": [
+        {"url": "https://github.com/0xkaz/react-native-local-llm-notes", "reason": "Different note-taking application; similar name is not package identity"},
+        {"url": "https://docs.ainote.dev/", "reason": "Different service; no match to the iFLYTEK Android package established"},
+        {"url": "https://ceoai.kr/leadership2/reverse/", "reason": "Third-party reverse engineering case study mentioning AINOTE 3.1.5; not original vendor source"}
+      ],
+      "alternative": "Static extraction and DEX decompilation of the discovered AINOTE Android 3.1.5 APK"
+    }
+  ],
+  "officialSourcesChecked": [
+    {"url": "https://github.com/iflytek", "api": "https://api.github.com/orgs/iflytek/repos?per_page=100", "observedPublicRepositoryCount": 67},
+    {"url": "https://github.com/iflytek/iFly-Skills", "classification": "Generic skills; not Android application source"},
+    {"url": "https://github.com/iflytek/astron-harness-tutorial", "classification": "Loomy/Astron tutorial; not Android application source"},
+    {"url": "https://github.com/iflytek/spark-ai-python", "classification": "Generic cloud AI SDK; not Android application source"},
+    {"url": "https://github.com/iflytek/spark-ai-go", "classification": "Generic cloud AI SDK; not Android application source"}
+  ],
+  "limits": [
+    "A repository name or generic iFLYTEK SDK is not sufficient to identify the source of a particular Android package",
+    "Decompiled Java/Smali is derived material and is not original vendor source",
+    "Flutter Dart AOT and native C/C++ binaries do not imply recovery of original Dart/C/C++ source",
+    "The two rebuilt/romania40 APKs are local derivatives whose reconstruction source artifacts already exist in the repository release"
+  ]
+}

@@ -4,37 +4,55 @@
     {
       "path": "Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 001--1a07b30f.json",
       "masked_values": {
-        "signed_url_credential": 12
+        "signed_url_credential": 12,
+        "google_api_key": 12
       }
     },
     {
       "path": "Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 018--7b896539.json",
       "masked_values": {
-        "signed_url_credential": 4
+        "signed_url_credential": 4,
+        "google_api_key": 4
       }
     },
     {
       "path": "Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 029--e23f83c4.json",
       "masked_values": {
-        "signed_url_credential": 4
+        "signed_url_credential": 4,
+        "google_api_key": 4
       }
     },
     {
       "path": "Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 007--f9e56d56.json",
       "masked_values": {
-        "signed_url_credential": 4
+        "signed_url_credential": 4,
+        "google_api_key": 4
       }
     },
     {
       "path": "Actualizează ofertele de reparații/istoric.json",
       "masked_values": {
-        "signed_url_credential": 72
+        "signed_url_credential": 72,
+        "google_api_key": 72
       }
     },
     {
       "path": "Actualizează ofertele de reparații/rezultate.md",
       "masked_values": {
-        "signed_url_credential": 72
+        "signed_url_credential": 72,
+        "google_api_key": 72
+      }
+    },
+    {
+      "path": "Pech/istoric.json",
+      "masked_values": {
+        "signed_query_sig": 1
+      }
+    },
+    {
+      "path": "Pech/rezultate.md",
+      "masked_values": {
+        "signed_query_sig": 1
       }
     },
     {

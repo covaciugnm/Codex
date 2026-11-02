@@ -2,7 +2,7 @@
 
 ID: `01a13581-22b2-7332-b0c0-c3741bc9211c`  
 Proiect: ANABI-Licitatii  
-Export UTC: 2026-10-18T07:57:49.755838+00:00
+Export UTC: 2026-11-02T15:26:35.221418+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 

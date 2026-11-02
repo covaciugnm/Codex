@@ -1,0 +1,42 @@
+{
+  "project": {
+    "id": "17bd9bca-fa42-4b1f-8b9a-7bee372a058e",
+    "name": "EVA-Robot.Platforma",
+    "roots": [
+      "Z:\\00.Roboti\\AGV-Jining.Aowei"
+    ],
+    "conversations": 1,
+    "subagents": 0,
+    "messages": 24,
+    "files_copied": 48,
+    "folder": "EVA-Robot.Platforma",
+    "content_sha256": "d9a3461cb409ab0faf949ab51a8dc0dd141afcf9e17625e87e0dee359e7539b7"
+  },
+  "threads": [
+    {
+      "id": "01a16433-6d2f-7bf2-93f1-ca88c3efba44",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\AGV-Jining.Aowei",
+      "created_at": 1792682454,
+      "updated_at": 1792684685,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Analiza Acte",
+      "project_id": "17bd9bca-fa42-4b1f-8b9a-7bee372a058e",
+      "project": "EVA-Robot.Platforma",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+      "source_bytes": 8367658,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 135,
+      "message_count": 24,
+      "content_sha256": "d30e2121f743f1e602e81df267693bb36d5acc130e217b60aa7009581e2ba355",
+      "files_copied": 48,
+      "references_not_copied": 7,
+      "subagent": false,
+      "folder": "EVA-Robot.Platforma/Analiza Acte"
+    }
+  ]
+}

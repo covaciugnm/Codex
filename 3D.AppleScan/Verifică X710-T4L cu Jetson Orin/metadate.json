@@ -1,0 +1,23 @@
+{
+  "id": "01a1883b-2256-7662-a671-7c95f9711d2b",
+  "cwd": "S:\\3dscan.eva-org.com",
+  "created_at": 1793286939,
+  "updated_at": 1793307207,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică X710-T4L cu Jetson Orin",
+  "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+  "project": "3D.AppleScan",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1424150,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 38,
+  "message_count": 20,
+  "content_sha256": "239b5ddba52cdc96802fe140b9aebc8281cc4247998c26c5b42b6c13bf40db78",
+  "files_copied": 4,
+  "references_not_copied": 24
+}

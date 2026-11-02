@@ -1,0 +1,97 @@
+2026.10.14 — AUDIT JURIDIC INDEPENDENT R03 (re-audit după aplicarea remedierilor din Audit R02)
+Auditor: al doilea Rechtsanwalt (independent), litigii comerciale ABGB/UGB + energie
+Obiect: „2026.10.14 Solicitare STURM DE R03 NETRIMIS.txt” + „2026.10.14 Memo surse si decizii R03.txt”
+Decizii ale clientului respectate (nu sunt tratate ca defecte): remedierea 24 (Hauptsicherung) exclusă; termen 16.10.2026 păstrat; Übergabestichtag fără dată concretă; telefon ca placeholder.
+
+=====================================================================
+0. VERIFICAREA REMEDIERILOR 1–23 (text, nu doar declarație)
+=====================================================================
+ 1 IV.3 plata personală, irrtümlich, Rückforderung rezervată celui care a plătit ............ APLICATĂ (text identic cu propunerea)
+ 2 II.7 teza 2: Guthaben Dritter nu aparțin A&C, interdicție compensare ...................... APLICATĂ
+ 3 I.7 Parkring 2 = Geschäftsanschrift Firmenbuch până la 15.09.2026 (c/o CERHA) ............. APLICATĂ
+ 4 III.6 refuz Mahnspesen doar pentru Mahnungen fără dovadă de Zugang ........................ APLICATĂ
+ 5 III.3 „ohne Anerkenntnis … für irgendeinen Zeitraum”, fără 20.02.2026, Übergabestichtag .. APLICATĂ
+ 6 II.4 teza § 1404 ștearsă; „entsprechende Erklärung der A&C (§§ 1405, 1406)” .............. APLICATĂ (§ 1404 nu mai apare nicăieri)
+ 7 I.6 + Beilage 2 pos. G aliniate (Privatperson, nicht A&C; siehe IV.3) ..................... APLICATĂ
+ 8 I.3 „Lieferende laut Ihrer Anlagenliste vom 16.06.2026” ................................... APLICATĂ
+ 9 I.5(c) „sowie Top 5 Strom EUR 27,12 (ident mit Position (b))”; Beilage 2 B1 completat ..... APLICATĂ
+10 I.2 „soweit ersichtlich unter den Kundennummern” .......................................... APLICATĂ
+11 II.2 fără „Wir verkennen nicht” ........................................................... APLICATĂ
+12 Beilage 1 coloană „Vertragspartner laut STURM”, „drei letzten Spalten”, legendă ........... APLICATĂ (12 coloane în antet, separator și toate 21 rânduri — verificat)
+13 III.6 Zugang Rechnung + Mahnung ........................................................... APLICATĂ
+14 III.4 confirmare Netzbetreiber ............................................................ APLICATĂ
+15 IV.5 fără Zählpunktdaten .................................................................. APLICATĂ
+16 II.6 fără § 458 UGB ....................................................................... APLICATĂ
+17 Betreff 2 rânduri; „ehemaliges Kundenkonto” mutat în I.2 ................................. APLICATĂ
+18 I.7 fără repetarea adresei ................................................................ APLICATĂ
+19 III.7 fără fraza „kein Anerkenntnis…” ..................................................... APLICATĂ
+20 III.1 / III.2 liste (a)–(f) ............................................................... APLICATĂ
+21 formula finală ............................................................................ APLICATĂ
+22 „Zustellung per E-Mail; ein Postversand erfolgt nicht.” + telefon ......................... APLICATĂ (telefon placeholder, decizie client)
+23 termene / Übergabestichtag ................................................................ APLICATĂ CONFORM DECIZIEI CLIENTULUI (notă de statut la final)
+
+Verificări tehnice suplimentare: nicio transliterare (ae/oe/ue/ss) găsită; toate cele 21 Anlagennummern din Beilage 1 identice cu Concluzia; identificatorii repetați (4000112571/2, 4000114087/8, 4000108031, 4000108283) consecvenți între Sachverhalt, Forderungen și Beilagen; toate normele citate (§§ 859, 861, 862, 863, 1333, 1405, 1406, 1431 ABGB) verificate în RIS la auditul R02 și folosite corect; text înainte de anexe ≈ 1.490 cuvinte ≈ 3 pagini A4.
+
+=====================================================================
+NOTE PE CRITERII
+=====================================================================
+
+A. Corectitudine juridică — 9/10
+Toate normele există și spun ce afirmă scrisoarea; § 1404 și § 458 UGB eliminate; § 1431 aplicat corect doar plății din 06.08.2026 cu legitimarea la cel care a plătit; formularea „irrtümlich in der Annahme einer Zahlungspflicht” închide § 1432. Rămâne o imprecizie: II.4 pune Vertragsübernahme și Schuldübernahme sub aceeași paranteză „(§§ 1405, 1406 ABGB)”, deși paragrafele privesc doar Schuldübernahme; Vertragsübernahme nu are normă expresă.
+
+B. Corectitudine factuală — 9/10
+Toate sumele, datele, numerele de client/instalație/factură/ticket coincid cu sursele; Parkring 2 descris corect; plata 115,36 atribuită corect unei Privatperson; I.5(c) completat; termene coerente (14.10 < 16.10 < 19.10 < 28.10). Rămâne un element neconfirmat de sursă (memo R03 pct. 5 îl recunoaște): motivul plății („irrtümlich … ohne Prüfung der Vertragsgrundlage”) trebuie confirmat de persoana care a plătit înainte de expediere; dacă plata a fost deliberată, fraza trebuie redusă (vezi remedierea 2).
+
+C. Claritate și concizie — 9/10
+Betreff pe 2 rânduri, liste (a)–(f), redundanțe eliminate; fiecare cerere spune exact ce trebuie livrat per rând TOP/Strom/Gas. Mică neconcordanță de trimiteri: III.8 suspendă betreibung „bis 14 Tage nach vollständiger Übermittlung der unter Punkt 1 bis 6 angeforderten Unterlagen”, iar V spune că până la 28.10 se livrează „Punkte III.1 bis III.7” — STURM poate susține că suspendarea nu depinde de III.7 (adresa) și e în regulă, dar formularea diferită creează o întrebare inutilă.
+
+D. Completitudine față de scopul clientului — 10/10
+Per factură → contract complet (părți, dată, Abschlussweg, Vertragsnummer, Laufzeit, Zählpunkt, AGB/Preisblatt, semnătură/Vertretungsbefugnis), alternativ Vertrags-/Schuldübernahme, Negativerklärung inclusiv confirmare față de Netzbetreiber, Kontoblätter + cele trei Guthaben/plăți individualizate, Mahnspesen/Zinsen cu dovada Zugang pentru factură și Mahnung, adresă, suspendare Mahn/Inkasso/Auskunfteien, Beilage 1 cu 21 instalații și trei coloane completabile de STURM, Beilage 2 cu pozițiile A–G și nota anticumulare. Nimic esențial lipsă.
+
+E. Formă — 9/10
+Germană corectă, diacritice complete, structură completă, antet/semnătură, ton Unternehmer-zu-Unternehmer fără scuze și fără oferte de colaborare, lungime în țintă. Rămân două elemente de pre-expediere: placeholder telefon (decizie client) și linia de statut „--- ENDE DES SCHREIBENS --- Status: ENTWURF R03 …” care trebuie eliminată din documentul trimis.
+
+F. Risc strategic — 9/10
+Nicio admitere implicită rămasă: Bestreitung în Betreff și IV.1; kein Anerkenntnis în IV.2 pentru scrisoare, adresă și primirea documentelor; plata personală tratată defensiv corect; Abgrenzung „ohne Anerkenntnis … für irgendeinen Zeitraum”; Guthaben ale terților nerevendicate; § 1404/Kaufvertrag nu mai sunt deschise; termenul 19.10 tratat ca poziție. Un singur risc procedural rămas: III.5 cere „vollständige Kontoblätter beider Kundennummern” — conturi despre care A&C afirmă că NU sunt ale sale; STURM poate refuza invocând confidențialitatea datelor unui terț (Hofhans/Verkäuferin) și câștigă astfel o scuză pentru a nu livra. Cererea trebuie legată explicit de pozițiile pretinse față de A&C.
+
+=====================================================================
+NOTA GLOBALĂ: 9/10
+=====================================================================
+Toate cele 23 remedieri sunt efectiv aplicate în text, nu au apărut erori noi de fapt, de normă sau de diacritice, iar coerența Sachverhalt ↔ Forderungen ↔ Beilagen este verificată. Nu acord 10/10 din cauza celor patru puncte minore de mai jos (1 risc procedural, 1 fapt de confirmat, 2 precizii de text). După aplicarea lor mecanică și efectuarea verificărilor pre-expediere, scrisoarea este eliberabilă fără un nou audit de fond.
+
+=====================================================================
+REMEDIERI RĂMASE (ordonate după gravitate)
+=====================================================================
+
+1. [STRATEGIC] III.5 — Kontoblätter ale unor conturi pe care A&C le declară străine.
+   Citat: „Vollständige Kontoblätter beider Kundennummern 42017328 und 42018142 seit 01.01.2026 mit sämtlichen Rechnungen, Zahlungen, Stornos, Gutschriften und Umbuchungen, insbesondere:”
+   Înlocuire: „Vollständige Kontoblätter beider Kundennummern 42017328 und 42018142 seit 01.01.2026 mit sämtlichen Rechnungen, Zahlungen, Stornos, Gutschriften und Umbuchungen, soweit Sie aus diesen Konten Forderungen gegen A&C ableiten oder Rechnungen an A&C adressiert haben, insbesondere:”
+   Motiv: închide scuza „Datenschutz/Drittkonto”; STURM a adresat deja aceste facturi către A&C, deci nu poate refuza transparența asupra lor.
+
+2. [FACT — de confirmat cu plătitorul înainte de expediere] IV.3.
+   Dacă persoana care a plătit confirmă că a plătit crezând că suma e datorată: text neschimbat.
+   Dacă plata a fost deliberată/conștientă: citat „…geleistet, und zwar irrtümlich in der Annahme einer Zahlungspflicht und ohne Prüfung der Vertragsgrundlage. Sie begründet…” → înlocuire „…geleistet, ohne Prüfung der Vertragsgrundlage. Sie begründet…”. Nu lăsa „irrtümlich” dacă nu e adevărat: o afirmație falsă aici este mai dăunătoare decât lipsa ei.
+
+3. [DREPT — precizie] II.4 — paragrafele privesc doar Schuldübernahme.
+   Citat: „Der Eintritt in bestehende Verträge (Vertragsübernahme) oder in bestehende Schulden der früheren Vertragspartnerin (Schuldübernahme) setzt eine entsprechende Erklärung der A&C voraus (§§ 1405, 1406 ABGB). Eine solche wurde nicht abgegeben.”
+   Înlocuire: „Der Eintritt in bestehende Verträge (Vertragsübernahme) oder in bestehende Schulden der früheren Vertragspartnerin (Schuldübernahme, §§ 1405, 1406 ABGB) setzt eine entsprechende Erklärung der A&C voraus. Eine solche wurde nicht abgegeben.”
+
+4. [CLARITATE] III.8 ↔ V — trimiteri diferite.
+   Citat III.8: „…der unter Punkt 1 bis 6 angeforderten Unterlagen…”
+   Înlocuire: „…der unter Punkt III.1 bis III.6 angeforderten Unterlagen und Erklärungen…”
+   (V rămâne „Punkte III.1 bis III.7” — corect, pentru că III.7 este o acțiune a STURM, nu un document; diferența devine astfel vizibil intenționată prin folosirea aceleiași notații „III.”.)
+
+=====================================================================
+VERIFICĂRI PRE-EXPEDIERE (nu sunt defecte de redactare)
+=====================================================================
+a) Șterge din documentul trimis linia „--- ENDE DES SCHREIBENS ---” și blocul „Status: ENTWURF R03 … Unterschrift Geschäftsführer.”
+b) Completează sau șterge „Tel.: [vor Versand ergänzen]” (dacă se șterge, lasă „E-Mail: office@ac-wohnart.at”).
+c) Dacă expedierea are loc în 15.10.2026: III.8 și V → „17.10.2026, 12:00 Uhr”; dacă în 14.10.2026, text neschimbat.
+d) Confirmarea plătitorului pentru IV.3 (remedierea 2).
+e) Semnătura GF Cosmin-Adrian Covaciu; conversie PDF cu antet; trimitere la ambele adrese STURM (grosskunde@ și kundendienst@) cu subiectul conținând „Ticket 365759 / Ticket 365740 / Kundennummern 42017328, 42018142”; Beilage 1 și 2 ca tabele lizibile (PDF sau în corpul mesajului), nu doar text monospațiat.
+f) Opțional, nu obligatoriu: în III.3, dacă Übergabestichtag-ul exact e cunoscut, poate fi inserat după „laut Kaufvertrag 405/2026” — decizia clientului de a nu-l insera este respectată.
+
+=====================================================================
+CONFIRMĂRI (de păstrat neschimbate)
+=====================================================================
+§§ 859, 861, 862, 863, 1333 Abs. 1 și 2, 1405, 1406, 1431 ABGB corect citate și aplicate; § 1404, § 458 UGB, § 1409, KSchG, ElWOG/GWG corect absente; exemplul Rechnung 29708/10/2026; separarea Vertragsnummer de Kunden-/Anlagennummer; Beilage 1 cu coloana „Vertragspartner laut STURM”; nota anticumulare Beilage 2; IV.2 și IV.3 ca Vorbehalt; tratarea termenului 19.10.2026 ca poziție.

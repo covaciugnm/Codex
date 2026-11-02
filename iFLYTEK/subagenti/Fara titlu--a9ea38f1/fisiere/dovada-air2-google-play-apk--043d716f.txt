@@ -1,0 +1,19 @@
+DOVADĂ DOCUMENTARĂ — AINOTE AIR 2, GOOGLE PLAY ȘI APK
+
+Sursa: iFLYTEK UK, „AINOTE Air2 FAQ”
+URL: https://uk.iflytek.com/en/pages/ainote-air2-faq
+Secțiunea: January 28 2025 Update Log
+Data modificărilor descrise de producător: 28 ianuarie 2025
+Data verificării: 30 octombrie 2026
+
+Două extrase exacte scurte, în total 15 cuvinte:
+“Added Google Play certification in the app center.”
+“Supports local installation of application packages (.apk).”
+
+Context parafrazat: pagina descrie posibilitatea descărcării și actualizării aplicațiilor prin Google Play după certificare. Procedura include repornirea dispozitivului și o perioadă de așteptare de 30–180 de minute. Instalarea locală a pachetelor APK este menționată separat. Jurnalul din 4 decembrie 2024 menționează, de asemenea, deschiderea instalării de APK-uri.
+
+Metodă și limită de acces: în această reverificare, pagina a fost recuperată în rezultatul extins al căutării web pentru URL-ul oficial; rezultatul indica indexare cu trei zile în urmă și includea secțiunile relevante integral. Redeschiderea directă prin instrumentul web a expirat, iar Invoke-WebRequest a primit HTTP 403. Acest fișier păstrează un extras și metadatele dovezii, nu este o copie integrală HTML și nici o captură a unui dispozitiv.
+
+Concluzie permisă: comparația AINOTE Air 2 trebuie să includă existența suportului pentru instalarea de APK-uri și Google Play în versiunea descrisă de FAQ-ul UK, cu verificarea regiunii și a firmware-ului exemplarului cumpărat.
+
+Concluzie nepermisă: această dovadă nu confirmă că aplicația iFLYTEK Translation pentru ochelari funcționează pe tabletă, că toate API-urile Bluetooth necesare sunt accesibile sau că există o integrare directă Air 2–ochelari.

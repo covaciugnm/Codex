@@ -1,0 +1,70 @@
+{
+  "id": "EV-A02-PG-FIXTURE",
+  "utc": "2026-11-02T14:32:05.642Z",
+  "code_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "source": "corelare/RezervareStoc.java SQL_STOC/SQL_REZ_NATIVA/SQL_REZ_T22 extracted literally and instantiated with fixture arguments",
+  "source_sha256": "4b4a24d2802f1e93f32911d2b7dd3bbeae9d1ccbc52436a5331814ed22f2e9e0",
+  "source_script_sha256": "108c345d4c416ca6b61233e9d870552c99e760c7983a3f2612a2b21eb65235a9",
+  "scope": "PostgreSQL 16 propriu fără rețea sau volum partajat; tabele sintetice, fără aplicație ERP. Indexurile EVA_StocWms și M_Product provin din metadatele CESIRO. Nu simulează validările PO. TX01/TX02/V01 demonstrează mecanismele fixture, nu un E2E de produs.",
+  "container": "FIXTURE f88ac21a0167631a431df16fe23e7a28e4cf2cc8e1a8400cc777679485d96b59 postgres:16 none",
+  "exit": 0,
+  "stderr": "OK suita~codex-a02-audit~P01.T354~3310822~1793629920 (suita 6/6, RAM 58G, load 23.81)\neliberat: suita~codex-a02-audit~P01.T354~3310822~1793629920",
+  "results": [
+    {
+      "id": "R01-global",
+      "expected_total": 13,
+      "eva_warehouse_1": 3,
+      "eva_warehouse_2": 3,
+      "eva_sum_g1_net": 6,
+      "oracle": 13
+    },
+    {
+      "id": "R02-po-vs-so",
+      "onhand": 10,
+      "native_reserved": 2,
+      "native_ordered": 4,
+      "eva_nativa": 6,
+      "eva_available": 4,
+      "oracle_native_available": 8
+    },
+    {
+      "id": "W01-null-unique",
+      "persisted_rows": 2,
+      "represented_qty": 20,
+      "expected_keys": 1,
+      "expected_physical_quantity": 10
+    },
+    {
+      "id": "W02-zero-unique",
+      "persisted_rows": 1,
+      "expected_rows": 1
+    },
+    {
+      "id": "W03-negative-db-guard",
+      "rows_with_negative_quantity": 1
+    },
+    {
+      "id": "I01-reuse-value",
+      "value": "P001",
+      "original_row_id": 1,
+      "new_row_id": 2,
+      "outcome": "same business code accepted for a different identity by projected constraints"
+    },
+    {
+      "id": "TX01",
+      "remaining_rows_after_rollback": 0
+    },
+    {
+      "id": "V01-fixture-volume",
+      "rows": 100000,
+      "target": 100000
+    },
+    {
+      "id": "TX02-synthetic-lock",
+      "qty_after_two_consumers": 0,
+      "expected": 0
+    }
+  ],
+  "perf": null,
+  "cleanup": true
+}

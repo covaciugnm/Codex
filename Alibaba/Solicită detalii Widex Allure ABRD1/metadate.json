@@ -1,0 +1,23 @@
+{
+  "id": "01a18ce0-b53a-7f42-b271-438a549b20a6",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\Alibaba",
+  "created_at": 1793364899,
+  "updated_at": 1793375282,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Solicită detalii Widex Allure ABRD1",
+  "project_id": "2daf6940-5c6c-4dd4-9a8b-29112447ad28",
+  "project": "Alibaba",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 993292,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 51,
+  "message_count": 20,
+  "content_sha256": "fce488d9c9b570fedb4b0d508689f6df0bbfbb45a00b29761258f5cc417f270e",
+  "files_copied": 1,
+  "references_not_copied": 8
+}

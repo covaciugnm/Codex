@@ -1,0 +1,32 @@
+STARE ACTUALA
+Acest set este un checkpoint partial pentru verificare independenta. Extractorul duplicat din acest folder a fost oprit dupa descoperirea procesului de completare existent pe Z:. Procesul existent continua; nu a fost oprit sau modificat. Auditul independent este in subfolderul audit.
+Raportul curent de completare: Z:\00. Persoane\00. Arhiva\00. Administrativ\Completare 2026-10-31\Raport completare.html
+
+INVENTAR SI EXTRAGERE DOCUMENTE PERSOANE
+
+Sursa: Z:\00. Persoane, inclusiv arhiva, documentele comune si dosarele neatribuite.
+Inventarul initial contine 16.867 de fisiere. Cele 148 de grupari includ si directoare administrative; nu reprezinta 148 de titulari confirmati.
+
+FISIERE REZULTAT
+- Inventar.html: lista filtrabila a tuturor fisierelor si legaturi catre originale si textul extras.
+- inventar_complet.jsonl: cate o inregistrare pentru fiecare cale originala, cu metadate, amprenta si starea extragerii.
+- inventar.sqlite: inventarul, documentele unice si indexul pentru cautare in text integral.
+- texte: cate un TXT integral si un JSON.GZ structurat pentru fiecare continut unic. JSON-ul pastreaza paginile, anexele, textul OCR, coordonatele si scorurile recunoasterii.
+- persoane: inventare pe dosare sursa; incadrarea in folder NU confirma titularul din continut.
+- progres.json si sumar.json: progresul curent si sumarul ultimei exportari.
+- proces.log, erori.log si worker-*.log: jurnalul prelucrarii.
+
+INTERPRETAREA STARILOR
+pending_hash: fisierul nu a fost inca amprentat.
+hashed: amprentat; consultati si extraction_status pentru prelucrarea continutului.
+extracted: text extras prin parserul formatului.
+ocr: a fost necesara recunoasterea automata a unor pagini sau imagini.
+partial: exista o limitare consemnata in campul de observatii.
+error / read_error: extragerea sau citirea necesita remediere; consultati motivul concret.
+
+Originalele nu sunt mutate sau rescrise. Duplicate inseamna fisiere cu aceeasi amprenta SHA-256 verificata pe octeti; toate caile raman in inventar. Textul duplicatelor este pastrat o singura data.
+
+OCR-ul poate gresi nume, numere, diacritice si mai ales scrisul de mana. O prelucrare terminata nu inseamna verificarea manuala a fiecarui cuvant. Paginile sursa raman autoritatea pentru identificarea titularului sau validitatea unei diplome.
+
+Pentru reluare se ruleaza extrage_persoane.py cu runtime-ul Python folosit la prelucrare. Rezultatele deja salvate sunt reutilizate. Nu porniti doua instante simultan.
+Pentru cautare in continut se poate rula cauta.py urmat de textul cautat.

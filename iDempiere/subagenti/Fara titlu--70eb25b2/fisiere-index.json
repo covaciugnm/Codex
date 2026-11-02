@@ -1,0 +1,65 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A01_plan.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A01_plan--841eaf7d.json",
+    "bytes": 293342,
+    "sha256": "f6e1c63bff86dc03d48dd2539ca0918a7979b3a8a9f69b54dfe6067023aa8f64"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A01_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A01_raport--90490ac0.json",
+    "bytes": 234069,
+    "sha256": "1e57c4b95b3457953a56558bcb5b8a588b87f1f682d8169187a754ba78d886cd"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_dom.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_dom--caf75629.cjs",
+    "bytes": 2077,
+    "sha256": "aa343f201d5509e0888a5d70bb38d3af058320b2ccc6837cfa9322f415447dbe"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_java.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_java--77182c48.py",
+    "bytes": 3481,
+    "sha256": "5efab8d99874b8f2d7219dbd0764ea14c2e463f2db1f3b7776c68ef8a81eddd8"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_native.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_native--e34de670.py",
+    "bytes": 3907,
+    "sha256": "d5f7ce9a4b2e562bf162a8078a6dfdb01d85429716c2f87e5dbb64e06c1ed124"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_probe.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_probe--5119e5c9.py",
+    "bytes": 19367,
+    "sha256": "3ecfa4d790cf4a1e2cb542f5bd5d343b9dfec7c3814a7528384937bdf4f748f9"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_report.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_report--e86dc78e.py",
+    "bytes": 47942,
+    "sha256": "1461f10f09b47883bc51934c8c32669735c2749386b13fae9c6fb90776f22461"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_runtime_flags.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_runtime_flags--088ceb54.py",
+    "bytes": 1496,
+    "sha256": "168c21bbdf32e8c924cb660d82ca75cef75d0b3305ab5d08148425f1b5178288"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\build_a01_plan.js",
+    "status": "copiat",
+    "saved_path": "fisiere/build_a01_plan--22a88c30.js",
+    "bytes": 92799,
+    "sha256": "966c4a19f517d8d223edb79ad52749c3e4ee108a7d773bf064560c4df044ec40"
+  }
+]

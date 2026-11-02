@@ -1,0 +1,90 @@
+[
+  {
+    "id": "7c886a0e-66e7-4fcb-8d84-9f927d20851b",
+    "filename": "email_atasat.eml",
+    "mime_type": "message/rfc822",
+    "size": 1416681,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiN2M4ODZhMGUtNjZlNy00ZmNiLThkODQtOWY5MjdkMjA4NTFiIiwiZSI6MTc5MzM3NjI4MCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.VhKQBBFgzFuisL4ZQwvjMwFeUoIG7Rbz7BVvBC7yV5c",
+    "expires_at": "2026-10-30T16:04:40Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "410fbce7-37fd-4bff-8a2b-239811502073",
+    "filename": "image002.jpg",
+    "mime_type": "image/jpeg",
+    "size": 758,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNDEwZmJjZTctMzdmZC00YmZmLThhMmItMjM5ODExNTAyMDczIiwiZSI6MTc5MzM3NjI4MCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.rRTIrtEcrseNxJu6PtVUuUDAxal3yPvweqdCdpiG_DI",
+    "expires_at": "2026-10-30T16:04:40Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "ef7878a0-89b8-45df-a15c-b8ae36553f43",
+    "filename": "image001.jpg",
+    "mime_type": "image/jpeg",
+    "size": 763,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiZWY3ODc4YTAtODliOC00NWRmLWExNWMtYjhhZTM2NTUzZjQzIiwiZSI6MTc5MzM3NjI4MCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.28HCFNy-uYuUSXC_7FpHRNVtbE5odaWxVzdsyiF4mRs",
+    "expires_at": "2026-10-30T16:04:40Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "56c53784-1dbd-4255-a42a-ab275a146b36",
+    "filename": "image003.jpg",
+    "mime_type": "image/jpeg",
+    "size": 785,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNTZjNTM3ODQtMWRiZC00MjU1LWE0MmEtYWIyNzVhMTQ2YjM2IiwiZSI6MTc5MzM3NjI4MCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.Ze_5vYBII5sjAGwEZUHsu6Uomt0Q9hqCxisZZPs26Mw",
+    "expires_at": "2026-10-30T16:04:40Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "6dd03204-5bf3-45d9-8f0a-64626ace7d02",
+    "filename": "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf",
+    "mime_type": "application/pdf",
+    "size": 1031759,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNmRkMDMyMDQtNWJmMy00NWQ5LThmMGEtNjQ2MjZhY2U3ZDAyIiwiZSI6MTc5MzM3NjI4MCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.aNhJy6thF2jGEb1kxieWeQ6iipKsKj4Nu7cZjganU8U",
+    "expires_at": "2026-10-30T16:04:40Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "5c1d4bbd-da43-4936-9b27-45a45a7d25d1",
+    "filename": "image002.jpg",
+    "mime_type": "image/jpeg",
+    "size": 758,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNWMxZDRiYmQtZGE0My00OTM2LTliMjctNDVhNDVhN2QyNWQxIiwiZSI6MTc5MzM3NjI4MCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.RU0QxnlAfOtJ5upsU8VfV4ovbsGRGvkbb36dxhMz26M",
+    "expires_at": "2026-10-30T16:04:40Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "362f947e-1b59-448b-a731-6204c559238f",
+    "filename": "image001.jpg",
+    "mime_type": "image/jpeg",
+    "size": 763,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMzYyZjk0N2UtMWI1OS00NDhiLWE3MzEtNjIwNGM1NTkyMzhmIiwiZSI6MTc5MzM3NjI4MCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.mqtzrw85uEu6NK9tdGXUK7d4TJLi77CZYlXow-CcYUY",
+    "expires_at": "2026-10-30T16:04:40Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "4e3d2f5c-075f-466a-ba46-baaa8184aec9",
+    "filename": "image003.jpg",
+    "mime_type": "image/jpeg",
+    "size": 785,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNGUzZDJmNWMtMDc1Zi00NjZhLWJhNDYtYmFhYTgxODRhZWM5IiwiZSI6MTc5MzM3NjI4MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.jJxSCGP8bfkf1aF_B2tDE4aGsYa0A-qJ1ReJpHeokfk",
+    "expires_at": "2026-10-30T16:04:41Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  }
+]

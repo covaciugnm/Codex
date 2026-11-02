@@ -5691,3 +5691,1523 @@ Nu am editat fișiere și nu am creat draftul.
 **Textul final este verificat și poate fi salvat ca draft în Eva-Mail.** Corecțiile privind alocarea plății și eventuala durată2036 deja existentă sunt aplicate.
 
 Am salvat **„2026.10.14 Reaudit final email Eva-Mail Donau.txt”**, cu hashul textului și sursele juridice. Nu am creat sau trimis emailul.
+
+## Asistent
+
+Verific anexele originale și limitele probelor privind mandatul și prelungirea până în 2036.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-2b4e5f68-090d-4a1f-9307-8875a6ad4032",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'folder map/README.md' -TotalCount 35; Get-ChildItem -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau' -Recurse -File | Select-Object FullName | Format-List\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "47811",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'folder map/README.md' -TotalCount 35; Get-ChildItem -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau' -Recurse -File | Select-Object FullName | Format-List"
+    }
+  ],
+  "aggregatedOutput": "2026.10.29 | Ciorna BERGER R11 - AMBELE PDF-uri\r\nVerificat: 2026-10-29T13:03:22+02:00\r\nStatus scurt: La cererea expresa a utilizatorului, aceeasi ciorna EVA contine acum DOUA PDF-uri: contractul R11 (32 pagini, 335.514 octeti) si comparatia original/modificat cu decizii (44 pagini, 224.847 octeti). Status pending/NETRIMIS. Sumele si documentele comerciale nu s-au modificat.\r\nUltimul raspuns extern relevant: neschimbat, BERGER 2026.10.27 privind Bauwerksbuch 2.500 EUR net. Actualizarea de azi este o modificare de ciorna, nu mesaj trimis sau acceptare.\r\nUrmatorul pas: Redeschiderea ciornei in EVA; proprietarul verifica ambele PDF-uri inainte de trimitere. Confirmarile si completarile BERGER presemnare raman deschise.\r\nSursa: 00.Proiect/09. Vertraege/bmberger.at/2026.10.29 Werkvertrag R11/2026.10.29 Ciorna BERGER R11 cu ambele PDF-uri - EVA original.json; EVA draft 04f3a2d8-9caf-4454-923a-2d66e162730e; atasamente ['ae9994fb-1a68-48fa-9753-efe33df4789e', 'd877ea32-c07b-4227-8618-10a586b33812']. Comparatia descarcata din EVA are SHA-256 identic cu PDF-ul local. API readback confirma doua atasamente; interfata nu a putut fi verificata vizual din cauza indisponibilitatii instrumentului UI. Este salvata si copia EML netrimisa cu ambele atasamente reale.\r\nNu s-au trimis emailuri, semnat contracte sau efectuat plati. Documentele PDF si PECH nemodificate; acoperirea verificarilor globale email nu este extinsa.\r\n\r\nISTORIC PASTRAT\r\n\r\n2026.10.29 | Contract BERGER R11 si ciorna pentru confirmare\r\nActualizat: 2026-10-29T12:39:24+02:00\r\n\r\nStatus scurt: Propunerea BERGER R11 actualizata dupa scanul adnotat si cele sase raspunsuri explicite ale proprietarului; 47.500 EUR net / 57.000 EUR cu TVA, inclusiv Bauwerksbuch complet 2.500 EUR net. Ciorna germana EVA cu PDF verificat este NETRIMISA; nicio acceptare sau semnare.\r\nUltimul raspuns extern relevant ramane 2026.10.27: BERGER oferteaza Bauwerksbuch la 2.500 EUR net si cere clarificarea Planung / Planverfasser / Planwechsel; ID EVA ed6dfacf-1a5e-4447-8faa-833514e87070. Cele sase raspunsuri ale proprietarului din 2026.10.29 sunt decizii interne, nu acceptare BERGER.\r\nModificari: 5 zile lucratoare Werkstattplane; 3 zile RFI; PDF semnat, DWG/DXF editabile, calcule complete, IFC/native numai existente si transferabile; email saptamanal scurt in perioade active si lista comuna simpla; rolurile externe delimitate; PI/ZT de confirmat nominal si comercial; Bauwerksbuch complet existent+interventii noi, prima verificare, inregistrare necesara si actualizari pana la inchidere.\r\nPret: patru pozitii originale 13.000 + 20.000 + 2.000 + 10.000 = 45.000 EUR net, neschimbate; numai Bauwerksbuch adaugat 2.500 = 47.500 EUR net. Optiunile 1.000 EUR net/4 vizite necesita comanda expresa; niciuna comandata. 8 vizite statice incluse, T0 numai daca exista asistenta statica efectiva; 18 luni de la B0 real; 14 zile plata; garantie 3 ani; fara indexare, retentie contractuala ori penalitate.\r\nVerificare: doua audituri independente, corecturile inchise; 10/10 pentru coerenta juridica a propunerii pentru confirmare si 10/10 pentru conformitate documentara/financiara, nu certificare de semnabilitate. Randate si inspectate PDFcurat 32 pagini si comparatie 44 pagini; ultimele 4 pagini din PDFcurat sunt pixel-identice cu oferta originala. Textul tuturor paragrafelor/tabelelor verificat; atasamentul EVA redescărcat si SHA-256 identic.\r\nCiorna: ID 04f3a2d8-9caf-4454-923a-2d66e162730e; de la office@ac-wohnart.at catre office@bmberger.at; fara CC/BCC; status EVA pending la readback; 1 atasament PDF R11. Emailul explica textul anterior si modificarile pe 11 puncte si solicita confirmare sau corecturi punctuale; nu afirma acordul BERGER si nu mentioneaza alti ofertanti.\r\nUrmatorul pas: Proprietarul citeste R11 si ciorna; BERGER trebuie sa confirme corectitudinea interpretarii, obiectul complet Bauwerksbuch la 2.500 EUR, PI/ZT si includerea in pret, persoanele/befugnis, valabilitatea onorariului, planurile si calendarul de livrare/facturare cu date si valori. Numele arhitectului/Einreichplaner/Baufuhrer raman de completat separat, fara atribuirea lor lui BERGER.\r\nSurse: 00.Proiect/09. Vertraege/bmberger.at/2026.10.29 Werkvertrag R11; 00.Proiect/09. Vertraege/bmberger.at/2026.10.29 Werkvertrag R11/2026.10.29 Email BERGER R11 - ciorna EVA original.json; raspunsurile proprietarului salvate in JSON; scan original si oferta originale pastrate.\r\nNu s-au trimis emailuri, semnat contracte, comandat servicii sau efectuat plati. PECH nemodificat. Acest lucru punctual nu extinde acoperirea ultimei verificari globale EVA.\r\n\r\nISTORIC PASTRAT\r\n\r\n2026.10.29 10:03:34 | Verificare BERGER/PECH\r\n\r\nStatus scurt: Nicio noutate BERGER/PECH: nici raspunsuri suplimentare, confirmari ale functionarii accesului, observatii contractuale, contrapropuneri, preturi/servicii, calendar, atasamente ori nelivrari noi. Mesajele de acces TRIMISE in 2026.10.28 sunt deja arhivate si raportate; nu se repeta ca noutati.\r\n\r\nMarkus Berger\r\nStatus scurt: Nicio noutate; situatia pastrata: 2026.10.27 21:52:35 Romania: BERGER oferteaza Bauwerksbuch conform Wiener Bauordnung la 2.500 EUR net suplimentar. Planificarea, autorul planurilor si Planwechsel trebuie stabilite separat. Multumeste pentru intalnire si schimbul de idei; discutia din 2026.10.27 este astfel confirmata, fara acceptare contractuala. 2026.10.28 13:01:52 Romania: emailul cu accesul la servieta digitala este TRIMIS catre office@bmberger.at, fara CC/BCC sau atasamente. Ciorna EVA are status sent. Nicio confirmare a primirii ori a functionarii accesului.\r\nUltimul raspuns extern: 2.500 EUR net pentru Bauwerksbuch; celelalte puncte Planung / Panverfasser [sic] / Planwechsel de stabilit individual. Ii este suficienta o decizie de principiu cu Kostennoten; nu este confirmarea unor preturi suplimentare, persoane sau comenzi concrete.\r\nUltima trimitere: Acces servieta: 2026.10.28 13:01:52 Romania; ID 6c121750-efc5-4e17-8e64-6c52c23ffd4b\r\nUrmatorul pas: Urmarirea confirmarii ca accesul functioneaza si a listei de documente necesare; pastrate deschise punctele comerciale si tehnice anterior consemnate. Clarificare scrisa: Bauwerksbuch pentru existent + interventii noi, inspectie initiala, documente, inregistrare, responsabil si termen; ce include exact pretul de 2.500 EUR net. Stabilirea responsabililor si a costurilor de proiectare/Planwechsel inainte de orice comanda. Propunerea R10 si calendarul joi raman cu punctele deschise anterior; fara acceptare sau RSVP presupus.\r\nSurse status anterior: ['08. Corespondenta/2026.10.28 Verificare zilnica/2026.10.27 21-52-35 PRIMIT BERGER ed6dfacf.txt', '08. Corespondenta/2026.10.28 Verificare zilnica/2026.10.27 21-52-35 PRIMIT BERGER ed6dfacf.json', '08. Corespondenta/2026.10.28 Verificare Berger Pech/2026.10.28 13-01-52 TRIMIS BERGER 6c121750 - copie fara parola.txt']\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\2026.10.29 Email primit Donau.json\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\2026.10.29 Manifest anexe.json\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\2026.10.29 Manifest descarcare temporar.json\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 1120 Wien, Schallergasse 35_Antrag.pdf\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 703920_Antrag.pdf\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 Deckungserweiterungen_RV 29000010498.pdf\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 image001.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 Korrespondenz zu Eigentümerwechsel.pdf\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 Memoformat.pdf\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 Polizze 2044001194 per 03.06.2020.PDF\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 Polizze 2044001194 per 17.03.2023.PDF\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.pdf\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 Vollmacht Hofhans.pdf\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 1120 Wien, Schallergasse 35_Antrag.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 703920_Antrag.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 Deckungserweiterungen_RV 29000010498.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 Korrespondenz zu Eigentümerwechsel.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 Memoformat.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 Polizze 2044001194 per 03.06.2020.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 Polizze 2044001194 per 17.03.2023.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Texte\\2026.10.29 Vollmacht Hofhans.txt\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 1120 Wien, Schallergasse 35_Antrag p1.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 1120 Wien, Schallergasse 35_Antrag p10.pn\r\n           g\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 1120 Wien, Schallergasse 35_Antrag p8.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 1120 Wien, Schallergasse 35_Antrag p9.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 703920_Antrag p1.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p1.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p10.\r\n           png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p11.\r\n           png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p12.\r\n           png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p13.\r\n           png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p2.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p3.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p4.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p5.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p6.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p7.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p8.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p9.p\r\n           ng\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Polizze 2044001194 per 03.06.2020 p1.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Polizze 2044001194 per 17.03.2023 p1.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Sammelantrag geschwärzt inkl. Schallergas\r\n           se 35 p1.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Vollmacht Hofhans p1.png\r\n\r\nFullName : D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigur\r\n           are cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Vollmacht Hofhans p2.png\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 145
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-1bb4eb1b-2721-4daf-977c-1ef405896beb",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Vollmacht Hofhans p1.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-3e51e1ec-deaa-453e-9829-d0bb0ad54aec",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Vollmacht Hofhans p2.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-840294e3-27b3-4844-acf7-310501afae41",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35 p1.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-13c734b3-3c7e-413d-8a16-28a35486e002",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 703920_Antrag p1.png"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f59c4e2d-33fd-4975-b7ab-10166ff3a37f",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-ChildItem -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Anexe' | Select-Object -ExpandProperty Name\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "55130",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-ChildItem -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Anexe' | Select-Object -ExpandProperty Name"
+    }
+  ],
+  "aggregatedOutput": "2026.10.29 1120 Wien, Schallergasse 35_Antrag.pdf\r\n2026.10.29 703920_Antrag.pdf\r\n2026.10.29 Deckungserweiterungen_RV 29000010498.pdf\r\n2026.10.29 image001.png\r\n2026.10.29 Korrespondenz zu Eigentümerwechsel.pdf\r\n2026.10.29 Memoformat.pdf\r\n2026.10.29 Polizze 2044001194 per 03.06.2020.PDF\r\n2026.10.29 Polizze 2044001194 per 17.03.2023.PDF\r\n2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.pdf\r\n2026.10.29 Vollmacht Hofhans.pdf\r\n",
+  "exitCode": 0,
+  "durationMs": 127
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-fa91d2c6-be9c-4eaf-93a6-6991552bb345",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Anexe\\2026.10.29 image001.png"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-764730ee-a52b-47a3-ac52-da3492219239",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Vollmacht Hofhans.txt'; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.txt'; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 1120 Wien, Schallergasse 35_Antrag.txt' -TotalCount 45\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "10610",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Vollmacht Hofhans.txt'; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.txt'; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 1120 Wien, Schallergasse 35_Antrag.txt' -TotalCount 45"
+    }
+  ],
+  "aggregatedOutput": "--- PAGE 1 ---\r\n\r\n--- PAGE 2 ---\r\n--- PAGE 1 ---\r\n--- PAGE 1 ---\r\nDONAU Wohnhausversicherung\r\n\r\n\r\n\r\n\r\n\r\nANTRAG auf\r\nDONAU Wohnhausversicherung\r\n\r\n\r\nUnter Einbeziehung der unter dem Punkt Vertragsgrundlagen angeführten Bedingungen.\r\n                                                                                V 1.0.0\r\n                                                                                                       14.11.2022\r\nAntragsdaten\r\nErstellungsdatum:                                         14.11.2022\r\nArt des Antrags:                                             Ersatz für Polizze            K2-X712.261-2\r\nBetreuer:                                                     Seipt\r\nProvisionsnummer:                               D93765W5\r\nRahmenvertragsnummer:                               2900010498\r\n\r\n\r\nVersicherungsnehmerIn\r\nName:                                             Aßmayergasse 60 Immobilienbesitz GmbH & Co KG v.d. Hofhans I\r\nFirmenbuchnummer:\r\nAdresse:                                                   Albertgasse 32/9,1080 Wien Österreich\r\nTelefonnummer:\r\nE-Mail:\r\n\r\n\r\nVertragsdaten: DONAU Wohnhausversicherung\r\nVersicherungsbeginn:                                                       14.11.2022\r\nVersicherungsablauf:                                                       01.01.2033\r\nHauptfälligkeit:                                                                       01.01.\r\n\r\nSachversicherung\r\nohne Wertanpassung\r\nVersicherte Objekte (Beträge in EUR)\r\nGebäude 1:\r\nGebäudesumme:                                          3.160.000,00\r\nRisikoadresse:                                         Schallergasse 35, 1120 Wien, Österreich\r\n\r\n                                                      Feuerversicherung Gebäude, Mieten-BU,\r\nVersicherte Sparten:\r\n                                                     Sturmversicherung Gebäude, Leitungswasser Gebäude\r\n",
+  "exitCode": 0,
+  "durationMs": 112
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-166ad1fa-fcff-46a8-b817-f61a60706ae3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport fitz,pathlib,tempfile\nb=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Anexe')\no=pathlib.Path(tempfile.gettempdir())/'donau-audit-20261029';o.mkdir(exist_ok=True)\nd=fitz.open(b/'2026.10.29 Vollmacht Hofhans.pdf');p=d[0];p.get_pixmap(matrix=fitz.Matrix(3,3),clip=fitz.Rect(p.rect.width*.3,p.rect.height*.65,p.rect.width*.7,p.rect.height*.86)).save(o/'mandat.png')\nd=fitz.open(b/'2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.pdf');p=d[0];print(p.rect);p.get_pixmap(matrix=fitz.Matrix(5,5).prerotate(90)).save(o/'tabel.png')\nprint(o)\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "98865",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport fitz,pathlib,tempfile\nb=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Anexe')\no=pathlib.Path(tempfile.gettempdir())/'donau-audit-20261029';o.mkdir(exist_ok=True)\nd=fitz.open(b/'2026.10.29 Vollmacht Hofhans.pdf');p=d[0];p.get_pixmap(matrix=fitz.Matrix(3,3),clip=fitz.Rect(p.rect.width*.3,p.rect.height*.65,p.rect.width*.7,p.rect.height*.86)).save(o/'mandat.png')\nd=fitz.open(b/'2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.pdf');p=d[0];print(p.rect);p.get_pixmap(matrix=fitz.Matrix(5,5).prerotate(90)).save(o/'tabel.png')\nprint(o)\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "Rect(0.0, 0.0, 595.3200073242188, 841.9200439453125)\r\nC:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\r\n",
+  "exitCode": 0,
+  "durationMs": 782
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-d9f103fd-f843-491f-bade-1cb9f009bc1b",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\mandat.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-a0d8d649-f0a1-410f-9bce-b2bd87b902ee",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\tabel.png"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-8dbc9f7f-b883-4917-afb8-de9ff9219413",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport fitz,pathlib,tempfile\nb=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Anexe')\no=pathlib.Path(tempfile.gettempdir())/'donau-audit-20261029'\nd=fitz.open(b/'2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.pdf');p=d[0];p.set_rotation(90)\nprint(p.rect)\nfor name,r in [('row-left',(5,105,350,130)),('row-right',(350,105,800,130)),('head-left',(5,35,350,48)),('head-right',(350,35,800,48)),('signature',(5,230,190,258))]:\n p.get_pixmap(matrix=fitz.Matrix(8,8),clip=fitz.Rect(*r)).save(o/(name+'.png'))\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "91617",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport fitz,pathlib,tempfile\nb=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Anexe')\no=pathlib.Path(tempfile.gettempdir())/'donau-audit-20261029'\nd=fitz.open(b/'2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.pdf');p=d[0];p.set_rotation(90)\nprint(p.rect)\nfor name,r in [('row-left',(5,105,350,130)),('row-right',(350,105,800,130)),('head-left',(5,35,350,48)),('head-right',(350,35,800,48)),('signature',(5,230,190,258))]:\n p.get_pixmap(matrix=fitz.Matrix(8,8),clip=fitz.Rect(*r)).save(o/(name+'.png'))\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "Rect(0.0, 0.0, 841.9200439453125, 595.3200073242188)\r\n",
+  "exitCode": 0,
+  "durationMs": 1284
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-db213f97-e5f5-4d45-89cd-4514e344e274",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\row-left.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-57b57a74-810d-4821-a84f-67b32dcbe89c",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\row-right.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-6ac922f0-9739-4444-bc38-cf74aef66637",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\head-left.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-15a05071-6b96-4a8b-bcd6-87972c341089",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\head-right.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-83cd3366-4a61-4c34-be32-46be8d290d10",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-20261029\\signature.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_755193fa9d514166933c7033097e7cc6",
+  "kind": "interacted",
+  "agentThreadId": "01a0f21f-8b26-7c51-85f9-22089ebfea54",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_1000186dd72f436098119d94c940fef1",
+  "kind": "interacted",
+  "agentThreadId": "01a139c8-1f14-7ca2-b3e9-86ad07c816f7",
+  "agentPath": "/root/cercetare_donau"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-31ed3ea0-9734-4522-aed5-7381fada7262",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Polizze 2044001194 per 03.06.2020.txt' -TotalCount 65; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Polizze 2044001194 per 17.03.2023.txt' -TotalCount 58\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "76731",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Polizze 2044001194 per 03.06.2020.txt' -TotalCount 65; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Polizze 2044001194 per 17.03.2023.txt' -TotalCount 58"
+    }
+  ],
+  "aggregatedOutput": "--- PAGE 1 ---\r\n                                                                                    B120E1\r\nKopie\r\nGEBÄUDE-VERSICHERUNG\r\nPolizzennummer K2-X712.261-2                                                    Wien, am 23.06.2020\r\nSeite: 1\r\n\r\n\r\nVersicherungsnehmer                                                                                     Vermittler:\r\n                                                                                 SEIPT & PARTNER GMBH                              B12\r\nColumba Immobilien GmbH, v.d.Hofhans Immo-\r\nbilienmanagement GmbH                                                                                                 Bitte beachten Sie auch die wichtigen Hin-\r\nAlbertg. 32/9                                                                  weise zum gesamten Versicherungsvertrag\r\n1080 Wien\r\n\r\n\r\n\r\n\r\n\r\nSehr geehrte Damen und Herren!\r\n\r\nWir danken für Ihr Vertrauen. Mit dieser Versicherungspolizze übernehmen wir die Verantwortung für Ihren\r\nverlässlichen Versicherungsschutz. Als starker Partner sind wir immer an Ihrer Seite. Im folgenden finden\r\nSie die Dokumentation Ihrer Versicherungsleistung.\r\n\r\n\r\nVersicherungsdauer\r\n\r\nBeginn: 03.06.2020, null Uhr,    Ablauf: 01.01.2031, null Uhr.\r\n\r\nVersicherungsort\r\n\r\n1120 Wien, Schallerg. 35\r\n\r\nWohnhaus-Top-Vollschutz-Versicherung\r\n\r\n\r\nFeuer-Versicherung\r\n\r\n\r\nVersicherungsschutz gegen Schäden an den angeführten Gebäuden durch Brand, Blitzschlag und Explosion.\r\nVersichert ist:\r\nWohngebäude , Bauart: massiv/gemischt , Dachung: hart\r\nEUR       2.540.000,00 Versicherungssumme für Gebäude\r\n\r\nNebenkosten\r\nEUR        127.000,00 Versicherungssumme  für  Abbruch-,  Aufräumungs-  und  Feuerlöschkosten  auf\r\n                        \"Erstes Risiko\"\r\n\r\nVorsorge für Wegfall der Vorsteuerabzugsmöglichkeit.\r\nEUR        508.000,00 Versicherungsumme für Vorsorge bei Wegfall der Vorsteuerabzugsmöglichkeit auf\r\n                        \"Erstes Risiko\"\r\n\r\nMietverlust bzw. Kosten für eine Ersatzwohnung\r\nEUR          14.800,00 Versicherungssumme  für Mietverlust oder Kosten  für Ersatzräumlichkeiten auf\r\n                        \"Erstes Risiko\"\r\n\r\nMehrkosten bei baulichen bzw. technischen Verbesserungen nach behördlichen Auflagen\r\nEUR          14.800,00 Versicherungssumme für bauliche bzw. technische Verbesserungen auf \"Erstes Ri-\r\n                        siko\"\r\n\r\n\r\n\r\n\r\n\r\n--- PAGE 1 ---\r\nWOHNHAUSVERSICHERUNG\r\n\r\n                                                                                       Vermittelt durchRetouren an Postfach 330, 1375 Wien\r\n                                                               Seipt & Partner Versicherungmakler GmbH\r\n                                                                                              office@seipt.at\r\nSchallergasse 35 Immobilienbesitz\r\nGmbH & Co KG\r\nv.d. Hofhans Immobilienmanagement GmbH\r\nAlbertgasse 32/9\r\n1080 Wien\r\n\r\n\r\n\r\n\r\n\r\nPolizze Nr. 2044001194 / bisherige Polizze Nr. X712261                                  17.03.2023\r\n\r\n\r\n\r\nRahmenvertragsnummer: 2900010498\r\n\r\n\r\nSehr geehrte Damen und Herren!\r\n\r\nMit Ausstellung dieser Polizze bestätigen wir die aktuellen Änderungen zu diesem Versicherungsvertrag.\r\n\r\n\r\nDONAU Wohnhausversicherung\r\n\r\n Ausstellungsgrund\r\n\r\n Sonstiges (Änderung Firmenwortlaut)\r\n\r\n\r\n Vertragsdauer\r\n\r\n Änderung ab: 17.03.2023 0:00 Uhr, Ablauf: 01.01.2033 0:00 Uhr, Hauptfälligkeit: 01.01.\r\n\r\n\r\n VersicherungsnehmerIn\r\n\r\n Schallergasse 35 Immobilienbesitz GmbH & Co KG\r\n c/o v.d. Hofhans Immobilienmanagement GmbH, Albertgasse 32/9, 1080 Wien\r\n\r\n\r\n Versicherungsort\r\n\r\n Schallergasse 35, 1120 Wien, Österreich\r\n\r\n\r\nSachversicherung\r\nohne Wertanpassung\r\n\r\n Versicherte Objekte (Beträge in EUR)\r\n\r\n Gebäude:               Wohngebäude\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 112
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-aa6205d8-3b00-4953-b7b1-66f374f29c05",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 1120 Wien, Schallergasse 35_Antrag p10.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-b6edebbc-e7ec-4b7c-b8f6-8e927aead736",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Polizze 2044001194 per 17.03.2023 p1.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_d6a6acac70e74b7badff808db5658e9c",
+  "kind": "interacted",
+  "agentThreadId": "01a0f21f-8b26-7c51-85f9-22089ebfea54",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+### Concluzii verificate vizual
+
+- **Vollmacht Hofhans, p.1–2:** mandat datat **2018.06.15**, de la **Hofhans către Seipt & Partner**. Include obținerea documentelor, gestionarea daunelor și efectuarea încheierilor, rezilierilor și corespondenței de asigurare. Semnătura apare peste ștampila Hofhans; persoana nu poate fi identificată sigur. P.2 conține condițiile brokerului. **Nu dovedește singur mandatul fostului proprietar către Hofhans.**
+
+- **703920_Antrag, p.1:** cerere din **2020.06.03**, atribuită prin numele tipărit și semnătură lui **Elmar Ziervogl / Seipt**, pentru **Columba Immobilien GmbH, reprezentată de Hofhans**. Solicită durata până în **2031.01.01**.
+
+- **Polița veche, p.1:** anexa intitulată „Polizze2044001194 per03.06.2020” conține efectiv **X712.261-2**, emisă **2020.06.23**, cu durata **2020.06.03–2031.01.01**. Această probă înlocuiește constatarea anterioară că polița veche lipsea.
+
+- **Cererea2022, p.1 și10 / polița2023, p.1:** termen **2033.01.01**; data cererii este **2022.11.14**. La p.10 apare Seipt; câmpul asiguratului nu are semnătură identificabilă. Aceasta nu dovedește automat invaliditatea reprezentării.
+
+- **Sammelantrag, p.1:** rândul Schallergasse35 indică **2026.01.01–2036.01.01**; ștampilă și grafism de semnătură Seipt, data **2026.01.08**. Există astfel o probă concretă pentru solicitarea prelungirii **2033→2036**.
+
+- **image001.png:** mesaj Nadine Fuchs din **2025.11.12**, prin care solicită pregătirea cererii colective pentru conversia din2026 și trimiterea acesteia spre semnare. Este corespondență pregătitoare; nu dovedește singură acceptarea proprietarului.
+
+**Golul real:** proba relației și puterilor fostului proprietar → Hofhans, valabile la modificare, și legătura cu acțiunile Seipt. Nu putem presupune autenticitatea semnăturilor, dar nici nulitatea ori necesitatea automată a unui mandat special pentru zece ani. Cercetătorul confirmă că OGH7Ob127/18d admite asemenea prelungiri în cadrul administrării obișnuite.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-860cebb3-1410-4d92-811f-3030ef725ae2",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/2026.10.29 Analiza raspuns Donau si pasi urmatori.txt'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "47006",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/2026.10.29 Analiza raspuns Donau si pasi urmatori.txt'",
+      "name": "2026.10.29 Analiza raspuns Donau si pasi urmatori.txt",
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\2026.10.29 Analiza raspuns Donau si pasi urmatori.txt"
+    }
+  ],
+  "aggregatedOutput": "2026.10.29 — DONAU: ce am cerut, ce au răspuns, ce putem face\r\nPolița 2044001194 / vechea poliță K2-X712.261-2 / dosar 2616052\r\n\r\nCONCLUZIE\r\nDONAU confirmă în scris încasarea primei și existența acoperirii la momentul răspunsului. Refuză încetarea ordinară înainte de 2036.01.01. Anexele susțin o renegociere anterioară cumpărării, nu o pornire automată a zece ani prin transferul la A&C.\r\nPoziția DONAU privind durata este acum mai bine documentată și are sprijin în jurisprudență. Nu este însă verificat complet lanțul de reprezentare și nu s-a răspuns complet asupra alocării plății, soldului și perioadelor istorice de acoperire.\r\nO contestare reușită a modificării din 2026 nu ar produce obligatoriu ieșirea imediată: poate lăsa aplicabil termenul anterior 2033.01.01.\r\n\r\n1. CEREREA EFECTIV TRIMISĂ ȘI RĂSPUNSUL\r\nCererea de comparație: emailul TRIMIS 2026.10.14, ID 4c515540-e12c-488d-9c03-3fcb2262ac21, exclusiv patru destinatari DONAU, CC gol.\r\nRăspuns: 2026.10.29 14:25:50 UTC+02, Andreas Höbinger, înlocuitor al doamnei Loschy; ID 8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7.\r\nCiorna revenirii pregătită la 2026.10.20 nu este tratată ca mesaj trimis. Căutarea poliței începând cu 2026.10.20 identifică răspunsul de față, nu o nouă trimitere.\r\n\r\nCerere | Răspuns DONAU | Evaluare\r\nÎncasarea celor trei prime declarate, total 4.775,43 EUR | Confirmă «Prämienzahlungseingang» | Confirmare de încasare în contextul cererii; nu detaliază în răspuns suma/data înregistrării ori alocarea fiecărei rate.\r\nAlocare pentru 2026.04.01–2027.01.01 și sold separat prime/dobânzi/costuri | Fără extras sau defalcare | Rămâne deschis; nu rezultă sold zero și nici anularea costurilor Commerz.\r\nAcoperire: data efectivă și ramurile | Confirmă «aufrechten Versicherungsschutz» | Acoperire actuală confirmată. Nu dovedește retroactiv acoperire continuă și nu delimitează vechiul interval invocat de neacoperire.\r\nPolița anterioară | Polița veche K2-X712.261-2 din 2020, polița din 2023 și cereri | Documente primite efectiv. Concluzia anterioară că vechea poliță nu fusese identificată este depășită.\r\nTemeiul expirării 2036 | Renegociere în 2025; cerere colectivă semnată 2026.01.08; nou termen 2026.01.01–2036.01.01 | Există înscris justificativ, nu numai afirmația asigurătorului. Eficacitatea reprezentării rămâne de verificat.\r\nMandate și persoane | Procura Hofhans către Seipt, corespondență din 2021, semnătură/ștampilă Seipt pe cererea colectivă | Procura proprietarului către Hofhans nu este printre anexele identificate. Nu rezultă automat lipsă de mandat sau nulitate.\r\nAcordul-cadru complet și condițiile | PDF de extensii de acoperire, 13 pagini | Începe la pagina tipărită 4/16, «ABSCHNITT B», și se termină 16/16. Trebuie cerute paginile 1–3 și confirmarea setului complet aplicabil.\r\nReziliere și comunicări | Nu au alte rezilieri/modificări; nu au confirmări/dovezi separate de comunicare; refuză încetarea ordinară anticipată | Absența unei dovezi separate de comunicare nu anulează singură un acord expres valabil încheiat prin reprezentant.\r\nReducerea primei | Trimit la emailul Pfeiffer 2026.07.14 | Există o cale concretă, condiționată de documente: eliminarea riscurilor Leitungswasser și Mieten-BU.\r\n\r\n2. ISTORICUL DURATEI — DOCUMENTE NOI\r\nA. Anexa intitulată «Polizze 2044001194 per 03.06.2020.PDF», p.1: în document apare K2-X712.261-2, emis 2020.06.23, început 2020.06.03, expirare 2031.01.01. Asigurat Columba Immobilien GmbH, reprezentat de Hofhans.\r\nB. Cererea «1120 Wien, Schallergasse 35_Antrag.pdf», p.1: data 2022.11.14, înlocuire K2-X712.261-2, termen până la 2033.01.01; Aßmayergasse 60 Immobilienbesitz GmbH & Co KG reprezentată de Hofhans. La p.8 se prevede prelungirea tacită anuală după expirare, dacă nu se notifică cu trei luni înainte.\r\nC. Polița emisă 2023.03.17, p.1: schimbare denumire în Schallergasse 35 Immobilienbesitz GmbH & Co KG, expirare neschimbată 2033.01.01. Contractul de vânzare identifică aceeași persoană FN 544408a, cu denumirea anterioară Aßmayergasse; nu presupunem o altă entitate doar din diferența de nume.\r\nD. «Sammelantrag geschwärzt inkl. Schallergasse 35.pdf», p.1: linie relevantă pentru imobil și poliță; început 2026.01.01, expirare 2036.01.01; ștampilă și grafism de semnătură Seipt, data 2026.01.08. Inspecția vizuală nu autentifică semnătura ori identitatea persoanei care a semnat.\r\nE. Captura image001.png: email Nadine Fuchs/Seipt din 2025.11.12, solicită pregătirea cererii colective și implementarea la 2026.01.01. Referirea la «Anlage 5» nu este însoțită de acea listă integrală în captura transmisă.\r\nF. Polița 2026.02.03, examinată anterior, reflectă deja termenul 2036 înainte de cumpărarea A&C din 2026.02.20.\r\nObservație: răspunsul DONAU menționează cererea 2022.11.12, dar cererea anexată este datată 2022.11.14. Neconcordanță de clarificat, fără concluzie automată de invaliditate.\r\n\r\n3. VERIFICAREA MANDATULUI ȘI DOCUMENTELOR\r\n«Vollmacht Hofhans.pdf», p.1, este procura Hofhans Immobilienmanagement către Seipt & Partner, datată lizibil 2018.06.15; p.2 sunt condițiile brokerului. Include încheieri, rezilieri, corespondență și gestionarea asigurărilor. Nu identifică în sine mandatul fostului proprietar către Hofhans pentru Schallergasse 35.\r\nCorespondența «Korrespondenz zu Eigentümerwechsel.pdf», p.1, relatează în 2021 că Hofhans păstra mandatul de administrare al noului proprietar. Este indiciu de continuitate, nu dovadă completă a întinderii/valabilității mandatului la 2026.01.08. Acest document privește schimbarea proprietarului din 2021, nu transferul A&C din 2026.\r\nCererea din 2022, p.10, prezintă ștampila/grafismul Seipt; nu este identificabilă o semnătură separată în câmpul asiguratului. Încheierea prin reprezentant poate fi valabilă; lipsa semnăturii personale nu tranșează disputa.\r\nDe cerut punctual: mandatul proprietarului către Hofhans, competența de a mandata brokerul și valabilitatea la data renegocierii, identificarea persoanei semnatare, documentele prin care s-a comunicat/acceptat acordul colectiv și părțile relevante ale negocierii din 2025. Nu este necesar să cerem datele altor proprietăți anonimizate.\r\n\r\n4. POZIȚIA JURIDICĂ\r\n§69 VersVG: cumpărătorul intră în contractul existent. Transferul nu inventează un termen nou, dar poate transmite termenul deja modificat valabil de fostul proprietar.\r\n§8(1) VersVG: limita de un an privește prelungirea tacită. Nu interzice, prin ea însăși, o durată fixă de zece ani ori renegocierea expresă. §8(3), ieșirea după trei ani, este drept al consumatorului; nu avem temei să îl aplicăm automat asigurării profesionale a unei GmbH imobiliare.\r\nOGH 7 Ob 127/18d, 2018.08.29, pct.2.1: mandatul obișnuit de administrare poate include încheierea asigurării clădirii pe zece ani și prelungirea pe durată determinată. Nu este corect argumentul general «administratorul nu putea accepta fără semnătura noastră». Sunt necesare defecte concrete ale reprezentării ori acordului.\r\n§70(2) VersVG: cumpărătorul are o posibilitate de încetare într-un termen de o lună. Pentru imobil trebuie verificată comunicarea hotărârii de intabulare și momentul cunoașterii existenței asigurării. OGH 7 Ob 6/80 și 7 Ob 20/89: cunoașterea detaliilor poliței nu este necesară; primirea explicațiilor în 2026.10.29 nu redeschide automat termenul.\r\nÎn arhivă există hotărârea TZ466/2026 din 2026.03.10, iar polița a fost comunicată prin Capra în 2026.03.19. Aceste date slăbesc o ieșire nouă în octombrie bazată exclusiv pe necunoașterea conținutului. Pentru concluzie definitivă trebuie verificată dovada comunicării, orice reziliere în termen și reprezentarea la comunicare; nu calculăm aici o dată-limită certă.\r\nLipsa unei oferte separate nu infirmă singură contractul dacă acordul este dovedit prin cerere și acceptare. Tot astfel, lipsa confirmărilor separate de comunicare nu înseamnă automat că acceptarea nu a avut loc.\r\nChiar dacă acordul din 2026 ar fi înlăturat, trebuie analizat termenul anterior 2033 și temeiul lui; nu rezultă automat încetarea imediată.\r\n\r\n5. CLAUZE FAVORABILE IDENTIFICATE ÎN EXTENSII\r\nPDF «Deckungserweiterungen_RV 29000010498.pdf»:\r\n- p.12 / pagina tipărită 15: «Paketkündigungsklausel» — dacă ASIGURĂTORUL reziliază o ramură, asiguratul poate cere încetarea întregului contract la aceeași dată. Nu presupunem îndeplinirea condiției prin simpla reducere amiabilă cerută de noi sau prin lipsa temporară a acoperirii.\r\n- p.13 / pagina tipărită 16 pct.6: renunțare la recuperarea reducerii pentru durată lungă în caz de vânzare dacă durata nu poate fi respectată. Clauza privește consecința financiară și nu creează singură un termen nou de reziliere; trebuie invocată în negocierea ieșirii și a eventualei regularizări.\r\n- aceeași pagină pct.7: în contradicții între dispozițiile poliței se aplică varianta mai favorabilă asiguratului. Este necesară o contradicție reală; aceasta nu înlătură automat data 2036.\r\nNu s-a identificat în cele 13 pagini primite un drept general anual al A&C de ieșire ori o încetare automată prin schimbarea administratorului. Lipsesc însă primele trei pagini ale documentului-sursă.\r\n\r\n6. PAȘII PROPUȘI\r\n1) Răspuns punctual numai către DONAU, plecând de la confirmările deja obținute; nu repetăm că nu au răspuns sau că nu au trimis nimic.\r\n2) Cerem extrasul de cont al poliței: încasare, alocarea fiecăreia dintre cele trei prime, sold și accesorii; data reluării/continuității acoperirii pentru fiecare ramură și delimitarea intervalului anterior invocat ca neacoperit.\r\n3) Cerem paginile 1–3 ale acordului-cadru, restul condițiilor aplicabile și actele concrete care închid lanțul de mandat. Păstrăm obiecțiile, fără a declara deja nulitate.\r\n4) Cerem o propunere scrisă de încetare amiabilă la 2027.01.01, cu confirmarea costului total al ieșirii și aplicarea clauzei de renunțare la recuperarea avantajului de durată, dacă este incidentă. Aceasta este o solicitare de negociere, nu un drept cert deja dobândit.\r\n5) În paralel, punem în aplicare oferta de recalculare din emailul Pfeiffer 2026.07.14 («Memoformat.pdf», p.1): Baubewilligung, Baubeschreibung și confirmare de instalator privind instalațiile de apă închise/securizate. Cerem prima nouă și data efectului eliminării Leitungswasser/Mieten-BU, inclusiv examinarea cererii inițiale de reducere din 2026.07.01. Reducerea nu este încă aprobată și nu justifică singură oprirea plăților.\r\n6) Dacă DONAU refuză completările/negocierea: reclamație motivată la Ombudsstelle DONAU, apoi evaluare de avocat a documentelor și a eventualelor pretenții distincte față de vânzător/reprezentanți. Nu presupunem răspunderea acestora din simpla existență a poliței.\r\n\r\nRECOMANDARE\r\nCea mai practică cale este negocierea ieșirii, combinată cu reducerea primei. Contestarea duratei trebuie bazată pe o problemă concretă din acte; argumentul «nu am semnat noi» ori «legea permite numai un an» nu este suficient. Acoperirea actuală este confirmată de DONAU, dar situația istorică și financiară trebuie închisă în scris.\r\n\r\n7. SURSE\r\nEmailuri: cererea TRIMISĂ 2026.10.14 și răspunsul PRIMIT 2026.10.29, ID-uri de mai sus; corpul original și toate cele 10 anexe au fost salvate. EML este reconstrucție locală din datele EVA, cu anexe reale, nu export brut al mesajului RFC822.\r\nAnexe: directorul Anexe din acest dosar; manifestul include numele original, ID, dimensiune și SHA-256. Scanurile decisive au fost verificate vizual, nu numai prin OCR.\r\nLege, RIS: https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979\r\nABGB §1029: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1029/NOR40070125\r\nOGH 7 Ob 127/18d: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20180829_OGH0002_0070OB00127_18D0000_000/JJT_20180829_OGH0002_0070OB00127_18D0000_000.pdf\r\nOGH 7 Ob 6/80: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19800320_OGH0002_0070OB00006_8000000_000/JJT_19800320_OGH0002_0070OB00006_8000000_000.pdf\r\nOGH 7 Ob 20/89: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True\r\nDONAU Ombudsstelle: https://www.donauversicherung.at/service/ombudsstelle\r\n\r\nLIMITĂ ȘI ACȚIUNI EFECTUATE\r\nAnaliză documentară și juridică; nu este hotărâre judecătorească privind validitatea concretă. Semnăturile au fost observate vizual, fără expertiză de autenticitate.\r\nOffice sincronizat la 2026.10.29 15:30:14 UTC+02. Verificarea este punctuală DONAU; nu extinde verificarea altor parteneri.\r\nNu s-a trimis email, nu s-a creat/modificat ciorna existentă și nu s-a acceptat durata sau oferta de modificare a asigurării.\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 163
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-813ffa67-d8ff-46df-933a-b59acd00ce5a",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Memoformat.txt' -TotalCount 80; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Deckungserweiterungen_RV 29000010498.txt' | Select-String -Pattern 'Paketkündigung|Veräußerung|Laufzeit|günstig|Kündig' -Context 3,10; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/2026.10.29 Email primit Donau.json' -TotalCount 22\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "55364",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Memoformat.txt' -TotalCount 80; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/Texte/2026.10.29 Deckungserweiterungen_RV 29000010498.txt' | Select-String -Pattern 'Paketkündigung|Veräußerung|Laufzeit|günstig|Kündig' -Context 3,10; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/2026.10.29 Email primit Donau.json' -TotalCount 22"
+    }
+  ],
+  "aggregatedOutput": "--- PAGE 1 ---\r\nLoschy Cornelia\r\n\r\nVon:                                           Pfeiffer Mario <M.Pfeiffer@donauversicherung.at>\r\nGesendet:                                Dienstag, 14. Juli 2026 09:54\r\nAn:                                  cosmin@ig.ro\r\nCc:                              Donau LD Wien GEKO\r\nBetreff:                         WG: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges\r\n                                      ID:12828728\r\n\r\nKennzeichnung:                       Zur Nachverfolgung\r\nKennzeichnungsstatus:                 Gekennzeichnet\r\n\r\n\r\n\r\nSehr geehrter Herr Covaciu,\r\n\r\nbezugnehmend auf Ihre untenstehende Nachricht kann ich Ihnen mitteilen, dass wir die Sparten Leitungswasser und\r\nMieten-BU aufgrund Risikowegfall ausschließen könnten.\r\nBitte dazu um Übermittlung folgender Unterlagen:\r\n\r\n- Baubewilligung,\r\n- Baubeschreibung\r\n- Bestätigung eines Installateurs über die abgesperrte bzw. gesicherte wasserführende Installation\r\n\r\nFür weitere Fragen stehe ich gerne zur Verfügung.\r\n\r\nFreundliche Grüße\r\n\r\nMario Pfeiffer\r\nGewerbekoordinator | LD Wien\r\n\r\nDONAU Versicherung AG\r\nVienna Insurance Group\r\nLandesdirektion Wien\r\n1010 Wien, Schottenring 15\r\n\r\nTelefon +43 50 330 – 72707\r\nMobil +43 50 330 90 - 72707\r\nE-Mail m.pfeiffer@donauversicherung.at\r\n\r\nIch will zur DONAU.\r\nFacebook | Instagram | LinkedIn | Xing | kununu | Youtube\r\n\r\n  Hier geht´s zum Maklerportal\r\n\r\n\r\nFirmensitz: 1010 Wien, Schottenring 15\r\nHandelsgericht Wien, FN 197733i\r\nwww.donauversicherung.at/\r\nDatenschutzinformation\r\n\r\n\r\n\r\n\r\n\r\nVon: Loschy Cornelia <C.Loschy@donauversicherung.at>\r\nGesendet: Mittwoch, 1. Juli 2026 12:42\r\nAn: Donau LD Wien GEKO <geko.wien@donauversicherung.at>\r\nBetreff: WG: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728\r\n\r\n                                                             1\r\n--- PAGE 2 ---\r\nVon: Cosmin Covaciu <cosmin@ig.ro>\r\nGesendet: Mittwoch, 1. Juli 2026 09:43\r\nAn: Loschy Cornelia <C.Loschy@donauversicherung.at>\r\nBetreff: Re: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728\r\n\r\n\r\n\r\n\r\n\r\nZjQcmQRYFpfptBan Betre ff: Polizze Nr. 20440011 nerSta rt 94 – Ersuchen u m prä mienred uzierte Basisdeckung ab 01.  07. 20 26 / Zahlung nach Neuberechn ung Sehr gee hrt e Frau Loschy, vielen Dank fü r Ih re bisherigen R ückmeldungen sowie f ür die Übe rmit tlung de r Ände rungspolizzen\r\n\r\n  Diese Nachricht stammt von einem externen Absender\r\n\r\n\r\n\r\n\r\n\r\n{\r\n  \"id\": \"8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7\",\r\n  \"account_email\": \"office@ac-wohnart.at\",\r\n  \"subject\": \"WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052\",\r\n  \"from_name\": \"Höbinger Andreas\",\r\n  \"from_address\": \"A.Hoebinger@donauversicherung.at\",\r\n  \"to\": [\r\n    \"office@ac-wohnart.at\"\r\n  ],\r\n  \"cc\": [\r\n    \"M.Pfeiffer@donauversicherung.at\",\r\n    \"geko.wien@donauversicherung.at\",\r\n    \"C.Loschy@donauversicherung.at\",\r\n    \"A.Rachlinger@donauversicherung.at\"\r\n  ],\r\n  \"received_at\": \"2026-10-29T12:25:50Z\",\r\n  \"text\": \"Sehr geehrter Herr Covaciu,\\r\\n\\r\\nin urlaubsbedingter Vertretung von Frau Loschy kann ich Ihnen wie folgt mitteilen:\\r\\n\\r\\nZu der oben angeführten Polizze sowie zu weiteren von der Hausverwaltung Hofhans betreuten Objekten fanden im Herbst 2025 aufgrund des Schadenverlaufs Gespräche mit der Seipt & Partner Versicherungsmakler GmbH über eine Sanierung der bestehenden Verträge statt.\\r\\n\\r\\nDie wesentlichen Konditionen wurden bereits im November 2025 abgestimmt. Aufgrund der Anzahl der betroffenen Objekte wurde vereinbart, die Änderungen gesammelt über einen Sammelantrag abzuwickeln. Dieser wurde dem Maklerbüro von uns am 05.01.2026 übermittelt und am 08.01.2026 unterfertigt an uns retourniert.\\r\\n\\r\\nDen Sammelantrag übermitteln wir Ihnen im Anhang zu Ihrer Information. Da dieser auch Daten zu anderen Versicherungsverträgen und Objekten enthält, mussten die entsprechenden Passagen aus Datenschutzgründen geschwärzt werden. Sämtliche für das Objekt Schlergasse 35 relevanten Vereinbarungen sind jedoch ersichtlich.\\r\\n\\r\\nZu Ihren einzelnen Punkten nehmen wir wie folgt Stellung:\\r\\nZu 1.: Die gewünschten Vorpolizzen finden Sie im Anhang.\\r\\n\\r\\nZu 2.: Ein gesondertes Angebot liegt nicht vor. Wie bereits ausgeführt, erfolgte die Vertragsanpassung im Rahmen der Verhandlungen mit der Seipt & Partner Versicherungsmakler GmbH über mehrere von der Hausverwaltung Hofhans betreute Objekte.\\r\\nDie bereits im November 2025 erfolgte Abstimmung der Konditionen ist auch aus der nachstehend angeführten Korrespondenz ersichtlich. Die endgültige vertragliche Umsetzung erfolgte anschließend über den oben genannten Sammelantrag.\\r\\n[cid:image001.png@01DD67A3.265667F0]\\r\\n\\r\\n\\r\\nZu 3. Die maßgebliche Rahmenvereinbarung finden Sie ebenfalls im Anhang. Im Zuge der Sanierung wurde die Vertragslaufzeit geändert und der Vertragsablauf vom ursprünglich 01.01.2033 auf den 01.01.2036 verlegt.\\r\\n\\r\\nZu 4. Grundlage für den Vertragsablauf zum 01.01.2036 ist die im Rahmen der Vertragssanierung getroffene und durch den unterfertigten Sammelantrag dokumentierte Vereinbarung. Einer darüber hinausgehenden gesetzlichen Grundlage für die einvernehmliche Festlegung der Vertragslaufzeit bedarf es nicht.\\r\\nEbenso liegen uns keine Anhaltspunkte dafür vor, dass die Seipt & Partner Versicherungsmakler GmbH oder die Hausverwaltung Hofhans bei Abschluss dieser Vereinbarung außerhalb ihrer jeweiligen Bevollmächtigung gehandelt hätte. Für uns bestand daher weder Anlass noch Grundlage, an der Wirksamkeit der abgegebenen Erklärungen zu zweifeln.\\r\\nDie vereinbarte automatische Vertragsverlängerung ist bereits im Antrag vom 12.11.2022 auf Seite 8 enthalten. Da diese Vereinbarung im Zuge der Sanierung 2026 weder aufgehoben noch abgeändert wurde, ist sie weiterhin Bestandteil des Vertrages.\\r\\n\\r\\nZu 5.Die weiteren zu dieser Polizze vorliegenden Anträge finden Sie ebenfalls im Anhang. Darüber hinaus liegen keine weiteren Kündigungen oder Vertragsänderungen vor.\\r\\nGesonderte Bestätigungen oder Zustellnachweise zu den angeführten Vertragsänderungen liegen nicht vor. Den erfolgten Prämienzahlungseingang sowie den aufrechten Versicherungsschutz können wir Ihnen jedoch bestätigen.\\r\\n\\r\\nZusammenfassend halten wir daher fest, dass mangels eines vertraglich vereinbarten Sonderkündigungsrechts der nächste ordentliche Kündigungstermin der 01.01.2036 ist.\\r\\n\\r\\nDavon unberührt bleiben selbstverständlich gesetzliche Kündigungsrechte, sofern deren jeweilige Voraussetzungen im Einzelfall erfüllt sind, sowie ein allfälliges Kündigungsrecht nach Eintritt eines Versicherungsfalles entsprechend den vertraglichen Bestimmungen.\\r\\n\\r\\nAn unserer bisherigen Beurteilung der von Ihnen erhobenen Einwendungen gegen die vertragliche Bindung bis zum 01.01.2036 halten wir daher fest. Auf Grundlage der uns vorliegenden Unterlagen besteht für eine vorzeitige ordentliche Beendigung des Vertrages derzeit keine Grundlage.\\r\\nHinsichtlich der ebenfalls beanstandeten Prämienanpassung darf ich nochmals auf das beiliegende Schreiben meines Kollegen, Herrn Mario Pfeiffer, verweisen, in dem dieser Punkt bereits gesondert erläutert wurde.\\r\\n\\r\\nWir gehen davon aus, die noch offenen Fragen und die vertragliche Grundlage damit umfassend dargestellt zu haben.\\r\\n\\r\\nFreundliche Grüße\\r\\n\\r\\nMag. Andreas Höbinger\\r\\nTeamlead Vertragsverwaltung Gewerbe  |  Fachabteilung SHU\\r\\n\\r\\nDONAU Versicherung AG\\r\\nVienna Insurance Group\\r\\nGeneraldirektion\\r\\n1010 Wien, Schottenring 15\\r\\n\\r\\nTelefon   +43 50 330 – 72658\\r\\nMobil      +43 664 601 39 - 72658\\r\\nE-Mail    a.hoebinger@donauversicherung.at<mailto:a.hoebinger@donauversicherung.at>\\r\\n\\r\\nIch will zur DONAU.\\r\\nFacebook<https://www.facebook.com/DONAUVersicherungAG> | Instagram<https://www.instagram.com/donauversicherung/> | TikTok<https://www.tiktok.com/@donauversicherung> | LinkedIn<https://at.linkedin.com/company/donau-versicherung-ag---vienna-insurance-group> | Xing<https://www.xing.com/companies/donauversicherungagviennainsurancegroup> | kununu<https://www.kununu.com/at/donau-versicherung-vienna-insurance-group3> | Youtube<https://www.youtube.com/channel/UCBi9pKhXpXM1jfNQrTOmlyw>\\r\\n\\r\\nHier geht‘s zu Meine DONAU<https://www.meinedonau.at/>\\r\\n\\r\\nFirmensitz: 1010 Wien, Schottenring 15\\r\\nHandelsgericht Wien, FN 32002m\\r\\nwww.donauversicherung.at/<http://www.donauversicherung.at/>\\r\\nDatenschutzinformation<https://www.donauversicherung.at/datenschutz/>\\r\\n\\r\\n\\r\\nVon: office@ac-wohnart.at<mailto:office@ac-wohnart.at> <office@ac-wohnart.at<mailto:office@ac-wohnart.at>>\\r\\nGesendet: Mittwoch, 14. Oktober 2026 18:21\\r\\nAn: Donau Serviceline <donau@donauversicherung.at<mailto:donau@donauversicherung.at>>; Loschy Cornelia <c.loschy@donauversicherung.at<mailto:c.loschy@donauversicherung.at>>; Pfeiffer Mario <m.pfeiffer@donauversicherung.at<mailto:m.pfeiffer@donauversicherung.at>>; Donau LD Wien GEKO <geko.wien@donauversicherung.at<mailto:geko.wien@donauversicherung.at>>\\r\\nBetreff: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052\\r\\n\\r\\nSehr geehrte Frau Loschy, sehr geehrte Damen und Herren, wir haben die drei vorgeschriebenen Quartalsprämien von jeweils EUR 1. 591,81, insgesamt EUR 4. 775,43, für folgende Zeiträume überwiesen: 2026. 04. 01 bis 2026. 07. 01: EUR 1. 591,81 2026. 07. 01\\r\\n\\r\\n\\r\\nSehr geehrte Frau Loschy,\\r\\nsehr geehrte Damen und Herren,\\r\\n\\r\\nwir haben die drei vorgeschriebenen Quartalsprämien von jeweils EUR 1.591,81, insgesamt EUR 4.775,43, für folgende Zeiträume überwiesen:\\r\\n\\r\\n  *   2026.04.01 bis 2026.07.01: EUR 1.591,81\\r\\n  *   2026.07.01 bis 2026.10.01: EUR 1.591,81\\r\\n  *   2026.10.01 bis 2027.01.01: EUR 1.591,81\\r\\n\\r\\nDie Zahlung ist unsererseits ausschließlich für diese Versicherungsprämien bestimmt. Bitte bestätigen Sie den Zahlungseingang, die tatsächliche Verbuchung auf diese drei Prämien und den danach verbleibenden Saldo, getrennt nach Prämien, Zinsen und Kosten. Bitte teilen Sie uns außerdem ausdrücklich mit, ab welchem Zeitpunkt und für welche Sparten Versicherungsschutz besteht.\\r\\n\\r\\nZugleich ersuchen wir um vollständige Klärung der Vertragsgrundlagen und der von Ihnen genannten Bindung bis 2036.01.01.\\r\\n\\r\\nDie A&C Wohnart Immobilien GmbH hat die Liegenschaft Schallergasse 35, 1120 Wien, mit Kaufvertrag vom 2026.02.20 erworben. Der Kaufvertrag enthält allgemeine Hinweise auf bestehende Versicherungen und die zeitlich begrenzte Kündigungsmöglichkeit. Der konkrete Inhalt der DONAU-Vorpolizze X712.261-2 und eine vertragliche Bindung bis zum 2036.01.01 waren uns beim Abschluss des Kaufvertrags nach unserem damaligen Kenntnisstand jedoch nicht bekannt. Den ursprünglichen Versicherungsvertrag haben wir nicht selbst abgeschlossen.\\r\\n\\r\\nDie spätere Übermittlung von Unterlagen ist davon zu unterscheiden: Am 2026.03.19 wurde uns über Herrn Mag. Capra die am 2026.02.03 ausgestellte Polizze 2044001194 weitergeleitet. Dabei wurde uns mitgeteilt, dass die Versicherung nach damaligem Verständnis bereits von der früheren Eigentümerin hätte gekündigt werden sollen. Eine tatsächliche Beendigung ist damit jedoch nicht nachgewiesen. Die Änderungspolizzen haben Sie uns anschließend am 2026.06.10 übermittelt.\\r\\n\\r\\nIhren Hinweis auf den gesetzlichen Vertragsübergang gemäß § 69 VersVG vom 2026.07.10 haben wir zur Kenntnis genommen. Weiterhin fehlt uns jedoch eine vollständige, anhand der Vertragsunterlagen nachvollziehbare Erklärung, wann, durch wen und auf welcher Grundlage die Laufzeit bis 2036.01.01 vereinbart wurde.\\r\\n\\r\\nDie Polizze vom 2026.02.03 nennt bereits „Ersatzvertrag“, eine Änderung ab 2026.01.01 und den Ablauf 2036.01.01. Die spätere Umschreibung auf A&C behält diesen Ablauf bei. Bitte übermitteln Sie uns daher:\\r\\n\\r\\n  1.  Die vollständige Vorpolizze X712.261-2 einschließlich aller Nachträge, des ursprünglichen Versicherungsbeginns und des zuletzt vor 2026 vereinbarten Ablaufs.\\r\\n  2.  Den Antrag, das Angebot, die Annahmeerklärung und sämtliche Vereinbarungen, auf denen der Ersatzvertrag beziehungsweise die Laufzeit bis 2036.01.01 beruht. Bitte benennen Sie die handelnden Personen, deren Vertretungsbefugnis und die maßgeblichen Vollmachten, insbesondere bei Handlungen der früheren Eigentümerin, von Hofhans oder Seipt & Partner.\\r\\n  3.  Die vollständige Rahmenvereinbarung 2900010498 sowie alle maßgeblichen allgemeinen, besonderen und individuell vereinbarten Bedingungen. Bitte erläutern Sie, ob Anfang 2026 eine neue Laufzeit vereinbart, eine bestehende Laufzeit geändert oder lediglich eine administrative Umstellung vorgenommen wurde.\\r\\n  4.  Die konkrete vertragliche und gesetzliche Begründung für den Ablauf 2036.01.01 und den frühestmöglichen Beendigungszeitpunkt. § 69 VersVG betrifft den Übergang des bestehenden Vertrags; die Klausel „Vertragsdauer“ und ABS Art. 14 sehen bei Ablauf eine stillschweigende Verlängerung um jeweils ein Jahr vor, entsprechend § 8 Abs. 1 VersVG. Bitte legen Sie dar, auf welcher gesonderten Vereinbarung die hier ausgewiesene Laufzeit beruht. Falls Sie sich auf eine Genehmigung abweichender Polizzeninhalte nach § 5 VersVG stützen, bitten wir um die maßgeblichen Hinweise, die besonders kenntlich gemachten Abweichungen und die Empfangsnachweise.\\r\\n  5.  Sämtliche Erklärungen über eine Kündigung, Verlängerung oder Vertragsänderung durch die frühere Eigentümerseite beziehungsweise deren Vertreter sowie die dazugehörigen Bestätigungen und Zustellnachweise.\\r\\n\\r\\nUnsere Kündigungserklärung vom 2026.10.01 zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin und unser Ersuchen um eine frühere einvernehmliche Auflösung bleiben aufrecht. Die Prämienzahlung bedeutet keine Rücknahme dieser Erklärung und keine Zustimmung zu einer zusätzlichen Vertragsverlängerung. Unsere Einwendungen gegen die Bindung bis 2036.01.01, gegen Nebenforderungen und unsere Anträge auf Prämienanpassung bleiben vorbehalten.\\r\\n\\r\\nBitte bestätigen Sie den Zahlungseingang und den Deckungsstatus kurzfristig und übermitteln Sie die vollständigen Unterlagen samt Begründung innerhalb von zehn Werktagen als PDF an office@ac-wohnart.at<mailto:office@ac-wohnart.at>, unter Einbeziehung der Empfänger in CC. Falls einzelne Unterlagen nicht vorliegen, bitten wir um eine ausdrückliche Mitteilung.\\r\\n\\r\\nVielen Dank für Ihre Unterstützung bei der sachlichen und vollständigen Klärung.\\r\\n\\r\\nMit freundlichen Grüßen\\r\\nCosmin Adrian Covaciu\\r\\nfür A&C Wohnart Immobilien GmbH\\r\\n\",\r\n  \"truncated\": false,\r\n  \"labels\": [\r\n    \"1: To respond\",\r\n    \"99: Important\"\r\n  ],\r\n",
+  "exitCode": 0,
+  "durationMs": 130
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-c616f2d3-5921-4619-bfd7-9060c02acd15",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p12.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-7c2f133b-5942-4a40-8f05-580f9763940a",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Raspuns Donau\\Verificare vizuala\\2026.10.29 Deckungserweiterungen_RV 29000010498 p13.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_047d337a03a94c929628813688f8fb17",
+  "kind": "interacted",
+  "agentThreadId": "01a0f21f-8b26-7c51-85f9-22089ebfea54",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Trei completări necesare:
+
+1. **Paketkündigungsklausel:** adăugați că prevede și recuperarea avantajului pentru durata contractului. Eventuala renunțare de la pagina16 trebuie analizată separat.
+2. **Rezilierea din2026.10.01:** mențineți-o expres și solicitați confirmarea înregistrării. Afirmația DONAU că nu există „alte rezilieri” nu trebuie prezentată ca absență a notificării A&C.
+3. **2036 este termenul ordinar invocat:** DONAU rezervă explicit drepturile legale speciale și încetarea după sinistru, dacă sunt îndeplinite condițiile.
+
+În rest, raportul este corect și păstrează limitele probelor.
+
+## Asistent
+
+Verific dacă fiecare componentă poate fi reziliată separat și ce termene rămân aplicabile, inclusiv când toate apar pe aceeași poliță.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-11baa227-d8a9-406b-9bd7-ce7d10c66ce6",
+  "query": "site.ris.bka.gv.at \"7Ob13/85\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at \"7Ob13/85\"",
+      "site.ris.bka.gv.at Bündelversicherung kombinierte Versicherung Kündigung Sparten Prämien"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn86search12",
+      "title": "28.03.1985",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJR_19850328_OGH0002_0070OB00013_8500000_002/JJR_19850328_OGH0002_0070OB00013_8500000_002.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn86search13",
+      "title": "28.03.1985",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_19850328_OGH0002_0070OB00013_8500000_001/JJR_19850328_OGH0002_0070OB00013_8500000_001.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn86search0",
+      "title": "RIS - Die Zweifelhaftigkeit oder Mehrdeutigkeit einer Kündigungserklärung geht zu Lasten des Kündigende... 7Ob13/85 - Justiz",
+      "url": "https://ris.bka.gv.at/Dokument.wxe?Abfrage=Gesamtabfrage&Dokumentnummer=JJR_19850328_OGH0002_0070OB00013_8500000_002&ImRisSeit=&ImRisSeitBisDatum=&ImRisSeitVonDatum=&Position=350701&ResultFunctionToken=4895042f-7970-464a-9bf4-4b3db571f41a&ResultPageSize=100&SearchInAsylGH=&SearchInAvn=&SearchInAvsv=&SearchInBegut=&SearchInBgblAlt=&SearchInBgblAuth=&SearchInBgblPdf=&SearchInBks=&SearchInBundesnormen=&SearchInBvb=&SearchInBvwg=&SearchInDok=&SearchInDsk=&SearchInEat=&SearchInErlaesse=&SearchInGbk=&SearchInGemeinderecht=&SearchInGemeinderechtAuth=&SearchInJustiz=&SearchInKmGer=&SearchInLandesnormen=&SearchInLgbl=&SearchInLgblAuth=&SearchInLgblNO=&SearchInLvwg=&SearchInMrp=&SearchInNormenliste=&SearchInPruefGewO=&SearchInPvak=&SearchInRegV=&SearchInSpg=&SearchInUbas=&SearchInUmse=&SearchInUpts=&SearchInUvs=&SearchInVbl=&SearchInVerg=&SearchInVfgh=&SearchInVwgh=&ShowPrintPreview=True&Sort=2%7CAsc&Suchworte="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wko.at",
+      "ref_id": "turn86search14",
+      "title": "Stubenring 16 / Top 7",
+      "url": "https://www.wko.at/vlbg/information-consulting/versicherungsmakler-schlichtungsstellen/rss-0050-19-rss-e-52-19.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.fma.gv.at",
+      "ref_id": "turn86search1",
+      "title": "Kombinierte Versicherung (verbundene Versicherung) - FMA Österreich",
+      "url": "https://www.fma.gv.at/glossar/kombinierte-versicherung-verbundene-versicherung/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.fma.gv.at",
+      "ref_id": "turn86search2",
+      "title": "Bündelversicherung - FMA Österreich",
+      "url": "https://www.fma.gv.at/glossar/buendelversicherung/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn86search3",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 30.09.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=2026-09-30&Gesetzesnummer=10001979&ShowPrintPreview=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn86search4",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=64"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn86search5",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_20160706_OGH0002_0070OB00208_15M0000_000/JJT_20160706_OGH0002_0070OB00208_15M0000_000.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "linda.lindeverlag.at",
+      "ref_id": "turn86search6",
+      "title": "Bündelung oder Koppelung von Versicherungsverträgen - Linde Datenbank",
+      "url": "https://linda.lindeverlag.at/Dokument/14419/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn86search7",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 03.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=2026-10-03&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn86search8",
+      "title": "RIS Dokument",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20200219_OGH0002_0070OB00092_19H0000_000/JJT_20200219_OGH0002_0070OB00092_19H0000_000.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wko.at",
+      "ref_id": "turn86search9",
+      "title": "Versicherungs-ABC: K - WKO",
+      "url": "https://www.wko.at/information-consulting/versicherungsmakler-berater-versicherungsangelegenheiten/versicherungs-abc-k"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn86search15",
+      "title": "17.09.1964",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_19640917_OGH0002_0020OB00219_6400000_001/JJR_19640917_OGH0002_0020OB00219_6400000_001.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn86search16",
+      "title": "21.11.1985",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJR_19851121_OGH0002_0070OB00639_8500000_001/JJR_19851121_OGH0002_0070OB00639_8500000_001.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn86search10",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 06.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=6&ShowPrintPreview=True"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-0c51e2da-d382-40c4-ad76-6b1aa17ea1f9",
+  "query": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19850328_OGH0002_0070OB00013_8500000_000/JJT_19850328_OGH0002_0070OB00013_8500000_000.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19850328_OGH0002_0070OB00013_8500000_000/JJT_19850328_OGH0002_0070OB00013_8500000_000.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn88view0",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn88view1",
+      "snippet": "Total lines: 259",
+      "title": "RIS Dokument",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20200219_OGH0002_0070OB00092_19H0000_000/JJT_20200219_OGH0002_0070OB00092_19H0000_000.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn88view2",
+      "snippet": "Total lines: 145",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_20160706_OGH0002_0070OB00208_15M0000_000/JJT_20160706_OGH0002_0070OB00208_15M0000_000.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ec0f4cbe-be28-4396-aa26-964fadef8a0a",
+  "query": "\"7 Ob 13/85\" Bündelversicherung Prämie ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"7 Ob 13/85\" Bündelversicherung Prämie",
+      "site.ris.bka.gv.at \"7Ob13/85\" \"Text\"",
+      "site.ris.bka.gv.at \"Bündelversicherung\" \"2024\"",
+      "site.ris.bka.gv.at \"Bündelversicherung\" \"2025\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn89search0",
+      "title": "RIS - Rechtssätze und Entscheidungstext 7Ob178/24p - Justiz",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20241218_OGH0002_0070OB00178_24P0000_000&IncludeSelf=True&ShowPrintPreview=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wifo.ac.at",
+      "ref_id": "turn89search12",
+      "title": "WIFO-Monatsberichte 9/2024",
+      "url": "https://www.wifo.ac.at/wp-content/uploads/upload-2225/mb_2024_09_gesamt.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn89search13",
+      "title": "18.12.2024",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJR_19931215_OGH0002_0070OB00029_9300000_001/JJR_19931215_OGH0002_0070OB00029_9300000_001.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.egg.at",
+      "ref_id": "turn89search14",
+      "title": "7. **Gebäude-Bündelversicherung | Neuabschluss ab 01.01.2025 (Beschluss)**",
+      "url": "https://www.egg.at/system/web/GetDocument.ashx?cts=1740868720&fileId=1236739"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn89search1",
+      "title": "RIS Dokument",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20251028_OLG0009_00500R00124_25D0000_000/JJT_20251028_OLG0009_00500R00124_25D0000_000.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn89search2",
+      "title": "RIS - Rechtssätze und Entscheidungstext 7Ob180/24g - Justiz",
+      "url": "https://ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20241218_OGH0002_0070OB00180_24G0000_000&IncludeSelf=True&ShowPrintPreview=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn89search3",
+      "title": "RIS Dokument",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20250528_OLG0819_00400R00052_25S0000_000/JJT_20250528_OLG0819_00400R00052_25S0000_000.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "360.lexisnexis.at",
+      "ref_id": "turn89search4",
+      "title": "OLG Wien 33R35/25x",
+      "url": "https://360.lexisnexis.at/d/entscheidungen-ris/olg_wien_33r3525x/u_zivil_OLG_Wien_2025_JJT_20250616_OLG0_61ae3341a6"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn89search15",
+      "title": "16.04.1987",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_19870416_OGH0002_0070OB00013_8700000_000/JJT_19870416_OGH0002_0070OB00013_8700000_000.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.pfarre-schlins.at",
+      "ref_id": "turn89search16",
+      "title": "BLATT\nBLATT\nder Pfarre Schlins-Röns\nPFARR\nAusgabe",
+      "url": "https://www.pfarre-schlins.at/dl/susmJmMJOLNoJqx4kLJK/Pfarrblatt_262_web_pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn89search5",
+      "title": "RIS - 2R22/26g - Entscheidungstext - Justiz",
+      "url": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20260311_OLG0459_00200R00022_26G0000_000"
+    },
+    {
+      "type": "text_result",
+      "domain": "ogd.ris.bka.gv.at",
+      "ref_id": "turn89search6",
+      "title": "RIS Dokument",
+      "url": "https://ogd.ris.bka.gv.at/Dokumente/Justiz/JJT_20251030_OLG0819_00200R00144_25F0000_000/JJT_20251030_OLG0819_00200R00144_25F0000_000.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn89search7",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_20260129_OLG0459_00400R00175_25W0000_000/JJT_20260129_OLG0459_00400R00175_25W0000_000.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wko.at",
+      "ref_id": "turn89search17",
+      "title": "Stubenring 16 / Top 7",
+      "url": "https://www.wko.at/bgld/information-consulting/versicherungsmakler-schlichtungsstellen/rss-0033-24-rss-e-65-24.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn89view0",
+      "snippet": "Total lines: 259",
+      "title": "RIS Dokument",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20200219_OGH0002_0070OB00092_19H0000_000/JJT_20200219_OGH0002_0070OB00092_19H0000_000.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-68ea811d-4146-4671-aa73-5308e5c344cb",
+  "query": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_19850328_OGH0002_0070OB00013_8500000_000/JJT_19850328_OGH0002_0070OB00013_8500000_000.pdf",
+  "action": {
+    "type": "openPage",
+    "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_19850328_OGH0002_0070OB00013_8500000_000/JJT_19850328_OGH0002_0070OB00013_8500000_000.pdf"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn93view0",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn93view1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn93view2",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-70d94254-153b-4c93-b4e9-c1dff8a34c2b",
+  "query": "\"7Ob13/85\" \"Bündel\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"7Ob13/85\" \"Bündel\"",
+      "\"7 Ob 13/85\" \"Feuer\"",
+      "\"7 Ob 13/85\" \"RIS\"",
+      "site.ris.bka.gv.at \"7Ob264/07k\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn96search12",
+      "title": "12.03.2008",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_20080312_OGH0002_0070OB00264_07K0000_001/JJR_20080312_OGH0002_0070OB00264_07K0000_001.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn96search0",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJR_20080312_OGH0002_0070OB00264_07K0000_001/JJR_20080312_OGH0002_0070OB00264_07K0000_001.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn96search13",
+      "title": "18.12.2024",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJR_19931215_OGH0002_0070OB00029_9300000_001/JJR_19931215_OGH0002_0070OB00029_9300000_001.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn96search1",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJR_19931215_OGH0002_0070OB00029_9300000_001/JJR_19931215_OGH0002_0070OB00029_9300000_001.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jusline.at",
+      "ref_id": "turn96search2",
+      "title": "Entscheidung TE OGH 2008/3/12 7Ob264/07k - JUSLINE Österreich",
+      "url": "https://www.jusline.at/entscheidung/276864"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn96search14",
+      "title": "29.06.1978",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJR_19780629_OGH0002_0070OB00036_7800000_001/JJR_19780629_OGH0002_0070OB00036_7800000_001.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jusline.at",
+      "ref_id": "turn96search3",
+      "title": "Rechtssatz RS OGH 2008/3/12 7Ob264/07k - JUSLINE Österreich",
+      "url": "https://www.jusline.at/entscheidung/370374"
+    },
+    {
+      "type": "text_result",
+      "domain": "360.lexisnexis.at",
+      "ref_id": "turn96search4",
+      "title": "OGH 7Ob264/07k",
+      "url": "https://360.lexisnexis.at/d/entscheidungen-ris/ogh_7ob26407k/u_zivil_OGH_2008_JJT_20080312_OGH0002_0_e13aa6e8a1"
+    },
+    {
+      "type": "text_result",
+      "domain": "ivva.at",
+      "ref_id": "turn96search15",
+      "title": "P.b.b, Verlagspostamt 2340 Mödling, 07Z037225M",
+      "url": "https://ivva.at/pdf/IVVA_Zeitung_09_04.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jusline.at",
+      "ref_id": "turn96search5",
+      "title": "Entscheidungen des OGH zu § 70 VersVG - Seite 1 - JUSLINE Österreich",
+      "url": "https://www.jusline.at/entscheidungen/206/70/1"
+    },
+    {
+      "type": "text_result",
+      "domain": "defacto.legal",
+      "ref_id": "turn96search6",
+      "title": "Oberster Gerichtshof RS0014122 – defacto.legal",
+      "url": "https://defacto.legal/AT/jus/ogh/rs0014122?dokument=JJR_19640917_OGH0002_0020OB00219_6400000_001"
+    },
+    {
+      "type": "text_result",
+      "domain": "gesetzefinden.at",
+      "ref_id": "turn96search7",
+      "title": "7Ob264/07k – OGH Entscheidung | GesetzeFinden.at",
+      "url": "https://gesetzefinden.at/judikatur/ogh/jjt_20080312_ogh0002_0070ob00264_07k0000_000?__clerk_synced=true"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn96search8",
+      "title": "RIS - Rechtssätze für 8Ob13/85 (8Ob14/85) - Justiz",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19851024_OGH0002_0080OB00013_8500000_000&IncludeSelf=False"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jusline.at",
+      "ref_id": "turn96search9",
+      "title": "Rechtssatz RS OGH 2015/9/2 7Ob26/86, 7Ob13/87, 7Ob35/88, 7Ob12/93, 7Ob264/02b, 7Ob60/07k, 7Ob241/10g, 7Ob110/15 - JUSLINE Österreich",
+      "url": "https://www.jusline.at/entscheidung/417384"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jusline.at",
+      "ref_id": "turn96search10",
+      "title": "Rechtssatz RS OGH 2019/8/29 6Ob203/74 (6Ob213/74); 5Ob184/75; 5Ob305/56; 1Ob502/77; 1Ob759/77; 1Ob522/79; 4Ob56 - JUSLINE Österreich",
+      "url": "https://www.jusline.at/entscheidung/448183"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-54cd1bc6-fece-44ab-9dbb-441d591fea33",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport requests\nu='https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True'\nr=requests.get(u,timeout=30);print(r.status_code,len(r.content));print(r.text[-500:])\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "3333",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport requests\nu='https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True'\nr=requests.get(u,timeout=30);print(r.status_code,len(r.content));print(r.text[-500:])\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "200 226275\r\ntility.CreateBorderSpans ('#Header_MainNavigation_RisTabbedMenu_MainMenuTabStrip_GemeinderechtTab > *:first');\r\r\nStyleUtility.CreateBorderSpans ('#Header_MainNavigation_RisTabbedMenu_MainMenuTabStrip_JudikaturTab > *:first');\r\r\nStyleUtility.CreateBorderSpans ('#Header_MainNavigation_RisTabbedMenu_MainMenuTabStrip_SonstigeTab > *:first');\r\r\nStyleUtility.CreateBorderSpans ('#Header_MainNavigation_RisTabbedMenu_MainMenuTabStrip_GesamtabfrageTab > *:first');\r\r\n//]]>\r\r\n</script>\r\r\n</form>\r\r\n</body>\r\r\n</html>\r\n",
+  "exitCode": 0,
+  "durationMs": 952
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-9a1d63cc-5e46-41b1-96c8-ad05f6af1864",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport requests,bs4\nu='https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True'\ns=bs4.BeautifulSoup(requests.get(u,timeout=30).text,'html.parser');t=s.get_text(' ',strip=True)\ni=t.find('Entscheidungsgründe:');print(t[i:i+19000] if i>=0 else t[-3000:])\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "54601",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport requests,bs4\nu='https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True'\ns=bs4.BeautifulSoup(requests.get(u,timeout=30).text,'html.parser');t=s.get_text(' ',strip=True)\ni=t.find('Entscheidungsgründe:');print(t[i:i+19000] if i>=0 else t[-3000:])\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "Entscheidungsgründe: Die Beklagte hat mit Wirkung vom 1.11.1979 bei der Klägerin eine private Krankenversicherung nach dem Tarif MS der Allgemeinen Versicherungsbedingungen für die Spitalkostenzusatzversicherung abgeschlossen. Nach diesem Vertrag war eine monatliche Prämie von S 569,-- zu leisten. Es war vereinbart, daß die Versicherung nur zum Ende des Versicherungsjahres unter Einhaltung einer dreimonatigen Kündigungsfrist gekündigt werden könne, wobei eine Kündigung, die nicht mittels eingeschriebenen Briefes vorgenommen wird, nur rechtswirksam sein sollte, wenn sie rechtzeitig bei der Versicherungsanstalt eingegangen ist. Im Juli 1980 unterfertigte die Beklagte beim Versicherungsmakler Anton F, über den sie bereits den ursprünglichen Antrag an die Klägerin gestellt hatte, einen Antrag auf Umstellung auf den Tarif 'TW' sowie auf Einbeziehung ihres Sohnes Florian in die Versicherung. Unter Zugrundelegung dieses Tarifes hätte die monatliche Versicherungsprämie nur mehr S 158,-- betragen. Nach den Feststellungen des Erstgerichtes hat Anton F diesen Antrag am 1.8.1980 bei der Klägerin abgegeben. Mit Schreiben vom 20.1.1981 teilte die Klägerin der Beklagten mit, daß die beantragte Versicherungsreduktion als Teilkündigung des Vertrages nur zum Ende des Versicherungsjahres möglich sei. Die derzeitige Versicherung könne daher nur mehr zum 1.11.1981 auf einen Spitalgeldtarif herabgesetzt werden. Der Antrag werde deshalb als gegenstandslos erachtet. Die Versicherung werde folglich bis auf weiteres nach dem derzeitigen Tarif weitergeführt, der Sohn der Beklagten sei nicht in den Versicherungsschutz miteinbezogen. Die Reduktion könne schon deshalb nicht mit einem früheren Zeitpunkt erfolgen, weil die Klägerin im Vorjahr aus einem höheren Tarif noch Leistungen von nahezu S 16.000 erbracht hätte. Ein neuerlicher Reduktionsantrag könne mit Versicherungsbeginn 1.11.1981 unter Einhaltung der dreimonatigen Kündigungsfrist im Juli 1981 gestellt werden. Gleichzeitig könne auch die Mitversicherung des Sohnes Florian beantragt werden. Als die Beklagte bemerkte, daß die Klägerin weiterhin von ihrem Konto die ursprünglich vereinbarten Beträge für die monatlichen Prämien abbuchen hatte lassen, ließ sie ihr Konto sperren. Am 23.9.1981 richtete Anton F namens der Beklagten ein Schreiben an die Klägerin, demzufolge der Standpunkt vertreten werde, daß die Versicherung bereits im Juli 1980 für 31.10.1980 gekündigt worden sei. Es wurde der Wunsch der Beklagten geäußert, die bereits eingezogenen S 5.082,-- für den Neuantragstarif TW zu verwenden. Mit Schreiben an Anton F vom 12.10.1981 verwies die Klägerin neuerlich darauf, daß eine wirksame Kündigung bisher nicht erfolgt sei und eine Reduktion der Versicherung unter den gegebenen Umständen nur per 1.11.1981 in Frage käme. Dabei wäre eine neuerliche Antragstellung unter Einhaltung der Kündigungsfrist erforderlich gewesen, falls die Reduktion nach wie vor gewünscht werde. Da bisher ein neuer Reduktionsantrag mit Beginn 1.11.1981 nicht eingelangt sei, wäre an sich eine Herabsetzung der Versicherung mit diesem Zeitpunkt nicht möglich, doch würde die Klägerin entgegenkommen, wenn kurzfristig eine derartige Antragstellung erfolge. Ein gleichartiges Schreiben wurde am 19.11.1981 an die Beklagte persönlich gerichtet, wobei ein Antragsformular angeschlossen war und darauf hingewiesen wurde, daß eine Umstellung vorgenommen werden könne, falls innerhalb einer Frist von 14 Tagen der entsprechende Antrag gestellt werde. Sollte dies nicht der Fall sein, würde die Klägerin annehmen, daß eine Reduktion der Versicherung, bzw. die Mitversicherung des Sohnes der Beklagten nicht mehr gewünscht werde und die Angelegenheit nicht mehr weiter zu verfolgen sei. Dies würde selbstverständlich nicht von der Verpflichtung entheben, die offenen Beträge aus der bisherigen Versicherung nachzubezahlen. Die Beklagte hat keinen weiteren Antrag gestellt. Das Erstgericht hat der Klägerin an rückständigen Prämien S 24.064,- - s.A. zugesprochen, wobei es von einer nicht rechtswirksamen Kündigung ausgegangen ist. Das Berufungsgericht hat das Klagebegehren mit der Begründung abgewiesen, es sei zwar die ursprüngliche Versicherung nicht rechtzeitig gekündigt worden, doch sei auch eine verspätete Kündigung als rechtswirksam dann zu werten, wenn der Versicherer sie nicht unverzüglich zurückweise. Eine solche unverzügliche Zurückweisung der Kündigung sei im vorliegenden Fall nicht erfolgt. Das Berufungsgericht hat die Revision nicht zugelassen. Rechtliche Beurteilung Die von der Klägerin wegen unrichtiger rechtlicher Beurteilung erhobene Revision ist gerechtfertigt. Richtig ist, daß die Judikatur den Standpunkt vertreten hat, auch eine an sich unwirksame Kündigung, wie zB eine verspätete, sei als rechtswirksam zu behandeln, falls sie vom Versicherer nicht unverzüglich zurückgewiesen worden ist ( 7 Ob 2/83 , 7 Ob 63,64/82; SZ 28/130, SZ 17/46; Prölss-Martin, VVG 23 106 f). Falls nur diese Rechtsfrage zu entscheiden wäre, lägen allerdings die in § 502 Abs 4 Z 1 ZPO genannten Voraussetzungen für die Zulässigkeit einer Revision nicht vor. 106 f). Falls nur diese Rechtsfrage zu entscheiden wäre, lägen allerdings die in Paragraph 502, Absatz 4, Ziffer eins, ZPO genannten Voraussetzungen für die Zulässigkeit einer Revision nicht vor. Im vorliegenden Fall wurde jedoch nicht eine bloße Kündigung eingebracht, sondern die Umstellung auf einen anderen Tarif unter Einbeziehung des Sohnes der Beklagten in die Versicherung begehrt. Die Kündigungserklärung muß unzweideutig erkennen lassen, daß eine Lösung des Vertragsverhältnisses für die Zukunft gewünscht wird, sie muß klar und bestimmt sein. Die Zweifelhaftigkeit oder Mehrdeutigkeit einer Kündigungserklärung geht zu Lasten des Kündigenden (Bruck-Möller 8  I Anm.33 zu § 8, Prölss-Martin, VVG 23 105). Die Kündigung ist bedingungsfeindlich, d.h. sie kann nicht vom Eintritt oder Ausbleiben einer Bedingung abhängig gemacht werden. In diesem Falle ist sie wirkungslos (Bruck-Möller 8  I Anm.33 zu § 8, Bruck-Möller-Wriede 8  VI, K 107 f, Anm.D 31 c). Im vorliegenden Fall wurde jedoch nicht eine bloße Kündigung eingebracht, sondern die Umstellung auf einen anderen Tarif unter Einbeziehung des Sohnes der Beklagten in die Versicherung begehrt. Die Kündigungserklärung muß unzweideutig erkennen lassen, daß eine Lösung des Vertragsverhältnisses für die Zukunft gewünscht wird, sie muß klar und bestimmt sein. Die Zweifelhaftigkeit oder Mehrdeutigkeit einer Kündigungserklärung geht zu Lasten des Kündigenden (Bruck-Möller 8  römisch eins Anm.33 zu Paragraph 8,, Prölss-Martin, VVG 23 105). Die Kündigung ist bedingungsfeindlich, d.h. sie kann nicht vom Eintritt oder Ausbleiben einer Bedingung abhängig gemacht werden. In diesem Falle ist sie wirkungslos (Bruck-Möller 8  römisch eins Anm.33 zu Paragraph 8,, Bruck-Möller-Wriede 8  römisch sechs, K 107 f, Anm.D 31 c). Im vorliegenden Fall wurde das Schreiben der Beklagten, mit dem eine Änderung des bestehenden Versicherungsverhältnisses gewünscht wurde (Beilage D), gar nicht als Kündigung, sondern als Antrag auf Umwandlung der Versicherung bezeichnet. Es wird auch nicht eine Auflösung des bisherigen Vertragsverhältnisses, sondern die Umstellung dieses Vertragsverhältnisses auf ein solches mit anderem Inhalt, insbesondere unter Einbeziehung einer weiteren Person, begehrt. Das gesamte Verhalten der Beklagten läßt nur den Schluß zu, daß diese keinesfalls eine Beendigung des bisherigen Versicherungsverhältnisses unter allen Umständen, sondern lediglich einen Ersatz dieses Versicherungsverhältnisses durch ein anderes Versicherungsverhältnis wünschte. Ihrem Verhalten muß entnommen werden, daß sie den gänzlichen Wegfall einer Versicherung nicht im Auge hatte. Demnach vertritt auch sie selbst richtig die Auffassung, daß eine Totalkündigung hier nicht anzunehmen sei. Sie steht vielmehr auf dem Standpunkt, es handle sich um eine Teilkündigung, die nach § 7 Abs 4 des dem Vertrag zugrundeliegenden Tarifes (Beilage B) zulässig ist. Im vorliegenden Fall wurde das Schreiben der Beklagten, mit dem eine Änderung des bestehenden Versicherungsverhältnisses gewünscht wurde (Beilage D), gar nicht als Kündigung, sondern als Antrag auf Umwandlung der Versicherung bezeichnet. Es wird auch nicht eine Auflösung des bisherigen Vertragsverhältnisses, sondern die Umstellung dieses Vertragsverhältnisses auf ein solches mit anderem Inhalt, insbesondere unter Einbeziehung einer weiteren Person, begehrt. Das gesamte Verhalten der Beklagten läßt nur den Schluß zu, daß diese keinesfalls eine Beendigung des bisherigen Versicherungsverhältnisses unter allen Umständen, sondern lediglich einen Ersatz dieses Versicherungsverhältnisses durch ein anderes Versicherungsverhältnis wünschte. Ihrem Verhalten muß entnommen werden, daß sie den gänzlichen Wegfall einer Versicherung nicht im Auge hatte. Demnach vertritt auch sie selbst richtig die Auffassung, daß eine Totalkündigung hier nicht anzunehmen sei. Sie steht vielmehr auf dem Standpunkt, es handle sich um eine Teilkündigung, die nach Paragraph 7, Absatz 4, des dem Vertrag zugrundeliegenden Tarifes (Beilage B) zulässig ist. Aus den vorgelegten Unterlagen ist allerdings nicht ersichtlich, ob die nach dem Tarif TW zu erbringenden Leistungen auch in jenen Leistungen enthalten sind, die nach dem Tarif MS zu erbringen wären. Auch fehlt es an diesbezüglichen Behauptungen. Nur in einem solchen Fall könnte überhaupt von einer Teilkündigung eine Rede sein. Dem Antrag der Beklagten ist jedoch nicht zu entnehmen, daß sie, selbst wenn die Leistungen nach dem Tarif TW auch in den Leistungen nach Tarif MS zur Gänze enthalten sein sollten, mit einer Reduktion der Versicherung bloß auf ihre Person einverstanden gewesen wäre. Vielmehr ist nach ihrem ganzen Verhalten davon auszugehen, daß die Miteinbeziehung ihres Sohnes in die Versicherung für sie wesentlich war. Zumindestens bestehen in dieser Richtung Zweifel, die zu Lasten der Beklagten gehen müssen. Die Neueinbeziehung einer weiteren Person in eine bestehende Versicherung kann jedoch nicht als Teilkündigung der bereits bestehenden Versicherung angesehen werden. Von einer Teilbarkeit des Ansuchens der Klägerin kann schon deshalb nicht ausgegangen werden, weil nicht zweifelsfrei feststeht, daß eine teilweise Berücksichtigung von der Klägerin überhaupt gewünscht wurde und, wie bereits ausgeführt, Zweifel über den Inhalt einer allfälligen Kündigung zu Lasten des Kündigenden gehen. In seiner Gesamtheit ist somit der Antrag der Beklagten nicht als bloße Teilkündigung der bestehenden Versicherung, sondern als Offert zum Abschluß einer anderen Versicherung unter gleichzeitiger Auflösung des bestehenden Versicherungsverhältnisses anzusehen. Das Zustandekommen eines in einem Offert angestrebten neuen Vertrages ist jedoch nicht von einer einseitigen Willenserklärung durch einen der Vertragsteile abhängig, sondern setzt übereinstimmende Willenserklärungen beider Vertragsteile voraus. Eine Zustimmungserklärung der Klägerin zu dem Anbot der Beklagten auf Änderung des Vertrages wurde nie abgegeben. Bis zum Jänner 1981 hat sich die Klägerin zu dem Anbot der Beklagten überhaupt nicht geäußert, nachher nur in ablehnendem oder modifiziertem Sinn. Das Verhalten der Klägerin nach dem Schreiben vom Jänner 1981 hat also keinesfalls eine Annahme des Anbotes der Beklagten bewirkt. Stillschweigen kann nicht schlechthin als Zustimmung zu einem Anbot gewertet werden (SZ 37/119 ua) sondern im allgemeinen nur dann, wenn der Nichtzustimmende nach Treu und Glauben, nach der Verkehrssitte oder nach dem Gesetz hätte reden müssen (EvBl.1969/97, HS 6226 ua). Insbesondere im Versicherungsrecht kann Schweigen dann in der Regel nicht als Zustimmung gelten, wenn es sich um eine Änderung bestehender Vertragsverhältnisse handelt (Bruck-Möller-Wriede 8 VI/3 K 110 f, Anm.D 36 e). Außer dem Stillschweigen der Klägerin zu dem Anbot der Beklagten bis Jänner 1981 wurde aber kein Umstand dargetan, der eine Wertung des Stillschweigens als Zustimmung zu dem Anbot zulassen würde. Ob die Klägerin auf Grund ihrer Sorgfaltspflicht nach Treu und Glauben verhalten gewesen wäre, rasch auf das Anbot der Beklagten zu antworten, muß hier nicht untersucht werden, weil die Verletzung einer solchen Sorgfaltspflicht höchstens Schadenersatzansprüche der Beklagten begründen hätte können, die nicht geltend gemacht wurden. Im vorliegenden Fall kämen solche Schadenersatzansprüche schon deshalb nicht in Frage, weil im Falle einer Überreichung des Antrages am 1.8.1980 selbst bei einer raschen Ablehnung durch die Klägerin eine rechtzeitige Kündigung zum 1.11.1980 nicht mehr ermöglicht hätte. Eine Umstellung oder Kündigung zum nächstfolgenden Termin, nämlich dem 1.11.1981, hat aber das Schweigen der Klägerin bis zum Jänner 1981 nicht verhindert, weil die Klägerin zu diesem Zeitpunkt ausdrücklich auf die Notwendigkeit einer neuerlichen Antragstellung bis zum Juli 1981 verwiesen hat, sohin eine Versäumung dieses Termines nicht der Klägerin, sondern nur der Beklagten anzulasten ist. Daß ihre Säumnis auf eine falsche Belehrung oder auf ein Fehlverhalten ihres Vertreters zurückzuführen ist, kann nicht zum Nachteil der Klägerin führen. Da sohin die Klägerin das Anbot der Beklagten auf Umstellung des Vertrages nicht angenommen hat, die Kündigung aber nur im Zusammenhang mit diesem Anbot auf Umstellung des Vertrages verstanden werden kann, wurde das ursprüngliche Vertragsverhältnis nicht beendet, sodaß die der Höhe nach unbestrittene Forderung der Klägerin auf Zahlung der rückständigen Prämien aufrecht ist. Auf die in der Berufung erhobene Beweisrüge ist das Berufungsgericht im Ergebnis mit Recht nicht eingegangen. Bezüglich der angeblichen Vertretungsbefugnis des Dir.G für die Klägerin läßt die Berufung nicht erkennen, welches günstigere Ergebnis die Feststellung einer solchen Vertretungsbefugnis für sie bringen könnte. Es wurden nämlich keine für die Beklagte günstigen Erklärungen des Direktor G festgestellt. Auch die Berufung zeigt nicht auf, welche Feststellungen in dieser Richtung möglich gewesen wären. Was die Frage des Zeitpunktes der Überreichung des Umstellungsantrages anlangt, so ist dieser schon deshalb nicht von entscheidender Bedeutung, weil, wie bereits oben ausgeführt wurde, nicht nur eine bloße Kündigung, sondern ein Antrag auf Umstellung der Versicherung unter Einbeziehung einer weiteren Person gestellt worden ist. Dieser Umstellungsantrag stellt eine notwendige Einheit mit der Kündigung dar. Sohin bedurfte es zur positiven Erledigung im Sinne des Antrages der Beklagten einer Zustimmung der Klägerin. Mangels einer solchen Zustimmung wäre der neue Vertrag auch, falls der Antrag rechtzeitig (nämlich in den letzten Julitagen 1980) gestellt worden wäre, nicht zustandegekommen. Daß aber die Klägerin im Fall einer rechtzeitigen Antragstellung diesem Anbot wahrscheinlich zugestimmt hätte, kann nicht zu einer Beendigung des bisherigen Vertragsverhältnisses führen. Eine Ablehnung eines in den letzten Julitagen gestellten Antrages derart rasch, daß noch im Juli eine Kündigung möglich gewesen wäre, kann ausgeschlossen werden. Die Kostenentscheidung gründet sich auf die §§ 41 und 50 ZPO. Da sohin die Klägerin das Anbot der Beklagten auf Umstellung des Vertrages nicht angenommen hat, die Kündigung aber nur im Zusammenhang mit diesem Anbot auf Umstellung des Vertrages verstanden werden kann, wurde das ursprüngliche Vertragsverhältnis nicht beendet, sodaß die der Höhe nach unbestrittene Forderung der Klägerin auf Zahlung der rückständigen Prämien aufrecht ist. Auf die in der Berufung erhobene Beweisrüge ist das Berufungsgericht im Ergebnis mit Recht nicht eingegangen. Bezüglich der angeblichen Vertretungsbefugnis des Dir.G für die Klägerin läßt die Berufung nicht erkennen, welches günstigere Ergebnis die Feststellung einer solchen Vertretungsbefugnis für sie bringen könnte. Es wurden nämlich keine für die Beklagte günstigen Erklärungen des Direktor G festgestellt. Auch die Berufung zeigt nicht auf, welche Feststellungen in dieser Richtung möglich gewesen wären. Was die Frage des Zeitpunktes der Überreichung des Umstellungsantrages anlangt, so ist dieser schon deshalb nicht von entscheidender Bedeutung, weil, wie bereits oben ausgeführt wurde, nicht nur eine bloße Kündigung, sondern ein Antrag auf Umstellung der Versicherung unter Einbeziehung einer weiteren Person gestellt worden ist. Dieser Umstellungsantrag stellt eine notwendige Einheit mit der Kündigung dar. Sohin bedurfte es zur positiven Erledigung im Sinne des Antrages der Beklagten einer Zustimmung der Klägerin. Mangels einer solchen Zustimmung wäre der neue Vertrag auch, falls der Antrag rechtzeitig (nämlich in den letzten Julitagen 1980) gestellt worden wäre, nicht zustandegekommen. Daß aber die Klägerin im Fall einer rechtzeitigen Antragstellung diesem Anbot wahrscheinlich zugestimmt hätte, kann nicht zu einer Beendigung des bisherigen Vertragsverhältnisses führen. Eine Ablehnung eines in den letzten Julitagen gestellten Antrages derart rasch, daß noch im Juli eine Kündigung möglich gewesen wäre, kann ausgeschlossen werden. Die Kostenentscheidung gründet sich auf die Paragraphen 41 und 50 ZPO. European Case Law Identifier (ECLI) ECLI:AT:OGH0002:1985:0070OB00013.85.0328.000 Dokumentnummer JJT_19850328_OGH0002_0070OB00013_8500000_000 Zum Seitenanfang . Über diese Seite © 2026 Bundeskanzleramt der Republik Österreich\r\n",
+  "exitCode": 0,
+  "durationMs": 1121
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_d59b36cc61b946289985e43863f5507a",
+  "kind": "interacted",
+  "agentThreadId": "01a0f21f-8b26-7c51-85f9-22089ebfea54",
+  "agentPath": "/root"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f0f19904-2440-4527-933c-d7c108b6c685",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport fitz,pathlib\np=pathlib.Path('05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf')\nd=fitz.open(p)\nfor n,p in enumerate(d):\n t=p.get_text()\n if any(x in t for x in ['Jahresprämie','Vertragsgrundlagen']):print('\\\\n---PAGE',n+1,'---\\\\n'+t)\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "64317",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport fitz,pathlib\np=pathlib.Path('05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf')\nd=fitz.open(p)\nfor n,p in enumerate(d):\n t=p.get_text()\n if any(x in t for x in ['Jahresprämie','Vertragsgrundlagen']):print('\\n---PAGE',n+1,'---\\n'+t)\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "\r\n---PAGE 3 ---\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\nPolizze Nr. 2044001194 \r\nSeite 3 von 9 \r\n03.06.2026 \r\n11400074984720 \r\nJahresprämie für Feuerversicherung \r\n \r\n763,20 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n \r\n72,96 \r\n \r\ninkl. Feuerschutzsteuer \r\n4,00 % \r\n \r\n26,60 \r\n \r\nBetriebsunterbrechungsversicherung (Beträge in EUR) \r\n \r\nBeschreibung \r\nVersicherungssumme \r\nPrämie \r\nFeuer-BU-Versicherung für Mietverlust \r\ngemäß Klauseln 1013A, 1347K \r\nHaftungssumme \r\n50.000,00 \r\nErweiterung auf Total-BU-Versicherung für Mietverlust \r\ngemäß Klausel 1345K \r\n \r\nJahresprämie für Betriebsunterbrechungsversicherung \r\n \r\n41,72 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n \r\n3,96 \r\n \r\ninkl. Feuerschutzsteuer \r\n4,00 % \r\n \r\n1,44 \r\n \r\nSturmversicherung (Beträge in EUR) \r\n \r\nBeschreibung \r\nVersicherungssumme \r\nPrämie \r\nGrunddeckung \r\ngemäß Klausel 3139K \r\nSumme der Objektversicherungssummen \r\n3.315.306,00 \r\nNebenkosten, das sind Bewegungs- und Schutzkosten, \r\nAbbruch- und Aufräumkosten, Entsorgungskosten, \r\nsowie Mehrkosten durch Behandlung von gefährlichem Abfall \r\nund/oder Problemstoffen \r\ngemäß Klausel 1238K \r\nErstes Risiko \r\n663.061,20 \r\nMehrkosten \r\ngemäß Klausel 1440K \r\nErstes Risiko \r\n663.061,20 \r\nDeckungserweiterungen \r\ngemäß Klausel 1451K \r\nErstes Risiko \r\n50.000,00 \r\nVorsorge \r\ngemäß Klausel 1441K \r\nErstes Risiko \r\n663.061,20 \r\nOptische Schäden durch Hagel \r\ngemäß Klausel 1246K \r\nErstes Risiko \r\n10.000,00 \r\nKatastrophendeckung Wasser \r\ngemäß Klausel 3031K \r\nErstes Risiko \r\n80.000,00 \r\nKatastrophendeckung Erdbeben \r\ngemäß Klausel 1242K \r\nErstes Risiko \r\n30.000,00 \r\n \r\n\r\n\r\n---PAGE 4 ---\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\nPolizze Nr. 2044001194 \r\nSeite 4 von 9 \r\n03.06.2026 \r\n11400074984720 \r\nJahresprämie für Sturmversicherung \r\n \r\n771,56 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n \r\n76,44 \r\n \r\nLeitungswasserversicherung (Beträge in EUR) \r\n \r\nBeschreibung \r\nVersicherungssumme \r\nPrämie \r\nGrunddeckung \r\ngemäß Klausel 3140K \r\nSumme der Objektversicherungssummen \r\n3.315.306,00 \r\nErweiterung auf Variante D \r\ngemäß Klausel 1455K \r\nNebenkosten, das sind Bewegungs- und Schutzkosten, \r\nAbbruch- und Aufräumkosten, Entsorgungskosten, \r\nsowie Mehrkosten durch Behandlung von gefährlichem Abfall \r\nund/oder Problemstoffen \r\ngemäß Klausel 1249K \r\nErstes Risiko \r\n663.061,20 \r\nMehrkosten \r\ngemäß Klausel 1440K \r\nErstes Risiko \r\n663.061,20 \r\nVorsorge \r\ngemäß Klausel 1441K \r\nErstes Risiko \r\n663.061,20 \r\nGasleitungsschäden \r\ngemäß Klausel 1458K \r\nErstes Risiko \r\n5.000,00 \r\nFliesenklausel \r\ngemäß Klausel 1459K \r\nErstes Risiko \r\n2.500,00 \r\nAbleitungsrohre außerhalb des Grundstücks \r\ngemäß Klausel 1325K \r\nErstes Risiko \r\n10.000,00 \r\nMuffenversatz \r\ngemäß Klausel 1460K \r\nErstes Risiko \r\n1.500,00 \r\nErweiterung des Rohrersatzes \r\ngemäß Klausel 1255K \r\nVerstopfungsschäden der Ableitungsrohre außerhalb des Gebäudes am Grundstück \r\ngemäß Klausel 1256K \r\nErstes Risiko \r\n5.000,00 \r\n \r\nJahresprämie für Leitungswasserversicherung \r\n \r\n3.127,72 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n \r\n309,92 \r\n \r\n\r\n\r\n---PAGE 5 ---\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\nPolizze Nr. 2044001194 \r\nSeite 5 von 9 \r\n03.06.2026 \r\n11400074984720 \r\nZusatzpakete (Beträge in EUR) \r\n \r\nBeschreibung \r\nVersicherungssumme \r\nPrämie \r\nMehrkosten für Ersatzräumlichkeiten \r\ngemäß Klausel 1449K \r\nErstes Risiko \r\n24.000,00 \r\n \r\nJahresprämie für Zusatzpakete \r\n \r\n24,68 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n \r\n2,36 \r\n \r\ninkl. Feuerschutzsteuer \r\n4,00 % \r\n \r\n0,84 \r\n \r\n \r\nHaftpflichtversicherung \r\nVersicherte Objekte (Beträge in EUR) \r\n \r\nGEBÄUDE: \r\nWohngebäude \r\nGebäudesumme: \r\n3.315.306,00 \r\nVersicherte Sparten: \r\nHaus- und Grundbesitz Haftpflicht \r\nRisikoadresse: \r\nSchallergasse 35, 1120 Wien, Österreich \r\nBauart: \r\nmassiv \r\nGebäudeart: \r\nWohngebäude \r\nSwimmingpool: \r\nkeines vorhanden \r\nBaujahr: \r\n1905 \r\nStockwerke: \r\n4-7 Etagen \r\n \r\nVersichert ist (Betrag in EUR) \r\n \r\n \r\nRisiko: \r\nHaus- und Grundbesitz (X011) \r\nPauschalversicherungssumme \r\n5.000.000,00 \r\n \r\nHaus- und Grundbesitz Haftpflicht (Beträge in EUR) \r\n \r\nBeschreibung \r\nVersicherungssumme \r\nPrämie \r\nHaus- und Grundbesitz Haftpflicht \r\ngemäß Klausel 3188K \r\nUmweltschäden \r\ngemäß Klausel 3074K \r\nSublimit \r\n1.500.000,00 \r\nAll In Haus- und Grundbesitz \r\ngemäß Klausel 3173K \r\n \r\nJahresprämie für Haus- und Grundbesitz Haftpflicht \r\n \r\n1.638,36 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n \r\n162,36 \r\n \r\nIndividuelle Vereinbarung zur gesamten Polizze \r\n \r\nAbweichend von der Rahmenvereinbarung 2900010498 wird die Klausel Seipt & Partner LW14 durch \r\nfolgende Vereinbarung ersetzt: \r\n \r\n\r\n\r\n---PAGE 6 ---\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\nPolizze Nr. 2044001194 \r\nSeite 6 von 9 \r\n03.06.2026 \r\n11400074984720 \r\nNacheinem ersatzpflichtigen Leitungswasserschaden im Sinne der Bedingungen ist die Einholung der \r\nGenehmigung des Versicherers für die künstliche Austrocknung nicht erforderlich, wenn die \r\nvoraussichtlichen Kosten für die künstliche Austrocknung EUR 1.500.- nicht übersteigen und der VN die \r\nkünstliche Austrocknung zur Schadenminderung für geboten hält. Der VN hält sich hierbei an die \r\nPartnerpreise der Versicherungsgesellschaft gebunden. Die Beauftragung und der Eintritt des Schaden \r\nmuss dem Versicherer gemeldet werden. Die Katastrophendeckung Wasser gilt mit einer VS von EUR 80 \r\n000,-- vereinbart. \r\n \r\nGesamtprämie (Beträge in EUR) \r\n \r\nGesamtjahresprämie für den Vertrag \r\n \r\n6.367,24 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n628,00 \r\n \r\ninkl. Feuerschutzsteuer \r\n4,00 % \r\n28,88 \r\n \r\nPrämienabrechnung (Beträge in EUR) \r\n \r\nOffene Prämie vor Vertragsänderung \r\n \r\n3.193,62 \r\nSomit zu bezahlen* \r\n \r\n3.193,62 \r\n* Bei dieser Position handelt es sich um den aktuellen Kontostand der Polizze. \r\n \r\nZahlungsweise \r\n \r\nWie vereinbart, erfolgt die Prämienverrechnung mit Zahlschein. \r\n \r\nPrämie zur nächsten Fälligkeit (Beträge in EUR) \r\n \r\nFolgeprämie zahlbar vierteljährlich  \r\n \r\n1.591,81 \r\n \r\ninkl. Versicherungssteuer \r\n157,00 \r\n \r\ninkl. Feuerschutzsteuer \r\n7,22 \r\n \r\nVertragsgrundlagen \r\n \r\n1000K – \r\nLaufzeitvorteil \r\n1002K – \r\nEinschluss von Schäden durch Terrorakte \r\n1224K – \r\nNebenkosten Feuerversicherung \r\n1238K – \r\nNebenkosten Sturmversicherung \r\n1242K – \r\nKatastrophendeckung Erdbeben \r\n1246K – \r\nOptische Schäden Gebäude \r\n1249K – \r\nNebenkosten Leitungswasserversicherung \r\n1255K – \r\nErweiterung des Rohrersatzes \r\n1256K – \r\nMitversicherung von Verstopfungsschäden der Ableitungsrohre außerhalb des Gebäudes am \r\nGrundstück \r\n1325K – \r\nMitversicherung von Ableitungsrohre außerhalb des Grundstücks \r\n1345K – \r\nBesondere Bedingungen für die Total-BU-Versicherung \r\n1347K – \r\nBesondere Bedingungen für die Mietverlust-BU-Versicherung \r\n1438K – \r\nZusatzbedingungen für die Feuerversicherung von Wohngebäuden (ZB F WG 2018) \r\n1439K – \r\nDeckungserweiterungen zur Feuer-Gebäudeversicherung \r\n1440K – \r\nMehrkosten \r\n\r\n\r\n---PAGE 8 ---\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\nPolizze Nr. 2044001194 \r\nSeite 8 von 9 \r\n03.06.2026 \r\n11400074984720 \r\nauf das Kündigungsrecht, die dreimonatige Kündigungsfrist, den notwendigen Zugang der Kündigung beim \r\nVersicherer vor Beginn dieser Frist, die für die Kündigung erforderliche Form sowie auf die \r\nVertragsverlängerung um ein weiteres Jahr bei unterbliebener, verspäteter oder fehlerhafter Kündigung \r\naufmerksam gemacht. \r\n \r\nBeträgt die Vertragsdauer weniger als ein Jahr, erlischt der Vertrag ohne Kündigung. \r\nRechte und Pflichten \r\nDie gegenseitigen Rechte und Pflichten werden durch die gesetzlichen Bestimmungen, den Antrag, die auf \r\ndieser Polizze vermerkten Versicherungsbedingungen, etwaigen besonderen Vereinbarungen und \r\netwaigen Leistungsübersichten geregelt. \r\nAufforderung zur Zahlung der ersten oder einmaligen Prämie \r\nBitte zahlen Sie die erste oder einmalige Prämie sofort nach Erhalt dieser Polizze. Erfolgt die Zahlung nicht \r\ninnerhalb von 14 Tagen nach Erhalt, ist der Versicherer von der Verpflichtung zur Leistung frei, es sei denn, \r\ndass der Versicherungsnehmer an der rechtzeitigen Zahlung der Prämie ohne sein Verschulden verhindert \r\nwar oder mit nicht mehr als zehn v. H. der Jahresprämie, höchstens aber mit EUR 60,–, in Verzug ist. Nach \r\nAblauf der genannten Frist ist der Versicherer berechtigt, vom Vertrag zurückzutreten, solange die Zahlung \r\nnicht erfolgt ist. Es gilt als Rücktritt, wenn der Anspruch auf die Prämie nicht innerhalb dreier Monate vom \r\nFälligkeitstag an gerichtlich geltend gemacht wird. \r\nAllgemeine Obliegenheiten \r\nAls Obliegenheiten, deren Verletzung die Leistungsfreiheit des Versicherers gemäß den Voraussetzungen \r\nund Begrenzungen des § 6 VersVG bewirkt, werden bestimmt: \r\n(1) Schadensminderung: \r\nDer Versicherungsnehmer hat nach Möglichkeit und Zumutbarkeit alles zu tun, um den entstandenen \r\nSchaden gering zu halten und weiteren Schaden zu vermeiden sowie dabei die Weisungen des \r\nVersicherers zu befolgen. \r\n(2) Schadensmeldung: \r\nDer Versicherungsnehmer hat den entstandenen Schaden dem Versicherer unverzüglich nach \r\nKenntniserlangung zu melden. \r\n(3) Schadensermittlung: \r\n3.1. Der Versicherungsnehmer hat dem Versicherer jede Untersuchung über die Ursache und Höhe \r\ndes Schadens sowie über den Umfang der Entschädigungsleistung zu gestatten und jede hierzu \r\ndienliche Auskunft zu erteilen. \r\n3.2. Sofern der Schaden durch einen Dritten verursacht ist, hat der Versicherungsnehmer an der \r\nErmittlung dieser Person mit zu wirken und den Verursacher sowie eventuelle Zeugen dem Versicherer \r\nbekanntzugeben. \r\n(4) Neben diesen allgemeinen Obliegenheiten sind besondere in den jeweiligen \r\nVersicherungsbedingungen geregelt. \r\nGebühren \r\nNebengebühren für Mehraufwendungen, die vom Versicherungsnehmer bei uns veranlasst werden (z. B. \r\nMahngebühren bei Prämienzahlungsverzug), werden dem Versicherungsnehmer verrechnet. (§ 41 b \r\nVersicherungsvertragsgesetz) \r\nAbschriften \r\nDer Versicherungsnehmer kann jederzeit auf seine Kosten Abschriften aller Erklärungen verlangen, die von \r\nihm oder für ihn dem Versicherer gegenüber mit Bezug auf den Vertrag abgegeben worden sind. \r\nAnwendbares Recht und zuständige Aufsichtsbehörde \r\nFür den Versicherungsvertrag gilt österreichisches Recht. \r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 287
+}
+````
+
+## Asistent
+
+Jurisprudența distinge între contractele grupate într-o poliță și simplele extensii ale unei acoperiri. Chiar dacă o ramură poate fi reziliată separat, trebuie respectat termenul ei. Iar adăugarea altor acoperiri necesită, în principiu, acordul asigurătorului.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-d0eafa38-4ffa-4c06-9b78-0f23e9a1a990",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport pathlib,requests,bs4,hashlib,json,concurrent.futures,datetime\nbase=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse audit');base.mkdir(parents=True,exist_ok=True)\nsources=[\n('J01 OGH 7Ob13-85','https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True'),\n('J02 OGH 7Ob208-15m','https://ris.bka.gv.at/Dokumente/Justiz/JJT_20160706_OGH0002_0070OB00208_15M0000_000/JJT_20160706_OGH0002_0070OB00208_15M0000_000.html'),\n('J03 OGH 7Ob92-19h','https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20200219_OGH0002_0070OB00092_19H0000_000/JJT_20200219_OGH0002_0070OB00092_19H0000_000.html'),\n('J04 OGH 7Ob178-24p','https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20241218_OGH0002_0070OB00178_24P0000_000&IncludeSelf=True'),\n('J05 OGH 7Ob264-07k','https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20080312_OGH0002_0070OB00264_07K0000_000&IncludeSelf=True'),\n('J06 OLG Wien 5R124-25d','https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20251028_OLG0009_00500R00124_25D0000_000/JJT_20251028_OLG0009_00500R00124_25D0000_000.html'),\n('A01 FMA Buendelversicherung','https://www.fma.gv.at/glossar/buendelversicherung/'),\n('A02 FMA Kombinierte Versicherung','https://www.fma.gv.at/glossar/kombinierte-versicherung-verbundene-versicherung/'),\n('L01 VersVG Paragraf 8','https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138452/NOR40138452.html')]\ndef fetch(s):\n name,url=s;r=requests.get(url,timeout=35);r.raise_for_status();return name,url,r.content,r.encoding\nresults=list(concurrent.futures.ThreadPoolExecutor(max_workers=5).map(fetch,sources));manifest=[]\nfor name,url,data,enc in results:\n stem='2026.10.29 '+name;hp=base/(stem+'.html');hp.write_bytes(data)\n soup=bs4.BeautifulSoup(data,'html.parser');t=soup.get_text('\\\\n',strip=True);(base/(stem+'.txt')).write_text(t,encoding='utf-8')\n manifest.append({'name':name,'url':url,'html':str(hp),'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data),'retrieved_at':datetime.datetime.now(datetime.timezone.utc).isoformat()});print(name,len(data))\n(base/'2026.10.29 Registru surse audit componente.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "44581",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport pathlib,requests,bs4,hashlib,json,concurrent.futures,datetime\nbase=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse audit');base.mkdir(parents=True,exist_ok=True)\nsources=[\n('J01 OGH 7Ob13-85','https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True'),\n('J02 OGH 7Ob208-15m','https://ris.bka.gv.at/Dokumente/Justiz/JJT_20160706_OGH0002_0070OB00208_15M0000_000/JJT_20160706_OGH0002_0070OB00208_15M0000_000.html'),\n('J03 OGH 7Ob92-19h','https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20200219_OGH0002_0070OB00092_19H0000_000/JJT_20200219_OGH0002_0070OB00092_19H0000_000.html'),\n('J04 OGH 7Ob178-24p','https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20241218_OGH0002_0070OB00178_24P0000_000&IncludeSelf=True'),\n('J05 OGH 7Ob264-07k','https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20080312_OGH0002_0070OB00264_07K0000_000&IncludeSelf=True'),\n('J06 OLG Wien 5R124-25d','https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20251028_OLG0009_00500R00124_25D0000_000/JJT_20251028_OLG0009_00500R00124_25D0000_000.html'),\n('A01 FMA Buendelversicherung','https://www.fma.gv.at/glossar/buendelversicherung/'),\n('A02 FMA Kombinierte Versicherung','https://www.fma.gv.at/glossar/kombinierte-versicherung-verbundene-versicherung/'),\n('L01 VersVG Paragraf 8','https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138452/NOR40138452.html')]\ndef fetch(s):\n name,url=s;r=requests.get(url,timeout=35);r.raise_for_status();return name,url,r.content,r.encoding\nresults=list(concurrent.futures.ThreadPoolExecutor(max_workers=5).map(fetch,sources));manifest=[]\nfor name,url,data,enc in results:\n stem='2026.10.29 '+name;hp=base/(stem+'.html');hp.write_bytes(data)\n soup=bs4.BeautifulSoup(data,'html.parser');t=soup.get_text('\\n',strip=True);(base/(stem+'.txt')).write_text(t,encoding='utf-8')\n manifest.append({'name':name,'url':url,'html':str(hp),'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data),'retrieved_at':datetime.datetime.now(datetime.timezone.utc).isoformat()});print(name,len(data))\n(base/'2026.10.29 Registru surse audit componente.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "Traceback (most recent call last):\r\n  File \"<stdin>\", line 15, in <module>\r\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\_base.py\", line 619, in result_iterator\r\n    yield _result_or_cancel(fs.pop())\r\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\_base.py\", line 317, in _result_or_cancel\r\n    return fut.result(timeout)\r\n           ^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\r\n    return self.__get_result()\r\n           ^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\r\n    raise self._exception\r\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\r\n    result = self.fn(*self.args, **self.kwargs)\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"<stdin>\", line 14, in fetch\r\n  File \"C:\\Users\\User\\AppData\\Roaming\\Python\\Python312\\site-packages\\requests\\models.py\", line 1024, in raise_for_status\r\n    raise HTTPError(http_error_msg, response=self)\r\nrequests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://www.fma.gv.at/glossar/buendelversicherung/\r\n",
+  "exitCode": 1,
+  "durationMs": 1222
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-ed25168a-42c4-4b6c-9334-cdbe7cee05ca",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport pathlib,requests,bs4,hashlib,json,concurrent.futures,datetime\nbase=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse audit')\nids=[('J01 OGH 7Ob13-85','19850328','0070OB00013_8500000_000'),('J02 OGH 7Ob208-15m','20160706','0070OB00208_15M0000_000'),('J03 OGH 7Ob92-19h','20200219','0070OB00092_19H0000_000'),('J04 OGH 7Ob178-24p','20241218','0070OB00178_24P0000_000'),('J05 OGH 7Ob264-07k','20080312','0070OB00264_07K0000_000')]\nsources=[(n,f'https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_{d}_OGH0002_{i}&IncludeSelf=True') for n,d,i in ids]\nsources += [('J06 OLG Wien 5R124-25d','https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20251028_OLG0009_00500R00124_25D0000_000/JJT_20251028_OLG0009_00500R00124_25D0000_000.html'),('L01 VersVG Paragraf 8','https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138452/NOR40138452.html')]\ndef fetch(s):\n n,u=s\n try:\n  r=requests.get(u,timeout=35);r.raise_for_status();return n,u,r.content,None\n except Exception as e:return n,u,None,str(e)\nmanifest=[]\nfor n,u,data,err in concurrent.futures.ThreadPoolExecutor(max_workers=5).map(fetch,sources):\n rec={'name':n,'url':u,'retrieved_at':datetime.datetime.now(datetime.timezone.utc).isoformat()}\n if err:rec['error']=err;print(n,err)\n else:\n  stem='2026.10.29 '+n;hp=base/(stem+'.html');hp.write_bytes(data)\n  t=bs4.BeautifulSoup(data,'html.parser').get_text('\\\\n',strip=True);(base/(stem+'.txt')).write_text(t,encoding='utf-8');rec.update({'html':str(hp),'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)});print(n,len(data))\n manifest.append(rec)\n(base/'2026.10.29 Registru surse audit componente.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "47903",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport pathlib,requests,bs4,hashlib,json,concurrent.futures,datetime\nbase=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse audit')\nids=[('J01 OGH 7Ob13-85','19850328','0070OB00013_8500000_000'),('J02 OGH 7Ob208-15m','20160706','0070OB00208_15M0000_000'),('J03 OGH 7Ob92-19h','20200219','0070OB00092_19H0000_000'),('J04 OGH 7Ob178-24p','20241218','0070OB00178_24P0000_000'),('J05 OGH 7Ob264-07k','20080312','0070OB00264_07K0000_000')]\nsources=[(n,f'https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_{d}_OGH0002_{i}&IncludeSelf=True') for n,d,i in ids]\nsources += [('J06 OLG Wien 5R124-25d','https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20251028_OLG0009_00500R00124_25D0000_000/JJT_20251028_OLG0009_00500R00124_25D0000_000.html'),('L01 VersVG Paragraf 8','https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138452/NOR40138452.html')]\ndef fetch(s):\n n,u=s\n try:\n  r=requests.get(u,timeout=35);r.raise_for_status();return n,u,r.content,None\n except Exception as e:return n,u,None,str(e)\nmanifest=[]\nfor n,u,data,err in concurrent.futures.ThreadPoolExecutor(max_workers=5).map(fetch,sources):\n rec={'name':n,'url':u,'retrieved_at':datetime.datetime.now(datetime.timezone.utc).isoformat()}\n if err:rec['error']=err;print(n,err)\n else:\n  stem='2026.10.29 '+n;hp=base/(stem+'.html');hp.write_bytes(data)\n  t=bs4.BeautifulSoup(data,'html.parser').get_text('\\n',strip=True);(base/(stem+'.txt')).write_text(t,encoding='utf-8');rec.update({'html':str(hp),'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)});print(n,len(data))\n manifest.append(rec)\n(base/'2026.10.29 Registru surse audit componente.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "J01 OGH 7Ob13-85 226291\r\nJ02 OGH 7Ob208-15m 560412\r\nJ03 OGH 7Ob92-19h 344133\r\nJ04 OGH 7Ob178-24p 305276\r\nJ05 OGH 7Ob264-07k 99982\r\nJ06 OLG Wien 5R124-25d 67337\r\nL01 VersVG Paragraf 8 45120\r\n",
+  "exitCode": 0,
+  "durationMs": 2151
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-26e08443-ab96-4b3b-a22e-5aa9f501ddc7",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport pathlib\nb=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse audit')\nfor name,term in [('J04 OGH 7Ob178-24p','4.1'),('J03 OGH 7Ob92-19h','1.1'),('J05 OGH 7Ob264-07k','Auch über die Zusammenfassung'),('J02 OGH 7Ob208-15m','B. Der')]:\n t=(b/('2026.10.29 '+name+'.txt')).read_text(encoding='utf-8');a=t.rfind('Rechtliche Beurteilung');t=t[a:] if a>=0 else t\n i=t.find(term);print('\\\\n'+name+'\\\\n'+(t[i:i+6200] if i>=0 else t[-6500:]))\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "48972",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport pathlib\nb=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse audit')\nfor name,term in [('J04 OGH 7Ob178-24p','4.1'),('J03 OGH 7Ob92-19h','1.1'),('J05 OGH 7Ob264-07k','Auch über die Zusammenfassung'),('J02 OGH 7Ob208-15m','B. Der')]:\n t=(b/('2026.10.29 '+name+'.txt')).read_text(encoding='utf-8');a=t.rfind('Rechtliche Beurteilung');t=t[a:] if a>=0 else t\n i=t.find(term);print('\\n'+name+'\\n'+(t[i:i+6200] if i>=0 else t[-6500:]))\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "\r\nJ04 OGH 7Ob178-24p\r\n4.1 Die Abgrenzung des versicherten Risikos obliegt mangels gesetzlicher Bestimmungen der Parteienvereinbarung. Auch über die Zusammenfassung mehrerer versicherter Gefahren bestehen keine gesetzlichen Regelungen. Nach herrschender Meinung ist zwischen einer kombinierten Versicherung und einer sogenannten Bündelversicherung zu unterscheiden. Während bei der kombinierten Versicherung die versicherten Gefahren durch einen einzigen Vertrag erfasst werden (Beispiel: etwa die Haushaltsversicherung), spricht man von einer Bündelversicherung, wenn für die einzelnen Gefahren getrennte Verträge bestehen, die jedoch als einziges „Versicherungsprodukt“ angeboten werden und für die in der Regel auch nur ein Versicherungsschein errichtet wird. Auch für eine Bündelversicherung bestehen im Versicherungsvertragsgesetz keine besonderen Regelungen. Aus dem Umstand, dass sie mehrere Verträge zusammenfasst, ergibt sich, dass – mangels besonderer Verabredung – jeder einzelne Vertrag auch ein selbständiges rechtliches Schicksal haben kann (\r\n7 Ob 264/07k\r\n). Ob einzelne, gebündelte Versicherungen ein getrenntes rechtliches Schicksal haben, hängt von der konkreten Vertragsgestaltung im Einzelfall ab (\r\nRS0042850\r\n).\r\n[13]           4.2 Hier wurde ein KFZ-Haftpflichtversicherungsvertrag und ein Kaskoversicherungsvertrag zu einem Versicherungsprodukt zusammengefasst.\r\n[14]           Behauptungen dazu, dass diese im Versicherungsschein genannten Versicherungsverträge nach der konkreten Vertragsgestaltung ein selbständiges rechtliches Schicksal hätten, Einzelprämien vereinbart seien oder die Einziehungsermächtigung sich nicht auf die – im Versicherungsschein tatsächlich ausgewiesene – Gesamtprämie bezogen habe, wurden nicht aufgestellt.\r\n[15]           Da davon ausgehend schon keine entsprechende Verpflichtung der Beklagten aufzeigt wird, bestand auch keine Veranlassung für die vom Kläger geforderte Aufschlüsselung der Prämie nach Sparten im Aufforderungsschreiben und/oder einer getrennten Ausübung des Lastschriftmandats. Der vom Kläger herangezogenen Entscheidung des BGH VIa ZR 91/93 lag ein nicht vergleichbarer Sachverhalt zugrunde.\r\n[16]           5.1 Nach Ansicht des Klägers sei die Leistungsfreiheit der Beklagten aufgrund der Anwendung des § 39a VersVG ausgeschlossen, er sei nicht mit mehr als 10 % der Jahresprämie bzw 60 EUR in Verzug gewesen. Die vom Kläger in diesem Zusammenhang aufgeworfenen Fragen, ob die Bagatellgrenze für jedes Versicherungsprodukt einzeln zu berechnen und ob die vom Versicherungsnehmer zu zahlenden Steuern zu berücksichtigen seien, müssen nicht geklärt werden.\r\n[16] \t\t5.1 Nach Ansicht des Klägers sei die Leistungsfreiheit der Beklagten aufgrund der Anwendung des Paragraph 39 a, VersVG ausgeschlossen, er sei nicht mit mehr als 10 % der Jahresprämie bzw 60 EUR in Verzug gewesen. Die vom Kläger in diesem Zusammenhang aufgeworfenen Fragen, ob die Bagatellgrenze für jedes Versicherungsprodukt einzeln zu berechnen und ob die vom Versicherungsnehmer zu zahlenden Steuern zu berücksichtigen seien, müssen nicht geklärt werden.\r\n5.2 Soweit der Kläger mit dem vom Erstgericht dargelegten monatlichen Anteil der Kaskoversicherung argumentiert, übergeht er nämlich, dass das Erstgericht diesen Betrag ausdrücklich als Nettobetrag (nach Abzug der Versicherungssteuer und der motorbezogenen Versicherungssteuer) verstand. Wenn er dagegen nun von einem Bruttobetrag ausgeht und davon die Steuern (nochmals) abzieht, um so die fehlende Überschreitung der Bagatellgrenze zu begründen, so tragen die Sachverhaltsfeststellungen dies nicht.\r\n[17]     6.1 Die Beurteilung des Verschuldensgrades wirft nur dann eine erhebliche Rechtsfrage auf, wenn das Berufungsgericht gegen maßgebliche Abgrenzungskriterien verstoßen hat, ihm also eine im Interesse der Rechtssicherheit korrekturbedürftige Fehlbeurteilung unterlief (\r\nRS0042405\r\n[T12, T14]).\r\n[18]           6.2 Der Schuldner ist – wie erwähnt – bei einer Lastschriftvereinbarung verpflichtet, seinen Kontostand jederzeit so hoch zu halten, dass eine Einlösung der jeweils gegen ihn bestehenden Forderungen, die vom Lastschriftverfahren erfasst werden, möglich ist (\r\n1 Ob 204/17g\r\n).\r\n[19]           6.3 Der Kläger nennt selbst in der Revision keine Umstände, aus denen auf sein fehlendes Verschulden an der fehlenden Dotierung des Kontos und damit der Erfolglosigkeit des von der Beklagten konkret angekündigten Abbuchungsversuchs geschlossen werden könnte.\r\n[20]           7. Der Kläger zeigt keine erhebliche Rechtsfrage auf. Dieser Beschluss bedarf keiner weiteren Begründung (§ 510 Abs 3 ZPO).\r\n[20] \t\t7. Der Kläger zeigt keine erhebliche Rechtsfrage auf. Dieser Beschluss bedarf keiner weiteren Begründung (Paragraph 510, Absatz 3, ZPO).\r\nTextnummer\r\nE143367\r\nEuropean Case Law Identifier (ECLI)\r\nECLI:AT:OGH0002:2024:0070OB00178.24P.1218.000\r\nIm RIS seit\r\n29.01.2025\r\nZuletzt aktualisiert am\r\n23.09.2025\r\nDokumentnummer\r\nJJT_20241218_OGH0002_0070OB00178_24P0000_000\r\nZum Seitenanfang\r\n.\r\nÜber diese Seite\r\n© 2026 Bundeskanzleramt der Republik Österreich\r\n\r\nJ03 OGH 7Ob92-19h\r\n1.1 Eine „kombinierte“ Versicherung liegt vor, wenn mehrere Gefahren in einem einzigen Vertrag zusammengefasst werden, dem einheitliche Allgemeine Versicherungsbedingungen (AVB) zu Grunde liegen. Die „kombinierte“ Versicherung führt zu einem Vertrag, der ein ungeteiltes rechtliches Schicksal hat. Er kann nur als Einheit abgeschlossen und beendet werden (\r\nFenyves\r\nin\r\nFenyves/Schauer\r\n, VersVG § 1a Rz 32, Rz 34).\r\n1.1 Eine „kombinierte“ Versicherung liegt vor, wenn mehrere Gefahren in einem einzigen Vertrag zusammengefasst werden, dem einheitliche Allgemeine Versicherungsbedingungen (AVB) zu Grunde liegen. Die „kombinierte“ Versicherung führt zu einem Vertrag, der ein ungeteiltes rechtliches Schicksal hat. Er kann nur als Einheit abgeschlossen und beendet werden (Fenyves in Fenyves/Schauer, VersVG Paragraph eins a, Rz 32, Rz 34).\r\n1.2 Von einer Bündelversicherung spricht man dagegen, wenn für die einzelnen Gefahren getrennte Verträge bestehen, die jedoch als einziges „Versicherungsprodukt“ angeboten werden, wofür in der Regel nur ein Versicherungsschein errichtet wird. Es werden mehrere rechtlich selbständige Versicherungsverträge zum Zweck der administrativen Vereinfachung in der Weise zusammengefasst, dass für sie zwar ein einheitliches Antragsformular verwendet und ein gemeinsamer Versicherungsschein ausgestellt wird, es werden aber dennoch mehrere selbständige Versicherungsverträge, für die unterschiedliche AVB zur Anwendung gelangen, abgeschlossen (\r\n7 Ob 112/16w\r\n;\r\nFenyves\r\nin\r\nFenyves/Schauer\r\n, VersVG § 1a Rz 32, 34). Die darin eingeschlossenen Sparten haben ein rechtlich selbständiges Schicksal (\r\n7 Ob 264/07k\r\nmwN;\r\n7 Ob 29/93\r\n;\r\nSchauer,\r\nVersicherungsvertragsrecht\r\n3\r\n149;\r\nFenyves\r\nin\r\nFenyves/Schauer\r\n, § 1a VersVG Rz 34 mwN), und sind insoweit getrennt zu beurteilen (\r\n7 Ob 208/15m\r\n).\r\n1.2 Von einer Bündelversicherung spricht man dagegen, wenn für die einzelnen Gefahren getrennte Verträge bestehen, die jedoch als einziges „Versicherungsprodukt“ angeboten werden, wofür in der Regel nur ein Versicherungsschein errichtet wird. Es werden mehrere rechtlich selbständige Versicherungsverträge zum Zweck der administrativen Vereinfachung in der Weise zusammengefasst, dass für sie zwar ein einheitliches Antragsformular verwendet und ein gemeinsamer Versicherungsschein ausgestellt wird, es werden aber dennoch mehrere selbständige Versicherungsverträge, für die unterschiedliche AVB zur Anwendung gelangen, abgeschlossen (\r\n7 Ob 112/16w\r\n; Fenyves in Fenyves/Schauer, VersVG Paragraph eins a, Rz 32, 34). Die darin eingeschlossenen Sparten haben ein rechtlich selbständiges Schicksal (\r\n7 Ob 264/07k\r\nmwN;\r\n7 Ob 29/93\r\n; Schauer, Versicherungsvertragsrecht3 149; Fenyves in Fenyves/Schauer, Paragraph eins a, VersVG Rz 34 mwN), und sind insoweit getrennt zu beurteilen (\r\n7 Ob 208/15m\r\n).\r\n1.3 Der Kläger hat (soweit hier relevant) einerseits eine Feuerversicherung für das Gebäude und andererseits eine Haushaltsversicherung, die auch Feuerschäden abdeckt, abgeschlossen. Beide beruhen auf gesonderten Versicherungsbedingungen. Es liegt eine Bündelversicherung vor. Die Haushaltsversicherung und die Feuerversicherung für das Gebäude sind rechtlich selbständig. Leistungsfreiheit in der einen Sparte führt daher nicht automatisch zur Leistungsfreiheit in der anderen.\r\n2. Haushaltsversicherung:\r\n2.1 Gemäß Art 2 Abs 4 AFB richtet sich die Feuerversicherung des Wohnungsinhalts nach der Haushaltsversicherung; es sind darauf die ABH anzuwenden.\r\n2.1 Gemäß Artikel 2, Absatz 4, AFB richtet sich die Feuerversicherung des Wohnungsinhalts nach der Haushaltsversicherung; es sind darauf die ABH anzuwenden.\r\n2.2 Bedingung für die Gültigkeit der Haushaltsversicherung ist nach der zwischen den Parteien vereinbarten Klausel 201 unter der Überschrift „Haushaltsversicherung in ständig bewohnten Gebäuden“, dass das Gebäude, in dem sich die Versicherungsräumlichkeiten befinden, mindestens neun Monate im Jahr von einer erwachsenen Person auch nachtsüber ständig bewohnt wird. Zu prüfen ist zunächst die rechtliche Qualität der Bedingung.\r\n2.3 Allgemeine Versicherungsbedingungen sind nach den Grundsätzen der Vertragsauslegung (§§ 914 ff ABGB) auszulegen, und zwar orientiert am Maßstab des durchschnittlich verständigen Versicherungsnehmers und stets unter Berücksichtigung des erkennbaren Zwecks einer Bestimmung (\r\nRS0050063\r\n[T71];\r\nRS0112256\r\n[T10];\r\nRS0017960\r\n). Die Klauseln sind, wenn sie nicht Gegenstand und Ergebnis von Vertragsverhandlungen waren, objektiv unter Beschränkung auf den Wortlaut auszulegen; dabei ist der einem objektiven Beobachter erkennbare Zweck einer Bestimmung zu berücksichtigen (\r\nRS0008901\r\n[insb T5, T7, T87]). Unklarheiten gehen dabei zu Lasten der Partei, von der die Formulare stammen, das heißt im Regelfall zu Lasten des Versicherers (\r\nRS0050063\r\n[T3]).\r\n2.3 Allgemeine Versicherungsbedingungen sind nach den Grundsätzen der Vertragsauslegung (Paragraphen 914, ff ABGB) auszulegen, und zwar orientiert am Maßstab des durchschnittlich verständigen Versicherungsnehmers und stets unter Berücksichtigung des erkennbaren Zwecks einer Bestimmung (\r\nRS0050063\r\n[T71];\r\nRS0112256\r\n[T10];\r\nRS0017960\r\n). Die Klauseln sind, wenn sie nicht Gegenstand und Ergebnis von Vertragsverhandlungen waren, objektiv unter Beschränkung auf den Wortlaut auszulegen; dabei ist der einem objektiven Beobachter erkennbare Zweck einer Bestimmung zu berücksichtigen (\r\nRS0008901\r\n[insb T5, T7, T87]). Unklarheiten gehen dabei zu Lasten der Partei, von der die Formulare stammen, das heißt im Regelfall zu Lasten des Versicherers (\r\nRS0050063\r\n[T3]).\r\n2.4 Die allgemeine Umschreibung des versicherten Risikos erfolgt durch die primäre Risikobegrenzung. Durch sie wird in grundsätzlicher Weise festgelegt, welche Interessen gegen welche Gefahren und für welchen Bedarf versichert sind. Auf der zweiten Ebene (sekundäre Risikobegrenzung) kann durch einen Risikoausschluss ein Stück des von der primären Risikoabgrenzung erfassten Deckungsumfangs ausgenommen und für nicht versichert erklärt werden. Der Zweck liegt darin, dass ein für den Versicherer nicht überschaubares und kalkulierbares Teilrisiko ausgenommen und eine sichere Kalkulation der Prämie ermöglicht werden soll. Mit dem Risikoausschluss begre\r\n\r\nJ05 OGH 7Ob264-07k\r\nAuch über die Zusammenfassung mehrerer versicherter Gefahren bestehen keine gesetzlichen Regelungen. Nach herrschender Meinung ist zwischen einer kombinierten Versicherung und einer sogenannten Bündelversicherung zu unterscheiden. Während bei der kombinierten Versicherung die versicherten Gefahren durch einen einzigen Vertrag erfasst werden (Beispiel etwa die Haushaltsversicherung, die Risken aus Feuer, Sturm, Einbruch, Leitungswasser und Glasbruch abdeckt), spricht man von einer Bündelversicherung, wenn für die einzelnen Gefahren getrennte Verträge bestehen, die jedoch als einziges „Versicherungsprodukt\" angeboten werden und für die in der Regel - wie im vorliegenden Fall - auch nur ein Versicherungsschein errichtet wird (\r\nHofmann\r\n, Privatversicherungsrecht4 § 6 Rn 40;\r\nSchauer\r\n, Versicherungsvertragsrecht3 149). Auch für eine Bündelversicherung (als Beispiel dafür wird auch die Kraftfahrversicherung genannt -\r\nSchauer\r\nin BK, Vorbem §§ 49 bis 68a Rz 15 und 16; vgl BGH NJW 1986, 1103) bestehen im Versicherungsvertragsgesetz keine besonderen Regelungen. Aus dem Umstand, dass sie mehrere Verträge zusammenfasst, ergibt sich bereits, dass - mangels besonderer Verabredung - jeder einzelne Vertrag auch ein selbständiges rechtliches Schicksal haben kann (\r\nSchauer\r\n, Versicherungsvertragsrecht3 149).\r\nWie der Oberste Gerichtshof in der Entscheidung\r\n7 Ob 29/93\r\n, VR 1994, 317 ausgesprochen hat, obliegt die Abgrenzung des versicherten Risikos mangels gesetzlicher Bestimmungen der Parteienvereinbarung. Auch über die Zusammenfassung mehrerer versicherter Gefahren bestehen keine gesetzlichen Regelungen. Nach herrschender Meinung ist zwischen einer kombinierten Versicherung und einer sogenannten Bündelversicherung zu unterscheiden. Während bei der kombinierten Versicherung die versicherten Gefahren durch einen einzigen Vertrag erfasst werden (Beispiel etwa die Haushaltsversicherung, die Risken aus Feuer, Sturm, Einbruch, Leitungswasser und Glasbruch abdeckt), spricht man von einer Bündelversicherung, wenn für die einzelnen Gefahren getrennte Verträge bestehen, die jedoch als einziges „Versicherungsprodukt\" angeboten werden und für die in der Regel - wie im vorliegenden Fall - auch nur ein Versicherungsschein errichtet wird (Hofmann, Privatversicherungsrecht4 Paragraph 6, Rn 40; Schauer, Versicherungsvertragsrecht3 149). Auch für eine Bündelversicherung (als Beispiel dafür wird auch die Kraftfahrversicherung genannt - Schauer in BK, Vorbem Paragraphen 49 bis 68 a Rz 15 und 16; vergleiche BGH NJW 1986, 1103) bestehen im Versicherungsvertragsgesetz keine besonderen Regelungen. Aus dem Umstand, dass sie mehrere Verträge zusammenfasst, ergibt sich bereits, dass - mangels besonderer Verabredung - jeder einzelne Vertrag auch ein selbständiges rechtliches Schicksal haben kann (Schauer, Versicherungsvertragsrecht3 149).\r\nOb einzelne, gebündelte Versicherungen ein getrenntes rechtliches Schicksal haben, hängt somit von der konkreten Vertragsgestaltung im Einzelfall ab. Dies wurde vorliegend von den Vorinstanzen zu Recht bejaht. Auszugehen ist demnach von einer Haftpflichtversicherung und einer getrennten Kaskoversicherung, die einzeln gekündigt werden konnten.\r\nDa nach § 158h VersVG die Vorschriften über die Veräußerung der versicherten Sache auch für (Kfz-)Haftpflichtversicherungen gelten, tritt - wie die Vorinstanzen zutreffend erkannt haben - gemäß § 69 VersVG der Erwerber an die Stelle des Veräußerers in den Haftpflichtversicherungsvertrag ein (\r\n7 Ob 25/97w\r\n;\r\nSchauer\r\n, Eigentumsübertragung und Veräußerungsanzeige in der Kfz-Haftpflichtversicherung, RdW 1998, 8). Dies gilt ebenso für die Kaskoversicherung. Der Eintritt erfolgt ex lege mit der Eigentumsübertragung, wobei es auf den Zeitpunkt der Erfüllung des letzten Tatbestandsmerkmals des Eigentumsübergangs ankommt (\r\nDörner\r\nin BK § 69 Rn 68). Der bisherige Versicherungsnehmer ist ab der wirksamen Veräußerung nur noch „vertragsfremder Dritter\" (\r\nHeiss\r\nin\r\nHeiss/Lorenz\r\n, Versicherungsvertragsgesetz § 69 Rn 7). Damit war der Kläger mit Übergabe des PKW an ihn sowohl hinsichtlich der Haftpflichtversicherung als auch betreffend die Kaskoversicherung von Gesetzes wegen Versicherungsnehmer.\r\nDa nach Paragraph 158 h, VersVG die Vorschriften über die Veräußerung der versicherten Sache auch für (Kfz-)Haftpflichtversicherungen gelten, tritt - wie die Vorinstanzen zutreffend erkannt haben - gemäß Paragraph 69, VersVG der Erwerber an die Stelle des Veräußerers in den Haftpflichtversicherungsvertrag ein (\r\n7 Ob 25/97w\r\n; Schauer, Eigentumsübertragung und Veräußerungsanzeige in der Kfz-Haftpflichtversicherung, RdW 1998, 8). Dies gilt ebenso für die Kaskoversicherung. Der Eintritt erfolgt ex lege mit der Eigentumsübertragung, wobei es auf den Zeitpunkt der Erfüllung des letzten Tatbestandsmerkmals des Eigentumsübergangs ankommt (Dörner in BK Paragraph 69, Rn 68). Der bisherige Versicherungsnehmer ist ab der wirksamen Veräußerung nur noch „vertragsfremder Dritter\" (Heiss in Heiss/Lorenz, Versicherungsvertragsgesetz Paragraph 69, Rn 7). Damit war der Kläger mit Übergabe des PKW an ihn sowohl hinsichtlich der Haftpflichtversicherung als auch betreffend die Kaskoversicherung von Gesetzes wegen Versicherungsnehmer.\r\nEinigkeit besteht zwischen den Parteien darüber, dass der also mit Übernahme des Fahrzeugs durch den Kläger zwischen ihnen bestehende Haftpflichtversicherungsvertrag durch den anlässlich der Ab- und Anmeldung des PKW vorgenommenen Abschluss eines solchen Vertrags bei einem anderen Versicherungsunternehmen vom Kläger, der dazu nach § 70 Abs 2 VersVG befugt war, konkludent gekündigt wurde und daher zum Unfallszeitpunkt aufgelöst war. Der Vollständigkeit halber sei dazu bemerkt, dass nach § 158h Satz 2 VVG in Deutschland das alte Kfz- Haftpflichtversicherungsverhältnis mit Abschluss eines neuen Kfz-Haftpflichtversicherungsvertrags als gekündigt gilt. Da es in Österreich eine solche Regelung, durch die Doppelversicherungen vermieden werden sollen, nicht gibt, ist hier der zu ermittelnde Parteiwille maßgebend.\r\nEinigkeit besteht zwischen den Parteien darüber, dass der also mit Übernahme des Fahrzeugs durch den Kläger zwischen ihnen bestehende Haftpflichtversicherungsvertrag durch\r\n\r\nJ02 OGH 7Ob208-15m\r\nauf die Sparte „Haushalt“.\r\nDie Kündigung der Sparte „Haushalt“ (diese ist eine kombinierte Versicherung [7 Ob 264/07k]) mit (gesondertem) Schreiben vom 31. 10. 2013 erfolgte nach und wegen der der Klägerin aufgrund des Schadenfalls am selben Tag erbrachten Leistung und fristgemäß nach Artikel 12, b) ABS 1995. Diese nach Paragraph 96, VersVG zulässige Kündigung war rechtswirksam, erstreckt sich allerdings nur auf die Sparte „Haushalt“.\r\nD. Kündigung der Sparte „Rechtsschutz“ mit Schreiben vom 31. 10. 2013:\r\nDie Kündigung der Sparte „Rechtsschutz“ mit (gesondertem) Schreiben vom 31. 10. 2013 erfolgte offenbar ebenfalls wegen der der Klägerin aufgrund des Schadenfalls in der Sparte „Haushalt“ erbrachten Leistung. Da die beiden Sparten betreffend diese Kündigungsmöglichkeit getrennt zu beurteilen sind, kann die bloß in der Sparte „Haushalt“ erbrachte Leistung nicht die Kündigung der Sparte „Rechtsschutz“ rechtfertigen. Diese Kündigung war daher schon aus diesem Grund nicht rechtswirksam.\r\nE. Rechtsunwirksamkeit des Art 15.3.2. 1. Fall ARB 2005:\r\nE. Rechtsunwirksamkeit des Artikel 15 Punkt 3 Punkt 2, 1. Fall ARB 2005:\r\n1.\r\nIm Hinblick auf die Unwirksamkeit der außerordentlichen Kündigung des gesamten Vertragsverhältnisses mit Schreiben vom 9. 9. 2013 und die Unwirksamkeit der Kündigung der Sparte „Rechtsschutz“ mit Schreiben vom 31. 10. 2013 hat die Klägerin ein aufrechtes rechtliches Interesse an der Klärung der Rechtswirksamkeit der in Art 15.3.2. 1. Fall ARB 2005 vorgesehenen Kündigungsmöglichkeit.\r\n1. Im Hinblick auf die Unwirksamkeit der außerordentlichen Kündigung des gesamten Vertragsverhältnisses mit Schreiben vom 9. 9. 2013 und die Unwirksamkeit der Kündigung der Sparte „Rechtsschutz“ mit Schreiben vom 31. 10. 2013 hat die Klägerin ein aufrechtes rechtliches Interesse an der Klärung der Rechtswirksamkeit der in Artikel 15 Punkt 3 Punkt 2, 1. Fall ARB 2005 vorgesehenen Kündigungsmöglichkeit.\r\n2.\r\nDer Oberste Gerichtshof hat sich bereits in\r\n7 Ob 201/12b\r\n(VbR 2013/14 [\r\nLeupold\r\n] = SZ 2013/5) mit der insoweit wortgleichen Klausel in Art 15.3.2. ARB 2010 befasst. Er ist dabei zum Ergebnis gekommen, dass ein unbeschränktes Kündigungsrecht im Schadenfall in der Rechtsschutzversicherung nicht paritätisch sein muss. Ist es imparitätisch, müssen die Voraussetzungen für das Kündigungsrecht des Versicherers besonders genau präzisiert und objektivierbar sein, um beurteilen zu können, ob es im Sinn des § 879 Abs 3 ABGB auch sachlich gerechtfertigt ist (RIS-Justiz\r\nRS0128803\r\n). Art 15.3.2. ARB 2010 wurde demnach als gemäß § 879 Abs 3 ABGB nichtig erkannt. Dies trifft vorliegend auch auf den gleichlautenden Art 15.3.2. 1. Fall ARB 2005 zu. Das zu diesem Punkt erhobene Feststellungsbegehren der Klägerin ist demnach berechtigt.\r\n2. Der Oberste Gerichtshof hat sich bereits in\r\n7 Ob 201/12b\r\n(VbR 2013/14 [Leupold] = SZ 2013/5) mit der insoweit wortgleichen Klausel in Artikel 15 Punkt 3 Punkt 2, ARB 2010 befasst. Er ist dabei zum Ergebnis gekommen, dass ein unbeschränktes Kündigungsrecht im Schadenfall in der Rechtsschutzversicherung nicht paritätisch sein muss. Ist es imparitätisch, müssen die Voraussetzungen für das Kündigungsrecht des Versicherers besonders genau präzisiert und objektivierbar sein, um beurteilen zu können, ob es im Sinn des Paragraph 879, Absatz 3, ABGB auch sachlich gerechtfertigt ist (RIS-Justiz\r\nRS0128803\r\n). Artikel 15 Punkt 3 Punkt 2, ARB 2010 wurde demnach als gemäß Paragraph 879, Absatz 3, ABGB nichtig erkannt. Dies trifft vorliegend auch auf den gleichlautenden Artikel 15 Punkt 3 Punkt 2, 1. Fall ARB 2005 zu. Das zu diesem Punkt erhobene Feststellungsbegehren der Klägerin ist demnach berechtigt.\r\nF. Im Ergebnis folgt:\r\n1.1.\r\nEs können zwar auch Versicherungsverträge mit außerordentlicher Kündigung aus wichtigem Grund aufgelöst werden, doch ist dies eine Notmaßnahme, die besonders wichtiger Gründe bedarf, die dem vom Erstgericht festgestellten Sachverhalt nicht zu entnehmen sind. Die außerordentliche Kündigung der gesamten Bündelversicherung war daher unwirksam, sodass sich das darauf gerichtete Feststellungsbegehren der Klägerin als berechtigt erweist.\r\n1.2.\r\nDie Kündigung der Versicherung betreffend die Sparte „Haushalt“ nach erbrachter Leistung gemäß Art 12 b)  ABS 1995 war wirksam, das gegenteilige Feststellungsbegehren der Klägerin dagegen nicht berechtigt.\r\n1.2. Die Kündigung der Versicherung betreffend die Sparte „Haushalt“ nach erbrachter Leistung gemäß Artikel 12, b)  ABS 1995 war wirksam, das gegenteilige Feststellungsbegehren der Klägerin dagegen nicht berechtigt.\r\n1.3.\r\nDie Kündigung der Versicherung betreffend die Sparte „Rechtsschutz“ war im Hinblick auf die gebotene getrennte Beurteilung der Kündigungsmöglichkeit nicht rechtswirksam. Das darauf abzielende Feststellungsbegehren der Klägerin ist demnach genauso berechtigt wie das Begehren auf Feststellung der Rechtsunwirksamkeit der die Sparte „Rechtsschutz“ betreffenden Klausel. Insgesamt erweist sich damit die Revision der Klägerin in dem aus dem Spruch ersichtlichen Umfang als teilweise berechtigt.\r\n2.\r\nFür die Kostenentscheidung steht nach dem Erfolgsprinzip im Vordergrund, dass die Klägerin die Rechtsunwirksamkeit der Kündigung betreffend die Sparte „Rechtsschutz“ erweisen konnte, während sie insoweit bei der Sparte „Haushalt“ erfolglos war. Das Ergebnis der Klärung der Wirksamkeit des Art 15.3.2. 1. Fall ARB 2005 begründet kostenrechtlich keinen relevant überwiegenden Prozesserfolg der Klägerin, was für alle Instanzen zur Kostenaufhebung führt (§ 43 Abs 1 ZPO [für das Rechtsmittelverfahren iVm § 50 ZPO]).\r\n2. Für die Kostenentscheidung steht nach dem Erfolgsprinzip im Vordergrund, dass die Klägerin die Rechtsunwirksamkeit der Kündigung betreffend die Sparte „Rechtsschutz“ erweisen konnte, während sie insoweit bei der Sparte „Haushalt“ erfolglos war. Das Ergebnis der Klärung der Wirksamkeit des Artikel 15 Punkt 3 Punkt 2, 1. Fall ARB 2005 begründet kostenrechtlich keinen relevant überwiegenden Prozesserfolg der Klägerin, was für alle Instanzen zur Kostenaufhebung führt (Paragraph 43, Absatz eins, ZPO [für das Rechtsmittelverfahren in Verbindung mit Paragraph 50, ZPO]).\r\nSchlagworte\r\n1 Generalabonnement,9 Vertragsversicherungsrecht\r\nTextnummer\r\nE115300\r\nEuropean Case Law Identifier (ECLI)\r\nECLI:AT:OGH0002:2016:0070OB00208.15M.0706.000\r\nIm RIS seit\r\n03.08.2016\r\nZuletzt aktualisiert am\r\n12.02.2018\r\nDokumentnummer\r\nJJT_20160706_OGH0002_0070OB00208_15M0000_000\r\nZum Seitenanfang\r\n.\r\nÜber diese Seite\r\n© 2026 Bundeskanzleramt der Republik Österreich\r\n",
+  "exitCode": 0,
+  "durationMs": 183
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-a0baa8be-d4a0-40a9-8e11-8bcaef2f3ff3",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Renuntare componente Donau\\2026.10.29 Nota audit - componente independente si modificarea politei.txt",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "2026.10.29 — NOTĂ JURIDICĂ: componente independente, reziliere parțială și adăugarea de acoperiri\nDONAU 2044001194 — Schallergasse 35\nObiect: distincția Bündelversicherung / kombinierte Versicherung și limitele modificării unilaterale. Surse oficiale austriece verificate în forma disponibilă la data notei.\n\nCONCLUZIE\nExistă argumente documentare serioase că polița DONAU grupează ramuri juridic distincte. Aceasta poate permite încetarea unei ramuri fără încetarea celorlalte, DAR numai dacă sunt îndeplinite dreptul de încetare, termenul și preavizul aplicabile acelei ramuri. Separabilitatea nu înseamnă drept de renunțare imediată sau anuală. Un termen fix comun, valabil convenit până în 2036.01.01, poate lega fiecare componentă.\nAdăugarea unor riscuri/persoane/acoperiri noi sau înlocuirea unui pachet cu altul necesită, în principiu, acordul asigurătorului. Nici prima separată, nici dorința de a adapta asigurarea la nevoile actuale nu obligă singure DONAU să accepte noua combinație.\n\n1. CE SPUNE OGH DESPRE FORMA CONTRACTULUI\nJ03 — OGH 7 Ob 92/19h, 2020.02.19, pct.1.1–1.3: o asigurare combinată reunește riscuri într-un contract unic; o asigurare grupată reunește contracte distincte, de regulă pe o singură poliță, cu condiții specifice. În speță, incendiul clădirii și asigurarea gospodăriei erau independente; lipsa prestației într-o ramură nu se transmitea automat celeilalte. Hotărârea nu acordă o facultate de reziliere imediată.\nJ02 — OGH 7 Ob 208/15m, 2016.07.06, secțiunile B–D și F: OGH a analizat separat încetarea ramurilor Haushalt și Rechtsschutz. Încetarea după dauna despăgubită era valabilă pentru prima, dar evenimentul din această ramură nu justifica încetarea celeilalte. Rezultatul depindea de condițiile aplicabile fiecăreia, nu doar de existența unui pachet.\nJ04 — OGH 7 Ob 178/24p, 2024.12.18, pct.4.1–4.3: în lipsa unei convenții speciale, ramurile grupate pot avea existență juridică separată, însă contează configurația contractuală concretă. În litigiul privind neplata unui pachet auto, reclamantul nu invocase/probase autonomia contractuală și primele individuale cerute de argumentația sa; OGH nu a impus defalcarea somației. Nu este o hotărâre care face prima separată o condiție suficientă pentru reziliere.\n\n2. CE DOVEDEȘTE PRIMA SEPARATĂ\nEste un indiciu de delimitare economică a ramurilor și permite identificarea costului lor. Trebuie corelată cu riscul asigurat, propriile condiții, clauzele de încetare și orice acord de legare a componentelor. Concluzia de mai jos este aplicarea acestor criterii la documentele DONAU, nu un verdict judecătoresc asupra poliței.\nPolița din 2026.06.03, p.3–5, separă anual: incendiu 763,20 EUR; întrerupere/Mietverlust 41,72 EUR; furtună 771,56 EUR; apă din conducte 3.127,72 EUR; pachete suplimentare 24,68 EUR; răspundere 1.638,36 EUR. Enumeră condiții și clauze distincte. Cererea din 2020 folosește și denumirea Wohngebäudebündel-Versicherung. Aceste elemente susțin separarea ramurilor principale.\nNu rezultă că fiecare sublimită, extensie sau clauză suplimentară este un contract independent. De exemplu, extensiile din ramura apă pot fi simple completări ale aceleiași acoperiri. J06 — OLG Wien 5 R 124/25d, 2025.10.28, pct.3–3.1, distinge concret două clauze de extensie a acoperirii de asigurări autonome. Este o hotărâre de apel despre acoperire, nu un precedent care soluționează dreptul A&C de reziliere.\nPaketkündigungsklausel din extensiile DONAU, p.12 / pagina tipărită15, recunoaște încetarea unei ramuri de către asigurător și permite, la cererea asiguratului, încetarea întregului pachet la aceeași dată, cu regula contractuală de recuperare a avantajului de durată. Nu acordă asiguratului un drept general de scoatere imediată a oricărei componente. Trebuie examinată împreună cu eventuala renunțare la recuperare, pagina tipărită16.\n\n3. TERMENUL 2036 RĂMÂNE O PROBLEMĂ DISTINCTĂ\nL01 — §8 alin.1 VersVG limitează la un an fiecare prelungire tacită; nu scurtează durata fixă deja valabil convenită. Regula consumatorului din alin.3 nu poate fi aplicată automat unei GmbH imobiliare în activitatea sa profesională.\nChiar dacă ramura de apă este independentă, aceasta poate avea aceeași expirare2036 ca incendiul. Ar trebui identificat un drept legal special, o clauză proprie de încetare anticipată ori un acord cu DONAU pentru o dată mai apropiată. În actele verificate nu am identificat un drept general al A&C de a elimina unilateral ramura apă sau Mietverlust în orice moment exclusiv pentru că nu o mai dorește. Această constatare nu exclude alte temeiuri legale analizate separat, precum dispariția interesului ori reducerea riscului, dacă faptele și condițiile lor sunt dovedite.\nExtensiile primite în 2026.10.29 reprezintă paginile tipărite4–16; lipsesc paginile1–3. Trebuie verificat setul contractual complet înaintea unei concluzii definitive despre legarea ramurilor și condițiile modificării.\n\n4. OGH 7 OB 13/85 — RENUNȚAREA ȘI ADĂUGAREA NU SE CONFUNDĂ\nJ01 — OGH 7 Ob 13/85, 1985.03.28: asigurata ceruse un tarif medical redus împreună cu includerea fiului. OGH a considerat solicitarea, în ansamblu, ofertă de modificare, nu simplă reziliere parțială. Nu era clar că ar fi acceptat numai reducerea; includerea unei persoane noi nu putea constitui reziliere. Era necesar acordul asigurătorului, iar tăcerea sa nu valora în mod obișnuit acceptare. Contractul vechi și primele au rămas în vigoare.\nHotărârea admite conceptual relevanța unei veritabile rezilieri parțiale, dar nu creează un drept universal la aceasta; în speță era invocată o prevedere tarifară proprie. Pentru A&C: dacă există temei de reziliere a unei ramuri, declarația trebuie să identifice clar ramura, temeiul și data. Propunerea de adăugare a altor riscuri trebuie delimitată de acea declarație. Dacă A&C dorește eliminarea numai în schimbul acceptării unui nou pachet, rezultatul este o negociere de modificare; nu se poate prezenta drept schimbare unilaterală deja operată.\n\n5. CONTRACTUL NOU NU ÎL STINGE AUTOMAT PE CEL VECHI\nJ05 — OGH 7 Ob 264/07k, 2008.03.12: polițele auto de răspundere și casco puteau fi independente; încheierea unei noi asigurări de răspundere nu stingea implicit și casco. Speța este auto, însă ilustrează precis necesitatea identificării contractului/ramurii care încetează. Pentru A&C, cumpărarea de acoperiri suplimentare de la DONAU ori de la alt asigurător nu dovedește singură încetarea ramurilor existente și nu justifică deducerea unilaterală a primelor lor.\n\n6. APLICARE PRACTICĂ\na) Cerem DONAU să confirme pentru fiecare ramură dacă este contract distinct, propriul termen, clauza de încetare și orice clauză care leagă componentele. Dacă refuză separarea, să indice textul contractual concret.\nb) Pentru eliminarea Leitungswasser și Mieten-BU există deja răspunsul Pfeiffer din 2026.07.14: excluderea ar fi posibilă pentru dispariția riscului, după actele tehnice solicitate. Calea concretă este completarea probelor și obținerea datei de efect și a recalculării; mesajul nu dovedește că eliminarea a fost deja aprobată.\nc) Pentru componentele noi se cere ofertă separată cu începutul acoperirii, prima, condițiile și durata. Se precizează că nu se solicită reînceperea duratei ramurilor păstrate; rezultatul trebuie confirmat în acordul final.\nd) Nu există aici concluzia că simpla împărțire a primei înlătură2036. O încetare unilaterală anticipată trebuie justificată separat, pe fiecare ramură și pe faptele reale.\n\nSURSE OFICIALE\nOriginalele HTML și extrasele TXT, cu URL și SHA-256, sunt salvate în «Surse audit/2026.10.29 Registru surse audit componente.json».\nJ01: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True\nJ02: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20160706_OGH0002_0070OB00208_15M0000_000&IncludeSelf=True\nJ03: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20200219_OGH0002_0070OB00092_19H0000_000&IncludeSelf=True\nJ04: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20241218_OGH0002_0070OB00178_24P0000_000&IncludeSelf=True\nJ05: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20080312_OGH0002_0070OB00264_07K0000_000&IncludeSelf=True\nJ06: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20251028_OLG0009_00500R00124_25D0000_000/JJT_20251028_OLG0009_00500R00124_25D0000_000.html\nL01: https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138452/NOR40138452.html\nExplicații oficiale FMA, consultate online; paginile nu au putut fi descărcate local (HTTP403):\nhttps://www.fma.gv.at/glossar/buendelversicherung/\nhttps://www.fma.gv.at/glossar/kombinierte-versicherung-verbundene-versicherung/\n\nVerificarea nu a modificat polița, nu a creat notificări și nu a trimis emailuri. Nu a fost identificată prin căutarea efectuată o hotărâre OGH mai nouă decât 7 Ob178/24p care să schimbe criteriul contractual al separabilității; aceasta nu este o afirmație de exhaustivitate a tuturor hotărârilor austriece.\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-8b0aa5d0-4b41-4b8d-b292-be90c7e694dc",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Renuntare componente Donau\\2026.10.29 Nota audit - componente independente si modificarea politei.txt",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -11,3 +11,3 @@\n J02 — OGH 7 Ob 208/15m, 2016.07.06, secțiunile B–D și F: OGH a analizat separat încetarea ramurilor Haushalt și Rechtsschutz. Încetarea după dauna despăgubită era valabilă pentru prima, dar evenimentul din această ramură nu justifica încetarea celeilalte. Rezultatul depindea de condițiile aplicabile fiecăreia, nu doar de existența unui pachet.\n-J04 — OGH 7 Ob 178/24p, 2024.12.18, pct.4.1–4.3: în lipsa unei convenții speciale, ramurile grupate pot avea existență juridică separată, însă contează configurația contractuală concretă. În litigiul privind neplata unui pachet auto, reclamantul nu invocase/probase autonomia contractuală și primele individuale cerute de argumentația sa; OGH nu a impus defalcarea somației. Nu este o hotărâre care face prima separată o condiție suficientă pentru reziliere.\n+J04 — OGH 7 Ob 178/24p, 2024.12.18, secțiunile 4.1–4.2, paragrafele [12]–[15]: în lipsa unei convenții speciale, ramurile grupate pot avea existență juridică separată, însă contează configurația contractuală concretă. În litigiul privind neplata unui pachet auto, reclamantul nu invocase/probase autonomia contractuală și primele individuale cerute de argumentația sa; OGH nu a impus defalcarea somației. Nu este o hotărâre care face prima separată o condiție suficientă pentru reziliere.\n \n@@ -33,5 +33,5 @@\n a) Cerem DONAU să confirme pentru fiecare ramură dacă este contract distinct, propriul termen, clauza de încetare și orice clauză care leagă componentele. Dacă refuză separarea, să indice textul contractual concret.\n-b) Pentru eliminarea Leitungswasser și Mieten-BU există deja răspunsul Pfeiffer din 2026.07.14: excluderea ar fi posibilă pentru dispariția riscului, după actele tehnice solicitate. Calea concretă este completarea probelor și obținerea datei de efect și a recalculării; mesajul nu dovedește că eliminarea a fost deja aprobată.\n+b) Pentru eliminarea Leitungswasser și Mieten-BU există deja răspunsul Pfeiffer din 2026.07.14: excluderea ar fi posibilă pentru dispariția riscului, după actele tehnice solicitate. Calea concretă este completarea probelor și obținerea datei de efect și a recalculării; mesajul nu dovedește că eliminarea a fost deja aprobată. Documentele cerute aparțin acestei căi bazate pe Risikowegfall. O reziliere distinctă, valabilă potrivit propriului temei și termen, nu depinde în mod general de dispariția riscului. Solicitarea unor documente relevante pentru evaluarea riscului nu demonstrează prin ea însăși existența unei clauze abuzive.\n c) Pentru componentele noi se cere ofertă separată cu începutul acoperirii, prima, condițiile și durata. Se precizează că nu se solicită reînceperea duratei ramurilor păstrate; rezultatul trebuie confirmat în acordul final.\n-d) Nu există aici concluzia că simpla împărțire a primei înlătură2036. O încetare unilaterală anticipată trebuie justificată separat, pe fiecare ramură și pe faptele reale.\n+d) Nu există aici concluzia că simpla împărțire a primei înlătură termenul 2036. O încetare unilaterală anticipată trebuie justificată separat, pe fiecare ramură și pe faptele reale.\n \n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_1b349041b702430b9cb2ad0406bb2dd2",
+  "kind": "interacted",
+  "agentThreadId": "01a0f21f-8b26-7c51-85f9-22089ebfea54",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Nota și sursele RIS sunt salvate în **„2026.10.29 Renuntare componente Donau”**.
+
+Concluzii:
+
+- Ramurile distincte pot fi reziliate separat, **cu respectarea temeiului și termenului propriu**.
+- Primele separate sunt indicii de autonomie, nu drept de ieșire imediată.
+- Termenul comun2036 poate rămâne aplicabil fiecărei ramuri.
+- **OGH7Ob13/85 nu permite modificarea unilaterală:** reducerea combinată cu adăugarea altor acoperiri poate necesita acordul asigurătorului.
+- Documentele Pfeiffer privesc excluderea pentru dispariția riscului; nu condiționează orice reziliere valabilă.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-03d30978-006e-4f67-a8d0-f99770112cb1",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "24844",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt'",
+      "name": "2026.10.29 Concluzie juridica - eliminarea componentelor.txt",
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Renuntare componente Donau\\2026.10.29 Concluzie juridica - eliminarea componentelor.txt"
+    }
+  ],
+  "aggregatedOutput": "2026.10.29 — DONAU 2044001194: eliminarea și adăugarea componentelor\r\nSituație analizată: Schallergasse 35; asigurat A&C Wohnart Immobilien GmbH.\r\nSinteză juridică bazată pe poliță, condițiile disponibile, corespondența arhivată și surse oficiale austriece. Nu este o confirmare a modificării contractului.\r\n\r\nCONCLUZIA DIRECTĂ\r\nExistă temeiuri legale pentru reducerea primei și, în anumite condiții, pentru încetarea unei ramuri. Nu depind toate de acceptarea voluntară a DONAU. Dar legea nu conferă un drept general de a scoate și adăuga oricând componente dintr-un contract valabil pe durată fixă, exclusiv pentru că asiguratul și-a schimbat preferințele.\r\nSepararea ramurilor, dreptul de încetare și data încetării sunt trei întrebări distincte. O componentă independentă poate rămâne legată de termenul contractual 2036.01.01. Nu am identificat în documentele verificate un drept general de renunțare parțială imediată la simpla cerere.\r\n\r\n1. CE ESTE FAVORABIL ÎN CONTRACTUL CONCRET\r\nPolița emisă la 2026.06.03 separă ramurile, primele și condițiile lor. La p.3 apare Mieten-BU cu primă anuală de 41,72 EUR, iar la p.4 Leitungswasser cu 3.127,72 EUR, sume incluzând taxele indicate în poliță. Acestea sunt primele anuale înscrise în document, nu un calcul de restituire sau o ofertă nouă. Cererea din 2020 folosește denumirea Wohngebäudebündel-Versicherung. Există deci indicii serioase de contracte grupate, cu posibilă existență juridică separată.\r\nClauza Paketkündigungsklausel, extensiile RV 29000010498, p.12 PDF / p.15 tipărită, prevede o consecință a încetării unei ramuri de către asigurător asupra întregului pachet, la dorința asiguratului. Nu acordă un drept general al clientului de a elimina imediat orice ramură. Setul RV primit începe la pagina tipărită4; lipsesc paginile1–3. O concluzie definitivă despre toate condițiile de separare cere setul complet.\r\nNu fiecare extensie sau sublimită dintr-o ramură este, prin aceasta, un contract separat.\r\n\r\n2. TEMEIURI LEGALE — CE PERMIT ȘI CE NU PERMIT\r\nA. Încetarea unei ramuri independente (Teilkündigung)\r\nOGH 7 Ob 92/19h, 2020.02.19, pct.1.1–1.3, distinge contractul combinat indivizibil de pachetul de contracte independente. OGH 7 Ob 208/15m, 2016.07.06, analizează separat drepturile de încetare ale ramurilor. OGH 7 Ob 178/24p, 2024.12.18, pct.4, cere examinarea configurației contractuale concrete.\r\nAplicare: dacă există pentru ramura vizată un drept legal sau contractual de încetare și se respectă termenul/preavizul, declarația nu devine valabilă numai după acordul discreționar al asigurătorului. Pentru o asemenea încetare nu trebuie demonstrat că apa ori riscul de pierdere a chiriei au dispărut, dacă temeiul invocat nu cere aceasta. Dar separabilitatea nu creează singură acel drept și nu înlătură durata fixă.\r\n\r\nB. Reducerea primei — §41a împreună cu §42 VersVG\r\n§41a permite solicitarea unei reduceri adecvate pentru perioadele de asigurare viitoare dacă împrejurări determinate care justificau o primă mai mare dispar ori își pierd importanța. Este un drept legal când condițiile sunt dovedite; nu o simplă favoare comercială. §42 împiedică derogarea contractuală în defavoarea asiguratului de la protecția relevantă.\r\nOGH 7 Ob 53/14s, 2015.02.18, p.17, pct.2.3–2.4, confirmă mecanismul pentru perioada de asigurare următoare. O rată trimestrială nu este automat o perioadă de asigurare distinctă.\r\nLimita: nu orice percepție că riscul este mai mic și nu simpla lipsă a daunelor justifică reducerea. Trebuie identificate împrejurările tarifare concrete și schimbarea lor. Reducerea primei nu înseamnă automat eliminarea acoperirii. În dosarul nostru, DONAU leagă tariful negociat în 2025 de istoricul daunelor; trebuie cerut ce parte a tarifului este legată de ce împrejurări actuale și cum influențează lucrările acea evaluare.\r\n\r\nC. Dispariția interesului asigurat — §68 și §68a VersVG\r\nDispariția reală a interesului asigurat poate conduce la încetarea raportului relevant și la limitarea primei. §68 alin.2 raportează calculul la durata până când asigurătorul află despre dispariție. Nu rezultă automat restituirea întregii prime sau o simplă împărțire pe zile; calculul poate depinde de condițiile valabile pentru durata efectivă.\r\nOGH 7 Ob 211/12y, 2013.03.27, confirmă protecția §68a inclusiv pentru asigurați profesioniști. OGH 7 Ob 22/90, 1990.06.28, arată că interesul nu dispare cât timp evenimentul asigurat încă se poate produce; o schimbare a activității ori a amplasamentului nu este suficientă prin ea însăși.\r\nAplicare: faptul că nu mai dorim acoperirea nu este identic cu dispariția interesului. O oprire temporară a apei sau lipsa momentană a chiriașilor nu probează singure dispariția completă.\r\n\r\nD. Adăugarea ori schimbarea componentelor\r\nOGH 7 Ob 13/85, 1985.03.28, este direct relevant: solicitarea unui tarif redus împreună cu includerea unei persoane noi a fost tratată ca ofertă de modificare ce necesita acordul asigurătorului. Tăcerea nu a produs, prin ea însăși, modificarea.\r\nAplicare: nu am identificat un drept de a impune unilateral DONAU un risc nou și prima acestuia. Dacă avem un drept de încetare pentru o ramură, acesta trebuie exercitat clar, separat de solicitarea unei oferte pentru alte acoperiri. Dacă eliminarea este dorită numai împreună cu acceptarea noului pachet, avem o negociere asupra ansamblului.\r\n\r\n3. SUNT ABUZIVE CELE TREI DOCUMENTE CERUTE DE PFEIFFER?\r\nÎn mesajul din 2026.07.14, anexat răspunsului din 2026.10.29, Pfeiffer propune eliminarea Leitungswasser și Mieten-BU pe motiv de Risikowegfall. Cere autorizația de construire, descrierea lucrărilor și confirmarea instalatorului că instalațiile sunt închise/securizate. Nu formulează o regulă legală generală pentru toate cazurile de renunțare.\r\n§§41a și68 nu prescriu această listă de trei documente. Nu am identificat în clauzele citite o cerință universală de a prezenta exact toate aceste acte pentru orice eliminare. Probele relevante pot fi necesare dacă invocăm dispariția ori reducerea riscului; de aceea solicitarea nu poate fi calificată automat drept abuzivă.\r\n• Confirmarea instalatorului are legătură cu apa. Totuși, AWB art.5, p.59 din condițiile istorice, cere deja închiderea apei după neocupare mai mare de72h; îndeplinirea acestei obligații nu demonstrează singură dispariția întregului risc. Polița acoperă și daune la conducte, nu doar apa folosită de ocupanți.\r\n• Pentru Mieten-BU sunt relevante contractele de închiriere, veniturile asigurate, calendarul real al lucrărilor și perspectiva reluării închirierii. Clauza1347K, p.17, privește venitul care s-ar fi realizat în perioada relevantă de12luni după daună. Certificatul instalatorului nu dovedește singur situația chiriilor.\r\n• Autorizația și descrierea lucrărilor pot clarifica natura și durata proiectului. Dacă faptul invocat poate fi demonstrat fără autorizație ori prin alt înscris, trebuie cerută justificarea refuzului acelor probe. Nu există aici un precedent identificat care să declare exact această cerere DONAU ilegală.\r\nControlul clauzelor dezechilibrate prin §879 alin.3 ABGB presupune identificarea unei prevederi contractuale și a dezavantajului nejustificat; nu transformă orice solicitare de informații într-o clauză nulă. Pentru moment, argumentul puternic este relevanța probelor și respectarea drepturilor din VersVG, nu o acuzație generică de abuz.\r\n\r\n4. PUNCTUL DE VEDERE ȘI PASUL URMĂTOR\r\nTrebuie cerut DONAU un răspuns separat pentru apă și Mieten-BU:\r\n1) Contract distinct sau componentă indivizibilă? Clauza exactă, termenul și orice drept de încetare anticipată aplicabil.\r\n2) Pentru §41a: ce împrejurări justifică prima actuală, ce s-a schimbat, ce reducere rezultă și de când; inclusiv începutul următoarei perioade de asigurare.\r\n3) Pentru §68: ce interes asigurat consideră că mai există concret, ce fapt trebuie dovedit și de ce este necesar fiecare document; ce probe echivalente acceptă separat pentru apă și chirii.\r\n4) Pe baza propunerii Pfeiffer din 2026.07.14: data posibilă a excluderii, calculul primei și eventualul sold de restituit/compensat, cu explicația eventualelor reduceri de durată recuperate. Cererea anterioară de efect de la2026.07.01 trebuie analizată expres; nu este deja acceptată.\r\n5) Pentru acoperirile noi: ofertă distinctă, cu durată, primă și data începerii, precizând că solicitarea nu autorizează o nouă durată de zece ani pentru ramurile păstrate.\r\nPână la identificarea unui temei de încetare valabil sau a unei modificări convenite, cele două prime nu se tratează ca deja eliminate. În schimb, existența termenului2036 nu răspunde singură unei cereri întemeiate de reducere a primei ori de constatare a dispariției interesului.\r\n\r\nSURSE ȘI TRASABILITATE\r\nPolița: 814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf, p.3–4; capturi în Surse.\r\nCondiții istorice: dosarul2026.10.14 Analiza juridica Donau/Surse; paginile relevante și verificările sunt în notele colaboratorilor.\r\nEmail: dosarul2026.10.29 Raspuns Donau; Eva-Mail ID8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7; anexele Memoformat.pdf și Deckungserweiterungen_RV29000010498.pdf. Statut primit; nu s-a expediat o nouă cerere în această analiză.\r\nLege consolidată: https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979\r\n§41a: https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460\r\nExplicație oficială FMA: https://www.fma.gv.at/glossar/kombinierte-versicherung-verbundene-versicherung/\r\nPrecedentele integrale, URL-urile, hashurile și datele preluării sunt în Surse și Surse audit, în registrele JSON datate2026.10.29. Interpretările și limitele fiecărei spețe sunt dezvoltate în cele trei note din acest dosar.\r\n",
+  "exitCode": 0,
+  "durationMs": 91
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_9d58b4fa61024656ab083a6830a1b75f",
+  "kind": "interacted",
+  "agentThreadId": "01a139c8-7903-7da3-9a9b-766b146e41eb",
+  "agentPath": "/root/redactare_donau"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-73713660-f46c-4c43-bbc0-9fa57d58bca3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport fitz,pathlib,tempfile\np=pathlib.Path('05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf');d=fitz.open(p)\nfor n,pg in enumerate(d):\n t=pg.get_text()\n if '1242K' in t or ('Kündigung' in t and 20<n<28):\n  print('\\\\n---PAGE '+str(n+1)+'---\\\\n'+t)\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "16943",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport fitz,pathlib,tempfile\np=pathlib.Path('05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf');d=fitz.open(p)\nfor n,pg in enumerate(d):\n t=pg.get_text()\n if '1242K' in t or ('Kündigung' in t and 20<n<28):\n  print('\\n---PAGE '+str(n+1)+'---\\n'+t)\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "\r\n---PAGE 3---\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\nPolizze Nr. 2044001194 \r\nSeite 3 von 11 \r\n03.02.2026 \r\n11400070586369 \r\nJahresprämie für Feuerversicherung \r\n \r\n763,20 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n \r\n72,96 \r\n \r\ninkl. Feuerschutzsteuer \r\n4,00 % \r\n \r\n26,60 \r\n \r\nBetriebsunterbrechungsversicherung (Beträge in EUR) \r\n \r\nBeschreibung \r\nVersicherungssumme \r\nPrämie \r\nFeuer-BU-Versicherung für Mietverlust \r\ngemäß Klauseln 1013A, 1347K \r\nHaftungssumme \r\n50.000,00 \r\nErweiterung auf Total-BU-Versicherung für Mietverlust \r\ngemäß Klausel 1345K \r\n \r\nJahresprämie für Betriebsunterbrechungsversicherung \r\n \r\n41,72 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n \r\n3,96 \r\n \r\ninkl. Feuerschutzsteuer \r\n4,00 % \r\n \r\n1,44 \r\n \r\nSturmversicherung (Beträge in EUR) \r\n \r\nBeschreibung \r\nVersicherungssumme \r\nPrämie \r\nGrunddeckung \r\ngemäß Klausel 3139K \r\nSumme der Objektversicherungssummen \r\n3.315.306,00 \r\nNebenkosten, das sind Bewegungs- und Schutzkosten, \r\nAbbruch- und Aufräumkosten, Entsorgungskosten, \r\nsowie Mehrkosten durch Behandlung von gefährlichem Abfall \r\nund/oder Problemstoffen \r\ngemäß Klausel 1238K \r\nErstes Risiko \r\n663.061,20 \r\nMehrkosten \r\ngemäß Klausel 1440K \r\nErstes Risiko \r\n663.061,20 \r\nDeckungserweiterungen \r\ngemäß Klausel 1451K \r\nErstes Risiko \r\n50.000,00 \r\nVorsorge \r\ngemäß Klausel 1441K \r\nErstes Risiko \r\n663.061,20 \r\nOptische Schäden durch Hagel \r\ngemäß Klausel 1246K \r\nErstes Risiko \r\n10.000,00 \r\nKatastrophendeckung Wasser \r\ngemäß Klausel 3031K \r\nErstes Risiko \r\n80.000,00 \r\nKatastrophendeckung Erdbeben \r\ngemäß Klausel 1242K \r\nErstes Risiko \r\n30.000,00 \r\n \r\n\r\n\r\n---PAGE 6---\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\nPolizze Nr. 2044001194 \r\nSeite 6 von 11 \r\n03.02.2026 \r\n11400070586369 \r\nNacheinem ersatzpflichtigen Leitungswasserschaden im Sinne der Bedingungen ist die Einholung der \r\nGenehmigung des Versicherers für die künstliche Austrocknung nicht erforderlich, wenn die \r\nvoraussichtlichen Kosten für die künstliche Austrocknung EUR 1.500.- nicht übersteigen und der VN die \r\nkünstliche Austrocknung zur Schadenminderung für geboten hält. Der VN hält sich hierbei an die \r\nPartnerpreise der Versicherungsgesellschaft gebunden. Die Beauftragung und der Eintritt des Schaden \r\nmuss dem Versicherer gemeldet werden. Die Katastrophendeckung Wasser gilt mit einer VS von EUR 80 \r\n000,-- vereinbart. \r\n \r\nGesamtprämie (Beträge in EUR) \r\n \r\nGesamtjahresprämie für den Vertrag \r\n \r\n6.367,24 \r\n \r\ninkl. Versicherungssteuer \r\n11,00 % \r\n628,00 \r\n \r\ninkl. Feuerschutzsteuer \r\n4,00 % \r\n28,88 \r\n \r\nPrämienabrechnung (Beträge in EUR) \r\n \r\nPrämie vom 01.01.2026 bis 01.04.2026 \r\n \r\n1.591,81 \r\n \r\ninkl. Versicherungssteuer \r\n157,00 \r\n \r\ninkl. Feuerschutzsteuer \r\n7,22 \r\nRückbuchung vom 01.01.2026 bis 01.04.2026 \r\n \r\n-1.517,32 \r\n \r\ninkl. Versicherungssteuer \r\n-149,69 \r\n \r\ninkl. Feuerschutzsteuer \r\n-6,71 \r\nergibt eine Prämienvorschreibung \r\n \r\n74,49 \r\nSomit zu bezahlen* \r\n \r\n74,49 \r\n* Bei dieser Position handelt es sich um den aktuellen Kontostand der Polizze. \r\n \r\nZahlungsweise \r\n \r\nWie vereinbart, erfolgt die Prämienzahlung durch SEPA-Lastschrift über das von Ihnen genannte \r\nGirokonto unter Angabe der Mandatsreferenz 20440011942021072001. \r\nDie Erst- oder Einmalprämie wird frühestens 5 Tage nach Vertragserrichtung abgebucht. \r\nDie Abbuchung der Folgeprämie findet jeweils vierteljährlich am ersten Werktag ab Erreichen der \r\nFälligkeit statt. \r\nBitte beachten Sie, dass Prämien am Bankauszug getrennt ausgewiesen werden können. \r\n \r\nPrämie zur nächsten Fälligkeit (Beträge in EUR) \r\n \r\nFolgeprämie zahlbar vierteljährlich  \r\n \r\n1.591,81 \r\n \r\ninkl. Versicherungssteuer \r\n157,00 \r\n \r\ninkl. Feuerschutzsteuer \r\n7,22 \r\n \r\nVertragsgrundlagen \r\n \r\n1000K – \r\nLaufzeitvorteil \r\n1002K – \r\nEinschluss von Schäden durch Terrorakte \r\n1224K – \r\nNebenkosten Feuerversicherung \r\n1238K – \r\nNebenkosten Sturmversicherung \r\n1242K – \r\nKatastrophendeckung Erdbeben \r\n1246K – \r\nOptische Schäden Gebäude \r\n1249K – \r\nNebenkosten Leitungswasserversicherung \r\n\r\n\r\n---PAGE 10---\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\nPolizze Nr. 2044001194 \r\nSeite 10 von 11 \r\n03.02.2026 \r\n11400070586369 \r\n \r\nMit freundlichen Grüßen \r\nDONAU Versicherung AG \r\nVienna Insurance Group \r\n \r\n \r\n \r\nppa Mag. Mario Dienstl \r\nppa Mag. Manuela Nedwed \r\n \r\nBeilagen \r\n• 1000K \r\n– Laufzeitvorteil \r\n• 1002K \r\n– Einschluss von Schäden durch Terrorakte \r\n• 1224K \r\n– Nebenkosten Feuerversicherung \r\n• 1238K \r\n– Nebenkosten Sturmversicherung \r\n• 1242K \r\n– Katastrophendeckung Erdbeben \r\n• 1246K \r\n– Optische Schäden Gebäude \r\n• 1249K \r\n– Nebenkosten Leitungswasserversicherung \r\n• 1255K \r\n– Erweiterung des Rohrersatzes \r\n• 1256K \r\n– Mitversicherung von Verstopfungsschäden der Ableitungsrohre außerhalb des Gebäudes \r\nam Grundstück \r\n• 1325K \r\n– Mitversicherung von Ableitungsrohre außerhalb des Grundstücks \r\n• 1345K \r\n– Besondere Bedingungen für die Total-BU-Versicherung \r\n• 1347K \r\n– Besondere Bedingungen für die Mietverlust-BU-Versicherung \r\n• 1438K \r\n– Zusatzbedingungen für die Feuerversicherung von Wohngebäuden (ZB F WG 2018) \r\n• 1439K \r\n– Deckungserweiterungen zur Feuer-Gebäudeversicherung \r\n• 1440K \r\n– Mehrkosten \r\n• 1441K \r\n– Vorsorge für Gebäude - Wohnhausversicherung \r\n• 1442K \r\n– Indirekte Blitzschlagschäden \r\n• 1443K \r\n– Beschädigungen an Gebäudebestandteilen im Zuge eines Einbruchdiebstahls \r\n• 1444K \r\n– Kaminschleifen \r\n• 1445K \r\n– Schäden durch Ruß und Rauch sowie Verpuffung \r\n• 1449K \r\n– Mehrkosten für Ersatzräumlichkeiten \r\n• 1450K \r\n– Zusatzbedingungen für die Sturmversicherung von Wohngebäuden (ZB St WG 2018) \r\n• 1451K \r\n– Deckungserweiterungen zur Sturm-Gebäudeversicherung \r\n• 1453K \r\n– Zusatzbedingungen für die Leitungswasserversicherung von Wohngebäuden (ZB W WG \r\n2018) \r\n• 1455K \r\n– Leitungswasser-Gebäudeversicherung - Variante D \r\n• 1458K \r\n– Mitversicherung von Gasleitungsschäden \r\n• 1459K \r\n– Fliesenklausel \r\n• 1460K \r\n– Muffenversatz - Lösen von Rohrverbindungen \r\n• 3031K \r\n– Katastrophendeckung Wasser \r\n• 3074K \r\n– Haftpflicht - Haus und Grundbesitz Umweltschäden \r\n• 3138K \r\n– Besondere Bedingungen für die Feuer-Gebäudeversicherung - Grunddeckung \r\n• 3139K \r\n– Besondere Bedingungen für die Sturm-Gebäudeversicherung - Grunddeckung \r\n• 3140K \r\n– Besondere Bedingungen für die Leitungswasser-Gebäudeversicherung - Grunddeckung \r\n• 3142K \r\n– Klauselpaket zur Wohnhausversicherung \r\n• 3173K \r\n– Haftpflicht – All In Haus und Grundbesitz \r\n\r\n\r\n---PAGE 14---\r\n03.02.2026 \r\n \r\n \r\n \r\n \r\nKlauseln zur Polizze Nr. 2044001194 \r\nSeite 3 von 22 \r\nDie Kosten einer kurzfristigen, einmaligen Zwischenlagerung – für eine Höchstdauer von sechs Monaten – übernimmt der Versicherer \r\nim Rahmen der Versicherungssumme unter der Voraussetzung, dass ihm die Zwischenlagerung unverzüglich angezeigt wurde.  \r\n \r\nHinsichtlich der Mehrkosten aus der Behandlung von kontaminiertem Erdreich wird in jedem Schadensfall der als \r\nentschädigungspflichtig errechnete Betrag um den Selbstbehalt von 25 % gekürzt. \r\n1238K – NEBENKOSTEN STURMVERSICHERUNG \r\nNebenkosten \r\nIm Sinne des Art. 3, Pkt. 2.2 ASTB sind Bewegungs- und Schutzkosten, Abbruch- und Aufräumkosten und Entsorgungskosten \r\ninsgesamt mit der in der Polizze dokumentierten Summe mitversichert, und diese gilt zusätzlich zu der Gesamtversicherungssumme. \r\n \r\nWeiters sind im Rahmen dieser Summe auch mitversichert: \r\n \r\nIsolierkosten, das sind die Kosten für Aufräumung, Abbruch und Isolierung von versicherten Sachen, die als Folge eines unter die \r\nVersicherung fallenden Schadensereignisses radioaktiv verunreinigt (kontaminiert) wurden. Sie sind insoweit versichert, als diese \r\nMaßnahmen behördlich angeordnet sind. \r\n \r\nMehrkosten durch Behandlung von gefährlichem Abfall und/oder Problemstoffen im Sinne des Abfallwirtschaftsgesetzes (AWG) \r\nin der zum Schadenstag letztgültigen Fassung und/oder von kontaminiertem Erdreich sind, soweit sie im Rahmen versicherter \r\nAufräumungskosten keine Deckung finden, mitversichert. \r\nUnter „Behandlung“ sind alle Maßnahmen zu verstehen, welche dazu dienen, gefährlichen Abfall, Problemstoffe, Sachen, die einer \r\nAblieferungspflicht nach tierkörperverwertungsrechtlichen Bestimmungen unterliegen und/oder kontaminiertes Erdreich im Sinne des \r\nAbfallwirtschaftsgesetzes, in der zum Schadenstag letztgültigen Fassung zu verwerten, zu beseitigen oder deponiefähig zu machen. \r\nDer gefährliche Abfall, die Problemstoffe und die Kontamination des Erdreichs müssen am Versicherungsort aus versicherten Sachen \r\ndurch ein versichertes Ereignis entstanden sein. Werden die Kosten der Behandlung durch Schadstoffe verursacht, so müssen die \r\nSchadstoffe bei diesem versicherten Ereignis entstanden oder freigesetzt worden sein. \r\nUnter „kontaminiertem Erdreich“ ist solches zu verstehen, dessen geordnete Erfassung, Sicherung und/oder Behandlung wegen \r\nseiner Verbindung mit anderen Sachen (ausgenommen radioaktiven Sachen) aufgrund des Abfallwirtschaftsgesetzes in der \r\nletztgültigen Fassung und/oder des Wasserrechtsgesetzes 1959, in der letztgültigen Fassung, geboten ist. \r\nEntstehen Kosten für die Behandlung von Erdreich oder von versicherten Sachen, die bereits vor Eintritt des Versicherungsfalles \r\nkontaminiert waren (Altlasten), werden nur jene Kosten ersetzt, die den für eine Beseitigung der bestehenden Kontamination \r\nerforderlichen Betrag übersteigen, und zwar ohne Rücksicht darauf, ob und wann dieser Betrag ohne den Versicherungsfall \r\naufgewendet worden wäre. Bei verschiedenen, gesetzlich zulässigen Möglichkeiten der Behandlung beschränkt sich die Haftung des \r\nVersicherers auf die kostengünstigste Abwicklung. \r\nDie Kosten für die Behandlung von nicht versicherten Sachen, z. B. Wasser (inkl. Grundwasser) und Luft, werden nicht ersetzt, auch \r\ndann nicht, wenn sie mit versicherten Sachen vermischt werden. \r\n \r\nDie Kosten einer kurzfristigen, einmaligen Zwischenlagerung – für eine Höchstdauer von sechs Monaten – übernimmt der Versicherer \r\nim Rahmen der Versicherungssumme unter der Voraussetzung, dass ihm die Zwischenlagerung unverzüglich angezeigt wurde.  \r\n \r\nHinsichtlich der Mehrkosten aus der Behandlung von kontaminiertem Erdreich wird in jedem Schadensfall der als \r\nentschädigungspflichtig errechnete Betrag um den Selbstbehalt von 25 % gekürzt. \r\n1242K – KATASTROPHENDECKUNG – ERDBEBEN \r\nIn Erweiterung der vertraglich vereinbarten Sturmdeckung sind derartige Schäden an den versicherten Sachen mitversichert. \r\n \r\nEs gilt die beantragte und auf der Polizze dokumentierte Summe insgesamt für Gebäude und Inhalt (sofern die jeweilige \r\nPosition beantragt ist). \r\n \r\nErdbeben ist eine naturbedingte Erschütterung des Erdbodens, die durch geophysikalische Vorgänge im Erdinneren ausgelöst wird. \r\nDer Versicherer leistet Entschädigung für die Zerstörung oder Beschädigung versicherter Sachen durch \r\n– die unmittelbare direkte Einwirkung eines Erdbebens \r\n– Brand oder Explosion, als nachweislich unvermeidliche Folge eines Erdbebens \r\n– Gebäudeteile oder andere Gegenstände, die durch die Erdstöße gegen die versicherten Sachen geworfen werden. \r\n \r\nErdbeben wird unterstellt, wenn der Versicherungsnehmer nachweist, dass \r\n– die naturbedingte Erschütterung des Erdbodens in der Umgebung des Versicherungsgrundstückes Schäden an Gebäuden in \r\neinwandfreiem Zustand oder an ebenso widerstandsfähigen anderen Gebäuden angerichtet hat oder \r\n– der Schaden wegen des einwandfreien Zustands der versicherten Sachen nur durch Erdbeben entstanden sein kann. \r\n\r\n\r\n---PAGE 25---\r\n03.02.2026 \r\n \r\n \r\n \r\n \r\nKlauseln zur Polizze Nr. 2044001194 \r\nSeite 14 von 22 \r\n \r\nGegenständliche Zusatzdeckung kann von beiden Vertragspartnern zum Schluss einer jeden Versicherungsperiode unter Einhaltung \r\neiner einmonatigen Kündigungsfrist schriftlich gekündigt werden. \r\nDie Kündigung dieser Zusatzdeckung berechtigt nicht zur Kündigung des Sturmversicherungs-Vertrages. \r\n \r\nSollte in dieser Polizze die EC-Deckung für Hochwasser und Überschwemmung vereinbart sein, ist für die beantragten Gefahren \r\nHochwasser und Überschwemmung ein Selbstbehalt von EUR 5.000,– je Schadensfall vereinbart. \r\n \r\nb) Mitversichert sind Schäden durch Regen, Schnee und Schmelzwasser im Inneren der versicherten Gebäude, an den versicherten \r\nSachen. \r\n \r\nIn Erweiterung der vertraglich vereinbarten Sturmdeckung sind derartige Schäden mitversichert, allerdings nur, sofern das Wasser \r\nplötzlich und unmittelbar oberflächig in das Innere der versicherten Gebäude eindringt und Schäden an den versicherten Sachen \r\nverursacht. \r\nVoraussetzung für den Versicherungsschutz ist, dass das Gebäude vollständig geschlossen ist. \r\n \r\nNicht versichert sind: \r\n– Schäden an der Hausfassade, an Außenmauern und dem Außenverputz samt Isolation, \r\n– Schäden an Außentüren und -fenstern, \r\n– Schäden an der tragenden Dachkonstruktion und dem Dachbelag samt Isolation, \r\n– Schäden durch Grundfeuchtigkeit und Langzeitwirkungen, \r\n– Schäden durch Auftauen und Reparaturen von Dachrinnen und Außenablaufrohren, sowie \r\n– Kosten für Wegräumen von Schnee und Eis sowie Schäden infolge Eindringens von Wasser durch offene Dachluken und durch \r\nÖffnungen am Dach bei Neubauten sowie bei Umbau- oder anderen Arbeiten. \r\n \r\nDie Entschädigungsleistung für die in den Punkten a) und b) beschriebenen Risken ist gesamt mit der in der Polizze genannten \r\nSumme auf \"Erstes Risiko\" pro Schadensereignis begrenzt und darüber hinaus mit einer Summe von EUR 30.000.000,– pro \r\nGesamtschadensereignis für sämtliche entstandenen und vom Versicherer zu ersetzende Schäden limitiert. Übersteigen diese \r\nSchäden bei einem Ereignis den Betrag von EUR 30.000.000,– werden die auf die einzelnen Anspruchsberechtigten (nur betroffene \r\nKunden des Bestandsversicherers) entfallenden Entschädigungen aliquot gekürzt, dass sie zusammen nicht mehr als \r\nEUR 30.000.000,– betragen. \r\nUnter aliquot ist das Verhältnis aus der Summe aller Leistungsansprüche aus einem versicherten Ereignis im Verhältnis zur \r\nmaximalen Entschädigungsleistung in Höhe von EUR 30.000.000,– zu verstehen. (Beträgt beispielsweise der zu entschädigende \r\nGesamtschaden EUR 60.000.000,–, so kommt es pro versicherten Anspruch zu einer Kürzung um 50 %). \r\n \r\nIm Einvernehmen zwischen den beiden Vertragspartnern wird festgehalten, dass über strittige Fragen hinsichtlich: \r\n– Liegen ein oder mehrere Schadensereignisse vor?  \r\n– Waren eine oder mehrere versicherte Gefahren gleichzeitig auslösend? \r\nein Gutachten der Geosphere Austria oder der an deren Stelle getretenen Anstalt erstellt wird. \r\nDie Kosten dafür werden von beiden Vertragspartnern jeweils zur Hälfte übernommen. \r\n \r\nDie in der Polizze genannte Summe ist die Obergrenze für versicherte Schäden und inkludiert auch sämtliche eventuell anfallende \r\nKosten (wie Aufräumungs- und Abbruchkosten, De- und Remontagekosten, Bewegungs- und Schutzkosten, Entsorgungskosten, \r\nKosten für Behörden, Feuerwehren, Hotelkosten u. dgl.). \r\n \r\n \r\nDer Versicherungsschutz für die Katastrophendeckung Wasser beginnt bei Neuverträgen 14 Tage nach Vertragsabschluss. Die 14-\r\nTage-Frist gilt auch für Vertragsänderungen, wenn die Deckung Katastrophendeckung Wasser vor der Änderung nicht vorhanden war. \r\n3074K – HAFTPFLICHT – HAUS- UND GRUNDBESITZ UMWELTSCHÄDEN \r\n1. \r\nDie Deckungserweiterung Haus- und Grundbesitz Umweltschäden umfasst die Bausteine Sachschäden durch \r\nUmweltstörung (1360K), Umweltsanierungskostenversicherung (USKV) (1362K) sowie Umweltstörung – Schäden auf \r\neigenem Grund (3061K). \r\n2. \r\nDie Versicherungssumme beträgt im Rahmen der Pauschalversicherungssumme den in der Polizze angeführten Betrag \r\nund steht sowohl für Sachschäden durch Umweltstörung als auch für Umweltsanierungskosten jeweils separat zur \r\nVerfügung. \r\n3. \r\nAbweichend von Art. 6, Pkt. 3.6 AHVB (Sachschäden durch Umweltstörung), der Klausel 1362K, Pkt. 6.2 (USKV) und der \r\nKlausel 3061K, Pkt. 5 (Umweltstörung – Schäden auf eigenem Grund) beträgt der Selbstbehalt des \r\nVersicherungsnehmers in jedem Versicherungsfall 10 % des Schadens und der Kosten im Sinne von Artikel 5, Punkt 5 \r\nAHVB, mindestens EUR 500,–. \r\n \r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 459
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-22bb0777-0fc0-4fb6-a249-67cdcfb0463e",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport fitz,pathlib,tempfile\np=pathlib.Path('05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf');d=fitz.open(p)\no=pathlib.Path(tempfile.gettempdir())/'donau-audit-clause';o.mkdir(exist_ok=True)\nfor n in [14,23,24]:\n d[n].get_pixmap(matrix=fitz.Matrix(1.4,1.4)).save(o/f'p{n+1}.png')\n print(o/f'p{n+1}.png')\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "12698",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport fitz,pathlib,tempfile\np=pathlib.Path('05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf');d=fitz.open(p)\no=pathlib.Path(tempfile.gettempdir())/'donau-audit-clause';o.mkdir(exist_ok=True)\nfor n in [14,23,24]:\n d[n].get_pixmap(matrix=fitz.Matrix(1.4,1.4)).save(o/f'p{n+1}.png')\n print(o/f'p{n+1}.png')\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p15.png\r\nC:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p24.png\r\nC:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p25.png\r\n",
+  "exitCode": 0,
+  "durationMs": 335
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-32f21b02-940e-4969-9b54-5c4144522791",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p15.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-3756d18d-a3c2-41ea-ae7d-8147faaef929",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p24.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-95bc5918-7e3f-4f22-8b55-401a1150738d",
+  "path": "C:\\Users\\User\\AppData\\Local\\Temp\\donau-audit-clause\\p25.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_dde7702ac9084447b97c3fe8e9ef271b",
+  "kind": "interacted",
+  "agentThreadId": "01a0f21f-8b26-7c51-85f9-22089ebfea54",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-83364430-9799-4f21-9856-a36e31cbf5b6",
+  "query": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn107view0",
+      "snippet": "Total lines: 112",
+      "title": "RIS - Versicherungsvertragsgesetz § 41a - Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn107view1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn107view2",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e2136395-cd34-4818-a931-5e211affead5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Item -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' | Select-Object LastWriteTime,Length; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' | Select-String -Pattern '1242|3031|Rückforderung|avantajului|colectiv' -Context 1,3\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "6941",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Item -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' | Select-Object LastWriteTime,Length; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' | Select-String -Pattern '1242|3031|Rückforderung|avantajului|colectiv' -Context 1,3"
+    }
+  ],
+  "aggregatedOutput": "\r\nLastWriteTime       Length\r\n-------------       ------\r\n29.10.2026 16:11:47  11161\r\n                         1\r\n                         1\r\n                         1\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 149
+}
+````
+
+## collabAgentToolCall
+
+````json
+{
+  "type": "collabAgentToolCall",
+  "id": "call_bfaa3eccd7f44e6390ee632d754ee94c",
+  "tool": "wait",
+  "status": "completed",
+  "senderThreadId": "01a139c8-c3ce-7e50-81b9-ad2eccdf99ca",
+  "receiverThreadIds": [],
+  "prompt": null,
+  "model": null,
+  "reasoningEffort": null,
+  "agentsStates": {}
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-ddd5d7f0-1324-4813-8cd6-e73256279c98",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' -TotalCount 30; Get-FileHash -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' -Algorithm SHA256 | Format-List Hash\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "20822",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' -TotalCount 30; Get-FileHash -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' -Algorithm SHA256 | Format-List Hash"
+    }
+  ],
+  "aggregatedOutput": "2026.10.29 — DONAU 2044001194: eliminarea și adăugarea componentelor\r\nSituație analizată: Schallergasse 35; asigurat A&C Wohnart Immobilien GmbH.\r\nSinteză juridică bazată pe poliță, condițiile disponibile, corespondența arhivată și surse oficiale austriece. Nu este o confirmare a modificării contractului.\r\n\r\nCONCLUZIA DIRECTĂ\r\nExistă temeiuri legale pentru reducerea primei și, în anumite condiții, pentru încetarea unei ramuri. Nu depind toate de acceptarea voluntară a DONAU. Dar legea nu conferă un drept general de a scoate și adăuga oricând componente dintr-un contract valabil pe durată fixă, exclusiv pentru că asiguratul și-a schimbat preferințele.\r\nSepararea ramurilor, dreptul de încetare și data încetării sunt trei întrebări distincte. O componentă independentă poate rămâne legată de termenul contractual 2036.01.01. Nu am identificat în documentele verificate un drept general de renunțare parțială imediată la simpla cerere.\r\n\r\n1. CE ESTE FAVORABIL ÎN CONTRACTUL CONCRET\r\nPolița emisă la 2026.06.03 separă ramurile, primele și condițiile lor. La p.3 apare Mieten-BU cu primă anuală de 41,72 EUR, iar la p.4 Leitungswasser cu 3.127,72 EUR, sume incluzând taxele indicate în poliță. Acestea sunt primele anuale înscrise în document, nu un calcul de restituire sau o ofertă nouă. Cererea din 2020 folosește denumirea Wohngebäudebündel-Versicherung. Există deci indicii serioase de contracte grupate, cu posibilă existență juridică separată.\r\nClauza Paketkündigungsklausel, extensiile RV 29000010498, p.12 PDF / p.15 tipărită, prevede o consecință a încetării unei ramuri de către asigurător asupra întregului pachet, la dorința asiguratului. Nu acordă un drept general al clientului de a elimina imediat orice ramură. Setul RV primit începe la pagina tipărită4; lipsesc paginile1–3. O concluzie definitivă despre toate condițiile de separare cere setul complet.\r\nNu fiecare extensie sau sublimită dintr-o ramură este, prin aceasta, un contract separat.\r\nPaketkündigungsklausel menționează și recuperarea avantajului de durată acordat («unter Rückforderung des gewährten Laufzeitvorteiles»). Posibila renunțare la recuperare în cazul vânzării, din pagina tipărită16, trebuie analizată separat; clauza nu garantează încetarea fără cost.\r\nExistă însă drepturi exprese de încetare pentru acoperirile suplimentare vizate de clauzele1242K (cutremur, p.15 din condiții) și3031K (catastrofe de apă, p.25): notificare scrisă, preaviz de o lună, sfârșitul perioadei de asigurare. Nu cer dovada dispariției riscului și nu permit prin ele însele încetarea întregii ramuri de furtună. Întinderea exactă a suplimentului3031K trebuie păstrată în declarație, fără extinderea automată la toate subriscurile din aceeași clauză. Aceste drepturi nu privesc ramura Leitungswasser ori Mieten-BU. Primele suplimentelor nu sunt defalcate în documentul curent, deci economia nu este determinată.\r\n\r\n2. TEMEIURI LEGALE — CE PERMIT ȘI CE NU PERMIT\r\nA. Încetarea unei ramuri independente (Teilkündigung)\r\nOGH 7 Ob 92/19h, 2020.02.19, pct.1.1–1.3, distinge contractul combinat indivizibil de pachetul de contracte independente. OGH 7 Ob 208/15m, 2016.07.06, analizează separat drepturile de încetare ale ramurilor. OGH 7 Ob 178/24p, 2024.12.18, pct.4, cere examinarea configurației contractuale concrete.\r\nAplicare: dacă există pentru ramura vizată un drept legal sau contractual de încetare și se respectă termenul/preavizul, declarația nu devine valabilă numai după acordul discreționar al asigurătorului. Pentru o asemenea încetare nu trebuie demonstrat că apa ori riscul de pierdere a chiriei au dispărut, dacă temeiul invocat nu cere aceasta. Dar separabilitatea nu creează singură acel drept și nu înlătură durata fixă.\r\n\r\nB. Reducerea primei — §41a împreună cu §42 VersVG\r\n§41a permite solicitarea unei reduceri adecvate pentru perioadele de asigurare viitoare dacă împrejurări determinate care justificau o primă mai mare dispar ori își pierd importanța. Este un drept legal când condițiile sunt dovedite; nu o simplă favoare comercială. §42 împiedică derogarea contractuală în defavoarea asiguratului de la protecția relevantă.\r\nOGH 7 Ob 53/14s, 2015.02.18, p.17, pct.2.3–2.4, confirmă mecanismul pentru perioada de asigurare următoare. O rată trimestrială nu este automat o perioadă de asigurare distinctă.\r\nÎn această poliță, ABS art.4.1 și scadența anuală indică o perioadă anuală: următoarea începe la2027.01.01. Efectul mai devreme ar necesita alt temei ori acord; §41a singur nu justifică retroactivarea la2026.07.01.\r\nLimita: nu orice percepție că riscul este mai mic și nu simpla lipsă a daunelor justifică reducerea. Trebuie identificate împrejurările tarifare concrete și schimbarea lor. Reducerea primei nu înseamnă automat eliminarea acoperirii. În dosarul nostru, DONAU leagă tariful negociat în 2025 de istoricul daunelor; trebuie cerut ce parte a tarifului este legată de ce împrejurări actuale și cum influențează lucrările acea evaluare.\r\n\r\nC. Dispariția interesului asigurat — §68 și §68a VersVG\r\nDispariția reală a interesului asigurat poate conduce la încetarea raportului relevant și la limitarea primei. §68 alin.2 raportează calculul la durata până când asigurătorul află despre dispariție. Nu rezultă automat restituirea întregii prime sau o simplă împărțire pe zile; calculul poate depinde de condițiile valabile pentru durata efectivă.\r\nOGH 7 Ob 211/12y, 2013.03.27, confirmă protecția §68a inclusiv pentru asigurați profesioniști. OGH 7 Ob 22/90, 1990.06.28, arată că interesul nu dispare cât timp evenimentul asigurat încă se poate produce; o schimbare a activității ori a amplasamentului nu este suficientă prin ea însăși.\r\nAplicare: faptul că nu mai dorim acoperirea nu este identic cu dispariția interesului. O oprire temporară a apei sau lipsa momentană a chiriașilor nu probează singure dispariția completă.\r\n\r\nHash : 72D287A0818DDD74FCF2D4931C5A056B2ABE2F24CB36C2C63681508C04B2CEB0\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 135
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-a3a65a18-6464-4cc2-b2d5-aab1e6b6b608",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' | Select-String -Pattern '51|supraasigur' -Context 1,2 | Out-String; Get-FileHash -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' -Algorithm SHA256 | Format-List Hash; Get-ChildItem -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse' | Where-Object {\"'$_.Name -match '\"'51|VersVG|8_53|41a'} | Select-Object -ExpandProperty Name\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "86699",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' | Select-String -Pattern '51|supraasigur' -Context 1,2 | Out-String; Get-FileHash -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' -Algorithm SHA256 | Format-List Hash; Get-ChildItem -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse' | Where-Object {$_.Name -match '51|VersVG|8_53|41a'} | Select-Object -ExpandProperty Name"
+    }
+  ],
+  "aggregatedOutput": "\r\n  Aplicare: faptul că nu mai dorim acoperirea nu este identic cu dispariția interesului. O oprire temporară a apei sau lipsa momentană a chiriașilor nu probează singure dispariția completă.\r\n> Subsidiar, §51 alin.1 VersVG permite cererea de reducere imediată a sumei asigurate și proporțional a primei când suma depășește considerabil valoarea interesului. Pentru chirii trebuie comparată limita cu valoarea definită de clauza1347K, inclusiv perspectiva celor12luni; zero încasări azi nu dovedește singur supraasigurarea. Restituirea părții de primă urmează regula de la sfârșitul perioadei din §51 alin.3. Această cale ajustează suma și costul, fără a echivala automat cu eliminarea acoperirii.\r\n  \r\n  D. Adăugarea ori schimbarea componentelor\r\n\r\n\r\n\r\nHash : B2B567DB689FB15557D5E137CE9246A7D15D238B90648771A0D992023F604E70\r\n\r\n2026.10.29 L01 VersVG actual.html\r\n2026.10.29 L01 VersVG actual.txt\r\n2026.10.29 VersVG actual.html\r\n2026.10.29 VersVG actual.txt\r\n",
+  "exitCode": 0,
+  "durationMs": 171
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5fc5f3a8-cd59-4679-93a4-8612e91ab935",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport pathlib\np=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse/2026.10.29 L01 VersVG actual.txt');t=p.read_text(encoding='utf-8');i=t.find('§ 51');print(t[i:i+3500])\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "91429",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport pathlib\np=pathlib.Path('05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/Surse/2026.10.29 L01 VersVG actual.txt');t=p.read_text(encoding='utf-8');i=t.find('§ 51');print(t[i:i+3500])\n'@ | & 'C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -"
+    }
+  ],
+  "aggregatedOutput": "§ 51\r\nText\r\n§ 51.\r\nParagraph 51,\r\n(1)\r\nAbsatz eins,\r\nWenn die Versicherungssumme den Wert des versicherten Interesses (Versicherungswert) erheblich übersteigt, kann sowohl der Versicherer als auch der Versicherungsnehmer verlangen, daß zur Beseitigung der Überversicherung die Versicherungssumme unter verhältnismäßiger Minderung der Prämie mit sofortiger Wirkung herabgesetzt wird.\r\n(2)\r\nAbsatz 2,\r\nIst die Überversicherung durch ein Kriegsereignis oder durch eine behördliche Maßnahme aus Anlaß eines Krieges verursacht oder ist sie die unvermeidliche Folge eines Krieges, so kann der Versicherungsnehmer das Verlangen nach Abs. 1 mit Wirkung vom Eintritt der Überversicherung ab stellen.\r\nIst die Überversicherung durch ein Kriegsereignis oder durch eine behördliche Maßnahme aus Anlaß eines Krieges verursacht oder ist sie die unvermeidliche Folge eines Krieges, so kann der Versicherungsnehmer das Verlangen nach Absatz eins, mit Wirkung vom Eintritt der Überversicherung ab stellen.\r\n(3)\r\nAbsatz 3,\r\nIn den Fällen der Abs. 1 und 2 sind die dem Versicherungsnehmer zurückzuerstattenden Prämienteile erst am Schluß der Versicherungsperiode zu zahlen.\r\nIn den Fällen der Absatz eins und 2 sind die dem Versicherungsnehmer zurückzuerstattenden Prämienteile erst am Schluß der Versicherungsperiode zu zahlen.\r\n(4)\r\nAbsatz 4,\r\nSchließt der Versicherungsnehmer den Vertrag in der Absicht ab, sich aus der Überversicherung einen rechtswidrigen Vermögensvorteil zu verschaffen, so ist der Vertrag nichtig.\r\n(5)\r\nAbsatz 5,\r\nDas Recht des Versicherungsnehmers, den Vertrag wegen Irrtums anzufechten, bleibt unberührt.\r\n§ 52\r\nText\r\n§ 52.\r\nParagraph 52,\r\nBezieht sich die Versicherung auf eine Sache, so gilt, soweit sich nicht aus den Umständen etwas anderes ergibt, der Wert der Sache als Versicherungswert.\r\n§ 53\r\nText\r\n§ 53.\r\nParagraph 53,\r\nDie Versicherung umfaßt den durch den Eintritt des Versicherungsfalles entgehenden Gewinn nur, soweit dies besonders vereinbart ist.\r\n§ 54\r\nText\r\n§ 54.\r\nParagraph 54,\r\nIst die Versicherung für einen Inbegriff von Sachen genommen, so umfaßt sie die jeweils zu dem Inbegriff gehörigen Sachen.\r\n§ 55\r\nText\r\n§ 55.\r\nParagraph 55,\r\nDer Versicherer ist, auch wenn die Versicherungssumme höher ist als der Versicherungswert zur Zeit des Eintrittes des Versicherungsfalles, nicht verpflichtet, dem Versicherungsnehmer mehr als den Betrag des Schadens zu ersetzen.\r\n§ 56\r\nText\r\n§ 56.\r\nParagraph 56,\r\nIst die Versicherungssumme niedriger als der Versicherungswert zur Zeit des Eintrittes des Versicherungsfalles (Unterversicherung), so haftet der Versicherer für den Schaden nur nach dem Verhältnis der Versicherungssumme zu diesem Wert.\r\n§ 57\r\nText\r\n§ 57.\r\nParagraph 57,\r\nDer Versicherungswert kann durch Vereinbarung auf einen bestimmten Betrag (Taxe) festgesetzt werden. Die Taxe gilt auch als der Wert, den das versicherte Interesse zur Zeit des Eintrittes des Versicherungsfalles hat, es sei denn, daß sie den wirklichen Versicherungswert in diesem Zeitpunkt erheblich übersteigt. Ist die Versicherungssumme niedriger als die Taxe, so haftet der Versicherer, auch wenn die Taxe den Versicherungswert erheblich übersteigt, für den Schaden nur nach dem Verhältnis der Versicherungssumme zur Taxe.\r\n§ 58\r\nText\r\n§ 58.\r\nParagraph 58,\r\n(1)\r\nAbsatz eins,\r\nWer für ein Interesse gegen dieselbe Gefahr bei mehreren Versicherern Versicherung nimmt, hat jedem Versicherer von der anderen Versicherung unverzüglich Mitteilung zu machen.\r\n(2)\r\nAbsatz 2,\r\nIn der Mitteilung ist der Versicherer, bei welchem die andere Versicherung genommen wo\r\n",
+  "exitCode": 0,
+  "durationMs": 147
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-7af3a159-a296-48da-8734-96880059c8fe",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Renuntare componente Donau\\2026.10.29 Audit final - eliminarea componentelor.txt",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "2026.10.29 — Audit final al sintezei privind eliminarea componentelor DONAU\n\nFișier auditat: 2026.10.29 Concluzie juridica - eliminarea componentelor.txt\nSHA-256: b2b567db689fb15557d5e137ce9246a7d15d238b90648771a0d992023f604e70\n\nVERDICT: corespunzător pentru livrare ca analiză documentară și juridică. Nu am identificat erori materiale nerezolvate în versiunea de mai sus. Verdictul nu confirmă deja încetarea unor acoperiri și nu certifică rezultatul unei dispute cu asigurătorul.\n\nControale și corecții închise:\n• Independența unei ramuri, existența unui drept de încetare și data efectului sunt delimitate. Primele separate sunt indicii; termenul 2036 nu este înlăturat automat. OGH 7 Ob 13/85 nu este prezentat drept izvor al unui drept general de modificare unilaterală; adăugarea de riscuri rămâne, în principiu, supusă acordului.\n• §41a/42 este delimitat de simpla negociere comercială și de dispariția interesului conform §68/68a. Perioada anuală nu este confundată cu rata trimestrială. Nu este promisă retroactivarea la 2026.07.01.\n• Completarea subsidiară §51 alin.1/3 a fost verificată față de textul legal salvat: reducere imediată a sumei și proporțional a primei pentru supraasigurare considerabilă; plata restituirii la sfârșitul perioadei. Lipsa chiriilor actuale nu este tratată drept dovadă suficientă a valorii zero a interesului.\n• Confirmarea instalatorului, autorizația și descrierea lucrărilor sunt raportate la excluderea bazată pe Risikowegfall. Nu devin condiții generale pentru orice Kündigung valabilă și nici solicitări automat abuzive. Închiderea apei ca obligație preventivă nu dovedește singură dispariția interesului; Mieten-BU este raportată și la veniturile viitoare acoperite.\n• Au fost introduse drepturile contractuale concrete 1242K/3031K. Originalul istoric a fost verificat vizual la p.15, 24 și 25: notificare scrisă, preaviz de o lună, sfârșitul perioadei; fără drept derivat de încetare a întregii ramuri Sturm. Poziția textului 3031K înainte de lit.b este reflectată prin limita privind întinderea exactă. Aceste drepturi nu sunt extinse la Leitungswasser ori Mieten-BU.\n• La Paketkündigungsklausel a fost completată recuperarea avantajului de durată și separată eventuala renunțare în caz de vânzare. Sunt menționate paginile 1–3 lipsă din setul RV și necunoașterea economiei aferente suplimentelor.\n\nSurse decisive: polița 2026.06.03 p.3–4; PDF istoric 89 pagini, clauzele 1242K/3031K; extensii RV p.12–13 / pagini tipărite15–16; originalele RIS și registrele din Surse și Surse audit; notele celor trei colaboratori. Auditul a inclus lectura integrală a sintezei inițiale, comunicarea corecțiilor și verificarea completărilor finale. Nu s-au modificat jurnale, indexul, emailuri sau polița.\n\nLimite rămase: set contractual incomplet; faptele tehnice și perspectiva închirierii necesită probe; întinderea suplimentului 3031K și recalcularea trebuie stabilite concret. Acestea sunt declarate în sinteză și nu justifică promisiunea unei eliminări deja realizate.\n"
+    },
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Renuntare componente Donau\\2026.10.29 Nota audit - componente independente si modificarea politei.txt",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -50,2 +50,5 @@\n \n+COMPLETARE DIN AUDITUL CONDIȚIILOR\n+Clauzele 1242K (p.15 din PDF-ul istoric de 89 pagini) și 3031K (p.24–25) prevăd expres încetarea suplimentului vizat, de către oricare parte, prin notificare scrisă cu preaviz de o lună la sfârșitul fiecărei perioade de asigurare. Aceste excepții concrete nu privesc Leitungswasser ori Mieten-BU și nu permit, prin ele însele, încetarea întregii asigurări de furtună. La 3031K, textul de încetare apare înainte de lit.b; întinderea exactă nu trebuie extinsă automat la toate subriscurile fără analiza clauzei în ansamblu. Aceste drepturi proprii pot exista chiar pentru un supliment care nu este contract autonom; separabilitatea contractuală nu este singura sursă posibilă a unui drept de încetare limitată. Sinteza principală include aceste drepturi și celelalte temeiuri legale identificate de cercetător.\n+\n Verificarea nu a modificat polița, nu a creat notificări și nu a trimis emailuri. Nu a fost identificată prin căutarea efectuată o hotărâre OGH mai nouă decât 7 Ob178/24p care să schimbe criteriul contractual al separabilității; aceasta nu este o afirmație de exhaustivitate a tuturor hotărârilor austriece.\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-aa0f1b1a-f1a0-4f25-8266-3f78341d037a",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-FileHash -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' -Algorithm SHA256 | Format-List Hash; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' | Select-String -Pattern '1242|3031|51 alin|următoarea începe' | ForEach-Object {\"'$_.Line}'",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "5385",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-FileHash -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' -Algorithm SHA256 | Format-List Hash; Get-Content -LiteralPath '05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt' | Select-String -Pattern '1242|3031|51 alin|următoarea începe' | ForEach-Object {$_.Line}"
+    }
+  ],
+  "aggregatedOutput": "\r\nHash : B29FDF32DC547D142059CE7BF984B63274A6FF386F2BE40F6F82A3112DAF4B8C\r\n\r\nExistă însă drepturi exprese de încetare pentru acoperirile suplimentare vizate de clauzele 1242K (cutremur, p.15 din condiții) și 3031K (catastrofe de apă, p.25): notificare scrisă, preaviz de o lună, sfârșitul perioadei de asigurare. Nu cer dovada dispariției riscului și nu permit prin ele însele încetarea întregii ramuri de furtună. Întinderea exactă a suplimentului 3031K trebuie păstrată în declarație, fără extinderea automată la toate subriscurile din aceeași clauză. Aceste drepturi nu privesc ramura Leitungswasser ori Mieten-BU. Primele suplimentelor nu sunt defalcate în documentul curent, deci economia nu este determinată.\r\nÎn această poliță, ABS art. 4.1 și scadența anuală indică o perioadă anuală: următoarea începe la 2027.01.01. Efectul mai devreme ar necesita alt temei ori acord; §41a singur nu justifică retroactivarea la 2026.07.01.\r\nSubsidiar, §51 alin.1 VersVG permite cererea de reducere imediată a sumei asigurate și proporțional a primei când suma depășește considerabil valoarea interesului. Pentru chirii trebuie comparată limita cu valoarea definită de clauza 1347K, inclusiv perspectiva celor 12 luni; zero încasări azi nu dovedește singur supraasigurarea. Restituirea părții de primă urmează regula de la sfârșitul perioadei din §51 alin.3. Această cale ajustează suma și costul, fără a echivala automat cu eliminarea acoperirii.\r\n6) Dacă se dorește eliminarea suplimentelor 1242K/3031K, exercitarea dreptului propriu trebuie făcută în timp util pentru 2027.01.01, cu identificarea exactă a acoperirii și confirmarea datei. Această analiză nu ține locul notificării de încetare.\r\n",
+  "exitCode": 0,
+  "durationMs": 191
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-c80e5768-4c8d-4e98-8803-398a02c0b7f2",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.29 Renuntare componente Donau\\2026.10.29 Audit final - eliminarea componentelor.txt",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -3,3 +3,3 @@\n Fișier auditat: 2026.10.29 Concluzie juridica - eliminarea componentelor.txt\n-SHA-256: b2b567db689fb15557d5e137ce9246a7d15d238b90648771a0d992023f604e70\n+SHA-256: b29fdf32dc547d142059ce7bf984b63274a6ff386f2be40f6f82a3112daf4b8c\n \n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_6352f022a67a4ff98efaa030ea87d54b",
+  "kind": "interacted",
+  "agentThreadId": "01a0f21f-8b26-7c51-85f9-22089ebfea54",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Auditul final este salvat. **Sinteza este corespunzătoare pentru livrare**, inclusiv completările privind §51, clauzele1242K/3031K și termenul2027.01.01.
+
+Nu sunt identificate erori materiale nerezolvate. Limitele probelor și faptul că analiza nu reprezintă notificare de încetare sunt precizate.

@@ -1,0 +1,23 @@
+{
+  "id": "01a196da-caf5-7d41-9986-1ade8b1b1f8e",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK",
+  "created_at": 1793532283,
+  "updated_at": 1793623587,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Caută iFLYTEK AI Glasses și aplicații",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 16165072,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 940,
+  "message_count": 106,
+  "content_sha256": "5fdf5a8cb28028556e4f2d98b91ae8894af2cc75249b0c90540184fd9d760e04",
+  "files_copied": 57,
+  "references_not_copied": 32
+}

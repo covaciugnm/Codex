@@ -1,4 +1,17 @@
 {
   "local_originals_preserved": true,
-  "masked_files": []
+  "masked_files": [
+    {
+      "path": "Auditează complet Eva-Mail/istoric.json",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "Auditează complet Eva-Mail/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    }
+  ]
 }

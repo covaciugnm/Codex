@@ -1,0 +1,23 @@
+32c06aebb621f08d75a226ac5e3d90b14bf1669a7244a38a1c2451d0cf1ef52c  arhiva-001.zip
+229ce07f497150e08defe484a912635443354440cd9ff13cc7aeb381ce262c5f  Caută oferte Jetson și GB10/conversatie.md
+eb65f9e62fa1ab463b45cdbcd7961c95dcc1baceadd41df1d13cfb58946a1a19  Caută oferte Jetson și GB10/fisiere/build--9429451a.mjs
+9849826b9201e21a59e86de079c255943d48e67de8ff442b623939b664da5ba0  Caută oferte Jetson și GB10/fisiere/Noi_2026-10-31--c3631532.png
+cac07c94140e0e7d2034d6d80962320943f70823eb3e1256e0deee8e9f691390  Caută oferte Jetson și GB10/fisiere/Noi_De_verificat--8eea4a7f.png
+b65e372fce5514c0981d1cb64e0b963c3acdfec3e38f2cc2a11d7d5d7a0654ed  Caută oferte Jetson și GB10/fisiere/Noi_Excluse--b2b78253.png
+30452596dcab40013d6d938bf0c72307098ce63640cf593c70064773ecd557ff  Caută oferte Jetson și GB10/fisiere/Noi_Oferte--16edea0b.png
+74d294d780c3c2e7e7faeee46ad5eb7224d931f7b7396eaa4bf7913c25d6c063  Caută oferte Jetson și GB10/fisiere/oferte--f44295a1.json
+0dac653e24dddd23ebd900e1d0921874731362ec1b383ad76b37db617fbc9db2  Caută oferte Jetson și GB10/fisiere/Oferte_NVIDIA_Noi--b21c6a34.xlsx
+f9950356f0d8a8a88ffe3342b050a2d4727f11e612608affefae80f8f9de515d  Caută oferte Jetson și GB10/fisiere/Oferte_NVIDIA_SH--e0e27915.xlsx
+5cee086a11484ccccbfbbd75b24c9a6d9e92a2a721d89f03e41ea7a13996d528  Caută oferte Jetson și GB10/fisiere/refresh--832a21f1.mjs
+5ea5e075db952c904649e68a03cbdc9c299bde7e8cacb999459e77988cf58252  Caută oferte Jetson și GB10/fisiere/SH_2026-10-31--816b87c6.png
+61386de61e4514e067062d176128adb68cadd1174d7da2c33d6d1f4c724cdbb6  Caută oferte Jetson și GB10/fisiere/SH_De_verificat--08fc4db3.png
+1adca471df705c3369a53a25fcef224ead225b1e9e82424ec15fec5090ecde2f  Caută oferte Jetson și GB10/fisiere/SH_Excluse--6d056bf6.png
+d53656898d52bd84dfc3a6026a8035b8a7b96d2045d70b2f706cc3478c3efff9  Caută oferte Jetson și GB10/fisiere/SH_Oferte--672d76b0.png
+375d3ce6a3bdd5e84851e8134e3084e2f39f428ec5e6147fb3f2f9b189008a73  Caută oferte Jetson și GB10/fisiere/update--6468e392.mjs
+3713eb333f27ae76b6294b43a3cbe1c04ddef68efa6a1569263c29f76a8f730a  Caută oferte Jetson și GB10/fisiere-index.json
+5cfc0719a72fe2749b68130eec7b1137e35241ce69ded585b4aa5fe2b4891b4b  Caută oferte Jetson și GB10/istoric.json
+b8cb0692c3df0c65e1469098e57332b029e33772c5fef535386d11316ad0d4cb  Caută oferte Jetson și GB10/metadate.json
+53aa449ae0c34ec4f3570637b14835f1408719cc300d2e054a36dd0f1cb745de  Caută oferte Jetson și GB10/rezultate.md
+a880d4bb0127cca6cb89feaf2bac4fa2ed2d13138b1f6a141450791db297164c  index.json
+43b9c77d95ddc21984700f604044b132dc66b1ba0e2c7104e2f3e99fb8a984d3  mascari-publicare.json
+e3419c10709ae798e4366b6facf546e801cce27736487ffd21f15c68bdfc0853  README.md

@@ -1,0 +1,41 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/Aparat Auditiv/Widex/WIDEX ALLURE - Nashedge Traders - 2026-10-24.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/WIDEX ALLURE - Nashedge Traders - 2026-10-24--df08b52d.pdf",
+    "bytes": 226743,
+    "sha256": "c78444389506ba1ea9304be0078a4111fb09bd1eb3110c52686e7b180dca6386"
+  },
+  {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiNjEzNzk2MGEtMWNiMS00ZTA0LWE1ODQtMDY3NGI0ODZiYzBlIiwiZSI6MTc5MzQ1NTE3MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.A6k7un-XDQU4JPaDhwq0qCXWFT3JprBXuYwhI3IKmJY",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://azurecdn.widex.com/-/media/widex/cs-cz/userinstructions/allure_bte.pdf?hash=1409EF06D5D0ACB93C44ECB582EA98ED&rev=75eb0112505c4ca19dcf643adc67458a",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://azurecdn.widex.com/-/media/widex/cs-cz/userinstructions/wpc301.pdf?hash=0756EC6E7317962B88078E4596AE8C16&rev=a9bd2e87da614c5ca128fb731d08330a",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://azurecdn.widex.com/-/media/widex/cs-cz/userinstructions/wpt301.pdf?hash=448F8B7B75610AA59DBECF4E16046867&rev=c216fd6045114989877e00f6cef92287",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.widex.com/cs-cz/support/document-library/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.widexpro.com/en/business-support/compass-cloud/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wsaud.com/widex/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wsaud.com/wp-content/uploads/agile_doclib/CAT0W1/file/D00333204-32-3-A-0-EN-30.pdf",
+    "status": "referinta_externa_necopiata"
+  }
+]

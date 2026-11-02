@@ -1,0 +1,366 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\01_Lista_inadvertente_si_checklist_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Lista_inadvertente_si_checklist_1--3cce2821.png",
+    "bytes": 150334,
+    "sha256": "d792172fd20c1da6a1e933450ff56ba1aaf6ba0ac605c25cbafabcd792909ae9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\01_Lista_inadvertente_si_checklist_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Lista_inadvertente_si_checklist_2--a3d76f56.png",
+    "bytes": 171011,
+    "sha256": "117fe018eb11bbec8460c7d35326df7f0a22c36ec73da1882c86c63e2a6841ec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\01_Lista_inadvertente_si_checklist_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Lista_inadvertente_si_checklist_3--fb655692.png",
+    "bytes": 204777,
+    "sha256": "b6ce50631ca5214390b3d45a9e21b2c7acfb94eff83527d19c81bba0d5e2968e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\01_Lista_inadvertente_si_checklist_4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Lista_inadvertente_si_checklist_4--590dcca5.png",
+    "bytes": 168823,
+    "sha256": "ea6d12e1cfc88bb94dac345cb8f07f2371c98622ea530d798038d6cdc712cc7b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\02_Proforma_revizuita_PROIECT_EN_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Proforma_revizuita_PROIECT_EN_1--cb7cf325.png",
+    "bytes": 166141,
+    "sha256": "58bdc1212e4863a560ce0a76396c0c385086772c1e4d1b8b76914bdc5d2957c0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\02_Proforma_revizuita_PROIECT_EN_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Proforma_revizuita_PROIECT_EN_2--5e64a264.png",
+    "bytes": 162264,
+    "sha256": "6c363ff856fb5b9ce22243ee8f6fb39c4a000780c7285c5a45fd56afbfdced74"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\03_Anexa_tehnica_si_conformitate_PROIECT_EN_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/03_Anexa_tehnica_si_conformitate_PROIECT_EN_1--a4413fba.png",
+    "bytes": 140652,
+    "sha256": "68573a526c2e1db0a8edb5866ed1ffe3900e53c29e95a0f96d2bdd840a306378"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\03_Anexa_tehnica_si_conformitate_PROIECT_EN_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/03_Anexa_tehnica_si_conformitate_PROIECT_EN_2--a19da78b.png",
+    "bytes": 185017,
+    "sha256": "357209760a2d820b05a1bcdc0454f582258a2a10cbd1163d8f6f55bd1d479564"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\build_change_note.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_change_note--de349459.py",
+    "bytes": 8217,
+    "sha256": "8654dba46cea06cb7912227d7ec5c0bf577a093ec66d08194e3c8abdda4c14c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\build_final_forms.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_final_forms--b2051ac4.py",
+    "bytes": 27915,
+    "sha256": "6a4bd6887e6594a59c548eb4bee4f95bad016a093caf7f9322d5a6d417d8f79c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\build_package.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_package--fb0c05c2.py",
+    "bytes": 13505,
+    "sha256": "67e1985a3574bfbb94e1af7ceda0edb83e52abfff9605d15b1cfda9abc1dfbea"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\build_review.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_review--b5145e6a.py",
+    "bytes": 29778,
+    "sha256": "80981a504207a7edbd2702b84e7ea226e21e518a82407d45b60a36fb885ce0a1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\cn_611.png",
+    "status": "copiat",
+    "saved_path": "fisiere/cn_611--205c3e34.png",
+    "bytes": 143645,
+    "sha256": "72cd4cb0add5c05cb029f5db12a5d3156b2a73f8f457fdc7f9bca73af4f92c6a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\cn_623.png",
+    "status": "copiat",
+    "saved_path": "fisiere/cn_623--4bdbea6e.png",
+    "bytes": 150508,
+    "sha256": "70b5b9ce29781fc6b7de8d3d39e42e615debe7bcf7d04bc3e77a212487281516"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\cn_664.png",
+    "status": "copiat",
+    "saved_path": "fisiere/cn_664--164316bd.png",
+    "bytes": 144239,
+    "sha256": "bed10c81cb79aef4276b8c65132460b1dd5d05f77666eea9a3808606846c5f19"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\changes_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/changes_1--28799c55.png",
+    "bytes": 176233,
+    "sha256": "c1f5409013429b561a76e380e68e117de23813eab026f124fd1e4e7df9f3b260"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\changes_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/changes_2--ecc9ef1f.png",
+    "bytes": 181674,
+    "sha256": "c8fd870ee5f1ee0a31a418b20de2f57e0c7a5cdccbd382fbd235da90a180233c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\changes_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/changes_3--dcfa8df4.png",
+    "bytes": 190733,
+    "sha256": "93ecc99bf32d255c2703e9a5145669f57f285829a5db4b74deb8e3534f3b58e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\control_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/control_1--ffd3b582.png",
+    "bytes": 159968,
+    "sha256": "9aea4cc8c1a0d9baa4be5e969450ed190ad24b999d15f2727d5c595c3655d336"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\control_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/control_2--9299147b.png",
+    "bytes": 205572,
+    "sha256": "0d4424adcb09c5e284e1f63bc534b494db25b854487fb5a3e47b51833e713bf8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\control_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/control_3--88ba3a1b.png",
+    "bytes": 179974,
+    "sha256": "2d5bcc906a2babfdcfbb3e10559b9bcd219af632e45fce9c2bd04560ab4fd782"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\control_4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/control_4--57a55a8c.png",
+    "bytes": 182340,
+    "sha256": "22ea858fea7023a0ea1b557cf293dba31a1d4f7ea475fba42eeb66ed67b4a6bb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\cover.png",
+    "status": "copiat",
+    "saved_path": "fisiere/cover--bda3853a.png",
+    "bytes": 124854,
+    "sha256": "d800e2864e01f0fda9a1df8716e2f625423a71924343bcd9ed7299ef9bb1886a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\forms_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/forms_1--f6ae5121.png",
+    "bytes": 107575,
+    "sha256": "1d90894867b35d4386966faa3635d8ab73893a56f17757609c8e6c4fd34d6931"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\forms_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/forms_2--c2e6775b.png",
+    "bytes": 99835,
+    "sha256": "0df3cfbd7a4c2d81dfb296f3640b086d588f97055811aaecdd1a297fc8f07f67"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\forms_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/forms_3--de7fe9ca.png",
+    "bytes": 119477,
+    "sha256": "7043add214f4bf2507439c0bb5c20ae65b2dd4b02366da5c711b2160dc040ba1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\forms_4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/forms_4--e74e9723.png",
+    "bytes": 153316,
+    "sha256": "d929eb72d5871944195174fd39de3d67c6537d2906a7932eead88dae9192bd26"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\forms_5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/forms_5--46927811.png",
+    "bytes": 86431,
+    "sha256": "04351b37be3e77cb980aa29176600d2b674f304f8b5946b2e2f7384b68fc3633"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\forms_6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/forms_6--d5675b92.png",
+    "bytes": 98598,
+    "sha256": "ae1c314bd2460305e561ae92a40d79e2b53850bdce945849b454b870880e6ca4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\final_qa\\originals_contact.png",
+    "status": "copiat",
+    "saved_path": "fisiere/originals_contact--750d64d8.png",
+    "bytes": 1207327,
+    "sha256": "3f65f5b70e2f319f73f8563c69159858fcc7b953fd3498d1d634143991d32404"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\finalize_package.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize_package--0f608ed5.py",
+    "bytes": 5269,
+    "sha256": "bbd762ae0b4d84328a3145ef869583924335b7d4a597b1a77aa68a1bfa12fe92"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\proforma.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proforma--b45a77cf.png",
+    "bytes": 237416,
+    "sha256": "6ee4f71fdf89f127f51cc4e305a7638d580a79ef86e4a23f840b2e9a0726194d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\proforma2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proforma2--e6d2132d.png",
+    "bytes": 335250,
+    "sha256": "f81d0b58a62844c6d1d740fad54ef1d299dc08f04900e56cda2f33e756bac809"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\22\\01a16433-6d2f-7bf2-93f1-ca88c3efba44\\scan_names.py",
+    "status": "copiat",
+    "saved_path": "fisiere/scan_names--7f1b393b.py",
+    "bytes": 1217,
+    "sha256": "0e8b11abae80aacf22e57c42ff4bda7592fd360c3f3400a7ebf60d0605182cb2"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/AGV-Jining.Aowei/3.Documente furnizor si import",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/AGV-Jining.Aowei/3.Documente furnizor si import/02_Control_import_incadrare_vamala_si_incarcator_RO.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Control_import_incadrare_vamala_si_incarcator_RO--d60215b9.pdf",
+    "bytes": 234308,
+    "sha256": "9d38b90ac86fbd0f617b8a6970cc17e21f0830a84fe115423f8b78c64a75eace"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/AGV-Jining.Aowei/3.Documente furnizor si import/03_Explicatia_modificarilor_RO.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/03_Explicatia_modificarilor_RO--6c94e27d.pdf",
+    "bytes": 232735,
+    "sha256": "057291017903b74174d69a58d2d1f9f5a6d0248e4d20b7f249c2190248a80989"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/AGV-Jining.Aowei/3.Documente furnizor si import/04_Dosar_revizuire_furnizor_cu_originale.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/04_Dosar_revizuire_furnizor_cu_originale--2b0420dd.pdf",
+    "bytes": 4825411,
+    "sha256": "f4687a24985a865ac147dee5b74fbc66a15d829fc53f7a0327190b0a38823aa5"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\30786693131.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/30786693131--d6d05fb2.jpg",
+    "bytes": 141840,
+    "sha256": "fdf8fd62a5e260f20c1565959c6472be0ddddc80be852950c5f174b067d76b4f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\30786697085.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/30786697085--a1e6698a.jpg",
+    "bytes": 153509,
+    "sha256": "d341471adc3c4b9c582a33d8f2f4b000f5fc704310aceb0471e1dcb62e4b0fd4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\30788002505.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/30788002505--2a910db1.jpg",
+    "bytes": 200900,
+    "sha256": "a198bac78c3d4fb59073c8aaacd629cc78c2c18cabfbfc696941b10d63c3908a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\30788006047.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/30788006047--0e280363.jpg",
+    "bytes": 8565,
+    "sha256": "769f4fa5d4130db39a0d24f88226483041b931bef99f26c6527206c255d70fab"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\4440845121.png",
+    "status": "copiat",
+    "saved_path": "fisiere/4440845121--94e3a1bd.png",
+    "bytes": 59340,
+    "sha256": "2ec236234fe9d598001bb5e39c6daf07506b57a691611b0240f6aef8d5172a80"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\5030967443.png",
+    "status": "copiat",
+    "saved_path": "fisiere/5030967443--d0e56554.png",
+    "bytes": 58365,
+    "sha256": "7f5240e0b8a056307791a8a626c5b5c85dca8e8c3d8b0273e649b69e317fd5d8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\5033561657.png",
+    "status": "copiat",
+    "saved_path": "fisiere/5033561657--5bfcdaae.png",
+    "bytes": 151976,
+    "sha256": "9ba8e7e86a8c12bf21f8f9a02a9718ae2e573de57a1317a678b7d60eff00cd6f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\5040969889.png",
+    "status": "copiat",
+    "saved_path": "fisiere/5040969889--16ede64b.png",
+    "bytes": 1476371,
+    "sha256": "035f5aab4a38b8b31ca76f2ebf74a8e9a73db51cb6ee66a4ea60efce54954987"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\5066555651.png",
+    "status": "copiat",
+    "saved_path": "fisiere/5066555651--df78147d.png",
+    "bytes": 555048,
+    "sha256": "6c6da017354468ed38fe6c99d31530ea7dbfce42262d962f99b4eb7cc7b3109e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\5066591032.png",
+    "status": "copiat",
+    "saved_path": "fisiere/5066591032--2a23c295.png",
+    "bytes": 303131,
+    "sha256": "a200991756fb80ca6264fce757eeb67211731cdc3263aefea385f1930fefd508"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\AGV-Jining.Aowei\\100. Inbox\\5071728143.png",
+    "status": "copiat",
+    "saved_path": "fisiere/5071728143--1aff76dc.png",
+    "bytes": 159443,
+    "sha256": "5d2eecaab244943f2d485010a93392d7bdf907ff2cde6fe0bff57d9c3e9ebea6"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://eur-lex.europa.eu/eli/reg/2023/1542/2025-07-31/eng/pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://imo-epublications.org/content/books/9789280102376.UNNo2800",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf",
+    "status": "referinta_externa_necopiata"
+  }
+]

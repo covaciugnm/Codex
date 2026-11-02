@@ -1,0 +1,72 @@
+[
+  [
+    "Plan_director.code/cutoff, Inventar_tehnic.versions, capturi/MANIFEST: master EVA 6df998aee0e514d30856c461962afe99ebd0d113, server_worktree_head și digesturile instalate sunt distincte; core nativ release și build instalat au proveniență separată.",
+    "Plan_director.zones/chapters, A01–A10.scope și Matrice_interfete X01–X14 au titulari și predări; A11 este evaluator, A12 este auditor al taskurilor.",
+    "Index_suprafete.source/excluded/surfaces și Inventar_tehnic.definitions/db: toate cele 6179 de surse selectate, 731 excluderi și șase inventare de suprafețe au numitori și responsabil/triator; dicționarul DB are numitori separat. Elementele DE_ARBITRAT au regulă de confirmare înaintea execuției.",
+    "capturi/00_STATUS_TASKURI și 00_STARI_TASKURI; A12_reconciliere_P01: 996 total, 693 P01, 650 stări finale și T229 exclusiv din lista explicită, 651 în cohortă; 19 noduri auxiliare au dispoziție, nu adaugă taskuri. Am recalculat numitorii din capturi.",
+    "Plan_director.access/execution, A10-CK-01/10 și A12-CK-05/35: drepturi și limite explicite; delta în registru/master la închidere se păstrează și replanifică."
+  ],
+  [
+    "A12_index_taskuri păstrează identitățile și pointerii la registru/liste; capturi/MANIFEST are 7 amprente. 3814 pointeri rezolvați, 1386 texte cerere/descriere comparate exact.",
+    "Index_trasabilitate: 310 controale cu pointer JSON și test proiectat, 73 fluxuri și muchiile inverse. A12_index_taskuri/requirement_template stabilesc explicit obligație→test→evidență→constatare/A11. Asociere candidată nu este probă de implementare.",
+    "A12 identity_policy și registrul păstrează ID tehnic, proiect, chapter, canonic când există și alias; cele 417 înregistrări fără cod canonic nu sunt renumerotate.",
+    "Trasabilitate_istoric: U01–U35 și cele 13 constatări au dispoziții, titular și cerințe de control; clarificarea identităților CPP/CPA apare explicit; istoricul nu este test actual.",
+    "A12-CK-03/04/06/36 și worked_example_T227 separă criteriile, starea portalului, integrarea, instalarea și conformitatea la data de închidere versus acum."
+  ],
+  [
+    "A09.P* (catalogul de pipeline-uri al A09), A09-C01–C29 și A01/A08: rol, firmă, puncte de intrare și ieșire; zonele funcționale au probe FE individuale ori traseu în planul partenerului.",
+    "A09-C10/18/26 și A08-C15: gol/încărcare/eroare/succes, păstrare context și recuperare. A12-SF-08 impune traseul efectiv.",
+    "A09-C14–C17 și C22–C29 prevăd tastatură/focus/contrast, mobil/scanner, revocare și reluare; A01.C23–C25 izolează dispozitiv/rol/canal.",
+    "Inventar_tehnic.db.menu, A09-C01–C06 și chapter_map din Plan_director acoperă 20 capitole, rute/meniuri existente și separarea Gestiuni–WMS–Comenzi–Canale.",
+    "A09-C04/05, A01.C13/C16/C30 și X10: gardă UI confruntată cu refuz server, rezultatul persistent și recuperare."
+  ],
+  [
+    "Index_suprafete.surfaces inventariază declarațiile de endpoint, process și job; A01.C01 și A10-CK-28 confirmă dinamic ce e activ; fiecare zonă fixează actorul, contractul și efectul.",
+    "A12-CK-11/15/23, A06-C14–C17/C31, A03.CK06/07 și A10-CK-26 tratează date invalide, UOM, perioade, monede, adrese și paginare.",
+    "A05-C16/C29, A07.K02 și A02.C025 cer starea persistentă și diferența dintre processIt/CO/Posted; cazurile IP/WP/WC sunt testate în fixture.",
+    "A02.C013–C015, A06-C07/C10/C18, A07.K07 și A10-CK-12–15 acoperă timeout ambiguu, concurență, duplicate, ordine și compensare.",
+    "X08, A06-C15/C17/C31, A08-C11–C13 și A12-CK-11 definesc contract comercial complet și când se respinge inputul; nicio pierdere tacită."
+  ],
+  [
+    "A02.inventory/sql_catalog/migration_matrix și Inventar_tehnic.db au plan de reconciliere SQL/AD pentru PK/FK/unique/check/index, trigger/proceduri, migrări, versiuni instalate.",
+    "A03.CK04/05/11/13–18 și A05-C07/C12/C13/C28 definesc invarianta sumelor, costului, stocului și documentelor cu oracol independent.",
+    "A02.C009–C015, A10-CK-04/07/10 și A12-CK-13/17–19 specifică fresh/upgrade/retry/backfill, intercalări, rollback și recuperare.",
+    "A02.C005–C007/C017–C024 și A05-C02/C04/C09–C15 leagă identități CPP/CPA, G1/G2/G3, multi-G1/G2, rețetă, ASI/MA și genealogie.",
+    "Plan_director.execution, A10-CK-07/10/21–23 și A12.safe_execution separă live read-only, fixture restaurabilă, rețea internă și curățarea numai a datelor de test."
+  ],
+  [
+    "73 fluxuri descrise în fișe și 14 contracte inter-zone; Sabloane.pipeline și A12.pipeline_template definesc start→stare→UI/API/serviciu/DB→document→efect final cu correlation ID.",
+    "A12-SF-01–09, A07.K05/K07/K14/K21–K26, A05-C16–C19 și A10-CK-12–15 includ livrare parțială, respingere, retur, anulare, retry și timeout după commit.",
+    "Matrice_interfete X01–X14: furnizor, consumator, câmpuri, rezultat măsurabil și dovadă comună. Index_trasabilitate păstrează control↔flux în ambele sensuri.",
+    "X09 și A07.K21–K25 disting contract retur, fizic și financiar; Plan_director grupează probele după gate. Manualul istoric păstrează poarta comună de pilot, nu dependențe circulare de finalizare.",
+    "A05-C17/C27/C28, A07.K25/K26 și A10-CK-15/C18–23 cer reconciliere la rezultat persistent și recovery; eroarea nu este redusă la codul HTTP."
+  ],
+  [
+    "A01.role_tenant_matrix, C07–C26 și C31, plus A08-C01/C05/C16/17 prevăd conturi tehnice/privilegii, cabinet, org, firmă, canal și situații ale comisionarului.",
+    "A01.C10–C14/C17–C20, A10-CK-28 și A12-CK-14 prevăd ID direct ghicit, traversare tenant, schimbare context, cache/export și probe de refuz backend.",
+    "A01.C02–C06/C27/C28/C31/C36/C37 explicitează sesiune, CSRF, input, secrete/loguri, XSS și upload pe suprafețele reale.",
+    "A01.C09/C10/C25, A08-C01/C02 și X01 separă CUI/slug de identitate internă și autorizare; testează coliziune și redenumire.",
+    "Plan_director.execution/limits, A12.safe_execution, A10-CK-10 și A03.legal_source_plan limitează probele de scriere la test izolat, fără efecte partener/fiscal sau documente operaționale reale."
+  ],
+  [
+    "A02.native_double_check, A03.native_reuse_and_proof_plan, A05.native_double_check și A12-CK-07 folosesc core/plugin/EVA/config/diferență minimă ca decizii separate.",
+    "Inventar_surse_secundare: sursă release-13 și JAR-uri efective au SHA diferit/explicit; A01.C034/A02.C034 prevăd corpus și alternative de căutare pentru absență.",
+    "A02.C034, A05-C08/C10/C29 și A10-CK-02/03 compară configurarea, AD și efectele la versiunea efectiv instalată, nu deduc operarea din numele clasei.",
+    "A07.K06–K10, A08-C13/C25, A10-CK-12–15 și A12-CK-22 disting contract, mock/sandbox, evenimente/retry/dead letter și reconciliere.",
+    "A12-CK-07/29 și A05/A06 leagă propunerea unei extensii de gap verificat și de alternativa existentă; G2/G3 nu devin registre contabile suplimentare."
+  ],
+  [
+    "A01–A10 controale/fixtures, A12.scenario_template și Sabloane.control prevăd precondiții, actor, pași, așteptări, evidență, curățare. T227 este instanțiat fără rezultate simulate.",
+    "A10-CK-01–11, A12-CK-28 și rubric.evidence_level stabilesc build/unit/integration/UI/manual în funcție de risc și probă, nu echivalează lectura unui test cu execuția.",
+    "A10-CK-25–27: 20 warm-up/100 cereri, 1k/10k, concurență 1/10/30 și prag de laborator; A02.C031 cere p50/p95/p99 și EXPLAIN test. SLA contractual distinct de ținta de laborator.",
+    "Trasabilitate_istoric și A12-CK-29/32 leagă toate cele 13 observații vechi și efectele asupra funcțiilor vecine la regresii și numitori expliciți.",
+    "A11.report_gate prescrie reproducere independentă P0/P1/contestate; A12-CK-30/33/34 și QC09-R5 păstrează primele eșecuri și diferențiază istoric/cache/flaky."
+  ],
+  [
+    "Sabloane_audit.schemas/examples cu 9 forme, toate cele 10 fișe și A12 worked_example_T227 (A04-C24/P6) oferă exemple completabile; observed=NULL cât timp proba nu a rulat.",
+    "A11.statuses/false_positive_protocol și A12.finding_template/evidence_template separă impactul, încrederea și nivelul probator; istoria falsului pozitiv rămâne.",
+    "Plan_director.auditors/execution și A12.execution_gate/T5 desemnează A11, separat de autori, pentru plan și fiecare raport; noul verdict se referă numai la hash.",
+    "A11.plan_gate/report_gate/change_control, A12.scoring_policy și Plan_director.rework: respins→rectificat→reverificat pe versiuni, fără acceptare din numărul de iterații.",
+    "Plan_audit_P01.html oferă plan/navigație; Plan_director.limits, A12.open_inputs și rubric.report_gate indică blocaje, riscuri și diferența dintre plan, execuție și sănătatea produsului."
+  ]
+]

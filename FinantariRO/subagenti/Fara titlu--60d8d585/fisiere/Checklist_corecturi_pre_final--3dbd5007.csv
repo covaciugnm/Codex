@@ -1,0 +1,21 @@
+﻿ID,Stare,Responsabil,Dovada verificata,Actiune / conditie inchidere
+C01,Partial inchis,Editor documente,"Spatiere corectata in CV/Anexa1; verificare19 mai are ora16, balante2022, solicitate:02.11",Retus global documente si titluri registru
+C02,Inchis,Editor documente,Anexa6 are al Asociatiei/in numele Asociatiei si nume semnatar final,Verificat in Word actualizat
+C03,Inchis,Editor/registru,119 randuri/proiect; diplome si acte suport extrase individual,Pastrati consolidatele marcate explicit
+C04,Inchis,Editor/registru,CV/disponibilitate Cosmin marcate Optional,Master Ilinca ramane suport conditionat - vezi C15
+C05,Inchis,Editor documente,Document19 atribuie confirmarea functiei actuale utilizatorului; data dinCV,Nu certifica act statutar actual
+C06,Inchis,Editor documente,Document19 explica data15.01.2013 din certificat/contract fata de04.02.2013 dinCV,Pastrati sursele
+C07,Deschis productie,Editor/QA,38PDF existente; regenerare declarata in curs,"Control final Word/PDF integral, vizual si lipsa orfani"
+C08,Partial inchis,Editor registru,Date Excel native datetime; B5=7/E5=8; L/M/N prezente; toate dest exista,Filtre/dropdown/linkuri de verificat dupa corectii
+C09,Inchis,Editor documente,Surse separate si contracte reconstituite marcate neconfirmate,Modelele istorice nu devin dovada vechimii
+C10,In lucru,Auditor,Acest checklist include responsabil si dovada pentru fiecare corectie,Raport final dupa QA
+C11,Deschis productie,Editor Excel,Validare lista inline E9:E127 depaseste255caractere,Foaie Liste si interval numit; validare referinta interval
+C12,Deschis productie,Editor Excel,Table si worksheet fara AutoFilter,Activati AutoFilter A8:N127
+C13,Recomandat,Editor Excel,"L/M/N sunt paths text, zero hyperlinkuri",Adaugati linkuri la documente/surse
+C14,Deschis productie,Editor registru,2 randuri identice Cosmin2d692c5035 acelasi dest,Eliminati duplicatul si recalculati rânduri/formule/opis
+C15,Deschis productie,Editor registru,MasterIlinca marcat Obligat si actiune19 cere semnare,Master suport daca invocat; document19 intern nu se depune
+E01,Deschis extern,Contabil ROSE,"Balante2022/2023 negasite,2024XFA nelizibil",Obtinere documente finale lizibile; confirmare bilanturi si balante
+E02,Deschis extern,ROSE/contabil,FiscaleANAF/local actuale negasite,Obtinere certificate actuale
+E03,Deschis extern,Ilinca/ROSE,"Atestat, supervizare si experienta specifica neconfirmate",Atestat actual si dovezi copii/parinti
+E04,Deschis extern,ROSE,ProiectONG relevant implementat ultimii3ani nedemonstrat integral,Dovezi cerinta exacta si rezultate acceptate
+E05,Deschis extern,ROSE/experti,"Financiare fisa, roluri, disponibilitate, spatii, numar proiecte, semnaturi de validat",Completare din dovezi si semnare reala; opis final

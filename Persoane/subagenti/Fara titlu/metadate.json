@@ -1,0 +1,23 @@
+{
+  "id": "01a196c5-b668-7861-9e28-e48714d5b6c4",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Persoane",
+  "created_at": 1793530902,
+  "updated_at": 1793532332,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a19691-fa90-7970-b383-c7debfae5766\",\"depth\":1,\"agent_path\":\"/root/auditor_persoane\",\"agent_nickname\":\"Zeno\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "8da5baa7-c368-4743-8f5b-d573af1d979b",
+  "project": "Persoane",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a19691-fa90-7970-b383-c7debfae5766",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 19506093,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 68,
+  "message_count": 1,
+  "content_sha256": "78bc4ddbc4f072b15f84fcbe791a6dac34931e67f29edb676514232a09987d0c",
+  "files_copied": 17,
+  "references_not_copied": 0
+}

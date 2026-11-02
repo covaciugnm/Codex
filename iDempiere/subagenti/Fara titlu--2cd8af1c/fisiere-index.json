@@ -1,0 +1,22 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/manual_arhitectura_20261025.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/review_manual_integrat_20261025.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_manual_architecture_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_review_manual_integrat_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\finalize_review_manual_integrat_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

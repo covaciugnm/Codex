@@ -1,0 +1,30 @@
+AUDIT PRELIMINAR INDEPENDENT - DOSARE SEBES ROSE
+Data verificarii: 01.11.2026. Data propusa a documentelor: 02.11.2026.
+Arie: anunturi 78398 si 78418, anexele3/4, projects.json, records.json (182 inregistrari), jobs.json (36 Word), build_docs.py, continut Word proiect1 si structura programatica comuna celor2 proiecte. PDF/Excel inca in lucru: neverificate final.
+
+SCOR PROVIZORIU
+Calitatea pachetului de lucru: 7/10. Structura, separarea proiectelor, sursele si marcarea majoritatii lipsurilor sunt corecte. Sunt necesare corecturi editoriale, granularitate documente in registru, concordanta statutelor, QA Word/PDF si Excel final.
+Pregatire pentru depunere/eligibilitate: 3/10. Nu este dosar complet de depus: lipsesc fiscale actuale, balante2022/2023, bilant2024 lizibil, atestat si dovezi specifice Ilinca, confirmarea proiectului ONG relevant implementat si datele financiare/numar proiecte/spatii. Scorul nu prezice decizia comisiei.
+
+CORECTURI OBLIGATORII DE PRODUCTIE
+C01 [DESCHIS] Corectati spatierea sistematica: la02.11.2026, Septembrie1993, Activitatea3, contract650/H, maximum5, caAsociatia; pastrati numerele si datele exacte.
+C02 [DESCHIS] Anexa6: acord gramatical al Asociatiei/in numele Asociatiei, completati blocul final cu numele reprezentantului, pastrati locul semnaturii.
+C03 [DESCHIS] Registru Excel: fiecare document individual o linie, inclusiv fiecare diploma/certificat si document justificativ. Un PDF consolidat poate fi citat pe mai multe linii cu pagini interne.
+C04 [DESCHIS] Statut obligatoriu/optiune: expertul suplimentar Cosmin si disponibilitatea lui nu sunt cerinta obligatorie distincta; clasificati propunere suplimentara. Nu etichetati orice inscris gasit drept obligatoriu.
+C05 [DESCHIS] Szoke functie actuala: in verificare spuneti confirmata de utilizator; data14.11.2022 este din CV arhivat. Nu insinuati ca a fost verificat un act actual de conducere daca acesta lipseste.
+C06 [DESCHIS] Szoke voluntariat: consemnati diferenta CV inceput04.02.2013 versus contract si certificat15.01.2013. In CV nou utilizarea datei din certificat este justificabila, cu trasabilitate explicita.
+C07 [DESCHIS] Verificati final toate36 PDF fata de Word, render integral, pagini fara text taiat, semnatura/data fiecare pagina CV, niciun PDF corupt sau Please wait intre livrabilele de semnat.
+C08 [DESCHIS] Actualizati registrul cu documentele finale PDF si orice esec de conversie; termen fizic02.11.2026 16:00, email02.11.2026 24:00 echivalent03.11.2026 00:00.
+C09 [DESCHIS] Separati clar sursele istorice, proiectele nesemnate/reconstituite si Word/PDF pregatite pentru validare; eliminati din finale orice referire straina Andreea Balan.
+C10 [DESCHIS] Creati checklist final de corecturi cu responsabil, actiune, sursa, termen si dovada inchiderii; nu inchideti lipsurile externe prin simpla redactare a unei declaratii.
+
+CONSTATARE SURSA-AFIRMATIE
+Szoke: licenta terapie ocupationala2015, antreprenor economie sociala2020, inspector RU2018, bac2011 verificate vizual in consolidat2ab2af8759 p7-14; certificat voluntariat p20 confirma956ore/15.01.2013-30.09.2022; contract p21-25 are semnaturi vizibile. Recomandarea p16 e semnata, copil6ani; nu presupune atestat psiholog. CV nou nu extinde automat functiile pana2026.
+Florin: consolidat9282144560 p5 economist/informatica economica, p6 inginer mecanica agricola, p7 evaluator bunuri mobile2006, p8 CECCAR evaluare intreprinderi1996, p9 ANEVAR proprietati2002, p10-11 formator2011, p12 adeverintaELEN, p13-16 CIM, p17-22 fisa post, p23-28 CIM GAL. Studiile drept/master nu au suport in consolidat; CV nou le exclude corect din realizarile confirmate. Confirmarea predarii1993-1996 ramane de obtinut.
+Ilinca: licenta psihologie diplomaLA0486952 nr3370/22.09.2021 verificata vizual; master si atestat doar declarate in CV. Pana la atestat nu presupuneti practica autonoma, logopedie sau experientaCES. CV nou marcheaza corect aceste limite.
+Cosmin: diploma inginerP0005277 UTCN, examen iunie1996, si certificat formatorE0079387,120ore,03-29.08.2009 verificate vizual. Datele2009 corecteaza CV-ul vechi. Managementul O sansa pentru fiecare provine din CV; semnatura pe fisaFlorin2013 sustine coordonareELEN, nu dovedeste singura intreaga perioada. Raportul650H il numeste imputernicit, fara a valida un mandat actual. Nu se atribuie doctorat.
+
+BLOCAJE EXTERNE - NU SUNT REMEDIATE DE AUDIT
+FiscaleANAF/local actuale; balante analitice2022/2023 si confirmare2024/2025; bilant2024 lizibil; situatii2022-2025 finale/recipise; atestatIlinca/supervizare/experienta specifica; proiectONG implementat ultimii3ani pe cerinta exacta; actualizare cronologiiCV; numar exact proiecte; spatii; buget/cofinantare; semnaturi reale; opis/numerotare finala.
+
+Limita: audit documentar, nu certifica autenticitatea scanarilor, validitatea criptografica a semnaturilor, eligibilitatea definitiva sau acceptarea comisiei.

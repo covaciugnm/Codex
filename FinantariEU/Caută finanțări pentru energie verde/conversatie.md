@@ -2,7 +2,7 @@
 
 ID: `01a0f6d7-bf66-7cb3-a4d9-7dd497a4c9bc`  
 Proiect: FinantariEU  
-Export UTC: 2026-10-15T09:33:11.760357+00:00
+Export UTC: 2026-11-02T15:26:35.221418+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 

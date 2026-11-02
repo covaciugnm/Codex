@@ -1,0 +1,85 @@
+2026.10.14 — AUDIT JURIDIC INDEPENDENT R05
+Auditor: al doilea Rechtsanwalt (independent), litigii comerciale ABGB/UGB + energie
+Obiect: „2026.10.14 Solicitare STURM DE R05 NETRIMIS.txt” + „2026.10.14 Memo surse si decizii R05.txt”
+Metodă: diff textual R04 (10/10) → R05; verificare § 11 UStG 1994 în RIS (Gesetzesnummer 10004873, 14.10.2026); verificări structurale; reluarea criteriilor A–F pe textul integral, cu accent pe conținutul nou.
+
+=====================================================================
+0. VERIFICĂRI MECANICE
+=====================================================================
+Diff R04 → R05 conține exact modificările declarate în memo și nimic altceva:
+- II.4 NOU (UStG) + renumerotare II.4–7 vechi → II.5–8, conținut neschimbat ........................ confirmat
+- III.3 extins (titlu + Kündigungserklärungen + confirmare facturare pe contractele vechi) ........ confirmat
+- III.4 extins (titlu „Negativerklärung und Rücknahme” + Stornierung/Rücknahme + confirmare scrisă) confirmat
+- III.7 NOU „Stammdaten aus Ihrem System” (a)–(f); III.7–8 vechi → III.8–9 ......................... confirmat
+- III.9 extins (confirmare că nu s-au transmis date; Widerruf) ....................................... confirmat
+- Trimiteri actualizate: III.9 → III.1–III.7; V → III.9 și III.1–III.8; Beilage 1 → III.1, III.2, III.4, III.7; Beilage 2 → III.1–III.7; I.6 → IV.3 (IV neschimbat) ... toate țintele există și sunt corecte
+- Numerotare: I.1–7, II.1–8, III.1–9, IV.1–5, V — completă și continuă
+- Diacritice: nicio transliterare; ä ö ü ß corecte în textul nou (Empfängers, Umadressierung, Kündigungserklärungen, Verbräuche, Änderungshistorie, Kreditschutzverbände)
+- Beilage 1: 21 rânduri × 12 coloane; Beilage 2 neschimbată; fără bloc de statut
+- § 11 Abs. 1 Z 3 lit. b UStG 1994 (RIS): „den Namen und die Anschrift des Abnehmers der Lieferung oder des Empfängers der sonstigen Leistung”; aceeași literă: UID-ul Leistungsempfänger-ului obligatoriu doar la Gesamtbetrag > 10.000 EUR (leistender Unternehmer im Inland, Umsatz an Unternehmer). Norma există și citarea e exactă.
+
+=====================================================================
+NOTE PE CRITERII
+=====================================================================
+
+A. Corectitudine juridică — 9/10
+§ 11 Abs. 1 Z 3 lit. b UStG 1994 există și cere numele/adresa destinatarului; citarea e corectă și decizia de a nu invoca regula UID > 10.000 EUR e corectă (facturile sunt sub prag; UID-ul tipărit e element facultativ). Două imprecizii în II.4: (1) furnizarea de Strom/Gas este, în sensul UStG, o Lieferung, deci termenul exact din lit. b este „Abnehmer der Lieferung”, nu „Empfänger der Leistung”; (2) concluzia „macht A&C nicht zur Schuldnerin” e trasă direct dintr-o normă fiscală — efectul civil trebuie formulat ca indiciu care confirmă II.1–II.3, nu ca temei autonom; în forma actuală STURM poate răspunde „Formfehler, wir berichtigen die Rechnung” și poate crede că a rezolvat obiecția.
+
+B. Corectitudine factuală — 9/10
+Toate elementele preluate din R04 rămân exacte. Două fapte noi: (1) SEPA-Formular din pachetul 24.09.2026 necompletat/nesemnat — verificat în Concluzie (pagina 2 verificată vizual); corect. (2) II.4 afirmă că UID ATU76175979 este a „früheren Vertragspartnerin” — dosarul stabilește doar că UID-ul NU e al A&C; titularul nu a fost identificat (Hofhans? Verkäuferin? altă entitate). Afirmația depășește sursele; dacă UID-ul aparține altcuiva (de ex. Hausverwaltung, nu Vertragspartnerin), STURM obține o corecție ieftină. Formularea trebuie redusă la ce e dovedit: „eine fremde UID”.
+
+C. Claritate și concizie — 9/10
+Structura rămâne clară; III.7 (a)–(f) e dens dar bine segmentat; renumerotarea e consecventă. Textul a crescut la ≈1.830 cuvinte (≈3,2 pagini) — la limita superioară a țintei, acceptabil pentru că completările au fost cerute de client. Singura fraza grea: III.3 teza finală (3 rânduri, două cereri distincte într-o propoziție) — se poate rupe în două fără pierdere.
+
+D. Completitudine față de scopul clientului — 10/10
+Pe lângă tot ce avea R04: Kündigung-ul contractelor vechi per Anlage, confirmarea facturării integrale pe contractele vechi, retragerea tuturor documentelor adresate A&C cu confirmare scrisă, Stammdaten din sistemul STURM cu istoricul modificărilor, SEPA, Wiener Netze, sursa readresării, și confirmarea/Widerruf privind Inkasso/Kreditschutzverbände/Auskunfteien. Nimic esențial lipsă.
+
+E. Formă — 10/10
+Germană corectă, diacritice complete, structură intactă, ton ferm, fără scuze/colaborare viitoare, numerotare și trimiteri coerente. Placeholder telefon = decizie client (pre-expediere).
+
+F. Risc strategic — 9/10
+Nicio admitere nouă: III.3 „ohne Anerkenntnis … für irgendeinen Zeitraum” rămâne în vigoare și pentru cererile noi; confirmarea cerută (facturare pe contractele vechi) e exclusiv în favoarea A&C; III.7 lit. (e) nu admite nimic (primirea scrisorii 24.09 era deja în I.5(c)); III.9 nu admite Verzug. Un risc nou, previzibil: III.7 lit. (b) cere istoricul modificării Rechnungsempfänger-ului cu „veranlassende Stelle – Hofhans, CERHA HEMPEL, A&C …”. Răspunsul STURM va conține aproape sigur emailurile din 27.05 și 08.06.2026 (A&C și Mag. Capra: „noul proprietar este A&C”, cerere de transmitere a tuturor facturilor, mențiunea lui Capra despre Guthaben). Scrisoarea trebuie să neutralizeze acest răspuns ÎNAINTE ca STURM să-l dea — II.3 acoperă principiul, dar nu numește expres cererea de documente din Ticket 339194. Risc secundar, mic: Kündigungserklärungen „gegenüber der früheren Vertragspartnerin” sunt documente ale unui terț — STURM poate invoca Datenschutz; cererea trebuie legată de pretențiile față de A&C (ca la III.5).
+
+=====================================================================
+NOTA GLOBALĂ: 9/10
+=====================================================================
+Completările sunt corecte în substanță, bine integrate și fără admiteri. Nu acord FREIGABE pentru că II.4 (textul nou, singurul cu o normă nouă) are două imprecizii remediabile și pentru că III.7(b) deschide un răspuns previzibil al STURM pe care scrisoarea nu-l pre-empționează. După aplicarea mecanică a remedierilor 1–4 → FREIGABE fără un nou audit de fond (sunt înlocuiri de text locale, fără efect asupra numerotării sau a altor pasaje).
+
+=====================================================================
+REMEDIERI (ordonate după gravitate)
+=====================================================================
+
+1. [DREPT + FACT] II.4 — termen exact din lit. b, titular UID nedovedit, efect civil ca indiciu, blocarea „Rechnungsberichtigung”.
+   Citat (întreg punctul): „4. Eine Rechnung hat Namen und Anschrift des Empfängers der Leistung anzugeben (§ 11 Abs. 1 Z 3 lit. b UStG 1994). Die an A&C adressierten Rechnungen weisen die UID ATU76175979 aus; die UID der A&C lautet ATU83086125. Sie haben damit selbst die frühere Vertragspartnerin als Leistungsempfängerin ausgewiesen. Eine nachträgliche Umadressierung „p.a. A&C“ ändert die Leistungsempfängerin nicht und macht A&C nicht zur Schuldnerin.”
+   Înlocuire: „4. Eine Rechnung hat Namen und Anschrift des Abnehmers der Lieferung anzugeben (§ 11 Abs. 1 Z 3 lit. b UStG 1994). Die an A&C adressierten Rechnungen (etwa Rechnung 29708/10/2026) weisen eine fremde UID (ATU76175979) aus, nicht jene der A&C (ATU83086125). Sie haben damit selbst eine andere Abnehmerin ausgewiesen. Das bestätigt die Rechtslage nach Punkt II.1 bis II.3: Eine nachträgliche Umadressierung „p.a. A&C“ oder eine Rechnungsberichtigung ändert nichts daran, dass es an einem Vertrag mit A&C fehlt.”
+   Motiv: (i) Strom/Gas = Lieferung → „Abnehmer”; (ii) titularul UID-ului nu e identificat în dosar → „fremde UID”; (iii) norma fiscală prezentată ca indiciu care confirmă II.1–II.3, nu ca temei; (iv) „oder eine Rechnungsberichtigung” închide răspunsul „Formfehler, wir stellen neu aus”.
+
+2. [STRATEGIC] II.3 — pre-empționarea răspunsului STURM cu emailurile A&C/Capra din Ticket 339194.
+   Citat: „3. Die Adressierung einer Rechnung oder Mahnung an A&C („p.a.“) begründet kein Vertragsverhältnis. Die Eigenschaft als Liegenschaftseigentümerin ersetzt den Liefervertrag nicht.”
+   Înlocuire: „3. Die Adressierung einer Rechnung oder Mahnung an A&C („p.a.“) begründet kein Vertragsverhältnis. Die Eigenschaft als Liegenschaftseigentümerin ersetzt den Liefervertrag nicht. Gleiches gilt für die Ersuchen der A&C bzw. ihrer früheren Vertreterin um Übermittlung von Unterlagen und offenen Rechnungen zur Prüfung (Ticket 339194): Sie dienten der Sachverhaltsklärung und sind weder Vertragsannahme noch Übernahme.”
+   Motiv: III.7(b) va produce exact aceste emailuri; e mai bine ca A&C să le califice întâi.
+
+3. [STRATEGIC] III.3 — Kündigungserklärungen ale unui terț; frază prea lungă.
+   Citat: „Weiters die Kündigungserklärungen bzw. -bestätigungen gegenüber der früheren Vertragspartnerin je Anlage (Datum, Kündigungsgrund, Wirksamkeitsdatum) sowie die Bestätigung, dass sämtliche Verbräuche bis zum jeweiligen Lieferende (18.03.2026 bzw. 08.04.2026) über die Verträge der früheren Vertragspartnerin abgerechnet wurden und keine Abrechnung auf einen Vertrag der A&C erfolgt ist.”
+   Înlocuire: „Weiters, soweit Sie daraus Forderungen gegen A&C ableiten, die Kündigungserklärungen bzw. -bestätigungen je Anlage (Datum, Kündigungsgrund, Wirksamkeitsdatum). Schließlich die Bestätigung, dass sämtliche Verbräuche bis zum jeweiligen Lieferende (18.03.2026 bzw. 08.04.2026) über die Verträge der früheren Vertragspartnerin abgerechnet wurden und keine Abrechnung auf einen Vertrag der A&C erfolgt ist.”
+   Motiv: închide scuza „Drittunterlagen/Datenschutz” (aceeași tehnică folosită deja în III.5) și rupe fraza în două cereri distincte.
+
+4. [CLARITATE] III.7 lit. (b) — enumerarea cauzatorilor posibili.
+   Citat: „(veranlassende Stelle – Hofhans, CERHA HEMPEL, A&C oder STURM ENERGIE intern – und zugrunde liegendes Dokument)”
+   Înlocuire: „(veranlassende Stelle und zugrunde liegendes Dokument)”
+   Motiv: lista exemplificativă nu adaugă nimic cererii (STURM trebuie să indice oricum sursa), dar sugerează că A&C/CERHA ar fi putut dispune readresarea; cu remedierea 2 în loc, enumerarea devine inutilă.
+
+=====================================================================
+VERIFICĂRI PRE-EXPEDIERE (neschimbate față de R04, valabile după remedieri)
+=====================================================================
+a) Completează sau șterge „ | Tel.: [vor Versand ergänzen]”.
+b) Expediere 15.10 → III.9 și V „17.10.2026, 12:00 Uhr” + data din antet.
+c) Confirmarea plătitorului pentru descrierea neutră din IV.3.
+d) Semnătură GF, PDF cu antet, Beilage 1/2 ca tabele lizibile (landscape).
+e) Trimitere la grosskunde@ + kundendienst@, de preferat în firul Ticket 365759, cu ticketele și Kundennummern în subiect; arhivarea dovezii.
+f) Calendar: 16.10 / 19.10 / 28.10; argumentul de rezervă Hauptsicherung (19.03.2026) de confirmat documentar pentru etapa următoare.
+
+=====================================================================
+CONFIRMĂRI (de păstrat neschimbate)
+=====================================================================
+Tot conținutul R04 (10/10); III.4 extins (Stornierung/Rücknahme + confirmare scrisă) — corect și coerent cu II.4 remediat; III.7 lit. (a), (c)–(f) — corecte, fără admiteri; III.9 extins — corect, fără a numi KSV1870; decizia de a nu invoca regula UID > 10.000 EUR; renumerotarea și toate trimiterile interne.

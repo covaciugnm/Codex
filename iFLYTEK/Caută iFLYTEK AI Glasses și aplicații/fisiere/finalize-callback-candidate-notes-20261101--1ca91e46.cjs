@@ -1,0 +1,11 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const {methodSpan}=require('./prepare-material-repair-candidates-20261101.cjs');
+const repo=path.resolve(__dirname,'..'),work='D:/Codex-iflytek-decompilation-repair-20261101',hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+function main(){
+ const auditName='decompilation-repair-2026-11-01/audit/CALLBACK-SEMANTIC-REVIEW.json',auditBytes=fs.readFileSync(path.join(repo,auditName)),audit=JSON.parse(auditBytes),old=JSON.parse(fs.readFileSync(path.join(work,'manual-callback/candidate.json')));
+ if(audit.status!=='PASS'||audit.score!==10||audit.descriptor!==old.descriptor||audit.candidate.sha256!==old.candidate.sha256)throw Error('Exact independent semantic review required');const b=fs.readFileSync(old.candidate.file);if(b.length!==audit.candidate.bytes||hash(b)!==audit.candidate.sha256)throw Error('Reviewed candidate changed');
+ const text=b.toString('utf8'),before='Unapproved candidate; requires independent semantic review.',after='Body reconstruction statically reviewed by independent auditor; see '+auditName+'.';if(text.split(before).length!==2)throw Error('Expected unique notice');const updated=text.replace(before,after);if(updated.replace(after,before)!==text)throw Error('Unexpected source difference');const span=methodSpan(updated,'onPerformStreamCallback');if(hash(updated.slice(0,span.open))!==old.proof.unchangedPrefixSha256||hash(updated.slice(span.end))!==old.proof.unchangedSuffixSha256)throw Error('Outside-body change');
+ const folder=path.join(work,'accepted-callback');fs.mkdirSync(folder,{recursive:true});const file=path.join(folder,'b.java');fs.writeFileSync(file,updated);const report={schemaVersion:1,status:'COMMENT-UPDATED-COPY-REQUIRES-EXACT-FINAL-AUDIT',descriptor:old.descriptor,logicalPath:old.logicalPath,baseline:old.baseline,reviewedCandidate:audit.candidate,finalCopy:{file,sha256:hash(updated),bytes:Buffer.byteLength(updated)},onlyChange:{before,after},outsideBodyUnchanged:true,semanticReview:{file:auditName,sha256:hash(auditBytes)},generatorSha256:hash(fs.readFileSync(__filename))};fs.writeFileSync(path.join(folder,'PREPROMOTION.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report.finalCopy));
+}
+if(require.main===module)main();

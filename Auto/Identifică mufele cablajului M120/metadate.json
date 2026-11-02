@@ -1,0 +1,23 @@
+{
+  "id": "01a18ce8-68b8-7cd0-ac6f-fc6785648fdd",
+  "cwd": "\\\\?\\D:\\Auto",
+  "created_at": 1793365403,
+  "updated_at": 1793367631,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Identifică mufele cablajului M120",
+  "project_id": "dd874313-a74b-4a5b-80de-d21b4732bf05",
+  "project": "Auto",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 13392646,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 128,
+  "message_count": 33,
+  "content_sha256": "cb05d55ae9b56a90020026230b5a376050bfbcbc2774642071f3c93ef4f32bd7",
+  "files_copied": 14,
+  "references_not_copied": 48
+}

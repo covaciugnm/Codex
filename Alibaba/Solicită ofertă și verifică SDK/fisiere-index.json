@@ -1,0 +1,22 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/Aparat Auditiv/Austar",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://www.audioalfa.ro/anpdp-techassist/documente-eligibilitate",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.audioalfa.ro/info/preturi",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.austar-hearing.net/AidShow/say-goodbye-to-hassle-fugue-x-all-in-one-smart-hearing-aids.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "mailto:sales3@austar-hearing.com",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

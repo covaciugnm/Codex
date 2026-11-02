@@ -1,0 +1,339 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\audit_extins_provenance_20261024.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\audit_extins_root_codecheck_20261024.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_architecture_g123.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_audit_extins_20261024.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_audit_extins_synthesis_20261024.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_final_c03_c10.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_manual_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\check_manual_dependencies_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\checklist-c03-c10-qa.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\manual_sources_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\patch_final_generator.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\prepare_audit_extins_assets_20261024.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\qa-audit-extins-20261024.cjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\qa-audit-three-files.cjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\qa-plans-c03-c10.cjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\qa_manual_20261025.cjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_c03_c10\\sales-01.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_c03_c10\\sales-04.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_c03_c10\\sales-09.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_c03_c10\\sales-11.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_extract.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_g123_final.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_plan_content.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\reaudit_source_inventory.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\seal_audit_c03_c10.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\seal_audit_extins_20261024.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\seal_final_three_audit.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\seal_manual_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\validate_manual_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\verify_final_audit_c03_c10.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\materialize-eva-audit.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/materialize-eva-audit--a7ff44f9.cjs",
+    "bytes": 4312,
+    "sha256": "c9958cc8de035be5db1b7563d07f6d5b639c9e360ff11fdfd5b5b2df80e00b4f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Analiza_C03_C10_reutilizare_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Analiza_C03_C10_reutilizare_2026-10-23--9ed4ef4d.html",
+    "bytes": 160409,
+    "sha256": "a969984175349e2a3ce44d0ba608c3d2285cf82c616ccb61ba6711a8dcf84a41"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Arhitectura_detaliata_EVA_Gestiuni_WMS_Comenzi_Canale_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Arhitectura_detaliata_EVA_Gestiuni_WMS_Comenzi_Canale_2--7ff458a5.html",
+    "bytes": 292772,
+    "sha256": "fb2655e7c0287b7d8e5c2c867dbce71fdb58f91f303a99801931c8a2ef5f7b8b"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Audit_calitate_C03_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_calitate_C03_C10_2026-10-23--86417c7f.html",
+    "bytes": 31244,
+    "sha256": "2e9f80c6a980c47816e0a64c484b3b90b421f4669d8923939b9a66462bb00102"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Audit_extins_2026-10-24/Audit_extins_concluzii_C03_C10_2026-10-24.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_extins_concluzii_C03_C10_2026-10-24--9bde0a1f.html",
+    "bytes": 1175038,
+    "sha256": "74a81511d692903229eed02badc47fb75f53cf1e6408e24e782e64f6b3cce2cf"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Audit_final_corectii_C03_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_final_corectii_C03_C10_2026-10-23--6aad110b.html",
+    "bytes": 7364,
+    "sha256": "247c3e18da0e471aaab2d9199fffd37102bf0afa0894c81968f8ebe3fa52485d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Checklist_implementator_corectii_C03_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Checklist_implementator_corectii_C03_C10_2026-10-23--97617594.html",
+    "bytes": 54927,
+    "sha256": "0a1b33103cdff5d594fb3e8a0bc0571ebcc4c8a5aea3491729edb71fb1a0f619"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Jurnal_corectii_autoverificare_C03_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Jurnal_corectii_autoverificare_C03_C10_2026-10-23--26e71cc0.html",
+    "bytes": 99891,
+    "sha256": "424e1c66f4f78683791d376d83a0436505687f43adf1b14a51c7de11ecd641e9"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Manual_arhitectura_2026-10-25/Manual_C03_Gestiuni_WMS.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Manual_C03_Gestiuni_WMS--349628ff.html",
+    "bytes": 655284,
+    "sha256": "1c4bf9de2321a3d83d2bc0253ea5fccfa80b8f94d1ee77b74e764e12c875abde"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Manual_arhitectura_2026-10-25/Manual_C10_Comenzi_Canale.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Manual_C10_Comenzi_Canale--02cf9e3e.html",
+    "bytes": 855195,
+    "sha256": "95d5ad9207dcf01c8461f8986cbc1aeff65598e45d0d50b24d63755353b66906"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Manual_arhitectura_2026-10-25/Manual_Explicativ_Arhitectura.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Manual_Explicativ_Arhitectura--99ba56cc.html",
+    "bytes": 361925,
+    "sha256": "e8a8bc579f9feaecdd66fe57e930c1fecb38e695d5647eaa4a6e1f17b729e7e7"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Plan_final_C03_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Plan_final_C03_2026-10-23--134a98aa.html",
+    "bytes": 394065,
+    "sha256": "d70ae0551c03632198a866916ae6c420e09fb5aa5f80fda98949943ecdc57bfc"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Plan_final_C10_2026-10-23.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Plan_final_C10_2026-10-23--f2d539de.html",
+    "bytes": 625076,
+    "sha256": "22067a91b60ce4e09c0578cf5e8e334a33ae98a02431c7546ec20752452a278f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Audit_extins_2026-10-24\\Preview_audit_extins_desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Preview_audit_extins_desktop--d0b07dc3.png",
+    "bytes": 93818,
+    "sha256": "8494d02616397809ee8e3465265b8b559d49edb4351b3bd2d4db7e849b7bf9d7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Audit_extins_2026-10-24\\Preview_audit_extins_mobil.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Preview_audit_extins_mobil--be96147e.png",
+    "bytes": 41849,
+    "sha256": "00e3b2b7cc9cbf290a7af8d221ccd207e7f5edbec9f83d5cc00db34276dcd25a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Dovezi_reaudit_2026-10-23\\preview_C03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_C03--bf551ef4.png",
+    "bytes": 103639,
+    "sha256": "38b7fd09e808ba6b166503203ab286d44d1771552162439b54dd4dc13140c34f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Dovezi_reaudit_2026-10-23\\preview_C03_mobil.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_C03_mobil--43fb2310.png",
+    "bytes": 44941,
+    "sha256": "38dd470a83abe33a41345681803ab684dd1a402d28a6fb346a05eb652bbe8fe0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Dovezi_reaudit_2026-10-23\\preview_C10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_C10--094128e9.png",
+    "bytes": 103698,
+    "sha256": "9a9649764b65bb65ef09764e6ad19e198f86688fa8e295a0cd65fd610a20be56"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Dovezi_reaudit_2026-10-23\\preview_C10_mobil.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_C10_mobil--ca52373b.png",
+    "bytes": 46926,
+    "sha256": "9f6cee88c6fb1894fb46e628cccbc4ea22a12843d7ebdb63bdc4b6303822f91e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Dovezi_reaudit_2026-10-23\\preview_Explicativ_schema.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Explicativ_schema--b46a4f3c.png",
+    "bytes": 52397,
+    "sha256": "82099eaadf92438720fa15a3fc652d7279efd68b97e7d93fa9b1eb680b3c6e6e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Dovezi_reaudit_2026-10-23\\preview_Explicativ_taburi.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Explicativ_taburi--b6ae49cb.png",
+    "bytes": 42839,
+    "sha256": "3e3fe843f11134189c6b1ce7993e516508b3030568c86b8eca63b51ad6d50807"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A05\\inventory-saved.png",
+    "status": "copiat",
+    "saved_path": "fisiere/inventory-saved--86189dda.png",
+    "bytes": 168150,
+    "sha256": "8177e2b966240f738014f1665a0519143862b41386ddf7ed44bcfeee34ab26e1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A08\\checkout-360.png",
+    "status": "copiat",
+    "saved_path": "fisiere/checkout-360--a8bc7263.png",
+    "bytes": 25093,
+    "sha256": "c87e40071798d5f3711a6e65826a2302db1b761423b0fec81caf7d3bd82a2fbf"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Manual_C03_Gestiuni_WMS_fisa.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Manual_C03_Gestiuni_WMS_fisa--a436400d.png",
+    "bytes": 109965,
+    "sha256": "3a369163daa5975bf2fc0bf9dd312cb7d8d2d6abe1656b096158b42f02e6c1c7"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Manual_C10_Comenzi_Canale_mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Manual_C10_Comenzi_Canale_mobile--888b5651.png",
+    "bytes": 41863,
+    "sha256": "560ec01944aa3edc49ba245995751a6463960e9ce19df63018ddd3b72cb92b72"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Manual_Explicativ_Arhitectura_desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Manual_Explicativ_Arhitectura_desktop--bf587e13.png",
+    "bytes": 122622,
+    "sha256": "54b6395b67031d8983647b6a3d713058ebc93c14368f330a20ae8aa59772fe98"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Manual_Explicativ_Arhitectura_mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Manual_Explicativ_Arhitectura_mobile--2e3e169e.png",
+    "bytes": 41925,
+    "sha256": "5b0d0a8355e468262c6eb66f36463ede83eebabe3b549c4889f463bf170c784c"
+  },
+  {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiNTllYjBiM2EtYzRjNi00YzBmLWFlZjItMzUwNDcxM2NiMDI4IiwiZSI6MTc5Mjk5NzM0MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.0V1VfJuNnzuMNj1si5UPuX3IzX2t1vmxzoHNyxW2vjQ",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiZDNkYTNkYjktZGVmYy00Mzk2LWE4MTUtZGE2ZjMyOWY0NzNhIiwiZSI6MTc5Mjk5NzM0MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.et97Yl2bjyxvb1ImtBKVOdZIb-_rNnfiiLF1JhU4XTo",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiZjVmODE3MTctZjU5Ni00ZmU2LWJhZGItZWViMGU4NGJiMDIzIiwiZSI6MTc5Mjk5NzM0MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.FZYandrllf4MzSLzUZIA9iewSXomcn2hWwrWoW0xVdo",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://eva-org.com/claude/taskuri",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/settings/keys/new",
+    "status": "referinta_externa_necopiata"
+  }
+]

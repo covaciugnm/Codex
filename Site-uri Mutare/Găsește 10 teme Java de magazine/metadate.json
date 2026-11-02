@@ -1,0 +1,23 @@
+{
+  "id": "01a15dbb-4e6a-7bd3-b573-e8ed85cbb474",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\MutareSite",
+  "created_at": 1792573918,
+  "updated_at": 1792574112,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește 10 teme Java de magazine",
+  "project_id": "dd69849b-902a-43ff-8975-e480a0b8d7bd",
+  "project": "Site-uri Mutare",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 119370,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 46,
+  "message_count": 11,
+  "content_sha256": "0584d3f3adb33d9d4e17307ec030a258c92b2a922de044ce98fea72b00e7a3be",
+  "files_copied": 0,
+  "references_not_copied": 229
+}

@@ -14,6 +14,42 @@
       }
     },
     {
+      "path": "Audit și îmbunătățiri at-wohnart.at/conversatie.md",
+      "masked_values": {
+        "url_userinfo": 6
+      }
+    },
+    {
+      "path": "Audit și îmbunătățiri at-wohnart.at/istoric.json",
+      "masked_values": {
+        "url_userinfo": 6
+      }
+    },
+    {
+      "path": "Audit și îmbunătățiri at-wohnart.at/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 6
+      }
+    },
+    {
+      "path": "Audit și îmbunătățiri at-wohnart.at--844d85d9/conversatie.md",
+      "masked_values": {
+        "url_userinfo": 6
+      }
+    },
+    {
+      "path": "Audit și îmbunătățiri at-wohnart.at--844d85d9/istoric.json",
+      "masked_values": {
+        "url_userinfo": 6
+      }
+    },
+    {
+      "path": "Audit și îmbunătățiri at-wohnart.at--844d85d9/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 6
+      }
+    },
+    {
       "path": "Descarcă înregistrare video de la Zoom/conversatie.md",
       "masked_values": {
         "signed_url_credential": 1
@@ -29,6 +65,63 @@
       "path": "Descarcă înregistrare video de la Zoom/rezultate.md",
       "masked_values": {
         "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Folder și setări licitati.eva-org.com/conversatie.md",
+      "masked_values": {
+        "google_api_key": 2,
+        "url_userinfo": 3
+      }
+    },
+    {
+      "path": "Folder și setări licitati.eva-org.com/istoric.json",
+      "masked_values": {
+        "google_api_key": 2,
+        "url_userinfo": 3
+      }
+    },
+    {
+      "path": "Folder și setări licitati.eva-org.com/rezultate.md",
+      "masked_values": {
+        "google_api_key": 2,
+        "url_userinfo": 3
+      }
+    },
+    {
+      "path": "Poze arhivă stat - camera trei/conversatie.md",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "Poze arhivă stat - camera trei/istoric.json",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "Poze arhivă stat - camera trei/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "Program stabilit pentru vineri/conversatie.md",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "Program stabilit pentru vineri/istoric.json",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "Program stabilit pentru vineri/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 1
       }
     },
     {

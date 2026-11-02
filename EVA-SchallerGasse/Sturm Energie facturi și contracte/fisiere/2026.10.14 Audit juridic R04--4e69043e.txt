@@ -1,0 +1,62 @@
+2026.10.14 — AUDIT JURIDIC INDEPENDENT R04 (audit final)
+Auditor: al doilea Rechtsanwalt (independent), litigii comerciale ABGB/UGB + energie
+Obiect: „2026.10.14 Solicitare STURM DE R04 NETRIMIS.txt”
+Metodă: diff textual R03 → R04 (singura sursă de modificări posibile) + verificări structurale pe R04 + reluarea criteriilor A–F pe textul integral.
+
+=====================================================================
+0. VERIFICĂRI MECANICE
+=====================================================================
+Diff R03 → R04 conține exact 5 modificări și nimic altceva:
+ 1. II.4: „(Schuldübernahme, §§ 1405, 1406 ABGB) setzt eine entsprechende Erklärung der A&C voraus.” ........ APLICATĂ textual
+ 2. IV.3: „irrtümlich in der Annahme einer Zahlungspflicht und” șters; rămâne „geleistet, ohne Prüfung der Vertragsgrundlage.” ... APLICATĂ textual; „irrtümlich” apare 0 ori în document
+ 3. III.5: „soweit Sie aus diesen Konten Forderungen gegen A&C ableiten oder Rechnungen an A&C adressiert haben, insbesondere:” ... APLICATĂ textual
+ 4. III.8: „der unter Punkt III.1 bis III.6 angeforderten Unterlagen und Erklärungen” ........................... APLICATĂ textual
+ 5. Blocul „--- ENDE DES SCHREIBENS --- / Status: ENTWURF R03 …” șters; documentul se termină cu nota anticumulare din Beilage 2.
+Nicio altă linie modificată → nu a apărut nimic nou.
+
+Verificări structurale R04:
+- Numerotare: I.1–7, II.1–7, III.1–8, IV.1–5, V — completă și continuă.
+- Trimiteri interne: III.8 → III.1–III.6; V → III.8 și III.1–III.7; Beilage 1 → III.1, III.2, III.4; Beilage 2 → III.1–III.6; I.6 → IV.3. Toate țintele există și sunt corecte.
+- Diacritice: nicio transliterare (ae/oe/ue/ss) găsită; ä ö ü ß prezente corect (Jänner, Zählpunkt, Rückforderung, Maßnahmen, Geschäftsführer etc.).
+- Beilage 1: antet 12 coloane, 21 rânduri de date, fiecare cu 12 coloane; identificatori identici cu Concluzia verificată; totaluri 12 Strom / 9 Gas corecte.
+- Beilage 2: 7 poziții (A, B1, B2, C, D, E, F, G) coerente cu I.5 și I.6; pos. G aliniat cu IV.3.
+- Sume/date: 2.662,60 / 98,00 / 19.10.2026; 27,12 + 109,99 = 137,11; 432,66 + 7,00 (50457/49328/49327) / 07.10.2026; 846,92 / 29707; 115,36 / 29700 / 06.08.2026 — identice cu sursele.
+- Termene: 14.10 (dată) < 16.10 (III.8) < 19.10 (STURM) < 28.10 (III) — coerente.
+- Norme: §§ 859, 861, 862, 863, 1333 Abs. 1 und 2, 1405, 1406, 1431 ABGB — toate verificate în RIS (audit R02), toate folosite conform textului legal; § 1404, § 458 UGB, § 1409, KSchG absente.
+
+=====================================================================
+NOTE PE CRITERII
+=====================================================================
+A. Corectitudine juridică — 10/10
+Toate normele citate există și spun exact ce afirmă scrisoarea; §§ 1405/1406 acum atașate corect doar Schuldübernahme; § 1431 aplicat plății din 06.08.2026 cu legitimarea la cel care a plătit; nicio afirmație juridică riscantă; nicio admitere de Unternehmergeschäft, Anerkenntnis, Vertrags-/Schuldübernahme sau Schuldbeitritt.
+
+B. Corectitudine factuală — 10/10
+Fiecare dată, sumă, număr de client/instalație/factură/ticket coincide cu sursele; Parkring 2 descris corect (Geschäftsanschrift Firmenbuch până la 15.09.2026, c/o CERHA HEMPEL); plata 115,36 atribuită corect unei Privatperson, fără calificarea nedovedită „irrtümlich”; Lieferende atribuit Anlagenliste; scrisoarea 24.09.2026 redată complet.
+
+C. Claritate și concizie — 10/10
+Betreff 2 rânduri; cereri numerotate III.1–8 cu liste (a)–(f); trimiteri interne uniforme în notația „III.x”; fără redundanțe; ≈3 pagini text + 2 anexe; un cititor STURM știe exact ce trebuie să livreze pe fiecare rând TOP / Strom / Gas.
+
+D. Completitudine față de scopul clientului — 10/10
+Per factură → contract complet (părți, dată, Abschlussweg, Vertragsnummer, Laufzeit, Zählpunkt, AGB/Preisblatt, semnătură/Vertretungsbefugnis); alternativ Vertrags-/Schuldübernahme; Negativerklärung + confirmare Netzbetreiber; Kontoblätter legate de pozițiile pretinse + trei Guthaben/plăți individualizate; Mahnspesen/Zinsen cu dovada Zugang (factură și Mahnung); adresă; suspendare Mahn/Inkasso/Auskunfteien; Beilage 1 cu 21 instalații și 3 coloane completabile; Beilage 2 cu pozițiile A–G și nota anticumulare.
+
+E. Formă — 10/10
+Germană corectă, diacritice complete, structură Betreff / Sachverhalt / Rechtliche Position / Forderungen / Vorbehalt / Fristen / Beilagen, antet și semnătură GF, „Zustellung per E-Mail”, ton Unternehmer-zu-Unternehmer, fără scuze, fără oferte de colaborare. Placeholder-ul telefon este decizie a clientului și se completează la expediere (vezi pre-expediere).
+
+F. Risc strategic — 10/10
+Nicio admitere implicită: Bestreitung (Betreff, IV.1), kein Anerkenntnis pentru scrisoare/adresă/primirea documentelor (IV.2), plata personală tratată defensiv fără afirmații nedovedite (IV.3), Abgrenzung „ohne Anerkenntnis … für irgendeinen Zeitraum” (III.3), Guthaben ale terților nerevendicate (II.7), Kaufvertrag nedeschis, Kontoblätter cerute doar în măsura în care STURM derivă pretenții față de A&C (fără scuză „Drittkonto”), termenul 19.10.2026 tratat explicit ca poziție.
+
+=====================================================================
+NOTA GLOBALĂ: 10/10
+=====================================================================
+
+FREIGABE: scrisoarea poate fi trimisă.
+
+=====================================================================
+VERIFICĂRI PRE-EXPEDIERE (nu sunt defecte de redactare)
+=====================================================================
+a) Semnătură: completează „Tel.: [vor Versand ergänzen]” cu numărul real sau șterge segmentul „ | Tel.: [vor Versand ergänzen]” (rămâne „E-Mail: office@ac-wohnart.at”). Placeholder-ul NU trebuie să ajungă la STURM.
+b) Data expedierii: dacă se trimite în 14.10.2026 — text neschimbat; dacă în 15.10.2026 — în III.8 și V înlocuiește „16.10.2026” cu „17.10.2026, 12:00 Uhr” (și „Wien, am 14.10.2026” cu „15.10.2026”).
+c) Semnătura GF Cosmin-Adrian Covaciu; conversie în PDF cu antet; Beilage 1 și 2 ca tabele lizibile (PDF/A4 landscape sau tabel în corpul e-mailului), nu text monospațiat rupt la margine.
+d) Trimitere la ambele adrese: grosskunde@sturmenergie.at și kundendienst@sturmenergie.at; subiectul e-mailului să conțină „Ticket 365759 / Ticket 365740 – Kundennummern 42017328, 42018142 – Schallergasse 35 – Bestreitung”; de preferat ca răspuns în firul Ticket 365759 (ca să intre în sistemul lor de tichete înainte de 19.10.2026).
+e) Păstrează dovada expedierii (e-mail trimis + eventual confirmare automată STURM) în dosarul „2026.10.14 Solicitare justificare contractuala STURM”.
+f) Calendar: 16.10.2026 — verifică confirmarea suspendării (III.8); 19.10.2026 — verifică dacă STURM a continuat betreibung-ul; 28.10.2026 — termen documente; după 28.10 fără răspuns complet → etapa următoare (IV.5), cu argumentul de rezervă Hauptsicherung/Wiener Netze 19.03.2026 de confirmat documentar între timp.

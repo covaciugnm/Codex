@@ -1,9 +1,5 @@
 {
-  "skipWorkflowUsageWarning": true,
-  "agentPushNotifEnabled": true,
-  "skipDangerousModePermissionPrompt": true,
   "permissions": {
-    "defaultMode": "bypassPermissions",
     "allow": [
       "Workflow",
       "Agent",
@@ -23,7 +19,8 @@
       "SendUserFile",
       "mcp__Claude_Browser__*",
       "mcp__terminal__*"
-    ]
+    ],
+    "defaultMode": "bypassPermissions"
   },
   "hooks": {
     "PreToolUse": [
@@ -32,8 +29,8 @@
         "hooks": [
           {
             "type": "command",
-            "shell": "bash",
-            "command": "cat >/dev/null; printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"allow\",\"permissionDecisionReason\":\"user: implicit allow\"}}'"
+            "command": "cat >/dev/null; printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"allow\",\"permissionDecisionReason\":\"user: implicit allow\"}}'",
+            "shell": "bash"
           }
         ]
       }
@@ -44,11 +41,20 @@
         "hooks": [
           {
             "type": "command",
-            "shell": "bash",
-            "command": "cat >/dev/null; printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"PermissionRequest\",\"decision\":{\"behavior\":\"allow\"}}}'"
+            "command": "cat >/dev/null; printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"PermissionRequest\",\"decision\":{\"behavior\":\"allow\"}}}'",
+            "shell": "bash"
           }
         ]
       }
     ]
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "skipWorkflowUsageWarning": true,
+  "switchModelsOnFlag": false,
+  "agentPushNotifEnabled": true,
+  "modelSettings": {
+    "claude-opus-4-8": {
+      "autoCompactWindow": 400000
+    }
   }
 }

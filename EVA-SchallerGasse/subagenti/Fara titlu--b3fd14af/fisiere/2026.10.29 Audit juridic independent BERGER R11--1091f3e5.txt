@@ -1,0 +1,65 @@
+2026.10.29 — AUDIT JURIDIC INDEPENDENT — BERGER R11
+
+Obiect: modelul contractual 2026.10.29 Werkvertrag BERGER R11.json și modelul comparativ R11. Verificate toate cele 16 capitole și 6 anexe. Nu am modificat contractul ori modelele. Auditul privește calitatea și coerența proiectului supus confirmării, nu certifică acceptarea comercială ori dreptul de semnare cu câmpurile necompletate. Nu constituie certificarea unui avocat autorizat în Austria.
+
+REZULTAT
+Nu identific o eroare juridică materială blocantă în acest proiect. Deciziile comunicate de proprietar sunt integrate juridic coerent. O corecție redacțională minoră este recomandată acum; celelalte puncte de mai jos sunt condiții de completat/confirmat înainte de semnare, nu motive de a declara proiectul nelegal. Calificativ pentru proiectul revizuit: 9,8/10; după corecția J01, nu rămân observații juridice de fond identificate în aria auditată. Nici un calificativ nu garantează rezultatul unui litigiu sau existența documentelor încă neprimite.
+
+J01 — MINOR, CORECTARE REDACȚIONALĂ ACUM
+Localizare: §9 alin.(2).
+Text exact: «Vor Beginn ist die normale Ausführung innerhalb dieses achtzehnmonatigen Rahmens kein selbständiger Zusatzhonorargrund.»
+Problema: «Vor Beginn» leagă lipsit de logică execuția normală de un moment anterior începerii. Restul clauzei definește corect durata de la B0 efectiv. Nu este o eroare a prețului, ci o ambiguitate evitabilă.
+Propunere: «Die normale Ausführung innerhalb dieses achtzehnmonatigen Rahmens begründet für sich kein zusätzliches zeitabhängiges Honorar.»
+Nu se schimbă nici prețul, nici durata, nici drepturile legale pentru împiedicare imputabilă AG.
+
+VERIFICĂRI DE FOND — REZULTATE
+
+1. Preț și vizite — CONFORM DECIZIEI PROPRIETARULUI.
+§11(1), Anlage4 și coperta: cele patru poziții inițiale 13.000+20.000+2.000+10.000 = 45.000 EUR net; Bauwerksbuch separat 2.500 EUR net; total47.500, TVA9.500, brut57.000 EUR. Bugete condiționate corecte48.500/58.200 pentru un pachet și49.500/59.400 pentru două pachete. §7 și anexele3–4 delimitează max8 vizite statice, T0 numai dacă este asistență statică efectivă; pachete4×250=1.000 net numai comandate expres. Niciun minim obligatoriu de consum și nicio facturare dublă PI/vizită/deplasare. Rezerva §1168 pentru servicii deja comandate dar ulterior anulate împiedică o promisiune falsă că orice neexecutare este automat gratuită.
+
+2. PI — COERENT, CONFIRMARE ÎNAINTE DE SEMNARE.
+§5(1)–(5), §7 și Anlage6 cer persoană calificată, notificare înaintea începerii și dovada luării la cunoștință, independență de Bauwerber/Bauführer și lipsa raportului de serviciu/organ. §127 BO Wien nu interzice automat cumulul cu proiectarea în această configurație; el nu impune două persoane doar pentru că există proiectare. În schimb, calificarea reală și incompatibilitățile trebuie dovedite pentru persoana efectivă. Contractul nu confundă verificarea internă cu independența legală. Controalele legale nu sunt limitate de cele8 vizite statice. PachetulPI10.000 și întinderea sa rămân cereri explicite de confirmare BERGER, nu sunt prezentate drept acord deja existent. Sursă primară: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&Gesetzesnummer=20000006&Paragraf=127&Uebergangsrecht=
+
+3. ZT final — COERENT, DE CONFIRMAT.
+§5(6) distinge corect expertul judiciar eligibilPI de Ziviltechniker eligibil pentru confirmarea§128; un simplu raport static nu este suficient pentru confirmarea integrală. Documentele terților sunt identificate, nu transferate tacit toate în proiectarea structurală. Textul cere numele și includerea în pozițiile existente înainte de semnare; dacă BERGER propune o sumă diferită, nu se naște o factură unilaterală. Această condiție nu este o eroare a proiectului. Sursă: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&Gesetzesnummer=20000006&Paragraf=128&Uebergangsrecht=
+
+4. Bauwerksbuch — COMPLET ȘI COERENT.
+§6 + Anlage1/3/4/6 acoperă întregul existent și toate intervențiile, componente relevante pentru siguranță dincolo de structură, prima verificare, documentele, calificările, intervalele, defectele/remedierea, înregistrarea, dovezile și actualizările până la închidere pentru2.500 net incluse în total. Prestatori auxiliari necesari în mod previzibil sunt în pachet, fără comandarea tacită a lucrărilor fizice, sondajelor invazive ori laboratoarelor. Independența creatorului și a primului verificator față de proprietar/Bauwerber/Bauführer este corectă; legea nu cere automat persoane diferite pentru creator și verificator. Termenul2027.12.31 este corect condiționat de edificarea înainte de1919, iar termenele legale mai timpurii au prioritate față de18luni. Conducerea continuă și verificările periodice ulterioare rămân proprietarului/administrației. Confirmarea integralității ofertei de2.500 trebuie cerută BERGER, deoarece emailul prețului nu descrie singur toate livrările. Sursă: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000006&Paragraf=128a
+
+5. Registrări distincte — CORECT.
+§5(7) și§6(5) nu confundă Bauwerksbuch cu Gebäudebeschreibung§128b. Dovada registrării cerută pentru carte la§128(2)Z9 nu este certificare de lipsă a defectelor. Întinderea exactă cerută în procedura concretă trebuie verificată în raport cu autorizația și normele tranzitorii.
+
+6. Autorizație2023/lege2026 — COERENT, FĂRĂ RETROACTIVITATE PREZUMATĂ.
+§2(2) cere determinarea regimului aplicabil din autorizație, planuri și Planwechsel și nu pretinde că toate normele2026 impun refacerea retroactivă a proiectului2023. Art.V LGBl25/2026 păstrează regulile anterioare pentru procedurile pendinte la intrarea în vigoare; aceasta nu dovedește automat că orice etapă/procedură nouă a proiectului este veche. Contractul evită această afirmație. §6(4) folosește versiunea aplicabilă și nu fixează greșit vechea trimitere energetică. Sursă: https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20260714_25/LGBLA_WI_20260714_25.html (Art.IV–V; norma intră în vigoare la15.07.2026).
+
+7. Roluri externe/Verbau — CONFORM INSTRUCȚIUNILOR.
+§1(4),§3(4),(6),§4(1),(5),§8 și Anlage1/2/6 nu atribuie Polierplanung arhitecturală, Einreichplanung, Bauführung, BauKG sau management general lui BERGER. Planwechsel structural concret și contribuția structurală rămân expres în pachet, iar procedura arhitecturală separată. Verbau/Baugrubensicherung exclus; subzidirile și sprijinirile necesare ale structurii proprii rămân incluse, fără anularea avertizărilor/interfețelor. Nu se poate semna presupunând că aceste funcții exterioare au deja titulari.
+
+8. §1168 ABGB — FORMULARE ECHILIBRATĂ.
+§9(4)–(7),§11(5),§15 păstrează cerințele disponibilității de executare, cauzelor din sferaAG și creditarea economiilor/câștigurilor alternative. Nu confundă comandarea suplimentară cu compensarea legală a împiedicării; nu promite reziliere gratuită. Abrechnung/Auskunft nu inversează sarcina legală a probei. §15(6) evită solicitarea nediferențiată de continuare/remediere după desființare legal justificată. Sursă: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&FassungVom=2026-08-20&Gesetzesnummer=10001622&Paragraf=1168
+
+9. §1170b ABGB — CORECT PĂSTRAT.
+§12(5) nu elimină securizarea imperativă; costul suportat de Sicherungsnehmer până la2%/an și excepția sunt păstrate. Nu se confundă securizareaAN cu retențiaAG, care este exclusă. Formula «soweit anwendbar» evită aplicarea abstractă fără analiza contractului. OGH6Ob65/18d arată că și arhitecții/staticienii/inginerii cu activitate de proiectare pot intra în normă; nu este corect să se excludă doar fiind contract tehnic. Surse: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&Gesetzesnummer=10001622&Paragraf=1170b&Uebergangsrecht= ; https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20180426_OGH0002_0060OB00065_18D0000_000&IncludeSelf=True
+
+10. Plată/garanție/răspundere — COERENT.
+14zile de la factură verificabilă, fără retenție, fără penalitate, fără indexare automată; facturare pe livrări și necesitatea calendarului valoric anterior semnării sunt concordante. Nu sunt inventate tranșe/avansuri. Cele3ani de Gewährleistung sunt contractuale, cu păstrarea regulilor legale, inclusiv§933(3), daune și drepturile la defecte. Acceptarea nu garantează lucrările altora și plata nu este recepție tehnică. Nici polița, nici limita ei nu devin plafon de răspundere. Nu s-a reintrodus suma minimă de asigurare respinsă de proprietar. Sursă§933: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2026-10-05&Gesetzesnummer=10001622&Paragraf=933&Uebergangsrecht=
+
+11. Date și comunicare — CONFORM DECIZIILOR AG.
+§4(3)/§7(6)/Anlage3/6 sunt consecvente5zile workshop și3RFI, cu termen concret motivat pentru complexitate și pericol imediat. §9(8) păstrează email săptămânal în perioade active și listă simplă, fără a înlocui rapoartelePI. §10 + Anlage1/6 cerPDF semnat, DWG/DXF editabile și calcule complete, IFC/native doar existente și transferabile; nu cer unBIM nou. Regula de drepturi de utilizare este obiect-specifică, nu o pretenție asupra software-ului/licențelor altuia.
+
+12. Formă/rang/câmpuri — POTRIVIT PENTRU CONFIRMARE, NU ÎNCĂ SEMNARE.
+§2(3) dă prioritate contractului/anexelor față de oferta17.08.2026, iar§2(5) recunoaște expirarea termenului original8săptămâni la12.10.2026. Reconfirmarea valabilității prețului este astfel necesară; contractul nu o fabrică. §16 stabilește semnături și forma operativăemail, cu puteri definite. Nu există în proiect dovada semnării, acceptării ori realizării unuiB0. Anlage6 impune închiderea câmpurilor esențiale înainte de semnare; faptul că datele reale ale unor numiri ulterioare se completează înainte de exercitarea funcției trebuie gestionat consecvent în versiunea semnată.
+
+CONDIȚII REALE ÎNAINTE DE SEMNARE — NU MODIFICĂ PREȚUL FĂRĂ ACORD
+1) BERGER confirmă integralitatea celor2.500 net pentru carte; persoanele, funcțiilePI/ZT și cuprinderea în prețul total.
+2) Se identifică titularii externi și frontiera Planwechsel structural/procedură arhitecturală.
+3) Se confirmă planurile efectiv aprobate, copii/indici și statusul oricăruiPlanwechsel. Situația recentă MA37 privind planurile lipsă nu se rezolvă printr-un tabel contractual declarat «confirmat» fără documente.
+4) Se verifică mandatul semnatarilor, datele societăților, competențele active și asigurarea actuală. Nu am validat separat prin extrase actuale FN/UID ori acoperirea reală.
+5) Se completează calendarul de livrare/facturare cu valori și date; regimul tranzitoriu concret, vârsta clădirii, T0 și estimareaB0.
+6) Se stabilește dacă este necesară oPrüfstatik separată; o rubricăgoală nu este comandă.
+
+OBIECȚII POSIBILE BERGER — COMERCIALE, NU ILEGALITĂȚI ALE PROIECTULUI
+Poate cere clarificarea întinderii «complet»Bauwerksbuch, inclusiv specialiști și prima inspecție; poate contesta includerea ZT integrală sau numărul necesarPI în cei10.000; poate cere lista exactă de deschideri și întinderea Planwechsel inclus; poate cere program real pentru termene și disponibilitatea24ore, drepturi de editare și format; poate cere confirmarea costurilor de întârziere din sferaAG. Contractul a lăsat confirmarea explicită și procedura de cost, fără prezumarea acceptării sale. Nu este oportun să se adauge alte concesii înainte de răspuns.
+
+LIMITĂ DE CONTROL
+Acest audit nu înlocuiește verificarea tehnică pe planșe, probele de competență actuală, completarea datelor ori acceptareaBERGER. Nu au fost modificate contractele, trimise emailuri, semnate acte sau efectuate plăți. Controlul final vizual alPDF și anexarea integrală a ofertei originale sunt în sarcina fluxului principal de generare.

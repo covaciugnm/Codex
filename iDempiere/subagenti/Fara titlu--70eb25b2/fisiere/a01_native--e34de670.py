@@ -1,0 +1,19 @@
+import pathlib,json,datetime,subprocess,hashlib,zipfile
+out=pathlib.Path(r'\\192.168.100.169\Comun\00.Roboti\EVA.Pro\Eva-contab\Audit_P01_2026-11-01\executie\A01');core=pathlib.Path(r'D:\CodexWork\eva-audit-secondary-20261102'); host='saga-server@192.168.100.151'
+names=('ad_client','ad_org','ad_role','ad_user','ad_user_roles','ad_role_orgaccess','ad_form_access','ad_window_access','ad_process_access','ad_table_access','ad_session','ad_changelog','ad_pinstance','ad_attachment','m_warehouse','m_locator','eva_accesgestiune','eva_jurnalmobil')
+base="BEGIN READ ONLY; SET LOCAL statement_timeout='10s'; SET LOCAL search_path TO adempiere,pg_catalog; "
+def q(query):
+ cmd=['ssh','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','-o','ConnectTimeout=10',host,"docker exec -i eva-postgres-cesiro sh -c 'exec psql -X -qAt -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d idempiere'"]
+ r=subprocess.run(cmd,input=base+query+'; ROLLBACK;\n',text=True,capture_output=True,timeout=32,encoding='utf-8',errors='replace');return {'query':query,'rc':r.returncode,'result':r.stdout.strip().splitlines(),'error':r.stderr.strip()[:350] if r.returncode else None}
+schema=q("SELECT table_name FROM information_schema.tables WHERE table_schema='adempiere' AND table_name IN ("+','.join("'"+n+"'" for n in names)+") ORDER BY table_name")
+found=set(schema['result'])&set(names); short=['ad_role','ad_user_roles','ad_form_access','ad_window_access','ad_process_access','ad_table_access','eva_accesgestiune','eva_jurnalmobil']; counts=q(' UNION ALL '.join("SELECT '"+x+"',count(*) FROM "+x for x in short if x in found)) if found else None
+form=q("SELECT f.classname,count(fa.ad_role_id) FROM ad_form f LEFT JOIN ad_form_access fa ON fa.ad_form_id=f.ad_form_id AND fa.isactive='Y' WHERE lower(f.classname) LIKE '%accesmobilform' OR lower(f.classname) LIKE '%gestiunewmsform' OR lower(f.classname) LIKE '%vanzaripecanalform' GROUP BY f.classname ORDER BY f.classname") if 'ad_form_access' in found else None
+cols=q("SELECT table_name,column_name FROM information_schema.columns WHERE table_schema='adempiere' AND table_name IN ('eva_accesgestiune','eva_jurnalmobil') AND column_name IN ('ad_client_id','ad_org_id','ad_user_id','ad_role_id','m_warehouse_id','iscitire','isscriere','isvalidare','eva_idempotencykey') ORDER BY 1,2") if found else None
+results={'id':'A01.N01','utc':datetime.datetime.now(datetime.UTC).isoformat(),'environment':'Cabinet CESIRO. Transactions explicit read-only, timeout 10s, dictionary and counts only. No user identity or private business values.','queries':[schema,counts,form,cols], 'scope':'Presence/configuration in one installed cabinet. Not operational proof of enforcing access.'}
+native_src=core/'native/org.adempiere.base/src/org/compiere/model/MRole.java'; rel='org/compiere/model/MRole.class';
+for name,jar,entry in [('MRole','org.adempiere.base_13.0.0.202603090043.jar',rel),('AccesGestiune','com.eva.ro.contab_13.0.0.jar','com/eva/ro/contab/acces/AccesGestiune.class'),('GardaMobil','com.eva.ro.contab_13.0.0.jar','com/eva/ro/contab/acces/GardaMobil.class')]:
+ with zipfile.ZipFile(core/jar) as archive: results.setdefault('installed_classes',[]).append({'name':name,'jar':jar,'entry':entry,'sha256':hashlib.sha256(archive.read(entry)).hexdigest()})
+results['native_source']={'commit':'da0730aec42f3e9f5f671e81a70ff71e24d5e534','file':'org.adempiere.base/src/org/compiere/model/MRole.java','sha256':hashlib.sha256(native_src.read_bytes()).hexdigest(),'symbols':{}}
+for k in ['getFormAccess (','getWindowAccess (','getProcessAccess (','String addAccessSQL (']:
+ results['native_source']['symbols'][k]=[i+1 for i,l in enumerate(native_src.read_text(encoding='utf-8').splitlines()) if k in l][:3]
+(out/'native_metadata.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print([(x['rc'],len(x['result']),x['error']) for x in results['queries'] if x]);

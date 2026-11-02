@@ -1,0 +1,12 @@
+{
+  "groups_expected": 146,
+  "group_txt_files": 146,
+  "directories_expected": 872,
+  "directory_txt_files": 872,
+  "file_records": 17082,
+  "files_in_snapshot": 17082,
+  "html_links_checked": 1026,
+  "broken_local_report_links": [],
+  "confirmed_identity_source_files_exist": true,
+  "mariana_verified_note_exists": true
+}

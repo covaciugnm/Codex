@@ -15,8 +15,8 @@
     "source_reference": "U:/licitatii.eva-org.com/generator/sources/executori/listings.json",
     "status": "copiat",
     "saved_path": "fisiere/listings--50a10deb.json",
-    "bytes": 2553690,
-    "sha256": "61b9b89700375ada648cc4de9437ad42b0711b185f2da65ae8b54b0fb6f47b2f"
+    "bytes": 2700090,
+    "sha256": "35c058270bc9ef504e05000b975b6079138decdf56559796dbbe60efcd2a4c3c"
   },
   {
     "source_reference": "U:\\\\tmp\\\\a.html",
@@ -41,8 +41,8 @@
     "source_reference": "U:\\reconstruieste.sh",
     "status": "copiat",
     "saved_path": "fisiere/reconstruieste--12ba9ba6.sh",
-    "bytes": 1238,
-    "sha256": "6857c16331c1f054ea2f514c2bf03041537727cdce2083ea2b57dc163b45c028"
+    "bytes": 1245,
+    "sha256": "57ad2c96357cec0cea967857a157d5baca2c4758f4cc395d14134af8d63f6fed"
   },
   {
     "source_reference": "U:\\stare.sh",

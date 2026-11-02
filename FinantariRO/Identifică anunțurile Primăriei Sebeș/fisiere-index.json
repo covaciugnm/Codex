@@ -1,0 +1,681 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Persoane/BALAN ANDREEA - CNP de completat/05. Contracte personale/Voluntariat ROSE/Reconstituire_contract_ROSE_10.01.2022_Andreea_Balan.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Reconstituire_contract_ROSE_10.01.2022_Andreea_Balan--d436b7be.docx",
+    "bytes": 45495,
+    "sha256": "6399c6f8ca203e75b4cd77942804f87f9eb9f39ca572f28c72eeb1691ff78f5b"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Persoane/NEAMTIU ILINCA-MARIANA - 2980405011151/05. Contracte personale/Voluntariat ROSE/Reconstituire_contract_ROSE_10.01.2022_Ilinca_Mariana_Neamtiu.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Reconstituire_contract_ROSE_10.01.2022_Ilinca_Mariana_N--4025daad.docx",
+    "bytes": 45498,
+    "sha256": "53beb056ea0910e4267fa69641a6614ee0c342bb75d5d55c2270bb9679bed90d"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Persoane/NEAMTIU TOADER-FLORIN - 1670927013927/05. Contracte personale/Voluntariat ROSE/Reconstituire_contract_ROSE_10.01.2022_Toader_Florin_Neamtiu.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Reconstituire_contract_ROSE_10.01.2022_Toader_Florin_Ne--5f80b228.docx",
+    "bytes": 45549,
+    "sha256": "61c02a385452a83c2f550160ed179cdcfe8b4a3555fc3271aacafca638b0815d"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Proiecte 2026/2026.11.27 - SCOLI ISJ CJRAE ONG PARTENER - PEO P7 7.e.3 Scoli pentru viitor/3. DOSAR SELECTIE PARTENER ROSE - 02.11.2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026/3. DOSAR SELECTIE PARTENER ROSE - 02.11.2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iFLYTEK/archive-repository/apk-protocol-audit-2026-11-01/00_Raport/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--358cb8d7.html",
+    "bytes": 557138,
+    "sha256": "39e130fc98be90a4e4f52e43d3e4cc2f2b80763c04071d5f306c9f4b0dca96dc"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iFLYTEK/archive-repository/apk-protocol-audit-2026-11-01/00_Raport/lucrari-existente.html",
+    "status": "copiat",
+    "saved_path": "fisiere/lucrari-existente--98389ccd.html",
+    "bytes": 5302,
+    "sha256": "977decbd060fb12a115ce61398ed23b214b2fa0cf08230b0b021edec35965c04"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iFLYTEK/archive-repository/apk-protocol-audit-2026-11-01/06_Audit/checklist-corecturi.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/checklist-corecturi--38fed5dd.csv",
+    "bytes": 1992,
+    "sha256": "ac5f1354d161108a3877dcba7995a64481bee26420c0766483a0c01699d3c8c6"
+  },
+  {
+    "source_reference": "C:/Users/User/Downloads/ROSE - Acreditari si Licente/Dosar organizat",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/Downloads/ROSE - Acreditari si Licente/Dosar organizat/00 RAPORT - ROSE acreditari si licente.html",
+    "status": "copiat",
+    "saved_path": "fisiere/00 RAPORT - ROSE acreditari si licente--98ff8bd6.html",
+    "bytes": 64472,
+    "sha256": "b5bb0b71cc5cfd14f664281e2d276fad9120ab6f86e1a3aeedbbb9abfc5b1b35"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\611216dbe2_4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/611216dbe2_4--fb88be44.png",
+    "bytes": 906091,
+    "sha256": "ade4c5b45051de9febc92278a44d69d2bd7f0dd9b48db9be05ba6dd87c350a16"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\611216dbe2_5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/611216dbe2_5--67cf6ca2.png",
+    "bytes": 823440,
+    "sha256": "fa393af6fd95f4428d1512884caae5d87db7a4f1173fc3d7e3484e301784e092"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\95a8744bc3_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/95a8744bc3_1--af6f3af0.png",
+    "bytes": 489236,
+    "sha256": "49e30b2e6ccaaabf20e82cf7cbc78a4b3f106be1a7a4651fefbad3e727eb87d3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\ac559469cb_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ac559469cb_1--5e2a9bb2.png",
+    "bytes": 427764,
+    "sha256": "8903b0b1ef4371a1aa386601c5e067270b4ce1c5e5fdd533ce6ff381498c6bef"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\b105697401_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/b105697401_1--2c42efac.png",
+    "bytes": 595789,
+    "sha256": "5c42b83848c29043384783c3657390925091043ccbc53c51384f93484e810dee"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\build_audit_delivery.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_audit_delivery--9900b495.py",
+    "bytes": 4435,
+    "sha256": "feb8f1b22ff2336c7136ea577e6150067a9e9dbec3c4f78bd0e40ff0f5eedfc5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\build_docs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_docs--2d65e86c.py",
+    "bytes": 31508,
+    "sha256": "d97c6a7b43eca27722c5462e19304a50389ee60412a1a27c8b2ca2d5d956baf8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\build_excel.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_excel--401d9a30.mjs",
+    "bytes": 9508,
+    "sha256": "f2bb9d9f061f5fbe4fd52dc382530882044a7179cbe9d459c362c34fa6160598"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\build_opis.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_opis--95e8ecfb.py",
+    "bytes": 2814,
+    "sha256": "a862934aa6ff8b527fc042dd4975be9fc5137c2f101c141ba18afec1e59f059c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\ci_szoke.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ci_szoke--9cbb14a8.png",
+    "bytes": 201305,
+    "sha256": "67df965f22b30699fbb7c16a3c301150966807d2e05fb3770f7e33d3c81080f1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\convert.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/convert--bde84073.ps1",
+    "bytes": 1762,
+    "sha256": "56ba52314cc4ffe560b2f9d7871585944ea936773192142f52165e2b90130370"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\cosmin_INA.png",
+    "status": "copiat",
+    "saved_path": "fisiere/cosmin_INA--122ac1b8.png",
+    "bytes": 281241,
+    "sha256": "4e45d8a6fefd77bcaa15f4498d31b4820e098fec13ac5375033c2e38fec99af0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\enrich.py",
+    "status": "copiat",
+    "saved_path": "fisiere/enrich--bbf18c16.py",
+    "bytes": 4070,
+    "sha256": "1ebeab6792f1eb1dba0a31bf2dfb5a65d6a5faaf80487e8e61ab660cd22191ec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\excel_1_Corecturi audit.png",
+    "status": "copiat",
+    "saved_path": "fisiere/excel_1_Corecturi audit--bfcfa8d9.png",
+    "bytes": 99522,
+    "sha256": "8cbccd3d1ddde10085ccbdd7406352d756f2dcc0cd41b0087a5df7b1edc53a80"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\excel_1_Documente.png",
+    "status": "copiat",
+    "saved_path": "fisiere/excel_1_Documente--79fa7256.png",
+    "bytes": 62187,
+    "sha256": "7a8d424c2ae928a843468067ca0135d10b11e1fe4979ac41ced8cf6ec1e4ed71"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\excel_1_Termene.png",
+    "status": "copiat",
+    "saved_path": "fisiere/excel_1_Termene--be912601.png",
+    "bytes": 80749,
+    "sha256": "e708b4d40d6a3a651e0368e2c10deeef1d6ac7df180bea0e3db2b5c599cb2bb8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\excel_2_Documente.png",
+    "status": "copiat",
+    "saved_path": "fisiere/excel_2_Documente--c04d0ea4.png",
+    "bytes": 62905,
+    "sha256": "280779e596f5ca1cfa66a72b44235912180d951805631b18fffff17be2ab86f1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\excel_2_Termene.png",
+    "status": "copiat",
+    "saved_path": "fisiere/excel_2_Termene--f759a87d.png",
+    "bytes": 80749,
+    "sha256": "e708b4d40d6a3a651e0368e2c10deeef1d6ac7df180bea0e3db2b5c599cb2bb8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\extract.py",
+    "status": "copiat",
+    "saved_path": "fisiere/extract--30732f4a.py",
+    "bytes": 1642,
+    "sha256": "0a691c4b3937883d155cec406ce708b5f392c7f84fa34f472ae45a9c70b6b00c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\finalize_metadata.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize_metadata--0e357795.py",
+    "bytes": 1330,
+    "sha256": "f89bed2eb8ae9e266dee6dd6e1185357502f1f3b6929215aea42225e891813ec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\fix_register.py",
+    "status": "copiat",
+    "saved_path": "fisiere/fix_register--16d97673.py",
+    "bytes": 1297,
+    "sha256": "723c07be82390f170934bd835a7ea3e022a750f2af923ddee5371847a4978f98"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\organize.py",
+    "status": "copiat",
+    "saved_path": "fisiere/organize--67bde425.py",
+    "bytes": 10372,
+    "sha256": "c65c4946d8dcddd7ee32cb2eb3a3f265efefc0b5b5c373a2fbfebcf626619f07"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\polish.py",
+    "status": "copiat",
+    "saved_path": "fisiere/polish--4a2dd156.py",
+    "bytes": 2824,
+    "sha256": "6a4a83111c740d38ab9cd6da4eabdffa9a118d14181e1caef296a6928f4b41db"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/qa--5c8be3f9.py",
+    "bytes": 2396,
+    "sha256": "d2f0bd87980a6d304530e331db68710171f6745f83b82b1d6b0fb12d2f8d7de7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\contact_01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_01--ee3fd7a2.jpg",
+    "bytes": 266620,
+    "sha256": "47d1baad5a89f3260d50bde97ca756c68aae76b355a1ce1a30bb5e5d70bb45d1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\contact_02.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_02--f1cf5b3f.jpg",
+    "bytes": 260223,
+    "sha256": "bbc80815c3bbc2a63b84fddbe9eb34d3a4fc09188fa4afad9e2e0a98a194f1e3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\contact_03.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_03--e425d1ca.jpg",
+    "bytes": 308399,
+    "sha256": "7dbdf95eaf4611b1d5851874d80db25feb42b473ee47bb823d703ca1ecc80ecb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_03_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_03_p1--6c125ae1.png",
+    "bytes": 232075,
+    "sha256": "d8bdf612a403412e95a6286c42c40918e989010180eb08b657b567e97131dbff"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_03_p2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_03_p2--85782b84.png",
+    "bytes": 44244,
+    "sha256": "3c1e7a6a60a01f137a3fe025bc1620795eab716799d3155c462f5603f3f70fad"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_07_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_07_p1--b4ac3ccb.png",
+    "bytes": 180732,
+    "sha256": "df831342e0f0689bd07964d3211da22055a322b924176473800c2260f3bfa566"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_09_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_09_p1--57beca2d.png",
+    "bytes": 182594,
+    "sha256": "3562a9dda111a7a57954920f3287f16e4e5006acb7c2897f0a1af237c22f10bd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_11_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_11_p1--c1518245.png",
+    "bytes": 177813,
+    "sha256": "a611cf1a5e0be8ff6e4be65af557c34771e58338d75e2fa70af4c8d6f998cbe6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_13_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_13_p1--cdbad52d.png",
+    "bytes": 155259,
+    "sha256": "053c4e54ca239be020eb53bae88726d303736305d41cc4189d270b7a712b725f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_21_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_21_p1--6bbde692.png",
+    "bytes": 232522,
+    "sha256": "bc5dcbdd3d7307eaf00bed8a707bc99c15a76feac3791e1becd90724ad30d097"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_39_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_39_p1--dda82e30.png",
+    "bytes": 223397,
+    "sha256": "5d7970484c663d1680e6afb9720097d3f6cb7ac7186302584be9fa86f3f49f69"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_39_p2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_39_p2--dfb65295.png",
+    "bytes": 245643,
+    "sha256": "040ba13baa79da1fff9ef17b9d43bc98942de7f12fece67413b8ebd0c5d92127"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_39_p3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_39_p3--c9e1c3cd.png",
+    "bytes": 230766,
+    "sha256": "447342e03e102eadec51012d35e2a25fe9cc633224e6bf5fdb2dd38b2472192b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_39_p4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_39_p4--6c3ef800.png",
+    "bytes": 31755,
+    "sha256": "c6a35a71b15ae5016dbbac3541654e2bf5bfab319a54202e5e83f16b6b9f0ca6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_39_p5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_39_p5--1c64b0d0.png",
+    "bytes": 172916,
+    "sha256": "c0bb38f8fd379958a8be5c0fa523acf58178d6b784b4b55484e9548126c62670"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_39_p6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_39_p6--0439cd56.png",
+    "bytes": 167689,
+    "sha256": "e0ebc597267b8acdcb327bd985d2d21898b3c5c6ad6461b2565e278307c62162"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_39_p7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_39_p7--c3084559.png",
+    "bytes": 185641,
+    "sha256": "a1e1178fb98f1c8fe692813b2e88cecc946cbc5bb69e1e6c58aa9a02ddac192c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_39_p8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_39_p8--dad7fe0b.png",
+    "bytes": 157938,
+    "sha256": "bb61ca10efcadd6c76881d710b9d14be223aa2c8fa5b092d8255712cb800a08c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_40_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_40_p1--6178aee5.png",
+    "bytes": 224277,
+    "sha256": "3fd00b80adf5cb776ea6067e73661395318216e5b3ee2aef18b02fc21f72f0f6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\qa\\doc_40_p7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/doc_40_p7--38a18b77.png",
+    "bytes": 185641,
+    "sha256": "a1e1178fb98f1c8fe692813b2e88cecc946cbc5bb69e1e6c58aa9a02ddac192c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\11\\01\\01a196f4-8c75-71b2-a82a-cc6e142a2d49\\dosare_sebes\\repair_hyperlink_cache.py",
+    "status": "copiat",
+    "saved_path": "fisiere/repair_hyperlink_cache--6bbeff9c.py",
+    "bytes": 1780,
+    "sha256": "840250f0884e7e5e24cf8d85391a06df3b4c5d5253bda3e8501206073b285a71"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-9aa7b344-f9fa-4cb3-9910-a6d390e18621.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-9aa7b344-f9fa-4cb3-9910-a6d390e18621--fb2ad320.png",
+    "bytes": 64616,
+    "sha256": "4518e072589a0dde0988fc6fcafec7b3c015b024ce456eeb0fa357eaca662087"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-b4cca0bf-cc3b-4c7c-9767-f531a8f099b2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-b4cca0bf-cc3b-4c7c-9767-f531a8f099b2--c5652ceb.png",
+    "bytes": 154370,
+    "sha256": "f4e16b7e2e0c26f0a02f04ac8aa235f9367a8c576ed8b74f7f2822bb78a97b58"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-9aa7b344-f9fa-4cb3-9910-a6d390e18621.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-9aa7b344-f9fa-4cb3-9910-a6d390e18621--fb2ad320.png",
+    "bytes": 64616,
+    "sha256": "4518e072589a0dde0988fc6fcafec7b3c015b024ce456eeb0fa357eaca662087"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-b4cca0bf-cc3b-4c7c-9767-f531a8f099b2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-b4cca0bf-cc3b-4c7c-9767-f531a8f099b2--c5652ceb.png",
+    "bytes": 154370,
+    "sha256": "f4e16b7e2e0c26f0a02f04ac8aa235f9367a8c576ed8b74f7f2822bb78a97b58"
+  },
+  {
+    "source_reference": "D:/Codex/Inventar persoane 2026-11-01/audit",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\aot.py",
+    "status": "copiat",
+    "saved_path": "fisiere/aot--7087305e.py",
+    "bytes": 2435,
+    "sha256": "713cf52d11a36eba8db04b8e73b0620a32fb08cbb4fa92bfe0489e99af0b4175"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\audit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--affd4043.py",
+    "bytes": 14092,
+    "sha256": "383bd233a39214a0484d7b7db76a3db264bf9b01a0204174b2d35e954f8a9fc5"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\finalize.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize--f23d1745.py",
+    "bytes": 24308,
+    "sha256": "43c89420d8c5a8f0b292205f505d038d994e113d3d3c1bbf77beaf53d542fda6"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\publish_local.py",
+    "status": "copiat",
+    "saved_path": "fisiere/publish_local--af742126.py",
+    "bytes": 747,
+    "sha256": "e688c1e2c51ea3e0eb925e0fed59c0cbb29d1f107dccdbbf0b505fdd3cb27095"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\query.py",
+    "status": "copiat",
+    "saved_path": "fisiere/query--d8f08b90.py",
+    "bytes": 458,
+    "sha256": "2cca6c8167ef60d879777f1036c6a7fcc90095aff8a2ba13fd071048d66a6833"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\reconcile_existing.py",
+    "status": "copiat",
+    "saved_path": "fisiere/reconcile_existing--73ac9ca3.py",
+    "bytes": 7685,
+    "sha256": "59f802befe6427c6f3cc4b9a0b7f4001779d46581b9bb51f4bacf1daeb85970e"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\report-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/report-preview--c1e2b6a0.png",
+    "bytes": 101616,
+    "sha256": "c667f7ea1f661b4fc21af8de6fe62f5746a032ad25072e65993e2922376249a6"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/seal--9f9a3da2.py",
+    "bytes": 5480,
+    "sha256": "cc9d57f8a7831f86c8eef9d83972b81efa1c798bc35a4e1cb5bb87e248b66427"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\secrets.py",
+    "status": "copiat",
+    "saved_path": "fisiere/secrets--2ace4b27.py",
+    "bytes": 3437,
+    "sha256": "55200cf5ee9b7e0b08bdf4ebbd95c2b1afd945ad4b03fa8ee3df7d789fb4e8f9"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\supplement.py",
+    "status": "copiat",
+    "saved_path": "fisiere/supplement--78b8f632.py",
+    "bytes": 9854,
+    "sha256": "b8593d3c1eeab415f2279004c1362915be4d5680032b509dc9d34db5d740fb34"
+  },
+  {
+    "source_reference": "D:\\Codex\\iFLYTEK-audit\\validate.py",
+    "status": "copiat",
+    "saved_path": "fisiere/validate--4e7e4da7.py",
+    "bytes": 2053,
+    "sha256": "edb17f7716a25653c9b605ed20cca77187e1df16c40248037720a4e7a8e55c59"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. DE VERIFICAT/Colectare 2026-10-31/Firma neidentificata",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. RAPORT ARHIVA/Verificare acte si contracte 2026-11-01/Index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Index--cf02c461.html",
+    "bytes": 11031,
+    "sha256": "9b8e63c97c650c880bf43d46b54861f2453762dd4252ddff92faa26b28e8d35b"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. RAPORT ARHIVA/Verificare acte si contracte 2026-11-01/Progres verificare.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Progres verificare--658cb8c1.txt",
+    "bytes": 77,
+    "sha256": "509674667fe233a971ff15f9ab01c7e44b131a3a03f25636a0dee2e89af786a1"
+  },
+  {
+    "source_reference": "Z:/00. Firme/ASOCIATIA ROSE - CIF 29433614",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/ASOCIATIA ROSE - CIF 29433614/03. Act constitutiv/Statut si documente justificative - dosar 5899-176-2023",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/ASOCIATIA ROSE - CIF 29433614/10. Autorizatii si Avize/Dosar acreditari si licente - 2026.11.01",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/ASOCIATIA ROSE - CIF 29433614/14. Situatii financiare",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/ASOCIATIA SICADO PENTRU DEZVOLTARE DURABILA ALBA IULIA - CIF 29602365/11. Contracte comerciale/Finantare - semnatura electronica verificata",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/CESIRO PRODUCTION SRL - CUI 45050734/00. Dosar de consultare/Verificare documentara 2026-11-01.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Verificare documentara 2026-11-01--3b7b59dc.txt",
+    "bytes": 673,
+    "sha256": "c441efd1c3e76e58a45e8b88f18e3e137a612c74d8aa3a6dd0a640bce2e5e9b6"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/00. Arhiva/00. Administrativ/Completare 2026-10-31/Diplome acreditari si licente/Stadiu.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Stadiu--23f2ea3e.txt",
+    "bytes": 272,
+    "sha256": "d4c81d77d6f04572c16a7e3166511f4ec2bb9d04e836473787d292e736541800"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/00. Arhiva/00. Administrativ/Completare 2026-10-31/Raport completare.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport completare--ed2c7f64.html",
+    "bytes": 37150170,
+    "sha256": "31831f8a27ffaedcb3a5b3e3f2b709f6bfa96117a20202a61145f585437d67fe"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/00. Arhiva/00. Administrativ/Completare 2026-10-31/Repartizare pe persoane/Progres categorii.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Progres categorii--71afaf32.txt",
+    "bytes": 1146,
+    "sha256": "18cef64b3aabb992eafdceff51b06f95041034e1c4b3cffd49a1efac66366fc6"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/COVACIU COSMIN-ADRIAN - 1721019120687/08. CV si declaratii/1721019120687 - COVACIU COSMIN-ADRIAN - CV - 25a2cc09c3.doc",
+    "status": "copiat",
+    "saved_path": "fisiere/1721019120687 - COVACIU COSMIN-ADRIAN - CV - 25a2cc09c3--595f9eea.doc",
+    "bytes": 147456,
+    "sha256": "25a2cc09c3b062c25326cba6b01e3fffed7a141bf4f40134cdf2128f777f97a3"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/COVACIU COSMIN-ADRIAN - 1721019120687/08. CV si declaratii/1721019120687 - COVACIU COSMIN-ADRIAN - CV-Cosmin_Covaciu - modificat 2012.07.12 - 2d692c5035.doc",
+    "status": "copiat",
+    "saved_path": "fisiere/1721019120687 - COVACIU COSMIN-ADRIAN - CV-Cosmin_Covac--d9593905.doc",
+    "bytes": 141312,
+    "sha256": "2d692c503544e35647f164a977373ebc208cff3453aa1400b80b68a11f427024"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/COVACIU COSMIN-ADRIAN - 1721019120687/1721019120687 - COVACIU COSMIN-ADRIAN - Diploma.Formator-Covaciu.Cosmin - modificat 2012.07.11 - ac559469cb.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/1721019120687 - COVACIU COSMIN-ADRIAN - Diploma.Formato--5ed9518c.pdf",
+    "bytes": 144603,
+    "sha256": "ac559469cbbcc79b2b64ebb6d8084fa99639180ad035be4f5b29936e7d73f4d7"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/COVACIU COSMIN-ADRIAN - 1721019120687/1721019120687 - COVACIU COSMIN-ADRIAN - Diploma.Licenta-Covaciu.Cosmin - modificat 2012.07.10 - 053065243c.tif",
+    "status": "copiat",
+    "saved_path": "fisiere/1721019120687 - COVACIU COSMIN-ADRIAN - Diploma.Licenta--37538275.tif",
+    "bytes": 146292,
+    "sha256": "053065243c3734ffa8ce30b84747d4062284552459d0b1765d970cfa985ca4b5"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/CV-uri/Covaciu Cosmin-Adrian CV 1.doc",
+    "status": "copiat",
+    "saved_path": "fisiere/Covaciu Cosmin-Adrian CV 1--7ce269f1.doc",
+    "bytes": 147456,
+    "sha256": "25a2cc09c3b062c25326cba6b01e3fffed7a141bf4f40134cdf2128f777f97a3"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - SCOLI ISJ CJRAE ONG PARTENER - PEO P7 7.e.3 Scoli pentru viitor/ANUNT 1/ANUNT 1/Anunt selectie partener proiect PEO_Acces egal la educație timpurie în Municipiul Sebes.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Anunt selectie partener proiect PEO_Acces egal la educa--0e4f0a04.pdf",
+    "bytes": 508560,
+    "sha256": "7ba30dcb0a4c0b8f95cd1a6589ba66bfd1bbe68ae0f8414ca947491bc31ad161"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026/ANUNT 2/ANUNT 2/Anunt selectie partener PEO_Diversificarea serviciilor de educație timpurie în Municipiul Sebeș.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Anunt selectie partener PEO_Diversificarea serviciilor --9dad9289.pdf",
+    "bytes": 428928,
+    "sha256": "82d86c29aae4c3a89b625f875798b8709bdb97739867224b1444aae16f17a115"
+  },
+  {
+    "source_reference": "Z:\\\\\\\\00. Firme\\\\\\\\00. RAPORT ARHIVA\\\\\\\\Colectare 2026-10-31\\\\\\\\CITESTE-MA.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/CITESTE-MA--61b07c3e.txt",
+    "bytes": 2346,
+    "sha256": "19d4f7e787e0153c9951268448c8ed2228fd62853f78086fc428d3e8154c2557"
+  },
+  {
+    "source_reference": "https://docs.google.com/document/d/1UG5VujOUpWVw8fmpDaFhs7rh8PSUG_uk/edit",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.google.com/document/d/1fO2N_q9fw9vd0sfCvv5qoDfW1nqdL4xg/edit",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1ifNZtDEYL4jtewDUR0yKU0boJiqaH3Uj",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/13FfyWoqQI7BGilhLleYiwa4PIRbp-1RB/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/152I66jMLkbLd5KEUzPIdJD-5pnHaBuqj/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/15_7V-yljcXKjzCNoTz60EQufWyLa629u/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/1GHYCn4pK2P5WkM_9rSyKfFtuuI7na0Ur/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/1MyuZgotbvLUhrggh8fqPudCFULr5V5hO/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/1NI5KCEZmhMRNHIoDw5ylKmwrJZo0BUQy/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/1PZLuucMGjz5MZSsTJ7XLzGBDOm1wPFv2/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/1W90drOxz9CxRT2P64O-4crh4KViScU9S/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/file/d/1fDxGgxryy9ELuCOu8H5as5cbuc7I_REa/view",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/research/ai-glasses-2026-10-31/retailer-audit-2026-11-01/README.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/research/ai-glasses-2026-10-31/retailer-audit-2026-11-01/alibaba-links.json",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-retailer-software-2026-11-01",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/257098",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://saas-public.ioss.xfinfr.com/private/config/privacy-policy.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "retailer-audit-2026-11-01/README.md",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

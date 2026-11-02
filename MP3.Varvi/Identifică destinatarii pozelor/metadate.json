@@ -1,0 +1,23 @@
+{
+  "id": "01a16863-bf70-7403-8b83-31c907b8cd1d",
+  "cwd": "\\\\?\\D:\\MP3.Varvi",
+  "created_at": 1788349694,
+  "updated_at": 1788349866,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Identifică destinatarii pozelor",
+  "project_id": "73685247-92a1-4212-a650-4fcf586fc1f4",
+  "project": "MP3.Varvi",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 577517,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 21,
+  "message_count": 4,
+  "content_sha256": "b0b50dd37197fdd8384ffcdad46e3995c1972bdf74dd1f5479321d3563911f11",
+  "files_copied": 1,
+  "references_not_copied": 2
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Proiecte 2026/2026.11.27 - SRL IMM INTREPRINDERI MARI - e-Mobility RO - Submasura 1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://fonduri-structurale-media.s3.eu-central-1.amazonaws.com/GHI_De_MOVE_submasura_3_81f7ac92d8.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/313757",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://rcgconsulting.ro/e-move-ro-infrastructura-reincarcare/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.uzinex.ro/finantare/e-move",
+    "status": "referinta_externa_necopiata"
+  }
+]

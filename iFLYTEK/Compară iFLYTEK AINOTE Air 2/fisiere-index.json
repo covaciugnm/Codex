@@ -1,0 +1,1458 @@
+[
+  {
+    "source_reference": "../../../CONTINUARE-UBUNTU.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--b7006699.html",
+    "bytes": 12252,
+    "sha256": "b0ee603cb54284baab479812f7e2f4246ba69447cc56fe20d6ce50485775991a"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Ochelari/Politica_aplicatie_oficiala.html:2721",
+    "status": "copiat",
+    "saved_path": "fisiere/Politica_aplicatie_oficiala--95b0dd59.html",
+    "bytes": 182068,
+    "sha256": "16688c9f9965536b80d16eb3c954686c8191cf5fc610b24bd24b6190cca34a92"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--96d06f1b.html",
+    "bytes": 65618,
+    "sha256": "c4f4c472aab8e499267b6455101ccd36ed9b8532cf1288215f48ce57a0b6fbae"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--4e26f16c.html",
+    "bytes": 8925,
+    "sha256": "fa2975cff4277fae293d90fb3245a6b96dbe87e3a6d2b3023399049b328bcc66"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/runda-3/audit.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--a76fbd9e.txt",
+    "bytes": 14126,
+    "sha256": "06720be72affd97d4b0d6bb4c332b11f5af7bd77a10d15cbd03ae092757f8495"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/catalog-parametri-functii/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--9b1db006.html",
+    "bytes": 5912,
+    "sha256": "61df2dfcd12c29d1733c910bb14b584cdbf83d9c2cd27c424b45eb0de71f6534"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/firmware-analiza/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--b275b925.html",
+    "bytes": 20831,
+    "sha256": "2a1d8fd6b15d1b41c7cd5349eae198a9248c799d83739c651b7a7bbea86faadc"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/imbunatatire-raspunsuri/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--21844dcb.html",
+    "bytes": 360652,
+    "sha256": "847a694f25e763b1478c18fd15c201b89366ace95d2883208d1ee275e447ea43"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/protocol-comunicare/CATALOG.html",
+    "status": "copiat",
+    "saved_path": "fisiere/CATALOG--87d2cbc8.html",
+    "bytes": 128029,
+    "sha256": "5ce68f2a8c911fcc0e2e974eeef75bd814cb2c293776341eeeffbce6705d6eaa"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/protocol-comunicare/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--ba92442a.html",
+    "bytes": 31437,
+    "sha256": "efe5ec65603638f368b820ef7b84330c29eaa35080427122a2d0a55c02bf2a56"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/reconstituit/jadx/app/src/main/java/com/iflytek/fanyi/blc/service/impl/TranslateServiceImpl.java",
+    "status": "copiat",
+    "saved_path": "fisiere/TranslateServiceImpl--1e34f10e.java",
+    "bytes": 6146,
+    "sha256": "2692c6151a194d87324f289ab8bf0a5e1a6440922811db0a2a088994b93b018e"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/reconstituit/jadx/app/src/main/java/translate_sdk/BaseClientParams.java:48",
+    "status": "copiat",
+    "saved_path": "fisiere/BaseClientParams--66941f24.java",
+    "bytes": 3412,
+    "sha256": "c3e457cba9cfdcbf9d7b76ceca24865e38f2484b6d2bf2691f6bc790ffe3e87d"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/reverificare-detaliata/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--25142e2c.html",
+    "bytes": 332891,
+    "sha256": "d7fa7614cbca5b6f8f408c7e3dc016605bc0a14757d07062fe2de40cd10dd9dc"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/Biblioteca_Glasses/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--8b85f68b.html",
+    "bytes": 17549,
+    "sha256": "96f00e7f2fd455b9ee384e700f173ec763592cd58b8f21b8d8bda9ed28c952cc"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/Cercetare_SDK_2026-10-30/Raport_Bluetooth_extins.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_Bluetooth_extins--042413e4.txt",
+    "bytes": 5143,
+    "sha256": "480499766f14e3dab7a4fbbaa81f6fc23ba92525ca99a65c893b2993e49e76ba"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/Cercetare_SDK_2026-10-30/Raport_SDK.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_SDK--615fc811.txt",
+    "bytes": 5634,
+    "sha256": "0596789d8b747031ed7e35b0bef449d9abc0a289ea9f121919656fbe2daa799c"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/SDK_Experimental/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--87851387.html",
+    "bytes": 3555,
+    "sha256": "52180a6ddbb634ef2ba08e5071657fe7342ac2b75d218b94f97028af1b1f4e5b"
+  },
+  {
+    "source_reference": "Assets/IMAGEGEN.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a18d84-6ed5-7161-97af-816983f4608c\\5908B8F7-7058-476F-95A1-A4A4EC92A25C\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a18d84-6ed5-7161-97af-816983f4608c\\C3AAECD4-7AD3-489E-9409-1BA79A4734BC\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a18d84-6ed5-7161-97af-816983f4608c\\C3AAECD4-7AD3-489E-9409-1BA79A4734BC\\2-Photo-2.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a18d84-6ed5-7161-97af-816983f4608c\\C3AAECD4-7AD3-489E-9409-1BA79A4734BC\\3-Photo-3.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.ssh\\iflytek_deploy_20261031",
+    "status": "configuratie_sau_credentiale_excluse"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-58d24186-cc30-47d8-9876-c8f1e3e535bd.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-58d24186-cc30-47d8-9876-c8f1e3e535bd--ad500435.png",
+    "bytes": 247120,
+    "sha256": "267fb9e4ef159345a14256c3f98022e975f10f4d1cac4f00e59c720c123202ca"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a18d84-6ed5-7161-97af-816983f4608c\\\\5908B8F7-7058-476F-95A1-A4A4EC92A25C\\\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a18d84-6ed5-7161-97af-816983f4608c\\\\C3AAECD4-7AD3-489E-9409-1BA79A4734BC\\\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a18d84-6ed5-7161-97af-816983f4608c\\\\C3AAECD4-7AD3-489E-9409-1BA79A4734BC\\\\2-Photo-2.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a18d84-6ed5-7161-97af-816983f4608c\\\\C3AAECD4-7AD3-489E-9409-1BA79A4734BC\\\\3-Photo-3.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-58d24186-cc30-47d8-9876-c8f1e3e535bd.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-58d24186-cc30-47d8-9876-c8f1e3e535bd--ad500435.png",
+    "bytes": 247120,
+    "sha256": "267fb9e4ef159345a14256c3f98022e975f10f4d1cac4f00e59c720c123202ca"
+  },
+  {
+    "source_reference": "CONTINUARE-UBUNTU.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "D:/CodexWork/iFLYTEK-publish-20261031/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/reconstituit/jadx/app/src/main/res/mipmap-xhdpi/ic_app_launcher.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ic_app_launcher--08804448.png",
+    "bytes": 4123,
+    "sha256": "e958c7d9f6bffdaac307a6bcb8c2d67d1cb372c7aba3bbc210187cfcbf081479"
+  },
+  {
+    "source_reference": "D:/CodexWork/iFLYTEK-publish-20261031/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/Biblioteca_Glasses/Aplicatii",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\check-iflytek-git-index.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/check-iflytek-git-index--7823df11.cjs",
+    "bytes": 1578,
+    "sha256": "625f1f690089dd8e1e77f3fca137d86ec472e89e7951da7dc1227eeaf4a03c06"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\finish-iflytek-metadata.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finish-iflytek-metadata--f315c486.cjs",
+    "bytes": 3265,
+    "sha256": "46962e5c33b3dd50819de418f7e42d054619eeb40c9b5f3d6b666d5aa2502849"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\.gitignore",
+    "status": "copiat",
+    "saved_path": "fisiere/gitignore--9c995b07",
+    "bytes": 2786,
+    "sha256": "3810b0e1a0b54c987963f2608cda779ea9f1d084648391b24936794d33a08767"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\CONTINUARE-UBUNTU.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CONTINUARE-UBUNTU--e1774ca8.md",
+    "bytes": 11922,
+    "sha256": "ccb0bc1774cb2871b039d020027da334c5cde08c48b9c83d26a0b0d90c08fb04"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--d8018199.md",
+    "bytes": 7070,
+    "sha256": "24e562d1e40c08bdb38eeb346691b4f1a9b1c399be0ad1308f2d5f0288699a83"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\.gitattributes",
+    "status": "copiat",
+    "saved_path": "fisiere/gitattributes--f0ff5c7b",
+    "bytes": 210,
+    "sha256": "78392255875c5be36db476ad6e9a701e7c32a71d8ff6e71d8a1080a28f6c6f9a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\.gitignore",
+    "status": "copiat",
+    "saved_path": "fisiere/gitignore--0dfe4961",
+    "bytes": 63,
+    "sha256": "c07c257ee79f1e0e2a2b324b74bb2326c62a247259ce0f5860c8660f12f3d8e0"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\Audit-APK.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit-APK--7f9a66a8.cjs",
+    "bytes": 5661,
+    "sha256": "6ab351829dddab7503da44a42284170ff460edec52f9ad70ccdf4d6dc0f600df"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\Build.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Build--f5e473f3.ps1",
+    "bytes": 10185,
+    "sha256": "ac58b310df3ef91c5de480adde75b01b9ff4341ad6f52e7c57579cbd27e803a4"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\Check-Device.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Check-Device--5010e7fe.ps1",
+    "bytes": 1922,
+    "sha256": "d7cb9757c4b0c1561791f4bc546442f368d2537c0b7a5f2b21a2a86ccab32e65"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\Compare-Decoded.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/Compare-Decoded--b9167e28.cjs",
+    "bytes": 3495,
+    "sha256": "5bd64e734a301b66ce2e5846218e3d1732072952c4342a6dfee85090e041efc5"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\Export-Source.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Export-Source--ba391489.ps1",
+    "bytes": 2563,
+    "sha256": "13a7c624c86bd0379f41ae446c4acbbdba0f40ebb7914d6d4a2be5c0a7660314"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--79f3d8a6.md",
+    "bytes": 9460,
+    "sha256": "70d0f0943f9ef2c0d67cada7d0c27e82f418059451b507d14c5004cba29d67a0"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\Setup-Tools.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Setup-Tools--dcd9d289.ps1",
+    "bytes": 1259,
+    "sha256": "246debfcb9ff9ac0f2bdb0037de65ad11fd91ead9144ecaf81969f30ef23806d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\Write-Report.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/Write-Report--e3162d7a.cjs",
+    "bytes": 11740,
+    "sha256": "6cab67175a75c0ce1b64734e8453d9199276e86746a316de1680aca567a1e1f3"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\normalization.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/normalization--6e337e81.cjs",
+    "bytes": 2401,
+    "sha256": "e5adb7e5d8afcdd0cae029a0c8b2a48f6d936856226fc7c596586f4816f42710"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\test-verifier.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-verifier--eb7ef704.cjs",
+    "bytes": 1783,
+    "sha256": "3a34c64d3614537d3b888ab5f081c99371387b148033cebb58f3363941f470d8"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\tools.lock.json",
+    "status": "copiat",
+    "saved_path": "fisiere/tools.lock--b471f475.json",
+    "bytes": 660,
+    "sha256": "4b93cee201f04e93ec685b842bf99ddb543d52e886e08cb6e1b6cda136071a8c"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\variants\\romania-40\\Build-Romania40.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Build-Romania40--264f0e7f.ps1",
+    "bytes": 4000,
+    "sha256": "eff4a2495f779bb3ba3cd4c899b7ff432a3f197c90372d2313df6153b82dd509"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\variants\\romania-40\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--59d464cf.md",
+    "bytes": 4972,
+    "sha256": "360d841a2e5dd4c202c8661c888e2ec0c9407364449593924c7fa2fc05b6c0ba"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\variants\\romania-40\\package_variant.py",
+    "status": "copiat",
+    "saved_path": "fisiere/package_variant--f2795105.py",
+    "bytes": 2677,
+    "sha256": "30cdf0ac8827bad4c15ba850ea43dfc5167ca64ebed7f88e8873cdb7f9d1adca"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\variants\\romania-40\\patch_native.py",
+    "status": "copiat",
+    "saved_path": "fisiere/patch_native--ea358ab3.py",
+    "bytes": 5500,
+    "sha256": "c4b9bcb49529f7307580ee6bcdf0f6b2eb8b0acfbe0b66a2f51ddb381ff58ea4"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\variants\\romania-40\\romania40.S",
+    "status": "copiat",
+    "saved_path": "fisiere/romania40--6a4e5648.S",
+    "bytes": 6517,
+    "sha256": "5fcaba7c5a4479d1eccd6b0a17115560ef728e3cbc1b7b7484e83e4456a1a181"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Recompilabil_2026-10-31\\variants\\romania-40\\test_native.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_native--fe2d2036.py",
+    "bytes": 7746,
+    "sha256": "0ee4672c66416eb4aac3e3ada1a326373aaba6fb60d5eb0f06cf8ab400a94dcb"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\reconstituit\\jadx\\app\\src\\main\\res\\mipmap-xhdpi\\ic_app_launcher.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ic_app_launcher--08804448.png",
+    "bytes": 4123,
+    "sha256": "e958c7d9f6bffdaac307a6bcb8c2d67d1cb372c7aba3bbc210187cfcbf081479"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\tools\\iflytek-snapshot.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/iflytek-snapshot--ad116dbb.cjs",
+    "bytes": 2330,
+    "sha256": "2d04efae0f37616615d6a5ff15ab67d7d68d9c7e0df114c9adc7b3585781674f"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\tools\\package-iflytek-handoff.py",
+    "status": "copiat",
+    "saved_path": "fisiere/package-iflytek-handoff--6275c644.py",
+    "bytes": 5423,
+    "sha256": "e76815c5dca376b4366aea0b1e3244e5f008e326b8103826c253739c585ed5d9"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\tools\\restore-iflytek-apk-assets.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/restore-iflytek-apk-assets--9e924fe5.cjs",
+    "bytes": 4111,
+    "sha256": "2e2655c4b67f1306646938da9109f899dec1d0f080ee0185629f72e0e48690b3"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\tools\\restore-iflytek-assets.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/restore-iflytek-assets--ff63bb41.cjs",
+    "bytes": 3070,
+    "sha256": "8462211608ac366abb05293a374f4b9dc6be570b8e600006bdd596a229c6341a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iFLYTEK-publish-20261031\\tools\\verify-iflytek-snapshot.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/verify-iflytek-snapshot--b5f38b93.cjs",
+    "bytes": 1151,
+    "sha256": "dc1c99114ad27e575ae1ac0f58ef7946e10906c9498fa9f2ffaf12e609d4a095"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-apk-release-notes-20261031.md",
+    "status": "copiat",
+    "saved_path": "fisiere/iflytek-apk-release-notes-20261031--fac8ec3e.md",
+    "bytes": 2209,
+    "sha256": "a31b0a93a4f0df933af5637fe855435b191401fd5618a1b693370ba71cf0bd9a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-baseline\\install-status.png",
+    "status": "copiat",
+    "saved_path": "fisiere/install-status--0acae75c.png",
+    "bytes": 503069,
+    "sha256": "9a75b3f3d8e7fea0ff85733531aaa26e9ea688deed7223a379971b3eb770988e"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-baseline\\login-ready.png",
+    "status": "copiat",
+    "saved_path": "fisiere/login-ready--dacced37.png",
+    "bytes": 382500,
+    "sha256": "584bd653730eebed8db46efab0abed7355584f66964ea7eb4e5e246687bbf64c"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-baseline\\login.png",
+    "status": "copiat",
+    "saved_path": "fisiere/login--99b8ce0c.png",
+    "bytes": 384307,
+    "sha256": "2e4a47d4646a7631fb0e86126f8474e01d518cdda9f91b817b25147b2f2f9022"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-baseline\\profile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/profile--ef118d52.png",
+    "bytes": 382514,
+    "sha256": "50f988484e700c275e5fe78e50be6f8627b29f48023c9a2ca1e1387f89d2e8de"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-baseline\\restore-action.png",
+    "status": "copiat",
+    "saved_path": "fisiere/restore-action--d49e5d43.png",
+    "bytes": 502980,
+    "sha256": "8b25b53fbe8583fd60f793848790c33157570e2ac475399ff89cac88eca1c78e"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-baseline\\restore-details.png",
+    "status": "copiat",
+    "saved_path": "fisiere/restore-details--1ced14d8.png",
+    "bytes": 248941,
+    "sha256": "b24df89fe11f7497d333069f7d192632b19b6885c19528b442f3e30eb25e1cc9"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-baseline\\restore-status.png",
+    "status": "copiat",
+    "saved_path": "fisiere/restore-status--dff3b82b.png",
+    "bytes": 249315,
+    "sha256": "eddb37d1335e37472f00864ba5d9a6fb0d73f23f0b83a107db39a3ea2f96a279"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-baseline\\screen.png",
+    "status": "copiat",
+    "saved_path": "fisiere/screen--f59096be.png",
+    "bytes": 537881,
+    "sha256": "c29dc982558cb662e3c8611f7b4734d17fd41ca0bb6d0e5437336f3680548c75"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-rebuilt\\country-selector.png",
+    "status": "copiat",
+    "saved_path": "fisiere/country-selector--f9532e9d.png",
+    "bytes": 154171,
+    "sha256": "0d7ed63e543bf804a42a0bcb32a06b33cd2822c2a71762e12b77e832049db00d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-rebuilt\\first-start.png",
+    "status": "copiat",
+    "saved_path": "fisiere/first-start--09397f95.png",
+    "bytes": 67825,
+    "sha256": "b607fe055291adac2b68fcef06ef1ec45b12a5665df675e67f560a4660b8b719"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-rebuilt\\login.png",
+    "status": "copiat",
+    "saved_path": "fisiere/login--c6a47dbc.png",
+    "bytes": 378699,
+    "sha256": "3a126a3959fd150a46b7bde462262050f1ce3e839d24a895fe639a2f787f4a41"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-rebuilt\\login2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/login2--04669ec3.png",
+    "bytes": 177346,
+    "sha256": "04115a5604d4713c2466eb0b22f70a50012266a1a6141ee4c80dea57c0f94df3"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-rebuilt\\password-login.png",
+    "status": "copiat",
+    "saved_path": "fisiere/password-login--de7d6885.png",
+    "bytes": 163240,
+    "sha256": "ecdb44e5d35f362ef52dacd578f751a4502b202cad0d3037d7bce518c09eb6d0"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\iflytek-build-work\\device-rebuilt\\ready.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ready--9333bca1.png",
+    "bytes": 380206,
+    "sha256": "dc626da4e178a004393885baa6806333dbd9f63c3c8123beff40eea023f307b7"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\prepare-iflytek-upload.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-iflytek-upload--3cfef5bd.cjs",
+    "bytes": 5498,
+    "sha256": "827c5ea0c146495e78eae42ed26a079cbf47a9d9f540d8acd093288d09c63c1c"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\upload-iflytek-release.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/upload-iflytek-release--eec77add.cjs",
+    "bytes": 4062,
+    "sha256": "a2126088d91e640aff7fb0b11e9be10e3dd42114e0e373e34dea32281e4f4611"
+  },
+  {
+    "source_reference": "LICENSE",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\audit-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-preview--5926a467.png",
+    "bytes": 76450,
+    "sha256": "3edc5e399a15c031467ef4a01c42d6c2803838408137a6d15d9bc91813ef54a3"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\corectari-runda-1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/corectari-runda-1--a97904c9.json",
+    "bytes": 2815,
+    "sha256": "b01872962f18eda8c8d9d4a966aaccf89bada00a957ffac0de8bb04aa9ec7353"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\ota-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ota-preview--913c9ee4.png",
+    "bytes": 90971,
+    "sha256": "c6f811ba18df205cd6d3098b8fabba26658793df21e67eddad380fb07c8ec9be"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\work-state-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/work-state-preview--841d8c66.png",
+    "bytes": 92913,
+    "sha256": "ce41f526a22baf013e0f038398880db93af131a6a00fd3a702359f2bd9ff1d3c"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\catalog-parametri-functii\\catalog-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-preview--f7c332ef.png",
+    "bytes": 157148,
+    "sha256": "0da0b70ed3f822224afc4f6e6fa4802be90fae77ebc5699762e396dd9492df93"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\catalog-parametri-functii\\catalog-ui.js",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-ui--71080615.js",
+    "bytes": 9119,
+    "sha256": "f225c374e251a30e91f5720a2a23d3cb91da9d4295ad4d8eeb5a2e7035488551"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\catalog-parametri-functii\\catalog.css",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog--eb824bbd.css",
+    "bytes": 3528,
+    "sha256": "71f8e20798b83dc5e971ba834a50aa26c4d2ebc0051e5b8dd5ed75590350ce55"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\catalog-parametri-functii\\dex-ui.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dex-ui--1d601013.js",
+    "bytes": 4687,
+    "sha256": "6d93c7a92db1cd10bf2d838aa477f007a0828e91abaf1f826cfbcadfa93d7caf"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\catalog-parametri-functii\\functie-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/functie-preview--65f6d0d3.png",
+    "bytes": 95718,
+    "sha256": "c394bc01652177d23923f9e13cc5ec1a6c60ece7d91194524c21e48e29b3a190"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\analiza-solicitari.json",
+    "status": "copiat",
+    "saved_path": "fisiere/analiza-solicitari--b6e2f0fc.json",
+    "bytes": 18275,
+    "sha256": "b41a2324626b5902e3b48918c1806ffccaf09067cb179f385b936ecdd6af0482"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\cerinte-atomice.json",
+    "status": "copiat",
+    "saved_path": "fisiere/cerinte-atomice--ef6d9e41.json",
+    "bytes": 46588,
+    "sha256": "54975550fbd9303309bec0a715ff593b91559b70e60bbfdc8fd58b2e66061d84"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\evolutie-concluzii.json",
+    "status": "copiat",
+    "saved_path": "fisiere/evolutie-concluzii--76acd80e.json",
+    "bytes": 6217,
+    "sha256": "5538fedf2f7b2b13839d95bb9ce4ec482b373f90f8fb98e0b031ce7b1e227edc"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\istoric-conversatie.json",
+    "status": "copiat",
+    "saved_path": "fisiere/istoric-conversatie--b3e419b2.json",
+    "bytes": 78242,
+    "sha256": "429a95b308bcb879b17957a5963b550719692ca1d5640924a65ff58a85e7075c"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\metode-imbunatatire.json",
+    "status": "copiat",
+    "saved_path": "fisiere/metode-imbunatatire--f68bb086.json",
+    "bytes": 10097,
+    "sha256": "74a29e7730547978138c3ab699e167e88242c312ea30527e378a1b235439e88c"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\model-raspuns.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/model-raspuns--ad3be2f6.txt",
+    "bytes": 4712,
+    "sha256": "c8cd246aa0acdb750f995b7a77d105962e0aef878a916889c119346d8ca434de"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\plan-experimente.json",
+    "status": "copiat",
+    "saved_path": "fisiere/plan-experimente--695d6512.json",
+    "bytes": 10245,
+    "sha256": "af1b68864b67abcae4009c88fd43d132b8f93ad58527693c717c591bc8061742"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\preview-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-desktop--72e7b3d0.png",
+    "bytes": 93007,
+    "sha256": "ae7f8d523e1d85555c5c31e2d26969a8cd355e4defed2430303223891de23a2f"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\preview-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-mobile--6e7a423b.png",
+    "bytes": 45804,
+    "sha256": "c2fa1dc94827f6e49226fe137063506b88b092d72fcb4d276534864379276435"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\registru-afirmatii.json",
+    "status": "copiat",
+    "saved_path": "fisiere/registru-afirmatii--f0c570ab.json",
+    "bytes": 20341,
+    "sha256": "1cea898d87e7478b6d51a3c7ba0bd3a1e40da2e02422bda9a5e053c40325bb5d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\review.css",
+    "status": "copiat",
+    "saved_path": "fisiere/review--623e19f8.css",
+    "bytes": 5134,
+    "sha256": "ef3a1d0fb16fe713bee03b016708fe96d922419abee92d0922ef95a34e5e4917"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\review.js",
+    "status": "copiat",
+    "saved_path": "fisiere/review--7edc5b79.js",
+    "bytes": 8480,
+    "sha256": "8361be9cb53161eb6511e57b717cc828faf3d6465803bc202ef8e571e46910aa"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\surse-metodologice.json",
+    "status": "copiat",
+    "saved_path": "fisiere/surse-metodologice--c444c4ec.json",
+    "bytes": 2286,
+    "sha256": "5f799c6fe88370f23af9a73d43e3914c17390841d59ee274a7fef72c1942a22d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\inventar\\catalog-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-preview--3a05ab10.png",
+    "bytes": 79858,
+    "sha256": "fd10111b4ba8c4abb8b0f1d555b02b7ef634da20f9617c0fbbe433274462417a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\protocol-comunicare\\cadru-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/cadru-preview--66cdfcb5.png",
+    "bytes": 78236,
+    "sha256": "d25361d3d3cdad7e8c4d01d1c65c94ad263d0bed7a360fc2aae190e45bcb7ae4"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\protocol-comunicare\\cloud-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/cloud-preview--75cc19d9.png",
+    "bytes": 59539,
+    "sha256": "1554bc97df0eb6bc566d78d20127e92851b18789633c2114c04f9c73824fedce"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\reverificare-detaliata\\preview-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-desktop--37132bd3.png",
+    "bytes": 92271,
+    "sha256": "0f05d833ae931d07dfa0e4e5daf8bd0e63e9e2cb48f52f86272c2e12047b908b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\reverificare-detaliata\\preview-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-mobile--7b2e3a83.png",
+    "bytes": 39305,
+    "sha256": "0cdbf74095891600655b50ae2633fbfd4f3698d722b03a6a5456b53c9f171be8"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\ExportSmali.java",
+    "status": "copiat",
+    "saved_path": "fisiere/ExportSmali--2553f390.java",
+    "bytes": 1500,
+    "sha256": "0c45346a4200f3307a380502501e909e7c7f1656361f24cb13c2f0935e06be4b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\archive-docs.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/archive-docs--a6508ea6.ps1",
+    "bytes": 2467,
+    "sha256": "8739132d77c0f5ddc9cf33c6ba452f72a9ad93f2da55ff2b64a2284c956a9d40"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\audit-history-notes.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-history-notes--3f0ec26c.cjs",
+    "bytes": 2674,
+    "sha256": "9b3f458b988cc14749e4a4a41962cc42a00c4c1037b2a152a85c564a92cea0c9"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\audit-report.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-report--10d8cd40.cjs",
+    "bytes": 5801,
+    "sha256": "25aafa355fea387e271a096c11753890ea634c718169c46d619ab3ea4adc3414"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\audit-state.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-state--8316dd34.cjs",
+    "bytes": 856,
+    "sha256": "d048d407fdbead1909c25dabe828a3800d49ba655d30d49139c5ff9a54cea840"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\browser-check.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/browser-check--73c149f4.cjs",
+    "bytes": 1517,
+    "sha256": "d670de38448302dbe14d90f87ab8c9555ae47adc9b7a522dee1e192653d926bc"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-dex.py",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-dex--d65e71cf.py",
+    "bytes": 6885,
+    "sha256": "649fa26e5589d58a120b17432c0377f1219278911858ebbe3528bfdbc4934c8d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-enrich.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-enrich--c7bb9751.cjs",
+    "bytes": 29382,
+    "sha256": "98833eb425964b83b55dd1c81a8a10590b1f0bb9f4769526b9ddf42721101582"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-extra-receive.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-extra-receive--03feffe5.cjs",
+    "bytes": 3725,
+    "sha256": "6403fb1455e6cb4546d9cc45ae5283420e30a49a38932dd82241f236acd05b75"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-extract.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-extract--e2c6ee33.cjs",
+    "bytes": 29702,
+    "sha256": "bde30ab62a779c3f3388ebca58488c4c7d1d1644151360e005cdde15f3be029a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-flutter-results.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-flutter-results--e8dc4ca0.cjs",
+    "bytes": 6563,
+    "sha256": "7be79ccb533fb83630fa011275e5069ea75d170fbf5df2b5fcd86cd781ced7ba"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-pages.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-pages--2ac63501.cjs",
+    "bytes": 12875,
+    "sha256": "0c9a551d97bb22e3c425f526f617fc9e09b5e5035e6618efb73e4cd5d5e82345"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-receive-listeners.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-receive-listeners--12fd65a5.cjs",
+    "bytes": 4970,
+    "sha256": "97afdf451b937df590586a0839c1ca35b8b1ed94cf2147dce0524a442f9db126"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-response-contracts.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-response-contracts--1a7b20d9.cjs",
+    "bytes": 10626,
+    "sha256": "fa4f27c38d17e72537102f449a1c8ad43f8f91edb6a2037a62852da11aedb65b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-reverified-types.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-reverified-types--7ed23622.cjs",
+    "bytes": 1830,
+    "sha256": "9d7487bf2a7cbb77080246add7b6bc0cb691607b597e1b43df6b255f8e87c96f"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\catalog-verify.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-verify--56a13381.cjs",
+    "bytes": 10402,
+    "sha256": "0a48f00b32f9c145e51e0b04937960eb5222cc5582c08ff5bba3fd891316cb09"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\documentation.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/documentation--7b82c842.cjs",
+    "bytes": 5073,
+    "sha256": "15e7e2b7ae53351b10f58e87cc13e9b95e6573c5bec55fc2dc6d19bafcaa4462"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\finalize.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize--afed08e0.cjs",
+    "bytes": 24229,
+    "sha256": "bf0eaf8d39abc2dc2a8c998bf794c96576325ea11bf66c0d51bd5c23b660a146"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\finish-docs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finish-docs--51db1cf4.py",
+    "bytes": 4183,
+    "sha256": "ec983ab64b7d2da4ddc171356be779395ecfc61bbdc68055748d39e757a546b5"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\firmware-audit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/firmware-audit--b9873fec.py",
+    "bytes": 6463,
+    "sha256": "1cdcfd095aea2e1a0350220129cceab012a9515fd7dd84d1321ae7e4e1e0c322"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\firmware-report.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/firmware-report--581be41a.cjs",
+    "bytes": 10368,
+    "sha256": "93687fe27a92760cdfaedf0437d05c6e57a52c1c30ba5b66220616cee8086bdb"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\inventory.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inventory--20dacdd2.cjs",
+    "bytes": 10952,
+    "sha256": "58317912faae99b91db233f4e527bc4cff6a94029eb3b9bea2b66091ed024ef0"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\protocol-browser-check.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/protocol-browser-check--30322395.cjs",
+    "bytes": 1501,
+    "sha256": "f05f7c852b180f031675b3fb09e5f21d9becebf1a8d12195f6fe9ea3b50dc3a7"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\protocol-inventory.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/protocol-inventory--6469ddd3.cjs",
+    "bytes": 5237,
+    "sha256": "1b393d7f33cc8325f71e48e35aa4c65f7fb9bf458c7677427f595b8e84520ef9"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\protocol-report.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/protocol-report--8b892757.cjs",
+    "bytes": 28292,
+    "sha256": "c02330f7e5f767a8314f431d1811c2870023d5f7ce0daef807a247b2904d5390"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\quality-review-build.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/quality-review-build--846b55cb.cjs",
+    "bytes": 27692,
+    "sha256": "ebb5ca534cd6c6b5435827cda4337c40f85ed6a8147661c6fef31b454f900b1e"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\quality-review-verify.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/quality-review-verify--55b6f7d9.cjs",
+    "bytes": 10519,
+    "sha256": "dded62d9621c0980b782e6faad70e3a4a74fdb5cff5eceef30d56a9903e64a01"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\reverify-followups.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/reverify-followups--a1e35e6b.cjs",
+    "bytes": 6340,
+    "sha256": "95d8d553ba5378d47f976e1b51786298e548fe291820093cd436c3a54fce245f"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\reverify-report.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/reverify-report--8eb7e18d.cjs",
+    "bytes": 21959,
+    "sha256": "6a1e664feeee990fc51fdfb8b5f43afa10b1024f21cc71073452353e51f2b453"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\reverify-unknowns.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/reverify-unknowns--76989565.cjs",
+    "bytes": 12743,
+    "sha256": "f33b14a8207813fb5da5b52979ef0e2ebf9f60dd5e6e494f42b405f95d8829c2"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\reverify-verify.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/reverify-verify--e4daa009.cjs",
+    "bytes": 9563,
+    "sha256": "6e05d2a8c2bfe07eeac99354d2480bc1e9b05f460155659f7a4d3fc6a8864821"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\tools\\verify-catalog.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/verify-catalog--be727c77.cjs",
+    "bytes": 1769,
+    "sha256": "700d17d614c1f6ba3c9cbcccab8cdc3a3b907ed95636392ec33b1375d95f891a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\Cercetare_SDK_2026-10-30\\Raport_SDK.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_SDK--615fc811.txt",
+    "bytes": 5634,
+    "sha256": "0596789d8b747031ed7e35b0bef449d9abc0a289ea9f121919656fbe2daa799c"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\Cercetare_SDK_2026-10-30\\ainote-note-api.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ainote-note-api--8ab803b5.md",
+    "bytes": 11199,
+    "sha256": "dd9891069a511704b8fbc859239184f04a662e5c4a3e7e7589eea92b1c105333"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\Cercetare_SDK_2026-10-30\\ainote-port-health.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ainote-port-health--a4bb61a5.md",
+    "bytes": 1510,
+    "sha256": "15ce66070fad1bb2c9d79a485ead2a359c0f250d9a1e0fe12964de5786e30572"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\Cercetare_SDK_2026-10-30\\ainote-schedule-api.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ainote-schedule-api--359b875b.md",
+    "bytes": 18274,
+    "sha256": "85ca573db01fd9ec4bbbf47796e0f9439c13f6aff018d4b3f87f017fe61fe001"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\Cercetare_SDK_2026-10-30\\ainote-skill-sursa.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ainote-skill-sursa--53264635.md",
+    "bytes": 6662,
+    "sha256": "2b82a98b79d7794c5066077b867c02c7ba4f75647aa612e2989a76571395f8a9"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\Cercetare_SDK_2026-10-30\\ainote_api.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ainote_api--b251dfc7.py",
+    "bytes": 15402,
+    "sha256": "4985e10d3fbfc0305bff223e27c32eaead2d7744457eb86c75c97846aa8db1a9"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--87851387.html",
+    "bytes": 3555,
+    "sha256": "52180a6ddbb634ef2ba08e5071657fe7342ac2b75d218b94f97028af1b1f4e5b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\PROTOCOL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PROTOCOL--cf079757.md",
+    "bytes": 3744,
+    "sha256": "4f7ec9b3471149f7a8d266a39f9544d9db7324c8438ef6cc2a6b54b91daa1aef"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--8bed4bd3.md",
+    "bytes": 6584,
+    "sha256": "2173b26644dfec047eef759fb943c931fa514cadca4cd038abc43dbf5a1fcff8"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\build.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/build--5f84c5f4.ps1",
+    "bytes": 1370,
+    "sha256": "2389325a47ce1c01148d3cbd47bb3c3a6b2044d66fc6d14a4e19232cbd5eee36"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\examples\\BatteryQuery.java",
+    "status": "copiat",
+    "saved_path": "fisiere/BatteryQuery--918dca77.java",
+    "bytes": 533,
+    "sha256": "9d76fbe5b3c2f874472c3b36fa1c0d10315b5ca267293ff937b19c017250291d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\src\\ro\\iflyresearch\\glasses\\Commands.java",
+    "status": "copiat",
+    "saved_path": "fisiere/Commands--890eb5a0.java",
+    "bytes": 1430,
+    "sha256": "5a2e5b52ec9de6dfc0cc8b9d5adc901625a34ed9bb4ea5421440bfeed8a733fd"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\src\\ro\\iflyresearch\\glasses\\FrameCodec.java",
+    "status": "copiat",
+    "saved_path": "fisiere/FrameCodec--b2a15bfa.java",
+    "bytes": 3911,
+    "sha256": "11cc1bf713affaff29171b5ce9f04f8914e900822aa744056d8bde1eaab0140d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\src\\ro\\iflyresearch\\glasses\\GlassesProfile.java",
+    "status": "copiat",
+    "saved_path": "fisiere/GlassesProfile--f06594bd.java",
+    "bytes": 796,
+    "sha256": "10ef04ba6a9a3cac059cc25e5fdbf2f29d7fa75bc8a38c7336e355f38264563a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\src\\ro\\iflyresearch\\glasses\\RecorderBridge.java",
+    "status": "copiat",
+    "saved_path": "fisiere/RecorderBridge--01e90a7e.java",
+    "bytes": 4182,
+    "sha256": "32960b320b9c9e6eaba682f959cfa22ca1da7d87b59a30869c114222a64e9731"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\tests\\BridgeTest.java",
+    "status": "copiat",
+    "saved_path": "fisiere/BridgeTest--ecfc2b60.java",
+    "bytes": 1393,
+    "sha256": "fcb948293f00dbb4e81419c25dc145ff90a2a66c7a5a240a8570a266ded1bf9a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\tests\\CodecTest.java",
+    "status": "copiat",
+    "saved_path": "fisiere/CodecTest--11d5025e.java",
+    "bytes": 2379,
+    "sha256": "fb2ad31fd5ac931963043dbb5a08da562c273c93e4573243ed2b5baf0ac67051"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\tests\\fixtures\\com\\alipay\\verifyiotidentity\\obfuscated\\kh4.java",
+    "status": "copiat",
+    "saved_path": "fisiere/kh4--5a80896f.java",
+    "bytes": 310,
+    "sha256": "be2930002f3b881767d4936148eaf2bf9b31fef826ab164019f2afbfff77e704"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\tests\\fixtures\\com\\alipay\\verifyiotidentity\\obfuscated\\yw.java",
+    "status": "copiat",
+    "saved_path": "fisiere/yw--425a86cc.java",
+    "bytes": 168,
+    "sha256": "e27f52ec1267b35ec33a342972d0c60a64bd74474dcadcacbbdd030db2a690eb"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\tests\\fixtures\\com\\iflytek\\easytrans\\headset\\bluetooth\\recorder\\Mode.java",
+    "status": "copiat",
+    "saved_path": "fisiere/Mode--35f50acd.java",
+    "bytes": 224,
+    "sha256": "02084b9e6dcf3f6ca1027657b91883d88d7e4061792f85d2092890b0cc19bf0b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\SDK_Experimental\\tools\\ExtractBluetooth.java",
+    "status": "copiat",
+    "saved_path": "fisiere/ExtractBluetooth--e292b157.java",
+    "bytes": 1037,
+    "sha256": "3fb074ae7694447c164027687b2146a11bb2d83236c965c89e7fd2a9aaaae711"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\archive-apps.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/archive-apps--2d4bb867.ps1",
+    "bytes": 1449,
+    "sha256": "8ae49d52c75948ea12929147bbb474f1c6b066d2d858578c0854a4d10c54fd5a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\archive-research.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/archive-research--bad47407.ps1",
+    "bytes": 5302,
+    "sha256": "36f424c75c53fae59422c1005dbf28345b6b526940918972d82edb681a16117e"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\build-library.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/build-library--16869ee3.ps1",
+    "bytes": 7525,
+    "sha256": "f224cedd7d2817c71328261202b6f433b1da9b12fde1c544f669e02f1eb8adac"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\verify-library.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/verify-library--4b65bf91.cjs",
+    "bytes": 1540,
+    "sha256": "33c90ecd1d9129f19ecf7c8a669f1547733dd5d30037ca9413c65c54c7cb3d77"
+  },
+  {
+    "source_reference": "docs/HEADSET.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "docs/VERIFICATION.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://account.xfinfr.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://aikit.xfyun.cn/docs/sdk/ios/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://aikit.xfyun.cn/docs/sdk/overview/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cdn.sennheiser-hearing.com/product-documents/product-downloads/conversation-clear-plus/instruction_manual/Instruction_manual_Conversation_Clear_Plus.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.android.com/reference/android/media/AudioManager",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.android.com/training/data-storage/app-specific",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://doc.iflyos.cn/aiui/sdk/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ExistentialAudio/BlackHole",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/NationalSecurityAgency/ghidra",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/acd0620ed4adfa253b09c624d11709103db4b018/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/nativ/dart-aot-identifiers.txt#L1877-L1880",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/acd0620ed4adfa253b09c624d11709103db4b018/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/reconstituit/jadx/app/src/main/java/com/example/recorde_translate_plugin/b.java#L5470-L5495",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/build/reproducible-apk-20261031/CONTINUARE-UBUNTU.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-apk-romania40-2026-10-31",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-documentation-2026-10-31",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/tree/build/reproducible-apk-20261031",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ebowwa/HeyCyanGlassesSDK/issues/1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ebowwa/HeyCyanGlassesSDK/issues/2",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ebowwa/HeyCyanSmartGlassesSDK",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-HTTP2.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/iflyink/ainote",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/iflyink/ainote/blob/main/note/references/open-model-note-api.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/kakaroto/libsiren",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/lianshuang-photo/s1-voice-bridge/releases/download/v0.2.2/S1-Voice-Bridge-v0.2.2-macOS-arm64.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/lianshuang-photo/s1-voice-bridge/releases/tag/v0.3.0",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/microsoft/BluetoothLEExplorer",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/nichochar/open-claw",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/nijez/open-voice-bridge",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/skylot/jadx/releases/download/v1.5.6/jadx-1.5.6.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/skylot/jadx/releases/download/v1.5.6/jadx-gui-1.5.6-win.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/skylot/jadx/releases/download/v1.5.6/jadx-gui-1.5.6-with-jre-win.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/wingsfly/glassclaw",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/wyuzhi/MiVibe-Remote",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/yinzixu03/bluetooth-mouse-mic/releases/latest",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://learn.chatgpt.com/docs/codex/cli",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://learn.chatgpt.com/docs/developer-commands?surface=cli",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://loomy.xunfei.cn/changelog",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://loomy.xunfei.cn/docs/user-guide/toolbox",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://m.iflytranslate.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://mouse.iflytek.com/#/download",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://saas-public-cdn-ioss.iflytranslate.com/android/iflytranslate_1.0.3899_FY10010010.apk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://saas-public.ioss.xfinfr.com/private/config/privacy-policy.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://shop.boox.com/products/noteair5c",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.xfyun.cn/doc/spark/asr_llm/rtasr_llm.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://store.iflytek.com/pages/contact-us",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://supernote.com/pages/help-me-choose-supernote",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.apple.com/en-au/120992",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.remarkable.com/articles/Knowledge/About-reMarkable-Paper-Pro-Move",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://theainote.com/en-ca/pages/ainote-skill",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://uk.iflytek.com/en/pages/ainote-air2-faq",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://vb-audio.com/Cable/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.apple.com/ro/newsroom/2026/05/hearing-aid-feature-available-on-airpods-pro-3/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.health.gov.au/our-work/hearing-services-program/guide-to-hearing-technology/sound-quality-features",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.health.gov.au/sites/default/files/2024-01/hearing-services-program-a-guide-to-understanding-hearing-aid-technology.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iflytek.com/en/news-events/news/343.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iflytek.com/en/products/air/ainote-2.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iflytek.com/en/products/air/ainote-air2.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iflytek.com/en/support/faq/ainote_2.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.nidcd.nih.gov/health/hearing-aids",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.oracle.com/java/technologies/downloads/#jdk25-windows",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.samsung.com/us/support/answer/ANS10001912/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.samsung.com/us/support/troubleshoot/TSG10001914/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.widex.com/en-us/support/pairing/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.xfyun.cn/xfyun-cli/doc",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ziglang.org/download/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--870fa72e.html",
+    "bytes": 12252,
+    "sha256": "b0ee603cb54284baab479812f7e2f4246ba69447cc56fe20d6ce50485775991a"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Recompilabil_2026-10-31/README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--bdb47eff.md",
+    "bytes": 9155,
+    "sha256": "d3a7c91bf8bc609eab005ede852b1c89d32edca5f238b80e043f2b9a2663394a"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Recompilabil_2026-10-31/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--3559e84e.html",
+    "bytes": 7245,
+    "sha256": "73dc5f4a7dfefacfd434b474247fbb389bb4e5d295eeb497e17809e63c033ea5"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Recompilabil_2026-10-31/release-assets.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Recompilabil_2026-10-31/reports/device-test.json",
+    "status": "copiat",
+    "saved_path": "fisiere/device-test--a3ae04a9.json",
+    "bytes": 1431,
+    "sha256": "2e429a231a9a61c63ea8ad294b4efd5e476b2b6935281cbd979926e21f274b91"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Recompilabil_2026-10-31/variants/romania-40/reports/device-test.json",
+    "status": "copiat",
+    "saved_path": "fisiere/device-test--6683471a.json",
+    "bytes": 837,
+    "sha256": "b981262481101db153a0070a891e9f1dfd3cfcc053bc03f42847641e6430e1e5"
+  },
+  {
+    "source_reference": "licenses/THIRD_PARTY_NOTICES.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "src/",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "src/codec/",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "src/codec/UPSTREAM.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "variants/romania-40/README.md",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

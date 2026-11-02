@@ -1,4 +1,121 @@
 {
   "local_originals_preserved": true,
-  "masked_files": []
+  "masked_files": [
+    {
+      "path": "Creează site Dracula Design/fisiere/docker-compose--46753013.yml",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "Creează site Dracula Design/istoric.json",
+      "masked_values": {
+        "signed_query_sig": 4,
+        "url_userinfo": 5
+      }
+    },
+    {
+      "path": "Creează site Dracula Design/rezultate.md",
+      "masked_values": {
+        "signed_query_sig": 4,
+        "url_userinfo": 5
+      }
+    },
+    {
+      "path": "Organizează folderele din Google‌‌ ‌/istoric.json",
+      "masked_values": {
+        "signed_query_sig": 1
+      }
+    },
+    {
+      "path": "Organizează folderele din Google‌‌ ‌/rezultate.md",
+      "masked_values": {
+        "signed_query_sig": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu/istoric.json",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--4c5acd82/istoric.json",
+      "masked_values": {
+        "url_userinfo": 4
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--4c5acd82/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 4
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--8a693e1b/istoric.json",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--8a693e1b/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--99e97b41/istoric.json",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--99e97b41/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--a1f0a9d7/fisiere/implement-local-email--44e78504.py",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--a1f0a9d7/fisiere/prepare-smtp-overlay--af859bc8.py",
+      "masked_values": {
+        "url_userinfo": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--a1f0a9d7/istoric.json",
+      "masked_values": {
+        "url_userinfo": 5
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--a1f0a9d7/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 5
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--e5df9437/istoric.json",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--e5df9437/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    }
+  ]
 }

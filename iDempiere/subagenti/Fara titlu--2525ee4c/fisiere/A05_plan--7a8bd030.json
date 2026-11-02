@@ -1,0 +1,3306 @@
+{
+  "schema": "eva.audit.zone.plan.v1",
+  "agent": "A05",
+  "zone_id": "A05",
+  "agent_id": "A05",
+  "phase": "PLAN",
+  "status": "NEEXECUTAT",
+  "implementation_audit_started": false,
+  "plan_score": null,
+  "independent_reviewer": "A11",
+  "created_utc": "2026-11-02T14:05:57.299Z",
+  "objective": "Dovedirea traseului fizic și contabil pentru G1/G2 multiple și a cantității disponibile vânzărilor G3 din perspectiva gestionarului, contabilului, comisionarului, vânzărilor și operatorilor WMS.",
+  "baseline": {
+    "repo": "cesiroproduction/Eva-Accounting",
+    "branch": "master",
+    "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "source_manifest": "D:\\CodexWork\\eva-audit-p01-readonly-20261102\\SOURCE_MANIFEST.json",
+    "manifest_sha256": "92913cb2d26fc933e17b8946651f0750518c868a6f73ebdf3cd7f96b39ac8b8a",
+    "source_count": 6179,
+    "scope": "Inventar de simboluri pentru pregătirea controalelor; rezultatele se obțin numai după aprobarea independentă.",
+    "deployed_version": null
+  },
+  "boundaries": {
+    "upstream": "A04 recepții și import, A02 identitate/dicționar, A01 roluri",
+    "owned": "Operarea stocului fizic și reconcilierea G1/G2, transformări de ambalare, locatori, inventariere, pregătire pick și predare aviz.",
+    "downstream": "A06 este titular al G3, catalogului și angajamentului comercial. A07 deține AWB, retur financiar, facturare și ramburs. A03 verifică GL, cost și perioadă. A09 verifică UX și dispozitivele. A10 verifică proveniența mediului, joburi și restaurare. A12 verifică individual taskurile P01."
+  },
+  "access_matrix": {
+    "source": "copie verificată a Git, doar citire",
+    "deployment": "de identificat prin SHA, bundle și plugin, DB/AD, versiune core şi digest imagine",
+    "prod": "numai observații permise, fără modificări",
+    "test": "instanță internă separată, scheduler oprit, fără conexiuni la parteneri, slot §61",
+    "db": "SELECT parametric în rol read-only, filtrat după client/org. Scrieri doar via procese/PO în fixture."
+  },
+  "source_anchors": {
+    "WSagaGestiuniForm": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaGestiuniForm.java",
+      "symbol": "WSagaGestiuniForm",
+      "line": 31,
+      "git_blob": "e7343ba8da5553239a6b2a984dfcb8432aa54335",
+      "sha256": "e901b391919b16f0ca996db16c7a7113b7368a55ec6b19ffed8b2fb32c604679"
+    },
+    "PerecheWms": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/PerecheWms.java",
+      "symbol": "PerecheWms",
+      "line": 38,
+      "git_blob": "74f195997b0f1f8553dbbff6e7fcde58107a8503",
+      "sha256": "0f0391be0ea7957ac846fc418276fe746c7d518e69792a5611aac3dab4555d80"
+    },
+    "ModelWms": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ModelWms.java",
+      "symbol": "ModelWms",
+      "line": 15,
+      "git_blob": "f380962312e9a97be5ca9e6bc4d949814c02e327",
+      "sha256": "24f6a4a281deb2f31ad1771729c713f79ad7472e3cbb29565a52f35420fc574e"
+    },
+    "DialogLocatoriGestiune": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogLocatoriGestiune.java",
+      "symbol": "DialogLocatoriGestiune",
+      "line": 42,
+      "git_blob": "98068a85a35f3bc0fc1aaacb67c7f8472ed40c22",
+      "sha256": "a42937f5309c70021cb3ffd1554224a1512f84514e3b0d3d6a87dbaa967dfe72"
+    },
+    "StocWms": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+      "symbol": "StocWms",
+      "line": 32,
+      "git_blob": "11de51574160a86a79b68ca3082e5b786c77ee25",
+      "sha256": "87fbb7904157baac8a1fd26cc7c1e2ddb5467b3a2fd589ca52eaf17f1da48af2"
+    },
+    "RegulaLegatura": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+      "symbol": "RegulaLegatura",
+      "line": 22,
+      "git_blob": "ea8246837b81b9e2b9bb23033a51ed9e67b71924",
+      "sha256": "aa76afe00106fb3cf414b87dd7ee3815a0d8562e1ddd0e04600328713127c430"
+    },
+    "SetLista": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+      "symbol": "SetLista",
+      "line": 24,
+      "git_blob": "eadc65853945969a18a81b2690c734fe30fb42e2",
+      "sha256": "393af88638903a7ed5b0dc0941a41131742efcde368a6ec1059a1ca3860d79b1"
+    },
+    "CampScanare": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/CampScanare.java",
+      "symbol": "CampScanare",
+      "line": 23,
+      "git_blob": "d98e7230679328fd7ab0217af30e7c0c9c0e5919",
+      "sha256": "6f9a3e21cc9d3f7aef4fbd58c6f1cbc7017f023ec4c6a9bdf5a236d6a5a2e3a8"
+    },
+    "OglindaWms": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+      "symbol": "OglindaWms",
+      "line": 34,
+      "git_blob": "97275a1878f18ce3849c00ea5387abb886785a22",
+      "sha256": "4963910324059af157dfe44d24ec8289ad4c3f455917c24dc077a1da76364d7d"
+    },
+    "EvaWmsOglindaEvents": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/component/EvaWmsOglindaEvents.java",
+      "symbol": "EvaWmsOglindaEvents",
+      "line": 16,
+      "git_blob": "17e5d5f415ed3195fa938bb1385c3585c5cc24af",
+      "sha256": "866d8c5518dce7a19da7ba7dd450ac07c2bea4872bd4cce0d2718993566816e6"
+    },
+    "ImportInventar": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ImportInventar.java",
+      "symbol": "ImportInventar",
+      "line": 35,
+      "git_blob": "92ea6eb0506881b4af4ba5845e5b92b02fda76c3",
+      "sha256": "f17282d0e947059e7254ebc63ada3554c7452aa43938f7bc83ce5e74e2f6f361"
+    },
+    "ListaMaterialeWms": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ListaMaterialeWms.java",
+      "symbol": "ListaMaterialeWms",
+      "line": 16,
+      "git_blob": "e027782fcc5be74033b0210df6312b938a3dde70",
+      "sha256": "fe59baa452c962755a54b385597ee152991c46c76a628e1508c1e0ee817aa30b"
+    },
+    "NotaSetWms": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/NotaSetWms.java",
+      "symbol": "NotaSetWms",
+      "line": 25,
+      "git_blob": "fdc93e628630b5e110e7b788384ef6877f1f8dee",
+      "sha256": "07f59b59cb640b19656325113caa59188fe458a177f745a643c5519a7f81c16c"
+    },
+    "DialogNotaSetWms": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogNotaSetWms.java",
+      "symbol": "DialogNotaSetWms",
+      "line": 44,
+      "git_blob": "3a9d5ad16975df5f29499c3db39f02fb84e6285f",
+      "sha256": "ad8335a5bd9ae52fd837bd1fea8ab46c095de65d7c581b0baea552b233086811"
+    },
+    "NotaSetWmsProces": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/NotaSetWmsProces.java",
+      "symbol": "NotaSetWmsProces",
+      "line": 46,
+      "git_blob": "a90a196372e07fe975a9c5300c29a44c6cd1fcc3",
+      "sha256": "ad57afa1ef4e9a47ce7bede1cf54bfdeba43f81e6e72a4e0194a7407bf0f4b74"
+    },
+    "RezervareStoc": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RezervareStoc.java",
+      "symbol": "RezervareStoc",
+      "line": 26,
+      "git_blob": "08f5ef3466db0b04d55a526ef78a3d305cee5934",
+      "sha256": "4b4a24d2802f1e93f32911d2b7dd3bbeae9d1ccbc52436a5331814ed22f2e9e0"
+    },
+    "AlegerePozitii": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/AlegerePozitii.java",
+      "symbol": "AlegerePozitii",
+      "line": 14,
+      "git_blob": "f44b75d4044d995b57337d6f28f2dcf8d51b6a63",
+      "sha256": "ef3985b4dd42bbcfc45c123f404989e1b122dd9a868c78a77ebb20459d7bb129"
+    },
+    "Fefo": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/Fefo.java",
+      "symbol": "Fefo",
+      "line": 28,
+      "git_blob": "a3bcc878b9c3bc6ce03b2c4e29e6bdb3d351cb56",
+      "sha256": "6b91faa93c6daab63d9f9c5d7a706d33077d598336a3cee1752b4d295665d7d6"
+    },
+    "LoturiArticole": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/LoturiArticole.java",
+      "symbol": "LoturiArticole",
+      "line": 17,
+      "git_blob": "b1fab56f7a2c2955281627cbc6331a7ddad33609",
+      "sha256": "f326b8bda56eac1ad9e7570791765b869992a4fe75774c1b66fb90ff86c6ca7e"
+    },
+    "WSagaComenziForm": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaComenziForm.java",
+      "symbol": "WSagaComenziForm",
+      "line": 84,
+      "git_blob": "3b5c67c5451eca027fcbbae7469991a532e2923d",
+      "sha256": "920a5ea0e756739d491614bfba67f4c52b3d3a2cb410903aedbc4b36d25b0ad7"
+    },
+    "ApiAmbalare": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiAmbalare.java",
+      "symbol": "ApiAmbalare",
+      "line": 47,
+      "git_blob": "e8926cbd5df161af57efb90db11612aad59de82a",
+      "sha256": "9351431bf009ca66dd3a6eabf4eb71c9c02ff209869925da838c3d4ab29ba9bd"
+    },
+    "WInventarForm": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WInventarForm.java",
+      "symbol": "WInventarForm",
+      "line": 100,
+      "git_blob": "a30d464c9cd4de6514bf2ce73766f23ebaff78e9",
+      "sha256": "c6caaf301bb84c5f1396dd83ef001c7b52478d4d65bdb0b66a646e795933614e"
+    },
+    "RegistruWms": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegistruWms.java",
+      "symbol": "RegistruWms",
+      "line": 31,
+      "git_blob": "7f6047bad96bdcaacd07e7a2ff9a7db668925dc5",
+      "sha256": "910c58018434de325ea7e80941f84dcb263f440afbacd63412d69d3ed60621b4"
+    },
+    "ScriereInventar": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ScriereInventar.java",
+      "symbol": "ScriereInventar",
+      "line": 26,
+      "git_blob": "05cd573a3d7fe360fe91cd2a4990f61047a531c6",
+      "sha256": "85f9c18f70ef498c7751e87a6a1afc195da118e438c4ffae9886e3c2f6d90abc"
+    },
+    "ApiInventar": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiInventar.java",
+      "symbol": "ApiInventar",
+      "line": 38,
+      "git_blob": "ba1d4acc894723465331d34e4d00355974a47fe4",
+      "sha256": "9131d05c99a22e7f5f2405a35cc51abc0e344217858ec7045a67ff14e21fac50"
+    },
+    "GeneratorEticheteCoduri": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/GeneratorEticheteCoduri.java",
+      "symbol": "GeneratorEticheteCoduri",
+      "line": 40,
+      "git_blob": "24c74d9d05293dda79982bb5d6290ba1f70f17df",
+      "sha256": "3b065d65a09261d77e115dbc1d62d70e4a080a6da3e44910367c67d12504842f"
+    },
+    "DialogEticheteCoduri": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogEticheteCoduri.java",
+      "symbol": "DialogEticheteCoduri",
+      "line": 55,
+      "git_blob": "32f2f8126dad524b4f21c8426064469aba4b66d8",
+      "sha256": "32160b3bd73e58ac052a861ea3298d533a798fe8608c905bff2f94228bc19e81"
+    },
+    "PoliticaScanare": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/PoliticaScanare.java",
+      "symbol": "PoliticaScanare",
+      "line": 7,
+      "git_blob": "b637c885e93a8439c382c1706839f592298d8b92",
+      "sha256": "b78e53eaf156b55807f280cac71b20b0a3565efd0253dc6dcbe96f3e911e91b3"
+    },
+    "GazdaScanare": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/GazdaScanare.java",
+      "symbol": "GazdaScanare",
+      "line": 10,
+      "git_blob": "a30f97025188a5280fd94305e39f3c92bb110e00",
+      "sha256": "0828af021537a5c1eac731d573856a9f5e06036a406bfd24fdb7ffdd2e322a37"
+    }
+  },
+  "ui_routes": [
+    "iDempiere / Setări gestiuni → locatori și pereche WMS → produse și rețete",
+    "Recepție iDempiere → gestiune/locator WMS → mutare/confirmare → urmărire",
+    "ERP producție/nota WMS → selectare versiune și locatori → confirmare → trasare cost",
+    "Site pentru catalog/inițiere → iDempiere / Comenzi → lista picking → confirmare → Aviz",
+    "Inventar fizic → citire/import → listă diferențe → aprobare → monitor document și postare",
+    "Etichete ERP și formulare scanare; client mobil WMS → comenzi proprii → inventar/pick → confirmare",
+    "ERP Retur/RMA → recepție și locator → decizie → document corectiv → raport operațional"
+  ],
+  "endpoints_jobs": [
+    "Activare prin formular și proces ERP. Captură AD_Menu_ID, AD_Window_ID/AD_Form_ID și înregistrarea procesului",
+    "PO MInOut și MMovement; eveniment document → flux de oglindire EVA",
+    "DialogNotaSetWms → NotaSetWmsProces → NotaSetWms → StocWms. Verifică hook-ul efectiv de cost G1",
+    "Contract A06 de disponibilitate și rezervare; consultați API-ul ERP instalat, documente native și fluxul mobil delegat",
+    "WInventarForm, ImportInventar și API mobil → MInventory/MInventoryLine ca țintă sau automatism nativ de import",
+    "ApiInventar, ScriereInventar, ApiAmbalare; consemnează ruta și contractul real pe instalare",
+    "RMA și recepție nativă dacă potrivită; urmărire OglindaWms și RegulaLegatura până la cost/GL"
+  ],
+  "roles_tenants": "Două firme sintetice A/B, două org A-X/A-Y, doi gestionari cu domenii diferite, G1.1/G1.2 și G2.1/G2.2, câte un locator recepție, neamplasat, raft și expediție în fiecare perimetru. P1/P2/P3 câte 120 în total, 80+40 între G1. Teste separate de activare cu sold negativ.",
+  "fixtures": [
+    "Două firme sintetice A/B, două org A-X/A-Y, doi gestionari cu domenii diferite, G1.1/G1.2 și G2.1/G2.2, câte un locator recepție, neamplasat, raft și expediție în fiecare perimetru. P1/P2/P3 câte 120 în total, 80+40 între G1. Teste separate de activare cu sold negativ.",
+    "Fixture independent de recepție cu stoc zero și comandă de achiziție 10 P1. Pentru transfer folosește două locuri, tranzit și documente distincte de 3 și 2. Persistă soldurile și costul înainte.",
+    "P1/P2/P3 CPP cu coduri separate pentru CPA; S1 CPA=6 din fiecare P, S2 CPA=3 din fiecare. Un produs CPA=1 P1 CPP + A1 + 0,5 ore. Include un set indivizibil cumpărat, o versiune veche și una nouă BOM. Inițializează cazurile independente pe instantanee.",
+    "120 din fiecare P brut, inițial 0 angajate, două canale pentru aceeași firmă; două ordine în paralel cu barieră la angajament și loturi de 4/8. Alege un caz separat cu toate piesele deja ambalate în S1.",
+    "Registru DR pe un locator și două loturi plus ASI 0; sold scriptic 10, numărat 8. Două dispozitive cu aceeași versiune inițială, fișier repetat cu rând invalid, perioadă închisă ca scenariu separat.",
+    "Două identități CPP/CPA și EAN intenționat ambiguu; 2 firme, 2 roluri și dispozitive sintetice. Cameră blocată sau permisă, tastatură HID, rețea întreruptă după commit. Inventariază cele 15 ecrane istorice cu identificatori AD activi.",
+    "Comandă livrată cu două loturi, retur parțial de 1, locator carantină și decizii aprobate de repunere sau rebut pe instantanee diferite. Reconciliază separat stoc comercial, fizic și contabil."
+  ],
+  "controls": [
+    {
+      "control_id": "A05-C01",
+      "requirement_id": [
+        "RZ-1.1",
+        "RZ-1.2",
+        "RZ-1.3",
+        "RZ-1.4",
+        "RZ-9.6"
+      ],
+      "historical_manual_code": "C03.T0030",
+      "historical_manual_title": "Gestiuni și locatori fără confuzii",
+      "historical_findings": [
+        "ARC-02",
+        "ARC-03"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P01"
+      ],
+      "title": "Configurarea G1/G2 și drepturile gestionarului",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Warehouse și M_Locator.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Client A, org X/Y, responsabil diferit per zona G2",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "catalog CPP/CPA, gestiune părinte, locatori, sold inițial, data activării"
+      ],
+      "fixture": "Două firme sintetice A/B, două org A-X/A-Y, doi gestionari cu domenii diferite, G1.1/G1.2 și G2.1/G2.2, câte un locator recepție, neamplasat, raft și expediție în fiecare perimetru. P1/P2/P3 câte 120 în total, 80+40 între G1. Teste separate de activare cu sold negativ.",
+      "steps_or_command": [
+        "Creează în cabinetul de test G1.1 și G1.2, apoi zonele G2.1 și G2.2. Alege gestionarul și locatorii de recepție, raft, expediție. Încearcă un locator din cealaltă firmă.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Altă firmă, același cod, locator sau sold invalid",
+      "expected": "Două surse contabile identificabile și două perimetre fizice. Selectoarele nu amestecă tipurile, cererea modificată este refuzată fără rând orfan.",
+      "probe_layers": {
+        "FE": "iDempiere / Setări gestiuni → locatori și pereche WMS → produse și rețete; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în WSagaGestiuniForm / PerecheWms / ModelWms, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Warehouse, M_Locator, EVA_PerecheWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Client A, org X/Y, responsabil diferit per zona G2; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Altă firmă, același cod, locator sau sold invalid”.",
+        "native": "Caută M_Warehouse, M_Locator, M_Product.Value, secvențe, AD_Role și PP_Product_BOM. Demonstrează separat dacă non-reutilizarea codului după ștergere și politica CPP/CPA sunt garantate.",
+        "negative": "Creează în cabinetul de test G1.1 și G1.2, apoi zonele G2.1 și G2.2. Alege gestionarul și locatorii de recepție, raft, expediție. Încearcă un locator din cealaltă firmă."
+      },
+      "source_anchors": [
+        "WSagaGestiuniForm",
+        "PerecheWms",
+        "ModelWms"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C02",
+      "requirement_id": [
+        "RZ-1.1",
+        "RZ-1.2",
+        "RZ-1.3",
+        "RZ-1.4",
+        "RZ-9.6"
+      ],
+      "historical_manual_code": "C03.T0030",
+      "historical_manual_title": "Gestiuni și locatori fără confuzii",
+      "historical_findings": [
+        "ARC-02",
+        "ARC-03"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P01"
+      ],
+      "title": "Număr independent de gestiuni și politica explicită a legăturilor",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Warehouse și M_Locator.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Client A, org X/Y, responsabil diferit per zona G2",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "catalog CPP/CPA, gestiune părinte, locatori, sold inițial, data activării"
+      ],
+      "fixture": "Două firme sintetice A/B, două org A-X/A-Y, doi gestionari cu domenii diferite, G1.1/G1.2 și G2.1/G2.2, câte un locator recepție, neamplasat, raft și expediție în fiecare perimetru. P1/P2/P3 câte 120 în total, 80+40 între G1. Teste separate de activare cu sold negativ.",
+      "steps_or_command": [
+        "Compară cazul două G1/două G2 cu cazul unei G1 având două zone fizice gestionate distinct și cazul transferului între responsabili. Identifică dacă modelarea folosește warehouse, locator sau pereche și ce vede fiecare gestionar.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Altă firmă, același cod, locator sau sold invalid",
+      "expected": "Pentru fiecare topologie solicitată, cantități urmărite o singură dată și proveniență până la G1. Limitările unei legături 1:1 au exemplu reproductibil și diferență față de cerință. Un locator nu substituie automat dreptul de gestionar.",
+      "probe_layers": {
+        "FE": "iDempiere / Setări gestiuni → locatori și pereche WMS → produse și rețete; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în PerecheWms / ModelWms / DialogLocatoriGestiune, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Warehouse, M_Locator, EVA_PerecheWms, AD_Role_OrgAccess. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Client A, org X/Y, responsabil diferit per zona G2; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Altă firmă, același cod, locator sau sold invalid”.",
+        "native": "Caută M_Warehouse, M_Locator, M_Product.Value, secvențe, AD_Role și PP_Product_BOM. Demonstrează separat dacă non-reutilizarea codului după ștergere și politica CPP/CPA sunt garantate.",
+        "negative": "Compară cazul două G1/două G2 cu cazul unei G1 având două zone fizice gestionate distinct și cazul transferului între responsabili. Identifică dacă modelarea folosește warehouse, locator sau pereche și ce vede fiecare gestionar."
+      },
+      "source_anchors": [
+        "PerecheWms",
+        "ModelWms",
+        "DialogLocatoriGestiune"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C03",
+      "requirement_id": [
+        "RZ-9.1",
+        "RZ-9.3",
+        "RZ-9.4",
+        "RZ-9.5",
+        "RZ-9.7",
+        "RZ-9.9"
+      ],
+      "historical_manual_code": "C03.T0034",
+      "historical_manual_title": "Evidența fizică G2 și încărcarea inițială",
+      "historical_findings": [
+        "ARC-02",
+        "G123-12",
+        "RA-AG-01"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P01"
+      ],
+      "title": "Activare repetată sau concurentă cu stoc inițial",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în EVA_PerecheWms și EVA_StocWms.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Client A, org X/Y, responsabil diferit per zona G2",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "catalog CPP/CPA, gestiune părinte, locatori, sold inițial, data activării"
+      ],
+      "fixture": "Două firme sintetice A/B, două org A-X/A-Y, doi gestionari cu domenii diferite, G1.1/G1.2 și G2.1/G2.2, câte un locator recepție, neamplasat, raft și expediție în fiecare perimetru. P1/P2/P3 câte 120 în total, 80+40 între G1. Teste separate de activare cu sold negativ.",
+      "steps_or_command": [
+        "Activează simultan aceeași pereche pe G1.1 cu 80 P1 și pe G1.2 cu 40, inițial fără evidență G2. Reia după răspuns pierdut. Introdu separat un sold negativ înainte de activare.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Altă firmă, același cod, locator sau sold invalid",
+      "expected": "Sold inițial total fizic 120 în cele două perimetre. Aceeași activare nu produce 160 pe G1.1. Situația cu negativ primește o decizie explicită și nu modifică parțial perechea.",
+      "probe_layers": {
+        "FE": "iDempiere / Setări gestiuni → locatori și pereche WMS → produse și rețete; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în PerecheWms / StocWms / RegulaLegatura, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în EVA_PerecheWms, EVA_StocWms, EVA_MiscareWms, M_StorageOnHand. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Client A, org X/Y, responsabil diferit per zona G2; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Altă firmă, același cod, locator sau sold invalid”.",
+        "native": "Caută M_Warehouse, M_Locator, M_Product.Value, secvențe, AD_Role și PP_Product_BOM. Demonstrează separat dacă non-reutilizarea codului după ștergere și politica CPP/CPA sunt garantate.",
+        "negative": "Activează simultan aceeași pereche pe G1.1 cu 80 P1 și pe G1.2 cu 40, inițial fără evidență G2. Reia după răspuns pierdut. Introdu separat un sold negativ înainte de activare."
+      },
+      "source_anchors": [
+        "PerecheWms",
+        "StocWms",
+        "RegulaLegatura"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C04",
+      "requirement_id": [
+        "RZ-10.4"
+      ],
+      "historical_manual_code": "C03.T0031",
+      "historical_manual_title": "Identități permanente pentru CPP și CPA",
+      "historical_findings": [
+        "G123-13",
+        "G123-19"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P01"
+      ],
+      "title": "CPP și CPA cu identități distincte, permanente",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Product și C_UOM.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Client A, org X/Y, responsabil diferit per zona G2",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "catalog CPP/CPA, gestiune părinte, locatori, sold inițial, data activării"
+      ],
+      "fixture": "Două firme sintetice A/B, două org A-X/A-Y, doi gestionari cu domenii diferite, G1.1/G1.2 și G2.1/G2.2, câte un locator recepție, neamplasat, raft și expediție în fiecare perimetru. P1/P2/P3 câte 120 în total, 80+40 între G1. Teste separate de activare cu sold negativ.",
+      "steps_or_command": [
+        "Configurează P1 CPP și P1 ambalat CPA cu două coduri diferite. Arhivează produsul și încearcă realocarea codului pe alt SKU și reimportul aceluiași EAN ambiguu.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Altă firmă, același cod, locator sau sold invalid",
+      "expected": "Identificatori interni distinct și trasabili în rețetă, etichetă, selectoare. Zero realocări după dezactivare. Ambiguitatea cere alegere sau refuz, fără liniile altui produs.",
+      "probe_layers": {
+        "FE": "iDempiere / Setări gestiuni → locatori și pereche WMS → produse și rețete; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în SetLista / CampScanare, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Product, C_UOM, AD_Sequence, PP_Product_BOMLine. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Client A, org X/Y, responsabil diferit per zona G2; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Altă firmă, același cod, locator sau sold invalid”.",
+        "native": "Caută M_Warehouse, M_Locator, M_Product.Value, secvențe, AD_Role și PP_Product_BOM. Demonstrează separat dacă non-reutilizarea codului după ștergere și politica CPP/CPA sunt garantate.",
+        "negative": "Configurează P1 CPP și P1 ambalat CPA cu două coduri diferite. Arhivează produsul și încearcă realocarea codului pe alt SKU și reimportul aceluiași EAN ambiguu."
+      },
+      "source_anchors": [
+        "SetLista",
+        "CampScanare"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C05",
+      "requirement_id": [
+        "RZ-3.1",
+        "RZ-3.2",
+        "RZ-3.3"
+      ],
+      "historical_manual_code": "C03.T0035",
+      "historical_manual_title": "Recepție și amplasare pe raft",
+      "historical_findings": [
+        "C03-A06"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P02"
+      ],
+      "title": "Recepție, amplasare și reluarea evenimentului",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_InOut și M_InOutLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar A, locator primire/raft, rol contabil A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "PO, articol, qty, unitate, ASI, sursă/destinație, tranzit și moment transfer proprietate"
+      ],
+      "fixture": "Fixture independent de recepție cu stoc zero și comandă de achiziție 10 P1. Pentru transfer folosește două locuri, tranzit și documente distincte de 3 și 2. Persistă soldurile și costul înainte.",
+      "steps_or_command": [
+        "Pornește cu sold zero. Primește 10 P1 în G1, completează recepția, amplasează 7 și 3 pe rafturi G2. Retrimite același eveniment.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Confirmare repetată ori transfer primit parțial",
+      "expected": "G1 +10, G2 total +10 împărțit 7 și 3. Nicio a doua recepție, mutarea pe raft nu dublează cantitatea ori costul.",
+      "probe_layers": {
+        "FE": "Recepție iDempiere → gestiune/locator WMS → mutare/confirmare → urmărire; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în OglindaWms / StocWms / EvaWmsOglindaEvents, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_InOut, M_InOutLine, M_Transaction, M_StorageOnHand, EVA_MiscareWms, EVA_StocWms, Fact_Acct. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar A, locator primire/raft, rol contabil A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Confirmare repetată ori transfer primit parțial”.",
+        "native": "Urmează MInOut/MInOutLine, MMovement și regulile de postare. Compară M_Transaction cu MA, ASI=0 și schema contabilă. Pentru tranzit identifică documentul care dovedește primirea.",
+        "negative": "Pornește cu sold zero. Primește 10 P1 în G1, completează recepția, amplasează 7 și 3 pe rafturi G2. Retrimite același eveniment."
+      },
+      "source_anchors": [
+        "OglindaWms",
+        "StocWms",
+        "EvaWmsOglindaEvents"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C06",
+      "requirement_id": [
+        "RZ-9.10"
+      ],
+      "historical_manual_code": "C03.T0036",
+      "historical_manual_title": "Transferuri și tranzit cu proveniență",
+      "historical_findings": [
+        "ARC-01",
+        "ARC-02"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P02"
+      ],
+      "title": "Transfer, tranzit și destinație între G1 distincte",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Movement și M_MovementLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar A, locator primire/raft, rol contabil A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "PO, articol, qty, unitate, ASI, sursă/destinație, tranzit și moment transfer proprietate"
+      ],
+      "fixture": "Fixture independent de recepție cu stoc zero și comandă de achiziție 10 P1. Pentru transfer folosește două locuri, tranzit și documente distincte de 3 și 2. Persistă soldurile și costul înainte.",
+      "steps_or_command": [
+        "Transferă 5 din G1.1 în G1.2 cu tranzit configurat. Confirmă 3 și ulterior 2. Reia prima confirmare și evaluează în fiecare etapă disponibilul comercial.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Confirmare repetată ori transfer primit parțial",
+      "expected": "La sosirea finală, sursa −5, destinația +5, tranzit 0. Nicio cantitate în două locuri simultan disponibilă. Pentru aceeași schemă, reconciliază debit și credit și conturile fiecărui document, inclusiv posibile linii net zero.",
+      "probe_layers": {
+        "FE": "Recepție iDempiere → gestiune/locator WMS → mutare/confirmare → urmărire; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în OglindaWms / RegulaLegatura, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Movement, M_MovementLine, M_Transaction, M_StorageOnHand, Fact_Acct. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar A, locator primire/raft, rol contabil A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Confirmare repetată ori transfer primit parțial”.",
+        "native": "Urmează MInOut/MInOutLine, MMovement și regulile de postare. Compară M_Transaction cu MA, ASI=0 și schema contabilă. Pentru tranzit identifică documentul care dovedește primirea.",
+        "negative": "Transferă 5 din G1.1 în G1.2 cu tranzit configurat. Confirmă 3 și ulterior 2. Reia prima confirmare și evaluează în fiecare etapă disponibilul comercial."
+      },
+      "source_anchors": [
+        "OglindaWms",
+        "RegulaLegatura"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C07",
+      "requirement_id": [
+        "RZ-10.1",
+        "RZ-10.2",
+        "RZ-10.3"
+      ],
+      "historical_manual_code": "C03.T0033",
+      "historical_manual_title": "Cost inițial și preț în lista corectă",
+      "historical_findings": [
+        "C03-A02"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P02"
+      ],
+      "title": "Cost și preț după importul soldului",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Cost și M_CostDetail.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar A, locator primire/raft, rol contabil A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "PO, articol, qty, unitate, ASI, sursă/destinație, tranzit și moment transfer proprietate"
+      ],
+      "fixture": "Fixture independent de recepție cu stoc zero și comandă de achiziție 10 P1. Pentru transfer folosește două locuri, tranzit și documente distincte de 3 și 2. Persistă soldurile și costul înainte.",
+      "steps_or_command": [
+        "Importă două articole cu aceeași valoare numerică inițială setată explicit ca valoare de stoc respectiv preț de canal. Compară document, schemă de cost și listă de prețuri cu A03/A06.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Confirmare repetată ori transfer primit parțial",
+      "expected": "Zero modificări ale prețului la schimbarea izolată a costului și invers. Costul inițial este reconciliat pe cantitate și metodă, fără postarea G2 drept stoc suplimentar.",
+      "probe_layers": {
+        "FE": "Recepție iDempiere → gestiune/locator WMS → mutare/confirmare → urmărire; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în RegulaLegatura / ImportInventar, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Cost, M_CostDetail, M_ProductPrice, M_PriceList_Version, Fact_Acct. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar A, locator primire/raft, rol contabil A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Confirmare repetată ori transfer primit parțial”.",
+        "native": "Urmează MInOut/MInOutLine, MMovement și regulile de postare. Compară M_Transaction cu MA, ASI=0 și schema contabilă. Pentru tranzit identifică documentul care dovedește primirea.",
+        "negative": "Importă două articole cu aceeași valoare numerică inițială setată explicit ca valoare de stoc respectiv preț de canal. Compară document, schemă de cost și listă de prețuri cu A03/A06."
+      },
+      "source_anchors": [
+        "RegulaLegatura",
+        "ImportInventar"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C08",
+      "requirement_id": [],
+      "historical_manual_code": "C03.T0032",
+      "historical_manual_title": "Rețete și unități de măsură controlate",
+      "historical_findings": [
+        "G123-04",
+        "G123-06"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "title": "Unitate de bază, conversie aprobată și compoziție",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în C_UOM și C_UOM_Conversion.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar G2, aprobator cost A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "două produse distincte CPP/CPA, versiune BOM, unități, cantități, ambalaj, ore, locator înainte și după"
+      ],
+      "fixture": "P1/P2/P3 CPP cu coduri separate pentru CPA; S1 CPA=6 din fiecare P, S2 CPA=3 din fiecare. Un produs CPA=1 P1 CPP + A1 + 0,5 ore. Include un set indivizibil cumpărat, o versiune veche și una nouă BOM. Inițializează cazurile independente pe instantanee.",
+      "steps_or_command": [
+        "Înregistrează 6 bucăți ca 1 unitate comercială conform conversiei aprobate pe produs. Încearcă conversie lipsă, circularitate BOM și împărțire la zero.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut",
+      "expected": "6 bucăți rămân 6 în stocul de bază. Conversia comercială nu creează identitatea CPA. Definiția invalidă nu produce nicio mișcare.",
+      "probe_layers": {
+        "FE": "ERP producție/nota WMS → selectare versiune și locatori → confirmare → trasare cost; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în SetLista / ListaMaterialeWms / NotaSetWms, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în C_UOM, C_UOM_Conversion, PP_Product_BOM, PP_Product_BOMLine. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar G2, aprobator cost A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut”.",
+        "native": "Testează BOM și conversiile native pe membru, unitate și versiune; simulează MProduction cu postare reală față de simpla schimbare a ambalării fizice în G2. Numai dacă golul e demonstrat, urmărește NotaSetWms.",
+        "negative": "Înregistrează 6 bucăți ca 1 unitate comercială conform conversiei aprobate pe produs. Încearcă conversie lipsă, circularitate BOM și împărțire la zero."
+      },
+      "source_anchors": [
+        "SetLista",
+        "ListaMaterialeWms",
+        "NotaSetWms"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C09",
+      "requirement_id": [],
+      "historical_manual_code": "C03.T0037",
+      "historical_manual_title": "Asamblare pentru stoc sau pentru comandă",
+      "historical_findings": [
+        "G123-05",
+        "G123-08",
+        "C03-A06"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "title": "Asamblare reversibilă S1",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în PP_Product_BOM și PP_Product_BOMLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar G2, aprobator cost A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "două produse distincte CPP/CPA, versiune BOM, unități, cantități, ambalaj, ore, locator înainte și după"
+      ],
+      "fixture": "P1/P2/P3 CPP cu coduri separate pentru CPA; S1 CPA=6 din fiecare P, S2 CPA=3 din fiecare. Un produs CPA=1 P1 CPP + A1 + 0,5 ore. Include un set indivizibil cumpărat, o versiune veche și una nouă BOM. Inițializează cazurile independente pe instantanee.",
+      "steps_or_command": [
+        "Pornește de la șase bucăți din fiecare P în G2 și asamblează un S1; identifică versiunea BOM. Reia după pierderea răspunsului și simulează pe altă clonă lipsa P3.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut",
+      "expected": "În G2 există +1 S1 și −6 din fiecare componentă. În G1 piesele au rămas proprietate contabilă, iar S1 reversibil nu are stoc contabil suplimentar. Dacă P3 lipsește, fluxul este integral refuzat sau rămâne explicit în proiect, fără mișcări parțiale.",
+      "probe_layers": {
+        "FE": "ERP producție/nota WMS → selectare versiune și locatori → confirmare → trasare cost; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în DialogNotaSetWms / NotaSetWmsProces / NotaSetWms / StocWms, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în PP_Product_BOM, PP_Product_BOMLine, EVA_StocWms, EVA_MiscareWms, M_Transaction. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar G2, aprobator cost A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut”.",
+        "native": "Testează BOM și conversiile native pe membru, unitate și versiune; simulează MProduction cu postare reală față de simpla schimbare a ambalării fizice în G2. Numai dacă golul e demonstrat, urmărește NotaSetWms.",
+        "negative": "Pornește de la șase bucăți din fiecare P în G2 și asamblează un S1; identifică versiunea BOM. Reia după pierderea răspunsului și simulează pe altă clonă lipsa P3."
+      },
+      "source_anchors": [
+        "DialogNotaSetWms",
+        "NotaSetWmsProces",
+        "NotaSetWms",
+        "StocWms"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C10",
+      "requirement_id": [],
+      "historical_manual_code": "C03.T0037",
+      "historical_manual_title": "Asamblare pentru stoc sau pentru comandă",
+      "historical_findings": [
+        "G123-05",
+        "G123-08",
+        "C03-A06"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "title": "Set cumpărat indivizibil și set doar CPA",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Product și PP_Product_BOM.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar G2, aprobator cost A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "două produse distincte CPP/CPA, versiune BOM, unități, cantități, ambalaj, ore, locator înainte și după"
+      ],
+      "fixture": "P1/P2/P3 CPP cu coduri separate pentru CPA; S1 CPA=6 din fiecare P, S2 CPA=3 din fiecare. Un produs CPA=1 P1 CPP + A1 + 0,5 ore. Include un set indivizibil cumpărat, o versiune veche și una nouă BOM. Inițializează cazurile independente pe instantanee.",
+      "steps_or_command": [
+        "Recepționează un set cumpărat ca atare fără dezmembrare și configurează separat un set doar CPA. Compară rezultat în G1/CPP și G2/CPA, apoi încearcă producția contabilă pentru setul reversibil.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut",
+      "expected": "Setul cumpărat rămâne o unitate în G1. Setul exclusiv CPA apare doar în disponibilitatea comercială și evidența fizică potrivită. Producția nativă care generează produs stocat necesită rezultat contabil real și justificare documentată.",
+      "probe_layers": {
+        "FE": "ERP producție/nota WMS → selectare versiune și locatori → confirmare → trasare cost; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în SetLista / NotaSetWms / RegulaLegatura, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Product, PP_Product_BOM, M_Production, M_StorageOnHand, Fact_Acct. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar G2, aprobator cost A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut”.",
+        "native": "Testează BOM și conversiile native pe membru, unitate și versiune; simulează MProduction cu postare reală față de simpla schimbare a ambalării fizice în G2. Numai dacă golul e demonstrat, urmărește NotaSetWms.",
+        "negative": "Recepționează un set cumpărat ca atare fără dezmembrare și configurează separat un set doar CPA. Compară rezultat în G1/CPP și G2/CPA, apoi încearcă producția contabilă pentru setul reversibil."
+      },
+      "source_anchors": [
+        "SetLista",
+        "NotaSetWms",
+        "RegulaLegatura"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C11",
+      "requirement_id": [],
+      "historical_manual_code": "C03.T0038",
+      "historical_manual_title": "Dezasamblare înainte de culegerea pieselor",
+      "historical_findings": [
+        "G123-07",
+        "G123-08"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "title": "Dezasamblare înainte de pick și rețetă istorică",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în PP_Product_BOM și EVA_StocWms.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar G2, aprobator cost A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "două produse distincte CPP/CPA, versiune BOM, unități, cantități, ambalaj, ore, locator înainte și după"
+      ],
+      "fixture": "P1/P2/P3 CPP cu coduri separate pentru CPA; S1 CPA=6 din fiecare P, S2 CPA=3 din fiecare. Un produs CPA=1 P1 CPP + A1 + 0,5 ore. Include un set indivizibil cumpărat, o versiune veche și una nouă BOM. Inițializează cazurile independente pe instantanee.",
+      "steps_or_command": [
+        "Cu toate cele 120 piese din fiecare P ambalate în 20 S1, solicită 1 P1. Modifică acum BOM, apoi desfă 1 S1 bazat pe rețeta folosită la asamblare și indică locatorii pentru componente.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut",
+      "expected": "Înainte de pregătire nu există P1 liber. După dezambalare rămân 19 S1 și câte 6 piese brute în G2; după pick P1 liber scade la 5, iar 1 este în expediție. Noua rețetă nu rescrie istoricul.",
+      "probe_layers": {
+        "FE": "ERP producție/nota WMS → selectare versiune și locatori → confirmare → trasare cost; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în NotaSetWms / ListaMaterialeWms / StocWms, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în PP_Product_BOM, EVA_StocWms, EVA_MiscareWms, M_Locator. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar G2, aprobator cost A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut”.",
+        "native": "Testează BOM și conversiile native pe membru, unitate și versiune; simulează MProduction cu postare reală față de simpla schimbare a ambalării fizice în G2. Numai dacă golul e demonstrat, urmărește NotaSetWms.",
+        "negative": "Cu toate cele 120 piese din fiecare P ambalate în 20 S1, solicită 1 P1. Modifică acum BOM, apoi desfă 1 S1 bazat pe rețeta folosită la asamblare și indică locatorii pentru componente."
+      },
+      "source_anchors": [
+        "NotaSetWms",
+        "ListaMaterialeWms",
+        "StocWms"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C12",
+      "requirement_id": [
+        "RZ-18.1"
+      ],
+      "historical_manual_code": "C03.T0039",
+      "historical_manual_title": "Ambalaje și manoperă înregistrate o singură dată",
+      "historical_findings": [
+        "C03-A03",
+        "G123-05"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "title": "Cutii și manoperă de asamblare",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în EVA_MiscareWms și M_InventoryLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar G2, aprobator cost A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "două produse distincte CPP/CPA, versiune BOM, unități, cantități, ambalaj, ore, locator înainte și după"
+      ],
+      "fixture": "P1/P2/P3 CPP cu coduri separate pentru CPA; S1 CPA=6 din fiecare P, S2 CPA=3 din fiecare. Un produs CPA=1 P1 CPP + A1 + 0,5 ore. Include un set indivizibil cumpărat, o versiune veche și una nouă BOM. Inițializează cazurile independente pe instantanee.",
+      "steps_or_command": [
+        "Împachetează P1 CPA din P1 CPP + cutie A1 + 0,5 h. Înregistrează operațiunea și costul, repetă același identificator, apoi execută o nouă reambalare care consumă fizic altă cutie.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut",
+      "expected": "Prima operație și reluarea consumă împreună 1 cutie și 0,5 h. Operațiunea nouă are identificator nou și consumul real propriu. Un singur traseu contabil pentru fiecare cost. A03 verifică delimitarea manoperei deja înregistrate prin salarii.",
+      "probe_layers": {
+        "FE": "ERP producție/nota WMS → selectare versiune și locatori → confirmare → trasare cost; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în NotaSetWmsProces / DialogNotaSetWms / RegulaLegatura, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în EVA_MiscareWms, M_InventoryLine, M_Transaction, M_CostDetail, Fact_Acct. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar G2, aprobator cost A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Lipsă componentă, lot nepotrivit, versiune schimbată sau răspuns pierdut”.",
+        "native": "Testează BOM și conversiile native pe membru, unitate și versiune; simulează MProduction cu postare reală față de simpla schimbare a ambalării fizice în G2. Numai dacă golul e demonstrat, urmărește NotaSetWms.",
+        "negative": "Împachetează P1 CPA din P1 CPP + cutie A1 + 0,5 h. Înregistrează operațiunea și costul, repetă același identificator, apoi execută o nouă reambalare care consumă fizic altă cutie."
+      },
+      "source_anchors": [
+        "NotaSetWmsProces",
+        "DialogNotaSetWms",
+        "RegulaLegatura"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C13",
+      "requirement_id": [
+        "RZ-4.1",
+        "RZ-4.2",
+        "RZ-4.3"
+      ],
+      "historical_manual_code": "C03.T0040",
+      "historical_manual_title": "Alocarea fizică a întregului val de comenzi",
+      "historical_findings": [
+        "ARC-01",
+        "TECH-01",
+        "G123-04"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "title": "G3 alternative complete și angajament global",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în C_OrderLine și M_StorageReservation.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "linie pe canal → produs intern și unitate → componente → sursă contabilă → locator/lot → comanda rezervării"
+      ],
+      "fixture": "120 din fiecare P brut, inițial 0 angajate, două canale pentru aceeași firmă; două ordine în paralel cu barieră la angajament și loturi de 4/8. Alege un caz separat cu toate piesele deja ambalate în S1.",
+      "steps_or_command": [
+        "Începe cu 120 din fiecare P distribuite 80+40 pe cele două G1. Citește G3. Rezervă 10 S1 și 10 S2. Solicită în același context încă 31 P1.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz",
+      "expected": "G3 inițial P1 120, S1 20, S2 40, neaditive. După rezervări rămân 30 din fiecare și alternativele S1 5 sau S2 10. A 31-a bucată disponibilă nu poate fi angajată fără aprobare de politică distinctă. G3 nu generează M_Transaction.",
+      "probe_layers": {
+        "FE": "Site pentru catalog/inițiere → iDempiere / Comenzi → lista picking → confirmare → Aviz; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în RezervareStoc / RegulaLegatura / SetLista, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în C_OrderLine, M_StorageReservation, M_StorageOnHand, EVA_StocWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz”.",
+        "native": "Verifică rezervările native de comenzi și confirmarea expediției, suportul atomic pentru seturi alternative și între depozite. Validează politica instalată pentru loturi și FEFO.",
+        "negative": "Începe cu 120 din fiecare P distribuite 80+40 pe cele două G1. Citește G3. Rezervă 10 S1 și 10 S2. Solicită în același context încă 31 P1."
+      },
+      "source_anchors": [
+        "RezervareStoc",
+        "RegulaLegatura",
+        "SetLista"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C14",
+      "requirement_id": [
+        "RZ-4.1",
+        "RZ-4.2",
+        "RZ-4.3"
+      ],
+      "historical_manual_code": "C03.T0040",
+      "historical_manual_title": "Alocarea fizică a întregului val de comenzi",
+      "historical_findings": [
+        "ARC-01",
+        "TECH-01",
+        "G123-04"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "title": "Concurența între canale și valurile de pick",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în C_Order și C_OrderLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "linie pe canal → produs intern și unitate → componente → sursă contabilă → locator/lot → comanda rezervării"
+      ],
+      "fixture": "120 din fiecare P brut, inițial 0 angajate, două canale pentru aceeași firmă; două ordine în paralel cu barieră la angajament și loturi de 4/8. Alege un caz separat cu toate piesele deja ambalate în S1.",
+      "steps_or_command": [
+        "Lasă un singur S1 echivalent și pornește comenzi concurente în două canale pentru S1 și 6 P1. Reia evenimentul câștigător și simulează inversarea ordinii de blocare.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz",
+      "expected": "Din cele două ordine concurente cel mult una poate angaja ultimele 6 P1. Cealaltă primește lipsă/propune așteptare. Retry nu dublează angajamentul. Nicio rezervare blocată după rollback.",
+      "probe_layers": {
+        "FE": "Site pentru catalog/inițiere → iDempiere / Comenzi → lista picking → confirmare → Aviz; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în RezervareStoc / StocWms / AlegerePozitii, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în C_Order, C_OrderLine, M_StorageReservation, EVA_StocWms, EVA_MiscareWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz”.",
+        "native": "Verifică rezervările native de comenzi și confirmarea expediției, suportul atomic pentru seturi alternative și între depozite. Validează politica instalată pentru loturi și FEFO.",
+        "negative": "Lasă un singur S1 echivalent și pornește comenzi concurente în două canale pentru S1 și 6 P1. Reia evenimentul câștigător și simulează inversarea ordinii de blocare."
+      },
+      "source_anchors": [
+        "RezervareStoc",
+        "StocWms",
+        "AlegerePozitii"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C15",
+      "requirement_id": [
+        "RZ-7.1",
+        "RZ-7.2",
+        "RZ-7.3",
+        "RZ-8.1",
+        "RZ-8.2",
+        "RZ-8.3"
+      ],
+      "historical_manual_code": "C03.T0041",
+      "historical_manual_title": "Loturi, serii și termen de valabilitate",
+      "historical_findings": [
+        "C03-A03"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "title": "Lot, serie, expirare și ASI zero",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_AttributeSetInstance și M_InOutLineMA.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "linie pe canal → produs intern și unitate → componente → sursă contabilă → locator/lot → comanda rezervării"
+      ],
+      "fixture": "120 din fiecare P brut, inițial 0 angajate, două canale pentru aceeași firmă; două ordine în paralel cu barieră la angajament și loturi de 4/8. Alege un caz separat cu toate piesele deja ambalate în S1.",
+      "steps_or_command": [
+        "Folosește două loturi cu 4 și 8 bucăți. Solicită 6 și configurează FEFO, un lot neeligibil și un produs fără ASI. Compară suma liniilor MA + reprezentarea validă cu ASI 0.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz",
+      "expected": "Pentru loturile eligibile 4+2 sau alternativa justificată prin setări. Nicio serie sau cantitate repetată. ASI 0 fără lot este urmărit, nu pierdut prin join. Lotul expirat izolat și nesubstituit fără drept.",
+      "probe_layers": {
+        "FE": "Site pentru catalog/inițiere → iDempiere / Comenzi → lista picking → confirmare → Aviz; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în Fefo / LoturiArticole / StocWms, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_AttributeSetInstance, M_InOutLineMA, M_MovementLineMA, M_InventoryLineMA, M_Transaction. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz”.",
+        "native": "Verifică rezervările native de comenzi și confirmarea expediției, suportul atomic pentru seturi alternative și între depozite. Validează politica instalată pentru loturi și FEFO.",
+        "negative": "Folosește două loturi cu 4 și 8 bucăți. Solicită 6 și configurează FEFO, un lot neeligibil și un produs fără ASI. Compară suma liniilor MA + reprezentarea validă cu ASI 0."
+      },
+      "source_anchors": [
+        "Fefo",
+        "LoturiArticole",
+        "StocWms"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C16",
+      "requirement_id": [
+        "RZ-15.1",
+        "RZ-15.2",
+        "RZ-15.3"
+      ],
+      "historical_manual_code": "C03.T0042",
+      "historical_manual_title": "Pick confirmat și aviz înaintea validării comerciale",
+      "historical_findings": [
+        "C03-A01",
+        "C03-A04",
+        "G123-07",
+        "G123-17"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "title": "Pick în ERP și aviz de expediție",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în C_OrderLine și M_InOut.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "linie pe canal → produs intern și unitate → componente → sursă contabilă → locator/lot → comanda rezervării"
+      ],
+      "fixture": "120 din fiecare P brut, inițial 0 angajate, două canale pentru aceeași firmă; două ordine în paralel cu barieră la angajament și loturi de 4/8. Alege un caz separat cu toate piesele deja ambalate în S1.",
+      "steps_or_command": [
+        "Gestionează comanda din iDempiere, validează stoc și pregătiri, mută doar cantitatea efectiv culeasă pe locatorul expediție, confirmă pick și avizul, apoi predă A07 pentru validare comercială.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz",
+      "expected": "Un traseu identificabil comandă–linii–loturi–locator–pick–aviz. Avizul conține livratul, păstrează restul deschis. În fluxul configurat, AWB se inițiază numai după validare. CO document nu dovedește primirea de client.",
+      "probe_layers": {
+        "FE": "Site pentru catalog/inițiere → iDempiere / Comenzi → lista picking → confirmare → Aviz; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în WSagaComenziForm / ApiAmbalare / OglindaWms, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în C_OrderLine, M_InOut, M_InOutLine, M_InOutLineMA, EVA_MiscareWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz”.",
+        "native": "Verifică rezervările native de comenzi și confirmarea expediției, suportul atomic pentru seturi alternative și între depozite. Validează politica instalată pentru loturi și FEFO.",
+        "negative": "Gestionează comanda din iDempiere, validează stoc și pregătiri, mută doar cantitatea efectiv culeasă pe locatorul expediție, confirmă pick și avizul, apoi predă A07 pentru validare comercială."
+      },
+      "source_anchors": [
+        "WSagaComenziForm",
+        "ApiAmbalare",
+        "OglindaWms"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C17",
+      "requirement_id": [
+        "RZ-15.1",
+        "RZ-15.2",
+        "RZ-15.3"
+      ],
+      "historical_manual_code": "C03.T0042",
+      "historical_manual_title": "Pick confirmat și aviz înaintea validării comerciale",
+      "historical_findings": [
+        "C03-A01",
+        "C03-A04",
+        "G123-07",
+        "G123-17"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "title": "Colet anulat între aviz și curier",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_InOut și M_Transaction.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "linie pe canal → produs intern și unitate → componente → sursă contabilă → locator/lot → comanda rezervării"
+      ],
+      "fixture": "120 din fiecare P brut, inițial 0 angajate, două canale pentru aceeași firmă; două ordine în paralel cu barieră la angajament și loturi de 4/8. Alege un caz separat cu toate piesele deja ambalate în S1.",
+      "steps_or_command": [
+        "Respinge expedierea după documentul CO înainte de predarea curierului. Reia același eveniment; urmărește document compensator și confirmarea locației reale.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz",
+      "expected": "Rezervarea este eliberată numai în acord cu starea fizică și documentară; traseu de inversare aprobat, fără a crea automat retur fictiv sau livrare dublă. Identificator original păstrat.",
+      "probe_layers": {
+        "FE": "Site pentru catalog/inițiere → iDempiere / Comenzi → lista picking → confirmare → Aviz; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în OglindaWms / ApiAmbalare, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_InOut, M_Transaction, EVA_MiscareWms, C_OrderLine. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Două sesiuni luptă pentru aceleași componente, lot expirat sau refuz după aviz”.",
+        "native": "Verifică rezervările native de comenzi și confirmarea expediției, suportul atomic pentru seturi alternative și între depozite. Validează politica instalată pentru loturi și FEFO.",
+        "negative": "Respinge expedierea după documentul CO înainte de predarea curierului. Reia același eveniment; urmărește document compensator și confirmarea locației reale."
+      },
+      "source_anchors": [
+        "OglindaWms",
+        "ApiAmbalare"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C18",
+      "requirement_id": [
+        "RZ-14.2",
+        "RZ-14.3",
+        "RZ-17.1",
+        "RZ-17.2",
+        "RZ-17.3",
+        "RZ-17.4",
+        "RZ-17.5",
+        "RZ-17.6",
+        "RZ-17.7",
+        "RZ-17.8",
+        "RZ-9.2",
+        "RZ-9.8"
+      ],
+      "historical_manual_code": "C03.T0043",
+      "historical_manual_title": "Inventar fizic și diferențe aprobate",
+      "historical_findings": [
+        "G123-12",
+        "RI-07"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P05"
+      ],
+      "title": "Numărare și diferență aprobată",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Inventory și M_InventoryLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Operator de numărare și aprobator distincți",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "document, gestiune, locator, produs, ASI/unitate, valoare numărată, versiune rând și cheie import"
+      ],
+      "fixture": "Registru DR pe un locator și două loturi plus ASI 0; sold scriptic 10, numărat 8. Două dispozitive cu aceeași versiune inițială, fișier repetat cu rând invalid, perioadă închisă ca scenariu separat.",
+      "steps_or_command": [
+        "Numără 8 față de 10 scriptic în G2. Deschide diferența; la aprobarea pentru G1 compară MInventory, tranzacția și impactul contabil cu A03. Retrimite validarea.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Versiune expirată sau document închis în timpul numărării",
+      "expected": "Numărarea G2 nu postează pierderea în GL. După aprobare, ajustarea nativă este −2 în G1 exact o dată și este legată de constatare. Abaterea neaprobată rămâne vizibilă.",
+      "probe_layers": {
+        "FE": "Inventar fizic → citire/import → listă diferențe → aprobare → monitor document și postare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în WInventarForm / RegistruWms / RegulaLegatura, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Inventory, M_InventoryLine, M_Transaction, M_StorageOnHand, Fact_Acct. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Operator de numărare și aprobator distincți; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Versiune expirată sau document închis în timpul numărării”.",
+        "native": "Verifică MInventory, Inventory Count, Complete, MA și Import Inventory: document țintă, DR față de CO, permisiune de ajustare și statutul postării. Separă evidența fizică G2 de variația financiară G1.",
+        "negative": "Numără 8 față de 10 scriptic în G2. Deschide diferența; la aprobarea pentru G1 compară MInventory, tranzacția și impactul contabil cu A03. Retrimite validarea."
+      },
+      "source_anchors": [
+        "WInventarForm",
+        "RegistruWms",
+        "RegulaLegatura"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C19",
+      "requirement_id": [
+        "RZ-2.1",
+        "RZ-2.2"
+      ],
+      "historical_manual_code": "C03.T0044",
+      "historical_manual_title": "Import de numărători pe produs, locator și lot",
+      "historical_findings": [
+        "C03-A05"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P05"
+      ],
+      "title": "Import de numărători cu document în DR",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în I_Inventory și M_Inventory.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Operator de numărare și aprobator distincți",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "document, gestiune, locator, produs, ASI/unitate, valoare numărată, versiune rând și cheie import"
+      ],
+      "fixture": "Registru DR pe un locator și două loturi plus ASI 0; sold scriptic 10, numărat 8. Două dispozitive cu aceeași versiune inițială, fișier repetat cu rând invalid, perioadă închisă ca scenariu separat.",
+      "steps_or_command": [
+        "Pe draftul unei numărători deschise importă două loturi ale aceluiași produs în doi locatori. Reia fișierul și importă un rând invalid. Compară Import Inventory nativ cu actualizarea documentului țintă existent.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Versiune expirată sau document închis în timpul numărării",
+      "expected": "O singură înregistrare per cheia țintă document/locator/produs/lot. Cantități și erori reconciliate per rând. Se documentează dacă procesul nativ creează document nou sau poate actualiza DR. Un CO nu se suprascrie.",
+      "probe_layers": {
+        "FE": "Inventar fizic → citire/import → listă diferențe → aprobare → monitor document și postare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în ImportInventar / ScriereInventar / WInventarForm, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în I_Inventory, M_Inventory, M_InventoryLine, M_InventoryLineMA. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Operator de numărare și aprobator distincți; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Versiune expirată sau document închis în timpul numărării”.",
+        "native": "Verifică MInventory, Inventory Count, Complete, MA și Import Inventory: document țintă, DR față de CO, permisiune de ajustare și statutul postării. Separă evidența fizică G2 de variația financiară G1.",
+        "negative": "Pe draftul unei numărători deschise importă două loturi ale aceluiași produs în doi locatori. Reia fișierul și importă un rând invalid. Compară Import Inventory nativ cu actualizarea documentului țintă existent."
+      },
+      "source_anchors": [
+        "ImportInventar",
+        "ScriereInventar",
+        "WInventarForm"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C20",
+      "requirement_id": [
+        "RZ-14.1"
+      ],
+      "historical_manual_code": "C03.T0050",
+      "historical_manual_title": "Numărare mobilă cu verificarea concurenței",
+      "historical_findings": [
+        "RI-09",
+        "RA-AG-01"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P05"
+      ],
+      "title": "Două numărători simultane și tastare offline",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Inventory și M_InventoryLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Operator de numărare și aprobator distincți",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "document, gestiune, locator, produs, ASI/unitate, valoare numărată, versiune rând și cheie import"
+      ],
+      "fixture": "Registru DR pe un locator și două loturi plus ASI 0; sold scriptic 10, numărat 8. Două dispozitive cu aceeași versiune inițială, fișier repetat cu rând invalid, perioadă închisă ca scenariu separat.",
+      "steps_or_command": [
+        "Același locator și versiune citită de două dispozitive. Unul salvează 8 și celălalt 9 după reconectare. Reia prima cerere cu aceeași cheie și simulează închiderea documentului în interval.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Versiune expirată sau document închis în timpul numărării",
+      "expected": "Un singur câștigător la versiunea inițială. Conflictul arată cantitate curentă și permite recitire, nu suprascrie în tăcere. Retry identic nu dublează inventarul și documentul CO refuză editare.",
+      "probe_layers": {
+        "FE": "Inventar fizic → citire/import → listă diferențe → aprobare → monitor document și postare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în ScriereInventar / RegistruWms / ApiInventar, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Inventory, M_InventoryLine, M_AttributeSetInstance, EVA_StocWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Operator de numărare și aprobator distincți; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Versiune expirată sau document închis în timpul numărării”.",
+        "native": "Verifică MInventory, Inventory Count, Complete, MA și Import Inventory: document țintă, DR față de CO, permisiune de ajustare și statutul postării. Separă evidența fizică G2 de variația financiară G1.",
+        "negative": "Același locator și versiune citită de două dispozitive. Unul salvează 8 și celălalt 9 după reconectare. Reia prima cerere cu aceeași cheie și simulează închiderea documentului în interval."
+      },
+      "source_anchors": [
+        "ScriereInventar",
+        "RegistruWms",
+        "ApiInventar"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C21",
+      "requirement_id": [
+        "RZ-5.1",
+        "RZ-5.2",
+        "RZ-5.3"
+      ],
+      "historical_manual_code": "C03.T0045",
+      "historical_manual_title": "Etichete native pentru produse și locatori",
+      "historical_findings": [],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "title": "Etichete și reproduceri",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în AD_PrintFormat și M_Product.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "tip entitate, cod intern/alias, unitate, context comenzi/document, tip client, versiune și cheie retry"
+      ],
+      "fixture": "Două identități CPP/CPA și EAN intenționat ambiguu; 2 firme, 2 roluri și dispozitive sintetice. Cameră blocată sau permisă, tastatură HID, rețea întreruptă după commit. Inventariază cele 15 ecrane istorice cu identificatori AD activi.",
+      "steps_or_command": [
+        "Tipărește o etichetă pentru produs CPP, pentru CPA și pentru locator. Scanează fiecare și retipărește aceeași etichetă după schimbarea aliasului SKU.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Cod ambiguu, dispozitiv revocat sau timeout după commit",
+      "expected": "Trei entități identificabile distinct. Retipărirea nu creează produs sau mișcare. Codul intern rămâne același și vechea etichetă se tratează conform valabilității setate.",
+      "probe_layers": {
+        "FE": "Etichete ERP și formulare scanare; client mobil WMS → comenzi proprii → inventar/pick → confirmare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în GeneratorEticheteCoduri / DialogEticheteCoduri / CampScanare, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în AD_PrintFormat, M_Product, M_Locator, EVA_MiscareWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Cod ambiguu, dispozitiv revocat sau timeout după commit”.",
+        "native": "Verifică AD_PrintFormat, procesele native de etichetare și identificatorii AD_Form/Window, API instalat, unități și drepturi PO; observă funcțiile de cameră/HID per platformă.",
+        "negative": "Tipărește o etichetă pentru produs CPP, pentru CPA și pentru locator. Scanează fiecare și retipărește aceeași etichetă după schimbarea aliasului SKU."
+      },
+      "source_anchors": [
+        "GeneratorEticheteCoduri",
+        "DialogEticheteCoduri",
+        "CampScanare"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C22",
+      "requirement_id": [
+        "RZ-6.1",
+        "RZ-6.2"
+      ],
+      "historical_manual_code": "C03.T0046",
+      "historical_manual_title": "Scanare consecventă în cele 15 ecrane ERP",
+      "historical_findings": [],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "title": "Scanare pe suprafețele ERP inventariate",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în AD_Form și AD_Window.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "tip entitate, cod intern/alias, unitate, context comenzi/document, tip client, versiune și cheie retry"
+      ],
+      "fixture": "Două identități CPP/CPA și EAN intenționat ambiguu; 2 firme, 2 roluri și dispozitive sintetice. Cameră blocată sau permisă, tastatură HID, rețea întreruptă după commit. Inventariază cele 15 ecrane istorice cu identificatori AD activi.",
+      "steps_or_command": [
+        "Reconciliază cele 15 ecrane istorice cu cele active în AD. Pe fiecare, scanează cod valid, necunoscut și ambiguu prin tastatură/HID. Verifică focus și protecția împotriva apăsării Enter automate.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Cod ambiguu, dispozitiv revocat sau timeout după commit",
+      "expected": "Pentru fiecare ecran activ există probă cu codul corect, o eroare în limba cerută și zero salvări la cod ambiguu. Ecranele înlocuite au succesor documentat.",
+      "probe_layers": {
+        "FE": "Etichete ERP și formulare scanare; client mobil WMS → comenzi proprii → inventar/pick → confirmare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în CampScanare / PoliticaScanare / GazdaScanare, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în AD_Form, AD_Window, M_Product, M_Locator. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Cod ambiguu, dispozitiv revocat sau timeout după commit”.",
+        "native": "Verifică AD_PrintFormat, procesele native de etichetare și identificatorii AD_Form/Window, API instalat, unități și drepturi PO; observă funcțiile de cameră/HID per platformă.",
+        "negative": "Reconciliază cele 15 ecrane istorice cu cele active în AD. Pe fiecare, scanează cod valid, necunoscut și ambiguu prin tastatură/HID. Verifică focus și protecția împotriva apăsării Enter automate."
+      },
+      "source_anchors": [
+        "CampScanare",
+        "PoliticaScanare",
+        "GazdaScanare"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C23",
+      "requirement_id": [
+        "RZ-11.1",
+        "RZ-11.2",
+        "RZ-11.3",
+        "RZ-11.4"
+      ],
+      "historical_manual_code": "C03.T0047",
+      "historical_manual_title": "Drepturi și dispozitive pentru operarea WMS",
+      "historical_findings": [
+        "RI-09"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "title": "Gestionari, dispozitive revocate și acces la locatori",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în AD_Client și AD_Org.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "tip entitate, cod intern/alias, unitate, context comenzi/document, tip client, versiune și cheie retry"
+      ],
+      "fixture": "Două identități CPP/CPA și EAN intenționat ambiguu; 2 firme, 2 roluri și dispozitive sintetice. Cameră blocată sau permisă, tastatură HID, rețea întreruptă după commit. Inventariază cele 15 ecrane istorice cu identificatori AD activi.",
+      "steps_or_command": [
+        "Alege o firmă, rol și locator permis. Modifică identificatorii spre altă firmă; revocă dispozitivul și reîncearcă cu cererea nedifuzată anterior.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Cod ambiguu, dispozitiv revocat sau timeout după commit",
+      "expected": "Zero date sau mișcări în tenantul străin, zero înregistrări după revocare. Schimbarea firmei în UI golește selecțiile anterioare, mesaj fără detaliile firmei străine.",
+      "probe_layers": {
+        "FE": "Etichete ERP și formulare scanare; client mobil WMS → comenzi proprii → inventar/pick → confirmare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în ApiInventar / ApiAmbalare / DialogLocatoriGestiune, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în AD_Client, AD_Org, AD_Role, AD_Role_OrgAccess, M_Locator, EVA_MiscareWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Cod ambiguu, dispozitiv revocat sau timeout după commit”.",
+        "native": "Verifică AD_PrintFormat, procesele native de etichetare și identificatorii AD_Form/Window, API instalat, unități și drepturi PO; observă funcțiile de cameră/HID per platformă.",
+        "negative": "Alege o firmă, rol și locator permis. Modifică identificatorii spre altă firmă; revocă dispozitivul și reîncearcă cu cererea nedifuzată anterior."
+      },
+      "source_anchors": [
+        "ApiInventar",
+        "ApiAmbalare",
+        "DialogLocatoriGestiune"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C24",
+      "requirement_id": [
+        "RZ-12.1",
+        "RZ-12.2",
+        "RZ-12.3",
+        "RZ-12.4",
+        "RZ-12.5"
+      ],
+      "historical_manual_code": "C03.T0048",
+      "historical_manual_title": "API WMS comun pentru toate interfețele",
+      "historical_findings": [
+        "C03-A04",
+        "RI-09"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "title": "Același contract WMS pe mobil și ERP",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_InventoryLine și M_InOutLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "tip entitate, cod intern/alias, unitate, context comenzi/document, tip client, versiune și cheie retry"
+      ],
+      "fixture": "Două identități CPP/CPA și EAN intenționat ambiguu; 2 firme, 2 roluri și dispozitive sintetice. Cameră blocată sau permisă, tastatură HID, rețea întreruptă după commit. Inventariază cele 15 ecrane istorice cu identificatori AD activi.",
+      "steps_or_command": [
+        "Execută aceeași numărătoare, apoi același pick, din suprafețe echivalente. Verifică unitate, revizie, lot, proiect și drepturi în traseul până la PO.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Cod ambiguu, dispozitiv revocat sau timeout după commit",
+      "expected": "Un rezultat economic pentru fiecare eveniment, aceeași validare a lotului și unității. Contractul diferențiază lipsă, conflict, neautorizat, document închis și permite recuperare în UX.",
+      "probe_layers": {
+        "FE": "Etichete ERP și formulare scanare; client mobil WMS → comenzi proprii → inventar/pick → confirmare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în ScriereInventar / ApiInventar / ApiAmbalare, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_InventoryLine, M_InOutLine, M_AttributeSetInstance, EVA_MiscareWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Cod ambiguu, dispozitiv revocat sau timeout după commit”.",
+        "native": "Verifică AD_PrintFormat, procesele native de etichetare și identificatorii AD_Form/Window, API instalat, unități și drepturi PO; observă funcțiile de cameră/HID per platformă.",
+        "negative": "Execută aceeași numărătoare, apoi același pick, din suprafețe echivalente. Verifică unitate, revizie, lot, proiect și drepturi în traseul până la PO."
+      },
+      "source_anchors": [
+        "ScriereInventar",
+        "ApiInventar",
+        "ApiAmbalare"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C25",
+      "requirement_id": [
+        "RZ-13.1",
+        "RZ-13.2",
+        "RZ-13.3",
+        "RZ-13.4"
+      ],
+      "historical_manual_code": "C03.T0049",
+      "historical_manual_title": "Client mobil WMS și distribuție controlată",
+      "historical_findings": [
+        "RI-09"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "title": "Acoperirea dispozitivelor Android și iPhone",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în AD_Role și M_Locator.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "tip entitate, cod intern/alias, unitate, context comenzi/document, tip client, versiune și cheie retry"
+      ],
+      "fixture": "Două identități CPP/CPA și EAN intenționat ambiguu; 2 firme, 2 roluri și dispozitive sintetice. Cameră blocată sau permisă, tastatură HID, rețea întreruptă după commit. Inventariază cele 15 ecrane istorice cu identificatori AD activi.",
+      "steps_or_command": [
+        "Mapează clientul nativ ori web efectiv instalat per platformă și versiune cu A09. În fixture autorizat testează instalare, permisiune cameră refuzată, alternativă HID și reconectare pe fiecare.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Cod ambiguu, dispozitiv revocat sau timeout după commit",
+      "expected": "Android și iPhone primesc rezultate separate și identificator build. La refuz cameră se poate continua prin metoda permisă ori apare remediu. Lipsa clientului sau a dispozitivului este consemnată separat.",
+      "probe_layers": {
+        "FE": "Etichete ERP și formulare scanare; client mobil WMS → comenzi proprii → inventar/pick → confirmare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în ApiInventar / CampScanare / ApiAmbalare, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în AD_Role, M_Locator, M_InventoryLine. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Cod ambiguu, dispozitiv revocat sau timeout după commit”.",
+        "native": "Verifică AD_PrintFormat, procesele native de etichetare și identificatorii AD_Form/Window, API instalat, unități și drepturi PO; observă funcțiile de cameră/HID per platformă.",
+        "negative": "Mapează clientul nativ ori web efectiv instalat per platformă și versiune cu A09. În fixture autorizat testează instalare, permisiune cameră refuzată, alternativă HID și reconectare pe fiecare."
+      },
+      "source_anchors": [
+        "ApiInventar",
+        "CampScanare",
+        "ApiAmbalare"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C26",
+      "requirement_id": [
+        "RZ-16.1",
+        "RZ-16.2"
+      ],
+      "historical_manual_code": "C03.T0051",
+      "historical_manual_title": "Pick mobil pe cantitățile și loturile reale",
+      "historical_findings": [
+        "C03-A01",
+        "C03-A04"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "title": "Pick mobil cu scanare dublă sau cantitate parțială",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în C_OrderLine și M_InOutLine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "tip entitate, cod intern/alias, unitate, context comenzi/document, tip client, versiune și cheie retry"
+      ],
+      "fixture": "Două identități CPP/CPA și EAN intenționat ambiguu; 2 firme, 2 roluri și dispozitive sintetice. Cameră blocată sau permisă, tastatură HID, rețea întreruptă după commit. Inventariază cele 15 ecrane istorice cu identificatori AD activi.",
+      "steps_or_command": [
+        "Pregătește 6 bucăți din două loturi. Scanează prima serie de două ori, confirmă numai 4 și reconectează terminalul. Compară pick, aviz și rest.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Cod ambiguu, dispozitiv revocat sau timeout după commit",
+      "expected": "Cel mult 4 confirmate, 2 încă deschise; nici duplicarea seriei, nici replay nu consumă mai mult. Lista mobilă indică sursa lotului și soldul rămas.",
+      "probe_layers": {
+        "FE": "Etichete ERP și formulare scanare; client mobil WMS → comenzi proprii → inventar/pick → confirmare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în ApiAmbalare / Fefo / OglindaWms, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în C_OrderLine, M_InOutLine, M_InOutLineMA, EVA_MiscareWms. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Cod ambiguu, dispozitiv revocat sau timeout după commit”.",
+        "native": "Verifică AD_PrintFormat, procesele native de etichetare și identificatorii AD_Form/Window, API instalat, unități și drepturi PO; observă funcțiile de cameră/HID per platformă.",
+        "negative": "Pregătește 6 bucăți din două loturi. Scanează prima serie de două ori, confirmă numai 4 și reconectează terminalul. Compară pick, aviz și rest."
+      },
+      "source_anchors": [
+        "ApiAmbalare",
+        "Fefo",
+        "OglindaWms"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C27",
+      "requirement_id": [],
+      "historical_manual_code": "C03.T0052",
+      "historical_manual_title": "Retur fizic și trasabilitate până la origine",
+      "historical_findings": [
+        "ARC-02",
+        "G123-13"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P07"
+      ],
+      "title": "Retur parțial cu control calitate",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_RMA și M_RMALine.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar pentru primire, responsabil vânzări pentru autorizare și contabil A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "aviz/linie inițială, articol, ASI, qty, motiv, locator carantină, aprobator și decizie"
+      ],
+      "fixture": "Comandă livrată cu două loturi, retur parțial de 1, locator carantină și decizii aprobate de repunere sau rebut pe instantanee diferite. Reconciliază separat stoc comercial, fizic și contabil.",
+      "steps_or_command": [
+        "Returnează o bucată dintr-o comandă a cărei origine include două loturi. Orientează în carantină, apoi aprobă repunerea sau rebutul. Rulează returul duplicat cu același identificator.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Retur duplicat, carantină sau lot greșit",
+      "expected": "Recepție fizică o singură dată, legătură la aviz și lotul concret. Disponibilul vandabil crește numai după acceptare. A07/A03 documentează corecția financiară separat.",
+      "probe_layers": {
+        "FE": "ERP Retur/RMA → recepție și locator → decizie → document corectiv → raport operațional; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în OglindaWms / StocWms / RegulaLegatura, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_RMA, M_RMALine, M_InOut, M_InOutLineMA, EVA_MiscareWms, Fact_Acct. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar pentru primire, responsabil vânzări pentru autorizare și contabil A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Retur duplicat, carantină sau lot greșit”.",
+        "native": "Verifică traseul M_RMA–M_InOut și MInventory pentru rebut. Carantina și disponibilitatea țin cont de locator și de drepturile gestionarului. Reconciliază debit/credit per schemă.",
+        "negative": "Returnează o bucată dintr-o comandă a cărei origine include două loturi. Orientează în carantină, apoi aprobă repunerea sau rebutul. Rulează returul duplicat cu același identificator."
+      },
+      "source_anchors": [
+        "OglindaWms",
+        "StocWms",
+        "RegulaLegatura"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C28",
+      "requirement_id": [
+        "RZ-19.1",
+        "RZ-19.2",
+        "RZ-19.3"
+      ],
+      "historical_manual_code": "C03.T0053",
+      "historical_manual_title": "Pilot complet, indicatori și predare operabilă",
+      "historical_findings": [
+        "RI-12",
+        "RI-14",
+        "RA-AG-04",
+        "RA-AG-06"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P07"
+      ],
+      "title": "Reconciliere și probă operațională completă",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Transaction și M_StorageOnHand.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Gestionar pentru primire, responsabil vânzări pentru autorizare și contabil A03",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "aviz/linie inițială, articol, ASI, qty, motiv, locator carantină, aprobator și decizie"
+      ],
+      "fixture": "Comandă livrată cu două loturi, retur parțial de 1, locator carantină și decizii aprobate de repunere sau rebut pe instantanee diferite. Reconciliază separat stoc comercial, fizic și contabil.",
+      "steps_or_command": [
+        "Execută traseul recepție→asamblare→dezasamblare→pick→aviz→retur și reconciliază fiecare eveniment cu document, lot și cost. Măsoară p50/p95 pentru operațiunile pilot și exportă cazurile nereconciliate.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Retur duplicat, carantină sau lot greșit",
+      "expected": "Diferența cantitativă nejustificată este zero pe produs/lot/perimetru după exprimare în piesele CPP. Cost contabil fără dublare. Timpii reali și numărul erorilor au bază de comparație; ținte SLA aprobate separat.",
+      "probe_layers": {
+        "FE": "ERP Retur/RMA → recepție și locator → decizie → document corectiv → raport operațional; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în RegulaLegatura / StocWms / OglindaWms, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Transaction, M_StorageOnHand, EVA_StocWms, EVA_MiscareWms, M_CostDetail, Fact_Acct. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Gestionar pentru primire, responsabil vânzări pentru autorizare și contabil A03; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Retur duplicat, carantină sau lot greșit”.",
+        "native": "Verifică traseul M_RMA–M_InOut și MInventory pentru rebut. Carantina și disponibilitatea țin cont de locator și de drepturile gestionarului. Reconciliază debit/credit per schemă.",
+        "negative": "Execută traseul recepție→asamblare→dezasamblare→pick→aviz→retur și reconciliază fiecare eveniment cu document, lot și cost. Măsoară p50/p95 pentru operațiunile pilot și exportă cazurile nereconciliate."
+      },
+      "source_anchors": [
+        "RegulaLegatura",
+        "StocWms",
+        "OglindaWms"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    },
+    {
+      "control_id": "A05-C29",
+      "requirement_id": [
+        "RZ-14.2",
+        "RZ-14.3",
+        "RZ-17.1",
+        "RZ-17.2",
+        "RZ-17.3",
+        "RZ-17.4",
+        "RZ-17.5",
+        "RZ-17.6",
+        "RZ-17.7",
+        "RZ-17.8",
+        "RZ-9.2",
+        "RZ-9.8"
+      ],
+      "historical_manual_code": "C03.T0043",
+      "historical_manual_title": "Inventar fizic și diferențe aprobate",
+      "historical_findings": [
+        "G123-12",
+        "RI-07"
+      ],
+      "task_ids": [],
+      "current_task_binding": "A12 leagă de codurile P01 reale prin obiectiv și versiune, după reconciliationarea exportului la data limită. Codul manualului este istoric.",
+      "zone_id": "A05",
+      "pipeline_ids": [
+        "A05-P05"
+      ],
+      "title": "Document nativ, rezultat de proces și postare",
+      "layer": [
+        "FE",
+        "BE",
+        "DB",
+        "UX",
+        "nativ",
+        "pipeline"
+      ],
+      "risk": "În acest caz, abaterea poate produce o cantitate, identitate, autorizare sau postare eronată cu efect în M_Inventory și M_Transaction.",
+      "applicability": "Obligatoriu. N/A numai prin regulă de domeniu documentată și acceptare A11. Lipsa mediului este BLOCAT.",
+      "method": "Comparație cu două surse iDempiere, apoi probă funcțională pe fixture, comparație înainte/după și contraproba.",
+      "environment": "Cabinet de test izolat, identificat prin digesturile de aplicație, core, plugin, schema DB și configurație. Fără operații la parteneri.",
+      "role_context": "Operator de numărare și aprobator distincți",
+      "preconditions": [
+        "Plan aprobat 10/10 A11",
+        "Versiunile cod/bundle/AD înregistrate, fixture restaurabilă, rol izolat",
+        "document, gestiune, locator, produs, ASI/unitate, valoare numărată, versiune rând și cheie import"
+      ],
+      "fixture": "Registru DR pe un locator și două loturi plus ASI 0; sold scriptic 10, numărat 8. Două dispozitive cu aceeași versiune inițială, fișier repetat cu rând invalid, perioadă închisă ca scenariu separat.",
+      "steps_or_command": [
+        "Pentru document DR cu lipsă de aprobare rulează procesul autorizat și observă booleanul, statutul persistent, mesajul și postarea. Reia apoi pe document pregătit corespunzător.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "negative_variant": "Versiune expirată sau document închis în timpul numărării",
+      "expected": "Un rezultat boolean adevărat se compară explicit cu DocStatus, Processed, Posted, M_Transaction și Fact_Acct. Status nefinal/în așteptare nu este tratat ca ajustare finală. Perioada închisă permite numai traseul explicit acceptat.",
+      "probe_layers": {
+        "FE": "Inventar fizic → citire/import → listă diferențe → aprobare → monitor document și postare; salvează controlul activ, contextul firmei și starea finală a documentului.",
+        "BE": "Urmărește intrarea reală în RegulaLegatura / OglindaWms / WInventarForm, documentul și identificatorul operației prin proces și tranzacții.",
+        "DB": "SELECT limitat pe ID-urile fixture, client, org, document, lot și/sau locator, în M_Inventory, M_Transaction, Fact_Acct, C_PeriodControl. Înregistrează numărul și sumele înainte/după și orice rând rezultat la retry.",
+        "UX": "Parcurge ca Operator de numărare și aprobator distincți; documentează câmpurile obligatorii, eroarea contextuală și revenirea după „Versiune expirată sau document închis în timpul numărării”.",
+        "native": "Verifică MInventory, Inventory Count, Complete, MA și Import Inventory: document țintă, DR față de CO, permisiune de ajustare și statutul postării. Separă evidența fizică G2 de variația financiară G1.",
+        "negative": "Pentru document DR cu lipsă de aprobare rulează procesul autorizat și observă booleanul, statutul persistent, mesajul și postarea. Reia apoi pe document pregătit corespunzător."
+      },
+      "source_anchors": [
+        "RegulaLegatura",
+        "OglindaWms",
+        "WInventarForm"
+      ],
+      "observed": null,
+      "status": "NEEXECUTAT",
+      "evidence_ids": [],
+      "finding_ids": [],
+      "cleanup": "În cabinetul izolat, exportă probele mascate, eliberează slotul și restaurează fixture de la instantaneul de referință. Nicio ștergere a istoricului auditat.",
+      "executor": "A05",
+      "executed_at": null,
+      "reviewer_result": null
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline_id": "A05-P01",
+      "business_outcome": "Configurarea gestiunilor, identităților și soldului inițial",
+      "trigger": "Administrator configurează gestiunile și zona fizică",
+      "actor_context": "Client A, org X/Y, responsabil diferit per zona G2",
+      "input_contract": "catalog CPP/CPA, gestiune părinte, locatori, sold inițial, data activării",
+      "state_machine": "propus → configurat → validat → activat → reconciliat",
+      "ui_route": "iDempiere / Setări gestiuni → locatori și pereche WMS → produse și rețete",
+      "api_calls": "Activare prin formular și proces ERP. Captură AD_Menu_ID, AD_Window_ID/AD_Form_ID și înregistrarea procesului",
+      "service_symbols": [
+        "WSagaGestiuniForm",
+        "PerecheWms",
+        "ModelWms",
+        "DialogLocatoriGestiune",
+        "StocWms",
+        "RegulaLegatura",
+        "SetLista",
+        "CampScanare"
+      ],
+      "db_reads_writes": [
+        "M_Warehouse",
+        "M_Locator",
+        "EVA_PerecheWms",
+        "AD_Role_OrgAccess",
+        "EVA_StocWms",
+        "EVA_MiscareWms",
+        "M_StorageOnHand",
+        "M_Product",
+        "C_UOM",
+        "AD_Sequence",
+        "PP_Product_BOMLine"
+      ],
+      "native_documents": "M_Warehouse, M_Locator, M_Product, C_UOM, PP_Product_BOM, sold nativ din M_StorageOnHand",
+      "external_effects": "Efectele partenerilor se simulează în fixture. Păstrează numai referința la probă dacă există o observație read-only autorizată în UI.",
+      "transaction_boundaries": "O tranzacție per activare și blocarea comună a soldului citit, a perechii și a inițializării.",
+      "correlation_ids": [
+        "g1",
+        "g2",
+        "org",
+        "produs",
+        "locator",
+        "activare"
+      ],
+      "authorization_guards": "Client A, org X/Y, responsabil diferit per zona G2. Dovedește că rolul poate acționa numai pe client, org, warehouse și document permis inclusiv prin apel direct în mediul de test.",
+      "idempotency_scope": "Înregistrează cheia economică şi versiunea per client, document sau linie, tip eveniment și g1,g2,org,produs,locator,activare. Verifică retry identic și coliziunea cu payload diferit.",
+      "normal_path": [
+        "A05-C01",
+        "A05-C02",
+        "A05-C03",
+        "A05-C04"
+      ],
+      "negative_paths": "împarte pe două firme cu coduri similare, retry activare, locator străin, alt gestionar",
+      "retry_timeout_concurrency": "Simulează cel puțin o cerere înainte și una după commit cu răspuns pierdut, apoi două sesiuni pe același stoc sau document. Reconciliere pe cheia și limita tranzacțională declarate.",
+      "compensation_reconciliation": "Pentru configurație incompatibilă, raportează cazul exact și elimină jumătățile de configurare prin rollback. Reconciliere sold pe gestiune și produs.",
+      "numeric_invariants": "80+40=120 P1 cu două G1, sold inițial fizic total 120, idempotent la dublă activare.",
+      "cross_zone_owners": "A01 acces gestionar, A02 identități și AD, A06 G3, A09 UI",
+      "test_ids": [
+        "A05-C01",
+        "A05-C02",
+        "A05-C03",
+        "A05-C04"
+      ],
+      "final_state": "Ținta de verificat este 80+40=120 P1 cu două G1, sold inițial fizic total 120, idempotent la dublă activare.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A05-P02",
+      "business_outcome": "Recepția și transferul între locații",
+      "trigger": "Gestionar recepționează pe baza PO și mișcă stoc în altă gestiune",
+      "actor_context": "Gestionar A, locator primire/raft, rol contabil A03",
+      "input_contract": "PO, articol, qty, unitate, ASI, sursă/destinație, tranzit și moment transfer proprietate",
+      "state_machine": "DR → completare → recepționat → amplasat / în tranzit → primit",
+      "ui_route": "Recepție iDempiere → gestiune/locator WMS → mutare/confirmare → urmărire",
+      "api_calls": "PO MInOut și MMovement; eveniment document → flux de oglindire EVA",
+      "service_symbols": [
+        "OglindaWms",
+        "StocWms",
+        "EvaWmsOglindaEvents",
+        "RegulaLegatura",
+        "ImportInventar"
+      ],
+      "db_reads_writes": [
+        "M_InOut",
+        "M_InOutLine",
+        "M_Transaction",
+        "M_StorageOnHand",
+        "EVA_MiscareWms",
+        "EVA_StocWms",
+        "Fact_Acct",
+        "M_Movement",
+        "M_MovementLine",
+        "M_Cost",
+        "M_CostDetail",
+        "M_ProductPrice",
+        "M_PriceList_Version"
+      ],
+      "native_documents": "M_InOut, M_Movement, M_Transaction, M_StorageOnHand, Fact_Acct",
+      "external_effects": "Efectele partenerilor se simulează în fixture. Păstrează numai referința la probă dacă există o observație read-only autorizată în UI.",
+      "transaction_boundaries": "Păstrează legătura sursă şi document. Orice actualizare separată după commit necesită dovadă de recuperare a evenimentelor și reconciliere.",
+      "correlation_ids": [
+        "po",
+        "linie_po",
+        "document_sursa",
+        "linie",
+        "lot",
+        "eveniment",
+        "perioada"
+      ],
+      "authorization_guards": "Gestionar A, locator primire/raft, rol contabil A03. Dovedește că rolul poate acționa numai pe client, org, warehouse și document permis inclusiv prin apel direct în mediul de test.",
+      "idempotency_scope": "Înregistrează cheia economică şi versiunea per client, document sau linie, tip eveniment și po,linie_po,document_sursa,linie,lot,eveniment,perioada. Verifică retry identic și coliziunea cu payload diferit.",
+      "normal_path": [
+        "A05-C05",
+        "A05-C06",
+        "A05-C07"
+      ],
+      "negative_paths": "destinație inactivă, lot incompatibil, aceeași confirmare retrimisă, închidere perioadă",
+      "retry_timeout_concurrency": "Simulează cel puțin o cerere înainte și una după commit cu răspuns pierdut, apoi două sesiuni pe același stoc sau document. Reconciliere pe cheia și limita tranzacțională declarate.",
+      "compensation_reconciliation": "Reversal document original și operațiune fizică explicată. Reconciliază pe locator, lot, schemă contabilă și dată.",
+      "numeric_invariants": "Recepție 10 produce 10; transfer 5 prin tranzit cu livrări 3+2 nu lasă cantitate în tranzit la final.",
+      "cross_zone_owners": "A04 achiziție, A02 AD și SQL, A03 cost/postare, A06 disponibil, A09 UX",
+      "test_ids": [
+        "A05-C05",
+        "A05-C06",
+        "A05-C07"
+      ],
+      "final_state": "Ținta de verificat este Recepție 10 produce 10; transfer 5 prin tranzit cu livrări 3+2 nu lasă cantitate în tranzit la final.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A05-P03",
+      "business_outcome": "Asamblare și dezasamblare cu cost și proveniență",
+      "trigger": "Gestionar creează nota de ambalare pe stoc sau pe comandă",
+      "actor_context": "Gestionar G2, aprobator cost A03",
+      "input_contract": "două produse distincte CPP/CPA, versiune BOM, unități, cantități, ambalaj, ore, locator înainte și după",
+      "state_machine": "proiect → materiale disponibile → notă confirmată → stoc G2 modificat → consum G1 reconciliat",
+      "ui_route": "ERP producție/nota WMS → selectare versiune și locatori → confirmare → trasare cost",
+      "api_calls": "DialogNotaSetWms → NotaSetWmsProces → NotaSetWms → StocWms. Verifică hook-ul efectiv de cost G1",
+      "service_symbols": [
+        "SetLista",
+        "ListaMaterialeWms",
+        "NotaSetWms",
+        "DialogNotaSetWms",
+        "NotaSetWmsProces",
+        "StocWms",
+        "RegulaLegatura"
+      ],
+      "db_reads_writes": [
+        "C_UOM",
+        "C_UOM_Conversion",
+        "PP_Product_BOM",
+        "PP_Product_BOMLine",
+        "EVA_StocWms",
+        "EVA_MiscareWms",
+        "M_Transaction",
+        "M_Product",
+        "M_Production",
+        "M_StorageOnHand",
+        "Fact_Acct",
+        "M_Locator",
+        "M_InventoryLine",
+        "M_CostDetail"
+      ],
+      "native_documents": "PP_Product_BOM/Line, M_Production, M_Inventory, M_Transaction, Fact_Acct",
+      "external_effects": "Efectele partenerilor se simulează în fixture. Păstrează numai referința la probă dacă există o observație read-only autorizată în UI.",
+      "transaction_boundaries": "Descreșterea pieselor și creșterea setului în același eveniment. Handoff de cost cu cheie durabilă și reconciliere pentru retry.",
+      "correlation_ids": [
+        "nota",
+        "linie",
+        "operatie",
+        "bom_version",
+        "gestiune",
+        "locator",
+        "cost_source",
+        "comanda"
+      ],
+      "authorization_guards": "Gestionar G2, aprobator cost A03. Dovedește că rolul poate acționa numai pe client, org, warehouse și document permis inclusiv prin apel direct în mediul de test.",
+      "idempotency_scope": "Înregistrează cheia economică şi versiunea per client, document sau linie, tip eveniment și nota,linie,operatie,bom_version,gestiune,locator,cost_source,comanda. Verifică retry identic și coliziunea cu payload diferit.",
+      "normal_path": [
+        "A05-C08",
+        "A05-C09",
+        "A05-C10",
+        "A05-C11",
+        "A05-C12"
+      ],
+      "negative_paths": "lipsă P3, rețetă schimbată, cerere repetată, eroare între notă și cost, document contabil pentru set reversibil",
+      "retry_timeout_concurrency": "Simulează cel puțin o cerere înainte și una după commit cu răspuns pierdut, apoi două sesiuni pe același stoc sau document. Reconciliere pe cheia și limita tranzacțională declarate.",
+      "compensation_reconciliation": "Aplică inversa legată de nota originală, recalculează din versiunea istorică și urmărește separat costul real consumat.",
+      "numeric_invariants": "Un S1 = 6 din fiecare P; G2 +1 S1/−6×3; G1 piesele neschimbate. P1 ambalat consumă exact 1 cutie și 0,5 h per operație distinctă.",
+      "cross_zone_owners": "A02 BOM/ID, A03 cost unic și salarii, A06 catalog, A09 formular",
+      "test_ids": [
+        "A05-C08",
+        "A05-C09",
+        "A05-C10",
+        "A05-C11",
+        "A05-C12"
+      ],
+      "final_state": "Ținta de verificat este Un S1 = 6 din fiecare P; G2 +1 S1/−6×3; G1 piesele neschimbate. P1 ambalat consumă exact 1 cutie și 0,5 h per operație distinctă.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A05-P04",
+      "business_outcome": "Rezervare, pick și predare a avizului",
+      "trigger": "Două canale trimit comenzi, gestionar le preia numai în ERP",
+      "actor_context": "Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz",
+      "input_contract": "linie pe canal → produs intern și unitate → componente → sursă contabilă → locator/lot → comanda rezervării",
+      "state_machine": "importat → preluat → verificat → rezervat → pregătit → pick → aviz → responsabil vânzări",
+      "ui_route": "Site pentru catalog/inițiere → iDempiere / Comenzi → lista picking → confirmare → Aviz",
+      "api_calls": "Contract A06 de disponibilitate și rezervare; consultați API-ul ERP instalat, documente native și fluxul mobil delegat",
+      "service_symbols": [
+        "RezervareStoc",
+        "RegulaLegatura",
+        "SetLista",
+        "StocWms",
+        "AlegerePozitii",
+        "Fefo",
+        "LoturiArticole",
+        "WSagaComenziForm",
+        "ApiAmbalare",
+        "OglindaWms"
+      ],
+      "db_reads_writes": [
+        "C_OrderLine",
+        "M_StorageReservation",
+        "M_StorageOnHand",
+        "EVA_StocWms",
+        "C_Order",
+        "EVA_MiscareWms",
+        "M_AttributeSetInstance",
+        "M_InOutLineMA",
+        "M_MovementLineMA",
+        "M_InventoryLineMA",
+        "M_Transaction",
+        "M_InOut",
+        "M_InOutLine"
+      ],
+      "native_documents": "C_Order, C_OrderLine, M_StorageReservation, M_InOut, M_InOutLineMA, M_Transaction",
+      "external_effects": "Efectele partenerilor se simulează în fixture. Păstrează numai referința la probă dacă există o observație read-only autorizată în UI.",
+      "transaction_boundaries": "Angajament dinamic comun canalelor; identifică limitele DB și blocarea pe produs/componentă cu mai multe origini. Stock disponibil și validat se reconciliază înainte de culegere.",
+      "correlation_ids": [
+        "canal",
+        "comanda_externa",
+        "linie",
+        "angajament",
+        "nota",
+        "pick",
+        "lot",
+        "locator",
+        "aviz"
+      ],
+      "authorization_guards": "Comisionar plasează comandă, gestionar decide alocare și pick, responsabil comercial primește aviz. Dovedește că rolul poate acționa numai pe client, org, warehouse și document permis inclusiv prin apel direct în mediul de test.",
+      "idempotency_scope": "Înregistrează cheia economică şi versiunea per client, document sau linie, tip eveniment și canal,comanda_externa,linie,angajament,nota,pick,lot,locator,aviz. Verifică retry identic și coliziunea cu payload diferit.",
+      "normal_path": [
+        "A05-C13",
+        "A05-C14",
+        "A05-C15",
+        "A05-C16",
+        "A05-C17"
+      ],
+      "negative_paths": "concurență între canale, stoc parțial, timeout după CO, lot expirat, rebut înainte de curier",
+      "retry_timeout_concurrency": "Simulează cel puțin o cerere înainte și una după commit cu răspuns pierdut, apoi două sesiuni pe același stoc sau document. Reconciliere pe cheia și limita tranzacțională declarate.",
+      "compensation_reconciliation": "Compensează cu document și mișcare inverse conform poziției reale. A07 preia diferența dintre CO și confirmare livrare.",
+      "numeric_invariants": "120→20 S1 SAU 40 S2. Rezervare 10 S1 +10 S2 lasă 30 buc din fiecare. Confirmarea parțială nu închide restul.",
+      "cross_zone_owners": "A06 comandă/G3, A07 aviz și AWB, A03 efecte financiare, A01 acces, A09 listă",
+      "test_ids": [
+        "A05-C13",
+        "A05-C14",
+        "A05-C15",
+        "A05-C16",
+        "A05-C17"
+      ],
+      "final_state": "Ținta de verificat este 120→20 S1 SAU 40 S2. Rezervare 10 S1 +10 S2 lasă 30 buc din fiecare. Confirmarea parțială nu închide restul.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A05-P05",
+      "business_outcome": "Inventariere, import și aprobare",
+      "trigger": "Numărătoare fizică ERP/mobil/import într-un registru deschis",
+      "actor_context": "Operator de numărare și aprobator distincți",
+      "input_contract": "document, gestiune, locator, produs, ASI/unitate, valoare numărată, versiune rând și cheie import",
+      "state_machine": "DR → numărat → verificat → ajustare aprobată → CO → postare/reconciliere",
+      "ui_route": "Inventar fizic → citire/import → listă diferențe → aprobare → monitor document și postare",
+      "api_calls": "WInventarForm, ImportInventar și API mobil → MInventory/MInventoryLine ca țintă sau automatism nativ de import",
+      "service_symbols": [
+        "WInventarForm",
+        "RegistruWms",
+        "RegulaLegatura",
+        "ImportInventar",
+        "ScriereInventar",
+        "ApiInventar",
+        "OglindaWms"
+      ],
+      "db_reads_writes": [
+        "M_Inventory",
+        "M_InventoryLine",
+        "M_Transaction",
+        "M_StorageOnHand",
+        "Fact_Acct",
+        "I_Inventory",
+        "M_InventoryLineMA",
+        "M_AttributeSetInstance",
+        "EVA_StocWms",
+        "C_PeriodControl"
+      ],
+      "native_documents": "I_Inventory, M_Inventory/Line/LineMA, M_Transaction, Fact_Acct",
+      "external_effects": "Efectele partenerilor se simulează în fixture. Păstrează numai referința la probă dacă există o observație read-only autorizată în UI.",
+      "transaction_boundaries": "Control optimist de versiune pe linie și statut antet în interiorul aceleiași tranzacții. Definirea granularității atomicității pentru import și duplicate.",
+      "correlation_ids": [
+        "registru",
+        "linie",
+        "lot",
+        "locator",
+        "run_import",
+        "cheie_externa",
+        "aprobare",
+        "ajustare"
+      ],
+      "authorization_guards": "Operator de numărare și aprobator distincți. Dovedește că rolul poate acționa numai pe client, org, warehouse și document permis inclusiv prin apel direct în mediul de test.",
+      "idempotency_scope": "Înregistrează cheia economică şi versiunea per client, document sau linie, tip eveniment și registru,linie,lot,locator,run_import,cheie_externa,aprobare,ajustare. Verifică retry identic și coliziunea cu payload diferit.",
+      "normal_path": [
+        "A05-C18",
+        "A05-C19",
+        "A05-C20",
+        "A05-C29"
+      ],
+      "negative_paths": "draft ambiguu, ASI 0, două numărători, document închis în timpul salvării, import parțial",
+      "retry_timeout_concurrency": "Simulează cel puțin o cerere înainte și una după commit cu răspuns pierdut, apoi două sesiuni pe același stoc sau document. Reconciliere pe cheia și limita tranzacțională declarate.",
+      "compensation_reconciliation": "Listează rândurile respinse/acceptate, schema și versa documentul contabil dacă trebuie corectat. Nu modifica direct SQL.",
+      "numeric_invariants": "Diferență 8−10=−2. Sold GL modificat o singură dată după aprobare; două scrieri pe aceeași versiune nu pot ambele confirma.",
+      "cross_zone_owners": "A02 model, A03 ajustare/GL, A04 import, A09 UX și dispozitive",
+      "test_ids": [
+        "A05-C18",
+        "A05-C19",
+        "A05-C20",
+        "A05-C29"
+      ],
+      "final_state": "Ținta de verificat este Diferență 8−10=−2. Sold GL modificat o singură dată după aprobare; două scrieri pe aceeași versiune nu pot ambele confirma.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A05-P06",
+      "business_outcome": "Etichete, scanare, mobil și cale de revenire",
+      "trigger": "Operator deschide lista de lucru sau scanează produs / locator",
+      "actor_context": "Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID",
+      "input_contract": "tip entitate, cod intern/alias, unitate, context comenzi/document, tip client, versiune și cheie retry",
+      "state_machine": "identificat → validat → scanat → acceptat/conflict/refuzat → recitire sau confirmare",
+      "ui_route": "Etichete ERP și formulare scanare; client mobil WMS → comenzi proprii → inventar/pick → confirmare",
+      "api_calls": "ApiInventar, ScriereInventar, ApiAmbalare; consemnează ruta și contractul real pe instalare",
+      "service_symbols": [
+        "GeneratorEticheteCoduri",
+        "DialogEticheteCoduri",
+        "CampScanare",
+        "PoliticaScanare",
+        "GazdaScanare",
+        "ApiInventar",
+        "ApiAmbalare",
+        "DialogLocatoriGestiune",
+        "ScriereInventar",
+        "Fefo",
+        "OglindaWms"
+      ],
+      "db_reads_writes": [
+        "AD_PrintFormat",
+        "M_Product",
+        "M_Locator",
+        "EVA_MiscareWms",
+        "AD_Form",
+        "AD_Window",
+        "AD_Client",
+        "AD_Org",
+        "AD_Role",
+        "AD_Role_OrgAccess",
+        "M_InventoryLine",
+        "M_InOutLine",
+        "M_AttributeSetInstance",
+        "C_OrderLine",
+        "M_InOutLineMA"
+      ],
+      "native_documents": "AD_PrintFormat, AD_Form, M_Product, M_Locator, M_InventoryLine, M_InOutLineMA",
+      "external_effects": "Efectele partenerilor se simulează în fixture. Păstrează numai referința la probă dacă există o observație read-only autorizată în UI.",
+      "transaction_boundaries": "Reîncercarea pierderii răspunsului poartă aceeași cheie și același payload; același identificator cu payload diferit este conflict.",
+      "correlation_ids": [
+        "device_sintetic",
+        "rol",
+        "tenant",
+        "comanda",
+        "scan_id",
+        "linie",
+        "versiune"
+      ],
+      "authorization_guards": "Terminal revocabil, rol pe firmă și organizație; telefon Android, iPhone și stație HID. Dovedește că rolul poate acționa numai pe client, org, warehouse și document permis inclusiv prin apel direct în mediul de test.",
+      "idempotency_scope": "Înregistrează cheia economică şi versiunea per client, document sau linie, tip eveniment și device_sintetic,rol,tenant,comanda,scan_id,linie,versiune. Verifică retry identic și coliziunea cu payload diferit.",
+      "normal_path": [
+        "A05-C21",
+        "A05-C22",
+        "A05-C23",
+        "A05-C24",
+        "A05-C25",
+        "A05-C26"
+      ],
+      "negative_paths": "cod ambiguu, revocare, camera refuzată, reconectare, scan dublu, altă firmă",
+      "retry_timeout_concurrency": "Simulează cel puțin o cerere înainte și una după commit cu răspuns pierdut, apoi două sesiuni pe același stoc sau document. Reconciliere pe cheia și limita tranzacțională declarate.",
+      "compensation_reconciliation": "Recitește starea autoritativă înainte de retry manual, prezintă remediul operatorului și păstrează evenimentele distincte.",
+      "numeric_invariants": "Repetarea scanării aceluiași eveniment nu produce efect suplimentar. Fiecare suprafață activă din inventarul reconciliat are probă separată.",
+      "cross_zone_owners": "A09 UI Android/iPhone și C17–C20, A01 dispozitive, A02 AD, A07 handoff colet",
+      "test_ids": [
+        "A05-C21",
+        "A05-C22",
+        "A05-C23",
+        "A05-C24",
+        "A05-C25",
+        "A05-C26"
+      ],
+      "final_state": "Ținta de verificat este Repetarea scanării aceluiași eveniment nu produce efect suplimentar. Fiecare suprafață activă din inventarul reconciliat are probă separată.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    },
+    {
+      "pipeline_id": "A05-P07",
+      "business_outcome": "Retur și reconciliere operațională",
+      "trigger": "Marfa returnată intră în carantină și se decide dispoziția",
+      "actor_context": "Gestionar pentru primire, responsabil vânzări pentru autorizare și contabil A03",
+      "input_contract": "aviz/linie inițială, articol, ASI, qty, motiv, locator carantină, aprobator și decizie",
+      "state_machine": "retur identificat → primit → verificat → repus în stoc sau rebutat → decontat",
+      "ui_route": "ERP Retur/RMA → recepție și locator → decizie → document corectiv → raport operațional",
+      "api_calls": "RMA și recepție nativă dacă potrivită; urmărire OglindaWms și RegulaLegatura până la cost/GL",
+      "service_symbols": [
+        "OglindaWms",
+        "StocWms",
+        "RegulaLegatura"
+      ],
+      "db_reads_writes": [
+        "M_RMA",
+        "M_RMALine",
+        "M_InOut",
+        "M_InOutLineMA",
+        "EVA_MiscareWms",
+        "Fact_Acct",
+        "M_Transaction",
+        "M_StorageOnHand",
+        "EVA_StocWms",
+        "M_CostDetail"
+      ],
+      "native_documents": "M_RMA, M_RMALine, M_InOutLine, M_InOutLineMA, M_StorageOnHand, M_Transaction, Fact_Acct",
+      "external_effects": "Efectele partenerilor se simulează în fixture. Păstrează numai referința la probă dacă există o observație read-only autorizată în UI.",
+      "transaction_boundaries": "Corelare cheie retur–linie–lot și starea fizică. Separare între recepția cu carantină, acceptarea vânzării și compensarea financiară.",
+      "correlation_ids": [
+        "rma",
+        "linie_aviz",
+        "lot",
+        "document_receptie",
+        "locator",
+        "dispozitie",
+        "corectie"
+      ],
+      "authorization_guards": "Gestionar pentru primire, responsabil vânzări pentru autorizare și contabil A03. Dovedește că rolul poate acționa numai pe client, org, warehouse și document permis inclusiv prin apel direct în mediul de test.",
+      "idempotency_scope": "Înregistrează cheia economică şi versiunea per client, document sau linie, tip eveniment și rma,linie_aviz,lot,document_receptie,locator,dispozitie,corectie. Verifică retry identic și coliziunea cu payload diferit.",
+      "normal_path": [
+        "A05-C27",
+        "A05-C28"
+      ],
+      "negative_paths": "retur dublat, retur cantitate mai mare ca livrat, lot de la altă firmă, document inversat",
+      "retry_timeout_concurrency": "Simulează cel puțin o cerere înainte și una după commit cu răspuns pierdut, apoi două sesiuni pe același stoc sau document. Reconciliere pe cheia și limita tranzacțională declarate.",
+      "compensation_reconciliation": "Verifică returul până la aviz și legătura dintre nota fizică și documentul de corecție. Păstrează discrepanța pentru triere responsabilă.",
+      "numeric_invariants": "1 bucată întoarsă rămâne o singură bucată. Disponibil vandabil +0 înainte de aprobare; +1 după acceptare sau 0 la rebut.",
+      "cross_zone_owners": "A07 origine/retur, A03 financiar, A06 reofertare G3, A09 UX",
+      "test_ids": [
+        "A05-C27",
+        "A05-C28"
+      ],
+      "final_state": "Ținta de verificat este 1 bucată întoarsă rămâne o singură bucată. Disponibil vandabil +0 înainte de aprobare; +1 după acceptare sau 0 la rebut.",
+      "evidence_ids": [],
+      "status": "NEEXECUTAT"
+    }
+  ],
+  "native_double_check": {
+    "step1": "Identifică tag/commit exact al core instalat, modul și clasa din sursa oficială. Urmărește metoda PO, logica pentru stare, tranzacție, MA, ASI=0, UOM și costuri până la testul nativ corespunzător.",
+    "step2": "Pe instalarea potrivită, confirmă bundle activ, AD_Process/AD_Window/AD_Form, rol și funcționarea reală pe fixture. Absența din meniu la un rol nu înseamnă lipsă din core. Fixează versiunea pentru fiecare probă.",
+    "decision": "Compară cerința pe scenariu cu rezultatul nativ și cel EVA. Preferă configurarea nativă, apoi extinderea existentă. Dezvoltarea nouă se justifică prin diferența măsurată și lipsa unei adaptări mai mici. Documentează dacă o funcție doar există în sursă sau dacă este instalată și validată."
+  },
+  "historical_coverage": [
+    {
+      "historical_code": "C03.T0030",
+      "title": "Gestiuni și locatori fără confuzii",
+      "requirement_ids": [
+        "RZ-1.1",
+        "RZ-1.2",
+        "RZ-1.3",
+        "RZ-1.4",
+        "RZ-9.6"
+      ],
+      "finding_ids": [
+        "ARC-02",
+        "ARC-03"
+      ],
+      "control_ids": [
+        "A05-C01",
+        "A05-C02"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0031",
+      "title": "Identități permanente pentru CPP și CPA",
+      "requirement_ids": [
+        "RZ-10.4"
+      ],
+      "finding_ids": [
+        "G123-13",
+        "G123-19"
+      ],
+      "control_ids": [
+        "A05-C04"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0032",
+      "title": "Rețete și unități de măsură controlate",
+      "requirement_ids": [],
+      "finding_ids": [
+        "G123-04",
+        "G123-06"
+      ],
+      "control_ids": [
+        "A05-C08"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0033",
+      "title": "Cost inițial și preț în lista corectă",
+      "requirement_ids": [
+        "RZ-10.1",
+        "RZ-10.2",
+        "RZ-10.3"
+      ],
+      "finding_ids": [
+        "C03-A02"
+      ],
+      "control_ids": [
+        "A05-C07"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0034",
+      "title": "Evidența fizică G2 și încărcarea inițială",
+      "requirement_ids": [
+        "RZ-9.1",
+        "RZ-9.3",
+        "RZ-9.4",
+        "RZ-9.5",
+        "RZ-9.7",
+        "RZ-9.9"
+      ],
+      "finding_ids": [
+        "ARC-02",
+        "G123-12",
+        "RA-AG-01"
+      ],
+      "control_ids": [
+        "A05-C03"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0035",
+      "title": "Recepție și amplasare pe raft",
+      "requirement_ids": [
+        "RZ-3.1",
+        "RZ-3.2",
+        "RZ-3.3"
+      ],
+      "finding_ids": [
+        "C03-A06"
+      ],
+      "control_ids": [
+        "A05-C05"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0036",
+      "title": "Transferuri și tranzit cu proveniență",
+      "requirement_ids": [
+        "RZ-9.10"
+      ],
+      "finding_ids": [
+        "ARC-01",
+        "ARC-02"
+      ],
+      "control_ids": [
+        "A05-C06"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0037",
+      "title": "Asamblare pentru stoc sau pentru comandă",
+      "requirement_ids": [],
+      "finding_ids": [
+        "G123-05",
+        "G123-08",
+        "C03-A06"
+      ],
+      "control_ids": [
+        "A05-C09",
+        "A05-C10"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0038",
+      "title": "Dezasamblare înainte de culegerea pieselor",
+      "requirement_ids": [],
+      "finding_ids": [
+        "G123-07",
+        "G123-08"
+      ],
+      "control_ids": [
+        "A05-C11"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0039",
+      "title": "Ambalaje și manoperă înregistrate o singură dată",
+      "requirement_ids": [
+        "RZ-18.1"
+      ],
+      "finding_ids": [
+        "C03-A03",
+        "G123-05"
+      ],
+      "control_ids": [
+        "A05-C12"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0040",
+      "title": "Alocarea fizică a întregului val de comenzi",
+      "requirement_ids": [
+        "RZ-4.1",
+        "RZ-4.2",
+        "RZ-4.3"
+      ],
+      "finding_ids": [
+        "ARC-01",
+        "TECH-01",
+        "G123-04"
+      ],
+      "control_ids": [
+        "A05-C13",
+        "A05-C14"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0041",
+      "title": "Loturi, serii și termen de valabilitate",
+      "requirement_ids": [
+        "RZ-7.1",
+        "RZ-7.2",
+        "RZ-7.3",
+        "RZ-8.1",
+        "RZ-8.2",
+        "RZ-8.3"
+      ],
+      "finding_ids": [
+        "C03-A03"
+      ],
+      "control_ids": [
+        "A05-C15"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0042",
+      "title": "Pick confirmat și aviz înaintea validării comerciale",
+      "requirement_ids": [
+        "RZ-15.1",
+        "RZ-15.2",
+        "RZ-15.3"
+      ],
+      "finding_ids": [
+        "C03-A01",
+        "C03-A04",
+        "G123-07",
+        "G123-17"
+      ],
+      "control_ids": [
+        "A05-C16",
+        "A05-C17"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0043",
+      "title": "Inventar fizic și diferențe aprobate",
+      "requirement_ids": [
+        "RZ-14.2",
+        "RZ-14.3",
+        "RZ-17.1",
+        "RZ-17.2",
+        "RZ-17.3",
+        "RZ-17.4",
+        "RZ-17.5",
+        "RZ-17.6",
+        "RZ-17.7",
+        "RZ-17.8",
+        "RZ-9.2",
+        "RZ-9.8"
+      ],
+      "finding_ids": [
+        "G123-12",
+        "RI-07"
+      ],
+      "control_ids": [
+        "A05-C18",
+        "A05-C29"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0044",
+      "title": "Import de numărători pe produs, locator și lot",
+      "requirement_ids": [
+        "RZ-2.1",
+        "RZ-2.2"
+      ],
+      "finding_ids": [
+        "C03-A05"
+      ],
+      "control_ids": [
+        "A05-C19"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0045",
+      "title": "Etichete native pentru produse și locatori",
+      "requirement_ids": [
+        "RZ-5.1",
+        "RZ-5.2",
+        "RZ-5.3"
+      ],
+      "finding_ids": [],
+      "control_ids": [
+        "A05-C21"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0046",
+      "title": "Scanare consecventă în cele 15 ecrane ERP",
+      "requirement_ids": [
+        "RZ-6.1",
+        "RZ-6.2"
+      ],
+      "finding_ids": [],
+      "control_ids": [
+        "A05-C22"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0047",
+      "title": "Drepturi și dispozitive pentru operarea WMS",
+      "requirement_ids": [
+        "RZ-11.1",
+        "RZ-11.2",
+        "RZ-11.3",
+        "RZ-11.4"
+      ],
+      "finding_ids": [
+        "RI-09"
+      ],
+      "control_ids": [
+        "A05-C23"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0048",
+      "title": "API WMS comun pentru toate interfețele",
+      "requirement_ids": [
+        "RZ-12.1",
+        "RZ-12.2",
+        "RZ-12.3",
+        "RZ-12.4",
+        "RZ-12.5"
+      ],
+      "finding_ids": [
+        "C03-A04",
+        "RI-09"
+      ],
+      "control_ids": [
+        "A05-C24"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0049",
+      "title": "Client mobil WMS și distribuție controlată",
+      "requirement_ids": [
+        "RZ-13.1",
+        "RZ-13.2",
+        "RZ-13.3",
+        "RZ-13.4"
+      ],
+      "finding_ids": [
+        "RI-09"
+      ],
+      "control_ids": [
+        "A05-C25"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0050",
+      "title": "Numărare mobilă cu verificarea concurenței",
+      "requirement_ids": [
+        "RZ-14.1"
+      ],
+      "finding_ids": [
+        "RI-09",
+        "RA-AG-01"
+      ],
+      "control_ids": [
+        "A05-C20"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0051",
+      "title": "Pick mobil pe cantitățile și loturile reale",
+      "requirement_ids": [
+        "RZ-16.1",
+        "RZ-16.2"
+      ],
+      "finding_ids": [
+        "C03-A01",
+        "C03-A04"
+      ],
+      "control_ids": [
+        "A05-C26"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0052",
+      "title": "Retur fizic și trasabilitate până la origine",
+      "requirement_ids": [],
+      "finding_ids": [
+        "ARC-02",
+        "G123-13"
+      ],
+      "control_ids": [
+        "A05-C27"
+      ],
+      "current_task_ids": "conform A12, separat"
+    },
+    {
+      "historical_code": "C03.T0053",
+      "title": "Pilot complet, indicatori și predare operabilă",
+      "requirement_ids": [
+        "RZ-19.1",
+        "RZ-19.2",
+        "RZ-19.3"
+      ],
+      "finding_ids": [
+        "RI-12",
+        "RI-14",
+        "RA-AG-04",
+        "RA-AG-06"
+      ],
+      "control_ids": [
+        "A05-C28"
+      ],
+      "current_task_ids": "conform A12, separat"
+    }
+  ],
+  "required_evidence": [
+    "ID cerință/control/task, versiune Git/core/bundle/DB/AD/rol/fixture. Dovadă UI cu date mascate și URL sau identificator AD.",
+    "Cale:linie/simbol/hash Git și test independent cu intrare, ieșire așteptată/observată. Copie raw cu SHA-256.",
+    "Stări DR/CO/RE, Processed/Posted când aplicabil, document/linie/lot/locator/MIșcare/Fact_Acct. SQL doar citire cu parametri și rezultate înainte și după.",
+    "Negativ, retry, ordine tranzacțională, impact și contraproba. Rol și limite ale observației."
+  ],
+  "completion_denominator": {
+    "controls": 29,
+    "pipelines": 7,
+    "historical_manual_functions": 24,
+    "p01_task_binding": "registru live sau export reconciliat de A12, corelare după cerință nu similitudine cod",
+    "blocked": "BLOCAT la lipsă runtime/core/AD/date. Pentru indisponibilitate catalog extern, mobile sau anumite roluri, documentează ce probe lipsesc și cui îi revine verificarea.",
+    "report_gate": "Fiecare control aplicabil are verdict, probă și reproducere conform A11. Reducerea domeniului și N/A primesc motiv verificabil. Erorile reale rămân vizibile în raport chiar dacă auditorul validează calitatea auditului."
+  },
+  "templates": {
+    "audit_plan": [
+      "audit_id",
+      "scope",
+      "cutoff_utc",
+      "repositories_and_shas",
+      "deployed_version_or_unknown",
+      "source_manifest",
+      "zones[10]",
+      "A11_reviewer",
+      "A12_task_auditor",
+      "inventory_denominators",
+      "access_matrix",
+      "prior_requirement_mapping",
+      "pipeline_catalog",
+      "checklists",
+      "execution_order",
+      "test_environment_and_safety",
+      "evidence_schema",
+      "scoring_and_gates",
+      "rework_protocol",
+      "deliverables"
+    ],
+    "zone_assignment": [
+      "zone_id",
+      "agent_id",
+      "objective",
+      "included_modules_paths",
+      "ui_routes",
+      "endpoints_jobs",
+      "db_objects",
+      "excluded_scope_and_owner",
+      "roles_tenants",
+      "upstream_downstream_contracts",
+      "controls_with_ids",
+      "fixtures",
+      "invariants",
+      "native_reuse_and_proof_plan",
+      "required_evidence",
+      "completion_denominator",
+      "reviewer"
+    ],
+    "control": [
+      "control_id",
+      "requirement_id",
+      "task_ids",
+      "zone_id",
+      "pipeline_ids",
+      "layer",
+      "risk",
+      "applicability",
+      "method",
+      "environment",
+      "role_context",
+      "preconditions",
+      "fixture",
+      "steps_or_command",
+      "expected",
+      "observed",
+      "status",
+      "evidence_ids",
+      "finding_ids",
+      "cleanup",
+      "executor",
+      "executed_at",
+      "reviewer_result"
+    ],
+    "pipeline": [
+      "pipeline_id",
+      "business_outcome",
+      "trigger",
+      "actor_context",
+      "input_contract",
+      "state_machine",
+      "ui_route",
+      "api_calls",
+      "service_symbols",
+      "db_reads_writes",
+      "native_documents",
+      "external_effects",
+      "transaction_boundaries",
+      "correlation_ids",
+      "authorization_guards",
+      "idempotency_scope",
+      "normal_path",
+      "negative_paths",
+      "retry_timeout_concurrency",
+      "compensation_reconciliation",
+      "numeric_invariants",
+      "cross_zone_owners",
+      "test_ids",
+      "final_state",
+      "evidence_ids"
+    ],
+    "task_audit": [
+      "source_url_or_export",
+      "source_project_chapter_id",
+      "original_code",
+      "canonical_code_or_ambiguity",
+      "title",
+      "source_status",
+      "finished_at",
+      "source_capture_hash",
+      "requirements_verbatim",
+      "acceptance_criteria",
+      "claimed_completion_evidence",
+      "commit_links",
+      "implementation_locations",
+      "frontend_checks",
+      "backend_checks",
+      "db_checks",
+      "pipeline_checks",
+      "native_reuse_checks",
+      "positive_negative_tests",
+      "expected_observed_per_criterion",
+      "finding_ids",
+      "implementation_verdict",
+      "audit_completeness_score",
+      "A11_review",
+      "limitations"
+    ],
+    "finding": [
+      "finding_id",
+      "zone_task_ids",
+      "title",
+      "severity",
+      "confidence",
+      "classification",
+      "preconditions",
+      "expected_requirement",
+      "observed_fact",
+      "file_symbol_lines_sha",
+      "evidence_level",
+      "reproduction",
+      "evidence_ids",
+      "impact",
+      "root_cause",
+      "native_first_remediation",
+      "regression_test",
+      "cross_zone_impact",
+      "status",
+      "owner",
+      "A11_decision",
+      "false_positive_history"
+    ],
+    "evidence": [
+      "evidence_id",
+      "kind",
+      "captured_at_utc",
+      "executor",
+      "environment",
+      "version_or_sha",
+      "source_path_or_url",
+      "line_selector_or_query",
+      "command_or_steps",
+      "fixture_or_input_hash",
+      "raw_artifact_path",
+      "sha256",
+      "observed_result",
+      "redactions",
+      "limitations"
+    ],
+    "review": [
+      "review_id",
+      "reviewer",
+      "artifact_hash",
+      "rubric_hash",
+      "subcheck_results",
+      "score",
+      "hard_blockers",
+      "mandatory_corrections",
+      "independent_reproductions",
+      "contradictions",
+      "decision",
+      "reviewed_at",
+      "next_revision"
+    ],
+    "re_audit": [
+      "revision_id",
+      "previous_artifact_hash",
+      "trigger_findings",
+      "changes_to_audit_or_product",
+      "new_sha_or_same",
+      "tests_rerun_and_reason",
+      "original_failures_preserved",
+      "new_results",
+      "new_regressions",
+      "reviewer",
+      "decision"
+    ]
+  },
+  "reviewer": "A11",
+  "change_control": "La alt SHA păstrează raportul vechi, verifică delta de sursă, DB/AD și amprentele fixture. Reexecută controalele afectate și cazurile adiacente, păstrează constatările infirmate cu motiv în istoric."
+}

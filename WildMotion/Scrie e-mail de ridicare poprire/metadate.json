@@ -1,0 +1,23 @@
+{
+  "id": "01a17dc7-b25e-7191-aea0-02db5679118c",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES",
+  "created_at": 1793111601,
+  "updated_at": 1793111837,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Scrie e-mail de ridicare poprire",
+  "project_id": "13771f36-ff54-4018-99b0-f69f8dfdd2f8",
+  "project": "WildMotion",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 387281,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 24,
+  "message_count": 13,
+  "content_sha256": "1ee6fdb1909ee75e8cabeadd06671fb8f8b5cff546dc59dcc769fde951c5d555",
+  "files_copied": 0,
+  "references_not_copied": 3
+}

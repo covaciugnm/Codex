@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs');
+let listener,calls=[],fail=false;
+const context={importScripts(){},LOCAL_ARCHIVE:{url:'http://127.0.0.1:8765',token:'fixture'},AbortController,setTimeout,clearTimeout,chrome:{runtime:{id:'test',onMessage:{addListener(fn){listener=fn}}}},fetch:async(url,options)=>{calls.push({url,options});if(fail)throw Error('offline');return {ok:true,json:async()=>({messages:1})}}};
+vm.runInNewContext(fs.readFileSync(__dirname+'/background.js','utf8'),context);
+const request=(req,sender={id:'test',tab:{url:'https://message.alibaba.com/message/'}})=>new Promise(resolve=>listener(req,sender,resolve));
+(async()=>{let r=await request({type:'capture',data:{id:'42',messages:[{key:'m'}]}});assert(r.ok);assert.equal(calls[0].options.headers['X-Archive-Key'],'fixture');assert.equal(calls[0].options.method,'POST');assert.equal(JSON.parse(calls[0].options.body).id,'42');r=await request({type:'capture',data:{}},{id:'test',tab:{url:'https://evil.example/'}});assert(!r.ok);assert.equal(calls.length,1);fail=true;r=await request({type:'archiveStatus'});assert(!r.ok);assert.match(r.error,/nu a fost confirmată/);console.log('Bridge tests passed')})().catch(e=>{console.error(e);process.exitCode=1});

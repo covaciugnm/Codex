@@ -1,0 +1,23 @@
+{
+  "id": "01a162f3-09dc-7422-872d-06cdd90ad5e7",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1792661457,
+  "updated_at": 1792665305,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Berger",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 156346,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 41,
+  "message_count": 12,
+  "content_sha256": "fd4e7d630064630787e0fc2fde9649a4661f5fa6d7708e558c56d79e9c75623b",
+  "files_copied": 3,
+  "references_not_copied": 1
+}

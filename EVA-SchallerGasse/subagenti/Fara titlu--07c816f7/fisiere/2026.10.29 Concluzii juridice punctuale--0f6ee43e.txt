@@ -1,0 +1,33 @@
+2026.10.29 — DONAU: durată, mandat și dreptul cumpărătorului
+
+Baza factuală comunicată de coordonator: DONAU afirmă renegociere cu Seipt în noiembrie 2025, cerere colectivă semnată la 2026.01.08, mutarea expirării din 2033 în 2036 și confirmă acum plata/acoperirea. Aceste afirmații trebuie confruntate cu cererea și înscrisurile; nu sunt înlocuite prin presupunerea că mandatul era invalid.
+
+1. Durata și §8 VersVG
+Legea consolidată a fost verificată în RIS în versiunea 2026.10.29. §8(1) limitează PRELUNGIREA TACITĂ la câte un an; nu limitează la un an o renegociere expresă. Dacă documentul din 2026.01.08 acceptă durata până în 2036 pentru imobil și reprezentarea era valabilă, mutarea 2033–2036 nu este interzisă numai pentru că depășește un an. §8(3), încetarea după trei ani, este pentru consumatori. A&C, societate care deține și exploatează imobilul comercial, nu poate pretinde automat această protecție. §8(2) nu transformă un contract pe durată determinată în contract nedeterminat numai pentru că are clauză de prelungire.
+Sursa actuală: https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979
+
+2. Mandatul administratorului — precedent direct mai nou
+OGH 7 Ob 127/18d, 2018.08.29, PDF p.2, pct.2.1: asigurarea clădirii pe zece ani intră în mandatul obișnuit al administratorului; prelungirea pentru o durată determinată poate fi tratată la fel. Pct.2.2 confirmă că prelungirea pe durată determinată nu deschide prin ea însăși ieșirea din §8(2). Este respingerea recursului extraordinar ca lipsit de problemă juridică importantă, pe faptele stabilite de instanțele inferioare, nu o prezumție absolută că orice mandat și orice document sunt valabile.
+URL: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20180829_OGH0002_0070OB00127_18D0000_000/JJT_20180829_OGH0002_0070OB00127_18D0000_000.pdf
+RS0025122 confirmă aceeași linie, inclusiv 3 Ob 594/56 și 5 Ob 177/98k:
+https://ris.bka.gv.at/Dokumente/Justiz/JJR_19561212_OGH0002_0030OB00594_5600000_001/JJR_19561212_OGH0002_0030OB00594_5600000_001.pdf
+ABGB§1029: încredințarea administrării presupune puterea pentru operațiunile necesare și obișnuite administrării:
+https://www.ris.bka.gv.at/eli/jgs/1811/946/P1029/NOR40070125
+Consecință: nu este o apărare suficientă lipsa semnăturii personale A&C. Trebuie identificat cine a semnat, pentru cine, cine era proprietar la încheiere, lanțul mandatului Seipt/administrator și eventualele limitări relevante opozabile asigurătorului. Valabilitatea față de asigurător este distinctă de răspunderea internă a administratorului ori vânzătorului.
+
+3. Dobândirea și cunoașterea — §§69–70
+§69 transferă drepturile și obligațiile odată cu proprietatea. Pentru imobil, data contractului de vânzare ori schimbarea numelui în poliță nu substituie dobândirea prin cartea funciară.
+OGH 7 Ob 6/80, 1980.03.20: termenul de o lună pentru cumpărător curge de la cunoașterea dobândirii înscrise, prin comunicarea hotărârii de intabulare. Nu se numără mecanic de la data înscrierii fără verificarea comunicării.
+https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19800320_OGH0002_0070OB00006_8000000_000/JJT_19800320_OGH0002_0070OB00006_8000000_000.pdf
+OGH 7 Ob 20/89, 1989.06.15: pentru cunoașterea asigurării este suficient să știe existența și numele asigurătorului; nu trebuie cunoscute condițiile și durata exactă. Cumpărătorul trebuie să dovedească o cunoaștere mai târzie decât momentul normal. Primirea acum a documentului de renegociere nu redeschide automat §70.
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True&ShowPrintPreview=True
+În acest dosar trebuie corelate hotărârea de intabulare și dovada comunicării, emailurile din martie/mai și prima declarație de încetare primită de DONAU. Dacă toate condițiile de cunoaștere erau îndeplinite cu luni înaintea cererii din octombrie, această cale este probabil tardivă. Nu trebuie susținut categoric că dreptul nu a existat vreodată: §70 îl acordă și societății, dar pentru o lună.
+
+4. Opțiuni reale după răspuns
+- Obținerea cererii colective complete, inclusiv pagina/lista care identifică exact această poliță, durata, data/semnătura și acceptarea; verificarea mandatului concret, fără prezumție de invaliditate.
+- Verificarea dacă declarația existentă de încetare a ajuns în termenul §70 calculat corect; lipsa cunoașterii detaliilor nu prelungește termenul.
+- Dacă prelungirea expresă nu este dovedită, disputa privește în primul rând revenirea la scadența anterior convenită, posibil2033, nu automat ieșirea imediată.
+- Negociere amiabilă, reducere de primă/risc și drepturi contractuale separate. O clauză anuală din cadrul colectiv ori un drept după sinistru trebuie probate și îndeplinite; afirmația generală «nu există Sonderkündigungsrecht» nu înlocuiește analiza acestora.
+- Confirmarea acoperirii de azi nu stabilește singură acoperirea retroactivă pentru toate lunile de neplată și nu dovedește renunțarea la toate accesoriile. Se citește exact intervalul și întinderea confirmării; nu se descrie polița ca suspendată dacă răspunsul confirmă acoperire actuală.
+
+Sursele noi sunt salvate în subfolderul Surse, cu registru și SHA-256. Jurnalele și indexul nu au fost modificate de agentul de cercetare.

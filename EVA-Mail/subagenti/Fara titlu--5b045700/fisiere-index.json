@@ -1,0 +1,23 @@
+[
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail\\re-audit-2026-11-01\\review-agent-2-batch-check.py",
+    "status": "copiat",
+    "saved_path": "fisiere/review-agent-2-batch-check--696914a4.py",
+    "bytes": 2318,
+    "sha256": "cd643b4e379aee9c534e4f172243297f523ea5a911e08fde2c034fea7bff023d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail\\re-audit-2026-11-01\\review-agent-2-integrity.py",
+    "status": "copiat",
+    "saved_path": "fisiere/review-agent-2-integrity--1c8cb7ab.py",
+    "bytes": 7996,
+    "sha256": "92a71b7f3ff52502ada3efa6e53b287bd0a1a9549e1d8ce120d602d8677a2eef"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail\\re-audit-2026-11-01\\review-agent-2-source-map.py",
+    "status": "copiat",
+    "saved_path": "fisiere/review-agent-2-source-map--1e94f203.py",
+    "bytes": 4787,
+    "sha256": "00bf68c3d7e6c483470076398fc4844b96952a6cc66a343f775daaf70a0fa259"
+  }
+]

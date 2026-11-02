@@ -1,0 +1,140 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/AI_Glasses_2026/AI_Glasses_2026.html",
+    "status": "copiat",
+    "saved_path": "fisiere/AI_Glasses_2026--9bf85c42.html",
+    "bytes": 2417634,
+    "sha256": "9f326fa41cd639b3cb1d0da4addd1b737661d2ba2e144781115dff0c25861f9e"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/AI_Glasses_2026/AI_Glasses_2026_Livrare.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/AI_Glasses_2026_Livrare--a0e72d5f.zip",
+    "bytes": 244203,
+    "sha256": "daadbe0d1c0636359c0e6075545f8ade7d717544521b00ecd50f718299e73272"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/AI_Glasses_2026/audit-final.html",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-final--35fdc925.html",
+    "bytes": 6339,
+    "sha256": "26239da407d9518f23db41e24db89575899eadb5581b2b5b7fce76a00f7af3d0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.ssh\\iflytek_deploy_20261031",
+    "status": "configuratie_sau_credentiale_excluse"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\AI_Glasses_2026\\qa-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/qa-desktop--fcec6c79.png",
+    "bytes": 110282,
+    "sha256": "e08aea7018f8de8ca26b921ce1a63d923a26911dc96cc8149596450e11e637a1"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\AI_Glasses_2026\\qa-matrix.png",
+    "status": "copiat",
+    "saved_path": "fisiere/qa-matrix--694459ec.png",
+    "bytes": 105281,
+    "sha256": "59955cfc77f5e5d5da7d3f8615a4a4d60c39505918fc21a49ae132dece769f53"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\AI_Glasses_2026\\qa-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/qa-mobile--7008ea13.png",
+    "bytes": 46444,
+    "sha256": "5d3e81e6da1a0e2f6b04d084f6890f9da2d6a313b1461c87066b721ffdfd6908"
+  },
+  {
+    "source_reference": "https://developer.inmolens.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.xreal.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://doc.hiar.com/doc-992834",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://eu.rayneo.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://eu.shop.xreal.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://file.llvision.com/download/AR_FSM_Solution.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/tree/research/ai-glasses-2026-10-31",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gsma.my.site.com/mwcoem/servlet/servlet.FileDownload?file=00P6900002pubLGEAY",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://hub.evenrealities.com/docs/get-started/overview",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://open.rokid.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://rayneo.cn/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://smartxy.com.cn/about/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://smartxy.com.cn/products/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.evenrealities.com/hc/en-us/articles/13499229138959-Specs",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.evenrealities.com/en-DE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.hiar.com/product/g200",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.indiegogo.com/en/projects/madgaze/mad-gaze-glow-the-best-mr-smart-glasses",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.kickstarter.com/projects/inmo-air3-ar-glasses/inmo-air3-smart-ar-glasses",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.qualcomm.com/developer/project/get-started-with-rayneo-x3-pro-ar-development",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.rayneo.com/pages/x3-pro-launch",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.xreal.cn/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.xvisiotech.com/wp-content/uploads/pdf/SeerLens%E2%84%A2%20One%20AR%20Glasses-CN.pdf",
+    "status": "referinta_externa_necopiata"
+  }
+]

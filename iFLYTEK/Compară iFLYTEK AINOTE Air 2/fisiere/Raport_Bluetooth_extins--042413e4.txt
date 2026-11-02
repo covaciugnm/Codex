@@ -1,0 +1,75 @@
+NOTĂ DE ETAPĂ ISTORICĂ — actualizare de orientare, 30.10.2026
+Textul de mai jos descrie stadiul cercetării la momentul redactării lui.
+Etapele ulterioare au decompilat componentele Android din APK 1.0.3899 și au identificat UUID-uri GATT, constructori de comenzi și parseri.
+Afirmațiile de mai jos despre lipsa decompilării / a UUID-urilor / a unui protocol documentat trebuie citite numai în contextul acelei etape.
+Rezultatul actual este o reconstrucție experimentală din APK, cu limite explicite; nu este un SDK oficial și nu a fost validat pe ochelari sau în cloud.
+Catalog actual: ../APK_Reconstituit_2026-10-30/catalog-parametri-functii/INDEX.html
+Protocol: ../APK_Reconstituit_2026-10-30/protocol-comunicare/INDEX.html
+Firmware: ../APK_Reconstituit_2026-10-30/firmware-analiza/INDEX.html
+Audit și corectări: ../APK_Reconstituit_2026-10-30/audit-calitate/INDEX.html
+
+--- RAPORTUL ETAPEI INIȚIALE ---
+
+CERCETARE EXTINSA SDK BLUETOOTH iFLYTEK GLASSES - 2026-10-30
+
+CONCLUZIE
+Componenta Bluetooth pentru ochelari a fost identificata in APK-ul oficial al aplicatiei de traducere. Nu am gasit o distributie publica separata (AAR, framework iOS, documentatie de integrare sau demo) pentru aceasta componenta. Absenta rezultatelor nu demonstreaza inexistenta unei distributii private pentru parteneri.
+
+SURSE OFICIALE
+https://m.iflytranslate.com/
+Scriptul paginii: https://m.iflytranslate.com/assets/index-DtJPbGnW.js
+Ruta Android folosita de pagina: https://m.iflytranslate.com/download/android/FY10010010
+Politica: https://saas-public.ioss.xfinfr.com/private/config/privacy-policy.html
+Lista SDK: https://saas-public.ioss.xfinfr.com/private/config/third-party.html
+Politica sectiunea 1.14.1 mentioneaza explicit 科大讯飞蓝牙SDK pentru conectarea ochelarilor.
+
+ARTEFACT ANALIZAT STATIC, FARA INSTALARE
+iflytranslate-official.apk
+254403130 bytes
+SHA256: 73170CDC5C3331CD6055607015C04ED8E0A314F4C0BD2FD4651E2B732D1B3DA2
+Header HTTP Last-Modified: 2026-10-21. Acesta nu este numarul versiunii aplicatiei.
+6 fisiere DEX. Aplicatia include Flutter si biblioteci native.
+
+IDENTIFICATOR TEHNIC CONFIRMAT IN DEX
+com.iflytek.easytrans.headset.bluetooth
+Clase:
+manager.CoreBluetoothManager
+manager.DeviceType
+manager.DeviceCapability
+ device.CoreBluetoothDevice
+recorder.BtGlassRecorder
+player.BtGlassPlayer
+bean.glasses.GlassesBatteryInfo / GlassesStateInfo / GlassesSystemInfo / GlassesVersionInfo
+bean.GlassCameraParams
+bean.TranslationTextData
+bean.TeleprompterParams / TeleprompterControlParams
+bean.FileTransferCtrlParams / FileTransferCtrlResponse
+ota.spp.SPPStateMachine
+
+Referinte metode DEX ale BtGlassRecorder includ setOriginalEnable, setTranslateEnable, stop, onError.
+CoreBluetoothDevice include connect, disconnect, isConnected, isConnecting.
+Majoritatea metodelor sunt redenumite prin obfuscare. Numele nu documenteaza parametrii, formatul audio sau accesibilitatea pentru aplicatii externe.
+SPP apare in calea OTA; aceasta nu demonstreaza ca audio pentru ochelari circula prin SPP.
+Clasele pentru ochelari din aplicatie nu valideaza singure compatibilitatea fiecarei versiuni hardware XF-AIGlasses-01.
+
+CAUTARI
+Web in romana/engleza/chineza, portaluri iFLYTEK, GitHub repository si code search, cautari indexate Gitee, Maven, CocoaPods, npm. Nu toate registrele/private repositories sunt accesibile sau indexate.
+GitHub code search: XF-AIGlasses, 科大讯飞蓝牙SDK: zero rezultate.
+Dupa inspectia APK: cautari web exacte pentru com.iflytek.easytrans.headset.bluetooth, BtGlassRecorder, BtGlassPlayer, easytrans CoreBluetoothManager: zero rezultate.
+GitHub code search exact pentru pachet, BtGlassRecorder, BtGlassPlayer: zero rezultate, incomplete_results=false.
+
+REZULTATE CARE NU SUNT SDK PENTRU ACESTI OCHELARI
+https://github.com/lianshuang-photo/s1-voice-bridge - microfonul S1 de la tastatura T8; foloseste componente din iFLYAssistant pentru macOS. Nu confirma compatibilitate cu ochelarii.
+https://github.com/sctg-development/ai-smart-glasses-e09 - Eyevue E09, nu XF-AIGlasses.
+https://github.com/buildwithfenna/rokid-docs - Rokid, nu XF-AIGlasses.
+https://github.com/wingsfly/glassclaw - RayNeo, nu SDK oficial iFLYTEK GlassClaw.
+AIKIT/AIUI/MSC pentru recunoastere/sinteza nu echivaleaza cu protocolul Bluetooth pentru ochelari.
+
+IMPLICATIE PENTRU PROIECT
+Exista acum o tinta tehnica precisa pentru integrarea microfonului, dar nu inca un SDK utilizabil documentat. Sunt necesare semnaturile si dependentele recorderului, formatul si callback-ul audio, conectarea/autentificarea, apoi verificare cu dispozitiv real. Nu au fost masurate latenta, accesul PCM, rutarea simultana spre casti sau functionarea offline.
+Pentru producator, solicitarea exacta: Android AAR/iOS XCFramework pentru com.iflytek.easytrans.headset.bluetooth, demo BtGlassRecorder/BtGlassPlayer, acces audio PCM, GATT/SPP si autentificare, licenta de integrare pentru XF-AIGlasses-01.
+
+FISIERE DOVEZI
+apk-class-names.txt: nume de clase identificate static.
+apk-bluetooth-method-references.txt: referinte de metode din tabelele DEX, nu documentatie API.
+official-download-page.js: scriptul paginii oficiale care furnizeaza ruta APK.

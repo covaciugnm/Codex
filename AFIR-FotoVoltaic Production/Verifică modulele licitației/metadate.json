@@ -1,0 +1,23 @@
+{
+  "id": "01a17778-27a2-7392-b8ed-e4ea658ca6c0",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+  "created_at": 1793005725,
+  "updated_at": 1793005778,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică modulele licitației",
+  "project_id": "a62819fc-eecd-41a3-acfa-724e26db8d88",
+  "project": "AFIR-FotoVoltaic Production",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 91784,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 7,
+  "message_count": 3,
+  "content_sha256": "4cdc6f870627c270a4c6e32744e666795454001360e8c271d64b7403ad42fc00",
+  "files_copied": 3,
+  "references_not_copied": 0
+}

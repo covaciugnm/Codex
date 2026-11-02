@@ -1,0 +1,94 @@
+{
+  "searched_at": "2026-10-29",
+  "policy_search": {
+    "items": [
+      {
+        "id": "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+        "account_email": "office@ac-wohnart.at",
+        "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+        "from_name": "Höbinger Andreas",
+        "from_address": "A.Hoebinger@donauversicherung.at",
+        "to": [
+          "office@ac-wohnart.at"
+        ],
+        "received_at": "2026-10-29T12:25:50Z",
+        "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nin urlaubsbedingter Vertretung von Frau Loschy kann ich Ihnen wie fol",
+        "category": "fyi",
+        "labels": [
+          "1: To respond",
+          "99: Important"
+        ],
+        "folder": "Höbinger Andreas",
+        "is_read": true,
+        "is_starred": false,
+        "is_sent": false,
+        "has_attachments": true,
+        "attachment_names": [
+          "image001.png",
+          "Vollmacht Hofhans.pdf",
+          "703920_Antrag.pdf",
+          "Deckungserweiterungen_RV 29000010498.pdf",
+          "Polizze 2044001194 per 17.03.2023.PDF",
+          "Memoformat.pdf",
+          "1120 Wien, Schallergasse 35_Antrag.pdf",
+          "Polizze 2044001194 per 03.06.2020.PDF",
+          "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+          "Korrespondenz zu Eigentümerwechsel.pdf"
+        ]
+      }
+    ],
+    "total": 1,
+    "limit": 50,
+    "offset": 0
+  },
+  "sender_search": {
+    "items": [
+      {
+        "id": "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+        "account_email": "office@ac-wohnart.at",
+        "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+        "from_name": "Höbinger Andreas",
+        "from_address": "A.Hoebinger@donauversicherung.at",
+        "to": [
+          "office@ac-wohnart.at"
+        ],
+        "received_at": "2026-10-29T12:25:50Z",
+        "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nin urlaubsbedingter Vertretung von Frau Loschy kann ich Ihnen wie fol",
+        "category": "fyi",
+        "labels": [
+          "1: To respond",
+          "99: Important"
+        ],
+        "folder": "Höbinger Andreas",
+        "is_read": true,
+        "is_starred": false,
+        "is_sent": false,
+        "has_attachments": true,
+        "attachment_names": [
+          "image001.png",
+          "Vollmacht Hofhans.pdf",
+          "703920_Antrag.pdf",
+          "Deckungserweiterungen_RV 29000010498.pdf",
+          "Polizze 2044001194 per 17.03.2023.PDF",
+          "Memoformat.pdf",
+          "1120 Wien, Schallergasse 35_Antrag.pdf",
+          "Polizze 2044001194 per 03.06.2020.PDF",
+          "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+          "Korrespondenz zu Eigentümerwechsel.pdf"
+        ]
+      }
+    ],
+    "total": 1,
+    "limit": 50,
+    "offset": 0
+  },
+  "office_sync": {
+    "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "email": "office@ac-wohnart.at",
+    "provider": "imap",
+    "permission": "owner",
+    "searchable": true,
+    "is_active": true,
+    "last_sync": "2026-10-29T13:30:14.013691Z"
+  }
+}

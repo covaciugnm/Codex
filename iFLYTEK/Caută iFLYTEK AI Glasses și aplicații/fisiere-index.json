@@ -1,0 +1,529 @@
+[
+  {
+    "source_reference": "D:/Codex-iflytek-apk-analysis-20261101/versions/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--829009b0.html",
+    "bytes": 6358,
+    "sha256": "a3104929d26ef138e4cc4e2c025f68fda6acb5e7f030b8e7f700446764d8767a"
+  },
+  {
+    "source_reference": "D:/Codex-iflytek-decompilation-repair-20261101/own-software-audit/AUDIT-PRELIMINAR.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT-PRELIMINAR--7ea5d3b1.md",
+    "bytes": 4233,
+    "sha256": "8115b5d451ddd4ec25beac924f1196fc557d8b99f788cda5dd7db4d5748e3fbe"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iFLYTEK/downloads/iFLYTEK-Translate-official-CN.apk",
+    "status": "copiat",
+    "saved_path": "fisiere/iFLYTEK-Translate-official-CN--148366d4.apk",
+    "bytes": 254403130,
+    "sha256": "73170cdc5c3331cd6055607015c04ed8e0a314f4c0bd2fd4651e2b732d1b3da2"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--dd83ef8f.md",
+    "bytes": 6916,
+    "sha256": "33d6ebcffd263d45e2f3868f6b857b68832d770a57d26ea0d0b40de1315dd633"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\apk-analysis-2026-11-01\\.gitignore",
+    "status": "copiat",
+    "saved_path": "fisiere/gitignore--91ec8521",
+    "bytes": 43,
+    "sha256": "c0d52bae640bc5cae5f1a3a849de118b82bf79c104761fd3587a74e41bee2a0b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\apk-analysis-2026-11-01\\BASELINE-RAW-FINDING.md",
+    "status": "copiat",
+    "saved_path": "fisiere/BASELINE-RAW-FINDING--64de9f98.md",
+    "bytes": 1912,
+    "sha256": "15765ec8b29a7d517de07584d2f14c14340487bd44096f9698758851683bad2b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\apk-analysis-2026-11-01\\LIVRARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/LIVRARE--24c8bf10.md",
+    "bytes": 3255,
+    "sha256": "800c6036d3a4f3b06c95318f1dcfdd4192d46a8614f1696ddb942544152283d5"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\apk-analysis-2026-11-01\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--ed121476.md",
+    "bytes": 5042,
+    "sha256": "4a6e416804618cc9d7c7e639170dc74b2cadcf2fd128692edcffd867e1069525"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\apk-analysis-2026-11-01\\RELEASE-NOTES.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RELEASE-NOTES--977b7976.md",
+    "bytes": 2122,
+    "sha256": "828da11dfea33761db36e28a9e7c14cdd7212012fd51fe6764a3820858d37941"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\collection-2026-11-01\\.gitignore",
+    "status": "copiat",
+    "saved_path": "fisiere/gitignore--bb5dfb4d",
+    "bytes": 15,
+    "sha256": "bcf443a2eeb30c05ab24b780a3cc670f704f6772be12cd3ed9500756cc89ce11"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\EXECUTION-NOTES.md",
+    "status": "copiat",
+    "saved_path": "fisiere/EXECUTION-NOTES--027c45f0.md",
+    "bytes": 2825,
+    "sha256": "09661037e46f38a938b9e75764d13f89e43e3e484b50867a796c382fb9e28f28"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\loomy-translate-skill-2026-11-01\\INTERNATIONAL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/INTERNATIONAL--2b12f9c0.md",
+    "bytes": 6477,
+    "sha256": "2178713933a1ca9215e694264e464b82752fc32bc85d164d70e7959400484bdb"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\loomy-translate-skill-2026-11-01\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--34e71fd3.md",
+    "bytes": 4897,
+    "sha256": "54828d2a994fc84a937b68c708c1b64b21090d22bd247a3ceee9d8a661a2197a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\loomy-translate-skill-2026-11-01\\RELEASE-NOTES.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RELEASE-NOTES--7e5e26fa.md",
+    "bytes": 1629,
+    "sha256": "f5078c0dd71c9b023507dee24f80e3504c639050a54a048c89a389a2b51b95e1"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\retailer-audit-2026-11-01\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--8773f9b8.md",
+    "bytes": 8383,
+    "sha256": "016a35d5f763555ad569555ebdb938a092b4f54a2305487bebc91357a76544ca"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\retailer-audit-2026-11-01\\SMS-LOGIN-SERVICES.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SMS-LOGIN-SERVICES--9eaa7cf0.md",
+    "bytes": 6150,
+    "sha256": "8c1cb4354a2e091348fbbd131082c8470a6f7ca38496500cb6289398d22559a1"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\retailer-audit-2026-11-01\\alibaba-links.json",
+    "status": "copiat",
+    "saved_path": "fisiere/alibaba-links--4c62cafe.json",
+    "bytes": 1148,
+    "sha256": "1745666fa9814e4e31a8f40e4f538ccc8f7b2e7b6eac35bca2c3dd959a972d16"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\audit-retailers-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-retailers-20261101--939a7acf.cjs",
+    "bytes": 6870,
+    "sha256": "576fa1c69d8009d8104e4f7e455087af63785a17a46dc23778378339b6f3a72d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\check-international-app-availability-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/check-international-app-availability-20261101--4012c175.cjs",
+    "bytes": 1442,
+    "sha256": "afe863cd6222b010815c83efae6ff1139910b650b5199e3e2f3c790d9cffa151"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\check-material-repair-candidates-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/check-material-repair-candidates-20261101--74cb76da.cjs",
+    "bytes": 6088,
+    "sha256": "fdb424a3e9c31f85955c0da5b1f8c4c91696be8ce59d977cc53be5a8ea955bf4"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\collect-iflytek-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/collect-iflytek-20261101--c25dacd5.cjs",
+    "bytes": 7210,
+    "sha256": "7aa0e2f5ebb4b9091fd0759c0623f732caf578147bdc8d0b3c0a0ec8b09e6293"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\collect-loomy-translate-skill-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/collect-loomy-translate-skill-20261101--39164323.cjs",
+    "bytes": 5642,
+    "sha256": "7546fb864b27ae72378ede58cbda396a1a1ba3a5711d3cff14002f2a63c1d2a2"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\deliver-decompilation-repair-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/deliver-decompilation-repair-20261101--b1b9780d.cjs",
+    "bytes": 6770,
+    "sha256": "8f9d6a98b74f7166da845cd263364f2d4af7e39f2b464a12ced503ba931b1857"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\download-bavvo-help-images.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/download-bavvo-help-images--a77e72ea.cjs",
+    "bytes": 1501,
+    "sha256": "e9dc02eac4aaaf5919a67af0209f63a025df91a4a8535205b2f810bd3d533c12"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\download-loomy-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/download-loomy-20261101--203aa6c6.cjs",
+    "bytes": 1499,
+    "sha256": "988498a8e10e5f7d16db5cf1017d41d3d2a8e399bc45fad2f8bbec4d2733a820"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\download-translate-macos-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/download-translate-macos-20261101--75b4c80c.cjs",
+    "bytes": 1591,
+    "sha256": "571e226d40bcb8764c3d41c6e2916f49de385f7fc42c0a7c575bb7cbe69cf46a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\extend-iflytek-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/extend-iflytek-20261101--fc3bdd81.cjs",
+    "bytes": 3530,
+    "sha256": "1a31a69b287e45a70b6115efd7f505c26d9bfb76b43b435ca436f07d4d9c4f73"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\extend-retailer-audit-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/extend-retailer-audit-20261101--899d1fa8.cjs",
+    "bytes": 1436,
+    "sha256": "391edd5f7389dc5ad1c9b734bbe9e6fb3a8fa265b3340e2381f36420a76a0d9c"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\finalize-callback-candidate-notes-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-callback-candidate-notes-20261101--1ca91e46.cjs",
+    "bytes": 2318,
+    "sha256": "cd90f1c2c062858d00eb108a9a5cb4b7e590786f77e18954a76b8c0dd55fbd06"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\finalize-iflytek-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-iflytek-20261101--23186300.cjs",
+    "bytes": 7596,
+    "sha256": "3511ef59e75ce045bf85622906306b2e34d3a7d0b3a890c6da9d9d30027498d7"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\finalize-loomy-translate-skill-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-loomy-translate-skill-20261101--f89d8e04.cjs",
+    "bytes": 5199,
+    "sha256": "d0b3e569bec4bc6bcb7df9cb968efaa66b0269d421576c483497e30de408bd66"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\finalize-material-candidate-notes-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-material-candidate-notes-20261101--eff22be3.cjs",
+    "bytes": 2725,
+    "sha256": "efc04108fb542990cae11d30c3ad73cfe6cad296212895a5c58ef0c858d3817d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\finalize-retailer-audit-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-retailer-audit-20261101--5d54bec0.cjs",
+    "bytes": 5449,
+    "sha256": "2c1a59bc780257653ce9c93a8b6c611e2e5de739d70311e62300a29edfc83031"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\heycyan-baseline-decompile-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/heycyan-baseline-decompile-20261101--e7a41096.cjs",
+    "bytes": 6454,
+    "sha256": "c0f7b4c218e2fdc351b4d190eb12752976e9d20282746bf3de1f3bb6131961d9"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\inspect-android-archive.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect-android-archive--75aaf083.cjs",
+    "bytes": 2970,
+    "sha256": "9ed57a7e316b5b222f5372f777394384e6b5e356df46bd0506a8d251d13a2683"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\inspect-bavvo-global-login-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect-bavvo-global-login-20261101--62b5eda5.cjs",
+    "bytes": 2759,
+    "sha256": "94479898e4d732d79de0c8dd6e18afd6d1fa5bffa3ae9a89e97e0777710b5767"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\jadx-null-const-experiment-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/jadx-null-const-experiment-20261101--b770c356.cjs",
+    "bytes": 13940,
+    "sha256": "5d8488a1f94487ac5b0324b3d49aac4d900dd6c480826f770b18c7b7061bf12e"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\make-reviewed-repair-diffs-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/make-reviewed-repair-diffs-20261101--198cf74c.cjs",
+    "bytes": 2601,
+    "sha256": "10bc3bb17046e7a7a42b151b209928c94736350c9c12484ab8253724d19cd7e5"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\materialize-all-apk-versions-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/materialize-all-apk-versions-20261101--040c037e.cjs",
+    "bytes": 4234,
+    "sha256": "7adc9107b482dfbf86f110e631f532fb991b9d58a2e12e354c7d6225591d2e9a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\materialize-reviewed-decompilation-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/materialize-reviewed-decompilation-20261101--d45986c6.cjs",
+    "bytes": 9391,
+    "sha256": "66b0b4bb476338ec6ca4a2890b88a389b270bbf0332c2bf78b1c25ea6e6d909b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\package-apk-analysis-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/package-apk-analysis-20261101--6ca5c13d.cjs",
+    "bytes": 3798,
+    "sha256": "1c7c3bbda40ce84bafbb98e90cd45873e7875a00ec940c92aa14ee55cd9d126e"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\prefetch-apk-existing-git-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prefetch-apk-existing-git-20261101--9fb30374.cjs",
+    "bytes": 2295,
+    "sha256": "21b6c508b873a5287bf527f069bf085f904ff4c8c08c95ffd8ad394e38a016a8"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\prepare-callback-repair-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-callback-repair-20261101--9b2e89d8.cjs",
+    "bytes": 8755,
+    "sha256": "5a62dbfbbce08e1779e44279a53a7cf320cdb224bc996354c007ec463b6743ba"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\prepare-heycyan-decompilation-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-heycyan-decompilation-20261101--b75edc93.cjs",
+    "bytes": 3465,
+    "sha256": "58968182521e1a521787c9e8f871a36dca976fac236618486d75af1bbffc5e30"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\prepare-material-repair-candidates-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-material-repair-candidates-20261101--aceee174.cjs",
+    "bytes": 6879,
+    "sha256": "8f7958770129ad85f98ad9e10283907d9d4f11260ba23221f508d1b5668fa34f"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\prepare-reviewed-overlays-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-reviewed-overlays-20261101--82f41711.cjs",
+    "bytes": 6789,
+    "sha256": "ac1d7a375f2d30dc31f1089c3cb0a3059c4a73d836134e14f40f465f0a425abc"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\preserve-jadx-null-const-v1-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/preserve-jadx-null-const-v1-20261101--97f724dc.cjs",
+    "bytes": 4896,
+    "sha256": "0a133a86a5306ef67d00041c058e6ca44d723ea390b72d29eea53eb66b47ec56"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\propagate-material-repair-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/propagate-material-repair-20261101--05fad0a4.cjs",
+    "bytes": 7850,
+    "sha256": "9c53b33c98c5a1667d3a3c8ddf09ec34a956a491015aa28b5217eb52099492c0"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\restore-apk-analysis-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/restore-apk-analysis-20261101--8f903899.cjs",
+    "bytes": 3912,
+    "sha256": "ce079655c3367f24370de2c79576ec663349085765e47dc9770760ce980e68a5"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\retailer-assets-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/retailer-assets-20261101--2197c55b.cjs",
+    "bytes": 2568,
+    "sha256": "407e2338f70a9a7749d69327a7d58d982b7100096b667f37d876801343535c4c"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\review-material-smali-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/review-material-smali-20261101--33538831.cjs",
+    "bytes": 5793,
+    "sha256": "f934d26ddfb7a0f4e05e48eaebe0ac3df194ba47d01b38a6cdd7a0178c069dde"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\scan-retailer-qr-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/scan-retailer-qr-20261101--2e6562a4.cjs",
+    "bytes": 2888,
+    "sha256": "68e335878b6343d221e27a5cbba1e2be4c53f6e849837d929db0fe6a82b5f2cd"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\test-repair-delivery-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-repair-delivery-20261101--426ac97d.cjs",
+    "bytes": 3513,
+    "sha256": "69dae710b4237ddaa6fd108527d130780a4612971e70d591920622a7c2987e33"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\test-reviewed-materializer-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-reviewed-materializer-20261101--c5ea5b0b.cjs",
+    "bytes": 6855,
+    "sha256": "8f63cc6d2cafcd455663782eec0affd737792780ae78f1aa80a8a3258e4ceec3"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\verify-collection-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/verify-collection-20261101--40629e80.cjs",
+    "bytes": 1809,
+    "sha256": "27c96e0878e6bf90c06dc4e44b8d94af099b08eb612dc34ad533c79690ce45a3"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\verify-loomy-translate-skill-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/verify-loomy-translate-skill-20261101--eac2e311.cjs",
+    "bytes": 2847,
+    "sha256": "07d0b8e8ff0bb7575e967d8ed7f4a0d6abb09e31d981200e335f0c0c5b6034f5"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\verify-retailer-audit-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/verify-retailer-audit-20261101--6ab066da.cjs",
+    "bytes": 1180,
+    "sha256": "284a0fb897fe100d552656a853836062c94cc11d3b4a3a25c6313d17521711e9"
+  },
+  {
+    "source_reference": "https://a1smartshop.com/company-info/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://a1smartshop.com/product/iflytek-ai-glasses/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://apkpure.net/bavvo-ai-translator/com.iflytek.bavvo",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://app.meizu.com/apps/public/detail?package_name=com.iflytek.translateapp",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://app.mi.com/details?id=com.iflytek.translateapp&type=pad",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://apps.apple.com/cn/app/id6739250870",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://apps.apple.com/us/app/bavvo-ai-translator/id6757071464",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/22dd16abdf89759fb7cb8796289078a93f159ba7/collection-2026-11-01/README.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/research/ai-glasses-2026-10-31/apk-analysis-2026-11-01/README.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/research/ai-glasses-2026-10-31/apk-analysis-2026-11-01/audit/FINAL-AUDIT.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/research/ai-glasses-2026-10-31/loomy-translate-skill-2026-11-01/INTERNATIONAL.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/research/ai-glasses-2026-10-31/retailer-audit-2026-11-01/README.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/research/ai-glasses-2026-10-31/retailer-audit-2026-11-01/SMS-LOGIN-SERVICES.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/blob/research/ai-glasses-2026-10-31/retailer-audit-2026-11-01/alibaba-links.json",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-apk-romania40-2026-10-31",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-documentation-2026-10-31",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-loomy-skills-2026-11-01",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-retailer-software-2026-11-01",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-software-2026-11-01",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://m.iflytranslate.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://m.iflytranslate.com/download/android/FY10010010",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://play.google.com/store/apps/details?id=com.iflytek.bavvo",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://saas-public.ioss.xfinfr.com/private/config/privacy-policy.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://sahaha.vn/en/san-pham/iflytek-ai-glasses/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://tainghephiendich.com/en/iflytek-ai-glasses/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://transsaas-h5-ap1.iflyoversea.com/download?lang=EN",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://uzummarket.joom.com/en/products/6a30e2450c735c016f6b2759",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.alibaba.com/product-detail/AI-Camera-Smart-Photo-taking-Glasses_1601689773331.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.alibaba.com/trade/search?SearchText=iflytek+ai+glasses",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ebay.com/itm/178519339959",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iflytek.com/en/products/translator/bavvo.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.openchinacart.com/products/2010225999563791",
+    "status": "referinta_externa_necopiata"
+  }
+]

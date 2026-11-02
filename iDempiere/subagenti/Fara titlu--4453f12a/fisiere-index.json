@@ -1,0 +1,21 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/review_manual_comun_20261025.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_manual_c10_20261025.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\manual_c10_20261025.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Manual_arhitectura_2026-10-25\\Manual_Explicativ_Arhitectura_desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Manual_Explicativ_Arhitectura_desktop--bf587e13.png",
+    "bytes": 122622,
+    "sha256": "54b6395b67031d8983647b6a3d713058ebc93c14368f330a20ae8aa59772fe98"
+  }
+]

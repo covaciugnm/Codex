@@ -125,7 +125,7 @@ test('SEO: edited text and language input cannot inject HTML or executable scrip
   assert.equal(JSON.parse(jsonText).creativeWorkStatus, store.overrides['status.development']);
   assert.match(jsonText, /\\u003c\/script>/);
   assert.throws(() => publicOrigin('javascript:alert(1)'));
-  assert.throws(() => publicOrigin('https://user:password@example.com'));
+  assert.throws(() => publicOrigin('https[CREDENTIAL_REDACTED]example.com'));
   assert.throws(() => publicOrigin('https://example.com/extra/path'));
 });
 

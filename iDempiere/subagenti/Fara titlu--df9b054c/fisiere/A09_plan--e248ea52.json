@@ -1,0 +1,5152 @@
+{
+  "schema": "EVA-P01/A09/2",
+  "agent": "A09",
+  "domain": "UX ERP, meniu AD/ZK, accesibilitate și mobil",
+  "cutoff": "2026-11-02T14:06:00.673Z",
+  "baseline_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "phase": "PLAN",
+  "score": null,
+  "implementation_started": false,
+  "decision": "Așteaptă A11; toate controalele planificate rămân NEEXECUTAT.",
+  "inputs": [
+    "capturi/MANIFEST.json",
+    "capturi/00_STATUS_TASKURI.json",
+    "capturi/00_CAPITOLE_PROIECTE.json",
+    "AGENTS.md",
+    "Documentatie/echipa-2026-10-09/00_REGULI_SI_ROLURI.md §15, §61; numai izolat după programarea suitei",
+    "Manual_arhitectura_2026-10-25/Manual_Explicativ_Arhitectura.html",
+    "A11_rubrica_control.json"
+  ],
+  "role_matrix": [
+    "administrator cabinet configurează numai firme din aria delegată",
+    "contabil citește solduri și perioade în org autorizată",
+    "gestionar operează G2 și pick în gestiunile alocate",
+    "vânzări validează comercial după aviz",
+    "comisionar poate plasa comandă și consulta situațiile proprii din canal",
+    "administrator sistem verifică tehnic fără acces implicit la date contabile",
+    "operator inventar mobil nu dobândește drepturile ERP generale din faptul că deține dispozitiv"
+  ],
+  "native_priority": [
+    "Inventariază AD_Menu, AD_TreeNodeMM, AD_Form/Window/Process și accesul gestionat nativ. Pentru configurații, folosește ferestre, taburi și referințe validate în AD atunci când satisfac cerința.",
+    "Compară sursa core la SHA exact cu dicționarul, bundle și rol în cabinetul izolat; verifică arborele și apăsarea de pe suprafața folosită în realitate.",
+    "Clasifică fiecare lacună: existent și atestat, configurabil, adaptare EVA, funcție nouă justificată sau nedemonstrat. O captură statică, CSV istoric ori existența ServletMobil nu dovedește client instalat."
+  ],
+  "access_limits": [
+    "A01 verifică autorizarea server, A02 constrângerile AD/DB, A03..A08 efectele domeniului, A10 mediul/dispozitivele; A09 păstrează proba traseului din interfață.",
+    "Necesită cabinet izolat cu două companii și canale, roluri distincte, browser asistiv și dispozitive Android/iOS sau emulator identificat. Lipsa unei versiuni reale se consemnează fără a o simula ca PASS.",
+    "Nicio acțiune cu efect extern real. Servicii curier, parteneri și fiscal simulate în mediu intern."
+  ],
+  "fixtures": [
+    "F-A: tenant A, firme A1/A2, tenant B cu același nume de canal, roluri distincte și date sintetice.",
+    "F-B: G1.1/G1.2 și G2.1/G2.2; locator disponibil, carantină, tranzit; 120 buc P1/P2/P3, S1=6 și S2=3 din fiecare; CPP și CPA distincte.",
+    "F-C: 10.001 rânduri paginate, total calculat independent, 3 înregistrări de altă firmă excluse și un document în perioadă închisă.",
+    "F-D: două dispozitive/OS, versiune veche și nouă, rol revocat, pachet instalabil și certificat verificat fără extragerea cheilor; dacă un canal nu are build, consemnează limita."
+  ],
+  "anchors": [
+    {
+      "id": "MENU",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/setup/MeniuContabilRO.java",
+      "line": 75,
+      "symbol": "public static String[] ferestreContabile",
+      "sha256": "7a43b6a4480a7de567f445096e73a54affacc38472bd7a3510556e8d1c6236f1",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "TREE",
+      "file": "idempiere/plugins/com.eva.ro.saga.theme/src/com/eva/ro/saga/theme/EvaSagaMenuDef.java",
+      "line": 24,
+      "symbol": "public static final class Item",
+      "sha256": "278f8ea569695be3ff14e97d5d877035bcfc589f4feac2f130c18c0331d0d87c",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "CHANNEL",
+      "file": "idempiere/plugins/com.eva.ro.saga.theme/src/com/eva/ro/saga/theme/EvaSagaMenuDef.java",
+      "line": 167,
+      "symbol": "public static java.util.List<CanalAfisat> canaleDeAfisat",
+      "sha256": "278f8ea569695be3ff14e97d5d877035bcfc589f4feac2f130c18c0331d0d87c",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "VARIABLES",
+      "file": "idempiere/plugins/com.eva.ro.saga.theme/src/com/eva/ro/saga/theme/EvaSagaMenuDef.java",
+      "line": 256,
+      "symbol": "public static String combinaVariabile",
+      "sha256": "278f8ea569695be3ff14e97d5d877035bcfc589f4feac2f130c18c0331d0d87c",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "WH",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WStocuriForm.java",
+      "line": 57,
+      "symbol": "public class WStocuriForm",
+      "sha256": "960032e7e353a1abc2ead4ff37f965cdc70bcc1ed2475d253ce4cf5d5671bfc2",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "COUNT",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WInventarForm.java",
+      "line": 100,
+      "symbol": "public class WInventarForm",
+      "sha256": "c6caaf301bb84c5f1396dd83ef001c7b52478d4d65bdb0b66a646e795933614e",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "CHSET",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogCanal.java",
+      "line": 46,
+      "symbol": "public final class DialogCanal",
+      "sha256": "04c94e45d4888134ea85b933cfd98d934cab5dda0c318e16aa55e74ed9f01d82",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "SALES",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaVanzariOnlineForm.java",
+      "line": 57,
+      "symbol": "public class WEvaVanzariOnlineForm",
+      "sha256": "c3650833095271850a2d412440a4944dc041ea1e52f0a6a867123932438eb156",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "IMPORT",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaVerificareImportForm.java",
+      "line": 308,
+      "symbol": "private void compara()",
+      "sha256": "8a157a726303b0f9e1264b51e7c3a182c4af52c676d447327f80d06c70512e37",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "IMPORTRESULT",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaVerificareImportForm.java",
+      "line": 333,
+      "symbol": "private void afiseaza(Rezultat r)",
+      "sha256": "8a157a726303b0f9e1264b51e7c3a182c4af52c676d447327f80d06c70512e37",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "PRINT",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/tiparire/ExportXlsxTipar.java",
+      "line": 27,
+      "symbol": "public class ExportXlsxTipar",
+      "sha256": "4624b4fb3df55ba2343cedcd64b3360cccb1946b85ec1c28d4e4822eacf6ed37",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "HELP",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/ajutor/ManualEvA.java",
+      "line": 33,
+      "symbol": "public final class ManualEvA",
+      "sha256": "c51d5efc40572410902a5ca366743f4e8d936104ebc1fb7333ce18e78212e6ab",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "DEVICE",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaAccesMobilForm.java",
+      "line": 56,
+      "symbol": "public class WEvaAccesMobilForm",
+      "sha256": "0985b48f374f287233f99ec39bbe2c1e632373f7f1bd71d661e694fb27b8e8ca",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "CONFIRM",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ConfirmareMobil.java",
+      "line": 37,
+      "symbol": "public final class ConfirmareMobil",
+      "sha256": "a835b29bebd5ebd8fdf713cc7ff4b06d7ce3d92303f70eee1ffbb672381083d0",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "GUARD",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/GardaMobil.java",
+      "line": 19,
+      "symbol": "public final class GardaMobil",
+      "sha256": "3b9a60a1202e20f6c8f60992d28c8940951ce5b8bd6ae0d9ea563585dbfcbbee",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "API",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiMobil.java",
+      "line": 154,
+      "symbol": "public static Raspuns trateaza",
+      "sha256": "b455c38debbefb1b0d029700e9fe33034c67dddecce67a4697bb128b5e3ffbe6",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "SERVLET",
+      "file": "idempiere/plugins/com.eva.ro.mobil/src/com/eva/ro/mobil/ServletMobil.java",
+      "line": 100,
+      "symbol": "protected void service(",
+      "sha256": "a93127c75cc5c1523fd273cc606eb15507f7fec817fd1421af8d5dcb82c792a0",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar static pentru plan. Instalarea, accesul și comportamentul se măsoară separat."
+    },
+    {
+      "id": "Q31",
+      "file": "tools/inventar_idempiere_saga_eva/auto_q31_meniu.csv",
+      "line": 2,
+      "symbol": "AD_Menu",
+      "sha256": "e6a06895903ed9e7210fc6d8e7ecc12f0e45aab0357cdaff25188e194d811b94",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar istoric al meniului, de reconfirmat în dicționarul instalat."
+    },
+    {
+      "id": "EVA",
+      "file": "tools/inventar_idempiere_saga_eva/auto_eva_meniu.csv",
+      "line": 1,
+      "symbol": "Meniu EvA",
+      "sha256": "945324e85c4fc5ab11d1e94461c6e98d1697b05030f2946e39162780650b6ec0",
+      "revision": "6df998aee0e514d30856c461962afe99ebd0d113",
+      "usage": "Inventar istoric al meniului, de reconfirmat în dicționarul instalat."
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": "P01.C01",
+      "title": "Contabilitate generală și situații financiare",
+      "journey_to_test": "Balanță → fișa contului",
+      "pipelines": [
+        "A09-P1",
+        "A09-P5"
+      ],
+      "domain_owner": "A03",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T01.11",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T23.05",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T27.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.13",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.35",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.36",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.37",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T60",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T153",
+          "canonical": "P01.C01.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T154",
+          "canonical": "P01.C01.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T154.01",
+          "canonical": "P01.C01.T0002.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T154.02",
+          "canonical": "P01.C01.T0002.02",
+          "status": "montat"
+        },
+        {
+          "technical": "T154.03",
+          "canonical": "P01.C01.T0002.03",
+          "status": "montat"
+        },
+        {
+          "technical": "T154.04",
+          "canonical": "P01.C01.T0002.04",
+          "status": "montat"
+        },
+        {
+          "technical": "T154.05",
+          "canonical": "P01.C01.T0002.05",
+          "status": "montat"
+        },
+        {
+          "technical": "T155",
+          "canonical": "P01.C01.T0003",
+          "status": "montat"
+        },
+        {
+          "technical": "T156",
+          "canonical": "P01.C01.T0004",
+          "status": "montat"
+        },
+        {
+          "technical": "T156.01",
+          "canonical": "P01.C01.T0004.01",
+          "status": "montat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C02",
+      "title": "Închideri de lună și perioade",
+      "journey_to_test": "Perioadă închisă → explicație și revenire",
+      "pipelines": [
+        "A09-P1",
+        "A09-P5"
+      ],
+      "domain_owner": "A03",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T29.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T29.09",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.38",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.61",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.62",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T40.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T57",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T58",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T59",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T65",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T157",
+          "canonical": "P01.C02.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T157.01",
+          "canonical": "P01.C02.T0001.01",
+          "status": "închis"
+        },
+        {
+          "technical": "T158",
+          "canonical": "P01.C02.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T159",
+          "canonical": "P01.C02.T0003",
+          "status": "montat"
+        },
+        {
+          "technical": "T254",
+          "canonical": "P01.C02.T0004",
+          "status": "închis"
+        },
+        {
+          "technical": "T259",
+          "canonical": "P01.C02.T0005",
+          "status": "închis"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C03",
+      "title": "Gestiuni și stocuri",
+      "journey_to_test": "Gestiuni → locator → inventar/pick",
+      "pipelines": [
+        "A09-P2",
+        "A09-P3",
+        "A09-P4"
+      ],
+      "domain_owner": "A05",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T22.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T23.03",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T27.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.08",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T40",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T40.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T40.02",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T40.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T40.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T40.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T40.10",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T40.12",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T40.13",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T40.15",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T160",
+          "canonical": "P01.C03.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T160.01",
+          "canonical": "P01.C03.T0001.01",
+          "status": "închis"
+        },
+        {
+          "technical": "T160.02",
+          "canonical": "P01.C03.T0001.02",
+          "status": "închis"
+        },
+        {
+          "technical": "T160.03",
+          "canonical": "P01.C03.T0001.03",
+          "status": "închis"
+        },
+        {
+          "technical": "T160.04",
+          "canonical": "P01.C03.T0001.04",
+          "status": "închis"
+        },
+        {
+          "technical": "T161",
+          "canonical": "P01.C03.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T161.01",
+          "canonical": "P01.C03.T0002.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T162",
+          "canonical": "P01.C03.T0003",
+          "status": "montat"
+        },
+        {
+          "technical": "T162.01",
+          "canonical": "P01.C03.T0003.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T163",
+          "canonical": "P01.C03.T0004",
+          "status": "închis"
+        },
+        {
+          "technical": "T164",
+          "canonical": "P01.C03.T0005",
+          "status": "montat"
+        },
+        {
+          "technical": "T165",
+          "canonical": "P01.C03.T0006",
+          "status": "montat"
+        },
+        {
+          "technical": "T166",
+          "canonical": "P01.C03.T0007",
+          "status": "montat"
+        },
+        {
+          "technical": "T312",
+          "canonical": "P01.C03.T0008",
+          "status": "audit"
+        },
+        {
+          "technical": "T323",
+          "canonical": "P01.C03.T0009",
+          "status": "montat"
+        },
+        {
+          "technical": "T324",
+          "canonical": "P01.C03.T0010",
+          "status": "montat"
+        },
+        {
+          "technical": "T325",
+          "canonical": "P01.C03.T0011",
+          "status": "închis"
+        },
+        {
+          "technical": "T326",
+          "canonical": "P01.C03.T0012",
+          "status": "montat"
+        },
+        {
+          "technical": "T327",
+          "canonical": "P01.C03.T0013",
+          "status": "montat"
+        },
+        {
+          "technical": "T328",
+          "canonical": "P01.C03.T0014",
+          "status": "montat"
+        },
+        {
+          "technical": "T329",
+          "canonical": "P01.C03.T0015",
+          "status": "montat"
+        },
+        {
+          "technical": "T330",
+          "canonical": "P01.C03.T0016",
+          "status": "montat"
+        },
+        {
+          "technical": "T331",
+          "canonical": "P01.C03.T0017",
+          "status": "montat"
+        },
+        {
+          "technical": "T332",
+          "canonical": "P01.C03.T0018",
+          "status": "montat"
+        },
+        {
+          "technical": "T333",
+          "canonical": "P01.C03.T0019",
+          "status": "montat"
+        },
+        {
+          "technical": "T334",
+          "canonical": "P01.C03.T0020",
+          "status": "montat"
+        },
+        {
+          "technical": "T335",
+          "canonical": "P01.C03.T0021",
+          "status": "închis"
+        },
+        {
+          "technical": "T336",
+          "canonical": "P01.C03.T0022",
+          "status": "închis"
+        },
+        {
+          "technical": "T337",
+          "canonical": "P01.C03.T0023",
+          "status": "montat"
+        },
+        {
+          "technical": "T338",
+          "canonical": "P01.C03.T0024",
+          "status": "montat"
+        },
+        {
+          "technical": "T339",
+          "canonical": "P01.C03.T0025",
+          "status": "montat"
+        },
+        {
+          "technical": "T340",
+          "canonical": "P01.C03.T0026",
+          "status": "montat"
+        },
+        {
+          "technical": "T341",
+          "canonical": "P01.C03.T0027",
+          "status": "montat"
+        },
+        {
+          "technical": "T354",
+          "canonical": "P01.C03.T0028",
+          "status": "montat"
+        },
+        {
+          "technical": "T355",
+          "canonical": "P01.C03.T0029",
+          "status": "închis"
+        },
+        {
+          "technical": "T366",
+          "canonical": "P01.C03.T0030",
+          "status": "închis"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C04",
+      "title": "Trezorerie, bănci și decontări",
+      "journey_to_test": "Extras → detaliu → reconciliere",
+      "pipelines": [
+        "A09-P1",
+        "A09-P5"
+      ],
+      "domain_owner": "A07",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T01.05",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T04.09",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T04.11",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T09",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T09.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T09.02",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T17",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T17.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T17.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T17.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.16",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.02",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.12",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.30",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.10",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.30",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.31",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.32",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.33",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.34",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T36.57",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.58",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T36.69",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T40.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T102.05",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T167",
+          "canonical": "P01.C04.T0001",
+          "status": "pauză"
+        },
+        {
+          "technical": "T167.01",
+          "canonical": "P01.C04.T0001.01",
+          "status": "pauză"
+        },
+        {
+          "technical": "T167.02",
+          "canonical": "P01.C04.T0001.02",
+          "status": "pauză"
+        },
+        {
+          "technical": "T167.03",
+          "canonical": "P01.C04.T0001.03",
+          "status": "pauză"
+        },
+        {
+          "technical": "T168",
+          "canonical": "P01.C04.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T168.01",
+          "canonical": "P01.C04.T0002.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T168.02",
+          "canonical": "P01.C04.T0002.02",
+          "status": "montat"
+        },
+        {
+          "technical": "T169",
+          "canonical": "P01.C04.T0003",
+          "status": "montat"
+        },
+        {
+          "technical": "T169.01",
+          "canonical": "P01.C04.T0003.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T170",
+          "canonical": "P01.C04.T0004",
+          "status": "montat"
+        },
+        {
+          "technical": "T170.01",
+          "canonical": "P01.C04.T0004.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T171",
+          "canonical": "P01.C04.T0005",
+          "status": "montat"
+        },
+        {
+          "technical": "T172",
+          "canonical": "P01.C04.T0006",
+          "status": "închis"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C05",
+      "title": "Facturare și e-Factura",
+      "journey_to_test": "Comandă → factură → stare transmisie",
+      "pipelines": [
+        "A09-P3",
+        "A09-P5"
+      ],
+      "domain_owner": "A03 A07",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T01.07",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T01.09",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T01.10",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T01.12",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T08.02",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T62",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T63",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T64",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T102.01",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T152",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T173",
+          "canonical": "P01.C05.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T173.01",
+          "canonical": "P01.C05.T0001.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T173.02",
+          "canonical": "P01.C05.T0001.02",
+          "status": "montat"
+        },
+        {
+          "technical": "T174",
+          "canonical": "P01.C05.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T175",
+          "canonical": "P01.C05.T0003",
+          "status": "montat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C06",
+      "title": "Declarații fiscale ANAF",
+      "journey_to_test": "Declarație → validare → raport erori",
+      "pipelines": [
+        "A09-P1",
+        "A09-P5",
+        "A09-P6"
+      ],
+      "domain_owner": "A03",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T03.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T03.05",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T03.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T10.05",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T14",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T16",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T16.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T21",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T21.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T21.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T21.04",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T23.04",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T27.26",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T27.27",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T27.28",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.29",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T27.30",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T27.31",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.32",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T27.33",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T27.35",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.36",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.04",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.11",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.19",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.20",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T33.05",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.46",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.59",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.60",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T40.08",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T61",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T68",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T84",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T85",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T86",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T87",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T88",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T89",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T99",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T114",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T115",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T176",
+          "canonical": "P01.C06.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T176.01",
+          "canonical": "P01.C06.T0001.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T176.02",
+          "canonical": "P01.C06.T0001.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T177",
+          "canonical": "P01.C06.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T177.01",
+          "canonical": "P01.C06.T0002.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T178",
+          "canonical": "P01.C06.T0003",
+          "status": "închis"
+        },
+        {
+          "technical": "T178.01",
+          "canonical": "P01.C06.T0003.01",
+          "status": "închis"
+        },
+        {
+          "technical": "T178.02",
+          "canonical": "P01.C06.T0003.02",
+          "status": "închis"
+        },
+        {
+          "technical": "T178.03",
+          "canonical": "P01.C06.T0003.03",
+          "status": "închis"
+        },
+        {
+          "technical": "T178.04",
+          "canonical": "P01.C06.T0003.04",
+          "status": "închis"
+        },
+        {
+          "technical": "T178.05",
+          "canonical": "P01.C06.T0003.05",
+          "status": "închis"
+        },
+        {
+          "technical": "T178.06",
+          "canonical": "P01.C06.T0003.06",
+          "status": "închis"
+        },
+        {
+          "technical": "T178.07",
+          "canonical": "P01.C06.T0003.07",
+          "status": "închis"
+        },
+        {
+          "technical": "T178.08",
+          "canonical": "P01.C06.T0003.08",
+          "status": "închis"
+        },
+        {
+          "technical": "T179",
+          "canonical": "P01.C06.T0004",
+          "status": "montat"
+        },
+        {
+          "technical": "T179.01",
+          "canonical": "P01.C06.T0004.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T180",
+          "canonical": "P01.C06.T0005",
+          "status": "montat"
+        },
+        {
+          "technical": "T181",
+          "canonical": "P01.C06.T0006",
+          "status": "închis"
+        },
+        {
+          "technical": "T182",
+          "canonical": "P01.C06.T0007",
+          "status": "montat"
+        },
+        {
+          "technical": "T183",
+          "canonical": "P01.C06.T0008",
+          "status": "închis"
+        },
+        {
+          "technical": "T184",
+          "canonical": "P01.C06.T0009",
+          "status": "montat"
+        },
+        {
+          "technical": "T185",
+          "canonical": "P01.C06.T0010",
+          "status": "montat"
+        },
+        {
+          "technical": "T186",
+          "canonical": "P01.C06.T0011",
+          "status": "montat"
+        },
+        {
+          "technical": "T187",
+          "canonical": "P01.C06.T0012",
+          "status": "montat"
+        },
+        {
+          "technical": "T187.01",
+          "canonical": "P01.C06.T0012.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T188",
+          "canonical": "P01.C06.T0013",
+          "status": "închis"
+        },
+        {
+          "technical": "T256",
+          "canonical": "P01.C06.T0014",
+          "status": "montat"
+        },
+        {
+          "technical": "T257",
+          "canonical": "P01.C06.T0015",
+          "status": "montat"
+        },
+        {
+          "technical": "T287",
+          "canonical": "P01.C06.T0016",
+          "status": "anulat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C07",
+      "title": "Salarizare, resurse umane și REGES",
+      "journey_to_test": "Pontaj → salariu/REGES cu rol HR",
+      "pipelines": [
+        "A09-P1",
+        "A09-P5",
+        "A09-P6"
+      ],
+      "domain_owner": "A03 A01",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T01.04",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T11",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T21.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T23.06",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T27.17",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.18",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.19",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.15",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T66",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T90",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T93",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T102.09",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T104.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T120",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T189",
+          "canonical": "P01.C07.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T190",
+          "canonical": "P01.C07.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T190.01",
+          "canonical": "P01.C07.T0002.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T191",
+          "canonical": "P01.C07.T0003",
+          "status": "montat"
+        },
+        {
+          "technical": "T192",
+          "canonical": "P01.C07.T0004",
+          "status": "montat"
+        },
+        {
+          "technical": "T193",
+          "canonical": "P01.C07.T0005",
+          "status": "montat"
+        },
+        {
+          "technical": "T194",
+          "canonical": "P01.C07.T0006",
+          "status": "montat"
+        },
+        {
+          "technical": "T194.01",
+          "canonical": "P01.C07.T0006.01",
+          "status": "neînceput"
+        },
+        {
+          "technical": "T195",
+          "canonical": "P01.C07.T0007",
+          "status": "montat"
+        },
+        {
+          "technical": "T196",
+          "canonical": "P01.C07.T0008",
+          "status": "închis"
+        },
+        {
+          "technical": "T313",
+          "canonical": "P01.C07.T0009",
+          "status": "montat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C08",
+      "title": "Mijloace fixe și imobilizări",
+      "journey_to_test": "Activ → amortizare → document",
+      "pipelines": [
+        "A09-P1",
+        "A09-P5"
+      ],
+      "domain_owner": "A03",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T27.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.14",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.15",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T29.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T197",
+          "canonical": "P01.C08.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T197.01",
+          "canonical": "P01.C08.T0001.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T198",
+          "canonical": "P01.C08.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T199",
+          "canonical": "P01.C08.T0003",
+          "status": "montat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C09",
+      "title": "Documente, registre legale și tipărire",
+      "journey_to_test": "Registru → print → document verificat",
+      "pipelines": [
+        "A09-P5",
+        "A09-P6"
+      ],
+      "domain_owner": "A03",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T02.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T02.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T02.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T02.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T02.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T02.08",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T02.09",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T02.10",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T12",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T12.01",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T22.11",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T23.08",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T29",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T29.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T29.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T29.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T29.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T29.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T29.08",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T40.09",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T80",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T91",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T92",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T95",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T97",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T102.08",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T104",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T119",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T121",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T122",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T200",
+          "canonical": "P01.C09.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T200.01",
+          "canonical": "P01.C09.T0001.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T200.02",
+          "canonical": "P01.C09.T0001.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T200.03",
+          "canonical": "P01.C09.T0001.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T200.04",
+          "canonical": "P01.C09.T0001.04",
+          "status": "agregat"
+        },
+        {
+          "technical": "T200.05",
+          "canonical": "P01.C09.T0001.05",
+          "status": "agregat"
+        },
+        {
+          "technical": "T200.06",
+          "canonical": "P01.C09.T0001.06",
+          "status": "agregat"
+        },
+        {
+          "technical": "T200.07",
+          "canonical": "P01.C09.T0001.07",
+          "status": "agregat"
+        },
+        {
+          "technical": "T201",
+          "canonical": "P01.C09.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T202",
+          "canonical": "P01.C09.T0003",
+          "status": "închis"
+        },
+        {
+          "technical": "T203",
+          "canonical": "P01.C09.T0004",
+          "status": "montat"
+        },
+        {
+          "technical": "T203.01",
+          "canonical": "P01.C09.T0004.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T204",
+          "canonical": "P01.C09.T0005",
+          "status": "montat"
+        },
+        {
+          "technical": "T205",
+          "canonical": "P01.C09.T0006",
+          "status": "montat"
+        },
+        {
+          "technical": "T206",
+          "canonical": "P01.C09.T0007",
+          "status": "montat"
+        },
+        {
+          "technical": "T207",
+          "canonical": "P01.C09.T0008",
+          "status": "montat"
+        },
+        {
+          "technical": "T208",
+          "canonical": "P01.C09.T0009",
+          "status": "montat"
+        },
+        {
+          "technical": "T209",
+          "canonical": "P01.C09.T0010",
+          "status": "montat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C10",
+      "title": "Vânzări online, parteneri și comenzi",
+      "journey_to_test": "Comenzi ERP → canale, fișă ofertă și aviz",
+      "pipelines": [
+        "A09-P1",
+        "A09-P2",
+        "A09-P3"
+      ],
+      "domain_owner": "A06 A08",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T04",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T04.01",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T04.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T04.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T04.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T04.05",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T04.06",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T04.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T04.08",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T04.10",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T04.12",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T19",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T20",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.08",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.09",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.10",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.12",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T22.13",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T22.14",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T22.15",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T23.07",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T23.09",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T25",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.11",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.12",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.20",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T28",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T28.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T28.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T28.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T28.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T28.05",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T28.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T28.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T28.08",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T31",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.14",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T32.17",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T35",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.08",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.09",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.10",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T35.11",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T36.56",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T210",
+          "canonical": "P01.C10.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T211",
+          "canonical": "P01.C10.T0002",
+          "status": "integrat"
+        },
+        {
+          "technical": "T211.01",
+          "canonical": "P01.C10.T0002.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T211.02",
+          "canonical": "P01.C10.T0002.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T211.03",
+          "canonical": "P01.C10.T0002.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T211.04",
+          "canonical": "P01.C10.T0002.04",
+          "status": "agregat"
+        },
+        {
+          "technical": "T211.05",
+          "canonical": "P01.C10.T0002.05",
+          "status": "agregat"
+        },
+        {
+          "technical": "T211.06",
+          "canonical": "P01.C10.T0002.06",
+          "status": "agregat"
+        },
+        {
+          "technical": "T211.07",
+          "canonical": "P01.C10.T0002.07",
+          "status": "agregat"
+        },
+        {
+          "technical": "T211.08",
+          "canonical": "P01.C10.T0002.08",
+          "status": "agregat"
+        },
+        {
+          "technical": "T212",
+          "canonical": "P01.C10.T0003",
+          "status": "montat"
+        },
+        {
+          "technical": "T212.01",
+          "canonical": "P01.C10.T0003.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T212.02",
+          "canonical": "P01.C10.T0003.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T212.03",
+          "canonical": "P01.C10.T0003.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T212.04",
+          "canonical": "P01.C10.T0003.04",
+          "status": "agregat"
+        },
+        {
+          "technical": "T212.05",
+          "canonical": "P01.C10.T0003.05",
+          "status": "anulat"
+        },
+        {
+          "technical": "T212.06",
+          "canonical": "P01.C10.T0003.06",
+          "status": "agregat"
+        },
+        {
+          "technical": "T212.07",
+          "canonical": "P01.C10.T0003.07",
+          "status": "neînceput"
+        },
+        {
+          "technical": "T213",
+          "canonical": "P01.C10.T0004",
+          "status": "implementare"
+        },
+        {
+          "technical": "T213.01",
+          "canonical": "P01.C10.T0004.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T214",
+          "canonical": "P01.C10.T0005",
+          "status": "montat"
+        },
+        {
+          "technical": "T215",
+          "canonical": "P01.C10.T0006",
+          "status": "închis"
+        },
+        {
+          "technical": "T216",
+          "canonical": "P01.C10.T0007",
+          "status": "montat"
+        },
+        {
+          "technical": "T216.01",
+          "canonical": "P01.C10.T0007.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T216.02",
+          "canonical": "P01.C10.T0007.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T217",
+          "canonical": "P01.C10.T0008",
+          "status": "montat"
+        },
+        {
+          "technical": "T218",
+          "canonical": "P01.C10.T0009",
+          "status": "montat"
+        },
+        {
+          "technical": "T219",
+          "canonical": "P01.C10.T0010",
+          "status": "închis"
+        },
+        {
+          "technical": "T220",
+          "canonical": "P01.C10.T0011",
+          "status": "montat"
+        },
+        {
+          "technical": "T221",
+          "canonical": "P01.C10.T0012",
+          "status": "montat"
+        },
+        {
+          "technical": "T222",
+          "canonical": "P01.C10.T0013",
+          "status": "montat"
+        },
+        {
+          "technical": "T311",
+          "canonical": "P01.C10.T0014",
+          "status": "închis"
+        },
+        {
+          "technical": "T314",
+          "canonical": "P01.C10.T0015",
+          "status": "montat"
+        },
+        {
+          "technical": "T315",
+          "canonical": "P01.C10.T0016",
+          "status": "audit"
+        },
+        {
+          "technical": "T316",
+          "canonical": "P01.C10.T0017",
+          "status": "audit"
+        },
+        {
+          "technical": "T317",
+          "canonical": "P01.C10.T0018",
+          "status": "audit"
+        },
+        {
+          "technical": "T318",
+          "canonical": "P01.C10.T0019",
+          "status": "implementare"
+        },
+        {
+          "technical": "T319",
+          "canonical": "P01.C10.T0020",
+          "status": "implementare"
+        },
+        {
+          "technical": "T320",
+          "canonical": "P01.C10.T0021",
+          "status": "montat"
+        },
+        {
+          "technical": "T321",
+          "canonical": "P01.C10.T0022",
+          "status": "audit"
+        },
+        {
+          "technical": "T322",
+          "canonical": "P01.C10.T0023",
+          "status": "plan"
+        },
+        {
+          "technical": "T342",
+          "canonical": "P01.C10.T0024",
+          "status": "plan"
+        },
+        {
+          "technical": "T343",
+          "canonical": "P01.C10.T0025",
+          "status": "plan"
+        },
+        {
+          "technical": "T350",
+          "canonical": "P01.C10.T0026",
+          "status": "plan"
+        },
+        {
+          "technical": "T351",
+          "canonical": "P01.C10.T0027",
+          "status": "montat"
+        },
+        {
+          "technical": "T352",
+          "canonical": "P01.C10.T0028",
+          "status": "integrat"
+        },
+        {
+          "technical": "T353",
+          "canonical": "P01.C10.T0029",
+          "status": "montat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C11",
+      "title": "Importul datelor și pornirea firmei",
+      "journey_to_test": "Import → progres → diferențe",
+      "pipelines": [
+        "A09-P5",
+        "A09-P6"
+      ],
+      "domain_owner": "A04",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T01.06",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T01.13",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T07.01",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T07.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T07.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T07.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T07.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T07.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T10",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T10.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T10.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.08",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T18.09",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.03",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.10",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T32.16",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T96",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T98",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T100",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T101",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T102.02",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T102.03",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T102.04",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T102.06",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T103",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T223",
+          "canonical": "P01.C11.T0001",
+          "status": "anulat"
+        },
+        {
+          "technical": "T223.01",
+          "canonical": "P01.C11.T0001.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T223.02",
+          "canonical": "P01.C11.T0001.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T223.03",
+          "canonical": "P01.C11.T0001.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T223.04",
+          "canonical": "P01.C11.T0001.04",
+          "status": "agregat"
+        },
+        {
+          "technical": "T223.05",
+          "canonical": "P01.C11.T0001.05",
+          "status": "agregat"
+        },
+        {
+          "technical": "T224",
+          "canonical": "P01.C11.T0002",
+          "status": "închis"
+        },
+        {
+          "technical": "T224.01",
+          "canonical": "P01.C11.T0002.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T224.02",
+          "canonical": "P01.C11.T0002.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225",
+          "canonical": "P01.C11.T0003",
+          "status": "plan"
+        },
+        {
+          "technical": "T225.01",
+          "canonical": "P01.C11.T0003.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225.02",
+          "canonical": "P01.C11.T0003.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225.03",
+          "canonical": "P01.C11.T0003.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225.04",
+          "canonical": "P01.C11.T0003.04",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225.05",
+          "canonical": "P01.C11.T0003.05",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225.06",
+          "canonical": "P01.C11.T0003.06",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225.07",
+          "canonical": "P01.C11.T0003.07",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225.08",
+          "canonical": "P01.C11.T0003.08",
+          "status": "agregat"
+        },
+        {
+          "technical": "T225.09",
+          "canonical": "P01.C11.T0003.09",
+          "status": "agregat"
+        },
+        {
+          "technical": "T226",
+          "canonical": "P01.C11.T0004",
+          "status": "montat"
+        },
+        {
+          "technical": "T227",
+          "canonical": "P01.C11.T0005",
+          "status": "închis"
+        },
+        {
+          "technical": "T228",
+          "canonical": "P01.C11.T0006",
+          "status": "plan"
+        },
+        {
+          "technical": "T229",
+          "canonical": "P01.C11.T0007",
+          "status": "plan"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C12",
+      "title": "Monografia contabilă și auditul financiar",
+      "journey_to_test": "Monografie → document și fapt contabil",
+      "pipelines": [
+        "A09-P1",
+        "A09-P5"
+      ],
+      "domain_owner": "A03",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T41",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T41.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T41.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T41.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T41.04",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T41.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T42",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T42.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T42.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T42.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T42.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T42.05",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T230",
+          "canonical": "P01.C12.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T230.01",
+          "canonical": "P01.C12.T0001.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T230.02",
+          "canonical": "P01.C12.T0001.02",
+          "status": "montat"
+        },
+        {
+          "technical": "T230.03",
+          "canonical": "P01.C12.T0001.03",
+          "status": "montat"
+        },
+        {
+          "technical": "T231",
+          "canonical": "P01.C12.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T231.01",
+          "canonical": "P01.C12.T0002.01",
+          "status": "montat"
+        },
+        {
+          "technical": "T231.02",
+          "canonical": "P01.C12.T0002.02",
+          "status": "montat"
+        },
+        {
+          "technical": "T231.03",
+          "canonical": "P01.C12.T0002.03",
+          "status": "montat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C13",
+      "title": "Administrare, drepturi și securitate",
+      "journey_to_test": "Rol → firmă → acces/deconectare",
+      "pipelines": [
+        "A09-P1",
+        "A09-P4",
+        "A09-P7"
+      ],
+      "domain_owner": "A01",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T23.01",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T27",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.09",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.10",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.21",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.22",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.23",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.24",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.25",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T27.34",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T30",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T30.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T30.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T30.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T30.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.18",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.22",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.23",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.24",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.25",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.26",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.27",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.28",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.29",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T33",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T33.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T33.02",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T33.03",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T33.04",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T33.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T33.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T33.08",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T33.09",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.20",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.21",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.22",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.23",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.25",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.26",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.27",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.28",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.29",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.64",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T40.11",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T232",
+          "canonical": "P01.C13.T0001",
+          "status": "implementare"
+        },
+        {
+          "technical": "T232.01",
+          "canonical": "P01.C13.T0001.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T232.02",
+          "canonical": "P01.C13.T0001.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T232.03",
+          "canonical": "P01.C13.T0001.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T233",
+          "canonical": "P01.C13.T0002",
+          "status": "plan"
+        },
+        {
+          "technical": "T233.01",
+          "canonical": "P01.C13.T0002.01",
+          "status": "neînceput"
+        },
+        {
+          "technical": "T234",
+          "canonical": "P01.C13.T0003",
+          "status": "plan"
+        },
+        {
+          "technical": "T234.01",
+          "canonical": "P01.C13.T0003.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T234.02",
+          "canonical": "P01.C13.T0003.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T234.03",
+          "canonical": "P01.C13.T0003.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T234.04",
+          "canonical": "P01.C13.T0003.04",
+          "status": "agregat"
+        },
+        {
+          "technical": "T235",
+          "canonical": "P01.C13.T0004",
+          "status": "integrat"
+        },
+        {
+          "technical": "T236",
+          "canonical": "P01.C13.T0005",
+          "status": "închis"
+        },
+        {
+          "technical": "T237",
+          "canonical": "P01.C13.T0006",
+          "status": "închis"
+        },
+        {
+          "technical": "T238",
+          "canonical": "P01.C13.T0007",
+          "status": "montat"
+        },
+        {
+          "technical": "T238.01",
+          "canonical": "P01.C13.T0007.01",
+          "status": "închis"
+        },
+        {
+          "technical": "T239",
+          "canonical": "P01.C13.T0008",
+          "status": "plan"
+        },
+        {
+          "technical": "T239.01",
+          "canonical": "P01.C13.T0008.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T239.02",
+          "canonical": "P01.C13.T0008.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T239.03",
+          "canonical": "P01.C13.T0008.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T260",
+          "canonical": "P01.C13.T0009",
+          "status": "montat"
+        },
+        {
+          "technical": "T261",
+          "canonical": "P01.C13.T0010",
+          "status": "montat"
+        },
+        {
+          "technical": "T262",
+          "canonical": "P01.C13.T0011",
+          "status": "anulat"
+        },
+        {
+          "technical": "T291",
+          "canonical": "P01.C13.T0012",
+          "status": "montat"
+        },
+        {
+          "technical": "T292",
+          "canonical": "P01.C13.T0013",
+          "status": "montat"
+        },
+        {
+          "technical": "T293",
+          "canonical": "P01.C13.T0014",
+          "status": "anulat"
+        },
+        {
+          "technical": "T294",
+          "canonical": "P01.C13.T0015",
+          "status": "montat"
+        },
+        {
+          "technical": "T296",
+          "canonical": "P01.C13.T0016",
+          "status": "montat"
+        },
+        {
+          "technical": "T299",
+          "canonical": "P01.C13.T0017",
+          "status": "montat"
+        },
+        {
+          "technical": "T303",
+          "canonical": "P01.C13.T0018",
+          "status": "montat"
+        },
+        {
+          "technical": "T304",
+          "canonical": "P01.C13.T0019",
+          "status": "montat"
+        },
+        {
+          "technical": "T308",
+          "canonical": "P01.C13.T0020",
+          "status": "montat"
+        },
+        {
+          "technical": "T310",
+          "canonical": "P01.C13.T0021",
+          "status": "montat"
+        },
+        {
+          "technical": "T357",
+          "canonical": "P01.C13.T0022",
+          "status": "închis"
+        },
+        {
+          "technical": "T358",
+          "canonical": "P01.C13.T0023",
+          "status": "montat"
+        },
+        {
+          "technical": "T361",
+          "canonical": "P01.C13.T0024",
+          "status": "montat"
+        },
+        {
+          "technical": "T362",
+          "canonical": "P01.C13.T0025",
+          "status": "montat"
+        },
+        {
+          "technical": "T364",
+          "canonical": "P01.C13.T0026",
+          "status": "montat"
+        },
+        {
+          "technical": "T365",
+          "canonical": "P01.C13.T0027",
+          "status": "montat"
+        },
+        {
+          "technical": "T367",
+          "canonical": "P01.C13.T0028",
+          "status": "anulat"
+        },
+        {
+          "technical": "T372",
+          "canonical": "P01.C13.T0029",
+          "status": "închis"
+        },
+        {
+          "technical": "T378",
+          "canonical": "P01.C13.T0030",
+          "status": "închis"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C14",
+      "title": "Interfață, ajutor și temă",
+      "journey_to_test": "Meniu/ajutor/temă → acțiune accesibilă",
+      "pipelines": [
+        "A09-P1",
+        "A09-P6"
+      ],
+      "domain_owner": "A09",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T08",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T08.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T08.03",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T08.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T08.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T08.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T08.07",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T08.08",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T10.03",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T10.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T26",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.05",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.11",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.12",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.13",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.14",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.15",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.16",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.17",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.39",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.40",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.41",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.42",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.43",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.54",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.55",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.63",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T36.66",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.67",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.68",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T109",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T240",
+          "canonical": "P01.C14.T0001",
+          "status": "implementare"
+        },
+        {
+          "technical": "T241",
+          "canonical": "P01.C14.T0002",
+          "status": "plan"
+        },
+        {
+          "technical": "T241.01",
+          "canonical": "P01.C14.T0002.01",
+          "status": "agregat"
+        },
+        {
+          "technical": "T241.02",
+          "canonical": "P01.C14.T0002.02",
+          "status": "agregat"
+        },
+        {
+          "technical": "T241.03",
+          "canonical": "P01.C14.T0002.03",
+          "status": "agregat"
+        },
+        {
+          "technical": "T241.04",
+          "canonical": "P01.C14.T0002.04",
+          "status": "agregat"
+        },
+        {
+          "technical": "T241.05",
+          "canonical": "P01.C14.T0002.05",
+          "status": "agregat"
+        },
+        {
+          "technical": "T241.06",
+          "canonical": "P01.C14.T0002.06",
+          "status": "agregat"
+        },
+        {
+          "technical": "T241.07",
+          "canonical": "P01.C14.T0002.07",
+          "status": "agregat"
+        },
+        {
+          "technical": "T242",
+          "canonical": "P01.C14.T0003",
+          "status": "integrat"
+        },
+        {
+          "technical": "T243",
+          "canonical": "P01.C14.T0004",
+          "status": "integrat"
+        },
+        {
+          "technical": "T244",
+          "canonical": "P01.C14.T0005",
+          "status": "anulat"
+        },
+        {
+          "technical": "T382",
+          "canonical": "P01.C14.T0006",
+          "status": "plan"
+        },
+        {
+          "technical": "T383",
+          "canonical": "P01.C14.T0007",
+          "status": "plan"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C15",
+      "title": "Infrastructură, build, teste și montare",
+      "journey_to_test": "Versiune UI/serviciu → monitorizare și reproducere",
+      "pipelines": [
+        "A09-P5",
+        "A09-P7"
+      ],
+      "domain_owner": "A10",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T01.01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T01.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T03.02",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.06",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T32.08",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.09",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.13",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T32.21",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T33.10",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.04",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.05",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.18",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.19",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.24",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.44",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.45",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.47",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.48",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.49",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.50",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.51",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.52",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.53",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T36.65",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T36.70",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T38",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.02",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.03",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.04",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.05",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.06",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.07",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.08",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.09",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T38.10",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T40.14",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T43",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T43.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T43.02",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T245",
+          "canonical": "P01.C15.T0001",
+          "status": "montat"
+        },
+        {
+          "technical": "T246",
+          "canonical": "P01.C15.T0002",
+          "status": "montat"
+        },
+        {
+          "technical": "T247",
+          "canonical": "P01.C15.T0003",
+          "status": "integrat"
+        },
+        {
+          "technical": "T248",
+          "canonical": "P01.C15.T0004",
+          "status": "integrat"
+        },
+        {
+          "technical": "T249",
+          "canonical": "P01.C15.T0005",
+          "status": "integrat"
+        },
+        {
+          "technical": "T250",
+          "canonical": "P01.C15.T0006",
+          "status": "integrat"
+        },
+        {
+          "technical": "T349",
+          "canonical": "P01.C15.T0007",
+          "status": "neînceput"
+        },
+        {
+          "technical": "T356",
+          "canonical": "P01.C15.T0008",
+          "status": "neînceput"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C16",
+      "title": "Analiză funcțională, documentare și audit transversal",
+      "journey_to_test": "Îndrumar și corespondențe pentru procesele utilizatorilor",
+      "pipelines": [
+        "A09-P1",
+        "A09-P6"
+      ],
+      "domain_owner": "A11 A12",
+      "task_ids_in_captured_registry": [
+        {
+          "technical": "T01",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T01.03",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T01.08",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T10.06",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T13",
+          "canonical": null,
+          "status": "anulat"
+        },
+        {
+          "technical": "T23",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T23.02",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T24",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T39",
+          "canonical": null,
+          "status": "agregat"
+        },
+        {
+          "technical": "T39.01",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T39.02",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T39.03",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T39.04",
+          "canonical": null,
+          "status": "montat"
+        },
+        {
+          "technical": "T94",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T102",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T102.07",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T105",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T106",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T107",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T108",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T110",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T111",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T112",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T113",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T116",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T117",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T118",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T123",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T124",
+          "canonical": null,
+          "status": "închis"
+        },
+        {
+          "technical": "T251",
+          "canonical": "P01.C16.T0001",
+          "status": "suspendat"
+        },
+        {
+          "technical": "T252",
+          "canonical": "P01.C16.T0002",
+          "status": "integrat"
+        }
+      ],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C17",
+      "title": "Aplicația mobilă Android de inventariere și ambalare",
+      "journey_to_test": "Android scanner, lot și confirmare",
+      "pipelines": [
+        "A09-P4"
+      ],
+      "domain_owner": "A05 A09",
+      "task_ids_in_captured_registry": [],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C18",
+      "title": "Aplicația mobilă iPhone de inventariere și ambalare",
+      "journey_to_test": "iOS scanner, lot și confirmare",
+      "pipelines": [
+        "A09-P4"
+      ],
+      "domain_owner": "A05 A09",
+      "task_ids_in_captured_registry": [],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C19",
+      "title": "Aplicația mobilă iDempiere pentru Android",
+      "journey_to_test": "Android ERP general, raport și drepturi",
+      "pipelines": [
+        "A09-P7"
+      ],
+      "domain_owner": "A01 A09",
+      "task_ids_in_captured_registry": [],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    },
+    {
+      "chapter": "P01.C20",
+      "title": "Aplicația mobilă iDempiere pentru iPhone",
+      "journey_to_test": "iOS ERP general, raport și drepturi",
+      "pipelines": [
+        "A09-P7"
+      ],
+      "domain_owner": "A01 A09",
+      "task_ids_in_captured_registry": [],
+      "qualification": "Capitolul este o clasificare P01. Meniul real, ruta și dreptul se confirmă per mediu/rol. A12 deduplichează auditul fiecărui task finalizat."
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A09-P1",
+      "business_outcome": "Descoperirea unei operații din meniul nativ sau din tema EVA",
+      "role": "Administrator configurare, contabil, gestionar, vânzător, comisionar",
+      "fixture": "Meniu țintă și AD_Role din cabinet A/B",
+      "ui_to_backend": "Meniu → arbore → AD_Menu → fereastră/proces/formă → context client/org → rezultat autorizat",
+      "db": "AD_Menu,AD_TreeNodeMM,AD_Window,AD_Form,AD_Process,AD_Window_Access,AD_Process_Access,AD_Form_Access",
+      "anchors": [
+        "MENU",
+        "TREE",
+        "VARIABLES",
+        "Q31",
+        "EVA"
+      ],
+      "handoff": [
+        "A01",
+        "A02",
+        "A03"
+      ],
+      "state_transition_and_faults": "afișare, intrare, revenire, schimbare firmă, redeschidere",
+      "expected": "0 acțiuni vizibile fără destinație explicată; 0 rânduri ale firmei B în A; fiecare capitol mapat sau limită consemnată",
+      "correlation": "tenant/org/role + ID stabil al operației/documentului + cerere/sesiune anonimizată + timp UTC; captură înainte/după și citire în tranzacție read-only pe aceeași versiune",
+      "transaction": "Autoritatea este procesul ERP din zona titulară. Eroare și repetare se confirmă prin numărarea documentelor/efectelor. Pentru simple citiri se cere zero mutații.",
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "A09-P2",
+      "business_outcome": "Configurarea gestiunii G1/G2/G3 în taburi compatibile",
+      "role": "Administrator ERP și gestionar",
+      "fixture": "G1.1/G1.2, G2.1/G2.2 și G3 pentru două organizații",
+      "ui_to_backend": "Setări → tab tipizat → relație gestiune/locator/rețetă → validare server → salvare → recitire",
+      "db": "M_Warehouse,M_Locator,M_Product,M_AttributeSetInstance; tabelul configurării EVA identificat prin AD_Column înainte de test",
+      "anchors": [
+        "WH",
+        "COUNT",
+        "VARIABLES",
+        "CHSET"
+      ],
+      "handoff": [
+        "A02",
+        "A05",
+        "A06"
+      ],
+      "state_transition_and_faults": "salvare, anulare, modificare concurentă, referință inactivă",
+      "expected": "0 legături inter-firmă sau incompatibile; G3 nu creează stoc; fiecare alegere are ID și etichetă univoce",
+      "correlation": "tenant/org/role + ID stabil al operației/documentului + cerere/sesiune anonimizată + timp UTC; captură înainte/după și citire în tranzacție read-only pe aceeași versiune",
+      "transaction": "Autoritatea este procesul ERP din zona titulară. Eroare și repetare se confirmă prin numărarea documentelor/efectelor. Pentru simple citiri se cere zero mutații.",
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "A09-P3",
+      "business_outcome": "Gestionar preia comanda și transmite avizul spre validare",
+      "role": "Gestionar, responsabil vânzări și comisionar separat",
+      "fixture": "O comandă pentru S1 și componente supleante, locator G2, politică factură la livrare",
+      "ui_to_backend": "Comenzi ERP → deficit fizic → dezasamblare → locator → pick → aviz → autorizare vânzări → AWB → confirmare livrare → factură",
+      "db": "C_Order,C_OrderLine,M_InOut,M_InOutLine,M_Transaction,C_Invoice; legături colet/AWB la A07",
+      "anchors": [
+        "WH",
+        "COUNT",
+        "SALES",
+        "CHANNEL"
+      ],
+      "handoff": [
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "state_transition_and_faults": "DR/IP/WP/WC/CO; temporizare, întrerupere și știre de retur",
+      "expected": "1 document per efect autorizat; 0 AWB înainte de aprobare și 0 facturi premature sub politica selectată",
+      "correlation": "tenant/org/role + ID stabil al operației/documentului + cerere/sesiune anonimizată + timp UTC; captură înainte/după și citire în tranzacție read-only pe aceeași versiune",
+      "transaction": "Autoritatea este procesul ERP din zona titulară. Eroare și repetare se confirmă prin numărarea documentelor/efectelor. Pentru simple citiri se cere zero mutații.",
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "A09-P4",
+      "business_outcome": "Inventariere și ambalare de pe Android/iPhone",
+      "role": "Operator autorizat, gestionar, dispozitiv revocat",
+      "fixture": "Aceeași sesiune fizică pe două dispozitive cu lot și locator, scanări online și offline",
+      "ui_to_backend": "Asociere → autorizare → selectare document → scanare → confirmare/retry → stare server → reconciliere ERP",
+      "db": "M_Inventory,M_InventoryLine,M_AttributeSetInstance,M_Locator; jurnal dispozitiv și idempotency după identificare tabel din AD",
+      "anchors": [
+        "DEVICE",
+        "API",
+        "SERVLET",
+        "GUARD",
+        "CONFIRM",
+        "COUNT"
+      ],
+      "handoff": [
+        "A01",
+        "A02",
+        "A05",
+        "A10"
+      ],
+      "state_transition_and_faults": "rezervat, în așteptare, reconectat, confirmat, conflict, acces revocat",
+      "expected": "Aceeași operație reaplicată are un singur efect; confirmarea afișată corespunde stării persistate, lotului și locatorului",
+      "correlation": "tenant/org/role + ID stabil al operației/documentului + cerere/sesiune anonimizată + timp UTC; captură înainte/după și citire în tranzacție read-only pe aceeași versiune",
+      "transaction": "Autoritatea este procesul ERP din zona titulară. Eroare și repetare se confirmă prin numărarea documentelor/efectelor. Pentru simple citiri se cere zero mutații.",
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "A09-P5",
+      "business_outcome": "Import, listă lungă, verificare diferențe și fișier descărcat",
+      "role": "Contabil import; utilizator citire fără drept export",
+      "fixture": "Firmă A și B, lună, solduri cunoscute, 10.001 rânduri, un incident injectat",
+      "ui_to_backend": "Selectare firmă/perioadă → import → stare job → verificare → listă paginată → export/tipar → fișier deschis și recitit",
+      "db": "AD_PInstance, AD_PrintFormat, C_Invoice, Fact_Acct; datele importului după identificarea procesului A04",
+      "anchors": [
+        "IMPORT",
+        "IMPORTRESULT",
+        "PRINT"
+      ],
+      "handoff": [
+        "A03",
+        "A04",
+        "A10"
+      ],
+      "state_transition_and_faults": "job în lucru, eșec parțial, reluare, filtre active, PDF/XLSX",
+      "expected": "Totalul și numărul rândurilor din fișier egale cu selecția autorizată, fără date străine ori dubluri după retry",
+      "correlation": "tenant/org/role + ID stabil al operației/documentului + cerere/sesiune anonimizată + timp UTC; captură înainte/după și citire în tranzacție read-only pe aceeași versiune",
+      "transaction": "Autoritatea este procesul ERP din zona titulară. Eroare și repetare se confirmă prin numărarea documentelor/efectelor. Pentru simple citiri se cere zero mutații.",
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "A09-P6",
+      "business_outcome": "Ajutor, accesibilitate și remedierea unei erori de validare",
+      "role": "Contabil începător, operator tastatură/cititor de ecran",
+      "fixture": "Setări RO, zoom 200 %, viewport 360 × 800 și desktop; exemplu invalid și date în lucru",
+      "ui_to_backend": "Ecran → focus → ajutor contextual → introducere → eroare identificabilă → corectare → confirmare → revenire",
+      "db": "AD_Field,AD_Element,AD_Message,AD_Language,AD_Window; fără scrieri pe ajutor sau eroare",
+      "anchors": [
+        "HELP",
+        "MENU",
+        "IMPORTRESULT",
+        "TREE"
+      ],
+      "handoff": [
+        "A01",
+        "A03",
+        "A08"
+      ],
+      "state_transition_and_faults": "dialog/modale, focus restabilit, traducere lipsă, timeout",
+      "expected": "0 comandă esențială inaccesibilă; eroarea are control asociat, explicație și o cale de remediere",
+      "correlation": "tenant/org/role + ID stabil al operației/documentului + cerere/sesiune anonimizată + timp UTC; captură înainte/după și citire în tranzacție read-only pe aceeași versiune",
+      "transaction": "Autoritatea este procesul ERP din zona titulară. Eroare și repetare se confirmă prin numărarea documentelor/efectelor. Pentru simple citiri se cere zero mutații.",
+      "status": "NEEXECUTAT"
+    },
+    {
+      "id": "A09-P7",
+      "business_outcome": "ERP general pe Android și iOS",
+      "role": "Contabil mobil cu drept limitat; administrator revocă accesul",
+      "fixture": "C19/C20 în contraste cu C17/C18, două firme, aplicație veche, conexiune întreruptă",
+      "ui_to_backend": "Selectare cabinet → autentificare → rol și firmă → deschidere raport → filtrare → logout → deep link → acces refuzat",
+      "db": "AD_User,AD_Role,AD_Org,AD_Session,AD_Window_Access; jurnal de dispozitiv după confirmarea schemei",
+      "anchors": [
+        "SERVLET",
+        "DEVICE",
+        "API",
+        "GUARD",
+        "TREE"
+      ],
+      "handoff": [
+        "A01",
+        "A08",
+        "A10"
+      ],
+      "state_transition_and_faults": "online, fundal, reluare, versiune neacceptată, logout, memorie cache",
+      "expected": "Aceleași drepturi ca în ERP desktop, 0 rânduri din sesiunea veche, acțiunile WMS necesită dreptul distinct",
+      "correlation": "tenant/org/role + ID stabil al operației/documentului + cerere/sesiune anonimizată + timp UTC; captură înainte/după și citire în tranzacție read-only pe aceeași versiune",
+      "transaction": "Autoritatea este procesul ERP din zona titulară. Eroare și repetare se confirmă prin numărarea documentelor/efectelor. Pentru simple citiri se cere zero mutații.",
+      "status": "NEEXECUTAT"
+    }
+  ],
+  "controls": [
+    {
+      "id": "A09-C01",
+      "requirement": "Acoperire 20 capitole",
+      "pipeline": "A09-P1",
+      "role": "Administrator configurare, contabil, gestionar, vânzător, comisionar",
+      "fixture": "Meniu țintă și AD_Role din cabinet A/B",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Confruntă fiecare capitol din captură cu acțiunea de lucru, rol și destinația AD. Enumeră toate intrările active pentru acel rol și clasifică administrativ, interfață sau element de infrastructură.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Caută în arbore și prin acces direct pentru rol fără drept.",
+      "expected": "20/20 rânduri clasificate; fiecare funcție de utilizator are cale testabilă, capitolele tehnice au titular și dovadă distinctă.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Menu,AD_TreeNodeMM,AD_Window,AD_Form,AD_Process,AD_Window_Access,AD_Process_Access,AD_Form_Access",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "MENU",
+        "TREE",
+        "VARIABLES",
+        "Q31",
+        "EVA"
+      ],
+      "handoff": [
+        "A01",
+        "A02"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C02",
+      "requirement": "Meniu real față de inventarul q31",
+      "pipeline": "A09-P1",
+      "role": "Administrator configurare, contabil, gestionar, vânzător, comisionar",
+      "fixture": "Meniu țintă și AD_Role din cabinet A/B",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Extrage AD_Menu/arbore/ținte dintr-un cabinet martor și compară cu inventarul din Git pe identificator și rol, inclusiv țintele inactive.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Nume duplicat și formă dezinstalată nu trimit la altă funcție.",
+      "expected": "Diferențele au ID, mediu și explicație; fiecare destinație vizibilă se deschide în contextul așteptat.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Menu,AD_TreeNodeMM,AD_Window,AD_Form,AD_Process,AD_Window_Access,AD_Process_Access,AD_Form_Access",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "MENU",
+        "TREE",
+        "VARIABLES",
+        "Q31",
+        "EVA"
+      ],
+      "handoff": [
+        "A02"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C03",
+      "requirement": "Separarea zonelor WMS, Gestiuni, Comenzi, Canale",
+      "pipeline": "A09-P1",
+      "role": "Administrator configurare, contabil, gestionar, vânzător, comisionar",
+      "fixture": "Meniu țintă și AD_Role din cabinet A/B",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Dă operatorului patru obiective: adaugă gestiune, găsește pick, preia comandă și schimbă setare canal; urmărește traseul de la meniu la document.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Omonimele din două zone nu lansează alt proces cu efect material.",
+      "expected": "Fiecare obiectiv are punct de pornire identificabil și destinația corectă; se consemnează clicurile, reveniri, ecrane și acțiuni fără rezultat.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Menu,AD_TreeNodeMM,AD_Window,AD_Form,AD_Process,AD_Window_Access,AD_Process_Access,AD_Form_Access",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "MENU",
+        "TREE",
+        "VARIABLES",
+        "Q31",
+        "EVA"
+      ],
+      "handoff": [
+        "A05",
+        "A06",
+        "A08"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C04",
+      "requirement": "Dreptul în meniu și în serviciu",
+      "pipeline": "A09-P1",
+      "role": "Administrator configurare, contabil, gestionar, vânzător, comisionar",
+      "fixture": "Meniu țintă și AD_Role din cabinet A/B",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Din contabil deschide un raport; din comisionar repetă deschiderea prin URL, ID și căutare, inclusiv după schimbarea firmei.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "ID corect în cabinet greșit sau rol expirat.",
+      "expected": "0 rânduri, exporturi sau identificatori dezvăluiți fără drept; meniul și refuzul serverului concordă.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Menu,AD_TreeNodeMM,AD_Window,AD_Form,AD_Process,AD_Window_Access,AD_Process_Access,AD_Form_Access",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "MENU",
+        "TREE",
+        "VARIABLES",
+        "Q31",
+        "EVA"
+      ],
+      "handoff": [
+        "A01"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C05",
+      "requirement": "Context între două ferestre",
+      "pipeline": "A09-P1",
+      "role": "Administrator configurare, contabil, gestionar, vânzător, comisionar",
+      "fixture": "Meniu țintă și AD_Role din cabinet A/B",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Deschide firma A și firma B în taburi distincte, filtrează același produs, închide și redeschide.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Navigare Back/Forward după schimbarea rolului.",
+      "expected": "Fiecare fereastră arată explicit firma, perioada și gestiunea sa; filtrele nu schimbă alt context.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Menu,AD_TreeNodeMM,AD_Window,AD_Form,AD_Process,AD_Window_Access,AD_Process_Access,AD_Form_Access",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "MENU",
+        "TREE",
+        "VARIABLES",
+        "Q31",
+        "EVA"
+      ],
+      "handoff": [
+        "A01",
+        "A02"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C06",
+      "requirement": "Taburi pentru configurarea G1/G2/G3",
+      "pipeline": "A09-P2",
+      "role": "Administrator ERP și gestionar",
+      "fixture": "G1.1/G1.2, G2.1/G2.2 și G3 pentru două organizații",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Adaugă în baza izolată G1.2 și G2.2 apoi leagă un locator compatibil. Citește după reîncărcare și după schimbarea rolului.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Propune G3 ca gestiune contabilă, locator cross-org sau al doilea G3 activ.",
+      "expected": "Tipul, organizația, titularul și ID-ul persistă; G3 unică în domeniul definit. Toate operațiile după rol.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Warehouse,M_Locator,M_Product,M_AttributeSetInstance; tabelul configurării EVA identificat prin AD_Column înainte de test",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "WH",
+        "COUNT",
+        "VARIABLES",
+        "CHSET"
+      ],
+      "handoff": [
+        "A02",
+        "A05"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C07",
+      "requirement": "Identitate CPP/CPA în câmpurile de căutare",
+      "pipeline": "A09-P2",
+      "role": "Administrator ERP și gestionar",
+      "fixture": "G1.1/G1.2, G2.1/G2.2 și G3 pentru două organizații",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Caută același nume și EAN în ambele cataloage, deschide fișa, scanează un alias ambiguu; apoi inactivează vechea fișă.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "P1 singur în CPP, respectiv set exclusiv CPA.",
+      "expected": "Selectorul distinge două ID-uri permanente, sursă și UOM; aliasul ambiguu cere alegere autorizată, codul inactiv nu se realocă.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Warehouse,M_Locator,M_Product,M_AttributeSetInstance; tabelul configurării EVA identificat prin AD_Column înainte de test",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "WH",
+        "COUNT",
+        "VARIABLES",
+        "CHSET"
+      ],
+      "handoff": [
+        "A02",
+        "A06"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C08",
+      "requirement": "Efect unic ambalaj și manoperă",
+      "pipeline": "A09-P2",
+      "role": "Administrator ERP și gestionar",
+      "fixture": "G1.1/G1.2, G2.1/G2.2 și G3 pentru două organizații",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "În scenariul A05, citește rezumatul unei operații G2 și efectul în G1; reia confirmarea după căderea rețelei.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "O ambalare fizică ulterioară este operație distinctă; G2 nu dublează stocul contabil.",
+      "expected": "Un singur cost pentru aceeași operație, cutia consumată o singură dată; ecranul distinge operația fizică de documentul contabil.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Warehouse,M_Locator,M_Product,M_AttributeSetInstance; tabelul configurării EVA identificat prin AD_Column înainte de test",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "WH",
+        "COUNT",
+        "VARIABLES",
+        "CHSET"
+      ],
+      "handoff": [
+        "A03",
+        "A05"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C09",
+      "requirement": "Stoc virtual, disponibil versus rezervat",
+      "pipeline": "A09-P2",
+      "role": "Administrator ERP și gestionar",
+      "fixture": "G1.1/G1.2, G2.1/G2.2 și G3 pentru două organizații",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Inserează în fixture 120 din fiecare componentă; vizualizează 20 S1 și 40 S2, rezervă un S1 și recitește ambele opțiuni.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Concurență și aceeași rezervare afișată în două G1.",
+      "expected": "După rezervare: 19 S1 sau 38 S2 din aceleași componente; stocul G3 nu are total fizic însumat.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Warehouse,M_Locator,M_Product,M_AttributeSetInstance; tabelul configurării EVA identificat prin AD_Column înainte de test",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "WH",
+        "COUNT",
+        "VARIABLES",
+        "CHSET"
+      ],
+      "handoff": [
+        "A05",
+        "A06"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C10",
+      "requirement": "Setare dependentă inactivă",
+      "pipeline": "A09-P2",
+      "role": "Administrator ERP și gestionar",
+      "fixture": "G1.1/G1.2, G2.1/G2.2 și G3 pentru două organizații",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Dezactivează în fixture un locator folosit de o regulă; încearcă salvare cu filă veche și utilizator fără drept administrativ.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Al doilea administrator modifică simultan aceeași regulă.",
+      "expected": "Salvarea respinge referința ori o gestionează conform politicii aprobate, prezintă câmpul și soluția; 0 salvări parțiale.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Warehouse,M_Locator,M_Product,M_AttributeSetInstance; tabelul configurării EVA identificat prin AD_Column înainte de test",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "WH",
+        "COUNT",
+        "VARIABLES",
+        "CHSET"
+      ],
+      "handoff": [
+        "A01",
+        "A02",
+        "A05"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C11",
+      "requirement": "Comandă ERP și deficit fizic",
+      "pipeline": "A09-P3",
+      "role": "Gestionar, responsabil vânzări și comisionar separat",
+      "fixture": "O comandă pentru S1 și componente supleante, locator G2, politică factură la livrare",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Din rol gestionar selectează comanda gata de verificare; toate bunurile se află în S1 în G2, clientul cere P1; urmărește nota și locatorul nou.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Oprește între operații, redeschide; nu se repetă nota și nu se pierde lipsa.",
+      "expected": "Pasul de pick devine eligibil doar după dezasamblarea efectivă și atribuirea locatorului; următoarea acțiune are titular explicit.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "C_Order,C_OrderLine,M_InOut,M_InOutLine,M_Transaction,C_Invoice; legături colet/AWB la A07",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "WH",
+        "COUNT",
+        "SALES",
+        "CHANNEL"
+      ],
+      "handoff": [
+        "A05",
+        "A06"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C12",
+      "requirement": "Aprobare aviz, AWB și factură",
+      "pipeline": "A09-P3",
+      "role": "Gestionar, responsabil vânzări și comisionar separat",
+      "fixture": "O comandă pentru S1 și componente supleante, locator G2, politică factură la livrare",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Testează post-CO, aprobare/respingere de către rolul comercial, apoi livrare efectivă și retur cu politici diferite.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Retur sau problemă deschisă înaintea facturării la livrare, callback duplicat.",
+      "expected": "Stările ERP arată separat CO/validare/expediere/livrare; efecte în ordinea aprobată pentru politica selectată.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "C_Order,C_OrderLine,M_InOut,M_InOutLine,M_Transaction,C_Invoice; legături colet/AWB la A07",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "WH",
+        "COUNT",
+        "SALES",
+        "CHANNEL"
+      ],
+      "handoff": [
+        "A07"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C13",
+      "requirement": "Comisionar și limita de administrare",
+      "pipeline": "A09-P3",
+      "role": "Gestionar, responsabil vânzări și comisionar separat",
+      "fixture": "O comandă pentru S1 și componente supleante, locator G2, politică factură la livrare",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Pe canalul alocat verifică istoricul și comanda proprie, încearcă pick, validare și emitere AWB inclusiv prin URL direct.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Utilizator cu aceleași nume de canal în alt cabinet.",
+      "expected": "Catalogul și comanda proprie sunt accesibile; 0 preluări administrative și 0 situații ale altui comisionar.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "C_Order,C_OrderLine,M_InOut,M_InOutLine,M_Transaction,C_Invoice; legături colet/AWB la A07",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "WH",
+        "COUNT",
+        "SALES",
+        "CHANNEL"
+      ],
+      "handoff": [
+        "A01",
+        "A08"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C14",
+      "requirement": "Android C17 scanare și lot",
+      "pipeline": "A09-P4",
+      "role": "Operator autorizat, gestionar, dispozitiv revocat",
+      "fixture": "Aceeași sesiune fizică pe două dispozitive cu lot și locator, scanări online și offline",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Pe terminal Android scanează un articol cu lot într-un locator și repetă scanarea aceluiași eveniment după întrerupere.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Scanare de produs/lot greșit și lipsa permisiunii camerei.",
+      "expected": "Qty numărată corespunde operației reale, jurnalul diferențiază scanări intenționate de retry, lotul/locatorul persistă.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Inventory,M_InventoryLine,M_AttributeSetInstance,M_Locator; jurnal dispozitiv și idempotency după identificare tabel din AD",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "DEVICE",
+        "API",
+        "SERVLET",
+        "GUARD",
+        "CONFIRM",
+        "COUNT"
+      ],
+      "handoff": [
+        "A05"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C15",
+      "requirement": "iPhone C18 cameră și reluare",
+      "pipeline": "A09-P4",
+      "role": "Operator autorizat, gestionar, dispozitiv revocat",
+      "fixture": "Aceeași sesiune fizică pe două dispozitive cu lot și locator, scanări online și offline",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Execută același scenariu pe iPhone cu permisiune cameră refuzată, intrare manuală, apoi revenire din fundal înainte de confirmare.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Cod invalid și conexiune pierdută între request și răspuns.",
+      "expected": "Comportamentul funcțional și efectele sunt identice cu scenariul de referință; operatorul vede clar în așteptare/confirmat.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Inventory,M_InventoryLine,M_AttributeSetInstance,M_Locator; jurnal dispozitiv și idempotency după identificare tabel din AD",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "DEVICE",
+        "API",
+        "SERVLET",
+        "GUARD",
+        "CONFIRM",
+        "COUNT"
+      ],
+      "handoff": [
+        "A05"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C16",
+      "requirement": "Concurență offline la inventar",
+      "pipeline": "A09-P4",
+      "role": "Operator autorizat, gestionar, dispozitiv revocat",
+      "fixture": "Aceeași sesiune fizică pe două dispozitive cu lot și locator, scanări online și offline",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Două dispozitive numără același locator/lot și revin online în ordine inversă; verifică diferența în ERP.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Scanner trimite cheia aceluiași eveniment cu altă cantitate.",
+      "expected": "Regula de conflict este aplicată o dată, cu diferență explicată și rezoluție urmărită, fără suprascriere tăcută.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Inventory,M_InventoryLine,M_AttributeSetInstance,M_Locator; jurnal dispozitiv și idempotency după identificare tabel din AD",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "DEVICE",
+        "API",
+        "SERVLET",
+        "GUARD",
+        "CONFIRM",
+        "COUNT"
+      ],
+      "handoff": [
+        "A02",
+        "A05"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C17",
+      "requirement": "Revocare dispozitiv și audit mobil",
+      "pipeline": "A09-P4",
+      "role": "Operator autorizat, gestionar, dispozitiv revocat",
+      "fixture": "Aceeași sesiune fizică pe două dispozitive cu lot și locator, scanări online și offline",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Revocă dispozitivul în cabinetul de test și reia o cerere păstrată înainte de revocare.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Tentativă din dispozitiv revocat după schimbarea profilului local.",
+      "expected": "Zero confirmări noi, mesaj de reautorizare, eveniment jurnalizat fără jeton în clar.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "M_Inventory,M_InventoryLine,M_AttributeSetInstance,M_Locator; jurnal dispozitiv și idempotency după identificare tabel din AD",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "DEVICE",
+        "API",
+        "SERVLET",
+        "GUARD",
+        "CONFIRM",
+        "COUNT"
+      ],
+      "handoff": [
+        "A01",
+        "A10"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C18",
+      "requirement": "Import cu progres și erori",
+      "pipeline": "A09-P5",
+      "role": "Contabil import; utilizator citire fără drept export",
+      "fixture": "Firmă A și B, lună, solduri cunoscute, 10.001 rânduri, un incident injectat",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Pornește importul autorizat pe fixture A04, întrerupe navigarea, reia aceeași execuție și consultă raportul liniilor cu erori.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Dublu clic sau timeout după acceptarea cererii; un fișier respins nu blochează vizualizarea diagnosticului.",
+      "expected": "Se disting așteptare, procesare, final, parțial și eșec; ID job stabil și totalurile succes+eșec+omise egale cu intrarea.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_PInstance, AD_PrintFormat, C_Invoice, Fact_Acct; datele importului după identificarea procesului A04",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "IMPORT",
+        "IMPORTRESULT",
+        "PRINT"
+      ],
+      "handoff": [
+        "A04",
+        "A10"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C19",
+      "requirement": "Filtrare și paginare mare",
+      "pipeline": "A09-P5",
+      "role": "Contabil import; utilizator citire fără drept export",
+      "fixture": "Firmă A și B, lună, solduri cunoscute, 10.001 rânduri, un incident injectat",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Sortează și filtrează 10.001 rânduri în două sesiuni; urmărește stabilitatea ordinii, totalul și selecția peste pagini.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "În ultima pagină schimbă filtrul în rezultat vid și revino.",
+      "expected": "0 omisiuni și 0 dubluri între pagini pentru snapshot fix. Înregistrează p50/p95 și evaluarea față de bugetul mediului stabilit înainte de rulare.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_PInstance, AD_PrintFormat, C_Invoice, Fact_Acct; datele importului după identificarea procesului A04",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "IMPORT",
+        "IMPORTRESULT",
+        "PRINT"
+      ],
+      "handoff": [
+        "A02",
+        "A10"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C20",
+      "requirement": "Fișier tipărit și export",
+      "pipeline": "A09-P5",
+      "role": "Contabil import; utilizator citire fără drept export",
+      "fixture": "Firmă A și B, lună, solduri cunoscute, 10.001 rânduri, un incident injectat",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Generează document din filtrul firmei A, deschide PDF/XLSX, verifică toate paginile, antetele, subtotalurile, formatul negativ și diacriticele.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Rol fără export sau cu date HR restrânse; fișier gol/decupat este înregistrat.",
+      "expected": "Total și număr rânduri identice cu selecția autorizată, lizibil în imprimare, fără rând ascuns din firma B.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_PInstance, AD_PrintFormat, C_Invoice, Fact_Acct; datele importului după identificarea procesului A04",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "IMPORT",
+        "IMPORTRESULT",
+        "PRINT"
+      ],
+      "handoff": [
+        "A01",
+        "A03"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C21",
+      "requirement": "Perioadă închisă și reconciliere",
+      "pipeline": "A09-P5",
+      "role": "Contabil import; utilizator citire fără drept export",
+      "fixture": "Firmă A și B, lună, solduri cunoscute, 10.001 rânduri, un incident injectat",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Contabilul compară soldurile în perioadă închisă, deschide rândul diferenței și revine la filtru.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Dată la limita zilei locale sau fus de afișare diferit.",
+      "expected": "Documentul și perioada rămân aceleași, diferența și sursa sunt explicate; 0 înregistrări în perioada închisă dintr-o citire.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_PInstance, AD_PrintFormat, C_Invoice, Fact_Acct; datele importului după identificarea procesului A04",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "IMPORT",
+        "IMPORTRESULT",
+        "PRINT"
+      ],
+      "handoff": [
+        "A03",
+        "A04"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C22",
+      "requirement": "Navigare completă cu tastatură",
+      "pipeline": "A09-P6",
+      "role": "Contabil începător, operator tastatură/cititor de ecran",
+      "fixture": "Setări RO, zoom 200 %, viewport 360 × 800 și desktop; exemplu invalid și date în lucru",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Pornind din meniu parcurge filtrul, grila, acțiunea, dialogul și revenirea fără mouse; înregistrează ordinea focusului.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Escape în confirmare și editare nesalvată.",
+      "expected": "Fiecare acțiune necesară se poate termina, focus vizibil, restaurat la controlul inițiator, fără capcană.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Field,AD_Element,AD_Message,AD_Language,AD_Window; fără scrieri pe ajutor sau eroare",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "HELP",
+        "MENU",
+        "IMPORTRESULT",
+        "TREE"
+      ],
+      "handoff": [
+        "A01"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C23",
+      "requirement": "Etichete și mesaje pentru tehnologie asistivă",
+      "pipeline": "A09-P6",
+      "role": "Contabil începător, operator tastatură/cititor de ecran",
+      "fixture": "Setări RO, zoom 200 %, viewport 360 × 800 și desktop; exemplu invalid și date în lucru",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Inspectează numele/rolul/valoarea pentru câmpuri și iconițe, anunțarea progresului și a erorii; repetă cu cititor de ecran.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Eroare simultană pe două câmpuri și tooltip fără focus.",
+      "expected": "Fiecare câmp obligatoriu și eroare au nume/descriere asociabile, starea nu depinde exclusiv de culoare; flux realizabil.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Field,AD_Element,AD_Message,AD_Language,AD_Window; fără scrieri pe ajutor sau eroare",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "HELP",
+        "MENU",
+        "IMPORTRESULT",
+        "TREE"
+      ],
+      "handoff": [
+        "A09"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C24",
+      "requirement": "Redimensionare și atingere",
+      "pipeline": "A09-P6",
+      "role": "Contabil începător, operator tastatură/cititor de ecran",
+      "fixture": "Setări RO, zoom 200 %, viewport 360 × 800 și desktop; exemplu invalid și date în lucru",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Testează la 200% și pe 360 × 800, ambele orientări, deschide dialog și confirmă prin atingere.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Tastatură virtuală deschisă peste ultimul câmp și text tradus mai lung.",
+      "expected": "Acțiunile principale și mesajele sunt vizibile sau accesibile prin derulare; zero suprapuneri care împiedică activitatea.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Field,AD_Element,AD_Message,AD_Language,AD_Window; fără scrieri pe ajutor sau eroare",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "HELP",
+        "MENU",
+        "IMPORTRESULT",
+        "TREE"
+      ],
+      "handoff": [
+        "A08",
+        "A09"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C25",
+      "requirement": "Ajutor și vocabular contabil",
+      "pipeline": "A09-P6",
+      "role": "Contabil începător, operator tastatură/cititor de ecran",
+      "fixture": "Setări RO, zoom 200 %, viewport 360 × 800 și desktop; exemplu invalid și date în lucru",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Un utilizator cu cunoștințe de bază caută ajutor pentru aviz, rezervat, disponibil, livrat și CPP/CPA; alternează între două ecrane.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Ajutor lipsă sau limbă fără traducere, etichetă ambiguă pentru două gestiuni.",
+      "expected": "Ajutorul deschis aparține ecranului și versiunii, explică următoarea acțiune și rolul; termenii și unitățile corespund datelor.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Field,AD_Element,AD_Message,AD_Language,AD_Window; fără scrieri pe ajutor sau eroare",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "HELP",
+        "MENU",
+        "IMPORTRESULT",
+        "TREE"
+      ],
+      "handoff": [
+        "A03",
+        "A05"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C26",
+      "requirement": "Design stabil și recuperare din eroare",
+      "pipeline": "A09-P6",
+      "role": "Contabil începător, operator tastatură/cititor de ecran",
+      "fixture": "Setări RO, zoom 200 %, viewport 360 × 800 și desktop; exemplu invalid și date în lucru",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Compară captura anterioară aprobată și ecranul candidat pentru bară/grilă/stare; provoacă eroare de validare și corectează.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Reautentificare, pierderea sesiunii, apăsare repetată pe salvare.",
+      "expected": "Mesajul apare în zona de stare existentă, acțiunile și grila își păstrează poziția convenită; datele valide sunt păstrate.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_Field,AD_Element,AD_Message,AD_Language,AD_Window; fără scrieri pe ajutor sau eroare",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "HELP",
+        "MENU",
+        "IMPORTRESULT",
+        "TREE"
+      ],
+      "handoff": [
+        "A10"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C27",
+      "requirement": "Android ERP general C19",
+      "pipeline": "A09-P7",
+      "role": "Contabil mobil cu drept limitat; administrator revocă accesul",
+      "fixture": "C19/C20 în contraste cu C17/C18, două firme, aplicație veche, conexiune întreruptă",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Pe Android, rol contabil deschide lista și detaliul în firma A, rotește ecranul, revine la listă și părăsește sesiunea.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Deep link după logout și notificare întârziată pentru firma B.",
+      "expected": "Selecția și filtrul se păstrează la revenire în sesiunea valabilă; după logout datele nu mai sunt vizibile.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_User,AD_Role,AD_Org,AD_Session,AD_Window_Access; jurnal de dispozitiv după confirmarea schemei",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "SERVLET",
+        "DEVICE",
+        "API",
+        "GUARD",
+        "TREE"
+      ],
+      "handoff": [
+        "A01",
+        "A10"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C28",
+      "requirement": "iPhone ERP general C20",
+      "pipeline": "A09-P7",
+      "role": "Contabil mobil cu drept limitat; administrator revocă accesul",
+      "fixture": "C19/C20 în contraste cu C17/C18, două firme, aplicație veche, conexiune întreruptă",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Pe iOS cu VoiceOver navighează raportul, comută firma, revine din fundal și deschide o legătură veche.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Client cu versiune API depășită sau dispozitiv neasociat.",
+      "expected": "Contextul nou este explicit, 0 rânduri din firma anterioară; operațiile admise sunt egale cu drepturile desktop.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_User,AD_Role,AD_Org,AD_Session,AD_Window_Access; jurnal de dispozitiv după confirmarea schemei",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "SERVLET",
+        "DEVICE",
+        "API",
+        "GUARD",
+        "TREE"
+      ],
+      "handoff": [
+        "A01",
+        "A10"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    },
+    {
+      "id": "A09-C29",
+      "requirement": "Separarea aplicațiilor generale de WMS",
+      "pipeline": "A09-P7",
+      "role": "Contabil mobil cu drept limitat; administrator revocă accesul",
+      "fixture": "C19/C20 în contraste cu C17/C18, două firme, aplicație veche, conexiune întreruptă",
+      "preconditions": "Gate A11 pentru acest SHA și acest plan; mediu izolat identificat, roluri și date sintetice resetabile; versiuni, traduceri și configurații consemnate.",
+      "steps": [
+        "Pentru C17/C18 și C19/C20 inventariază pachetul, versiunea, ruta, rolul și întâlnirea cu serviciile ERP; execută sarcini permise și interzise.",
+        "Exercită cazul negativ din același control și corelează rezultatul cu documentele și sesiunile din fixture."
+      ],
+      "negative": "Dispozitiv înregistrat pentru citire contabilă solicită scriere inventar și invers.",
+      "expected": "Patru suprafețe sunt documentate separat, lipsa pachetului/semnăturii/accesului rămâne BLOCAT la execuție; niciun drept suplimentar doar din tipul clientului.",
+      "front_end": "Captură fără date personale înainte/după pe ruta reală; stare, rol, firmă, focus și mesaj.",
+      "back_end": "Urmărește acțiunea autorizată până la proces/serviciu și răspunsul sanitizat, cu ID corelabil. Pentru citiri verifică lipsa efectului secundar.",
+      "db_evidence": "AD_User,AD_Role,AD_Org,AD_Session,AD_Window_Access; jurnal de dispozitiv după confirmarea schemei",
+      "ux": "Înregistrează dacă utilizatorul termină sarcina, pașii/revenirile, eroarea și posibilitatea de remediere; declară modelul de dispozitiv și mijlocul de intrare.",
+      "native_second_check": "Identifică în core iDempiere versiunea instalată, obiectul AD și rolul care expune operația. Compară forma EVA și comportamentul nativ pe exact același fixture.",
+      "source_refs": [
+        "SERVLET",
+        "DEVICE",
+        "API",
+        "GUARD",
+        "TREE"
+      ],
+      "handoff": [
+        "A01",
+        "A05",
+        "A10"
+      ],
+      "status": "NEEXECUTAT",
+      "observed": null,
+      "evidence_ids": [],
+      "finding_ids": [],
+      "reviewer": "A11",
+      "cleanup": "Numai mediul izolat, revocă sesiunea sintetică și restaurează fixture conform procedurii A10."
+    }
+  ],
+  "template": {
+    "evidence": "ID, control, task A12, rol/dispozitiv/versiune, job și docID anonimizate, capturi înainte/după, selector, răspuns sanitizat, SQL SELECT cu parametri anonimi, rezultat măsurat, hash și timp UTC.",
+    "finding": "ID, scenariu, severitate, impact utilizator/contabil, așteptat/observat, pasi de reproducere, ipoteză alternativă, remediere nativă, titular, re-test și decizie A11."
+  },
+  "denominator": {
+    "chapters": 20,
+    "controls": 29,
+    "pipelines": 7,
+    "run_controls": 0
+  },
+  "rework": "A11 revizuiește manuscrisul cu hash exact și semnalează observații individuale. După aprobarea planului, execută toate controalele aplicabile și dovedește fiecare PASS/FAIL/BLOCAT separat. Reproduce fiecare constatare, atașează delta și rerulează și contractele afectate. A11 aprobă/returnează raportul independent de defectele produsului; blocările obligatorii opresc nota 10."
+}

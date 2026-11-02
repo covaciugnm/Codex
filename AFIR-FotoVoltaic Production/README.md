@@ -1,6 +1,6 @@
 # AFIR-FotoVoltaic Production
 
-Conversații: 8; subagenți: 3; mesaje: 153; fișiere copiate: 81.
+Conversații: 13; subagenți: 3; mesaje: 450; fișiere copiate: 138.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -11,7 +11,12 @@ Conversații: 8; subagenți: 3; mesaje: 153; fișiere copiate: 81.
 | [Fara titlu](subagenti/Fara%20titlu/conversatie.md) | Subagent | 1 |
 | [Fara titlu](subagenti/Fara%20titlu--899425ae/conversatie.md) | Subagent | 1 |
 | [Fara titlu](subagenti/Fara%20titlu--9c6cf614/conversatie.md) | Subagent | 1 |
-| [Kstar](Kstar/conversatie.md) | Conversație | 38 |
+| [Kstar](Kstar/conversatie.md) | Conversație | 112 |
 | [Salvează emailul și pregătește răsp](Salveaz%C4%83%20emailul%20%C8%99i%20preg%C4%83te%C8%99te%20r%C4%83sp/conversatie.md) | Conversație | 28 |
 | [Creează registrul AFIR Cesiro](Creeaz%C4%83%20registrul%20AFIR%20Cesiro/conversatie.md) | Conversație | 12 |
 | [Identifică fabrica de nuci](Identific%C4%83%20fabrica%20de%20nuci/conversatie.md) | Conversație | 14 |
+| [Află data vizitei AFIR](Afl%C4%83%20data%20vizitei%20AFIR/conversatie.md) | Conversație | 121 |
+| [Caută emailurile de la Ovidiu Sasu](Caut%C4%83%20emailurile%20de%20la%20Ovidiu%20Sasu/conversatie.md) | Conversație | 9 |
+| [Verifică modulele licitației](Verific%C4%83%20modulele%20licita%C8%9Biei/conversatie.md) | Conversație | 3 |
+| [Linie nuci](Linie%20nuci/conversatie.md) | Conversație | 41 |
+| [Linie stafide](Linie%20stafide/conversatie.md) | Conversație | 49 |

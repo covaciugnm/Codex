@@ -1,0 +1,23 @@
+{
+  "id": "01a191ae-683e-7530-8c39-746f9f05dbb5",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Persoane",
+  "created_at": 1793445488,
+  "updated_at": 1793527631,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Organizează documentele persoanelor",
+  "project_id": "8da5baa7-c368-4743-8f5b-d573af1d979b",
+  "project": "Persoane",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 1984537,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 151,
+  "message_count": 31,
+  "content_sha256": "319e7eb2c88869fede50f366e171034e9d6e99978d93c492c5343593ff8f00a1",
+  "files_copied": 13,
+  "references_not_copied": 2
+}

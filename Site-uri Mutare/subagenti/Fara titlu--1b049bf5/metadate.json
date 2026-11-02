@@ -1,0 +1,23 @@
+{
+  "id": "01a15da7-a6c3-7021-9aa5-92951b049bf5",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\MutareSite",
+  "created_at": 1792572630,
+  "updated_at": 1792572769,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a15d94-3ece-7152-bf88-bfa740fa62fc\",\"depth\":1,\"agent_path\":\"/root/monitor_review\",\"agent_nickname\":\"Averroes\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "dd69849b-902a-43ff-8975-e480a0b8d7bd",
+  "project": "Site-uri Mutare",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a15d94-3ece-7152-bf88-bfa740fa62fc",
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 117940,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 23,
+  "message_count": 1,
+  "content_sha256": "ed6a5efe4fdc5b6d6eb9802ffdd11d50657229baaab7f06fb26bc63a4e3495f4",
+  "files_copied": 1,
+  "references_not_copied": 0
+}

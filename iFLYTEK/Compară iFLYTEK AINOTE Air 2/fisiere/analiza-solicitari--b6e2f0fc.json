@@ -1,0 +1,475 @@
+[
+  {
+    "id": "S01",
+    "turnId": "01a18d84-7c2d-79f1-90fc-3ea719a9b3aa",
+    "question": "cat de performant este iFLYTEK AINOTE Air 2 Air2 8.2inch AI Note Taking Tablet Digital Notepad NotebookOpens in a new window or tab Brand New ? care este competitia ? cum se cupleaza la iFlyTek AI Glasses ?\n",
+    "topic": "AINOTE Air 2: performanță, competiție și cuplare",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4bdadc57081918d555084f4d3bfe2"
+    ],
+    "strength": "Răspunsul separă Air 2 de AINOTE 2, compară utilizările și marchează integrarea cu ochelarii ca neconfirmată.",
+    "gap": "Comparația inițială omite suportul APK/Google Play pe Air 2 descris de FAQ-ul UK. În plus, performanța este evaluată documentar, fără prețul anunțului, criterii uniforme sau benchmark. Omisiunea este confirmată; lipsa măsurătorilor nu este în sine o afirmație falsă.",
+    "improvement": "Completare cu APK și Google Play conform changelogului UK din 28.01.2025, condiționată de regiune/firmware. Tabel de decizie pe aceleași criterii; compatibilitatea cu aplicația de ochelari se verifică separat.",
+    "requirementIds": [
+      "S01.01",
+      "S01.02",
+      "S01.03"
+    ],
+    "evidence": [
+      "../Biblioteca_Glasses/Cercetare/ainote-note-api.md",
+      "../Cercetare_SDK_2026-10-30/Raport_SDK.txt",
+      "imbunatatire-raspunsuri/dovada-air2-google-play-apk.txt"
+    ],
+    "methods": [
+      "M01",
+      "M12",
+      "M15",
+      "M02",
+      "M13"
+    ],
+    "experiments": [
+      "E07"
+    ]
+  },
+  {
+    "id": "S02",
+    "turnId": "01a18d86-346a-7c00-814a-03ef13341226",
+    "question": "nici unul nu au wifi?\n",
+    "topic": "Wi-Fi pe tablete",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4be028e808191a8f137f33af128c0"
+    ],
+    "strength": "Răspunde direct și distinge conectivitatea Wi-Fi de interoperabilitatea aplicațiilor.",
+    "gap": "Un «da» la Wi-Fi poate fi interpretat ca «da» la integrarea dintre produse.",
+    "improvement": "Matrice separată: radio Wi-Fi, acces internet, schimb de fișiere, aplicație comună, integrare demonstrată.",
+    "requirementIds": [
+      "S02.01"
+    ],
+    "evidence": [],
+    "methods": [
+      "M02",
+      "M15"
+    ],
+    "experiments": []
+  },
+  {
+    "id": "S03",
+    "turnId": "01a18d86-d171-7d70-89b6-8700a0cddba5",
+    "question": "si ochelari au wifi?\n",
+    "topic": "Wi-Fi pe ochelari",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4be2f209c819197e34c2d6fb7d2a7"
+    ],
+    "strength": "Indică utilizarea Wi-Fi pentru media și rolul telefonului în cloud.",
+    "gap": "Trebuie păstrată diferența dintre Wi-Fi Direct/hotspot și acces autonom la router; «neconfirmat» nu înseamnă «nu există».",
+    "improvement": "Reprezentare pe trasee, fiecare cu scop și dovezi; evitarea transferului proprietăților radio către funcții AI.",
+    "requirementIds": [
+      "S03.01"
+    ],
+    "evidence": [
+      "../../Ochelari/Politica_aplicatie_oficiala.html",
+      "protocol-comunicare/INDEX.html"
+    ],
+    "methods": [
+      "M02",
+      "M09"
+    ],
+    "experiments": [
+      "E02"
+    ]
+  },
+  {
+    "id": "S04",
+    "turnId": "01a18dbf-751b-7a62-ac5b-ed8f7f91fd98",
+    "question": "Caută în documentațiile aduse și pagina realizată după pagina producătorului",
+    "topic": "Verificarea documentelor locale și paginii producătorului",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4ccc8d85c8191ae2686dfe632a845"
+    ],
+    "strength": "Localizează dovada în documentul salvat și recunoaște limitele paginii locale.",
+    "gap": "Dovezile locale au nevoie de versiune, dată și legături stabile; linia HTML se poate schimba la regenerare.",
+    "improvement": "Ancoră logică a secțiunii, hash și versiune pentru fiecare citare importantă.",
+    "requirementIds": [
+      "S04.01",
+      "S04.02"
+    ],
+    "evidence": [
+      "../../Ochelari/Politica_aplicatie_oficiala.html",
+      "../../INDEX.html"
+    ],
+    "methods": [
+      "M02",
+      "M06"
+    ],
+    "experiments": []
+  },
+  {
+    "id": "S05",
+    "turnId": "01a18dc1-0404-7573-9bf9-651f0f973ba7",
+    "question": "Caută mai în detaliu toate sdk / etc",
+    "topic": "Cercetarea SDK/API",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4cdf03bc48191adc7c36cba21add8"
+    ],
+    "strength": "Distinge API-ul AINOTE, SDK-ul intern Bluetooth și serviciile AI generale; etichetează puntea Loomy ca propunere.",
+    "gap": "«Toate SDK-urile» este un domeniu deschis. Numărul arhivelor nu măsoară relevanța și nu demonstrează absența unui SDK privat.",
+    "improvement": "Registru al căutărilor cu produs, limbă, versiune, interogare, sursă, dată și rezultat negativ delimitat; matrice de acces public/privat/intern.",
+    "requirementIds": [
+      "S05.01",
+      "S05.02"
+    ],
+    "evidence": [
+      "../Cercetare_SDK_2026-10-30/Raport_SDK.txt",
+      "../Biblioteca_Glasses/INDEX.html"
+    ],
+    "methods": [
+      "M03",
+      "M16"
+    ],
+    "experiments": [
+      "E07"
+    ]
+  },
+  {
+    "id": "S06",
+    "turnId": "01a18dc4-c531-7650-ab52-b448f0d055bc",
+    "question": "Am putea conecta ochelarii la niște căști performante ? Există căști cu plajă acoperită ca aparatele auditive ?",
+    "topic": "Căști și compensarea auditivă",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4ce19302c819198ed94330b218106"
+    ],
+    "strength": "Separă plaja de frecvențe de compensarea audiogramei și nu afirmă rutare simultană garantată.",
+    "gap": "Lista produselor nu dovedește compatibilitatea cu telefonul Android al utilizatorului. Conectarea directă și rutarea prin telefon sunt două experimente diferite.",
+    "improvement": "Tabel pe pereche telefon/OS/ochelari/căști/profil audio și probă de captură+redare; reevaluare regională înaintea cumpărării.",
+    "requirementIds": [
+      "S06.01",
+      "S06.02"
+    ],
+    "evidence": [
+      "../SDK_Experimental/README.html"
+    ],
+    "methods": [
+      "M11",
+      "M12"
+    ],
+    "experiments": [
+      "E04",
+      "E06"
+    ]
+  },
+  {
+    "id": "S07",
+    "turnId": "01a18dc9-5a68-7ee3-9e99-a4c2f2e13bfb",
+    "question": "Am putea scrie un soft / aplicație care să împartă frecvențele și să amplifice ce este încă auzit de utilizator ? Utilizând ochelarii ca microfon - textul rezultat și recrearea direct TTS în frecvența dorită ?",
+    "topic": "Procesare pe benzi și STT→TTS",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4cf3a738c81918e65dd599ee1c418"
+    ],
+    "strength": "Descrie două arhitecturi, explică de ce o singură frecvență nu păstrează vorbirea și cere evaluarea inteligibilității.",
+    "gap": "Fezabilitatea conceptuală nu dovedește utilitatea clinică sau latența. Nu a fost cerută explicit construirea aplicației în această întrebare.",
+    "improvement": "Pilot comparativ: original, DSP direct și STT/TTS; aceleași fraze, nivel calibrat și raportarea erorilor plus întârzierii.",
+    "requirementIds": [
+      "S07.01",
+      "S07.02",
+      "S07.03"
+    ],
+    "evidence": [
+      "../SDK_Experimental/README.html",
+      "protocol-comunicare/INDEX.html"
+    ],
+    "methods": [
+      "M09",
+      "M11"
+    ],
+    "experiments": [
+      "E03",
+      "E04",
+      "E05",
+      "E06"
+    ]
+  },
+  {
+    "id": "S08",
+    "turnId": "01a18dcd-3712-7352-99cc-62e9cb49143d",
+    "question": "Caută neapărat peste tot SDK Bluetooth iFlytek Glasses",
+    "topic": "Căutare extinsă SDK Bluetooth",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4d0f77c448191843a36d9125c79cb"
+    ],
+    "strength": "Găsește pachetul intern în APK și nu îl prezintă ca distribuție publică.",
+    "gap": "Numele claselor sunt doar un punct de intrare; nu sunt contracte de integrare și nici dovadă de reutilizare într-un alt proces.",
+    "improvement": "Pentru fiecare componentă: proprietar, inițializare, dependențe, callbackuri, accesibilitate și test minim.",
+    "requirementIds": [
+      "S08.01",
+      "S08.02"
+    ],
+    "evidence": [
+      "../Cercetare_SDK_2026-10-30/Raport_Bluetooth_extins.txt",
+      "documentatie/FUNCTIONALITATI.html"
+    ],
+    "methods": [
+      "M09",
+      "M16"
+    ],
+    "experiments": [
+      "E03"
+    ]
+  },
+  {
+    "id": "S09",
+    "turnId": "01a18dd0-6c91-77c2-a2f3-ba9ce03029fe",
+    "question": "Descarcă toate aplicațiile / documentațiile și postează-le în foldere și pe pagina html",
+    "topic": "Descărcări, foldere și HTML",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4d221d79481918bf93559e98a1d3c"
+    ],
+    "strength": "Livrează biblioteca cu manifest și marchează descărcările neobținute.",
+    "gap": "«Toate» trebuie raportat la inventarul identificat, cu duplicate, licențe și excepții separate; fișierele locale nu echivalează cu documentație înțeleasă.",
+    "improvement": "Inventar cu numitor explicit, fișiere unice după hash, rezultat download/parsing/lectură/validare separat.",
+    "requirementIds": [
+      "S09.01",
+      "S09.02",
+      "S09.03"
+    ],
+    "evidence": [
+      "../Biblioteca_Glasses/INDEX.html",
+      "../Biblioteca_Glasses/manifest-complet.json"
+    ],
+    "methods": [
+      "M05",
+      "M06"
+    ],
+    "experiments": []
+  },
+  {
+    "id": "S10",
+    "turnId": "01a18dd4-dfc8-73b0-b6c7-30b17ce990e4",
+    "question": "Prelucrează - extrage din APK și crează un SDK - \nÎn ce sunt scrise cpp?",
+    "topic": "Extragere APK, SDK și limbaje",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4d3f7e4948191aa82761082d3e37c"
+    ],
+    "strength": "SDK Java compilat, cu limite clare privind recorderul și capturarea autonomă; distinge Kotlin/Dart/nativ.",
+    "gap": "Denumirea «SDK» trebuie însoțită de o matrice: codec disponibil, transport lipsă, inițializare producător necesară. Testele offline nu dovedesc acces audio.",
+    "improvement": "Praguri de livrare separate: bibliotecă, aplicație Android minimă, conexiune reală, audio și rutare.",
+    "requirementIds": [
+      "S10.01",
+      "S10.02",
+      "S10.03"
+    ],
+    "evidence": [
+      "../SDK_Experimental/INDEX.html",
+      "../SDK_Experimental/README.html",
+      "../SDK_Experimental/validation.json"
+    ],
+    "methods": [
+      "M07",
+      "M08",
+      "M10"
+    ],
+    "experiments": [
+      "E02",
+      "E03"
+    ]
+  },
+  {
+    "id": "S11",
+    "turnId": "01a18ddc-13b3-7b01-8efc-6b989742c92f",
+    "question": "Descompune întreg APK -ul și extrage toate funcționalitățile - clasele etc. tot ce poate fi folosit - reconstituie și documentează într-un folder separat - citește toate documentațiile disponibile",
+    "topic": "Descompunerea întregului APK și documentațiile",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4d719a20c819186efe9bdbc2ad533"
+    ],
+    "strength": "Inventarul structural este complet pentru APK-ul indicat; limitele JADX/native/Dart sunt recunoscute.",
+    "gap": "Inventarierea celor 318.284 metode și extragerea textelor nu înseamnă înțelegerea semantică a tuturor metodelor sau lectura integrală a documentelor.",
+    "improvement": "Acoperire distinctă pe fișier/clasă/metodă/semnificație și pe document identificat/extras/citit/citat; prioritizare după traseele utile.",
+    "requirementIds": [
+      "S11.01",
+      "S11.02",
+      "S11.03",
+      "S11.04",
+      "S11.05"
+    ],
+    "evidence": [
+      "INDEX.html",
+      "inventar/summary.json",
+      "documentatie/summary.json",
+      "documentatie/LECTURA_DOCUMENTATIE.html"
+    ],
+    "methods": [
+      "M05",
+      "M07",
+      "M17"
+    ],
+    "experiments": [
+      "E09"
+    ]
+  },
+  {
+    "id": "S12",
+    "turnId": "01a18de8-5274-7b31-88f5-6c0c8bc1e55f",
+    "question": "Ce Pipeline / LLM folosește pentru STT / Translate ?",
+    "topic": "Pipeline și identitatea STT/Translate/LLM",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4d747a6ec81918fc02737529856f0"
+    ],
+    "strength": "Separă interfețele vizibile de implementarea serverului și nu atribuie automat un model Spark.",
+    "gap": "«Motor», «endpoint», «versiune model» și «locul execuției» trebuie să fie câmpuri distincte; identitatea backendului rămâne necunoscută.",
+    "improvement": "Diagramă pe etape cu dovadă per muchie; etichete: local, cloud, configurabil, neobservat.",
+    "requirementIds": [
+      "S12.01",
+      "S12.02"
+    ],
+    "evidence": [
+      "protocol-comunicare/INDEX.html",
+      "documentatie/FUNCTIONALITATI.html"
+    ],
+    "methods": [
+      "M02",
+      "M09"
+    ],
+    "experiments": [
+      "E05"
+    ]
+  },
+  {
+    "id": "S13",
+    "turnId": "01a18e22-a14c-75b2-934d-226dca787847",
+    "question": "Descrie tot protocolul de comunicare formatul pachetelor API - chei de comunicare - etc.",
+    "topic": "Protocol, pachete, API și chei",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4e79e71fc8191a97f3463e64370b9"
+    ],
+    "strength": "Oferă offsets, endian, CRC, profiluri și separă corelatorii de credențiale.",
+    "gap": "Specificația este client-side; autentificarea completă, stările conexiunii și mesajele reale de firmware nu sunt demonstrate prin fixture-ul sintetic.",
+    "improvement": "Perechi cerere–răspuns capturate, diagramă de stări, timeouturi/reconectare și teste diferențiale pe cadre valide/invalide.",
+    "requirementIds": [
+      "S13.01",
+      "S13.02",
+      "S13.03"
+    ],
+    "evidence": [
+      "protocol-comunicare/INDEX.html",
+      "catalog-parametri-functii/FUNCTII.html"
+    ],
+    "methods": [
+      "M08",
+      "M09",
+      "M10"
+    ],
+    "experiments": [
+      "E02",
+      "E03"
+    ]
+  },
+  {
+    "id": "S14",
+    "turnId": "01a18e29-2e8e-7882-b9c4-a408c69bebd2",
+    "question": "Se pot încărca soft pe ochelari sau doar prin telefon ?\nTraducerea și comunicarea se face prin telefon cu cloudul ?",
+    "topic": "Instalare software și telefon/cloud",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4e7df17e48191ac439cf7636230f7"
+    ],
+    "strength": "Distinge aplicația Android, OTA, firmware modificat și aplicațiile executate pe ochelari; documentează offline pe telefon.",
+    "gap": "Traseele și drepturile pot depinde de model, regiune, versiune și resursele offline descărcate.",
+    "improvement": "Matrice de execuție și capabilități pe combinația concretă hardware–firmware–APK.",
+    "requirementIds": [
+      "S14.01",
+      "S14.02"
+    ],
+    "evidence": [
+      "protocol-comunicare/INDEX.html",
+      "firmware-analiza/INDEX.html",
+      "../../Ochelari/Politica_aplicatie_oficiala.html"
+    ],
+    "methods": [
+      "M02",
+      "M13"
+    ],
+    "experiments": [
+      "E01",
+      "E04"
+    ]
+  },
+  {
+    "id": "S15",
+    "turnId": "01a18e29-e965-7252-b3d6-35e96c73f54c",
+    "question": "Documentează fiecare parametru într-un dicționar separat de paramtrii și funcții - corelate la parametri - cu clase de valori - format - etc. \ncrează și un catalog de funcții în care să fie toate aspectele surprinse legate de acea funcție",
+    "topic": "Dicționare de parametri și funcții",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4eb54abec8191b764148a3fd43b86"
+    ],
+    "strength": "Livrează fișe legate în ambele sensuri și separă omonimele; auditul a corectat cinci defecte.",
+    "gap": "2900 fișe nu înseamnă domenii cunoscute pentru toate valorile. Ieșirile Flutter, căile JSON și tipurile necunoscute pot fi extinse.",
+    "improvement": "Cozi cu ID exact pentru tipuri necunoscute, rezultate delegate și parseri fără căi; revizie după impact, nu doar volum.",
+    "requirementIds": [
+      "S15.01",
+      "S15.02"
+    ],
+    "evidence": [
+      "catalog-parametri-functii/INDEX.html",
+      "catalog-parametri-functii/validare.json",
+      "audit-calitate/runda-2/audit.json"
+    ],
+    "methods": [
+      "M03",
+      "M05",
+      "M09"
+    ],
+    "experiments": []
+  },
+  {
+    "id": "S16",
+    "turnId": "01a18e37-4f02-7513-a7e2-5eccfb6640a0",
+    "question": "Firmware îl nu se poate decompile ? \nNu avem posibilitatea să extragem funcțiile din firmware - să vedem ce și cum sunt scrise - ?",
+    "topic": "Firmware: decompilare și funcții",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4ec9e8ab081918ccb7078524f2852"
+    ],
+    "strength": "Explică ce poate recupera decompilarea și constată corect lipsa imaginii firmware reale.",
+    "gap": "APK-ul, modelele audio, indicii OTA și firmware-ul ochelarilor trebuie menținute ca artefacte diferite. Recuperarea este blocată de intrarea lipsă.",
+    "improvement": "Lanț de proveniență pentru pachetul OTA, tip container/delta/criptare, arhitectură și criterii de identificare înaintea decompilării.",
+    "requirementIds": [
+      "S16.01",
+      "S16.02"
+    ],
+    "evidence": [
+      "firmware-analiza/INDEX.html",
+      "firmware-analiza/audit.json"
+    ],
+    "methods": [
+      "M18"
+    ],
+    "experiments": [
+      "E01",
+      "E08"
+    ]
+  },
+  {
+    "id": "S17",
+    "turnId": "01a18e3c-6c4f-74d2-b712-655549ca2095",
+    "question": "Pornește un auditor care să verifice rezultatul interogărilor anterioare și dacă nu obține 10/10 să repornească taskul de corectare a documentelor rezultate",
+    "topic": "Auditor, corectări și pragul 10/10",
+    "finalMessageIds": [
+      "msg_098a02094e21b9f9016ae4ef40b7d08191ada31185f0747ab8"
+    ],
+    "strength": "Audit independent, cinci constatări, corectarea generatoarelor și reaudit cu domeniu explicit.",
+    "gap": "Un 10/10 pentru defectele căutate nu măsoară îndeplinirea tuturor cerințelor ori calitatea fiecărei afirmații istorice. Reevaluarea pe aceleași exemple poate rata alte clase de erori.",
+    "improvement": "Păstrează scorul istoric; adaugă indicatori separați, eșantion nou și criterii de închidere stabilite înaintea auditului.",
+    "requirementIds": [
+      "S17.01",
+      "S17.02"
+    ],
+    "evidence": [
+      "audit-calitate/INDEX.html",
+      "audit-calitate/runda-1/audit.json",
+      "audit-calitate/runda-2/audit.json"
+    ],
+    "methods": [
+      "M01",
+      "M14",
+      "M17"
+    ],
+    "experiments": []
+  }
+]

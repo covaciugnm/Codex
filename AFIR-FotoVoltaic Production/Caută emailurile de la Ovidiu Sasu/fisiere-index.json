@@ -1,0 +1,26 @@
+[
+  {
+    "source_reference": "http\",\"category\":null,\"labels\":[\"INBOX\",\"8: Marketing\"],\"folder\":null,\"is_read\":true,\"is_starred\":false,\"is_sent\":false,\"has_attachments\":false,\"attachment_names\":[]},{\"id\":\"b29172c9-bb8d-4423-85d1-54138ab69fa3\",\"account_email\":\"covaciu.gnm@eva-org.com\",\"subject\":\"Re: Oferta Opel Zafira Life\",\"from_name\":\"Cosmin Covaciu\",\"from_address\":\"covaciu.gnm@gmail.com\",\"to\":[\"bogdan.simion@materom.ro\"],\"received_at\":\"2021-09-08T04:41:10Z\",\"snippet\":\"Buna ziua, Va rog sa îmi transmiteți și o oferta pentru un Opel Insignia Sport Tourer full options. Va mulțumesc Cosmin \",\"category\":\"fyi\",\"labels\":[\"SENT\",\"1: To respond\"],\"folder\":\"bogdan.simion@materom.ro\",\"is_read\":true,\"is_starred\":false,\"is_sent\":true,\"has_attachments\":true,\"attachment_names\":[\"image001.jpg\"]},{\"id\":\"ea5cb49a-db48-4c24-8240-ffdea9ede6d8\",\"account_email\":\"link_covaciu@yahoo.com\",\"subject\":\"Seria de autor, Marin Preda (9 titluri",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "http://www.cesiro.ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://fabify.com/ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://fabify.com/ro/309-special-sale",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://mail.google.com/mail/u/?authuser=covaciu.gnm%40gmail.com#all/1a12f33336b456e7",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.licitatiipublice.ro/licitatiipublice/?usrc=nem&cca=#cha#",
+    "status": "referinta_externa_necopiata"
+  }
+]

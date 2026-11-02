@@ -1,0 +1,31 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Persoane/BALAN ANDREEA - CNP de completat/05. Contracte personale/Voluntariat ROSE/Reconstituire_contract_ROSE_10.01.2022_Andreea_Balan.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Reconstituire_contract_ROSE_10.01.2022_Andreea_Balan--d436b7be.docx",
+    "bytes": 45495,
+    "sha256": "6399c6f8ca203e75b4cd77942804f87f9eb9f39ca572f28c72eeb1691ff78f5b"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Persoane/NEAMTIU ILINCA-MARIANA - 2980405011151/05. Contracte personale/Voluntariat ROSE/Reconstituire_contract_ROSE_10.01.2022_Ilinca_Mariana_Neamtiu.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Reconstituire_contract_ROSE_10.01.2022_Ilinca_Mariana_N--4025daad.docx",
+    "bytes": 45498,
+    "sha256": "53beb056ea0910e4267fa69641a6614ee0c342bb75d5d55c2270bb9679bed90d"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Persoane/NEAMTIU TOADER-FLORIN - 1670927013927/05. Contracte personale/Voluntariat ROSE/Reconstituire_contract_ROSE_10.01.2022_Toader_Florin_Neamtiu.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Reconstituire_contract_ROSE_10.01.2022_Toader_Florin_Ne--5f80b228.docx",
+    "bytes": 45549,
+    "sha256": "61c02a385452a83c2f550160ed179cdcfe8b4a3555fc3271aacafca638b0815d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\tmp\\rose-voluntariat-20261031\\review.png",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/257098",
+    "status": "referinta_externa_necopiata"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/afc2c13c-f739-4ee3-9100-88d01d1266a2/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/afc2c13c-f739-4ee3-9100-88d01d1266a2/scratchpad/p",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\subagents\\workflows\\*\\journal.jsonl",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\workflows\\scripts\\*.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\scheduled-tasks\\eva-raport-progres\\SKILL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SKILL--38f75287.md",
+    "bytes": 4224,
+    "sha256": "57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "RELUARE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "progres_server.json",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

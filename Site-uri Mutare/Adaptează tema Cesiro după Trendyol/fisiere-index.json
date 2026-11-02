@@ -1,0 +1,1685 @@
+[
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/21/01a15dd0-c186-7722-8205-48cff8a3f04d/cesiro-momente.html",
+    "status": "copiat",
+    "saved_path": "fisiere/cesiro-momente--0c86ac9b.html",
+    "bytes": 7064,
+    "sha256": "338c0306a826c159cc6c4d2996e0d0bac0f038e0f77f783f47d8bd340dbb5ff2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\21\\01a15dd0-c186-7722-8205-48cff8a3f04d\\cesiro-momente.html",
+    "status": "copiat",
+    "saved_path": "fisiere/cesiro-momente--0c86ac9b.html",
+    "bytes": 7064,
+    "sha256": "338c0306a826c159cc6c4d2996e0d0bac0f038e0f77f783f47d8bd340dbb5ff2"
+  },
+  {
+    "source_reference": "U:\\cesiro.com",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:\\cesiro1-site",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Matrice_Raspuns_Audituri_CESIRO_V2.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Matrice_Raspuns_Audituri_CESIRO_V2--99f837a3.docx",
+    "bytes": 61240,
+    "sha256": "59814797c8991ceaad4100ad239fb79b258a74dd17ac002e12f5aacfc20b2f37"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Matrice_Raspuns_Audituri_CESIRO_V3.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Matrice_Raspuns_Audituri_CESIRO_V3--18afe2de.docx",
+    "bytes": 52869,
+    "sha256": "2feb26bceb3bd023b94d6c2da860eaf6ee6104de7068f37201546b563f25ce10"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Matrice_Raspuns_Audituri_CESIRO_V4.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Matrice_Raspuns_Audituri_CESIRO_V4--4246d380.docx",
+    "bytes": 52373,
+    "sha256": "2be0b44481be8d137a6c6fdcc1408b15593dd401f0c6066180a780b3e17e97f9"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Proiect_CESIRO_Design_React_Python.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect_CESIRO_Design_React_Python--4d39cf6a.docx",
+    "bytes": 60836,
+    "sha256": "0e539f753422fd5ef0d1fc33a4fdde372ae26d0a6f9c2950f8130c4d135d02d7"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Proiect_CESIRO_Design_React_Python_V2.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect_CESIRO_Design_React_Python_V2--a2cf5dcd.docx",
+    "bytes": 74131,
+    "sha256": "e336a5c8d8d7ffce9df70e086a690277d3d1d80a400746e0435abe969ea6bcf4"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Proiect_CESIRO_Design_React_Python_V3.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect_CESIRO_Design_React_Python_V3--b18a3a45.docx",
+    "bytes": 696325,
+    "sha256": "c9a3487226cf1d3fe964a5c2390ac23db1d9cbc291d95a14978d07fb627fed51"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/MutareSite/output/cesiro-proiect/Proiect_CESIRO_Design_React_Python_V4.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect_CESIRO_Design_React_Python_V4--038a3a3d.docx",
+    "bytes": 732111,
+    "sha256": "735e90b1d7354cc43ac71ca30d58f6da5c4b3d089790199a9f12d0bf24015c85"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\Audituri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\align_existing_theme_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/align_existing_theme_v3--446c41a8.py",
+    "bytes": 29362,
+    "sha256": "64e87bfd6fc8273d55db1861da3962519a01cd5c348c4d7c4a172865ffaa4a15"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\align_trace_existing_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/align_trace_existing_v3--984b8214.py",
+    "bytes": 10533,
+    "sha256": "851bc5de84e80c4984054ba8aa701278385799127de7363e7488abe6e2d456c7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\audit_public.py",
+    "status": "copiat",
+    "saved_path": "fisiere/audit_public--c4481ce1.py",
+    "bytes": 2304,
+    "sha256": "9a81a9e6a908b420782c1102a346dec1eb3b62bdeaf503d276604104fabdfacb"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\build_project.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_project--27ece9c3.py",
+    "bytes": 54320,
+    "sha256": "47c506724ee903dccb708f308cd11876b7b1218ff4dd63bf91ba7de99c49e03d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\build_trace_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_trace_v2--ff253d91.py",
+    "bytes": 35306,
+    "sha256": "59bef53c64b011a772d52cf746d86bdc50e18cce1888ecc63b35a27182022bda"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\build_trace_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_trace_v3--c6738e3b.py",
+    "bytes": 30198,
+    "sha256": "21f493c45399bd01bc6de3257e6cee23fe999e04ef980957551f593881f7beb0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\build_trace_v4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_trace_v4--4b7bd360.py",
+    "bytes": 26200,
+    "sha256": "694ed3b5d2411568533ce9fd1cdbf2ac312cf0e4b678ca5a42a161a7ff80f11e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\build_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_v2--1dc4117b.py",
+    "bytes": 73518,
+    "sha256": "5365343304a89e87e946a9679051796fd5d37a7460d2e662960dad0e5c59a7ad"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\build_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_v3--b832c904.py",
+    "bytes": 112357,
+    "sha256": "29e6b832d9ec59d12435ad6281a83b987af9a41005f23354b7c7f097cfa7d102"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\build_v4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_v4--33ac0815.py",
+    "bytes": 125934,
+    "sha256": "3b2416977aff04a47a5b37c895f3856bfbdf2122972667a2e686f330e52a0e3b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\check_v4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/check_v4--06214b80.py",
+    "bytes": 1885,
+    "sha256": "8b1a871bdd42a4d5e9b5a93e9392d3d3969554164bea0e2bc3ab160dfee4dd2c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\complete_v4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/complete_v4--92ce54a8.py",
+    "bytes": 29607,
+    "sha256": "0eec7d0ba2b0635790eab233332a7705cef9c4499ea7e425f580e66833210160"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\final_edit_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/final_edit_v3--ef1d8131.py",
+    "bytes": 3431,
+    "sha256": "ad10bc8a37dec93cd0789d7bbe8c9a4e6e0a5ff9fb0bb41fb8faf6c98d170c12"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\final_qa_v4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/final_qa_v4--8ff287be.py",
+    "bytes": 2563,
+    "sha256": "c0a679152832e114da719f494a9bf3ba6f5e048e13c0e338d6681061f019ec37"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\layout_v4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/layout_v4--d6c6001d.py",
+    "bytes": 2072,
+    "sha256": "da89c2b39d1f2daa67c7317b321236f72acdeb5e11050e1a24aa427d1a79691b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\prepare_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_v2--7d9557cb.py",
+    "bytes": 3102,
+    "sha256": "bebdf635202c905c0313707b0a2b81a32227f221c65eb9bcb4a29c856fe78b25"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\prepare_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_v3--2f6352eb.py",
+    "bytes": 52398,
+    "sha256": "b31e96cfa1b56911bc0e2de1798735e621dcd030e23f50d856ce5be1d2a7a21e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\prepare_v4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_v4--1e37a448.py",
+    "bytes": 41275,
+    "sha256": "3e63c28ee844dade30390fabcefbe4d59e8ba01f68c2418549acfb7e3c2176c1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\audit-gemini-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-gemini-1--42f16d3b.png",
+    "bytes": 106895,
+    "sha256": "e50ffe3f705084b00df0ab223ec2c20e8e9ee570262870064de26b8c86778374"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\audit-gemini-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-gemini-2--01463cd7.png",
+    "bytes": 110197,
+    "sha256": "d29aa035c05453c8f50f840cb45d7cafd070c67e8b5bd9f356b7ff2274b4759b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\audit-gemini-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-gemini-3--2e2a56c6.png",
+    "bytes": 88393,
+    "sha256": "3f356e876811b1c5355482eb7e99ac23e688e229a12087536cb21863f14e165f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-matrice-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-matrice-01--430f33de.png",
+    "bytes": 194451,
+    "sha256": "af9d5fc4bd86b29f7e8cedf37a779b2cd691bf762c568a65b5b29e8a3f67cb6c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-matrice-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-matrice-02--76b094f0.png",
+    "bytes": 196806,
+    "sha256": "bd756c8ee146f0f082edb1deaf321616a9f0243daff8f5f8badd73cbe28d1bad"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-matrice-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-matrice-03--8f7763c7.png",
+    "bytes": 231474,
+    "sha256": "cb723e5ebba8523a573adea6133c4217c3e6aac3c3ef646f393f1ae5f6fdf5bd"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-matrice-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-matrice-04--9e92c906.png",
+    "bytes": 222103,
+    "sha256": "075690cd68903e94ba4da5a44edc2ecc6c1797fe2c8cfd4812dbf74d4c162a20"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-matrice-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-matrice-05--788faa6f.png",
+    "bytes": 220892,
+    "sha256": "930fb268f2b0ba7f76b03fa638f324ad721cf73b6ea5bfc044ba26e3fd9c3165"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-matrice-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-matrice-06--6b4eabe1.png",
+    "bytes": 218277,
+    "sha256": "b89afc172a60e97c92d34901ff4a3e5f9056e8c86aaa7b2c6564a44ee56d1b66"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-proiect-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-01--a3b2cf2e.png",
+    "bytes": 201502,
+    "sha256": "71a23f114acd6eba71ed07822d185749b86a64c93b78a301825d81b351051257"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-proiect-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-03--cb9be325.png",
+    "bytes": 186891,
+    "sha256": "7f3bc75468a1d129183e3a1e7f2f2540a6da26f5b6142fd34a742a1e115a7a15"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-proiect-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-04--c4008078.png",
+    "bytes": 187598,
+    "sha256": "3865a4b11d8a2022be0272fcaba8f130bf1801331d520fbba2995af41b6d27c1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-proiect-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-05--e733b5d3.png",
+    "bytes": 175409,
+    "sha256": "12aecefbc3f5fe488304c1e789b38a22be35165b005b52bfe2cb96386a98ff8d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-proiect-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-06--71cb8f34.png",
+    "bytes": 162967,
+    "sha256": "c6e0a71a487f15d35f9e4c453dfe168a044e2d3b16128f862b95f544ee09e103"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\final-proiect-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-07--1cb99740.png",
+    "bytes": 175317,
+    "sha256": "ade7a68372a00206b7dc0549b87b70d5e195c544cad9b2ad5f3f80e9c44ccb8e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\last-matrice-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/last-matrice-15--263eb88e.png",
+    "bytes": 209829,
+    "sha256": "a517238afba2e9dcda3b5a1e8a6e58473d570f8b6e59ee793b7c0c913c805a93"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\last-matrice-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/last-matrice-16--714262dc.png",
+    "bytes": 187489,
+    "sha256": "1ac709ab2a2f5f5d88119f0e809bc909697ff0351e80bd10b312dafd698ceac2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\last-matrice-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/last-matrice-17--54cd70b4.png",
+    "bytes": 161667,
+    "sha256": "9e82439235978bed3b18997a160271f41c1123135052622af0cee1013521c2bc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\last-matrice-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/last-matrice-18--00277907.png",
+    "bytes": 148417,
+    "sha256": "9007771878bcd1c16dcf0de5a8897c5fc2d2956248cb0503a33a17b37260d47c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\last-proiect-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/last-proiect-23--289b017c.png",
+    "bytes": 181117,
+    "sha256": "0cf8556f7425fe418c4a76602fa04233ee61fe0f96d525c84be9452c2ccf6453"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\last-proiect-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/last-proiect-24--dcb3d59d.png",
+    "bytes": 195949,
+    "sha256": "0bb12eddd0fba576fa70a14872d729e799bb441bfdb65b971042e3b4affcab3f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\matrice-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/matrice-02--01ec8831.png",
+    "bytes": 107851,
+    "sha256": "92977fe6b1ded1be9ff40af7ca392974c57ab1891b8c00a062c4bd98585fb928"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\matrice-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/matrice-10--b453c106.png",
+    "bytes": 164122,
+    "sha256": "f643402d07b25a8124f11ea476d0a19a8930806017710bbacd340e36b24b8748"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\proiect-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-01--1945f920.png",
+    "bytes": 200484,
+    "sha256": "43c0b077004f92ebb3716e6e970f9a965b6151045b73d95874f9fd9c637a2121"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\proiect-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-02--6b3a197e.png",
+    "bytes": 189488,
+    "sha256": "c3e80f9acc5233d854119419adc70e059277f0f64bf74fcc0ffb681f7123a779"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\proiect-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-08--00fa6879.png",
+    "bytes": 191575,
+    "sha256": "537790829b397553b5e5ef6c1e4339508260b0aeb25b0108fe2b6f43d79eb02e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\proiect-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-20--ab346427.png",
+    "bytes": 185495,
+    "sha256": "472a442cf43f685bb79c1973dbed5e59ab52e39da28c801c851bf011c78f77ed"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-02--9f435610.png",
+    "bytes": 192950,
+    "sha256": "633d5df4a5b62830322e25c90a16ae12f307720f154a76e0a93f1b412baee884"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-03--de1cdff3.png",
+    "bytes": 177017,
+    "sha256": "97fffea808f30a7b5424c2743af750b2a2f23868252500da9bfe29bcee67ca21"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-04--2c95800d.png",
+    "bytes": 194651,
+    "sha256": "78dc857de4e04a103d32178ea39fc49efceb02cbe34f6f36bee5c61157309701"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-05--109a7d77.png",
+    "bytes": 221819,
+    "sha256": "b07204e8d3edf7520b83158469e5371a9d8306866afed7aaa425c6c0f2f5cca4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-06--06fee5b5.png",
+    "bytes": 215183,
+    "sha256": "1fdfd01303c1c8cb63511dc3a8bf3501cd95bec02409f24bc5cfd219356a9f5b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-07--6f366465.png",
+    "bytes": 200270,
+    "sha256": "f2a41337f21cac20810aa5dfc311af6b3d267a762008bfaeb0faa0c36001bac2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-08--bce73ebb.png",
+    "bytes": 200872,
+    "sha256": "c481995774276a010a0c1724ddf7bb7c56033e4b023f8a8a6841e55281f63212"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-09--b53aa239.png",
+    "bytes": 216894,
+    "sha256": "3ad6a9aebd587a4c4e49d3df1d9485fad4c9a638a92cd5a6baa1554e7d697f55"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-10--1c0971d6.png",
+    "bytes": 196292,
+    "sha256": "268d62a8a6318b1801f97b9073a2a9b862279c371ce1e54a6eb5fedafa4fb4ef"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-11--8d64ae2a.png",
+    "bytes": 213683,
+    "sha256": "293503126ae930355c6736d18c7fe7b5b12fa9b0ab2d0cc88a4498a6abb58591"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-12--95b1d612.png",
+    "bytes": 75074,
+    "sha256": "e683c119ded0215ef8872586d5d4f1c1d1f182089e46f1edda0407aea48ad716"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-13--927ea059.png",
+    "bytes": 196156,
+    "sha256": "1a1a1e3fd158073aae79c96dcf507316ad5983b6db0373ea99efb72407bdd9bc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-14--4d957592.png",
+    "bytes": 203287,
+    "sha256": "82385eb6ccc13517dcbf4542b7d0979c86d0fe4f010ecd899b6ea04e2fc7a4e5"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-15--69285865.png",
+    "bytes": 210502,
+    "sha256": "e6f2f3bc9a60724ea22fa63e4e11b97555121d20fd4e731abde2ffd9d8e090ef"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-16--b4c8306b.png",
+    "bytes": 194201,
+    "sha256": "73f52d7651c4f3b5bf93ccdb7310ddbdd758fff7435101c9bcfb13fde90d990b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-17--0899c5cb.png",
+    "bytes": 160283,
+    "sha256": "d250bb3b2005beb366e92ce3e01fb5402cc813a92b241d0d71bb8c8e16aadba8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-matrice-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-matrice-18--1fc6a77d.png",
+    "bytes": 148417,
+    "sha256": "9007771878bcd1c16dcf0de5a8897c5fc2d2956248cb0503a33a17b37260d47c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-09--280ef816.png",
+    "bytes": 177371,
+    "sha256": "cdf556844ac440f01a3d092268838b5ba3ecab1f0be9e50ec58c79c5a6f86dc7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-10--eb771855.png",
+    "bytes": 182719,
+    "sha256": "4feaafaa48216d74f545260edf320f6d1bf6f74d034a809fcfb4bb4246ecc3e2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-11--c4e54935.png",
+    "bytes": 171805,
+    "sha256": "3826c5525e411bf223cc58664399ac34a2dbb4c3d5042decd11c23615eecd43e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-12--2fe18ded.png",
+    "bytes": 185555,
+    "sha256": "863db4c1b776b3b7df97f014f6638ac379783cfc771417057bd50835c40fcec5"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-13--0436c706.png",
+    "bytes": 179212,
+    "sha256": "4022c27f0a8d494f00265354690377367af8cbfa257f7e43df780118cbf7a1de"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-14--2db24682.png",
+    "bytes": 191682,
+    "sha256": "fa1d30323738d6007a4bdabf89565c403299bac158f82a9cfba133161f3aa0a7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-15--700ff7c1.png",
+    "bytes": 181465,
+    "sha256": "8ad38e8ec974f1cf12146cbe0a54e8c2618b5968b8c9a02596d283edde4ddc6f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-16--171c5f96.png",
+    "bytes": 182223,
+    "sha256": "e54ae9bc18765b78a1d685aa2e5a34f4bd4baa73d98d759d510e7021062978a2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-17--f0bac240.png",
+    "bytes": 172036,
+    "sha256": "780b3ac2014fd178c359dd485950f67b2379312c23599b50331c3f0adc490f0c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-18--8289088b.png",
+    "bytes": 192172,
+    "sha256": "9165105a95ee23379377f6d5248b24b23ccb94e5b358f566cc58e32d99e3e037"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-19--87c2c38d.png",
+    "bytes": 194303,
+    "sha256": "4021f387b1bfa96576eccbdd7f7e85caa0aeb94b96ab47176d481870d1e56e0e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-21--0abfd608.png",
+    "bytes": 197608,
+    "sha256": "95cdaa17a3542be7c212da6a358aa0205cee154b65327e0758ba813f19489039"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-22--a39dfc2f.png",
+    "bytes": 181253,
+    "sha256": "e3e710f7df44b17f07087acc4cd3b1b675f152b5ae1d82bf3c4f07704b621ee5"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-23--45e97b0f.png",
+    "bytes": 188350,
+    "sha256": "c621b47aced4255db11d4e73210631d783c5f6693617013f3e8e7b2fd93bf0ff"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-24--6f6e8d7c.png",
+    "bytes": 190121,
+    "sha256": "d74d0b4221da5c5a32d8ebd9d57c85819a3a2366c5d42023f73892daad20553e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-25--fdd203ac.png",
+    "bytes": 198957,
+    "sha256": "cfed8c59f2a1ccdf2af3356b6baca3a904c71c2e8b5300639f6fcd8a115ddd77"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-26--a85a9040.png",
+    "bytes": 126325,
+    "sha256": "8afdc4ba8eadbb14ec0b0f29b7bbb23a6e3aa0f5da488d5e4495d1c68d5f6602"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v2\\verified-proiect-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/verified-proiect-27--f21569ec.png",
+    "bytes": 86346,
+    "sha256": "beb12a0f351e3277cff3c9f1a0eb6e465d182cc3868c775a81643873d48cd5ef"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-matrice-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-matrice-05--8bc9f42b.png",
+    "bytes": 180803,
+    "sha256": "ba4f10808c6dfa1ceeae177cf290051347c8f4e83c7612ddaef506002e63f8a1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-matrice-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-matrice-06--f4ccce1d.png",
+    "bytes": 172448,
+    "sha256": "1634595f15abeb436ede4ecf6b0526b65375232b5aa6d0a3527807b5074f9205"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-matrice-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-matrice-12--5f169ebe.png",
+    "bytes": 171127,
+    "sha256": "5934e1a37c022dbccb5ee05741bbe042b58203c39bd07436be2df99e1ef4311e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-matrice-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-matrice-14--a1bcc2ac.png",
+    "bytes": 151363,
+    "sha256": "c78dd1e23c4eb2226370170da94571b50f6d683ec79463c3f2cc3b2177de3e31"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-matrice-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-matrice-15--5b659741.png",
+    "bytes": 117019,
+    "sha256": "43fbca25364fff3f953a78c6b77d97a5c49e9d66469f84c420056a0fd210a8f8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-06--c2ed8467.png",
+    "bytes": 215241,
+    "sha256": "23480e0ce26a3b0dcbdbd84f54c32bfe07622e6b00273da44e0f79f0c531ab9f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-09--6e0f8332.png",
+    "bytes": 253177,
+    "sha256": "2a83908a97c19fb4df79936a4956ae3eb72334218ac83c96f399ba93eeb36514"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-11--a7cbce08.png",
+    "bytes": 257868,
+    "sha256": "635a9329a471251e1adc61dc7d3a49e6494428f83eecbf94ea0149c88eb82762"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-16--2b79fedf.png",
+    "bytes": 246463,
+    "sha256": "e5ea445ce2a7bb28d89eb8e84304df5a0bc3812f5152227a2726560f0055d289"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-17--676690c2.png",
+    "bytes": 192857,
+    "sha256": "a69db7d5687228ba5b20aec6bfdb327978135555ccfc924182c5593c42de3f1d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-20--75cca0dc.png",
+    "bytes": 188145,
+    "sha256": "974ae5683ce83720501d74e2d074598ad534ff7734ae671a6d1de56443cb4ce3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-24--21611878.png",
+    "bytes": 228165,
+    "sha256": "684ac6c222fca63dbfa85939d8969b3e7d59093e643df7156833b215cef619de"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-26--722eb222.png",
+    "bytes": 127710,
+    "sha256": "0a727549f0373a33e2ca21ab1aaa85bf0e91edb7d540a815480e8eca6cd0a400"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-27--8d8802b8.png",
+    "bytes": 151185,
+    "sha256": "1afc32564f981fd00f95c584713854fb3de3f13520db04a03059f0ddd85ac10a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-29.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-29--17b66b69.png",
+    "bytes": 140934,
+    "sha256": "53c4c952adcbc6d52d219226f49ec1520f0bb4f4f590cdc2072715cd9e2aca8c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-40.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-40--017a491b.png",
+    "bytes": 107115,
+    "sha256": "354e0a1f31df3e4f8dd632465c6ac47c06c231c4910710495311bb164e57a8fd"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-41.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-41--fa6edaaa.png",
+    "bytes": 106815,
+    "sha256": "927f67ff30a8bc6c160166ce80c240c27f5219cab197223985f78d999d5d17d3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\approved-proiect-42.png",
+    "status": "copiat",
+    "saved_path": "fisiere/approved-proiect-42--078a9501.png",
+    "bytes": 100879,
+    "sha256": "be7b5283f8563023f8f6b55119a4d381ca969e390fcf48f84e9876fed4c98742"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\audit-tehnic-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-tehnic-1--ae80fa9b.png",
+    "bytes": 112978,
+    "sha256": "014341679db423d64862e795b9e347b5887c5e6cddadf703ec3d5720120f53df"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\audit-tehnic-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-tehnic-2--4b4c0d14.png",
+    "bytes": 123189,
+    "sha256": "fe0c1c7df4d82058a4c8a5963e622e5e20c66d4332d9da3919879fa152740ebc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\audit-tehnic-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-tehnic-3--86693121.png",
+    "bytes": 103253,
+    "sha256": "215e2fa04eec2ff0746e1bf7323ff40d5613aa88f48a127e76e3ef8518ab22b3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\final-proiect-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-04--92c8f247.png",
+    "bytes": 262352,
+    "sha256": "32b9093e8c21d461590fe3de291af7771d32835a2540c6510c11b83041bda930"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\final-proiect-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-06--4ed1d7cf.png",
+    "bytes": 222644,
+    "sha256": "18ecfb59340cdfe1de2ca738bd26af9fe9ce4b7ac1cd16fd92634b1c7b96c088"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\final-proiect-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-12--6db938df.png",
+    "bytes": 282937,
+    "sha256": "12a1fcb3138113e7e4bd704d64cbf69ad508f0568b1128deeeb5a71b03256cff"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\final-proiect-39.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-39--8c2f69ab.png",
+    "bytes": 94275,
+    "sha256": "fd52aa0897d09b719e5f19a8c24efd42edaa60793d9bc9a9d8459ec4fee34cac"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\final-proiect-40.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-40--9a9f3451.png",
+    "bytes": 80231,
+    "sha256": "2c0e722082a24f9ebbc2a8333860a7f563ed8db054ee22c1ede6f24a9acc6c68"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\final-proiect-41.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-proiect-41--042759f1.png",
+    "bytes": 83000,
+    "sha256": "43481c7d69d376266854109c571171f6021659aadcf249843cff6f911865c9a9"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-01--6750467e.png",
+    "bytes": 167452,
+    "sha256": "9a65d29c49d8ab7ba59429c4179fc2152de5855f657145720d80d4ddca256fd0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-02--924e2967.png",
+    "bytes": 173278,
+    "sha256": "02737f1908b3c4b842f30cbc62ca6da2639386d9b1b892307a24b2958708fda4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-03--8c3991de.png",
+    "bytes": 155703,
+    "sha256": "392bcefdb4b5322fae0291e23771e28a3144f820d9f9124853e5d942be357e74"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-04--d90b06b3.png",
+    "bytes": 183491,
+    "sha256": "c34347027f8f4191e3fddaff3fb61f03931009655f25c384fe5c7564bec02394"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-05--6696ed77.png",
+    "bytes": 172313,
+    "sha256": "a750adc79f3a26517bca0b9edf85faeb2d9306171801329eb8ac36cebac017df"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-06--d98b2e40.png",
+    "bytes": 172448,
+    "sha256": "1634595f15abeb436ede4ecf6b0526b65375232b5aa6d0a3527807b5074f9205"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-07--9ba797fd.png",
+    "bytes": 173072,
+    "sha256": "321b5a863ff3fbd145dcdb2acaa891e5e07a7916a28e59bcc78d32f4d81bfe45"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-08--71aa7b92.png",
+    "bytes": 168679,
+    "sha256": "395be10a6910fbae81794d83ac590770ee269782630f2b0e96f143d7116e5fc7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-09--f22253fc.png",
+    "bytes": 177861,
+    "sha256": "8c68ba5bfef4a30b3957ded52e2c91fba32d447f8270f96584cd84fe2c035fc6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-10--c4e506d5.png",
+    "bytes": 167442,
+    "sha256": "3ef2e5a757bc505e9998e58d0b77bb3a4959eaa2d0c336c9b8a318ffdaa09c83"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-11--82e64a7a.png",
+    "bytes": 154390,
+    "sha256": "d805f757d980faca9cfa1f4bd73c8fd8cf8d7e76dda1376c666d8f7d74779ffc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-12--d50e6433.png",
+    "bytes": 171142,
+    "sha256": "3a140eb0fb6a0234ff07f305d62ba2a72e5c3879c4360966d9763e5970cf4a63"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-13--e9a8f9f9.png",
+    "bytes": 209814,
+    "sha256": "2be50ed64ab27368c93248bad95012ec96f3cbd14eb8160a0611fc0fc481c45b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-14--daa6028d.png",
+    "bytes": 151145,
+    "sha256": "f168960056ba4368cc31176e759c33b9e8849f23c22d83646ca1683ad709bb6d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-matrice-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-matrice-15--31deb194.png",
+    "bytes": 117019,
+    "sha256": "43fbca25364fff3f953a78c6b77d97a5c49e9d66469f84c420056a0fd210a8f8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-01--837d82b4.png",
+    "bytes": 239997,
+    "sha256": "6710a6db074cde5bd40074fd37710cc521bcf8d2530657223c6355eba6c633d2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-02--97f4a682.png",
+    "bytes": 276521,
+    "sha256": "b4e02e3fedc77c6dff0b97d5c271bd298c813ef5fba27ca61730c961028e774f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-03--eb60e043.png",
+    "bytes": 266520,
+    "sha256": "50d5ce9fd915ac05c67379d3d4da0424c3735f2c7a2d4b8d0e99077dd05649f9"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-04--ef369434.png",
+    "bytes": 241594,
+    "sha256": "57347d71b190a1295c0104d71eb14a7479ebd13099b557dc876ac8cefcc54cbe"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-05--e40736c2.png",
+    "bytes": 221292,
+    "sha256": "dfa7c809071c267561e7961b04782814a7f8d7dba321c4396b70bb5003d827e9"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-06--ee25786f.png",
+    "bytes": 212393,
+    "sha256": "851ef6589522e07ab861852482eb39999dd169e43d358642ade834bdf65923a9"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-07--0031bfa1.png",
+    "bytes": 192089,
+    "sha256": "c7e02e3175be92378a0e85a258210728b0c26e0197b5cf1aecd316420131b231"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-08--48b30da1.png",
+    "bytes": 211101,
+    "sha256": "0f968fcede34b171f8988bf2abe0e87fae77c5a55da14225b86a4720dbf6da29"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-09--07255164.png",
+    "bytes": 253170,
+    "sha256": "7bfc1f6ecdc8ac666ba919d1166c2dfe2e12a43ee0edc5e5edfacbe9646d63d2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-10--49a5d106.png",
+    "bytes": 315969,
+    "sha256": "f2bbd8bb18b672ff0443084dcdfb5414b1a845a5bc2ed1153bad0de6e3fae0f9"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-11--75cd5237.png",
+    "bytes": 256857,
+    "sha256": "d3ff88510a59f564025983483000eb94d5d09f8a1479cf204e5f83cb447727c0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-12--1eaa3583.png",
+    "bytes": 162086,
+    "sha256": "6a36167ddf0ab52ea987ce5f33b8789ea995b7e4d206be99e431a0fc599e0971"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-13--0a207aaa.png",
+    "bytes": 180040,
+    "sha256": "4f9309158a30e66ae9f4ca6bc14b00076d8aaac958837359b1a65836a0741996"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-14--9a9f8285.png",
+    "bytes": 161513,
+    "sha256": "1317997a1ee4f622c73ce4f7b152eb9c96062cadbb348a40954ce848e97ea184"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-15--6cbe30a8.png",
+    "bytes": 123593,
+    "sha256": "930dc0c6fe53027e0cd4da0b38a80af8bbdba933d7b7a05a1c63b0f3caf7f0e2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-16--7f3d67d1.png",
+    "bytes": 244903,
+    "sha256": "54628fddb578c9fb8f491992a6e3f2f32b86b77e558765497a2e1f76e219e2a2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-17--f2da3ad3.png",
+    "bytes": 222768,
+    "sha256": "c24b01408f369eec6945dbbbb0a3c70351686007c4862412f15cae0b64cf122e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-18--eb0aed96.png",
+    "bytes": 46472,
+    "sha256": "02013678ad3ab9b8e66f2510297b5568c2858bf8715f10c69ec8b17421696ef7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-19--83edbc69.png",
+    "bytes": 182296,
+    "sha256": "2c0ac1bccd3dc8c4dec9cc69f22f06d9cda73cd28b26802a5e42014f70e20cfd"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-20--833f3cce.png",
+    "bytes": 177203,
+    "sha256": "6889dcb3ddc3841aeb16cde8a64db13b3696b9248248bf7f209d9f1e6b15f632"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-21--a0965c97.png",
+    "bytes": 185667,
+    "sha256": "7be68819951ed2493b8a01a9a7d78eb263e59e700df7b4c2a551dfdcf2aea636"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-22--8fd895a6.png",
+    "bytes": 179763,
+    "sha256": "33b47f732343530c0f04c7ba311044e935d1e81f23f67ba8787733bf1691def1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-23--87473838.png",
+    "bytes": 169887,
+    "sha256": "bea5ae252a27a49b378eb81d1c679cae8a8f19c5e0319d8fbd1ae7bf8fc48d81"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-24--4c945b22.png",
+    "bytes": 227142,
+    "sha256": "898424dd51bcf752d030f9770dc608c4f17b7c5d2d7dab51a174c82af360ea98"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-25--6a4bd794.png",
+    "bytes": 224985,
+    "sha256": "0110635fc5db23e2e86be413bae6b4801fc3c9fd553ec6fa0b7d6c7e518df5ad"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-26--8905d18f.png",
+    "bytes": 168549,
+    "sha256": "0cc834ebe6867fcbef47c6aa58dba6cd6588b28ab8bbbdc16cd086f5e9cc72e8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-27--5509ce0d.png",
+    "bytes": 127520,
+    "sha256": "dc1784a8a10cf632fe8d311bf0e4e74dda22ee14af8acb371f5d6c39d322b1dd"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-28.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-28--3af7a95a.png",
+    "bytes": 153487,
+    "sha256": "7fe2b5687210f79d72e4c4d027fc58f831521ab3d6925ad0bc42b7684a9c4fd5"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-29.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-29--d9175e7b.png",
+    "bytes": 144481,
+    "sha256": "6d31aef3b54ece769fd7c5068052c7a33daf520e54c1a99f39caedd2796adf74"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-30.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-30--6d884972.png",
+    "bytes": 140926,
+    "sha256": "9a90dcee43aa73ed2543fea311d8c083abfd8601a44366c864ea1b06757c00d4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-31.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-31--9ebd9f0f.png",
+    "bytes": 197156,
+    "sha256": "513317cd963eb056f0a87c2b562dedd2b66d55ad82e3f06a8f4bab650debe0db"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-32.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-32--6e05bc4e.png",
+    "bytes": 218758,
+    "sha256": "0ad0eea00df585b7cba46dfec617c75f6236754e8d3d9216988d9aa563841709"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-33.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-33--428ef066.png",
+    "bytes": 240161,
+    "sha256": "3996670656135c9db7bc118eb825f4013911812b433c3cea0639f3ffea417254"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-34.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-34--cba54e3a.png",
+    "bytes": 228094,
+    "sha256": "f2c1d050b239a151bda68fe23f473215dcb88ba1a72ab3f141e50a175c0462cc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-35.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-35--720a9951.png",
+    "bytes": 155685,
+    "sha256": "f43efa22efd60e91faa17656ecb3ecd20b3572f6fc9e56a307c704c8d574313c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-36.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-36--ad686554.png",
+    "bytes": 81570,
+    "sha256": "f0122b1409f2f44d6e31fc71750501331c19ad296dddb87d589e95a4a0e788c8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-37.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-37--59818283.png",
+    "bytes": 85454,
+    "sha256": "122afbb1837fb407950a30bf214c4983590c8e865bf4400e3c9cc5ec72bf074d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-38.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-38--0fd7966b.png",
+    "bytes": 94290,
+    "sha256": "51f96c83e0bf06c7c341e231bbbb9243ec5793ab7ec925d52664668698a46af7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-39.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-39--87f568f8.png",
+    "bytes": 80178,
+    "sha256": "f372b3f10e764c64de1b2188177401e25ede5e6c3cb3bde7062938aa600649e0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-40.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-40--ef6629b2.png",
+    "bytes": 83149,
+    "sha256": "8618557ba5d9ff690e0bf767144dca506dd30e0a2eb30a252fa19af8d6153e8a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-41.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-41--5f10603c.png",
+    "bytes": 107082,
+    "sha256": "34b4393877260362a472e0a634b44fac909bde88f83df9305889a7b286d62324"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-42.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-42--942b827f.png",
+    "bytes": 106998,
+    "sha256": "e1f828ba98890ad624a77d4cc56b6beedc1351a9cd7fd22218b2c0813d294a7d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-43.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-43--735753ac.png",
+    "bytes": 102267,
+    "sha256": "94f80e14365f52d7ddfd04d003aee5f473f7aceb5f2fba58ed583c830dc99c54"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v3\\theme-proiect-44.png",
+    "status": "copiat",
+    "saved_path": "fisiere/theme-proiect-44--cff23d91.png",
+    "bytes": 111460,
+    "sha256": "591f9afbf3eb635ed0d2b5e3dd6df47e746472e04c75e30fb70e2fd75258b4db"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-matrice-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-matrice-01--ca273b80.png",
+    "bytes": 636788,
+    "sha256": "7524480a7bf34784e504eaa3846c4aecafc608f0125b4f3ba6c3b668d121e220"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-matrice-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-matrice-02--1760b391.png",
+    "bytes": 623202,
+    "sha256": "d1de8d089bef954316e2c41085ae15f8cfa6c637fe417ae7d18a5543c1151c5b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-matrice-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-matrice-03--526a983a.png",
+    "bytes": 531718,
+    "sha256": "76c04c1d7d15a1cbdb3daa80b352a5bab2cb5eecf7f56146e9329c01ca6f25aa"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-matrice-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-matrice-04--c3ebe590.png",
+    "bytes": 473325,
+    "sha256": "9294fafcb9f9c67e00af04ffa3cccecbbdced5ca4b3c9fea58bac2c53134c101"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-matrice-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-matrice-05--43cfe7e0.png",
+    "bytes": 142748,
+    "sha256": "4b4f6aba6e0c42d56f6ae60c27ca783620a7687845feafefb3b4ac9fb44927a3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-01--60b9fcbf.png",
+    "bytes": 1083953,
+    "sha256": "fed7f39e76fa14712f18fff6d044429382760dbedaaa1e350bbed8f59a442a92"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-02--a53e76f3.png",
+    "bytes": 769287,
+    "sha256": "f710b147fea9e855164c42dd93f939417fde1a51af96a6d78f72bcaf8e1f5def"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-03--9b6df4c7.png",
+    "bytes": 941847,
+    "sha256": "313bd68aa318c93e8cba7f78095fe42e3165c259351d89b309050ea2f313a21c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-04--fbdb3eef.png",
+    "bytes": 718060,
+    "sha256": "2319a9dfbe567c2aaaf1426dee8677c0dffd161fd22e2df55697ef898abf5988"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-05--cfd99486.png",
+    "bytes": 805517,
+    "sha256": "b281b808b250d3608aadd193659962384018e5bdc3f50e3ff7391c1a42d89a2e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-06--8b9537dd.png",
+    "bytes": 822533,
+    "sha256": "6dbe58942219114bb2a28c88545922c29411a4b4784eef269ca36a0f7f4089ae"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-07--2ec5c020.png",
+    "bytes": 841164,
+    "sha256": "9a9d363fc86d1d0e27f4ad9fb28016281976ef19c1657c41e458e736e0e52711"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-08--7b9475a9.png",
+    "bytes": 724915,
+    "sha256": "b2b83dcb9c3fb5225971750e70aedb942f184f37b62421d58e2f70e175a09fa7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-09--b5ab985b.png",
+    "bytes": 672759,
+    "sha256": "aeee060f314dc1f690e208cb92cf5934d900fbe51f1d29e7abe978cbc357c289"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-10--0be0fcb9.png",
+    "bytes": 778804,
+    "sha256": "e77021fbd11e965e3398c9ebf233752653198d33c36d60c976ca10eb6640c973"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-11--6004e10a.png",
+    "bytes": 638915,
+    "sha256": "d6217ccce6e06b698856242b99008ff331e061e3d4b42e51e41cf0ecbfd6d156"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\contact-proiect-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-proiect-12--8c1c6cf5.png",
+    "bytes": 502193,
+    "sha256": "754830f3bc0a7c4c1b8b690672ed94acbcd907a196de6cb2b9b1ca505e32a140"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\final\\proiect-36.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-36--7d338f08.png",
+    "bytes": 149040,
+    "sha256": "c2b70dd0f87279135186031c4b119464e068947ca678c474abce49a99e062fbb"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\proiect-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-01--ac66026e.png",
+    "bytes": 219857,
+    "sha256": "3fe7dbdd5060b4cfa68308a4210e19cc22e5fd37fe5cfa1ecf45b91aa2929e54"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\proiect-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-04--67a1f2af.png",
+    "bytes": 262954,
+    "sha256": "813c1ca1e895c738fd8548a88270b36a4ef86ef1d839748d48cdeeb7cd56e5f0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\proiect-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-19--eb3a36d1.png",
+    "bytes": 229202,
+    "sha256": "0817af8b8239e8aac8e143521ea5dcaf70ead6204376c818a4c00bcc065630f2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\proiect-45.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-45--d9463fc6.png",
+    "bytes": 210541,
+    "sha256": "8611187d7cfef4466e32af815ad796dd06e1e7d78b98d86347b1c25caedac53e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\proiect-46.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-46--a58fc2f1.png",
+    "bytes": 339888,
+    "sha256": "b0e469f93d47e3bcbe71811325eb40d47688b1595621ea2d10ded204ccac9d46"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa-v4\\proiect-47.png",
+    "status": "copiat",
+    "saved_path": "fisiere/proiect-47--f1cd03e5.png",
+    "bytes": 298946,
+    "sha256": "f52e4590c633a1b437dc810ceaea96a62c5752ce2d05a3d03f1312934dd086ad"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\final-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-01--ee095fcf.png",
+    "bytes": 150152,
+    "sha256": "a2f2457a8bd904e6f2075ee252f0e1b6eff9acf5b0ac48c844a7ab388b18f354"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\final-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-10--c0ec1d0d.png",
+    "bytes": 174765,
+    "sha256": "f437b6b2ed5709c0f5e168d564f0826c581b0d618d6d48d3c906056498bd5569"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\final-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-11--73538823.png",
+    "bytes": 150145,
+    "sha256": "cd41ddadb1211e22706c48df3fbb352bfc7ae9587eed97224ff280ebbcc0f79d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\final-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-15--ed77686d.png",
+    "bytes": 165199,
+    "sha256": "ad25bbebae0080daae6132ce58b6d5d7923c29360179fb23f93ca7d0c54048de"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\final-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-20--8e1a0530.png",
+    "bytes": 124214,
+    "sha256": "f08e9166eb3947da5fb4e9a6d76957ffa89b5a09f6f434a19854c0beabe1391f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\final-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-21--7df28b04.png",
+    "bytes": 119129,
+    "sha256": "cf87985a4ba03b07baabe31cee57f464ecf630567575fbc5719c346ac740198a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-01--1f309593.png",
+    "bytes": 150625,
+    "sha256": "0fa8427fce0c80e21638732d5d238f2f621856b56eed91ade48af6265e00b8a2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-02--1a3e4c16.png",
+    "bytes": 129146,
+    "sha256": "1e198f66d982e1e690cec2e2076145bc173e2db2ec0321178afdd31c04607d36"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-03--22bddea1.png",
+    "bytes": 145709,
+    "sha256": "3c1166a9a40c24a5b2cc017cbe3777cf875efef49b53c9cf7d6d9a0d5401531a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-04--d89b1e95.png",
+    "bytes": 154340,
+    "sha256": "e89b96761ddfb72a9ec602d1e78ea9d7208aa905b452a2828dcf047291ad9fd7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-05--13b9fa83.png",
+    "bytes": 126321,
+    "sha256": "6ca45a84b8e5ec4cd93ea2f3304f31f43bfc8adbaa4a1adb69e24c1889fc7a6f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-06--1a863d8e.png",
+    "bytes": 131805,
+    "sha256": "0317228065d2fc4449b0f01bca2bb8297219907a98a396182a0aba8183e2cdbf"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-07--07a4150e.png",
+    "bytes": 135645,
+    "sha256": "284ada9e4960ce8286678aa0efda773ab56e3936fcf4bb10011cb448f00aa241"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-08--2ee6a97e.png",
+    "bytes": 162436,
+    "sha256": "e27617082f55198b4705c457b8d07007ebe2c903da6f9a5033839b7bce277336"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-09--56bca7e9.png",
+    "bytes": 142111,
+    "sha256": "8ee619865c3b7a9ad49726af6497bd978f8cf6c8e8903fe0d384d74d16b4a3ff"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-10--b254a5aa.png",
+    "bytes": 146846,
+    "sha256": "ad94083698ab4ac0e8894f9fbdfcb0a167367148394d12663c8bbb2db8a33305"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-11--8718ad17.png",
+    "bytes": 150301,
+    "sha256": "a8cf9dbfd216e23d3217ed27ed1d2bcea46891fe1f71a8a2f1ce843a6bf50cb3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-12--31ebf67f.png",
+    "bytes": 151184,
+    "sha256": "b7a5954bf1b132e62bce42578d3868d1a0f0cc67d188392c376e3575b2099830"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-13--86523b94.png",
+    "bytes": 135899,
+    "sha256": "9a7e08c9e72e99279f6dc24adb508015872164f215f7ca012263186ffa06ee88"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-14--87a2d3cc.png",
+    "bytes": 137228,
+    "sha256": "52598ac2381dc221bb2a9450fa2333985de417b89be5947b4ee9b47f687e8bb1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-15--c0ef2f80.png",
+    "bytes": 164177,
+    "sha256": "554554338029669a07454114b212f4c787ca46957d0a5cde90fd243de16c49da"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-16--f93d92f6.png",
+    "bytes": 157355,
+    "sha256": "e0a1aae867ce0807b8f2ccdba4a59562080e94fda86a8114429e64b005df4bba"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-17--7d2b3de1.png",
+    "bytes": 130266,
+    "sha256": "a6dc7362719a4c3491986987e665b48efe516fee2ca832b0919af9e00a0e572c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-18--de7e9aee.png",
+    "bytes": 127578,
+    "sha256": "a84a7bf73db4734b298e0d020e5a2804618435225d0ea0052e6f0b8dad174699"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-19--71937b8d.png",
+    "bytes": 160953,
+    "sha256": "be085c41ef414172fb21678931dfb262ba26647c1f1978c5b1d9a9d6c02d1cb1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\qa\\page-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-20--fd31bebc.png",
+    "bytes": 119120,
+    "sha256": "003f65412f7b8fd22fbb473182f1d7454d2504bdd8cd78505fdbc03e0226ae00"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\refine_v4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/refine_v4--21a73432.py",
+    "bytes": 4570,
+    "sha256": "a399fc06ca5726c165949c2e6d059d5096671f580ae65da37dc40236b050e530"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\render_word_v4.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/render_word_v4--67618b09.ps1",
+    "bytes": 1026,
+    "sha256": "29f74e7006685a70c842cd42afed958e6c9e4f95ed656cd76cae972d522a45ab"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\MutareSite\\output\\cesiro-proiect\\visuals_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/visuals_v3--a2256b9c.py",
+    "bytes": 8823,
+    "sha256": "628f3bbc766674e07bcec4f9daf0c508532f423bcbaae232df03a61d8c4ba469"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Cani & Cesti\\cana-striatii-bej-model-cesiro-casa-masa-familie-locuin-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/cana-striatii-bej-model-cesiro-casa-masa-familie-locuin--bf22a350.jpg",
+    "bytes": 44623,
+    "sha256": "202be8639e2e60358ea7db5162076fc5432c628881115beac2750802d539a1ba"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Seturi de masa (Vesela)\\010l-set-16-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/010l-set-16-01--045b7caa.jpg",
+    "bytes": 126090,
+    "sha256": "bba06f378354c5c7d860e382c85fd1d03264484323c3fdc2ff89fc2f07f1c403"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Seturi de masa (Vesela)\\cesiro-dinnerware-producer-04-01-2-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/cesiro-dinnerware-producer-04-01-2-01--e4a108fe.jpg",
+    "bytes": 104799,
+    "sha256": "673d7a14ff3acdf05caf0f12f45fe76f892ca144c38416141e623ba2facc5a5f"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Seturi de masa (Vesela)\\cesiro-dinnerware-producer-1-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/cesiro-dinnerware-producer-1-01--ab8ae685.jpg",
+    "bytes": 110957,
+    "sha256": "43d0f664722e4b0561557aaec0e076b33e24cbeaf62097e304c1a3041f10e3b9"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Seturi de masa (Vesela)\\cesiro-dinnerware-producer-12-01-1-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/cesiro-dinnerware-producer-12-01-1-01--31602e51.jpg",
+    "bytes": 589522,
+    "sha256": "50e80f75afd84474d53abd0d209a1407da912ed8a4376a7620124c7fe8654e88"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Seturi de masa (Vesela)\\poze-detalii-seturi-amazon-cu-bol-01-604m-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/poze-detalii-seturi-amazon-cu-bol-01-604m-01--91ac9177.jpg",
+    "bytes": 275538,
+    "sha256": "26ececfe450a9176a8cf460451b7c24adcf1ae639f94ce083174b486dc37dc95"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Seturi de masa (Vesela)\\set-masa-ceramica-verde-masliniu-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/set-masa-ceramica-verde-masliniu-01--938ed118.jpg",
+    "bytes": 40007,
+    "sha256": "e87dc88e5d66a835a1d64a2d0e75a6a8f1c7ae889467f86616f73b7e98fee7fd"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Seturi de masa (Vesela)\\set-mic-dejun-verde-aranjat-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/set-mic-dejun-verde-aranjat-01--6cb486e8.jpg",
+    "bytes": 107248,
+    "sha256": "fdd28c080f4888214683fb0ce353cb4955215a2b6f8f876e79bcce48b4359882"
+  },
+  {
+    "source_reference": "Z:\\images\\Bucatarie & Masa\\Seturi de masa (Vesela)\\set-vesela-ceramica-24-piese-negru-cu-tacamuri-aurii-01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/set-vesela-ceramica-24-piese-negru-cu-tacamuri-aurii-01--2593af46.jpg",
+    "bytes": 57538,
+    "sha256": "355c1addb8763da23752f4e8485b312d62effc1301ab2d1bcdc32d9eb14bd826"
+  },
+  {
+    "source_reference": "https://cesiro.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://learn.chatgpt.com/docs/pricing#what-are-the-usage-limits-for-my-plan",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.trendyol.com/ro",
+    "status": "referinta_externa_necopiata"
+  }
+]

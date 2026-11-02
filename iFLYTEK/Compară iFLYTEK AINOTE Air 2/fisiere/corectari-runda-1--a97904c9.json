@@ -1,0 +1,63 @@
+{
+  "round": 1,
+  "initialIndependentScore": 8.2,
+  "target": 10,
+  "status": "verified_by_independent_reaudit",
+  "changes": [
+    {
+      "finding": "F1",
+      "change": "Modelele Java menționate în ramurile de recepție sunt păstrate în localModelParameterIds/localModelPaths. Ieșirile și schemaPaths folosesc citiri verificate. WorkState și FileListResponse au transformările locale explicate; data[] și alternativa JSON în String sunt documentate.",
+      "files": [
+        "tools/catalog-extract.cjs",
+        "tools/catalog-response-contracts.cjs",
+        "catalog-parametri-functii/catalog-ui.js"
+      ],
+      "status": "closed_after_reaudit"
+    },
+    {
+      "finding": "F2",
+      "change": "Clase distincte real, number și union. float/double/Float/Double sunt mapate la real, cu limite de reprezentare Java și observații despre JSON.",
+      "files": [
+        "tools/catalog-enrich.cjs"
+      ],
+      "status": "closed_after_reaudit"
+    },
+    {
+      "finding": "F3",
+      "change": "Scanare recursivă a claselor bean. Contracte verificate pentru System/Version/Battery/State, inclusiv notificări, variante glasses/headset, fallbackuri și modele adaptate local.",
+      "files": [
+        "tools/catalog-extract.cjs",
+        "tools/catalog-response-contracts.cjs"
+      ],
+      "status": "closed_after_reaudit"
+    },
+    {
+      "finding": "F4",
+      "change": "Producătorii expliciți MethodChannel.Result sunt inventariați în ramuri/helperi cu limite marcate. startGlassOTA separă ACK-ul de cele opt callbackuri EventChannel, cu tipuri, coduri, progres, mesaj opțional și erori.",
+      "files": [
+        "tools/catalog-flutter-results.cjs",
+        "tools/catalog-response-contracts.cjs",
+        "catalog-parametri-functii/catalog-ui.js"
+      ],
+      "status": "closed_after_reaudit"
+    },
+    {
+      "finding": "F5",
+      "change": "Patru rapoarte de cercetare au note de etapă istorică și trimiteri către analiza actuală. Etichetele de contracte complete au fost înlocuite cu inventar euristic/candidați, inclusiv în generatoare.",
+      "files": [
+        "tools/audit-history-notes.cjs",
+        "tools/finalize.cjs",
+        "tools/protocol-report.cjs",
+        "documentatie/ARHITECTURA.md",
+        "documentatie/ARHITECTURA.html",
+        "protocol-comunicare/INDEX.html"
+      ],
+      "status": "closed_after_reaudit"
+    }
+  ],
+  "validation": "tools/catalog-verify.cjs include regresii pentru F1–F4; rezultatele curente sunt în catalog-parametri-functii/validare.json.",
+  "scope": "Corectarea nu înlocuiește validarea pe hardware, recuperarea firmware-ului sau verificarea manuală a tuturor metodelor DEX.",
+  "finalIndependentScore": 10,
+  "independentReport": "runda-2/audit.json",
+  "verifiedAt": "2026-10-30T19:25:37.793Z"
+}

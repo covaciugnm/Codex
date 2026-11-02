@@ -29,6 +29,7 @@ parser.add_argument('--repo', type=pathlib.Path, default=pathlib.Path(__file__).
 parser.add_argument('--allow-public', action='store_true', help='Only after explicit user authorization to publish publicly.')
 parser.add_argument('--ssh-key', type=pathlib.Path, help='Private key corresponding to the github-codex-deploy public key.')
 parser.add_argument('--plan', action='store_true', help='Read-only local comparison; no network, clone, commit or push.')
+parser.add_argument('--resume-prepared', type=pathlib.Path, help='Resume this snapshot from validated public checksums and a saved partial preparation.')
 args = parser.parse_args()
 snapshot = args.snapshot.resolve()
 repo = args.repo.resolve()
@@ -95,6 +96,53 @@ def git(*arguments, check=True):
         raise RuntimeError(result.stderr.strip() or result.stdout.strip())
     return result
 
+def verified_resume(d):
+    import hashlib
+    from parti_lfs import verify_or_restore
+    if not d:
+        return set()
+    ready=json.loads(d.read_text(encoding='utf-8'))
+    if ready['snapshot'] != str(snapshot) or ready['head']!=git('rev-parse','HEAD').stdout.strip() or ready['manifest_sha256']!=hashlib.sha256((snapshot/'manifest.json').read_bytes()).hexdigest():
+        raise SystemExit('Checkpoint incompatibil cu salvarea sau commitul curent.')
+    if git('diff','--cached','--name-only').stdout:
+        raise SystemExit('Index Git modificat; reluare oprita.')
+    folders=set(ready['folders'])
+    dirty=git('status','--porcelain','-z','--untracked-files=all').stdout.split('\0')
+    allowed=folders|{ready['partial'],'.gitattributes'}
+    if any(r[:2] not in {' M','??'} or r[3:].split('/')[0] not in allowed for r in dirty if r):
+        raise SystemExit('Modificari neasteptate in checkout; reluare oprita.')
+    if hashlib.sha256((repo/'.gitattributes').read_bytes()).hexdigest()!=ready['attributes_sha256']:
+        raise SystemExit('Reguli LFS modificate dupa checkpoint.')
+    partial=repo/ready['partial']
+    files={p.relative_to(partial).as_posix() for p in partial.rglob('*') if p.is_file()}
+    if files!=set(ready['partial_hashes']):
+        raise SystemExit('Inventarul proiectului partial s-a schimbat.')
+    for rel in files:
+        with (partial/rel).open('rb') as f:
+            if hashlib.file_digest(f,'sha256').hexdigest()!=ready['partial_hashes'][rel]:
+                raise SystemExit('Proiectul partial s-a schimbat; reluare oprita.')
+    for name in folders:
+        project=repo/name
+        sums=project/'SHA256SUMS-PUBLIC.txt'
+        if hashlib.sha256(sums.read_bytes()).hexdigest()!=ready['folders'][name]:
+            raise SystemExit('Amprenta manifestului public nu corespunde.')
+        expected=set()
+        for line in sums.read_text(encoding='utf-8').splitlines():
+            digest,rel=line.split('  ',1)
+            child=(project/rel).resolve()
+            if not child.is_relative_to(project.resolve()):
+                raise SystemExit('Cale in afara proiectului.')
+            with child.open('rb') as f:
+                if hashlib.file_digest(f,'sha256').hexdigest()!=digest:
+                    raise SystemExit('Fisier public modificat dupa pregatire.')
+            expected.add(child)
+        actual={x.resolve() for x in project.rglob('*') if x.is_file() and x.name!='SHA256SUMS-PUBLIC.txt'}
+        if expected!=actual:
+            raise SystemExit('Inventarul public difera de checkpoint.')
+        for idx in project.rglob('*.codex-parts.json'):
+            verify_or_restore(idx)
+    return folders
+
 if not (repo / '.git').is_dir():
     if repo.exists() and any(repo.iterdir()):
         raise SystemExit('Directorul de destinatie nu este gol si nu este un checkout Git.')
@@ -102,9 +150,12 @@ if not (repo / '.git').is_dir():
 if git('remote', 'get-url', 'origin').stdout.strip() not in {REMOTE, 'https://github.com/covaciugnm/Codex.git'}:
     raise SystemExit('Origin diferit de destinatia autorizata.')
 git('config', 'core.longpaths', 'true')
-if git('status', '--porcelain').stdout.strip():
+resumed = verified_resume(args.resume_prepared)
+if not args.resume_prepared and git('status', '--porcelain').stdout.strip():
     raise SystemExit('Checkout-ul are modificari locale; inspectati-le inainte de sincronizare.')
 remote_main = git('ls-remote', 'origin', 'refs/heads/main').stdout.strip()
+if args.resume_prepared and remote_main.split()[0] != git('rev-parse','HEAD').stdout.strip():
+    raise SystemExit('Ramura distanta s-a schimbat; reluare oprita.')
 if remote_main:
     git('fetch', 'origin', 'main')
     git('merge', '--ff-only', 'origin/main')
@@ -125,22 +176,24 @@ if large_paths:
     if git('lfs', 'version', check=False).returncode:
         raise SystemExit('Git LFS este necesar pentru fisierele mai mari de 100 MiB. Nu s-a omis niciun fisier.')
     git('lfs', 'install', '--local')
-    for path in large_paths:
-        git('lfs', 'track', '--filename', path)
+    for start in range(0, len(large_paths), 24):
+        git('lfs', 'track', '--filename', *large_paths[start:start+24])
+    git('lfs', 'track', '*.codex-lfs-part')
     staged_paths.append('.gitattributes')
 for project in changed:
     folder_name = pathlib.PurePosixPath(project['archives'][0]['path']).parts[0]
     source = snapshot / folder_name
-    shutil.copytree(source, repo / folder_name, dirs_exist_ok=True, copy_function=copy_public_file)
-    masked = protect_project(repo / folder_name)
-    print(json.dumps({'prepared_project': project['name'], 'credential_files_masked': len(masked)}, ensure_ascii=True), flush=True)
+    if folder_name not in resumed:
+        shutil.copytree(source, repo / folder_name, dirs_exist_ok=True, copy_function=copy_public_file)
+        masked = protect_project(repo / folder_name, source)
+        print(json.dumps({'prepared_project': project['name'], 'credential_files_masked': len(masked)}, ensure_ascii=True), flush=True)
     staged_paths.append(folder_name)
     previous.setdefault('projects', {})[project_key(project)] = {'name': project['name'], 'content_sha256': project['content_sha256'], 'snapshot_utc': manifest['export_started_at_utc'], 'folder': folder_name}
 if changed:
     previous['updated_at_utc'] = dt.datetime.now(dt.timezone.utc).isoformat()
     (repo / index_name).write_text(json.dumps(previous, ensure_ascii=False, indent=2), encoding='utf-8')
     staged_paths.append(index_name)
-    for filename in ['PROTOCOL-SALVARE.md', 'Salveaza-Codex.ps1', 'export_codex.py', 'verifica_arhiva.py', 'sincronizeaza_github.py', 'protejeaza_publicarea.py']:
+    for filename in ['PROTOCOL-SALVARE.md', 'Salveaza-Codex.ps1', 'export_codex.py', 'verifica_arhiva.py', 'sincronizeaza_github.py', 'protejeaza_publicarea.py', 'parti_lfs.py']:
         shutil.copy2(pathlib.Path(__file__).parent / filename, repo / filename)
         staged_paths.append(filename)
     lines = ['# Arhive Codex', '', 'Conversații, rezultate și fișiere organizate după proiect. Fiecare proiect este actualizat numai când conținutul său se schimbă.', '', 'Salvarea automată rulează la 6 ore. Versiunile precedente rămân în istoricul Git. Consultați PROTOCOL-SALVARE.md și indexurile proiectelor pentru acoperire și fișiere indisponibile.', '']

@@ -1,0 +1,6 @@
+2026.10.22 — WÖHR, confirmare disponibilitate pregatita
+Status scurt: DRAFT NETRIMIS in EVA; utilizatorul confirma disponibilitatea pentru 2026.10.27, 07:00–10:00 ora Vienei, Schallergasse 35.
+Ultimul raspuns primit: Regina Helfer, 2026.10.21; ID 7b7f455a-84e0-4a14-a46d-3ba119ae27a9. Mesajul si atasamentul GIF sunt deja arhivate in 08. Corespondenta/2026.10.21 Verificare Berger Pech; hash JSON verificat identic indexului.
+Urmatorul pas: trimiterea ciornei din EVA; apoi coordonarea accesului pentru mentenanta. Nu exista trimitere confirmata sau lucrare efectuata.
+Sursa: instructiunea utilizatorului; 08. Corespondenta/2026.10.22 WOHR confirmare mentenanta/2026.10.22 DRAFT WOHR.json; ID draft 7f948829-b589-4647-a043-3fc4bc0a4e6a.
+

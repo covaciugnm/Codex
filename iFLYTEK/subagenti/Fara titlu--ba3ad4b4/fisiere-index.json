@@ -1,0 +1,170 @@
+[
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\apk-analysis-2026-11-01\\ARCHITECTURE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ARCHITECTURE--153323a7.md",
+    "bytes": 8236,
+    "sha256": "95ff08e452fa9e5bc832d1aab36cdec67d8783f15a56723715c0ab9fb358c849"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\apk-analysis-2026-11-01\\VERSION-DIFFS.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERSION-DIFFS--b8440a10.md",
+    "bytes": 8571,
+    "sha256": "dcc6b7382bd712c2b8586a026d61f3cb345ecfc5b414480b107bc8979222abbf"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\apk-analysis-2026-11-01\\source-search.json",
+    "status": "copiat",
+    "saved_path": "fisiere/source-search--3d0c4862.json",
+    "bytes": 4004,
+    "sha256": "6778bff7be10de7d571a82e22a16fdc1ccdf14ea4e9b12d6d2bb45f3c1af4e39"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\CORRELATION-PLAN.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CORRELATION-PLAN--ee188368.md",
+    "bytes": 7443,
+    "sha256": "f8b1409c70ff7060ed0330a3f41366e938670a5e1cabaec12e899638d14be0ee"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\STRATEGY.md",
+    "status": "copiat",
+    "saved_path": "fisiere/STRATEGY--b16ca6ca.md",
+    "bytes": 12237,
+    "sha256": "f8b41b59114de462380cef13650542b5ef3c8ef70220d72444a4debe600e4d05"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\correlation\\SmaliFingerprintExport.java",
+    "status": "copiat",
+    "saved_path": "fisiere/SmaliFingerprintExport--53c21618.java",
+    "bytes": 4175,
+    "sha256": "cac5e1f10d7520c78bed29b01b6c43fc9e0e3002dda8b19d4d2c3031dd81b3ef"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\correlation\\export-references.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/export-references--093b22dd.cjs",
+    "bytes": 5101,
+    "sha256": "de7fa6b4ebbfd60270dee3508e5fb5a7e89ef39ace88218c04f217a3ecac5aa8"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\correlation\\normalize-smali.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/normalize-smali--05122674.cjs",
+    "bytes": 2485,
+    "sha256": "f7ca80a12e904a4da06fb3e3f691865dc6dcd8cd8761c917ae3ba76d643ad132"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\correlation\\run-correlation.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/run-correlation--068cde22.cjs",
+    "bytes": 5730,
+    "sha256": "f34797903ada337a86c7248583585cc830bd3902075b87f095805a4ebe2ffe0d"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\correlation\\run-targeted-correlation.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/run-targeted-correlation--159bc392.cjs",
+    "bytes": 8206,
+    "sha256": "ef74a24532fd25b99cefe19f0ab7772fc23b68660308df39dcb8b731b2d3ed8f"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\correlation\\test-normalize-smali.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-normalize-smali--aff725fe.cjs",
+    "bytes": 4818,
+    "sha256": "c7fe80796e14420b9f85c633b7258d029415c64be02eb285eebcc5db29f030f8"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\GLOBAL-PLAN.md",
+    "status": "copiat",
+    "saved_path": "fisiere/GLOBAL-PLAN--d9e791ee.md",
+    "bytes": 4861,
+    "sha256": "b399bc3ee511874508f97441bc69db44cd3aec22f5f43c7ea1ff2295f5b9c4f9"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\PILOT-PLAN.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PILOT-PLAN--a516cd92.md",
+    "bytes": 6668,
+    "sha256": "5a252d507ab721d0890cfab6a3f6ee51227a19d82f4e2542e3ac8c3f63b8dac0"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\RESULTS.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RESULTS--56512e22.md",
+    "bytes": 3198,
+    "sha256": "789f575b9c064c7fdfe3e2ceb248be667fe0475783371956c972fda4b32714ab"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\RawDexIdentityIndex.java",
+    "status": "copiat",
+    "saved_path": "fisiere/RawDexIdentityIndex--22a27856.java",
+    "bytes": 5795,
+    "sha256": "374ffc7c91309e3de76028d59545a99f8c2d3d54f0296762b32904ec085eb069"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\classfile-coverage.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/classfile-coverage--d9eb6a16.cjs",
+    "bytes": 3470,
+    "sha256": "bf3905da440700abcca61f8930a0371b8bd0701f29253b741c5b710d6224209c"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\prepare-global-plan.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-global-plan--9e0242dd.cjs",
+    "bytes": 11398,
+    "sha256": "82129fb3a515b7587c9cc5d4a001c1b64ecad442e22d9dd17fe9c048705ed2e5"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\prepare-toolchain.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-toolchain--027e936f.cjs",
+    "bytes": 3050,
+    "sha256": "c66132fb25e5cb095982c81fc1c155661935270ea58b4fde268da62540126754"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\run-callback-cfr.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/run-callback-cfr--9b3eff34.cjs",
+    "bytes": 4771,
+    "sha256": "8f26b564093f2689be93d51fec70280a20d1c8716e19e15ac8d68adb3d65006a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\run-global-checkpoint.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/run-global-checkpoint--8cc5e838.cjs",
+    "bytes": 21959,
+    "sha256": "4369f83efe6bc2f5c07a7173e31a14c69b7326d8b9c05685a6c74731cc9d44ee"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\run-independent-pilot.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/run-independent-pilot--63d3681b.cjs",
+    "bytes": 11754,
+    "sha256": "37b8f4a38af68a58e257ea7f15e4fea2dab83b5e126e4007c19695145847f5ac"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\independent-engine\\test-classfile-coverage.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-classfile-coverage--3adb3ac4.cjs",
+    "bytes": 4964,
+    "sha256": "f37aef518ba0e882fbe0c0628dd09535ac5f7cf6fbe1d7eb083ebbf1a800f45f"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\decompilation-repair-2026-11-01\\inventory.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inventory--27cd3ace.cjs",
+    "bytes": 7864,
+    "sha256": "e8858b775cf448fbfaf8c46fbf720a51ad52ef1a68b4e94d6862d906e1cc32d4"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK\\archive-repository\\tools\\index-baseline-release-20261101.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/index-baseline-release-20261101--c43b4f87.cjs",
+    "bytes": 2263,
+    "sha256": "52a09b32bffd08abd50f41250f9b5d4a3813cc7fa356aaaba92e3a7f79867e74"
+  }
+]

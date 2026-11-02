@@ -2,7 +2,7 @@
 
 ID: `01a115a9-3a60-7b13-b37c-f25206a224c1`  
 Proiect: FinantariRO  
-Export UTC: 2026-10-07T20:11:34.069036+00:00
+Export UTC: 2026-11-02T15:26:35.221418+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 

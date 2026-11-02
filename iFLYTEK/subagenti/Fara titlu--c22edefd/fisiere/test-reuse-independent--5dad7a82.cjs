@@ -1,0 +1,17 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const fixture=path.join('D:/Codex-iflytek-apk-analysis-20261101','independent-cache-fixture-'+Date.now()),cas=path.join(fixture,'cas');fs.mkdirSync(cas,{recursive:true});
+process.env.IFLYTEK_APK_CAS_ROOT=cas;
+const {canReuseReport}=require('../../tools/decompile-apk-versions-20261101.cjs'),sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const code=Buffer.from('class AuditCase {}'),log=Buffer.from('independent audit cache log'),dex='a'.repeat(64),record=(name,b)=>({path:name,bytes:b.length,sha256:sha(b),storage:'cas',cas:'cas/'+sha(b)});
+const report={dexSetSha256:dex,status:'partial-decompilation',javaFiles:1,entries:[record('AuditCase.java',code)],logs:[record('jadx.log',log)]},file=path.join(fixture,'report.json'),results=[];
+const save=r=>fs.writeFileSync(file,JSON.stringify(r));
+save(report);results.push({name:'metadata-without-CAS-rejected',pass:canReuseReport(file,dex)===false});
+fs.writeFileSync(path.join(cas,sha(code)),code);fs.writeFileSync(path.join(cas,sha(log)),log);results.push({name:'complete-valid-CAS-reused',pass:canReuseReport(file,dex)===true});
+fs.writeFileSync(path.join(cas,sha(code)),Buffer.from('corrupt'));results.push({name:'corrupt-CAS-rejected',pass:canReuseReport(file,dex)===false});fs.writeFileSync(path.join(cas,sha(code)),code);
+save({...report,entries:[]});results.push({name:'claimed-Java-without-files-rejected',pass:canReuseReport(file,dex)===false});
+save({...report,logs:[]});results.push({name:'missing-log-rejected',pass:canReuseReport(file,dex)===false});
+save({...report,javaFiles:2});results.push({name:'Java-count-mismatch-rejected',pass:canReuseReport(file,dex)===false});
+save(report);results.push({name:'wrong-DEX-set-rejected',pass:canReuseReport(file,'b'.repeat(64))===false});
+process.argv.push('--force');results.push({name:'explicit-force-disables-reuse',pass:canReuseReport(file,dex)===false});process.argv.pop();
+const result={checkedAt:new Date().toISOString(),status:results.every(r=>r.pass)?'PASS':'FAIL',passed:results.filter(r=>r.pass).length,total:results.length,cases:results};fs.writeFileSync(path.join(__dirname,'independent-reuse-results.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));if(result.status!=='PASS')process.exitCode=1;

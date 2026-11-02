@@ -1,0 +1,54 @@
+2026.10.29 — NOTĂ JURIDICĂ: componente independente, reziliere parțială și adăugarea de acoperiri
+DONAU 2044001194 — Schallergasse 35
+Obiect: distincția Bündelversicherung / kombinierte Versicherung și limitele modificării unilaterale. Surse oficiale austriece verificate în forma disponibilă la data notei.
+
+CONCLUZIE
+Există argumente documentare serioase că polița DONAU grupează ramuri juridic distincte. Aceasta poate permite încetarea unei ramuri fără încetarea celorlalte, DAR numai dacă sunt îndeplinite dreptul de încetare, termenul și preavizul aplicabile acelei ramuri. Separabilitatea nu înseamnă drept de renunțare imediată sau anuală. Un termen fix comun, valabil convenit până în 2036.01.01, poate lega fiecare componentă.
+Adăugarea unor riscuri/persoane/acoperiri noi sau înlocuirea unui pachet cu altul necesită, în principiu, acordul asigurătorului. Nici prima separată, nici dorința de a adapta asigurarea la nevoile actuale nu obligă singure DONAU să accepte noua combinație.
+
+1. CE SPUNE OGH DESPRE FORMA CONTRACTULUI
+J03 — OGH 7 Ob 92/19h, 2020.02.19, pct.1.1–1.3: o asigurare combinată reunește riscuri într-un contract unic; o asigurare grupată reunește contracte distincte, de regulă pe o singură poliță, cu condiții specifice. În speță, incendiul clădirii și asigurarea gospodăriei erau independente; lipsa prestației într-o ramură nu se transmitea automat celeilalte. Hotărârea nu acordă o facultate de reziliere imediată.
+J02 — OGH 7 Ob 208/15m, 2016.07.06, secțiunile B–D și F: OGH a analizat separat încetarea ramurilor Haushalt și Rechtsschutz. Încetarea după dauna despăgubită era valabilă pentru prima, dar evenimentul din această ramură nu justifica încetarea celeilalte. Rezultatul depindea de condițiile aplicabile fiecăreia, nu doar de existența unui pachet.
+J04 — OGH 7 Ob 178/24p, 2024.12.18, secțiunile 4.1–4.2, paragrafele [12]–[15]: în lipsa unei convenții speciale, ramurile grupate pot avea existență juridică separată, însă contează configurația contractuală concretă. În litigiul privind neplata unui pachet auto, reclamantul nu invocase/probase autonomia contractuală și primele individuale cerute de argumentația sa; OGH nu a impus defalcarea somației. Nu este o hotărâre care face prima separată o condiție suficientă pentru reziliere.
+
+2. CE DOVEDEȘTE PRIMA SEPARATĂ
+Este un indiciu de delimitare economică a ramurilor și permite identificarea costului lor. Trebuie corelată cu riscul asigurat, propriile condiții, clauzele de încetare și orice acord de legare a componentelor. Concluzia de mai jos este aplicarea acestor criterii la documentele DONAU, nu un verdict judecătoresc asupra poliței.
+Polița din 2026.06.03, p.3–5, separă anual: incendiu 763,20 EUR; întrerupere/Mietverlust 41,72 EUR; furtună 771,56 EUR; apă din conducte 3.127,72 EUR; pachete suplimentare 24,68 EUR; răspundere 1.638,36 EUR. Enumeră condiții și clauze distincte. Cererea din 2020 folosește și denumirea Wohngebäudebündel-Versicherung. Aceste elemente susțin separarea ramurilor principale.
+Nu rezultă că fiecare sublimită, extensie sau clauză suplimentară este un contract independent. De exemplu, extensiile din ramura apă pot fi simple completări ale aceleiași acoperiri. J06 — OLG Wien 5 R 124/25d, 2025.10.28, pct.3–3.1, distinge concret două clauze de extensie a acoperirii de asigurări autonome. Este o hotărâre de apel despre acoperire, nu un precedent care soluționează dreptul A&C de reziliere.
+Paketkündigungsklausel din extensiile DONAU, p.12 / pagina tipărită15, recunoaște încetarea unei ramuri de către asigurător și permite, la cererea asiguratului, încetarea întregului pachet la aceeași dată, cu regula contractuală de recuperare a avantajului de durată. Nu acordă asiguratului un drept general de scoatere imediată a oricărei componente. Trebuie examinată împreună cu eventuala renunțare la recuperare, pagina tipărită16.
+
+3. TERMENUL 2036 RĂMÂNE O PROBLEMĂ DISTINCTĂ
+L01 — §8 alin.1 VersVG limitează la un an fiecare prelungire tacită; nu scurtează durata fixă deja valabil convenită. Regula consumatorului din alin.3 nu poate fi aplicată automat unei GmbH imobiliare în activitatea sa profesională.
+Chiar dacă ramura de apă este independentă, aceasta poate avea aceeași expirare2036 ca incendiul. Ar trebui identificat un drept legal special, o clauză proprie de încetare anticipată ori un acord cu DONAU pentru o dată mai apropiată. În actele verificate nu am identificat un drept general al A&C de a elimina unilateral ramura apă sau Mietverlust în orice moment exclusiv pentru că nu o mai dorește. Această constatare nu exclude alte temeiuri legale analizate separat, precum dispariția interesului ori reducerea riscului, dacă faptele și condițiile lor sunt dovedite.
+Extensiile primite în 2026.10.29 reprezintă paginile tipărite4–16; lipsesc paginile1–3. Trebuie verificat setul contractual complet înaintea unei concluzii definitive despre legarea ramurilor și condițiile modificării.
+
+4. OGH 7 OB 13/85 — RENUNȚAREA ȘI ADĂUGAREA NU SE CONFUNDĂ
+J01 — OGH 7 Ob 13/85, 1985.03.28: asigurata ceruse un tarif medical redus împreună cu includerea fiului. OGH a considerat solicitarea, în ansamblu, ofertă de modificare, nu simplă reziliere parțială. Nu era clar că ar fi acceptat numai reducerea; includerea unei persoane noi nu putea constitui reziliere. Era necesar acordul asigurătorului, iar tăcerea sa nu valora în mod obișnuit acceptare. Contractul vechi și primele au rămas în vigoare.
+Hotărârea admite conceptual relevanța unei veritabile rezilieri parțiale, dar nu creează un drept universal la aceasta; în speță era invocată o prevedere tarifară proprie. Pentru A&C: dacă există temei de reziliere a unei ramuri, declarația trebuie să identifice clar ramura, temeiul și data. Propunerea de adăugare a altor riscuri trebuie delimitată de acea declarație. Dacă A&C dorește eliminarea numai în schimbul acceptării unui nou pachet, rezultatul este o negociere de modificare; nu se poate prezenta drept schimbare unilaterală deja operată.
+
+5. CONTRACTUL NOU NU ÎL STINGE AUTOMAT PE CEL VECHI
+J05 — OGH 7 Ob 264/07k, 2008.03.12: polițele auto de răspundere și casco puteau fi independente; încheierea unei noi asigurări de răspundere nu stingea implicit și casco. Speța este auto, însă ilustrează precis necesitatea identificării contractului/ramurii care încetează. Pentru A&C, cumpărarea de acoperiri suplimentare de la DONAU ori de la alt asigurător nu dovedește singură încetarea ramurilor existente și nu justifică deducerea unilaterală a primelor lor.
+
+6. APLICARE PRACTICĂ
+a) Cerem DONAU să confirme pentru fiecare ramură dacă este contract distinct, propriul termen, clauza de încetare și orice clauză care leagă componentele. Dacă refuză separarea, să indice textul contractual concret.
+b) Pentru eliminarea Leitungswasser și Mieten-BU există deja răspunsul Pfeiffer din 2026.07.14: excluderea ar fi posibilă pentru dispariția riscului, după actele tehnice solicitate. Calea concretă este completarea probelor și obținerea datei de efect și a recalculării; mesajul nu dovedește că eliminarea a fost deja aprobată. Documentele cerute aparțin acestei căi bazate pe Risikowegfall. O reziliere distinctă, valabilă potrivit propriului temei și termen, nu depinde în mod general de dispariția riscului. Solicitarea unor documente relevante pentru evaluarea riscului nu demonstrează prin ea însăși existența unei clauze abuzive.
+c) Pentru componentele noi se cere ofertă separată cu începutul acoperirii, prima, condițiile și durata. Se precizează că nu se solicită reînceperea duratei ramurilor păstrate; rezultatul trebuie confirmat în acordul final.
+d) Nu există aici concluzia că simpla împărțire a primei înlătură termenul 2036. O încetare unilaterală anticipată trebuie justificată separat, pe fiecare ramură și pe faptele reale.
+
+SURSE OFICIALE
+Originalele HTML și extrasele TXT, cu URL și SHA-256, sunt salvate în «Surse audit/2026.10.29 Registru surse audit componente.json».
+J01: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True
+J02: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20160706_OGH0002_0070OB00208_15M0000_000&IncludeSelf=True
+J03: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20200219_OGH0002_0070OB00092_19H0000_000&IncludeSelf=True
+J04: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20241218_OGH0002_0070OB00178_24P0000_000&IncludeSelf=True
+J05: https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20080312_OGH0002_0070OB00264_07K0000_000&IncludeSelf=True
+J06: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20251028_OLG0009_00500R00124_25D0000_000/JJT_20251028_OLG0009_00500R00124_25D0000_000.html
+L01: https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138452/NOR40138452.html
+Explicații oficiale FMA, consultate online; paginile nu au putut fi descărcate local (HTTP403):
+https://www.fma.gv.at/glossar/buendelversicherung/
+https://www.fma.gv.at/glossar/kombinierte-versicherung-verbundene-versicherung/
+
+COMPLETARE DIN AUDITUL CONDIȚIILOR
+Clauzele 1242K (p.15 din PDF-ul istoric de 89 pagini) și 3031K (p.24–25) prevăd expres încetarea suplimentului vizat, de către oricare parte, prin notificare scrisă cu preaviz de o lună la sfârșitul fiecărei perioade de asigurare. Aceste excepții concrete nu privesc Leitungswasser ori Mieten-BU și nu permit, prin ele însele, încetarea întregii asigurări de furtună. La 3031K, textul de încetare apare înainte de lit.b; întinderea exactă nu trebuie extinsă automat la toate subriscurile fără analiza clauzei în ansamblu. Aceste drepturi proprii pot exista chiar pentru un supliment care nu este contract autonom; separabilitatea contractuală nu este singura sursă posibilă a unui drept de încetare limitată. Sinteza principală include aceste drepturi și celelalte temeiuri legale identificate de cercetător.
+
+Verificarea nu a modificat polița, nu a creat notificări și nu a trimis emailuri. Nu a fost identificată prin căutarea efectuată o hotărâre OGH mai nouă decât 7 Ob178/24p care să schimbe criteriul contractual al separabilității; aceasta nu este o afirmație de exhaustivitate a tuturor hotărârilor austriece.

@@ -1,6 +1,6 @@
 # _Fara proiect
 
-Conversații: 10; subagenți: 9; mesaje: 281; fișiere copiate: 245.
+Conversații: 15; subagenți: 9; mesaje: 337; fișiere copiate: 280.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -23,3 +23,8 @@ Conversații: 10; subagenți: 9; mesaje: 281; fișiere copiate: 245.
 | [Configurează semnătura pentru PDF](Configureaz%C4%83%20semn%C4%83tura%20pentru%20PDF/conversatie.md) | Conversație | 14 |
 | [Verifică și șterge ciornele CIN EVA](Verific%C4%83%20%C8%99i%20%C8%99terge%20ciornele%20CIN%20EVA/conversatie.md) | Conversație | 2 |
 | [Extrage nume și CNP](Extrage%20nume%20%C8%99i%20CNP/conversatie.md) | Conversație | 6 |
+| [Cherșa Sebastian](Cher%C8%99a%20Sebastian/conversatie.md) | Conversație | 25 |
+| [Găsește conversațiile arhivate](G%C4%83se%C8%99te%20conversa%C8%9Biile%20arhivate/conversatie.md) | Conversație | 3 |
+| [Verifică emailul de configurare](Verific%C4%83%20emailul%20de%20configurare/conversatie.md) | Conversație | 3 |
+| [Conectează Chrome de pe Mac](Conecteaz%C4%83%20Chrome%20de%20pe%20Mac/conversatie.md) | Conversație | 14 |
+| [Mută folderul de lucru ChatGPT](Mut%C4%83%20folderul%20de%20lucru%20ChatGPT/conversatie.md) | Conversație | 11 |

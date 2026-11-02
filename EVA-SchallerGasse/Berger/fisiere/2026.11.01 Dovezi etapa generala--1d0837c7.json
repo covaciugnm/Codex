@@ -1,0 +1,3060 @@
+{
+  "automation_id": "verificare-zilnic-schallergasse-35",
+  "trigger_time_iso": "2026-11-01T05:58:22.582Z",
+  "baseline": {
+    "register": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.31 Registru comunicatii.json",
+    "count": 855,
+    "general": {
+      "data": "2026.10.31",
+      "checked_at_iso": "2026-10-31T08:05:46+02:00",
+      "perioada": "2026.10.29–2026.10.31; ultima verificare generala 2026.10.30 08:15:47, suprapunere de o zi; deduplicare fata de toate actualizarile punctuale ulterioare",
+      "cautari_complete": 84,
+      "pagini": 84,
+      "paginare_completa": true,
+      "acoperire_actuala_office_completa": true,
+      "metadate_unice_ID": 28,
+      "mesaje_noi_ID": 1,
+      "mesaje_noutati_neraportate": 1,
+      "mesaje_integrate_deja_raportate": 0,
+      "ID_alias_oglinda_noi": 1,
+      "mesaje_primite_ID": 1,
+      "mesaje_trimise_de_utilizator_ID": 0,
+      "atasamente_noi_registru_ID": 3,
+      "atasamente_documentare_noi": 0,
+      "atasamente_numai_metadate_noi": 3,
+      "oferte_noi_identificate": false,
+      "sincronizari_originale_primary": {
+        "factura3@ipec.ro": "2026-05-28T15:05:35.568110Z",
+        "admin@nova-robotics.ro": "2026-09-29T17:38:56.048744Z",
+        "factura1@ipec.ro": null,
+        "office@alba-vision.ro": "2026-10-31T06:00:03.685458Z",
+        "cosmin@ig.ro": "2026-10-09T23:30:10.009451Z",
+        "covaciu.gnm@gmail.com": "2026-10-31T04:02:07.538313Z",
+        "vaidae104@gmail.com": "2026-10-30T17:34:06.427405Z",
+        "covaciu.gnm@eva-org.com": "2026-10-05T20:30:06.421684Z",
+        "mariuscodewnk@yahoo.com": "2026-10-31T06:00:04.259375Z",
+        "factura2@ipec.ro": "2026-06-21T23:30:06.079888Z",
+        "factura@ipec.ro": "2026-06-25T10:00:12.428091Z",
+        "production@cesiro.ro": "2026-10-31T06:00:05.298316Z",
+        "cosmin.covaciu@ipec.ro": "2026-10-31T06:00:05.762740Z",
+        "office@ac-wohnart.at": "2026-10-31T06:00:13.390363Z",
+        "cosmin.covaciu@cesiro.com": "2026-10-31T06:00:06.905245Z",
+        "cosmin.covaciu@cesiro.ro": "2026-10-31T06:00:07.372907Z",
+        "link_covaciu@yahoo.com": "2026-08-02T20:30:05.901517Z",
+        "cesiro.horeca@gmail.com": null,
+        "dancorproiectsrl@gmail.com": null,
+        "3dspacearideit@gmail.com": null,
+        "3dspacearide@gmail.com": null
+      },
+      "sincronizari_originale_secondary": {
+        "noreply@eva-org.com": "2026-10-30T11:06:19.680491Z",
+        "dracula@eva-org.com": "2026-10-30T11:08:21.274335Z",
+        "office@eva-org.com": "2026-10-30T11:08:25.790894Z",
+        "learn@eva-org.com": "2026-10-30T11:06:05.254119Z",
+        "news@eva-org.com": "2026-10-30T11:06:08.527869Z",
+        "mail@eva-org.com": "2026-10-30T11:06:19.543911Z",
+        "office@ac-wohnart.at": "2026-10-30T15:09:52.263072Z",
+        "office@set-farfurii.ro": "2026-10-12T11:37:03.880574Z",
+        "office@fisher-price.ro": "2026-10-12T11:38:09.592710Z",
+        "office@go-pro.ro": "2026-10-12T11:38:41.691423Z",
+        "office@ninjakitchen.ro": "2026-10-12T12:01:37.105568Z",
+        "admin@cesiro.com": "2026-10-30T11:01:29.893981Z",
+        "elena.vaida@bonna.ro": "2026-10-12T11:07:44.616374Z",
+        "office@tartecosmetics.ro": "2026-10-12T11:32:40.949612Z",
+        "office@set-vesela.ro": "2026-10-13T07:54:10.652177Z",
+        "office@innovation.cesiro.ro": "2026-10-30T10:59:36.636983Z",
+        "aloenergie@cesiro.ro": "2026-10-30T10:59:17.036219Z",
+        "market@cesiro.com": "2026-10-30T10:59:21.447863Z",
+        "neets2@cesiro.ro": "2026-10-30T10:59:36.513397Z",
+        "alexandru.szoke@cesiro.com": "2026-10-31T06:00:16.647811Z",
+        "genesis@cesiro.com": "2026-10-30T10:59:32.106194Z",
+        "spam-monitor@eva-org.com": "2026-10-31T06:00:16.527759Z",
+        "innovationecosystem@red-robot.ro": "2026-10-12T11:35:36.133157Z",
+        "admin@eva-org.com": "2026-10-31T06:00:16.904875Z",
+        "elena.covaciu@cesiro.ro": "2026-10-30T10:59:17.141914Z",
+        "nvidia@cesiro.com": "2026-10-30T10:59:36.672607Z",
+        "office@melissaanddoug.ro": "2026-10-25T20:30:27.023877Z",
+        "office@red-robot.ro": "2026-10-13T06:34:04.316658Z",
+        "office@black-robot.ro": "2026-10-12T11:29:09.504369Z",
+        "office@jinko.ro": "2026-10-12T11:29:15.534051Z",
+        "office@andowl.ro": "2026-10-31T06:00:17.850917Z",
+        "office@opticosmetics.ro": "2026-10-12T11:29:59.775052Z",
+        "office@calphalon.ro": "2026-10-12T11:31:52.620181Z",
+        "office@leapfrog.ro": "2026-10-12T11:35:45.955145Z",
+        "neets1@cesiro.ro": "2026-10-30T10:59:36.636451Z",
+        "noreply@cesiro.ro": "2026-10-30T10:59:36.636928Z",
+        "new@cesiro.com": "2026-10-30T10:59:36.640433Z"
+      },
+      "limite": "Ultima sincronizare afisata: Primary office 2026.10.31 08:00:13; Gmail 2026.10.31 06:02:07; conexiunea office secundara 2026.10.30 17:09:52 Romania. Sunt indicatori, nu dovada exhaustivitatii; mesajele ulterioare neindexate pot lipsi. Shared/team necautabile excluse.",
+      "sursa": "08. Corespondenta/2026.10.31 Verificare zilnica/2026.10.31 Dovezi verificare EVA.json",
+      "stare": "Capra a adresat efectiv cererea Kornhofer; o comunicatie canonica noua, fara pret/termen nou si fara planuri vizate primite. Raspunsul Capra de la 16:56:53 a fost deja raportat punctual si nu este renotificat."
+    },
+    "statuses": [
+      {
+        "partener": "CERHA HEMPEL",
+        "status": "2026.10.30 17:09:38 Romania: email primit in office cu cererea efectiva a lui Capra catre Kornhofer pentru planurile si documentele vizate ale autorizatiei. Nu mai este doar promisiunea contactarii. Niciun raspuns al vanzatorului ori plan vizat nou primit identificat.",
+        "ultimul_raspuns": "Capra cere Kornhofer planurile vizate, decizia integrala cu anexe/derogare §69/Planwechsel si Baubeschreibung in forma vizata; daca nu le detine, solicita indicarea posibilului detinator, inclusiv Pristounig. Reaminteste ca la predarea din 2026.03.17 a primit Bestandsunterlagen, Energieausweis DG si Bauphysik.",
+        "urmatorul_pas": "Urmarirea raspunsului Kornhofer si identificarea exemplarelor vizate, separat de documentatia existenta deja primita. Urmarirea MA37 continua; emailul nou nu fixeaza termen de raspuns si nu confirma recuperarea planurilor ori comunicarea unui cost.",
+        "sources": [
+          "08. Corespondenta/2026.10.31 Verificare zilnica/2026.10.30 17-09-38 PRIMIT CERHA HEMPEL ed08780f.txt",
+          "08. Corespondenta/2026.10.31 Verificare zilnica/2026.10.30 17-09-38 PRIMIT CERHA HEMPEL ed08780f.json"
+        ]
+      },
+      {
+        "partener": "Donau Versicherung",
+        "status": "Integrare in registrul general a raspunsului 2026.10.29 deja analizat si raportat punctual: confirma incasarea primei si acoperirea actuala; mentine expirarea ordinara 2036.01.01. Nu confirma sold zero, alocarea detaliata ori acoperirea retroactiva. Nicio comunicare ulterioara noua identificata.",
+        "ultimul_raspuns": "Andreas Höbinger 2026.10.29: documente contractuale si precizari; sursele/anexele punctuale neschimbate fata de index.",
+        "urmatorul_pas": "Urmarirea clarificarii alocarii celor 4.775,43 EUR, soldului, perioadelor/spartelor acoperite si concluziilor juridice deja redactate; fara a repeta raspunsul ca noutate.",
+        "sources": [
+          "08. Corespondenta/2026.10.30 Verificare zilnica/2026.10.29 14-25-50 PRIMIT Donau Versicherung 8f1be79a.txt",
+          "05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/2026.10.29 Email primit Donau.json"
+        ]
+      },
+      {
+        "partener": "MA37",
+        "status": "Cererea directa A&C TRIMISA 2026.10.29 si revenirea avocatului sunt deja raportate. Niciun raspuns nou al autoritatii sau confirmare a localizarii/predarii planurilor identificata.",
+        "ultimul_raspuns": "Ultima comunicare actuala este cererea trimisa A&C 2026.10.29 12:49:46 Romania, nu raspuns autoritate; Capra revine separat la 13:34:23.",
+        "urmatorul_pas": "Urmarirea accesului Bauakt/Uberwachungsakt, exemplarului C, inventarului, copiilor vizate si stadiului; termen de raspuns solicitat in cererea directa 2026.11.18, fara acceptare autoritate presupusa.",
+        "sources": [
+          "08. Corespondenta/2026.10.30 Verificare zilnica/2026.10.29 12-49-46 TRIMIS MA37 c45958f2.txt",
+          "08. Corespondenta/2026.10.30 Verificare zilnica/2026.10.29 13-34-23 PRIMIT CERHA HEMPEL 478abcb0.txt"
+        ]
+      },
+      {
+        "partener": "Markus Berger",
+        "status": "2026.10.29: R11 este TRIMIS la 13:06:48 Romania catre office@bmberger.at, cu 3 PDF-uri (scanul adnotat original, contractul R11, comparatia R09/R11). Draft EVA sent, mesaj Sent verificat. Nu exista confirmare de primire sau acceptare. Doua actualizari Teams pentru acelasi UID; ultima SEQUENCE 2 muta discutia la 2026.11.02 14:00–14:30 Viena / 15:00–15:30 Romania; RSVP NEEDS-ACTION. Calendarul EVA afiseaza inca evenimentul vechi 2026.10.29.",
+        "ultimul_raspuns": "Invitatie Teams actualizata de Meetingtisch, 2026.10.29 15:03:39 Romania; SEQUENCE 2, 2026.11.02 ora 14:00 Viena. Nu este raspuns comercial la R11.",
+        "urmatorul_pas": "Verificarea si confirmarea noii invitatii Teams pentru 2026.11.02, ora 15:00 Romania (14:00 Viena); reconcilierea calendarului ramas la 2026.10.29. Urmarirea raspunsului BERGER la R11: Bauwerksbuch complet 2.500 EUR net, total 47.500 net/57.000 brut, PI/ZT si includerea in pret, persoane si calendar valoric. Nicio acceptare a acestor clauze dedusa din invitatie.",
+        "sources": [
+          "08. Corespondenta/2026.10.29 Verificare Berger Pech/2026.10.29 15-03-39 PRIMIT BERGER d5bc6ece.txt",
+          "08. Corespondenta/2026.10.29 Verificare Berger Pech/2026.10.29 15-03-38 PRIMIT BERGER eb6ea055.txt",
+          "08. Corespondenta/2026.10.29 Verificare Berger Pech/2026.10.29 13-06-48 TRIMIS BERGER 96e74e69.txt"
+        ]
+      },
+      {
+        "partener": "Pech",
+        "status": "2026.10.27 16:50:06 Romania: DI Bernhard Ployer confirma discutia din acea zi si recomanda arhitectul Roland Gasperl pentru sprijin la autoritate si eventuale replanificari/depuneri. Ployer spune ca a discutat deja cu arhitectul. Recomandare, fara oferta de onorariu, mandat sau contract acceptat. 2026.10.28 13:02:01 Romania: emailul cu accesul la servieta digitala este TRIMIS catre office@zt-pech.at, fara CC/BCC sau atasamente. Ciorna EVA are status sent. Nicio confirmare a primirii ori a functionarii accesului.",
+        "ultimul_raspuns": "Contact recomandat: Arch. Roland Gasperl, Argentinierstrasse 42/12, 1040 Wien; +43 664 4119935; roland.gasperl@chello.at. Niciun raspuns comercial nou la AN01/AN02 sau acceptare a clauzelor.",
+        "urmatorul_pas": "Urmarirea confirmarii ca accesul functioneaza si a listei de documente necesare; pastrate deschise punctele comerciale si tehnice anterior consemnate. Beneficiarul sa decida contactarea arhitectului; daca doreste, obtinerea unui obiect clar (autoritate, replanificare, depuneri), pret, termene si responsabilitati. Reconcilierea cu PECH a cerintelor de proiectare si a contractului scurt draft din 2026.10.27; nicio comanda presupusa.",
+        "sources": [
+          "08. Corespondenta/2026.10.28 Verificare zilnica/2026.10.27 16-50-06 PRIMIT PECH 152135aa.txt",
+          "08. Corespondenta/2026.10.28 Verificare zilnica/2026.10.27 16-50-06 PRIMIT PECH 152135aa.json",
+          "08. Corespondenta/2026.10.28 Verificare Berger Pech/2026.10.28 13-02-01 TRIMIS PECH 8fe2ffcc - copie fara parola.txt"
+        ]
+      },
+      {
+        "partener": "WOHR",
+        "status": "WÖHR confirma efectuarea mentenantei la 2026.10.27 prin factura 26101261SR si protocolul datat. Factura 2026.10.29: 285 EUR mentenanta +115 EUR o ora reparatie =400 net +80 TVA =480 EUR brut; scadenta calculata 2026.11.12. Protocolul arata scurgeri la ambii cilindri, conducte de inlocuit, analiza uleiului, legatura de pamant si fixari neconsemnate ca existente; reparatii suplimentare de ofertat, fara pret sau termen ferm. Plata si remedierea integrala neconfirmate.",
+        "ultimul_raspuns": "Regina Helfer, 2026.10.29 17:27:24 Romania: transmite factura si protocolul; promite oferta de remediere, cu intarziere din cauza volumului de lucru.",
+        "urmatorul_pas": "Solicitarea ofertei de remediere, a prioritatii/termenului si a confirmarii scrise privind utilizarea instalatiei pana la reparatie. Clarificarea justificarii/aprobarii orei suplimentare de 115 EUR net, fata de mentenanta de 285 EUR net confirmata initial; verificarea facturii si a contului indicat nou inainte de aprobarea platii. Scadenta facturii 2026.11.12; nu se efectueaza plata automat.",
+        "sources": [
+          "08. Corespondenta/2026.10.30 Verificare zilnica/Anexe WOEHR/2026.10.29 Rechnung 26101261SR Schallergasse 35, A&C Wohnart, 201582.pdf",
+          "08. Corespondenta/2026.10.30 Verificare zilnica/Anexe WOEHR/2026.10.29 image001.gif",
+          "08. Corespondenta/2026.10.30 Verificare zilnica/Anexe WOEHR/2026.10.29 20261027, WA, Schallergasse 35, PL.pdf",
+          "08. Corespondenta/2026.10.30 Verificare zilnica/2026.10.29 17-27-24 PRIMIT WOHR 7632b31a.txt"
+        ]
+      }
+    ],
+    "index_count": 7620,
+    "queries": [
+      "Schallergasse35",
+      "Schallergasse",
+      "A&C Wohnart",
+      "Schaller Gasse",
+      "AC Wohnart",
+      "1120 Wien",
+      "Schaller",
+      "office@ac-wohnart.at",
+      "bmberger.at",
+      "Werkvertrag R11",
+      "Berger",
+      "2026-470",
+      "Pech",
+      "TOMS",
+      "zt-pech.at",
+      "SCHAUERLEUTE",
+      "BAU-WERTE",
+      "Themis",
+      "Bauwerksbuch",
+      "Prüfingenieur",
+      "REALIG",
+      "STOLEX",
+      "Maritczak",
+      "STURM",
+      "Paknehad",
+      "RUDOLPH",
+      "Hönig",
+      "Füglister",
+      "Capra",
+      "Gasperl",
+      "roland.gasperl@chello.at",
+      "Honig",
+      "Fuglister",
+      "Baupolizei",
+      "Pristounig",
+      "Kornhofer",
+      "Asreahan",
+      "MA37",
+      "CerhaHempel",
+      "Wiener Wasser",
+      "Finanzamt",
+      "ARTUS",
+      "MA31",
+      "MA6",
+      "1539234",
+      "AR1264971",
+      "donauversicherung",
+      "Hofhans",
+      "Hausverwaltung",
+      "Frigo",
+      "Attensam",
+      "971105",
+      "2044001194",
+      "2616052",
+      "2900010498",
+      "Polizze 2044001194",
+      "woehr",
+      "KONE",
+      "Schindler",
+      "Lechner",
+      "Otis",
+      "Zottl",
+      "26101261",
+      "Weigl",
+      "Commerz",
+      "Böhm",
+      "Schmitt",
+      "AN10011519",
+      "26/30363",
+      "ANG0232318",
+      "120031905",
+      "13991719",
+      "058899708",
+      "TKElevator",
+      "42017328",
+      "Undeliverable",
+      "42018142",
+      "123482077",
+      "Delivery Status",
+      "Unzustellbar"
+    ]
+  },
+  "mailboxes_primary": {
+    "mailboxes": [
+      {
+        "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+        "email": "factura3@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-05-28T15:05:35.568110Z"
+      },
+      {
+        "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+        "email": "admin@nova-robotics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-29T17:38:56.048744Z"
+      },
+      {
+        "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+        "email": "factura1@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "3af45560-d448-4125-97cd-f12519882779",
+        "email": "office@alba-vision.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:03.143557Z"
+      },
+      {
+        "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+        "email": "cosmin@ig.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-09T23:30:10.009451Z"
+      },
+      {
+        "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+        "email": "vaidae104@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T17:34:06.427405Z"
+      },
+      {
+        "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "email": "covaciu.gnm@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T02:32:45.644952Z"
+      },
+      {
+        "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+        "email": "covaciu.gnm@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-05T20:30:06.421684Z"
+      },
+      {
+        "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+        "email": "mariuscodewnk@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:03.789003Z"
+      },
+      {
+        "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+        "email": "factura2@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-21T23:30:06.079888Z"
+      },
+      {
+        "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+        "email": "production@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:04.961234Z"
+      },
+      {
+        "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+        "email": "factura@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-25T10:00:12.428091Z"
+      },
+      {
+        "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+        "email": "cosmin.covaciu@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:05.822908Z"
+      },
+      {
+        "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:13.261341Z"
+      },
+      {
+        "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+        "email": "cosmin.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:06.536917Z"
+      },
+      {
+        "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+        "email": "cosmin.covaciu@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:06.961292Z"
+      },
+      {
+        "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+        "email": "link_covaciu@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-08-02T20:30:05.901517Z"
+      },
+      {
+        "id": "shared:cesiro.horeca@gmail.com",
+        "email": "cesiro.horeca@gmail.com",
+        "provider": "",
+        "permission": "team",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:dancorproiectsrl@gmail.com",
+        "email": "dancorproiectsrl@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearideit@gmail.com",
+        "email": "3dspacearideit@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearide@gmail.com",
+        "email": "3dspacearide@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      }
+    ]
+  },
+  "mailboxes_secondary": {
+    "mailboxes": [
+      {
+        "id": "831768ac-d603-4c7a-a154-4d5e50f3360e",
+        "email": "noreply@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:19.680491Z"
+      },
+      {
+        "id": "3aa4c651-3e04-46c4-bcd0-de1fc1f5d559",
+        "email": "dracula@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:08:21.274335Z"
+      },
+      {
+        "id": "896b1f4d-a9d6-4f7e-a351-9a145901eeaf",
+        "email": "office@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:08:25.790894Z"
+      },
+      {
+        "id": "ef646808-0190-4732-bcec-31445e1feba9",
+        "email": "learn@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:05.254119Z"
+      },
+      {
+        "id": "d8ff3753-0ef2-40c0-ab9e-ba5ee1acbd32",
+        "email": "news@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:08.527869Z"
+      },
+      {
+        "id": "9a9843e6-9219-40b3-9a0c-d36b101ca35a",
+        "email": "mail@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:19.543911Z"
+      },
+      {
+        "id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:09:52.263072Z"
+      },
+      {
+        "id": "77e3dc53-9200-4670-be05-7657140ac940",
+        "email": "office@set-farfurii.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:37:03.880574Z"
+      },
+      {
+        "id": "6e39d49d-967a-4ae2-8741-502f4db074e0",
+        "email": "office@fisher-price.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:38:09.592710Z"
+      },
+      {
+        "id": "e818fda6-70c2-46eb-94f1-0b9add7f1a17",
+        "email": "office@go-pro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:38:41.691423Z"
+      },
+      {
+        "id": "627ebe93-3894-45e7-b75c-8c43eafb158e",
+        "email": "office@ninjakitchen.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T12:01:37.105568Z"
+      },
+      {
+        "id": "1a25fb22-0d77-4dc1-8d54-0ed040903b6f",
+        "email": "admin@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:01:29.893981Z"
+      },
+      {
+        "id": "99db103a-abad-4ff9-9c71-2dec658c4744",
+        "email": "elena.vaida@bonna.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:07:44.616374Z"
+      },
+      {
+        "id": "f9638afb-6882-4109-91e5-0f02ea0a5288",
+        "email": "office@tartecosmetics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:32:40.949612Z"
+      },
+      {
+        "id": "ee0f0164-90c3-489d-903d-2604c1c1aa90",
+        "email": "office@set-vesela.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-13T07:54:10.652177Z"
+      },
+      {
+        "id": "57e5cc21-e921-4b01-b65d-5b799409b9d7",
+        "email": "office@innovation.cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636983Z"
+      },
+      {
+        "id": "e2a58b38-9c6d-4309-a0ed-36b783412896",
+        "email": "aloenergie@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:17.036219Z"
+      },
+      {
+        "id": "5dccd9d4-463c-42a5-87ee-b2e8949854d2",
+        "email": "market@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:21.447863Z"
+      },
+      {
+        "id": "16a90808-cce9-4c32-8953-3a4604d07668",
+        "email": "neets2@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.513397Z"
+      },
+      {
+        "id": "83cd8eeb-a40b-4e29-a6ae-eacaf8494b56",
+        "email": "genesis@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:32.106194Z"
+      },
+      {
+        "id": "b20d6cbf-89c4-429c-b72b-d1fa766bac10",
+        "email": "alexandru.szoke@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:17.054038Z"
+      },
+      {
+        "id": "3f910d51-664f-4e96-8c5d-c6493e61a6d7",
+        "email": "spam-monitor@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:17.322206Z"
+      },
+      {
+        "id": "093dfb20-c1d0-4e86-994a-c629d2a0be8d",
+        "email": "innovationecosystem@red-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:35:36.133157Z"
+      },
+      {
+        "id": "537f7947-a408-49ec-aa9b-f64216dd83ab",
+        "email": "admin@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:17.656047Z"
+      },
+      {
+        "id": "e32c5101-2444-44c6-9f67-5e65a996a346",
+        "email": "elena.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:17.141914Z"
+      },
+      {
+        "id": "85571b3e-51eb-401b-856e-729bcd41f0cb",
+        "email": "nvidia@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.672607Z"
+      },
+      {
+        "id": "fbb3ee9f-41a2-4c92-8862-bed90e3e73cb",
+        "email": "office@melissaanddoug.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-25T20:30:27.023877Z"
+      },
+      {
+        "id": "c23730a0-0b21-4a1d-80b8-d55085085d34",
+        "email": "office@red-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-13T06:34:04.316658Z"
+      },
+      {
+        "id": "e03f5a52-1a55-4fd6-817b-0bdf305ceff2",
+        "email": "office@black-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:09.504369Z"
+      },
+      {
+        "id": "ded9e2b3-2bf9-4af5-a94f-d6a525fb4688",
+        "email": "office@jinko.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:15.534051Z"
+      },
+      {
+        "id": "86be87eb-354a-443a-a3a5-d0caecbbde24",
+        "email": "office@opticosmetics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:59.775052Z"
+      },
+      {
+        "id": "a92552c8-a70c-4527-bfc7-4a600ba265c1",
+        "email": "office@calphalon.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:31:52.620181Z"
+      },
+      {
+        "id": "5f0e1969-74da-45ee-95da-b5e2d8dbf860",
+        "email": "office@andowl.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-11-01T05:30:19.270690Z"
+      },
+      {
+        "id": "1ba88694-a07a-430d-afce-1a7c1382080d",
+        "email": "office@leapfrog.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:35:45.955145Z"
+      },
+      {
+        "id": "f274f19a-079c-40e8-b03f-5ae371815f15",
+        "email": "neets1@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636451Z"
+      },
+      {
+        "id": "c914fe73-c11f-491c-a4d2-db35493dc3b4",
+        "email": "noreply@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636928Z"
+      },
+      {
+        "id": "8d362a94-f16c-4c33-998c-bbb66b4cc158",
+        "email": "new@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.640433Z"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "account_id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "is_sent": true,
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "6c19d9fe-05bc-4f35-80e0-7ae6f7f27648",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: office@ac-wohnart.at → office@eva-org.com",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@eva-org.com"
+            ],
+            "received_at": "2026-10-30T11:08:16.820289Z",
+            "snippet": "Test automat (30.10.2026 13:08) de pe office@ac-wohnart.at către office@eva-org.com. Se poate șterge",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@eva-org.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": false,
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "ed08780f-a1f1-4095-b62f-f0138355d6e4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image003.jpg",
+              "image002.jpg",
+              "image001.jpg"
+            ]
+          },
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          },
+          {
+            "id": "cc5a1740-9ded-4e1b-96cf-909a62ab2d29",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: spam-monitor@eva-org.com → office@ac-wohnart.at",
+            "from_name": "spam-monitor@eva-org.com",
+            "from_address": "spam-monitor@eva-org.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T11:08:33Z",
+            "snippet": "Test automat (30.10.2026 13:08) de pe spam-monitor@eva-org.com către office@ac-wohnart.at. Se poate ",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "spam-monitor@eva-org.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 3,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schallergasse35",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schallergasse",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "ed08780f-a1f1-4095-b62f-f0138355d6e4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image003.jpg",
+              "image002.jpg",
+              "image001.jpg"
+            ]
+          },
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "account_id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "is_sent": false,
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "8250512a-4075-48de-81bf-85fb04f3459b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.jpg",
+              "image003.jpg",
+              "image002.jpg"
+            ]
+          },
+          {
+            "id": "cb1a4280-bf8f-419e-8fe3-b5d577a6772d",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image001.jpg",
+              "image002.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          },
+          {
+            "id": "c7a3e871-f627-4167-b408-102a234761a1",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: spam-monitor@eva-org.com → office@ac-wohnart.at",
+            "from_name": "spam-monitor@eva-org.com",
+            "from_address": "spam-monitor@eva-org.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T11:08:33Z",
+            "snippet": "Test automat (30.10.2026 13:08) de pe spam-monitor@eva-org.com către office@ac-wohnart.at. Se poate ",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "spam-monitor@eva-org.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 3,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": true,
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "683d94de-e8b3-4d61-bd90-debbed14e038",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: office@ac-wohnart.at → office@eva-org.com",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@eva-org.com"
+            ],
+            "received_at": "2026-10-30T11:08:16Z",
+            "snippet": "Test automat (30.10.2026 13:08) de pe office@ac-wohnart.at către office@eva-org.com. Se poate șterge",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@eva-org.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schaller Gasse",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "AC Wohnart",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "A&C Wohnart",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "1120 Wien",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "ed08780f-a1f1-4095-b62f-f0138355d6e4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image003.jpg",
+              "image002.jpg",
+              "image001.jpg"
+            ]
+          },
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schaller",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "ed08780f-a1f1-4095-b62f-f0138355d6e4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image003.jpg",
+              "image002.jpg",
+              "image001.jpg"
+            ]
+          },
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "office@ac-wohnart.at",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          },
+          {
+            "id": "cc5a1740-9ded-4e1b-96cf-909a62ab2d29",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: spam-monitor@eva-org.com → office@ac-wohnart.at",
+            "from_name": "spam-monitor@eva-org.com",
+            "from_address": "spam-monitor@eva-org.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T11:08:33Z",
+            "snippet": "Test automat (30.10.2026 13:08) de pe spam-monitor@eva-org.com către office@ac-wohnart.at. Se poate ",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "spam-monitor@eva-org.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "683d94de-e8b3-4d61-bd90-debbed14e038",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: office@ac-wohnart.at → office@eva-org.com",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@eva-org.com"
+            ],
+            "received_at": "2026-10-30T11:08:16Z",
+            "snippet": "Test automat (30.10.2026 13:08) de pe office@ac-wohnart.at către office@eva-org.com. Se poate șterge",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@eva-org.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 3,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "bmberger.at",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Werkvertrag R11",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Pech",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Berger",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2026-470",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "zt-pech.at",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "TOMS",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "SCHAUERLEUTE",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Themis",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "BAU-WERTE",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Bauwerksbuch",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "REALIG",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "STOLEX",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "STURM",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Maritczak",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Paknehad",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Prüfingenieur",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Capra",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "ed08780f-a1f1-4095-b62f-f0138355d6e4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image003.jpg",
+              "image002.jpg",
+              "image001.jpg"
+            ]
+          },
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Gasperl",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "RUDOLPH",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "roland.gasperl@chello.at",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Füglister",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Hönig",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Baupolizei",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Fuglister",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Pristounig",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "ed08780f-a1f1-4095-b62f-f0138355d6e4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image003.jpg",
+              "image002.jpg",
+              "image001.jpg"
+            ]
+          },
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Asreahan",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Kornhofer",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "ed08780f-a1f1-4095-b62f-f0138355d6e4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image003.jpg",
+              "image002.jpg",
+              "image001.jpg"
+            ]
+          },
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "MA37",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Wiener Wasser",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "ARTUS",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Finanzamt",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Honig",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "CerhaHempel",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "ed08780f-a1f1-4095-b62f-f0138355d6e4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Kurze Anfrage - Schallergasse 35, 1120 Wien - Bewilligungsunterlagen\r\n Baubescheid [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "M.Kornhofer@cp-ag.at"
+            ],
+            "received_at": "2026-10-30T15:09:38Z",
+            "snippet": "Lieber Herr Mag. Kornhofer,\r\n\r\nim Zusammenhang mit der Liegenschaft Schallergasse 35, 1120 Wien, ber",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image003.jpg",
+              "image002.jpg",
+              "image001.jpg"
+            ]
+          },
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 2,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "MA6",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "b042dd4e-4c84-4ac3-b83e-abaec502c184",
+            "account_email": "cosmin.covaciu@ipec.ro",
+            "subject": "🚗 Loved ones on the go? Take charge",
+            "from_name": "Uber",
+            "from_address": "noreply@uber.com",
+            "to": [
+              "cosmin.covaciu@ipec.ro"
+            ],
+            "received_at": "2026-10-30T07:08:25Z",
+            "snippet": "        ✉ E-mail extern — Mesaj primit din exteriorul IPEC. Verificați expeditorul înainte de a acce",
+            "category": "fyi",
+            "labels": [
+              "8: Marketing"
+            ],
+            "folder": "Uber",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "donauversicherung",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "MA31",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "AR1264971",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Hofhans",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "1539234",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "snippet": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Attensam",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2044001194",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "971105",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Frigo",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2616052",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Hausverwaltung",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2900010498",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "KONE",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "woehr",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Polizze 2044001194",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Lechner",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "b9a6078a-2aa8-40bb-8473-7a6ccff91798",
+            "account_email": "cosmin.covaciu@cesiro.com",
+            "subject": "🦇 Win a trip to Dracula's land ",
+            "from_name": "Wizz Air",
+            "from_address": "offers@travel.wizznews.com",
+            "to": [
+              "COSMIN.COVACIU@CESIRO.COM"
+            ],
+            "received_at": "2026-10-30T03:44:40Z",
+            "snippet": "https://post.eu.spmailtechnol.com/f/a/5EV2XiMAn_pfwIL_VBu0Vw~~/AAAh8BA~/_d6xi6iIatE71wl0e6Kyr4sM_nD0",
+            "category": "fyi",
+            "labels": [
+              "8: Marketing"
+            ],
+            "folder": "Wizz Air",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schindler",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Otis",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "26101261",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Commerz",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Zottl",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Weigl",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Böhm",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schmitt",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "13991719",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "120031905",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "26/30363",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "058899708",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "ANG0232318",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "AN10011519",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "42017328",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Delivery Status",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "123482077",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "TKElevator",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "42018142",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Undeliverable",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Unzustellbar",
+        "date_from": "2026-10-30",
+        "date_to": "2026-11-01",
+        "offset": 0,
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    }
+  ],
+  "errors": [],
+  "period": "2026.10.30–2026.11.01; ultima verificare generala 2026.10.31 08:05:46, suprapunere de o zi; deduplicare inclusiv fata de actualizarile punctuale ulterioare"
+}

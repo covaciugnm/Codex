@@ -1,0 +1,14 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),{createRequire}=require('node:module');
+const req=createRequire(process.env.IFLYTEK_AUDIT_DEPENDENCIES||path.join(__dirname,'retailer-deps/package.json')),sharp=req('sharp'),jsqr=req('jsqr');
+const root=path.resolve(__dirname,'..'),base=path.join(root,'retailer-audit-2026-11-01');
+const records=JSON.parse(fs.readFileSync(path.join(base,'manifest.json'),'utf8')).records;
+const selected=records.filter(r=>/goodsId=2448|gold-optical|jikemijing.com\/product\/57|auroraaiglass.com\/$|a1smartshop.com\/product\/iflytek/.test(r.url));
+const images=new Map();for(const r of selected)for(const i of r.images||[]){if(/logo|banner|icon|wechat\.png|video\.png|twitter|feat[0-9]|facebook|152x|avatar/i.test(i.url))continue;if(r.url.includes('jikemijing')&&!/科大讯飞|%E7%A7%91%E5%A4%A7|miniapp/.test(i.url))continue;images.set(i.url,{url:i.url,parent:r.url,scope:r.scope});}
+const result=[];fs.mkdirSync(path.join(base,'images'),{recursive:true});
+async function scan(r){try{const res=await fetch(r.url,{signal:AbortSignal.timeout(25000)});r.statusCode=res.status;r.contentType=res.headers.get('content-type');if(!res.ok||!r.contentType?.startsWith('image/'))throw Error('Not an image: HTTP '+res.status);const b=Buffer.from(await res.arrayBuffer());r.sha256=crypto.createHash('sha256').update(b).digest('hex');r.bytes=b.length;r.file='images/'+r.sha256.slice(0,18)+'.image';fs.writeFileSync(path.join(base,r.file),b);const meta=await sharp(b,{limitInputPixels:100000000}).metadata();r.width=meta.width;r.height=meta.height;r.qr=[];
+  const width=Math.min(meta.width,1800),height=Math.round(meta.height*width/meta.width);const scaled=await sharp(b).resize({width,withoutEnlargement:true}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+  for(let y=0;y<height;y+=1500){const h=Math.min(1800,height-y);if(h<100)continue;const tile=await sharp(scaled.data,{raw:{width:scaled.info.width,height:scaled.info.height,channels:4}}).extract({left:0,top:y,width:scaled.info.width,height:h}).raw().toBuffer();const q=jsqr(new Uint8ClampedArray(tile),scaled.info.width,h,{inversionAttempts:'attemptBoth'});if(q&&!r.qr.includes(q.data))r.qr.push(q.data);}
+  r.status='downloaded';
+ }catch(e){r.status='unavailable';r.error=e.message;}result.push(r);fs.writeFileSync(path.join(base,'qr-image-audit.json'),JSON.stringify({note:'Standard QR decoding only; no result does not exclude a QR code or a WeChat mini-program code.',images:result},null,2)+'\n');if(r.qr?.length)console.log('QR',r.parent,r.qr);}
+(async()=>{const jobs=[...images.values()];let i=0;await Promise.all(Array.from({length:2},async()=>{while(i<jobs.length)await scan(jobs[i++]);}));console.log(JSON.stringify({images:result.length,decoded:result.filter(r=>r.qr?.length).length}));})().catch(e=>{console.error(e);process.exitCode=1;});

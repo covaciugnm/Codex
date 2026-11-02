@@ -1,0 +1,52 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/Aparat Auditiv/Austar/Fugue H programming.mp4",
+    "status": "copiat",
+    "saved_path": "fisiere/Fugue H programming--97727cc0.mp4",
+    "bytes": 1483670653,
+    "sha256": "a9e0b023a62f93a10d5c7e833a1e6d5bf344ae878f2340de1c8cde1d59ed05b3"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/Aparat Auditiv/Austar/Fugue X Fitting Process.mp4",
+    "status": "copiat",
+    "saved_path": "fisiere/Fugue X Fitting Process--181205db.mp4",
+    "bytes": 80274955,
+    "sha256": "38c37f876b6ef5c0c91fe13881967d77dfe4a314067594dbb5d238e3d8bdb193"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/Aparat Auditiv/Austar/Fugue X wireless driver CH341SER.EXE",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/Aparat Auditiv/Austar/austar_fit software for Fugue X H.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/conversatii/Huang Teresa [265112164-5da6a48a]/conversation.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/conversation--15887207.txt",
+    "bytes": 4054,
+    "sha256": "4fa1322661b2190c36f995f1e801725480a7ee50a0db46bf5f2c7b54aca2a3f6"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/conversatii/Joseph Liao [284896343-14ad4818]/conversation.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/conversation--5acb262e.txt",
+    "bytes": 4393,
+    "sha256": "089e10de5eb96e16341736623c9b3aec6c0652625e8296ede26ba9899f60930e"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/conversatii/Nashedge Traders [7029930764-74b8072e]/conversation.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/conversation--a58715c6.txt",
+    "bytes": 5578,
+    "sha256": "79bef4ca3eebd465d8a3038c3d55c29e9261a7deed88693d4272d5e96c426649"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/conversatii/Susie Su [229923921-e198e0bf]/conversation.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/conversation--f66effac.txt",
+    "bytes": 6090,
+    "sha256": "8f59c068474887c0d8ea2886ceada0b8a7611b1cc9597bc087a8b6db61b06944"
+  }
+]

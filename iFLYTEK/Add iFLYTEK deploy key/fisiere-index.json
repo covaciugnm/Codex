@@ -1,0 +1,90 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/AI_Glasses_2026/AI_Glasses_2026.html",
+    "status": "copiat",
+    "saved_path": "fisiere/AI_Glasses_2026--9bf85c42.html",
+    "bytes": 2417634,
+    "sha256": "9f326fa41cd639b3cb1d0da4addd1b737661d2ba2e144781115dff0c25861f9e"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/AI_Glasses_2026/AI_Glasses_2026_Livrare.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/AI_Glasses_2026_Livrare--a0e72d5f.zip",
+    "bytes": 244203,
+    "sha256": "daadbe0d1c0636359c0e6075545f8ade7d717544521b00ecd50f718299e73272"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/AI_Glasses_2026.html",
+    "status": "copiat",
+    "saved_path": "fisiere/AI_Glasses_2026--d3b3d026.html",
+    "bytes": 2417634,
+    "sha256": "9f326fa41cd639b3cb1d0da4addd1b737661d2ba2e144781115dff0c25861f9e"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/AI_Glasses_2026_Livrare.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/AI_Glasses_2026_Livrare--f9fb5471.zip",
+    "bytes": 244203,
+    "sha256": "daadbe0d1c0636359c0e6075545f8ade7d717544521b00ecd50f718299e73272"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/audit-final.html",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-final--29a5ae81.html",
+    "bytes": 6339,
+    "sha256": "26239da407d9518f23db41e24db89575899eadb5581b2b5b7fce76a00f7af3d0"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/catalog-data.json",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-data--94106797.json",
+    "bytes": 903727,
+    "sha256": "4d86973056573f824c3bd5cc801f0d94f1e9f9d3f95f325fe9dc1476ffd2123e"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/regional-sources.json",
+    "status": "copiat",
+    "saved_path": "fisiere/regional-sources--27b37000.json",
+    "bytes": 6248,
+    "sha256": "47991e7f8dd4c1d41bcb25cd35a5a385144f984f811d00dfa76d3b99e7dbefcf"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/template-analiza-v3.html",
+    "status": "copiat",
+    "saved_path": "fisiere/template-analiza-v3--e0ce1753.html",
+    "bytes": 17533,
+    "sha256": "d131185cf6c8c30b3584a4a4bdabb9ab4b1797e3130b40c95894537854fefa83"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.ssh\\iflytek_deploy_20261031",
+    "status": "configuratie_sau_credentiale_excluse"
+  },
+  {
+    "source_reference": "https://eu.rayneo.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://eu.shop.xreal.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://rayneo.cn/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://smartxy.com.cn/about/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.evenrealities.com/en-DE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.xreal.cn/",
+    "status": "referinta_externa_necopiata"
+  }
+]

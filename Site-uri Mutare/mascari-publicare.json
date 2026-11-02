@@ -1,0 +1,23 @@
+{
+  "local_originals_preserved": true,
+  "masked_files": [
+    {
+      "path": "subagenti/Fara titlu--f3be2c0a/fisiere/test_previews--955dd0de.py",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--f3be2c0a/istoric.json",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--f3be2c0a/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    }
+  ]
+}

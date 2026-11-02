@@ -1,0 +1,23 @@
+{
+  "id": "01a18972-cb9f-77a1-8385-91ddf546eab3",
+  "cwd": "S:\\3dscan.eva-org.com",
+  "created_at": 1793307364,
+  "updated_at": 1793316674,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Arhivează conversațiile Alibaba",
+  "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+  "project": "3D.AppleScan",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 3301696,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 78,
+  "message_count": 25,
+  "content_sha256": "27f1940420193b90b6725df6f55a84b079b00b55c51cf9fde96728fd4c852198",
+  "files_copied": 6,
+  "references_not_copied": 9
+}

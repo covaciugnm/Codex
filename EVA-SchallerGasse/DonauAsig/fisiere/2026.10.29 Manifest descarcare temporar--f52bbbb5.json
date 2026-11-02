@@ -1,0 +1,112 @@
+[
+  {
+    "id": "5930f01f-42b2-4528-897e-a06d0c291177",
+    "filename": "image001.png",
+    "mime_type": "image/png",
+    "size": 50740,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNTkzMGYwMWYtNDJiMi00NTI4LTg5N2UtYTA2ZDBjMjkxMTc3IiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.Wvdvg_xOP7wPBw6fIcnps4juNm6LpTw4j7J-w-wu_OA",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "bcb566f5-2767-4c98-963c-93b36c59f67d",
+    "filename": "Vollmacht Hofhans.pdf",
+    "mime_type": "application/pdf",
+    "size": 568112,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiYmNiNTY2ZjUtMjc2Ny00Yzk4LTk2M2MtOTNiMzZjNTlmNjdkIiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.whcXaOhX_Am_0fvGnlb8LVcgT7KYpeA1ijoqH_U0s-I",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "feb72865-b7b3-42b9-a2bc-8ff474699fdc",
+    "filename": "703920_Antrag.pdf",
+    "mime_type": "application/pdf",
+    "size": 143536,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiZmViNzI4NjUtYjdiMy00MmI5LWEyYmMtOGZmNDc0Njk5ZmRjIiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.l4uPuUzBkD3_iwmFH6Xnpyaql8ZZBv3nLJMNhogZlh0",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "06b015b6-6998-4ab7-8416-d934e7d85870",
+    "filename": "Deckungserweiterungen_RV 29000010498.pdf",
+    "mime_type": "application/pdf",
+    "size": 3066871,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMDZiMDE1YjYtNjk5OC00YWI3LTg0MTYtZDkzNGU3ZDg1ODcwIiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.0vRCziV4BCyWTuPDeeTUTjgiu855ioyvfN20cDQeLXQ",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "cd278305-a2f0-4ef4-a61b-5216dabe3bf2",
+    "filename": "Polizze 2044001194 per 17.03.2023.PDF",
+    "mime_type": "application/pdf",
+    "size": 492231,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiY2QyNzgzMDUtYTJmMC00ZWY0LWE2MWItNTIxNmRhYmUzYmYyIiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.qwmibvis_kR0Av6e2FUg12u8rHB9frOb5m5Mz49rHNU",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "b2f0f055-d06a-4c5f-9ec8-571b67214407",
+    "filename": "Memoformat.pdf",
+    "mime_type": "application/pdf",
+    "size": 151397,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiYjJmMGYwNTUtZDA2YS00YzVmLTllYzgtNTcxYjY3MjE0NDA3IiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.e41-Ay8-dvC0bl5h26ljAbdklrSOQXiRF0QwddgnumY",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "8e10da8c-906f-4cb7-9da9-fc54e8e5e983",
+    "filename": "1120 Wien, Schallergasse 35_Antrag.pdf",
+    "mime_type": "application/pdf",
+    "size": 898425,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiOGUxMGRhOGMtOTA2Zi00Y2I3LTlkYTktZmM1NGU4ZTVlOTgzIiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.2rpj8xCSwIdMf5zlxjeeB5T72AQviRIJmEv2JIH2D_A",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "4b38ae36-a531-4c56-b91f-9a4171978029",
+    "filename": "Polizze 2044001194 per 03.06.2020.PDF",
+    "mime_type": "application/pdf",
+    "size": 229814,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNGIzOGFlMzYtYTUzMS00YzU2LWI5MWYtOWE0MTcxOTc4MDI5IiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.2ee-uWgD0KvGCKzDqlJjXPd0UzTB4M2u8a-4ddOp48s",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "e3901034-2405-48a3-b7cf-a25e924d1214",
+    "filename": "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+    "mime_type": "application/pdf",
+    "size": 1510379,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiZTM5MDEwMzQtMjQwNS00OGEzLWI3Y2YtYTI1ZTkyNGQxMjE0IiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.6lUJgeJfEMWHcAYJ7JFBbNytI2-t5szaC2tmJV62vbQ",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  },
+  {
+    "id": "5fc5c5c3-bb9e-4364-a2bb-7c5fba982c00",
+    "filename": "Korrespondenz zu Eigentümerwechsel.pdf",
+    "mime_type": "application/pdf",
+    "size": 1328374,
+    "storage": "database",
+    "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNWZjNWM1YzMtYmI5ZS00MzY0LWEyYmItN2M1ZmJhOTgyYzAwIiwiZSI6MTc5MzI4NTU5MywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.HKqzkgSycNwOYT7OhYFMRZ3RXGh6h1afijKtOLiebeI",
+    "expires_at": "2026-10-29T14:53:13Z",
+    "mode": "download",
+    "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+  }
+]

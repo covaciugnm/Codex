@@ -1,0 +1,64 @@
+REVIZIE INDEPENDENTĂ A RĂSPUNSURILOR ȘI A METODELOR DE ÎMBUNĂTĂȚIRE
+Data: 30 octombrie 2026
+Autor: agentul auditor_documentatie
+
+Domeniu și metodă
+
+Am analizat istoricul vizibil salvat în istoric-conversatie.json: 18 ture, dintre care 17 încheiate, cu 17 răspunsuri finale de fond. Există 19 mesaje cu phase=final_answer deoarece cele două întrebări de clarificare din tura 16 sunt și ele marcate astfel. Tura 18 este cererea curentă. Istoricul nu cuprinde rezultatele complete ale instrumentelor sau raționamentele interne.
+
+Am separat: răspunsul la o întrebare, livrarea unui artefact solicitat și demonstrarea experimentală a unei capabilități. Solicitările 6 și 7 sunt întrebări despre posibilitate și proiectare; absența unei aplicații audio complete nu este o neîndeplinire a lor. La SDK, inventarierea APK-ului și firmware, limitele declarate contează mai mult decât numărul fișierelor produse.
+
+Am recalculat indicatorii din functii.json și parametri.json, am verificat o omisiune materială în comparația produselor prin FAQ-ul oficial UK și am folosit constatările documentare ale rundelor de audit anterioare. Aceasta nu este o nouă verificare factuală exhaustivă a fiecărei propoziții, fiecărui produs concurent sau tuturor metodelor decompilate. Nu acord un scor global celor 17 răspunsuri. Scorul 10/10 al rundei 2 rămâne limitat la domeniul declarat în acel raport.
+
+Cele cinci îmbunătățiri de mai jos sunt suplimentare corecțiilor F1–F5. Prima este o omisiune concretă confirmată; celelalte sunt îmbunătățiri de metodă și prezentare, nu acuzații că răspunsurile existente ar fi afirmat toate concluziile nepermise descrise aici.
+
+1. Comparația comercială trebuie să includă deschiderea reală a Air 2 către aplicații.
+
+Răspuns vizat: tura 1, performanță, concurență și conectarea la ochelari.
+Constatare: răspunsul evidențiază aplicațiile/Google Play la unele alternative, dar nu menționează că FAQ-ul UK pentru Air 2 descrie instalarea locală de APK-uri și certificarea Google Play în jurnalul din 28 ianuarie 2025. Această omisiune poate schimba evaluarea tabletei pentru o aplicație proprie. Răspunsul nu a afirmat explicit că instalarea ar fi imposibilă; corecția trebuie formulată ca o completare a comparației.
+Sursă: https://uk.iflytek.com/en/pages/ainote-air2-faq ; metadate și extrase în dovada-air2-google-play-apk.txt.
+Îmbunătățire: o matrice pe model, regiune și firmware, cu coloane distincte pentru aplicații terțe, limbi pentru scris/STT/traducere, utilizare offline, transporturi disponibile și integrarea demonstrată cu ochelarii. Suportul APK/Google Play nu dovedește compatibilitatea aplicației de ochelari sau accesul la protocolul Bluetooth. Prețul și starea din anunț rămân neconfirmate în lipsa linkului exact.
+Măsurare: fiecare criteriu care poate schimba recomandarea trebuie să aibă o celulă cu dovadă sau „necunoscut”, nu un gol interpretabil ca absență. Numărătoarea celulelor documentate măsoară completitudinea comparației, nu performanța produselor.
+
+2. Concluziile trebuie urmărite individual, cu versiune și nivelul dovezii.
+
+Răspunsuri vizate: Wi-Fi, SDK Bluetooth, STT/traducere, instalarea de software și firmware — turele 3–5, 8, 12–14, 16.
+Îmbunătățire: pentru fiecare concluzie importantă, păstrarea unui identificator, întrebării adresate, formulării exacte, modelului/aplicației și versiunii, sursei și localizării, datei verificării, limitelor și condiției care ar schimba verdictul. Se disting documentația producătorului, implementarea statică în APK și observația pe hardware; acestea răspund unor întrebări diferite.
+Exemple: „Wi-Fi pentru transfer foto/video” nu implică acces autonom al ochelarilor la internet; un șir AOT cu ruta OTA nu reprezintă contractul HTTP; llmtrans nu identifică modelul neuronal; „nu am găsit un SDK public” descrie căutarea efectuată, nu imposibilitatea existenței unui SDK privat.
+Măsurare: numărul concluziilor materiale cu dovadă adecvată și limită explicită împărțit la numărul concluziilor materiale inventariate. 100% aici înseamnă trasabilitate, nu certitudine absolută. Înregistrările cu afirmații expirabile trebuie să aibă o condiție clară de reverificare.
+
+3. Acoperirea cercetării și starea livrabilelor trebuie măsurate separat.
+
+Răspunsuri vizate: căutările extinse, descărcările, SDK-ul și descompunerea APK-ului — turele 5, 8–11 și 15–16.
+Îmbunătățire: un manifest de cercetare cu sursele/registrele și limbile căutate, interogările, data, rezultatul, blocajele și fișierele relevante. Pentru materiale locale se separă „inventariat”, „text extras”, „secțiuni relevante citite” și „afirmații susținute în sinteză”. Cele 4.096 de materiale text extrase sau cele 318.284 de metode inventariate nu trebuie transformate într-un număr de documente/metode analizate semantic integral.
+Starea SDK-ului se descrie pe capabilități: codec compilat și testat, punte către recorder, conectare Bluetooth, inițializare, captură și rutare audio. O componentă livrată și testată local poate fi utilă fără să constituie o integrare funcțională completă pe ochelari. Analiza firmware-ului rămâne distinctă de căutarea și recuperarea pachetului OTA.
+Măsurare: acoperirea solicitărilor se calculează pe subîntrebări și acțiuni cerute, cu stări „răspuns documentat”, „incertitudine explicită”, „artefact livrat”, „validare locală” și „validare pe dispozitiv”. Stările nu sunt trepte obligatorii pentru orice cerere: o întrebare de fezabilitate nu impune livrarea unui produs. Pentru căutare, oprirea se justifică prin sursele examinate și următorul pas cu valoare informațională, nu prin promisiunea imposibilă „am căutat peste tot”.
+
+4. KPI-urile de extracție trebuie completate cu verificări semantice independente.
+
+Răspunsuri vizate: catalogul funcțiilor/parametrilor, protocolul și auditul — turele 13, 15, 17.
+Numărători recalculate din catalogul curent:
+
+  - 118/443 = 26,64% dintre intrările Flutter MethodChannel au outputParameterIds nevid.
+  - 213/443 = 48,08% au cel puțin o resultObservation; acestea conțin 275 de observații, nu 213.
+  - 199/2.900 = 6,86% dintre parametri au javaType exact „necunoscut”.
+  - 60/90 = 66,67% dintre intrările „recepție BLE” au outputParameterIds nevid.
+  - 10/90 = 11,11% dintre aceleași intrări au schemaPaths nevid.
+
+Aceste rapoarte au numitori și semnificații diferite. Nu sunt procente ale unui protocol complet. O observație Result poate documenta o eroare sau o expresie delegată, fără schemă completă. Absența outputParameterIds nu dovedește absența rezultatului. Un tip Java cunoscut nu garantează semantica, domeniul de valori sau unitatea de măsură. schemaPaths măsoară îmbogățirea explicită a căilor, nu singura formă validă de documentare a recepțiilor. Cele 90 de intrări provin din extracția implementării selectate, nu constituie toate răspunsurile posibile ale firmware-ului.
+Îmbunătățire: un set de referință verificat independent, stratificat între comenzi, recepții, rezultate Flutter, evenimente asincrone, transporturi și configurații cloud. Pentru fiecare caz se urmăresc sursa câmpurilor, tipul, transformarea, condițiile și erorile; ulterior se adaugă capturi reale acolo unde există. Testarea encoderului și decoderului din aceeași reconstrucție nu substituie o referință independentă.
+Măsurare: rata constatărilor semantice în setul declarat, acoperirea categoriilor selectate și numărul contractelor confirmate prin capturi, raportate separat de testele structurale. Necunoscutele nu se completează prin presupuneri pentru a reduce artificial procentul. Niciun eșantion ales intenționat nu justifică automat extrapolarea unui scor la toate cele 318.284 de metode.
+
+5. Incertitudinile tehnice trebuie transformate în experimente cu rezultat interpretabil.
+
+Răspunsuri vizate: căști, adaptarea audio, integrarea prin telefon și recuperarea firmware-ului — turele 6–7, 14, 16.
+Punct bun existent: răspunsul despre audio propune deja etape și separă procesarea directă de STT–TTS. Îmbunătățirea este precizarea intrărilor, condițiilor și măsurătorilor fiecărei etape, fără a considera că utilizatorul a cerut deja construirea întregii aplicații.
+Exemplu de experiment pentru integrare: se identifică telefonul Android, versiunea aplicației și firmware-ul, se documentează profilurile/serviciile disponibile, apoi se verifică printr-un semnal de probă că sursa capturată este microfonul ochelarilor. Se testează separat redarea în căștile alese și funcționarea simultană, inclusiv schimbarea rutei audio. Rezultatul trebuie să distingă „dispozitive împerecheate”, „flux audio recepționat” și „flux recepționat plus redare simultană”.
+Exemplu pentru utilitatea audio: aceleași înregistrări sunt comparate în varianta originală, cu procesare directă și cu STT–TTS. Se raportează recunoașterea cuvintelor de către utilizator, erorile de transcriere, pierderea informației și latența de la intrare până la sunetul redat, cu numărul probelor și distribuția latenței. Criteriile de acceptare se stabilesc pentru utilizarea dorită; valori arbitrare de amplificare nu devin recomandări auditive.
+Pentru firmware, următorul rezultat verificabil este identificarea versiunii și disponibilității unei actualizări, apoi obținerea și clasificarea unei imagini dacă devine accesibilă. Existența unei metode OTA în aplicație nu este echivalentă cu existența imaginii de analizat.
+Context de păstrat: utilizatorul deține ochelarii, folosește Android și nu a descărcat încă o actualizare. Nu se repetă întrebarea Android/iPhone. Modelul exact al telefonului, firmware-ul, căștile și eventualele date audiologice rămân necunoscute și se cer numai când influențează pasul următor.
+Măsurare: pentru fiecare experiment, o ipoteză, o procedură repetabilă, o măsurătoare, rezultatele alternative și o decizie permisă de fiecare rezultat. Numărul experimentelor propuse nu este număr de capabilități confirmate.
+
+Concluzie de utilizare
+
+Registrul cerințelor, metodelor și experimentelor poate integra aceste cinci îmbunătățiri fără rescrierea retrospectivă a istoricului. Omisiunea Air 2 trebuie evidențiată ca actualizare documentată a comparației. KPI-urile trebuie păstrate cu numitorul și definiția exactă. Calitatea răspunsului, completitudinea extracției și funcționarea unui produs pe dispozitive rămân trei rezultate distincte.

@@ -1,0 +1,2208 @@
+{
+  "automation_id": "check-email-pech",
+  "triggered_at": "2026-10-29T15:05:21.466Z",
+  "period": {
+    "date_from": "2026-10-28",
+    "date_to": "2026-10-29"
+  },
+  "mailboxes": {
+    "mailboxes": [
+      {
+        "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+        "email": "factura3@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-05-28T15:05:35.568110Z"
+      },
+      {
+        "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+        "email": "admin@nova-robotics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-29T17:38:56.048744Z"
+      },
+      {
+        "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+        "email": "factura1@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "3af45560-d448-4125-97cd-f12519882779",
+        "email": "office@alba-vision.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-29T15:00:05.299262Z"
+      },
+      {
+        "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+        "email": "cosmin@ig.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-09T23:30:10.009451Z"
+      },
+      {
+        "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "email": "covaciu.gnm@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-29T12:09:45.787522Z"
+      },
+      {
+        "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+        "email": "vaidae104@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-21T08:22:51.922396Z"
+      },
+      {
+        "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+        "email": "covaciu.gnm@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-05T20:30:06.421684Z"
+      },
+      {
+        "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+        "email": "mariuscodewnk@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-29T15:00:06.376503Z"
+      },
+      {
+        "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+        "email": "factura2@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-21T23:30:06.079888Z"
+      },
+      {
+        "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+        "email": "production@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-29T15:00:06.839121Z"
+      },
+      {
+        "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+        "email": "factura@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-25T10:00:12.428091Z"
+      },
+      {
+        "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+        "email": "cosmin.covaciu@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-29T15:00:08.258064Z"
+      },
+      {
+        "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-29T15:00:14.877387Z"
+      },
+      {
+        "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+        "email": "cosmin.covaciu@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-29T15:00:08.941987Z"
+      },
+      {
+        "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+        "email": "cosmin.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-29T15:00:09.365831Z"
+      },
+      {
+        "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+        "email": "link_covaciu@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-08-02T20:30:05.901517Z"
+      },
+      {
+        "id": "shared:cesiro.horeca@gmail.com",
+        "email": "cesiro.horeca@gmail.com",
+        "provider": "",
+        "permission": "team",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:dancorproiectsrl@gmail.com",
+        "email": "dancorproiectsrl@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearideit@gmail.com",
+        "email": "3dspacearideit@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearide@gmail.com",
+        "email": "3dspacearide@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      }
+    ]
+  },
+  "searches": [
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "zt-pech.at"
+      },
+      "result": {
+        "items": [
+          {
+            "id": "8fe2ffcc-a7e5-45a5-aab2-cb27e85e5860",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@zt-pech.at"
+            ],
+            "received_at": "2026-10-28T11:02:01.862771Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@zt-pech.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "office@zt-pech.at"
+      },
+      "result": {
+        "items": [
+          {
+            "id": "8fe2ffcc-a7e5-45a5-aab2-cb27e85e5860",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@zt-pech.at"
+            ],
+            "received_at": "2026-10-28T11:02:01.862771Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@zt-pech.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "sekretariat@zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "ployer@zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "Bernhard Ployer"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "Pech"
+      },
+      "result": {
+        "items": [
+          {
+            "id": "8fe2ffcc-a7e5-45a5-aab2-cb27e85e5860",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@zt-pech.at"
+            ],
+            "received_at": "2026-10-28T11:02:01.862771Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@zt-pech.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "Schallergasse"
+      },
+      "result": {
+        "items": [
+          {
+            "id": "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+            "from_name": "Höbinger Andreas",
+            "from_address": "A.Hoebinger@donauversicherung.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T12:25:50Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Höbinger Andreas",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.png",
+              "Vollmacht Hofhans.pdf",
+              "703920_Antrag.pdf",
+              "Deckungserweiterungen_RV 29000010498.pdf",
+              "Polizze 2044001194 per 17.03.2023.PDF",
+              "Memoformat.pdf",
+              "1120 Wien, Schallergasse 35_Antrag.pdf",
+              "Polizze 2044001194 per 03.06.2020.PDF",
+              "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+              "Korrespondenz zu Eigentümerwechsel.pdf"
+            ]
+          },
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "96e74e69-7ff6-402c-9959-597c0b472950",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-29T11:06:48.351968Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "2026_10_27_Werkvertrag_Anmerkungen.pdf",
+              "2026.10.29 Werkvertrag BERGER R11.pdf",
+              "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf"
+            ]
+          },
+          {
+            "id": "c45958f2-9372-4430-acfe-f175759221cf",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:46.009718Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Schallergasse_35_Baubescheid.pdf",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf",
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f36feb1c-1b40-43f8-b34b-7f7e47dcedac",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12.256575Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.Capra@cerhahempel.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "8fe2ffcc-a7e5-45a5-aab2-cb27e85e5860",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@zt-pech.at"
+            ],
+            "received_at": "2026-10-28T11:02:01.862771Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@zt-pech.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "6c121750-efc5-4e17-8e64-6c52c23ffd4b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-28T11:01:52.762570Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 7,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "AN01"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "AN02"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "undeliverable"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "delivery status"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "query": "Mail delivery failed"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "is_sent": false
+      },
+      "result": {
+        "items": [
+          {
+            "id": "3cf845c3-345d-4e63-a538-657798cd66a7",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ultimele ore de acces prioritar la reducerile de Black Friday",
+            "from_name": "Global Sport",
+            "from_address": "contact@globalsport.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T14:01:16Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43871"
+            ],
+            "folder": "Global Sport",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "479e4271-2656-4224-8b96-97c22b5992aa",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "cesiroproduction invited you to cesiroproduction/MindVision",
+            "from_name": "cesiroproduction",
+            "from_address": "noreply@github.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T14:00:10Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_44035"
+            ],
+            "folder": "cesiroproduction",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "32437f7b-5dc8-4f16-89e1-2924e5c28c66",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ujawniamy nowości w Senuto. Odkrywasz?",
+            "from_name": "Senuto",
+            "from_address": "hello@senuto.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T12:00:33Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44034"
+            ],
+            "folder": "Senuto",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "4849ea48-f714-4f10-be5c-44bec1e53b08",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New listing results for your saved search!",
+            "from_name": "Spitogatos",
+            "from_address": "notifications@spitogatos.gr",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T11:53:17Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43883"
+            ],
+            "folder": "Spitogatos",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "14adf7a0-6fc5-4b24-8a33-2353256f5eb2",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Notice of Security Incident",
+            "from_name": "Scribd Inc via Epiq",
+            "from_address": "scribdinc@e.epiqnotice.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T11:19:55Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "8: Marketing",
+              "Label_44033"
+            ],
+            "folder": "Scribd Inc via Epiq",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "2b30f2c1-45ba-4156-a1ed-0c2f561826c1",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Black Friday FINAQUA: primește oferta înaintea tuturor",
+            "from_name": "FINAQUA",
+            "from_address": "office@finaqua.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:54:11Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44032"
+            ],
+            "folder": "FINAQUA",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "1af77251-23dd-4bf5-bb3c-5cbe808c3e71",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New listings on Gildemeister NEF 400, OKUMA LB3000EXII MYW800, Oku... and more",
+            "from_name": "Werktuigen",
+            "from_address": "info@mail2.werktuigen.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:52:49Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43889"
+            ],
+            "folder": "Werktuigen",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "0788d314-792d-40b1-819a-8df6bd9151aa",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Un noiembrie plin de oferte atractive 😍",
+            "from_name": "Sinsay",
+            "from_address": "message@message.sinsay.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:50:21Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43857"
+            ],
+            "folder": "Sinsay",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "0752f7ab-dc30-4217-bb34-8cf63dccecb3",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "🍂 Ce sunt clauzele suplimentare și de ce merită atenția ta? 🛡️",
+            "from_name": "Allianz-Tiriac",
+            "from_address": "noreply@allianztiriac.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:37:39Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44028"
+            ],
+            "folder": "Allianz-Tiriac",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "46e5b757-96df-4717-a5cc-cb6d2c3ed87b",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "639 RON spent at OMV",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:11:27Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43841"
+            ],
+            "folder": "Wise",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "ede1e55a-f431-47c0-a872-fd795bd39877",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai Acces Prioritar cu 24h înaintea tuturor!",
+            "from_name": "Global Sport",
+            "from_address": "contact@globalsport.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:05:13Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43871"
+            ],
+            "folder": "Global Sport",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "205be003-0eb3-4822-bd68-53567847378f",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "🛍️ E oficial: Black Friday a început!",
+            "from_name": "ALTEX",
+            "from_address": "newsletter@news.altex.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T08:44:56Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43879"
+            ],
+            "folder": "ALTEX",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "049cb124-2965-4a84-9040-d81df97bf69d",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New listings on KUNZMANN WF 410 MC, DECKEL FP 3 ATC, IRION DFG 8/3314 and more",
+            "from_name": "Machineseeker",
+            "from_address": "info@mail2.machineseeker.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T08:38:06Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43838"
+            ],
+            "folder": "Machineseeker",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "83c45d45-7eef-40d7-9d98-7c571716b43a",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Money received from ALTEX ROMANIA SRL",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T08:32:21Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "5: Finance",
+              "Label_43851"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "d021f89e-256d-4459-a348-b5554122ca8c",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Zboruri de la 160 lei",
+            "from_name": "Skyscanner",
+            "from_address": "no-reply@sender.skyscanner.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T07:22:55Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43839"
+            ],
+            "folder": "Skyscanner",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "182c6554-5c67-42de-bab4-14309536be9f",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai trimis unele date din Contul tău Google la ToonSpace",
+            "from_name": "Google",
+            "from_address": "noreply-accounts@google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T07:00:49Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43848"
+            ],
+            "folder": "Google",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "dcb3948d-5ae3-4ad8-9cc5-2ff2f306c243",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Alertă de securitate",
+            "from_name": "Google",
+            "from_address": "no-reply@accounts.google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T07:00:43Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43842"
+            ],
+            "folder": "Google",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9c7e96f3-b889-4c8e-824e-396641cdebf0",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Reminder: we need more information from you ⚠️",
+            "from_name": "Revolut",
+            "from_address": "no-reply@revolut.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T00:03:44Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43961"
+            ],
+            "folder": "Revolut",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "8e7c7174-c4d5-48cd-9e4d-d110dcddc88e",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai Acces Prioritar cu 24h înaintea tuturor!",
+            "from_name": "Global Sport",
+            "from_address": "contact@globalsport.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T22:00:18Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43871"
+            ],
+            "folder": "Global Sport",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "399fb913-a640-45fb-b589-c7c36ed7f48b",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "mobile.de | Your email request concerning the vehicle Bentley Continental GTC / Mega Farbkombi / 2. Hand",
+            "from_name": "mobile.de",
+            "from_address": "noreply@team.mobile.de",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T19:11:12Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43932"
+            ],
+            "folder": "mobile.de",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "blogger_header.png",
+              "mob_claims_deinmobiledeteam_de.png",
+              "ico_person_big.png",
+              "logo_header_mobile.de.png",
+              "delivery_truck_icon.png",
+              "calculator_icon.png",
+              "mob_b2c_ads_fallbacks_small.png",
+              "ico_wrapper.png",
+              "location_icon.png",
+              "car_exchange_icon.png"
+            ]
+          },
+          {
+            "id": "1140aee5-bba5-4b6e-98c6-586f9f7713c2",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai trimis unele date din Contul tău Google la Catawiki",
+            "from_name": "Google",
+            "from_address": "noreply-accounts@google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T18:49:37Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43848"
+            ],
+            "folder": "Google",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "87e7b3df-cab4-44fb-b608-301f294c210c",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New Meta Glasses are giving beauty💅 AND brains🧠",
+            "from_name": "Meta",
+            "from_address": "email@marketing.metamail.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T18:37:45Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43895"
+            ],
+            "folder": "Meta",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "6b9ac558-ad94-4aa2-8356-f0790824ab83",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "[covaciugnm/openclaw] Run failed: CodeQL - main (b1a9a19)",
+            "from_name": "covaciugnm",
+            "from_address": "notifications@github.com",
+            "to": [
+              "openclaw@noreply.github.com"
+            ],
+            "received_at": "2026-10-28T18:31:01Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43833"
+            ],
+            "folder": "covaciugnm",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "7f85544d-dbfe-4320-9ab7-a3e29f024cfb",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Întreabă Claude sau ChatGPT ce să vinzi pe eMAG cu X Scan",
+            "from_name": "MASAT",
+            "from_address": "no-reply@send.masat.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T16:36:44Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43957"
+            ],
+            "folder": "MASAT",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "98fa2591-7604-4a14-9cdc-81f54904d1e5",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "How KOMPAN made a Porsche film with AI",
+            "from_name": "Artlist",
+            "from_address": "team@newsletter.artlist.io",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T16:14:21Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43867"
+            ],
+            "folder": "Artlist",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "ae48dfe9-11b3-40a8-bccb-f1330baff0d6",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Registration confirmation",
+            "from_name": "noreply@oebb.at",
+            "from_address": "noreply@oebb.at",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T15:55:10Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "6: Travel",
+              "Label_44030"
+            ],
+            "folder": "noreply@oebb.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "889089e6-38c8-4f8f-87d1-b9e9c135916e",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai trimis unele date din Contul tău Google la CFR Călători online tickets",
+            "from_name": "Google",
+            "from_address": "noreply-accounts@google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T15:37:18Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "6: Travel",
+              "Label_44029"
+            ],
+            "folder": "Google",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "480ccad1-4bbd-4897-b8dc-decafb2016a3",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "🍂 Ce sunt clauzele suplimentare și de ce merită atenția ta? 🛡️",
+            "from_name": "Allianz-Tiriac",
+            "from_address": "salesovb@allianztiriac.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T15:20:14Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44028"
+            ],
+            "folder": "Allianz-Tiriac",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f4703224-83f6-41c2-804e-d0553a2b7f88",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Trans.eu Dispatch: cifrele din spatele presiunii",
+            "from_name": "Trans.eu Dispatch",
+            "from_address": "hello@trans.eu",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T10:57:53Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44027"
+            ],
+            "folder": "Trans.eu Dispatch",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "004a78b7-2dcf-4d83-91d3-e50ac373ee91",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "👀Pss... Black Friday începe mâine",
+            "from_name": "Altex",
+            "from_address": "newsletter@news.altex.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T09:17:04Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43879"
+            ],
+            "folder": "Altex",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "b2b62509-2f55-4779-b8a3-f6911e3ae534",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ultima zi de plată întreţinere Ap. 44",
+            "from_name": "Administrator bloc",
+            "from_address": "noreply@e-bloc.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T09:10:01Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "10: Invoices",
+              "Label_43875"
+            ],
+            "folder": "Administrator bloc",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "78014a95-daa8-4297-b724-26dbacd10fd2",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ultima zi de plată întreţinere Ap. 41",
+            "from_name": "Administrator bloc",
+            "from_address": "noreply@e-bloc.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T09:10:01Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "10: Invoices",
+              "Label_43875"
+            ],
+            "folder": "Administrator bloc",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "fa59a77b-053b-4635-958b-e9f6b1171764",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ultima zi de plată întreţinere Ap. 36",
+            "from_name": "Administrator bloc",
+            "from_address": "noreply@e-bloc.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T09:10:00Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "10: Invoices",
+              "Label_43875"
+            ],
+            "folder": "Administrator bloc",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "ba309fa0-dbdc-4ff5-9a19-7ab0c3c1ecd7",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ultima zi de plată întreţinere Ap. 42",
+            "from_name": "Administrator bloc",
+            "from_address": "noreply@e-bloc.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T09:10:00Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "10: Invoices",
+              "Label_43875"
+            ],
+            "folder": "Administrator bloc",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9f030aa5-8c55-409a-aa00-244a868d4d20",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai trimis unele date din Contul tău Google la project-270669424041",
+            "from_name": "Google",
+            "from_address": "noreply-accounts@google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T08:08:31Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43848"
+            ],
+            "folder": "Google",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "482ddfdd-5811-48cc-8023-69261a7ad1ab",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Scăderile săptămânale de preț pentru zboruri de la Bucureşti ✈️",
+            "from_name": "Skyscanner",
+            "from_address": "no-reply@sender.skyscanner.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T08:06:28Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43839"
+            ],
+            "folder": "Skyscanner",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "1212d098-7380-44cf-b553-27ca8ca0fecf",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Your daily listing results | 27/10/2026",
+            "from_name": "Spitogatos",
+            "from_address": "notifications@spitogatos.gr",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T07:44:15Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43883"
+            ],
+            "folder": "Spitogatos",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "bb57f474-6ac1-425b-9411-155f29a11199",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Dracula Bookstore este din nou online!",
+            "from_name": "Suport Jetpack",
+            "from_address": "support+monitor@jetpack.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T07:03:36Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43898"
+            ],
+            "folder": "Suport Jetpack",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "a0c0dbb1-97ca-4c87-95a7-e0703358375d",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Factura ta Orange a fost emisa",
+            "from_name": "Orange Romania",
+            "from_address": "noreply@notifications.orange.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T07:02:40Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "10: Invoices",
+              "Label_44025"
+            ],
+            "folder": "Orange Romania",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "030f6d73-7ea4-4894-a519-4e3a353a49b3",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Alertă: Dracula Bookstore pare a fi offline sau nu răspunde",
+            "from_name": "Suport Jetpack",
+            "from_address": "support+monitor@jetpack.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T06:59:55Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43898"
+            ],
+            "folder": "Suport Jetpack",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9413e459-2bf9-4f0e-bcc6-4bd5657b03f8",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "499.81 RON spent at Rompetrol",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T06:22:03Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43841"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "5ee457ba-7dc5-4698-8da1-1e2b1edc8bfe",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Money added to your account",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T06:21:17Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43841"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "ca21e6e4-1190-4881-8fcf-47e77fdb2398",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Card declined at Rompetrol",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T06:19:45Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "1: To respond",
+              "Label_44024"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 43,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "is_sent": true
+      },
+      "result": {
+        "items": [
+          {
+            "id": "bd1481cc-2541-4717-8e94-4a7df6cc60fb",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Carte de vizită CESIRO – Cosmin Covaciu – cu cod QR",
+            "from_name": "covaciu.gnm@gmail.com",
+            "from_address": "covaciu.gnm@gmail.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T08:45:47.315564Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "covaciu.gnm@gmail.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Cosmin_Covaciu_CESIRO_QR.png"
+            ]
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": false
+      },
+      "result": {
+        "items": [
+          {
+            "id": "d5bc6ece-d75a-4510-be57-9153b380adfa",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Baubesprechung",
+            "from_name": "Meetingtisch",
+            "from_address": "meetingtisch@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T13:03:39Z",
+            "category": "fyi",
+            "labels": [
+              "2: Meeting"
+            ],
+            "folder": "Meetingtisch",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "eb6ea055-27bb-44b8-88eb-ff4b77618b21",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Baubesprechung",
+            "from_name": "Meetingtisch",
+            "from_address": "meetingtisch@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T13:03:38Z",
+            "category": "fyi",
+            "labels": [
+              "2: Meeting"
+            ],
+            "folder": "Meetingtisch",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+            "from_name": "Höbinger Andreas",
+            "from_address": "A.Hoebinger@donauversicherung.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T12:25:50Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Höbinger Andreas",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.png",
+              "Vollmacht Hofhans.pdf",
+              "703920_Antrag.pdf",
+              "Deckungserweiterungen_RV 29000010498.pdf",
+              "Polizze 2044001194 per 17.03.2023.PDF",
+              "Memoformat.pdf",
+              "1120 Wien, Schallergasse 35_Antrag.pdf",
+              "Polizze 2044001194 per 03.06.2020.PDF",
+              "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+              "Korrespondenz zu Eigentümerwechsel.pdf"
+            ]
+          },
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          }
+        ],
+        "total": 4,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": true
+      },
+      "result": {
+        "items": [
+          {
+            "id": "96e74e69-7ff6-402c-9959-597c0b472950",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-29T11:06:48.351968Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "2026_10_27_Werkvertrag_Anmerkungen.pdf",
+              "2026.10.29 Werkvertrag BERGER R11.pdf",
+              "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf"
+            ]
+          },
+          {
+            "id": "c45958f2-9372-4430-acfe-f175759221cf",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:46.009718Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Schallergasse_35_Baubescheid.pdf",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf",
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f36feb1c-1b40-43f8-b34b-7f7e47dcedac",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12.256575Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.Capra@cerhahempel.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "8fe2ffcc-a7e5-45a5-aab2-cb27e85e5860",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@zt-pech.at"
+            ],
+            "received_at": "2026-10-28T11:02:01.862771Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@zt-pech.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "6c121750-efc5-4e17-8e64-6c52c23ffd4b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – Zugang zur digitalen Dokumentenmappe",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-28T11:01:52.762570Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 5,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0,
+        "sender": "zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2026-470",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "P2026-470",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Unzustellbar",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Zustellung fehlgeschlagen",
+        "date_from": "2026-10-28",
+        "date_to": "2026-10-29",
+        "limit": 50,
+        "offset": 0
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    }
+  ],
+  "errors": [],
+  "scoped_email_ids": [
+    "8fe2ffcc-a7e5-45a5-aab2-cb27e85e5860"
+  ],
+  "excluded_unrelated_email_ids": [
+    "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+    "478abcb0-1094-4b10-b3e4-ecbc02840715",
+    "96e74e69-7ff6-402c-9959-597c0b472950",
+    "c45958f2-9372-4430-acfe-f175759221cf",
+    "f36feb1c-1b40-43f8-b34b-7f7e47dcedac",
+    "6c121750-efc5-4e17-8e64-6c52c23ffd4b",
+    "3cf845c3-345d-4e63-a538-657798cd66a7",
+    "479e4271-2656-4224-8b96-97c22b5992aa",
+    "32437f7b-5dc8-4f16-89e1-2924e5c28c66",
+    "4849ea48-f714-4f10-be5c-44bec1e53b08",
+    "14adf7a0-6fc5-4b24-8a33-2353256f5eb2",
+    "2b30f2c1-45ba-4156-a1ed-0c2f561826c1",
+    "1af77251-23dd-4bf5-bb3c-5cbe808c3e71",
+    "0788d314-792d-40b1-819a-8df6bd9151aa",
+    "0752f7ab-dc30-4217-bb34-8cf63dccecb3",
+    "46e5b757-96df-4717-a5cc-cb6d2c3ed87b",
+    "ede1e55a-f431-47c0-a872-fd795bd39877",
+    "205be003-0eb3-4822-bd68-53567847378f",
+    "049cb124-2965-4a84-9040-d81df97bf69d",
+    "83c45d45-7eef-40d7-9d98-7c571716b43a",
+    "d021f89e-256d-4459-a348-b5554122ca8c",
+    "182c6554-5c67-42de-bab4-14309536be9f",
+    "dcb3948d-5ae3-4ad8-9cc5-2ff2f306c243",
+    "9c7e96f3-b889-4c8e-824e-396641cdebf0",
+    "8e7c7174-c4d5-48cd-9e4d-d110dcddc88e",
+    "399fb913-a640-45fb-b589-c7c36ed7f48b",
+    "1140aee5-bba5-4b6e-98c6-586f9f7713c2",
+    "87e7b3df-cab4-44fb-b608-301f294c210c",
+    "6b9ac558-ad94-4aa2-8356-f0790824ab83",
+    "7f85544d-dbfe-4320-9ab7-a3e29f024cfb",
+    "98fa2591-7604-4a14-9cdc-81f54904d1e5",
+    "ae48dfe9-11b3-40a8-bccb-f1330baff0d6",
+    "889089e6-38c8-4f8f-87d1-b9e9c135916e",
+    "480ccad1-4bbd-4897-b8dc-decafb2016a3",
+    "f4703224-83f6-41c2-804e-d0553a2b7f88",
+    "004a78b7-2dcf-4d83-91d3-e50ac373ee91",
+    "b2b62509-2f55-4779-b8a3-f6911e3ae534",
+    "78014a95-daa8-4297-b724-26dbacd10fd2",
+    "fa59a77b-053b-4635-958b-e9f6b1171764",
+    "ba309fa0-dbdc-4ff5-9a19-7ab0c3c1ecd7",
+    "9f030aa5-8c55-409a-aa00-244a868d4d20",
+    "482ddfdd-5811-48cc-8023-69261a7ad1ab",
+    "1212d098-7380-44cf-b553-27ca8ca0fecf",
+    "bb57f474-6ac1-425b-9411-155f29a11199",
+    "a0c0dbb1-97ca-4c87-95a7-e0703358375d",
+    "030f6d73-7ea4-4894-a519-4e3a353a49b3",
+    "9413e459-2bf9-4f0e-bcc6-4bd5657b03f8",
+    "5ee457ba-7dc5-4698-8da1-1e2b1edc8bfe",
+    "ca21e6e4-1190-4881-8fcf-47e77fdb2398",
+    "bd1481cc-2541-4717-8e94-4a7df6cc60fb",
+    "d5bc6ece-d75a-4510-be57-9153b380adfa",
+    "eb6ea055-27bb-44b8-88eb-ff4b77618b21"
+  ],
+  "classification": "Un mesaj PECH in perioada: emailul de acces trimis la 2026.10.28, deja arhivat. Celelalte 52 ID-uri sunt BERGER, MA37/CERHA/DONAU ori comunicari fara legatura PECH, excluse dupa expeditor, destinatari, subiect si extras; cautarile globale PECH nu le identifica. Extrasele nerelevante nu sunt duplicate pe disc.",
+  "baseline_register": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.29 Registru comunicatii.json",
+  "baseline_unique_ids": 848,
+  "automation_maintenance": {
+    "deleted_id": "verificare-emailuri-pech",
+    "delete_confirmed": true,
+    "reason": "Dublura creata concomitent in alta conversatie, cu program vechi zilnic 10:00 si16:00. Inlocuita de cererea ulterioara a utilizatorului: luni-vineri 10:00,13:00,17:00.",
+    "retained_id": "check-email-pech",
+    "retained_status": "ACTIVE",
+    "retained_schedule": "Luni-vineri 10:00,13:00,17:00 UTC+02:00"
+  }
+}

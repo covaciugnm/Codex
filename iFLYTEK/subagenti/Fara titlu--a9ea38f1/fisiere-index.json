@@ -1,0 +1,163 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/runda-1/audit.json",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--7c3fb704.json",
+    "bytes": 14255,
+    "sha256": "5ac78492079d712c7195386570e47ba998c64215c4245257d94c55ccf7327083"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/runda-1/audit.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--6937f9ef.txt",
+    "bytes": 11286,
+    "sha256": "fbb37eda5584717ecc64c32ba1da4456328bc3f8c9a5b04be479d68d03c6da3b"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/runda-2/audit.json",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--b5d2068d.json",
+    "bytes": 10987,
+    "sha256": "2b9adaa701e5b1d12b438f4def0366e7df5b114224c14a4b018d8ecd57549ef8"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/runda-2/audit.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--3b22bd04.txt",
+    "bytes": 9122,
+    "sha256": "87c8b221570ee4e3afd610a55ee1ec107eb6b874fc733a382ed932a2c355c5ac"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/runda-3/audit.json",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--128a0a54.json",
+    "bytes": 21630,
+    "sha256": "dbcd2d706162c334097a21678aee15d75aa308831d8baaf8980b4be3a06248e8"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/runda-3/audit.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--a76fbd9e.txt",
+    "bytes": 14126,
+    "sha256": "06720be72affd97d4b0d6bb4c332b11f5af7bd77a10d15cbd03ae092757f8495"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/imbunatatire-raspunsuri/dovada-air2-google-play-apk.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/dovada-air2-google-play-apk--043d716f.txt",
+    "bytes": 1805,
+    "sha256": "1c39dda14d1dae8dbf4e0609fd9432437a6a5eee30113bf49d4bac807c6418b3"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/imbunatatire-raspunsuri/revizie-independenta.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/revizie-independenta--7921198d.txt",
+    "bytes": 10835,
+    "sha256": "5d430855c7ede40847f5d330ee2c73053841b69e45e6d752ae34cb51ec158925"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/Alibaba/iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/imbunatatire-raspunsuri/revizie-livrare.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/revizie-livrare--a4d54a6e.txt",
+    "bytes": 4304,
+    "sha256": "c386b5096c4c92abab4b273f0364abba7576fbbb40bd66117211e5c879d003a6"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\runda-1\\audit.json",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--7c3fb704.json",
+    "bytes": 14255,
+    "sha256": "5ac78492079d712c7195386570e47ba998c64215c4245257d94c55ccf7327083"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\runda-1\\audit.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--6937f9ef.txt",
+    "bytes": 11286,
+    "sha256": "fbb37eda5584717ecc64c32ba1da4456328bc3f8c9a5b04be479d68d03c6da3b"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\runda-2\\audit.json",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--b5d2068d.json",
+    "bytes": 10987,
+    "sha256": "2b9adaa701e5b1d12b438f4def0366e7df5b114224c14a4b018d8ecd57549ef8"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\runda-2\\audit.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--3b22bd04.txt",
+    "bytes": 9122,
+    "sha256": "87c8b221570ee4e3afd610a55ee1ec107eb6b874fc733a382ed932a2c355c5ac"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\runda-3\\audit.json",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--128a0a54.json",
+    "bytes": 21630,
+    "sha256": "dbcd2d706162c334097a21678aee15d75aa308831d8baaf8980b4be3a06248e8"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\audit-calitate\\runda-3\\audit.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--a76fbd9e.txt",
+    "bytes": 14126,
+    "sha256": "06720be72affd97d4b0d6bb4c332b11f5af7bd77a10d15cbd03ae092757f8495"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\dovada-air2-google-play-apk.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/dovada-air2-google-play-apk--043d716f.txt",
+    "bytes": 1805,
+    "sha256": "1c39dda14d1dae8dbf4e0609fd9432437a6a5eee30113bf49d4bac807c6418b3"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\revizie-independenta.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/revizie-independenta--7921198d.txt",
+    "bytes": 10835,
+    "sha256": "5d430855c7ede40847f5d330ee2c73053841b69e45e6d752ae34cb51ec158925"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\imbunatatire-raspunsuri\\revizie-livrare.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/revizie-livrare--a4d54a6e.txt",
+    "bytes": 4304,
+    "sha256": "c386b5096c4c92abab4b273f0364abba7576fbbb40bd66117211e5c879d003a6"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\reverificare-detaliata\\analiza-rpk.json",
+    "status": "copiat",
+    "saved_path": "fisiere/analiza-rpk--eb85d42c.json",
+    "bytes": 14923,
+    "sha256": "3560e5c817990dcb9528b01154f60ecb043b521d033448d8a0a0ed1925433da1"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\reverificare-detaliata\\analiza-rpk.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/analiza-rpk--09ea6cef.txt",
+    "bytes": 12119,
+    "sha256": "9509f8f7d1b73f00bf83ad4f642f0b5cb899daf2eeb1cc863be09c25ad169a55"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\reverificare-detaliata\\tipuri-dex-reverificate.json",
+    "status": "copiat",
+    "saved_path": "fisiere/tipuri-dex-reverificate--91f1b33c.json",
+    "bytes": 3589,
+    "sha256": "f0ae0916ba1a36c3c93b03f867e22a3ed2986dc42600257a3d98ead083e29e7e"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\reverificare-detaliata\\verificare-produse-audio.json",
+    "status": "copiat",
+    "saved_path": "fisiere/verificare-produse-audio--df890f1f.json",
+    "bytes": 50649,
+    "sha256": "04d2bef58a7d58b89e9d2fde740414f1512e94760450e37f85008126a2dd0735"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\iFLYTEK_XF-AIGlasses-01_Documentatie\\Software\\APK_Reconstituit_2026-10-30\\reverificare-detaliata\\verificare-produse-audio.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/verificare-produse-audio--acae50c3.txt",
+    "bytes": 20089,
+    "sha256": "08a5968f8796856fce48cfdee35523530db835b7935da78222b90a792efbd2d9"
+  }
+]

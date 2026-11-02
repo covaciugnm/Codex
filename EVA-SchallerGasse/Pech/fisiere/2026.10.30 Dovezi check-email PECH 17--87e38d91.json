@@ -1,0 +1,4169 @@
+{
+  "period": {
+    "date_from": "2026-10-29",
+    "date_to": "2026-10-30",
+    "overlap_days": 1,
+    "last_check_local": "2026.10.30 13:03:33"
+  },
+  "baseline": {
+    "register_path": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.30 Registru comunicatii.json",
+    "register_sha256": "8c1264574d32f6f774205dd6ad561c922b0b001db26bf1c055ee6322ced1ea83",
+    "unchanged": true,
+    "register_count": 853,
+    "status": {
+      "partener": "Pech",
+      "status": "2026.10.27 16:50:06 Romania: DI Bernhard Ployer confirma discutia din acea zi si recomanda arhitectul Roland Gasperl pentru sprijin la autoritate si eventuale replanificari/depuneri. Ployer spune ca a discutat deja cu arhitectul. Recomandare, fara oferta de onorariu, mandat sau contract acceptat. 2026.10.28 13:02:01 Romania: emailul cu accesul la servieta digitala este TRIMIS catre office@zt-pech.at, fara CC/BCC sau atasamente. Ciorna EVA are status sent. Nicio confirmare a primirii ori a functionarii accesului.",
+      "urmatorul_pas": "Urmarirea confirmarii ca accesul functioneaza si a listei de documente necesare; pastrate deschise punctele comerciale si tehnice anterior consemnate. Beneficiarul sa decida contactarea arhitectului; daca doreste, obtinerea unui obiect clar (autoritate, replanificare, depuneri), pret, termene si responsabilitati. Reconcilierea cu PECH a cerintelor de proiectare si a contractului scurt draft din 2026.10.27; nicio comanda presupusa.",
+      "sursa_status": [
+        "08. Corespondenta/2026.10.28 Verificare zilnica/2026.10.27 16-50-06 PRIMIT PECH 152135aa.txt",
+        "08. Corespondenta/2026.10.28 Verificare zilnica/2026.10.27 16-50-06 PRIMIT PECH 152135aa.json",
+        "08. Corespondenta/2026.10.28 Verificare Berger Pech/2026.10.28 13-02-01 TRIMIS PECH 8fe2ffcc - copie fara parola.txt"
+      ],
+      "ultimul_raspuns": "Contact recomandat: Arch. Roland Gasperl, Argentinierstrasse 42/12, 1040 Wien; +43 664 4119935; roland.gasperl@chello.at. Niciun raspuns comercial nou la AN01/AN02 sau acceptare a clauzelor.",
+      "ultima_trimitere": "Acces servieta: 2026.10.28 13:02:01 Romania; ID 8fe2ffcc-a7e5-45a5-aab2-cb27e85e5860",
+      "verificare_punctuala_PECH": {
+        "checked_at_iso": "2026-10-30T13:03:33+02:00",
+        "mesaje_noi": 0,
+        "draft_amanare_status": "pending",
+        "sursa": "08. Corespondenta/2026.10.30 Check-email PECH/2026.10.30 13-03-33 Dovezi check-email PECH.json"
+      },
+      "draft_amanare_2026_11_03": {
+        "id": "ebe46e54-bdee-407a-971f-1025f67f6482",
+        "partener": "Pech",
+        "status": "pending",
+        "statut": "DRAFT NETRIMIS",
+        "account_email": "office@ac-wohnart.at",
+        "destinatari": [
+          "ployer@zt-pech.at"
+        ],
+        "cc": [
+          "sekretariat@zt-pech.at"
+        ],
+        "bcc": [],
+        "subiect": "Schallergasse 35 – Unterlagenbeschaffung und Terminverschiebung auf 2026.11.03",
+        "created_at": "2026-10-29T16:23:51.529379Z",
+        "data_verificarii": "2026-10-29T18:24:59+02:00",
+        "atasamente": [],
+        "sursa": "08. Corespondenta/2026.10.29 PECH amanare intalnire/2026.10.29 DRAFT PECH amanare - EVA.json",
+        "cale": "08. Corespondenta/2026.10.29 PECH amanare intalnire/2026.10.29 DRAFT PECH amanare.txt",
+        "eml": "08. Corespondenta/2026.10.29 PECH amanare intalnire/2026.10.29 DRAFT NETRIMIS PECH amanare.eml",
+        "intalnire_propusa": {
+          "date": "2026.11.03",
+          "weekday": "Dienstag",
+          "time": null,
+          "status": "PROPUS, neconfirmat",
+          "calendar_changed": false
+        }
+      }
+    },
+    "known_ids": [
+      "0f15bd6d-08bc-47d4-932e-48fdac8e59a1",
+      "7d6a5bc0-41a8-4b44-91c0-c4c6bd6828e3",
+      "63fb2b7f-4754-467a-894a-a31b6c46c067",
+      "04716349-6e28-46f5-9c25-32452142dd62",
+      "03609be4-7dc2-45ed-89e2-dc5407682eb0",
+      "08b27e2f-bbad-465e-aade-c4e904afb356",
+      "3f68b776-5d1a-40c1-8ab1-87274198979a",
+      "8b332305-4b21-4c87-9bd2-ad9fa2de341a",
+      "67e43f04-6449-4338-852a-9dd05799e66d",
+      "d7a934a4-94a5-4af9-a6b3-7cd46a442c4b",
+      "7d7cfdcb-5008-4ed5-825c-2ff5212ef529",
+      "1b5fd3fe-98b4-480e-b4d6-09bb80ae3e8b",
+      "ede1b58b-baf0-4e8d-8de0-a25050fcc754",
+      "3283e441-7b66-4de4-9d44-3399b9137f95",
+      "0d83c5f4-2a6b-4c72-83ff-a6cec2c78466",
+      "69b43d7d-2910-4c38-913f-3ce1110f4ec6",
+      "8bf3bc71-9bd3-47d7-bb90-30bbfbc29dd5",
+      "193db843-8fab-44b9-b45e-b9c709b5e4bc",
+      "b3d44950-aeb9-4709-902a-3a6790175b1a",
+      "7b652ece-c963-4a13-a1c8-3b65527a0b03",
+      "441eb433-b80a-4fa8-a549-4af27185229b",
+      "fb6480c5-8180-4d0f-8d0d-efd42e50398f",
+      "137329ce-5da7-4a75-a0ca-0c374d602d97",
+      "2b9b4450-3390-4e67-81d8-455e84d059e6",
+      "fefc8b8b-c376-401e-a9bc-7344f31f74cb",
+      "5b856cc4-3328-47d2-816b-17ad61f6018b",
+      "3f85de16-84b7-43d3-afb7-3c57f54d58fd",
+      "673b8673-4499-46de-b851-1b333c3085a5",
+      "b2200902-91c7-4a87-af71-649ede39fd55",
+      "eb290521-b239-4bcc-80a2-d68e6012614d",
+      "fc6795f8-a711-467b-8420-4184fad06578",
+      "2760f1d5-b5d5-468d-bd2b-9bcb3b55dc92",
+      "3b4b427f-1591-416a-9a98-9e971e6a7b8d",
+      "5aa64aec-ae3a-45b6-957a-225008f6ed90",
+      "789bd868-e035-4f1c-b83f-c69ed8ab126e",
+      "4d284f3c-fdf5-4046-ad26-523526bc489a",
+      "21c3a921-31d5-42cf-a86c-a9a9ee3b3a6e",
+      "3c91a00d-9316-492d-8df8-b9d06610ad48",
+      "ade62615-b043-42c1-925c-5870671c4e57",
+      "a3ee6c8e-5abf-4d5f-8363-4fb4520fbfb3",
+      "84864aed-d200-4d5d-9995-90ef84b9c485",
+      "9d677390-8572-40b2-8ff9-1798de497699",
+      "86a76b9b-173d-4cab-95db-55a7749db21b",
+      "057728cc-62b6-4a03-b210-48ed531f103a",
+      "feae51cb-af58-4806-b0bc-483169f30d3f",
+      "43554772-9796-45e8-98f4-d2c9a00aa3bd",
+      "981f60bd-5531-4f84-8be9-0419cf998d4e",
+      "86a54ab4-8969-4079-b209-33a0657f6990",
+      "dd0b690e-6059-4f5c-84d0-8048d87c492b",
+      "5237f6d7-4308-476a-9d42-61d04380739a",
+      "21018adb-da16-4970-b504-c48a3749928a",
+      "a62d1ac2-5550-4054-a3ee-424c2bf72e44",
+      "dbe9a2c6-0bf6-4fed-b45f-5c9ed2666c78",
+      "d6cf9a8b-e39d-4f2d-ac8b-8c1323506416",
+      "bb974795-6f3e-4920-a0e9-ed8355f2a91f",
+      "d26ee84a-f76d-48a4-bdaf-4fa80c6e7b90",
+      "ed6e8573-37c2-4e76-a3da-79daa3d1b86f",
+      "e429b607-f1c6-4bad-9fbe-94355821ab48",
+      "ceef32fd-26ba-4626-855e-9d39ee36acd4",
+      "b234aedb-8076-460f-81ca-8b14c0e158b4",
+      "450d5f9f-a5b1-48e0-a2ea-cea7ab09d364",
+      "a0a39227-f91c-43de-b984-27af5dfc9b76",
+      "a922d466-6d50-49bd-b2f8-c16bd207e7be",
+      "f51f2b6e-f064-4d29-8da6-77ec28a1c8ab",
+      "08b7b85d-d206-4121-8ba0-4e5d93cff65b",
+      "09b3436c-2b61-4c13-92ca-d4334ea36a72",
+      "e9a00415-33c8-408b-a61c-0020d4d312e8",
+      "0aee0fa3-af52-4cc7-be4d-ef2bdd86741b",
+      "42cb2f88-7186-4e29-941e-01553f9afa01",
+      "250ea968-a8a2-4cb9-ba4a-8460cb18c685",
+      "9530ffb9-0a1c-475b-8a5f-f63c58b129b0",
+      "b533b51a-6256-4f0d-8208-1f69d7977182",
+      "9ba84b9a-4c7e-43dd-8af3-89b09a525ab1",
+      "d41810e1-13c2-42f8-ad6f-39a03f940b10",
+      "79ca10cc-3510-4c62-963f-333f99dfac77",
+      "ea2ce44f-9f55-4376-bd1b-89271af1f625",
+      "65ecae22-d0dd-4528-82aa-9a5b20e840d3",
+      "c7a193d0-0895-4855-9bae-7c01e2b7e3b9",
+      "c3fafe16-0080-4a2a-abf6-289a51d24c1b",
+      "292246d7-aaf0-4a80-b384-4bae3872d087",
+      "f7b4c6fb-690c-4056-97e0-db9071288042",
+      "d5280515-e356-4396-986b-f3f9204e0bee",
+      "6d1bc131-2c9e-43eb-b74d-3ad94c97dd34",
+      "15af7edd-f0a9-4a96-bfb2-a9779e9b1f6e",
+      "7d202986-6a01-4cfd-bf4d-fcc958e5cd03",
+      "1c8e8ad7-3914-48f7-90cb-59c7f3539c38",
+      "88cab524-2a74-4a31-9afe-accbbd918a31",
+      "5e6d2ab9-c1bf-4925-aca5-1460fc9af801",
+      "a382ea76-137f-40f5-b939-6783da3d1616",
+      "0ffe9dcf-3898-4fd2-a516-417564686091",
+      "7efcb1f0-a94d-48e2-b9e3-5caf61cb0828",
+      "981919e6-22be-4486-9c17-1fb4672b4a4c",
+      "b029f46b-8d47-400b-931d-0827d9d44af3",
+      "ecfbdc18-5c1c-4ed4-b109-4ee69ad77833",
+      "695cbc1c-0fe3-4aa6-8918-7fc91fc5e285",
+      "d265e445-eb5c-4a0f-a5eb-3eb093d6b968",
+      "9ca98886-7a92-4daf-8d17-d7569fb9033a",
+      "dbca9827-2b2a-4a60-b79e-702f233bc74d",
+      "e19deb08-1870-41de-9b3a-e0b29c711f53",
+      "2944b30d-4fee-4841-a78f-cea8a38fe659",
+      "a23e9cf9-c64c-49d2-92b6-1ae2e56648aa",
+      "6c1a747c-f8d3-4f20-8b55-bb5fff4ba45f",
+      "4325a442-5b09-495b-80a5-1df3d9dc931a",
+      "2d29ec0a-d507-477e-8544-64bce1163aa5",
+      "ee37c065-8138-4061-86fd-cd702c823fbb",
+      "d2b52003-e7b6-44ce-98ae-9db2c71fe12e",
+      "f90d1f11-0e2e-4dbc-9aba-bbdb16779f62",
+      "29b9985e-1b23-4d16-9443-75553bb35ce6",
+      "d39f7090-2aa9-4a56-ba43-82b4023b26d9",
+      "9d36619d-92e3-4e72-b141-69e6ea19f428",
+      "79911021-83e4-44d9-8e72-71ca55cbbe2c",
+      "08c6db1c-f850-46ba-8566-e6374ad15735",
+      "f1eee1df-2d07-4cfd-b587-35ff498e240a",
+      "d270a0ce-773b-4f52-937c-d1725d413c0e",
+      "cafe1a33-b02e-43c1-96c0-f5975f40465b",
+      "25061a78-e2bc-41ef-aa53-76d26c1cc99b",
+      "b3ce3b58-f8e2-4256-aa9b-b673ccb360d4",
+      "83deff8e-34c9-407a-8fbd-1e2a30521228",
+      "564239ff-722f-43e6-b926-267a594c6273",
+      "ea7ce86b-bd13-4b53-b8ee-b64d51ce583e",
+      "23bae613-0fdd-4928-aa44-5996394d6854",
+      "7ecc37bb-e3f2-4467-af48-d58bbb1220e2",
+      "3f93fa63-46ce-4106-ab6e-00689c84d261",
+      "af40174c-1add-4fd8-83fa-ef2b43b1996a",
+      "d171413a-a7b8-4504-b759-55e2ca1a20a9",
+      "4eeb2ce4-1b1a-4089-81a8-aa7c8c95da31",
+      "ef4092ef-77df-4d14-8caf-3ea6d42c7610",
+      "1b42be7a-1df2-4aa4-87ca-ddd44a3abb1d",
+      "881b6469-8f3d-480e-8911-c23bab231ca1",
+      "92c62900-a6f9-4385-a376-c806730e6d0c",
+      "af7b4760-103e-461e-9c09-a0efe27f6bc8",
+      "a6f901a5-3550-41ca-b128-f46a6af40752",
+      "0178644b-ac12-46e3-bc36-29090219bae0",
+      "a6afb552-a4fb-4cb5-a1d0-18c7e8c68ac2",
+      "11701f7b-041c-4ef9-8e3a-e9db4afb5898",
+      "a03a2b75-b5f7-475b-9681-b17d6a6e8414",
+      "66ee0786-206e-4fd7-9397-04ded6e968bc",
+      "20d163d7-1d92-4ac9-94d4-f4f35c74adf5",
+      "003b8edb-d7bf-4f6d-be5f-dcc93487ad89",
+      "49b4369d-96f8-425f-a753-78f6f6ae08bf",
+      "9762f010-6a6c-49ca-a9ce-e4d6d9a0d7b3",
+      "030d2492-9fa1-4178-937f-243ce0354069",
+      "7126d0cf-0d20-477f-8856-99a5cdc98636",
+      "e2f83f8f-d733-4c63-b953-b1168f9e5d13",
+      "ea07c0b3-3156-4362-a8b6-41c783471993",
+      "3073e98e-e3b6-45bd-84ce-b6dfb8ad5f4d",
+      "f8bdd807-8c29-4e89-b0d9-68dd85d2481c",
+      "d9e97e26-19f1-4fad-80f6-da595be111db",
+      "80796dfe-2baf-40b1-8bc1-450328826322",
+      "cd817991-c286-4750-8fa6-6e72e443c074",
+      "0f0c8905-8134-4675-bbb4-5dd9dc62464b",
+      "7806458a-f65c-4519-bfbb-83811cdb56a1",
+      "6f010a46-9b09-4003-975b-2b2e619c3bc3",
+      "4efa06f0-e4da-42a3-a0ab-0149c2a64580",
+      "eb98d42a-120c-43c5-be94-158f3d12b759",
+      "9603eec5-ea0b-4016-8932-352363d86983",
+      "c93c2f11-600d-4db3-8b7c-1a6966b0a188",
+      "90d8964f-b90f-43a7-bca6-e3c4343f8ada",
+      "71afd00c-82f0-45f1-8ac7-a2ed4ab42195",
+      "8d759485-5677-4ab1-93a6-73e6a4a33210",
+      "1fe35322-6723-4977-8cba-92103502b5e6",
+      "123cf19b-1a40-4511-82ae-8e4a12a4fbdf",
+      "a418cd0a-a88b-4655-a672-2b65105e1045",
+      "1c2f286a-0b81-4a01-a9b1-35a8b15419a8",
+      "3598cb45-e44b-4d3b-ad7f-5274dbd5c412",
+      "e309adec-75d0-4a65-ab3a-96979a1394ed",
+      "9ee99322-ab7a-4117-a10a-0f7bd653fba6",
+      "d6fd0c0a-3a0a-41b8-8c7d-49bbc7cc4c05",
+      "8a83f0b5-6957-41c4-86e0-c99337f45ad1",
+      "ee86add9-6cc3-440b-8151-91722beb500e",
+      "195c3928-f1b3-4edb-bf8b-c6eb51279a90",
+      "a0d1d39e-ffaf-4f0c-9c42-e2134a9d3626",
+      "7c196f5c-a94a-49d8-893d-fd82288f4c73",
+      "c8f2bb4f-69bb-4a21-924d-4258e4b3f3f5",
+      "c3d69ba5-9634-49d1-93dd-a215edbb9562",
+      "9ec10e28-6aec-4f7a-882b-f498e25df108",
+      "113c1277-8cdb-4ce9-9765-37a56c145bd0",
+      "487678bb-7f31-43c6-a74b-2c619cff078e",
+      "aab51ec5-9d68-4e97-afa8-823418037128",
+      "c5b53bdf-4865-4e63-b48c-c3dc767604cc",
+      "53720b99-81ec-49e4-ba2a-f28e24d9641b",
+      "5638fc9c-9a57-4ee0-ba1f-bee29867139a",
+      "96f84a77-742c-4cd4-a95e-99baeb4b1414",
+      "3de837be-bc73-44f5-83ea-e27f194ec14a",
+      "1683549f-cb34-4821-b746-5b84fea3d9c8",
+      "94b15a6f-825d-40ec-bccc-08199db107d9",
+      "27690e8a-ba95-4bbb-8e2c-b1ac5eee09d5",
+      "90e54822-4671-4af9-a478-46c414bef677",
+      "3c6a6cad-dd45-4328-ba1c-365813e17cce",
+      "71969833-d008-472d-b8e1-607aa39d9149",
+      "5bf109d0-dc3a-4eeb-86d5-93f4479a4cbd",
+      "0ec95ad7-a5c1-46c1-a2d1-f14e2d07c5d1",
+      "41644cae-1f72-4894-9753-93d4552aefbd",
+      "ff8a7771-d7b0-45a8-be13-deeeaa3f4f99",
+      "37cda2ce-d4af-410a-9c30-76c342230364",
+      "f561f1e5-28fe-426c-ab5e-3348e4f6bc08",
+      "bbaab9e3-9131-4a08-9aea-83ff9284af14",
+      "1da1647d-fe2a-4584-a6a9-ec552fd39514",
+      "11809dfc-fe3c-4222-9809-5dcecd2e1f16",
+      "a64c2377-a46e-497c-96fd-87aa0116de71",
+      "52c6fea3-b569-4efe-bd79-f5cc46d1c849",
+      "4691292c-05a6-4a86-aded-eee25b8a5341",
+      "7b868864-e58f-41b4-b476-d5fea2ad96e8",
+      "f072f8da-8d6d-4214-b378-4845944d6842",
+      "71ada397-40f7-4bb7-ad04-a122ebfb3372",
+      "6b2813f1-40e8-4903-a0f4-e2dea49e817c",
+      "5b04cf46-bf5c-4752-b5cb-4d4756a2f768",
+      "8acbbbce-821c-44b0-a775-9f7a301c1f7c",
+      "bd3608fd-946f-4d4d-92bb-e470f53e786c",
+      "08d6b8cc-1be8-4224-b142-4db4819e6286",
+      "628db41d-c31a-4df1-af74-8f1c0f844613",
+      "c47f4059-c270-41db-a3c6-74a7f4af6a02",
+      "13f4bcf7-de79-494a-a8fe-d539d84389b7",
+      "1c47cd1e-019a-4999-a76f-b016a791a69e",
+      "b5942950-35fa-4dc2-afcd-886016343137",
+      "3856e7e7-da08-4841-879f-ac2f30059da2",
+      "399e516c-9b42-4d0c-a6c6-f780627a80d8",
+      "e93d4398-b857-4edb-9447-178dcd3ff03e",
+      "c22c70bc-6233-4dde-a7d5-086dd41dd479",
+      "94363444-4ac1-4775-9cc8-3dc9e8327fc1",
+      "7533c733-29c0-4aaf-98be-f64cf26cb308",
+      "6217a27a-2a53-499c-981a-ad8c54241528",
+      "520bd049-355a-45ff-8652-c68c4e9bb644",
+      "bf84eaf9-82d7-4fd8-a046-74eb966e0703",
+      "13479694-69d7-4c22-aa8f-eb02aa239a49",
+      "2f302cfe-b809-44cf-bfc2-25695791a14d",
+      "3d617832-b109-427c-961b-b4adedb9a024",
+      "87ee128c-b763-4ade-abe5-3ba60844884b",
+      "8be14505-bb8c-4a3e-933c-abd8fce7ba14",
+      "bbc3f79d-2505-44d0-ad1e-1f58966c2d6f",
+      "3b52bb5a-44ef-4518-b079-292bd0a11fea",
+      "b6c7247d-86ee-4f54-b7ff-31e26363fbb8",
+      "c59bf873-6efe-4f03-9dcf-5639d49d3efa",
+      "5f194904-7d89-4a30-adbe-ec46e4554137",
+      "7f39b231-c318-47c7-a370-985c1e5aaf6e",
+      "85ade1fd-7386-4198-b8c6-caf0be0a8f6e",
+      "849ddbf6-3bf4-468f-875a-b6e34b26a1bb",
+      "8da42f9f-a133-45ee-a4e6-058613ac174c",
+      "1eeb7adb-dd9a-4f34-8f4c-ff6e5da91143",
+      "7477dde1-7ba3-4674-ba89-2a8786082f2d",
+      "d14cd4a5-0236-4b18-ad1e-1410e1ffaf41",
+      "4c6d9ba0-073f-452e-8ee9-1b26bb9d3e2f",
+      "1e11e72c-02a7-4c35-9dfc-8c2ebe3248b8",
+      "0ba46883-09a1-48a9-843b-a6a360c5233c",
+      "62974d9c-c49d-4daa-ad7f-49785d40951d",
+      "06ac887b-ced8-4f12-9f71-bf3a4ad0b5ec",
+      "d1e708b5-6ad1-4d7d-9b2e-916341dedb30",
+      "14663d4c-fe60-4c1b-839b-4e613e64cd4d",
+      "86e9f98b-f906-48ca-8d38-a96c4489b69f",
+      "6f39d35f-4fac-444b-9abd-9a3ff4fbcba7",
+      "45ab880a-cdb9-4702-aed8-356e4202ee5a",
+      "c0dcc101-5e00-4c58-b693-15cfb517b382",
+      "45c624ca-bc51-4a10-ab49-74223ac6f30f",
+      "1327e3fc-3861-42d0-8f32-29b40d32c2d3",
+      "9afc274e-809a-4de6-a050-fb9b118e09c0",
+      "e1b03331-0dcb-4047-9410-692aa3dc3048",
+      "2ed37bd0-d44a-41d6-b6b5-7add231291cc",
+      "819eeeb2-8ae0-4aa3-8c37-c05c85267115",
+      "7d531c77-5abf-4013-b010-7d5e650acb87",
+      "332ad8c9-63bb-4dfb-a1f7-517b5e52d6c6",
+      "9a0dcbba-867f-4068-b223-727d99f008e2",
+      "93c8aecc-159c-4df1-8597-26bae4903a7a",
+      "0603fd38-2190-4e43-bd8e-a61baeef129c",
+      "497b2bf5-5a4f-44b3-872e-6d06a0921f25",
+      "225f0070-e07d-4738-85bf-ddb6eddc5f6b",
+      "9b557e29-820b-469e-9b05-eac5d6d373e1",
+      "81df9242-74cc-4111-b4a2-0b12fc406246",
+      "9e5de956-9c8a-4ee8-bb01-e51a5129b3c7",
+      "8ca14759-b53b-4cff-a552-b7f1dbb4a79e",
+      "a1139ab2-92e8-4705-b392-b392ac1591cd",
+      "3e2eba9a-8fa4-44d4-b855-751641146fd9",
+      "e238dc42-6ea6-4cb4-bb50-e76c7ffbfe79",
+      "a1c2a316-83aa-44ec-8cfa-f5edc83e180b",
+      "936d51e7-0595-4105-a015-66411420b3cd",
+      "42e3c3b2-5dec-4a83-82f1-a6424749dc3c",
+      "e43aed14-7ce6-4bdd-9c21-08a18dff924f",
+      "0bc96212-5ca1-4164-b931-e41321543268",
+      "0fba0425-2bdf-4132-86df-1bbbb81be505",
+      "b5b21451-c82d-4596-9808-8656d772fcea",
+      "138f762e-dd65-4620-b4a0-87de3e8e695a",
+      "b4bd27d6-4d34-42d5-ba02-f1aca3ffd5a4",
+      "b4150390-89d3-4eee-8d71-5a0d9bb5f77c",
+      "c858e728-db3b-4d60-b549-78dbfb793f1f",
+      "04616405-f6e2-4d6f-9e01-144193c675cb",
+      "3a99d711-62b1-4272-818b-166755c88aed",
+      "503d27fe-bf8c-4c8b-adbf-b8f46e575f9a",
+      "8af17f74-36c8-4da4-b052-e38300f6ccee",
+      "9196ebe4-fd67-4e56-b1e5-6ce26b5d4250",
+      "77a19469-628f-499f-bc22-51beb3de69d3",
+      "16bed4e1-6c70-4887-9cd5-5a622e3606ac",
+      "88997e49-fb2e-44d2-a106-f76d4aaad595",
+      "21a682b1-7d5c-4f8a-a220-2f85d1db3ef1",
+      "6e5ad4de-385a-4b09-b652-0876cc727599",
+      "d3d22b88-8572-4da9-aec4-45421a47f496",
+      "c05af193-908f-47df-a0c0-f4aab1d5e880",
+      "d32ba4ca-553f-456f-a1cd-f68009517878",
+      "6aae8598-1149-4b46-9211-6d57830f18d4",
+      "c8c7b120-98f9-4e33-8f1d-14871f323915",
+      "e968aeb1-6c89-429d-b3a6-cb0de1b54006",
+      "7cf38aa4-aa7f-4781-8bdf-0f193e9647df",
+      "48df163b-ac4a-4a3e-9dd2-ab2b4c25bec4",
+      "01883f63-5c16-4845-9b4f-e4cb242df7b2",
+      "13e67c94-7f39-4bff-95c6-19b8bf36d667",
+      "5626341f-5346-4386-9500-abd7f5f7c3b2",
+      "6471aa84-2bda-4f0a-a19a-32b5efcfea30",
+      "82f7359d-3800-4f73-99cd-cf0e8182ea24",
+      "a87c7f56-e0bb-4bbd-a4f9-7eca69be7442",
+      "5825dbaa-d113-461d-a69b-343b92ad29c5",
+      "5cce764e-f3ea-4c15-af23-139f16310638",
+      "12b317ff-9500-40ac-a309-957ae15e53c8",
+      "77cc45bc-a5ec-42c0-ad04-b93c1158a60f",
+      "c48baa02-6adc-48cc-8e30-727796599c0a",
+      "493b528b-34bc-45bf-b5e5-8ffc2b58b635",
+      "a6a9f8a4-4ca6-4f7e-8095-b9b425f5ab74",
+      "d895eb53-e181-4e07-89d6-54b5d642ee0e",
+      "01a08ffb-7dc0-4275-a357-f5a003b7733c",
+      "c3407d7b-e2d3-4ad6-bfb2-306fdb02e7c9",
+      "8d541207-20b1-475d-aa39-7f71f475bc95",
+      "28a645e5-0363-4829-81a7-5934df740703",
+      "45dd6453-693b-48c5-85a3-a88464bc0487",
+      "77e630d9-f5cc-440b-8ff8-a43e02f1cacd",
+      "1e51fd20-23e4-4e89-9050-486a11adf121",
+      "2091fce0-3ddd-452f-b7d0-3df6564d1545",
+      "b6b6122a-da82-4b1f-ab45-9a05bc110da5",
+      "c2a4ba49-1d2e-4ff4-8a7f-d3c490ed244a",
+      "d5077f65-043a-4cba-b16f-f06129268bd5",
+      "272a2487-f323-4092-b814-9acbdd646a70",
+      "3d596861-c4c0-404b-85a3-03d4bfd30704",
+      "8b3863fc-2583-4d49-86f7-5cb29c41a8e6",
+      "8cee4085-2d20-4bf5-b5d8-f746c844bc8c",
+      "dea04401-8cc7-4b1f-ab0f-8695e53ccb3a",
+      "cd62c713-4163-468c-8ff6-a042789f6887",
+      "345ba829-de72-4eb6-9e02-df54d944aca3",
+      "9b4eead3-c418-456b-9757-22df87f6cd4e",
+      "9f61eafe-e43d-4902-b141-7bd17b2d6f8f",
+      "5f2f077b-8297-4843-9111-3a5584c04426",
+      "dfeeb258-ac92-4823-84f7-3fd7f8bdd827",
+      "195fec03-8324-48f8-9aab-9765187684d0",
+      "45754bfe-1caf-423f-9e82-20d3ed317b0d",
+      "e24ee1a8-2f8e-4d10-963f-16dc74b162fd",
+      "0d287fa6-2927-4bae-9969-15f19cc98663",
+      "dbe7dd9a-d60a-4863-8bf3-879abdca92f5",
+      "13b1ee77-bdf3-4aba-b96b-662927890343",
+      "fc60b52f-5c5d-4deb-8263-1e35b69e9480",
+      "8755d762-a559-4bac-8f98-da840a935b9a",
+      "3464541f-b348-4bca-a806-c1b031d62ed2",
+      "3e710d09-b418-4706-8726-88d499948a3e",
+      "92524e81-a9b0-43ba-bb2b-698ad536c34c",
+      "4afef652-8648-4ee3-8632-94bb830073fd",
+      "2efa017c-641f-4863-912d-1b83b92c2814",
+      "9762c7d6-d150-4400-a81f-d8c87f2b0733",
+      "13667c4a-0639-4d00-84a4-b0bf3613e37c",
+      "3ef880bb-6e37-4551-93be-cee77e19da46",
+      "78336bf2-b51e-417a-886c-5a54f71dffad",
+      "766d4032-8919-4034-a066-e8f622bf989f",
+      "280f226e-892b-4b1a-9238-0b17b46e7c75",
+      "3365257f-8eed-4786-bb10-9fbb3adad734",
+      "5d83859a-12f2-4c15-ab7a-2e7f3199e9fc",
+      "1633cf9a-29eb-47ac-8e60-adc7ca318842",
+      "7be90f01-1683-42a4-9990-ca88ffa5b004",
+      "4a9d2bb6-29f5-4a6d-a453-9cea4da81488",
+      "7df838b6-9c15-494a-87d7-dfe5b8873d02",
+      "3965c4b3-4d04-4c7b-8a6d-52ca3c1e8a74",
+      "6de975a9-ce62-485e-9569-3ca322b78453",
+      "e5ad3ff4-e035-46d4-8b9b-84c90ecd6121",
+      "df1ba0b8-c956-44f3-8f9a-6f5a6cd78d10",
+      "5a729425-c1e3-4f9e-8b57-2515b41188c9",
+      "c64d339b-23bf-4683-95f3-c96002e8ab90",
+      "c9e6c338-f478-4e87-b648-0a63696b2a37",
+      "60d4a396-803f-498c-8434-0ea1ef8886b6",
+      "79d7dce6-6aad-46ae-8cf7-7a25becac295",
+      "38d01549-97fb-4a4b-9a45-901396b4f24a",
+      "8815a41c-c7c9-4ccc-81b3-b1b18c0ec0cd",
+      "c83af318-171b-4fd3-b09e-4f94293a5909",
+      "dd0bf12b-4318-416d-aaaa-fb5b8b1af455",
+      "de38f2cf-dacf-440b-aa71-a7e3a58c768a",
+      "5ff9e2cc-cffd-416c-89c1-c7520c9f097e",
+      "0d215caf-8901-41d5-852c-784c3e24064f",
+      "ccbb4b72-9c71-4fda-80e0-3abf3db78298",
+      "b340c190-0ced-4288-b4b1-63195d1b2a9a",
+      "2b17c727-c9d7-4749-b73a-f619783ea08d",
+      "3af56f78-7866-4458-89f7-42efc23968fa",
+      "afdb8842-4245-4482-bdf3-6e1dc555c47d",
+      "35815f69-fd80-4e3c-b7d2-f90738a67702",
+      "66bac50e-f683-4d36-bc8b-15b75db1adc6",
+      "ae6603d1-5fed-4efc-b5d2-6e44e91d2d2a",
+      "2bf4629c-728d-461f-be4a-2954fe2bf94e",
+      "2e792ec2-6a4f-40bc-a085-6a723350618c",
+      "53ff2738-842f-48a2-9a51-cebff444a44e",
+      "8864c727-e1c6-4777-b2c0-71c1812dbd7a",
+      "cd658585-f208-4d14-b6a0-b36e5b360a41",
+      "5b1e5d7e-8821-4061-a87d-532b352a0bbf",
+      "80621cda-ef23-4e85-9c80-857242829ee3",
+      "c0545def-7d9d-41c9-95b3-c67bde8a307f",
+      "4007caa0-649e-4436-ae28-8da868b3e1a4",
+      "4929d121-ce74-49f8-a38f-17d85ee78154",
+      "725587bc-c9af-4fbe-a4d4-4f2c29794a40",
+      "dec819e1-28c8-4dfa-908e-c2eff3161a95",
+      "6428ff5a-0b9a-466e-a17f-99b77bce8ace",
+      "5a731f83-f68e-4326-b576-33a6507060c6",
+      "beb15528-c067-45a6-a318-403f34bdc8d5",
+      "63efc93a-0243-4090-a457-41a270b8199e",
+      "edca7f98-ada7-4af7-8bb1-3d3e33f2dda2",
+      "470e6d22-43e8-4624-b341-fb7d6986210a",
+      "a2f69a7f-8aac-436d-a0f9-e7d8ab09b6a4",
+      "a0605736-dfe3-4c4b-bb65-910419d511f1",
+      "7b9a7ab3-49d0-4cbd-877b-2a23f9ee2bec",
+      "70a598ca-64d7-4b9c-800b-9344d47c7491",
+      "9062dd6c-1685-41dc-bd9e-437fd223e300",
+      "d3515f4d-790d-442d-882b-2a8c4c3cf511",
+      "85f39044-0968-4ab7-81d1-c0cbb5d7a255",
+      "93f6cadd-fd84-4f0d-9a88-9d1cea5044a7",
+      "ae3c2f82-4684-4919-8311-78cbdcc31a9b",
+      "cb505d08-3562-4ad6-a659-ed10ce34b02d",
+      "e4ea9f01-8dec-4515-929c-8f156ddfb3e7",
+      "45244679-d0ba-4624-9bff-71bfe810a3ad",
+      "53d616cb-8514-4b63-b71b-cceb5433230b",
+      "06c733e6-0401-41bc-ac22-bc9ad2661fbc",
+      "29631532-da3b-4261-910f-e9ddfb894151",
+      "d9216be2-1be9-493f-810e-8045d1e4cfd3",
+      "1c657f52-e250-4c61-a54a-6c9f5923b6a6",
+      "99a141bd-1a19-48f2-b225-d58f73b1fb89",
+      "d0076efb-02af-4c47-acb9-994a24d6d554",
+      "5f8ae3ea-e08e-4cef-a756-8b316f544c6a",
+      "f13f7ab9-6339-42b0-bdfd-b155da99c9f7",
+      "e683de9b-2482-4559-92ef-643ed904e5d0",
+      "1e194934-8399-4c05-bf4a-8d2009b2389d",
+      "1b869379-ffb8-4d9e-8563-d0b0a0a5c517",
+      "20f1200a-8c17-461e-8c79-b22341a546de",
+      "a168d229-72b0-48da-b587-b535313040cd",
+      "4782ca5f-33ab-48dd-a72f-e88b1919b7c2",
+      "5a0a4649-9e01-40ea-88e9-3f171fd7ca02",
+      "92bdc3dd-17fc-4b2e-854f-376d2d858d45",
+      "4041dc7c-ab5c-4dce-bc8c-87b0f41a25ad",
+      "b9ae0eef-6483-41c1-a86c-a4c7f31d57e3",
+      "0d3fab93-5fe9-4644-adc5-6d144c6065ce",
+      "78fa484e-d365-434a-946c-817ebf24a2b0",
+      "f9f87af8-c7ae-4790-b898-d7b75a63a61e",
+      "0f8353c0-eb5f-4414-8bd6-78528ace2b2c",
+      "684939ef-df2f-45ec-aecb-f157cf64d455",
+      "ba56aa79-8bcb-4d5b-92a1-89e6d2551df7",
+      "16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f",
+      "deb35b79-6030-4e68-8701-bf4f038e0d9f",
+      "7103b5d3-779d-4370-af94-3e7c47619aa2",
+      "9eb1e7ae-a4f8-4920-9dc0-94ac89524b54",
+      "1111958c-e1d1-458e-b168-0288f4c99bd3",
+      "3bf05912-b1bd-45c8-a984-12df8d99c37c",
+      "558cad5b-24dd-4de7-a2ba-4727b43c5484",
+      "dc67d858-77f9-4941-aa2b-a919aad9d6e0",
+      "3addcafc-b9a0-4b79-9f42-7836a5dc3eca",
+      "18ec94b4-e635-4d5a-952c-62a15567434a",
+      "62f5e720-9304-4339-9cf9-793e53bbf4f8",
+      "85c69293-7de2-4e3b-b13c-3c08fac8a13d",
+      "851c6669-c0b3-472d-8e1c-7a34c2bfc137",
+      "98972a58-f254-4e6d-8a05-a061db63dcc2",
+      "f51d3f00-9735-4847-babd-7175d2b22c78",
+      "7cb03afc-758e-4413-917b-7fd8515f4a4d",
+      "07a370a9-bcdc-42b8-aa40-841a6a959c8c",
+      "22b22ef3-a943-41af-87ff-9146d9ba6834",
+      "35e44790-1e77-43a3-b03e-5ce64e979067",
+      "c7dccadb-def0-4e90-96a4-871ba10af38b",
+      "506bce6f-1520-4b2b-8d3c-dec246a2eb45",
+      "4aba8366-e06d-4082-a2ba-cfec65295770",
+      "51bfe30a-950d-4098-9528-454ae9d53c91",
+      "399581db-bb1e-4234-9c48-147648342cb6",
+      "705dd180-d74e-4b1d-b389-6c32604975d0",
+      "c70b4832-2415-4381-8d4a-881ab81e8ae4",
+      "10026fb5-ed31-49ef-8873-89c4527d261e",
+      "539732dc-4010-42ad-a011-71f395b6f052",
+      "96189c89-573d-4dcd-8ab2-2f6ca83bf0e4",
+      "5e4af28b-1a2c-4675-b1f9-298dc8ebf998",
+      "1b8d1ce8-2655-4bcf-9086-e490ea3fe054",
+      "d2ed74c9-d953-4e16-a61e-3512ca1bde5c",
+      "229c9192-7922-4f2c-8fab-0b99452eb441",
+      "51d9247a-f9af-48cb-bdde-c329d47fd162",
+      "6ac0189e-2a54-49b8-a09e-11864257bf83",
+      "ffe92c83-58c8-43c8-ab95-dc352ebee9c6",
+      "9f59c0c0-f4dd-430a-b756-e3459f7ab49f",
+      "d5087b7c-2511-49b0-8dba-e5acd1538c7f",
+      "e5f69622-d2f0-4cf7-bd1e-b2b58a893783",
+      "ad5bb62f-d0db-456b-b06b-93cbfef7bd44",
+      "bcde9280-92e6-4551-b4dc-7d2a0373bc3e",
+      "2254df00-2075-4a87-ac17-bc4e049629f7",
+      "eb0f2045-ddc7-4dac-a2f1-47758b73ff3b",
+      "fc01a599-6659-46e5-87db-32129f245b9e",
+      "2dd29262-8d57-41c2-81e5-80e3b909d32e",
+      "30da3512-03a0-4d68-b25b-a7c58ac482d8",
+      "0588e9a8-3588-4ee2-9f54-334b71ec7250",
+      "82948df8-e296-41c4-b04e-b70ed9f4006e",
+      "f15607c1-5e31-4100-af08-f947c74d9d43",
+      "4b3dab07-5c66-4488-8282-8badea1999e3",
+      "7530b93e-78bc-4493-86ff-fbc91ee9f128",
+      "a238345e-0beb-4dde-8023-fee19d4ef4a1",
+      "56293993-e651-4183-8a80-03682cd16329",
+      "3ca2500b-7495-4b8d-985c-d4fbf33465e7",
+      "5e6cb24c-3dcb-4e16-8d12-a9b3247e6a89",
+      "390a7de9-4c63-441a-9d98-e5c68f44e5da",
+      "5fb6a55a-a1dc-4945-b062-ee6901efcb2c",
+      "265f891a-d413-4f22-bd86-030653552d9a",
+      "542c3e30-b7bb-4c96-afff-10dc33f371b7",
+      "8ae0be6f-71e7-41f1-8a8a-716fc052ea04",
+      "6706f86a-b245-495b-8637-f692156e29c7",
+      "d10bdd3f-8439-45f0-a061-e222c9290266",
+      "b5d9769c-b550-4bf2-9e1a-213c3ff96c5f",
+      "a1ade4eb-e7a7-4385-88ca-67b6be8592a1",
+      "6380c08d-1bf6-44b7-99c2-053b4cfdd295",
+      "33661605-db8d-4d9f-8815-483ee222d713",
+      "ec66af4b-dc5a-473d-b68f-1a8f930e02d2",
+      "48289125-5227-478c-a1f8-f3bae28fe201",
+      "5e1e7264-3dc9-4c21-ba6b-40b3ab546394",
+      "642c975a-47de-49d2-ad8d-a4a49bbbfae0",
+      "864a48e4-1161-48d6-bf4c-4a876a3357ae",
+      "1bc16469-dcb3-4cf3-819a-9a75f081bbc1",
+      "fa1debc4-dd0d-4df5-83f8-619ca8b9f565",
+      "95ca94ff-1349-4827-92c1-9c32fe9900f2",
+      "5be16fec-7c01-4049-9009-4e17bb84478e",
+      "7f0c68f7-b972-4fcc-a235-121064dcb5b0",
+      "862457af-4c6a-4715-9aaf-b6ed9a910edd",
+      "470a26f6-cb6f-4f97-b97e-567a0a82cd4c",
+      "9e3b2344-d5f8-458d-9d44-e44ba7f4dc2b",
+      "2703c8af-f944-4ae8-9799-07bc5d5032d0",
+      "d5a5bc01-266e-4816-ab8c-b09db72735e5",
+      "434df4f6-2578-4855-bfd4-5d3daa8c8eb4",
+      "f1c010c6-3ce5-4724-ac89-e313dae7e2b4",
+      "998c8346-5e2a-4109-a5ea-fd39e45bd4e7",
+      "81dd5c7e-1e3b-4507-85ca-b622cc135071",
+      "dc4093a1-8088-4bf3-b64d-e9f60b27e0ed",
+      "d33a7758-bad5-4596-b03b-42a840a81727",
+      "8ecb2ed1-378e-4cfa-85b3-8d717d96a785",
+      "ecee4a0a-0c7c-4823-bbbd-bea218e703d9",
+      "f3c5f3d9-53f2-45c8-b58d-3d73d1369293",
+      "c2f78d18-d03d-4568-9816-4683bc3c7ab4",
+      "fae3d377-ea3b-474f-885c-5ee6e072b55c",
+      "2b19f181-7d53-4cb9-8f70-3be824eb1f09",
+      "6e717e8c-371d-4f3b-9a29-6bcdfb737978",
+      "fffb217c-729e-4eec-9e8a-3ce43837b0a2",
+      "47ac619a-4adc-4684-917b-92ded756bfdc",
+      "ea8a9227-2ff8-47e3-b31e-8788f3534c6b",
+      "5bc963a2-444e-43fd-98a3-f8050be85f70",
+      "8306b254-00a9-4d9f-9eb0-5325a22d57c9",
+      "3395126d-b4c5-4c8b-bd0a-23a042d36936",
+      "8fb0af69-8b7e-449a-9c3c-381a86d9512c",
+      "d5463687-95a4-41bd-8742-6e4a0a29d077",
+      "08f4c5f4-1582-4e56-9a8d-931eb6a3c889",
+      "8a3f50c2-0e25-4be6-8939-bad635658168",
+      "43bccc74-77ac-4c7d-8567-3a90d53a0cc5",
+      "8387a8d3-1030-46a2-a5f6-70b678bf3a2d",
+      "9c3e6bc2-3a18-46ad-b797-da69e6dc54a3",
+      "e030965f-cd19-4357-93a1-fe348cf1fd32",
+      "1c9f7a1d-ca50-4f02-bb8b-5ff33b96f4b0",
+      "b16e0900-8cb6-4b28-9c77-87cdddd56558",
+      "65e4d9b3-4515-4537-b39a-8bf998b63eb1",
+      "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "0405dce5-9d05-4419-a290-7196b1db535b",
+      "e340b2f2-80a1-4534-a689-d911ef034de5",
+      "f4a6a1ae-12d6-4e2c-97c3-91b6e151340c",
+      "1c467c6c-7699-4e60-8495-355f6c0b5673",
+      "dac57359-a39e-4b24-8e6a-1eabc70e25ad",
+      "13a5fa15-f50e-4e8b-872f-1217888d158a",
+      "2455fddc-6216-4ca6-a095-d57cbf79feb6",
+      "4b71157d-241a-4d25-b2aa-281ad01cb135",
+      "6c6b4ce1-b9b6-442c-b409-9ba69c36bb63",
+      "007ff418-de4b-4d1e-8de4-f52e885df8ff",
+      "f377ff07-d9a9-408d-ad1b-450444ebb52b",
+      "c9abcf76-8089-421f-8e5f-a97f4cffd843",
+      "d3860b4f-0380-4924-8864-7b2d0a5b5eed",
+      "3b4a4871-d793-4c4c-9732-3e120b7b229c",
+      "a83e50a4-9737-400b-9286-f7cf9aabfcf1",
+      "be1e9ecd-b198-4bdb-b348-088352328db0",
+      "a7093388-7886-422c-aa00-15aad43371e4",
+      "933c6cd8-8890-4e0b-84cc-70970fef2ea4",
+      "36889700-2ad9-4ea1-a4c7-976f30dbc83d",
+      "8b460623-eb3d-4edc-95cb-5dfb6d9245c7",
+      "b66c64b2-5ea0-46c3-97bb-60e79d365a9d",
+      "f5c4b990-d928-46d2-a308-a5125a8d3d59",
+      "bdf24747-03c5-4f3e-8ccf-ba9fe4758b39",
+      "34e27add-3936-4c7b-bc22-3cb5076d4763",
+      "1c6b18b1-95c7-4a6d-a4a1-f255a0c38188",
+      "d9f8f8fe-175f-464b-8c99-9072f05fc7bc",
+      "07c2bfe4-0b6f-466d-9c8c-10e298677fe3",
+      "de89fdf0-43bf-4de7-aa6e-bfca1a9a4586",
+      "9ff8cf1e-7b73-4427-b83d-182dd2414a2b",
+      "ce6905cb-0c93-4e6b-8cde-7e300dfc874c",
+      "e439d879-be89-460a-8b19-6a76445a7b2c",
+      "b94cff39-c424-40ea-802a-ba68bf87f400",
+      "4fa309a0-d98c-40f2-b45c-91599714bb49",
+      "dc7d3532-7659-488a-ad5c-e0959dc320ed",
+      "06c9b1c3-b5df-471c-a89a-ced086841a9f",
+      "161f9dfc-2094-4747-8725-f38d6ceef693",
+      "f7bf25c4-2751-4693-ac76-b2d2f90e3a5c",
+      "41d0e2c8-6883-4a25-b701-5a60cdbe52bb",
+      "07d63c88-3db1-4be0-95dc-3434d0e4c377",
+      "6704fb8b-9c95-4bbc-a844-e2714c9c3dc3",
+      "fe84921f-b161-4445-a820-693307354c5b",
+      "0a5b287e-1db7-4d0c-a8f0-4202673b2391",
+      "313e4537-0388-4c1e-b6b7-9de9378d91b8",
+      "2c99baf0-65ff-4676-8d52-a9ff7f3b32e9",
+      "592c343b-ddee-424c-8258-3522e4c8c0a9",
+      "cb65cb84-16d3-47b5-a056-32fd112a58ef",
+      "dde8a426-02c9-49d9-a059-a7e072cc4814",
+      "b725ac54-8fb2-4bc5-bb75-b7e2cfdbfb1e",
+      "5f81c9d0-86f0-442d-852e-32175e9cdf50",
+      "70f5be47-9f35-4e43-8aa6-a2b405913a3e",
+      "b115c237-307e-4152-b878-5160488d6b93",
+      "f5aa9eb9-d52c-4644-b529-d0097b0987a3",
+      "ef7f274f-7015-4669-9f43-6f96b61886c4",
+      "1588aca9-151e-4737-941a-2a66ba2b6975",
+      "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "3cd9ff62-8d84-48e0-b15e-5e5eb3713794",
+      "f8fc0ae7-1595-45dc-99b2-4af097ea57d1",
+      "820ff15d-1eb8-45ca-ba17-543f93e449c0",
+      "96f17533-ac99-461e-9e88-f37d6d9dfee3",
+      "142aae6f-5441-4fc4-962f-c38d7ef664a7",
+      "e51a2d3e-7a95-42ce-8601-7e67861139dd",
+      "665abb5d-81ce-440f-bfbe-d2481ae24b26",
+      "394c2652-5781-4280-aec2-70c50b7c5a5e",
+      "c28032b0-f532-4f3e-819c-0c5665ac54e4",
+      "b693fcd7-418d-4cb7-b50a-6f9e4d75f929",
+      "bef5db4b-1d16-454d-bc1c-ef63938e3682",
+      "886b9697-c760-4183-89b4-0578a4a2ac9d",
+      "25069723-7073-4ef0-90a2-3b9d2b3b019c",
+      "285f00bc-23ae-4759-acb1-1ab0461c99d3",
+      "f5bac94e-2898-45e0-9921-c5a3343dae64",
+      "34439125-276c-4e85-bf5c-7e3bebd03da8",
+      "89908e0b-ab39-4249-9a73-0ba821bf33f7",
+      "7b624288-54be-4c0d-83e7-0f124e3f6f99",
+      "400255fa-e7ad-4af3-b8d0-bfe3298e57e4",
+      "3da810b4-bb89-4dc9-935e-9a70bed66a68",
+      "f0c186a4-ed3b-4237-94d9-d03eb275f20a",
+      "1fe377a0-1757-454c-8144-b5a189daa95f",
+      "aad64886-0ee2-4d67-b0e3-a09cc197d538",
+      "35baf11c-a4a8-4878-89c1-572ee1884654",
+      "57d9123c-a9f2-432f-bcc6-1c1eef8cf2d2",
+      "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "61b16f0f-2853-413b-a343-e6ae20da3e63",
+      "fa387b38-a348-4440-85f0-0fe44a5c0c47",
+      "dc0b9f72-2d65-42d4-9d2a-310cb7b0b592",
+      "77306cfd-1d83-49b1-a893-a37e294a46de",
+      "f5cca024-26fe-416d-91dc-8c5052c322ed",
+      "fc070e0a-c3f9-415b-b75f-9d23bb6543b8",
+      "3ca37bc7-b5f7-4854-a8de-1ded6e79d96a",
+      "0b842adc-c80f-4f5b-83de-def5a96f3a89",
+      "27ef7562-3de7-40e1-8872-07ccd8228287",
+      "0d2c2b8c-b213-4667-8874-14388414292f",
+      "855534e7-445a-49c5-b851-e6cd8eb7d24b",
+      "1b80f0fc-598c-4473-88cb-92acc5967045",
+      "6fd019ac-52b7-4fcb-a569-2a9f3f54e9d1",
+      "959162a8-02a1-4b8a-9b98-e32af1354b0b",
+      "67b093a6-f07e-4c30-90b1-08c6374768d2",
+      "bc17f5d2-08df-4f9a-87ea-22c520642896",
+      "6b7b1131-4ea1-482b-985c-deb6ec06fae8",
+      "b487e95f-8a9f-4865-9836-ae95481ce360",
+      "c1c120a7-8474-4949-8d60-c3616187621e",
+      "4d7d1d6d-c6b5-4de0-9c0f-54789f246d29",
+      "2875f141-f8fe-4dc7-affa-3c1f24fe50aa",
+      "ee722e0a-42d1-49fb-9870-13abd74d7d77",
+      "dc8c7890-509a-4ab6-8a9d-9a975c5c0e18",
+      "086f6ec4-bb13-4f02-94fc-696ef3136ab9",
+      "069b1498-8b6c-4fbd-a9ed-3e281b662eae",
+      "0fdc93db-544b-45ca-80f1-a8c93838dc94",
+      "9cdbbb44-f266-427d-8839-97ba98e47804",
+      "d1d8189f-e54b-4cc4-b90f-02f094a4c5d0",
+      "21639bdf-dc6f-4141-9162-571be56ae114",
+      "34cd1071-10ce-4cf1-aee7-74ffa9b1a673",
+      "84a1c527-eb5d-402a-b942-31ee520cf2af",
+      "a9df8561-a4fb-4fb9-8c15-964acef15651",
+      "b056a7c1-6594-4687-934f-4a80602c4e30",
+      "b912299c-1da2-4f5a-aa97-6090e8a36b73",
+      "d73a4029-ae4c-4022-a578-18ae0a16a78a",
+      "f86e06f9-fd37-455f-9374-210207b8e48c",
+      "fd5aa22e-5b54-45dd-8fce-ae6ce2fd5fef",
+      "ff2f3a1c-3977-4245-aa01-c3a677cfe9e2",
+      "68e6121b-8a6d-4a78-a703-95d3012f64ab",
+      "a371215c-6a0b-49a3-a12a-e75626b077ce",
+      "c3f97c5a-b5ed-4d3c-95e3-c23b45f3d431",
+      "a0069c33-c8d6-424a-821a-9a6bfc4c1d9b",
+      "67cde463-7fb4-454c-9b7b-20429031627f",
+      "c28b269c-0d08-47be-96cc-d4a5c1e0ad96",
+      "81e66e27-460a-4264-a92c-f234b4db3171",
+      "4c89b21c-6cc3-4df3-836d-7f055d0ff0df",
+      "443e2207-4aa5-4c6d-9398-e1e99a00e48b",
+      "094f58eb-d9b9-4fec-a5bc-bd4e188cf709",
+      "bbadf4d3-585d-4821-b316-4a958a293af3",
+      "4439ac87-e765-4875-b5b9-e1ade8d695fe",
+      "b8bab41b-0cd5-40a8-8467-ca9c98c344d4",
+      "1fd0bddf-4582-4a37-9dd6-8ffdecbc1eb3",
+      "d8524475-231a-4e9e-a51c-745e0a2ce4fb",
+      "d73ff27a-db7f-4ddf-b5c5-605b883dba3c",
+      "63cd2bcb-2160-4027-b6c8-25bb42d9ae50",
+      "12242f0b-0c9f-4b9c-9e7f-8141f209b6eb",
+      "39bd0741-ae23-40e3-8252-493f558646a3",
+      "ddcfcfa2-fc0c-4ace-89de-368924f8e203",
+      "0b4d7ffa-826a-4528-a532-7f1904c3deea",
+      "6b370ac8-7c5d-4c28-84bd-2ea6c7cb53e9",
+      "5389027b-12a4-4251-bc6e-d6c10caef7cf",
+      "db83c626-bfe9-413a-9556-3b9ca3eaf0a7",
+      "3790357b-5432-416a-9c82-18cb898c12ba",
+      "c97cafbd-71ea-47c0-950f-53e3beb0e39c",
+      "bb5c9fab-3a46-4faa-bbc0-141263f9e73d",
+      "1075432d-bde8-41a2-8652-039a29b48963",
+      "a3bdca29-8982-4b24-8d7c-300d3c256960",
+      "c90fef04-e61e-4ba4-a6f8-0eac9a578737",
+      "05fba18c-d593-40d6-a310-4d076253fab6",
+      "0ac06702-f8a7-4453-bad6-422fe9fd17be",
+      "21e24c37-51e6-4e1e-a727-47a82c9123d9",
+      "a4f5e429-f334-467d-ae88-542075a564b3",
+      "a7764d58-9106-4a2b-8e8d-ea2d0bbf469c",
+      "ad5b7a16-5186-4c52-a501-9e905c9e7f82",
+      "b307afe2-6d5f-45ac-a721-40d2a140d13a",
+      "3e515e72-7121-4f08-a062-d89e594a354c",
+      "9115cfc3-f5aa-4b81-9ecf-56b8ebd8028c",
+      "b2bd19bf-f9fe-4436-af6e-b08cac9c3dcd",
+      "dc471b47-1f9b-4bd7-ae4f-44c5b6225bde",
+      "ed54c454-51c3-498f-93ce-3bfc3d907cd1",
+      "18e9672f-f620-4bb4-a12e-7c52d3fab3a3",
+      "4b5fdbb7-cebe-4e16-be2d-8da165926303",
+      "2c46b6e6-8760-4f15-b4ef-737db236bc60",
+      "4786eeb0-3c3e-4808-a0b7-82db8ce551db",
+      "f5f2d7ff-75b3-4aea-b09f-93d9ea568a71",
+      "1ac136da-67b1-4da0-abb5-0dd71e84c3e8",
+      "6cb91682-9705-4cc2-ae11-e94a272c9ebf",
+      "db0ca17f-4be6-4cc2-a828-60bc923708d9",
+      "004099e7-b927-4fbb-924e-e0f9dcd07991",
+      "e7175b7c-ac69-4583-90a0-74b8ddf3351a",
+      "cea61cc2-51ff-4b23-bb0a-2488cc9c77e6",
+      "1f51514a-2386-4670-b170-873e00282c57",
+      "0175efd5-198c-48e1-bf39-7722c3aa7c01",
+      "60574006-891d-4377-a6d9-c84175809856",
+      "3dcfc356-c588-44f5-a021-0bbfc867696d",
+      "424871d3-119b-4550-81cb-db46f02a3cd5",
+      "3e6e78a5-b99c-4c48-a742-4fbd31fdab2e",
+      "8bbd0b71-94db-4ee8-8bba-e2d90e6b0e3e",
+      "13122eea-915e-4bdb-970b-d9ae341f3ee3",
+      "4ec85789-b4b3-4339-9be3-5a4ffeed0670",
+      "87c6be36-6dde-49b6-b0ed-68570f89e13c",
+      "45cdcebc-838f-4023-92bf-e3201eb3ed1c",
+      "37506720-c1d3-4ec9-ae60-b6041d93c71d",
+      "a07450f5-e8d7-4ee6-ae9e-dda28241c47b",
+      "e4945333-a604-4106-9fce-4b18bf0434bd",
+      "596722f9-46ed-461d-8bce-18b8a07180e7",
+      "2d20f6f4-6392-414e-be0e-45f87e779d48",
+      "38a5ba94-bff6-4046-9478-6f928ab16f0e",
+      "bdfcd1c2-a3f4-42d0-a6e4-607b2463d321",
+      "a11ee1be-249a-4643-9e54-721c2a8beec5",
+      "4b58cbb9-9554-40db-8e2b-b560d275a57a",
+      "46781b9d-1f0a-4199-bee6-c747219bc240",
+      "bbd55e61-2f56-4fa5-bc30-332ca003afcb",
+      "a1d6e0a9-34ac-49b9-ad4e-e2656370896d",
+      "5ce76d5d-5335-47ce-8c46-4c3815e1dbe5",
+      "4f5159e7-6bd3-4d10-9178-f04b66470c71",
+      "5b20e7d0-33d0-498e-8e2e-71f9a8d5b001",
+      "8fd2289f-a270-44f6-8658-e09601dbe50f",
+      "32e6afb4-f687-4f5f-97d8-3ac01779e535",
+      "f06dffe6-34ce-48a3-b64c-5b383003e4b1",
+      "1bcc4adb-e49a-4ce2-9177-0328511c45e9",
+      "ad4b69d0-b596-42c5-aead-5e5d7cfddcbc",
+      "f3943f2d-516e-4330-8b53-3fd9421d07e1",
+      "10535770-403b-4cae-be76-6d6a30447d69",
+      "63c4e9ac-d2af-4035-8365-2b85469fc4e5",
+      "829cdad8-bf82-494e-91fc-93680a431858",
+      "734ccd83-aa32-4a56-ba96-b35e12bc843e",
+      "390ca184-c598-408e-b40f-45a9b928c7fb",
+      "907b7d65-3337-4497-af6d-7f556432a216",
+      "e4992e22-17d9-4687-9e7c-539f499b954a",
+      "24f237ac-637c-4667-9ad1-d3fc355834c5",
+      "55d22ad9-0586-4a45-9175-67f4ab083883",
+      "5e0b3425-12fe-4135-b022-cae619c3bca5",
+      "7dd1b621-7f4c-4438-997c-787b92f3f002",
+      "d27d0cf4-76b7-460a-b5ef-d65a96d9be86",
+      "515938cd-f8e3-4ecf-b07a-4852146f94e3",
+      "5e09faad-addf-4831-9376-1a167f0c63e6",
+      "1c6fe6ec-d827-48b0-97b4-2a735c430559",
+      "f90dbd00-cca6-4bcd-b6ec-a9caeee78a4d",
+      "a39d4f2a-85f9-49ce-b191-db4c40fa3519",
+      "b66c8b20-1007-409c-a459-640b9ac86306",
+      "0ba16f21-541e-41ad-a57c-77a0054d34f7",
+      "6313cd52-2977-4473-8e8f-a70cfcde00a2",
+      "ea4ca325-f80e-4451-a193-e064f7206c0f",
+      "41c4c52a-2139-409e-9907-138cb81163ee",
+      "560aebe2-82a9-4fd1-8ff7-87eb90d0f2b4",
+      "ac59f889-f611-460b-8bf6-6261e313aca6",
+      "a1382e07-b5eb-4f5b-a7fe-247121dc287e",
+      "a8b64f35-b608-4df7-82d9-2affe4108631",
+      "1fa19552-d1fd-459e-92b3-57ed5319d18c",
+      "8827e952-0877-4a73-879a-2ce077005838",
+      "23eaa675-18ad-45b1-b535-25f7583087b1",
+      "838c8bcd-4e2d-4e90-bc25-25355ea6da60",
+      "ee452cda-1d64-4ed9-a337-34949502a39e",
+      "0745b8ba-8980-47cf-a205-d1412efd18b7",
+      "fea3c0c1-7a62-411a-b1d9-adfc1774f9b9",
+      "64c91100-89c3-4206-8e7e-988e575385b8",
+      "2b16a755-ac7f-4b4c-bd6f-f004cd5e8cc9",
+      "a4a85d3e-ca9b-4d37-8587-c3fb7d6ed7a3",
+      "dc71d88e-b1b8-4cb3-b7e9-c83c3bdb65f8",
+      "2c273256-a0bf-408b-bb22-09718372e888",
+      "97799dc8-4942-4fd9-9142-003a0954f058",
+      "ff7cdedf-319b-4bf2-abba-ebd235dfbfa0",
+      "7297d88d-378c-4d49-95f0-12838396fbdd",
+      "871127cd-1d04-4cae-866e-d666b76fd868",
+      "64ef7967-215d-409a-863a-92d07e05bb2b",
+      "cdd301b0-457e-4452-a394-6eea21256e61",
+      "c384374a-c419-4747-a768-326f41f4e4b2",
+      "eef758af-541f-4251-ae3b-5b1de20dc246",
+      "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+      "9561ffd7-c7c1-41a2-bee2-8fcc0ef109b1",
+      "d2bb3a63-79fd-4d31-b497-2a13f570fab9",
+      "6cd54b72-287e-4259-af32-a29c6ec3c5a2",
+      "5f3fc243-11dc-4a13-8cff-f62bf1ea15df",
+      "67559716-1ef2-4c7a-85d0-f8d1eaa03158",
+      "83cedef0-8a28-42f1-a055-7ebeb701b348",
+      "794a7efa-b90a-41dc-a8d3-071e7c3ac323",
+      "d14ab99d-d50e-4e90-8365-16d989be5517",
+      "94a8a995-412a-4fb6-a27d-c43b2ad0bf04",
+      "040f06a2-55aa-4246-a7d3-f7c4745bfc2c",
+      "d5b38c81-86f9-4d9a-acfd-49b5b25847f5",
+      "e0939d0d-e8d1-422f-88d5-071c3180e2ae",
+      "fc72084b-9c9e-4b19-8126-b35c24310b06",
+      "0195ca04-f278-40ed-b228-f76672f85430",
+      "ed83a48e-433c-41e6-95e5-e2d6edc948b1",
+      "4c515540-e12c-488d-9c03-3fcb2262ac21",
+      "005475c6-a8a0-40ac-b6c7-ec2f55953bb2",
+      "8821d3af-cbef-4bee-a831-d8fb4bf749c0",
+      "195c942f-c11c-4911-8a2c-568e647ec692",
+      "361b1e1f-9eaf-4591-bb78-bf832ae4706b",
+      "756f6937-206f-4bb9-9b02-5af147e3243f",
+      "031eef83-bfee-4848-8cd2-b8434f11165e",
+      "cef1a9a1-9dba-4f4d-937e-9cb5f1146bc7",
+      "7b7f455a-84e0-4a14-a46d-3ba119ae27a9",
+      "9e27d51f-e7e5-44ee-8563-83d24407388b",
+      "da60edd5-98cd-4455-a66f-efbd8a61967f",
+      "40504a61-9760-482c-b35f-b00953971508",
+      "cd0b4652-d283-4f66-ac8a-19abbdbf7740",
+      "311d134f-5056-4f7b-bb04-9fda1fb94fc6",
+      "c79e7db0-ee20-42db-9c20-43259139527a",
+      "c7338d5a-3f90-44e6-8843-17681af20732",
+      "c9567bdd-b010-408f-b3a9-f0866958e7ba",
+      "5d82d6a2-e415-498e-84d0-b1ef52269063",
+      "3bdd4db8-4206-4142-9ece-4524d95e6898",
+      "57452296-d26a-47a8-bb8f-18031c022b2d",
+      "1338b947-c4c4-4770-a86a-69d693f7e196",
+      "580b41a5-ab32-4827-911d-4b0443e8d0f6",
+      "ed6dfacf-1a5e-4447-8faa-833514e87070",
+      "152135aa-091e-4ef3-b7cc-123cb148f7ab",
+      "6c121750-efc5-4e17-8e64-6c52c23ffd4b",
+      "8fe2ffcc-a7e5-45a5-aab2-cb27e85e5860",
+      "d5bc6ece-d75a-4510-be57-9153b380adfa",
+      "eb6ea055-27bb-44b8-88eb-ff4b77618b21",
+      "96e74e69-7ff6-402c-9959-597c0b472950",
+      "7632b31a-e277-4b7d-a486-63e11aa1d04e",
+      "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+      "478abcb0-1094-4b10-b3e4-ecbc02840715",
+      "c45958f2-9372-4430-acfe-f175759221cf",
+      "f36feb1c-1b40-43f8-b34b-7f7e47dcedac"
+    ]
+  },
+  "mailboxes_primary": {
+    "mailboxes": [
+      {
+        "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+        "email": "factura3@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-05-28T15:05:35.568110Z"
+      },
+      {
+        "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+        "email": "admin@nova-robotics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-29T17:38:56.048744Z"
+      },
+      {
+        "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+        "email": "factura1@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+        "email": "cosmin@ig.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-09T23:30:10.009451Z"
+      },
+      {
+        "id": "3af45560-d448-4125-97cd-f12519882779",
+        "email": "office@alba-vision.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:04.130010Z"
+      },
+      {
+        "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "email": "covaciu.gnm@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T12:27:26.471904Z"
+      },
+      {
+        "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+        "email": "vaidae104@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T09:45:20.603809Z"
+      },
+      {
+        "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+        "email": "covaciu.gnm@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-05T20:30:06.421684Z"
+      },
+      {
+        "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+        "email": "mariuscodewnk@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:04.693409Z"
+      },
+      {
+        "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+        "email": "factura2@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-21T23:30:06.079888Z"
+      },
+      {
+        "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+        "email": "factura@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-25T10:00:12.428091Z"
+      },
+      {
+        "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+        "email": "production@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:05.804635Z"
+      },
+      {
+        "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+        "email": "cosmin.covaciu@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T14:30:23.531195Z"
+      },
+      {
+        "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:10.304460Z"
+      },
+      {
+        "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+        "email": "cosmin.covaciu@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:06.451550Z"
+      },
+      {
+        "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+        "email": "cosmin.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:06.595413Z"
+      },
+      {
+        "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+        "email": "link_covaciu@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-08-02T20:30:05.901517Z"
+      },
+      {
+        "id": "shared:cesiro.horeca@gmail.com",
+        "email": "cesiro.horeca@gmail.com",
+        "provider": "",
+        "permission": "team",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:dancorproiectsrl@gmail.com",
+        "email": "dancorproiectsrl@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearideit@gmail.com",
+        "email": "3dspacearideit@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearide@gmail.com",
+        "email": "3dspacearide@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      }
+    ]
+  },
+  "mailboxes_secondary": {
+    "mailboxes": [
+      {
+        "id": "831768ac-d603-4c7a-a154-4d5e50f3360e",
+        "email": "noreply@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:19.680491Z"
+      },
+      {
+        "id": "3aa4c651-3e04-46c4-bcd0-de1fc1f5d559",
+        "email": "dracula@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:08:21.274335Z"
+      },
+      {
+        "id": "896b1f4d-a9d6-4f7e-a351-9a145901eeaf",
+        "email": "office@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:08:25.790894Z"
+      },
+      {
+        "id": "ef646808-0190-4732-bcec-31445e1feba9",
+        "email": "learn@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:05.254119Z"
+      },
+      {
+        "id": "d8ff3753-0ef2-40c0-ab9e-ba5ee1acbd32",
+        "email": "news@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:08.527869Z"
+      },
+      {
+        "id": "9a9843e6-9219-40b3-9a0c-d36b101ca35a",
+        "email": "mail@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:06:19.543911Z"
+      },
+      {
+        "id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T14:57:01.038278Z"
+      },
+      {
+        "id": "77e3dc53-9200-4670-be05-7657140ac940",
+        "email": "office@set-farfurii.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:37:03.880574Z"
+      },
+      {
+        "id": "6e39d49d-967a-4ae2-8741-502f4db074e0",
+        "email": "office@fisher-price.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:38:09.592710Z"
+      },
+      {
+        "id": "e818fda6-70c2-46eb-94f1-0b9add7f1a17",
+        "email": "office@go-pro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:38:41.691423Z"
+      },
+      {
+        "id": "627ebe93-3894-45e7-b75c-8c43eafb158e",
+        "email": "office@ninjakitchen.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T12:01:37.105568Z"
+      },
+      {
+        "id": "1a25fb22-0d77-4dc1-8d54-0ed040903b6f",
+        "email": "admin@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T11:01:29.893981Z"
+      },
+      {
+        "id": "99db103a-abad-4ff9-9c71-2dec658c4744",
+        "email": "elena.vaida@bonna.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:07:44.616374Z"
+      },
+      {
+        "id": "f9638afb-6882-4109-91e5-0f02ea0a5288",
+        "email": "office@tartecosmetics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:32:40.949612Z"
+      },
+      {
+        "id": "ee0f0164-90c3-489d-903d-2604c1c1aa90",
+        "email": "office@set-vesela.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-13T07:54:10.652177Z"
+      },
+      {
+        "id": "57e5cc21-e921-4b01-b65d-5b799409b9d7",
+        "email": "office@innovation.cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636983Z"
+      },
+      {
+        "id": "e2a58b38-9c6d-4309-a0ed-36b783412896",
+        "email": "aloenergie@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:17.036219Z"
+      },
+      {
+        "id": "5dccd9d4-463c-42a5-87ee-b2e8949854d2",
+        "email": "market@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:21.447863Z"
+      },
+      {
+        "id": "16a90808-cce9-4c32-8953-3a4604d07668",
+        "email": "neets2@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.513397Z"
+      },
+      {
+        "id": "83cd8eeb-a40b-4e29-a6ae-eacaf8494b56",
+        "email": "genesis@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:32.106194Z"
+      },
+      {
+        "id": "b20d6cbf-89c4-429c-b72b-d1fa766bac10",
+        "email": "alexandru.szoke@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:12.563041Z"
+      },
+      {
+        "id": "3f910d51-664f-4e96-8c5d-c6493e61a6d7",
+        "email": "spam-monitor@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:12.873013Z"
+      },
+      {
+        "id": "093dfb20-c1d0-4e86-994a-c629d2a0be8d",
+        "email": "innovationecosystem@red-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:35:36.133157Z"
+      },
+      {
+        "id": "537f7947-a408-49ec-aa9b-f64216dd83ab",
+        "email": "admin@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:12.985651Z"
+      },
+      {
+        "id": "e32c5101-2444-44c6-9f67-5e65a996a346",
+        "email": "elena.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:17.141914Z"
+      },
+      {
+        "id": "85571b3e-51eb-401b-856e-729bcd41f0cb",
+        "email": "nvidia@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.672607Z"
+      },
+      {
+        "id": "fbb3ee9f-41a2-4c92-8862-bed90e3e73cb",
+        "email": "office@melissaanddoug.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-25T20:30:27.023877Z"
+      },
+      {
+        "id": "c23730a0-0b21-4a1d-80b8-d55085085d34",
+        "email": "office@red-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-13T06:34:04.316658Z"
+      },
+      {
+        "id": "e03f5a52-1a55-4fd6-817b-0bdf305ceff2",
+        "email": "office@black-robot.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:09.504369Z"
+      },
+      {
+        "id": "ded9e2b3-2bf9-4af5-a94f-d6a525fb4688",
+        "email": "office@jinko.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:15.534051Z"
+      },
+      {
+        "id": "86be87eb-354a-443a-a3a5-d0caecbbde24",
+        "email": "office@opticosmetics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:29:59.775052Z"
+      },
+      {
+        "id": "a92552c8-a70c-4527-bfc7-4a600ba265c1",
+        "email": "office@calphalon.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:31:52.620181Z"
+      },
+      {
+        "id": "1ba88694-a07a-430d-afce-1a7c1382080d",
+        "email": "office@leapfrog.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-12T11:35:45.955145Z"
+      },
+      {
+        "id": "f274f19a-079c-40e8-b03f-5ae371815f15",
+        "email": "neets1@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636451Z"
+      },
+      {
+        "id": "c914fe73-c11f-491c-a4d2-db35493dc3b4",
+        "email": "noreply@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.636928Z"
+      },
+      {
+        "id": "8d362a94-f16c-4c33-998c-bbb66b4cc158",
+        "email": "new@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T10:59:36.640433Z"
+      },
+      {
+        "id": "5f0e1969-74da-45ee-95da-b5e2d8dbf860",
+        "email": "office@andowl.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-30T15:00:14.596889Z"
+      }
+    ]
+  },
+  "draft_readback": {
+    "id": "ebe46e54-bdee-407a-971f-1025f67f6482",
+    "kind": "new",
+    "source": "chatgpt",
+    "status": "pending",
+    "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "account_email": "office@ac-wohnart.at",
+    "to": [
+      "ployer@zt-pech.at"
+    ],
+    "cc": [
+      "sekretariat@zt-pech.at"
+    ],
+    "bcc": [],
+    "subject": "Schallergasse 35 – Unterlagenbeschaffung und Terminverschiebung auf 2026.11.03",
+    "body": "Sehr geehrter Herr Dipl.-Ing. Ployer,\n\nvielen Dank nochmals für das sehr aufschlussreiche und hilfreiche Gespräch. Ihre Erläuterungen haben uns geholfen, die Situation besser zu verstehen. Wir hoffen, das dabei aufgezeigte Problem rasch klären zu können.\n\nWir haben inzwischen parallel mehrere Schritte zur Beschaffung der ursprünglich eingereichten Unterlagen eingeleitet: über unseren Rechtsanwalt, bei der Voreigentümerseite und dem damaligen Architekten sowie direkt beim Magistrat. Wir verfolgen diese Anfragen aktiv weiter.\n\nNach den bisherigen Hinweisen könnten sich die behördlichen Originalunterlagen noch bei der Baupolizei befinden. Die entsprechende Abklärung läuft bereits.\n\nWir würden unsere nächste Besprechung daher gerne auf Dienstag, den 2026.11.03, verschieben, um erste Rückmeldungen abzuwarten und das weitere Vorgehen auf einer besseren Grundlage besprechen zu können.\n\nWäre dieser Tag für Sie möglich? Bitte teilen Sie uns mit, welche Uhrzeit Ihnen passen würde.\n\nVielen Dank für Ihr Verständnis und Ihre Unterstützung.\n\nMit freundlichen Grüßen\n\nCosmin Adrian Covaciu",
+    "attachments": [],
+    "reply_to_email_id": null,
+    "created_at": "2026-10-29T16:23:51.529379Z",
+    "updated_at": "2026-10-29T16:23:51.529379Z",
+    "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+  },
+  "searches": [
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "office@zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "sekretariat@zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "ployer@zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "Bernhard Ployer"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "PECH"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "Schallergasse"
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          },
+          {
+            "id": "7632b31a-e277-4b7d-a486-63e11aa1d04e",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Rechnung 26/101261SR 1120 Wien, Schallergasse 35",
+            "from_name": "Buchhaltung Wöhr",
+            "from_address": "buchhaltung@woehrparking.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T15:27:24Z",
+            "category": "fyi",
+            "labels": [
+              "10: Invoices"
+            ],
+            "folder": "Buchhaltung Wöhr",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "Rechnung 26101261SR Schallergasse 35, A&C Wohnart, 201582.pdf",
+              "image001.gif",
+              "20261027, WA, Schallergasse 35, PL.pdf"
+            ]
+          },
+          {
+            "id": "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+            "from_name": "Höbinger Andreas",
+            "from_address": "A.Hoebinger@donauversicherung.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T12:25:50Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Höbinger Andreas",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "Vollmacht Hofhans.pdf",
+              "703920_Antrag.pdf",
+              "Deckungserweiterungen_RV 29000010498.pdf",
+              "Polizze 2044001194 per 17.03.2023.PDF",
+              "Memoformat.pdf",
+              "1120 Wien, Schallergasse 35_Antrag.pdf",
+              "Polizze 2044001194 per 03.06.2020.PDF",
+              "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+              "Korrespondenz zu Eigentümerwechsel.pdf",
+              "image001.png"
+            ]
+          },
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "96e74e69-7ff6-402c-9959-597c0b472950",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-29T11:06:48.351968Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "2026_10_27_Werkvertrag_Anmerkungen.pdf",
+              "2026.10.29 Werkvertrag BERGER R11.pdf",
+              "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf"
+            ]
+          },
+          {
+            "id": "c45958f2-9372-4430-acfe-f175759221cf",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:46.009718Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Schallergasse_35_Baubescheid.pdf",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf",
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f36feb1c-1b40-43f8-b34b-7f7e47dcedac",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12.256575Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.Capra@cerhahempel.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 7,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "AN01"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "AN02"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "2026-470"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "P2026-470"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "undeliverable"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "delivery status"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "Mail delivery failed"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "Unzustellbar"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "Zustellung fehlgeschlagen"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "is_sent": true
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "is_sent": false
+      },
+      "result": {
+        "items": [
+          {
+            "id": "de2f822c-5869-443b-b1cb-5dea43d8008f",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Comanda Glovo AB3P1VWYL",
+            "from_name": "Glovo chitante",
+            "from_address": "glovo@appsmart.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T14:14:24Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_44044"
+            ],
+            "folder": "Glovo chitante",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "RIDPF_48077128_2026-10-30_AB3P1VWYL_vat.pdf"
+            ]
+          },
+          {
+            "id": "e3a157f5-21e2-4ca1-ba9e-d6484b85784c",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Details of your order",
+            "from_name": "Glovo",
+            "from_address": "no-reply@glovoapp.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T13:56:09Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "4: Notification",
+              "Label_44043"
+            ],
+            "folder": "Glovo",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "0f9735f5-d11f-4609-b919-599686c23775",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "DUO, UNO și DIAMOND intră la Black Friday FINAQUA",
+            "from_name": "FINAQUA",
+            "from_address": "office@finaqua.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T13:10:24Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44032"
+            ],
+            "folder": "FINAQUA",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "a187b2ca-a55f-4044-999b-1a0e1f4bcf29",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Your email signature just got an upgrade",
+            "from_name": "Antonio at HiHello",
+            "from_address": "antonio@email.hihello.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T12:23:14Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44042"
+            ],
+            "folder": "Antonio at HiHello",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f327430b-351f-4433-916a-8f28cac18a7b",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Welcome to Glovo Prime",
+            "from_name": "no-reply@glovoapp.com",
+            "from_address": "no-reply@glovoapp.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T12:10:17Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44041"
+            ],
+            "folder": "no-reply@glovoapp.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "c0ae0d08-9c24-49dd-82c3-7812cacd8c49",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Cosmin, descoperă Sinsay – lumea ta plină de avantaje 🛍️",
+            "from_name": "Sinsay",
+            "from_address": "message@ma.sinsay.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T11:16:23Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43857"
+            ],
+            "folder": "Sinsay",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f2f6b721-c133-4b93-9238-5020746d37af",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "4 pași către zboruri mai ieftine ✈️",
+            "from_name": "Skyscanner",
+            "from_address": "no-reply@sender.skyscanner.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T11:06:39Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43839"
+            ],
+            "folder": "Skyscanner",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "61072546-2592-44d4-a4a3-80dd5054971a",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "DanuTech Security Code",
+            "from_name": "DanuTechAccount@account-mail-eu1.iflyoversea.com",
+            "from_address": "DanuTechAccount@account-mail-eu1.iflyoversea.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T10:54:27Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "4: Notification",
+              "Label_44040"
+            ],
+            "folder": "DanuTechAccount@account-mail-eu1.iflyoversea.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "8c7ebda3-4504-40b7-b809-b88614644600",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Informare sfârşit perioadă pentru transmitere autocitire",
+            "from_name": "no-reply@contulmeu.apaalba.ro",
+            "from_address": "no-reply@contulmeu.apaalba.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T10:52:46Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "4: Notification",
+              "Label_43917"
+            ],
+            "folder": "no-reply@contulmeu.apaalba.ro",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "264f61fb-3742-4e21-bc58-790f6af833e0",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "WG: Interesse an Ihrem Fahrzeug: Bentley Continental GTC / Mega Farbkombi / 2. Hand, Interne Nummer: 053546",
+            "from_name": "Cars | High-Octane",
+            "from_address": "cars@high-octane.de",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T10:49:45Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "3: Fyi",
+              "Label_44039"
+            ],
+            "folder": "Cars | High-Octane",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.png"
+            ]
+          },
+          {
+            "id": "c598351d-feea-40d7-9fe6-d4a4fc558f56",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Verify Code",
+            "from_name": "openplatform@iflytek.com",
+            "from_address": "openplatform@iflytek.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T10:38:28Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "IMPORTANT",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "3: Fyi",
+              "Label_44038"
+            ],
+            "folder": "openplatform@iflytek.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "146ac2c6-329c-4368-a94b-fc11b7da5035",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Verify Code",
+            "from_name": "openplatform@iflytek.com",
+            "from_address": "openplatform@iflytek.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T10:33:56Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "IMPORTANT",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_44038"
+            ],
+            "folder": "openplatform@iflytek.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "a729c830-f99c-49db-8665-f89039b7d232",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Citire indecşi contoare apă",
+            "from_name": "Administrator bloc",
+            "from_address": "noreply@e-bloc.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T09:09:07Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "4: Notification",
+              "Label_44037"
+            ],
+            "folder": "Administrator bloc",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f7d7425e-5218-4f64-a0f8-17a20fffb44c",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Folds small, travels large - meet the new Prodiver foldable duffle",
+            "from_name": "Samsonite",
+            "from_address": "news@e-news.samsonite.eu",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T09:05:07Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43942"
+            ],
+            "folder": "Samsonite",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "20c37a27-9ccd-4cf8-8bea-f1639b9ffe09",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "A doua notificare factura restanta",
+            "from_name": "Hosterion",
+            "from_address": "billing@hosterion.ro",
+            "to": [
+              "cosmin.covaciu@cesiro.com"
+            ],
+            "received_at": "2026-10-30T09:01:08Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "10: Invoices",
+              "Label_43845"
+            ],
+            "folder": "Hosterion",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "Factura-395825.pdf"
+            ]
+          },
+          {
+            "id": "c451b637-a8e5-481b-9ada-d1926b54b292",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "232.59 RON spent at Dedeman",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T08:09:57Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43841"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "53c392c0-91ff-4cb8-8d4f-698cd5c4e50f",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Money added to your account",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T08:07:48Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43841"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "c691939b-a8a0-4225-b571-ceab19591cc3",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Card declined at Dedeman",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T08:05:05Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "1: To respond",
+              "Label_44024"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9d446aa9-2ff6-445e-b48c-b17a20b1c7c3",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Mai sunt 2 zile la ofertele de toamnă",
+            "from_name": "Alin de la Fabrica de Mov",
+            "from_address": "contact@fabricademov.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-30T07:16:50Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43929"
+            ],
+            "folder": "Alin de la Fabrica de Mov",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "7159571e-e8d3-46d0-bd9e-c1943b2c8be3",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Halloween SALE. Check the special discount.",
+            "from_name": "Dreamstime",
+            "from_address": "noreply@dreamstime.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T20:02:27Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43831"
+            ],
+            "folder": "Dreamstime",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "3c8c29f7-2131-40dd-b347-8b20a9bd7ea5",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Most loved knits and laces 🤍",
+            "from_name": "Sierra Darien",
+            "from_address": "support@sierradarien.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T19:04:02Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43948"
+            ],
+            "folder": "Sierra Darien",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "ca7c6e0b-372f-4dae-a750-4abacc26970e",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "[covaciugnm/openclaw] Run failed: CodeQL - main (b1a9a19)",
+            "from_name": "covaciugnm",
+            "from_address": "notifications@github.com",
+            "to": [
+              "openclaw@noreply.github.com"
+            ],
+            "received_at": "2026-10-29T18:30:52Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43833"
+            ],
+            "folder": "covaciugnm",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "84a47cd7-5fd8-4900-9dfc-f8e986ff09ae",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Willkommen im ÖBB Konto",
+            "from_name": "ÖBB",
+            "from_address": "meineoebb@newsletter.oebb.at",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T16:22:27Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44036"
+            ],
+            "folder": "ÖBB",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "0514ef06-7d15-4868-a6bf-1424fe936eb6",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Card declined at Amazon",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T16:02:47Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "1: To respond",
+              "Label_44024"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "14bc8e95-4eeb-4db3-9c97-c64e86849350",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "760.38 RON spent at Amazon",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T16:00:42Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43841"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "3cf845c3-345d-4e63-a538-657798cd66a7",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ultimele ore de acces prioritar la reducerile de Black Friday",
+            "from_name": "Global Sport",
+            "from_address": "contact@globalsport.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T14:01:16Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43871"
+            ],
+            "folder": "Global Sport",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "479e4271-2656-4224-8b96-97c22b5992aa",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "cesiroproduction invited you to cesiroproduction/MindVision",
+            "from_name": "cesiroproduction",
+            "from_address": "noreply@github.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T14:00:10Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_44035"
+            ],
+            "folder": "cesiroproduction",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "32437f7b-5dc8-4f16-89e1-2924e5c28c66",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ujawniamy nowości w Senuto. Odkrywasz?",
+            "from_name": "Senuto",
+            "from_address": "hello@senuto.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T12:00:33Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44034"
+            ],
+            "folder": "Senuto",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "4849ea48-f714-4f10-be5c-44bec1e53b08",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New listing results for your saved search!",
+            "from_name": "Spitogatos",
+            "from_address": "notifications@spitogatos.gr",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T11:53:17Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43883"
+            ],
+            "folder": "Spitogatos",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "14adf7a0-6fc5-4b24-8a33-2353256f5eb2",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Notice of Security Incident",
+            "from_name": "Scribd Inc via Epiq",
+            "from_address": "scribdinc@e.epiqnotice.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T11:19:55Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "8: Marketing",
+              "Label_44033"
+            ],
+            "folder": "Scribd Inc via Epiq",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "2b30f2c1-45ba-4156-a1ed-0c2f561826c1",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Black Friday FINAQUA: primește oferta înaintea tuturor",
+            "from_name": "FINAQUA",
+            "from_address": "office@finaqua.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:54:11Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_44032"
+            ],
+            "folder": "FINAQUA",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "1af77251-23dd-4bf5-bb3c-5cbe808c3e71",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New listings on Gildemeister NEF 400, OKUMA LB3000EXII MYW800, Oku... and more",
+            "from_name": "Werktuigen",
+            "from_address": "info@mail2.werktuigen.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:52:49Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43889"
+            ],
+            "folder": "Werktuigen",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "0788d314-792d-40b1-819a-8df6bd9151aa",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Un noiembrie plin de oferte atractive 😍",
+            "from_name": "Sinsay",
+            "from_address": "message@message.sinsay.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:50:21Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43857"
+            ],
+            "folder": "Sinsay",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "0752f7ab-dc30-4217-bb34-8cf63dccecb3",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "🍂 Ce sunt clauzele suplimentare și de ce merită atenția ta? 🛡️",
+            "from_name": "Allianz-Tiriac",
+            "from_address": "noreply@allianztiriac.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:37:39Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_44028"
+            ],
+            "folder": "Allianz-Tiriac",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "46e5b757-96df-4717-a5cc-cb6d2c3ed87b",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "639 RON spent at OMV",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:11:27Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43841"
+            ],
+            "folder": "Wise",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "ede1e55a-f431-47c0-a872-fd795bd39877",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai Acces Prioritar cu 24h înaintea tuturor!",
+            "from_name": "Global Sport",
+            "from_address": "contact@globalsport.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T09:05:13Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43871"
+            ],
+            "folder": "Global Sport",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "205be003-0eb3-4822-bd68-53567847378f",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "🛍️ E oficial: Black Friday a început!",
+            "from_name": "ALTEX",
+            "from_address": "newsletter@news.altex.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T08:44:56Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43879"
+            ],
+            "folder": "ALTEX",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "049cb124-2965-4a84-9040-d81df97bf69d",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "New listings on KUNZMANN WF 410 MC, DECKEL FP 3 ATC, IRION DFG 8/3314 and more",
+            "from_name": "Machineseeker",
+            "from_address": "info@mail2.machineseeker.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T08:38:06Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43838"
+            ],
+            "folder": "Machineseeker",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "83c45d45-7eef-40d7-9d98-7c571716b43a",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Money received from ALTEX ROMANIA SRL",
+            "from_name": "Wise",
+            "from_address": "noreply@wise.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T08:32:21Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "5: Finance",
+              "Label_43851"
+            ],
+            "folder": "Wise",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "d021f89e-256d-4459-a348-b5554122ca8c",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Zboruri de la 160 lei",
+            "from_name": "Skyscanner",
+            "from_address": "no-reply@sender.skyscanner.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T07:22:55Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43839"
+            ],
+            "folder": "Skyscanner",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "182c6554-5c67-42de-bab4-14309536be9f",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai trimis unele date din Contul tău Google la ToonSpace",
+            "from_name": "Google",
+            "from_address": "noreply-accounts@google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T07:00:49Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "8: Marketing",
+              "Label_43848"
+            ],
+            "folder": "Google",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "dcb3948d-5ae3-4ad8-9cc5-2ff2f306c243",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Alertă de securitate",
+            "from_name": "Google",
+            "from_address": "no-reply@accounts.google.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T07:00:43Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43842"
+            ],
+            "folder": "Google",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "9c7e96f3-b889-4c8e-824e-396641cdebf0",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Reminder: we need more information from you ⚠️",
+            "from_name": "Revolut",
+            "from_address": "no-reply@revolut.com",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-29T00:03:44Z",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_UPDATES",
+              "INBOX",
+              "3: Fyi",
+              "Label_43961"
+            ],
+            "folder": "Revolut",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "8e7c7174-c4d5-48cd-9e4d-d110dcddc88e",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Ai Acces Prioritar cu 24h înaintea tuturor!",
+            "from_name": "Global Sport",
+            "from_address": "contact@globalsport.ro",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-10-28T22:00:18Z",
+            "category": "fyi",
+            "labels": [
+              "CATEGORY_PROMOTIONS",
+              "UNREAD",
+              "INBOX",
+              "8: Marketing",
+              "Label_43871"
+            ],
+            "folder": "Global Sport",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 44,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": true
+      },
+      "result": {
+        "items": [
+          {
+            "id": "683d94de-e8b3-4d61-bd90-debbed14e038",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: office@ac-wohnart.at → office@eva-org.com",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@eva-org.com"
+            ],
+            "received_at": "2026-10-30T11:08:16Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@eva-org.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "96e74e69-7ff6-402c-9959-597c0b472950",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-29T11:06:48.351968Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "2026_10_27_Werkvertrag_Anmerkungen.pdf",
+              "2026.10.29 Werkvertrag BERGER R11.pdf",
+              "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf"
+            ]
+          },
+          {
+            "id": "c45958f2-9372-4430-acfe-f175759221cf",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:46.009718Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Schallergasse_35_Baubescheid.pdf",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf",
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f36feb1c-1b40-43f8-b34b-7f7e47dcedac",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12.256575Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.Capra@cerhahempel.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 4,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": false
+      },
+      "result": {
+        "items": [
+          {
+            "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image002.jpg",
+              "image001.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          },
+          {
+            "id": "cc5a1740-9ded-4e1b-96cf-909a62ab2d29",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: spam-monitor@eva-org.com → office@ac-wohnart.at",
+            "from_name": "spam-monitor@eva-org.com",
+            "from_address": "spam-monitor@eva-org.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T11:08:33Z",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "spam-monitor@eva-org.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "7632b31a-e277-4b7d-a486-63e11aa1d04e",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Rechnung 26/101261SR 1120 Wien, Schallergasse 35",
+            "from_name": "Buchhaltung Wöhr",
+            "from_address": "buchhaltung@woehrparking.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T15:27:24Z",
+            "category": "fyi",
+            "labels": [
+              "10: Invoices"
+            ],
+            "folder": "Buchhaltung Wöhr",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "Rechnung 26101261SR Schallergasse 35, A&C Wohnart, 201582.pdf",
+              "image001.gif",
+              "20261027, WA, Schallergasse 35, PL.pdf"
+            ]
+          },
+          {
+            "id": "d5bc6ece-d75a-4510-be57-9153b380adfa",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Baubesprechung",
+            "from_name": "Meetingtisch",
+            "from_address": "meetingtisch@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T13:03:39Z",
+            "category": "fyi",
+            "labels": [
+              "2: Meeting"
+            ],
+            "folder": "Meetingtisch",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "eb6ea055-27bb-44b8-88eb-ff4b77618b21",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Baubesprechung",
+            "from_name": "Meetingtisch",
+            "from_address": "meetingtisch@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T13:03:38Z",
+            "category": "fyi",
+            "labels": [
+              "2: Meeting"
+            ],
+            "folder": "Meetingtisch",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "8f1be79a-83fc-4713-9ff0-bc5e3e4f4cd7",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+            "from_name": "Höbinger Andreas",
+            "from_address": "A.Hoebinger@donauversicherung.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T12:25:50Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Höbinger Andreas",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "Vollmacht Hofhans.pdf",
+              "703920_Antrag.pdf",
+              "Deckungserweiterungen_RV 29000010498.pdf",
+              "Polizze 2044001194 per 17.03.2023.PDF",
+              "Memoformat.pdf",
+              "1120 Wien, Schallergasse 35_Antrag.pdf",
+              "Polizze 2044001194 per 03.06.2020.PDF",
+              "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+              "Korrespondenz zu Eigentümerwechsel.pdf",
+              "image001.png"
+            ]
+          },
+          {
+            "id": "478abcb0-1094-4b10-b3e4-ecbc02840715",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image003.jpg",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          }
+        ],
+        "total": 7,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "sender": "zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "zt-pech.at"
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "query": "Schallergasse"
+      },
+      "result": {
+        "items": [
+          {
+            "id": "cb1a4280-bf8f-419e-8fe3-b5d577a6772d",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image001.jpg",
+              "image002.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          },
+          {
+            "id": "96e05de1-a32e-4c28-b7bf-978409e3a027",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Rechnung 26/101261SR 1120 Wien, Schallergasse 35",
+            "from_name": "Buchhaltung Wöhr",
+            "from_address": "buchhaltung@woehrparking.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T15:27:24Z",
+            "category": "fyi",
+            "labels": [
+              "10: Invoices"
+            ],
+            "folder": "Buchhaltung Wöhr",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.gif",
+              "20261027, WA, Schallergasse 35, PL.pdf",
+              "Rechnung 26101261SR Schallergasse 35, A&C Wohnart, 201582.pdf"
+            ]
+          },
+          {
+            "id": "087ddb5c-17bd-429b-bb51-acc5781c85b7",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+            "from_name": "Höbinger Andreas",
+            "from_address": "A.Hoebinger@donauversicherung.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T12:25:50Z",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "Höbinger Andreas",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.png",
+              "Vollmacht Hofhans.pdf",
+              "Memoformat.pdf",
+              "Deckungserweiterungen_RV 29000010498.pdf",
+              "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+              "703920_Antrag.pdf",
+              "Polizze 2044001194 per 17.03.2023.PDF",
+              "Korrespondenz zu Eigentümerwechsel.pdf",
+              "Polizze 2044001194 per 03.06.2020.PDF",
+              "1120 Wien, Schallergasse 35_Antrag.pdf"
+            ]
+          },
+          {
+            "id": "34ffc4a5-959d-4d67-9b93-c4707ffaf58b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "image003.jpg",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "f65fba1f-d0a8-4d91-b356-ff81f8ce2d56",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-29T11:06:46Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "2026.10.29 Werkvertrag BERGER R11.pdf",
+              "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf",
+              "2026_10_27_Werkvertrag_Anmerkungen.pdf"
+            ]
+          },
+          {
+            "id": "5a15760b-e6ca-4915-9231-dddbe0faeb0a",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:45Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF",
+              "Schallergasse_35_Baubescheid.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf"
+            ]
+          },
+          {
+            "id": "ad9cf567-fc01-44de-aac0-ccedc80f7684",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.capra@cerhahempel.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image001.jpg",
+              "image002.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 7,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "is_sent": true
+      },
+      "result": {
+        "items": [
+          {
+            "id": "6c19d9fe-05bc-4f35-80e0-7ae6f7f27648",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: office@ac-wohnart.at → office@eva-org.com",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@eva-org.com"
+            ],
+            "received_at": "2026-10-30T11:08:16.820289Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "office@eva-org.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f65fba1f-d0a8-4d91-b356-ff81f8ce2d56",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Schallergasse 35 – überarbeiteter Werkvertrag R11 – Bitte um Prüfung und Bestätigung",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "office@bmberger.at"
+            ],
+            "received_at": "2026-10-29T11:06:46Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "office@bmberger.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "2026.10.29 Werkvertrag BERGER R11.pdf",
+              "2026.10.29 BERGER Comparatie contract R09 R11 cu decizii.pdf",
+              "2026_10_27_Werkvertrag_Anmerkungen.pdf"
+            ]
+          },
+          {
+            "id": "5a15760b-e6ca-4915-9231-dddbe0faeb0a",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "MA37/1539234-2021-1 – Schallergasse 35, 1120 Wien – Antrag auf Akteneinsicht gemäß § 17 AVG und Bekanntgabe des Verbleibs der mit Sichtvermerk versehenen Planausfertigungen",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "west@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T10:49:45Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "west@ma37.wien.gv.at",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "Sonstiger Beschluss_ Eintragungsbeschluss.PDF",
+              "CHSH-#2688665-v1-Sonstiger_Beschluss__Eintragungsbeschluss.PDF",
+              "FBA A&C Wohnart, FN 668224h.pdf",
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF",
+              "Schallergasse_35_Baubescheid.pdf",
+              "A&C GB Beschluss, KG 01305, EZ 2235.pdf"
+            ]
+          },
+          {
+            "id": "ad9cf567-fc01-44de-aac0-ccedc80f7684",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "[COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-10-29T10:49:12Z",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "Bogdan.capra@cerhahempel.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image001.jpg",
+              "image002.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          }
+        ],
+        "total": 4,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "date_from": "2026-10-29",
+        "date_to": "2026-10-30",
+        "limit": 50,
+        "offset": 0,
+        "account_id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "is_sent": false
+      },
+      "result": {
+        "items": [
+          {
+            "id": "cb1a4280-bf8f-419e-8fe3-b5d577a6772d",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T14:56:53Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "email_atasat.eml",
+              "image001.jpg",
+              "image002.jpg",
+              "image003.jpg",
+              "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf"
+            ]
+          },
+          {
+            "id": "c7a3e871-f627-4167-b408-102a234761a1",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Test reconectare EVA 30.10.2026 13:08: spam-monitor@eva-org.com → office@ac-wohnart.at",
+            "from_name": "spam-monitor@eva-org.com",
+            "from_address": "spam-monitor@eva-org.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-30T11:08:33Z",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "spam-monitor@eva-org.com",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "96e05de1-a32e-4c28-b7bf-978409e3a027",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Rechnung 26/101261SR 1120 Wien, Schallergasse 35",
+            "from_name": "Buchhaltung Wöhr",
+            "from_address": "buchhaltung@woehrparking.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T15:27:24Z",
+            "category": "fyi",
+            "labels": [
+              "10: Invoices"
+            ],
+            "folder": "Buchhaltung Wöhr",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.gif",
+              "20261027, WA, Schallergasse 35, PL.pdf",
+              "Rechnung 26101261SR Schallergasse 35, A&C Wohnart, 201582.pdf"
+            ]
+          },
+          {
+            "id": "050b72d5-2029-41dc-b437-18c0c55bac80",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Baubesprechung",
+            "from_name": "Meetingtisch",
+            "from_address": "meetingtisch@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T13:03:39Z",
+            "category": "fyi",
+            "labels": [
+              "2: Meeting"
+            ],
+            "folder": "Meetingtisch",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "148fc294-e5ef-460e-b58c-a3485a81943f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Baubesprechung",
+            "from_name": "Meetingtisch",
+            "from_address": "meetingtisch@bmberger.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T13:03:38Z",
+            "category": "fyi",
+            "labels": [
+              "2: Meeting"
+            ],
+            "folder": "Meetingtisch",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "087ddb5c-17bd-429b-bb51-acc5781c85b7",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052",
+            "from_name": "Höbinger Andreas",
+            "from_address": "A.Hoebinger@donauversicherung.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-29T12:25:50Z",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "Höbinger Andreas",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.png",
+              "Vollmacht Hofhans.pdf",
+              "Memoformat.pdf",
+              "Deckungserweiterungen_RV 29000010498.pdf",
+              "Sammelantrag geschwärzt inkl. Schallergasse 35.pdf",
+              "703920_Antrag.pdf",
+              "Polizze 2044001194 per 17.03.2023.PDF",
+              "Korrespondenz zu Eigentümerwechsel.pdf",
+              "Polizze 2044001194 per 03.06.2020.PDF",
+              "1120 Wien, Schallergasse 35_Antrag.pdf"
+            ]
+          },
+          {
+            "id": "34ffc4a5-959d-4d67-9b93-c4707ffaf58b",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "CH 261029 -- Schallergasse 35, 1120 Wien, KG 01305 Meidling, EZ 2235 – MA37/1539234-2021-1 – Anfrage zum Aktenstand und Ersuchen um Akteneinsicht [COVACIU/42222000]",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "sabine.cseh@wien.gv.at",
+              "ggw.kanzlei@ma37.wien.gv.at"
+            ],
+            "received_at": "2026-10-29T11:34:23Z",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image005.jpg",
+              "image004.png",
+              "image003.jpg",
+              "Schallergasse_35_Baubescheid.pdf",
+              "image001.jpg",
+              "image002.jpg",
+              "Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          }
+        ],
+        "total": 7,
+        "limit": 50,
+        "offset": 0
+      }
+    }
+  ],
+  "errors": [],
+  "capra_primary": {
+    "id": "c61d9755-daf2-4e6d-aa49-3e8db7bd919f",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "office@ac-wohnart.at"
+    ],
+    "cc": [],
+    "received_at": "2026-10-30T14:56:53Z",
+    "text": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom contacta pe dl. Kornhofer in legatura cu documentele solicitate.\r\n\r\nIn ceea ce priveste procesul-verbal de predare din 17.03.2026, va rog sa consultati corespondenta atasata noastra, pe care o atasez din nou. Datele respective v-au fost puse la dispozitie. Este vorba de documentatia existenta (Bestandsunterlagen) deja cunoscuta, precum si de certificatul energetic pentru mansarda (Energieausweis DG) si de documentatia de fizica constructiilor. Am salvat aceste date si vi le putem transmite din nou, impreuna cu un index. Din acest motiv, nu ar avea prea mult sens sa solicitam din nou aceleasi documente.\r\n\r\nDe asemenea, este posibil ca dl. Arch. DI Klaus Pristounig sa detina documentele dorite, iar noi il putem contacta in acest sens. Va semnalez insa ca ultima corespondenta cu dansul a avut loc in legatura cu factura de onorariu contestata de dvs.\r\n\r\nArgumentatia juridica detaliata din emailul dumneavoastra privind dreptul la predarea documentatiei este interesanta. In opinia noastra, doar daca nu se va ajunge la o intelegere cu partea adversa, aceasta are rost sa fie analizata mai detaliu cu privire la temeinicia ei. Prin urmare, va recomandam (si pentru eficienta costurilor) sa incercam mai intai o abordare amiabila: sa solicitam si sa ne interesam de documentele dorite atat la autoritatea competenta, cat si la dl. Asreahan, inainte de a lua in considerare demersuri juridice sau abordari imperative.\r\n\r\nVa tin la curent cu evolutiile.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DD6887.02202E40] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DD6887.02202E40] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at>\r\nGesendet: Donnerstag, 29. Oktober 2026 11:49\r\nAn: Capra Bogdan <Bogdan.Capra@cerhahempel.com>\r\nBetreff: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale\r\n\r\n\r\nStimate domnule avocat Capra,\r\n\r\nVă scriu în calitate de administrator al societății A&C Wohnart Immobilien GmbH (FN 668224h), cumpărătoarea imobilului din Schallergasse 35, 1120 Wien, în legătură cu care ne-ați asistat la perfectarea contractului de vânzare-cumpărare din 20.02.2026.\r\n\r\nNe aflăm în faza de pregătire a începerii lucrărilor.\r\nÎn acest context am constatat că nu deținem exemplarele planurilor de autorizare purtând viza oficială a autorității, nici documentația depusă în procedură în forma vizată.\r\nPână acum lipsa nu ne fusese semnalată de nimeni, iar nici noi nu o observaserăm.\r\nVă rog respectuos să interveniți pe lângă vânzătoare pentru executarea obligației de predare a acestei documentații.\r\n\r\nSituația de fapt\r\n\r\nAm dobândit imobilul prin contractul din 20.02.2026, dreptul de proprietate fiind înscris în cartea funciară sub TZ 466/2026. Odată cu imobilul am dobândit și poziția aferentă autorizației de construire MA37/1539234-2021-1 din 21.04.2023, respectiv deciziei privind derogările conform §69 BO Wien, GZ BV 12-340248/2023 din 16.03.2023.\r\n\r\nDeținem, în prezent, numai copii digitale simple ale celor două decizii și o serie de fișiere de planuri fără nicio viză sau ștampilă oficială.\r\nCeea ce lipsește nu este, așadar, conținutul grafic al proiectului, ci exemplarele care atestă oficial ce a fost efectiv autorizat.\r\nPotrivit informațiilor obținute, aceste exemplare nu se află încă nici în arhiva de planuri.\r\n\r\nUn element esențial rezultă din autorizația însăși. Lista de distribuție anexată deciziei, \"Verteilerliste zur Zahl 1539234-2021-1\", consemnează următoarele:\r\n\r\n  *   către societatea Aßmayergasse 60 Immobilienbesitz GmbH & Co KG, în calitate de \"EinbringerIn/BauwerberIn\" și \"Grund(mit)eigentümerIn\", documentele au fost transmise \"unter Anschluss der Pläne Parie A und B sowie des Bescheides des Bauausschusses der Bezirksvertretung, EZ 2235 Kat.Gem. Meidling\";\r\n  *   între destinatarii \"In Abschrift\" figurează \"MA 37 - Bauinspektion, Überwachungsarchiv\", cu mențiunea \"unter Anschluss der analogen Pläne C\";\r\n  *   biroul de proiectare apare exclusiv ca \"PlanverfasserIn EINFACH3 Architekten Ziviltechniker KG\", sub rubrica \"In Abschrift an\", fără nicio anexă de planuri.\r\n\r\nRezultă două consecințe de fapt. Prima: procedura a fost una pe suport de hârtie, cu trei exemplare, dintre care două au fost restituite titularului, conform §63 alin. 1 lit. a BO Wien în forma aplicabilă la data autorizației.\r\nA doua: cele două exemplare vizate au intrat, potrivit propriei liste de distribuție a autorității, în sfera vânzătoarei, sub denumirea pe care o purta atunci, iar nu în cea a biroului de arhitectură, care nu a primit nici un plan.\r\n\r\nPredarea obiectului a fost consemnată în procesul-verbal din 17.03.2026, încheiat la Wien, Parkring 2, între dumneavoastră, pentru cumpărătoare, și dl. Martin Kornhofer, pentru vânzătoare.\r\nLa punctul D, privind documentele predate, s-a consemnat exclusiv mențiunea că alte documente sunt stocate electronic, fără niciun inventar al conținutului.\r\nPredarea s-a făcut pe un memory stick și printr-un link de transfer temporar comunicat în aceeași zi.\r\nÎn emailul dumneavoastră din 17.03.2026 ați arătat că este probabil vorba de aceleași documente pe care le primiserăm la începutul discuțiilor, în noiembrie 2025, și ne-ați transmis întrebarea dlui Kornhofer dacă am primit documentele de la arhitect.\r\nAm primit, ulterior, fișiere CAD ale proiectului, însă nu un set de planuri de autorizare purtând vizele autorității.\r\n\r\nDelimitarea obiectului solicitării\r\n\r\nFacem o distincție pe care o considerăm esențială pentru a evita orice confuzie cu discuția din noiembrie 2025.\r\n\r\n  *   Prestația de proiectare, fișierele CAD/DWG și drepturile de autor asupra acestora formează o chestiune separată, pe care nu o reclamăm aici.\r\nRăspunsul vânzătoarei din 10.11.2025, transmis prin ARESCO, privea tocmai acest aspect.\r\n  *   Solicităm exemplarele purtând viza oficială a autorității și documentația depusă în procedură în forma vizată.\r\nNu le cerem ca operă de creație, ci ca act administrativ care dovedește conținutul unui drept de drept public dobândit.\r\n\r\nPrezenta solicitare nu include întocmirea unui proiect de execuție nou.\r\nProiectul de execuție, detaliile de execuție și statica de execuție le-am comandat și le suportăm noi, pe baza documentelor de autorizare. Această delimitare nu constituie o renunțare la niciunul dintre drepturile noastre privind predarea documentației existente.\r\nMenționez, în context, că însăși vânzătoarea a arătat în noiembrie 2025 că planuri de detaliu și de materiale nu există și că ar fi urmat să fie comandate abia înainte de începerea lucrărilor, în funcție de intenția cumpărătorului.\r\n\r\nTemeiul juridic\r\n\r\nAutorizația prevede, la pag. 1/8: \"Nach Maßgabe der mit dem amtlichen Sichtvermerk versehenen Pläne, die einen wesentlichen Bestandteil dieses Bescheides bilden\".\r\nPlanurile vizate sunt deci parte esențială a deciziei.\r\nPredarea deciziei fără ele nu este o predare a autorizației, iar conținutul autorizat nu poate fi stabilit cu certitudine.\r\n\r\nInvocăm, în principal, executarea în natură a obligației contractuale, nu garanția:\r\n\r\n  *   Obiectul vânzării. Pct. 1.2 din contract include în vânzare imobilul și construcția împreună cu întregul accesoriu juridic și material, iar pct. 2.1 prevede transferul tuturor drepturilor, prerogativelor și obligațiilor cu care vânzătoarea a deținut și folosit bunul. Documentația care materializează autorizația urmează soarta imobilului.\r\nPredarea ei nu este o prestație suplimentară, ci executarea unei obligații deja asumate.\r\nTemeiul de drept comun este, în opinia noastră, §1061 ABGB coroborat cu §1047 ABGB, care impune predarea cu tot accesoriul și în posesie liberă, interpretat potrivit §914 ABGB.\r\n  *   Cumulul cu despăgubirea pentru întârziere. §918 alin. 1 ABGB permite expres cumularea executării cu despăgubirea pentru întârziere, iar noi ne rezervăm această pretenție.\r\n  *   Subsidiar, garanția. §932 alin. 1 ABGB califică expres completarea a ceea ce lipsește, \"Nachtrag des Fehlenden\", drept Verbesserung.\r\nEste remediul primar datorat, iar conform alin. 3 costurile îi revin vânzătoarei.\r\n\r\nVă rog să apreciați dumneavoastră ordinea optimă de invocare.\r\nPrecizez doar că preferința noastră pentru executarea în natură are și un motiv de termene: garanția pentru imobile este supusă termenelor scurte din §933 ABGB, calculate de la predarea din 17.03.2026, în timp ce dreptul la executarea obligației contractuale este supus termenului general lung.\r\n\r\nLa acestea se adaugă garanția contractuală de la pct. 7.1 lit. (d), prin care vânzătoarea a confirmat existența definitivă a autorizațiilor, cu indicarea nominală a deciziilor GZ BV 12-340248/2023 și GZ MA37/1539234-2021-1, a datei de rămânere definitivă de 01.06.2023, menționată ca provenind dintr-o informare a autorității, și a posibilității de a depune notificarea de începere a lucrărilor conform §74 BO Wien până la 01.06.2027.\r\nVă rog să apreciați separat și incidența pct. 7.2, care obligă vânzătoarea să ne țină indemni dacă o asigurare din pct. 7.1 se dovedește inexactă la data predării.\r\n\r\nPrecizăm, pentru a elimina orice discuție privind întinderea pretenției, că pretindem în primul rând predarea celor două exemplare vizate restituite titularului.\r\nDacă acestea nu mai pot fi predate, considerăm acceptabilă o copie purtând vizele oficiale, cu condiția ca ea să permită participanților la actul de construire identificarea fără echivoc a ceea ce a fost autorizat.\r\n\r\nDe ce ne sunt indispensabile aceste exemplare\r\n\r\nLipsa lor nu este un inconvenient administrativ, ci un impediment juridic:\r\n\r\n  *   Preluarea calității de Bauwerber. Conform §124 alin. 4 BO Wien, schimbarea Bauwerber se raportează autorității, raportul se semnează atât de titularul care iese, cât și de cel care intră, iar noul titular trebuie să anexeze o declarație că a luat cunoștință de planuri și de celelalte documente admise.\r\nVânzătoarea a fost Bauwerber, iar noi suntem noul Bauwerber.\r\nFără planurile vizate nu putem face în mod veridic această declarație și deci nu putem prelua formal poziția.\r\nTextul presupune, de altfel, și cooperarea vânzătoarei după transferul proprietății.\r\n  *   Desemnarea constructorului.\r\nConform §124 alin. 1 BO Wien și punctului 1 din autorizație, Bauwerber trebuie să dovedească autorității că Bauführer a luat cunoștință de planurile care pot fi executate; în lipsa dovezii, desemnarea este considerată ca neefectuată.\r\n  *   Verificarea execuției. Punctul 3 din autorizație, cu trimitere la §125 alin. 2 BO Wien, obligă inginerul verificator să verifice construcția și în plan, și pe înălțime, prin raportare la planul de construire aprobat.\r\n  *   Șantierul. Punctul 8 din autorizație, cu trimitere la §127 alin. 2 BO Wien, impune ca planurile conform cărora se poate construi să fie disponibile pe șantier.\r\n  *   Bauwerksbuch. Punctul 18 din autorizație cere ca, la depunerea notificării de finalizare, să se anexeze confirmarea întocmirii unui Bauwerksbuch conform §128a BO Wien.\r\nObligația nu este, așadar, actuală la acest moment, ci devine scadentă la Fertigstellungsanzeige.\r\nEa presupune însă ca documentația de autorizare să existe până atunci, întrucât Bauwerksbuch trebuie să cuprindă autorizațiile de construire relevante, iar întocmirea sa este în sarcina proprietarului.\r\n\r\nLa acestea se adaugă nevoile firești ale arhitectului care preia proiectarea, ale inginerului de rezistență și ale coordonatorilor conform BauKG, care trebuie să își fundamenteze prestațiile pe starea efectiv autorizată.\r\n\r\nDocumentele solicitate\r\n\r\nLimitate la ceea ce a fost efectiv depus și autorizat în această procedură:\r\ncele două exemplare restituite ale planurilor de autorizare, Parie A și Parie B, cu toate planșele și reviziile aprobate: plan de situație, planurile nivelurilor, secțiuni, fațade, racordările la vecini și cotele de înălțime, cu toate ștampilele, vizele, semnăturile și datele de revizie;\r\n\r\n  *   decizia de autorizare integrală, cu toate anexele, decizia privind derogările conform §69, precum și orice decizie ulterioară de modificare sau Planwechsel, cu planurile aferente;\r\n  *   Baubeschreibung și celelalte documente depuse în procedură, în forma vizată, inclusiv cele privind derogările conform §§68-69;\r\n  *   documentația structurală depusă în procedură, în forma vizată, cu mențiunea expresă că nu solicităm statica de execuție;\r\n  *   documentația de fizica construcțiilor și energetică depusă, în măsura în care a fost cerută în procedură;\r\n  *   anexele depuse privind protecția la incendiu, evacuarea, ascensorul și puțul de ascensor; menționez că vânzătoarea a confirmat expres, în noiembrie 2025, că ascensorul și puțul de ascensor au fost depuse și autorizate, făcând trimitere chiar la planul de autorizare și la autorizație;\r\n  *   calculul Anliegerleistungen și al obligației de parcare, dovada apei de stingere a incendiilor, confirmarea privind accesibilitatea, în măsura în care au fost depuse;\r\n  *   completările, clarificările și procesele-verbale ale procedurii, precum și inventarul dosarului;\r\n  *   documentul pe care se întemeiază data de 01.06.2023 indicată la pct. 7.1 lit. (d), împreună cu orice notificare anterioară de începere a lucrărilor sau de schimbare a Bauwerber, Bauführer ori Prüfingenieur.\r\n\r\nLista privește dosarul efectiv depus în această procedură și nu este prezentată ca o enumerare general obligatorie pentru orice autorizație.\r\n\r\nVă rog, suplimentar, să solicitați inventarul exact al documentelor predate electronic la 17.03.2026, întrucât procesul-verbal nu cuprinde niciun inventar, precum și retransmiterea integrală a acelui pachet.\r\n\r\nCererea operativă\r\n\r\nVă rog ca exemplarele vizate disponibile să ne fie transmise de îndată, fără a se aștepta reunirea întregului dosar, iar până la 11.11.2026 să primim documentele restante sau situația individuală a fiecăruia dintre ele, cu precizarea, pentru fiecare poziție indisponibilă, dacă aceasta nu a fost aplicabilă, nu a fost depusă în procedură sau se află la un alt deținător, cu indicarea acestuia.\r\n\r\nDacă vânzătoarea susține că nu mai deține exemplarele, vă rog să îi solicitați să arate concret ce s-a întâmplat cu exemplarele Parie A și B pe care autoritatea i le-a restituit odată cu decizia, potrivit listei de distribuție citate mai sus.\r\n\r\nÎn măsura în care documentele nu ne vor fi puse la dispoziție în timp util, ne rezervăm, cu tot respectul, toate drepturile ce ne revin, inclusiv pretenția de despăgubire pentru întârziere, având în vedere că lucrările sunt contractate sau în curs de contractare.\r\n\r\nVă rog, de asemenea, să îmi confirmați primirea prezentului email, întrucât la 13.10.2026 un mesaj transmis de pe adresa noastră către dumneavoastră nu a putut fi livrat, din cauza unei blocări temporare a serverului nostru de expediere.\r\n\r\nVă mulțumesc anticipat pentru sprijin și rămân la dispoziție pentru orice informație sau document pe care îl considerați util.\r\n\r\nCu stimă,\r\n\r\nCosmin Adrian Covaciu\r\nBuna ziua,\r\n\r\n\r\n\r\nDupa cum am discutat, am preluat azi cheile de la dl. Kornhofer. Va atasez procesul verbal semnat.\r\n\r\n\r\n\r\nToate documentele tehnice legate de cladire pe care ei le au, mi le-a auds pe un memory stick. Puteti descarca continutul de pe acest link<https://we.tl/t-R4cahMTqSI>. Cred insa ca sunt aceleasi documente pe care dvs. le-ati primit si la inceputul discutiilor cu ei in noiembrie.\r\n\r\n\r\n\r\nDl. Kornhofer m-a mai intrebat daca ati primit documentele de la arhitect. In cazul in care nu le-ati primit, va rog sa-mi spuneti.\r\n\r\n\r\n\r\nDaca mai aveti intrebari legate de documente, dl. Kornhofer ne sta la dispozitie.\r\n\r\n\r\n\r\nImportant: In urma decuplarii de la curent, s-au demontat si contoarele individuale de curent de catre Wiener Netze ca sa nu se mai plateasca chirie/taxa pe ele. Astfel, la rebransare va fi instalat un singur contor pana la finalizarea lucrarilor. Dupa cum am discutat, il voi contacta pe dl. Hofhans si Wiener Netze ca sa rezolvam acest aspect cat mai rapid.\r\n\r\n\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\n\r\n\r\nSalutari,\r\n\r\nBogdan\r\n\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\n\r\nRechtsanwälte GmbH\r\n\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\n\r\nMobil: +43/664/156 50 85\r\n\r\n\r\nbogdan.capra@cerhahempel.com\r\n\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\n\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n\r\n\r\n<https://www.linkedin.com/company/2413345> <https://www.facebook.com/CERHAHEMPELWien>  <https://www.instagram.com/cerha_hempel/>\r\n\r\n\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\n\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\n\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\n\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\n\r\n\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond",
+      "99: Important"
+    ],
+    "category": "fyi",
+    "folder": "Capra Bogdan",
+    "thread_id": "<efabbf34-1893-4292-9534-dd031997887f@ac-wohnart.at>",
+    "is_read": false,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "7c886a0e-66e7-4fcb-8d84-9f927d20851b",
+        "name": "email_atasat.eml",
+        "size": 1416681,
+        "content_type": "message/rfc822",
+        "has_text": false,
+        "text_chars": 0,
+        "page_count": null,
+        "text": null
+      },
+      {
+        "id": "410fbce7-37fd-4bff-8a2b-239811502073",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "ef7878a0-89b8-45df-a15c-b8ae36553f43",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "56c53784-1dbd-4255-a42a-ab275a146b36",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "6dd03204-5bf3-45d9-8f0a-64626ace7d02",
+        "name": "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf",
+        "size": 1031759,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 1979,
+        "page_count": null,
+        "text": "DatumderÜbergabe:\nObjekt:\nAnwesend:\nA.IbergabedesQbjekts;ÜBERGABEPROTOKOLL\n17.03.2026,14:30Uhr\nLiegenschaftbzw.Gebäude,Schallergasse35,1120\nWien\nHerrMag.BogdanCapra,Rechtsanwalt,fürA&CWohnart\nImmobilienGmbH(Käuferin);HerrMartinKornhoferfürdie\nSchallergasse35ImmobilienbesitzGmbH&CoKG\n(Verkäuferin).\nVerkäuferinundKäuferinbestätigenzumeingangsangeführtenDatum,dass(Zutreffendes\nbitteankreuzen)\n0siedasObjekteingehendbesichtigtundfolgendeMängelf-estgestellthaben:\nBeschreibungdesMangels\" Kommentar\nxdasObjektnacherfolgterBesichtigunggemäßdemKaufvertragvom20.02.2026\nandieKäuferinübergebenundvondieservorbehaltlosübernommenwurde.\nDieKäuferinhatdasObjektbzw.dasGebäudezudemam15.03.2026besichtigtundkeine\nMängelfestgestellt.Klarstellendwirdfestgehalten,dassessichgegenständlichumein\nsanierungsbedürftigesGebäudehandelt.\nB.OffeneThemen\nÜberfolgendeThemenbzw.potenzielleMängeldesObjektskonntensichdieParteienim\nZeitpunktderWohnungsübergabenichteinigen:\nBeschreibungdespotenziellenMangels Kommentar\n1DervertraglicheMaßstabundAusgangspunktfürdieMängelüberprüfungistdereines\nsanierungsbedürftigenGebäudes.DerBegriff,,sanierungsbedürftig''bedeutetindiesem\nZusammenhang,dassderaktuellebauliche,technischeundfunktionaleZustandderWohnungenausdem\nGebäudenichtdemzeitgemäßenWohnstandardentsprichtundInstandsetzungs-oder\nModernisierungsmaßnahmenerforderlichsind,umeineordnungsgemäßeNutzungalsWohnungzu\ngewährleisten.\n1/2\n\nC.Schlüsselübergabe:\nBeschreibungdersonstigenSchlüssel:sieheinAnlage./1\nDieVerkäuferinbestätigt,sämtlicheSchlüsselbetreffenddasObjektandieKäuferinzu\nübergeben.\nD.ÜbergebeneDokumente:\n■weitereDokumente:elektronischgespeichert.\nDieParteienhaltenschließlichfest,dassdieÜbergabedesObjekteszumheutigenDatum\neinvernehmlichbestimmtwurdeundsomitvertragskonformbzw.imEinklangmitdem\nKaufvertragvom20.02.2026erfolgtist.\nWien,Parkring2,17.03.2026\n~ ~=----•=-;•>'-~\n/challergasse35Immobilienbesitz\nGmbH&CoKG\n(vormalsAßmayergasse60\nImmobilienbesitz)nartImmobilienGmbH\n2/2\n\nAnlage ./1 \n \n\n"
+      },
+      {
+        "id": "5c1d4bbd-da43-4936-9b27-45a45a7d25d1",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "362f947e-1b59-448b-a731-6204c559238f",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "4e3d2f5c-075f-466a-ba46-baaa8184aec9",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  },
+  "capra_secondary": {
+    "id": "cb1a4280-bf8f-419e-8fe3-b5d577a6772d",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "AW: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "office@ac-wohnart.at"
+    ],
+    "cc": [],
+    "received_at": "2026-10-30T14:56:53Z",
+    "text": "Buna ziua,\r\n\r\nVa confirm primirea emailului de mai jos. Asa cum am discutat ieri telefonic, il vom contacta pe dl. Kornhofer in legatura cu documentele solicitate.\r\n\r\nIn ceea ce priveste procesul-verbal de predare din 17.03.2026, va rog sa consultati corespondenta atasata noastra, pe care o atasez din nou. Datele respective v-au fost puse la dispozitie. Este vorba de documentatia existenta (Bestandsunterlagen) deja cunoscuta, precum si de certificatul energetic pentru mansarda (Energieausweis DG) si de documentatia de fizica constructiilor. Am salvat aceste date si vi le putem transmite din nou, impreuna cu un index. Din acest motiv, nu ar avea prea mult sens sa solicitam din nou aceleasi documente.\r\n\r\nDe asemenea, este posibil ca dl. Arch. DI Klaus Pristounig sa detina documentele dorite, iar noi il putem contacta in acest sens. Va semnalez insa ca ultima corespondenta cu dansul a avut loc in legatura cu factura de onorariu contestata de dvs.\r\n\r\nArgumentatia juridica detaliata din emailul dumneavoastra privind dreptul la predarea documentatiei este interesanta. In opinia noastra, doar daca nu se va ajunge la o intelegere cu partea adversa, aceasta are rost sa fie analizata mai detaliu cu privire la temeinicia ei. Prin urmare, va recomandam (si pentru eficienta costurilor) sa incercam mai intai o abordare amiabila: sa solicitam si sa ne interesam de documentele dorite atat la autoritatea competenta, cat si la dl. Asreahan, inainte de a lua in considerare demersuri juridice sau abordari imperative.\r\n\r\nVa tin la curent cu evolutiile.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DD6887.02202E40] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DD6887.02202E40] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at>\r\nGesendet: Donnerstag, 29. Oktober 2026 11:49\r\nAn: Capra Bogdan <Bogdan.Capra@cerhahempel.com>\r\nBetreff: [COVACIU/42222000] Schallergasse 35, 1120 Wien - predarea exemplarelor vizate ale planurilor de autorizare (MA37/1539234-2021-1); solicitare de executare a obligației contractuale\r\n\r\n\r\nStimate domnule avocat Capra,\r\n\r\nVă scriu în calitate de administrator al societății A&C Wohnart Immobilien GmbH (FN 668224h), cumpărătoarea imobilului din Schallergasse 35, 1120 Wien, în legătură cu care ne-ați asistat la perfectarea contractului de vânzare-cumpărare din 20.02.2026.\r\n\r\nNe aflăm în faza de pregătire a începerii lucrărilor.\r\nÎn acest context am constatat că nu deținem exemplarele planurilor de autorizare purtând viza oficială a autorității, nici documentația depusă în procedură în forma vizată.\r\nPână acum lipsa nu ne fusese semnalată de nimeni, iar nici noi nu o observaserăm.\r\nVă rog respectuos să interveniți pe lângă vânzătoare pentru executarea obligației de predare a acestei documentații.\r\n\r\nSituația de fapt\r\n\r\nAm dobândit imobilul prin contractul din 20.02.2026, dreptul de proprietate fiind înscris în cartea funciară sub TZ 466/2026. Odată cu imobilul am dobândit și poziția aferentă autorizației de construire MA37/1539234-2021-1 din 21.04.2023, respectiv deciziei privind derogările conform §69 BO Wien, GZ BV 12-340248/2023 din 16.03.2023.\r\n\r\nDeținem, în prezent, numai copii digitale simple ale celor două decizii și o serie de fișiere de planuri fără nicio viză sau ștampilă oficială.\r\nCeea ce lipsește nu este, așadar, conținutul grafic al proiectului, ci exemplarele care atestă oficial ce a fost efectiv autorizat.\r\nPotrivit informațiilor obținute, aceste exemplare nu se află încă nici în arhiva de planuri.\r\n\r\nUn element esențial rezultă din autorizația însăși. Lista de distribuție anexată deciziei, \"Verteilerliste zur Zahl 1539234-2021-1\", consemnează următoarele:\r\n\r\n  *   către societatea Aßmayergasse 60 Immobilienbesitz GmbH & Co KG, în calitate de \"EinbringerIn/BauwerberIn\" și \"Grund(mit)eigentümerIn\", documentele au fost transmise \"unter Anschluss der Pläne Parie A und B sowie des Bescheides des Bauausschusses der Bezirksvertretung, EZ 2235 Kat.Gem. Meidling\";\r\n  *   între destinatarii \"In Abschrift\" figurează \"MA 37 - Bauinspektion, Überwachungsarchiv\", cu mențiunea \"unter Anschluss der analogen Pläne C\";\r\n  *   biroul de proiectare apare exclusiv ca \"PlanverfasserIn EINFACH3 Architekten Ziviltechniker KG\", sub rubrica \"In Abschrift an\", fără nicio anexă de planuri.\r\n\r\nRezultă două consecințe de fapt. Prima: procedura a fost una pe suport de hârtie, cu trei exemplare, dintre care două au fost restituite titularului, conform §63 alin. 1 lit. a BO Wien în forma aplicabilă la data autorizației.\r\nA doua: cele două exemplare vizate au intrat, potrivit propriei liste de distribuție a autorității, în sfera vânzătoarei, sub denumirea pe care o purta atunci, iar nu în cea a biroului de arhitectură, care nu a primit nici un plan.\r\n\r\nPredarea obiectului a fost consemnată în procesul-verbal din 17.03.2026, încheiat la Wien, Parkring 2, între dumneavoastră, pentru cumpărătoare, și dl. Martin Kornhofer, pentru vânzătoare.\r\nLa punctul D, privind documentele predate, s-a consemnat exclusiv mențiunea că alte documente sunt stocate electronic, fără niciun inventar al conținutului.\r\nPredarea s-a făcut pe un memory stick și printr-un link de transfer temporar comunicat în aceeași zi.\r\nÎn emailul dumneavoastră din 17.03.2026 ați arătat că este probabil vorba de aceleași documente pe care le primiserăm la începutul discuțiilor, în noiembrie 2025, și ne-ați transmis întrebarea dlui Kornhofer dacă am primit documentele de la arhitect.\r\nAm primit, ulterior, fișiere CAD ale proiectului, însă nu un set de planuri de autorizare purtând vizele autorității.\r\n\r\nDelimitarea obiectului solicitării\r\n\r\nFacem o distincție pe care o considerăm esențială pentru a evita orice confuzie cu discuția din noiembrie 2025.\r\n\r\n  *   Prestația de proiectare, fișierele CAD/DWG și drepturile de autor asupra acestora formează o chestiune separată, pe care nu o reclamăm aici.\r\nRăspunsul vânzătoarei din 10.11.2025, transmis prin ARESCO, privea tocmai acest aspect.\r\n  *   Solicităm exemplarele purtând viza oficială a autorității și documentația depusă în procedură în forma vizată.\r\nNu le cerem ca operă de creație, ci ca act administrativ care dovedește conținutul unui drept de drept public dobândit.\r\n\r\nPrezenta solicitare nu include întocmirea unui proiect de execuție nou.\r\nProiectul de execuție, detaliile de execuție și statica de execuție le-am comandat și le suportăm noi, pe baza documentelor de autorizare. Această delimitare nu constituie o renunțare la niciunul dintre drepturile noastre privind predarea documentației existente.\r\nMenționez, în context, că însăși vânzătoarea a arătat în noiembrie 2025 că planuri de detaliu și de materiale nu există și că ar fi urmat să fie comandate abia înainte de începerea lucrărilor, în funcție de intenția cumpărătorului.\r\n\r\nTemeiul juridic\r\n\r\nAutorizația prevede, la pag. 1/8: \"Nach Maßgabe der mit dem amtlichen Sichtvermerk versehenen Pläne, die einen wesentlichen Bestandteil dieses Bescheides bilden\".\r\nPlanurile vizate sunt deci parte esențială a deciziei.\r\nPredarea deciziei fără ele nu este o predare a autorizației, iar conținutul autorizat nu poate fi stabilit cu certitudine.\r\n\r\nInvocăm, în principal, executarea în natură a obligației contractuale, nu garanția:\r\n\r\n  *   Obiectul vânzării. Pct. 1.2 din contract include în vânzare imobilul și construcția împreună cu întregul accesoriu juridic și material, iar pct. 2.1 prevede transferul tuturor drepturilor, prerogativelor și obligațiilor cu care vânzătoarea a deținut și folosit bunul. Documentația care materializează autorizația urmează soarta imobilului.\r\nPredarea ei nu este o prestație suplimentară, ci executarea unei obligații deja asumate.\r\nTemeiul de drept comun este, în opinia noastră, §1061 ABGB coroborat cu §1047 ABGB, care impune predarea cu tot accesoriul și în posesie liberă, interpretat potrivit §914 ABGB.\r\n  *   Cumulul cu despăgubirea pentru întârziere. §918 alin. 1 ABGB permite expres cumularea executării cu despăgubirea pentru întârziere, iar noi ne rezervăm această pretenție.\r\n  *   Subsidiar, garanția. §932 alin. 1 ABGB califică expres completarea a ceea ce lipsește, \"Nachtrag des Fehlenden\", drept Verbesserung.\r\nEste remediul primar datorat, iar conform alin. 3 costurile îi revin vânzătoarei.\r\n\r\nVă rog să apreciați dumneavoastră ordinea optimă de invocare.\r\nPrecizez doar că preferința noastră pentru executarea în natură are și un motiv de termene: garanția pentru imobile este supusă termenelor scurte din §933 ABGB, calculate de la predarea din 17.03.2026, în timp ce dreptul la executarea obligației contractuale este supus termenului general lung.\r\n\r\nLa acestea se adaugă garanția contractuală de la pct. 7.1 lit. (d), prin care vânzătoarea a confirmat existența definitivă a autorizațiilor, cu indicarea nominală a deciziilor GZ BV 12-340248/2023 și GZ MA37/1539234-2021-1, a datei de rămânere definitivă de 01.06.2023, menționată ca provenind dintr-o informare a autorității, și a posibilității de a depune notificarea de începere a lucrărilor conform §74 BO Wien până la 01.06.2027.\r\nVă rog să apreciați separat și incidența pct. 7.2, care obligă vânzătoarea să ne țină indemni dacă o asigurare din pct. 7.1 se dovedește inexactă la data predării.\r\n\r\nPrecizăm, pentru a elimina orice discuție privind întinderea pretenției, că pretindem în primul rând predarea celor două exemplare vizate restituite titularului.\r\nDacă acestea nu mai pot fi predate, considerăm acceptabilă o copie purtând vizele oficiale, cu condiția ca ea să permită participanților la actul de construire identificarea fără echivoc a ceea ce a fost autorizat.\r\n\r\nDe ce ne sunt indispensabile aceste exemplare\r\n\r\nLipsa lor nu este un inconvenient administrativ, ci un impediment juridic:\r\n\r\n  *   Preluarea calității de Bauwerber. Conform §124 alin. 4 BO Wien, schimbarea Bauwerber se raportează autorității, raportul se semnează atât de titularul care iese, cât și de cel care intră, iar noul titular trebuie să anexeze o declarație că a luat cunoștință de planuri și de celelalte documente admise.\r\nVânzătoarea a fost Bauwerber, iar noi suntem noul Bauwerber.\r\nFără planurile vizate nu putem face în mod veridic această declarație și deci nu putem prelua formal poziția.\r\nTextul presupune, de altfel, și cooperarea vânzătoarei după transferul proprietății.\r\n  *   Desemnarea constructorului.\r\nConform §124 alin. 1 BO Wien și punctului 1 din autorizație, Bauwerber trebuie să dovedească autorității că Bauführer a luat cunoștință de planurile care pot fi executate; în lipsa dovezii, desemnarea este considerată ca neefectuată.\r\n  *   Verificarea execuției. Punctul 3 din autorizație, cu trimitere la §125 alin. 2 BO Wien, obligă inginerul verificator să verifice construcția și în plan, și pe înălțime, prin raportare la planul de construire aprobat.\r\n  *   Șantierul. Punctul 8 din autorizație, cu trimitere la §127 alin. 2 BO Wien, impune ca planurile conform cărora se poate construi să fie disponibile pe șantier.\r\n  *   Bauwerksbuch. Punctul 18 din autorizație cere ca, la depunerea notificării de finalizare, să se anexeze confirmarea întocmirii unui Bauwerksbuch conform §128a BO Wien.\r\nObligația nu este, așadar, actuală la acest moment, ci devine scadentă la Fertigstellungsanzeige.\r\nEa presupune însă ca documentația de autorizare să existe până atunci, întrucât Bauwerksbuch trebuie să cuprindă autorizațiile de construire relevante, iar întocmirea sa este în sarcina proprietarului.\r\n\r\nLa acestea se adaugă nevoile firești ale arhitectului care preia proiectarea, ale inginerului de rezistență și ale coordonatorilor conform BauKG, care trebuie să își fundamenteze prestațiile pe starea efectiv autorizată.\r\n\r\nDocumentele solicitate\r\n\r\nLimitate la ceea ce a fost efectiv depus și autorizat în această procedură:\r\ncele două exemplare restituite ale planurilor de autorizare, Parie A și Parie B, cu toate planșele și reviziile aprobate: plan de situație, planurile nivelurilor, secțiuni, fațade, racordările la vecini și cotele de înălțime, cu toate ștampilele, vizele, semnăturile și datele de revizie;\r\n\r\n  *   decizia de autorizare integrală, cu toate anexele, decizia privind derogările conform §69, precum și orice decizie ulterioară de modificare sau Planwechsel, cu planurile aferente;\r\n  *   Baubeschreibung și celelalte documente depuse în procedură, în forma vizată, inclusiv cele privind derogările conform §§68-69;\r\n  *   documentația structurală depusă în procedură, în forma vizată, cu mențiunea expresă că nu solicităm statica de execuție;\r\n  *   documentația de fizica construcțiilor și energetică depusă, în măsura în care a fost cerută în procedură;\r\n  *   anexele depuse privind protecția la incendiu, evacuarea, ascensorul și puțul de ascensor; menționez că vânzătoarea a confirmat expres, în noiembrie 2025, că ascensorul și puțul de ascensor au fost depuse și autorizate, făcând trimitere chiar la planul de autorizare și la autorizație;\r\n  *   calculul Anliegerleistungen și al obligației de parcare, dovada apei de stingere a incendiilor, confirmarea privind accesibilitatea, în măsura în care au fost depuse;\r\n  *   completările, clarificările și procesele-verbale ale procedurii, precum și inventarul dosarului;\r\n  *   documentul pe care se întemeiază data de 01.06.2023 indicată la pct. 7.1 lit. (d), împreună cu orice notificare anterioară de începere a lucrărilor sau de schimbare a Bauwerber, Bauführer ori Prüfingenieur.\r\n\r\nLista privește dosarul efectiv depus în această procedură și nu este prezentată ca o enumerare general obligatorie pentru orice autorizație.\r\n\r\nVă rog, suplimentar, să solicitați inventarul exact al documentelor predate electronic la 17.03.2026, întrucât procesul-verbal nu cuprinde niciun inventar, precum și retransmiterea integrală a acelui pachet.\r\n\r\nCererea operativă\r\n\r\nVă rog ca exemplarele vizate disponibile să ne fie transmise de îndată, fără a se aștepta reunirea întregului dosar, iar până la 11.11.2026 să primim documentele restante sau situația individuală a fiecăruia dintre ele, cu precizarea, pentru fiecare poziție indisponibilă, dacă aceasta nu a fost aplicabilă, nu a fost depusă în procedură sau se află la un alt deținător, cu indicarea acestuia.\r\n\r\nDacă vânzătoarea susține că nu mai deține exemplarele, vă rog să îi solicitați să arate concret ce s-a întâmplat cu exemplarele Parie A și B pe care autoritatea i le-a restituit odată cu decizia, potrivit listei de distribuție citate mai sus.\r\n\r\nÎn măsura în care documentele nu ne vor fi puse la dispoziție în timp util, ne rezervăm, cu tot respectul, toate drepturile ce ne revin, inclusiv pretenția de despăgubire pentru întârziere, având în vedere că lucrările sunt contractate sau în curs de contractare.\r\n\r\nVă rog, de asemenea, să îmi confirmați primirea prezentului email, întrucât la 13.10.2026 un mesaj transmis de pe adresa noastră către dumneavoastră nu a putut fi livrat, din cauza unei blocări temporare a serverului nostru de expediere.\r\n\r\nVă mulțumesc anticipat pentru sprijin și rămân la dispoziție pentru orice informație sau document pe care îl considerați util.\r\n\r\nCu stimă,\r\n\r\nCosmin Adrian Covaciu\r\nBuna ziua,\r\n\r\n\r\n\r\nDupa cum am discutat, am preluat azi cheile de la dl. Kornhofer. Va atasez procesul verbal semnat.\r\n\r\n\r\n\r\nToate documentele tehnice legate de cladire pe care ei le au, mi le-a auds pe un memory stick. Puteti descarca continutul de pe acest link<https://we.tl/t-R4cahMTqSI>. Cred insa ca sunt aceleasi documente pe care dvs. le-ati primit si la inceputul discutiilor cu ei in noiembrie.\r\n\r\n\r\n\r\nDl. Kornhofer m-a mai intrebat daca ati primit documentele de la arhitect. In cazul in care nu le-ati primit, va rog sa-mi spuneti.\r\n\r\n\r\n\r\nDaca mai aveti intrebari legate de documente, dl. Kornhofer ne sta la dispozitie.\r\n\r\n\r\n\r\nImportant: In urma decuplarii de la curent, s-au demontat si contoarele individuale de curent de catre Wiener Netze ca sa nu se mai plateasca chirie/taxa pe ele. Astfel, la rebransare va fi instalat un singur contor pana la finalizarea lucrarilor. Dupa cum am discutat, il voi contacta pe dl. Hofhans si Wiener Netze ca sa rezolvam acest aspect cat mai rapid.\r\n\r\n\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\n\r\n\r\nSalutari,\r\n\r\nBogdan\r\n\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\n\r\nRechtsanwälte GmbH\r\n\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\n\r\nMobil: +43/664/156 50 85\r\n\r\n\r\nbogdan.capra@cerhahempel.com\r\n\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\n\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n\r\n\r\n<https://www.linkedin.com/company/2413345> <https://www.facebook.com/CERHAHEMPELWien>  <https://www.instagram.com/cerha_hempel/>\r\n\r\n\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\n\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\n\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\n\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\n\r\n\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond",
+      "99: Important"
+    ],
+    "category": "fyi",
+    "folder": "Capra Bogdan",
+    "thread_id": "<efabbf34-1893-4292-9534-dd031997887f@ac-wohnart.at>",
+    "is_read": false,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "46ca450e-72cc-4c2e-a38d-0746e7b6bc58",
+        "name": "email_atasat.eml",
+        "size": 1416681,
+        "content_type": "message/rfc822",
+        "has_text": false,
+        "text_chars": 0,
+        "page_count": null,
+        "text": null
+      },
+      {
+        "id": "20c42434-aa48-4627-8089-f12ba553b725",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "774a0db9-6135-4992-874e-9d0aaa2a6d45",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "834efe13-7927-4ccd-b84c-1fdb56114839",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "4e43014c-caec-4f9d-bf4f-ae2100e15d36",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "dd2f6c6f-1e4a-4123-8524-cef8a97c16a2",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "fff86ffb-e235-48ef-b1e0-fb5bc17d0368",
+        "name": "CH_260317_Übergabeprotokoll_Schallergasse_35.pdf",
+        "size": 1031759,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 1979,
+        "page_count": null,
+        "text": "DatumderÜbergabe:\nObjekt:\nAnwesend:\nA.IbergabedesQbjekts;ÜBERGABEPROTOKOLL\n17.03.2026,14:30Uhr\nLiegenschaftbzw.Gebäude,Schallergasse35,1120\nWien\nHerrMag.BogdanCapra,Rechtsanwalt,fürA&CWohnart\nImmobilienGmbH(Käuferin);HerrMartinKornhoferfürdie\nSchallergasse35ImmobilienbesitzGmbH&CoKG\n(Verkäuferin).\nVerkäuferinundKäuferinbestätigenzumeingangsangeführtenDatum,dass(Zutreffendes\nbitteankreuzen)\n0siedasObjekteingehendbesichtigtundfolgendeMängelf-estgestellthaben:\nBeschreibungdesMangels\" Kommentar\nxdasObjektnacherfolgterBesichtigunggemäßdemKaufvertragvom20.02.2026\nandieKäuferinübergebenundvondieservorbehaltlosübernommenwurde.\nDieKäuferinhatdasObjektbzw.dasGebäudezudemam15.03.2026besichtigtundkeine\nMängelfestgestellt.Klarstellendwirdfestgehalten,dassessichgegenständlichumein\nsanierungsbedürftigesGebäudehandelt.\nB.OffeneThemen\nÜberfolgendeThemenbzw.potenzielleMängeldesObjektskonntensichdieParteienim\nZeitpunktderWohnungsübergabenichteinigen:\nBeschreibungdespotenziellenMangels Kommentar\n1DervertraglicheMaßstabundAusgangspunktfürdieMängelüberprüfungistdereines\nsanierungsbedürftigenGebäudes.DerBegriff,,sanierungsbedürftig''bedeutetindiesem\nZusammenhang,dassderaktuellebauliche,technischeundfunktionaleZustandderWohnungenausdem\nGebäudenichtdemzeitgemäßenWohnstandardentsprichtundInstandsetzungs-oder\nModernisierungsmaßnahmenerforderlichsind,umeineordnungsgemäßeNutzungalsWohnungzu\ngewährleisten.\n1/2\n\nC.Schlüsselübergabe:\nBeschreibungdersonstigenSchlüssel:sieheinAnlage./1\nDieVerkäuferinbestätigt,sämtlicheSchlüsselbetreffenddasObjektandieKäuferinzu\nübergeben.\nD.ÜbergebeneDokumente:\n■weitereDokumente:elektronischgespeichert.\nDieParteienhaltenschließlichfest,dassdieÜbergabedesObjekteszumheutigenDatum\neinvernehmlichbestimmtwurdeundsomitvertragskonformbzw.imEinklangmitdem\nKaufvertragvom20.02.2026erfolgtist.\nWien,Parkring2,17.03.2026\n~ ~=----•=-;•>'-~\n/challergasse35Immobilienbesitz\nGmbH&CoKG\n(vormalsAßmayergasse60\nImmobilienbesitz)nartImmobilienGmbH\n2/2\n\nAnlage ./1 \n \n\n"
+      },
+      {
+        "id": "1427a44a-9bb9-45a5-8ef9-23eca47b76a8",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  }
+}

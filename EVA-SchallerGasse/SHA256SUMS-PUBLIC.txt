@@ -1,4 +1,28 @@
-c9f6db751cd13ea544ed69e058e64c69998a46972d96ca546f1d5ebaf19a7bc3  Actualizează ofertele de reparații/conversatie.md
+f22e539ff61a39b8ca932e374c63ffbe4756f4a8048ba256929561521b771e0b  Acte autorizație Capra/conversatie.md
+5a1c7263ae0b2f3b48774e9409034b779dc67ddb92c3d3ef89d482147eba33d7  Acte autorizație Capra/fisiere/2026.10.28 Bescheid-01--0d88205f.png
+f04be7b34a2a1421aee3841b41e35003be4b264265e51f7691748d62f2148ca2  Acte autorizație Capra/fisiere/2026.10.28 Bescheid-02--23027018.png
+12aa4722014203835a65d8f6cd6d333f283c44c673385a824631a2b6036ca9c2  Acte autorizație Capra/fisiere/2026.10.28 Bescheid-03--1147eeea.png
+6b39148ac3326ff6bbf4d07c638f829a80a025690f74c05f2b34da59b68050b5  Acte autorizație Capra/fisiere/2026.10.28 Bescheid-04--414d5a11.png
+92683a953f454bb9737d75f507f895cf5662f0f0452125d88fac6a01f2c5dd7c  Acte autorizație Capra/fisiere/2026.10.28 Bescheid-05--906b49e1.png
+090864c1c6139ca3178d5a2bdf1ccffbdccc9fc301671a25e44e22c383aa520a  Acte autorizație Capra/fisiere/2026.10.28 Contract-09--7a86d9b6.png
+4b0d99fe27e1f68c358fff94f4c45445f5829c9d0e7b086d6807352b131958a4  Acte autorizație Capra/fisiere/2026.10.28 Contract-10--8efa607b.png
+b877adbc53a984068ce33cedce5222da05d81e8c8c36e19f52f6284b97a4a113  Acte autorizație Capra/fisiere/2026.10.28 Contract-11--1d542499.png
+f6595068a657e4ec7e02296da57e17b1d23216f2d79bd5453bbffc4efd91812c  Acte autorizație Capra/fisiere/2026.10.28 Contract-12--374d0906.png
+e6abf8cdebe979e99fa86eec4d590846bab7ef7f57129984dcaf15ef78132b76  Acte autorizație Capra/fisiere/2026.10.28 Draft EVA Capra--0bf8eaf6.json
+ad06858dfe0192062c7d6df011a8e97cdd97b79ce87c73085ffdb98d944babee  Acte autorizație Capra/fisiere/2026.10.28 DRAFT NETRIMIS Capra--38b0a935.txt
+b1b26d021d96ac880c1923dbc366588368a489e789782c10bc7f89812b639bcf  Acte autorizație Capra/fisiere/2026.10.28 finalizeaza Capra R02--a20d96c1.py
+4aea9a51cba0d6cc2e2d2f112ee8cfee3a3a2cab0781f94f45dca3fd41007b94  Acte autorizație Capra/fisiere/2026.10.28 indexeaza draft Capra--d6e16db9.py
+a9f521e72b8f0b8027b81b28a421d7c5c59f496fcf869e96b3da2bcfbb8855fc  Acte autorizație Capra/fisiere/2026.10.28 Predare-1--ce34013c.png
+7996d50e1a3cb75eb84bb55c524453696fb1a93e2cf514b75483e30f8054abb5  Acte autorizație Capra/fisiere/2026.10.28 Predare-2--32b9cad4.png
+92b05ef6c65e822f94584cdde8091ed6f523e5c0d8df3de3dc772285a02b9065  Acte autorizație Capra/fisiere/2026.10.28 R02 Draft EVA Capra--83b0c13b.json
+c454dd6edf80cffbf33bc8a568f2de54b397eca234e91ee1ed6d27f97d66ee89  Acte autorizație Capra/fisiere/2026.10.28 salveaza analiza predare--dbc6aad1.py
+95a38ffe17d43718584749fa9854e4442e00b9a76f6ad11d87242fed0405342d  Acte autorizație Capra/fisiere/CH_260317_Übergabeprotokoll_Schallergasse_35--99b22ffe.pdf
+237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365  Acte autorizație Capra/fisiere/Kaufvertrag_Schallergasse_35_signiert--0e270113.pdf
+6378b76cffba50b0a806db732acb5696347d65c15c9e663941cd60a28a762003  Acte autorizație Capra/fisiere-index.json
+0309abdebf5e6c1e71cb77f2a63c95da3706ab19320a21cff0d0e53d1c2c4aec  Acte autorizație Capra/istoric.json
+4482950823702c91b5bbee5feaa0f6778143c78acd25c3fc21f6c5a12f00d5ef  Acte autorizație Capra/metadate.json
+62f6a5ddc9be5f5cc371307fde22b515458a40038d66f1b5dccd4a6a7907843c  Acte autorizație Capra/rezultate.md
+d581c446904d097c884877aef5f8fb53753745e8a478617643c78c5d4d1a6eab  Actualizează ofertele de reparații/conversatie.md
 56d76d87c95dad9fae128347f545fe5c52aeabd02af35e248695c21a6a478747  Actualizează ofertele de reparații/fisiere/04 Eva-Mail BAU-WERTE 2026-09-25--baef2ff7.json
 f26263f59ceef259f0fe6cf479ba5ab58e9ef1255dfc73ed8729cb3c74f1f13f  Actualizează ofertele de reparații/fisiere/2026.09.30 7dce663e 14854--c562543f.jpg
 bd2f3db0e635d37473d3b4a23ff54070c9e4e3241174b22f00fd4f104e288671  Actualizează ofertele de reparații/fisiere/2026.09.30 actualizeaza jurnale--61f85f0d.py
@@ -23,7 +47,7 @@ f195328841cd0450a2b9d757e347e1b1990f29e2e3ac21bd0847e6f38238a00a  Actualizează 
 1167e4185b24eeaa316afdcfd06498b8a0472625aad39d42386fc1722fe8068a  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri financiare prioritare--3113d072.json
 b284d79e0ee90f0539d8e122011a28f1bb9201d06e29acb56c2d1047998efcec  Actualizează ofertele de reparații/fisiere/2026.09.30 emailuri finante--ded1fd04.py
 8f92b69a63de1c8f76e4d31de36d1ac41fa27b7614fe3223304025ec76990565  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri Finanzamt prioritare--81025811.json
-5bbafa857de655d08e3f2382e9f5d31a895456acd90825880a17b934aa83316c  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 001--1a07b30f.json
+9a846173100a856e3eb596bbaabc1dee4303329c042a9026d36a7e917c6f3191  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 001--1a07b30f.json
 73ecb3fa6a601296edb5a7f20dea2df8a361a7450a4e1192984b1d9d8f1749c7  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 002--ea03e435.json
 0e83e53b8bf013b0aca4ecc238f31938a6ca538dc50939b82e41fa2d97f1f768  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 003--87ffb5ad.json
 aaa941b4de1d42168162cc51fc8d7b275ea7f82cb4b0b2dc411f2e77d5b1b680  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 004--1f4013f5.json
@@ -40,7 +64,7 @@ fe021f16b443ce96539b802245edc40d335a17291d6e88557541e3e183329612  Actualizează 
 7b66bb2098317c1d7e946cac65724d03288bc550fc006496bf57faab9d62e41d  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 015--8761883d.json
 197c06829e6f418c95c22965d80ca80cd4ea35d2d25ca1331ba405a8fa8b4d16  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 016--815ffd13.json
 ea3b40b8cee70f54ff8e36b744811ce05e25be289728a6067083699c1c2785f6  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 017--64f5bcae.json
-9787104f1657c2c08df1fe9385d0fc1c06a8d04e13342f7d07dbfa7502de7af3  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 018--7b896539.json
+cf845f1b9f72d6c2cb6791a9af933ab105299b7e49c45fa7c48af5d3a1254e1a  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 018--7b896539.json
 2d9dc5ee66862476cae5ae22bea2dff5eea6660119a4867f86aeba5a61868f77  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 019--43236f64.json
 ab43e9d03a50b3930ebc0425885bfe45fae4514363f9223b7a2b2a82ba1e3910  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 020--c826ff73.json
 d453bf4278b0be6aff83e279e90a293267beccd37be85788944e6a0ff8040ec4  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 021--a9a9a6d2.json
@@ -51,7 +75,7 @@ e35daa1d3c83cd57f7e04ace8ac0f16827b4d186df21a8564e97b8006fc54ab0  Actualizează 
 f0cf6629fd51b49e23dd9e5938abc5dfa86539e37d5ef230647416fb0cbb663c  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 026--73caf2ca.json
 ab11e97bdd36bf209341b27287ec7f7eb65488a6b9409e2dfa73a87c3c194ce5  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 027--78e134c2.json
 164c80204d0767cbfa4b313a8aca955b2a9490713dd8cadd7b33bf8c090bd4a7  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 028--19cad81f.json
-02ebacd5687b55cf74eba07b3f9102b233562c2b73c5d99d7089a3fc850e91a1  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 029--e23f83c4.json
+b72d231f1c62052f046410e2fe6f5201cd29993a4b6ff1ee5581a3b3716244fb  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 029--e23f83c4.json
 953ce7419d3985bf38944fe2d11ea41272f1661ff1f2ff23773a6aab2df76466  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 030--bdfc823e.json
 a0d788b26ca07fda1ecb724faecbde60891650587d48c226d65a8c4b0e061204  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 001--ea76d977.json
 d44cb8594cd47b81ce4b4e06ca46394b2af1dcc999c0848de594673ca05239a6  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 002--c8017ecd.json
@@ -59,7 +83,7 @@ b78150ee2c4d598da645474f05ef291050cfb2a936c4aa8d0cdd96693073363a  Actualizează 
 7cc6dee820296b015245859965c8e595d324b5700d7d71db79ef5f21a67d9861  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 004--9589819b.json
 67fa168d5fb96e1dd29273285f5cb4656033817c3923011cfc0b009f20d86e2d  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 005--6d86607e.json
 1b1f16e094297c38816a48ecd6d56a029def15a5d9ee0a28f0fc6a88464e12a9  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 006--aa1ebfba.json
-77b9509a4a8b8688a0aefb47db4d619bc37ff0035dea9db61f3f2d9f8e1132fa  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 007--f9e56d56.json
+c0bedd1a508d9829fb723e94a3764ee40463fb2b37b3621b5867cc2a3f5a12da  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 007--f9e56d56.json
 71391746d9d2a6a8d027ef610c6605a38b6e085509dc3b28c159960b2b11ad61  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 008--0f4fe97c.json
 63ba48bd438568ffe91106be1d7c3622cd881885c4e54598f7784181aa8f9d02  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 009--5028d003.json
 9ba8c80dd73aa1634b012652eaf2f921bc94e0528783541c30b990e797a57c06  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 010--fb61c801.json
@@ -139,26 +163,579 @@ a4073bc0a7b587cc48082e815b562fd74b238f4b2d6c4a65a9d0dda3e88de331  Actualizează 
 d62b094eece31c3d11e1aa2249e7538190cc82f8a7082b2d82a101eafa072a8c  Actualizează ofertele de reparații/fisiere/genereaza_documente--f3cb90f5.py
 e7cfec7269a439487efa5e9f846991758d130fb8f5427ca5f1a5985898e0c0f2  Actualizează ofertele de reparații/fisiere/incheie_livrare--875449ab.py
 ed6eb35e4fa901591b6e081c0b6f1c0fa9caac72b26a5344b94898c4835fe080  Actualizează ofertele de reparații/fisiere/ocr_windows--7a8601c9.ps1
-a685b61bf30ec96d2af84bc35caf154b9c87c9cb4f6c46a42127774d1f6af45a  Actualizează ofertele de reparații/fisiere/README--6f49fa50.md
+d7908a02f53bb6c704df91da6cc0bcd3bedf780a44647914a89b1bb916bd2392  Actualizează ofertele de reparații/fisiere/README--6f49fa50.md
 c3518c0be9be35e0a151fe2a181e721380354bd4b70662af60c6a904f38e94f5  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p2--2f7d2b5b.png
 77863bd133750bc961f4a9f9aefcce03695e4078d9ed380fadf1543ad890dcd7  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p3--701d7009.png
 088e14c4c4be33f997342ef2f0942fe158d1c67e72199f0512000fc791310ca1  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p4--165b8498.png
 a740b17bc3c0abc900b972c19ada6da20d97c3b8e5b9f424366a5007c7c27a2c  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p5--5b367725.png
 7cbf653725c58b80a5b6ed765d77a8f6150d60e879f42f369fbf287f04df6dbf  Actualizează ofertele de reparații/fisiere/verifica_artefacte--75193486.py
-7219daf136a9d39d7620c1cc6b8aa7d0ef163b31f5f76e2ff5defea721474f8e  Actualizează ofertele de reparații/fisiere-index.json
-61c4def8b626d20c5f93f16e2aab5a3b53f9840a68a98a73329c31544146c729  Actualizează ofertele de reparații/istoric.json
-d623373bb04a7f41169170abecdd0b469929956c93c88f45bf0f66871338f0a8  Actualizează ofertele de reparații/metadate.json
-5a24f65cc788d8fbebf6f9d214c21b63fd8a7b525182b5a6d1fd9a27e7ce7a14  Actualizează ofertele de reparații/rezultate.md
-9b151891c33d69419ef55020b4c3147eebec624b68dbc3af039c229043aa65f9  arhiva-001.zip
-dad828016a36db25c602dcbc79344bd1436e6604a01c74ab21f9ded66e050695  arhiva-002.zip
-72f18650a8cf1f3c75ebff9a7bb0d583aef0026052c30c620897460aaa9f35fe  arhiva-003.zip
-2f8eb159480edaf6248c242091eab9f68495f8490fc07bc51933ae7a5ae0443a  arhiva-004.zip
-b6384146cb88b6e2fe4a074453ead4e33e827738c001b451bd99ff715b717971  arhiva-005.zip
-9efde3cd6def5b2bb3284562f9a3681cb2e08513c4434ca37554df7ea6c43561  arhiva-006.zip
-c57d2d02642b681f7c21536137ce6dd97b57bb42df55a34855a439a0535aa113  arhiva-007.zip
-97ae6b42406c8a050137939ad1542cea6c73e500d1aa626e0cf1993bae9f3895  arhiva-008.zip
-ccec20c30562ea476a1947b41e344874e63bc79263803dbd498e58bc912bc2b6  arhiva-009.zip
-01d30ae71e151e50bc78453f864f0f903d89fd328be5fe4ee955cfd34637d63e  arhiva-010.zip
+e28c75698d60d6b97db27af573a1e7a150943cc74ee13b7c70caafde133b36b3  Actualizează ofertele de reparații/fisiere-index.json
+67c703b4986122680069c427e24fc61ce95ff46f25bc1c51005e6fe6d9aa44bb  Actualizează ofertele de reparații/istoric.json
+7f5e92e19737f0d1842774f859266fd729c26e588a2b1ca7616deafacc5ba52a  Actualizează ofertele de reparații/metadate.json
+82440d90ea4c1cecaf149b67707aaa0158b5f15fea4546ab2b15bb0e69918418  Actualizează ofertele de reparații/rezultate.md
+f2f5f46bc8ad3438fa361f5d40c3d38280e46b3b8df6f5eedbb05226d049babf  arhiva-001.zip
+b518f29966f1e5a4bdd53befd069ec21137b6583cc13e42b1c0ab771a59a32ec  arhiva-002.zip
+f7da65f0f9f2f2743fd8b62832ee31553ee8875df3b1395fdc48afb93139384a  arhiva-003.zip
+5fafc78368c7fd6303df74fdb107724857134f6cd1bb291e93e01a5d50a0d9ad  arhiva-004.zip
+d86e61d926301974d188ed303ae8cb10b9c17699119f3ad9c645dcb7e016f41d  arhiva-005.zip
+cdaedf3da4ec3c71a5d999d8a12a37cb524cd68d63e9393d487113fdcd0c37e6  arhiva-006.zip
+72d49cf21af1f686aa997ed4790586d12edd0fddf4260a48b06bd1714a111817  arhiva-007.zip
+44c102e54cf65801b09c20dcef7306d2a50db8f2d717f2161e1a038fd86fb15d  arhiva-008.zip
+20aeabae5178a7a84c3ab1790ff80322e5845d39adf837d4be347dffcc758809  arhiva-009.zip
+f76063266a59edd26dfbe0c4c065a7b165a19739b8d1b6a41ec61a8904b02a42  arhiva-010.zip
+b71d67e0bf1b2a0ac83a7bf686ba57ea5669d69ab2669cf15e1de5a92c565b19  arhiva-011.zip
+1ef0e2857445e539a0571ba0d9a70dd56bf4625fe06562da306329aac80b6317  arhiva-012.zip
+5aa010445f91e91a3baaca814cb5bd4b83433dc7951a1640d6dc00dde7b366c2  Berger/conversatie.md
+3b1cc0a930a58f6ecff788886949537132f9675e1e3b9063a01be0a8f78f802d  Berger/fisiere/2026-09-23 Anlage 5 - Fragenkatalog (digitale Reinschri--6318f2f9.pdf
+b9573fd9282bdd91081fa17dc616e5ad4c57f3df16464234e6b5dc1eca6d42e4  Berger/fisiere/2026-09-28 Fragekatalog 2 - unterzeichnet von TOMS--10b24481.pdf
+3ce6df26fd4b0ce20dd2b5f7b142907c664cc888c04d341fe5abe0bab3d92f84  Berger/fisiere/2026.07.22 Email primit BERGER 81dd5c7e--a08210b9.pdf
+03217ac89bac90d90a313fa0560d6022ebde87559dfd80265383c0ab6b9c2d28  Berger/fisiere/2026.08.06 Email primit PECH 2b19f181--4cf7e4d0.pdf
+1773f91d757c53a9bc245c7a87d235b4c768de665ca8c026599433ac8e3025f3  Berger/fisiere/2026.08.12 Email primit BERGER be1e9ecd--7fc3ac53.pdf
+e4a422296f897dc07303dab7a6b11e319d6d9066f5ee5a5caf857a9649301c9d  Berger/fisiere/2026.08.17 Email primit BERGER ce6905cb--056b40b7.pdf
+9e81281474078101443771baf4e8e70a2ea73a52f1141fd31aaf673c0f8a35bb  Berger/fisiere/2026.08.26 7d523627 ANG 839_Schallergasse 35, 1120 Wien--07ffd347.PDF
+4796f14b15e5e1c4f17dfad37c62bdcd320e9e5a885af8e36962f10e946619c2  Berger/fisiere/2026.09.07 65730486 ANG 855_Schallergasse 35, 1120 Wien--4f36e991.PDF
+5e316a60459cdaca92003ff186cedec93e08d604ef8feef42c0637f4e532bb31  Berger/fisiere/2026.09.17 Email primit PECH 63cd2bcb--fd9d0027.pdf
+92bcae4fdbaf48b04e62d1eeb7138a7002af9ae04ba8a1c7e01d25735d2d973a  Berger/fisiere/2026.09.23 9c4193d9 ANG 891_Schallergasse 35, 1120 Wien--96da23f6.PDF
+4c8baa2b9867452beba3ae5fcb42d2ca91ba3fa39259197b531b6b676f4dedef  Berger/fisiere/2026.10.01 actualizeaza comunicari--8c448f57.py
+4650fcd8221dd27ae78915c748618b5fc1adc8114de6f0c994cee5bac5853c36  Berger/fisiere/2026.10.01 descarca comunicari--ca7b5510.ps1
+203fe897ea58ff12b052b91eb7974625dfd07ce01c6f3e296e818b84607bb0da  Berger/fisiere/2026.10.01 Descarcari originale--dcd24893.json
+02075e500fd933165a3589f0c3b4b3e95a051915a0c8f9f9d1cc48f98e78fb16  Berger/fisiere/2026.10.01 Dovezi Eva-Mail--f7d5f14f.json
+a306460b771450b08ae5a787f3eeb30a0f7138986cb0723cfdf4a66b5749262f  Berger/fisiere/2026.10.01 finalizeaza verificare comunicari--b5d807e8.py
+43bebddfad7da22b65a175fd68ddedd9ac69de6fee44478a03c549e4dd6d165d  Berger/fisiere/2026.10.03 Automatizare zilnica--99513bff.json
+295287cd3d44fa84bb3942565e1256b48bae95dd409a6842e8c5ff8c0f3cf79c  Berger/fisiere/2026.10.03 descarca comunicari--67734141.ps1
+8e056f2d659a9bef255afa0a7aae53e7a2838218e3f561bf3a6909435c839a76  Berger/fisiere/2026.10.03 Descarcari originale--945df69e.json
+fff4314db47fd996e2dcbf8474aa53c297d943eceedf91067cd7fe66662f6039  Berger/fisiere/2026.10.03 Dovezi Eva-Mail--2f2c32cf.json
+1d97c265ff2e1d623404217237ea8f2cee7222683d9f4edefe9660c02a0df171  Berger/fisiere/2026.10.05 actualizeaza comunicari--4826d4bb.py
+570a9d280fecff3bca428f916d8d1dede99117f5e0eadd45c9b0e0c033d5b4e4  Berger/fisiere/2026.10.05 descarca comunicari--6f6556ad.ps1
+51fb996b9a5cceda97b40ac6f564f5152184fb8b86a78cda5893023ed92f5d21  Berger/fisiere/2026.10.05 Descarcari originale--03bfd31c.json
+76073720749bd7e124d5641b2a91b3148ecf496636dcf3c8bf556dd1631f7410  Berger/fisiere/2026.10.05 Dovezi Eva-Mail--cedb5770.json
+3e91b567f982c0af672c6a25776f8c2b84519e27bb4d2faa25c4f08c2f6aa41f  Berger/fisiere/2026.10.05 Statusuri verificate--6f9ec99d.json
+03b22e0773b432dabb93d21b770b174a5ec42cb1339e5873f76832708469662b  Berger/fisiere/2026.10.05 Verificare 3798c8db p3--c9176a91.png
+b8e12a1bd76ac7f76ce65ad5f12ecfcd491b6614833c5d6b4162c336967c90fd  Berger/fisiere/2026.10.05 Verificare 75af73b7 p1--ced9592e.png
+5e514fbb7dba8ad23926d8e80775a4ecf90591726a612d2e9ee3a797cfa6fa17  Berger/fisiere/2026.10.05 Verificare 75af73b7 p3--2261bf6d.png
+ce490fdc031a8ce60d5ee4ba8b5a8eea5ae10f150a5bc8f2fd700f84f2cc0cd4  Berger/fisiere/2026.10.05 Verificare fc142f06 p11--3c1ed3da.png
+e7f5d7722792dd9468927e00fb1f05e865d6da08b6d3aa33633d05b67190cc6e  Berger/fisiere/2026.10.06 Verificare 29fb81b0 p2--f363f02c.png
+d7d0c1d8ad830a2ae7d439544b8194d7494aaff69ab37f4915eca18ae251a704  Berger/fisiere/2026.10.06 Verificare 2c373207 p2--1f2af512.png
+0f9a68d76bb6c177a246928dfb463f156ef32af6128f4fc72b6953626cf1428a  Berger/fisiere/2026.10.06 Verificare e4a3b610 p13--195aa44b.png
+9723ba49a1a5df57ee4c159b565fa574ac6bed012eb8d81b486398d0648c6f62  Berger/fisiere/2026.10.06 Verificare e4a3b610 p14--6c09bae2.png
+19e4b213937b25c51aaecfdb28a62fcb8021b33f0e50d405bb89f1fc74e18a0f  Berger/fisiere/2026.10.06 Verificare e4a3b610 p2--c8333d2d.png
+0fe4b18b1bd11588815badb98a20ec2e4968d28ec18d4d640583dcb28fa3e488  Berger/fisiere/2026.10.07 actualizeaza_jurnal_opinie--a39f82eb.py
+98d3748f45cbed2fa128340d3be3151c14f4a94a1a9a040b881afb809fa65f48  Berger/fisiere/2026.10.07 arhiveaza punct juridic Donau--69ed3761.py
+2b1db92ffd30b8e992a4d2a0dd2a1a274d75cf6c48ac27da998a14b79707d149  Berger/fisiere/2026.10.07 Contract vanzare p10--2bf1c436.png
+10a89307de47924360ed184a7145a76731f70c9cbf08bf6e86d2342f21a21ae3  Berger/fisiere/2026.10.07 Contract vanzare p12--e796e57f.png
+9b248cfe1822eeecf3fdd5fa2ca71b9f45c74ddc0b6f8adde03cac2feb98273b  Berger/fisiere/2026.10.07 Contract vanzare p2--5066cf81.png
+e3fa57db269f8465854f7787352aca48dcf5f87b06ef08704a37036dc56aaaa9  Berger/fisiere/2026.10.07 Contract vanzare p4--79d88531.png
+8bfd1aa1ac941dda367c847f47f7a0d713d180c2c7f7360f79a7f5c98f76e08e  Berger/fisiere/2026.10.07 Contract vanzare p9--4f55a44a.png
+81d7eba6fbcb7ed0ec5422b36640007236420733ce0f252f329b0cc3105cc057  Berger/fisiere/2026.10.07 Control document si randare--3c288995.txt
+0f63ce86bb7110c0ca82a698083b4f9754dd34d35ebd4ffd064b126714536f63  Berger/fisiere/2026.10.07 DRAFT Eva-Mail--1ffa45c7.json
+992de92d5b0ac35a26f7f1e7bd8e65e4fb63cfa6ca1f1946cd683cda2e86eb59  Berger/fisiere/2026.10.07 Extras p1--0c661593.png
+ca1f947ca786415a0db3bb9e1eade6b06a42b361d84a39701a1720813c0fd20a  Berger/fisiere/2026.10.07 genereaza_opinie--7d938add.py
+b5aaf28615e66881c8ccb688d0deea44bb033cfe2fa8ac9b9754364893870443  Berger/fisiere/2026.10.07 Inscriere p1--3cb4ad57.png
+ab7b4a3dfac2b08fab298028105d0cea47e11c79821bd0d851b921a40f3609da  Berger/fisiere/2026.10.07 Istoric draft neutilizat Capra--77e7a448.json
+8cd312692a1a5e224e160fa3d492cdface5251d80ab4e1a3d89d41cdbffd4907  Berger/fisiere/2026.10.07 Opinie juridica Donau Schallergasse 35--27c4f815.pdf
+1de9d125599e76263d28091cc8bd082c8a1b7a80667ca548c88d1a1ea4f75ef0  Berger/fisiere/2026.10.07 Opinie juridica Donau Schallergasse 35--b9fc2e3d.docx
+a73cf17d5448dc68169d0e202d82896b3a7bec50ec4f7abd3be88c20bcd1df00  Berger/fisiere/2026.10.07 polita curenta p1--dc020e8c.png
+ab07717e9281e3238b4f8ba0772222e3b82f0fc625346225616e28a6654e370e  Berger/fisiere/2026.10.07 Polita curenta p3--0ca18df8.png
+f5c6e82b523c899b7945847c6da6bfe39dadb513952caae5bb0279aa374502b6  Berger/fisiere/2026.10.07 Polita curenta p5--40cc9c9c.png
+7ff9767e7f9467d7aa69f1e05221f48d3dcbaaf375f302f8e255e8b3773c1165  Berger/fisiere/2026.10.07 Polita curenta p6--fa07b2d9.png
+d55cddcf58f4119b4b0cccfe5cfa063a4fecd91fd12cb4917e310d8ddcd878cb  Berger/fisiere/2026.10.07 polita curenta p7--1f86769b.png
+1c409050f017c2a3be0d9b3c21404da84d2fc96e3d8c99fd50c997c829c42588  Berger/fisiere/2026.10.07 polita istorica p1--aaa9a98b.png
+abfc9c4554040c32ecf15cd13a02f3cf640a58137cc237d284bb903561e7436a  Berger/fisiere/2026.10.07 polita istorica p12--680a85a7.png
+b7f497372c203984c3fa2153dff38e598ccf304d9a8f7ddb09da6220045e15fb  Berger/fisiere/2026.10.07 Punct de vedere juridic Donau--4e8991a3.txt
+88e72f094b50bb588dd194a8586753f5908393cb598fa8eaad649c01c3ed2d73  Berger/fisiere/2026.10.07 somatie originala p1--63b93d4b.png
+b1a88e5685b52ff08603a62d1bef48c1a57e02d7ac2187faaceb42ee40bf04ac  Berger/fisiere/2026.10.07 Verificare Memoformat p1--6f94a893.png
+811090fcd053e86c36d4644e27c62261e86117f78bacd75c76c73715336b4127  Berger/fisiere/2026.10.08 06e819a0 p1--49a7502e.png
+34a247e0bf4d4e4ed654f31078a5184b64b5d570fcc62fad23663e9c1534a4fc  Berger/fisiere/2026.10.08 7225d976 p1--9523bc49.png
+e799403b95662cc1fd174e04a8f7fdd9aad8c2097d238eeef12176e762961e97  Berger/fisiere/2026.10.08 7225d976 p2--97b44726.png
+d2044854082a5c493122f216e522dfa36c8cd2d2194709d0e9cf0d20913b0d95  Berger/fisiere/2026.10.08 a4cbd8a2 p1--5431ebd6.png
+b2166bc5d255b9347098197f1a0c4fcadbbd9ce89b5951a2a84f3849fc7fea9c  Berger/fisiere/2026.10.08 a741ff86 p1--81c197fa.png
+12a1577af42fada707630bc06cfc75f7dd9b2abe82a4f78de86a9d3fb5f69ffc  Berger/fisiere/2026.10.08 actualizeaza_jurnale--273845c5.py
+51811d29ebf73578678c7d05d992546ed238cdb0aefe06f5ffdc28a7fcfaf433  Berger/fisiere/2026.10.08 arhiveaza_eva--56831588.py
+ce33b29cb29299bbddab9fd5a7796d4ac7eeceee7875736fbe61ec8d2cc42413  Berger/fisiere/2026.10.08 b4dc9a6d p1--52e5a216.png
+c312b2d84daa054f4b54460f94394efb072ea5adfc68a762c40cb2d0cee9ebb2  Berger/fisiere/2026.10.08 cf05157d p1--fb8000ef.png
+b224b1a1ef7dd26921a6bccbcbf870964e3ab3f853ba3113e0f56cd4d41ce27f  Berger/fisiere/2026.10.08 cf05157d p2--25a3d161.png
+0a437b2f9f4ad5bafed7c33b5c3287a43a9275b97fee2e601caa558fc5185362  Berger/fisiere/2026.10.08 Eva manifest temporar--91744b3a.json
+7dcf49c7406e3e48cdb8d7ce6de39ca10882ce58fd0094d64c4d0bced2a65a22  Berger/fisiere/2026.10.11 Arhiveaza verificare--a0cd49a1.py
+8d6c313a2a166495f43dd05b6e13b66233deb63235b34c006ab42a68b7cd1d7f  Berger/fisiere/2026.10.11 Berger p1--365d141e.png
+1c2330d8f82f9c65a72619f5eebbd9ed73fe24b089992d99cf6f00d49be109a0  Berger/fisiere/2026.10.11 Berger p3--e6ff5756.png
+bcfeed750f7afcf6b09940829d50920e24d75a3d919d567b4ba01549a08dc9f9  Berger/fisiere/2026.10.11 Completeaza audit local--81277982.py
+4c07df71ab55552ac55706f275d37795c29c76f3a34c108183649ff5ffec991c  Berger/fisiere/2026.10.11 Manifest Eva-Mail temporar--df9faaf5.json
+57e4bc8186a4daf3193115b947b6e2d2405f8edc6b5fe6b98ff65e192fe71218  Berger/fisiere/2026.10.11 Pech p1--c7346445.png
+6fbbfecd82b9ddede73fe65a84831634627c97c6489bc3945146036a0e38c912  Berger/fisiere/2026.10.11 PRIMIT TOMS cdd301b0--5b56e77a.txt
+ce4e0477baa7c7405d6f4c31140ff6a5d23d55691e8097da13e5223293d05992  Berger/fisiere/2026.10.12 actualizare arhiva--91503e41.py
+a12f79d004c5997720ce312fcb3f7c40823b0f2037b6ef3c51624624717bc8f3  Berger/fisiere/2026.10.12 actualizeaza_jurnale--2cc8a62a.py
+9338e382524beeaaa4e7ba03c7e1590b4d391f7a0e5b80ac1407eb854126d7d3  Berger/fisiere/2026.10.12 Baubescheid-02--6dd2dfee.png
+acbdc9a04ff70926c6dbaa4a1a54b3d4f206dcb300ba82d9472c880d691ce732  Berger/fisiere/2026.10.12 Baubescheid-03--a95a769a.png
+dad5b059d80b2f34c9c28b087587886cbc41deb179b68d8c72ccb1e6a06e0cc1  Berger/fisiere/2026.10.12 Comparatie servicii si preturi structura--32539ad8.xlsx
+169b61a864d977516898a402c90b2527993d149920c25fb97991898334fbbbd3  Berger/fisiere/2026.10.12 completare BWB--ee613a22.py
+f164e2a44996562199797914ed2e9de0abf7e15209aed304deeadc5f2ec9f1fd  Berger/fisiere/2026.10.12 completeaza_matrice--13bcf147.py
+96ad4dea0de9fbcc1ceccd5e8ff2cdca7b3941bfaa131690aca6b3b5cd3c14ae  Berger/fisiere/2026.10.12 construieste--259381e4.mjs
+422eeabb3ccb332456f9488fc63777f7ba314e15f9beeb753d2892dc1b8d62ac  Berger/fisiere/2026.10.12 construire contracte--270b2244.py
+ac57b32bfc3500b76f6b00cd07fe1acd3dfbcccf672ffb9d1df98b1f8b2c78cc  Berger/fisiere/2026.10.12 Dovezi temporare Eva--8da07d9c.json
+7a8f99f29150f50c034e72b6ad0232aef1e1fd2ab3646c536f6c666a7e346e74  Berger/fisiere/2026.10.12 export Word PDF--4bc3c890.ps1
+0e2d107c994f7b7d717a1f2ea49afe74fce73bf4e305d32d052b4e860977e5a7  Berger/fisiere/2026.10.12 FBA AG-1--f41ea401.png
+d3f3192b74eb4dd37466f2799ede0a8047735d4ccb9ffc4d65d01846747ba5d9  Berger/fisiere/2026.10.12 Matrice comparatie--28cb4fef.json
+184b4e147100c45c058c9be7c2eee608972d484ce2e0b0041dd6020d7ea10661  Berger/fisiere/2026.10.12 ORIGINAL bd01729c image001--0677cceb.png
+e04c9c0a2a32d5765211a8a0757e72f66819699894e0f985645cd5305db0e5ba  Berger/fisiere/2026.10.12 page-1--2f101f8e.png
+2a6ecd1c78693dc09116542e3ca53ba7c69f66120a160065b91915656822eaad  Berger/fisiere/2026.10.12 page-1--398cb470.png
+2d460050e9031279a36029b9b29662392133712746f91fa7c28a33e056b9df2b  Berger/fisiere/2026.10.12 page-1--3c8b789a.png
+06e293162893c31a7d8171526cf41f45877ce9ec9097469be22a8386a5ccd221  Berger/fisiere/2026.10.12 page-14--48aad242.png
+ba1945ef1cbe1befb27853bc6e4c684e82139229c5e5c50fa907f84cee3eb719  Berger/fisiere/2026.10.12 page-16--f8c0f8f1.png
+555ff6de85131a412feef9d38dc58feb51250c277eae35c7d2d1ab6ada6f0ac6  Berger/fisiere/2026.10.12 page-17--4d7791a7.png
+ca25ce6642fd1deb3025b282d1527614713596b8f93cba8dd7fa38be9904f4fc  Berger/fisiere/2026.10.12 page-17--ff88815a.png
+170bb22125e6f287d4a4b4847c8a3ebdaa963d595a95bf151398eb55317c192f  Berger/fisiere/2026.10.12 page-18--270193ca.png
+6130d69cb1afb709929f834295b2a6084b2dd937e13ce17157279b3df8bbd98a  Berger/fisiere/2026.10.12 page-18--81f51160.png
+ec30ff7084e0cc44b0b7fceea1dc5c6a0d0da73da453f43f26ffcd996905b1f2  Berger/fisiere/2026.10.12 page-2--87086f96.png
+7389397414e6a64591dd7c2c01d0281260a22db80d3b4901e60377db245bf316  Berger/fisiere/2026.10.12 page-2--adaa15a6.png
+1fb26c2ad9305a76790a68039c13e254311b573a4be63e5ce41baac66f769768  Berger/fisiere/2026.10.12 page-2--d3f71cf9.png
+dbda87f06879d4bfd0c0f8f4f43bc3ee63af058ab185a4e7c8531d89ed7180bf  Berger/fisiere/2026.10.12 page-3--0cff3787.png
+e317bda89c3ee1740906dd4c045d8ce115416ba92be89b3c4e04a306c1328740  Berger/fisiere/2026.10.12 page-3--46021999.png
+dbda87f06879d4bfd0c0f8f4f43bc3ee63af058ab185a4e7c8531d89ed7180bf  Berger/fisiere/2026.10.12 page-3--85da2cb6.png
+883b825b4fe709faeb102c5eb722dc81de75c422a10c1bdabcbaa59427e476b1  Berger/fisiere/2026.10.12 page-3--c467bf93.png
+64f7d371bc41e574d361bb38df3dd809e7abadf670d82fd5abfe6feeb609b27f  Berger/fisiere/2026.10.12 page-4--2c210144.png
+64f7d371bc41e574d361bb38df3dd809e7abadf670d82fd5abfe6feeb609b27f  Berger/fisiere/2026.10.12 page-4--5f7b1a7e.png
+80327943ee18be9c9a8d1fcd25a4aaefeea0c58ad8b26040528d47a03af14722  Berger/fisiere/2026.10.12 page-4--7dc16970.png
+4a732ef925747dd338eb8935fd5c6bbea6a2edb641295cb9ec906f4919741618  Berger/fisiere/2026.10.12 page-4--9e71f8bb.png
+5d4a565db2c2c0897de6ebc2ef4ecec00d274c201bc59c9192e61b4e9bc63d0c  Berger/fisiere/2026.10.12 page-5--a2d06f67.png
+ffe893d97516b4d31e96971da9bbf9907281af57bef04c8a36b055e958131f4a  Berger/fisiere/2026.10.12 page-6--845ba16c.png
+dbe8851572cb7699e94fb5f649dbb5c8807bcf1700c0f9881344243988830d22  Berger/fisiere/2026.10.12 Propunere contract BERGER--9f393337.docx
+cf9ff43a531bf1a50c0f48c96c5feac487bad91e72604803363ffc1f662e388f  Berger/fisiere/2026.10.12 Propunere contract BERGER--d3b1978d.pdf
+ad3bbed2ac30d4a2c554bc72a2707158204d57a17450b1d24c8af8376b83caf6  Berger/fisiere/2026.10.12 Propunere contract PECH--6a3902ff.docx
+0f54a5b3f54621535d70b8c7bd1ae611a9b863dbc50efddb1341b8d674e8fbec  Berger/fisiere/2026.10.12 Propunere contract PECH--d9100803.pdf
+a5a183a69ef152c19777754c5fdbbeb972d4b73cdb55dc18369fa6291c218ba3  Berger/fisiere/2026.10.12 QA 01 1_Servicii--c6097f57.png
+07213d8058f5057b6e73d10834fa8794f21a81d68fb21f6c9f4d113a1d801346  Berger/fisiere/2026.10.12 QA 02 1_Servicii--43a4b5a7.png
+28d20b20c28b22336c757817eadcd3d48b44fe955dcfeb57d59f179774883c62  Berger/fisiere/2026.10.12 QA 03 1_Servicii--b6aff838.png
+dc86449d204bf8ae598ba3831ffbfa46f63ae4e3bf74ab3cb57e92cabd41ff00  Berger/fisiere/2026.10.12 QA 04 1_Servicii--9771fc9e.png
+c580c7dd851e3e3eefc18f9c185463339b56617fcb53b18a23131cde1d098d20  Berger/fisiere/2026.10.12 QA 05 1_Servicii--7150fd37.png
+43f5dc8b75c20997fbc8d738cf64b0d7ae298eca4e216994886ff263b5c85707  Berger/fisiere/2026.10.12 QA 06 1_Servicii--45375b7e.png
+7704f6af3ea1c6342f57dafa040f9b8d21f0741c79e07e60596863d96b430f36  Berger/fisiere/2026.10.12 QA 07 1_Servicii--ebf4ece1.png
+a6b7eecb9327176eecf3286ad2d7aad061d9d84677dbefc01bba9f959566c796  Berger/fisiere/2026.10.12 QA 08 2_Preturi--4d1c9302.png
+6bf657b0c2bf74f8aee20aeef1ca86c934b4d4acaee3f583a9209d32e51b8005  Berger/fisiere/2026.10.12 QA 09 2_Preturi--8f27cdbb.png
+cbb144d8b35d46a31f79136bc14914edbd8ddfb73c9a92c5e5ea940a00329ec6  Berger/fisiere/2026.10.12 QA 10 2_Preturi--4f7859c7.png
+8ec8c0cf685480fb9310e43d5cc8d0d7b9c65562d0416f51164642429bc69960  Berger/fisiere/2026.10.12 QA 11 2_Preturi--ced3e202.png
+b04d028a468cba928901874c4565b6683cdb925a6309eb3fd9f581a2fc81da0e  Berger/fisiere/2026.10.12 QA 12 2_Preturi--65296d5f.png
+858a9e992893a73fef755b617bdec0681c88bdda8e01665d55441e745a9395da  Berger/fisiere/2026.10.12 render documente--472f6f7f.py
+505f3c78faa966c8a632dd65738678830defe71c5ee40bfd9e114cb50e751f85  Berger/fisiere/2026.10.12 Salveaza verificare--08fda3be.py
+08b9b2be0e9ae0740df7ce1d34b6f025f0cb41c464f53f96df65080864efe7df  Berger/fisiere/2026.10.12 UID AG-1--8357e587.png
+8bfbc1119d4ed2342ac065ddd9194be92edc567de0c3fa880085df0381068545  Berger/fisiere/2026.10.13 Actualizare arhiva--aa229605.py
+17f468959abe02c7442f84d1d433ccf3f51c312c2c7d0200f2598e6be64b3df1  Berger/fisiere/2026.10.13 Actualizare emailuri politicoase R08--11826403.py
+b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b  Berger/fisiere/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17--67a54010.pdf
+29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1  Berger/fisiere/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17--45ccddc2.pdf
+b7f1e4cc1bff4be7034d2fbd7df265b53dcc32a5a9b81f22969623adfd9df647  Berger/fisiere/2026.10.13 Aplicare editoriala R07--493204ff.py
+338bab0518fdd2b0b61ac8372cec53fe7f976b1a3d3f8c54048b9772e320fe03  Berger/fisiere/2026.10.13 Arhivare ciorne office--552702dd.py
+f01ce8f99a3fe2c482f72c084852a095785ae82f46100afd9d0063adbb0cd5a9  Berger/fisiere/2026.10.13 Arhivare clone Gmail--abf9628b.py
+b541d94c5f4b6df49d6120dab219e4c85b062fa58847d151384bcd161f33e17d  Berger/fisiere/2026.10.13 Arhivare email BERGER calendar--dacfb34c.py
+94d1c87d52d464e4aef777b212f75de2a37c269c3c379f85688bb7b6b6af9332  Berger/fisiere/2026.10.13 Arhivare si inchidere BERGER R09--6b4e9f48.py
+1551561e7cc7f0340c2b1039560d0a2131f0e44785c5adc7e7eee1d93a32f812  Berger/fisiere/2026.10.13 BERGER original EVA pentru clone Gmail--387dbc3a.json
+75008069c9ea12aebd45cfbc899983a4659340ca113339f5a4e142689111c449  Berger/fisiere/2026.10.13 BERGER R06-01--6780df71.png
+35ead4ba35b7e9d65e9fe2b033afcdccadc316bbca8aec9733aa48867960693d  Berger/fisiere/2026.10.13 BERGER R06-01--87ddf5ac.png
+de21994f85600c28a0496fa96ffce14f9582dee1cc3d9b2bbb57f64140e538e5  Berger/fisiere/2026.10.13 BERGER R06-02--0b9ab21d.png
+be1e85e2923a9131cbe025da1214a9b60f6991d8b890020551479cfdbd845d36  Berger/fisiere/2026.10.13 BERGER R06-03--6a8b16ef.png
+4fefcd3f53a0dbb140da9cd383f27939251f613fefecad671f240fac578a1db0  Berger/fisiere/2026.10.13 BERGER R06-04--6c7ece70.png
+3a0bab96b4cfd63617489a1e2e6dd9cc5ffdf3c671a954d7f7c16d6133c821b7  Berger/fisiere/2026.10.13 BERGER R06-05--7407ed69.png
+0fdb7eb19f9e6712787e459d67836dc0ca5c35ead3c9827d3ed70e0f460ecf00  Berger/fisiere/2026.10.13 BERGER R06-06--34385a73.png
+db474b9fd0bead8c800c9440a40cfcbd2afd7fb1f513fc52de338124070ee8c1  Berger/fisiere/2026.10.13 BERGER R06-07--b668bbdc.png
+a84698c8e161ce682b6a4b6ea76ad58a622221e03778d4401aa10cbd63e677aa  Berger/fisiere/2026.10.13 BERGER R06-08--be752e8f.png
+e5b3a819f2ed16c063579c61cf66eeb85137b652894a0431be8005df56d21f71  Berger/fisiere/2026.10.13 BERGER R06-21--a9609d34.png
+5dd9f9bf354bee9ae98e683e6b4dc84673627d3661397588811c09f8d487c5bd  Berger/fisiere/2026.10.13 BERGER R06-24--5e779b01.png
+a48c8bcfb5294230ec60950a459e4392d76c6f5a6d3a1377c26139bb77803579  Berger/fisiere/2026.10.13 BERGER R06-33--fae8708c.png
+57e625a9fc163689cda8cac1a3db963329291ddaa0705cb57e9b040050429b9c  Berger/fisiere/2026.10.13 BERGER R07-01--3287eaab.png
+ab6551daccfd9de1f601534d3329cd5695c3e841b55a9069961ab9e41f9a8f17  Berger/fisiere/2026.10.13 BERGER R07-03--39e1ddc4.png
+b1112d8780ec6157136cffc156d09bc949db46c1e1abf9df835fb02a60ed6007  Berger/fisiere/2026.10.13 BERGER R09 EVA verificare octeti temporara--b6730fab.json
+01a38cf089cdb779f4007193a09e68d90eed0f71273818887d657d36a72249b0  Berger/fisiere/2026.10.13 Comercial BERGER R09--d4b7296a.py
+820d9536402604d1c3b052ceaa8a5fdb1f6249b129a069024b4070e6847044a1  Berger/fisiere/2026.10.13 Construire contracte juridice--6322c0ec.py
+c809e7ab89aa58913740f8d33d8cc58af1cc64a0b55776991e5d599de0a5606d  Berger/fisiere/2026.10.13 Contracte numai germana--99af9fcb.py
+05f7e33b2fe12f6128b4ede8e2c1be46892ac165632850dfc507f500eb5037a5  Berger/fisiere/2026.10.13 Control final PDF R08--25c03457.py
+33b3eaf67284c587c94270fc779d67f8679a3e29087f6d4dabbe1fe97b97d0a8  Berger/fisiere/2026.10.13 Control sursa BERGER R09--3d0f1ae2.py
+c197b4594d0db76b5a75447ab2f74e9193d0ec62c049fcba8adc40faf4ab0f27  Berger/fisiere/2026.10.13 Corecturi audit PECH R09--38f3e529.py
+97de3baa20ea745a084309f2d0805892165ffed88a7c23db04de4478c8ab276a  Berger/fisiere/2026.10.13 Corecturi audit R05--f8483026.py
+dedf29287361129ad03198ce58d4dfef914494ac49ca3da585a93891b1172189  Berger/fisiere/2026.10.13 Dovezi verificare Eva-Mail--09a4e17e.json
+6a577348e73d414ce010ca5df30e0615a62d2a36f60677ffbd510b190e437269  Berger/fisiere/2026.10.13 Email BERGER calendar sursa--2e84ee16.json
+8e6eed3593f4d85cf88711a55aa1085f9c7948c9ff2029920ef8e74ec9d93e0f  Berger/fisiere/2026.10.13 EVA BERGER calendar actualizare original--d93c388c.json
+e8fd4ff820e88b04b0b455fa7c8f0a3a26d3ca8375994edbf8ffd6d60e374b03  Berger/fisiere/2026.10.13 EVA BERGER calendar readback original--6ee01eb9.json
+fa6c6c65792489f9c3e8f0e7f1451dea32754f7d5d26ba217fa220a1b527ffe9  Berger/fisiere/2026.10.13 EVA BERGER create original--a0b5a5f5.json
+8e6eed3593f4d85cf88711a55aa1085f9c7948c9ff2029920ef8e74ec9d93e0f  Berger/fisiere/2026.10.13 EVA BERGER inainte calendar original--3bd54609.json
+fa6c6c65792489f9c3e8f0e7f1451dea32754f7d5d26ba217fa220a1b527ffe9  Berger/fisiere/2026.10.13 EVA BERGER readback original--e8e4e7f3.json
+1551561e7cc7f0340c2b1039560d0a2131f0e44785c5adc7e7eee1d93a32f812  Berger/fisiere/2026.10.13 EVA BERGER sent history original--bce3f927.json
+d6439872d78aa15ed507f5d351b2caab1da67e6ab957d31a2a431459bb0060dc  Berger/fisiere/2026.10.13 EVA draft BERGER inainte R09 original--6226a6a6.json
+d6439872d78aa15ed507f5d351b2caab1da67e6ab957d31a2a431459bb0060dc  Berger/fisiere/2026.10.13 EVA draft BERGER R08 creare original--0df975dd.json
+d6439872d78aa15ed507f5d351b2caab1da67e6ab957d31a2a431459bb0060dc  Berger/fisiere/2026.10.13 EVA draft BERGER R08 original--0ae0d132.json
+d6439872d78aa15ed507f5d351b2caab1da67e6ab957d31a2a431459bb0060dc  Berger/fisiere/2026.10.13 EVA draft BERGER R09 actualizare original--f0c96394.json
+8e6eed3593f4d85cf88711a55aa1085f9c7948c9ff2029920ef8e74ec9d93e0f  Berger/fisiere/2026.10.13 EVA draft BERGER R09 original--c2a1e5a2.json
+14e79bfaa6c8544a0360628cb77f5e9b11211b21d8f9840f97a3d29846608368  Berger/fisiere/2026.10.13 EVA draft PECH R08 creare original--d06c1cad.json
+14e79bfaa6c8544a0360628cb77f5e9b11211b21d8f9840f97a3d29846608368  Berger/fisiere/2026.10.13 EVA draft PECH R08 original--e76f9748.json
+66cd689fc5f13623343c44785bafe48d313ddf2834b536a07eb314a87d96b320  Berger/fisiere/2026.10.13 EVA Gmail BERGER create original--bdd3fb2e.json
+66cd689fc5f13623343c44785bafe48d313ddf2834b536a07eb314a87d96b320  Berger/fisiere/2026.10.13 EVA Gmail BERGER readback original--e7f35e7d.json
+66cd689fc5f13623343c44785bafe48d313ddf2834b536a07eb314a87d96b320  Berger/fisiere/2026.10.13 EVA Gmail BERGER source original--25a230bb.json
+e797e3f101369d7e84acceff625a38bf980cf0270c50d95991a32c216ad2ebd2  Berger/fisiere/2026.10.13 EVA Gmail PECH create original--e8905402.json
+e797e3f101369d7e84acceff625a38bf980cf0270c50d95991a32c216ad2ebd2  Berger/fisiere/2026.10.13 EVA Gmail PECH readback original--b36d45a7.json
+e797e3f101369d7e84acceff625a38bf980cf0270c50d95991a32c216ad2ebd2  Berger/fisiere/2026.10.13 EVA Gmail PECH source original--bdadd004.json
+82f965e55cce9a0ff6516a57002716ccb04afac98d154930958f9af1cecaacdd  Berger/fisiere/2026.10.13 EVA PECH R08 inainte de actualizare--3fb4d81e.json
+b79b477671e7423e4bad33672a80cf0696451ba8a93804445a2fa0405cda50f4  Berger/fisiere/2026.10.13 EVA PECH R09 readback original--3f7dc334.json
+82f965e55cce9a0ff6516a57002716ccb04afac98d154930958f9af1cecaacdd  Berger/fisiere/2026.10.13 EVA PECH R09 update original--7777934f.json
+74a8e63753390cf77161b0801e04c48a82435ca91ae5d9ba620c0ee7017f2685  Berger/fisiere/2026.10.13 EVA PECH R09 upload original--aad4c6c2.json
+b79b477671e7423e4bad33672a80cf0696451ba8a93804445a2fa0405cda50f4  Berger/fisiere/2026.10.13 EVA PECH readback original--82a769c6.json
+f220e7a72b6d7edddbdfb1c910e18ed44ce3448d035e700f74d4b33d87987924  Berger/fisiere/2026.10.13 EVA R08 descarcare verificare temporara--4d7c6988.json
+09e52aba5ae8c09f12f03d6b04bea5abe434105d8a7e862a4567f1e7259d5fcd  Berger/fisiere/2026.10.13 Export contracte DE--da99e705.ps1
+af87d420afa2e868f52e5c05628de186207e7d273364ac0280adc80bb4d0eff3  Berger/fisiere/2026.10.13 Export drafturi locale R07--6a3a0c67.py
+73f7314ec281ce5b921d9b8a071cba9a622ed7f13d71ee0892dad2af4d304a1e  Berger/fisiere/2026.10.13 Export emailuri EVA R08--ed53d1cd.py
+3825a6b92a08446a66aea7b5cd468c573568015ab495852ce94ee27c6490bbcc  Berger/fisiere/2026.10.13 Export juridic Word--b7329478.ps1
+fcae51276930f265df29c23deabe28a7f390e59a05a9a6d7260cd4c49b7addff  Berger/fisiere/2026.10.13 Export original Eva--6a3f2910.json
+57a2d9d997e34da0ae8c37037cb29e61b53137a94881811fe1204a90c65d8494  Berger/fisiere/2026.10.13 Export R01--b630a729.json
+cf9ee1e9fc7623920e3e65be08602d630f24ba658f32db517f737bd7523ee853  Berger/fisiere/2026.10.13 Export R02--53f41d05.json
+e58556b982deb385c8a6a42e9c66e22c6ed75486cc0ba36facdd6559145358f6  Berger/fisiere/2026.10.13 Export rapoarte final pentru verificare--817716d5.json
+166a78ee11df313edad414f519b744fdf10a25e0eba6e5422168a4d0da8b2ce8  Berger/fisiere/2026.10.13 Export raport juridic pentru verificare--6a13edb4.json
+48d3ad31dcc1538a8ebd2481aa397aa01eb98d7f8171902ad49e82417d9c2320  Berger/fisiere/2026.10.13 Incarcare PDF BERGER R09 EVA original--e53fc272.json
+287a49962b808e2741b8651f4ff51e1cee3df067a7560010e628553aa2817219  Berger/fisiere/2026.10.13 Inchidere audit R05--f3200767.py
+71cd27342f7d4c9c428a078f712ee97caaffe9247a637f714c96a5fc09373047  Berger/fisiere/2026.10.13 Inchidere baza negociere--16e04029.py
+a8a83517b825ecd137fb8264b4d8fcb86e2b7bb412dc911be12b7959296bf0ba  Berger/fisiere/2026.10.13 Inchidere contracte elegante R06--5e54ab1a.py
+89e62e486f6562bf6fd528e350d4b652e25184a241702e1c7b3116fffe9ca08e  Berger/fisiere/2026.10.13 Inchidere contracte emailuri R08--1188dab0.py
+8861def9954632d0aace51ec8c0fb9eab4fe4c747bcd768a8f19c8fe36dcf15a  Berger/fisiere/2026.10.13 Inchidere propuneri R07--b54406ea.py
+fd48c6bfb58d1eadc2c1c19bd4be0ebd4ddea5eb219c7eee9b7cbebad8c5e938  Berger/fisiere/2026.10.13 Inchidere si arhivare PECH R09--bd6023f0.py
+e79e29628abae15523b54647b32c2e0ab2ad660cb371c5a9193d709568b902d3  Berger/fisiere/2026.10.13 Jurnale versiuni DE--472408be.py
+d3e522fec28fc53e9c85a5732f146a5d4e8696099fc23218a1c803e46f1738b8  Berger/fisiere/2026.10.13 Matrice costuri durata si optiuni preliminar--b42f2c96.txt
+d4a025b9117456e6698e3e65165d0c8e43a1f57b3d3e6861e8d37b14e4c8034a  Berger/fisiere/2026.10.13 Neutralizare finala R07--29d56cb4.py
+7528dc893e33de79ac2e20d72717810ebd2cd3963e2e9e7cf31f2bf3b9ad6829  Berger/fisiere/2026.10.13 page-1--0423c92c.png
+ecea034163d2dd78d150249a8669fa577e8173caef425a5a11def41c11a2cbe7  Berger/fisiere/2026.10.13 page-1--0a013c83.png
+2714db245831bc597d5fb5eae6f24de88ee86f59d8de85762d4f12f6ec7d5438  Berger/fisiere/2026.10.13 page-1--456872e2.png
+295845c5c9046a5c734b2a188c8e5ea56bfe3bb3cd79b7379d453ec856527dab  Berger/fisiere/2026.10.13 page-1--780c26d1.png
+965240c9c1eba66cac270329702cc7947233e539ba436849c2d4787904e210a3  Berger/fisiere/2026.10.13 page-1--ac7c4fe6.png
+0656488acd5d81695bad4f992f6f8cc985138fa59cabb2c362c376a7664eed50  Berger/fisiere/2026.10.13 page-11--11219923.png
+7e07af7119eb6bc768e46b95fa025fb725661818b1f3cc1e8578cda82570dec1  Berger/fisiere/2026.10.13 page-15--b9671a99.png
+b6461026289a5fcbb352d9a2d66b7c1e766376d17f82eff166df3fe2977843d3  Berger/fisiere/2026.10.13 page-17--c6a3f328.png
+b356f0216d24854d9e371c0c4a6edc6d754c8edec1f6d180a29fde1fc0971699  Berger/fisiere/2026.10.13 page-18--2ba44ef8.png
+5fa42dac6dedeedaeee896add0b9d7e57b46c0f851a67e7a0fc178cca4bf57d4  Berger/fisiere/2026.10.13 page-19--85c1b834.png
+11c76d7f6899c4c8cc8d6b8024b1a1cb57e686c3317f83cc54f52dc1b98281c2  Berger/fisiere/2026.10.13 page-19--a27c7708.png
+52236771bcf63130e4ce67219c98b0a2e13d0120c8d902180bc3f0e57882113c  Berger/fisiere/2026.10.13 page-19--ebf61744.png
+10fe692a67e44356642b0b1ef5493cf7d475ecfde5862d9c2295caddfb61caa8  Berger/fisiere/2026.10.13 page-2--35136018.png
+0bc173a09b57cd9ecfc7b61bbf3833553ad9d735e01b13be49ddb621261cafe8  Berger/fisiere/2026.10.13 page-2--3c0939c0.png
+a5ef1081eba6faa11fc9b36945ea22a0dff31b647e43fe4c78fff7bc12b2ff66  Berger/fisiere/2026.10.13 page-2--9b4e836c.png
+2fb746f211fa758148ad3eaf8e4613bb7506038c688e64a4024efa926b36b8fe  Berger/fisiere/2026.10.13 page-20--29138ab1.png
+cc9c5cd0dc050b57a737d54244e13b5da319ba8785849fcde1b8e6ccac8a858e  Berger/fisiere/2026.10.13 page-21--34cf36f9.png
+dac06558c8e20c6bde19204987ea3e1a508f89a8c7f9d49ed579746c8c631d58  Berger/fisiere/2026.10.13 page-21--99727a74.png
+cac0401abde320de3d7f7b1040a4d3f270149159584ccea57adc05294cc20b35  Berger/fisiere/2026.10.13 page-22--4c5b299a.png
+53a179ed03a1cd6fba2865fcaa6de7e164b0dff691a8ff1ee380aaecc2129a77  Berger/fisiere/2026.10.13 page-22--8eabfc5f.png
+ca532d901e34d9896b6c8a6716d42e43a24dcb71a943bc4b0af7e75a6a47f2b9  Berger/fisiere/2026.10.13 page-23--e4b82804.png
+77dbe41d5550137551c9fec5b149394d133e2ffc6711699af55097bd00903f96  Berger/fisiere/2026.10.13 page-23--e68910f7.png
+87f472fed2b4ad6abd9bc2e2699f03e7fe624a8be954ab579bec5c3ab717e5d4  Berger/fisiere/2026.10.13 page-24--9aeee8c5.png
+31bb3ae78628b5e3e69e6e48dfbd7db4e7d907e791167c02ac83e3ab4a415675  Berger/fisiere/2026.10.13 page-24--ece49675.png
+655234b5d4bdc7bbb7e4278d21d0cc31c59b838c6e347c668bcee9f65453e553  Berger/fisiere/2026.10.13 page-24--ed25123d.png
+90784eb0d24bacaec287ad7533cfccf6d49d69ff9e78d76ec0605a2ac3753fa9  Berger/fisiere/2026.10.13 page-25--e9ecbdd7.png
+71806f809176ab1016d7b94749cb8dc03de2c70293a2465f1524d77784556ba6  Berger/fisiere/2026.10.13 page-25--f0da8d3d.png
+07e17191c4fa6b6e9c15c4eead5fb0e81577d97929157f2734c05e9b5ceafba9  Berger/fisiere/2026.10.13 page-25--fad73c52.png
+3d552ad13343215517638174f71cb8307a97a522243016359309f849cdcf908f  Berger/fisiere/2026.10.13 page-26--4ad88c3f.png
+fa50eb08b63a18a6678ac9af7cfe41786879f3ef8f05e2cbd18fdc596dc00475  Berger/fisiere/2026.10.13 page-26--6ec6e7ff.png
+8f6a0f932e7e7845bc8454ef88791c476a77dd2a55e14bfb9517e1dd7f4e5f79  Berger/fisiere/2026.10.13 page-26--9c3cb74d.png
+b218a76474e41f55b63f3456c32a0abac9c6d9a545d89cca89c211189b015c6a  Berger/fisiere/2026.10.13 page-27--0132c67e.png
+4189f139155281c6a6c557f9424beeaa6f11e7265ba6c45bbffac3e396f5a593  Berger/fisiere/2026.10.13 page-27--6fc222a9.png
+5a69394bed3515635bce06ff5e197330f21333075be08537e7e99c839ad98b87  Berger/fisiere/2026.10.13 page-27--f126e2b7.png
+2b16fc6ca0ecbb70d612f1ed9ac14147b43d562979cc6ab5e6e76060a0760bf3  Berger/fisiere/2026.10.13 page-28--02feaf54.png
+2299e20bb6e5fe46f36023409a73078e593e803831ef3b54bfdaeda809e14850  Berger/fisiere/2026.10.13 page-28--55cf454f.png
+d37928211f4913b3dfcd83f93fb425fff94eace02b4ec5336bb96d194360fbe9  Berger/fisiere/2026.10.13 page-28--f44ebb10.png
+137f9dba0fa1cc56f9de550770920c9fe1c0abf38cdc0dce428ecab3c8817206  Berger/fisiere/2026.10.13 page-29--3c033477.png
+54e038afa952e983ae8a62e2898e6a678e8f7c344dbe855a7b4dc6a2fd8fcd64  Berger/fisiere/2026.10.13 page-29--be24f13c.png
+f438a3693dd56623d7f099c48e976c660b5729fffa8484d0af5f2e2c1c77390c  Berger/fisiere/2026.10.13 page-3--c1810a11.png
+5d54962dc23acc31e254eaa173f201e5a558bbf620932e5fc91a5cff620d026b  Berger/fisiere/2026.10.13 page-30--204defcd.png
+bf7e936cacdf864e436b5c138cedeff33a588ea0559b3514e0efb308c7ebe067  Berger/fisiere/2026.10.13 page-30--f8dcac20.png
+d6a6a3477b2d299ad624ee5555256680c200fc4d54dfa72c5a4467befef52086  Berger/fisiere/2026.10.13 page-31--50fa6910.png
+d0d5086321dd4b4fb00188c5912661fcaa867f434b6b6ed20850ec5ccef2a704  Berger/fisiere/2026.10.13 page-31--cf90d219.png
+b9b67551fb6aa2aca9d3507ec246b6e6f68681f320eb0d8792d75ff29c79c0c8  Berger/fisiere/2026.10.13 page-32--2376b643.png
+70d3c0813edbe0bd8c961b0d6e13582d5a9ab7526c6f97bedbb4d383f51a64de  Berger/fisiere/2026.10.13 page-32--e50ae7cc.png
+cd75e5c32902f2e0b577a93f15d68d97dbbfbcd482494968a4c587803f646dd3  Berger/fisiere/2026.10.13 page-33--1a65495b.png
+db05682aeb6f592700d68864f1938fb2be4719ebc2f3e3540ac76cd93962efc3  Berger/fisiere/2026.10.13 page-33--35d4df14.png
+64fcb4ca6bb382794e2b63c06b17181ad6d257677da172df038381115c37bd28  Berger/fisiere/2026.10.13 page-34--7eccec0d.png
+331f530aa904b29c65b7c2d93e9892b42604842bea7e1437749a72bf90f65c18  Berger/fisiere/2026.10.13 page-35--beab68a0.png
+b78c3aa6fc1b7732c37030e7d47f10f05f0dbe3ba1edb1d42a604811dc38e49b  Berger/fisiere/2026.10.13 page-36--764e6425.png
+6634d3751ca25c801f1de4ecac7691204effe9c9a3b9f3b58b277f486ee1183c  Berger/fisiere/2026.10.13 page-37--ee68c454.png
+8f4371e427c77948b4df0f0947ed406f1e8aa22a0d5460150acdb62aed408b84  Berger/fisiere/2026.10.13 page-38--af437467.png
+e11a8eb60776bc9ed58dea23a0c12be0f21cdf3c3d48bed73ff46a1446e6b1c0  Berger/fisiere/2026.10.13 page-39--cd641152.png
+1a1ac49d64c9432822348876f31dd92e5033df3a883cda307db1bcb0e2271ce1  Berger/fisiere/2026.10.13 page-4--9b1e0c07.png
+5a5afb7247f13f47e1f418da97fbbbceee04970ca2fa464a3ee59a092de13b0f  Berger/fisiere/2026.10.13 page-4--a7197134.png
+f61b0e401dde5a672d7e8b83b40c47edb327ec83f4d33af507c95b9ba9a563b0  Berger/fisiere/2026.10.13 page-40--9fd48b3c.png
+79329e2bc10a32638c5688c293a5e9c47a1fe17399486cea18af05fb373aa88e  Berger/fisiere/2026.10.13 page-41--2bba966a.png
+c175011e5ecd8785715bc8cebe43d4e69d08d8546a95e60b38eb5a977fd885cb  Berger/fisiere/2026.10.13 page-42--3c2a47a8.png
+94ebd4a89168572a6ed625556ad901f1d5d735351a747d822af7706e3fc086ba  Berger/fisiere/2026.10.13 page-42--aa3a464e.png
+85f782fc7efb7357626c696c4f5c32c189539b7e2c6342266e800a7b7c76f8ef  Berger/fisiere/2026.10.13 page-43--b98f8b64.png
+3c83835fb30ecd4b7b31674a0c855c80d8826ca5b14e51ffac8e1ef876c2b28a  Berger/fisiere/2026.10.13 page-44--f799245a.png
+516bfd8854ddc722c9443f1ad37c6c9552acb72cf3bd1548c63f91c3e4df2eef  Berger/fisiere/2026.10.13 page-5--390a2df9.png
+14ca81b1e5a9a4ba2d22a0aa02889e2bdc0b460916af81f9818673327099ced6  Berger/fisiere/2026.10.13 page-5--754b79f5.png
+239dbb2015832fdade57bd8394442f895f5ccc7ccdf02ebd3013bd45582b355d  Berger/fisiere/2026.10.13 page-6--09426eb3.png
+608ca9dac7dd5a8ec5d3332acf07a32fdb29432cac38e2c7e5bf026a25270d7d  Berger/fisiere/2026.10.13 page-6--53868356.png
+64cd4d6edf175bc8edca6e8263f10b399223168e191cd747025ff5a952cddbe3  Berger/fisiere/2026.10.13 page-6--ac5797f5.png
+721bd25eb89eb0a8e8aff2784f754b6f10a29757e19a1cb7657791378b3562f0  Berger/fisiere/2026.10.13 page-7--863f0354.png
+c29c2145b873c1ad45dd7ff1092e55bb37f908e79f4d1e483d0ad6151e9eb412  Berger/fisiere/2026.10.13 page-7--bff1a506.png
+b0ae1c1417c32707323efcdcf892ed120dffa00cd8036dc4ded7e44c7e60ac4e  Berger/fisiere/2026.10.13 page-8--0407e317.png
+4cc23bac89d2f49cc481b7b97213d9abe846f0e690330f78907cd19094e30210  Berger/fisiere/2026.10.13 page-8--c2d5015f.png
+14e79bfaa6c8544a0360628cb77f5e9b11211b21d8f9840f97a3d29846608368  Berger/fisiere/2026.10.13 PECH dupa actualizare BERGER nemodificat ori--c1771b02.json
+82f965e55cce9a0ff6516a57002716ccb04afac98d154930958f9af1cecaacdd  Berger/fisiere/2026.10.13 PECH EVA verificare imediat inainte update--1385914b.json
+b8a1a3c4cf55b8885e5a1d3da2a933bdfd8cbd0ed6de2980a576b94dc5936650  Berger/fisiere/2026.10.13 PECH R06-21--cf6c7f2c.png
+2d935e9e6a24c346758679cd7e8779cd1efd06064e635e89442d688655b53097  Berger/fisiere/2026.10.13 PECH R06-22--87920418.png
+b593d1231ca911b26f696748e615067daeaa7589d56fe7480784739f9fc92215  Berger/fisiere/2026.10.13 PECH R06-25--ef6c765e.png
+e85c9f737ae4a323fe288c96c52917f4d9b954810545805e42d9ad3cb485a978  Berger/fisiere/2026.10.13 PECH R07-01--9edc527e.png
+3ca92704768dc9de0a3c10d8d2667f7ce50e143ec217947fddb91656623d6c74  Berger/fisiere/2026.10.13 PECH R07-30--1182b033.png
+f4b53879064672eb56ae10b83f4b8a062e1386595b89f570692f3e248488ebb0  Berger/fisiere/2026.10.13 PECH R09 EVA chunks--7850f866.json
+14e79bfaa6c8544a0360628cb77f5e9b11211b21d8f9840f97a3d29846608368  Berger/fisiere/2026.10.13 PECH verificare draft nemodificat original--9d39f053.json
+a6de24d6beb3248ed62a0f7e998488e7beb62a91f4bf09f365965d2abc98aa2d  Berger/fisiere/2026.10.13 Precizare editoriala obiectii negociere--55c82376.py
+3af55db744ac14b45ec7213afbe9f985cdf0933ebbcf4f3a01d9e3499ef6b5bd  Berger/fisiere/2026.10.13 Precizari publice matrice negociere--4454d881.py
+811281b1d04fd22d33bd2b439088ddb4a6b51a2ff02ea2e4a4903dbc50d1b271  Berger/fisiere/2026.10.13 Pregatire BERGER R09--0e16ca07.py
+d2d73ea5ecdd440829fd643196650be4a248b82c0d59cdc1b88f3d5444bdaed9  Berger/fisiere/2026.10.13 Pregatire contracte si emailuri R08--867bc209.py
+861df2196ba687269f65740ff980a2078aa1eb91aaf8e6de83beadba9f8788c7  Berger/fisiere/2026.10.13 Publicare audit comercial si obiectii--9b9ee00d.py
+a7722dba5753c48c732b45d663608156f3bc296c92f1eb4a1125937582a5ca2b  Berger/fisiere/2026.10.13 Publicare audit juridic separat--14234c61.py
+6ef7b600d12f917e6a45261f3ee8c9c89ee91fd911d8bc1c38d639e8bce91e9e  Berger/fisiere/2026.10.13 Publicare baza negociere--01f98d22.py
+37bce7b341556f853492c9f05a616ffdd22233e8f3d8969c0ddf6150eb1b7d0c  Berger/fisiere/2026.10.13 Publicare obiectii negociere in paralel--1cab490b.py
+52a47a076ed5494457f0d602657bc3bb50ab66d56aa43c6920954baf16ece7eb  Berger/fisiere/2026.10.13 QA contracte elegante--bc47a7a7.py
+310571f1c051c61de152120462de80ca999fed52f7aa6f95512de729e3f658ce  Berger/fisiere/2026.10.13 QA Obiectii negociere N01.3 root--89049bc5.txt
+979fc9b0c73a609628a23aa2aa47e2159bb939a5c4a37636ad0cd0b664181e7b  Berger/fisiere/2026.10.13 Registru EVA BERGER R09--d808c8c3.json
+424d7ee95b4986fcd30142f037f34403dafeb1ee300d7b5c30e307a04eb4b374  Berger/fisiere/2026.10.13 Registru EVA drafturi R08--410fdb80.json
+81fba69864c819bd236267f03ac23421fcc0b3660605634c39db74df1a5e8097  Berger/fisiere/2026.10.13 Registru incarcare PDF in EVA R08--96602741.json
+c1fc584a3e39ae4dec086431bb7f2bcafdc67aaeeb0aa6ef6457dbbeefa0227e  Berger/fisiere/2026.10.13 Renderer contracte elegante--e1f6575a.py
+b814b347837db6e77435ee126edb41fa5bed7c9044ebe6dd56bef37b11f317c6  Berger/fisiere/2026.10.13 Renderer PECH R09--a79ca7d5.py
+a7ac68379f70ec0a4787b0b1bcc27cf214baaf06d1985569be46cda117f6f005  Berger/fisiere/2026.10.13 Rescriere PECH R09--aafdabfb.py
+0fa6ee3c80de68eef2637944ff88b5239c6fdb5ed453335c6f371a41021a2dab  Berger/fisiere/2026.10.13 Reverificare EVA asigurare si durata R03--bf81025a.json
+4d1aec8b81ca41ec91e069ad2975a45b8059c7e310518b2ddd2e33800aa03757  Berger/fisiere/2026.10.13 Reverificare publica firme root--1807b50c.txt
+8150a24c9e63c3d0f81cf55728f677ab3fd3755e7c2b989930ba85df9b6604bd  Berger/fisiere/2026.10.13 Revizie R03 asigurare durata--3d7b821c.py
+b808597a0db48780353f2a57f502313c6ca5badd795233095b28ee39ecebdc9b  Berger/fisiere/2026.10.13 Revizie R04 18 luni 12 plus 6--ddad0a3d.py
+9b7b52b50190c9edfe5211dcdd20ef96ff85980534261e47291b30b9d3bd0088  Berger/fisiere/2026.10.13 Salvare contracte juridice finale--ac9af977.py
+13cdfba8e0d0a202e7c6865b26cf9be78dcaa4bb007be127c9e13c6fb0cbf3de  Berger/fisiere/2026.10.13 Stil rapoarte audit--43432f6d.py
+a1dc3efa2b83bfadde71e4446ef1ac7a8cfdf2607d4faefbeaecd9ae62b1bdd5  Berger/fisiere/2026.10.13 Werkvertrag BERGER R08--94757b0f.pdf
+71b4a9eac341b3ead3c7717f269d7ddb5525769d9f72205320c32ccad8b237dd  Berger/fisiere/2026.10.13 Werkvertrag BERGER R09--f0819838.pdf
+9d0f0078728fe1f22ca2b3914335f8ddad049ecb11fbd2bf553c9da3670511b5  Berger/fisiere/2026.10.13 Werkvertrag PECH R08--121f5fac.pdf
+a670ba0e33481299364ecf62e3e6434c50416dc2dc3d0ec76e7153678b75318d  Berger/fisiere/2026.10.13 Werkvertrag PECH R09--5444a4fa.pdf
+cd933b137c956ceaa25997a6d257bb09553e49a449bf743de55cd0b6aefa2bb8  Berger/fisiere/2026.10.14 Arhivare verificare zilnica--86187cda.py
+1df988fad8ea9d66af56aebe1ae992dee9efc047a01fe58a5f29b91c2a047690  Berger/fisiere/2026.10.14 ARTUS somatie--9469f392.png
+daccde2ba903dc4f4520af1e5b83180aa8e2412ba1d8352bf7fb5b37aac0a983  Berger/fisiere/2026.10.14 Decode si citeste originale--6faa5a0b.py
+7e88704e04248484c162059c2e3031cf80a584323e14ae66200a2954e66af704  Berger/fisiere/2026.10.14 Dovezi verificare Eva-Mail final--91ea4152.json
+f629dbb89ff670125d629b40b1091d0f6e21b291830ceb497bece66aa585b09e  Berger/fisiere/2026.10.14 Dovezi verificare Eva-Mail--31ec065c.json
+b8bca8e986ffba9393319c8a19cd4e9aa364c1238656d5357bb89e56dc1bcf5b  Berger/fisiere/2026.10.14 download chunks 0624db03-68b4-4f48-9ff9-76d2--dff004c5.json
+8d6441a5fa977fd33d39b1f7dd9c898947555bc198435c171bc9006f119c793f  Berger/fisiere/2026.10.14 download chunks 0e65bbf5-041f-4678-81e2-c841--4b6bac7e.json
+fb13f05d2a16a53a066aa2b9687ee2fc7ffd2a740a2069440531540515b69009  Berger/fisiere/2026.10.14 download chunks 1882a7e6-a234-4ea7-9813-b57f--1fd616c4.json
+a6ebb1e99c7eb27503445eb7a39282827aad216ad3805f1861cae184738bc1b1  Berger/fisiere/2026.10.14 download chunks 1c4d1917-f57f-4e59-b80b-4e29--84ad0cff.json
+77350a06e667bb4e768cb95f80a2d1ad524a44dbf96a177ac195e27548d99589  Berger/fisiere/2026.10.14 download chunks 25b14ea5-d417-4f6b-a662-f9a0--8f4b95c2.json
+437ac9a3c2caab1f5ffd82320a3ba26a826659dc276ccd20a8bf3c53fcd07145  Berger/fisiere/2026.10.14 download chunks 298acdb7-eb5b-41eb-9b0a-923b--5df29d4e.json
+6d90c3deb4b89212d2460cb04c8f98560b74e08850ce19cb3a13e2bf51fd7686  Berger/fisiere/2026.10.14 download chunks 34f4fbf8-ba21-4338-a607-32d9--21e47252.json
+e50963962ba82e26033e1ca96d6325f30ad0a8a3cfa61c419578569f0fadf96a  Berger/fisiere/2026.10.14 download chunks 381de144-a3b1-4016-8c6a-fa6e--3b2abef3.json
+8b9806e567791aae443f0b809867114bba37eca6fda00ed23aa59b0c7d52adb8  Berger/fisiere/2026.10.14 download chunks 3ca33150-8482-40e0-bc56-e536--30543a6f.json
+6d620e97467119d6b8acb700eff2c67cf11fefb6facff723a6c8031e392781bd  Berger/fisiere/2026.10.14 download chunks 482ee31e-286d-47dd-b6ae-d5a2--1c937006.json
+a7a7a1d33165a47be9eb8f37da15e8457e2b6deee28b2fe962a31e7059c04bca  Berger/fisiere/2026.10.14 download chunks 4ae1d752-456a-47eb-85ad-219a--e8950630.json
+acdb8b944ce4df1cca84c3d60331e70a7504ca5a26eac90f737f321462602aab  Berger/fisiere/2026.10.14 download chunks 5124e0e9-ff5f-42b8-86ba-885e--d055c228.json
+fd301d015dff03618c18de1eb33da7edba8dbe5b2123489895a3267bfe7c8d6b  Berger/fisiere/2026.10.14 download chunks 59ac05e2-c05d-46e1-a6c0-812d--4c0ba75d.json
+3941a95f11cbf9b6837ae2ab8e08a94df58143d3362665daedcfd3d31fd35094  Berger/fisiere/2026.10.14 download chunks 5bf7971b-85a8-4a1f-8efd-b595--adfa5f75.json
+b3038f509e796444a77be19dedcd12ff1eebaddd322348193cd6bdbcc10ea64f  Berger/fisiere/2026.10.14 download chunks 65fde640-210e-4bba-9771-65f0--9d57e0cb.json
+c4d86c75b8ad74e14f293a0d961e867f714d828decba1aad849b3d936e4ea829  Berger/fisiere/2026.10.14 download chunks 6b36d186-6125-4810-a266-f705--67a43e80.json
+afa48746dce43ede1825691e3a88ea8c0ca9651ea452c35171024599b87344c7  Berger/fisiere/2026.10.14 download chunks 76ba9af9-3c46-4af6-b8f7-b88b--b1320b18.json
+ee59aeeb50b53346a336850ba675798b39d8d31fdb785cb899560c1824417d87  Berger/fisiere/2026.10.14 download chunks 78d2574b-77c9-4769-ad71-12c7--b2bcf04c.json
+03c57b03f255166bdd4c34bf58f5dac9f63348101408456699c6be80331c4fe1  Berger/fisiere/2026.10.14 download chunks 83168a28-c7db-401d-bba7-7539--8399c0a7.json
+c35c2afff38f6c50de74e935ed110fb3cfadc484e0341ac3091e37abe6c8ecf9  Berger/fisiere/2026.10.14 download chunks a61eefdf-cb32-4420-9b9d-74f1--b8a4a670.json
+856291938ae7bd61b615e408cf6e608957e91bc01d9dde0d49658cfedd4f1094  Berger/fisiere/2026.10.14 download chunks a884f0a6-9132-4510-8984-7b63--1d092394.json
+94744951dfcb4c36bda3a6c6efef2508cec008d5fa887ddca0baff490593d87f  Berger/fisiere/2026.10.14 download chunks b2d744d3-a584-4055-9e2f-8b0d--31734ccb.json
+f06ab6d8430bdcf3c6f3456ff688259350c44edff4997b16f7897558e2daeed3  Berger/fisiere/2026.10.14 download chunks b5f963ca-8c22-4ecb-819c-f8e0--b9415c4b.json
+62673e40bb70ff9f3ec015965110e595ec2edb30415b64f274378bdde31f011a  Berger/fisiere/2026.10.14 download chunks b6a4cb87-f84f-4c13-9ce0-f468--a50dabc4.json
+f86a20e60e49c7ce483d5103d9d47027b03f08fd9bcaa76d3b98ff3260677b23  Berger/fisiere/2026.10.14 download chunks bc870d51-014b-4402-8ff3-b458--563b0c36.json
+92806277a48715c687e6de64cbf76d1fc226d69457f0811a628db54888c10025  Berger/fisiere/2026.10.14 download chunks c2ef70cb-801f-412c-a3bc-3df3--0cc376cb.json
+cfc1eb7ba5f5bae3c72a76761be1d384f99ff30c172783c73fa7e1cfa812b634  Berger/fisiere/2026.10.14 download chunks c85cbb70-fb96-44df-b342-827a--5e2dffb0.json
+8a438e39cfa30854102cbb5854d3285ceb285135aa3bde33d575e4d93b03a4cc  Berger/fisiere/2026.10.14 download chunks c9ed06f8-3095-4721-b845-f310--833920af.json
+5f75d3d616b907a961e46fbacce377687585478ffa11d28964083f2cad121c80  Berger/fisiere/2026.10.14 download chunks d0a04a3d-3691-44ae-8f87-ef06--24fb6a3d.json
+fa570545adb3941b085fb8c4b7e50ccf9c727178de6dd675fab023ed9a33edaa  Berger/fisiere/2026.10.14 download chunks d9c75bfb-98c3-4ccd-bf94-c063--b0d97bc4.json
+4a03ddc3920287bbfbd0b9e14d6cb30599cac527d8ffc0754a2d6d8f2e010ef3  Berger/fisiere/2026.10.14 download chunks ec034254-f9f2-4f69-a253-b9e0--9c59b3b1.json
+02e8ffc05a13e4c6a2bd573bde72e418da8444abc686c50835236eeb6326f662  Berger/fisiere/2026.10.14 download chunks f30efc4e-8706-458b-ae74-a46d--9b014b20.json
+3f3c171593aea87bf39239ca8f34c89700201b4855b2616270378e357ea1b191  Berger/fisiere/2026.10.14 download chunks f6044271-580a-45a8-8615-6855--0c8cf653.json
+f0f51d59140980b9a1db959a2255db1260e0b46f9b7fcc92a5c6e2575c292588  Berger/fisiere/2026.10.14 download chunks f9246051-9293-43c2-b459-0d41--09cafc6a.json
+912611dd3bb39f8c31b71acc6aca7da286290aecb46af64586bc53ff0d329cdb  Berger/fisiere/2026.10.14 Download rezultate--c24e8e87.json
+280078b42ecd34e29f2d5c3762f06a2b0e573afad7175e43edccc2356364b1c1  Berger/fisiere/2026.10.14 Finalizare contoare acoperire--a6fec05e.py
+402d67199b714fce515368a98672131f251f420a162f05f3944b0e1eb153f248  Berger/fisiere/2026.10.14 Index programare cu asteptare SQLite--d3566fa3.py
+91ec8776607a76edf4716a21e46d33b29c7ffa8b1a25bec6230b9413f39fbba7  Berger/fisiere/2026.10.14 Inregistrare programare--6a15f822.py
+f49594dd3e0cbc26481797ddb5bc13a8a583ade0d1de4138aca0b0f8ffa9f11d  Berger/fisiere/2026.10.14 Lista documente Eva--bdbbf9fe.json
+3729533593d5b33281e513cbf85879b755a6a391d8ebf5162086971c2d0a4dcc  Berger/fisiere/2026.10.14 Programare verificari Berger Pech--475e28dc.json
+d824f3929ef383839a6bc6162f414e22f86e2f4b56cb6956c52ac0fcfe058e5a  Berger/fisiere/2026.10.14 Programare verificari Berger Pech--9e534f66.txt
+2211294879afe3cb941fbb390d136a0d7616420a882dd0b689e364b8e09f62ac  Berger/fisiere/2026.10.14 Statut ciorne EVA original--e0b8b02c.json
+ed56723b77c962c77c01c3da50a6ffd004211cfbd1273583e5fef4871027a735  Berger/fisiere/2026.10.14 STURM original--dd252fe7.png
+1e2fc40b03c6dafbda552326352e23def700a4a3c9453c6fb5d304e1e84f649f  Berger/fisiere/2026.10.16 Verificare vizuala 4117e08d p1--b83f33aa.png
+dc24a04fa8a223e1949e44fe5b9afc08c5bf9ae6c97c7aa1a733a045704676f3  Berger/fisiere/2026.10.16 Verificare vizuala 4871f13d p1--29cf6417.png
+2d310342b58ca09db78552de167a9769dcc993c79b9ee5ba5ec70a19a986db9f  Berger/fisiere/2026.10.16 Verificare vizuala 60dd5964 p4--4112dadb.png
+ef93df5438a07884f6bc1b09745d6252481cc459c5fb3c286fd0e26b677648d3  Berger/fisiere/2026.10.16 Verificare vizuala 60dd5964 p6--7e74eb7c.png
+623d5976c47f207eb691db2f0c0049ace8b25f75b5bd91eb21447a14968ddb1f  Berger/fisiere/2026.10.21 15-30-15 PRIMIT Pech 9e27d51f--28c53d49.txt
+d09b0f6600bd56a1edc6aca578d82de3f915f84cc6fe971570ad41ff55f6e0a3  Berger/fisiere/2026.10.21 Email primit BERGER da60edd5--be5bd504.pdf
+a7b6695615c4dd8fbdbf9b8921550e53fd4ae8f3d43d496fa9123d63be5cb119  Berger/fisiere/2026.10.21 Email primit PECH 9e27d51f--98b68d52.pdf
+c9f272362609d6e87a87d160c4922fa7744eb04bfd6675e6233f21736ff4a5a8  Berger/fisiere/2026.10.21 Oferta suplimentara PECH 2026-470 AN02--9673ed2a.pdf
+28416151dbad7d521919017454be6ee658e448b6e7d7c25ef6df768ca3f00f63  Berger/fisiere/2026.10.21 PECH AN02 pagina-1--422af796.png
+efcafb5f29906e288f997271738adfca52d023424369ffd8dba67f2e07efe027  Berger/fisiere/2026.10.21 PECH AN02 pagina-2--f6303905.png
+08ece7eb0228d1ba874b4523467009d31dc6f132981b45bdefcce873ed3d4b86  Berger/fisiere/2026.10.21 PECH AN02 pagina-3--e117d000.png
+6cc9571a71e68b07e46b6002990c099ae7710df20c54e11aee96337135723922  Berger/fisiere/2026.10.21 PECH AN02 pagina-4--b6193ea4.png
+3747d0f248683d1df22812d5181a6dd0f93465779ed73a16c8ddc0019a219f4f  Berger/fisiere/2026.10.22 Email primit PECH c7338d5a--e8a7fa86.pdf
+7f6a50ae65f570f6e3b6303c0e6756aa0d5dad93f80ee48e4f9ca49c0eee4f4e  Berger/fisiere/2026.10.22 PECH AN01 verificare pagina-1--e81bdb4c.png
+8527e11708c410afa02a2f85bba0fe3776ae6bde8ba31aa5f71091cfb8de07ea  Berger/fisiere/2026.10.22 PECH AN01 verificare pagina-2--8fac7efc.png
+20d8236b091e10ded6ab2bc458f53d676765d619b7d155a3dfe31cf874e2f5c8  Berger/fisiere/2026.10.22 PECH AN01 verificare pagina-3--8fca707c.png
+63225223c66f539086d128322fbbd8edec64e3efdf07356ad902b85dcb7b3260  Berger/fisiere/2026.10.22 TOMS clarificari-2--08bd33e2.png
+bfc453589ca6990aaac0dd8ee7f9c21085576e5f0f07393974aaaead6287c331  Berger/fisiere/2026.10.22 TOMS confirmari-07--2e34d72e.png
+3d2a669e0e23e571ed5e8b7c10e1f97a5b8113a4af5aeb8f0caafacfc41908ed  Berger/fisiere/2026.10.22 TOMS confirmari-08--2fcddcb8.png
+6e666173918dae7117711e4399bb9fd8151cfbb6258f0f99e0098de10a0150f5  Berger/fisiere/2026.10.22 TOMS confirmari-09--732ab73b.png
+eefaadc9007f38984b35bbf350672e3eb42d46562a66e5a649127c20e849cbdf  Berger/fisiere/2026.10.22 TOMS confirmari-10--8cadd8b4.png
+510e6b1c3e9cd81a81ae3a70f7c60c77618390aacc256c20284902a4072809af  Berger/fisiere/2026.10.22 TOMS pret 0-1--90d83bb8.png
+61ff78d03efd504b068cba40ef35d89c4f84ab5ea50980c903d0f979298793e1  Berger/fisiere/2026.10.22 TOMS pret 1-1--ee785c36.png
+aa74326f4b5bbad053bf057a85b64ebe2940da1fe20b1518595231c7f7983e23  Berger/fisiere/2026.10.22 TOMS pret 2-1--882f92c3.png
+771e5a64a4e2ed2df1fd28c7660c5985fc503ce523370be1f47adb26dabfadb2  Berger/fisiere/2026.10.23 Salveaza BP dimineata--d96e5fd3.py
+4f71573b0452e00947eab72c08dc3e828c465d97891bcdd80fd7017a815ed424  Berger/fisiere/2026.10.23 Salveaza verificare--bfce4943.py
+79c10a552c9805b27cd99424628cc11bca92f2cc3880f36165bdb3c55422c683  Berger/fisiere/2026.10.24 Email primit BERGER c9567bdd--6440ef54.pdf
+d1a72d886ce736444af25e779189c91ae1059c6974fd941bbb4696fb72093b90  Berger/fisiere/2026.10.24 Salveaza BP dupa-amiaza--5083b594.py
+507ef12f13ea835bd0dd36d2b2376d5a1a864eced572bb24376dd203e7d76682  Berger/fisiere/2026.10.24 Salveaza verificare generala--d806f3d1.py
+3ae5a9472b46604f230ccc232690b606b5309846ca72bc7d0dd25268efb62116  Berger/fisiere/2026.10.25 Salveaza BP dimineata--1d533f0a.py
+4bf2e7bb45a53111fbf056441a71e8ad4bb18170807edf7e846a432b40e03562  Berger/fisiere/2026.10.26 Checklist intalnire BERGER--23a021e2.pdf
+f9fb144651fdb17c6bfccce60c1d425ddf2078f3c9960044d7ca3aa2b6634408  Berger/fisiere/2026.10.26 Checklist intalnire PECH--c7376ec9.pdf
+a0ac63ccca54d5a3750d666ec7283ae1447851b75cba661340d427a962bff2e1  Berger/fisiere/2026.10.26 Contact 1--a182dec3.png
+6637e0d2d0562956ee711281c129d17a1ce7d54bb91c76f3c77ab48c946d0042  Berger/fisiere/2026.10.26 Contact 2--cb15722a.png
+415a649317cdbd5d3eb7c43ff176fd748a2bd34ab60829f018961a9525ac8d73  Berger/fisiere/2026.10.26 Contact 3--78a35b82.png
+4dbdd657f3a4dbb9d3dc1838434a8f612d544b842f599bdbb917139e51d5fd95  Berger/fisiere/2026.10.26 Contact 4--340efd36.png
+ef638b75c85a5ecd74e5e3c4e87a00da45c7e8375ab03b7fb674015092fec090  Berger/fisiere/2026.10.26 Converteste emailuri primite Berger Pech--e5ff8b56.py
+042d55c85d79dcdc5e0e9af6b22dad92f29ee0de3dcf87af79e348869c8e0e9a  Berger/fisiere/2026.10.26 Genereaza checklisturi intalniri--335a1ea2.py
+df1344763d1bb62f8332028da86290fc38e7d97cb996c164d997fa6b4296dd3e  Berger/fisiere/2026.10.26 Inregistreaza checklisturi--1a163aa8.py
+0619e4358d982375ee8d9e6269cc39911ae6c975f4fc03059ddff19533d422ae  Berger/fisiere/2026.10.26 Inregistreaza exporturi email PDF--21555d57.py
+3fe60dfb4b5b3dc73d57db1544c6662d3a5e55aba24e994eea99a468a685b9fc  Berger/fisiere/2026.10.26 Randare emailuri PDF--5204c118.py
+cf66686710947d7a1318cd411c80ac3d6e361ffb4822224aa428ec095218e6f1  Berger/fisiere/2026.10.26 Salveaza BP dupa-amiaza--ccc2ff4d.py
+7b0eb6d3ecd880a29f47d92b1f977778ba9153665659e0a4855f3484faeb681a  Berger/fisiere/2026.10.26 Salveaza ciorne confirmare--fa29e8bd.py
+188468a5ad75d902734c99be1bcc3cd9038c6e09513aa28eb467e996e487329a  Berger/fisiere/2026.10.26 Salveaza verificare intalniri--3c4d90b8.py
+a7673ecdddd82f80cab0944ce1165c9b8db648c433561a22159765209a0c8997  Berger/fisiere/2026.10.27 Arhiveaza BERGER adnotari--e130e453.py
+84d1a7f56099f82462e8c0990e6c3ff8298ad0fc7eee7e1b33265ac382063c0e  Berger/fisiere/2026.10.27 BERGER Comparatie contract R09 R10 cu observ--04ef2eb0.pdf
+682a40d96e2ca46d3acb672ea066ec958903af236a5611fb9b8cc724beabf13c  Berger/fisiere/2026.10.27 BERGER contract adnotat OCR--fc9fcaae.pdf
+36a73d05e6ecc60d7ac34951c609feaad66da9efa7d838a0473c1f556ff27762  Berger/fisiere/2026.10.27 Creeaza PDF OCR Berger--16a72e07.py
+fb46a32a4a84a60dbfc7f843c08a9b90ce2aeeaf5732cdc05e9fbcd7043d9274  Berger/fisiere/2026.10.27 Genereaza comparatie BERGER--5988b44c.py
+24d3169ae9f495300f5e40ed795c9e988d7c4e0a03bfa817ee0a0241b37d8106  Berger/fisiere/2026.10.27 Integreaza analiza BERGER--7baa6b85.py
+e816a3a8cf5f12b68161c91d1e1cd87df12709a3a6998d2bba39dece6227fd78  Berger/fisiere/2026.10.27 Model comparatie BERGER--1df311a9.py
+037c95e8ee1afe513ae059cd7df9e04e808005a2979f51fb8d048ff85954e079  Berger/fisiere/2026.10.27 OCR Berger--3b2d4105.cjs
+728ca91547b12bd04c2cc3d5962e2013e119eb128f9fb76b0a4451cdd1245a84  Berger/fisiere/2026.10.27 Planșa comparatie 1--b85906f9.png
+a48b4b6e8003681fa71a2ebc0f1bb9c5212562cf5dc50dc684cc6242567da044  Berger/fisiere/2026.10.27 Planșa comparatie 2--5a552b69.png
+88633ab0fcc08eedf9754ccdbceccf1d239fade840a44451dbdd3a439c797f0a  Berger/fisiere/2026.10.27 Planșa comparatie 3--3c531e5f.png
+f6b9c9aa3781a27fa24b17dfa7671ee1ff59a5d9cf4d01efa0075af6671dca7c  Berger/fisiere/2026.10.27 Planșa comparatie 4--7f672e4d.png
+3be7c2e13a56657df214b7e1097302bd603cb8cef55cd348cdb1ae799a453c66  Berger/fisiere/2026.10.27 Planșa comparatie 5--03fc0f7f.png
+6d40f5bef909d9fcd44064d8395fc2896911f475cdd630026b22f16087e62bd6  Berger/fisiere/2026.10.27 Planșa comparatie 6--fe8abc78.png
+e9b25b65ac4798673f4697067d349be09ffd9155d3331ca32fcb29ed6d1c3202  Berger/fisiere/2026.10.27 Planșa comparatie 7--3f370ef8.png
+5fe6746b6fada8245250cec454ee567ad33cf6728c2273a8c1757237432d53d0  Berger/fisiere/2026.10.27 QA comparatie BERGER--b5284571.py
+eb1ce346946f298416e8a93fb383d8b7559997cf24ae43f6c15df1cdc55492df  Berger/fisiere/2026.10.27 Salveaza BP dimineata--e3d6298a.py
+8268fa62296a3449c76abf75e22d914799dade29f1cea55ad1ecc8406a7ad73d  Berger/fisiere/2026.10.27 Salveaza verificare generala--2e7cda00.py
+0c57a20db161b169468cad24eea4c87481ccc4723262862c903f205816886f38  Berger/fisiere/2026.10.28 Salveaza BP dupa-amiaza--e6261df1.py
+11ac2c15f8a85bfe14428d66a7742c79321b2b60a2fe183881e2100c0bebfb53  Berger/fisiere/2026.10.28 Salveaza verificare generala--814299e6.py
+1246153075a7ed5a8bf2532c3078ddd731c9d1c1a5c116f150a9f559c6e5f3fb  Berger/fisiere/2026.10.29 20261027, WA, Schallergasse 35, PL--be317152.pdf
+47765cfe908572ca4b95488eaae967504737e8c59a2055479b01b3aa0876cb76  Berger/fisiere/2026.10.29 BERGER Comparatie contract R09 R11 cu decizi--ad620c3d.pdf
+f5e2a6aee889a5c91473ccd676c91ab047f157dcf76cf907db09d2771c612b3c  Berger/fisiere/2026.10.29 Ciorna BERGER R11 cu ambele PDF-uri - EVA or--9852d460.json
+85204123a49954d2270beaf7558a9fb50bf50dd8a0e247f9f6df4cd5a4fa5490  Berger/fisiere/2026.10.29 Dovezi checklist BERGER 17--c3d7b16a.json
+35bf5e4d605e371f6b46bb4dc758787d7cf2724b7b73c31ece660730468e5fd8  Berger/fisiere/2026.10.29 Dovezi etapa BP dupa-amiaza--924f50b2.json
+a5a4a119a930f50e60f196c5840a611fb13055a7bdfd5c48ec13e6b82a2f5b78  Berger/fisiere/2026.10.29 Email BERGER R11 - ciorna EVA original--b3bc9f66.json
+ef0b61b72176f4b4405f1b4bbe1b4624b821569f658644d591bafd112dc7cbd9  Berger/fisiere/2026.10.29 Email BERGER R11 - text german NETRIMIS--41002a1a.txt
+6289c6c380ee205e4b1f4965862850d3cf4128490e872f678100be92cbd08014  Berger/fisiere/2026.10.29 Genereaza contract BERGER R11--e79c3f4c.py
+6cfebcafd5f2212914bf1de593097d107b0a33ae1d5db54509701494c6f19f88  Berger/fisiere/2026.10.29 Model BERGER R11--53212a75.py
+d29d8ec6855db60ca5ba3c7317d49ff8b2cc8e579193e2ddb68c749321bab091  Berger/fisiere/2026.10.29 Rechnung 26101261SR Schallergasse 35, A&C Wo--a6fafabd.pdf
+638891b95e2052185e903638ec1ca1447ca7493e14a2eff5bd18fab377c55a55  Berger/fisiere/2026.10.29 Salveaza BP dupa-amiaza--e98b47fe.py
+481c41b0c467838a8855bd6551cb07cdee40ac515b6a2a0b705ec6b8a266e890  Berger/fisiere/2026.10.29 Salveaza BP fara noutati--60b69ba0.py
+ce5655d1bc2139978bbee0d3d1f44594635ef4d8ce577c4b7d1bb540b31a6725  Berger/fisiere/2026.10.29 Salveaza checklist BERGER 17--fcd37ba8.py
+caaa7b3647ebe70514915a9ed0aceb860910b975bc174d5c9461dcfb0f018da3  Berger/fisiere/2026.10.29 Salveaza program BERGER--346f8367.py
+519b200555a7f820265d7217edc51bd0734e90d28feb5ebbcf6a2625706c1c8c  Berger/fisiere/2026.10.29 Salveaza verificare generala--c93e8176.py
+934d95049f46d116b3e7db50835ac153d9e48c2c720fdc1b313a8b01df772eb3  Berger/fisiere/2026.10.29 Werkvertrag BERGER R11--dee085dc.pdf
+563083b74e3f2fe31b0070a708d25d2dce3444e1e2201f811b908f667c6c9808  Berger/fisiere/2026.10.30 17-09-38 PRIMIT CERHA HEMPEL ed08780f--a7553fab.txt
+e0304b0071f1934e9db89e52f7132c866127756bfc00676160e0f9e3dda58875  Berger/fisiere/2026.10.30 Capra incidental bytes base64--df0b3ebb.json
+03a1658dccfd44260c2e0bb4885f38dee9b8e51060146cd886762d40a9608b79  Berger/fisiere/2026.10.30 Dovezi checklist BERGER 10--f6f2edbd.json
+5fa1fc4b73fdc71afcd6e2d085cf8136b507c27b7b3376310a4601f52dea0b84  Berger/fisiere/2026.10.30 Dovezi checklist BERGER 13--8f927a80.json
+171ef83903bcf2353fda5bb4b4b78724ac1a4755bcf035ace08c0ff816812f7e  Berger/fisiere/2026.10.30 Dovezi checklist BERGER 17--83395aa4.json
+e61b668eab6f18e4f59b364cd7f4a711133fc5dfb729e112fd728bb6bd4efde4  Berger/fisiere/2026.10.30 Dovezi etapa generala--0c227d80.json
+833fda0076338b7e63aa63a15b63d4e99e19355cd2b8e3d0baa76ebf0006f6f4  Berger/fisiere/2026.10.30 Mesaj incidental Capra etapa--e882423c.json
+798cc86ecf52c0148d1e90ec33571dcbfdf68f3f33fe3575127ea0a0086c9b17  Berger/fisiere/2026.10.30 Salveaza checklist BERGER 10--943e1813.py
+e1706a7659cb9608199d96890ae8e21798c79f00f61e5da1ac3e637020be064b  Berger/fisiere/2026.10.30 Salveaza verificare generala--8611ede9.py
+87bb9add0757731718723539e7f265835d4c3e654fc81977b8f25f0c71a49c5b  Berger/fisiere/2026.10.31 Actualizare incrementala index--01be4fd4.py
+b544db6bd427f4227fe50b27b933646d9773ca6b265cd9d07d5b38bc7a380b38  Berger/fisiere/2026.10.31 Dovezi checklist BERGER 10--250a1922.json
+76b2f726e038b472e1ff61b7fd3cb9ae287c61ea1c37a9d180e6d4f6a0f1af93  Berger/fisiere/2026.10.31 Dovezi checklist BERGER 13--93fea89d.json
+fd9a59cc4622f8ff47a49c0cef936d327ad4fd0314f50d061749cfd6c1f79c59  Berger/fisiere/2026.10.31 Dovezi etapa generala--b2ee02cc.json
+83c9d9d83f773a0e131853424e0302760c6f5080799b21020c7fc11cba323ec2  Berger/fisiere/2026.10.31 Salveaza verificare generala--1ca7cad9.py
+6a3970e99d73a33e59f407dd0491850568b4b9dc34d38ce15cbf36bfa7900c5a  Berger/fisiere/2026.11.01 Dovezi checklist BERGER 13--7226fc97.json
+0f3150b633a032315b6d6d7b94da8f2e678dd192c50a081193fd314996636a27  Berger/fisiere/2026.11.01 Dovezi checklist BERGER 17--9a608cd8.json
+a1e62979cce67991efc1150d4e0b8c6ec2b3a5200ce3190535120538044d3f56  Berger/fisiere/2026.11.01 Dovezi etapa generala--1d0837c7.json
+82eb6de4ee89055ca6aa9a3f298cfb66b43881301da3d48de75584a2486fd6a7  Berger/fisiere/2026.11.01 Salveaza verificare generala--9620be8f.py
+99514f167101d7463586c90a2be750a257d85ee4f377bf5178ec87a261e17f7e  Berger/fisiere/2026.11.02 Arhiveaza MA37 si aliasuri--ad3e3311.py
+e5fbc5a7429256b0194517a8569107a2e55582e410b3d08e4185bad39bfb70c4  Berger/fisiere/2026.11.02 Capra MA37 etapa--97e4c9ad.json
+5a33f50d31aad5bea41eaba469a60fae5054f3ac7919f57bff5122900098aac0  Berger/fisiere/2026.11.02 Capra MA37 originale base64--88e0bf3f.json
+1b7a6aca0978037620d7fbd81d7c4c843b18e17514f22ebd727150850ffb0ad5  Berger/fisiere/2026.11.02 Dovezi checklist BERGER 13--b282b920.json
+a39e4f815d723019da937c5c12b418cdef3cdcbb69d8d67b61f803c5fac3e2e9  Berger/fisiere/2026.11.02 Dovezi checklist BERGER 17--cbef2021.json
+38c458492df7ea0a5ee7da6d0d81d7f372879ecf6ac35800a341456d69f6aba1  Berger/fisiere/2026.11.02 Dovezi refresh etapa--bb540865.json
+675c5223bca586521d94e2910957bb98404c12b9219ffab5383ce91d25b8f86b  Berger/fisiere/2026.11.02 Email BERGER redactat etapa--abc2233e.json
+0eaa19c35387e199718ff7f092448da903bd5e6ed5238956242f6b6a598b8f7a  Berger/fisiere/2026.11.02 MA37 raspuns pagina 1--e4d0249f.png
+97089ef8659cc8efb70a0dd45583e52a59fa7ba369ec954f6e350cc88ce6faf3  Berger/fisiere/2026.11.02 MA37 raspuns pagina 2--38fcd55b.png
+f77e601e0fdd1c61f76ff28889a9b61a95da3dabccde4e6b2d1181da2e668f76  Berger/fisiere/2026.11.02 Salveaza refresh--c3b667a4.py
+6fa8605f600c29634d69eb7b133fa889a9327d314e6b502ba3bf14d29c38d7cd  Berger/fisiere/actualizeaza_index--9c1713be.py
+4e44ea2b6cc00fecdf35cb95571ce7ee31e77106d245a1c2b8b33cba35372db0  Berger/fisiere/archive_two_attachments--eb52970c.py
+1571b269f790b6bf08a5bbb4d91bf5c39b2a8d4a3f9b7a5809ff21e18df2b171  Berger/fisiere/BERGER-1--b402ca12.png
+3a642473b27629a3828171b110ce399343f944d8777e8249fa88eb39c9f9f7c7  Berger/fisiere/BERGER-2--c97aa58a.png
+1fc1b1e25648068a5d629106ba5179977a87a3e4aacd3547a5bc5ae04628fa7b  Berger/fisiere/comparison-09--7670460e.png
+28db9f6c5d9fa085e77ec44998524719c0a9f41585d33e03ab3b826580dbd2ce  Berger/fisiere/comparison-40--857df610.png
+d5a36199983aeaf2f4e109c340756bb75c84f7d9cff7ffc2e3f25ca98be1f368  Berger/fisiere/comparison-sheet-01--12086772.png
+1e209be713605d0e05400b519783179eeca77ecf325d5332a0d6672b3b873e6e  Berger/fisiere/comparison-sheet-02--b749a7e1.png
+b7d7e31bb18d83ab97ab720c8537f38692aa0c411488942cfd51363a67f97c2d  Berger/fisiere/comparison-sheet-03--39381de2.png
+4de41a51f102ad9054579792c6733b6a3df1eb5759dde5522119a30ac116daf2  Berger/fisiere/comparison-sheet-04--f35725f3.png
+7c60c0d98483fa6b67d5b135b4ea4943720b27679fbc94eac80dc05d2f8f6a5d  Berger/fisiere/comparison-sheet-05--93a18c7a.png
+f4b65b2d3a7a7553970211a245bfb056f3e97807ba8c7b4b8b449fe8e6954723  Berger/fisiere/comparison-sheet-06--d41a05ca.png
+a5c25ba5a699838b30853ed7ad9832906ce8471f044141a1b4a001d17ef391d9  Berger/fisiere/comparison-sheet-07--c19e889b.png
+12a45df266515f959dbb0366b81d501ba29e3609f49847299dfd7bc58b083c0e  Berger/fisiere/comparison-sheet-08--855202c7.png
+2c378964e3b1aa77a78ee0375c38d8ae3f56a7d824f21fa19344f8d989555fd7  Berger/fisiere/contract-sheet-01--6bc43a88.png
+edd88e381d0524cacdc06ac74b74b9741ce79bb0458f0b4c7029f28ad86c6a09  Berger/fisiere/contract-sheet-02--6ad0a457.png
+43eacd9190e6af94956f66084a6d1c2c2664bc6359289602df59f11f99e9460e  Berger/fisiere/contract-sheet-03--e70a398f.png
+60a4c86dfc2ae5b20cd9718b0fb55d1726120b39bc1a431f6944fd1b1639a145  Berger/fisiere/contract-sheet-04--4fd6583c.png
+d5983e16a2c93cde4aa11b163920b65f5a9443308aa24736a6c281ad92ae8fdd  Berger/fisiere/contract-sheet-05--9a498d36.png
+1ef0b1606bf2bff0711be9f8b8de089a0d14cfa828ffcccfe86a9ba0ea8ac124  Berger/fisiere/contract-sheet-06--cb1421df.png
+c35ff446bf889b8b2d4f9064bc34610a43c5f1645d5b1f903f3668d277cb5d7e  Berger/fisiere/crop-1--27756401.png
+56e7ad72e90cf46c84fae465e101e4c329823cceeb468732dd9ffec13a987666  Berger/fisiere/crop-10--71c7de50.png
+a4ba324abb196605dd731368a1795bda9f084f99d7fa7e17ccd1a502fccf72ee  Berger/fisiere/crop-2--181e9592.png
+956c574dc4d052347b72915be09c975367184833d3435a476e90c9439d0a3fae  Berger/fisiere/crop-3--3f58328a.png
+ce185b0f25a6a65cfe350e0acb2e1185320cc55afb6d3f8a243f0f2e54eb5681  Berger/fisiere/crop-4--30718424.png
+2e0e90a982ad24f767ef66125e074549c57e37e300777f4f9a8a12fb5705e63d  Berger/fisiere/crop-5--f20a17fe.png
+a2bc32320cbc1756039c9b3f7f404d7d589c182dd18763a510a0a2da6e0cee62  Berger/fisiere/crop-6--262b5618.png
+dc17d7fd37d39483556703710dbbf33366e8d96a8226d31cf1b0b031627d9d41  Berger/fisiere/crop-7--46cd9447.png
+741ce520aa0dde60335780a8ddb15601550820e942d8ad34e2cf6e87364c9b64  Berger/fisiere/crop-8--0ee6b112.png
+d6e99afc0fdab69d33d077c2ced3799a75761060172cedc6e3821f3ef2eb38a7  Berger/fisiere/crop-9--90d5f3b5.png
+2a95514c127ee8b4bc4f3e585e83937172f07bf48d67f0ae89a3547caf59e225  Berger/fisiere/finalize_archive--1e97d1f8.py
+3c5c3a1bd14f3b996e2ef99c21a6f07a633bed796ccae2a884c00b473fd79d82  Berger/fisiere/invoice-1--71222331.png
+cb282e091561f5a9000b35e11abc692e3430ed8c6f714254e89c874b372b724b  Berger/fisiere/page-01--2212af0d.png
+25564d3022e75dfe3a54d3cb1959e813f7c423458c781fbb0634eef892b4a29f  Berger/fisiere/page-01--bc3f291a.png
+9aff553be1538def28cff8f82a6e07892956cc91a762e89243a98d3b1d074891  Berger/fisiere/page-01--c2e1ea4a.png
+a603c262749346830ded46ed99e242ad1edc1e360b725913a84d30b7c2895688  Berger/fisiere/page-02--13580b1e.png
+0b63828e945cca14be78759565f6a043c39a448662d3630f164c4a588efe83d1  Berger/fisiere/page-02--7621c76e.png
+f211c02037a2027ab6cfde0918c7ebf4b2030304782b7a9fb31824aa473d080c  Berger/fisiere/page-03--770c12c5.png
+e13f539c50a82742e67300e28ff54b9e8397613202436fb55424df42390bbdde  Berger/fisiere/page-04--d4356c29.png
+a3875f48976d878947f9dc42ab668260bf671a04000a2b76716abbd91b301064  Berger/fisiere/page-05--c2bce762.png
+280d6a31bff02f4f2bf4ede0150396d5a1721d76ad0b296b30cf277193f520d1  Berger/fisiere/page-06--fb7814ac.png
+d60369660b5cadf0534edc6df36c556c89dd8cd7fc12e5e6aa6a744645c0c908  Berger/fisiere/page-07--88715107.png
+a4d41403eaa1e2f3b7bf6a1cba9b44ba3b40ace350a036fede7cbb11471b66bc  Berger/fisiere/page-07--f4e57cda.png
+caff8642fc76e1e0b954cd5d4e0c4c3698e28de168c928a7ecb50ed0a3f0aaba  Berger/fisiere/page-08--26fc85a3.png
+cde64cff1b838b6ec560a0b4304e4d4e49629e04bc368b90f958f265eef66edc  Berger/fisiere/page-09--7a54c8fe.png
+b09bba4e0871314bdbe817071c667cc4757f55afe798f166b0c77922a4393631  Berger/fisiere/page-10--7027707d.png
+6176f0592fe09b67580fda17f9fd3f3ee899ff68f7784ebaffbd383132bee4d1  Berger/fisiere/page-11--0b79b6d1.png
+154cfd2c2f46158f85410d84228e5e6fded7038d0fd182fa2cd60a62c0ef4927  Berger/fisiere/page-14--e388412b.png
+45da8f4f8bc4af9b6a9b5639734371734005ba77ea42fd40ad28b71857144f01  Berger/fisiere/page-26--c1eb2570.png
+1f730b32baeca8c09624adc14942f72271840099e78e4e7891ce2fe5904bb58a  Berger/fisiere/page-27--34cdea4e.png
+f5c351e34d8fe06cab3522a630a531e2e28de10d22de57dccd4bd09e3c157beb  Berger/fisiere/page-31--0be764ba.png
+5b87640f6fca8937444c7f8e268548d2ef209ff7d05f002105f93002209f6598  Berger/fisiere/page-32--4ad4c477.png
+f487923a30a1959a4ec791600f91aa799839646735488d753268669b0b14b9e0  Berger/fisiere/PECH-1--3aa0cad0.png
+139d3b656406cf0ec1e047bb1d1b78726f92c29969049a66aad4b10af8c88979  Berger/fisiere/PECH-2--eb9dbe5c.png
+532eb53a0cdc6e0c3ae3d5c09e3bad9c2a718cf24229a579b69fe042e9329def  Berger/fisiere/protocol-1--efad183a.png
+6fd6be35dedcc9085c7d8b03280b448de1545ac396d3e94ff99f95d415c68ade  Berger/fisiere/protocol-2--5ae5a52d.png
+0cf2e812f0e82c952423e7232e9ae5c7bcea8670eba937db3d2e299420f4e2f9  Berger/fisiere/render_final--8e8271c1.py
+bb62547549c4a5a15e83b375f68a8fde9a4690eaf55edf0c9797b8b27b57d281  Berger/fisiere/scan-1--7472ab86.png
+2f4bec2982e6ce83ab80376791c83562da75556bc60f665ecb822f01f75fe12d  Berger/fisiere/scan-10--51df0572.png
+b4c14aaa89c23137f10027e7dde448335319a99101a96d5a34fc45f690b7ded7  Berger/fisiere/scan-11--5d7985a5.png
+3db74d96d3189037ab44340dc170cededdb557fcac9c4a2b7bd912b214060db2  Berger/fisiere/scan-12--71365b26.png
+8c7c5d65f6b29887da3ce6192fa1136042b984c241fae259fea4cd9bb7e418bc  Berger/fisiere/scan-13--9684a41a.png
+03656cf33378f2ece69ed4fc945a81cb2a4ed74cb302112a18516ccac12df954  Berger/fisiere/scan-14--e730592d.png
+a7b28c2ed8648d4ba32c6cd22c411bed6a716edd0a453f5551c9f8f75aefa7d9  Berger/fisiere/scan-15--df7a4a64.png
+dd72b078419f26a32c9395eb07c6df18908009661216c8a4b09094ef0a908527  Berger/fisiere/scan-16--abea3fd3.png
+1e80cb8dc1a985db94dd84957efdb0703c1dc09b89b88da347e36410842ca93a  Berger/fisiere/scan-17--875f8cc6.png
+2a68b1f668689f1811dbb898b4148e1c2a694f541ad3d30ea39ef05e23ce1076  Berger/fisiere/scan-18--0e27ed7e.png
+0d1b961cf24889ac00746ca85891d106f3728c579be53f2410bf213ddf05038b  Berger/fisiere/scan-2--9543811a.png
+9f20c4f2b8c213663a03825eb8c6940dc7df86eeea645f9d36ddf39260a51b48  Berger/fisiere/scan-3--b71ae33d.png
+8d5911e0415a6b464a15620cc87422200a21fa2e4f7bb14c431bf2055d254c78  Berger/fisiere/scan-4--82a09328.png
+98d4064d71c56f368e32ab27cd879cdbed4ca7aeefbbdb9915503daddc9029d7  Berger/fisiere/scan-5--7b03dbe1.png
+91e5bc9dc2b8196d4453fb901a5ed071c31a7b8ef19e0d48155c0f988243664c  Berger/fisiere/scan-6--6d053a03.png
+be8fd5aad725ace6297bbc0ce57e278b13654fe5dab7466554e180ed518edc77  Berger/fisiere/scan-7--f21527bf.png
+0c636150809fc41036a8291fc6f4443ccbaf64b1a1cfd5c073dd02f34e60bafa  Berger/fisiere/scan-8--c7c34489.png
+6397c55a6eea8330d7257ad3b3bd89c3ad3d2c70a7f61e89c278f2f722852685  Berger/fisiere/scan-9--f6f9e5af.png
+185572a0f1f985bc5a4bd4c325f78b2b400d0138c4d27925107f0431ccb73b40  Berger/fisiere-index.json
+a136b18245f360350a66b89013e2fe5865febaeafabe71a7b62e72853c9d28f0  Berger/istoric.json
+66b3d49f1335271877351278a9b44c576d3fe6183172eee3f389f74c8656d3e9  Berger/metadate.json
+c3b5e30cf038377a51bd7be8ba4cde208966fd4deb659e694def4a06b4a88254  Berger/rezultate.md
 3b6667a31b5c5db4ba500d3dce3068faa0b66d32ff046f0c698e1b47164b8e01  Berger&Pech/conversatie.md
 4c8baa2b9867452beba3ae5fcb42d2ca91ba3fa39259197b531b6b676f4dedef  Berger&Pech/fisiere/2026.10.01 actualizeaza comunicari--8c448f57.py
 4650fcd8221dd27ae78915c748618b5fc1adc8114de6f0c994cee5bac5853c36  Berger&Pech/fisiere/2026.10.01 descarca comunicari--ca7b5510.ps1
@@ -539,7 +1116,15 @@ e2cc866f7750725882295ee437905ca20ad4e76dc949130bf8eaee2304bb70a2  Berger&Pech/fi
 416973796642125f464afb71ff60160bc1522a13d0e006f039e2654790b9f0a4  Berger&Pech/istoric.json
 6e188f01af7af17417a81b1b2d029740923719a88f9b482644f0ef239c31ab97  Berger&Pech/metadate.json
 d6f3d2a05bd3d7e45aa25f9efde91ba6e4bf98463b503bb9be6ed7cad050161d  Berger&Pech/rezultate.md
-d9d8382436e137c0bacebde63f8b51a78b4f978dfc4e4c5826f15891b1ea9f36  CERHA HEMPEL/conversatie.md
+07393274925320062589ab17d723fa579caf4d8d9ecb3b11f0d00bfc99376bdb  Berger--d90ad5e7/conversatie.md
+2daa1697b8794208767aabee2ed3479e39b1d46586d5d718af5272b12eb39912  Berger--d90ad5e7/fisiere/2026.10.22 arhiveaza draft Berger intalnire--0bc93f40.py
+b4bd8b52660193387461b4a1e3cfe1279f4b2d6fb10680dc613671413e0bf1e5  Berger--d90ad5e7/fisiere/2026.10.22 revizie draft Berger data intalnire--a4f32c49.py
+2440ca4eedde89e3b47eee0a783cd497dcf7e06395c4e9ebb8830fdd95df68aa  Berger--d90ad5e7/fisiere/2026.10.22 revizie draft Berger marti 11--496c3fc6.py
+a7e0011f6422be18fa0aa373e250b3d1d255441f84478fb5f89fc958ee40c7aa  Berger--d90ad5e7/fisiere-index.json
+da20fc9880d3ed4e501a222f61cdc37500610e28ae28e086c2ef0e9b2852fdfc  Berger--d90ad5e7/istoric.json
+9015c5f2885133964d7a5aa723ea73ec60549aed11c7b1c3aef110c3515ad0fc  Berger--d90ad5e7/metadate.json
+78725307d729d55171b1c6dca78843d10d5c8ba1a4974c1a255123c43a875b49  Berger--d90ad5e7/rezultate.md
+2a8eb7ddaa5299a3946ae7891d7c76fb711fc59c84c33c6f7e8f895a6f9e2584  CERHA HEMPEL/conversatie.md
 7ee8a2b4522e431b3185523f7d8261a2839c89c61dc93262ec41453942b5f675  CERHA HEMPEL/fisiere/2026.10.13 CERHA octeti temporari--17748e1d.json
 762ef73004cda15c565b44e1e21d1e1f439f5222ea95d93196ca97abb39e31c4  CERHA HEMPEL/fisiere/2026.10.13 CERHA surse temporare--6554e2a3.json
 a5681d45565b4cce951dbbe758a936292d6f4fd70b8393c8c60d275ca1de14ef  CERHA HEMPEL/fisiere/2026.10.13 Control 2 pagina 1--8113f345.png
@@ -551,10 +1136,10 @@ a6adbf926fb4fc3b563d7f723a44e5d9b611175eaaa0a03916bb43471668ac33  CERHA HEMPEL/f
 fe08132daecd7b43277c12edee31d92a6b7422388126c6254113908fc46179d6  CERHA HEMPEL/fisiere/2026.10.13 DRAFT raspuns plata CERHA--84feccf2.json
 3acb5215bd5ecbc246d07e0202ff5f143f138527bc4bc4e04abd7ad5b7d486ec  CERHA HEMPEL/fisiere/2026.10.13 verifica CERHA--990ca73c.py
 e534336ff449e1e2d7f1b05d4f4b0c25a99869e737a79437c2113e321f72074c  CERHA HEMPEL/fisiere-index.json
-17577bd900df562a7cec98633d4572c753e853cb3dc93749f59f4944b7c7899f  CERHA HEMPEL/istoric.json
-983803fd25699949f72105dfd791522fdc992d5fdd4d0d89aa8998da4715ddeb  CERHA HEMPEL/metadate.json
+d9f46ca76a7c2bb2ff90481721e32522d42e552fa3a982e7bc2b2a125189c077  CERHA HEMPEL/istoric.json
+630c6639385b28a5adf7d87a934e3605469dd134aa195ddc2f4be9e1b024064a  CERHA HEMPEL/metadate.json
 7359bc82f88de048ba344a1e6fe426ae55c7e7aa4756d7848d2444550a7654d6  CERHA HEMPEL/rezultate.md
-a48abb39a6fd5ffcb6ba25b9e1b172d61b4605b3a6a012b8ff54de171990bedf  Compară ofertele de lift/conversatie.md
+762f9c43657fb80563402a665e365ea945222625e4c32d3726233242e8793302  Compară ofertele de lift/conversatie.md
 bcf8f17430360f72502f691e31ec0044e0386f53788f9b6a4f92d1f4f2afc94f  Compară ofertele de lift/fisiere/2026-09-24 Otis Angebot 32KB1294-01 - Gen3 Core - 38.68--6279c80c.pdf
 52efe2c4219c99559244bd02ee642b18a740e698bb04688d1354e89866cd418a  Compară ofertele de lift/fisiere/2026.10.05 63b2ea93 ANG0232318_Angebot_Service--48797de4.pdf
 55d2bace03d619893ec9a8c1fcb75c4ae757b1d69a085565916685cc73860c87  Compară ofertele de lift/fisiere/2026.10.05 arhiveaza draft Schmitt--7425d90e.py
@@ -573,8 +1158,8 @@ cb34e69719389a944e68dab1b2d3ebea11e625d62c3d60f1e21e0c45ecc271e0  Compară ofert
 e50d694e15b06fd9ee3ae8cb4f9d12e4a0272527091ece230e9343f53e1f68a4  Compară ofertele de lift/fisiere/2026.10.05 sohn pagina 7--70e278bb.png
 9585b7a2f3386a68c2d778f3abbf65a3061849ead3a44630c1ce150bd16996f2  Compară ofertele de lift/fisiere/2026.10.05 Sohn plan cabina oglinda--872417b2.png
 c2de024474dc82b91870eac6626f888acb39ef83cb407f3fbe1a9aa48ba3496a  Compară ofertele de lift/fisiere-index.json
-e5c0e319991dd99d66cadcb77bb79347f22384f72abc2653fc70ab21238f478d  Compară ofertele de lift/istoric.json
-5a1b0f8b44892690195adb1f908a9daeb6bb33d196ad356034e2a0be894682c6  Compară ofertele de lift/metadate.json
+0d729fa4f10049cd61f2eac4a814317ba0a9fbc0794d98dbfe7cb3bd79b29add  Compară ofertele de lift/istoric.json
+8e660e6a2a0a079722df91838d098c627c47d78d65df92c527730d44355611dd  Compară ofertele de lift/metadate.json
 6305b07e7ffc26cf657bcf8308cfec46f51c1bdd12aa0131f33297fc22730c8f  Compară ofertele de lift/rezultate.md
 1b606a11805ebae4ad5508e10707ddd535ee254ef8d3bf7df0c85ab114768c11  Compară produsele Tongou pe tipuri/conversatie.md
 ef288c136d9219858c90c224c2600ac7b4d5a6608b50b9a72ef31b5d053ae875  Compară produsele Tongou pe tipuri/fisiere/2026.10.08 Acasa inventar si echivalente--e0f68889.xlsx
@@ -614,7 +1199,7 @@ eac8088b838e373631d50bac32971c9f5ab947fa1c650283abae16be19bbbfe3  Compară produ
 de2a51a6b68be2beda567792dcb4266c22acaffcb67be3ac96e670f277f8eb39  Compară produsele Tongou pe tipuri/istoric.json
 c6403108d090f7ac138cf0e2a996ee494a25715c9c9f730f0a3856b2e0279d81  Compară produsele Tongou pe tipuri/metadate.json
 42c3cfd11e84c40053045c8d5d1a7b083db621697fcd91592bdc4029a4aef709  Compară produsele Tongou pe tipuri/rezultate.md
-b81f4e3fa850add707b6efcdc0282b94da5c5d4a72036f9398c50773806407e6  Conexelectronic.ro Tongou/conversatie.md
+e95db5ca0748ccb27c39d1fc75463c40cba5ee73b946c67b9f9eb634d0469443  Conexelectronic.ro Tongou/conversatie.md
 ef288c136d9219858c90c224c2600ac7b4d5a6608b50b9a72ef31b5d053ae875  Conexelectronic.ro Tongou/fisiere/2026.10.08 Acasa inventar si echivalente--e0f68889.xlsx
 01011c1faebd3d539c9b0030ab927b2ec4aa6faff8f807738d6fa18563d39efc  Conexelectronic.ro Tongou/fisiere/2026.10.08 build--31ae760b.mjs
 cfe5bedfae10b378023cfa39a31de2c2afd870c4031f635c3eea8a10d5194fe5  Conexelectronic.ro Tongou/fisiere/2026.10.08 documentatie--cc6dba10.py
@@ -658,10 +1243,10 @@ eac8088b838e373631d50bac32971c9f5ab947fa1c650283abae16be19bbbfe3  Conexelectroni
 0fb8968c5a2b1eb5a62324f06693ffc8de14111b7ef84f9c5d7408b5c9cf0749  Conexelectronic.ro Tongou/fisiere/codex-clipboard-e088c6dd-40d0-4609-816e-91f93e52a8df--14727df7.png
 94f8bf773a847ce71c1d5906a889ec668c948f394fe7ab35ad571f6cda659a19  Conexelectronic.ro Tongou/fisiere/codex-clipboard-ead1a92a-101d-415f-af7e-d3bd9df36313--4d9ef618.png
 992de66a3fd2dd0c984303b8e7df9b391241760f7b0acefcd9d6709e3c80e835  Conexelectronic.ro Tongou/fisiere-index.json
-35891caee89c4dac495106c9244a4fdbc5a5e55c5fc209cb704947a3c960f12d  Conexelectronic.ro Tongou/istoric.json
-a9fe45f3746f83719376fc82ede7b83887812f0425c1ff814c3163d527c5ceac  Conexelectronic.ro Tongou/metadate.json
+d50e808e624f7c0dc1e499076698713b0620529295f22987e64c93e5330cf2cb  Conexelectronic.ro Tongou/istoric.json
+63ebc72ef24a07edaf43553c476393a1126ef92efc6476ec1f15bd49288e9db8  Conexelectronic.ro Tongou/metadate.json
 6f8a5652ded7db8265b611739b6734ee4952a1eff17b4256c2919f48db5bcea3  Conexelectronic.ro Tongou/rezultate.md
-4b648f4d231ee435ec994188b217ace5a2c5f2ce645274be7b4ba438629e1f01  DonauAsig/conversatie.md
+432e9c081e9f23eb036138949961eb99490a10875640ff36ee4c66b1ceaf08b1  DonauAsig/conversatie.md
 eb3dd22b2612be6169131f1bba2ab6592270000b00c455c941f65e3681706546  DonauAsig/fisiere/2026.06.10 0b24da6e 814BC40FC7831FE197E21FDA108A0CC3_Po--ed7f5708.pdf
 2c1c0e9e8f85447b0b699941f23e19d3cc070e56f43af42bb2589528f2b33025  DonauAsig/fisiere/2026.09.14 589967a1 Mitteilung Commerz-Inkasso_A&C Wohn--e74ae1d7.pdf
 b19977770860f9d1d74602b8493bd5077f224738e20e8dbbc97ef5e0df106efc  DonauAsig/fisiere/2026.09.30 actualizare Donau revenire--62e898fd.py
@@ -725,24 +1310,158 @@ e95b239a963315808e8312c71b1702a8290a625bd4919c5a80eaaa910e4e8c34  DonauAsig/fisi
 47547fb2df50df5027528958d60a07d1a83fddc2aecc83e30b12da3c4cb0ec58  DonauAsig/fisiere/2026.10.14 Verificare Eva-Mail--f3a32fae.json
 2e5cbf1b55eebf5d12bc871f01e9c5d29778167764531470bf81736e03343c06  DonauAsig/fisiere/2026.10.14 Verificare IBAN Commerz--11951546.png
 fd627fa46dcd404e6bcec3747c59ddabe063f757a57e1d75bce17e97c891bd05  DonauAsig/fisiere/2026.10.14 Verificare IBAN DONAU--f4da2bb4.png
+7da2d5aa3790d89eccd5afdfeaf9cf69c592d89ac226235ab33bd46b3fb67284  DonauAsig/fisiere/2026.10.20 Cautare raspunsuri DONAU--c6ce8060.json
+45ffafecef3bb23315dd57b43f60dd97dd19cd85d3b62f6c511a54a0a7e84528  DonauAsig/fisiere/2026.10.20 Ciorna EVA pending--43755da4.json
+45ffafecef3bb23315dd57b43f60dd97dd19cd85d3b62f6c511a54a0a7e84528  DonauAsig/fisiere/2026.10.20 Ciorna veche inainte de stergere--a15c4509.json
+414acc6bc67fa641d125d9767dc441c5d8b14dc266a3b22f848a290088c2a334  DonauAsig/fisiere/2026.10.20 Dovada stergere ciorna veche--ff7a134a.json
+026d37bc9b70abad0a630670675f37f4524d9bed1f962bbb1fd61d9b63fc52e4  DonauAsig/fisiere/2026.10.20 Dovezi cautare si sincronizare--3c5b3e01.json
+3ea5b195a802488551a94b73df5d871d1d58336e91a15cbda8117f118a76256b  DonauAsig/fisiere/2026.10.20 Mesaj trimis verificat--737f7a03.json
+7ea36d5b6cea73f916256eeef09b81e12ad8a4386d1e93239c31fc24e3f2bb90  DonauAsig/fisiere/2026.10.20 Revenire Donau NETRIMIS--1bd7222f.txt
+62253e6ccca22d869c52bdcea54b912e3b973d617b63cd698db8d802c4a23d83  DonauAsig/fisiere/2026.10.20 Revenire Donau NETRIMIS--57db36b8.json
+aa4058f9eda9a1f10f7f77c224b4508be9de46f9704a015b3abbc3bbf51af28c  DonauAsig/fisiere/2026.10.20 Situatie ciorna si cerere trimisa Donau--1bd23d4c.txt
+6776f87cd9830767cc646576080ceccbeb7e57b4d257603a0513bc060f2318ea  DonauAsig/fisiere/2026.10.29 1120 Wien, Schallergasse 35_Antrag p10--8891b66c.png
+3114338caf1b031006cc5a3dde46072a755b3e8b15135b558f2aa30f8676fd9e  DonauAsig/fisiere/2026.10.29 1120 Wien, Schallergasse 35_Antrag p8--3afd944d.png
+c45c3c952dfac3882459e9597e831bbc65347f8f3b9363c76cbea40788af6fb9  DonauAsig/fisiere/2026.10.29 Actualizare jurnale--86fbba10.py
+9fe267b1d9ad473ce918800e3be3ac4a5f5638c8415b5699cfb3b51f442f14ff  DonauAsig/fisiere/2026.10.29 Analiza raspuns Donau si pasi urmatori--21529d58.txt
+b29fdf32dc547d142059ce7bf984b63274a6ff386f2be40f6f82a3112daf4b8c  DonauAsig/fisiere/2026.10.29 Concluzie juridica - eliminarea componentelo--017c21ef.txt
+f38603de8a2ee5604adef594a9b152ebad317e30c7124c455c826e117913bb85  DonauAsig/fisiere/2026.10.29 Conditii p15--eee8cbd6.png
+25deafd875c6d5d13ee1361c300692aca40bdfd7c7912711ab4579d8ca2f4d49  DonauAsig/fisiere/2026.10.29 Conditii p25--c76e243c.png
+9a57caa758e212c2c0f62b802005a1d2b436a411e39fcc83a82fdbc38ed99673  DonauAsig/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p13--a16f862a.png
+e71e891b2706aa5818d239f363cac6ba8150103546eb1b17255ecab224a2bbcf  DonauAsig/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498--6ab974ab.pdf
+d036c88d4b7e95fa127953e28eaed2d677b3e4139af3e9672893c0cf60ac7617  DonauAsig/fisiere/2026.10.29 Dovezi cautare emailuri--53ca899d.json
+c97b435f44e080e3f630d6f647649cb46bfba6e8d3a4ccec82b9c49d6396c32a  DonauAsig/fisiere/2026.10.29 Email primit Donau--51b47914.json
+1526d67f5e3c671a794cae7041dc26edc8ba30f0adb4e60042e4c1db44e86d6b  DonauAsig/fisiere/2026.10.29 Email primit Donau--e52e9b34.txt
+bd86311aaa1f9e5d5ba2d7ddd65465437ac6076412b9c45c3ed19c3c5e31e590  DonauAsig/fisiere/2026.10.29 image001--238dbf81.png
+fb8795a3417796cd4f7d0a5f5a1ee09a66f0b4570289694d643cab4658a6d93c  DonauAsig/fisiere/2026.10.29 Manifest descarcare temporar--f52bbbb5.json
+f3a6d25dcedbe41deec624b281288a4af2640d192197be4380539791e3880c7f  DonauAsig/fisiere/2026.10.29 Memoformat--ad4de158.pdf
+612f82be47da843d964331ef52268783c26a62e05a616abf6e86f45248294727  DonauAsig/fisiere/2026.10.29 Polita p3--0ec85742.png
+1fa5af89fe920c4179c5809c6c510c5d95e74654deaf7a98b520de89224f9664  DonauAsig/fisiere/2026.10.29 Polita p4--5296d913.png
+04f0e7690ddb9d6d8410ad172c47641c2d98bd6af1babaaed60d13bf41b4a5a7  DonauAsig/fisiere/2026.10.29 Polizze 2044001194 per 03.06.2020 p1--cb11a543.png
+edf3ae0ab3478e50fda8a846b0056f639889ba98c33a5a98932b8ab94611e587  DonauAsig/fisiere/2026.10.29 Polizze 2044001194 per 17.03.2023 p1--0c7ee003.png
+9c131e6bc338bcb70a50ecd38b8043c500c6d71039be9ddf50ba6f5028466634  DonauAsig/fisiere/2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse --e7605c87.png
+c13d7193e467f0d48a7443ba8b2b9ed33b9ed6e32d0ec03285528f59ff2f6df8  DonauAsig/fisiere/2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse --f799276c.pdf
+b7a891d2d147c8bdae04c14825c1c9ecc477758a4785cda9e384b047ef49bfc6  DonauAsig/fisiere/2026.10.29 Vollmacht Hofhans p1--0ca750b7.png
+b9110ead3744544e19e7a2c2df4a0e88db09c8b4a8403a72ffd0efe9e83ad37c  DonauAsig/fisiere/2026.10.29 Vollmacht Hofhans--1287525f.pdf
 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd  DonauAsig/fisiere/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie--842f6749.pdf
-a685b61bf30ec96d2af84bc35caf154b9c87c9cb4f6c46a42127774d1f6af45a  DonauAsig/fisiere/README--6f49fa50.md
+d7908a02f53bb6c704df91da6cc0bcd3bedf780a44647914a89b1bb916bd2392  DonauAsig/fisiere/README--6f49fa50.md
 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835  DonauAsig/fisiere/Schalle_1080_DON_SHU_2044001194_2939905718--6a03fcb2.pdf
-4ba0eeacaa19ba5f0bdb51ef1bebcd613e2b5aacdac46972ba8afccaf180314f  DonauAsig/fisiere-index.json
-a0952d55f82b4fa56500b6492c5e19a8433132d53f0213a8dc519f04832388a4  DonauAsig/istoric.json
-68d56f063277fe0b47662a61b09c700de7656e08cb22c770cff9341992cd9670  DonauAsig/metadate.json
-5ffec287463023cb7e2158339bd41b5e3883c394950612835b941c06cf0d4484  DonauAsig/rezultate.md
-11dc9391fca411619a2d2d88e607299aabe84db624d6a6ff9ad91c0ff9f2a07b  DonauAsig - reducere servici/conversatie.md
+dba9d46696a5a9d31739bdcde12c3d14e5637f28f724c7633a39fbffb456f64f  DonauAsig/fisiere-index.json
+eabc5dd05a1adec5ded2ed2219f1128a77471fe03f5223b4370939cb66ecff93  DonauAsig/istoric.json
+5726f76aae38c4e36fa33f64d2f781d1da999c8b302f866675709e7582d8fce5  DonauAsig/metadate.json
+8f2473ef6d9b8d823a3b18d823b69919a0d6f51bbb3c3adbb9ee95ad3362b5a6  DonauAsig/rezultate.md
+fd6e03ee091e5be18a3d3e0db6fb0d2f1bb41d0f39119695b8483cc351c61db5  DonauAsig - reducere servici/conversatie.md
 fea671e68d56c97c3d332fd945beb866b7b71aad5b6648a9ba2851c60f57954e  DonauAsig - reducere servici/fisiere/2026.10.14 Optiune selectata si procedura Donau--5bf376de.txt
 37838a5c6de42769ad02314b9fcba75e03b35c76f688da05c2f51587c17e0059  DonauAsig - reducere servici/fisiere/2026.10.14 Renuntare partiala Donau--21373a34.txt
 801aa95c39e1667087ebe384131f0deed7967965f8508cfadfd54cd45c6c3047  DonauAsig - reducere servici/fisiere-index.json
-45a5444ce09839a68158ee3c0553c9aefe9f7aa2efb797e13c3c878ab4745a40  DonauAsig - reducere servici/istoric.json
-0bcbdd437af4282292081d2fea6db9a9f34e92fddb1fd405c1f4c45f40ee6604  DonauAsig - reducere servici/metadate.json
+41f47c849a0928df5d1a89ee23189d928a71ae37f36fbb28a318cc92b3b6e32f  DonauAsig - reducere servici/istoric.json
+ed2f62e15ba7b1966d61a4d16a0112e98f1c054824bb5a4f80f434ca990ec897  DonauAsig - reducere servici/metadate.json
 8669aadfc5a50b8be15a12d1fd37f33e51c88aa42d1210f82014738d0e60ec29  DonauAsig - reducere servici/rezultate.md
-dc3d4771cd8b14e6daf405e8d131f78553b30ccaeb970859c547a518be59310d  index.json
-e0e68bdd25d3238c26ebe9bbaa3a6ba2b2a0fc6697934123ef716ebfe8c0acfe  mascari-publicare.json
-4a0bb3c5ae2c2357ddaec956544bfb2db94c66504f58f15d26ce07bbe988c4cd  README.md
-d184c20174015b96c7ccc8a5e85d594c51cde53dbe0eb9b96b67dd8adfad657f  STURM Energie/conversatie.md
+7b60310806ccb18408f3f2d8f4c00ad2fd7869f3555d3589e4e3e1969c95e75a  Găsește actul de autorizare/conversatie.md
+12d5b3de384f0016c5dca87f6a5da169eb0832c77e26162f8998cecbc7345602  Găsește actul de autorizare/fisiere-index.json
+ce5466a98b9a03e57c9c6bc4b317e4861ffa9023e0c001b7f2495b4b870ae9e2  Găsește actul de autorizare/istoric.json
+4e6aaed0749acbcbbdaa783210881a520dfd1e9a2dc805b88afe8f7e7fb8d512  Găsește actul de autorizare/metadate.json
+13f207eefb18b88346890055ec6f521356affcc7da3f2542f630ef0f7ebb3d0b  Găsește actul de autorizare/rezultate.md
+2199f673648bda3e4d65eece87e3b73f5269cc99fe4e0a79a2338a317f04b034  index.json
+ba3417fe7fc2050750a2af926d66569960995f2ac2e97e2a44253ae97a6df041  mascari-publicare.json
+3214df24f053e2e8431ddd4259682fbe489c43b05c38f5d7c2e24e1ec4d4fc99  Monitorizează răspunsul Baupolizei/conversatie.md
+2fc866239d280de52074a70b74bca2f81a940fecf0ca727a7c54839807880838  Monitorizează răspunsul Baupolizei/fisiere/2026.10.29 16-04 Dovezi verificare--f408c383.json
+fc0eb7501e7b90e4ef97d7db1fecc85a9c17a0401d42bebabecdf1347657a2ab  Monitorizează răspunsul Baupolizei/fisiere/2026.10.29 Arhiveaza Capra--d9e838f9.py
+9b99d0a7bc4ec6f133e657be4fd094533fbfdfeaf10c92a32f1c478631d1aa84  Monitorizează răspunsul Baupolizei/fisiere/2026.10.29 Capra colectare--4c17123f.json
+cb1d3b160c14471a9baa0e9da362ff34c4b0945674e02cc534ebaf58a1fbf196  Monitorizează răspunsul Baupolizei/fisiere/2026.10.29 Capra hashuri--4e16bb60.json
+cf9be9b073870318aaeda042b1f8913b896d8ccd3d71cd2deadac37d6721fc06  Monitorizează răspunsul Baupolizei/fisiere/2026.10.29 Capra octeti--5b9cb3c7.json
+05f9d3f8d55f29c8bd17f1250cb31c421b80d99922befc5890f30d1f7ae5ea5d  Monitorizează răspunsul Baupolizei/fisiere/2026.10.29 Finalizeaza Capra--bf8a7e53.py
+c146ff12a945246a73cd4f71f0dcb236661088049922367f8a14064d2cbd0d3b  Monitorizează răspunsul Baupolizei/fisiere/2026.10.30 09-57 Dovezi verificare--7d93dd32.json
+84b02c6de9e5f383f18e6053c22041ac601457ae52f5649d6d333190bae21c3b  Monitorizează răspunsul Baupolizei/fisiere/2026.10.30 11-56 Dovezi verificare--f6ff3b16.json
+80b87b6bf8bb9e660add7734131dc70e040d856d64e2fbd2431b3f352f881784  Monitorizează răspunsul Baupolizei/fisiere/2026.10.30 17-01 Capra payload--5427c56a.json
+01d19803ec8e8d45d02090b0572f26bcf3c8da4af4cd7d45d390d1d418e11ee4  Monitorizează răspunsul Baupolizei/fisiere/2026.10.30 Arhiveaza Capra 17--b01d3d93.py
+40c842f50f8714a7e7637b89be638eb3f333d58f59ff364f49488e853f04586c  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 anexe trimitere MA37--8d31a3e3.json
+a5e1a4f92bea7d291f8f963061319046d11b3017e4db2379b8a916f5ef5423bb  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 DRAFT Capra consultare Überwachungsakt--845c04f6.txt
+f68a193e80206b8750cbb5abd63105c42bf2295a621d337266e33d8d7c8ae882  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 DRAFT Capra consultare Überwachungsakt--eb69a2a6.json
+9d6b5d27d27e488c95fbe33f1145f25b92567735b115990eace91ce9e3d4f137  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 DRAFT MA37 programare R02--2b0317bb.txt
+1df1a905708fc5b2f4baf16ee706b11e38c406d8acc01e44fcaeb82dc76aadf7  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 DRAFT MA37 programare R02--ccad67f9.json
+c7bc85a0fc79f5212dba8f8ebeb23e7c3719214853da911b6374c88ece212ef6  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 DRAFT MA37 programare Überwachungsakt--0544f664.txt
+5403dcd75210674c234810f081e2b30cd7911433284af34a58fed4f41601ef73  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 DRAFT MA37 programare Überwachungsakt--388e9e58.json
+e7d4b8c201f921417fcec0927418a11d1ba3f2032d6adc906baebc1ba69faae0  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 PRIMIT MA37 livrare 05d34c06--162e2ad3.json
+522f5b54743105656facc2c324241800549c5cf89d04342f2075c7813e1d307f  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 PRIMIT MA37 livrare 325025ff--c82a0d8c.json
+0f84047fc15994053cefbf83bc992683a364755b991e7b750634a49564af43b5  Monitorizează răspunsul Baupolizei/fisiere/2026.11.02 TRIMIS MA37 livrare 1c804e3a--f383c73c.json
+be191de7836c3d7fbb2ea0604cfbeb53ede2f29df7e223c964bfae7ce15bf707  Monitorizează răspunsul Baupolizei/fisiere-index.json
+882ac1c22d05ef0c016f2ba232422c7974d27fd1fa22faa231d665f69a3d92d4  Monitorizează răspunsul Baupolizei/istoric.json
+3e1062f8c1e01e45d997e887ab6719dd2520e5818d76a0bb21cc671dd3f27757  Monitorizează răspunsul Baupolizei/metadate.json
+055a73244af18bdc73a2f701fbc887a9da4ffddb3cf772e88e8613351744c8cb  Monitorizează răspunsul Baupolizei/rezultate.md
+fb8847d7892d1277130e38a7a73f5791561e78d8099d871214687e6f3e35ecc4  Pech/conversatie.md
+98c174d0f9b3c1f0a801dde7f2a7e5dc4cf02dc1d0f633523cc579d57e2b3391  Pech/fisiere/04--fa0b7556.png
+f473afb25e2c6204cbcb72db2b94ebdf6dd1c6c26764b34ff5e728cc816d10b2  Pech/fisiere/08--99b78094.png
+cb615705aff8007de5423ee4e0bb99597edf80954e8a2889636759bee6032864  Pech/fisiere/13--d9f574a0.png
+7e3039cec7c8ae5d11b3c2a8d8385436f3f254ff4f877e18a84b43a5d01a2461  Pech/fisiere/2026.10.27 audit autorizare pregatire--1b030350.py
+69dd41689138e39e11a659bacb56b52dc40475c33f0f91612831ffd3db6c1b40  Pech/fisiere/2026.10.27 audit cautari--4411bac5.py
+5ed7eda7b6a0b5fd33e04dd6b470cb65818fbd5521ff31bd675d6610e0f22a1c  Pech/fisiere/2026.10.27 compara servieta--90915a7a.py
+03088767031d05ddef8f08665eedf93df7606dda4a28e5d139360165c5a667ca  Pech/fisiere/2026.10.27 Contract scurt PECH--367d6c77.py
+465edd6b37259284f13edad378cf09bfef5971a3acd0ab4703befb602990d1d5  Pech/fisiere/2026.10.27 Inregistreaza audit autorizare--2b19ba1b.py
+f653e375f13f52195a48471eea9b28a305494fefd795e8d9b9e0b56c2f9f2cbd  Pech/fisiere/2026.10.27 Inregistreaza contract scurt PECH--6bdc964c.py
+90e49320e78940334b55e0f2d49a6e29f802640f32b941874b5693f7b6706cb3  Pech/fisiere/2026.10.27 Planuri contact--fac8e7b4.png
+fd9b1344bb696e899baf0d26c187e12ef0335d05c3e9e60f0c3a63a28e8fb021  Pech/fisiere/2026.10.27 Raport audit autorizare--a8af507d.py
+732c5f04712339ec911e0ec8da05b06a5d9a2b3916ff26f8f69c8762e69875a4  Pech/fisiere/2026.10.27 Raport contact--ba5b8b7b.png
+915cfe0b39ec939a4ca028024a100820741e9e43aa2ee14f7ebaca2f20df4a99  Pech/fisiere/2026.10.28 01 Eintragungsbeschluss Gruendung pagina 1--26760bce.png
+3c6d9c58e747a6bcd5143a6bd90699b96ccd46cf71a8d0d8a390e38f71429aba  Pech/fisiere/2026.10.28 01 Eintragungsbeschluss Gruendung pagina 2--a4bded56.png
+22ae1db06f86ac954775ed7713c0b1a40f4a1ff1d8d94818552e25472e7702d0  Pech/fisiere/2026.10.28 03 Firmenbuchauszug Stand 2026.04.01 pagina --28c4b987.png
+306f8cda46bd9937cabe769ca5ccb288713f417de27048d06a8bfb9c9f181eeb  Pech/fisiere/2026.10.28 03 Firmenbuchauszug Stand 2026.04.01 pagina --cd730fc5.png
+281a6048ec32da980d1fbe3708d932f232e0b9af5abdde9221790c6ea01a9162  Pech/fisiere/2026.10.28 Actualizeaza MA37 R02--3dc12940.py
+3c7b21b7d50e68a50d33e89ddbce5d044db4eb9293bc6b929812bdf7c31fc6bf  Pech/fisiere/2026.10.28 Arhiveaza acces servieta--4dc56906.py
+9e32316353de5e9a683161016e4b04a5742ac019adce52fc9bf8fb40bcf9de14  Pech/fisiere/2026.10.28 Arhiveaza draft MA37--4d8f9cc9.py
+cd96fab2032a7dec7ead7847f8de28e8c4eefeed51b5493ddccb1dbc94ed54c6  Pech/fisiere/2026.10.28 Audit server--e8519260.py
+755a9d0c9aec468ef2046a817d806399643c6274d5f546ce82de0d48c4c6a548  Pech/fisiere/2026.10.28 Draft EVA si surse--6d7ecd2c.json
+7da9dd6cd664a1d35941d417983549173e759f59f316301eced65d4c9e1f7272  Pech/fisiere/2026.10.28 Drafturi EVA - copie fara parole--11c831b6.json
+5b2fd17d243ef3f53ffb9ed33db2d8adc5544e0c95701ab3da7e4d55033c26d4  Pech/fisiere/2026.10.28 Firma inregistrare bytes--f92a4783.json
+fd3e8c33d26b7a828c2e0ee841db8366a03733ad81331ba2590a396a67a0d9b6  Pech/fisiere/2026.10.28 Inregistreaza audit server--acd37a30.py
+0405c7dd15eb228504bad3eada1ac6946ed3c854c87142534e34690182a79cda  Pech/fisiere/2026.10.28 MA37 R02 date verificate--35ec9458.json
+79a52c5bed59eebf4f25cf225e585adfa65083f8d4d7ca9b2a0367e307936bf1  Pech/fisiere/2026.10.28 Mesaje sursa EVA--bc0e9e63.json
+e5c5da0f401b5d1b60ca0072f52c6871217b29c7f3ab7acee74b77059c31c68b  Pech/fisiere/2026.10.28 P20 screenshot--c808547c.png
+5bce1643149baed66f09ff59b64d47235e6eaa22f11369724168730f2d407699  Pech/fisiere/2026.10.28 Raport audit server--618a9b4b.py
+0264dd0d3cd26f001d25f1ad033142b841a0e6f6564e3a07372f9019c9961437  Pech/fisiere/2026.10.28 Raport contact--c5ac368c.png
+3823b5b5a981f7794dbc31874eb894b37a2fcf08eb13b4fa4cfbb4320d528260  Pech/fisiere/2026.10.29 Arhiveaza draft amanare PECH--72b0af93.py
+f63ade534c59113980df09b441050ca172b15ab9e2d4424f0ee1d8e6048771f5  Pech/fisiere/2026.10.29 Arhiveaza programare PECH--636f3a1b.py
+c50e4ed4072466d2b6cb2511bfc0aa56880292cbde19aa5bc84d4e6663f35868  Pech/fisiere/2026.10.29 Dovezi check-email PECH 17--7d267743.json
+7cb1f9aa45904673b11ca5d88eca7dc5accbcc60fe78edae0dfa25ba8708bf5b  Pech/fisiere/2026.10.29 PECH amanare date verificate--f14d3309.json
+f87bcb388091af17cafb446c505752b92b2ddfca57c486e66114648a570e62fa  Pech/fisiere/2026.10.29 Salveaza check-email PECH 17--fc8ca085.py
+ae137f46cbb1d7aa1c805585c97cbaf1edde92d0e8a321a73043daa171aae884  Pech/fisiere/2026.10.30 Descarcare Capra 17--634486c2.json
+e9f2cbc9da1288822bdaf9039e351646b4bafdbeb5ad10990d5961e5b336721c  Pech/fisiere/2026.10.30 Dovezi check-email PECH 10--a962d156.json
+30ea62dc6e1fda40a457289458d7b498a668febc922e7f68e727947471f8a3a2  Pech/fisiere/2026.10.30 Dovezi check-email PECH 13--59ebbfe2.json
+a1b427d7b4674c3f8260dcbced8ee99f41967a32244cc452d169bd48d2bfc2ec  Pech/fisiere/2026.10.30 Dovezi check-email PECH 17--87e38d91.json
+54c5912879bb67f61aa513b3fdef76d810b2b26eb3fb6c95348d34ce55748fee  Pech/fisiere/2026.10.30 Octeti Capra 17--dcc51f20.json
+88aea5828d68d550e2ce8c133cae08254de065b9e1584d3cefac2b86dd5825b8  Pech/fisiere/2026.10.30 Salveaza check-email PECH 10--0f51e306.py
+f4677e884f6a9c549497551cc01d400b3b9a1751393f1013457866a3ab12d375  Pech/fisiere/2026.10.30 Salveaza check-email PECH 13--50ae5f86.py
+fe691f55ea625ce46d803cac4d6fa00d43f2655c4a35a7af002f495011489788  Pech/fisiere/2026.10.30 Salveaza check-email PECH 17--cee54937.py
+358308cc540600527c4cce86ef1810d78d63b3951637c0ceb5c570197fd0325f  Pech/fisiere/2026.11.02 Integrare PECH 13--537057aa.py
+16aa3d619bdfdd2e8938dbdb28769bce22e79910472d8fe81476ace2cfddc1d0  Pech/fisiere/2026.11.02 Mise en archive PECH 13--8f8562b3.json
+8dd4354b8f93a7464eadafd7caea6abf859e9bd2df699b8439e09c0603805886  Pech/fisiere/2026.11.02 Sursa control PECH 13--d22e77ee.json
+86d4fa92bcf4027c23fceb57135e14c925751553dadbb54138cf7b6b43906917  Pech/fisiere/AN01--47616ec6.png
+99181f4ff01aa91081cfc69821c7986ee24e9d8c359a82d4b36986a96c262845  Pech/fisiere/AN02--71174246.png
+5e6d16dc8d1565a459eeccbb5b3537ba2b069ec014ce289f9defb5a0c92f9b62  Pech/fisiere/D01-001--f0731ef8.png
+d722b46b6ab8405026baf1266d9fdda94dd2961e76ed54ccd637a0acc39a86e9  Pech/fisiere/D01-010--a1663334.png
+fc97f7e41ec413803a27550eaaefd4fe7413869c8b7a53c6bd301e19415a2f45  Pech/fisiere/D01-012--52f51009.png
+74b3209e15c3fec39d0ded33c5b6c8f5c803b515ed0de3069ae5bdb44a5ae35b  Pech/fisiere/D02-001--e1697f02.png
+f8ac942c7879826aace365efbe745c1e07c93a44b40751f3fb3682b9e06af54f  Pech/fisiere/D02-019--493c0a91.png
+fe24ccf939abc63c5cae6ea117ef4b5f8052ce56316759fb7f04596cf1d4387d  Pech/fisiere/D03-007--51161e21.png
+d226689c551f99bc0ebd9398c61b99e8a737253f8de3c30d7f48f0c252ee0240  Pech/fisiere/D04-001--248e8882.png
+262d75adee15b78761b7c0409959f098ffcc0176d951114485bbdfacf56c3b03  Pech/fisiere/D04-127--abfe64f6.png
+032cd85306ba78d28bb68985a325dd3f9e4ccb56a9d8f46967e064272fc56be4  Pech/fisiere/D04-63--c212fc46.png
+b5b0a4dd49f748590c2fae5719e102db0671a3a753abe65f3e0677946e6c02c6  Pech/fisiere/D04-64--a34af3e7.png
+e809219c8a4b2a1578510416e7a3825852cf3ca133e2fd3e27c95b5409de98f8  Pech/fisiere/D04-65--dc0e55bb.png
+79db551dc718d8472c9e5bdc748d4799e36559afae83f6944678387e3b797870  Pech/fisiere/D05-001--6fc8b166.png
+aa8301333276122bf7eef25daa4f0ef82e0042e987f8643cf72b631c9c01f846  Pech/fisiere/D07-001--89b5d1f7.png
+e0fb31492172aed462dc67353f6a1ee63b83eb29f65ef63d0abf5e88ee3f7219  Pech/fisiere/Online-A01--919ca09c.png
+e5b1096184d2c4f7a53290fa8ac41035ddb021c38489cf295fccb525760596da  Pech/fisiere/Online-IE01--9e2ea118.png
+10fbfb1331ba935179f44d47bb1b3963c631a33bce07868830d65da398d476da  Pech/fisiere/page-1--dc6a8c3b.png
+854c4dec129eb60c418be157c8d6a4cb12a50dc00b29413682906c468157d4dc  Pech/fisiere/page-2--477fde0e.png
+175a7d2f4fdb9c42c86f4b814918bb2323e79c076d78c1642c2ef6dea837863d  Pech/fisiere/page-3--601f3be9.png
+4d88872a41875de8922b27a2f4775f5eb852d35c6d41e8039b209529192cf685  Pech/fisiere/Plan-original--0df7ba92.png
+2019f9808d0649abb0198af1e929213cb4fd1df489ca49a3df5ee90f2816289c  Pech/fisiere/Statik--5d63bfd8.png
+814d9c2b8af3f9be803d301e160e36a9a5975a47ee6d8fba88e9bd2936468f5d  Pech/fisiere-index.json
+35916404aa8b5aa1184ff3b59b5f9c22145c8d9beec2533ae2989cf1cf0b7941  Pech/istoric.json
+e7a91f677b3355a0048dc8742dbee169e6357d861a6351284da99390dece112a  Pech/metadate.json
+29cfd3bfa2e40b8e756dfb66e20e31515e1aac2438306c6588dc55be960a33fa  Pech/rezultate.md
+e65304b523b47d0731351cfba2042e81d21b93b3e5dd507a412cf173211622c5  README.md
+35637d518f41192abb6013aefadcb95fadda1aba1cbb17a68c7f5f01f384adad  STURM Energie/conversatie.md
 ee1c5030771dcc2bbc41089336dd4289a5b9255ffc78ce757add634680e8fa41  STURM Energie/fisiere/2026.10.14 Cautari Eva-Mail--df066456.json
 e03e8d6d5ad081ff00fd04f0cb959abaf420dfc2d27e7c0c951d14399eb0eb85  STURM Energie/fisiere/2026.10.14 Control client OCR--33cb855c.png
 3b0a088760882e89bd5bec88832d128e10eb68e1624d86dc9f87e027e87e21d0  STURM Energie/fisiere/2026.10.14 Control duplicat Top17--ba8f8559.png
@@ -754,18 +1473,43 @@ db3b2227ccc3e0e94fdac698a4741ee07a53e5212f9f6a8d2fa96ad36017c20a  STURM Energie/
 866a4d79e36ee3fb1370b00c05f89a410501d3154ffda54dceb4512dcedfbfe5  STURM Energie/fisiere/2026.10.14 identificatori sturm--2804c678.py
 1834cb93418cf8c957fea932cdffc55ea1a9d3e000cf17d4b79ea59fd61896c2  STURM Energie/fisiere/2026.10.14 situatie sturm--7c841016.py
 c8b492fccfea53d4d716471b7a8c5d5522c6e179c9f70756f70a75c5a995b8c6  STURM Energie/fisiere/2026.10.14 Verificare lista instalatii--2d739632.png
-06b2b57cbbb9af6de6ae44a55b308c5bf8968ce6f6a3339a278ab0f980925a71  STURM Energie/fisiere-index.json
-068616d8c3538500fce4497b33be0409a2a30d7f59145b604ef624a877791cee  STURM Energie/istoric.json
-8a4d6bd0b6914e3de87fe072d19cef3509b43fca2ec4d3fd97d94bf384ce9c45  STURM Energie/metadate.json
-67ecd4b863dfa6e7bacb8cb6819e8089ecc4ca82b4307fea5a758c1f84586ac0  STURM Energie/rezultate.md
-69632da7ae22d3da263d1eaadc76cc2e376f5357122826c3b31d4b2a01253515  subagenti/Fara titlu/conversatie.md
+2be70eaf3e8f1a06af0e47c94b41a5887557ac8b35473847af34e069785b74e1  STURM Energie/fisiere/2026.10.20 Dovezi ciorna revenire STURM--093f075b.json
+0b61b6847276fe3d88a112353e1e6f52faadd7deff486ff890caf0dc2eb0e9ab  STURM Energie/fisiere/2026.10.20 Dovezi verificare STURM--ab4c6b76.json
+f114a402eea9f35c3a682b2368564fecc1ae1ec59807672a75c4c902b9fdf030  STURM Energie/fisiere/2026.10.20 Email revenire STURM NETRIMIS--916cf485.txt
+6dcf5a4ced1f612b0131162ae3a548129c63c93c3df2618b4de64fabd40185b6  STURM Energie/fisiere-index.json
+b2c539d835002e1f394e8d382f8a7a3328eb89a825e307780eb4a95658d76e53  STURM Energie/istoric.json
+f8c949fe0db56504662ad59b116693a65076760bd123a2b1305d6d94cce3ed82  STURM Energie/metadate.json
+4d9228b759bc1618e6c4b09de862020fe32157ebabe0b4b69c49c76472081c39  STURM Energie/rezultate.md
+b3e6593c33a0d2fae5414904929d5004828cf2dcab6363b7c9cef04c855eff39  Sturm Energie facturi și contracte/conversatie.md
+09099d493994cc970f8b47d1ccac342330b0c222f5c3b3887a02b4bfb99908d7  Sturm Energie facturi și contracte/fisiere/2026.10.14 Audit juridic R02--bdcc5f14.txt
+6f180dd09519164a9669909727a16032f98097dff94baedfb93f714cfe02d2f8  Sturm Energie facturi și contracte/fisiere/2026.10.14 Audit juridic R03--090b14cf.txt
+fd3e28490ce5abbfb8669fda5180734b2c32e83e7f984da8b2e120ae161ef68a  Sturm Energie facturi și contracte/fisiere/2026.10.14 Audit juridic R04--4e69043e.txt
+05a21f6004b25c4113382be21695a17905ec992ea622c3f61ed375c5be4320d6  Sturm Energie facturi și contracte/fisiere/2026.10.14 Audit juridic R05--badfdbd2.txt
+12559d6e601a36c09d2a3191b81bf9f959a8c574fc0326f41850a2847f0d49f1  Sturm Energie facturi și contracte/fisiere/2026.10.14 Audit juridic R06--dcf19975.txt
+36dc2baf1e38803ba22e2f621d761b03c1694173678dfebfadc9ce610d0c2d79  Sturm Energie facturi și contracte/fisiere/2026.10.14 Memo surse si decizii R02--05bf60db.txt
+9f42989ea68fed2d1dffe00ee3180f57831100d4de83ed40030cbff3ff8125bd  Sturm Energie facturi și contracte/fisiere/2026.10.14 Memo surse si decizii R03--e0c27278.txt
+013cc28f9302d86836ff0304a874847a7bd2f0a404d0ece95e5dea8163e8257c  Sturm Energie facturi și contracte/fisiere/2026.10.14 Memo surse si decizii R04--8bc68a21.txt
+bfffc8d8c6ad1bf89681f4a148836dc5b210e9e269a9bb922b49bdafc2e98792  Sturm Energie facturi și contracte/fisiere/2026.10.14 Memo surse si decizii R05--5353208a.txt
+0913351efe7c81945319275de1a37a29af9ee2831029d12bd0ca66bd39b91fcc  Sturm Energie facturi și contracte/fisiere/2026.10.14 Memo surse si decizii R06--f3f54b56.txt
+c8faed7454a209772212e512b8ced7a07c7137f6be2b4c1481ff2193799db97d  Sturm Energie facturi și contracte/fisiere/2026.10.14 Schreiben STURM--c7e8694f.pdf
+02e674365755458964ab078aa125c26e96f64b75ba50f5819b1c96bac17d99cd  Sturm Energie facturi și contracte/fisiere/2026.10.14 Solicitare STURM DE R02 NETRIMIS--a90ddb7c.txt
+bbffc9ae1454c99fab1b34459b8f41716d83518e07caeb79a8add6757d4ea8a3  Sturm Energie facturi și contracte/fisiere/2026.10.14 Solicitare STURM DE R03 NETRIMIS--c7d5665b.txt
+465fb394b691f7043951ac7907b4224bcee2e500d528e0c7ac0e8049ad5ba04c  Sturm Energie facturi și contracte/fisiere/2026.10.14 Solicitare STURM DE R04 NETRIMIS--5a7fafcc.txt
+55ebf42b9ab306d1ce5277ee75b5782b95b83d549ca5f1369e540cbd1fc69e43  Sturm Energie facturi și contracte/fisiere/2026.10.14 Solicitare STURM DE R05 NETRIMIS--daf393fd.txt
+d5f31401261f77cc5fab4a8f67b0a54a5deced2fdb8ff65f322b0fb5b95db28a  Sturm Energie facturi și contracte/fisiere/2026.10.14 Solicitare STURM DE R06 NETRIMIS--308c252c.txt
+3987046584d269b96ee54f486f2f1331f94af5a4d86bd49bc20344e054fcc765  Sturm Energie facturi și contracte/fisiere/b1otwp0mo--f838cbd7.txt
+1d35208e4447dc0e41eb4fceda06318327be041c9edb939ea35091c18e9a4dbd  Sturm Energie facturi și contracte/fisiere-index.json
+d59366a71cac4454ef3cc37b057bc3efbabe25ef700b2b40b03eb16dcf278654  Sturm Energie facturi și contracte/istoric.json
+1de3d7365a6333b3a0580d2c249579592d9dcc40b3e990d92abb0aa9ff851c0b  Sturm Energie facturi și contracte/metadate.json
+39374c07d9153ec1dd0363cb0c6acea636ca7d01e908cee7e0ff889f01e0666b  Sturm Energie facturi și contracte/rezultate.md
+eba32d236d8d5e31f96ee2b2f9050d0a3b425a04769d222195a3a54840201101  subagenti/Fara titlu/conversatie.md
 422884f026db6212da7b583b4377035488d7536ea0609c509c35466317e52a31  subagenti/Fara titlu/fisiere/CONTRACT_DE--439dde70.md
 eb6abbc950b47e2a8198d85ad9012943c27b3dff68ae898066b51633155b437f  subagenti/Fara titlu/fisiere/SURSE_JURIDICE--bc0f9f38.md
 f960711ce285aaa74af52578beb4ffecc16024165793548a3736abed8b784971  subagenti/Fara titlu/fisiere-index.json
-10d4d3170c09381e9b44c88a091cfbeb35b943c2c27b7b8a213f5c38264f862e  subagenti/Fara titlu/istoric.json
-453dcfb412b2dfdc5e151a6f80ccee275e2e3ed32d4dd3f6822d1a1d53ecf428  subagenti/Fara titlu/metadate.json
+e01dd7cf13045a79a2716a4a592cd5f844b7758ee815ac5fc09253b92b48748e  subagenti/Fara titlu/istoric.json
+58f62d32b1ed36eb1ba6551d9afc6e02ec3b689a39d942a160f07d84de10358f  subagenti/Fara titlu/metadate.json
 9db59c0b50f4adfa35dee68798ca8c1953399689feb63b3af009ec070f825bc3  subagenti/Fara titlu/rezultate.md
-b63edc1dd71d4eba6590b71ea7e8aa7b67f4c0c1a9b520c08f52d03edd5ac6e3  subagenti/Fara titlu--07c816f7/conversatie.md
+cee8cafcb2316ff1d2441d0a23568a4f6a9ad8bb7ba2593d26552a288f3b323d  subagenti/Fara titlu--07c816f7/conversatie.md
 0f4ab9e7c24ab2585a7f371418cbc76b9eef7db63cc86805e523cd4dac6e1987  subagenti/Fara titlu--07c816f7/fisiere/2026.10.14 cercetare Donau surse--9eceedc8.py
 e0634d21a16cb59beec9edb7be12442e1771f3e2bd7b573afe8aa1068e9877ed  subagenti/Fara titlu--07c816f7/fisiere/2026.10.14 descarca surse juridice Donau--4cd56674.py
 849cc18e85b787b9b9f9f0e8b317d8843b46b2ba7fd7235cb785a0dd22791484  subagenti/Fara titlu--07c816f7/fisiere/2026.10.14 finalizeaza memo cercetare--9da3851a.py
@@ -773,11 +1517,12 @@ b1a0d19b8c5f182dc0fc549976a9fd2a20fe3790529bd1d35453a447048413b0  subagenti/Fara
 f46c8193bdb6465563c016be0e54a97a7a1e6476e4a57ae7a0b0dc10976621dd  subagenti/Fara titlu--07c816f7/fisiere/2026.10.14 Polita istorica conditii p12--ff27cdce.png
 e8832ea01ab2ffa82b1f3ca46800015f15fb49d432d50fd72f21e05caee6476a  subagenti/Fara titlu--07c816f7/fisiere/2026.10.14 Polita istorica conditii p35--79e41b03.png
 2268d08e954c27cf51c9fe30daed926bde70ecf7f5373a3600bc972ec6eba49c  subagenti/Fara titlu--07c816f7/fisiere/2026.10.14 Polita istorica conditii p37--24c4b5bb.png
-ea0505e39bc726bba2aff5ed545e2fa51affb81d6bfd82fe8b785f80f4475a0e  subagenti/Fara titlu--07c816f7/fisiere-index.json
-d50054b5c77d0a17c11f4dca7fbf274b85dcd860514f0514512fa6664f50bf5d  subagenti/Fara titlu--07c816f7/istoric.json
-049c209879fafad99672e68554e48d2ea0852df90b098f9b8ca823082c0472fe  subagenti/Fara titlu--07c816f7/metadate.json
-8170ced9086cdc77447daded628b571814131afb7dbc939c403d0fad84a28aec  subagenti/Fara titlu--07c816f7/rezultate.md
-f3d3ac558bb63d81a09ba7fe44450b70118522cdc36fe68336a86087f236b3a9  subagenti/Fara titlu--146e41eb/conversatie.md
+2ade9f5d683343a723166f352cfd178df63aeb5be00358513814d24dd84693fa  subagenti/Fara titlu--07c816f7/fisiere/2026.10.29 Concluzii juridice punctuale--0f6ee43e.txt
+ee7439d883027550e34626cb58ac3aa0fd4a2b39ccbfd85de2d6537341b5c5e6  subagenti/Fara titlu--07c816f7/fisiere-index.json
+6557a30aac44fe7278cf9281ba3fb061447251dce9c7e964318864a47bc09ea5  subagenti/Fara titlu--07c816f7/istoric.json
+fb517df388a96518a287c7f12b3a824e23b80a341364390629d106406e21fce0  subagenti/Fara titlu--07c816f7/metadate.json
+ad87e2607ae0f2d3f49306169acb29de55d30a2b4288eb7636d5168315ec86dd  subagenti/Fara titlu--07c816f7/rezultate.md
+1af7dcddc48b750a6d2dafd9d90906f8548abb67172fecf2e17988c6679cb848  subagenti/Fara titlu--146e41eb/conversatie.md
 fa6072d8f1b49c31f5fde35c51324894364a5d770f8ed5d9a44b028823639397  subagenti/Fara titlu--146e41eb/fisiere/2026.10.14 01 Incetarea politei Donau--a88e8032.txt
 ed93ca34108aeb6daf29cb9318e604fecd370241da7a0e86314bf76313e072c8  subagenti/Fara titlu--146e41eb/fisiere/2026.10.14 02 Neplata si acoperirea Donau--496f0699.txt
 29e0c78bbc87997d56ad538dfa52a212d60f2cd61f7951e47481dfee9f9138f4  subagenti/Fara titlu--146e41eb/fisiere/2026.10.14 Cerere documente Donau NETRIMIS--2dc19476.txt
@@ -797,16 +1542,41 @@ be6926d1f9b3cf5bda9c93f2fd8b14ea4e8566f4e443ed6cd3eac73d7539e226  subagenti/Fara
 f13a77b9c53738fc9fbb9e864457a2abefbb3e872f11fce74faee58907c1db0b  subagenti/Fara titlu--146e41eb/fisiere/2026.10.14 Registru documente necesare--e8ddc38e.txt
 1092ab17cd17008e37c421c54ba7324cec16d23d559ab70fa92912da61df0ac2  subagenti/Fara titlu--146e41eb/fisiere/2026.10.14 Somatie mai original--6dd08858.png
 b73e58218f5080361e990c2498e0f44c237e00c54dffabdfdf070776b70159a8  subagenti/Fara titlu--146e41eb/fisiere/2026.10.14 verifica PDF Donau--49d3f961.py
-1472622d296302f1c64bf3c3e4981aff265c63b10cdc890c271efa77d533a2af  subagenti/Fara titlu--146e41eb/fisiere-index.json
-79bdc4f3d1235822d4a06b2ddd78cbf65744514b54c64971f1617589fe706748  subagenti/Fara titlu--146e41eb/istoric.json
-c49957acb6337857f2aa653fe913fd46d36730c7a5da52531e699e63f0bf9d82  subagenti/Fara titlu--146e41eb/metadate.json
-88c6bb1c0d16160e6954a17e1a0ef6fa1ba11021eed5ba5d2e71207a9711bb1e  subagenti/Fara titlu--146e41eb/rezultate.md
-95aadd5c9b34df8e732035c4e055f58d7caeb8fb67fe15e1a77307cbebe49d2e  subagenti/Fara titlu--3e18a6ac/conversatie.md
+f38603de8a2ee5604adef594a9b152ebad317e30c7124c455c826e117913bb85  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Conditii p15--eee8cbd6.png
+a0f1314c185b38c2b41c5cb3e7e6e27af6c4340ded81ca20728d9d3b6872d5cc  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Conditii p17--89350bfa.png
+25deafd875c6d5d13ee1361c300692aca40bdfd7c7912711ab4579d8ca2f4d49  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Conditii p25--c76e243c.png
+746801e083edffc26e7ab3b70aac4d7052af67db6948d4d1f0482469809ec160  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Conditii p34--e6aeb8fc.png
+5c364b2f21db73444d27080a4053699c9939a52869a108795d49d2ab50d51b45  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Conditii p57--c21abd63.png
+1d050a58a2740222c936323c136c4227db5cfba75606e69bb44e924cc9904e92  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Conditii p59--9d1c746d.png
+b012f672fb841d5e1cb40b4e16108ce0e5a73f88a44dbc2306046c27e1abd609  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p1--77d9d1fe.png
+99d98db892df9c52e442dbeb672c0a2dd95c78d967184db602fc5b8d7abdfda6  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p10--60c82291.png
+309e09ce2ca907644d67aeebe72b4ac45293fd0d989a16f9073c0dd3b9eb7f93  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p11--98f70c85.png
+4887fae333bd4c9f30dffe6b8970db95c3bb8802f297406de634ee1b5f29e81d  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p12--570a00b7.png
+9a57caa758e212c2c0f62b802005a1d2b436a411e39fcc83a82fdbc38ed99673  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p13--a16f862a.png
+90d7215503b75ef06a73d1ed8ecd141fa207c84b97211d6b7928a6b7c6555a2f  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p2--9a698270.png
+9ff7dfa377025f2aea7e242749f94d231e6a1f0a5888c372f4fcca8567bf6f01  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p3--ed931af9.png
+66fb7366021142172e82d6e0b2c8bded6967a4b802883f924cb522d93c463cf5  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p4--e6c5be37.png
+95379b910b95eac7ab0224cd6de78f795e1a7757dff1c8c623accb77a55be5d9  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p5--8f649be4.png
+535b4a9966bc8d987f11cdaee21a3dfc14e5cec299917a6591c880b53401376e  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p6--58b68294.png
+82119147d28e2ef22235c2c6304c56f5193c055d8015124b42366ca5c1fdb99f  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p7--b96077a3.png
+4d7fdcd18ca51d6662bf2194035d644914dbb636b7698f0ed5c232d94a22328e  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p8--61fba5a0.png
+4fb78f9276f6ff4ebd7074bc80a81d581c460c1ad3c9e37bf98138952024bb60  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p9--a4a0b3e8.png
+62d263d0b482c8a40fbed55755405ea604d1f538847581aac64dd693f81243c8  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Lectura integrala extensii RV--4657f6ea.txt
+ce95b7956bead1709c3805f757231360dd3d946360d7780117c4e967833c6ef0  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Nota contractuala componente si documente--91ed0147.txt
+612f82be47da843d964331ef52268783c26a62e05a616abf6e86f45248294727  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Polita p3--0ec85742.png
+1fa5af89fe920c4179c5809c6c510c5d95e74654deaf7a98b520de89224f9664  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Polita p4--5296d913.png
+feebf6da0f7a1140ded76247bdb0bb9b362d3671538070f15f432eac71f2033c  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 Polita p5--c66ab782.png
+0fb4a96288915038aa423cce0aaade95e3808a440e4f020a2ed1910fcd6fb924  subagenti/Fara titlu--146e41eb/fisiere/2026.10.29 surse renuntare componente--873bcb1b.py
+58417ea977895c9fd94c3141390f1176df75af80b5a21b0504d04209ba5ff608  subagenti/Fara titlu--146e41eb/fisiere-index.json
+d830f7e6f2c06d25e75bc7f5b940e154fcea0458637e0857c9b5a1d7a10c8ba3  subagenti/Fara titlu--146e41eb/istoric.json
+aa6b2646cb267b561be06e71c0b3f08e961340f7070226d556d9992d89b95f72  subagenti/Fara titlu--146e41eb/metadate.json
+f724f0960024516a7887ba16b9955f6e8a18553abb1511492ec3e07220346464  subagenti/Fara titlu--146e41eb/rezultate.md
+c7dc65ea5b72341721020e19411b0d19f2b4e5dba299b2a74cb650d388db4a72  subagenti/Fara titlu--3e18a6ac/conversatie.md
 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  subagenti/Fara titlu--3e18a6ac/fisiere-index.json
-82a28450a5a9a38e7ddaf7eb167ee2c07705acc216710ab8410975fe357bea0d  subagenti/Fara titlu--3e18a6ac/istoric.json
-0db43590e7d01e4d11ce77df377b072cef47db47e7e55ba83dbe47eb47efa288  subagenti/Fara titlu--3e18a6ac/metadate.json
+664c3bf757b238788caed45ff97a6d722a955fe35848e1688e55f75ce4a9f57a  subagenti/Fara titlu--3e18a6ac/istoric.json
+62e432df623bda0c6e5c0ed12254a311aece5a3828cf6fd88a3f7147719e9dd4  subagenti/Fara titlu--3e18a6ac/metadate.json
 b5de83374fd3f75ce977bb82511c1f8b25ffe76dfd5ba292f0d2482bc5025a63  subagenti/Fara titlu--3e18a6ac/rezultate.md
-8fed12c23f83f5ed2a172676245eb1a345c2ca07c97e929b955f4d13fea4b51a  subagenti/Fara titlu--48d97fc8/conversatie.md
+f2dd7c71c56aa9012215fc7df95bb40d43c7166d19161f8548b06b7784d95c75  subagenti/Fara titlu--48d97fc8/conversatie.md
 3394a0cc478ae453931708242bddf514daa59ad50d41b8766dd49df667fe8682  subagenti/Fara titlu--48d97fc8/fisiere/ANEXA_PRESTATII_DE--0ad96a65.md
 b9ad06f6217ee2fdeb439ff358cd423b8c9b4f3e371e7fe00dd7b82a238cc97b  subagenti/Fara titlu--48d97fc8/fisiere/BAUWERTE_p2--ec9c9e86.png
 a0a91c516fad35bb2ce60df9cec34e041118d241c82400af2d271f5795f05783  subagenti/Fara titlu--48d97fc8/fisiere/MATRICE_BAUKG--068312dc.md
@@ -814,10 +1584,27 @@ a0a91c516fad35bb2ce60df9cec34e041118d241c82400af2d271f5795f05783  subagenti/Fara
 0c8289249c4681ffe19db7d05592bc886b47118da3a198004de34ef3f7abceb3  subagenti/Fara titlu--48d97fc8/fisiere/TOMS23_p23--2c09465e.png
 23b229f12612b3bbeaf60fadadfd78a65ffb33d15a5ec5979de0e3808a7720ce  subagenti/Fara titlu--48d97fc8/fisiere/TOMS23_p25--a63ce77d.png
 7c1041d73a3b5b723850ddfd562b538791645abd52492103f55b04fadd78efc2  subagenti/Fara titlu--48d97fc8/fisiere-index.json
-357c95897999eefe582140472edefe65692f5fb9cf4c545693f596551dfc1e01  subagenti/Fara titlu--48d97fc8/istoric.json
-b3158e059457cbb0728b1d1e2d74ec096bc373cb25751e121c7f0d1b8d23ecfb  subagenti/Fara titlu--48d97fc8/metadate.json
+222d885a13ffcc1bee2e436baf06098e26653f865b5107b093fde6ef28b28941  subagenti/Fara titlu--48d97fc8/istoric.json
+d853e89835ad40ae865de281a27cfbf043b6c84ae9a7b2719b76dba152183382  subagenti/Fara titlu--48d97fc8/metadate.json
 0280b88aced19c10fe7a329985d5028d4e2f94dd2e3a84a25bc03b2ea7f0d229  subagenti/Fara titlu--48d97fc8/rezultate.md
-7c51c7500c95c54175f656d846c39b14b21aa9756eb600397c8d697427131c92  subagenti/Fara titlu--62080438/conversatie.md
+b92323ed9b48f401d21456d79c226af04d7a8189f996932b0093e7bfceb7c8d6  subagenti/Fara titlu--5e834cd8/conversatie.md
+bb62547549c4a5a15e83b375f68a8fde9a4690eaf55edf0c9797b8b27b57d281  subagenti/Fara titlu--5e834cd8/fisiere/scan-1--7472ab86.png
+2f4bec2982e6ce83ab80376791c83562da75556bc60f665ecb822f01f75fe12d  subagenti/Fara titlu--5e834cd8/fisiere/scan-10--51df0572.png
+b4c14aaa89c23137f10027e7dde448335319a99101a96d5a34fc45f690b7ded7  subagenti/Fara titlu--5e834cd8/fisiere/scan-11--5d7985a5.png
+3db74d96d3189037ab44340dc170cededdb557fcac9c4a2b7bd912b214060db2  subagenti/Fara titlu--5e834cd8/fisiere/scan-12--71365b26.png
+8c7c5d65f6b29887da3ce6192fa1136042b984c241fae259fea4cd9bb7e418bc  subagenti/Fara titlu--5e834cd8/fisiere/scan-13--9684a41a.png
+dd72b078419f26a32c9395eb07c6df18908009661216c8a4b09094ef0a908527  subagenti/Fara titlu--5e834cd8/fisiere/scan-16--abea3fd3.png
+9f20c4f2b8c213663a03825eb8c6940dc7df86eeea645f9d36ddf39260a51b48  subagenti/Fara titlu--5e834cd8/fisiere/scan-3--b71ae33d.png
+8d5911e0415a6b464a15620cc87422200a21fa2e4f7bb14c431bf2055d254c78  subagenti/Fara titlu--5e834cd8/fisiere/scan-4--82a09328.png
+98d4064d71c56f368e32ab27cd879cdbed4ca7aeefbbdb9915503daddc9029d7  subagenti/Fara titlu--5e834cd8/fisiere/scan-5--7b03dbe1.png
+91e5bc9dc2b8196d4453fb901a5ed071c31a7b8ef19e0d48155c0f988243664c  subagenti/Fara titlu--5e834cd8/fisiere/scan-6--6d053a03.png
+0c636150809fc41036a8291fc6f4443ccbaf64b1a1cfd5c073dd02f34e60bafa  subagenti/Fara titlu--5e834cd8/fisiere/scan-8--c7c34489.png
+6397c55a6eea8330d7257ad3b3bd89c3ad3d2c70a7f61e89c278f2f722852685  subagenti/Fara titlu--5e834cd8/fisiere/scan-9--f6f9e5af.png
+3942ecd364198c3a2202e2edefd3d4d89604838ee0dfbf1e0daa33d10da32852  subagenti/Fara titlu--5e834cd8/fisiere-index.json
+3e68bc61f7ca861f0934e4d25ba250d0f904806fce4f5df6c6b382a03e329297  subagenti/Fara titlu--5e834cd8/istoric.json
+9482374572a3ec5c2df18e8c30917658b15a008eae1ece52bdd5a17e7f606d1d  subagenti/Fara titlu--5e834cd8/metadate.json
+ec382ea076a0d83d0415cca1cd1a755c61074982dac63c5543e47f397c9ac95e  subagenti/Fara titlu--5e834cd8/rezultate.md
+c5f5f5671d5d9d3bb03b834c398aa03e56b4a8a1a1b0e1e751985dca62e4db10  subagenti/Fara titlu--62080438/conversatie.md
 218f8fbf854ff27be6d56e96dfc3e08708316d120ea41e5b8511cacebd224987  subagenti/Fara titlu--62080438/fisiere/2026.10.07 Analiza redactor--a06986d7.txt
 b98a78d639e5e327a5a2c5997b6cd127ea7fb7e38817304e5e8ea43d5982cf7e  subagenti/Fara titlu--62080438/fisiere/2026.10.07 Registru surse redactor--c79de458.json
 6304ab0f7ddd42625fa9a302c9eeb319d3eb6da8813c3a6082d8f4d0d2f53712  subagenti/Fara titlu--62080438/fisiere/2026.10.07 Registru surse redactor--d004738b.txt
@@ -1236,10 +2023,10 @@ e842dee9b86354cc03c65d00021fdcafa005b2168134941df8d7f5f8e270cfd4  subagenti/Fara
 c1e1bd0aa83ffac102af9a98708508cb08d548219abc8515ced715287324c1bf  subagenti/Fara titlu--62080438/fisiere/page-31--7c089e20.png
 41258d79ce42947c1dc0948319b271ba4be5e0ec5c8f6d186534497da023a7a4  subagenti/Fara titlu--62080438/fisiere/page-32--826a5db7.png
 e5d9a21766f4e14d3b64ec2f29568f0e6b6eae33a4242ea970c15f5d9cbf37d0  subagenti/Fara titlu--62080438/fisiere-index.json
-a3f4f844e2c2a23079e741a6e78ebf246d731d53003c2e54e2b94b270f4ff61c  subagenti/Fara titlu--62080438/istoric.json
-bf8f906892b91bac3b36dd3cdd93eb3cb2f3ac6493ed681cf0e83a028800c00a  subagenti/Fara titlu--62080438/metadate.json
+bfbda37eb7177722735ea2b74640b5816baa53e4cbd086b98c97bacbae69971b  subagenti/Fara titlu--62080438/istoric.json
+3a49ee3ebbf5dceba3dd17bc663dd1962ada41a859f5865f47b22304eb0c3c11  subagenti/Fara titlu--62080438/metadate.json
 e90fbc039757f843366aa196ba3892563bb213ec47447d0a14c1b23f848f4b9c  subagenti/Fara titlu--62080438/rezultate.md
-58fc68ebfb2e3983245e6edf4bdff751e62e36d90f0fec5442478b32383d4827  subagenti/Fara titlu--742a23e3/conversatie.md
+c45bf373dc393f9f360b8bcbc183e563f54932f45026625b04b367c000dd4a0a  subagenti/Fara titlu--742a23e3/conversatie.md
 8d6c313a2a166495f43dd05b6e13b66233deb63235b34c006ab42a68b7cd1d7f  subagenti/Fara titlu--742a23e3/fisiere/2026.10.11 Berger p1--365d141e.png
 1c2330d8f82f9c65a72619f5eebbd9ed73fe24b089992d99cf6f00d49be109a0  subagenti/Fara titlu--742a23e3/fisiere/2026.10.11 Berger p3--e6ff5756.png
 57e4bc8186a4daf3193115b947b6e2d2405f8edc6b5fe6b98ff65e192fe71218  subagenti/Fara titlu--742a23e3/fisiere/2026.10.11 Pech p1--c7346445.png
@@ -1448,11 +2235,11 @@ da7e207ca0fb074a34e842f30bc468f72fbc096f6566dd34f60c5ef45e2f9ff7  subagenti/Fara
 d8d93cae9cf46dc4565e1e367c354cc1c5a87a1a33586559174aeb13c305653b  subagenti/Fara titlu--742a23e3/fisiere/2026.10.13 QA vizuala PECH R03--2e82d424.txt
 ec15d955c77516155cfe30936e2b1b6b28af60c29bf23fb3254827ebb565e23c  subagenti/Fara titlu--742a23e3/fisiere/2026.10.13 Reparare metadate mapare--560fac0c.py
 0fc7f30a8cc9a5e249e587074cbfa5672c043e52600febf950460831c15e2cdc  subagenti/Fara titlu--742a23e3/fisiere/2026.10.13 Reverificare preturi si emailuri R07--3a61dc7e.py
-78a2093cac9a57fff9bcb2bac593b8774373a001abdd6bbad00ec8cf6ea3dab6  subagenti/Fara titlu--742a23e3/fisiere-index.json
-700b329ec837631c57229a03458a0d1f817bdf0fe5983630ee367c980c240604  subagenti/Fara titlu--742a23e3/istoric.json
-05da38eda6c91ff40059d66ef02e10f4090a1e04a11be594674ef94aa49c7a3d  subagenti/Fara titlu--742a23e3/metadate.json
+9665a9ae4cda442bb85afbdbfff070f80784e2210bf64a38920831d2b04e518e  subagenti/Fara titlu--742a23e3/fisiere-index.json
+c3ef1d66df0343e0f842e5c7d35fbbed1c9129cb504fb8a0a91c3e7ee6fdf07e  subagenti/Fara titlu--742a23e3/istoric.json
+715f775cec89bc872d031dc5f1167b65cb2a0e7966abe703a9f2892898a2e702  subagenti/Fara titlu--742a23e3/metadate.json
 677679d08368604833b58652f26f0894a66de4e1978c449f2f50d6577d9f7b2b  subagenti/Fara titlu--742a23e3/rezultate.md
-87ec84ddd022caa8e2bd94af6688e72675527a10779a3de2fb1e7911f023aac4  subagenti/Fara titlu--a3c455a1/conversatie.md
+7e1b77f8e60eb67e5c62f281f88debd2fd5bf8939a3bd365262d14e0fe21c395  subagenti/Fara titlu--a3c455a1/conversatie.md
 e911c07077d964129b795bc3959e5cca8c4fbb6a1cbbaee8e9f58a44e39afda1  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT--92eece7d.md
 26d23e2a1fade4316bb874bb4f5015b169cb3daa445ba4e87bc0c6fcb0515fc5  subagenti/Fara titlu--a3c455a1/fisiere/audit_artefacte--732cf345.py
 e6286512432a067a5d00069296020edc61c23c39d9da4a0d029db1d48a732218  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT_contact_01--efba54b0.png
@@ -1465,10 +2252,17 @@ b9ad06f6217ee2fdeb439ff358cd423b8c9b4f3e371e7fe00dd7b82a238cc97b  subagenti/Fara
 9fbc095c248eed8b9ac84798720b737f40348bf17b790b99aff4801cb8de081b  subagenti/Fara titlu--a3c455a1/fisiere/TOMS23_p22--36d66bae.png
 0c8289249c4681ffe19db7d05592bc886b47118da3a198004de34ef3f7abceb3  subagenti/Fara titlu--a3c455a1/fisiere/TOMS23_p23--2c09465e.png
 76242e83212d1172e201344b8071cfd79c8182f174386941eac8b367bab4b0e6  subagenti/Fara titlu--a3c455a1/fisiere-index.json
-0f47b32ec6daf20fdd3e8576aa08ba92f9547ec6be3888e19e65697b2c9e24df  subagenti/Fara titlu--a3c455a1/istoric.json
-3ccf1c4e8fabf7f5346db6c13314f1b8270b8ee4f53ef2abb88659286f33337d  subagenti/Fara titlu--a3c455a1/metadate.json
+1ecadbcec0ff19e73f92a6e699fc6559cd3554fce59077878f088630423d8b68  subagenti/Fara titlu--a3c455a1/istoric.json
+9af406078e2a21bf1d5bbee328f58d1ff45479e9b67fa350f709c95c389281b7  subagenti/Fara titlu--a3c455a1/metadate.json
 ff667cfe5839014ac209c17180ccc938f392105639afebca8af09e743bf7e3e1  subagenti/Fara titlu--a3c455a1/rezultate.md
-7d7eb27dacda1ac23af1b499f4c7c90a81db778d81c2d5474f3d4f5a0a2bd340  subagenti/Fara titlu--ccdf99ca/conversatie.md
+56acc4b3964a6b5b2cdc13f1e8d2dfc3c9a9c7b08db964d51f0c26e45a1c8313  subagenti/Fara titlu--b3fd14af/conversatie.md
+cdd144745dda60be88cbef0f4349d64ae8bab54081e278f624c4fb373b9a7179  subagenti/Fara titlu--b3fd14af/fisiere/2026.10.29 Addendum audit juridic BERGER R11 dupa corec--d7c343f4.txt
+917681034c2cd5e27febdf2bd5f952cc90b4334c952c0005fb140c451a2949f9  subagenti/Fara titlu--b3fd14af/fisiere/2026.10.29 Audit juridic independent BERGER R11--1091f3e5.txt
+8877a5f604e38668dc775e6ff759f388902d94152c051ff1c9e313c1f6610823  subagenti/Fara titlu--b3fd14af/fisiere-index.json
+a5d90696deea56d07cdf4f109264ca0cff3f8ad504a07307cc6a47b7d936648b  subagenti/Fara titlu--b3fd14af/istoric.json
+5e6030ed7278b042dca24eded5a4d609dbf9d20b99c604ead8dca4d7154ab781  subagenti/Fara titlu--b3fd14af/metadate.json
+8022c17e652d24c0b1be4f0f20ccb50543aca7a9a79fed115945304284f28e7a  subagenti/Fara titlu--b3fd14af/rezultate.md
+fd0471d768e98c9f168ee5fc9d471cee0bb1fa0187037ec6b058a2172b8084b0  subagenti/Fara titlu--ccdf99ca/conversatie.md
 a73cf17d5448dc68169d0e202d82896b3a7bec50ec4f7abd3be88c20bcd1df00  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.07 polita curenta p1--dc020e8c.png
 d55cddcf58f4119b4b0cccfe5cfa063a4fecd91fd12cb4917e310d8ddcd878cb  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.07 polita curenta p7--1f86769b.png
 88e72f094b50bb588dd194a8586753f5908393cb598fa8eaad649c01c3ed2d73  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.07 somatie originala p1--63b93d4b.png
@@ -1499,13 +2293,34 @@ f46c8193bdb6465563c016be0e54a97a7a1e6476e4a57ae7a0b0dc10976621dd  subagenti/Fara
 e8832ea01ab2ffa82b1f3ca46800015f15fb49d432d50fd72f21e05caee6476a  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.14 Polita istorica conditii p35--79e41b03.png
 2268d08e954c27cf51c9fe30daed926bde70ecf7f5373a3600bc972ec6eba49c  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.14 Polita istorica conditii p37--24c4b5bb.png
 f9d0698814879d19f60b36444d803f19f20ccb06d1915bb6a4c5015275acfcb8  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.14 Reaudit final email Eva-Mail Donau--9582f881.txt
+6776f87cd9830767cc646576080ceccbeb7e57b4d257603a0513bc060f2318ea  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 1120 Wien, Schallergasse 35_Antrag p10--8891b66c.png
+7ff0efcc3e028cc7499ff87960fdf2c7f7c9b6dab18ed1b4b622c931d6ca149b  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 703920_Antrag p1--a79719e3.png
+dc623686e0b71d9642033f3d6366bc1c8365aa1bd3ad8cdcf0ddae888dd450ff  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 Audit final - eliminarea componentelor--d24e9c83.txt
+4887fae333bd4c9f30dffe6b8970db95c3bb8802f297406de634ee1b5f29e81d  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p12--570a00b7.png
+9a57caa758e212c2c0f62b802005a1d2b436a411e39fcc83a82fdbc38ed99673  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 Deckungserweiterungen_RV 29000010498 p13--a16f862a.png
+bd86311aaa1f9e5d5ba2d7ddd65465437ac6076412b9c45c3ed19c3c5e31e590  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 image001--238dbf81.png
+62122362841469fb58f4ef3c039e4ba691d61a292d64872b54bd71a5fe3ebd7f  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 Nota audit - componente independente si modi--71811382.txt
+edf3ae0ab3478e50fda8a846b0056f639889ba98c33a5a98932b8ab94611e587  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 Polizze 2044001194 per 17.03.2023 p1--0c7ee003.png
+9c131e6bc338bcb70a50ecd38b8043c500c6d71039be9ddf50ba6f5028466634  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse --e7605c87.png
+b7a891d2d147c8bdae04c14825c1c9ecc477758a4785cda9e384b047ef49bfc6  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 Vollmacht Hofhans p1--0ca750b7.png
+6ba57e35c4d6ef3aa67c8e33dd868e02d71dff7e572edb1397fc705c141791b4  subagenti/Fara titlu--ccdf99ca/fisiere/2026.10.29 Vollmacht Hofhans p2--96464cd3.png
 afab43a90ca9b645b7310defca9ad800f5ea56f44e8025d52086a9d938c08b22  subagenti/Fara titlu--ccdf99ca/fisiere/20260526163520179--ac70afcb.png
 77a80da499b15be8583c2f280f82e3450f2941e8b1ca04b0fed1a376290c5df0  subagenti/Fara titlu--ccdf99ca/fisiere/contact--7a6efa45.png
-72b46edfd11dcb6a6efd3726d587858239a38975f74e95c4ed3dbebdf4bfb196  subagenti/Fara titlu--ccdf99ca/fisiere-index.json
-40574f9fbf1198bb962528423cbadf9a05cc09afbadc9e218b92ff216352a83d  subagenti/Fara titlu--ccdf99ca/istoric.json
-905ce937673c37d132d6843a7320fc5c7de6334e9dc822699a433e5452d675ac  subagenti/Fara titlu--ccdf99ca/metadate.json
-20f1e647ce797f111945bad04e6efe6d0e320670e9a1f9a158153623c34c6b24  subagenti/Fara titlu--ccdf99ca/rezultate.md
-8a06cb2f78eaa25daa877e19321a02011dd02c970943dd2cce92a6f910709bae  subagenti/Fara titlu--cdf5b78c/conversatie.md
+07a1ea69ef53e6cb17aba496fcee697ef7a5446e927e772e4cb32838dd871fd2  subagenti/Fara titlu--ccdf99ca/fisiere/head-left--166a8663.png
+0c82bd63d6013d2f5f10ccbd891d1edd78c5ed81cc5ce1fcd27d681b978db156  subagenti/Fara titlu--ccdf99ca/fisiere/head-right--46a94d53.png
+71d7f296a26c16b62a2e04ca22121fd59bc85ce5ca02fe2150bb84807844d076  subagenti/Fara titlu--ccdf99ca/fisiere/mandat--55ae42eb.png
+1d5207a601e53b99542809e28a91db52d9e80b3f835954d3bb04e3c8faae76c9  subagenti/Fara titlu--ccdf99ca/fisiere/p15--400d4ade.png
+2475ff464db031e02a8f6403ca09a4f66ba0146e2b398813cc88d23e9d6d3d57  subagenti/Fara titlu--ccdf99ca/fisiere/p24--778911dd.png
+8d76d70249f009ead2c723d010477728758957e1dcc80152f47458b4e34577ea  subagenti/Fara titlu--ccdf99ca/fisiere/p25--da10828c.png
+d8346b88e6774daddc62092ef4b9174d5e82f2b3fe85496bc948211f9726fc92  subagenti/Fara titlu--ccdf99ca/fisiere/row-left--483f82b6.png
+893da75d87dbeeb572406ae03c78d3f4dab28ae22a3599c14bfe6de03567ccc5  subagenti/Fara titlu--ccdf99ca/fisiere/row-right--dffdf1e0.png
+cb27df2f18d52cb6454c4ec7fac239398daa06000b5f215998d4ab8917b14128  subagenti/Fara titlu--ccdf99ca/fisiere/signature--9244ff8a.png
+3c325f638d68d41f8ad8ae877f0bd49629d3a0aefc9b023ef0017514d5e1b749  subagenti/Fara titlu--ccdf99ca/fisiere/tabel--edde9c81.png
+771bf5e79f790f2a6dd27e48f53d60a5d8a593346cb851e339da29f5af835097  subagenti/Fara titlu--ccdf99ca/fisiere-index.json
+b7b3bd204d18fcb2fbd41b0c028c83bc79f1fd46dfc7818e2e49fdd3efe53c61  subagenti/Fara titlu--ccdf99ca/istoric.json
+23b166fa3b3eba0742298f2aa757f3f83b8aa3115411a1c99e59766ead902386  subagenti/Fara titlu--ccdf99ca/metadate.json
+ce7550c10e5e9dd441811e1008fc96fb7037c1f93a7d8237525cf59b346d21e5  subagenti/Fara titlu--ccdf99ca/rezultate.md
+a32199d2bdd473f59a142d3fdba3f4f266015fc1b88b6046c597f9de10659665  subagenti/Fara titlu--cdf5b78c/conversatie.md
 dee3abeeeeb8ac1dd71be395c2cce02c95925f957acf4fbc80eded3d3c5aa21d  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.07 Audit juridic--d457ec46.txt
 abfc9c4554040c32ecf15cd13a02f3cf640a58137cc237d284bb903561e7436a  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.07 polita istorica p12--680a85a7.png
 88e72f094b50bb588dd194a8586753f5908393cb598fa8eaad649c01c3ed2d73  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.07 somatie originala p1--63b93d4b.png
@@ -1728,20 +2543,20 @@ bde0319fffc80249a533c430b73a7bb06c71ffed254d2757002e7e1a3264169b  subagenti/Fara
 c5a75df5b8c0b9a59c8e036ddd0c7630a6c983ce191b24834ab46e011fbdfa1f  subagenti/Fara titlu--cdf5b78c/fisiere/page-34--98115440.png
 e7d2f5d3f0420e1259a243c3689b2287118cb0153700e29d87a2785217a75e96  subagenti/Fara titlu--cdf5b78c/fisiere/page-35--0cfbfa2c.png
 99287e84b755aa1f408a1c3de961cc8bda2afd6e3b428f14215d35882f6595cd  subagenti/Fara titlu--cdf5b78c/fisiere-index.json
-0fabb37eb12a4046dc3d70d7ad8b9cd518658bec70d6dfda1ff60d46cf43ba6d  subagenti/Fara titlu--cdf5b78c/istoric.json
-3d7caecfbd78167d7a1089d3b53c5d727e8f150770513cba2872a5b44d3b27b0  subagenti/Fara titlu--cdf5b78c/metadate.json
+884bba33e82703526379a59c6986264a3d317cf089ac3cad3e416289e611f312  subagenti/Fara titlu--cdf5b78c/istoric.json
+ae608cef84bc8e499be131f046c41b32e2f609e708a650b8e94cda469c655436  subagenti/Fara titlu--cdf5b78c/metadate.json
 46ca38231950936ff606def2f4b5ac9e00d220f64f6032005f302003820463df  subagenti/Fara titlu--cdf5b78c/rezultate.md
-d85bb7de07ecd0206c80b5303d921acb05eb0f97b4b7b9e547c8dc66465e5f8e  subagenti/Fara titlu--f18afa9b/conversatie.md
+07d81e90f4eeb2d3c7812517d4fcf5beb6989b2db8c62e31149974a8b711b90d  subagenti/Fara titlu--f18afa9b/conversatie.md
 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  subagenti/Fara titlu--f18afa9b/fisiere-index.json
-f1596c043c03b559586ef8d46651191d92081db55bd00b5780730bc464930bd5  subagenti/Fara titlu--f18afa9b/istoric.json
-b2827fa82d1b7373ac5ec90efe0193461f44c65f5f6aca54056be143073d052c  subagenti/Fara titlu--f18afa9b/metadate.json
+de2a841fb967016e0e3bb2acecfb6394915d4f13ae693b0a4f54e1b411e68592  subagenti/Fara titlu--f18afa9b/istoric.json
+f584a4de214b58c2810518973141924f12e050f2e3f7d53e2e0a883a9b54b57f  subagenti/Fara titlu--f18afa9b/metadate.json
 884c321333387d5732a8973fde60702f45e8e83477f316f37ca174672f2fe8d8  subagenti/Fara titlu--f18afa9b/rezultate.md
-ff77e33686c06f06acfd94973d3ee22d2b7cc42687d995b2736ac8ab37d18a41  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/conversatie.md
+38c534ee18c47b0637d8c62be991545545ae1e5fc8118b77bc6c211a0e8a8634  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/conversatie.md
 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/fisiere-index.json
-9a2b894afd1db3f2d422a92d36cec0abc984457140c2237deac1ab9c71cd8eb4  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/istoric.json
-6137cac42193443e9d64c45ea05d18392be97ad61b5db9c0c169f31d9e44f7a1  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/metadate.json
+9d8a3cf855f466ffab4325f3033bf0ab6a51a0f3bbcc9cb8a2f4b72ff601df1e  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/istoric.json
+027221c65b29bab365b85f46eb7a11132e7688d9fcd9731449ef0a61daf57d67  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/metadate.json
 8bd04778a901ed3ebc63f4a6b9563976a469cf052448beeb3d50adeb67f32a47  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/rezultate.md
-eb725d982596a9e79538efac2634aa7161548a9a0c568ebc2ec62a7e91c12713  TOMS/conversatie.md
+0eca9964a0819d743287104473be6c79e5ae3862e8195b9c17a625b1385379e6  TOMS/conversatie.md
 ac9324854643a24cbe9d9d37625d25ddc65f7446f9ce44add7e1515b25fbc657  TOMS/fisiere/02 Email contract - DE - ciorna--90fb493e.txt
 e2ce439007908697a5b12fc9b239bce2c13f7a412b97df47dba3cad0543b90ca  TOMS/fisiere/03 Email acces portal - DE - ciorna--0d2e05a6.txt
 28068872a98c62c78b042259fdea1cdecdfaacd9a80b56a2502c13537a621bd7  TOMS/fisiere/04 Dovezi EVA si surse--a3482d81.json
@@ -1760,7 +2575,7 @@ e23f62f8a7a97521ec66cf1a6e7e2087be41b6c967e70d35d53430b4edbd6777  TOMS/fisiere/e
 20e1dbe7bb8ffdb16a5e6d0a9f0e18cccbda71b44a58d4adf4b18ca01a34c8a3  TOMS/fisiere/question-2--1bafead7.png
 3715725fe4bd925e32b84dae579b654329ff2cd2686a1d175b713913893384b2  TOMS/fisiere/question-3--fec35ab7.png
 9a4c7c96c08783046c73afa937008ec0f81b934940cc4861917018bee162a1ca  TOMS/fisiere/question-4--16ef21ca.png
-a685b61bf30ec96d2af84bc35caf154b9c87c9cb4f6c46a42127774d1f6af45a  TOMS/fisiere/README--6f49fa50.md
+d7908a02f53bb6c704df91da6cc0bcd3bedf780a44647914a89b1bb916bd2392  TOMS/fisiere/README--6f49fa50.md
 ad59f8be1a629d48716edf8f2d633dfab766c6f8a104ac37578c3c107ce738fc  TOMS/fisiere/signed2-2--17ab75f6.png
 d8ef3f67ea26f613a16e625e2ae7707422da00229bf9dcd994f4912ea821b678  TOMS/fisiere/signed2-3--0d0593b0.png
 2164f1c75419962eef5bd53e7383dcd7409acb9ce171a4897f68068629a553e4  TOMS/fisiere/signed2-4--3b659103.png
@@ -1768,10 +2583,10 @@ d8ef3f67ea26f613a16e625e2ae7707422da00229bf9dcd994f4912ea821b678  TOMS/fisiere/s
 6c0710a7c94efb9832849f3be08c10926775185b06189a34b0c020d815229b98  TOMS/fisiere/v4-page-1--ff9e6a1e.png
 b15c24288fd7c6862e48f8cad2b6a6a773e39696c574810de9390eb885bfc01f  TOMS/fisiere/v4-page-14--0e87e7c3.png
 7f258d41b8ecfeecd738f1a915e98192f848125941144a0b4dcbdd33600f6e9d  TOMS/fisiere/v4-page-4--b763e248.png
-eb008b2c85a9f22792b96506af279af239c1ce35479565ded6e1e0f4dfd36a67  TOMS/fisiere-index.json
-1e091aedeb9f33c9b76a0b359332c5dc4c9efa93203ab507a55436879d459398  TOMS/istoric.json
-543e3bedf2cc179d29e782cdb815495540c35fcf36805c7313a48cbd52e0944d  TOMS/metadate.json
-dd3b8a362e7e98483f3b127540ecffa50c6c16bf40c31b5953a271400c8cbbeb  TOMS/rezultate.md
+4c9e8ecbd12047750850823c4ac95707a5f89b8674e3c47aa2f35ee46633ae50  TOMS/fisiere-index.json
+9ee35695f7fb3ad9f2c23387e0857012cc95894097ef9e818c2085dcf78d6944  TOMS/istoric.json
+22ded97461ea020d8688bcc5144463ec8b6f5e5770a675504159089dd40248bd  TOMS/metadate.json
+3155a9a5b4e6db87d12a00c1101ec0dfce9e0adf3fad75969f45dbf0c09d04d8  TOMS/rezultate.md
 444ece5b30d51fe0773a1733331450026709585e4e25ec27456a5c0740434169  Verifică actualizările locației/conversatie.md
 4c8baa2b9867452beba3ae5fcb42d2ca91ba3fa39259197b531b6b676f4dedef  Verifică actualizările locației/fisiere/2026.10.01 actualizeaza comunicari--8c448f57.py
 4650fcd8221dd27ae78915c748618b5fc1adc8114de6f0c994cee5bac5853c36  Verifică actualizările locației/fisiere/2026.10.01 descarca comunicari--ca7b5510.ps1
@@ -1971,3 +2786,11 @@ b15c24288fd7c6862e48f8cad2b6a6a773e39696c574810de9390eb885bfc01f  Verifică situ
 fd067a4e501bf8f4650c300f56716c0622369de6ea00ec90a995c5c9c0ea113f  Verifică situația actuală TOMS/istoric.json
 ab3cec7440db2302f365cdcc1ff0dca09accff20d7611ef2e5de651e0f21e467  Verifică situația actuală TOMS/metadate.json
 dccaedcafbae2fb96532f3eec3b43422ccf580b0cda0490de41f9db8a3baa644  Verifică situația actuală TOMS/rezultate.md
+a2b42595c579f336142f67cc8af21a770076d221c1dc11040bfd91e415e4f4c9  woehrparking.at hidraulica garaj/conversatie.md
+b0b0a1717db09d5ec8631fc9048ba17f9fd8866635241147cebb6e8bd83d666f  woehrparking.at hidraulica garaj/fisiere/2026.10.22 DRAFT WOHR--2eded2d9.json
+d1bd5142e619ef67d8b1ed119e084787346657b03c55c7254cbac30a43ca3214  woehrparking.at hidraulica garaj/fisiere/2026.10.22 Email WOHR NETRIMIS--fef8c602.txt
+30426bc1a900fcc01387aabefe9a4f931ec2811b9b6405bcb10c9b0f14e406c3  woehrparking.at hidraulica garaj/fisiere/2026.10.22 Jurnal actualizare WOHR--dd7b475c.txt
+e62c3a375edc9ae3ff20c5e06b000b1a8da3cf60d42a3ea80f0dbceec2f8e219  woehrparking.at hidraulica garaj/fisiere-index.json
+112e90d17d7255bc83555e09fe074aeea7e4cda5ce46bad237827da6e7d0fb07  woehrparking.at hidraulica garaj/istoric.json
+401644ee67bc80a9393a9e9ae0d61834c8c579f77cf49a2ec30b37cb4e1a891b  woehrparking.at hidraulica garaj/metadate.json
+2f296cb21ad344d010fe33c4b7f09ee5b361830754a452da39b9b3aca6105a73  woehrparking.at hidraulica garaj/rezultate.md

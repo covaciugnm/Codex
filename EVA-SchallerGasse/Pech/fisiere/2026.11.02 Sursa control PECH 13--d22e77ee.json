@@ -1,0 +1,955 @@
+{
+  "automation": "check-email-pech",
+  "trigger": "2026-11-02T10:57:00.915Z",
+  "previous_PECH": "2026-11-02T11:50:18+02:00",
+  "previous_PECH_source": "08. Corespondenta/2026.11.02 Check-email PECH/2026.11.02 11-50-18 Verificare PECH.txt",
+  "previous_general": "2026-11-02T11:52:27+02:00",
+  "period": {
+    "from": "2026-11-01",
+    "to": "2026-11-02"
+  },
+  "register": {
+    "path": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.11.02 Registru comunicatii.json",
+    "count": 856,
+    "checked_sources": [
+      [
+        "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.11.02 Registru comunicatii.json",
+        "b1dac489693e6ec9950ffe5faa43ca35440bea3d87d6aee0e033b78f5a36f984",
+        "b1dac489693e6ec9950ffe5faa43ca35440bea3d87d6aee0e033b78f5a36f984"
+      ],
+      [
+        "08. Corespondenta/2026.10.28 Verificare zilnica/2026.10.27 16-50-06 PRIMIT PECH 152135aa.txt",
+        "ab1a9c9fe09bc33f68f14c19f8ea5650ebcd8d93876c2025d7011e15cfa3e176",
+        "ab1a9c9fe09bc33f68f14c19f8ea5650ebcd8d93876c2025d7011e15cfa3e176"
+      ],
+      [
+        "08. Corespondenta/2026.10.28 Verificare zilnica/2026.10.27 16-50-06 PRIMIT PECH 152135aa.json",
+        "1935b3db5650f0bc259e23dd3da869c8775057b592974a0d15a52a6c24e3e641",
+        "1935b3db5650f0bc259e23dd3da869c8775057b592974a0d15a52a6c24e3e641"
+      ],
+      [
+        "08. Corespondenta/2026.10.28 Verificare Berger Pech/2026.10.28 13-02-01 TRIMIS PECH 8fe2ffcc - copie fara parola.txt",
+        "0830655cecb7eace04129f1bbbeb867f99472631be58ce35cc2e531a3c12a1b6",
+        "0830655cecb7eace04129f1bbbeb867f99472631be58ce35cc2e531a3c12a1b6"
+      ],
+      [
+        "08. Corespondenta/2026.10.29 PECH amanare intalnire/2026.10.29 DRAFT PECH amanare - EVA.json",
+        "9a770c6ecd60f76570a4591b27b4ec21a5dea2c7a0e356bcbaa08deb288feca8",
+        "9a770c6ecd60f76570a4591b27b4ec21a5dea2c7a0e356bcbaa08deb288feca8"
+      ]
+    ]
+  },
+  "pages": [
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "zt-pech.at",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "office@zt-pech.at",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "sekretariat@zt-pech.at",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "ployer@zt-pech.at",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Bernhard Ployer",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "PECH",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schallergasse",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 2,
+      "ids": [
+        "dd5df6a9-b413-44d9-90e1-2f0afccbe5f5",
+        "419532fa-fa26-4228-8b90-149e310773e8"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Schallerg.",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "P2026-470",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "2026-470",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "AN01",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "AN02",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "R09",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 1,
+      "ids": [
+        "87b6e18a-ea11-47a4-addd-d12c0f5ded54"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "1539234",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 1,
+      "ids": [
+        "dd5df6a9-b413-44d9-90e1-2f0afccbe5f5"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "42222000",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 1,
+      "ids": [
+        "dd5df6a9-b413-44d9-90e1-2f0afccbe5f5"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Unzustellbar",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Zustellung fehlgeschlagen",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Delivery Status",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Undeliverable",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Mail delivery failed",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "Mailer-Daemon",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "query": "nicht zugestellt",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "is_sent": true,
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 1,
+      "ids": [
+        "83524b33-5b49-438b-b692-4f36a64593e7"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "is_sent": false,
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 23,
+      "ids": [
+        "cef98bfe-14f1-4a33-8576-84e76be12b80",
+        "da286e69-b876-4c62-900a-2dc584239efa",
+        "43ea0f4f-0062-46b3-97b7-fca218157434",
+        "c5946eb3-8bc0-4fff-955f-93466713c473",
+        "2f4c50db-7b7e-41b7-a44a-604dc8c9523a",
+        "da36c2db-4c7d-454e-a258-8350d238eab9",
+        "3a968abf-ea6e-429a-ab06-9de5ec9d018b",
+        "3bbb843e-aa8a-464c-8a7a-0cdd56440df8",
+        "e06f0da6-ca7a-4ae2-b694-cb57de6790da",
+        "d66a1f01-b109-4509-9571-72a2b5816277",
+        "6adbbef6-bd32-4e88-bf6e-7bc0fad39d6e",
+        "9c202100-d7a2-407b-9699-e85acf74632a",
+        "58d3f9a7-0af9-4b96-9a85-5588e9e10e1d",
+        "94b5524d-a94b-4cbb-af89-74f5735f22f4",
+        "db57c5cb-1ff6-4482-a670-e6ef187e75bb",
+        "39f124e3-6f60-4e31-80ac-922085e55481",
+        "0ee96350-636d-4715-b647-ea5a389e4cd4",
+        "f4a410e2-5bdd-4041-b747-737f42ffed1f",
+        "fbd4cc97-8285-49eb-8ad0-fe1013cc8218",
+        "c1d768ba-db55-42eb-8400-14a8076646ce",
+        "6b6e9ea9-eade-4192-a149-3061035bbb61",
+        "df0bab57-20ce-4ff8-b589-c6a0baa8ed10",
+        "630661e6-9c13-4a6c-9b60-3efb6942e3db"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": true,
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+        "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "is_sent": false,
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 2,
+      "ids": [
+        "dd5df6a9-b413-44d9-90e1-2f0afccbe5f5",
+        "419532fa-fa26-4228-8b90-149e310773e8"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "zt-pech.at",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "office@zt-pech.at",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "sekretariat@zt-pech.at",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "ployer@zt-pech.at",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Bernhard Ployer",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "PECH",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Schallergasse",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 2,
+      "ids": [
+        "5eb8107e-6689-421e-811a-8df7b1a38b90",
+        "9a14340f-35e9-4f3c-9ba3-078ce032a8e9"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Schallerg.",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "P2026-470",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "2026-470",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "AN01",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "AN02",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "R09",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "1539234",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 1,
+      "ids": [
+        "5eb8107e-6689-421e-811a-8df7b1a38b90"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "42222000",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 1,
+      "ids": [
+        "5eb8107e-6689-421e-811a-8df7b1a38b90"
+      ]
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Unzustellbar",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Zustellung fehlgeschlagen",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Delivery Status",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Undeliverable",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Mail delivery failed",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "Mailer-Daemon",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "query": "nicht zugestellt",
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "account_id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "is_sent": true,
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 0,
+      "ids": []
+    },
+    {
+      "args": {
+        "link_id": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+        "account_id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+        "is_sent": false,
+        "date_from": "2026-11-01",
+        "date_to": "2026-11-02",
+        "limit": 50,
+        "offset": 0
+      },
+      "offset": 0,
+      "total": 2,
+      "ids": [
+        "5eb8107e-6689-421e-811a-8df7b1a38b90",
+        "9a14340f-35e9-4f3c-9ba3-078ce032a8e9"
+      ]
+    }
+  ],
+  "ids": [
+    {
+      "id": "dd5df6a9-b413-44d9-90e1-2f0afccbe5f5",
+      "known": false,
+      "classification": "nou Capra cu răspuns MA37"
+    },
+    {
+      "id": "419532fa-fa26-4228-8b90-149e310773e8",
+      "known": true,
+      "classification": "arhivat"
+    },
+    {
+      "id": "87b6e18a-ea11-47a4-addd-d12c0f5ded54",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "83524b33-5b49-438b-b692-4f36a64593e7",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "cef98bfe-14f1-4a33-8576-84e76be12b80",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "da286e69-b876-4c62-900a-2dc584239efa",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "43ea0f4f-0062-46b3-97b7-fca218157434",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "c5946eb3-8bc0-4fff-955f-93466713c473",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "2f4c50db-7b7e-41b7-a44a-604dc8c9523a",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "da36c2db-4c7d-454e-a258-8350d238eab9",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "3a968abf-ea6e-429a-ab06-9de5ec9d018b",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "3bbb843e-aa8a-464c-8a7a-0cdd56440df8",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "e06f0da6-ca7a-4ae2-b694-cb57de6790da",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "d66a1f01-b109-4509-9571-72a2b5816277",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "6adbbef6-bd32-4e88-bf6e-7bc0fad39d6e",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "9c202100-d7a2-407b-9699-e85acf74632a",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "58d3f9a7-0af9-4b96-9a85-5588e9e10e1d",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "94b5524d-a94b-4cbb-af89-74f5735f22f4",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "db57c5cb-1ff6-4482-a670-e6ef187e75bb",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "39f124e3-6f60-4e31-80ac-922085e55481",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "0ee96350-636d-4715-b647-ea5a389e4cd4",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "f4a410e2-5bdd-4041-b747-737f42ffed1f",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "fbd4cc97-8285-49eb-8ad0-fe1013cc8218",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "c1d768ba-db55-42eb-8400-14a8076646ce",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "6b6e9ea9-eade-4192-a149-3061035bbb61",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "df0bab57-20ce-4ff8-b589-c6a0baa8ed10",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "630661e6-9c13-4a6c-9b60-3efb6942e3db",
+      "known": false,
+      "classification": "nerelevant"
+    },
+    {
+      "id": "5eb8107e-6689-421e-811a-8df7b1a38b90",
+      "known": false,
+      "classification": "alias Capra"
+    },
+    {
+      "id": "9a14340f-35e9-4f3c-9ba3-078ce032a8e9",
+      "known": false,
+      "classification": "alias BERGER, deja raportat"
+    }
+  ],
+  "readback": {
+    "capra": "dd5df6a9-b413-44d9-90e1-2f0afccbe5f5",
+    "alias": "5eb8107e-6689-421e-811a-8df7b1a38b90",
+    "berger": "419532fa-fa26-4228-8b90-149e310773e8",
+    "alias_berger": "9a14340f-35e9-4f3c-9ba3-078ce032a8e9",
+    "comparison": "body/thread_id/from/to/cc/date/subject identical; names and sizes of attachments match; mirror bytes not separately fetched"
+  },
+  "draft": {
+    "id": "ebe46e54-bdee-407a-971f-1025f67f6482",
+    "status": "pending",
+    "subject": "Schallergasse 35 – Unterlagenbeschaffung und Terminverschiebung auf 2026.11.03",
+    "updated_at": "2026-10-29T16:23:51.529379Z",
+    "to": [
+      "ployer@zt-pech.at"
+    ],
+    "cc": [
+      "sekretariat@zt-pech.at"
+    ],
+    "attachments": []
+  },
+  "sync": [
+    {
+      "link": "link_6ae19b6ebad08191ba9bbfe616469187",
+      "boxes": [
+        {
+          "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+          "email": "covaciu.gnm@gmail.com",
+          "provider": "gmail",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-11-02T08:26:28.439386Z"
+        },
+        {
+          "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+          "email": "office@ac-wohnart.at",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-11-02T10:30:12.788650Z"
+        }
+      ]
+    },
+    {
+      "link": "link_6ae19c4ed7888191a5d7002d96ef4b95",
+      "boxes": [
+        {
+          "id": "849fd4d7-8150-455c-8c18-baff8977f5fb",
+          "email": "office@ac-wohnart.at",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-11-02T10:15:24.271554Z"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

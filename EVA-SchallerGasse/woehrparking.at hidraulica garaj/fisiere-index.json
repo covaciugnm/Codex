@@ -1,0 +1,35 @@
+[
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.22 WOHR confirmare mentenanta\\2026.10.22 DRAFT WOHR.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.22 DRAFT WOHR--2eded2d9.json",
+    "bytes": 1063,
+    "sha256": "b0b0a1717db09d5ec8631fc9048ba17f9fd8866635241147cebb6e8bd83d666f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.22 WOHR confirmare mentenanta\\2026.10.22 Email WOHR NETRIMIS.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.22 Email WOHR NETRIMIS--fef8c602.txt",
+    "bytes": 568,
+    "sha256": "d1bd5142e619ef67d8b1ed119e084787346657b03c55c7254cbac30a43ca3214"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.22 WOHR confirmare mentenanta\\2026.10.22 Jurnal actualizare WOHR.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.22 Jurnal actualizare WOHR--dd7b475c.txt",
+    "bytes": 743,
+    "sha256": "30426bc1a900fcc01387aabefe9a4f931ec2811b9b6405bcb10c9b0f14e406c3"
+  },
+  {
+    "source_reference": "mailto:rh@woehrparking.at",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "tel:+432262221110",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "tel:+436643805346",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "date":"2026-11-01",
+  "G0":{"status":"APPROVED","plan_version":"1.2","plan_sha256":"9E915B874AC4C8E83677DDCC239B4F5CAABDE649282C78238C7C95B1538160BB","review":"review-agent-2-plan-v1.2.md","score":"10/10","prior_review_score":"8/10"},
+  "execution":{"ui_owner":"agent_1_plan_audit","reviewer":"agent_2_review","priority":["Chrome","EVA Windows","server and cross-layer verification","Android/iOS final phase"],"allowed_now":"Inventory and non-mutating cases on available surfaces; isolated tests using synthetic data where already available.","live_messages_deletions_security_changes":false},
+  "G1":{"status":"IN_PROGRESS_NOT_APPROVED"},
+  "G4":{"status":"NOT_APPROVED"},
+  "product_verdict":"NOT_REASSESSED",
+  "user_mobile_steering":"Phones deferred to final phase, not excluded."
+}

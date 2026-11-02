@@ -1,0 +1,558 @@
+[
+  {
+    "source_reference": "../../HANDOFF-UBUNTU.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "../collection-2026-11-01/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "../retailer-audit-2026-11-01/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "../retailer-audit-2026-11-01/SMS-LOGIN-SERVICES.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00-INDEX.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "00-index.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "01-prezentare-ochelari-si-aplicatie.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "01-viziune-arhitectura.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "02-frontend-android.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "02-instalare-si-cerinte.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "03-backend-server.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "03-conectare-imperechere-dispozitive.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "04-conturi-si-profiluri.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "04-protocol-comunicare.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "05-stt-tts-traducere.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "05-tablou-de-bord-dispozitiv.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "06-autentificare-conturi.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "06-inregistrare-audio.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "07-fisiere-si-sincronizare.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "07-setari-profil.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "08-afisaj-hud.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "08-stocare-conversatii.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "09-securitate-confidentialitate.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "09-teleprompter.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "10-camera-si-viziune.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "10-catalog-functii-complet.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "11-roadmap-livrare.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "11-traducere-live.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "12-motoare-stt-tts-traducere.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "12-validare-hardware.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "13-asistent-sumarizare-ocr.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "14-setari-de-profil.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "15-stocarea-conversatiilor.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "16-securitate-si-confidentialitate.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "17-backend-server-propriu.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "18-ota-si-firmware.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "19-depanare-si-faq.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "20-glosar.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "21-limite-cunoscute-si-validare-hardware.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "22-accesibilitate-si-limbi.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/AI_Glasses_2026.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/AI_Glasses_2026_Livrare.zip",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/audit-final.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/catalog-data.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/regional-sources.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "AI_Glasses_2026/template-analiza-v3.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "ARCHITECTURE.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "BASELINE-RAW-FINDING.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "IFLYTEK_RELEASE_ASSETS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "INTERNATIONAL.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "LIVRARE.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "PATH-MAPPING.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "SKILLS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "VERSION-DIFFS.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "VERSION-DIFFS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "apk-analysis-2026-11-01/BASELINE-RAW-FINDING.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "apk-analysis-2026-11-01/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "audit/FINAL-AUDIT.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "audit/RUBRIC.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "baseline-release-index-audit.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "baseline-release-index.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "cas-index.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "catalog.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "cli-static-metadata.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "collection-2026-11-01/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "configuration-provenance.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "eu-app-availability.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "execution-notes.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "file-inventory.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "google-play-ro-observation.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "https://account-h5-ap1.iflyoversea.com/pass/mobile/?lang=en",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/Loomy-0.9.39-arm64.dmg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/Loomy-0.9.39-win.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/Loomy-Setup-0.9.39.exe",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/bavvo-1.0.1112.xapk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/bavvo-1.0.1179.xapk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/bavvo-1.0.1197.xapk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/bavvo-1.0.1205.xapk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/bavvo-1.0.1211.xapk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/bavvo-1.0.1222.xapk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/translate-channel-FY10030001.apk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/translate-channel-FY10030002.apk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/download/iflytek-software-2026-11-01/translate-xlhs-current.apk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-apk-analysis-2026-11-01",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-apk-romania40-2026-10-31",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-documentation-2026-10-31",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-loomy-skills-2026-11-01",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/iFLYTEK/releases/tag/iflytek-software-2026-11-01",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/iflytek",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/iflytek/astron-harness-tutorial",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/iflytek/iFly-Skills",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://gold-optical.com/ai-glasses/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://loomyad.xunfei.cn/api/v1/skills/store/list",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://play.google.com/store/apps/details?id=com.iflytek.bavvo&hl=en&gl=RO",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://povoneglasses.com/pages/support",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.goodwaytechs.com/es/goodway-g100-smart-ai-camera-glasses.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iflytek.com/en/news-events/mwc2026.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iflytek.com/en/news-events/news/343.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.iflytek.com/en/products/translator/bavvo.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/audit-calitate/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/catalog-parametri-functii/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/firmware-analiza/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/protocol-comunicare/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/APK_Reconstituit_2026-10-30/reverificare-detaliata/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/Biblioteca_Glasses/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iFLYTEK_XF-AIGlasses-01_Documentatie/Software/INDEX.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "iflytek-manifest-sha256.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "international-login-evidence.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "knowledge-base/00-index.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "loomy-translate-skill-2026-11-01/INTERNATIONAL.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "loomy-translate-skill-2026-11-01/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "other-hardware-android-identity.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "regional-apple-search.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "release-packs.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "retailer-audit-2026-11-01/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "skills/transaas01-1.0.3.zip",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "skills/transaas01-1.0.4.zip",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "source-search.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "sources/bavvo-ios-us.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sources/heycyan-ios-ro.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sources/international-account-app.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sources/loomy-skill-catalog.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "verification-summary.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "versions/com.ainote.mobile.doxent_oversea_app/3.1.5/AINOTE-Android/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.bavvo/1.0.1112/bavvo-1.0.1112/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.bavvo/1.0.1179/bavvo-1.0.1179/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.bavvo/1.0.1197/bavvo-1.0.1197/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.bavvo/1.0.1205/bavvo-1.0.1205/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.bavvo/1.0.1211/bavvo-1.0.1211/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.bavvo/1.0.1222/bavvo-1.0.1222/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.loomy.mobile/0.0.8/Loomy-Android/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.translateapp/1.0.3899/iflytek-1.0.3899-full-rebuilt/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.translateapp/1.0.3899/iflytek-1.0.3899-romania40/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.translateapp/1.0.3899/iflytranslate-official/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.translateapp/1.0.3899/translate-channel-FY10030001/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.translateapp/1.0.3899/translate-channel-FY10030002/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "versions/com.iflytek.translateapp/1.0.3949/translate-xlhs-current/README.md",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

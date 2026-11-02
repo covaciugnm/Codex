@@ -1,0 +1,85 @@
+Data: 2026.10.21; ora România: 15:30:15; dată tehnică originală: 2026-10-21T12:30:15Z
+Statut: PRIMIT
+ID Eva-Mail: 9e27d51f-e7e5-44ee-8563-83d24407388b
+Cont: office@ac-wohnart.at
+Expeditor: Sekretariat@zt-pech.at
+Destinatari: office@ac-wohnart.at
+CC: ployer@zt-pech.at
+Subiect original: P2026-470: Schallergasse 35 – Erinnerung: Rückmeldung zu unserem Vertragsvorschlag
+Sursă: Eva-Mail; text API integral, nu MIME original
+
+TEXT ORIGINAL NEMODIFICAT
+
+S.g. Hr. Covaciu,
+anbei übermittle ich Ihnen das ergänzende Angebot 2026-470/AN02 für Prüfingenieur, Fertigstellung und Bauwerksbuch.
+
+Grundsätzlich würde es uns reichen, wenn Sie zur Beauftragung unsere Angebote ausgefüllt und unterfertigt retournieren.
+
+Sollten Sie dennoch extra einen Werkvertrag aufsetzen möchten, hätten wir folgende Anmerkungen/Änderungswünsche:
+
+  *   Der Zeitplan unserer Leistungen ist abhängig von der Arbeit der Baufirma. Deswegen können wir keine konkreten Termine versprechen. Bitte demnach auch Vertragsstrafen bei Verzug aus dem Vertrag entfernen.
+
+Zur Orientierung: Wir brauchen eine Vorlaufzeit von 4 Wochen für die Schalungs- und Bewehrungspläne.
+
+  *   Kein Haftrücklass
+  *   Zahlungsziel: 14 Tage
+  *   Indexierung lt. unseren Geschäftsbedingungen
+  *   Der Vertrag verlangt einen hohen Dokumentationsaufwand (wöchentliche Statusberichte, Terminregister, Dokumentenregister,…), der in unserem Angebot nicht kalkuliert ist. Bitte diese Dokumentationspflicht streichen oder deutlich reduzieren.
+
+Mit freundlichen Grüßen
+
+Teresa Schriefl
+Leitung Sekretariat
+
+Dr. PECH Ziviltechniker GmbH
+Johann-Strauß-Gasse 32/6
+1040 Wien
+
+t  +43 1 5053680-12
+e  schriefl@zt-pech.at<mailto:schriefl@zt-pech.at>
+w  www.zt-pech.at<http://www.zt-pech.at/>
+
+Dr. PECH Ziviltechnikergesellschaft mbH
+Registergericht: HG Wien, FN 426034 x
+UID-Nr.: ATU 69226367
+
+Bitte denken Sie an die Umwelt bevor Sie dieses E-Mail ausdrucken!
+Informationen durch E-Mail und deren Anhänge sind nur dann bindend und autorisiert, wenn diese Informationen schriftlich von uns bestätigt werden. Diese Email (samt Dateianhängen) ist ausschließlich für den seitens des Absenders dieser Nachricht beabsichtigten Empfänger bestimmt, da sie rechtliche geschützte und vertrauenswürdige Informationen enthalten kann. Sollten Sie nicht der beabsichtigte Empfänger dieser Nachricht sein so müssen Sie diese vollständig, dauerhaft und unwiederbringlich aus Ihrem System löschen, da es Ihnen untersagt ist, diese Nachricht oder deren Inhalte (samt Dateianhängen) in welcher Form auch immer dauerhaft zu verspeichern, weiter zu verbreiten, zu kopieren auszudrucken oder sonstig zu verarbeiten. Sollten Sie diese Email auf Grund eines Übermittlungsfehlers erhalten haben, bitte ich Sie, mich umgehend per Mail oder Telefon darüber zu benachrichtigen.
+
+Wir weisen darauf hin, dass alle übermittelten Daten im Rahmen der Projektbearbeitung verarbeitet und lokal im Firmennetzwerk für die Dauer der gesetzlichen Aufbewahrungsfrist gemäß §6 DSG 2000 (in der ab 25.05.2018 geltenden Fassung) gespeichert werden. Unsere vollständige Datenschutzerklärung mit Informationen über Ihre Rechte auf Auskunft, Änderung oder Löschung finden Sie auf unserer Homepage unter www.zt-pech.at/datenschutzverordnung/<http://www.zt-pech.at/datenschutzverordnung/>
+
+
+Von: office@ac-wohnart.at <office@ac-wohnart.at>
+Gesendet: Dienstag, 20. Oktober 2026 15:40
+An: Sekretariat <Sekretariat@zt-pech.at>
+Cc: Ployer Bernhard <ployer@zt-pech.at>
+Betreff: Schallergasse 35 – Erinnerung: Rückmeldung zu unserem Vertragsvorschlag
+
+
+Sehr geehrter Herr DI Ployer,
+
+sehr geehrte Damen und Herren,
+
+wir möchten höflich an unsere E-Mail vom 13. Oktober 2026 und den übermittelten Vertragsvorschlag für das Projekt Schallergasse 35, 1120 Wien, erinnern.
+
+Bitte bestätigen Sie uns kurz, ob unsere E-Mail und sämtliche PDF-Anlagen vollständig bei Ihnen eingegangen sind.
+
+Wir möchten die offenen Punkte gerne mit Ihnen abstimmen und anschließend die Unterzeichnung des Vertrags vorbereiten.
+
+Dürfen wir Sie daher um Ihre schriftliche Stellungnahme zu unserem Vertragsvorschlag bitten?
+
+Falls Sie Anmerkungen, Einwände oder Änderungswünsche haben, teilen Sie uns diese bitte möglichst unter Angabe der betreffenden Vertragsstelle und Ihres konkreten Formulierungsvorschlags mit.
+
+Sollten Sie keine Einwände haben, freuen wir uns über eine entsprechende schriftliche Rückmeldung.
+
+Bitte berücksichtigen Sie auch den erbetenen Leistungs- und Rechnungsplan mit den wesentlichen Etappen, Terminen und zugehörigen Beträgen, den wir gemeinsam abstimmen und als Vertragsanlage beifügen möchten.
+
+Bitte teilen Sie uns außerdem mit, bis wann wir mit Ihrer inhaltlichen Rückmeldung rechnen dürfen.
+
+Zur leichteren Zuordnung fügen wir den Vertragsvorschlag und Ihr ursprüngliches Angebot nochmals unverändert als PDF bei.
+
+Vielen Dank für Ihre Zeit und die Prüfung unserer Unterlagen.
+
+Mit freundlichen Grüßen
+
+Cosmin Adrian Covaciu

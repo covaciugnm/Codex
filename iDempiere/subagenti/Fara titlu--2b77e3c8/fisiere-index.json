@@ -1,0 +1,30 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A08_plan.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A08_plan--9fe66761.json",
+    "bytes": 111448,
+    "sha256": "dce61fdc9a94ca209010032b30cde26777d01e90bdc70e28ebef65ba5282863a"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A08/checkout-1280.png",
+    "status": "copiat",
+    "saved_path": "fisiere/checkout-1280--ada6e123.png",
+    "bytes": 75379,
+    "sha256": "3782711b2a320443633b66d98fe795e0ca7be00f19c462f740c1bef8ad93cdab"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A08/checkout-360.png",
+    "status": "copiat",
+    "saved_path": "fisiere/checkout-360--a8bc7263.png",
+    "bytes": 25093,
+    "sha256": "c87e40071798d5f3711a6e65826a2302db1b761423b0fec81caf7d3bd82a2fbf"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A08_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A08_raport--bce803fa.json",
+    "bytes": 107246,
+    "sha256": "2b01142eeec982c6e75b3b3f43b27100579af4f2edcfa3c7d218be5c21a51bf8"
+  }
+]

@@ -1,0 +1,3 @@
+﻿Trecerea prin inventar si textele disponibile s-a incheiat. OCR general continua; scanarile inca necitite nu sunt acoperite.
+{'deja prezent': 1224, 'copiat': 1325, 'eroare': 9}
+Registrul contine sursa, destinatia, baza identificarii si pagina (cand este cunoscuta).

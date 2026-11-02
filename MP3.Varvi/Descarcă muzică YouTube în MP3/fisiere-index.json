@@ -11,6 +11,17 @@
     "status": "fisier_inexistent_sau_director"
   },
   {
+    "source_reference": "D:/MP3.Varvi/downloads/Videoclipuri unite",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/MP3.Varvi/media_download.py",
+    "status": "copiat",
+    "saved_path": "fisiere/media_download--1f058530.py",
+    "bytes": 3664,
+    "sha256": "40c5c01c034f2ef5a893bb26f64d256b9b57d512f13fc58289470879b9b682bb"
+  },
+  {
     "source_reference": "D:\\MP3.Varvi\\.gitignore",
     "status": "copiat",
     "saved_path": "fisiere/gitignore--b96276e2",
@@ -21,15 +32,22 @@
     "source_reference": "D:\\MP3.Varvi\\.runtime\\desktop.png",
     "status": "copiat",
     "saved_path": "fisiere/desktop--af67e9b9.png",
-    "bytes": 122340,
-    "sha256": "1c28ac8a886b95b05ddf74d5225a46bc427c997620170a53242d5179dcff33f1"
+    "bytes": 140631,
+    "sha256": "9161c159861221ec589ba14c733cc53fcb96548458c5767430059906d9635ea0"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\.runtime\\merge-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/merge-desktop--b5ccc5ab.png",
+    "bytes": 52470,
+    "sha256": "862008ba002dd122cfa223d27cc8d1b4e6faf3ce9f0f9db0a8636a30969f8626"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\.runtime\\mobile.png",
     "status": "copiat",
     "saved_path": "fisiere/mobile--5bc7e23b.png",
-    "bytes": 110411,
-    "sha256": "6477c14a188bb022d63e5b04aed7b7a4d8d3a0378bd909bf181aef68c27242bd"
+    "bytes": 128287,
+    "sha256": "6a302d49dc2c9a1e826914a196a163d4ec014b3d618c63875755f23c2f26f286"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\Porneste.cmd",
@@ -42,15 +60,15 @@
     "source_reference": "D:\\MP3.Varvi\\README.md",
     "status": "copiat",
     "saved_path": "fisiere/README--0d901df6.md",
-    "bytes": 6643,
-    "sha256": "148f10a5ad57c6fa7a4d7324756ddc822587df493b7afff9d3075c7dcf22b64e"
+    "bytes": 9649,
+    "sha256": "e5c24444f6533c7dda7342a825d6474d39e4cba6f19c012f72940f6e29d8627d"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\app.py",
     "status": "copiat",
     "saved_path": "fisiere/app--0a3d0686.py",
-    "bytes": 20844,
-    "sha256": "e7559dd40da028fb38ceb049e804542279486bde2a06242c620f445c88758482"
+    "bytes": 21736,
+    "sha256": "a957e4f8f9e203b75ebd07fedaa3647232c7d99a681df7f47d76d29e2ed635ec"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\downloads",
@@ -62,6 +80,13 @@
     "saved_path": "fisiere/excel_import--6df5c540.py",
     "bytes": 3903,
     "sha256": "f9206ef138b263b91e98745dde97950e8ae4358a6aa10c91d7cc6c100302d98e"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\media_download.py",
+    "status": "copiat",
+    "saved_path": "fisiere/media_download--1f058530.py",
+    "bytes": 3664,
+    "sha256": "40c5c01c034f2ef5a893bb26f64d256b9b57d512f13fc58289470879b9b682bb"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\requirements.txt",
@@ -81,22 +106,36 @@
     "source_reference": "D:\\MP3.Varvi\\static\\app.js",
     "status": "copiat",
     "saved_path": "fisiere/app--8ea46bf8.js",
-    "bytes": 6063,
-    "sha256": "8dc6e7756f0cb9b5ed21e948168b617ae2622eacfd92abb91262b19442b30e1b"
+    "bytes": 6154,
+    "sha256": "d3ea678d9a2695478cf841de373b7c71243236122b8392a35dc1766d6e361742"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\static\\merge.js",
+    "status": "copiat",
+    "saved_path": "fisiere/merge--3ef434af.js",
+    "bytes": 6032,
+    "sha256": "13141b6c6d805b93edfc5266dabfec9ec456584649c442f59b0cbd24e962802f"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\templates\\index.html",
     "status": "copiat",
     "saved_path": "fisiere/index--1e2eda9f.html",
-    "bytes": 6468,
-    "sha256": "7674e1319b350168f2873e28cf566cd500750894bb2c3707e2532f3bab96413d"
+    "bytes": 8987,
+    "sha256": "ae2102028d95c917e7fac0f4d77abdf27c4d782c0da9b911b904c5ddccde82b3"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\tests\\browser-merge.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/browser-merge--1d0ad70c.cjs",
+    "bytes": 2147,
+    "sha256": "aa757ad11e2ee2be77e0b624a707bd06d13b66d778e8716f6e23b16a54df9c7f"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\tests\\browser.cjs",
     "status": "copiat",
     "saved_path": "fisiere/browser--c81c4c0f.cjs",
-    "bytes": 2473,
-    "sha256": "55c4bf0bdd234dbd3c7c2f45d4e8fdf2c703a9e44666aa4cbcd73649e3ccffdf"
+    "bytes": 3378,
+    "sha256": "c0e773c4ae6da0de3fe570e8ea7b72645135d5a0e7b79bc75251c315ad0fdedb"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\tests\\test_app.py",
@@ -120,11 +159,32 @@
     "sha256": "89e4aa8109d9abdf7d5a747fcaf997f24ac31a20a1dd5b46fb9a3261207cfa58"
   },
   {
+    "source_reference": "D:\\MP3.Varvi\\tests\\test_merge.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_merge--0bb0e64e.py",
+    "bytes": 4823,
+    "sha256": "b927c1ac461e30fdb136903690765390bc8f8c5798a4659af0f9f122d0741040"
+  },
+  {
     "source_reference": "D:\\MP3.Varvi\\tests\\test_pacing.py",
     "status": "copiat",
     "saved_path": "fisiere/test_pacing--eeab81b3.py",
     "bytes": 2973,
     "sha256": "5f69e105d8c16d0c72039e0157f3119a2a8161c23cf57b55995cf4b0ebb8c7aa"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\tests\\test_video.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_video--f49b1e74.py",
+    "bytes": 5235,
+    "sha256": "e1bef4a68bec32be15137075e250041f5bdef4943cafd485cecdb8cb356a5468"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\video_merge.py",
+    "status": "copiat",
+    "saved_path": "fisiere/video_merge--5b72d783.py",
+    "bytes": 9871,
+    "sha256": "32e7d0f0d6909c486ff3d91ff411ad3c4a4141d31f992f3da62806b704c84de2"
   },
   {
     "source_reference": "http://127.0.0.1:8765",

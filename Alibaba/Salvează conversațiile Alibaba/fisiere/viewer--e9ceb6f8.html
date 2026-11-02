@@ -1,0 +1,67 @@
+<!doctype html><html lang="ro"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alibaba · Arhivă locală</title><style>
+*{box-sizing:border-box}body{margin:0;font:14px 'Segoe UI',sans-serif;color:#26313c;background:#f5f7fa}button,input{font:inherit}button{cursor:pointer}header{height:76px;background:white;border-bottom:1px solid #e6e9ed;display:flex;align-items:center;padding:0 28px;gap:14px}.logo{background:#ff6508;color:white;width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-size:27px;font-weight:bold}header strong{font-size:20px}small{display:block;color:#8a939e;margin-top:4px}#connection{margin-left:auto;color:#478652;background:#f0f8f1;border-radius:20px;padding:8px 13px;font-size:12px}.layout{display:grid;grid-template-columns:340px 1fr;height:calc(100vh - 76px)}aside{background:white;border-right:1px solid #e5e9ef;display:flex;flex-direction:column;overflow:hidden}.sidehead{padding:24px 20px 16px}h2{margin:0 0 18px;font-size:20px}#count{font-size:12px;color:#9aa0a7;font-weight:400}input{width:100%;border:1px solid #e5e8ee;border-radius:8px;padding:11px;background:#f7f8fa}.tab{color:#ef680d;border-bottom:1px solid #eee;padding:16px 0 12px;font-size:12px}#list{overflow:auto}.person{border:0;border-bottom:1px solid #f0f2f5;background:white;display:flex;gap:13px;width:100%;text-align:left;padding:18px 20px}.person:hover{background:#fafafa}.person.active{background:#fff2e8;border-left:3px solid #ff6508;padding-left:17px}.avatar{width:42px;height:42px;flex-shrink:0;border-radius:50%;background:#e9eff6;color:#59738b;display:grid;place-items:center;font-weight:600}.active .avatar{background:#ffdcc4;color:#b55a1b}.detail{min-width:0}.detail strong{display:block;margin:2px 0 7px}.preview{color:#949ca5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px}main{display:flex;flex-direction:column;overflow:hidden;min-width:0}.chathead{display:flex;gap:13px;align-items:center;background:white;border-bottom:1px solid #e6e9ed;padding:20px 28px}h1{margin:0;font-size:18px}.actions{margin-left:auto;display:flex;gap:8px}.actions button{background:white;border:1px solid #e1e5eb;border-radius:7px;color:#606e7b;padding:9px 12px}#notice{background:#fff8ee;color:#99703b;font-size:12px;padding:11px 28px}#messages{flex:1;overflow:auto;padding:28px 5%}.row{display:flex;flex-direction:column;align-items:flex-start;margin-bottom:22px}.row.self{align-items:flex-end}.meta{font-size:11px;color:#929ca6;margin:0 3px 7px}.bubble{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.6;background:white;border:1px solid #e8edf2;box-shadow:0 1px 2px #00000008;border-radius:0 12px 12px 12px;padding:13px 16px;max-width:min(720px,92%)}.self .bubble{background:#fff0e3;border-color:#ffe1ca;border-radius:12px 0 12px 12px}.bubble img,.bubble video{display:block;max-width:100%;max-height:380px;border-radius:8px;margin-top:12px}.file{display:block;background:#f4f7fa;border-radius:8px;padding:10px;margin-top:10px;color:#34668e;text-decoration:none;white-space:normal}.pending{color:#949ca5}.empty{display:grid;place-content:center;height:100%;color:#919ba5;text-align:center}.empty b{font-weight:500;font-size:24px;color:#536170;margin-bottom:12px}footer{background:white;border-top:1px solid #e6e9ed;color:#8d98a3;padding:15px 28px;font-size:12px}#back{display:none}@media(max-width:850px){.layout{grid-template-columns:260px 1fr}.chathead{padding:16px}.actions button{padding:7px;font-size:11px}#messages{padding:20px 14px}}@media(max-width:590px){.layout{grid-template-columns:1fr}aside{display:none}.choose aside{display:flex}.choose main{display:none}#back{display:block;background:white;border:0;font-size:22px}header{padding:0 15px}header small{max-width:190px;overflow:hidden;white-space:nowrap}#connection{font-size:10px}.bubble{max-width:100%}}
+
+#connection.online{color:#26743a;background:#e6f6e9}#connection.offline{color:#a62727;background:#ffe7e7}#connection.checking{color:#756327;background:#fff4d7}
+#start-server{border:1px solid #dce2e8;border-radius:8px;background:#fff;padding:9px 12px;color:#26313c}#start-server:disabled{opacity:.5;cursor:default}@media(max-width:590px){header{gap:8px}#start-server{font-size:11px;padding:7px}header strong{font-size:15px}header small{max-width:100px}}
+</style><header><div class="logo">a</div><div><strong>Alibaba <span style="color:#96a0aa;font-weight:400">/ Arhivă</span></strong><small id="path">Conversațiile tale salvate local</small></div><span id="connection" role="status" aria-live="polite">Verificare server…</span><button id="start-server" disabled>Pornește serverul</button></header><div class="layout" id="layout"><aside><div class="sidehead"><h2>Conversații <span id="count">0</span></h2><input id="search" placeholder="Caută partener sau mesaj…" aria-label="Căutare"><div class="tab">Toate conversațiile salvate</div></div><div id="list"></div></aside><main><div class="chathead"><button id="back" aria-label="Lista partenerilor">‹</button><div class="avatar" id="avatar">A</div><div><h1 id="name">Arhiva Alibaba</h1><small id="info">Selectează un partener din listă</small></div><div class="actions"><button id="refresh">Actualizează</button><button id="retry">Reîncearcă fișierele</button></div></div><div id="notice">Vizualizare locală. Mesajele nu pot fi trimise din această pagină.</div><div id="messages"><div class="empty"><b>Conversațiile tale, într-un singur loc</b>Mesaje, fotografii și documente salvate pe calculator.</div></div><footer id="footer">Arhivă locală</footer></main></div><script>
+if(location.port==='8765')location.replace('http://127.0.0.1:8766/');
+const token='__TOKEN__',$=id=>document.getElementById(id);let selected='',summaries=[],cache=new Map(),fingerprint='',searchVersion=0;
+async function api(path,method='GET'){const r=await fetch('/api/'+path,{method,headers:{'X-Archive-Key':token},signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('Serverul local nu răspunde ('+r.status+').');return r.json()}
+function el(tag,cls,text){const e=document.createElement(tag);e.className=cls||'';if(text!==undefined)e.textContent=text;return e}
+const initials=n=>n.split(/\s+/).slice(0,2).map(s=>s[0]).join('').toUpperCase();
+function drawList(){const q=$('search').value.toLowerCase().trim();$('list').replaceChildren();for(const d of summaries){if(q&&!(d.contact+' '+d.preview+' '+(cache.get(d.id)?.messages.map(m=>m.text).join(' ')||'')).toLowerCase().includes(q))continue;const b=el('button','person'+(d.id===selected?' active':'')),t=el('div','detail');b.append(el('span','avatar',initials(d.contact)));t.append(el('strong','',d.contact),el('div','preview',d.preview||d.messages+' mesaje'));b.append(t);b.onclick=()=>select(d.id).catch(showError);$('list').append(b)}}
+function showError(e){$('notice').textContent=e.message}
+function addFile(b,a,d){if(a.status!=='complete'){b.append(el('div','file pending',(a.name||'Fișier')+' · '+({failed:'descărcare eșuată',pending:'în așteptare',downloading:'se descarcă'}[a.status]||a.status)));return}const url='/files/'+encodeURIComponent(d.id)+'/'+a.fileKey+'?key='+token,link=el('a','file','↧ '+(a.name||'Atașament'));link.href=url;link.target='_blank';link.rel='noopener';b.append(link);if(['image','video'].includes(a.kind)){const media=el(a.kind==='image'?'img':'video');media.src=url;if(a.kind==='image'){media.alt=a.name||'Imagine';media.loading='lazy'}else{media.controls=true;media.preload='none'}b.append(media)}}
+async function select(id,refresh=false){
+ selected=id;$('layout').classList.remove('choose');drawList();
+ const d=await api('conversation/'+encodeURIComponent(id));if(selected!==id)return;
+ cache.set(id,d);const f=JSON.stringify(d);if(refresh&&fingerprint===f)return;fingerprint=f;
+ $('name').textContent=d.contact;$('avatar').textContent=initials(d.contact);
+ $('info').textContent=d.messages.length+' mesaje · '+d.attachments.length+' atașamente';
+ $('notice').textContent=d.historyComplete?'Începutul istoricului a fost observat. Aceasta este o copie locală.':'Istoric parțial: sunt afișate mesajele salvate până acum. Extensia poate încărca restul.';
+ const box=$('messages'),position=box.scrollTop;box.replaceChildren();
+ const messages=[...d.messages];
+ if(messages.some(m=>m.time&&Number.isFinite(Date.parse(m.time))))messages.sort((a,b)=>(Date.parse(a.time)||0)-(Date.parse(b.time)||0));
+ for(const m of messages){
+  const row=el('article','row'+(m.sender==='self'?' self':''));row.dataset.messageKey=m.key;
+  row.append(el('div','meta',(m.sender==='self'?'Tu':m.sender==='partner'?d.contact:'Mesaj salvat')+(m.time?' · '+m.time:'')));
+  const b=el('div','bubble');b.append(el('span','message-text',m.text||''));
+  for(const a of d.attachments.filter(a=>a.messageKey===m.key))addFile(b,a,d);
+  for(const a of d.unresolved.filter(a=>a.messageKey===m.key))b.append(el('div','file pending',a.name+' · fără link direct'));
+  row.append(b);box.append(row);
+ }
+ const unmatched=d.attachments.filter(a=>!messages.some(m=>m.key===a.messageKey));
+ if(unmatched.length){const b=el('article','bubble','Alte atașamente ale conversației');for(const a of unmatched)addFile(b,a,d);box.append(b)}
+ $('footer').textContent=d.attachments.filter(a=>a.status==='complete').length+' fișiere salvate · '+d.attachments.filter(a=>a.status==='failed').length+' eșuate · '+d.unresolved.length+' fără link direct';
+ box.scrollTop=refresh?position:0;
+}
+
+let loading=false,starting=false;
+function serverState(running,label){
+ $('connection').className=running?'online':'offline';
+ $('connection').textContent=(running?'● ':'● ')+(label||(running?'Server de comunicare pornit':'Server de comunicare oprit'));
+ $('start-server').disabled=running||starting;
+ $('start-server').textContent=starting?'Se pornește…':running?'Server pornit':'Pornește serverul';
+}
+async function control(path,method='GET'){
+ const r=await fetch('/control/'+path,{method,headers:{'X-Archive-Key':token},signal:AbortSignal.timeout(method==='POST'?20000:5000)});
+ const data=await r.json();if(!r.ok)throw Error(data.error||'Lansatorul local nu răspunde.');return data;
+}
+async function load(){
+ if(loading)return;loading=true;
+ try{
+  let health;
+  try{health=await control('status')}catch(e){serverState(false,'Lansator local indisponibil');$('notice').textContent='Deschide software/server/Deschide-arhiva.cmd pentru a reactiva lansatorul local.';return}
+  serverState(health.running);
+  if(!health.running){$('notice').textContent='Serverul de comunicare este oprit sau nu răspunde. Apasă Pornește serverul. Datele deja salvate sunt păstrate.';return}
+  try{const s=await api('status');summaries=s.conversations.sort((a,b)=>a.contact.localeCompare(b.contact));$('path').textContent=s.root;$('count').textContent=summaries.length;drawList();if(selected)await select(selected,true);else if(summaries.length)await select(summaries[0].id)}catch(e){showError(e)}
+ }finally{loading=false}
+}
+$('start-server').onclick=async()=>{
+ if(starting)return;let startError='';starting=true;serverState(false,'Se pornește serverul…');$('connection').className='checking';
+ try{const r=await control('start','POST');if(!r.running)throw Error('Pornirea nu a fost confirmată.');serverState(true);$('notice').textContent='Server pornit. Se actualizează arhiva.'}
+ catch(e){serverState(false);startError=e.message+' Dacă lansatorul nu răspunde, deschide Deschide-arhiva.cmd.'}
+ finally{starting=false;await load();if(startError)$('notice').textContent=startError}
+};
+$('search').oninput=async()=>{drawList();const version=++searchVersion;if(!$('search').value.trim())return;for(const d of summaries){if(version!==searchVersion)return;if(!cache.has(d.id))try{cache.set(d.id,await api('conversation/'+encodeURIComponent(d.id)))}catch{}}if(version===searchVersion)drawList()};$('refresh').onclick=load;$('retry').onclick=async()=>{try{await api('retry','POST');await load()}catch(e){showError(e)}};$('back').onclick=()=>$('layout').classList.add('choose');load();setInterval(load,5000);
+</script></html>

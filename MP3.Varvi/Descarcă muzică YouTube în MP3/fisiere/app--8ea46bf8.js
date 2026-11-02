@@ -31,7 +31,7 @@ async function poll(id) {
     const job = await responseJSON(response);
     $('message').textContent = job.message;
     const batch = job.batch_total ? `LINK ${job.batch_current} / ${job.batch_total} · ${job.source_label} · ` : '';
-    $('count').textContent = `${batch}PIESA ${job.current} / ${job.total} · ${job.files.length} SALVATE`;
+    $('count').textContent = `${batch}PIESA ${job.current} / ${job.total} · ${job.files.length} FIȘIERE SALVATE`;
     $('progress').value = job.percent;
     $('folder').textContent = job.folder || '';
     $('results').replaceChildren();
@@ -41,7 +41,7 @@ async function poll(id) {
         const cell = document.createElement('td'); cell.textContent = value; row.append(cell);
       }
       const cell = document.createElement('td'), link = document.createElement('a');
-      link.href = fileUrl(file.file); link.textContent = 'MP3 ↓'; cell.append(link); row.append(cell);
+      link.href = fileUrl(file.file); link.textContent = (file.format || 'mp3').toUpperCase() + ' ↓'; cell.append(link); row.append(cell);
       $('results').append(row);
     }
     const logs = [...job.errors.map(e => `${e.source || ''} Piesa ${e.index}: ${e.title}\n${e.error}`), ...job.warnings];
@@ -62,7 +62,7 @@ $('form').addEventListener('submit', async event => {
   try {
     const data = await responseJSON(await fetch('/api/jobs', {
       method: 'POST', headers: {'Content-Type': 'application/json', 'X-MP3-App': 'local'},
-      body: JSON.stringify({url: $('url').value, quality: $('quality').value})
+      body: JSON.stringify({url: $('url').value, quality: $('quality').value, mode: $('mode').value})
     }));
     beginJob(data.id);
   } catch (error) { $('error').textContent = error.message; setBusy(false); }
@@ -105,7 +105,7 @@ $('excel-start').addEventListener('click', async () => {
   try {
     const data = await responseJSON(await fetch(`/api/imports/${importId}/start`, {
       method: 'POST', headers: {'Content-Type': 'application/json', 'X-MP3-App': 'local'},
-      body: JSON.stringify({quality: $('quality').value})
+      body: JSON.stringify({quality: $('quality').value, mode: $('mode').value})
     }));
     importId = null; beginJob(data.id);
     $('job').scrollIntoView({behavior: 'smooth'});

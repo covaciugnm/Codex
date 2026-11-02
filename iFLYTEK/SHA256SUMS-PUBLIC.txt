@@ -1,0 +1,447 @@
+13b10171db8578a05a2f388d8cec37be6690d34520b3403b246e0380273af6f0  Add iFLYTEK deploy key/conversatie.md
+9f326fa41cd639b3cb1d0da4addd1b737661d2ba2e144781115dff0c25861f9e  Add iFLYTEK deploy key/fisiere/AI_Glasses_2026--9bf85c42.html
+9f326fa41cd639b3cb1d0da4addd1b737661d2ba2e144781115dff0c25861f9e  Add iFLYTEK deploy key/fisiere/AI_Glasses_2026--d3b3d026.html
+daadbe0d1c0636359c0e6075545f8ade7d717544521b00ecd50f718299e73272  Add iFLYTEK deploy key/fisiere/AI_Glasses_2026_Livrare--a0e72d5f.zip
+daadbe0d1c0636359c0e6075545f8ade7d717544521b00ecd50f718299e73272  Add iFLYTEK deploy key/fisiere/AI_Glasses_2026_Livrare--f9fb5471.zip
+26239da407d9518f23db41e24db89575899eadb5581b2b5b7fce76a00f7af3d0  Add iFLYTEK deploy key/fisiere/audit-final--29a5ae81.html
+4d86973056573f824c3bd5cc801f0d94f1e9f9d3f95f325fe9dc1476ffd2123e  Add iFLYTEK deploy key/fisiere/catalog-data--94106797.json
+47991e7f8dd4c1d41bcb25cd35a5a385144f984f811d00dfa76d3b99e7dbefcf  Add iFLYTEK deploy key/fisiere/regional-sources--27b37000.json
+d131185cf6c8c30b3584a4a4bdabb9ab4b1797e3130b40c95894537854fefa83  Add iFLYTEK deploy key/fisiere/template-analiza-v3--e0ce1753.html
+1b46058ec8ba9f94e087e829076db61180ff09a8379b0b7151a9d71b07d899fb  Add iFLYTEK deploy key/fisiere-index.json
+2b32b1a9583c5b68a202712d87669b8d9fd74c0e9757440d83ed6c912142f932  Add iFLYTEK deploy key/istoric.json
+fe3e8680d0680090395dc02dde4fb280b11221f1af25cb4ef6bcf8f731f22cbe  Add iFLYTEK deploy key/metadate.json
+871162d4dd3626eb44ca5f82f5ed175a12090416bcbf81dff3523380fda6df61  Add iFLYTEK deploy key/rezultate.md
+17eba28988333edfd40014e7647ae52016c1fc197865b362331e731ef1f71c63  arhiva-001.zip
+eb0df49be83baa75c03fa588c91aa540a8676613c528f694c70f02504d15bf74  arhiva-002.zip
+b818c086e74b9dabbcde9317e283db8e6050b981bad577028e85374dc6aa9b45  arhiva-003.zip
+851294235b1ffe0f97ce1237dc37727d6c70ad6119ee97366cbbfd3371b438b8  Caută iFLYTEK AI Glasses și aplicații/conversatie.md
+1745666fa9814e4e31a8f40e4f538ccc8f7b2e7b6eac35bca2c3dd959a972d16  Caută iFLYTEK AI Glasses și aplicații/fisiere/alibaba-links--4c62cafe.json
+8115b5d451ddd4ec25beac924f1196fc557d8b99f788cda5dd7db4d5748e3fbe  Caută iFLYTEK AI Glasses și aplicații/fisiere/AUDIT-PRELIMINAR--7ea5d3b1.md
+576fa1c69d8009d8104e4f7e455087af63785a17a46dc23778378339b6f3a72d  Caută iFLYTEK AI Glasses și aplicații/fisiere/audit-retailers-20261101--939a7acf.cjs
+15765ec8b29a7d517de07584d2f14c14340487bd44096f9698758851683bad2b  Caută iFLYTEK AI Glasses și aplicații/fisiere/BASELINE-RAW-FINDING--64de9f98.md
+afe863cd6222b010815c83efae6ff1139910b650b5199e3e2f3c790d9cffa151  Caută iFLYTEK AI Glasses și aplicații/fisiere/check-international-app-availability-20261101--4012c175.cjs
+fdb424a3e9c31f85955c0da5b1f8c4c91696be8ce59d977cc53be5a8ea955bf4  Caută iFLYTEK AI Glasses și aplicații/fisiere/check-material-repair-candidates-20261101--74cb76da.cjs
+7aa0e2f5ebb4b9091fd0759c0623f732caf578147bdc8d0b3c0a0ec8b09e6293  Caută iFLYTEK AI Glasses și aplicații/fisiere/collect-iflytek-20261101--c25dacd5.cjs
+7546fb864b27ae72378ede58cbda396a1a1ba3a5711d3cff14002f2a63c1d2a2  Caută iFLYTEK AI Glasses și aplicații/fisiere/collect-loomy-translate-skill-20261101--39164323.cjs
+8f9d6a98b74f7166da845cd263364f2d4af7e39f2b464a12ced503ba931b1857  Caută iFLYTEK AI Glasses și aplicații/fisiere/deliver-decompilation-repair-20261101--b1b9780d.cjs
+e9dc02eac4aaaf5919a67af0209f63a025df91a4a8535205b2f810bd3d533c12  Caută iFLYTEK AI Glasses și aplicații/fisiere/download-bavvo-help-images--a77e72ea.cjs
+988498a8e10e5f7d16db5cf1017d41d3d2a8e399bc45fad2f8bbec4d2733a820  Caută iFLYTEK AI Glasses și aplicații/fisiere/download-loomy-20261101--203aa6c6.cjs
+571e226d40bcb8764c3d41c6e2916f49de385f7fc42c0a7c575bb7cbe69cf46a  Caută iFLYTEK AI Glasses și aplicații/fisiere/download-translate-macos-20261101--75b4c80c.cjs
+09661037e46f38a938b9e75764d13f89e43e3e484b50867a796c382fb9e28f28  Caută iFLYTEK AI Glasses și aplicații/fisiere/EXECUTION-NOTES--027c45f0.md
+1a31a69b287e45a70b6115efd7f505c26d9bfb76b43b435ca436f07d4d9c4f73  Caută iFLYTEK AI Glasses și aplicații/fisiere/extend-iflytek-20261101--fc3bdd81.cjs
+391edd5f7389dc5ad1c9b734bbe9e6fb3a8fa265b3340e2381f36420a76a0d9c  Caută iFLYTEK AI Glasses și aplicații/fisiere/extend-retailer-audit-20261101--899d1fa8.cjs
+cd90f1c2c062858d00eb108a9a5cb4b7e590786f77e18954a76b8c0dd55fbd06  Caută iFLYTEK AI Glasses și aplicații/fisiere/finalize-callback-candidate-notes-20261101--1ca91e46.cjs
+3511ef59e75ce045bf85622906306b2e34d3a7d0b3a890c6da9d9d30027498d7  Caută iFLYTEK AI Glasses și aplicații/fisiere/finalize-iflytek-20261101--23186300.cjs
+d0b3e569bec4bc6bcb7df9cb968efaa66b0269d421576c483497e30de408bd66  Caută iFLYTEK AI Glasses și aplicații/fisiere/finalize-loomy-translate-skill-20261101--f89d8e04.cjs
+efc04108fb542990cae11d30c3ad73cfe6cad296212895a5c58ef0c858d3817d  Caută iFLYTEK AI Glasses și aplicații/fisiere/finalize-material-candidate-notes-20261101--eff22be3.cjs
+2c1a59bc780257653ce9c93a8b6c611e2e5de739d70311e62300a29edfc83031  Caută iFLYTEK AI Glasses și aplicații/fisiere/finalize-retailer-audit-20261101--5d54bec0.cjs
+c0d52bae640bc5cae5f1a3a849de118b82bf79c104761fd3587a74e41bee2a0b  Caută iFLYTEK AI Glasses și aplicații/fisiere/gitignore--91ec8521
+bcf443a2eeb30c05ab24b780a3cc670f704f6772be12cd3ed9500756cc89ce11  Caută iFLYTEK AI Glasses și aplicații/fisiere/gitignore--bb5dfb4d
+c0f7b4c218e2fdc351b4d190eb12752976e9d20282746bf3de1f3bb6131961d9  Caută iFLYTEK AI Glasses și aplicații/fisiere/heycyan-baseline-decompile-20261101--e7a41096.cjs
+73170cdc5c3331cd6055607015c04ed8e0a314f4c0bd2fd4651e2b732d1b3da2  Caută iFLYTEK AI Glasses și aplicații/fisiere/iFLYTEK-Translate-official-CN--148366d4.apk
+a3104929d26ef138e4cc4e2c025f68fda6acb5e7f030b8e7f700446764d8767a  Caută iFLYTEK AI Glasses și aplicații/fisiere/INDEX--829009b0.html
+9ed57a7e316b5b222f5372f777394384e6b5e356df46bd0506a8d251d13a2683  Caută iFLYTEK AI Glasses și aplicații/fisiere/inspect-android-archive--75aaf083.cjs
+94479898e4d732d79de0c8dd6e18afd6d1fa5bffa3ae9a89e97e0777710b5767  Caută iFLYTEK AI Glasses și aplicații/fisiere/inspect-bavvo-global-login-20261101--62b5eda5.cjs
+2178713933a1ca9215e694264e464b82752fc32bc85d164d70e7959400484bdb  Caută iFLYTEK AI Glasses și aplicații/fisiere/INTERNATIONAL--2b12f9c0.md
+5d8488a1f94487ac5b0324b3d49aac4d900dd6c480826f770b18c7b7061bf12e  Caută iFLYTEK AI Glasses și aplicații/fisiere/jadx-null-const-experiment-20261101--b770c356.cjs
+800c6036d3a4f3b06c95318f1dcfdd4192d46a8614f1696ddb942544152283d5  Caută iFLYTEK AI Glasses și aplicații/fisiere/LIVRARE--24c8bf10.md
+10bc3bb17046e7a7a42b151b209928c94736350c9c12484ab8253724d19cd7e5  Caută iFLYTEK AI Glasses și aplicații/fisiere/make-reviewed-repair-diffs-20261101--198cf74c.cjs
+7adc9107b482dfbf86f110e631f532fb991b9d58a2e12e354c7d6225591d2e9a  Caută iFLYTEK AI Glasses și aplicații/fisiere/materialize-all-apk-versions-20261101--040c037e.cjs
+66b0b4bb476338ec6ca4a2890b88a389b270bbf0332c2bf78b1c25ea6e6d909b  Caută iFLYTEK AI Glasses și aplicații/fisiere/materialize-reviewed-decompilation-20261101--d45986c6.cjs
+1c7c3bbda40ce84bafbb98e90cd45873e7875a00ec940c92aa14ee55cd9d126e  Caută iFLYTEK AI Glasses și aplicații/fisiere/package-apk-analysis-20261101--6ca5c13d.cjs
+21b6c508b873a5287bf527f069bf085f904ff4c8c08c95ffd8ad394e38a016a8  Caută iFLYTEK AI Glasses și aplicații/fisiere/prefetch-apk-existing-git-20261101--9fb30374.cjs
+5a62dbfbbce08e1779e44279a53a7cf320cdb224bc996354c007ec463b6743ba  Caută iFLYTEK AI Glasses și aplicații/fisiere/prepare-callback-repair-20261101--9b2e89d8.cjs
+58968182521e1a521787c9e8f871a36dca976fac236618486d75af1bbffc5e30  Caută iFLYTEK AI Glasses și aplicații/fisiere/prepare-heycyan-decompilation-20261101--b75edc93.cjs
+8f7958770129ad85f98ad9e10283907d9d4f11260ba23221f508d1b5668fa34f  Caută iFLYTEK AI Glasses și aplicații/fisiere/prepare-material-repair-candidates-20261101--aceee174.cjs
+ac1d7a375f2d30dc31f1089c3cb0a3059c4a73d836134e14f40f465f0a425abc  Caută iFLYTEK AI Glasses și aplicații/fisiere/prepare-reviewed-overlays-20261101--82f41711.cjs
+0a133a86a5306ef67d00041c058e6ca44d723ea390b72d29eea53eb66b47ec56  Caută iFLYTEK AI Glasses și aplicații/fisiere/preserve-jadx-null-const-v1-20261101--97f724dc.cjs
+9c53b33c98c5a1667d3a3c8ddf09ec34a956a491015aa28b5217eb52099492c0  Caută iFLYTEK AI Glasses și aplicații/fisiere/propagate-material-repair-20261101--05fad0a4.cjs
+54828d2a994fc84a937b68c708c1b64b21090d22bd247a3ceee9d8a661a2197a  Caută iFLYTEK AI Glasses și aplicații/fisiere/README--34e71fd3.md
+016a35d5f763555ad569555ebdb938a092b4f54a2305487bebc91357a76544ca  Caută iFLYTEK AI Glasses și aplicații/fisiere/README--8773f9b8.md
+33d6ebcffd263d45e2f3868f6b857b68832d770a57d26ea0d0b40de1315dd633  Caută iFLYTEK AI Glasses și aplicații/fisiere/README--dd83ef8f.md
+4a6e416804618cc9d7c7e639170dc74b2cadcf2fd128692edcffd867e1069525  Caută iFLYTEK AI Glasses și aplicații/fisiere/README--ed121476.md
+f5078c0dd71c9b023507dee24f80e3504c639050a54a048c89a389a2b51b95e1  Caută iFLYTEK AI Glasses și aplicații/fisiere/RELEASE-NOTES--7e5e26fa.md
+828da11dfea33761db36e28a9e7c14cdd7212012fd51fe6764a3820858d37941  Caută iFLYTEK AI Glasses și aplicații/fisiere/RELEASE-NOTES--977b7976.md
+ce079655c3367f24370de2c79576ec663349085765e47dc9770760ce980e68a5  Caută iFLYTEK AI Glasses și aplicații/fisiere/restore-apk-analysis-20261101--8f903899.cjs
+407e2338f70a9a7749d69327a7d58d982b7100096b667f37d876801343535c4c  Caută iFLYTEK AI Glasses și aplicații/fisiere/retailer-assets-20261101--2197c55b.cjs
+f934d26ddfb7a0f4e05e48eaebe0ac3df194ba47d01b38a6cdd7a0178c069dde  Caută iFLYTEK AI Glasses și aplicații/fisiere/review-material-smali-20261101--33538831.cjs
+68e335878b6343d221e27a5cbba1e2be4c53f6e849837d929db0fe6a82b5f2cd  Caută iFLYTEK AI Glasses și aplicații/fisiere/scan-retailer-qr-20261101--2e6562a4.cjs
+8c1cb4354a2e091348fbbd131082c8470a6f7ca38496500cb6289398d22559a1  Caută iFLYTEK AI Glasses și aplicații/fisiere/SMS-LOGIN-SERVICES--9eaa7cf0.md
+69dae710b4237ddaa6fd108527d130780a4612971e70d591920622a7c2987e33  Caută iFLYTEK AI Glasses și aplicații/fisiere/test-repair-delivery-20261101--426ac97d.cjs
+8f63cc6d2cafcd455663782eec0affd737792780ae78f1aa80a8a3258e4ceec3  Caută iFLYTEK AI Glasses și aplicații/fisiere/test-reviewed-materializer-20261101--c5ea5b0b.cjs
+27c96e0878e6bf90c06dc4e44b8d94af099b08eb612dc34ad533c79690ce45a3  Caută iFLYTEK AI Glasses și aplicații/fisiere/verify-collection-20261101--40629e80.cjs
+07d0b8e8ff0bb7575e967d8ed7f4a0d6abb09e31d981200e335f0c0c5b6034f5  Caută iFLYTEK AI Glasses și aplicații/fisiere/verify-loomy-translate-skill-20261101--eac2e311.cjs
+284a0fb897fe100d552656a853836062c94cc11d3b4a3a25c6313d17521711e9  Caută iFLYTEK AI Glasses și aplicații/fisiere/verify-retailer-audit-20261101--6ab066da.cjs
+96f5a3757ff56672afa9a06adccd67e39a9f000a0cf4c36a5e3cac1e96ba8c9b  Caută iFLYTEK AI Glasses și aplicații/fisiere-index.json
+b1c41a8a1b3c6be7772b72f78f768b7d7b315ed3e10d9ce770fcd9c0af89b493  Caută iFLYTEK AI Glasses și aplicații/istoric.json
+8ad7ef487ce0b19ca7f119f7ad221166a8b4483a41b43543fa95eba4c1125c11  Caută iFLYTEK AI Glasses și aplicații/metadate.json
+41d60dedbf49416b6dab1fb17881c22eac465185342acd608ec30bd0abebb218  Caută iFLYTEK AI Glasses și aplicații/rezultate.md
+c0ff65fb777cef444c9d424419209b3b87f6929d27ecfc5e7a990d90104ade4e  Compară anunțurile de tablete iFLYTEK/conversatie.md
+34e8a8ae0bd7f295ba4e979b75858991bcf5780a2eaa71a73e36eaa79ef89255  Compară anunțurile de tablete iFLYTEK/fisiere-index.json
+d92f428d39ca795220d35d1e40b21636f7dc8780f96094251a9ad0a7840efe83  Compară anunțurile de tablete iFLYTEK/istoric.json
+768925394d9a0ec664d616ae1e72f73e2e5aabc7f3cae8443d1a59e47ff78243  Compară anunțurile de tablete iFLYTEK/metadate.json
+73c1a3b00a8bb84f153eb0ade30ad2e701726914e2f16f21af318fa267fd7d1a  Compară anunțurile de tablete iFLYTEK/rezultate.md
+2411dea02630f4a7945346ad9e97b59816b3376cf146ef9d97ac9155dabf0ba3  Compară iFLYTEK AINOTE Air 2/conversatie.md
+dd9891069a511704b8fbc859239184f04a662e5c4a3e7e7589eea92b1c105333  Compară iFLYTEK AINOTE Air 2/fisiere/ainote-note-api--8ab803b5.md
+15ce66070fad1bb2c9d79a485ead2a359c0f250d9a1e0fe12964de5786e30572  Compară iFLYTEK AINOTE Air 2/fisiere/ainote-port-health--a4bb61a5.md
+85ca573db01fd9ec4bbbf47796e0f9439c13f6aff018d4b3f87f017fe61fe001  Compară iFLYTEK AINOTE Air 2/fisiere/ainote-schedule-api--359b875b.md
+2b82a98b79d7794c5066077b867c02c7ba4f75647aa612e2989a76571395f8a9  Compară iFLYTEK AINOTE Air 2/fisiere/ainote-skill-sursa--53264635.md
+4985e10d3fbfc0305bff223e27c32eaead2d7744457eb86c75c97846aa8db1a9  Compară iFLYTEK AINOTE Air 2/fisiere/ainote_api--b251dfc7.py
+b41a2324626b5902e3b48918c1806ffccaf09067cb179f385b936ecdd6af0482  Compară iFLYTEK AINOTE Air 2/fisiere/analiza-solicitari--b6e2f0fc.json
+8ae49d52c75948ea12929147bbb474f1c6b066d2d858578c0854a4d10c54fd5a  Compară iFLYTEK AINOTE Air 2/fisiere/archive-apps--2d4bb867.ps1
+8739132d77c0f5ddc9cf33c6ba452f72a9ad93f2da55ff2b64a2284c956a9d40  Compară iFLYTEK AINOTE Air 2/fisiere/archive-docs--a6508ea6.ps1
+36f424c75c53fae59422c1005dbf28345b6b526940918972d82edb681a16117e  Compară iFLYTEK AINOTE Air 2/fisiere/archive-research--bad47407.ps1
+06720be72affd97d4b0d6bb4c332b11f5af7bd77a10d15cbd03ae092757f8495  Compară iFLYTEK AINOTE Air 2/fisiere/audit--a76fbd9e.txt
+6ab351829dddab7503da44a42284170ff460edec52f9ad70ccdf4d6dc0f600df  Compară iFLYTEK AINOTE Air 2/fisiere/Audit-APK--7f9a66a8.cjs
+9b3f458b988cc14749e4a4a41962cc42a00c4c1037b2a152a85c564a92cea0c9  Compară iFLYTEK AINOTE Air 2/fisiere/audit-history-notes--3f0ec26c.cjs
+3edc5e399a15c031467ef4a01c42d6c2803838408137a6d15d9bc91813ef54a3  Compară iFLYTEK AINOTE Air 2/fisiere/audit-preview--5926a467.png
+25aafa355fea387e271a096c11753890ea634c718169c46d619ab3ea4adc3414  Compară iFLYTEK AINOTE Air 2/fisiere/audit-report--10d8cd40.cjs
+d048d407fdbead1909c25dabe828a3800d49ba655d30d49139c5ff9a54cea840  Compară iFLYTEK AINOTE Air 2/fisiere/audit-state--8316dd34.cjs
+c3e457cba9cfdcbf9d7b76ceca24865e38f2484b6d2bf2691f6bc790ffe3e87d  Compară iFLYTEK AINOTE Air 2/fisiere/BaseClientParams--66941f24.java
+9d76fbe5b3c2f874472c3b36fa1c0d10315b5ca267293ff937b19c017250291d  Compară iFLYTEK AINOTE Air 2/fisiere/BatteryQuery--918dca77.java
+fcb948293f00dbb4e81419c25dc145ff90a2a66c7a5a240a8570a266ded1bf9a  Compară iFLYTEK AINOTE Air 2/fisiere/BridgeTest--ecfc2b60.java
+d670de38448302dbe14d90f87ab8c9555ae47adc9b7a522dee1e192653d926bc  Compară iFLYTEK AINOTE Air 2/fisiere/browser-check--73c149f4.cjs
+2389325a47ce1c01148d3cbd47bb3c3a6b2044d66fc6d14a4e19232cbd5eee36  Compară iFLYTEK AINOTE Air 2/fisiere/build--5f84c5f4.ps1
+ac58b310df3ef91c5de480adde75b01b9ff4341ad6f52e7c57579cbd27e803a4  Compară iFLYTEK AINOTE Air 2/fisiere/Build--f5e473f3.ps1
+f224cedd7d2817c71328261202b6f433b1da9b12fde1c544f669e02f1eb8adac  Compară iFLYTEK AINOTE Air 2/fisiere/build-library--16869ee3.ps1
+eff4a2495f779bb3ba3cd4c899b7ff432a3f197c90372d2313df6153b82dd509  Compară iFLYTEK AINOTE Air 2/fisiere/Build-Romania40--264f0e7f.ps1
+d25361d3d3cdad7e8c4d01d1c65c94ad263d0bed7a360fc2aae190e45bcb7ae4  Compară iFLYTEK AINOTE Air 2/fisiere/cadru-preview--66cdfcb5.png
+5ce68f2a8c911fcc0e2e974eeef75bd814cb2c293776341eeeffbce6705d6eaa  Compară iFLYTEK AINOTE Air 2/fisiere/CATALOG--87d2cbc8.html
+71f8e20798b83dc5e971ba834a50aa26c4d2ebc0051e5b8dd5ed75590350ce55  Compară iFLYTEK AINOTE Air 2/fisiere/catalog--eb824bbd.css
+649fa26e5589d58a120b17432c0377f1219278911858ebbe3528bfdbc4934c8d  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-dex--d65e71cf.py
+98833eb425964b83b55dd1c81a8a10590b1f0bb9f4769526b9ddf42721101582  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-enrich--c7bb9751.cjs
+6403fb1455e6cb4546d9cc45ae5283420e30a49a38932dd82241f236acd05b75  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-extra-receive--03feffe5.cjs
+cc96deed80199440b81d6d28a29596711fd200737311475ba04982db645b5268  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-extract--e2c6ee33.cjs
+7be79ccb533fb83630fa011275e5069ea75d170fbf5df2b5fcd86cd781ced7ba  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-flutter-results--e8dc4ca0.cjs
+0c9a551d97bb22e3c425f526f617fc9e09b5e5035e6618efb73e4cd5d5e82345  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-pages--2ac63501.cjs
+fd10111b4ba8c4abb8b0f1d555b02b7ef634da20f9617c0fbbe433274462417a  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-preview--3a05ab10.png
+0da0b70ed3f822224afc4f6e6fa4802be90fae77ebc5699762e396dd9492df93  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-preview--f7c332ef.png
+97afdf451b937df590586a0839c1ca35b8b1ed94cf2147dce0524a442f9db126  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-receive-listeners--12fd65a5.cjs
+fa4f27c38d17e72537102f449a1c8ad43f8f91edb6a2037a62852da11aedb65b  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-response-contracts--1a7b20d9.cjs
+9d7487bf2a7cbb77080246add7b6bc0cb691607b597e1b43df6b255f8e87c96f  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-reverified-types--7ed23622.cjs
+f225c374e251a30e91f5720a2a23d3cb91da9d4295ad4d8eeb5a2e7035488551  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-ui--71080615.js
+0a48f00b32f9c145e51e0b04937960eb5222cc5582c08ff5bba3fd891316cb09  Compară iFLYTEK AINOTE Air 2/fisiere/catalog-verify--56a13381.cjs
+54975550fbd9303309bec0a715ff593b91559b70e60bbfdc8fd58b2e66061d84  Compară iFLYTEK AINOTE Air 2/fisiere/cerinte-atomice--ef6d9e41.json
+d7cb9757c4b0c1561791f4bc546442f368d2537c0b7a5f2b21a2a86ccab32e65  Compară iFLYTEK AINOTE Air 2/fisiere/Check-Device--5010e7fe.ps1
+625f1f690089dd8e1e77f3fca137d86ec472e89e7951da7dc1227eeaf4a03c06  Compară iFLYTEK AINOTE Air 2/fisiere/check-iflytek-git-index--7823df11.cjs
+1554bc97df0eb6bc566d78d20127e92851b18789633c2114c04f9c73824fedce  Compară iFLYTEK AINOTE Air 2/fisiere/cloud-preview--75cc19d9.png
+fb2ad31fd5ac931963043dbb5a08da562c273c93e4573243ed2b5baf0ac67051  Compară iFLYTEK AINOTE Air 2/fisiere/CodecTest--11d5025e.java
+267fb9e4ef159345a14256c3f98022e975f10f4d1cac4f00e59c720c123202ca  Compară iFLYTEK AINOTE Air 2/fisiere/codex-clipboard-58d24186-cc30-47d8-9876-c8f1e3e535bd--ad500435.png
+5a2e5b52ec9de6dfc0cc8b9d5adc901625a34ed9bb4ea5421440bfeed8a733fd  Compară iFLYTEK AINOTE Air 2/fisiere/Commands--890eb5a0.java
+5bd64e734a301b66ce2e5846218e3d1732072952c4342a6dfee85090e041efc5  Compară iFLYTEK AINOTE Air 2/fisiere/Compare-Decoded--b9167e28.cjs
+ccb0bc1774cb2871b039d020027da334c5cde08c48b9c83d26a0b0d90c08fb04  Compară iFLYTEK AINOTE Air 2/fisiere/CONTINUARE-UBUNTU--e1774ca8.md
+b01872962f18eda8c8d9d4a966aaccf89bada00a957ffac0de8bb04aa9ec7353  Compară iFLYTEK AINOTE Air 2/fisiere/corectari-runda-1--a97904c9.json
+0d7ed63e543bf804a42a0bcb32a06b33cd2822c2a71762e12b77e832049db00d  Compară iFLYTEK AINOTE Air 2/fisiere/country-selector--f9532e9d.png
+b981262481101db153a0070a891e9f1dfd3cfcc053bc03f42847641e6430e1e5  Compară iFLYTEK AINOTE Air 2/fisiere/device-test--6683471a.json
+2e429a231a9a61c63ea8ad294b4efd5e476b2b6935281cbd979926e21f274b91  Compară iFLYTEK AINOTE Air 2/fisiere/device-test--a3ae04a9.json
+6d93c7a92db1cd10bf2d838aa477f007a0828e91abaf1f826cfbcadfa93d7caf  Compară iFLYTEK AINOTE Air 2/fisiere/dex-ui--1d601013.js
+15e7e2b7ae53351b10f58e87cc13e9b95e6573c5bec55fc2dc6d19bafcaa4462  Compară iFLYTEK AINOTE Air 2/fisiere/documentation--7b82c842.cjs
+5538fedf2f7b2b13839d95bb9ce4ec482b373f90f8fb98e0b031ce7b1e227edc  Compară iFLYTEK AINOTE Air 2/fisiere/evolutie-concluzii--76acd80e.json
+13a7c624c86bd0379f41ae446c4acbbdba0f40ebb7914d6d4a2be5c0a7660314  Compară iFLYTEK AINOTE Air 2/fisiere/Export-Source--ba391489.ps1
+0c45346a4200f3307a380502501e909e7c7f1656361f24cb13c2f0935e06be4b  Compară iFLYTEK AINOTE Air 2/fisiere/ExportSmali--2553f390.java
+3fb074ae7694447c164027687b2146a11bb2d83236c965c89e7fd2a9aaaae711  Compară iFLYTEK AINOTE Air 2/fisiere/ExtractBluetooth--e292b157.java
+bf0eaf8d39abc2dc2a8c998bf794c96576325ea11bf66c0d51bd5c23b660a146  Compară iFLYTEK AINOTE Air 2/fisiere/finalize--afed08e0.cjs
+ec983ab64b7d2da4ddc171356be779395ecfc61bbdc68055748d39e757a546b5  Compară iFLYTEK AINOTE Air 2/fisiere/finish-docs--51db1cf4.py
+46962e5c33b3dd50819de418f7e42d054619eeb40c9b5f3d6b666d5aa2502849  Compară iFLYTEK AINOTE Air 2/fisiere/finish-iflytek-metadata--f315c486.cjs
+1cdcfd095aea2e1a0350220129cceab012a9515fd7dd84d1321ae7e4e1e0c322  Compară iFLYTEK AINOTE Air 2/fisiere/firmware-audit--b9873fec.py
+93687fe27a92760cdfaedf0437d05c6e57a52c1c30ba5b66220616cee8086bdb  Compară iFLYTEK AINOTE Air 2/fisiere/firmware-report--581be41a.cjs
+b607fe055291adac2b68fcef06ef1ec45b12a5665df675e67f560a4660b8b719  Compară iFLYTEK AINOTE Air 2/fisiere/first-start--09397f95.png
+11cc1bf713affaff29171b5ce9f04f8914e900822aa744056d8bde1eaab0140d  Compară iFLYTEK AINOTE Air 2/fisiere/FrameCodec--b2a15bfa.java
+c394bc01652177d23923f9e13cc5ec1a6c60ece7d91194524c21e48e29b3a190  Compară iFLYTEK AINOTE Air 2/fisiere/functie-preview--65f6d0d3.png
+78392255875c5be36db476ad6e9a701e7c32a71d8ff6e71d8a1080a28f6c6f9a  Compară iFLYTEK AINOTE Air 2/fisiere/gitattributes--f0ff5c7b
+c07c257ee79f1e0e2a2b324b74bb2326c62a247259ce0f5860c8660f12f3d8e0  Compară iFLYTEK AINOTE Air 2/fisiere/gitignore--0dfe4961
+3810b0e1a0b54c987963f2608cda779ea9f1d084648391b24936794d33a08767  Compară iFLYTEK AINOTE Air 2/fisiere/gitignore--9c995b07
+10ef04ba6a9a3cac059cc25e5fdbf2f29d7fa75bc8a38c7336e355f38264563a  Compară iFLYTEK AINOTE Air 2/fisiere/GlassesProfile--f06594bd.java
+e958c7d9f6bffdaac307a6bcb8c2d67d1cb372c7aba3bbc210187cfcbf081479  Compară iFLYTEK AINOTE Air 2/fisiere/ic_app_launcher--08804448.png
+a31b0a93a4f0df933af5637fe855435b191401fd5618a1b693370ba71cf0bd9a  Compară iFLYTEK AINOTE Air 2/fisiere/iflytek-apk-release-notes-20261031--fac8ec3e.md
+2d04efae0f37616615d6a5ff15ab67d7d68d9c7e0df114c9adc7b3585781674f  Compară iFLYTEK AINOTE Air 2/fisiere/iflytek-snapshot--ad116dbb.cjs
+847a694f25e763b1478c18fd15c201b89366ace95d2883208d1ee275e447ea43  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--21844dcb.html
+d7fa7614cbca5b6f8f408c7e3dc016605bc0a14757d07062fe2de40cd10dd9dc  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--25142e2c.html
+73dc5f4a7dfefacfd434b474247fbb389bb4e5d295eeb497e17809e63c033ea5  Compară iFLYTEK AINOTE Air 2/fisiere/index--3559e84e.html
+fa2975cff4277fae293d90fb3245a6b96dbe87e3a6d2b3023399049b328bcc66  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--4e26f16c.html
+b0ee603cb54284baab479812f7e2f4246ba69447cc56fe20d6ce50485775991a  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--870fa72e.html
+52180a6ddbb634ef2ba08e5071657fe7342ac2b75d218b94f97028af1b1f4e5b  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--87851387.html
+96f00e7f2fd455b9ee384e700f173ec763592cd58b8f21b8d8bda9ed28c952cc  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--8b85f68b.html
+c4f4c472aab8e499267b6455101ccd36ed9b8532cf1288215f48ce57a0b6fbae  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--96d06f1b.html
+61df2dfcd12c29d1733c910bb14b584cdbf83d9c2cd27c424b45eb0de71f6534  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--9b1db006.html
+2a1d8fd6b15d1b41c7cd5349eae198a9248c799d83739c651b7a7bbea86faadc  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--b275b925.html
+b0ee603cb54284baab479812f7e2f4246ba69447cc56fe20d6ce50485775991a  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--b7006699.html
+efe5ec65603638f368b820ef7b84330c29eaa35080427122a2d0a55c02bf2a56  Compară iFLYTEK AINOTE Air 2/fisiere/INDEX--ba92442a.html
+9a75b3f3d8e7fea0ff85733531aaa26e9ea688deed7223a379971b3eb770988e  Compară iFLYTEK AINOTE Air 2/fisiere/install-status--0acae75c.png
+58317912faae99b91db233f4e527bc4cff6a94029eb3b9bea2b66091ed024ef0  Compară iFLYTEK AINOTE Air 2/fisiere/inventory--20dacdd2.cjs
+429a95b308bcb879b17957a5963b550719692ca1d5640924a65ff58a85e7075c  Compară iFLYTEK AINOTE Air 2/fisiere/istoric-conversatie--b3e419b2.json
+be2930002f3b881767d4936148eaf2bf9b31fef826ab164019f2afbfff77e704  Compară iFLYTEK AINOTE Air 2/fisiere/kh4--5a80896f.java
+2e4a47d4646a7631fb0e86126f8474e01d518cdda9f91b817b25147b2f2f9022  Compară iFLYTEK AINOTE Air 2/fisiere/login--99b8ce0c.png
+3a126a3959fd150a46b7bde462262050f1ce3e839d24a895fe639a2f787f4a41  Compară iFLYTEK AINOTE Air 2/fisiere/login--c6a47dbc.png
+584bd653730eebed8db46efab0abed7355584f66964ea7eb4e5e246687bbf64c  Compară iFLYTEK AINOTE Air 2/fisiere/login-ready--dacced37.png
+04115a5604d4713c2466eb0b22f70a50012266a1a6141ee4c80dea57c0f94df3  Compară iFLYTEK AINOTE Air 2/fisiere/login2--04669ec3.png
+74a29e7730547978138c3ab699e167e88242c312ea30527e378a1b235439e88c  Compară iFLYTEK AINOTE Air 2/fisiere/metode-imbunatatire--f68bb086.json
+02084b9e6dcf3f6ca1027657b91883d88d7e4061792f85d2092890b0cc19bf0b  Compară iFLYTEK AINOTE Air 2/fisiere/Mode--35f50acd.java
+c8cd246aa0acdb750f995b7a77d105962e0aef878a916889c119346d8ca434de  Compară iFLYTEK AINOTE Air 2/fisiere/model-raspuns--ad3be2f6.txt
+e5adb7e5d8afcdd0cae029a0c8b2a48f6d936856226fc7c596586f4816f42710  Compară iFLYTEK AINOTE Air 2/fisiere/normalization--6e337e81.cjs
+c6f811ba18df205cd6d3098b8fabba26658793df21e67eddad380fb07c8ec9be  Compară iFLYTEK AINOTE Air 2/fisiere/ota-preview--913c9ee4.png
+e76815c5dca376b4366aea0b1e3244e5f008e326b8103826c253739c585ed5d9  Compară iFLYTEK AINOTE Air 2/fisiere/package-iflytek-handoff--6275c644.py
+30cdf0ac8827bad4c15ba850ea43dfc5167ca64ebed7f88e8873cdb7f9d1adca  Compară iFLYTEK AINOTE Air 2/fisiere/package_variant--f2795105.py
+ecdb44e5d35f362ef52dacd578f751a4502b202cad0d3037d7bce518c09eb6d0  Compară iFLYTEK AINOTE Air 2/fisiere/password-login--de7d6885.png
+c4b9bcb49529f7307580ee6bcdf0f6b2eb8b0acfbe0b66a2f51ddb381ff58ea4  Compară iFLYTEK AINOTE Air 2/fisiere/patch_native--ea358ab3.py
+af1b68864b67abcae4009c88fd43d132b8f93ad58527693c717c591bc8061742  Compară iFLYTEK AINOTE Air 2/fisiere/plan-experimente--695d6512.json
+16688c9f9965536b80d16eb3c954686c8191cf5fc610b24bd24b6190cca34a92  Compară iFLYTEK AINOTE Air 2/fisiere/Politica_aplicatie_oficiala--95b0dd59.html
+827c5ea0c146495e78eae42ed26a079cbf47a9d9f540d8acd093288d09c63c1c  Compară iFLYTEK AINOTE Air 2/fisiere/prepare-iflytek-upload--3cfef5bd.cjs
+0f05d833ae931d07dfa0e4e5daf8bd0e63e9e2cb48f52f86272c2e12047b908b  Compară iFLYTEK AINOTE Air 2/fisiere/preview-desktop--37132bd3.png
+ae7f8d523e1d85555c5c31e2d26969a8cd355e4defed2430303223891de23a2f  Compară iFLYTEK AINOTE Air 2/fisiere/preview-desktop--72e7b3d0.png
+c2fa1dc94827f6e49226fe137063506b88b092d72fcb4d276534864379276435  Compară iFLYTEK AINOTE Air 2/fisiere/preview-mobile--6e7a423b.png
+0cdbf74095891600655b50ae2633fbfd4f3698d722b03a6a5456b53c9f171be8  Compară iFLYTEK AINOTE Air 2/fisiere/preview-mobile--7b2e3a83.png
+50f988484e700c275e5fe78e50be6f8627b29f48023c9a2ca1e1387f89d2e8de  Compară iFLYTEK AINOTE Air 2/fisiere/profile--ef118d52.png
+4f7ec9b3471149f7a8d266a39f9544d9db7324c8438ef6cc2a6b54b91daa1aef  Compară iFLYTEK AINOTE Air 2/fisiere/PROTOCOL--cf079757.md
+f05f7c852b180f031675b3fb09e5f21d9becebf1a8d12195f6fe9ea3b50dc3a7  Compară iFLYTEK AINOTE Air 2/fisiere/protocol-browser-check--30322395.cjs
+1b393d7f33cc8325f71e48e35aa4c65f7fb9bf458c7677427f595b8e84520ef9  Compară iFLYTEK AINOTE Air 2/fisiere/protocol-inventory--6469ddd3.cjs
+c02330f7e5f767a8314f431d1811c2870023d5f7ce0daef807a247b2904d5390  Compară iFLYTEK AINOTE Air 2/fisiere/protocol-report--8b892757.cjs
+ebb5ca534cd6c6b5435827cda4337c40f85ed6a8147661c6fef31b454f900b1e  Compară iFLYTEK AINOTE Air 2/fisiere/quality-review-build--846b55cb.cjs
+dded62d9621c0980b782e6faad70e3a4a74fdb5cff5eceef30d56a9903e64a01  Compară iFLYTEK AINOTE Air 2/fisiere/quality-review-verify--55b6f7d9.cjs
+480499766f14e3dab7a4fbbaa81f6fc23ba92525ca99a65c893b2993e49e76ba  Compară iFLYTEK AINOTE Air 2/fisiere/Raport_Bluetooth_extins--042413e4.txt
+0596789d8b747031ed7e35b0bef449d9abc0a289ea9f121919656fbe2daa799c  Compară iFLYTEK AINOTE Air 2/fisiere/Raport_SDK--615fc811.txt
+360d841a2e5dd4c202c8661c888e2ec0c9407364449593924c7fa2fc05b6c0ba  Compară iFLYTEK AINOTE Air 2/fisiere/README--59d464cf.md
+70d0f0943f9ef2c0d67cada7d0c27e82f418059451b507d14c5004cba29d67a0  Compară iFLYTEK AINOTE Air 2/fisiere/README--79f3d8a6.md
+2173b26644dfec047eef759fb943c931fa514cadca4cd038abc43dbf5a1fcff8  Compară iFLYTEK AINOTE Air 2/fisiere/README--8bed4bd3.md
+d3a7c91bf8bc609eab005ede852b1c89d32edca5f238b80e043f2b9a2663394a  Compară iFLYTEK AINOTE Air 2/fisiere/README--bdb47eff.md
+24e562d1e40c08bdb38eeb346691b4f1a9b1c399be0ad1308f2d5f0288699a83  Compară iFLYTEK AINOTE Air 2/fisiere/README--d8018199.md
+dc626da4e178a004393885baa6806333dbd9f63c3c8123beff40eea023f307b7  Compară iFLYTEK AINOTE Air 2/fisiere/ready--9333bca1.png
+32960b320b9c9e6eaba682f959cfa22ca1da7d87b59a30869c114222a64e9731  Compară iFLYTEK AINOTE Air 2/fisiere/RecorderBridge--01e90a7e.java
+1cea898d87e7478b6d51a3c7ba0bd3a1e40da2e02422bda9a5e053c40325bb5d  Compară iFLYTEK AINOTE Air 2/fisiere/registru-afirmatii--f0c570ab.json
+8b25b53fbe8583fd60f793848790c33157570e2ac475399ff89cac88eca1c78e  Compară iFLYTEK AINOTE Air 2/fisiere/restore-action--d49e5d43.png
+b24df89fe11f7497d333069f7d192632b19b6885c19528b442f3e30eb25e1cc9  Compară iFLYTEK AINOTE Air 2/fisiere/restore-details--1ced14d8.png
+2e2655c4b67f1306646938da9109f899dec1d0f080ee0185629f72e0e48690b3  Compară iFLYTEK AINOTE Air 2/fisiere/restore-iflytek-apk-assets--9e924fe5.cjs
+8462211608ac366abb05293a374f4b9dc6be570b8e600006bdd596a229c6341a  Compară iFLYTEK AINOTE Air 2/fisiere/restore-iflytek-assets--ff63bb41.cjs
+eddb37d1335e37472f00864ba5d9a6fb0d73f23f0b83a107db39a3ea2f96a279  Compară iFLYTEK AINOTE Air 2/fisiere/restore-status--dff3b82b.png
+95d8d553ba5378d47f976e1b51786298e548fe291820093cd436c3a54fce245f  Compară iFLYTEK AINOTE Air 2/fisiere/reverify-followups--a1e35e6b.cjs
+6a1e664feeee990fc51fdfb8b5f43afa10b1024f21cc71073452353e51f2b453  Compară iFLYTEK AINOTE Air 2/fisiere/reverify-report--8eb7e18d.cjs
+f33b14a8207813fb5da5b52979ef0e2ebf9f60dd5e6e494f42b405f95d8829c2  Compară iFLYTEK AINOTE Air 2/fisiere/reverify-unknowns--76989565.cjs
+6e05d2a8c2bfe07eeac99354d2480bc1e9b05f460155659f7a4d3fc6a8864821  Compară iFLYTEK AINOTE Air 2/fisiere/reverify-verify--e4daa009.cjs
+ef3a1d0fb16fe713bee03b016708fe96d922419abee92d0922ef95a34e5e4917  Compară iFLYTEK AINOTE Air 2/fisiere/review--623e19f8.css
+8361be9cb53161eb6511e57b717cc828faf3d6465803bc202ef8e571e46910aa  Compară iFLYTEK AINOTE Air 2/fisiere/review--7edc5b79.js
+5fcaba7c5a4479d1eccd6b0a17115560ef728e3cbc1b7b7484e83e4456a1a181  Compară iFLYTEK AINOTE Air 2/fisiere/romania40--6a4e5648.S
+c29dc982558cb662e3c8611f7b4734d17fd41ca0bb6d0e5437336f3680548c75  Compară iFLYTEK AINOTE Air 2/fisiere/screen--f59096be.png
+246debfcb9ff9ac0f2bdb0037de65ad11fd91ead9144ecaf81969f30ef23806d  Compară iFLYTEK AINOTE Air 2/fisiere/Setup-Tools--dcd9d289.ps1
+5f799c6fe88370f23af9a73d43e3914c17390841d59ee274a7fef72c1942a22d  Compară iFLYTEK AINOTE Air 2/fisiere/surse-metodologice--c444c4ec.json
+3a34c64d3614537d3b888ab5f081c99371387b148033cebb58f3363941f470d8  Compară iFLYTEK AINOTE Air 2/fisiere/test-verifier--eb7ef704.cjs
+0ee4672c66416eb4aac3e3ada1a326373aaba6fb60d5eb0f06cf8ab400a94dcb  Compară iFLYTEK AINOTE Air 2/fisiere/test_native--fe2d2036.py
+4b93cee201f04e93ec685b842bf99ddb543d52e886e08cb6e1b6cda136071a8c  Compară iFLYTEK AINOTE Air 2/fisiere/tools.lock--b471f475.json
+2692c6151a194d87324f289ab8bf0a5e1a6440922811db0a2a088994b93b018e  Compară iFLYTEK AINOTE Air 2/fisiere/TranslateServiceImpl--1e34f10e.java
+a2126088d91e640aff7fb0b11e9be10e3dd42114e0e373e34dea32281e4f4611  Compară iFLYTEK AINOTE Air 2/fisiere/upload-iflytek-release--eec77add.cjs
+700d17d614c1f6ba3c9cbcccab8cdc3a3b907ed95636392ec33b1375d95f891a  Compară iFLYTEK AINOTE Air 2/fisiere/verify-catalog--be727c77.cjs
+dc1c99114ad27e575ae1ac0f58ef7946e10906c9498fa9f2ffaf12e609d4a095  Compară iFLYTEK AINOTE Air 2/fisiere/verify-iflytek-snapshot--b5f38b93.cjs
+33c90ecd1d9129f19ecf7c8a669f1547733dd5d30037ca9413c65c54c7cb3d77  Compară iFLYTEK AINOTE Air 2/fisiere/verify-library--4b65bf91.cjs
+ce41f526a22baf013e0f038398880db93af131a6a00fd3a702359f2bd9ff1d3c  Compară iFLYTEK AINOTE Air 2/fisiere/work-state-preview--841d8c66.png
+6cab67175a75c0ce1b64734e8453d9199276e86746a316de1680aca567a1e1f3  Compară iFLYTEK AINOTE Air 2/fisiere/Write-Report--e3162d7a.cjs
+e27f52ec1267b35ec33a342972d0c60a64bd74474dcadcacbbdd030db2a690eb  Compară iFLYTEK AINOTE Air 2/fisiere/yw--425a86cc.java
+9b39b69d9b425f96256a2d6a365ca5cf5503e519fde3da2fd57dbf1ae790bd82  Compară iFLYTEK AINOTE Air 2/fisiere-index.json
+3122b5bbc0aa5f8d7b12ae7a1386e199a512d47b08afaf3908e8815f6bfe73d0  Compară iFLYTEK AINOTE Air 2/istoric.json
+78b426688dfcda71ceb5828e4e21c9ccad04c83831fd314272bea845817addfd  Compară iFLYTEK AINOTE Air 2/metadate.json
+e432cdea25875c354b545593384e7e7d40ab11cf67df974a7ea7d4cc1e0b9dc9  Compară iFLYTEK AINOTE Air 2/rezultate.md
+61b771a13627002da5d1e91f7b7a252e2e728a0fb9185b8a6f646af03997764b  Elaborează și validează planul de/conversatie.md
+845df0faf918a4fa0cb51ac2b51f19eed227631b8ad140a58ee867147056c26a  Elaborează și validează planul de/fisiere-index.json
+4fed5e7ee813c5a6c33a5456f7ceae40ab1234c472ec16c8bb022375ad588818  Elaborează și validează planul de/istoric.json
+3bbaa650a6300b9f7b6346a5ab40c4eabfef5d522a80c1445ffc2919b9f44004  Elaborează și validează planul de/metadate.json
+db4bf932a36f3c0999bce882d84a73e857cbbc178e43b6527282e7581a756259  Elaborează și validează planul de/rezultate.md
+0d3f0a2383aa50c5647ba945a6823f2bcff2239be255725de09ca8932b68d842  iFLYTEK deploy key setup/conversatie.md
+ff95a8b670525cc0074e68b825e7af8f01d2261ad3f629224a8422b2c9e154e0  iFLYTEK deploy key setup/fisiere/iflytek-deploy-key--39ab7af5.md
+2ab9c68aab262327c86a0aa02d3347760bf5a6ec2aba1db02a331fd801ea061a  iFLYTEK deploy key setup/fisiere/MEMORY--51c05c25.md
+f0ab2fc6d250bdce3bb7188b84d4d81dcfcbbc20da6b47682f666a6799e6808a  iFLYTEK deploy key setup/fisiere-index.json
+6aa7ed90952ca38f5305a0b9eab76e651905f2f39db3bdefc76bfe40a97bfd94  iFLYTEK deploy key setup/istoric.json
+1516c7999b3e41c0a3a9e4a7c5163647de3934f25e936c36726f46f1c379b65d  iFLYTEK deploy key setup/metadate.json
+5e25e04d94552059ddf78518824a92f42b35ee9de548fc8b7f653060c10a487f  iFLYTEK deploy key setup/rezultate.md
+dc9dba69705f77f7952023c0a916c97a5c5ae219139ac19d0f46a3c1b2f17698  iFLYTEK deploy key setup--604afea2/conversatie.md
+ac564bd635b9f099307b67159bb436b82a5c26639b9f6778e82dd298f002111f  iFLYTEK deploy key setup--604afea2/fisiere/HANDOFF-UBUNTU--f724ae3b.md
+ff95a8b670525cc0074e68b825e7af8f01d2261ad3f629224a8422b2c9e154e0  iFLYTEK deploy key setup--604afea2/fisiere/iflytek-deploy-key--39ab7af5.md
+2ab9c68aab262327c86a0aa02d3347760bf5a6ec2aba1db02a331fd801ea061a  iFLYTEK deploy key setup--604afea2/fisiere/MEMORY--51c05c25.md
+5af793b05d75306f61394c876cb5237439bf40f146f652b6d2e26798442a4a67  iFLYTEK deploy key setup--604afea2/fisiere-index.json
+e0cc25cb5020e43ef301372f858b6c806bc8d4706c39f1fb48278bf28750555b  iFLYTEK deploy key setup--604afea2/istoric.json
+a4c25bd0732d150fa43ce3a4ee1d206c640189c1f97e5fb49a6710be951bddb7  iFLYTEK deploy key setup--604afea2/metadate.json
+fa02a640ec46ffa82e0ce17e974c26d9df505b9b942a0e324bde5b94a8474128  iFLYTEK deploy key setup--604afea2/rezultate.md
+7696808917382a412c7630afd89824e14fe4a525398a7ac615193362ede218c4  index.json
+fca23d4df58c243c3093eeec213e416674bad62f7f4622dfe950fd611b71be0e  Instalează aplicația iFlyTek pe iOS/conversatie.md
+2b0f75f4651878b1bcf7fd44e666e27510b8ae85f11d4471c34e6a1bc9101e43  Instalează aplicația iFlyTek pe iOS/fisiere/15--b11035e4.png
+b05f1dbb2618442568251e7e7166579b9575ec5fe9dadffb16fae37f596b0e74  Instalează aplicația iFlyTek pe iOS/fisiere/16--04043c51.png
+8b8d56e9f952f9bb57253bf9a13ce2849f4e9f38a24e88bc21ada2f415cda1b5  Instalează aplicația iFlyTek pe iOS/fisiere/2--dcdbdb67.png
+b8d60a09a1c79762c572665f08bda6e20e1f098c07655a386beaa19536fab88a  Instalează aplicația iFlyTek pe iOS/fisiere/3--810af422.png
+e55176dc4bfa65e493ea2bbeb3c13d289a2ce2687e5339b0bd00c04ec082359e  Instalează aplicația iFlyTek pe iOS/fisiere/4--393a2ba0.jpg
+46e102aed80c611e668e4a3d37859678acc01b873e435b1cdd337eac7b1ab22e  Instalează aplicația iFlyTek pe iOS/fisiere/6--96fd15b8.png
+488cafdb07fe9e52397fe30de03b856c7d7de5bbbf1367d2e6058f3b624bcefc  Instalează aplicația iFlyTek pe iOS/fisiere/7--101ab367.png
+aa135f6b83544cbffc0712bb9cb5b6772a262abf7b00a0eeeb9e307e2b2f006c  Instalează aplicația iFlyTek pe iOS/fisiere/APLICATII_ECHIPAMENTE--8e4c7052.html
+e22501954ea83329e91ad526e4d59262acf3fb7068f45a3a6b00196bae7846ce  Instalează aplicația iFlyTek pe iOS/fisiere/biblioteci-preview--6cf9ace7.png
+b685a93e2011e32378c1f8a50a1fc33fb6e3ac71ce5d455271422913ad6a61d0  Instalează aplicația iFlyTek pe iOS/fisiere/codex-clipboard-a1e7db15-6aa9-474d-9d48-02dcd5f7773c--3193e706.png
+00c7f2f82cc34bae3ec604108c6f37dd4177b4958f5a41c7fcbf31915a64f598  Instalează aplicația iFlyTek pe iOS/fisiere/INDEX--31dd1a07.html
+b0ee603cb54284baab479812f7e2f4246ba69447cc56fe20d6ce50485775991a  Instalează aplicația iFlyTek pe iOS/fisiere/INDEX--b7006699.html
+c3b97f2bacae9a684a8841f819fe00d418afe545e0c9c78b49335f222e9a1432  Instalează aplicația iFlyTek pe iOS/fisiere/LIMBI--9109484a.html
+ff4e257fe4b407c2502e680692bb332ebf6cae986878ee9b2c86fbfa18d34da0  Instalează aplicația iFlyTek pe iOS/fisiere/preview-ro--d33042d2.png
+34f23a8f3056d56228b80fb26083fc74bffdd25b2b5cdc0021046251f7ea86ea  Instalează aplicația iFlyTek pe iOS/fisiere/stamp-original-preview--43943d29.png
+f1aa8386c4dd0b1cd0db3467047d40eb9c84577c12e89e96e7aa9d1e146888cf  Instalează aplicația iFlyTek pe iOS/fisiere/workflow-ro-preview--4b89724b.png
+c6a2bd626a582ef4f2e040dc6e90f2c438610dd355178beb8110b42cfc7b729a  Instalează aplicația iFlyTek pe iOS/fisiere-index.json
+5ac84bfef0139ae150a604f5e15915da5482b48670d655fe090e741a6d297790  Instalează aplicația iFlyTek pe iOS/istoric.json
+24789369670e3a76d98567e0a76c73fa9201a0b4d1e6b1bc968b9aa459a66dd4  Instalează aplicația iFlyTek pe iOS/metadate.json
+d73b9d5bf224c58ecadc24cd8aed55795a60f5dc3916899d3390036227b76e03  Instalează aplicația iFlyTek pe iOS/rezultate.md
+2fb04798d26a36cefebb74b3da2ad8b5eed2d31ef1b0a5a089cb9f95414124fe  mascari-publicare.json
+a70fd03c69e322d870cd316a071b89c0160cfbd5c2841c7dc304d6c1377818ba  README.md
+3deecf9e5998e44a894fdaadf840010547685eb89b2e6661dd872d1657bd48e7  subagenti/Fara titlu/conversatie.md
+edbe1f9553f1c87c5c3481abebeaf512875d1a57784ef009fce2962fefbe787a  subagenti/Fara titlu/fisiere-index.json
+326342c5584ff9c73870c53f430185d4acf2b6e526d1c557ab2ea5cfd32cd0fd  subagenti/Fara titlu/istoric.json
+d716c3820dc10dc0ac943863fd0d37b4a639bca39566e05fe0f47f77aa0e1476  subagenti/Fara titlu/metadate.json
+39de6b2a182ff5d8faad01dff99249632a23c7693703e2f90a8b30b54d523917  subagenti/Fara titlu/rezultate.md
+85920021d3c9155ec02c312f711fb4f36b4dcef4cba978d1fd738cab6206ecbf  subagenti/Fara titlu--0f97234a/conversatie.md
+426078f6d009c63a7b598998b2f51abe58ac5298147269974e031ec44989ce9b  subagenti/Fara titlu--0f97234a/fisiere-index.json
+32a8d807ef98b49f58824dddeb993290e117e8a84ab47df4290cfa37244b15da  subagenti/Fara titlu--0f97234a/istoric.json
+12a2ab58b035440a6cda6cc536ff827ad311644b6a2edc0424579118a6cbf920  subagenti/Fara titlu--0f97234a/metadate.json
+14a98640a8f5eb1671fa0ee70ca9badcbb855060559159441b0c66bd62cd9d49  subagenti/Fara titlu--0f97234a/rezultate.md
+76f63fb8a804743a642f1a392cb76a8bdc2b89326e4b6df289abe555c861182c  subagenti/Fara titlu--31aab547/conversatie.md
+4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  subagenti/Fara titlu--31aab547/fisiere-index.json
+52b8ff23a05405ad7d0ab0086dec35ef46d9c346f7301f7d1f5a51cd980e0f84  subagenti/Fara titlu--31aab547/istoric.json
+45a9db3f5aa5ff599825b8ca012b14b157044adaee88657ca1c278fe170143cc  subagenti/Fara titlu--31aab547/metadate.json
+0e22ebe22196fe9d712f3248367a2699aa65e084f8245cbb0152f42a686b361a  subagenti/Fara titlu--31aab547/rezultate.md
+ee694f3699991ab5a04b346438f86168a56ee0089a755631a00faa00ce54386a  subagenti/Fara titlu--8d70ecec/conversatie.md
+9c311516e05dd92ce80af5fd5fa4e7f6e2e45d0a030bfccf88485f78720997dd  subagenti/Fara titlu--8d70ecec/fisiere/AliasMethodInventory--b3373aa2.java
+33551eb5bae3d280e78699fa3ac6acef53878506936e72c15da38f005c1efa50  subagenti/Fara titlu--8d70ecec/fisiere/analyze-apk-versions-20261101--0c7fe8bb.cjs
+57392039e276e0f4f657ae64c4a37b7c5cb65624467eac627d8f01deec909ca5  subagenti/Fara titlu--8d70ecec/fisiere/decompile-apk-versions-20261101--fb955994.cjs
+1e65c5de60aee6f196ad524c75497e67314ed2e00f3a877040b8d49d2d503870  subagenti/Fara titlu--8d70ecec/fisiere/execution-notes--42705f5e.json
+64e98ab0825e0f664b000aee48e01a6a5074ef6980456e23f9cf501712a3e589  subagenti/Fara titlu--8d70ecec/fisiere/finalize-apk-analysis-20261101--339a5516.cjs
+b8838e9f866bd3696d28ff4e5ccc7e218fd0e056d115cc5eba13a45dddb6f832  subagenti/Fara titlu--8d70ecec/fisiere/independent-payload-check--eca963f4.json
+fd81cabbd3a897a3f82ceb384b96385ada9259ce919e79d6c58c521f9e046781  subagenti/Fara titlu--8d70ecec/fisiere/local-renamed-span--ae5c4656.cjs
+d616b864fe7f0e1c7b2f3d5670b822e9730942220e69493719f05176fefc5035  subagenti/Fara titlu--8d70ecec/fisiere/match-stub--c6730f2a.cjs
+36da76cbb80da912cfae2bded6080a6fdfb6aa0e6a0ac8e46651d7ca7fd42b9e  subagenti/Fara titlu--8d70ecec/fisiere/materialize-apk-version-20261101--9ec2c6c3.cjs
+479c142d21fbd0cd721f06a950044eec75df1c45bebc4ecb3a4b33b40c60a718  subagenti/Fara titlu--8d70ecec/fisiere/PATH-MAPPING--b5696642.md
+6c91c5fab52da7a7cc2d05c9265df5e6785a46bd01850db17547d74d3db4fea4  subagenti/Fara titlu--8d70ecec/fisiere/prepare-apk-analysis-20261101--5c67affc.cjs
+b2216690aba8e82eac7e68c6bf473f26916811d0fcecb5fe7cd3e1ad53811487  subagenti/Fara titlu--8d70ecec/fisiere/raw-class-index--20a60539.cjs
+c2c448134fa7c51f9db21f3bf951d1881316199eca908804acc29669c9277298  subagenti/Fara titlu--8d70ecec/fisiere/README--b1676fd8.md
+4a6e416804618cc9d7c7e639170dc74b2cadcf2fd128692edcffd867e1069525  subagenti/Fara titlu--8d70ecec/fisiere/README--ed121476.md
+2d36a0ed7053c3d6c098097b098964f3e1fa7a64bc15fcd8fce70e924a8409d9  subagenti/Fara titlu--8d70ecec/fisiere/repair-class-map-plan-20261101--21cf0cde.cjs
+fb25f2de31cdcc8de4fdd563b7b5dd3f20d502be75533245961bd9c5ac0bb35a  subagenti/Fara titlu--8d70ecec/fisiere/repair-class-map-run-20261101--def01937.cjs
+cb0413d8ac33aeacb04776a3f0b8111d083c996a76002c0f0824c7d0655ff472  subagenti/Fara titlu--8d70ecec/fisiere/repair-diagnostics-20261101--bfa1a7df.cjs
+f160a43e0974ec8f1f30e8518e998c1fbbfe71bf020a5e3e3d6a34b4405bf4c7  subagenti/Fara titlu--8d70ecec/fisiere/repair-heycyan-class-plan-20261101--2954b5e5.cjs
+da3f9639a9a4df1b70225d4a8445d2f3bf3ca8829182c3819ca3a78711e32fd8  subagenti/Fara titlu--8d70ecec/fisiere/repair-heycyan-class-run-20261101--f560f79a.cjs
+75aa596fb5859fdb68511e82cfa3aab3db27b293d04e5e658fb2c9ff3e4ff3f5  subagenti/Fara titlu--8d70ecec/fisiere/repair-heycyan-method-plan-20261101--a18b3b78.cjs
+7e867fb32eb3e406cbcab43f2f5dcc08469cb7d9cb05b3557d784e95442ec210  subagenti/Fara titlu--8d70ecec/fisiere/repair-heycyan-method-run-20261101--23788194.cjs
+3029b1ce451e96b87d930a0262e34a2f26425f3bc55e26334ccec6455cd5b849  subagenti/Fara titlu--8d70ecec/fisiere/repair-local-rename-plan-20261101--ed7755e7.cjs
+9ea7e4ec8e6d93f932c0864dfdac784efdecde381dfbca6cb066c8679d14a39e  subagenti/Fara titlu--8d70ecec/fisiere/repair-local-rename-run-20261101--68e93f4b.cjs
+0615e69f3cb8e4964ade006277ac9bb0784d14a08125a3eac856f704dae3b924  subagenti/Fara titlu--8d70ecec/fisiere/repair-method-map-plan-20261101--69d282d7.cjs
+f852d00bf3348f7059b453397f2cd24455a1b8dc348bd35f537b6e959437de80  subagenti/Fara titlu--8d70ecec/fisiere/repair-method-map-smoke-20261101--d595f1b0.cjs
+883ff0345d3af73b704d8462679bfb69d1798b2f0940764990d1d8bf4f9a5d66  subagenti/Fara titlu--8d70ecec/fisiere/repair-method-strict-plan-20261101--33e1f2b3.cjs
+fcbb50cda9a149dfd49e82be3dd632a14c31753899ffa151aa99e7ab91d2fdb1  subagenti/Fara titlu--8d70ecec/fisiere/repair-method-strict-run-20261101--244e8a3b.cjs
+500fdb0fecfee6ffce787330d10983d69b02631792cc27bbd722b3ddf6a5ccf6  subagenti/Fara titlu--8d70ecec/fisiere/repair-next-plan-20261101--cfd2360f.cjs
+06560a64efa4629a039a4e4a75ae08062c3fac3e0cbde4225a108b8ff682db68  subagenti/Fara titlu--8d70ecec/fisiere/repair-pilot-coverage-20261101--f4b9e30a.cjs
+3007b6ca80780ab018b41bf86b7baa6224ef0d3e7a58f9c0f67d120a6859b5b6  subagenti/Fara titlu--8d70ecec/fisiere/repair-pilot-plan-20261101--78612dba.cjs
+c2aff3a1e9a98d69220f10b3239f356a95b9e1a2e9999f5d4d56be192630eede  subagenti/Fara titlu--8d70ecec/fisiere/repair-problem-registry-20261101--a0cf829e.cjs
+f1eabcc7f35eb69ccfc199ca514ecab29fe543105b13b8d3cef9dc565b3d27e1  subagenti/Fara titlu--8d70ecec/fisiere/repair-run-pilot-20261101--c4400be1.cjs
+eb35169a81259b985bcb49260c2f6abebdf528e913eaa72f318dd35539ba481d  subagenti/Fara titlu--8d70ecec/fisiere/REPRODUCERE--06084671.md
+3c7f0c303db8663e4f525e038d2a0ad3a94c2c822276d2bcb15c8c06f637859c  subagenti/Fara titlu--8d70ecec/fisiere/test-apk-decompile-reuse-20261101--e06a4dc1.cjs
+4faab6fc1182a70c21f6f226ad30779ee61335cf72070d4881270e0a980f4428  subagenti/Fara titlu--8d70ecec/fisiere/test-apk-materializer-paths-20261101--c58d3d3c.cjs
+a32ac21101e22612a3bf0c25f529a5026dde3faed869ffbf89d48a9d72eae12e  subagenti/Fara titlu--8d70ecec/fisiere/test-local-renamed-span--4268bb44.cjs
+e2ac748f739521203126381452975e79ccc74b66ce498978f7a56d3a27e1325e  subagenti/Fara titlu--8d70ecec/fisiere/test-match-stub--81b0cb1e.cjs
+a40090d451329a9492ad571c2607f279a447644c48175185bac739cb1be915f9  subagenti/Fara titlu--8d70ecec/fisiere-index.json
+a12ff4727c0ddbf9055d34df7f9e46b3a027481a841a39218241a5ce514598c6  subagenti/Fara titlu--8d70ecec/istoric.json
+412e7c28e587fd80d3d22a715dba27357e361b09401534403e3dc9bb078ca433  subagenti/Fara titlu--8d70ecec/metadate.json
+138d8b84ffd63e806d5df761cb4a49cfcd8320f8a102d1b1912fc3c2d73e1479  subagenti/Fara titlu--8d70ecec/rezultate.md
+1ec516d6e1ac5f4628eb7f9d59409163eadc3f8b049184f4e7fc7e054628c3ce  subagenti/Fara titlu--979faa3f/conversatie.md
+e81d6fa5b5aa4849ac565c36863a6d535cfe5b5588f7f2f1e1a8888338b68eb0  subagenti/Fara titlu--979faa3f/fisiere-index.json
+6d34b859e89d3824541dd73cc338b21c06aa88c02e7d9986e9c61f2ba30c0eec  subagenti/Fara titlu--979faa3f/istoric.json
+c50ec00fc8a9d37a87caa22fee1397bfd01105ce4f4a18ea446bc186aeb7efad  subagenti/Fara titlu--979faa3f/metadate.json
+038720f103b46edd5c0dd9b2ba8832f2c3a43945683c18ad2a22d018e2f98525  subagenti/Fara titlu--979faa3f/rezultate.md
+d1f10632bb4d44e055cf1fe67ab77c9030a2eaa94c82a2320680935c849d46af  subagenti/Fara titlu--a9ea38f1/conversatie.md
+9509f8f7d1b73f00bf83ad4f642f0b5cb899daf2eeb1cc863be09c25ad169a55  subagenti/Fara titlu--a9ea38f1/fisiere/analiza-rpk--09ea6cef.txt
+3560e5c817990dcb9528b01154f60ecb043b521d033448d8a0a0ed1925433da1  subagenti/Fara titlu--a9ea38f1/fisiere/analiza-rpk--eb85d42c.json
+dbcd2d706162c334097a21678aee15d75aa308831d8baaf8980b4be3a06248e8  subagenti/Fara titlu--a9ea38f1/fisiere/audit--128a0a54.json
+87c8b221570ee4e3afd610a55ee1ec107eb6b874fc733a382ed932a2c355c5ac  subagenti/Fara titlu--a9ea38f1/fisiere/audit--3b22bd04.txt
+fbb37eda5584717ecc64c32ba1da4456328bc3f8c9a5b04be479d68d03c6da3b  subagenti/Fara titlu--a9ea38f1/fisiere/audit--6937f9ef.txt
+5ac78492079d712c7195386570e47ba998c64215c4245257d94c55ccf7327083  subagenti/Fara titlu--a9ea38f1/fisiere/audit--7c3fb704.json
+06720be72affd97d4b0d6bb4c332b11f5af7bd77a10d15cbd03ae092757f8495  subagenti/Fara titlu--a9ea38f1/fisiere/audit--a76fbd9e.txt
+2b9adaa701e5b1d12b438f4def0366e7df5b114224c14a4b018d8ecd57549ef8  subagenti/Fara titlu--a9ea38f1/fisiere/audit--b5d2068d.json
+1c39dda14d1dae8dbf4e0609fd9432437a6a5eee30113bf49d4bac807c6418b3  subagenti/Fara titlu--a9ea38f1/fisiere/dovada-air2-google-play-apk--043d716f.txt
+5d430855c7ede40847f5d330ee2c73053841b69e45e6d752ae34cb51ec158925  subagenti/Fara titlu--a9ea38f1/fisiere/revizie-independenta--7921198d.txt
+c386b5096c4c92abab4b273f0364abba7576fbbb40bd66117211e5c879d003a6  subagenti/Fara titlu--a9ea38f1/fisiere/revizie-livrare--a4d54a6e.txt
+f0ae0916ba1a36c3c93b03f867e22a3ed2986dc42600257a3d98ead083e29e7e  subagenti/Fara titlu--a9ea38f1/fisiere/tipuri-dex-reverificate--91f1b33c.json
+08a5968f8796856fce48cfdee35523530db835b7935da78222b90a792efbd2d9  subagenti/Fara titlu--a9ea38f1/fisiere/verificare-produse-audio--acae50c3.txt
+04d2bef58a7d58b89e9d2fde740414f1512e94760450e37f85008126a2dd0735  subagenti/Fara titlu--a9ea38f1/fisiere/verificare-produse-audio--df890f1f.json
+5072ddadd914412d6699721c0a837e866138b5a4e4c8656d1ae49e8c7a0b3ee9  subagenti/Fara titlu--a9ea38f1/fisiere-index.json
+aeba1b69a1c309b612f13f62b751a31010ed3fcd873abee1f889e909303b5572  subagenti/Fara titlu--a9ea38f1/istoric.json
+9a1362ac84c8ffe31663f8b162bd9e94682fa1d12df1fbad501f9a14e9082749  subagenti/Fara titlu--a9ea38f1/metadate.json
+08cb9ec0e5e7fed48c5c0b1a937cf5165049ca58a46e3944ac7a177dcdd4e009  subagenti/Fara titlu--a9ea38f1/rezultate.md
+2e5b800eb7853a82fb9cb44c63c5acba753fe1c9282e3563eb30f5bf5402df41  subagenti/Fara titlu--b94c9054/conversatie.md
+5e8ca06efc7f6d4935fd9d7133bd59a0cb411d3c81dc28846701f6f604141683  subagenti/Fara titlu--b94c9054/fisiere-index.json
+504b807827e692020e242d9329dd525a12e3bb62f41167e08d550d0c5950c151  subagenti/Fara titlu--b94c9054/istoric.json
+dc2fd57230778f615fff5952c07ea7832568f03e189902a99cfa4dc0a0ec876e  subagenti/Fara titlu--b94c9054/metadate.json
+b60b7ee5a1af03b920c73a0b6140e440a696f2caed6f5e07086d6be7474b3f95  subagenti/Fara titlu--b94c9054/rezultate.md
+a5de962c55948e561ebf8a39bd3aa41ea14f6d9c3fc0c71acfb4f3b95cb284a3  subagenti/Fara titlu--ba3ad4b4/conversatie.md
+95ff08e452fa9e5bc832d1aab36cdec67d8783f15a56723715c0ab9fb358c849  subagenti/Fara titlu--ba3ad4b4/fisiere/ARCHITECTURE--153323a7.md
+0e21b4035704236bca1a2690b28dabd2ccbd7cd225942c7d6b165d73eb307522  subagenti/Fara titlu--ba3ad4b4/fisiere/classfile-coverage--d9eb6a16.cjs
+f8b1409c70ff7060ed0330a3f41366e938670a5e1cabaec12e899638d14be0ee  subagenti/Fara titlu--ba3ad4b4/fisiere/CORRELATION-PLAN--ee188368.md
+de7fa6b4ebbfd60270dee3508e5fb5a7e89ef39ace88218c04f217a3ecac5aa8  subagenti/Fara titlu--ba3ad4b4/fisiere/export-references--093b22dd.cjs
+b399bc3ee511874508f97441bc69db44cd3aec22f5f43c7ea1ff2295f5b9c4f9  subagenti/Fara titlu--ba3ad4b4/fisiere/GLOBAL-PLAN--d9e791ee.md
+52a09b32bffd08abd50f41250f9b5d4a3813cc7fa356aaaba92e3a7f79867e74  subagenti/Fara titlu--ba3ad4b4/fisiere/index-baseline-release-20261101--c43b4f87.cjs
+e8858b775cf448fbfaf8c46fbf720a51ad52ef1a68b4e94d6862d906e1cc32d4  subagenti/Fara titlu--ba3ad4b4/fisiere/inventory--27cd3ace.cjs
+4c0c7b769b73b3782eb635da6dfff5c6e1ed03566c480ab2ebcb3f572e4d7aaa  subagenti/Fara titlu--ba3ad4b4/fisiere/normalize-smali--05122674.cjs
+5a252d507ab721d0890cfab6a3f6ee51227a19d82f4e2542e3ac8c3f63b8dac0  subagenti/Fara titlu--ba3ad4b4/fisiere/PILOT-PLAN--a516cd92.md
+82129fb3a515b7587c9cc5d4a001c1b64ecad442e22d9dd17fe9c048705ed2e5  subagenti/Fara titlu--ba3ad4b4/fisiere/prepare-global-plan--9e0242dd.cjs
+c66132fb25e5cb095982c81fc1c155661935270ea58b4fde268da62540126754  subagenti/Fara titlu--ba3ad4b4/fisiere/prepare-toolchain--027e936f.cjs
+374ffc7c91309e3de76028d59545a99f8c2d3d54f0296762b32904ec085eb069  subagenti/Fara titlu--ba3ad4b4/fisiere/RawDexIdentityIndex--22a27856.java
+789f575b9c064c7fdfe3e2ceb248be667fe0475783371956c972fda4b32714ab  subagenti/Fara titlu--ba3ad4b4/fisiere/RESULTS--56512e22.md
+8f26b564093f2689be93d51fec70280a20d1c8716e19e15ac8d68adb3d65006a  subagenti/Fara titlu--ba3ad4b4/fisiere/run-callback-cfr--9b3eff34.cjs
+f34797903ada337a86c7248583585cc830bd3902075b87f095805a4ebe2ffe0d  subagenti/Fara titlu--ba3ad4b4/fisiere/run-correlation--068cde22.cjs
+11057acf170209252eabf0a265a44f0d9184e1bfb8fe02b7ad98fe6773964ae2  subagenti/Fara titlu--ba3ad4b4/fisiere/run-global-checkpoint--8cc5e838.cjs
+37b8f4a38af68a58e257ea7f15e4fea2dab83b5e126e4007c19695145847f5ac  subagenti/Fara titlu--ba3ad4b4/fisiere/run-independent-pilot--63d3681b.cjs
+8beef4e2fbae28bded2cc91f2079e96f18164913929c4b9627407df229ab4d8f  subagenti/Fara titlu--ba3ad4b4/fisiere/run-targeted-correlation--159bc392.cjs
+cac5e1f10d7520c78bed29b01b6c43fc9e0e3002dda8b19d4d2c3031dd81b3ef  subagenti/Fara titlu--ba3ad4b4/fisiere/SmaliFingerprintExport--53c21618.java
+6778bff7be10de7d571a82e22a16fdc1ccdf14ea4e9b12d6d2bb45f3c1af4e39  subagenti/Fara titlu--ba3ad4b4/fisiere/source-search--3d0c4862.json
+f8b41b59114de462380cef13650542b5ef3c8ef70220d72444a4debe600e4d05  subagenti/Fara titlu--ba3ad4b4/fisiere/STRATEGY--b16ca6ca.md
+027565c21b019ee9593e32736520d69f2f76d07477c0394385e34bacb5ad0dfa  subagenti/Fara titlu--ba3ad4b4/fisiere/test-classfile-coverage--3adb3ac4.cjs
+c7fe80796e14420b9f85c633b7258d029415c64be02eb285eebcc5db29f030f8  subagenti/Fara titlu--ba3ad4b4/fisiere/test-normalize-smali--aff725fe.cjs
+dcc6b7382bd712c2b8586a026d61f3cb345ecfc5b414480b107bc8979222abbf  subagenti/Fara titlu--ba3ad4b4/fisiere/VERSION-DIFFS--b8440a10.md
+1942ffcb5233b7940c2e12ddf1c9ba9748d438acfb518e12eb17f58f0468497a  subagenti/Fara titlu--ba3ad4b4/fisiere-index.json
+8f5825f83644866db4f334e951648a668b635a0db0f6b763a34df401e93fad88  subagenti/Fara titlu--ba3ad4b4/istoric.json
+b8f5e6cf0961c508f77458fe20b355a7526ee0cf38b9403d51b77eb6803d25be  subagenti/Fara titlu--ba3ad4b4/metadate.json
+03f3fd4f2ca174c70b0ca8eac78f904a78222a3b69b5150401079afdd4535351  subagenti/Fara titlu--ba3ad4b4/rezultate.md
+41419e35da67773629cc20a05189fcd5bed044197919a0edb55603035b1b3738  subagenti/Fara titlu--c22edefd/conversatie.md
+b75cf49dcf0eb4dca6f02d981bda13b094cad6da3c963a0dfbb9ba5ead151232  subagenti/Fara titlu--c22edefd/fisiere/AUDIT--24b5f329.md
+cf88ee54600037778cf6d7a30ef54464f135612d1dacb5ec0e0ff682795056a8  subagenti/Fara titlu--c22edefd/fisiere/FINAL-AUDIT--4ef6619a.md
+fc0d104cf2a0c1d83355324ab90b3c62972d30661842249557919861f198bd43  subagenti/Fara titlu--c22edefd/fisiere/FINAL-AUDIT--5fb45dd3.md
+dc43a538a4ba9772a20db1ac177e457854969a490213bf7acc79a0d03ef6283c  subagenti/Fara titlu--c22edefd/fisiere/GATES--65874752.json
+7eb4ebad81c500fffba35408cb54c9b1c3d2b7f528e316cc5168274915e92111  subagenti/Fara titlu--c22edefd/fisiere/METHOD-MAP-REVIEW-NOTES--a09def6c.json
+11ad56c4f274fdab3f64e31b4426f14e4208bd79ff21d07c3fe43d45935a287f  subagenti/Fara titlu--c22edefd/fisiere/ROUND-1--76a6979b.md
+9b3c4e4ebfd7919a1f3cc68e9be7cdb470060ba37926084fb52379c285004db8  subagenti/Fara titlu--c22edefd/fisiere/ROUND-2--0e0c4393.md
+3e6f68183293fe802f16633ffb300dad51fe3bc1855c00ada2bf947e0836a640  subagenti/Fara titlu--c22edefd/fisiere/ROUND-3--329d03f3.md
+bec7f890264b4cef564deb9530b8143922a6543b42d08d74bff9104b7b66a2af  subagenti/Fara titlu--c22edefd/fisiere/RUBRIC--5dde9423.md
+a39be3e85f8a9243be50ca545e9a045a69ffb1c9571b46fca2a5150e39845978  subagenti/Fara titlu--c22edefd/fisiere/RUBRIC--cfa790e7.md
+e0f2fbde61944ed86ac5b8cdf5583a6dbc1406d22257fede581444eb332814c8  subagenti/Fara titlu--c22edefd/fisiere/test-delivery-independent--f24d3433.cjs
+39ef46cfbc1b8a996a34c64f970723d5937e7e0748cf30816528e2ed8fd03f2e  subagenti/Fara titlu--c22edefd/fisiere/test-materialization--faaab1b6.cjs
+e64d95bbc95040a21e5629eba8731aa3d469c2b83a13d93ee0c90f8f0d966fdc  subagenti/Fara titlu--c22edefd/fisiere/test-packaging--9499f186.cjs
+f4b06d39e162c1329fb0b24c204f71f7247352499e3b7f4b6a6b9081b541d47b  subagenti/Fara titlu--c22edefd/fisiere/test-path-mapping-independent--f767ad2e.cjs
+8bcb17faa1b6c2edcbfee91bc5a5132b940c415a0e3d56a38a01af2ee62bd62c  subagenti/Fara titlu--c22edefd/fisiere/test-restore--d5653b7c.cjs
+20013fbea9e64d8a124f077cc4f4dcb22eee3da1d81dd685d131d9adc8039108  subagenti/Fara titlu--c22edefd/fisiere/test-restorer-independent--3a2467a4.cjs
+764635001ba4d617395af13962762c62906c320c45b6aa3ee3aeb477ba7f43b7  subagenti/Fara titlu--c22edefd/fisiere/test-reuse-independent--5dad7a82.cjs
+c6f61e5451eb5ff8faa8407acb251dff46af786fa893005e70c88201b9cade91  subagenti/Fara titlu--c22edefd/fisiere/test-reviewed-materializer-independent--fbd863ef.cjs
+81c8c6ac0d0a3ea8955d9110d80057695cd0b7893f0f2c35167d898f5d78a13d  subagenti/Fara titlu--c22edefd/fisiere/verify-bavvo-diagnostics--2f720788.cjs
+7c4713c2dcea6d77c4931d2b08b9d2cc060489f2f64949891509d267e6b7c74d  subagenti/Fara titlu--c22edefd/fisiere/verify-class-map-all--243275fb.cjs
+64fdb0aa68ca5d056ea41e82504fa66f7b3b59d01759f2fecfc1f4695b617072  subagenti/Fara titlu--c22edefd/fisiere/verify-collection-independent--602cd6b8.cjs
+43798d3acaeda9a8b4a7ef9d0643670e64a19794b58a41de917eb78cdfc86e8e  subagenti/Fara titlu--c22edefd/fisiere/verify-decompilation--fb039193.cjs
+31ccbb2b31c77303cb77ad953d9747c2a0a5d2d194ba200b95c0ba6f6293afcf  subagenti/Fara titlu--c22edefd/fisiere/verify-diffs--3eaed818.cjs
+03d16ad6137fce1b4c8338bf42af2c7e6a3d9b57d0cc5165b8d3df333432f4ce  subagenti/Fara titlu--c22edefd/fisiere/verify-final-packs--aa150f29.cjs
+67cd380eebb449f4a17c633194c98830f25a2cc4ad8ed9fbf864dab60d7ad405  subagenti/Fara titlu--c22edefd/fisiere/verify-global-diagnostics--47cd1629.cjs
+fa6d52faf94380282e881f1684075edca9c34521bb76bf7aca81ab815a28b0eb  subagenti/Fara titlu--c22edefd/fisiere/verify-independent-engine--08606785.cjs
+73ccf296855c591dc965fadb8d769ac2ccbc11917d948f5f87bc2f90cf776765  subagenti/Fara titlu--c22edefd/fisiere/verify-materialized-trees--336112ed.cjs
+961042fcc61e1529389fa8665c67d523f21f20ec10eae1a83a6f89606354e752  subagenti/Fara titlu--c22edefd/fisiere/verify-method-map-preflight--2c210ef0.cjs
+abf0fec4c2216ff126d952deb056b1ddf5ddd18078bcfdcf3844900132ab367a  subagenti/Fara titlu--c22edefd/fisiere/verify-raw-inputs--d8f45e31.cjs
+d67c3a678abdbe6f7996e888f1068a6457d0f44dce395f69ba00c8822cfdc6b5  subagenti/Fara titlu--c22edefd/fisiere/verify-remote-independent--84d50d63.cjs
+f37b087718ffd857457842923e9ac8438251a5ffa743d4a5e9d175d66928ee7e  subagenti/Fara titlu--c22edefd/fisiere/verify-reviewed-source-views--89e2a468.cjs
+b9ba65fcef1a71bfed73c18941a6ae30b61ed6e108447f37254ca6e5c9a4dde2  subagenti/Fara titlu--c22edefd/fisiere/verify-strict-method-identities--c9f57734.cjs
+5555ee66917396a0369b231d03105b77d39e998f3ff73035c25838d4cc6b47a3  subagenti/Fara titlu--c22edefd/fisiere-index.json
+144669bdb606ae325d867f0129a280d1c624bcd9fca16abdfcdef3dbffc456b6  subagenti/Fara titlu--c22edefd/istoric.json
+a82b033ea8144a3bea1421ce7e46e4d3338121cb1420d3da06508841d99b8746  subagenti/Fara titlu--c22edefd/metadate.json
+5e86ebe38657363a30ae29549b9aed659501139c6dc0acc8cf6353756767e77e  subagenti/Fara titlu--c22edefd/rezultate.md
+db42b760ff82bb2e5ffd3cc09c4a2f7d39b8875a424c0cc59fec728a9008b332  Top 10 producători chinezi AI Glass/conversatie.md
+9f326fa41cd639b3cb1d0da4addd1b737661d2ba2e144781115dff0c25861f9e  Top 10 producători chinezi AI Glass/fisiere/AI_Glasses_2026--9bf85c42.html
+daadbe0d1c0636359c0e6075545f8ade7d717544521b00ecd50f718299e73272  Top 10 producători chinezi AI Glass/fisiere/AI_Glasses_2026_Livrare--a0e72d5f.zip
+26239da407d9518f23db41e24db89575899eadb5581b2b5b7fce76a00f7af3d0  Top 10 producători chinezi AI Glass/fisiere/audit-final--35fdc925.html
+e08aea7018f8de8ca26b921ce1a63d923a26911dc96cc8149596450e11e637a1  Top 10 producători chinezi AI Glass/fisiere/qa-desktop--fcec6c79.png
+59955cfc77f5e5d5da7d3f8615a4a4d60c39505918fc21a49ae132dece769f53  Top 10 producători chinezi AI Glass/fisiere/qa-matrix--694459ec.png
+5d3e81e6da1a0e2f6b04d084f6890f9da2d6a313b1461c87066b721ffdfd6908  Top 10 producători chinezi AI Glass/fisiere/qa-mobile--7008ea13.png
+4ec90836f1dd56574b3f756a78e00df45116ba6801a46a3c1057483dd97c3fd1  Top 10 producători chinezi AI Glass/fisiere-index.json
+aecfb56aada07c87a1554d5837a43af71c4932bf30855829d315a8a48eda5dbc  Top 10 producători chinezi AI Glass/istoric.json
+404b0d6b21c9a2f862161ae734bbfcfc62022355e3e0258a15b3f72adb42e13d  Top 10 producători chinezi AI Glass/metadate.json
+535c5289add7a004e018fe9cef2003d43799b8491aced160ec668ae5a9e437d6  Top 10 producători chinezi AI Glass/rezultate.md

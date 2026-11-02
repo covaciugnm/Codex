@@ -1,0 +1,23 @@
+{
+  "id": "01a16294-1c29-7923-a564-25d39be406f7",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1792655236,
+  "updated_at": 1793375103,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Analiză critică propunere CESIRO",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 456947,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 211,
+  "message_count": 211,
+  "content_sha256": "d21428ed289ab03528ac3d9bd61a000aea11a8d74941f77b65215a709a279ee2",
+  "files_copied": 13,
+  "references_not_copied": 18
+}

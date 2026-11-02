@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import {FileBlob,SpreadsheetFile} from '@oai/artifact-tool';
+console.log('IMPORT_START', new Date().toISOString());
+const wb=await SpreadsheetFile.importXlsx(await FileBlob.load('Z:/00.Roboti/cesiro.com/work_nomexp/preview_source.xlsx'));
+console.log('IMPORT_DONE', new Date().toISOString());
+console.log((await wb.inspect({kind:'workbook,sheet,table',maxChars:6000,tableMaxRows:2,tableMaxCols:5})).ndjson);
+const s=wb.worksheets.getItemAt(0);
+const b=await wb.render({sheetName:s.name,range:'A1:J8',scale:1,format:'png'});
+await fs.writeFile('Z:/00.Roboti/cesiro.com/work_nomexp/before.png',new Uint8Array(await b.arrayBuffer()));
+console.log('RENDER_DONE');

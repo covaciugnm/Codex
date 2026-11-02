@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "model": "SM-A146P",
+  "androidVersion": "14",
+  "apiLevel": 34,
+  "package": "com.iflytek.translateapp",
+  "version": "1.0.3899",
+  "testedApkSha256": "c10d5475f384d433884e44417126f1077478790241ab174bc5987a08a98f038c",
+  "replacementAuthorizedByUser": true,
+  "originalAppUninstalled": true,
+  "installationVerified": true,
+  "launchVerified": true,
+  "loginTested": false,
+  "glassesTested": false,
+  "officialRestoredAfterFailure": true,
+  "status": "INSTALL_AND_LAUNCH_PASS",
+  "attempts": [
+    {
+      "result": "INSTALL_FAILED_VERIFICATION_FAILURE",
+      "attempt": 1,
+      "officialRestored": true
+    },
+    {
+      "result": "SUCCESS",
+      "attempt": 2
+    }
+  ],
+  "currentInstalledVariant": "LOCAL_REBUILD",
+  "installWarning": "Play Protect: app built for an older Android version. The same warning was observed for the official APK.",
+  "generalSecuritySettingsChanged": false,
+  "installedApkHashVerified": true,
+  "englishInterfaceVisible": true,
+  "profilePageVisible": true,
+  "ownerConfirmedInstallOnPhone": true,
+  "passwordLoginPageVisible": true,
+  "smsLoginPageVisible": true,
+  "countrySelectorVerified": [
+    "+86",
+    "+852",
+    "+853"
+  ],
+  "credentialsEnteredByAssistant": false,
+  "warningObserved": "Play Protect older-Android-version warning on both original and rebuilt APKs",
+  "accountServerAcceptanceTested": false
+}

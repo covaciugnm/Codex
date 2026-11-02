@@ -1,0 +1,42 @@
+{
+  "project": {
+    "id": "d4f733bd-2faf-4d76-899c-538e1c8f3baf",
+    "name": "Extrase de cont Cosmina",
+    "roots": [
+      "Z:\\Dep. Contabilitate\\Extrase de cont Cosmina"
+    ],
+    "conversations": 1,
+    "subagents": 0,
+    "messages": 4,
+    "files_copied": 4,
+    "folder": "Extrase de cont Cosmina",
+    "content_sha256": "39f3db3e57ab413ee0d04284a63dc0fa78407098b78c32e40f537c3488df482e"
+  },
+  "threads": [
+    {
+      "id": "01a158de-077f-7f22-811e-78cf5c263291",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\Dep. Contabilitate\\Extrase de cont Cosmina",
+      "created_at": 1792492308,
+      "updated_at": 1793373789,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Listează extrasele de cont din 2026",
+      "project_id": "d4f733bd-2faf-4d76-899c-538e1c8f3baf",
+      "project": "Extrase de cont Cosmina",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+      "source_bytes": 702734,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 24,
+      "message_count": 4,
+      "content_sha256": "d0566a23cc7184be8621f18f84559d6ed3e07ede215cbe33981be2d6fc22cbeb",
+      "files_copied": 4,
+      "references_not_copied": 1,
+      "subagent": false,
+      "folder": "Extrase de cont Cosmina/Listează extrasele de cont din 2026"
+    }
+  ]
+}

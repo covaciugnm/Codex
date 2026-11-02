@@ -1,0 +1,3752 @@
+# Rezultate — Fara titlu
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-43057151-be30-45d9-85fb-d5d7956b7887",
+  "query": "site.evenrealities.com G2 microphone languages Romanian translate transcribe ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.evenrealities.com G2 microphone languages Romanian translate transcribe",
+      "site.open.rokid.com CXR microphone audio PCM SDK",
+      "site.android.com hearing aids ASHA LE Audio Auracast"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn7search0",
+      "snippet": "Even G2 can display text in the following languages: ... * Translate from (Speech input): Arabic, Bengali, Cantonese, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech,",
+      "title": "Language Support – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/13755354799247-Language-Support"
+    },
+    {
+      "type": "text_result",
+      "domain": "blog.google",
+      "ref_id": "turn7search1",
+      "snippet": "To use Auracast, pair LE Audio compatible hearing aids from companies like GN Hearing and Starkey with your Samsung Galaxy devices with One UI 7",
+      "title": "Stream Auracast broadcasts directly to hearing aids with Android.",
+      "url": "https://blog.google/feed/auracast-hearing-aids-earbuds/"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn7search2",
+      "snippet": "If you start Translate but no translated text appears on your G2 glasses, update the Even Realities App and glasses firmware to the latest versions.",
+      "title": "Translate Shows No Translated Text on G2 – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/18153388264975-Translate-Shows-No-Translated-Text-on-G2"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn7search3",
+      "snippet": "When started from Menu, Translate uses the most recently selected language pair and voice input device. ... When using it for the first time, allow",
+      "title": "Translate – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/14273831059983-Translate"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn7search4",
+      "snippet": "# Voice Features Do Not Work with the G2 Microphone If voice features such as Even AI, Conversate, or Translate do not recognize or display",
+      "title": "Voice Features Do Not Work with the G2 Microphone – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/17206473148815-Voice-Features-Do-Not-Work-with-the-G2-Microphone"
+    },
+    {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn7search5",
+      "snippet": "Even AI no longer turns on microphone automatically after replying. ... App and Even G2 now supports 8 languages (English, Simplified Chinese, Traditional Chinese, Japanese,",
+      "title": "‎Even Realities App - App Store",
+      "url": "https://apps.apple.com/ro/app/even-realities/id6747017725"
+    },
+    {
+      "type": "text_result",
+      "domain": "blog.google",
+      "ref_id": "turn7search6",
+      "snippet": "With LE Audio Auracast on Android, you can easily share your audio with others. ... By bringing LE Audio into Android phones and paired devices",
+      "title": "LE Audio Auracast support expands to more Android devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/le-audio-auracast-support/?trk=public_post_comment-text"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.starkeycanada.ca",
+      "ref_id": "turn7search7",
+      "snippet": "Streaming with Audio Streaming for Hearing Aids (ASHA) or Bluetooth Low Energy (LE) Audio. ... * **Bluetooth LE Audio streaming (enabling two-way audio) and Auracast",
+      "title": "Device Compatibility | Starkey",
+      "url": "https://www.starkeycanada.ca/compatibility"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.clintonhealthaccess.org",
+      "ref_id": "turn7search12",
+      "snippet": "<td><strong>Broadcast Streaming (Auracast)</strong></td> ... <td>Android supports Bluetooth Hearing Aid Profile</td> ... <td><strong>Audio Streaming to Hearing-Aid (ASHA)</strong></td> ... <td>Audio S",
+      "title": "Appendix E: Feature evaluations of Android and iOS accessibility settings",
+      "url": "https://www.clintonhealthaccess.org/wp-content/uploads/2024/05/Assistive-Products-Market-Report_24Jun2024.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "framesandfeatures.com",
+      "ref_id": "turn7search8",
+      "snippet": "* Even G2: confirmed in 41 countries; languages: Cantonese, Catalan, Simplified Chinese, Traditional Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Swiss High German,",
+      "title": "Even G2 Translate: subtitles for conversations",
+      "url": "https://framesandfeatures.com/features/translate/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.widex.com",
+      "ref_id": "turn7search9",
+      "snippet": "With Widex Moment and newer family Bluetooth devices it is possible to stream directly from Android devices via the ASHA (Audio Streaming for Hearing Aids)",
+      "title": "Device compatibility for Widex apps | Widex",
+      "url": "https://www.widex.com/en-gb/support/compatibility/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.att.com",
+      "ref_id": "turn7search13",
+      "snippet": "- If your Android phone supports ASHA, calls and media audio can stream directly to the hearing aids.",
+      "title": "- **Android (ASHA / HAP)**",
+      "url": "https://www.att.com/scmsassets/support/wireless/pairing-hearing-aids-to-a-mobile-handset-v2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.auriaudio.com",
+      "ref_id": "turn7search14",
+      "snippet": "- **Auracast-ready (or “Auracast-capable”):** Your device has the Bluetooth® LE Audio hardware built in, but the feature has not been activated yet. ... As of",
+      "title": "EVERYTHING YOU NEED TO KNOW ABOUT AURACAST™ AND AURI™",
+      "url": "https://www.auriaudio.com/wp-content/uploads/2026/03/LT-Auri-Patient-Guide_K2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.nht.name",
+      "ref_id": "turn7search15",
+      "snippet": "◆ Hearing aids or smartphones with this symbol are Auracast-enabled, meaning the product can receive an Auracast signal. ... - LE Audio – Lc3 ◀",
+      "title": "Loop New Mexico",
+      "url": "https://www.nht.name/Auracast_Capable_Devices_15.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "assets.cochlear.com",
+      "ref_id": "turn7search16",
+      "snippet": "Android Streaming for Hearing Aids (or ASHA) is a Bluetooth protocol that is proprietary for Android devices that allows you to stream music, audiobooks, notifications",
+      "title": "Streaming, as easy as it should be",
+      "url": "https://assets.cochlear.com/api/public/content/BUN1137-Baha-Connectivity-Guide.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "marcinmiazga.com",
+      "ref_id": "turn7search10",
+      "snippet": "* CustomView: `customViewOpen` succeeds and `onCustomViewOpened` is received. ... Audio | PCM audio stream ... * SDK: `com.rokid.cxr:client-l:1.0.3`",
+      "title": "Introduction · CXR-L(EN) - Marcin Miazga",
+      "url": "https://marcinmiazga.com/cxr-l-sdk/introduction"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.android.com",
+      "ref_id": "turn7search11",
+      "snippet": "^{3} Works with compatible hearing aids (sold separately)",
+      "title": "Android Audio Accessibility Tools & Features | Android",
+      "url": "https://www.android.com/accessibility/audio/"
+    },
+    {
+      "type": "text_result",
+      "domain": "cdn.mediavalet.com",
+      "ref_id": "turn7search17",
+      "snippet": "Previous efforts around transmitting audio over the Bluetooth band (e.g., Apple® LEA2 or Android Streaming for Hearing Aid [ASHA]) were proprietary, which meant that the",
+      "title": "Bluetooth LE Audio",
+      "url": "https://cdn.mediavalet.com/usil/starkeyhearingtech/WseQSWjtZEWJHLfOfE8GIw/FcV5vXJr3Emvmwq-xIpCTg/Original/LE%20Audio%20Feature%20Summary%20-%20Starkey.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit18",
+      "snippet": "What I think this means is that the hearing aids will connect to your phone with LE Audio (point to point) but the firmware that",
+      "title": "SoudGear Amp and Auracast",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1t3k9qb/soudgear_amp_and_auracast/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit19",
+      "snippet": "\\*\\*LE Audio (with the Hearing Access Profile)\\*\\* — the new standard, LC3 codec, and what Auracast is built on. ... \\*\\* Under ASHA and LE",
+      "title": "The four kinds of Bluetooth in hearing aids, and why one of them fails on half of Android phones",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1vd0wb5/the_four_kinds_of_bluetooth_in_hearing_aids_and/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit20",
+      "snippet": "We were told by the sale rep that people with Bluetooth LE capable hearing aids “would know what to do” but it seems that isn’t",
+      "title": "How to help with aura cast?",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1ubbqo1/how_to_help_with_aura_cast/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit21",
+      "snippet": "LE Audio is the path forward if your (next) hearing aids support it. ... So even on an Android flagship with full LE Audio/Auracast support,",
+      "title": "Critical ASHA issue on OnePlus 15 - call volume artificially capped",
+      "url": "https://www.reddit.com/r/oneplus/comments/1uqxoun/critical_asha_issue_on_oneplus_15_call_volume/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit22",
+      "snippet": "I've probably gone through the very detailed answer dozens and dozens of times now, but your hearing aids stream over Bluetooth LE, which is not",
+      "title": "Philips 9050",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1iwdoux"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit23",
+      "snippet": "I have downloaded the Smart 3D Android app and can change the settings of my hearing aids from there, but I cannot get audio streaming",
+      "title": "Trouble streaming audio on Android",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1u1x1zd/trouble_streaming_audio_on_android/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit24",
+      "snippet": "According to your question about the Auracast having the same features as Iphone on Android I have no idea. ... We both have Jabra Enhance",
+      "title": "Android Bluetooth LE",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1drc32z"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit25",
+      "snippet": "I absolutely love how well they work as hearing aids, but their Bluetooth LE Audio behavior is driving me crazy. ... **What Philips support suggested:**",
+      "title": "Do your LE Audio hearing aids hijack Bluetooth audio on Android? Philips blames Samsung/Google. Do other brands do this?\"",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1xgay3i/do_your_le_audio_hearing_aids_hijack_bluetooth/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit26",
+      "snippet": "ASHA sucks, don't use it-- your hearing aid and phone both support LE Audio point-to-point. ... Signia had originally suggested the IX would be patched",
+      "title": "Signia Pure Charge and Go 7IX + Galaxy S25 ultra",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1u7leos/signia_pure_charge_and_go_7ix_galaxy_s25_ultra/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit27",
+      "snippet": "I might be getting hearing aids that use le Audio . As of right now I have sonim with android 14 wondering if anyone has",
+      "title": "Sonim phones",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1tf7nqf/sonim_phones/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit28",
+      "snippet": "This happens when the aids are paired both in the standard Bluetooth menu for the ReSound Smart 3D app and in the Hearing Aid Accessibility",
+      "title": "Hearing Aid Gang",
+      "url": "https://www.reddit.com/r/android_beta/comments/1snxwul/hearing_aid_gang/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit29",
+      "snippet": "The good news is that when you pair an Android phone with LE Audio support (Galaxy S23 or later, Pixel 8 or later) and a",
+      "title": "Oticon bluetooth compatibility with Android",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1vyvs92/oticon_bluetooth_compatibility_with_android/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn7search30",
+      "snippet": "Auracast is a broadcast audio feature of Bluetooth Low Energy (LE Audio) that enables a single transmitting device to stream audio to multiple compatible receivers",
+      "title": "Auracast",
+      "url": "https://en.wikipedia.org/wiki/Auracast"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn7search31",
+      "snippet": "It allows the Bluetooth LE protocol to carry audio, with lower battery consumption compared to regular Bluetooth Audio; features like one set of headphones connecting",
+      "title": "Bluetooth Low Energy",
+      "url": "https://en.wikipedia.org/wiki/Bluetooth_Low_Energy"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn7news32",
+      "snippet": "Audio sharing, with Bluetooth LE and Auracast, finally became available on Google Pixel phones with Android 16. ... Whether you need hearing assistance or simply",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/lIfv5_RwQXavRpRNoG1CCrCb25-JRMAL7P7K8ig4bjLBTV31pnjgGNSvZU7_dxfdYtdzji1mI__9ECcoVAdOUFHQXk2fLpdb9hnxaUYApqpqcsNXl8J5iVqsRWzHYBkS",
+      "title": "How to use Bluetooth audio sharing on a Google Pixel phone",
+      "url": "https://www.androidcentral.com/apps-software/android-os/how-to-use-bluetooth-audio-sharing-on-google-pixel"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn7search33",
+      "snippet": "Small audio amplifiers such as personal sound amplification products (PSAPs) or other plain sound reinforcing systems cannot be sold as \"hearing aids\". ... * Apps",
+      "title": "Hearing aid",
+      "url": "https://en.wikipedia.org/wiki/Hearing_aid"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c3712840-3be2-466f-ae8c-448a8a547322",
+  "query": "site.bluetooth.com Auracast assistant transmitter receiver roles ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.bluetooth.com Auracast assistant transmitter receiver roles",
+      "site.source.android.com hearing aid audio support bluetooth LE ASHA",
+      "site.support.apple.com Live Listen Made for iPhone hearing devices",
+      "site.fda.gov hearing aids personal sound amplification products differences"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn9news12",
+      "snippet": "But seeing @cybersecuritygirl's reel about a hidden Apple feature logging transcripts made me stop and take a closer look. ... Apple introduced it to help",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/UJD-q01BYQXlw1rBliisg1bMzuKgeuCtFBjcPaGX3xcZEHQ9c9KsHn7Jl0pfRE3E3CzMoe_khNcxtrBXowSjc8E60vb8ieFcsIDBVpxGdyRCO2G4nbJTdMTB3n_XHH6-",
+      "title": "Is your iPhone listening to you? The 'live listen' setting you should check right now",
+      "url": "https://www.tomsguide.com/phones/iphones/is-your-iphone-listening-to-you-the-live-listen-setting-you-should-check-right-now"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.apple.com",
+      "ref_id": "turn9search0",
+      "snippet": "# Use Live Listen with Made for iPhone hearing devices With Live Listen, your iPhone, iPad, or iPod touch becomes a remote microphone that sends",
+      "title": "Use Live Listen with Made for iPhone hearing devices - Apple Support",
+      "url": "https://support.apple.com/en-us/111777"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.fda.gov",
+      "ref_id": "turn9search1",
+      "snippet": "This site includes information on the difference between hearing aids, which are intended for people who have hearing loss, and personal sound amplification products (PSAPs),",
+      "title": "Hearing Aids | FDA",
+      "url": "https://www.fda.gov/medical-devices/consumer-products/hearing-aids"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bluetooth.com",
+      "ref_id": "turn9search13",
+      "snippet": "The Bluetooth LE Audio specifications each introduce different names for the roles taken by the three devices that comprise the Auracast™ ecosystem. As using all",
+      "title": "1.0 Designing Auracast™ assistants",
+      "url": "https://www.bluetooth.com/wp-content/uploads/2024/05/2403_How_To_Auracast_Assistant.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.fda.gov",
+      "ref_id": "turn9search2",
+      "snippet": "Cochlear implants have some differences from hearing aids. ... Although PSAPs are electronic products, which are products that the FDA regulates under the Electronic Product",
+      "title": "Other Hearing Devices and Products | FDA",
+      "url": "https://www.fda.gov/medical-devices/hearing-aids/other-hearing-devices-and-products"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bluetooth.com",
+      "ref_id": "turn9search3",
+      "snippet": "inMusic Brands | Block Rocker Titan | Assistant / Transmitter / Receiver ... | Lithe Audio 8\" Bluetooth Auracast Ceiling Speaker | Receiver / Transmitter",
+      "title": "Find an Auracast™ Product | Bluetooth® Technology Website",
+      "url": "https://www.bluetooth.com/auracast/find-a-product/"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.apple.com",
+      "ref_id": "turn9search4",
+      "snippet": "You can stream sound from the microphone on iPhone to your MFi hearing devices, AirPods, or supported Beats headphones. ... When you use Live Listen",
+      "title": "Use iPhone as a remote microphone with Live Listen – Apple Support (UK)",
+      "url": "https://support.apple.com/en-gb/guide/iphone/iph8bf9386f5/27/ios/27"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.audiology.org",
+      "ref_id": "turn9search5",
+      "snippet": "While hearing aids are intended to treat impaired hearing, personal sound amplification products (PSAPs) are meant for individuals with normal hearing who want to amplify",
+      "title": "Consumers and OTC Hearing Aids - American Academy of Audiology",
+      "url": "https://www.audiology.org/consumers-and-patients/managing-hearing-loss/consumers-and-otc-hearing-aids/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.apple.com",
+      "ref_id": "turn9search14",
+      "snippet": "Hearing features can help you stay connected, enhance the sounds you hear, and support your hearing health if you’re Deaf, hard of hearing, or experiencing",
+      "title": "FY25 What's New in Apple Accessibility",
+      "url": "https://www.apple.com/government/docs/resources/No_Introduction_FY25_Whats_New_in_Apple_Accessibility.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bluetooth.com",
+      "ref_id": "turn9search15",
+      "snippet": "Each side shows an Auracast™ Transmitter, an Auracast™ Broadcast box with “Advertisements” and “Audio Streams,” and an Auracast™ Receiver; the left side also includes an",
+      "title": "Microsoft PowerPoint - Auracast for developers and location deployment Oct 26 v4 FINAL  -  Read-Only",
+      "url": "https://www.bluetooth.com/wp-content/uploads/2022/10/Auracast-for-developers-and-location-deployment-Oct-26.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "hearcast.com.tr",
+      "ref_id": "turn9search6",
+      "snippet": "The key point: There is no connection at all between the transmitter and the receiver; the receiver picks the sound straight out of the air,",
+      "title": "How Auracast™ Works — Hearcast™",
+      "url": "https://hearcast.com.tr/en/nasil-calisir/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.oticon.com",
+      "ref_id": "turn9search7",
+      "snippet": "Our newest hearing aids can stream audio directly and make hands-free calls via Bluetooth® LE Audio with Android devices that also support this technology. ...",
+      "title": "Why can't I stream sound from my Android device to my hearing aids",
+      "url": "https://www.oticon.com/en-us/support/troubleshooting/android/why-cant-i-stream-sound-from-android-device-to-hearing-aids"
+    },
+    {
+      "type": "text_result",
+      "domain": "source.android.google.cn",
+      "ref_id": "turn9search8",
+      "snippet": "A peripheral must implement the Audio Streaming for Hearing Aid (ASHA) GATT server service described below. ... To work with Bluetooth on Android mobile devices,",
+      "title": "Hearing aid audio support using Bluetooth LE  |  Android OS core topics  |  Android Open Source Project",
+      "url": "https://source.android.google.cn/docs/core/connect/bluetooth/asha?hl=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.microsoft.com",
+      "ref_id": "turn9search9",
+      "snippet": "Proprietary technologies like ASHA (Audio Streaming for Hearing Aids) and MFi (Made for iPhone) hearing devices are not based on LE Audio, even if they",
+      "title": "Using hearing devices with your Windows 11 PC | Microsoft Support",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/using-hearing-devices-with-your-windows-11-pc"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.audiology.org",
+      "ref_id": "turn9search10",
+      "snippet": "This guidance was developed to assist audiologists in understanding the differences between prescription hearing aids and over-the-counter (OTC) hearing aids and in answering questions about",
+      "title": "The Audiologist’s Guide to Hearing Aids, Personal Sound Amplification Products, Hearables, and Over-the-Counter Devices - American Academy of Audiology",
+      "url": "https://www.audiology.org/practice-guideline/the-audiologists-guide-to-hearing-aids-personal-sound-amplification-products-hearables-and-over-the-counter-devices/"
+    },
+    {
+      "type": "text_result",
+      "domain": "fcc.report",
+      "ref_id": "turn9search16",
+      "snippet": "For iPhone hearing aid compatibility ratings, see the Apple Support article About Hearing Aid Compatibility (HAC) requirements for iPhone. ... You can stream audio from",
+      "title": "iPhone User Guide",
+      "url": "https://fcc.report/FCC-ID/BCG-E8064A/5701227.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.oticon.com",
+      "ref_id": "turn9search11",
+      "snippet": "To do this directly, your Android device must support Bluetooth® LE Audio or Audio Streaming for Hearing Aids (ASHA). ... * Click here to see",
+      "title": "How to pair your hearing aids with an Android device",
+      "url": "https://www.oticon.com/support/pairing/android/how-to-pair-hearing-aids-with-android-devices"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.att.com",
+      "ref_id": "turn9search17",
+      "snippet": "- If your Android phone supports ASHA, calls and media audio can stream directly to the hearing aids. ... - Put the hearing aid in",
+      "title": "- **Android (ASHA / HAP)**",
+      "url": "https://www.att.com/scmsassets/support/wireless/pairing-hearing-aids-to-a-mobile-handset-v2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn9search18",
+      "snippet": "Auracast implements public audio broadcasting services, allowing multiple receivers to connect to a single audio transmitter without going through the Bluetooth device pairing process. ...",
+      "title": "Auracast",
+      "url": "https://en.wikipedia.org/wiki/Auracast"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit19",
+      "snippet": "I tried every possible troubleshooting option available with the exception of a full factory reset on my Pixel 10 Pro XL on the current Android",
+      "title": "No audio comes through my LE Bluetooth connected Hearing Aid A17 B3 on P10PXL",
+      "url": "https://www.reddit.com/r/android_beta/comments/1sbnv4x/no_audio_comes_through_my_le_bluetooth_connected/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit20",
+      "snippet": "I looked into it a bit more and I think you’re right — the Savi 360 may not support ASHA/direct Android streaming. ... I live",
+      "title": "Trouble streaming audio on Android",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1u1x1zd/trouble_streaming_audio_on_android/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit21",
+      "snippet": "Live Listen is exclusive to Made‑for‑iPhone (MFi) hearing devices. It allows your iPhone to act as an external microphone, streaming audio directly to compatible aids",
+      "title": "Live Listen is unavailable and I can’t get it to activate",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1me503d/live_listen_is_unavailable_and_i_cant_get_it_to/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit22",
+      "snippet": "**What Philips support suggested:** Samsung Separate App Sound - Doesn't help; Disable LE Audio through Developer Options — Not available; Disable Media Audio in the",
+      "title": "Do your LE Audio hearing aids hijack Bluetooth audio on Android? Philips blames Samsung/Google. Do other brands do this?\"",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1xgay3i/do_your_le_audio_hearing_aids_hijack_bluetooth/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit23",
+      "snippet": "Google's BT LE/hearing aid implementation just perpetually has issues. people always say \"wait for the next beta\" or \"a fix is coming\" but at this",
+      "title": "Hearing Aid Gang",
+      "url": "https://www.reddit.com/r/android_beta/comments/1snxwul/hearing_aid_gang/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit24",
+      "snippet": "ASHA (for Android devices only and only supported by some devices.) LE Audio (Newest and rarest, very limited Android support, \\*extremely\\* limited PC support, no",
+      "title": "question about ble",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1hzrdu4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit25",
+      "snippet": "The catch is the other end: your phone or laptop needs an LE Audio-capable Bluetooth 5.3 radio, and on Windows that support is still patchy,",
+      "title": "The four kinds of Bluetooth in hearing aids, and why one of them fails on half of Android phones",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1vd0wb5/the_four_kinds_of_bluetooth_in_hearing_aids_and/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit26",
+      "snippet": "ChatGPT suggests that in regular versions of Android, one can choose if the bluetooth empaired device is used for audio or not (ASHA profile), but",
+      "title": "Problem with bluetooth hearing aid",
+      "url": "https://www.reddit.com/r/miui/comments/1o4mrfd"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit27",
+      "snippet": "bull, this is bull, i use to use live listen with my headphones, edit:ok so turns out all you need to do is reset your",
+      "title": "Can you use the “live listen” feature with any Bluetooth earphones or just the AirPods?",
+      "url": "https://www.reddit.com/r/iphone/comments/aerm6v"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit28",
+      "snippet": "For \\*audio streaming\\* on top of Bluetooth LE to work (as Bluetooth LE is just data only) the phone and hearing aids also need to",
+      "title": "Audio not playing through android phone after connecting to hearing aids",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1fkcsr2"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit29",
+      "snippet": "As far as I know there are only a handful of Android devices which support LE-Audio. ... Since Signia offers both options with their hearing",
+      "title": "Choppy bluetooth streaming and no LE sound",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1ogkuq1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit30",
+      "snippet": "Android have clearly made some changes with hearing aid connections in beta 3 and so not sure if this is me not understanding the changes/new",
+      "title": "Niche problem...hearing aids",
+      "url": "https://www.reddit.com/r/android_beta/comments/1s51z2i/niche_problemhearing_aids/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn9search31",
+      "snippet": "Auracast implements public audio broadcasting services, allowing multiple receivers to connect to a single audio transmitter without going through Bluetooth device pairing first. ... |",
+      "title": "Bluetooth Low Energy",
+      "url": "https://en.wikipedia.org/wiki/Bluetooth_Low_Energy"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn9search32",
+      "snippet": "* Hearing Aids and Personal Sound Amplification Products: What to Know US Food and Drug Administration (FDA) ... The FDA also issued the final guidance,",
+      "title": "Hearing aid",
+      "url": "https://en.wikipedia.org/wiki/Hearing_aid"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn9search33",
+      "snippet": "## Differences ... * Mann, Eric A., M.D., Ph.D., \"Hearing Aids and Personal Sound Amplifiers: Know the Difference\", U.S. ... * Mann, \"Guidance for Industry",
+      "title": "Personal sound amplification product",
+      "url": "https://en.wikipedia.org/wiki/Personal_sound_amplification_product"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn9search34",
+      "snippet": "\"Bluetooth SIG Announces 'LE Audio' With Audio Sharing, Lower Data Consumption, Hearing Aid Support and More\". macrumors.com. ... Android Open Source Project.",
+      "title": "Bluetooth",
+      "url": "https://en.wikipedia.org/wiki/Bluetooth"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn9search35",
+      "snippet": "This profile defines how multimedia audio can be streamed from one device to another over a Bluetooth connection (it is also called Bluetooth Audio Streaming).",
+      "title": "List of Bluetooth profiles",
+      "url": "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-2237bca6-8a99-4b71-95a2-89fe4877d1f6",
+  "query": "site.open.rokid.com audio CXR-L PCM ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.open.rokid.com audio CXR-L PCM",
+      "site.hub.evenrealities.com docs audio pcm microphone",
+      "site.llvision.com LEION HEY2 Romanian languages offline",
+      "site.rayneo.com X3 Pro translation offline language"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.rayneo.com",
+      "ref_id": "turn10search0",
+      "snippet": "RayNeo’s published materials don’t give a verified offline language list, so check RayNeo’s current help documentation before relying on offline use. ... Can the X3",
+      "title": "RayNeo X3 Pro Live Translation: Languages, Speed and Network Needs",
+      "url": "https://www.rayneo.com/en-ca/blogs/news/rayneo-x3-pro-live-translation-explained"
+    },
+    {
+      "type": "text_result",
+      "domain": "rayneovietnam.com.vn",
+      "ref_id": "turn10search1",
+      "snippet": "The RayNeo X3 Pro supports basic offline translation for simple phrases and menus in major languages (English/Chinese/Spanish). ... → Shop RayNeo X3 Pro (Best AR",
+      "title": "Which Smart Glasses Offer Real-Time Translation? The 2026 Guide | RayNeo Vietnam",
+      "url": "https://rayneovietnam.com.vn/en-ca/blogs/news/smart-glasses-real-time-translation-guide-2026"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn10search2",
+      "snippet": "DOCS Install Node.js & npm Install Even Hub tooling ... Signing up at hub.evenrealities.com and getting into the console, plus the detail that bites later:",
+      "title": "Video Series | Documentation",
+      "url": "https://hub.evenrealities.com/docs/learn/videos"
+    },
+    {
+      "type": "text_result",
+      "domain": "marcinmiazga.com",
+      "ref_id": "turn10search3",
+      "snippet": "* CustomView: `customViewOpen` succeeds and `onCustomViewOpened` is received. ... Audio | PCM audio stream ... * Zip package: `https://rokid-ota.oss-cn-hangzhou.aliyuncs.com/toB/Document/CXR-L/v1.0.3/",
+      "title": "Introduction · CXR-L(EN) - Marcin Miazga",
+      "url": "https://marcinmiazga.com/cxr-l-sdk/introduction"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile01.com",
+      "ref_id": "turn10search4",
+      "snippet": "# 全台最詳細 RayNeo X3 Pro 完全問答：從開機到側載 這不就來了嗎 ... 使用過 HTC Vive Eagle、Rokid Glasses 還有這支 Rayneo X3 Pro 算是伊森我用過亮度最亮、顯示能力最屌的 Ai 眼鏡。",
+      "title": "全台最詳細 RayNeo X3 Pro 完全問答：從開機到側載 這不就來了嗎 - Mobile01",
+      "url": "https://www.mobile01.com/topicdetail.php?f=180&t=7292566"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit12",
+      "snippet": "The latest update has some offline translations available, Chinese to English, French, Spanish, German, Japanese and vice versa, and English to French, Spanish, German, Japanese",
+      "title": "iO has offline translation",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1x79qv9/io_has_offline_translation/"
+    },
+    {
+      "type": "text_result",
+      "domain": "jp.rayneo.com",
+      "ref_id": "turn10search5",
+      "snippet": "Let's address the anxiety immediately: You are considering spending $1,299 on the RayNeo X3 Pro, but you are worried it might end up in a",
+      "title": "2026 HUD Smart Glasses Guide: Is RayNeo X3 Pro Ready for All-Day Use? - RayNeo.JP",
+      "url": "https://jp.rayneo.com/blogs/news/hud-smart-glasses-all-day-wear-2026-guide"
+    },
+    {
+      "type": "text_result",
+      "domain": "open.rokid.com",
+      "ref_id": "turn10search6",
+      "snippet": "The Rokid AI APP connects to Rokid Glasses; by integrating the CXR-L SDK into your application, you can access Glasses IO capabilities—including image, audio, display,",
+      "title": "Rokid Open Platform",
+      "url": "https://open.rokid.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "jp.rayneo.com",
+      "ref_id": "turn10search7",
+      "snippet": "X3 Proの中核を担うRayNeo AIOS。",
+      "title": "RayNeo X3 Pro AI搭載スマートグラス - 最高のカメラ付きスマートグラス - RayNeo.JP",
+      "url": "https://jp.rayneo.com/products/x3-pro-ai-display-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "sekin.in",
+      "ref_id": "turn10search8",
+      "snippet": "That gives the X3 Pro a more convincing AR foundation than a simple head-locked notification display. ... RayNeo says core functions such as translation and",
+      "title": "RayNeo X3 Pro review: Brilliant AR, weak battery",
+      "url": "https://sekin.in/rayneo-x3-pro-review-promising-ar-smart-glasses-with-one-big-limitation/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartglassesatlas.com",
+      "ref_id": "turn10search9",
+      "snippet": "## RayNeo X3 Pro ... Buy RayNeo X3 Pro",
+      "title": "Smart Glasses Atlas — Weet wat werkt vóór je koopt.",
+      "url": "https://smartglassesatlas.com/nl/?features=visualTranslation&use=translation"
+    },
+    {
+      "type": "text_result",
+      "domain": "in.headtopics.com",
+      "ref_id": "turn10search10",
+      "snippet": "The RayNeo X3 Pro run a fork of Android, so maybe you’ll have more luck with your non-iOS phone. ... The RayNeo X3 Pro come",
+      "title": "RayNeo X3 Pro Review: These AR Smart Glasses May Haunt My Dreams | इंडिया",
+      "url": "https://in.headtopics.com/news/rayneo-x3-pro-review-these-ar-smart-glasses-may-haunt-my-77316274"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn10search11",
+      "snippet": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use ... [Image 0: RayNeo X3 Pro] ... Translation",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/v7RxqsTHVUIWrt6OsTxQGwg-GRrptoGIcLuMq4tCuuIDfDbOon_kCGJmH8nOuN3GfZ2WxC5XT-_ajJDmv74TPIKxQyVFvrl45VnLmnkzrp_bbgo8Cn2Fz99nMnoWJsWa",
+      "title": "RayNeo X3 Pro review: These AI+AR Smart Glasses are technically impressive, but far from easy to use",
+      "url": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit13",
+      "snippet": "All the videos only show translation into english. ... If you're talking about the Rayneo iO, here's a list of the conversation supported languages. ...",
+      "title": "Does it support output in other languages?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1wktnjg/does_it_support_output_in_other_languages/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit14",
+      "snippet": "A significant update for the **RayNeo AI app (12 MB)** just dropped, and it looks like they are heavily pushing to fix the software bottlenecks",
+      "title": "Massive RayNeo AI App Update Dropped: Offline Models, Context Memory & Live Cues. (Changelog Breakdown)",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1x583nq/massive_rayneo_ai_app_update_dropped_offline/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit15",
+      "snippet": "Would love to pick up a pair next time I visit China, but I want to know if anyone has tried Maps, AI, translation etc",
+      "title": "Is the RayNeo X3 Pro functional outside China?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1n1gzv9/is_the_rayneo_x3_pro_functional_outside_china/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit16",
+      "snippet": "It's a pretty small one, but if you needed new languages the time is now",
+      "title": "X3 Pro Update",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1t04gxe/x3_pro_update/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit17",
+      "snippet": "Is it possible to change the menu language, I bought a pair of Air Pro 4s but the menu is in Chinese",
+      "title": "Menu language",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1s4p91p/menu_language/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit18",
+      "snippet": "The big addition is a new CXR-L / HI ROKID mode. ... Open Rokid-APKs. ... https://github.com/Anezium/Rokid-APKs/releases/tag/v1.2.0",
+      "title": "Rokid-APKs v1.2.0 update - new Hi Rokid / CXR-L install mode",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1t3wn3w/rokidapks_v120_update_new_hi_rokid_cxrl_install/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit19",
+      "snippet": "I've been asked to create a community post to share my thoughts as part of my application to be a beta tester for the RayNeo",
+      "title": "RayNeo X3 Pro – Layman’s look from someone who uses AI/AR/XR Glasses Daily",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1p4hx4t/rayneo_x3_pro_laymans_look_from_someone_who_uses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit20",
+      "snippet": "I Have 3 English Version 3x Pros and one Chinese x3 pro is there a method to convert it :)?",
+      "title": "Chinese X3 pro -> English Language Firmware possible?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1sez08j/chinese_x3_pro_english_language_firmware_possible/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit21",
+      "snippet": "I bought the RayNeo X3 Pro just after it went on sale. ... The translation from Chinese to English seemed better on the RayNeo X3",
+      "title": "Cautionary Tale for RayNeo X3 Pro",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1q5m559/cautionary_tale_for_rayneo_x3_pro/"
+    },
+    {
+      "type": "text_result",
+      "domain": "device.report",
+      "ref_id": "turn10search22",
+      "snippet": "Text display: As the recording progresses, the translation results will be ... Delete the downloaded offline language packs from the device, or download the offline",
+      "title": "User manual",
+      "url": "https://device.report/m/700dbf66ff0a17b77ad7ac88dfcfc721796876ddfbdc6ccb7818c888f63d53e8_optim.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bhphotovideo.com",
+      "ref_id": "turn10search23",
+      "snippet": "(Customizable via RayNeo App)",
+      "title": "X3 Pro 说明书 国内版_英西法德意日繁",
+      "url": "https://www.bhphotovideo.com/lit_files/1293361.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "5.imimg.com",
+      "ref_id": "turn10search24",
+      "snippet": "X3 Pro ... - RayNeo AIOS",
+      "title": "X3 Pro\n\n**X3 Pro**\n- Binocular Full-Color AI+AR Gl",
+      "url": "https://5.imimg.com/data5/SELLER/Doc/2026/1/578549315/VI/EC/TF/11078779/rayneo-x3-pro-ar-glasses-argf20.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "fcc.report",
+      "ref_id": "turn10search25",
+      "snippet": "translator is offline, the translation will automatically switch to ... ○ Tap the language button at the top of the Translate page to see ...",
+      "title": "Translator",
+      "url": "https://fcc.report/FCC-ID/2AVZX-M9/4687863.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit26",
+      "snippet": "Translate 14 languages in teal time. ... Looks like features of the X3 Pro",
+      "title": "Using occasion?",
+      "url": "https://www.reddit.com/r/RayNeo/comments/1rh5vxh/using_occasion/"
+    },
+    {
+      "type": "text_result",
+      "domain": "fcc.report",
+      "ref_id": "turn10search27",
+      "snippet": "Select the language you want to translate, take a photo of the target with your phone, and the translation result will be displayed. **Offline translation",
+      "title": "10. Click on the translation dialogue record in the translation interface and the result will be read again.",
+      "url": "https://fcc.report/FCC-ID/2A6DU-G6/7165310.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rodel-audio.cz",
+      "ref_id": "turn10search28",
+      "snippet": "In addition, control functions of the audio player (classifying and sorting music files and adding information, etc.) are not available on this unit. ... -",
+      "title": "Connections | Initial Setup | Playing Back | Advanced Manual",
+      "url": "https://www.rodel-audio.cz/ew/13c5fcb0-6dd6-483f-95d1-49d26e204c46-cs"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit29",
+      "snippet": "So I'm in China and I've been using the X3 Pro - I had no idea it could record like this!? ... If RayNeo is",
+      "title": "RayNeo X3 Pro recording",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1mcc5j4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn10news30",
+      "snippet": "[Image 0: RayNeo X3 Pro review on Android Central] ... Coming to the software, the X3 Pro runs the custom AIOS, and it gets real-time",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/K1Y1Hc3aIsXw2z5oNpd-WP3LmCF832iZZtVpd8nu30HfPR1YBPV7J1DnFSoZuJo4uo2vf8I-_9cvYSX3zi9v8D_EDvxAmiUdwZqlqF10ebQdbqGhUoaXSFRHT_cJiV6f",
+      "title": "I used RayNeo's X3 Pro for a month - these AR glasses are futuristic, but there's a big problem",
+      "url": "https://www.androidcentral.com/wearables/i-used-rayneo-x3-pro-for-a-month-these-ar-glasses-are-futuristic-but-theres-a-problem"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-61541fb0-3753-48f4-8abd-0bb48e3a1844",
+  "query": "site.leionhey.com HEY2 hearing loss languages Romanian ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.leionhey.com HEY2 hearing loss languages Romanian",
+      "site.llvision.com LEION HEY2 hearing impaired",
+      "site.developer.inmolens.com microphone audio SDK",
+      "site.developer.android.com audio low latency oboe full duplex"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "developer.android.google.cn",
+      "ref_id": "turn11search0",
+      "snippet": "Complete the following checklist to enable low latency audio in your game on Android: ... With Oboe or AAudio, request low latency mode.",
+      "title": "Low latency audio  |  Android game development  |  Android Developers",
+      "url": "https://developer.android.google.cn/games/sdk/oboe/low-latency-audio?hl=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn11search1",
+      "snippet": "Find answers about LEION Hey2 translation glasses, LEION HEARING captions, prescription lenses, warranties, shipping and returns. ... Leion HEY2 uses LLVISION’s proprietary AI engine to",
+      "title": "Häufig gestellte Fragen zu Leion Hey 2 Geräten",
+      "url": "https://leion.glass/de-de/pages/haeufig-gestellte-fragen"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mwcshanghai.com",
+      "ref_id": "turn11search2",
+      "snippet": "Leion Hey2 AR Translation Glasses by LLVision are designed for cross-language communication and accessible interaction. ... * Email Contact by Email (leion@llvision.com)",
+      "title": "Beijing LLVISION Technology Co., Ltd. | MWC Shanghai",
+      "url": "https://www.mwcshanghai.com/exhibitors/37279-beijing-llvision-technology-co-ltd"
+    },
+    {
+      "type": "text_result",
+      "domain": "google.github.io",
+      "ref_id": "turn11search3",
+      "snippet": "Base class for Oboe C++ audio stream. ... If the DAC is external, for example in a USB interface or a TV connected by HDMI,",
+      "title": "Oboe: oboe::AudioStream Class Reference",
+      "url": "https://google.github.io/oboe/classoboe_1_1_audio_stream.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "conference.audio.dev",
+      "ref_id": "turn11search4",
+      "snippet": "# Low Latency Android Audio with improved CPU Performance – Phil Burk – ADC 2025 ... We will also discuss strategies for reducing glitches in",
+      "title": "Low Latency Android Audio with improved CPU Performance - Phil Burk - ADC 2025 - Audio Developer Conference",
+      "url": "https://conference.audio.dev/low-latency-android-audio-with-improved-cpu-performance-phil-burk-adc-2025/"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.vulkan.org",
+      "ref_id": "turn11search5",
+      "snippet": "Oboe is a C++ library developed by Google that provides a high-performance, low-latency audio API for Android. ... Java_com_example_vulkanaudio_AudioManager_nativeOnAudioFocusGained(JNIEnv *env, jobje",
+      "title": "Windowing, Audio, and Input :: Vulkan Documentation Project",
+      "url": "https://docs.vulkan.org/guide/latest/windowing_audio_input.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "android-developers.googleblog.com",
+      "ref_id": "turn11search6",
+      "snippet": "# Introducing Oboe: A C++ library for low latency audio ... Oboe provides the lowest possible audio latency across the widest range of Android devices,",
+      "title": "Android Developers Blog: Introducing Oboe: A C++ library for low latency audio",
+      "url": "https://android-developers.googleblog.com/2018/10/introducing-oboe-c-library-for-low.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.llvision.com",
+      "ref_id": "turn11search7",
+      "snippet": "* * LEION HEY2",
+      "title": "LLVISION",
+      "url": "https://www.llvision.com/leion-hey.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn11search8",
+      "snippet": "Oboe is a C++ library which makes it easy to build high-performance audio apps on Android. ... Also, attempting to open a low latency output",
+      "title": "oboe/docs/FullGuide.md at main · google/oboe · GitHub",
+      "url": "https://github.com/google/oboe/blob/main/docs/FullGuide.md"
+    },
+    {
+      "type": "text_result",
+      "domain": "android-developers.googleblog.com",
+      "ref_id": "turn11search9",
+      "snippet": "# An update on Android's audio latency Posted by Don Turner - Android Developer Relations Engineer ... To get started, check out the Oboe getting",
+      "title": "Android Developers Blog: An update on Android's audio latency",
+      "url": "https://android-developers.googleblog.com/2021/03/an-update-on-androids-audio-latency.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn11search10",
+      "snippet": "Please visit us at leion.llvision.com for information about the countries LEION supports and to get helpful service and contact information. ... LEION HEARING puts every",
+      "title": "Leion Hey 2 AR Glasses | Real-Time AI Captions & Smart Display",
+      "url": "https://leion.glass/products/leion-hey-2-smart-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.nokia.com",
+      "ref_id": "turn11search11",
+      "snippet": "# Developer resources ... Nokia Immersive Voice is our all-in-one spatial audio platform for experiencing—and evaluating—real-time voice communication with the IVAS codec. ... The Client",
+      "title": "Developer resources - Audio and RXRM | Nokia.com",
+      "url": "https://www.nokia.com/multimedia/audio/technology-and-standards/developer-resources/"
+    },
+    {
+      "type": "text_result",
+      "domain": "source.android.com",
+      "ref_id": "turn11search12",
+      "snippet": "Test using [OboeTester] (https://github.com/google/oboe/tree/master/apps/OboeTester) ... (https://source.android.com/devices/audio/latency/loopback), used directly in a 3.5mm jack, and/or ... LOW_LATE",
+      "title": "Compatibility Definition",
+      "url": "https://source.android.com/compatibility/11/android-11-cdd.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mdpi.com",
+      "ref_id": "turn11search13",
+      "snippet": "For low latency audio-handling, we used Oboe, identified as the most efficient solution by Inuggi et al. in PsySuite [23]. ... On smartphones running Android",
+      "title": "Using Android Smartphones to Collect Precise Measures of Reaction Times to Multisensory Stimuli",
+      "url": "https://www.mdpi.com/1424-8220/25/19/6072/pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "source.android.com",
+      "ref_id": "turn11search14",
+      "snippet": "If a device implementation meets the requirements of this section after any initial calibration when using the OpenSL ES PCM buffer queue API, for continuous",
+      "title": "If a device implementation meets the requirements of this section after any initial calibration when using the OpenSL ES PCM buffer queue API, for continuous output latency and cold output latency over at least one supported audio output device, it MAY report support for low-latency audio, by reporting the feature `android.hardware.audio.low_latency` via the `android.content.pm.PackageManager` class [Resources, 53]. Conversely, if the device implementation does not meet these requirements it MUST NOT report support for low-latency audio.",
+      "url": "https://source.android.com/docs/compatibility/5.0/android-5.0-cdd.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.iris.santannapisa.it",
+      "ref_id": "turn11search15",
+      "snippet": "AAudio (available since Android 8.1), or the further Oboe over-arching API that is capable of using either the former or the latter API. ... Logical",
+      "title": "AAudio (available since Android 8.1), or the further Oboe over-arching API that is capable of using either the former or the latter API. These APIs interact with a particular component of the AudioFlinger server, called FastMixer, that has a much shorter activation period, normally 2–5 ms, which in turn hands over audio data to the audio HAL and ultimately to the kernel. In order to ensure a glitch-free playback under such conditions, FastMixer keeps its functionality at the bare minimum (i.e., up to only 8 tracks can be mixed, one of which is the audio coming from the regular non-low latency path, and no resampling is supported), and it has a real-time thread scheduled using the SCHED_FIFO policy. In particularly demanding cases, it is possible to bypass the FastMixer entirely, so to avoid its overheads, by requesting exclusive access to the audio device, when initializing AAudio.",
+      "url": "https://www.iris.santannapisa.it/retrieve/dd9e0b32-4e11-709e-e053-3705fe0a83fd/Elsevier-JSS-2019.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn11search16",
+      "snippet": "LEION HEY2 ... Choose [LEION HEY2] glasses",
+      "title": "01/Glasses connection operation",
+      "url": "https://manuals.plus/m/9e1f3e7c08cd9a8ba31cec78f3017a033e1f834d78594a83c40d6fd95c4c6d2e.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "img.sauf.ca",
+      "ref_id": "turn11search17",
+      "snippet": "<tr><td>AAudioStreamBuilder_setSharingMode()<br>(https://developer.android.com/ndk/reference/group___audio.html#ga5edd7941e1dc11c7d6fb53d5d54841)</td><td>AAudioStream_getSharingMode()<br>(https://deve",
+      "title": "Android Developers",
+      "url": "https://img.sauf.ca/pictures/2017-08-29/a650bdbad0a680c40126ca9d81f77a1f.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit18",
+      "snippet": "If the audio is stuttering in your game, press esc then go to options > audio and change latency to 96ms. ... I can't see",
+      "title": "Prototype port audio stuttering fix",
+      "url": "https://www.reddit.com/r/AndroidNativePorts/comments/1xf0i9p/prototype_port_audio_stuttering_fix/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit19",
+      "snippet": "On the Leion Hey2 they all run on the same first step: sound in, text out. ... *Disclosure: LLVision provided the unit.",
+      "title": "Proof Cases: Leion Hey2",
+      "url": "https://www.reddit.com/r/AI_Glasses/comments/1wzf869/proof_cases_leion_hey2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit20",
+      "snippet": "The Leion Hey2 is a 49g pair of glasses with four mics around the frame. ... *Disclosure: review unit from LLVision, no payment.",
+      "title": "Leion Hey2: 49 grams, four mics, captions in about 2.5 seconds.",
+      "url": "https://www.reddit.com/r/wearables/comments/1wzf90i/leion_hey2_49_grams_four_mics_captions_in_about/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit21",
+      "snippet": "I'm getting weird non-reset loops where the startup screen (Windows one side, Android the other) pops up for a few seconds, then the lock screen",
+      "title": "April Troubleshooting/Questions Thread",
+      "url": "https://www.reddit.com/r/surfaceduo/comments/1bt1uz4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit22",
+      "snippet": "The Leion Hey2 came in around 2.5 seconds, under half the broadcast figure. ... *Disclosure: LLVision supplied the review unit, unpaid.",
+      "title": "Measuring caption delay on glasses: the Leion Hey2 came in around 2.5 seconds.",
+      "url": "https://www.reddit.com/r/accessibility/comments/1wzfbje/measuring_caption_delay_on_glasses_the_leion_hey2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit23",
+      "snippet": "The latency problem on Android audio has historically been brutal compared to iOS so getting practically zero discernible latency with the iRig HD X is",
+      "title": "Chasing tone on my own!",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1tdjg2h/chasing_tone_on_my_own/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit24",
+      "snippet": "Is it possible to play soundfont files with minimal latency using Oboe library? ... I'd suggest to post the question on StackOverflow but I don't",
+      "title": "Weekly Questions Thread - June 22, 2021",
+      "url": "https://www.reddit.com/r/androiddev/comments/o5mlis"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit25",
+      "snippet": "No noticeable audio latency! ... Is there any way to display actual audio driver used in Android? ... There's a PR implementing the Oboe library",
+      "title": "Why audio driver in Android shows as \"Android\", instead of AAudio or OpenSL ES?",
+      "url": "https://www.reddit.com/r/godot/comments/1scj5ca/why_audio_driver_in_android_shows_as_android/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit26",
+      "snippet": "I hear Oboe is the way to go for low-latency audio on Android. ... https://github.com/google/oboe/tree/main/samples",
+      "title": "Help Needed: Building Advanced Chord Pad Synth App Clone (Kotlin + Oboe)",
+      "url": "https://www.reddit.com/r/androiddev/comments/1ts8cnp/help_needed_building_advanced_chord_pad_synth_app/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit27",
+      "snippet": "I know that its possible to have low latency audio playback on Android because I have apps that have almost instantaneous audio playback. I know",
+      "title": "What is the expected audio latency of AudioTrack playing raw PCM audio from memory?",
+      "url": "https://www.reddit.com/r/androiddev/comments/15rlyvn"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit28",
+      "snippet": "On June 12th, LLVision held a product launch event for its Leion brand in Seoul, South Korea, officially unveiling its consumer AR glasses, the Leion",
+      "title": "LLVision announces LEION HEY2 smart glasses with binocular display",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1l9qnus/llvision_announces_leion_hey2_smart_glasses_with/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit29",
+      "snippet": "Without knowing more information about what phone you have and android versions, I can only assume that Motorola is using their own audio resampler that",
+      "title": "Android's audio layer is actively ruining our music.",
+      "url": "https://www.reddit.com/r/Android/comments/1u5u9c6/androids_audio_layer_is_actively_ruining_our_music/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn11search30",
+      "snippet": "In Romania, expanding early intervention for deaf and hard of hearing children has become a priority due to an increase in the amount of people",
+      "title": "Deafness in Romania",
+      "url": "https://en.wikipedia.org/wiki/Deafness_in_Romania"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn11search31",
+      "snippet": "Low-latency audio in computers is important for interactivity. ... Wherever practical, it is important to try to keep live production audio latency low in order",
+      "title": "Latency (audio)",
+      "url": "https://en.wikipedia.org/wiki/Latency_%28audio%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn11academia32",
+      "snippet": "Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift c",
+      "title": "SteerDuplex: Steerable Duplex Speech Dialogue Models",
+      "url": "https://arxiv.org/abs/2609.12623"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn11search33",
+      "snippet": "Low Latency High-Definition Audio Codec (LHDC) is an audio codec technology developed by Savitech. ... Android apps with this type of LHDC support include Savitech's",
+      "title": "LHDC (codec)",
+      "url": "https://en.wikipedia.org/wiki/LHDC_%28codec%29"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_54c1c71b4d4848178dc961ccd7ff3649",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c6f32fb7-2bdb-4808-b3a5-8fff08727733",
+  "query": "site.hub.evenrealities.com docs device audio microphone 16000 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.hub.evenrealities.com docs device audio microphone 16000",
+      "site.nature.com hearing aid open fit delay comb filtering 10 ms",
+      "site.nal.gov.au hearing aid feedback open fit delay",
+      "site.leion.llvision.com HEARING languages Romanian"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "ref_id": "turn12search0",
+      "snippet": "In general, open-fit HAs, which are typically prescribed in case of rather mild HI, provide a more natural and comfortable listening experience than closed-fit devices",
+      "title": "Individual Differences Underlying Preference for Processing Delay in Open-Fit Hearing Aids",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11638989/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.audiologist.org",
+      "ref_id": "turn12search12",
+      "snippet": "Processing delay arises in digital hearing aids because signal processing takes time, generally with average delays in the range from 5 to 8 ms (see",
+      "title": "OPTIMIZING SOUND IN SIGNAL PROCESSING AND HEARING AID FITTING",
+      "url": "https://www.audiologist.org/_resources/publications/audiology-practices/2021/Vol-13-Num-4-DEC.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "link.springer.com",
+      "ref_id": "turn12search1",
+      "snippet": "Many hearing aid users have only mild hearing loss at low frequencies and prefer an open fitting to reduce occlusion (and avoid high humidity in",
+      "title": "Hearing Aids: What Works Well and What Can Be Improved | Journal of the Association for Research in Otolaryngology | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s10162-026-01031-5"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tandfonline.com",
+      "ref_id": "turn12search2",
+      "snippet": "For HAs with open fittings or large vents the delay is particularly critical, because HAs with such fittings typically exhibit a pronounced comb-filter effect and",
+      "title": "Full article: Hearing aid delay in open-fit devices – coloration-pitch discrimination in normal-hearing and hearing-impaired",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/14992027.2022.2049380"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn12search3",
+      "snippet": "Every gesture, lifecycle signal, IMU sample and audio buffer reaches your app through one callback: bridge.onEvenHubEvent. ... DOCS Device APIs Background & Lifecycle ... Device",
+      "title": "Video Series | Documentation",
+      "url": "https://hub.evenrealities.com/docs/learn/videos"
+    },
+    {
+      "type": "text_result",
+      "domain": "cdn.widexpro.com",
+      "ref_id": "turn12search13",
+      "snippet": "in an artifact known as comb filtering (Stone et al., 2008), ... Processing delay in open-ear fittings has already ... 0.3 and 1 ms, depending",
+      "title": "Impact of Hearing Aid Processing Delay on Stop Consonant Voicing Perception in Open Fittings",
+      "url": "https://cdn.widexpro.com/-/media/widex/global/files/evidence/widex-evidence_2024_ha-delay-and-consonant-voicing-perception.pdf?hash=F0A2F88F3FA92F963F9055795EA4F332&rev=098753517ef645efa7ca4b7d220032e5"
+    },
+    {
+      "type": "text_result",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "ref_id": "turn12search4",
+      "snippet": "In open-fit hearing aids (HAs), the interaction between the direct and processed sound leads to comb-filtering and, thus, perceived coloration effects. ... Furthermore, the 0.5-ms",
+      "title": "Own-Voice Perception with Different Processing Delays in Open-Fit Hearing Aids - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41869839/?fc=None&ff=20260324021015&v=2.19.0.post6+133c1fe"
+    },
+    {
+      "type": "text_result",
+      "domain": "hearingreview.com",
+      "ref_id": "turn12search5",
+      "snippet": "A further crucial challenge for sound quality in open fits is the comb-filter effect. As described above, this effect arises when the direct sound that",
+      "title": "Challenges of Instant-Fit Ear Tips: What Happens at the Eardrum? | The Hearing Review",
+      "url": "https://hearingreview.com/hearing-loss/patient-care/hearing-fittings/challenges-of-instant-fit-ear-tips-what-happens-at-the-eardrum"
+    },
+    {
+      "type": "text_result",
+      "domain": "journals.sagepub.com",
+      "ref_id": "turn12search6",
+      "snippet": "This hearing loss determines the required frequency- and level-dependent sound pressure level at the eardrum, which should be provided by any hearing aid, conventional or",
+      "title": "Open Versus Closed Hearing-Aid Fittings: A Literature Review of Both Fitting Approaches - Alexandra Winkler, Matthias Latzel, Inga Holube, 2016",
+      "url": "https://journals.sagepub.com/doi/10.1177/2331216516631741"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn12search7",
+      "snippet": "### Select a voice input device ... * Phone Mic: Uses the phone's microphone to capture audio. When using it for the first time, allow",
+      "title": "Conversate – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/14273795154319-Conversate"
+    },
+    {
+      "type": "text_result",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "ref_id": "turn12search8",
+      "snippet": "Objectives: Open canal fittings are a popular alternative to close-fitting earmolds for use with patients whose low-frequency hearing is near normal. ... In one experiment,",
+      "title": "Tolerable hearing aid delays. V. Estimation of limits for open canal fittings - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18469715/"
+    },
+    {
+      "type": "text_result",
+      "domain": "hub.evenrealities.com",
+      "ref_id": "turn12search9",
+      "snippet": "The Even G2 is a pair of smart glasses with a dual micro-LED display - one per lens - a four-mic array, touchpads on both",
+      "title": "Overview | Documentation",
+      "url": "https://hub.evenrealities.com/docs/get-started/overview"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.asha.org",
+      "ref_id": "turn12search10",
+      "snippet": "The audiologist determines the physical fit of the earmold or the hearing aid with patient input on cosmetic appeal, physical comfort, absence of feedback, size",
+      "title": "Hearing Aids For Adults",
+      "url": "https://www.asha.org/practice-portal/professional-issues/hearing-aids-for-adults"
+    },
+    {
+      "type": "text_result",
+      "domain": "leblogaudiologie.com",
+      "ref_id": "turn12search14",
+      "snippet": "Although this general physical principle exists for any hearing-aid style, it is more likely to happen, and in a higher frequency range, in open than",
+      "title": "untitled",
+      "url": "https://leblogaudiologie.com/wp-content/uploads/2024/12/Open_Versus_Closed_Hearing-Aid_Fittings_A_Literatu.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "findresearcher.sdu.dk",
+      "ref_id": "turn12search15",
+      "snippet": "processed (delayed) sound from the hearing aid can interact, leading to comb-filtering ... 1.1.3 Comb-filtering in open-fit hearing aids ... this delay ranges from 0.5",
+      "title": "University of Southern Denmark",
+      "url": "https://findresearcher.sdu.dk/ws/portalfiles/portal/295022606/PhD_thesis.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "ref_id": "turn12search11",
+      "snippet": "# Effect of a processing delay between direct and delayed sound in simulated open fit hearing aids on speech intelligibility in noise ... Across-frequency delays",
+      "title": "Effect of a processing delay between direct and delayed sound in simulated open fit hearing aids on speech intelligibility in noise",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10805375/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.widexpro.com",
+      "ref_id": "turn12search16",
+      "snippet": "That is, the participants whose hearing thresholds were exceeding an N3 hearing loss at lower frequencies may not only have experienced issues with audibility where",
+      "title": "Hearing aid delay in open-fit devices – coloration-pitch discrimination in normal-hearing and hearin",
+      "url": "https://www.widexpro.com/-/media/widex/global/files/evidence/widex-evicence_2022-03_hearing-aid-delay-in-open-fit-devices.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "acousticstoday.org",
+      "ref_id": "turn12search17",
+      "snippet": "In practice, the time delay of modern hearing aids is in the range 0.5 to 10 ms. ... Directionality is often achieved using the two",
+      "title": "hearing aids would be most effective if it was also fast acting. However, despite many research studies, there is no clear consensus as to whether fast or slow compression is preferable (Moore, 2008). Indeed, based on the subjective judgments of hearing-impaired people, it appears that slow AGC is slightly preferred over fast AGC for listening to music but preferences for speech are less clear (Moore and Sek, 2016).",
+      "url": "https://acousticstoday.org/wp-content/uploads/2023/08/AT-SUMMER-2023-corrected.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn12academia18",
+      "snippet": "Particularly for hearing devices, scenarios are often much more dynamic, microphone positions vary with head diameter and hearing aid placement, head-shadow effects occur, and strict",
+      "title": "Directivity-Conditioned Low-Latency Neural Filtering for Speech Enhancement in Hearing Aids",
+      "url": "https://arxiv.org/abs/2609.15760"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn12reddit19",
+      "snippet": "I am interested in feedback about the \"Comfort in Noise\" module and \"Minimal Hearing Loss\" module supposedly built within NAL-NL3. ... (I’m an HCP but",
+      "title": "For the HCP's - NAL-NL3 algoritm",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1wbjv6j/for_the_hcps_nalnl3_algoritm/"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn12academia20",
+      "snippet": "The equalization filter needs to ensure that the superposition of the equalized signal played by the device and the signal leaking through the device into",
+      "title": "Robust single- and multi-loudspeaker least-squares-based equalization for hearing devices",
+      "url": "https://arxiv.org/abs/2109.04241"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn12search21",
+      "snippet": "In signal processing, a comb filter is a filter implemented by adding a delayed version of a signal to itself, causing constructive and destructive interference.",
+      "title": "Comb filter",
+      "url": "https://en.wikipedia.org/wiki/Comb_filter"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn12reddit22",
+      "snippet": "So, the general philosophy when the audiologist sets you up is for it to be as open as possible without inducing feedback knowing the required",
+      "title": "Fed up of the argument of Mild Vs Moderate what am I?",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1rh0gy6/fed_up_of_the_argument_of_mild_vs_moderate_what/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn12reddit23",
+      "snippet": "I programmed my own switching to NAL2 and the difference is massive. ... People have to remember that a hearing aid fitter cannot hear what",
+      "title": "The first fitting matters more than people think",
+      "url": "https://www.reddit.com/r/HearingAids/comments/1rsqkl4/the_first_fitting_matters_more_than_people_think/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn12reddit24",
+      "snippet": "What benefits does open fit sap away in terms of someone's hearing aid fitting? ... If your fit is *too* open, any sort of feedback",
+      "title": "Advise on Counseling for New Users",
+      "url": "https://www.reddit.com/r/audiology/comments/1jlv1rl"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn12search25",
+      "snippet": "Romania is home to about 25,000 deaf and hard of hearing people. Many of them use Romania Sign Language, Romania's legally recognized sign language, while",
+      "title": "Deafness in Romania",
+      "url": "https://en.wikipedia.org/wiki/Deafness_in_Romania"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn12reddit26",
+      "snippet": "Anyway, the main observation I have, is that, while I normally wear them turned all the way up, they sound more fuller and open. ...",
+      "title": "Volume & Feedback?",
+      "url": "https://www.reddit.com/r/HearingAids/comments/j3ah7o"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b14fdbce-7270-438d-97f6-0f545defd558",
+  "query": "site.leion.glass HEARING Romanian offline ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.leion.glass HEARING Romanian offline",
+      "site.rokid.com glasses translation Romanian offline",
+      "site.inmoxr.com AIR3 translation languages hearing",
+      "site.support.google.com accessibility android sound amplifier wired bluetooth headphones delay"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "support.google.com",
+      "ref_id": "turn13search0",
+      "snippet": "You can use Sound Amplifier with wired or Bluetooth headphones to filter, augment, and amplify the sounds in your environment or on your Android device.",
+      "title": "Sound Amplifier: Amplify surrounding speech and on-device audio - Android Accessibility Help",
+      "url": "https://support.google.com/accessibility/android/answer/9157755?hl=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn13search1",
+      "snippet": "https://global.rokid.com/blogs/glasses/break-language-barriers-how-to-use-the-rokid-glasses-real-time-translation-feature ... For offline translation, you need to first download the required language ",
+      "title": "Rokid Help Center | FAQs, Support & Tutorials",
+      "url": "https://global.rokid.com/pages/faq"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn13search2",
+      "snippet": "* Wear and connect Rokid Glasses through the Hi Rokid App. ... * Adjust translation settings in the app when a different language pair, offline",
+      "title": "3.2 Glasses AI Translation – Rokid",
+      "url": "https://global.rokid.com/en-hispano/blogs/academy-glasses/3-2-real-time-translation"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.inmoxr.com",
+      "ref_id": "turn13search3",
+      "snippet": "You can then engage in intelligent conversations and smart dialogue. ### Part 1 Select language ... ③ User Agreement and Privacy Policy: Scroll up or",
+      "title": "Quick Start | INMO Support Center",
+      "url": "https://support.inmoxr.com/air3/guides/air3-quick-start/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kickstarter.com",
+      "ref_id": "turn13search4",
+      "snippet": "https://www.inmoxr.com/pages/contact-us ... Which languages does it support translation? ... Details here: https://www.inmoxr.com/pages/inmo-air3-specs",
+      "url": "https://www.kickstarter.com/projects/inmo-air3-ar-glasses/inmo-air3-smart-ar-glasses/faqs"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.nothing.tech",
+      "ref_id": "turn13search5",
+      "snippet": "# Why does it take a while for my headphones to output sound after connecting to a device? Due to compatibility issues related to Bluetooth",
+      "title": "Why does it take a while for my headphones to output sound after connecting to a device? – NOTHING",
+      "url": "https://support.nothing.tech/hc/en-us/articles/36130145750545-Why-does-it-take-a-while-for-my-headphones-to-output-sound-after-connecting-to-a-device"
+    },
+    {
+      "type": "text_result",
+      "domain": "issuetracker.google.com",
+      "ref_id": "turn13search6",
+      "snippet": "Android Public Tracker > Android 16 Developer Preview / Beta > Android 16 DP/Beta Feedback ... 1. connect bluetooth headphones with aptX or aptX HD",
+      "title": "[410385591] - Issue Tracker",
+      "url": "https://issuetracker.google.com/issues/410385591"
+    },
+    {
+      "type": "text_result",
+      "domain": "github.com",
+      "ref_id": "turn13search7",
+      "snippet": "INMOXR / air3-unity-sdk Public ... With INMO Air 3 , Is it possible to turn on the camera in a different country, walk down the",
+      "title": "Translate to write and sound · Issue #2 · INMOXR/air3-unity-sdk · GitHub",
+      "url": "https://github.com/INMOXR/air3-unity-sdk/issues/2"
+    },
+    {
+      "type": "text_result",
+      "domain": "sli.bnu.edu.cn",
+      "ref_id": "turn13search12",
+      "snippet": "Sound Amplifier ... (2) Tap Accessibility, and then tap Sound Amplifi er. ... (5) Connect wired or Bluetooth headphones to your device. ... Turn on",
+      "title": "Guidance on Providing Open and Distance Learning for Students with Disabilities during",
+      "url": "https://sli.bnu.edu.cn/docs/2024-12/5bf5e3d2ba7f4e04877e467f96bbde55.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "rokid-aiglasses.ru",
+      "ref_id": "turn13search8",
+      "snippet": "* Справка Rokid: режимы перевода",
+      "title": "Перевод в реальном времени: как это работает — Rokid",
+      "url": "https://rokid-aiglasses.ru/blog/perevod-v-realnom-vremeni"
+    },
+    {
+      "type": "text_result",
+      "domain": "global.rokid.com",
+      "ref_id": "turn13search9",
+      "snippet": "Q:What should I do if the smart scrolling cannot follow the speech when I use Rokid Glasses ... Please contact global-support@rokid.com, and a dedicated after-sales",
+      "title": "Rokid Help Center | FAQs, Support & Tutorials",
+      "url": "https://global.rokid.com/en-hispano/pages/faq"
+    },
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn13search10",
+      "snippet": "Does it work offline? ... LEION HEARING displays real-time speech-to-text captions in your view for everyday conversations, appointments, meetings and shared media.",
+      "title": "Häufig gestellte Fragen zu Leion Hey 2 Geräten",
+      "url": "https://leion.glass/de-de/pages/haeufig-gestellte-fragen"
+    },
+    {
+      "type": "text_result",
+      "domain": "knowledge.vr-expert.com",
+      "ref_id": "turn13search11",
+      "snippet": "# What can the Rokid Glasses AI do? ... * Live two-way translation, with about 89 languages online and 6 offline and sub-second response",
+      "title": "Rokid Glasses AI Features | VR Expert AI",
+      "url": "https://knowledge.vr-expert.com/kb/what-can-the-rokid-glasses-ai-do/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit13",
+      "snippet": "Also, for Rokid’s offline translation, the language pair is very limited.",
+      "title": "What smart glasses have offline live translation?",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1xh05eg/what_smart_glasses_have_offline_live_translation/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit14",
+      "snippet": "I’ve put together a complete list of all **languages currently supported by the Rokid Glasses (World Edition)** as of **October 6, 2025**. ... **Online Languages",
+      "title": "List of Languanges that can be used with Rokid AI Glasses",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1nzqyif/list_of_languanges_that_can_be_used_with_rokid_ai/"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.media-amazon.com",
+      "ref_id": "turn13search15",
+      "snippet": "Select Wired Headphones or Audio Out Device to optimise audio output according to the device connected. ... 02 Run Audio Delay to synchronize the TV's",
+      "title": "Audio Out Device / Wired Headphones",
+      "url": "https://m.media-amazon.com/images/I/B1%2BdzPh1CrL.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ae-pic-a1.aliexpress-media.com",
+      "ref_id": "turn13search16",
+      "snippet": "INMO Air 3 使用方式说明",
+      "title": "INMO Air 3 使用方式说明",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/S9a0c4a7811e9402f9e6f4ca4411e5449Z.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit17",
+      "snippet": "I've been using the glass for 3 months, specially during the 7 weeks I've been in China. ... If I select \"Local Translation\", it only",
+      "title": "Translation problems",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1vkei4b/translation_problems/"
+    },
+    {
+      "type": "text_result",
+      "domain": "device.report",
+      "ref_id": "turn13search18",
+      "snippet": "• Sound balance: Adjust media player sound balance when you are using a stereo headset or stereo headphones. • Mono audio: Deliver monophonic sound to",
+      "title": "r530x.book",
+      "url": "https://device.report/m/8b6d4d14c8312f32a889b53e4673080f416dbb83582baff1da8aca052b45c49c.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "cdnc.heyzine.com",
+      "ref_id": "turn13search19",
+      "snippet": "Left text says: “Sound Amplifier is an Android Accessibility app that helps users with hearing impairment hear more clearly. ... Right text ends with: “NOTE:",
+      "title": "Guide to Assistive Technology",
+      "url": "https://cdnc.heyzine.com/files/uploaded/a834e198bef955363344730887335bf443df7321.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit20",
+      "snippet": "It's so dumb it does it with headphones and even Bluetooth audio to my car, after 20 mins it puts the volume down to like",
+      "title": "How do I turn his stupid new feature off? Does it on headphones and car Bluetooth audio",
+      "url": "https://www.reddit.com/r/pixel_phones/comments/1s3s249/how_do_i_turn_his_stupid_new_feature_off_does_it/"
+    },
+    {
+      "type": "text_result",
+      "domain": "services.google.com",
+      "ref_id": "turn13search21",
+      "snippet": "with Android Braille Display support1 ... Sound Amplifier4 ... Headphones required for this feature ... www.android.com/accessibility/",
+      "title": "Support every",
+      "url": "https://services.google.com/fh/files/misc/accessibility_at_work_datasheet.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit22",
+      "snippet": "Rokid AI isnt the smartest especially for a niche product like Styles glasses... ... Any visual translation, would require google translate Mobile app or just",
+      "title": "Rokid Style Menu Translation",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1tb7se1/rokid_style_menu_translation/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit23",
+      "snippet": "It’s called Sound Amplifier, it’s made by Google and it’s very very good, no delay and great noise cancellation. ... Settings/Accessibility/Hearing Enhancements/amplify ambient sound. ...",
+      "title": "Voice and sound amplifier app to Android",
+      "url": "https://www.reddit.com/r/HearingAids/comments/15wkk43/voice_and_sound_amplifier_app_to_android/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit24",
+      "snippet": "Comment by Google LLC under one of the reviews: \"Bluetooth wasn't intended to support very low latency use cases like Sound Amplifier so we had",
+      "title": "Looking for an alternative to Google's new Sound Amplifier app (an app that reduces background noise and amplifies speech)",
+      "url": "https://www.reddit.com/r/androidapps/comments/eltwyd"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit25",
+      "snippet": "So, i came with the conclusion that there is a base delay, and the app nor the bluetooth is causing it (with all wired setup",
+      "title": "Microphone playback app without delay?",
+      "url": "https://www.reddit.com/r/AndroidQuestions/comments/p7illi"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit26",
+      "snippet": "So I decided to try the Sound Amplifier but whenever I select phone media it crashes. ... Now that I select it, with no bt",
+      "title": "Sound Amplifier keeps crashing - 7 pro",
+      "url": "https://www.reddit.com/r/GooglePixel/comments/11c1051"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit27",
+      "snippet": "If you are using a mobile high-res setup involving a Google Pixel, the Sennheiser BTD 700 USB dongle, and high-end headphones like the Bowers &",
+      "title": "[PSA] Sound Quality Drop & Volume Jump with Pixel (general Android phones) / BTD 700 / B&W Px8 S2 (Gain Staging Issue)",
+      "url": "https://www.reddit.com/r/BowersWilkins/comments/1tunyj1/psa_sound_quality_drop_volume_jump_with_pixel/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit28",
+      "snippet": "Hi you might want to run what you're asking through chatgpt or something as it isn't clear to me what the ask is or why",
+      "title": "Google Translate on Rokid glass",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1u5oflw/google_translate_on_rokid_glass/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn13reddit29",
+      "snippet": "I have my glasses system language set to English but when I translate foreign text, it displays the translation as Korean.",
+      "title": "Translation app for Rokid",
+      "url": "https://www.reddit.com/r/rokid_official/comments/1ud8ted/translation_app_for_rokid/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn13search30",
+      "snippet": "Sound Amplifier is an accessibility mobile application developed by Google for the Android operating system.",
+      "title": "Sound Amplifier",
+      "url": "https://en.wikipedia.org/wiki/Sound_Amplifier"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_916d9bd9c9f944b095e134564d8d58c3",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Material de cercetare pentru capitolul „Ecosistem pentru persoane cu dificultăți auditive”, verificat la 30.10.2026. Nu am creat documentul înaintea aprobării template-ului.
+
+### Concluzia de inginerie
+
+**Cea mai realistă arhitectură este ochelari pentru subtitrare și control, telefon/tabletă pentru aplicație și recunoaștere vocală, aparat auditiv compatibil pentru redare audio.** Introducerea unei aplicații de amplificare în ochelari este un proiect separat, dependent de accesul la traseul audio și de măsurători acustice. Nu rezultă automat din existența unui SDK, a Androidului sau a difuzoarelor.
+
+Separă în raport trei funcții:
+
+1. **Accesibilitate vizuală:** transcriere în aceeași limbă, traducere, identificarea vorbitorului, notificări vizuale.
+2. **Audio asistiv:** microfon distant, reducerea zgomotului, egalizare și redare către dispozitive compatibile.
+3. **Compensarea hipoacuziei:** procesare adaptată persoanei, limitarea ieșirii și validare clinică/reglementară. Nu este echivalentă cu „volum mai mare”. FDA diferențiază aparatele auditive de amplificatoarele destinate persoanelor cu auz normal. Este o delimitare conceptuală utilă; cadrul FDA nu înlocuiește verificarea pentru UE/România. [FDA](https://www.fda.gov/medical-devices/consumer-products/hearing-aids)
+
+### Dovezi pe platformele prioritare
+
+| Platformă | Demonstrat în documentație | Ce rămâne de verificat |
+|---|---|---|
+| **Even G2** | Română explicit la transcriere Conversate, intrare și ieșire Translate, afișare text și traducere bidirecțională. | Română offline nu este demonstrată de sursele consultate. |
+| **Rokid Glasses** | Traducere online 89 limbi; offline șase: EN/ZH/JA/FR/DE/ES. SDK oficial oferă canale imagine/audio/afișaj/comenzi. | Lista oficială nominală nu confirmă româna în pagina citată; nu presupune că numărul 89 dovedește funcția română în firmware-ul cumpărat. |
+| **RayNeo X3 Pro** | Traducere vizuală/audio; pagina oficială numește 14 limbi și dependența de rețea pentru funcțiile online. | Româna nu este în lista nominală consultată; listă offline verificată absentă în această sursă. |
+| **INMO AIR3** | Campania oficială declară traducere în peste 40 de limbi. | Română nominală, offline, API microfon, canale audio brute și full-duplex nu sunt demonstrate de această afirmație. |
+| **LLVISION LEION HEY2 / LEION HEARING** | Producătorul oferă subtitrare și un produs distinct LEION HEARING orientat către conversații accesibile. | SDK-ul LEION Pro nu demonstrează SDK pentru HEY2/HEARING; româna și limbile offline necesită verificare contractuală. |
+
+Surse și nuanțe:
+
+- **Even G2:** [lista oficială pe funcții](https://support.evenrealities.com/hc/en-us/articles/13755354799247-Language-Support). Documentația [Conversate](https://support.evenrealities.com/hc/en-us/articles/14273795154319-Conversate) confirmă alegerea microfonului ochelarilor ori telefonului înainte de sesiune și afișarea transcrierii. În timpul sesiunii nu poți schimba sursa din funcția descrisă. Aceste detalii sunt mai relevante decât „40 limbi”.
+- **Even SDK:** [overview oficial](https://hub.evenrealities.com/docs/get-started/overview) confirmă patru microfoane, dar **un singur flux PCM 16 kHz**. Nu echivala patru microfoane fizice cu patru canale independente accesibile dezvoltatorului. [Tutorialele oficiale](https://hub.evenrealities.com/docs/learn/videos) descriu aplicația web rulată pe telefon și alegerea microfonului. Alegere bună pentru prototip de subtitrare; capacitatea de redare/procesare în aparate auditive prin aceeași aplicație trebuie demonstrată separat.
+- **Rokid:** [FAQ oficial](https://global.rokid.com/pages/faq) și [tutorial traducere din august 2026](https://global.rokid.com/en-hispano/blogs/academy-glasses/3-2-real-time-translation) confirmă pachetele offline și variațiile regionale/firmware. [Portal SDK](https://open.rokid.com/) confirmă accesul I/O prin CXR-L și aplicația Rokid AI; această pagină nu dovedește latență audio, acces DSP ori full-duplex.
+- **RayNeo:** [explicația oficială X3 Pro](https://www.rayneo.com/en-ca/blogs/news/rayneo-x3-pro-live-translation-explained) indică aproximativ 2,1 secunde și un interval comercial 1–3 secunde dependent de rețea. Acestea sunt latențe declarate pentru traducere, **nu** latența necesară pentru amplificare auditivă. Există pagini regionale și postări comunitare cu alte afirmații despre offline; păstrează-le drept conflict de rezolvat prin versiune și model, nu fuziona promisiunile.
+- **INMO:** [FAQ al campaniei oficiale](https://www.kickstarter.com/projects/inmo-air3-ar-glasses/inmo-air3-smart-ar-glasses/faqs). [Quick Start AIR3](https://support.inmoxr.com/air3/guides/air3-quick-start/) confirmă asistentul și configurarea, nu nivelul de deschidere al traseului audio.
+- **LEION:** [FAQ comercial](https://leion.glass/de-de/pages/haeufig-gestellte-fragen) descrie HEARING drept dispozitiv de subtitrare, nu aparat auditiv/dispozitiv medical. Pentru HEY2 declară patru microfoane și pachete offline pentru limbi selectate, fără listă suficientă pentru România. Atenție la afirmația „200 ms”: nu este măsurare independentă și nu trebuie folosită drept latență completă a transcrierii. [Pagina LLVISION la MWC](https://www.mwcshanghai.com/exhibitors/37279-beijing-llvision-technology-co-ltd) confirmă orientarea către accesibilitate și legătura companiei cu domeniul leion.glass.
+
+### Pot difuzoarele ochelarilor să funcționeze ca aparat auditiv?
+
+**Pot reda sunet procesat dacă platforma permite; utilitatea compensatorie nu este demonstrată.** Pentru open-ear, sunetul natural ajunge direct la ureche și se amestecă cu copia procesată întârziată. Pot apărea colorație, ecou, filtrare în pieptene și dificultăți cu propria voce. Cercetarea arată dependența de întârziere, gain, audiogramă și cuplaj, inclusiv diferențe perceptibile la întârzieri mici; „sub 10 ms” nu este un certificat universal de acceptabilitate. [Studiu experimental privind întârzierile](https://pmc.ncbi.nlm.nih.gov/articles/PMC11638989/), [studiu despre percepția propriei voci, 2026](https://pubmed.ncbi.nlm.nih.gov/41869839/)
+
+Cerințe de PoC, propuse de inginerie:
+
+- captură și redare simultană continue; drepturi API concrete, nu doar înregistrare fișier;
+- latență **acustică end-to-end**, distribuție mediană/p95, jitter și întreruperi;
+- control al procesării fabricantului: AEC/AGC/NS, resampling, buffere;
+- procesare pe benzi, gain și compresie independente pe urechi, limitare calibrată a nivelului maxim;
+- feedback acustic și gain maxim stabil cu mâna lângă ramă, păr, căciulă, poziții diferite;
+- răspuns în frecvență și distorsiune la ureche, nivel de scurgere către ceilalți;
+- inteligibilitate în zgomot și efort auditiv, nu doar preferință subiectivă pentru volum;
+- confort simultan cu aparate BTE/RIC, implant cohlear și lentile corectoare.
+
+Nu prescrie în raport valori individuale de amplificare. [Ghidul ASHA pentru aparate auditive la adulți](https://www.asha.org/practice-portal/professional-issues/hearing-aids-for-adults) tratează adaptarea fizică, feedbackul, cuplajul și verificarea beneficiului. Pentru o aplicație care urmărește compensarea hipoacuziei, este nevoie de audiolog și analiză de reglementare a utilizării intenționate.
+
+Pe Android, Oboe/AAudio poate cere mod low-latency și acces exclusive, dar acestea **nu sunt garantate pe dispozitiv**. Instalarea APK-ului nu garantează acces la o cale rapidă ori la DSP. [Ghid oficial Oboe](https://github.com/google/oboe/blob/main/docs/FullGuide.md)
+
+### Hearing aid connectivity: câmpuri obligatorii în template
+
+Pentru **fiecare SKU**, coloane distincte:
+
+- Bluetooth versiune;
+- A2DP source/sink, HFP și rol;
+- **ASHA**: sursă compatibilă sau receptor compatibil;
+- **MFi hearing devices**: suport explicit;
+- **LE Audio**, codec LC3 și profil HAP;
+- **Auracast transmitter / receiver / assistant**, fiecare separat;
+- simultaneitate ochelari–telefon–aparat auditiv;
+- matrice model telefon + OS + firmware + model aparat auditiv testat;
+- rută selectabilă pentru microfon și ieșire, comportament la apel și reconectare.
+
+**Bluetooth 5.3/5.4 nu demonstrează niciuna dintre funcțiile auditive de mai sus.** ASHA și MFi nu sunt sinonime cu LE Audio. [Microsoft, delimitarea protocoalelor](https://support.microsoft.com/en-us/accessibility/windows/using-hearing-devices-with-your-windows-11-pc), [specificația Android ASHA](https://source.android.google.cn/docs/core/connect/bluetooth/asha?hl=en)
+
+Un **Auracast assistant** poate descoperi/selecta fluxul pentru receptor fără să recepționeze sau să redea el însuși audio. [Bluetooth SIG, roluri](https://www.bluetooth.com/wp-content/uploads/2024/05/2403_How_To_Auracast_Assistant.pdf). Registrul [Find an Auracast Product](https://www.bluetooth.com/auracast/find-a-product/) permite verificarea rolurilor declarate.
+
+În cercetarea făcută **nu am găsit dovezi suficiente de suport nativ ASHA/MFi/HAP/Auracast la ochelarii analizați**. Marcați „nedocumentat”, nu „nu există”.
+
+### Ecosistem realizabil
+
+**Variantă A — subtitrare plus aparat auditiv existent:** ochelarii primesc text de la aplicație; aparatul auditiv continuă propriul traseu de procesare. Este calea cu cele mai puține dependențe audio între dispozitive. Even G2 este candidat puternic pentru română și prototip de subtitrare.
+
+**Variantă B — microfon distant și subtitrare:** telefon/tabletă aproape de vorbitor sau microfon extern verificat → STT → ochelari; în paralel, rută audio compatibilă către aparat auditiv. Trebuie testată capturarea simultană: două aplicații nu primesc automat același microfon.
+
+**Variantă C — iPhone/iPad ca microfon:** Apple documentează Live Listen către aparate MFi, inclusiv utilizarea iPad. Aceasta demonstrează un traseu auditiv prin tabletă, **nu integrarea automată cu aplicația ochelarilor**. [Apple Live Listen](https://support.apple.com/en-us/111777)
+
+**Variantă D — Android Sound Amplifier ca reper:** oferă reducere de zgomot și amplificare către căști cu fir sau Bluetooth; Google avertizează asupra întârzierilor/calității unor căști Bluetooth. Util pentru comparație experimentală, nu dovadă că ochelarii pot substitui un aparat auditiv. [Google Sound Amplifier](https://support.google.com/accessibility/android/answer/9157755?hl=en)
+
+**Tabletă:** în template separă „tabletă oficială a producătorului”, „compute puck”, „telefon cu ecran”, „tabletă Android/iPad compatibilă”, „monitor conectat USB-C”. Nici suportul Android, nici un port USB-C nu demonstrează compatibilitatea aplicației, DP Alt Mode sau alimentarea simultană.
+
+### Reviewuri: ce poate fi citat
+
+- [Android Central, test X3 Pro timp de o lună, 20.01.2026](https://www.androidcentral.com/wearables/i-used-rayneo-x3-pro-for-a-month-these-ar-glasses-are-futuristic-but-theres-a-problem): experiență pozitivă cu afișajul/traducerea, autonomie raportată foarte slabă în exemplarul/testul autorului. Nu generaliza rezultatul la toate firmware-urile.
+- [TechRadar, review X3 Pro](https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review): util pentru fricțiunea software și interacțiune; nu benchmark clinic de accesibilitate.
+- [Relatare comunitară HEY2, octombrie 2026](https://www.reddit.com/r/accessibility/comments/1wzfbje/measuring_caption_delay_on_glasses_the_leion_hey2/): aproximativ 2,5 secunde raportate, unitate oferită gratuit de LLVISION, fără plată declarată. Etichetează „test utilizator / mostră furnizată”, nu studiu independent. Aceeași relatare apare în mai multe subreddits; **nu o număra de trei ori**.
+
+### Protocol minim pentru decizia de achiziție
+
+1. Confirmați firmware/region și demonstrație în **română vorbită**, separat transcriere și traducere.
+2. Test avion fără Wi-Fi/date după activare și descărcarea modelelor.
+3. Lot audio română: liniște, cafenea, mai mulți vorbitori, nume proprii, numere, vorbire rapidă.
+4. Măsurați WER, întârziere prim text/final text p50/p95, pierderi și revizuiri ale textului.
+5. Verificați font, diacritice, contrast, vizibilitate soare și posibilitatea repoziționării.
+6. Test continuu minimum două ore pentru autonomie/temperatură și comportament de fundal.
+7. Pentru audio: măsurare end-to-end și limitare de ieșire înainte de evaluare pe persoane.
+8. Verificați conexiunea cu **modelul real de aparat auditiv**, inclusiv apeluri și reconectare.
+9. Confirmați costuri ASR/cloud, licență SDK, publicare aplicații, acces date, export/ștergere.
+10. În tabel: „Da demonstrat”, „declarat de producător”, „condiționat”, „nedocumentat”, „nu”, fiecare cu sursă și versiune.
+
+**Recomandare provizorie:** Even G2 pentru subtitrare română și dezvoltare prin telefon; Rokid/RayNeo/INMO pentru explorarea aplicației native și traseului audio, după PoC; LLVISION pentru soluție de subtitrare gata făcută, cu deschiderea SDK verificată separat. Niciunul nu trebuie declarat câștigător pentru „hearing aid în ochelari” în absența măsurătorilor.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-0dcae1b6-d1fc-4c5d-a2e5-39216cedf8f3",
+  "query": "site.evenrealities.com G1 G2 G2s shop glasses ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.evenrealities.com G1 G2 G2s shop glasses",
+      "site.smartxy.com.cn products smart glasses AR99 C100",
+      "site.llvision.com products LEION PRO GLXSS SE HEY2"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn15search0",
+      "snippet": "AR99 MY | Mass-produced Mimosa women-first cat-eye AR eyewear with its own product page and frame engineering | Approx. 29 g bare device excluding prescription",
+      "title": "Products | AR99, AR99 MY & SmartXY Smart Eyewear",
+      "url": "https://smartxy.com.cn/products/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn15search1",
+      "snippet": "Mimosa AR99 单目AR眼镜 形意 C100 双目AR+AI眼镜 形意 K900 AI拍摄眼镜 ... Image: SmartXY C100 佩戴设计介绍 Image: SmartXY C100 显示、影像与声学能力介绍 Image: SmartXY C100 续航、连接与品质介绍 Image: SmartXY C100",
+      "title": "形意智能 - AI/AR 眼镜 ODM 官方网站",
+      "url": "https://www.smartxy.com.cn/"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn15search2",
+      "snippet": "Please keep an eye out for emails from specify@evenrealities.com. ... * Even G2/G1 Charging Accessories: You can purchase dedicated charging cables and accessories for your",
+      "title": "Purchasing Even Products – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/15404592516879-Purchasing-Even-Products"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn15search3",
+      "snippet": "SmartXY’s origin product — a large-model AI companion for blind and low-vision users, debuted at the 2021 China Social Welfare Expo to bridge information access.",
+      "title": "About SmartXY | AI & AR Smart Glasses Manufacturer",
+      "url": "https://smartxy.com.cn/about/"
+    },
+    {
+      "type": "text_result",
+      "domain": "shop.com",
+      "ref_id": "turn15search4",
+      "snippet": "Search Even Realities Global... ... Even G1 &G2 Accessiories",
+      "title": "Even Realities Global - Shop",
+      "url": "https://shop.com/m/evenrealities"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.eurooptica.com",
+      "ref_id": "turn15search5",
+      "snippet": "Even Realities® G2 A Round ... The discreet HAOS display keeps key info within view, so you can stay informed without losing focus on what’s",
+      "title": "Even Realities Glasses & Accessories | EuroOptica NYC – EuroOptica™",
+      "url": "https://www.eurooptica.com/collections/even-realities"
+    },
+    {
+      "type": "text_result",
+      "domain": "evenrealities1545.zendesk.com",
+      "ref_id": "turn15search6",
+      "snippet": "# Purchase an Even Realities G1 ... Visit our website：www.evenrealities.com ... Select color: Choose your preferred color for the Smart Glasses G1 from the available",
+      "title": "Purchase an Even Realities G1 – Even Support Center",
+      "url": "https://evenrealities1545.zendesk.com/hc/en-us/articles/9884443063439-Purchase-an-Even-Realities-G1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.llvision.com",
+      "ref_id": "turn15search7",
+      "snippet": "GLXSS ME is embedded with discrete VPU, as well as Laffe™ AI Engine, the device delivers outstanding performance for running AI algorithms.",
+      "title": "LEION HEY2 | Global professional AR translation glasses - LLVISION",
+      "url": "https://www.llvision.com/en/glxss-me.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evenrealities.com",
+      "ref_id": "turn15search8",
+      "snippet": "## Even G2 & Even R1",
+      "title": "Shop Smart Glasses & Accessories | Even Realities",
+      "url": "https://www.evenrealities.com/en-CA/store"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn15search9",
+      "snippet": "A: It projects digital information onto the lens, giving you a clear augmented reality experience, without blocking your view. ... So everyone can wear G1",
+      "title": "General FAQs – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/13489269281167-General-FAQs"
+    },
+    {
+      "type": "text_result",
+      "domain": "heytalaya.com",
+      "ref_id": "turn15search10",
+      "snippet": "### What's the difference between the Even G1 and G2? ... * 9to5Google: Even Realities G2 smart glasses bring a spatial display and R1 controller",
+      "title": "Even Realities G1 vs G2: price, specs and features | Talaya",
+      "url": "https://heytalaya.com/2026/10/even-realities-g1-g2-explained/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bckspace.nl",
+      "ref_id": "turn15search11",
+      "snippet": "# Even Realities G2 – direct leverbaar bij bckspace eyewear Amsterdam ... Image: G1 B Smart Glasses Grijs",
+      "title": "Even Realities Archives - bckspace eyewear",
+      "url": "https://www.bckspace.nl/product-categorie/brillen/evenrealities/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit12",
+      "snippet": "Update 2/13/26: Got s notification that my G2B prescription glasses and R1 ring shipped. ... I also see people who ordered G2/R1 after me already",
+      "title": "[Megathread] Tracking and Shipping information",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1pvzxi5/megathread_tracking_and_shipping_information/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit13",
+      "snippet": "About a month ago, I posted asking whether anyone was actually happy using the G2s with progressive lenses as daily glasses. ... I will say,",
+      "title": "Update: I got my G2 progressives, and I’m really happy with them so far",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1su3v2d/update_i_got_my_g2_progressives_and_im_really/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit14",
+      "snippet": "Just received a package from Even Realities. Says on my Shop app that it contains my Green G2 glasses, Green sun visor with pouch and",
+      "title": "Just received my G2 🥸",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1qb02wn/just_received_my_g2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit15",
+      "snippet": "But when I tried them on in the store, the waveguides were way more visible than I had imagined, even if they can’t see the",
+      "title": "Has anyone gotten backlash with these glasses?",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1vk1oqx/has_anyone_gotten_backlash_with_these_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit16",
+      "snippet": "Been super lucky today, as I dropped by a store and found out that they got Even G2 demo set yesterday. ... G1 glasses used",
+      "title": "AMA: Even G2 try-on in Singapore",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1p9sojb/ama_even_g2_tryon_in_singapore/"
+    },
+    {
+      "type": "text_result",
+      "domain": "file.llvision.com",
+      "ref_id": "turn15search17",
+      "snippet": "Leion Pro AR Glasses ... © 2020 LLVision or a LLVision affiliate company.",
+      "title": "Leion Pro AR Glasses",
+      "url": "https://file.llvision.com/download/AR_FSM_Solution.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit18",
+      "snippet": "Why are you not buying from the even’s site? ... i bought the g1s and fucked my ipd measurements it seems so i wanted to",
+      "title": "I'm considering buying the \"full package\" (g2s, prescription lenses, ring, clip) at an Optician (Optical Shop) in my city but they ask for 2000 euro, is this physical store normal? I wanted a physical place for adjustement at first but was surprised by the price compared with online",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1twrg79/im_considering_buying_the_full_package_g2s/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit19",
+      "snippet": "[Friday October 09 2026] [+1 votes] Yeah but I’m in the testing phase (got my g2 yesterday) you know I’m doing more than 10 also",
+      "title": "Just got my G2 yesterday",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1x1bk7d/just_got_my_g2_yesterday/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit20",
+      "snippet": "And now I have just received my G2s and R1. ... I’m happy with my purchase, Even Realities and especially Eyechic. ... I’ll also mention",
+      "title": "My purchase experiences with G1 and G2.",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1r4m4lm/my_purchase_experiences_with_g1_and_g2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit21",
+      "snippet": "There's even hub(app stores) so people can still create apps for additional features for the glasses. The good thing for both G1 and G2 is",
+      "title": "G1 at 50% off, or G2?",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1uq02oo/g1_at_50_off_or_g2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit22",
+      "snippet": "Overall my experience was terrible, and be aware that even if you go to just demo the glasses, they only have the G1s available for",
+      "title": "My Experience Purchasing the Even G2s from The Eye Place in London: Stay Away!",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1u3wcoj/my_experience_purchasing_the_even_g2s_from_the/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit23",
+      "snippet": "Both G1 and G2 have been a great pair of glasses. ... The G2s have been slightly more uncomfortable on the ears with the lack",
+      "title": "Quick Review: G2B",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1qjxu37/quick_review_g2b/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn15reddit24",
+      "snippet": "Got Green G2s with my prescription and the R1 sizing kit but didn’t see any instructions on how to tell EvenRealities what size R1 to",
+      "title": "Got my G2s",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1qdjh2w/got_my_g2s/"
+    },
+    {
+      "type": "text_result",
+      "domain": "static1.squarespace.com",
+      "ref_id": "turn15search25",
+      "snippet": "Scan the QR code on the right with your phone to download the “LEION Hey” App for ... Oﬀicial Website: https://www.llvision.com/ * The product will",
+      "title": "LEION Hey \nAR Glasses\n增强现实眼镜\nUser Guide\n说明指南\nPower",
+      "url": "https://static1.squarespace.com/static/64a291569090725a6bc6ea3e/t/64e71701f129251d4272f13f/1692866327754/LEION%2BHEY%2BUser%2BManual.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn15search26",
+      "snippet": "LEION HEY2",
+      "title": "01/Glasses connection operation",
+      "url": "https://manuals.plus/m/9e1f3e7c08cd9a8ba31cec78f3017a033e1f834d78594a83c40d6fd95c4c6d2e.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "fccid.io",
+      "ref_id": "turn15search27",
+      "snippet": "sécurité ci-dessous avant d'utiliser les lunettes numériques G1 (\"le produit\"). ... Les enfants peuvent s'étouffer ou ... Even Realities.",
+      "title": "Quick Guide",
+      "url": "https://fccid.io/2BFKR-G1CASE/User-Manual/Users-Manual-7450940.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.nuvo.nl",
+      "ref_id": "turn15search28",
+      "snippet": "De Even Realities G1 en de Meta smartglasses van Oakley en Ray-Ban vertegenwoordigen verschillende benaderingen van slimme brillen, elk met unieke kenmerken en toepassingen.",
+      "title": "Even Realities G1",
+      "url": "https://www.nuvo.nl/app/uploads/2025/11/Flipbook-Oculus-8-2025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jantech.com.my",
+      "ref_id": "turn15search29",
+      "snippet": "Product render of a pair of smart glasses shown in side view on a white background, with the LEION wordmark near the upper left and",
+      "title": "Untitled 2",
+      "url": "https://www.jantech.com.my/_files/ugd/77820a_ba7a847058484e9cac54153d767e3bee.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn15news30",
+      "snippet": "Even Realities has made a name for itself by trying to make tech less loud, and today it's back with a new pair of wearables:",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/-mGVIk1-02nlJXd4N-5j_hf8MUwsXuQvoNUr79R6NZbkfGHI-5cUBxm9zbG91mRkobecOGDWizNRCzg6swvt8zVb0r-bQLEnDMhPI4wRSNrVhvibVSun4CgIBVjiobdj",
+      "title": "Even Realities' new smart glasses and ring aim to make everyday tech less distracting",
+      "url": "https://www.androidcentral.com/wearables/even-realities-new-smart-glasses-and-ring-aim-to-make-everyday-tech-less-distracting"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn15news31",
+      "snippet": "One question resonated with me when chatting with Even Realities' CEO Will Wang about the company's newly-launched Even Realities G2 smart glasses: \"Do you actually",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/RftErEwKHik656NjBn7BjFfnnn54rMafMtYbUePAVBUVvFIB2fYEeyn6NDK7oIChfI1d7uYC3HLFk5DCnup9JpSuoQ4XXxNIBc9wywa7XE1UmlQ_oqAZYTIZviHYcMty",
+      "title": "I wore the Even Realities G2 smart glasses for a week, and it's the first pair of AR glasses I'd actually buy",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/even-realities-g2-smart-glasses-review"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ea33f54b-0701-43ed-b31b-ea16f38c417d",
+  "query": "https://smartxy.com.cn/products/",
+  "action": {
+    "type": "openPage",
+    "url": "https://smartxy.com.cn/products/"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn16view0",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn16view1",
+      "snippet": "Total lines: 70",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/TzTPZiY8X_zTogDtd-ZX-XWMHYoyowgi0dIMN0WgSH5-w2aL9p3dOXRLPXUHhGflxTBfPAkw6y057cmxQmWIdPyz31MvkV-yVb6yfzjIkGpLQXktxBAkStSivbpQXjIo",
+      "title": "Specifications – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/13499229138959-Specs"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.llvision.com",
+      "ref_id": "turn16view2",
+      "snippet": "Total lines: 3",
+      "title": "正在查询中",
+      "url": "https://www.llvision.com/en/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b096c6d8-e3bd-4e49-bd45-d6851b862ad1",
+  "query": "site.smartxy.com.cn \"Nudge\" \"BB\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.smartxy.com.cn \"Nudge\" \"BB\"",
+      "site.smartxy.com.cn \"AR99\" SDK",
+      "site.evenrealities.com \"G1\" \"640\"",
+      "site.llvision.com \"GLXSS SE\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.topaiglasses.com",
+      "ref_id": "turn19search0",
+      "snippet": "### AR99 SDK download: Android + iOS ... AR99 is a camera-free monocular AR display platform developed by SmartXY.",
+      "title": "AR Glasses ODM Manufacturer | Camera-Free AR99 | SmartXY",
+      "url": "https://www.topaiglasses.com/products/ar99/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartbrille.kaufen",
+      "ref_id": "turn19search1",
+      "snippet": "# Even Realities G1: Verkauf der Smart Glasses eingestellt, Daten, Unterschiede zur G2 und was Besitzer wissen sollten ... Die G2 hat ein schärferes und",
+      "title": "Even Realities G1 Smart Glasses: Verkaufsende & Daten",
+      "url": "https://smartbrille.kaufen/even-g1/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.llvision.com",
+      "ref_id": "turn19search2",
+      "snippet": "GLXSS SE 的智能部分仅重32克，但得益于先进的密封设计和制造工艺，它防水、防尘、防爆能力强大。",
+      "title": "GLXSS SE 增强现实眼镜-亮亮视野LLVISON",
+      "url": "https://www.llvision.com/glxss-se.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.llvision.com",
+      "ref_id": "turn19search3",
+      "snippet": "Developer Beijing LLVision Technology Co., Ltd. ... Capability GLXSS ME, GLXSS SE",
+      "title": "Public Security - LLVISION",
+      "url": "https://www.llvision.com/en/h-pd-31.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn19search4",
+      "snippet": "For software access, SDK/API discussion, regional compliance, medical claims or custom optics, SmartXY reviews the target market and partner scope before confirming deliverables. ... AR99",
+      "title": "Products | AR99, AR99 MY & SmartXY Smart Eyewear",
+      "url": "https://smartxy.com.cn/products/"
+    },
+    {
+      "type": "text_result",
+      "domain": "memwey.github.io",
+      "ref_id": "turn19search5",
+      "snippet": "Even Realities sells display-first smart glasses with no camera and no speaker: Even G1 (2024), Even G2 (2025) and the Even R1 smart ring that",
+      "title": "Even Realities · Startup Due Diligence",
+      "url": "https://memwey.github.io/startup-due-diligence/companies/even-realities/"
+    },
+    {
+      "type": "text_result",
+      "domain": "heytalaya.com",
+      "ref_id": "turn19search6",
+      "snippet": "Image: Graphic summarizing Even G2: $599 starting price, 36 grams, 27.5-degree field of view on a 640 by 350 display, up to two days of",
+      "title": "Even Realities G1 vs G2: price, specs and features | Talaya",
+      "url": "https://heytalaya.com/2026/10/even-realities-g1-g2-explained/"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrarwiki.com",
+      "ref_id": "turn19search7",
+      "snippet": "^{[20]} His pixel estimate is an approximation from video frames, not a manufacturer figure; Even Realities lists the display as 640 × 200. ... Tom's",
+      "title": "Even Realities G1 - VR & AR Wiki - Virtual Reality & Augmented Reality Wiki",
+      "url": "https://vrarwiki.com/wiki/Even_Realities_G1"
+    },
+    {
+      "type": "text_result",
+      "domain": "file.llvision.com",
+      "ref_id": "turn19search11",
+      "snippet": "GLXSS SE LLVISION",
+      "title": "GLXSS SE\n\nLLVISION\n\nWater, Dust, Drop proof  \n- Gl",
+      "url": "https://file.llvision.com/download/AR_FSM_Solution.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.suntehs.com",
+      "ref_id": "turn19search8",
+      "snippet": "GLXSS SE 单目智能眼镜",
+      "title": "GLXSS SE 单目智能眼镜 - 上海玄甲安全设备有限公司",
+      "url": "https://www.suntehs.com/prod_view.aspx?id=1878&nid=3&typeid=273"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vrarwiki.com",
+      "ref_id": "turn19search9",
+      "snippet": "Resolution | 640 × 200 per eye ... Even Realities. https://support.evenrealities.com/hc/en-us/articles/17564427335823-Even-G1-Sales-Discontinuation-Notice.",
+      "title": "Even Realities G1 - VR & AR Wiki - Virtual Reality & Augmented Reality Wiki",
+      "url": "https://www.vrarwiki.com/wiki/Even_Realities_G1"
+    },
+    {
+      "type": "text_result",
+      "domain": "offerup.com",
+      "ref_id": "turn19search10",
+      "snippet": "Even Realities G1 AR Smart Glasses — Like New, Fully Functional Selling my Even Realities G1 smart glasses in like-new condition — no scratches on",
+      "title": "Even Realities G1 GLASSES-Real time translation, GPS, Ai, and more! for Sale in Aurora, CO - OfferUp",
+      "url": "https://offerup.com/item/detail/022e0f67-1a7c-3212-bdb9-b990c3c2286a"
+    },
+    {
+      "type": "text_result",
+      "domain": "easyfairsassets.com",
+      "ref_id": "turn19search12",
+      "snippet": "Edition 2 | Iristick.G1 | LLVision GLXSS SE",
+      "title": "Datasheet\nSeamless remote assistance with smart gl",
+      "url": "https://easyfairsassets.com/sites/148/2023/02/DataSheet_Ind-AMA-XpertEye-Advanced_EN.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "cdn-assets.inwink.com",
+      "ref_id": "turn19search13",
+      "snippet": "<th>LLVision GLXSS SE</th>",
+      "title": "Fiche technique",
+      "url": "https://cdn-assets.inwink.com/cd718f96-2c8f-468f-a1e7-947f6b76890f/0d4c5e10-433f-468a-827d-c78823ae4dfc1"
+    },
+    {
+      "type": "text_result",
+      "domain": "imlive.s3.amazonaws.com",
+      "ref_id": "turn19search14",
+      "snippet": "- 12\"x12\" G1 640",
+      "title": "Level 7 and Level 8 HVAC Plans – Heat Pumps",
+      "url": "https://imlive.s3.amazonaws.com/Federal%20Government/ID175373649622608126051533904902088129494/Attachment%20J-1G_Palm%20Springs%20ATCT%20PPD%20Sample.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "nuovo.dallachiesaspinelli.edu.it",
+      "ref_id": "turn19search15",
+      "snippet": "/P.IVA Euro | Acquisto occhiali per realtà aumentata LLVISION GLXSS SE,-Insight Technology Z652E68921 | Insight Technology Solutions S.R.L ¦ 12468160150 | | 2025.00 N.",
+      "title": "Amministrazione trasparente - Aggiudicazioni (gare) / Scelta contraente (ordini acquisto)",
+      "url": "https://nuovo.dallachiesaspinelli.edu.it/printpdf/provvedimenti/aggiudicazioni-scelta-contraente?page=4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ftc.gov",
+      "ref_id": "turn19search16",
+      "snippet": "(bb) *Prize promotion* means:",
+      "title": "Stipulated Order for Permanent Injunction, Monetary Judgment, and Other Relief as to defendants Nudge, LLC.; Reponse Marketing Group, LLC.; Buypd, LLC.; Brandon B. Lewis; Ryan C. Poelman; Philip W. Smith; Shawn L. Finnegan; and Clint R. Sanderson",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/1823016-nudge-stipulated-order-defendants.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-261af082-1198-4663-bb3a-b306db3091c3",
+  "query": "site.alibaba.com \"Even\" \"G2\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.alibaba.com \"Even\" \"G2\"",
+      "site.alibaba.com \"LEION\"",
+      "site.alibaba.com \"SmartXY\" \"AR99\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn22search0",
+      "snippet": "Evaluate SmartXY's compact optics, low-power computing, camera/audio AI, embedded software and wearable engineering for your product. ... AR99 AR99 MY AR99 Pro | App/phone/service-assisted AR",
+      "title": "AI + AR Smart Eyewear Technology | SmartXY",
+      "url": "https://smartxy.com.cn/technology/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn22search1",
+      "snippet": "Mimosa AR99 单目AR眼镜 形意 C100 双目AR+AI眼镜 形意 K900 AI拍摄眼镜 ... Image: SmartXY C100 佩戴设计介绍 Image: SmartXY C100 显示、影像与声学能力介绍 Image: SmartXY C100 续航、连接与品质介绍 Image: SmartXY C100",
+      "title": "形意智能 - AI/AR 眼镜 ODM 官方网站",
+      "url": "https://smartxy.com.cn/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn22search2",
+      "snippet": "Global AI/AR stage AR99 and SmartXY's platform entered broader global innovation, keynote and standards conversations.",
+      "title": "About SmartXY | AI & AR Smart Glasses Manufacturer",
+      "url": "https://smartxy.com.cn/about/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn22search3",
+      "snippet": "### Is the smart ring included with AR99 Pro? ... SmartXY will scope the engineering review, validation plan, certification evidence and delivery terms for your",
+      "title": "AR99 Pro | SmartXY SRG AR Glasses with Swappable Batteries",
+      "url": "https://smartxy.com.cn/products/ar99-pro/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn22search4",
+      "snippet": "Image: Mimosa AR99 轻盈佩戴体验介绍 Image: Mimosa AR99 科技外观与无扰设计介绍 Image: Mimosa AR99 多元视觉显示能力介绍 Image: Mimosa AR99 时尚造型与镜框系列介绍 Image: Mimosa AR99 交互体验介绍 Image: Mimosa AR99 个性化定制服务介绍",
+      "title": "形意智能 - AI/AR 眼镜 ODM 官方网站",
+      "url": "https://www.smartxy.com.cn/"
+    },
+    {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn22search5",
+      "snippet": "SmartXY is the core application of the Xingyi AR99 smart glasses, providing basic device connection and glasses setting, simultaneous interpretation, teleprompter, AR navigation, audio transcription,",
+      "title": "‎SmartXY App - App Store",
+      "url": "https://apps.apple.com/vn/app/smartxy/id6755132016"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn22search6",
+      "snippet": "AR99 | Mass-produced unisex, camera-free monocular AR information display | Approx. 28 g bare device excluding prescription lenses; magnesium-lithium (Mg-Li) alloy + TR90 with titanium-alloy",
+      "title": "Products | AR99, AR99 MY & SmartXY Smart Eyewear",
+      "url": "https://smartxy.com.cn/products/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.topaiglasses.com",
+      "ref_id": "turn22search7",
+      "snippet": "AR99 is a camera-free monocular AR display platform developed by SmartXY.",
+      "title": "AR Glasses ODM Manufacturer | Camera-Free AR99 | SmartXY",
+      "url": "https://www.topaiglasses.com/products/ar99/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.actionstech.com",
+      "ref_id": "turn22search8",
+      "snippet": "Its high-performance wearable chip platform, ATS3089C, now powers the Smartxy AR99 Holographic Smart Glasses, marking a significant step forward in the mass production and large-scale",
+      "title": "Continued Market Launch! Actions Technology Redefines the “Core” Standard for Consumer AR Glasses_Campany News_News_Actions",
+      "url": "https://www.actionstech.com/index.php?id=8419&siteId=4"
+    },
+    {
+      "type": "text_result",
+      "domain": "spanish.alibaba.com",
+      "ref_id": "turn22search9",
+      "snippet": "## Gafas Inteligentes con Pantalla AR y IA Even Realities G2 2026, Micro LED, Resolución 640x350, 27.5 FOV, Pantalla Virtual, Realidad Aumentada",
+      "title": "Alibaba.com",
+      "url": "https://spanish.alibaba.com/products/glasses_micro_display.html?IndexArea=product_en&viewtype=G"
+    },
+    {
+      "type": "text_result",
+      "domain": "aiglasses.technology",
+      "ref_id": "turn22search10",
+      "snippet": "D1 and D2 describe angular and rounded-square AR glasses; D3 is an earlier smart-glasses design. ... The archive groups D1 under “AR99” and D2 under",
+      "title": "SmartXY Patent Signals: From Smart Glasses Concepts to Product Decisions — AI Glasses Technology",
+      "url": "https://aiglasses.technology/insights/smartxy-patent-signals-for-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn22search11",
+      "snippet": "AR99: phone-assisted display →C100: EVT3 camera + display prototype →",
+      "title": "Custom AI Eyewear Development | SmartXY",
+      "url": "https://smartxy.com.cn/custom-ai-eyewear-development/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lelon.com.tw",
+      "ref_id": "turn22search12",
+      "snippet": "LeIon Electronics Corp. ... Organizational chart headed by “LeIon Electronics Corp.",
+      "title": "LeIon Electronics Corp. 2024 Annual Report",
+      "url": "https://www.lelon.com.tw/upload/inves32/174953212246.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "usermanual.wiki",
+      "ref_id": "turn22search13",
+      "snippet": "Name | | G35A-00 Leion Hey 增强现实眼镜",
+      "title": "Leion Hey Augmented Reality Glasses",
+      "url": "https://usermanual.wiki/Beijing-LLVision-Technology/G35A0-6269209.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lelon.com.tw",
+      "ref_id": "turn22search14",
+      "snippet": "LeIon Electronics Corp.",
+      "title": "LeIon Electronics Corp. 2024 Annual Report",
+      "url": "https://www.lelon.com.tw/upload/inves32/174953271388.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "sheffield.ac.uk",
+      "ref_id": "turn22search15",
+      "snippet": "g1(t)g2(t) ... so the product of two odd functions is even.",
+      "title": "\u0013\n\u0010\n\u0012\nEven and Odd\nFunctions\n\u0011\n23.3\nIntroduction\nI",
+      "url": "https://sheffield.ac.uk/media/32044/download"
+    },
+    {
+      "type": "text_result",
+      "domain": "file.llvision.com",
+      "ref_id": "turn22search16",
+      "snippet": "Leion Pro AR Glasses",
+      "title": "Leion Pro AR Glasses",
+      "url": "https://file.llvision.com/download/AR_FSM_Solution.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "teses.usp.br",
+      "ref_id": "turn22search17",
+      "snippet": "(adverbial, como veremos) pode bastar para, somada às computações já corretamente processadas pelas crianças do G2 e G3 (a já explicada duplicidade informacional do ‘mesmo’",
+      "title": "(adverbial, como veremos) pode bastar para, somada às computações já corretamente processadas pelas crianças do G2 e G3 (a já explicada duplicidade informacional do ‘mesmo’ em ‘ele mesmo’, idêntica ao do ‘even’ inglês), exceder a amplitude da memória de trabalho infantil.",
+      "url": "https://teses.usp.br/teses/disponiveis/8/8139/tde-08052014-113756/publico/2014_RenatoCarusoVieira_VCorr.pdf"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn22view0",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn22view1",
+      "snippet": "Total lines: 31",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/YUzoOY8SR0RpIaNQoWvuu8jX-WMT-hAOWaUDZ9DWHblqkCxaHmfnYN4-yaP3YKYGJ50T5ac80W_SyQS8lzeo3f6Ehp4DIqiAb4m8utVaiNZM46Y2uT18lMXlUAXVJGDU",
+      "title": "Even G1 Sales Discontinuation Notice – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/17564427335823-Even-G1-Sales-Discontinuation-Notice"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evenrealities.com",
+      "ref_id": "turn22view2",
+      "snippet": "Total lines: 390",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/i6e-l88Jk1k2Se_1spV1_u-EaCRq6l4DD4MBQFW8IAZf1U9jvnyxc4XrsFSDHGmp64qhHBD805ZlqBjI26avN384Y_eVnoZfexKEIlOeSLWNOFWccVJfuzPxTxK7OUuzZGmOxo4H6vlA3N_Xp2LTpWsz51hJoWHi5ys2co_cqgs",
+      "title": "Even G1 Smart Glasses | Everyday Eyewear with Display",
+      "url": "https://www.evenrealities.com/g1"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-2d4d8408-630c-43f5-9181-8530b51053d0",
+  "query": "https://smartxy.com.cn/products/nudge/",
+  "action": {
+    "type": "openPage",
+    "url": "https://smartxy.com.cn/products/nudge/"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn25view0",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn25view1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn25view2",
+      "snippet": "Total lines: 895",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/5Pz5UEGFNgxhK5v8gsUVt8Vwu3qrTRNkzyLV5ci8pA_9GUUuprfvfIdp4wDa5UclfPhd6lsgqLQyQY3ysg1xPAc1t1rcEdXjRuanc1leaPmR0pX-xzFbz3N395QuC1pe",
+      "title": "Leion Hey2 AI Translation Glasses | Real-Time Captions",
+      "url": "https://leion.glass/products/leion-hey-2-smart-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.llvision.com",
+      "ref_id": "turn25view3",
+      "snippet": "Total lines: 220",
+      "title": "LEION Pro 双目增强现实眼镜-亮亮视野LLVISON_AR眼镜",
+      "url": "https://www.llvision.com/leion-pro.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "support.evenrealities.com",
+      "ref_id": "turn25view4",
+      "snippet": "Total lines: 31",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/bjsGTn-rfqxrI7Mv6stoQ8wVugkUoIgFxnL3NkLMgZi3F-cyK39TtksexW7TIJqZUDz6efTOby68kYIsZAUpXrlMLWxCDbkeQ5CWGolIEnQsUBwUwW81C-Gp3__oWKP0",
+      "title": "Even G1 Sales Discontinuation Notice – Even Support Center",
+      "url": "https://support.evenrealities.com/hc/en-us/articles/17564427335823-Even-G1-Sales-Discontinuation-Notice"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d99846a1-28e2-42eb-86d7-8f83daa33038",
+  "query": "site.smartxy.com.cn/products/ \"Nudge\" \"Stage\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.smartxy.com.cn/products/ \"Nudge\" \"Stage\"",
+      "site.smartxy.com.cn \"BB Medical\" \"1920\"",
+      "site.alibaba.com/product-detail/ \"Even Realities G2\"",
+      "site.alibaba.com/product-detail/ \"LEION\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn28search0",
+      "snippet": "# BB Medical — 1080P Clinical Display Headset ... * Reference resolution 1920 × 1080 @ 60 Hz binocular Micro-OLED display. ... XY-DC Reference Architecture",
+      "title": "BB Medical | 1080P Clinical Display Headset | SmartXY",
+      "url": "https://www.smartxy.com.cn/products/bb-medical/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn28search1",
+      "snippet": "For compatible ultrasound and other video sources, BB Medical brings a 1920×1080 @ 60 Hz reference feed into the wearer’s line of sight. ... C100",
+      "title": "Smart Glasses Use Cases | SmartXY",
+      "url": "https://www.smartxy.com.cn/use-cases/"
+    },
+    {
+      "type": "text_result",
+      "domain": "glaiss.net",
+      "ref_id": "turn28search2",
+      "snippet": "Image: Even Realities G2 6.6/10 48hbattery 36gweight 599$price ... Introducing Even G2 and R1.",
+      "title": "Even Realities G2: review, price and whether it is worth it — Glaiss",
+      "url": "https://glaiss.net/en/glasses/even-realities-g2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "memwey.github.io",
+      "ref_id": "turn28search3",
+      "snippet": "Even R1 | 2025-11-12 | \"Zirconia ceramic with medical-grade stainless steel lining\", IP68, \"Up to 7 days\" battery, 90-minute charge, Bluetooth BLE, heart rate via",
+      "title": "Even Realities · Startup Due Diligence",
+      "url": "https://memwey.github.io/startup-due-diligence/companies/even-realities/"
+    },
+    {
+      "type": "text_result",
+      "domain": "ai.vr-expert.com",
+      "ref_id": "turn28search4",
+      "snippet": "The Even Realities G2 is a pair of discreet, camera-free AI smart glasses for professionals who want everyday support without wearing a visible headset or",
+      "title": "Even Realities G2 (B-Brown)",
+      "url": "https://ai.vr-expert.com/en/ai-glasses/even-realities-g2-b-brown"
+    },
+    {
+      "type": "text_result",
+      "domain": "alamrakamy.com",
+      "ref_id": "turn28search12",
+      "snippet": "كشفت شركة EVEN REALITIES عن الجيل الثاني من نظارتها الذكية EVEN G2، إلى جانب الجيل الجديد من خاتم التحكم الذكي EVEN R1.",
+      "title": "اتصال\n\nعالم رقمي\n\nالسنة التاسعة عشر - العدد 900",
+      "url": "https://alamrakamy.com/storage/paperarticles/January2026/LEKAfw0bFxXYE9eNxwjV.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "electronics.alibaba.com",
+      "ref_id": "turn28search5",
+      "snippet": "For business sourcing, the \"G2\" style (camera-free, HUD, translation) has several high-performing B2B counterparts on platforms like Alibaba.com. ... Feature | Even Realities G2 |",
+      "title": "G2 Smart Glasses Sourcing Guide for B2B Buyers",
+      "url": "https://electronics.alibaba.com/product/g2-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "heytalaya.com",
+      "ref_id": "turn28search6",
+      "snippet": "# Even Realities G1 and G2: how the display smart glasses work and differ ... Image: Graphic summarizing Even G2: $599 starting price, 36 grams,",
+      "title": "Even Realities G1 vs G2: price, specs and features | Talaya",
+      "url": "https://heytalaya.com/2026/10/even-realities-g1-g2-explained/"
+    },
+    {
+      "type": "text_result",
+      "domain": "cdn2.electronicscrazy.sg",
+      "ref_id": "turn28search7",
+      "snippet": "* Even Realities G2 Smart Glasses combine premium engineering, artificial intelligence, and augmented reality technology in a lightweight everyday wearable. ... * The Even Realities",
+      "title": "Even Realities G2 B-Grey1 AI Smart Glasses",
+      "url": "https://cdn2.electronicscrazy.sg/even-realities-g2-b-grey1-smart-glasses-10110060/"
+    },
+    {
+      "type": "text_result",
+      "domain": "specsmap.com",
+      "ref_id": "turn28search8",
+      "snippet": "Even Realities G2 in South Korea ... Full Even Realities G2 prescription guide →",
+      "title": "Even Realities G2: specs, price & where it's sold | SpecsMap",
+      "url": "https://specsmap.com/glasses/even-realities-g2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "oculos.io",
+      "ref_id": "turn28search9",
+      "snippet": "Even G2 technology page (Even HAO optics, TriSync, UltraFit) · Even Realities · consultada em 05 de set. de 2026",
+      "title": "Even Realities Even G2 · oculos.io",
+      "url": "https://oculos.io/pt/glasses/even-realities-g2"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.topaiglasses.com",
+      "ref_id": "turn28search10",
+      "snippet": "BEST FIT · Optometry retail · Learning centers · Screen-time wellness Clinical Display BB Medical 1920×1080 @ 60 Hz binocular Micro-OLED, 55° FOV and 205",
+      "title": "Global AI Eyewear Development Partner | SmartXY",
+      "url": "https://www.topaiglasses.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "unboundxr.com",
+      "ref_id": "turn28search11",
+      "snippet": "Product code: Even-G2-B ... • Workshops and training (also on-site) ... Product Name | EVEN REALITIES G2B AR Glasses ... Type of power connection |",
+      "title": "EVEN REALITIES G2B AR Glasses | Unbound XR",
+      "url": "https://unboundxr.com/b2b/even-g2-b-confident"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit13",
+      "snippet": "I’m looking to buy the Even Realities G2 glasses, but I am currently based in Malaysia.",
+      "title": "Buying G2 in China",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1vkkjgw/buying_g2_in_china/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.nuvo.nl",
+      "ref_id": "turn28search14",
+      "snippet": "De G1 van Even Realities heeft geen camera. ... Ook voor Even Realities verschijnt eind november de tweede generatie (G2).",
+      "title": "Nathan: “De ontwikkelingen staan zeker niet stil. Net als bij een iPhone zal er jaarlijks een opvolger komen waarbij de voorgaande generaties nog geüpdatet en gereviseerd kunnen worden. De tweede bril is nog niet gelanceerd of er wordt al gewerkt aan een derde generatie. Het gaat razendsnel. We gaan versteld staan van wat er in de toekomst nog aan zit te komen.”",
+      "url": "https://www.nuvo.nl/app/uploads/2025/11/Flipbook-Oculus-8-2025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.samsungpop.com",
+      "ref_id": "turn28search15",
+      "snippet": "- Alibaba (2H25) — Quark AI S1: Qwen LLM 탑재 ... - Even Realities(2H25) — Even G2",
+      "title": "슬라이드 1",
+      "url": "https://www.samsungpop.com/common.do?cmd=down&contentType=application%2Fpdf&fileName=2020%2F2026011316130789K_02_05.pdf&inlineYn=Y&saveKey=research.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "static1.squarespace.com",
+      "ref_id": "turn28search16",
+      "snippet": "Product Name in English: LEION Hey AR Glasses",
+      "title": "LEION Hey \nAR Glasses\n增强现实眼镜\nUser Guide\n说明指南\nPower",
+      "url": "https://static1.squarespace.com/static/64a291569090725a6bc6ea3e/t/64e71701f129251d4272f13f/1692866327754/LEION%2BHEY%2BUser%2BManual.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit17",
+      "snippet": "I wanted to share my experience with the Even Realities G2 smart glasses and see if anyone else has had something similar happen.",
+      "title": "Even Realities G2 – display alignment issue, replacement promised, then withdrawn after damage",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1s0xq8c/even_realities_g2_display_alignment_issue/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hankyung.com",
+      "ref_id": "turn28search18",
+      "snippet": "카메라와스피커를제외, 무게36g의Even Realities ‘G2’",
+      "title": "PowerPoint 프레젠테이션",
+      "url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-01-c51c1a18534c395c55883147121c92c4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit19",
+      "snippet": "So I wanted to share my experience buying the Even Realities G2 glasses and the R1 ring. ... With the Even G2 my experience has",
+      "title": "My experience buying Even Realities G2 + R1 from a country without official shipping",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1wpew62/my_experience_buying_even_realities_g2_r1_from_a/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit20",
+      "snippet": "I recently ordered the Even Realities G2 (shipping to the UK), and wanted to share my experience so far — especially around delivery and VAT,",
+      "title": "Even Realities G2 — UK ordering experience, unexpected VAT + delivery delay (Part 1)",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1sqlafo/even_realities_g2_uk_ordering_experience/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit21",
+      "snippet": "Selling my Even Realities G2 smart glasses (Grey) and R1 Ring (Size 10), as I haven't been using them as much as I'd hoped.",
+      "title": "[WTS] Even Realities G2 (Grey) + R1 Ring (Size 10) | Malaysia 🇲🇾",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1xgleab/wts_even_realities_g2_grey_r1_ring_size_10/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit22",
+      "snippet": "I recently ordered the Even Realities G2 (shipping to the UK), and wanted to share my experience so far — especially around delivery and VAT,",
+      "title": "I bought Even Realities G2 AI glasses — didn’t expect a £200+ tax surprise (Part 1)",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1sqkzrq/i_bought_even_realities_g2_ai_glasses_didnt/"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn28search23",
+      "title": "Even Realities G2 Display Smart Glasses Instruction Manual",
+      "url": "https://manuals.plus/m/c64d51842d30aac5a97aae09a67e03e6368b9cd4c156365879d5e16c09498897_optim.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit24",
+      "snippet": "Even Realities G2 B glasses in Grey1",
+      "title": "[WTS] Even Realities G2 B Grey1 Prescription Glasses — Excellent Condition — USA",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1v0e93c/wts_even_realities_g2_b_grey1_prescription/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit25",
+      "snippet": "Even G2 is a tool to augmente your cognitive power….2 différents approaches for totally different uses. ... With all of thay being said, seeing how",
+      "title": "Skeptical",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1rqxp5v/skeptical/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit26",
+      "snippet": "The Even Realities G2 is a prescription-compatible smart glasses product focused on everyday info display: teleprompter, navigation, notifications, and an AI assistant.",
+      "title": "Even Realities G2 after 3 months: more improved than expected, but some everyday software still feels unfinished",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1s9s2ih/even_realities_g2_after_3_months_more_improved/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit27",
+      "snippet": "Even Realities G2 Smart Glasses + R1 Smart Ring (Size 13) + Sunglasses Clip — Barely Used",
+      "title": "Even Realities G2 Glasses + R1 Ring (Size 13) + Sunglasses Clip",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1x9bad9/even_realities_g2_glasses_r1_ring_size_13/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit28",
+      "snippet": "Wanted to share my experience for some that are researching prescription options for the Even Realities G2 glasses especially if you use reading glasses and",
+      "title": "Wanted to share my experience for some that are researching prescription options for the Even Realities G2 glasses",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1tl1pvd/wanted_to_share_my_experience_for_some_that_are/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit29",
+      "snippet": "A few days after I received my G1As, Even Realities announced their G2 launch event - which, of course made me order the G2As (on",
+      "title": "G2 / R1 - 48 Hour Thoughts",
+      "url": "https://www.reddit.com/r/EvenRealities/comments/1pwauwx/g2_r1_48_hour_thoughts/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn28news30",
+      "snippet": "Instead of Augmented Reality, you get binocular, monochromatic waveguide displays that offer eye-level access to notifications, notes, translations, news, even a teleprompter, that only you",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/JYNPK576oY7HArVQ4kCOjHnjoY1NdGzYG9HSsPYDxcTj0QM__Qzr5YSWcyVxfYtWMMD0CHMf0n9v4bYmcfOhlMyYlkduceEzXCdnK3G0iZFLgd5DEvLmOZrCk-c1fy6r",
+      "title": "Even Realities G2 smart glasses show the limits of speaker- and camera-free frames",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/even-realities-g2-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn28news31",
+      "snippet": "With the new Even HAO 2.0 (Holistic Adaptive Optics) offering multi-layer waveguide displays on each lens for a sharper and brighter AR experience (even when",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ebG2PhbjAl1Wdo1-5pzRzre1d80NJ3OVo8Vy0JARYqxvTUuAtsu4AEGX2Glgvru3txlV5flF9AYxEbrXUM3g4wO_iYYiYHIRzT9YUHDu5yxJD7RNsepwOVdlLPWeNSMX",
+      "title": "I wore the Even Realities G2 smart glasses for a week, and it's the first pair of AR glasses I'd actually buy",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/even-realities-g2-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn28news32",
+      "snippet": "Wang, who used to work for Apple and worked on the Apple Watch team, told me the Even G2 do not have much on-board computing",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/z8q2-tDzSSvQWQ0hANSzPGBm_BvllHNcvLvR9CZ66i83-qDPqRkJU2VkwHBJbj2vwIm4djSE5psouPZ6_PZoSK-6BBKjMB0eP6NQ-DPdsDWZuD_4EpLWnwOIxVcQ9pE2",
+      "title": "I tried Even Realities' G2 display smart glasses, and now I can't stop thinking about their minimalist approach",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/i-tried-even-realities-g2-display-smart-glasses-and-now-i-cant-stop-thinking-about-their-minimalist-approach"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn28news33",
+      "snippet": "Following a major $1 billion valuation round, I sat down with Wang to talk about the design choices behind the Even Realities G2 smart glasses.",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/vix6S1995KOG-twvBAFXu6wQzoZWhweDIz_Mqe1mmohfUAPc_Pl-Nywe-RkvPNP-OkvOCyGJpQm_lgPgEpCaJnaiGisB6tz8-KT1Isth2snXvFfTU-DPkRoNfFYSLIax",
+      "title": "Exclusive: Even Realities CEO slams Meta Ray-Bans - we 'don't thrive on selling data'",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/exclusive-even-realities-ceo-slams-meta-ray-bans-we-dont-thrive-on-selling-data"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn28news34",
+      "snippet": "[Image 1: Even Realities G2] ... Opting out of reality?",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/G5pFBO24GIi5WEpAak-9sNDKQ8UwvIIWnT1isOCUuPojxW8PnHWoLGe_ZZRJSK_IDGFmuaSU0zkGtSwZes4ySv-2jn7Yy_GDx3I79IYwedEl8zPImwW6oxB6V0koVOM1",
+      "title": "I fed my Tamagotchi, looked like a D1 athlete and fact-checked my boss - my time with Even G2's secret smart glasses app store",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/i-fed-my-tamagotchi-looked-like-a-d1-athlete-and-fact-checked-my-boss-my-time-with-even-g2s-secret-smart-glasses-app-store"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn28news35",
+      "snippet": "This is the idea that a device fades into the background - only to come to life in ways you expect and with features that",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/7ZBOli508iuc9O6q0JT5NCgZaxM2xx_eBNPbt2ziNi58E9bMRZjoQyYSf9eV_kX_la8Mb7ft_kAl_6cKCZwLgH0NeV4f9QCJx5SC2oDU4jj-F68Mp5GUXyViYVIAs2em",
+      "title": "'136 grams is not for all-day wearing' - Even Realities CTO sounds off on Snap Specs, and gives details on the future roadmap",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/im-just-going-to-wear-this-for-30-minutes-for-fun-even-realities-cto-shares-his-thoughts-on-snap-specs-and-gives-details-on-upcoming-g3-smart-glasses"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn28view0",
+      "snippet": "Unable to resolve click call due to invalid arguments",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-83d17989-3170-4227-966d-55068eb54017",
+  "query": "site.leion.glass \"LEION HEARING\" \"640\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.leion.glass \"LEION HEARING\" \"640\"",
+      "site.leion.glass/products/ \"Hearing\" \"$\"",
+      "site.smartxy.com.cn \"Nudge\" \"sensor\"",
+      "site.smartxy.com.cn/products/c100 \"Resolution\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.topaiglasses.com",
+      "ref_id": "turn31search0",
+      "snippet": "C100 is SmartXY's standalone Android camera + AR smart-glasses platform for live AI agents. ... C100 combines a Sony IMX681 (12MP) camera with 1080p recording",
+      "title": "C100 | Standalone AI Agent Glasses with Display | SmartXY",
+      "url": "https://www.topaiglasses.com/products/c100/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn31search1",
+      "snippet": "Image: SmartXY portfolio of AI camera glasses, AR display eyewear and modular smart-glasses accessories ... Arbitrary-canvas rendering and application interfaces need package evidence; optical resolut",
+      "title": "Products | AR99, AR99 MY & SmartXY Smart Eyewear",
+      "url": "https://smartxy.com.cn/products/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hearingtracker.com",
+      "ref_id": "turn31search2",
+      "snippet": "LEION Hey2—also marketed on LEION’s site as Leion Hearing—is the current consumer captioning and translation glasses product from Beijing-based LLVision. ... LEION lists the glasses",
+      "title": "AR Live Captioning Glasses Review: Real-time AI Transcriptions",
+      "url": "https://www.hearingtracker.com/hearing-glasses/hear-with-your-eyes-five-ar-live-captioning-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.topaiglasses.com",
+      "ref_id": "turn31search3",
+      "snippet": "Nudge by SmartXY looks like ordinary children’s glasses. ... Nudge is a camera-free habit-support eyewear concept using distance and tilt sensing with a peripheral smart-fog",
+      "title": "Nudge by SmartXY | Good-Habit Smart Glasses for Kids",
+      "url": "https://www.topaiglasses.com/products/nudge/"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.media-amazon.com",
+      "ref_id": "turn31search12",
+      "snippet": "<tr><th>model</th><th>C100</th><th>C100+</th></tr> ... <tr><td>Video Resolution</td><td>1080P(1920*1080)30FPS<br>720P(1280*720)30/60FPS<br>VGA(640*480)30FPS</td><td>4K(2880*2160)30FPS 4:3<br>2K(2560*1",
+      "title": "C100系列通用版说明书20210807改4K插值（转曲）",
+      "url": "https://m.media-amazon.com/images/I/A1dvVasjwZL.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "roly-taiwan.com",
+      "ref_id": "turn31search13",
+      "snippet": "<th>Resolution</th>",
+      "title": "C100长焦 说明书20220424",
+      "url": "https://roly-taiwan.com/download/manual/C100_v1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "hidih.github.io",
+      "ref_id": "turn31search4",
+      "snippet": "Nudge — Smart Watch Alarm Last updated: July 5, 2026 ... When you use the smart alarm feature, the watch app collects sensor data during",
+      "title": "Privacy Policy | nudge-privacy",
+      "url": "https://hidih.github.io/nudge-privacy/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn31search5",
+      "snippet": "C100 is at EVT3 with functional CNC prototypes and customizable industrial design; contact SmartXY to request the SDK development package. ... SmartXY presents product and",
+      "title": "Smart Glasses Use Cases | SmartXY",
+      "url": "https://www.smartxy.com.cn/use-cases/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn31search6",
+      "snippet": "For software access, SDK/API discussion, regional compliance, medical claims or custom optics, SmartXY reviews the target market and partner scope before confirming deliverables. ... XY-DC",
+      "title": "Products | AR99, AR99 MY & SmartXY Smart Eyewear",
+      "url": "https://www.smartxy.com.cn/products/"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn31search7",
+      "snippet": "Parameter | C100 | C100+ ... Video Resolution | 2K(2560*1440)30FPS",
+      "title": "SJCAM C100 Series Action Camera User Manual",
+      "url": "https://manuals.plus/m/9f0bc5cc574652b6500450f9e20b697e5760b9a1d752394d80158aa08658e7a0"
+    },
+    {
+      "type": "text_result",
+      "domain": "s36.a2zinc.net",
+      "ref_id": "turn31search8",
+      "snippet": "| 640 | | | ... | XRAI Glass by Leion Hearing | 233 | | |",
+      "title": "AAA Annual Convention 2026 - Event Map",
+      "url": "https://s36.a2zinc.net/clients/AAA/annual2026/Public/EventMap.aspx?EventId=18&MapID=18&MapItBooth=354&MapItBoothID=119894"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn31search9",
+      "snippet": "Core: AV solutions, tough-issue resolution, performance optimization. ... 15 years of mechanical design experience, balancing optimal structure against lowest cost across smart audio glasses, camera",
+      "title": "About SmartXY | AI & AR Smart Glasses Manufacturer",
+      "url": "https://www.smartxy.com.cn/about/"
+    },
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn31search10",
+      "snippet": "LEION HEARING helps you see conversations in real time — so you can stay connected naturally. ... Depending on the on-site noise conditions, it is",
+      "title": "Leion Hey 2 AR Glasses | Real-Time AI Captions & Smart Display",
+      "url": "https://leion.glass/products/leion-hey-2-smart-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn31search14",
+      "snippet": "Model Detector Type | C100 VOx uncooled infrared FPA detector | C200 None --- | --- | --- Model Resolution | C100 160×120 | C200",
+      "title": "测温画册20210714英文版",
+      "url": "https://manuals.plus/m/1148401323bfe3de310b73cbc5419bd3ea53c3e3e150593a22bba66ca12e2f7c.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "cobot-smx.jp",
+      "ref_id": "turn31search15",
+      "snippet": "• A-Series, which does not feature a Joint Toque Sensor, does not have Nudge settings in Advanced options.",
+      "title": "7.5.10 Nudge Setting",
+      "url": "https://cobot-smx.jp/info/wp-content/uploads/2023/08/Doosan_Robotics_User_Manual_V2_7_1_v2_4_EN.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn31search11",
+      "snippet": "Since 2019, SmartXY (Shenzhen Xingyi Intelligent Technology) has developed AI and AR smart eyewear — from the world’s first volume-holographic consumer glasses to K900 camera",
+      "title": "About SmartXY | AI & AR Smart Glasses Manufacturer",
+      "url": "https://smartxy.com.cn/about/"
+    },
+    {
+      "type": "text_result",
+      "domain": "seesinc.com",
+      "ref_id": "turn31search16",
+      "snippet": "NUDGE – Illuminated when NUDGE input is valid ... SSO/FSO sensor blocked and",
+      "title": "SEES-SDO\nSmooth Door Operator\n Manual \nREV: 1.2\nDA",
+      "url": "https://seesinc.com/ecommerce/site/content/PDF/SEES-Smooth-Door-Operator-Manual.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "device.report",
+      "ref_id": "turn31search17",
+      "snippet": "Nudge Systems Proprietary Information ... The Pleco product consists of a Display Unit (DU) and a Sensor Unit (SU) as shown in",
+      "title": "Nudge Systems Proprietary Information",
+      "url": "https://device.report/m/77023c6c0e0f0d21b8bbfa76f4dbf21f21768e0920bd1d0f9cb2a12e4c6fb28e.pdf"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_c97e6aee2d2e4c8a80eb0caa87684e1f",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-8c4b2f59-137d-4bd4-9481-1b913604f05f",
+  "query": "site.leion.glass \"products/leion-hearing\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.leion.glass \"products/leion-hearing\"",
+      "site.alibaba.com \"Mimosa\" \"AR99\"",
+      "site.alibaba.com \"LLVISION\" glasses",
+      "site.alibaba.com \"Even Realities\" G1"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn37search0",
+      "snippet": "LEION HEARING — Tea Brown Caption Glasses ... Check each product page for the warranty coverage available for that model. ... Leion makes camera-free smart",
+      "title": "Products | Leion",
+      "url": "https://leion.glass/collections/all"
+    },
+    {
+      "type": "text_result",
+      "domain": "fcc.report",
+      "ref_id": "turn37search12",
+      "snippet": "FCC ID : 2BFKR-G1 ... Applicant : Even Realities Ltd.",
+      "title": "Measurement Report",
+      "url": "https://fcc.report/FCC-ID/2BFKR-G1/7414237.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ifdesign.com",
+      "ref_id": "turn37search1",
+      "snippet": "Image: Even Realities G1 ... It blends an extra, customizable layer of digital functionality (Map Navigation, Live Translation/Caption, AI, etc.) that elevates your view of",
+      "title": "iF Design - Even Realities G1",
+      "url": "https://ifdesign.com/en/winner-ranking/project/even-realities-g1/680098"
+    },
+    {
+      "type": "text_result",
+      "domain": "electronics.alibaba.com",
+      "ref_id": "turn37search2",
+      "snippet": "The smart glasses market in 2026 has reached a definitive breakthrough, with the Even Realities G1 serving as a prime example of the \"Quiet Tech\"",
+      "title": "How to Find Reliable G1 Smart Glasses Suppliers",
+      "url": "https://electronics.alibaba.com/supplier/g1-smart-glasses-supplier"
+    },
+    {
+      "type": "text_result",
+      "domain": "memwey.github.io",
+      "ref_id": "turn37search3",
+      "snippet": "Mobile-app publisher | \"Even Realities Ltd.\" — apps `Even Realities` (`com.even.sg`, first released 2025-11-21) and `Even G1` (`com.even.g1`, first released 2024-07-31) | iTunes search API;",
+      "title": "Even Realities · Startup Due Diligence",
+      "url": "https://memwey.github.io/startup-due-diligence/companies/even-realities/"
+    },
+    {
+      "type": "text_result",
+      "domain": "phatngo.me",
+      "ref_id": "turn37search4",
+      "snippet": "Even G1 | Jun 2024 | $599 | First model: binocular JBD micro-LED, 640×200, 25° field of view, about 1.5 days of battery (A) ...",
+      "title": "Even Realities (private) initiation: Bullish (3-5 years, conviction call) | Phat Ngo",
+      "url": "https://phatngo.me/even-realities.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evenrealities.cn",
+      "ref_id": "turn37search5",
+      "snippet": "Even G1 and the Even Realities companion app are compatible with both iOS and Android devices, supporting most smartphone models.",
+      "title": "Even G1 Smart Glasses | Everyday Eyewear with Display",
+      "url": "https://www.evenrealities.cn/g1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hearingtracker.com",
+      "ref_id": "turn37search6",
+      "snippet": "| XRAI AR2 / Glass App | Xander Glasses | LEION Hearing | AirCaps (TranscribeGlass) | Captify Pro / Myvu | Meta Ray-Ban Display ...",
+      "title": "AR Live Captioning Glasses Review: Real-time AI Transcriptions",
+      "url": "https://www.hearingtracker.com/hearing-glasses/hear-with-your-eyes-five-ar-live-captioning-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "cnnect.net",
+      "ref_id": "turn37search7",
+      "snippet": "# 亮亮視野（LLVISION） ... Quark AI Glasses S1 スマートグラス：ナイトビューナビゲーション、翻訳、プロンプト、質問機能、AI対話、アクションカメラ、写真撮影",
+      "title": "亮亮視野（LLVISION）の商品を淘宝（タオバオ）・天猫・アリババから個人輸入・購入代行 - CNNECT",
+      "url": "https://cnnect.net/brand_detail/llvision"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.preqin.com",
+      "ref_id": "turn37search8",
+      "snippet": "Founded in 2023 and based in Shenzhen, China, Even Realities is an optical technology company that focuses on the research and development of AR glasses.",
+      "title": "Even Realities Asset Profile | Preqin",
+      "url": "https://www.preqin.com/data/profile/asset/even-realities/704772"
+    },
+    {
+      "type": "text_result",
+      "domain": "vrarwiki.com",
+      "ref_id": "turn37search9",
+      "snippet": "Website | https://www.evenrealities.com/g1 ... ^{[16]} For the G1 after the end of direct sales, the company says existing units continue to work with the Even",
+      "title": "Even Realities G1 - VR & AR Wiki - Virtual Reality & Augmented Reality Wiki",
+      "url": "https://vrarwiki.com/wiki/Even_Realities_G1"
+    },
+    {
+      "type": "text_result",
+      "domain": "finance.sina.com.cn",
+      "ref_id": "turn37search10",
+      "snippet": "# 形意智能发布全球首款体全息消费级 AR 眼镜 Mimosa AR99 重塑科技时尚新标杆",
+      "title": "形意智能发布全球首款体全息消费级 AR 眼镜 Mimosa AR99 重塑科技时尚新标杆|智能眼镜|智能|AR_新浪科技_新浪网",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-01-08/doc-inhfqpst6719872.shtml"
+    },
+    {
+      "type": "text_result",
+      "domain": "germany.alibaba.com",
+      "ref_id": "turn37search11",
+      "snippet": "# 2025 Even Realities G1 KI-AR-Brille mit Augmented-Reality-Kamera, Unterstützt GPT & Deepseek KI, Hergestellt in den USA",
+      "title": "2025 Even Realities G1 Ki-ar-brille Mit Augmented-reality-kamera,Unterstützt Gpt & Deepseek Ki,Hergestellt In Den Usa - Buy Product on Alibaba.com",
+      "url": "https://germany.alibaba.com/product-detail/2025-Even-Realities-G1-AI-AR_11000034961357.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "device.report",
+      "ref_id": "turn37search13",
+      "snippet": "Beijing LLVision Technology Co., Ltd. ... Product Name: LEION HEY2 AR Glasses",
+      "title": "Authority to Act as Agent to a TCB:",
+      "url": "https://device.report/m/1c8d4b8a7a7a4beee3507f47b61dca6c83feea5f0ff3edb43027d04312f332d8.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "fccid.io",
+      "ref_id": "turn37search14",
+      "snippet": "Wear G1 and follow the guidance provided by the Even Realities App.",
+      "title": "Quick Guide",
+      "url": "https://fccid.io/m/d4f2ca04f9f7075ece3759594138ae20b3b5f372ace9417f5ecd265c8afe8e6f.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "usermanual.wiki",
+      "ref_id": "turn37search15",
+      "snippet": "Leion Hey Augmented Reality Glasses ... Beijing LLVision Technology Co, Ltd",
+      "title": "Leion Hey Augmented Reality Glasses",
+      "url": "https://usermanual.wiki/Beijing-LLVision-Technology/G35A0-6269209.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "device.report",
+      "ref_id": "turn37search16",
+      "snippet": "| Applicant: Address: | | Beijing LLVision Technology Co., Ltd. 501, 5th Floor, Building 8, No.10 Kegu 1st Street, BDA, BEIJING, CHINA ... | Product",
+      "title": "JianYan Testing Group Shenzhen Co., Ltd.",
+      "url": "https://device.report/m/447ca07076e3f4490331cf14b1b738463d7993746348612127e830200d94895e.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "static1.squarespace.com",
+      "ref_id": "turn37search17",
+      "snippet": "www.llvision.com/en/ ... discovering the Leion Hey AR Subtitle Glasses, Li’s com-",
+      "title": "Assistive Technology:",
+      "url": "https://static1.squarespace.com/static/5b3f6ff1710699a7ebb64495/t/67e2bb6ca38640054639cab5/1742912367096/GDS2025_AT_Exhibition_Brochure_WEB.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit18",
+      "snippet": "They even had the only pair of LLVISION glasses I have seen anywhere, and even an Epson HMD. ... Combined, Alibaba's two brands nearly catch",
+      "title": "Exploring the World's Largest Electronics Market: A SmartGlasses Overload",
+      "url": "https://www.reddit.com/r/SmartGlasses/comments/1vq3tlj/exploring_the_worlds_largest_electronics_market_a/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit19",
+      "snippet": "* the subtitle glasses will support on device translation in the future * LLVISION will open the SDK, so that developers can use the processors",
+      "title": "now for sale on JD.com — LLVISION subtitle smart glasses for people who are deaf and hard of hearing",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/133mav4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit20",
+      "snippet": "On June 12th, LLVision held a product launch event for its Leion brand in Seoul, South Korea, officially unveiling its consumer AR glasses, the Leion",
+      "title": "LLVision announces LEION HEY2 smart glasses with binocular display",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1l9qnus/llvision_announces_leion_hey2_smart_glasses_with/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit21",
+      "snippet": "* the subtitle glasses will support on device translation in the future ... * llvision.com",
+      "title": "LLVISION launches subtitle smart glasses for people who are deaf and hard of hearing",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/xkdkyg"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit22",
+      "snippet": "Afaik, Leion Hey are the only LLVision glasses for deaf people.",
+      "title": "LLVISION is set to launch new smart glasses with display",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1h643s8"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn37news23",
+      "snippet": "From day one, even with the first-generation G1, we never had a camera. ... While the original G1 was built by a scrappy skeleton crew,",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/33kKt1GrWEjWMczmFT_0hV1A_U9Osl7uJkmSCrBGab3ksLnGpstpkZ7V75oi77aNOunyFnSYQ7HoxzR08L42ILzYesxCe5LT11A5TCDY2QLzLyCqOIppjzfpBcRX-Bw2",
+      "title": "Exclusive: Even Realities CEO slams Meta Ray-Bans - we 'don't thrive on selling data'",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/exclusive-even-realities-ceo-slams-meta-ray-bans-we-dont-thrive-on-selling-data"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn37news24",
+      "snippet": "As smart glasses like the Viture Luma Pro and Xreal One Pro deliver mesmerizing virtual AR displays that can act as a TV screen in",
+      "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/vPgrZzVEzNYf9QHpJpo5gV-1280-80.jpg",
+      "title": "I wore the Even Realities G1 for a month - and they're smart glasses I'd actually wear despite their flaws",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/even-realities-g1-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.androidcentral.com",
+      "ref_id": "turn37news25",
+      "snippet": "Both devices go on sale on November 12 at EvenRealities.com for $599 for the G2 and $249 for the R1. ... Later this year, Even",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/4S95yoWn0KAivQdvxaDCwlvsObXN59I6hZkphQJiwXwFozaRfGaAfF9sCu-STd6LlLnoUaKUaCoBvBjQvpMHFnnNKinOq7IT1NE5TfJrBiC5zidjW2CWlSHoyeGafKb6",
+      "title": "Even Realities' new smart glasses and ring aim to make everyday tech less distracting",
+      "url": "https://www.androidcentral.com/wearables/even-realities-new-smart-glasses-and-ring-aim-to-make-everyday-tech-less-distracting"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tomsguide.com",
+      "ref_id": "turn37news26",
+      "snippet": "The Even Realities G1 proposed an answer, but the Even G2 irons out the details in a subtle, stylish-looking pair of specs with advanced AI",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ncDNsVGOarNrN5g1T7oJCWygjKvqJEalJU_9z76ZZnK3oJGqx-wJ4QMfpOSodo8iACI8FJbK4qa6lYRxoJirZ1pCBBGB7gN1e62Vd0V5j2yrLKFeYGYnQR_-T_Vnei_z",
+      "title": "I wore the Even Realities G2 smart glasses for a week, and it's the first pair of AR glasses I'd actually buy",
+      "url": "https://www.tomsguide.com/computing/smart-glasses/even-realities-g2-smart-glasses-review"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit27",
+      "snippet": "* RayNeo and LLVision are not a new companies in 2025. ... * Goertek is an OEM/ODM company working on glasses for years.",
+      "title": "Smart Glasses Landscape",
+      "url": "https://www.reddit.com/r/augmentedreality/comments/1m6gpbf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit28",
+      "snippet": "https://www.llvision.com/en/leion-pro.html",
+      "title": "LLVision LEION Pro AR Smart Glasses",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/la6cvc"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit29",
+      "snippet": "For instance, among the companies which climbed the most this year are some hardware companies: HiScene (▲17), LLVision (▲14), Lenovo New Vision (▲20), Pimax (▲10).",
+      "title": "TOP 50 AR VR enterprises in China in 2023",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/17c7pl9"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit30",
+      "snippet": "Binocular Smart Glasses: INMO Air2, LA.WK meta lens S1 / S1 PRO, Vuzix Shield, LLVision Leion Hej, Fan Jing BK-200 AR, Mai Yun, P&C Solution",
+      "title": "Types of Smart Glasses and Best Smart Glasses 2022-2023",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/yrowyo/types_of_smart_glasses_and_best_smart_glasses/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit31",
+      "snippet": "LLvision produced a documentary for the hearing-impaired: https://youtu.be/wJ9DlYsLyZo ... * the live captions glasses will support on device translation in the future",
+      "title": "LLVISION LEION HEY smart glasses designed for hearing impaired people",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/1030o5l"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit32",
+      "snippet": "`optical seethrough` | oppo air glass | alphalong alpha xt | goolton g20s | goolton c2000s | grawoow g510 | fan jing bk200 AR |",
+      "title": "new Glasses and Headsets 2022-23",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/10g1e8c"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn37reddit33",
+      "snippet": "* the subtitle glasses will support on device translation in the future * LLVISION will open the SDK, so that developers can use the processors",
+      "title": "LLVISION will bring its subtitle smart glasses with binocular waveguides and MEMS microphone array to kickstarter",
+      "url": "https://www.reddit.com/r/AR_MR_XR/comments/14j99s4"
+    },
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn37view0",
+      "snippet": "Total lines: 895",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/OQfLb3LRmpKLQariMT-7hPsleqwfdbtqfKokvQyOC-tPwldstxFr0lB3KzkrVnq29CkHuJaYTGXPVtVVqnAycS3AkmvaH7fOaBw8RNeqUzC8RuXLr-sLouLpKQDekvJK",
+      "title": "Leion Hey2 AI Translation Glasses | Real-Time Captions",
+      "url": "https://leion.glass/products/leion-hey-2-smart-ar-glasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evenrealities.com",
+      "ref_id": "turn37view1",
+      "snippet": "Total lines: 390",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/fDm4zBOfnPVZAVBLXq1aaTVJu7Z1kyMyrbjlC8q3Nnx2Xyz_VGE-rb6mMeDaUP1DhqeZF2nV5QCUg1a0kPly7yHlLurhm9kyIJBRqiJLhKBo4n4dwnLSm61XUg_R0DRmwQ190C8ZkyKUxRFDPaNDSNUJG1ehl5XdpebgerNZ9b8",
+      "title": "Even G1 Smart Glasses | Everyday Eyewear with Display",
+      "url": "https://www.evenrealities.com/g1"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-a09284c8-22bf-481c-80db-74832764f0f5",
+  "query": "site.apps.apple.com \"Leion\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.apps.apple.com \"Leion\"",
+      "site.smartxy.com.cn/products/audio-01/",
+      "site.smartxy.com.cn/products/k900/"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn39search0",
+      "snippet": "## K900: from user need to product scope ... SMARTXY PROJECT RECORD Customer-specific K900 derivative",
+      "title": "K900 Livestreaming AI Camera Glasses | SmartXY",
+      "url": "https://www.smartxy.com.cn/products/k900/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn39search1",
+      "snippet": "Image: K900 black and transparent frame variants showing integrated electronics",
+      "title": "K900 Livestreaming AI Camera Glasses | SmartXY",
+      "url": "https://smartxy.com.cn/products/k900/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn39search2",
+      "snippet": "Mimosa AR99 单目AR眼镜 形意 C100 双目AR+AI眼镜 形意 K900 AI拍摄眼镜 ... Image: SmartXY C100 佩戴设计介绍 Image: SmartXY C100 显示、影像与声学能力介绍 Image: SmartXY C100 续航、连接与品质介绍 Image: SmartXY C100",
+      "title": "形意智能 - AI/AR 眼镜 ODM 官方网站",
+      "url": "https://www.smartxy.com.cn/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn39search3",
+      "snippet": "Since 2019, SmartXY (Shenzhen Xingyi Intelligent Technology) has developed AI and AR smart eyewear — from the world’s first volume-holographic consumer glasses to K900 camera",
+      "title": "About SmartXY | AI & AR Smart Glasses Manufacturer",
+      "url": "https://smartxy.com.cn/about/"
+    },
+    {
+      "type": "text_result",
+      "domain": "smartxy.com.cn",
+      "ref_id": "turn39search4",
+      "snippet": "### K900: capture-led evaluation K900 is a mass-production camera-glasses platform.",
+      "title": "Industrial Smart Glasses Workflow Evaluation | SmartXY",
+      "url": "https://smartxy.com.cn/solutions/enterprise-smart-glasses-field-service/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.smartxy.com.cn",
+      "ref_id": "turn39search5",
+      "snippet": "K900 · AR99 · AR99 MY · C100",
+      "title": "Smart Glasses Use Cases | SmartXY",
+      "url": "https://www.smartxy.com.cn/use-cases/"
+    },
+    {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn39search6",
+      "snippet": "LEION is an auxiliary application software for Leion Hey AR glasses, allowing for quick connection management and setting up services such as voice-to-text. Leion Hey",
+      "title": "‎LEION App - App Store",
+      "url": "https://apps.apple.com/us/app/leion/id6450490984?platform=watch"
+    },
+    {
+      "type": "text_result",
+      "domain": "newcar.xcar.com.cn",
+      "ref_id": "turn39search7",
+      "snippet": "当前位置:爱卡汽车> 起亚> 起亚(进口)> 起亚K900>车系首页",
+      "title": "〖起亚K900〗2026年最新款起亚(进口)起亚K900_报价_图片-爱卡汽车",
+      "url": "https://newcar.xcar.com.cn/10095/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sourcingai.com",
+      "ref_id": "turn39search8",
+      "snippet": "Compatibility Thin and Light Customizable Android Smart Tablet PC ... Guangdong, China Shenzhen Xinyi Electronic Digital Co., Ltd. ... ## Product profile ... XY-K900",
+      "title": "Wholesale Compatibility Thin and Light Customizable Android Smart Tablet PC from SourcingAI",
+      "url": "https://www.sourcingai.com/smart-products/xytablet/compatibility-thin-and-light-customizable-android-smart-tablet-pc-EhvbdDKWUARl"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.apple.com",
+      "ref_id": "turn39search9",
+      "snippet": "# Leion ... Leion) - Single",
+      "title": "‎Leion - Apple Music",
+      "url": "https://music.apple.com/us/artist/leion/1619616079"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.chinamaqi.com",
+      "ref_id": "turn39search12",
+      "snippet": "序号 K599 | 参数 机头急停开关是否有效 ON：有效 OFF：无效 | 设定范围 1：ON 0：OFF | 编辑单位 1 | 出厂设置 1 --- | --- | --- | --- |",
+      "title": "21X 套结钉扣机(触摸屏E)",
+      "url": "https://en.chinamaqi.com/upload/localpc/download/LS%20430-%E7%94%B5%E6%8E%A7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6-21X%28%E8%A7%A6%E6%91%B8%E5%B1%8FE%29%EF%BC%88%E4%B8%AD%E8%8B%B1%E6%96%87%EF%BC%891627573356.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "music.apple.com",
+      "ref_id": "turn39search10",
+      "snippet": "# LeioN ... LeioN) - Single",
+      "title": "‎LeioN - Apple Music",
+      "url": "https://music.apple.com/us/artist/leion/1502768704"
+    },
+    {
+      "type": "text_result",
+      "domain": "app-1642902915.appstor.io",
+      "ref_id": "turn39search11",
+      "snippet": "# LEION",
+      "title": "LEION App for iPhone and iPad | appstor.io",
+      "url": "https://app-1642902915.appstor.io/"
+    },
+    {
+      "type": "text_result",
+      "domain": "image.stoking.ru",
+      "ref_id": "turn39search13",
+      "snippet": "PRODUCTS’ RANGE TECHNICAL DATA Code | Description | Fluids type | Flow-rate l/min gpm | | Pulser p/l p/gal | | Pressure bar psi |",
+      "title": "untitled",
+      "url": "https://image.stoking.ru/uploads/image/stoking-library/piusi/ex75/f00380000/rf.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "zh.wikipedia.org",
+      "ref_id": "turn39search14",
+      "snippet": "聯想K900 ... Lenovo's Intel-powered K900 smartphone on sale now in China, ships internationally this summer.",
+      "title": "聯想K900",
+      "url": "https://zh.wikipedia.org/wiki/%E8%81%AF%E6%83%B3K900"
+    },
+    {
+      "type": "text_result",
+      "domain": "fcc.report",
+      "ref_id": "turn39search15",
+      "snippet": "After-sales servicing of all smart sweeping robot products is done through sending product in for repair.",
+      "title": "K900 扫地机器人产品说明书",
+      "url": "https://fcc.report/FCC-ID/2ATCH-K900/4409367.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "site.di7.com",
+      "ref_id": "turn39search16",
+      "title": "K900-39 系列-MODBUS 通讯协议",
+      "url": "https://site.di7.com/member/web11934oe/uploadfile/20200907153403.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "shopcdnpro.grainajz.com",
+      "ref_id": "turn39search17",
+      "snippet": "邮箱 Email: info@aa1audio.com； tracyli@aa1audio.com ... Address: No.22, Longgu road, Longwan, Shawan town,Panyu, Guangzhou, China",
+      "title": "HOUSEHOLD AUDIO",
+      "url": "https://shopcdnpro.grainajz.com/category/365603/3273/fa81106822577f7c9ff2093b24834dc2/Household%20Audio%20Products%20Catalog.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "smec-portal-oss.smec-cn.com",
+      "ref_id": "turn39search18",
+      "snippet": "Smart K-II ... <tr><td>水位报警装置</td><td>下部桁架内积水过多时，使自动扶梯停止运行。 ... </td><td>OILF *5</td><td>●</td><td>●</td></tr>",
+      "title": "功能表  \nSmart K-II\n\n●：标准功能　○：选择功能　—：不适用\n\n<table id=\"",
+      "url": "https://smec-portal-oss.smec-cn.com/pdf/SMART%20K-II.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ru.wikipedia.org",
+      "ref_id": "turn39search19",
+      "snippet": "* Lenovo's Intel-powered K900 smartphone on sale now in China, ships internationally this summer. ... * Обзор топового флагманского смартфона Lenovo K900 на ixbt.com",
+      "title": "Lenovo IdeaPhone K900",
+      "url": "https://ru.wikipedia.org/wiki/Lenovo_IdeaPhone_K900"
+    },
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn39view0",
+      "snippet": "Total lines: 229",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/5-lFAe_lRD9znIhhTVn6z8ht4LJewd1n7L7K4XCz_MOZrXc2fLvyoCdlPna0naBt8V4gfbySp3LqCN8-CDYEteMzmROw_qBdHQMtDkWRUkuVX0HQsCjVbSyLyKZRd5BFOrLYrQj1G0FR1AzP-bH-TbTpoHvB4nL9bYJ8ldRo5WI",
+      "title": "Products | Leion",
+      "url": "https://leion.glass/collections/all"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evenrealities.com",
+      "ref_id": "turn39view1",
+      "snippet": "Total lines: 390",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/73lmAHUpFJuEPaSywHW-0hhN2c38F3TzPL-F5nX9OpqIeAHmaYWzPKz6Y3H0RnUbfTD1FForwTgEi-EmoHdz5zEBqOzaIcrXHnis1rFD7fOX5cunbHQaascppYZZG-QsFAN-8t3gYurEI2qHWW7shEa9imPOOyQNEdEsqtAK628",
+      "title": "Even G1 Smart Glasses | Everyday Eyewear with Display",
+      "url": "https://www.evenrealities.com/g1"
+    },
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn39view2",
+      "snippet": "Total lines: 895",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/CrAVl5UOFsQW5WEafV-Yew2GNmuKXcdRfuvor2LzeHJAqkbeeYGoDzDTE-MFQQBCtgtK-chEKIymW8p-Y9qjKJp_TQ4m-xkXXn4rZWfp1fewhjR_ZzGUoWcBSyUGskPZ",
+      "title": "Leion Hey2 AI Translation Glasses | Real-Time Captions",
+      "url": "https://leion.glass/products/leion-hey-2-smart-ar-glasses"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-0400aa2d-9e89-4f98-938a-0ed23717be66",
+  "query": "https://leion.glass/collections/all",
+  "action": {
+    "type": "openPage",
+    "url": "https://leion.glass/collections/all"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn41view0",
+      "snippet": "Total lines: 229",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/DEXkQVSfyuhyTZd3FhuGdHAK34_IGOLnfcURhp6FwSUuVfPOiyxskuvQWlg0hmhyyXNSP8YmC9eDYGwA2f66GG06VUGkFq88cXu6poUTScJPELMcT5C7J9VkK7-K2dgFz-rDn3pv3qSJn6t_SXW-wRWbiKlEPMiu7XR3-WAQ53Y",
+      "title": "Products | Leion",
+      "url": "https://leion.glass/collections/all"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6ce13f35-d0e9-4578-87e4-fd74f92a0e31",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "leion.glass",
+      "ref_id": "turn43view0",
+      "snippet": "Total lines: 682",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/N-WARD6lJqc6Ace-DpIWqURkgyOVr38oRNL6goyLcDMpj9dG6g8sbTayRsiY2NpVQUBs0ShX0aboqyCpY--G_Y0al7acY-4KKVAXvReCYBlrNMsvZ-jXx47dq4YWMX9RxgdQ7vNDJKxQopEKjoiVtQ",
+      "title": "Leion Hearing Tea Brown Caption Glasses | Live Speech-to-Text",
+      "url": "https://leion.glass/collections/all/products/leion-hearing-tea-brown-caption-glasses"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Inventar verificat la **30 octombrie 2026**. „Comercializat în 2026” trebuie să includă produsele retrase în cursul anului; prototipurile și paginile istorice au statut separat. Nu pot demonstra exhaustivitatea tuturor SKU-urilor regionale/private ODM.
+
+## Even Realities
+
+| Model / variantă | Statut 2026 | Specificații și software |
+|---|---|---|
+| **G1 A** — ramă rotunjită | Vândut în 2026; vânzarea directă oprită la 15.09.2026. Stocuri distribuitori posibile, neconfirmate. | Waveguide binocular verde MicroLED, **640×200**, **25°**, **20 Hz**, **1.000 nit**; 2 microfoane; BLE 5.2; fără cameră/difuzoare. Telefon necesar. |
+| **G1 B** — ramă rectangulară | Același statut; variantă de ramă, nu generație separată. | Aceeași platformă optică/software G1. |
+| **G2 A** — panto/rotunjită | Comercial actual | Waveguide binocular verde MicroLED, **640×350**, **27,5°**, **60 Hz**, **1.200 nit**, 98% transmisie declarată; 4 microfoane; BLE5.4; baterie192mAh, husă2000mAh; IP65; autonomie declarată 2 zile utilizare obișnuită. |
+| **G2 B** — rectangulară | Comercial actual | Aceeași platformă G2; geometria ramei diferă. |
+| **R1** | Accesoriu comercial, **nu ochelari/tabletă** | Inel pentru control G2; nu îl număra ca AI Glasses. |
+| **G3** | În dezvoltare / roadmap | Nu am găsit dovadă suficientă de comercializare până la data cercetării. Exclude din lista de cumpărare curentă. |
+
+**Surse oficiale:** [G1 produs și specificații](https://www.evenrealities.com/g1); [anunț retragere G1](https://support.evenrealities.com/hc/en-us/articles/17564427335823-Even-G1-Sales-Discontinuation-Notice); [G2 specificații](https://support.evenrealities.com/hc/en-us/articles/13499229138959-Specifications); [magazin oficial](https://www.evenrealities.com/en-CA/store).
+
+G1 continuă să funcționeze cu aplicația, iar perioada publicată de suport de securitate nu se încheie înainte de **25.06.2029**, conform anunțului oficial. Nu înseamnă promisiune de funcții noi.
+
+**Dezvoltare:** [Even Hub overview](https://hub.evenrealities.com/docs/get-started/overview) pentru G2: aplicația rulează pe telefon, ochelarii sunt interfață; patru microfoane fizice, **single stream PCM16kHz**, nu patru canale brute. [Tutorial SDK](https://hub.evenrealities.com/docs/learn/videos) arată suprafață de desen **576×288**: păstrează separat *rezoluție optică 640×350* și *canvas SDK576×288*. Nu prezenta Even Hub pentru G1 fără dovadă de compatibilitate actuală. Nu este instalare APK nativă în ochelari.
+
+**Aplicație iOS:** [Even Realities](https://apps.apple.com/ro/app/even-realities/id6747017725). Aplicația companion este și pe Android, dar cerințele minime/compatibilitatea tabletelor trebuie fixate la versiunea livrată. Nu am identificat tabletă proprie Even.
+
+**Reviewuri reale:** [Tom’s Guide G1 — o lună, 18.07.2025](https://www.tomsguide.com/computing/smart-glasses/even-realities-g1-smart-glasses-review); [TechRadar G2 — 13.09.2026](https://www.techradar.com/computing/virtual-reality-augmented-reality/even-realities-g2-review); [Tom’s Guide G2](https://www.tomsguide.com/computing/smart-glasses/even-realities-g2-smart-glasses-review). Ultimul are tabel cu cifre G1, în conflict cu fișa oficială G2: **nu importa 640×200/20Hz/1.000nit la G2**. Reviewurile favorizează confortul/discreția, dar lipsa camerei și audio limitează utilizările.
+
+**Alibaba:** am găsit [listare intitulată Even G1](https://germany.alibaba.com/product-detail/2025-Even-Realities-G1-AI-AR_11000034961357.html), însă titlul pretinde **cameră** și „Made in USA”, incompatibile cu produsul oficial. **Listare respinsă ca bază de achiziție, autenticitate neconfirmată.** Pentru G2 apar agregări Alibaba cu numele modelului, dar n-am verificat pagină individuală + vânzător autorizat. Raportul să spună „exact match autentic neconfirmat”; să nu recomande produsele „G1 style”.
+
+## LLVISION / LEION
+
+| Model | Statut verificabil | Specificații / integrare |
+|---|---|---|
+| **LEION HEY2** | Comercial, pagina spune disponibil | 49g; afișaj verde, **480×640** conform ordinii publicate; patru microfoane; BLE5.4; Wi-Fi2,4/5GHz; 245mAh; până la8h; încărcare magnetică și până la12 reîncărcări în husă. **Fără cameră frontală și fără difuzor.** Android8+/iOS11+ declarate; telefon companion. |
+| **LEION HEARING — Tea Brown** | **Precomandă**, expediere estimată sfârșit octombrie2026; nu presupune livrare realizată | 49g, subtitrare prioritară, cameră absentă; 699USD; 4.800 minute Pro; garanție comercială2ani. Este SKU/pachet distinct, nu dovadă de generație hardware complet diferită. |
+| **LEION Pro** | Produs enterprise în catalog oficial; disponibilitatea de livrare2026 prin ofertă de reconfirmat | Waveguide binocular,640×400; FoV30° diagonal; până la4.000nit; transmisie85%;90g; cameră13MP; MyriadX;512MB; stereo; USB-C2/3; Android8+ host. |
+| **GLXSS SE** | În catalog enterprise; stoc/contract2026 neconfirmat | Monocular640×400;20°; cameră13MP/1080p; Myriad2 în pagina actuală;512MB;32g modul/45g cu ramă; microfon cu reducere zgomot; un difuzor;USB-C2.0. |
+| **LEION HEY / G35A-00** | Model anterior documentat; nu am confirmat vânzare nouă2026 | Nu îi atribui automat datele HEY2; păstrează într-o anexă de legacy. |
+| **GLXSS ME** | Pagină/documentație istorică, comercializare2026 neconfirmată | Nu include la „disponibil acum” doar pentru că URL-ul răspunde. |
+| **GLXSS SE special explosion-proof** | Configurație specială enterprise menționată oficial | Certificarea și SKU-ul exact necesită documente; nu transfera certificarea întregii familii. |
+
+**Surse:** [HEY2 cumpărare/fișă](https://leion.glass/products/leion-hey-2-smart-ar-glasses); [HEARING precomandă](https://leion.glass/products/leion-hearing-tea-brown-caption-glasses); [catalog comercial](https://leion.glass/collections/all); [LEION Pro oficial](https://www.llvision.com/leion-pro.html); [GLXSS SE oficial](https://www.llvision.com/glxss-se.html); [manual HEY anterior](https://static1.squarespace.com/static/64a291569090725a6bc6ea3e/t/64e71701f129251d4272f13f/1692866327754/LEION%2BHEY%2BUser%2BManual.pdf).
+
+**Punct important tablete:** LEION Pro declară explicit compatibilitate USB cu **smartphone-uri, tablete și terminale industriale Android8+**. Ochelarii nu au emițător wireless propriu; conectivitatea 5G/Wi-Fi/Bluetooth vine de la host. Nu marca Wi-Fi nativ „da”.
+
+**SDK:** [broșura oficială enterprise](https://file.llvision.com/download/AR_FSM_Solution.pdf) documentează SDK AR, dar este veche. Confirmarea accesului curent, licenței și compatibilității se face per LEION Pro/GLXSS. **Nu există în cercetarea mea dovadă suficientă de SDK public pentru HEY2/HEARING.**
+
+**Apps:** [LEION iOS](https://apps.apple.com/us/app/leion/id6450490984?platform=watch). Parametrul URL `platform=watch` nu demonstrează aplicație watchOS; este pagina App Store găsită, verificați rubricile de compatibilitate. Android este declarat de produs, APK oficial verificabil neextras.
+
+**Abonamente/pachete:** „Leion Pro Translation Access” și „Hey2 Pro translation access” din magazin sunt **servicii**, nu noi modele de ochelari. HEY2 este549USD, HEARING699USD; Pro Minutes trebuie bugetate separat. Nu am confirmat lista nominală română/offline.
+
+**Review:** [HearingTracker comparație caption glasses](https://www.hearingtracker.com/hearing-glasses/hear-with-your-eyes-five-ar-live-captioning-glasses) utilă pentru context, dar poate trata HEY2 și Hearing ca aceeași familie; diferența de SKU/precomandă se ia de pe magazin. [Test utilizator HEY2](https://www.reddit.com/r/accessibility/comments/1wzfbje/measuring_caption_delay_on_glasses_the_leion_hey2/) raportează circa2,5s și declară mostră oferită de LLVISION; nu este validare clinică.
+
+**Alibaba:** nicio listare individuală exactă, suficient verificată, găsită pentru aceste modele. O pagină generică sau un intermediar Taobao nu este link Alibaba de achiziție validat.
+
+## SmartXY / Shenzhen Xingyi
+
+Catalogul spune explicit **8 intrări de produs +2 referințe istorice**, cu stadii diferite. [Catalog](https://smartxy.com.cn/products/)
+
+| Model | Statut | Date esențiale |
+|---|---|---|
+| **AR99 / Mimosa AR99** | Producție de serie OEM/ODM | Fără cameră; waveguide VHG verde monocular dreapta;640×480/30Hz;30°; până la2.000nit;28g fără lentileRx;100mAh; Bluetooth/telefon. |
+| **AR99 MY / Mimosa** | Producție; ramă cat-eye distinctă | Platformă AR99 comună,29g fără lentileRx. |
+| **AR99 Pro** | **EVT3, prototip CNC** | SRG monocular verde;640×480/30Hz;25°;1.800nit;25g; carbon;2×40mAh interschimbabile fără oprire declarată; inel obligatoriu inclus. |
+| **C100** | **EVT3, prototip CNC** | Cameră+waveguide binocular; Android11 autonom client de servicii AI, nu LLM local. |
+| **K900 / XY-008** | Producție din2024, în principal comenzi ODM | Cameră/audio, **fără afișaj**. |
+| **Audio01** | Numai proiect ODM | Open-ear+microfoane; fără cameră și fără afișaj; SDK per proiect. |
+| **Nudge** | Concept/configurație proiect, serie neconfirmată | Fără cameră; senzori distanță/înclinare, semnal vizual prin „smart fog”, nu display AR pixelat. |
+| **BB Medical** | Platformă configurată pe proiect | Headset display clinic; nu produs medical certificat demonstrat. |
+| **Confidant** | Referință istorică2021 | Nu produs pregătit overseas; fără mostre. |
+| **Falcon007Pro** | Referință istorică | Nu produs pregătit overseas; fără mostre. |
+
+Date adiționale din pagini distincte:
+
+- **AR99:** [tehnologie oficială](https://smartxy.com.cn/technology/): autonomie funcțională de referință1–3h, standby72+h; nu confunda cu cele8h dintr-un comunicat al furnizorului de cip. [AR99 Pro](https://smartxy.com.cn/products/ar99-pro/) confirmă etapaEVT3.
+- **C100:** [fișă platformă](https://www.topaiglasses.com/products/c100/):640×480/ochi,25°;SonyIMX68112MP/1080p30;ATS6095+MTK8766;Android11;2GB/32GB;Wi-Fi5 dual-band;BT6.0 declarat la SoC;5microfoane, stereo;IMU6axe;IP44;45g. Bateria/capacitatea husei necesită ofertă. SDK ochelari + Android telefon; acces prin cerere. Separă **capacitatea cipului** de funcțiile expuse în firmware.
+- **K900:** [pagina oficială](https://www.smartxy.com.cn/products/k900/):39g;SonyIMX25813MP/1080p30EIS;5microfoane;stereo;MT6765+BES2700H;2GB/32GB;270mAh;BT5.4+Wi-Fi6 2,4GHz declarat;8–10h muzică versus55min video continuu. Livestreaming numai configurații partener; nu dovedește API standard live video.
+- **Nudge:** [fișă](https://www.topaiglasses.com/products/nudge/):aprox30g, senzori distanță și înclinare; aproximare de proiect pentru copii3–12ani. Nu atribui prevenție/tratament miopie.
+- **BB Medical:** [fișă](https://www.smartxy.com.cn/products/bb-medical/):MicroOLED binocular1920×1080/60Hz;55°;205g fără cablu;500nit;DC5V/2A;adaptorHDMI/USB-C;IMU6axe. Latența<20ms este referință video, nu sistem validat. Sursa/tableta/adaptoarele trebuie convenite.
+
+**SDK AR99:** [pachet și limite publicate](https://www.topaiglasses.com/products/ar99/) Android+iOS, arhivă20260827/1.0.3 versus ghid Android2.0.0 — **nu versiuni uniform validate**. Pachetul nu a fost compilat/testat de autorul paginii. Canvas arbitrar, licența sursă și accesul tuturor funcțiilor necesită probe. Nu scrie doar „SDK complet deschis”.
+
+**App:** [SmartXY iPhone](https://apps.apple.com/vn/app/smartxy/id6755132016), asociată AR99, conexiune/setări, interpretare, teleprompter,navigație,transcriere,AI. Listing „Only for iPhone”; nu este dovadă iPad. Nu am găsit tabletă proprie SmartXY.
+
+**Reviewuri:** Nu am găsit test independent solid al AR99/C100/K900 cu măsurători repetabile. [Actions Technology](https://www.actionstech.com/index.php?id=8419&siteId=4) confirmă integrarea cipului AR99, dar este furnizor, nu review. Articolele de lansare și paginile SmartXY nu se etichetează review independent.
+
+**Alibaba:** nicio listare individuală exactă, verificată, găsită. RFQ direct producător este ruta documentată. **XY-DC Reference Architecture** apare ca direcție ODM fără display, explicit *nu SKU suplimentar*, deci nu o număra drept model comercial.
+
+**Observație transversală:** pentru toate cele trei companii, n-am găsit dovadă suficientă de profil nativ ASHA/MFi/HAP sau rol Auracast pe ochelari. În tabel: **ND**, nu „Nu”; surround, full-duplex PCM și acces DSP la fel, dacă pagina nu le specifică.
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_41c359703b7843eeaeffb599cfae1d0c",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_8179e3cf3609484ea3a788db0226297b",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_82f30f1708684a14ac8a70a1875f8c67",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "model": null,
+  "reasoningEffort": null,
+  "id": "call_dbc2f5e45e88439ea836859e89079ffd",
+  "kind": "interacted",
+  "agentThreadId": "01a18d9c-c05e-79a1-9aac-32c6da9966e5",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Am trimis către root generatorul pentru **22 de modele, 3 producători** și **7 secțiuni de analiză hearing**, plus corecțiile și oferta Alibaba respinsă.
+
+Nu am scris fișiere: aprobarea shell a rămas blocată. Root poate salva conținutul transmis fără alte cercetări.

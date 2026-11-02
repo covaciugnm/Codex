@@ -1,0 +1,2011 @@
+{
+  "schema": "A11-independent-lot2-v1",
+  "reviewer": "A11",
+  "utc": "2026-11-02T15:19:48.610786+00:00",
+  "plan_bundle_sha256": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "cutoff_git": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "rubric_sha256": "4b1937a2f46606f29e4db10e7105806d0b7b462168c7ab7c03cbc5cafad0215d",
+  "decision": "R2_OBLIGATORIU_PENTRU_FIECARE_RAPORT",
+  "reports_reviewed": 5,
+  "reports_accepted_fully": 0,
+  "product_score": null,
+  "method": "Fiecare 0,2 corespunde unui subcontrol al rubricii pentru raport. Necunoscut/incomplet nu primește credit; QC01-R4 verifică registrul comun de 651 la cutoff. Pentru scor de calitate, defectul probat contribuie cu probă, nu impune performanță bună a produsului.",
+  "reports": {
+    "A06": {
+      "source_report": "A06_raport.json",
+      "source_sha256": "da58f0a2cde15dee163c06ff7a61e896fb685bdbafb3358f66d26dc2a089a4f6",
+      "coverage_integrity": {
+        "sha256": "da58f0a2cde15dee163c06ff7a61e896fb685bdbafb3358f66d26dc2a089a4f6",
+        "controls": 32,
+        "pipelines": 7,
+        "control_ids_missing": [],
+        "control_ids_extra": [],
+        "pipeline_ids_missing": [],
+        "pipeline_ids_extra": [],
+        "evidence_hashes_read": 21,
+        "evidence_hash_errors": [],
+        "states": {
+          "FAIL_DOVEDIT": 8,
+          "FAIL_COMPONENTĂ": 3,
+          "PARȚIAL": 9,
+          "INCONCLUDENT": 12
+        },
+        "findings": [
+          "A06-F01",
+          "A06-F02",
+          "A06-F03",
+          "A06-F04",
+          "A06-F05",
+          "A06-F06",
+          "A06-F07",
+          "A06-F08"
+        ],
+        "typed_id_overlap_pipeline_finding": []
+      },
+      "verified_subchecks": 26,
+      "out_of": 50,
+      "quality_score_10": 5.2,
+      "criteria": [
+        {
+          "id": "QC01",
+          "name": "Domeniu, inventare și versiuni",
+          "score": 1.0,
+          "subchecks": [
+            {
+              "id": "QC01-R1",
+              "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R2",
+              "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R3",
+              "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R4",
+              "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R5",
+              "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "632 surse, 126 suprafețe, 32 controale/7 fluxuri, 87 referințe A12 și versiuni distincte; 21 artefacte verificate.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC02",
+          "name": "Cerințe, istoric și taskuri",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC02-R1",
+              "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R2",
+              "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R3",
+              "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R4",
+              "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC02-R5",
+              "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Specificitatea G3 și CPP/CPA documentată; lipsesc criterii confirmate per task și dovada completă de commit.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC03",
+          "name": "Frontend, UX și roluri",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC03-R1",
+              "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R2",
+              "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R3",
+              "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R4",
+              "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R5",
+              "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Ecranul live, erori/refacere și dispozitive nu au matrice completă; limitele probei Flask sunt explicite.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC04",
+          "name": "Backend, API și contracte",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC04-R1",
+              "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R2",
+              "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R3",
+              "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC04-R4",
+              "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R5",
+              "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Flask checkout și JAR/SQL BOM, identitate, cantitate și replay separate de stările reale ale comenzii.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC05",
+          "name": "DB, integritate și contabilitate",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC05-R1",
+              "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R2",
+              "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R3",
+              "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R4",
+              "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R5",
+              "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Migrare, rețetă și rezervare analizate la nivel declarat; nu există toate căile UI/job sau reconciliere document→reversal.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC06",
+          "name": "Pipeline-uri și granițe",
+          "score": 0.0,
+          "subchecks": [
+            {
+              "id": "QC06-R1",
+              "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R2",
+              "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R3",
+              "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R4",
+              "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R5",
+              "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "0/7 fluxuri E2E, fără accept bilateral sau lanț complet rezervare→livrare→încasare.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC07",
+          "name": "Securitate și efecte",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC07-R1",
+              "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC07-R2",
+              "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC07-R3",
+              "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R4",
+              "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R5",
+              "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Nu se pretinde izolarea unui actor neprobat; contexte sintetice și rețea blocată, rolurile din ERP incomplet testate.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC08",
+          "name": "Reutilizare iDempiere/EVA și integrări",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC08-R1",
+              "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R2",
+              "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R3",
+              "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC08-R4",
+              "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R5",
+              "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Dovezi pe mecanisme native existențe și nivel etichetat; efectul actual complet asupra documentului și stocului nu este probat.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC09",
+          "name": "Probe, performanță și regresii",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC09-R1",
+              "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R2",
+              "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R3",
+              "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R4",
+              "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R5",
+              "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Șapte suite, 1.168 linii OK declarate; probe și limite separate, fără benchmark sau toate regresiile.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        },
+        {
+          "id": "QC10",
+          "name": "Control independent și închidere",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC10-R1",
+              "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R2",
+              "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R3",
+              "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R4",
+              "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC10-R5",
+              "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "A11 a reprodus F01 cu martor pozitiv și inversarea ordinii; reportul trebuie să închidă R2.",
+          "source": "A06_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A06"
+        }
+      ],
+      "mandatory_reaudit": [
+        "P1 – F01, F02, F04: exercițiu distinct pentru ID intern/SKU/EAN/alias numeric, idempotency persistentă și cantități negative/fracionare; document ERP și stoc înainte/după, drepturi canal.",
+        "P1 – F03: starea new observată la formular nu dovedește rezervare/acceptare comercială. Stabiliți politica precomenzi/backorder și observați C_Order/M_StorageReservation înainte de clasificare.",
+        "P1 – F06/F07/F08: versiune de rețetă pe angajament, stoc/furnizor multi-G1, redenumire și alias istoric. Păstrați F07/F08 legături interzone, nu dublați incidente contabil/DB."
+      ],
+      "status": "PARȚIAL_DE_RELUAT",
+      "product_score": null
+    },
+    "A07": {
+      "source_report": "A07_raport.json",
+      "source_sha256": "4d7ef81968dd14e44803da5f252facc278fa20aedbc8e11a2018eb5ac834dff6",
+      "coverage_integrity": {
+        "sha256": "4d7ef81968dd14e44803da5f252facc278fa20aedbc8e11a2018eb5ac834dff6",
+        "controls": 27,
+        "pipelines": 6,
+        "control_ids_missing": [],
+        "control_ids_extra": [],
+        "pipeline_ids_missing": [],
+        "pipeline_ids_extra": [],
+        "evidence_hashes_read": 53,
+        "evidence_hash_errors": [],
+        "states": {
+          "PARTIAL": 21,
+          "BLOCAT": 1,
+          "FAIL": 5
+        },
+        "findings": [
+          "A07-F01",
+          "A07-F02",
+          "A07-F03",
+          "A07-F04",
+          "A07-F05"
+        ],
+        "typed_id_overlap_pipeline_finding": []
+      },
+      "verified_subchecks": 32,
+      "out_of": 50,
+      "quality_score_10": 6.4,
+      "criteria": [
+        {
+          "id": "QC01",
+          "name": "Domeniu, inventare și versiuni",
+          "score": 1.0,
+          "subchecks": [
+            {
+              "id": "QC01-R1",
+              "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R2",
+              "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R3",
+              "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R4",
+              "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R5",
+              "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "27 controale, 6 fluxuri, 53 hashuri verificate. Dump GardenWorld înghețat separat.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC02",
+          "name": "Cerințe, istoric și taskuri",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC02-R1",
+              "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R2",
+              "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R3",
+              "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R4",
+              "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC02-R5",
+              "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Documentare a politicilor de facturare/retur și distincție CO versus livrare. Lipsesc criteriile complete pentru fiecare task.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC03",
+          "name": "Frontend, UX și roluri",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC03-R1",
+              "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R2",
+              "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R3",
+              "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R4",
+              "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R5",
+              "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Stările ERP au probe REST native, dar operatorul, ecranele și toate rolurile nu au probe directe complete.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC04",
+          "name": "Backend, API și contracte",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC04-R1",
+              "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R2",
+              "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R3",
+              "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R4",
+              "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R5",
+              "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Documente DR/IP/CO, refuz real 500 pentru excedent cu referință și replay transport; contractul comercial complet rămâne deschis.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC05",
+          "name": "DB, integritate și contabilitate",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC05-R1",
+              "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R2",
+              "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R3",
+              "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R4",
+              "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R5",
+              "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Documente, stoc, credit, plată și legături din dump au cantități/sume, inclusiv martor. Matrice UI/import/job incompletă; zona nu certifică tot cash/Fact_Acct.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC06",
+          "name": "Pipeline-uri și granițe",
+          "score": 0.4,
+          "subchecks": [
+            {
+              "id": "QC06-R1",
+              "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC06-R2",
+              "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R3",
+              "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC06-R4",
+              "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R5",
+              "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Urme native RMA→recepție IP→confirmare→recepție CO și eroare/recuperare, cu output business segment; lipsesc AWB carrier și reconciliere totală între zone.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC07",
+          "name": "Securitate și efecte",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC07-R1",
+              "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R2",
+              "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC07-R3",
+              "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R4",
+              "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R5",
+              "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Calea GardenAdmin este demonstrată și celelalte roluri sunt marcate neexecutate. Token și date sintetice, fără operații comerciale reale.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC08",
+          "name": "Reutilizare iDempiere/EVA și integrări",
+          "score": 1.0,
+          "subchecks": [
+            {
+              "id": "QC08-R1",
+              "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R2",
+              "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R3",
+              "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R4",
+              "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R5",
+              "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Nucleu RMA native cu/fără linie sursă, instalat vs Git și efect DB verificate; recomandări pe mecanism existent.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC09",
+          "name": "Probe, performanță și regresii",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC09-R1",
+              "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R2",
+              "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R3",
+              "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R4",
+              "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R5",
+              "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Scenarii negative/pozitive, outputuri păstrate. Fără SLA/volum sau toate regresiile și drepturile.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        },
+        {
+          "id": "QC10",
+          "name": "Control independent și închidere",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC10-R1",
+              "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R2",
+              "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R3",
+              "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R4",
+              "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC10-R5",
+              "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Replicare A11 pe date persistente și metode neschimbate, condiții explicite de extrapolare. Nu s-a închis R2.",
+          "source": "A07_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A07"
+        }
+      ],
+      "mandatory_reaudit": [
+        "P1 – F01: obligația de a transmite linia sursă pentru returul comercial; procedura legitimă fără sursă rămâne distinctă. Rulați E2E API și rolurile EVA, cantități cumulative, două documente/retururi concurente și refuz străin.",
+        "P1 – F05: dovedit pentru calea nativă directă GardenAdmin că 30 a fost alocat pe factură DR. Verificați separat expunerea pe rol operațional, DR/IP/VO/RE și CO cu sold, precum și reîncercări și reversal.",
+        "P1 – F02/F03/F04: păstrați distinția simulator transport/nativ, două adrese și politica de facturare în absența livrării reale confirmate; dovezi pentru ramburs/retur parțial, AWB sandbox, două colete și reconciliere bancară."
+      ],
+      "status": "PARȚIAL_DE_RELUAT",
+      "product_score": null
+    },
+    "A08": {
+      "source_report": "A08_raport.json",
+      "source_sha256": "2b01142eeec982c6e75b3b3f43b27100579af4f2edcfa3c7d218be5c21a51bf8",
+      "coverage_integrity": {
+        "sha256": "2b01142eeec982c6e75b3b3f43b27100579af4f2edcfa3c7d218be5c21a51bf8",
+        "controls": 27,
+        "pipelines": 7,
+        "control_ids_missing": [],
+        "control_ids_extra": [],
+        "pipeline_ids_missing": [],
+        "pipeline_ids_extra": [],
+        "evidence_hashes_read": 20,
+        "evidence_hash_errors": [],
+        "states": {
+          "FAIL_DOVEDIT": 15,
+          "PARȚIAL": 11,
+          "NEEXECUTAT": 1
+        },
+        "findings": [
+          "A08-F01",
+          "A08-F02",
+          "A08-F03",
+          "A08-F04",
+          "A08-F05",
+          "A08-F06",
+          "A08-F07",
+          "A08-F08",
+          "A08-F09",
+          "A08-F10"
+        ],
+        "typed_id_overlap_pipeline_finding": []
+      },
+      "verified_subchecks": 29,
+      "out_of": 50,
+      "quality_score_10": 5.8,
+      "criteria": [
+        {
+          "id": "QC01",
+          "name": "Domeniu, inventare și versiuni",
+          "score": 1.0,
+          "subchecks": [
+            {
+              "id": "QC01-R1",
+              "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R2",
+              "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R3",
+              "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R4",
+              "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R5",
+              "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "27 controale, 7 fluxuri, 20 artefacte integre, 18 candidați taskuri și medii distincte.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC02",
+          "name": "Cerințe, istoric și taskuri",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC02-R1",
+              "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R2",
+              "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R3",
+              "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R4",
+              "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC02-R5",
+              "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Reguli cabinet/canal, adresă, factură și comisionar confruntate; nu există trasabilitate de acceptare completă per task.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC03",
+          "name": "Frontend, UX și roluri",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC03-R1",
+              "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R2",
+              "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC03-R3",
+              "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC03-R4",
+              "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R5",
+              "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Fixture FE și pași de eroare și context diferit, diferențe focus/labels/dezambiguizare. Nu există E2E pe toate rolurile sau dovadă persistentă în ERP.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC04",
+          "name": "Backend, API și contracte",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC04-R1",
+              "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R2",
+              "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R3",
+              "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC04-R4",
+              "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R5",
+              "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "HTTP/fișiere reale sintetice pentru catalog, cont și retry; neacoperit contract complet de adrese, prețuri, TVA, transport și stări ERP.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC05",
+          "name": "DB, integritate și contabilitate",
+          "score": 0.4,
+          "subchecks": [
+            {
+              "id": "QC05-R1",
+              "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R2",
+              "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R3",
+              "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R4",
+              "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R5",
+              "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Mediu, produse/test și fișiere before/after confirmate; nu toate constrângerile native sau valorile până la Fact_Acct.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC06",
+          "name": "Pipeline-uri și granițe",
+          "score": 0.0,
+          "subchecks": [
+            {
+              "id": "QC06-R1",
+              "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R2",
+              "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R3",
+              "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R4",
+              "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R5",
+              "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "0/7 E2E; checkout/publicare și cont/retur au segmente probate, fără semnătura bilaterală și rezultat complet.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC07",
+          "name": "Securitate și efecte",
+          "score": 1.0,
+          "subchecks": [
+            {
+              "id": "QC07-R1",
+              "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R2",
+              "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R3",
+              "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R4",
+              "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R5",
+              "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Izolare catalog dovedită încălcată în aplicație, clienți sintetici și martori. Anonimitatea la app nu atestă accesul până la ingress de producție.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC08",
+          "name": "Reutilizare iDempiere/EVA și integrări",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC08-R1",
+              "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R2",
+              "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R3",
+              "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC08-R4",
+              "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R5",
+              "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Țintele reutilizabile sunt identificate și aria reală este delimitată; nu există probă completă a efectelor native.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC09",
+          "name": "Probe, performanță și regresii",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC09-R1",
+              "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R2",
+              "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R3",
+              "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R4",
+              "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R5",
+              "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Flask și HTML au probe concrete/repetate; întregul set de regresii și performanță pe canale rămân incomplete.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        },
+        {
+          "id": "QC10",
+          "name": "Control independent și închidere",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC10-R1",
+              "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R2",
+              "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R3",
+              "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R4",
+              "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC10-R5",
+              "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "A11 a repetat anonim scriere cross-channel, cu martor canal A nemodificat; F06/F08 sunt configurație/condiționale. Re-audit necesar.",
+          "source": "A08_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A08"
+        }
+      ],
+      "mandatory_reaudit": [
+        "P0 de verificare – F01: ruta aplicației permite import anonim A→B în fixture. Verificați fără mutații în producție expunerea ingress și autentificarea pe clone configurate la fel; corelați auditul cu A01/A10.",
+        "P1 – F03,F04,F05,F07: includeți cont dezactivat, token vechi, replay retur contra act distinct și versiune ofertă ordonată; măsurați efectul în fișiere, API și integrarea ERP pe două canale.",
+        "P1 – Expunerea de date prin cache CDN nu rezultă doar din header, iar topologia comună nu dovedește acces la alt canal. Documentați politicile de deployment și proxy, rolul de comisionar și preview eMag/Trendyol ca roluri/ecrane proprii."
+      ],
+      "status": "PARȚIAL_DE_RELUAT",
+      "product_score": null
+    },
+    "A09": {
+      "source_report": "A09_raport.json",
+      "source_sha256": "d1950b3eb92043ba76509d85f4ff1b193e52bf474972b091294db870a912d476",
+      "coverage_integrity": {
+        "sha256": "d1950b3eb92043ba76509d85f4ff1b193e52bf474972b091294db870a912d476",
+        "controls": 29,
+        "pipelines": 7,
+        "control_ids_missing": [],
+        "control_ids_extra": [],
+        "pipeline_ids_missing": [],
+        "pipeline_ids_extra": [],
+        "evidence_hashes_read": 39,
+        "evidence_hash_errors": [],
+        "states": {
+          "INCONCLUDENT": 17,
+          "FAIL_DOVEDIT": 9,
+          "BLOCAT_ACCES": 3
+        },
+        "findings": [
+          "A09-F01",
+          "A09-F02",
+          "A09-F03",
+          "A09-F04",
+          "A09-F05"
+        ],
+        "typed_id_overlap_pipeline_finding": []
+      },
+      "verified_subchecks": 25,
+      "out_of": 50,
+      "quality_score_10": 5.0,
+      "criteria": [
+        {
+          "id": "QC01",
+          "name": "Domeniu, inventare și versiuni",
+          "score": 1.0,
+          "subchecks": [
+            {
+              "id": "QC01-R1",
+              "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R2",
+              "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R3",
+              "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R4",
+              "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R5",
+              "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "29 controale, 7 fluxuri, 20 capitole, 39 dovezi integre și 236 rânduri native revizuite.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC02",
+          "name": "Cerințe, istoric și taskuri",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC02-R1",
+              "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R2",
+              "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R3",
+              "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R4",
+              "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC02-R5",
+              "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Meniu/capitole/funcții și etichete comparate cu obiectivele; A12 are rezultate diferite de o inventariere UI.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC03",
+          "name": "Frontend, UX și roluri",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC03-R1",
+              "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R2",
+              "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC03-R3",
+              "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC03-R4",
+              "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R5",
+              "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Viewport/Fokus/retry și defecte UX probate pe browser local; lipsesc validare pe rolurile reale ZK, ecrane finalizate și hardware.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC04",
+          "name": "Backend, API și contracte",
+          "score": 0.4,
+          "subchecks": [
+            {
+              "id": "QC04-R1",
+              "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R2",
+              "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R3",
+              "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC04-R4",
+              "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC04-R5",
+              "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Contractul handlerului de meniu plus rândurile AD sunt concrete. Nu este probată persistarea rezultatului pentru toate rutele, stările, retry și docaction.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC05",
+          "name": "DB, integritate și contabilitate",
+          "score": 0.4,
+          "subchecks": [
+            {
+              "id": "QC05-R1",
+              "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R2",
+              "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R3",
+              "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R4",
+              "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R5",
+              "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Interogări limitate și clasificarea X/F au rezultat măsurat; toate constrângeri, volume și integrarea per rol incompletă.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC06",
+          "name": "Pipeline-uri și granițe",
+          "score": 0.0,
+          "subchecks": [
+            {
+              "id": "QC06-R1",
+              "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R2",
+              "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R3",
+              "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R4",
+              "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R5",
+              "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Niciun traseu complet pentru operator și ecranele native; 7 interfețe încă necesită accept bilateral.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC07",
+          "name": "Securitate și efecte",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC07-R1",
+              "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC07-R2",
+              "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC07-R3",
+              "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R4",
+              "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R5",
+              "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Limite de context și lipsa rolurilor live declarate; capturi și query minimizate. Controlul de rezervare din logul E-ACTION a eșuat pe CRLF, nu invalidează rezultat verificat separat.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC08",
+          "name": "Reutilizare iDempiere/EVA și integrări",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC08-R1",
+              "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R2",
+              "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R3",
+              "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC08-R4",
+              "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R5",
+              "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Semnificația nativă Form=X, WorkFlow=F, deosebire core/portal; APK doar inventar, nu hardware instalat.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC09",
+          "name": "Probe, performanță și regresii",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC09-R1",
+              "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R2",
+              "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R3",
+              "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R4",
+              "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R5",
+              "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Probe reproducibile, martor W și focus viewport; nu s-a măsurat încă volumul/operator și toate escalările de test.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        },
+        {
+          "id": "QC10",
+          "name": "Control independent și închidere",
+          "score": 0.4,
+          "subchecks": [
+            {
+              "id": "QC10-R1",
+              "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R2",
+              "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC10-R3",
+              "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R4",
+              "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC10-R5",
+              "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "A11 a reprodus rezultatul handlerului pe 236/236 și trei martori sintetici, dar proveniența inițială a rezervării cere refacere. AND este în supliment separat.",
+          "source": "A09_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A09"
+        }
+      ],
+      "mandatory_reaudit": [
+        "P1 – Reexecutați citirea E-ACTION cu rezervare §61 și LF verificat, păstrați și logul CRLF incorect. Verificați cu rol real deschiderea X/form și F/workflow, plus martori W/P; atașați targetul final și acces/refuz.",
+        "P1 – Comparați cele 20 capitole, variante limba/rol, fluxuri WMS/canale/setări și revenirea la eroare. F05 e performanță statică până la măsurarea importului pe volum.",
+        "P2 – Legați AND01–AND06 numai prin suplimentul aprobat; APK și 0 dispozitive nu certifică nici AVD, nici iOS. Prezentați rezultatele nou obținute separat pentru versiunea R2."
+      ],
+      "status": "PARȚIAL_DE_RELUAT",
+      "product_score": null
+    },
+    "A10": {
+      "source_report": "A10_raport.json",
+      "source_sha256": "40833fecdadb06db25013d28c6f4f6cfa2380e0ce00b138026d0bbeeeb6aa9aa",
+      "coverage_integrity": {
+        "sha256": "40833fecdadb06db25013d28c6f4f6cfa2380e0ce00b138026d0bbeeeb6aa9aa",
+        "controls": 28,
+        "pipelines": 6,
+        "control_ids_missing": [],
+        "control_ids_extra": [],
+        "pipeline_ids_missing": [],
+        "pipeline_ids_extra": [],
+        "evidence_hashes_read": 23,
+        "evidence_hash_errors": [],
+        "states": {
+          "PARTIAL": 18,
+          "FAIL_DOVEDIT": 10
+        },
+        "findings": [
+          "A10-F01",
+          "A10-F02",
+          "A10-F03",
+          "A10-F04",
+          "A10-F05",
+          "A10-F06",
+          "A10-F07",
+          "A10-F08",
+          "A10-F09"
+        ],
+        "typed_id_overlap_pipeline_finding": [
+          "A10-F01",
+          "A10-F02",
+          "A10-F03",
+          "A10-F04",
+          "A10-F05",
+          "A10-F06"
+        ]
+      },
+      "verified_subchecks": 29,
+      "out_of": 50,
+      "quality_score_10": 5.8,
+      "criteria": [
+        {
+          "id": "QC01",
+          "name": "Domeniu, inventare și versiuni",
+          "score": 1.0,
+          "subchecks": [
+            {
+              "id": "QC01-R1",
+              "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R2",
+              "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R3",
+              "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R4",
+              "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC01-R5",
+              "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "28 controale, 6 fluxuri, 426 surse, 117 suprafețe, 23 hashuri de input verificate. Hashuri instalate și Git distincte.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC02",
+          "name": "Cerințe, istoric și taskuri",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC02-R1",
+              "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R2",
+              "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R3",
+              "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC02-R4",
+              "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC02-R5",
+              "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Controalele operaționale și delta sunt contextualizate; referințele C15 nu dovedesc toate criteriile per task.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC03",
+          "name": "Frontend, UX și roluri",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC03-R1",
+              "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R2",
+              "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R3",
+              "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R4",
+              "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC03-R5",
+              "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Readiness și paging au probe API/fixture; UI/operator nu sunt atestate și limitele sunt explicite.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC04",
+          "name": "Backend, API și contracte",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC04-R1",
+              "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R2",
+              "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R3",
+              "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC04-R4",
+              "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC04-R5",
+              "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Timeout, duplicate, cheie cu corp diferit, worker și stări de job probate, limite native distincte. Nu s-a închis contractul comercial sau toate stările ERP.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC05",
+          "name": "DB, integritate și contabilitate",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC05-R1",
+              "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R2",
+              "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R3",
+              "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC05-R4",
+              "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC05-R5",
+              "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Curățare/test pe restore DB+fișier, simulator SQLite și diferențiere de un mediu real. Matricea multiplă de căi contabile și concurente nu e completă.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC06",
+          "name": "Pipeline-uri și granițe",
+          "score": 0.2,
+          "subchecks": [
+            {
+              "id": "QC06-R1",
+              "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R2",
+              "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R3",
+              "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC06-R4",
+              "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC06-R5",
+              "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "Restaurarea sintetică și recuperarea stării sunt probate; lipsesc acceptarea interzone și RPO/RTO demonstrat pentru un cabinet complet.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC07",
+          "name": "Securitate și efecte",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC07-R1",
+              "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R2",
+              "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC07-R3",
+              "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R4",
+              "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC07-R5",
+              "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Rol/context/canare și efect demonstrat pe arii proprii, date sintetice. Riscurile session/container, simulatoare și exposure reale trebuie diferențiate.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC08",
+          "name": "Reutilizare iDempiere/EVA și integrări",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC08-R1",
+              "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R2",
+              "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R3",
+              "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC08-R4",
+              "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC08-R5",
+              "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Sunt citite instalațiile și componentele native curente; restore pilot nu validează ERP real sau un build complet.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC09",
+          "name": "Probe, performanță și regresii",
+          "score": 0.8,
+          "subchecks": [
+            {
+              "id": "QC09-R1",
+              "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R2",
+              "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R3",
+              "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC09-R4",
+              "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC09-R5",
+              "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+              "earned": 0.2
+            }
+          ],
+          "rationale": "Probe pe 1k/10k, concurență sintetică, erori păstrate; prag de laborator nu SLA producție. Fără matrice completă de regrese semnată.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        },
+        {
+          "id": "QC10",
+          "name": "Control independent și închidere",
+          "score": 0.6,
+          "subchecks": [
+            {
+              "id": "QC10-R1",
+              "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R2",
+              "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R3",
+              "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+              "earned": 0.2
+            },
+            {
+              "id": "QC10-R4",
+              "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+              "earned": 0.0
+            },
+            {
+              "id": "QC10-R5",
+              "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+              "earned": 0.0
+            }
+          ],
+          "rationale": "A11 a reprodus două ștergeri relative, job dublu, mascarea numai exterior și readiness. Proveniența/scope rămân explicite, corecții de calitate încă deschise.",
+          "source": "A10_raport.json#/controls; #/pipelines; #/findings; A11_reproduceri_lot2/integrity.json#/A10"
+        }
+      ],
+      "mandatory_reaudit": [
+        "P1 – F01 șterge martorul adiacent în două mecanisme de coadă; legătura F02 puls/cleanup cere ordine de evenimente și altă sesiune compatibilă în contraexemplu. Nu încercați pe cozi reale. Citați tipul pentru ID-urile A10-F01…F06 partajate de fluxuri și constatări.",
+        "P1 – F03–F07: inversare payload/idempotency, efect nativ versus stub, revendicare concurentă și integritate la crash/commit; confirmați job/rezultat unic, redacție recursivă și răspuns HTTP readiness cu stare dependentă. Țineți separat probe PostgreSQL cu roluri și testul SQLite.",
+        "P2 – F08/F09: citați tip parametru/response, percentile și condițiile laboratorului; pragul fixture nu este SLA. Repetare pe cabinet sintetic cu restore DB+attachment/plugin/rol, digest și operație contabilă de control."
+      ],
+      "status": "PARȚIAL_DE_RELUAT",
+      "product_score": null
+    }
+  },
+  "independent_verifications": [
+    {
+      "findings": [
+        "A06-F01"
+      ],
+      "result": "Baseline ID→același produs; când următorul SKU coincide cu ID-ul anterior, se persistă alt produs la qty 1. Inversând ordinea catalogului, produsul corect este din nou ales.",
+      "evidence": "A06_A08_storefront.json",
+      "scope": "Flask real/fișiere temporare local, nu comandă iDempiere sau incident live."
+    },
+    {
+      "findings": [
+        "A08-F01"
+      ],
+      "result": "Client nou fără cookie pe gazda A, import în canal B prin POST obține 200 și înlocuiește 2 produse ale B cu canara. Catalogul A rămâne identic.",
+      "evidence": "A06_A08_storefront.json",
+      "scope": "App original cu egress blocat, nu dovada expunerii publice via ingress."
+    },
+    {
+      "findings": [
+        "A07-F01",
+        "A07-F05"
+      ],
+      "result": "În 7 tabele din dump GardenWorld: M_InOutLine 100=1, RMA fără linie pentru 2 în CO, RMA cu linie 100 pentru 1 în CO, C_AllocationLine de 30 leagă factură DR 1000001 și plată CO, antet alocare CO.",
+      "evidence": "A07_native_dump_invariants.json",
+      "scope": "Proiecție independentă din dumpul sintetic la SHA, utilizând pg_restore exclusiv la stdout. Nu reexecută tranzițiile live; refuzul legării pentru 2 este în logul executorului."
+    },
+    {
+      "findings": [
+        "A09-F01"
+      ],
+      "result": "Handler original pe 236 intrări X/F din snapshot și 3 intrări noi. 236/236 tip și țintă incorecte; adversarial W→window/7104 corect, X→workflow/None și F→form/None.",
+      "evidence": "A09_action_handler.json",
+      "scope": "DB read substituit cu datele AD arhivate, fără cont real sau lansare ecran în producție. Rezervarea §61 a capturii originale a eșuat prin CRLF, erorile sunt păstrate."
+    },
+    {
+      "findings": [
+        "A10-F01"
+      ],
+      "result": "Ambele scripturi, director/registru sintetic pe Windows Git Bash: ID ../a11-only-marker șterge martorul strict sintetic, lasă intact fișierul vecin, returnează 0.",
+      "evidence": "A10_queue_traversal.json",
+      "scope": "Git Bash fără flock, deci controlul nu măsoară lock Linux; dovada executorului pe Linux distinctă. Căile, registrele și markerii au aparținut exclusiv fixture-ului."
+    },
+    {
+      "findings": [
+        "A10-F05",
+        "A10-F06",
+        "A10-F07"
+      ],
+      "result": "Două sesiuni revendică A11-JOB înainte de procesare și generează 2 rânduri EVA_AI_Result. Câmpul token top-level este mascat, markerul privat imbricat persistă. Health ERP HTTP 200/ok chiar cu reachable=false.",
+      "evidence": "A10_backend_independent.json",
+      "scope": "Worker și API original; SQLite efemer, intercalare controlată, backend extern simulat. Nu au fost folosite secrete reale."
+    }
+  ],
+  "evidence_base": "executie/A11_reproduceri_lot2",
+  "evidence_manifest": {
+    "A06_A08_storefront.json": "559cceb93719f17ca7ef052712bd69ae302502bbb8e2a287409c01d0a440d29b",
+    "A07_native_dump_invariants.json": "d0c6ec90cab1c39022a2d26938de699ce911d4b0d6e1b7a184f68ca82cbd7594",
+    "A09_action_handler.json": "8010ab0773d497ea369ec6dd13952b42f8f11abca3eefa084da50b62750f19ff",
+    "A10_backend_independent.json": "0050842edc42dadc0f154a815665ad2b786fba5ae1da1542f5f51d7cf73a340a",
+    "A10_queue_traversal.json": "80ccb3d0a9be8ec3d8988e4101d750954cd20b6b92c14d35aafce2565bd01039",
+    "dump.py": "57290440e48ebd50abd26ca23c1eeab41298c98221c1ba3b457a4690610b6997",
+    "infra.py": "9d22c2b7372ee11beff4eeab3c6ce11b2bdc8a50135a7b4a027d9ce02c00b31f",
+    "integrity.json": "c5b57b506681a84c9571a4391f7c5f660252ddf0fc7e61448011216cff4ce283",
+    "menu.py": "a82a7bc8c4d0119b239ec70ba1a551a9f838e519ed1b285e401f6ffdd7d8e674",
+    "q.py": "b8f1ce7000b37f9ee3bc9235e5c6e1cd689903a71533249867c3616d42770b5a",
+    "store.py": "923817bf32c39c6bf92558136b4fdb7b19cdbbb754de25fa8a18951fa694f56a",
+    "verify_reports.py": "36e71f163f74f4e2de43f249b4587d53e21df2b097fa237e871024a33e6cc388"
+  },
+  "gate_limitations": [
+    "HB04 activ asupra tuturor celor cinci rapoarte; controalele obligatorii neacoperite și granițele fără probă cer runda 2.",
+    "HB07: defecte punctuale sunt dovedite. Rolurile/neexecutatele și efectele concurente rămase împiedică închiderea globală, nu reduc singure nota pentru existența unui defect.",
+    "HB09: legarea task/flux/cod/rezultat mai ales A12 în fișierul separat; rezultatele nu se moștenesc automat între suprafețe.",
+    "HB11: fără 10/10 și fără scor de sănătate produs. Android/Git delta din 15:00 sunt adiționale, nu modifică SHA artefactelor zonei."
+  ],
+  "related_new_evidence_after_R1": [
+    "Staging_proxy_CUI_31s.json ține de re-auditul A01 cu două sesiuni, per raportul coordonatorului. Nu modifică scorurile lotului 1/2 pe versiunile înghețate."
+  ]
+}

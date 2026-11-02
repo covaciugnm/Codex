@@ -1,0 +1,23 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A10_plan.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A10_plan--2b6cc196.json",
+    "bytes": 130192,
+    "sha256": "0cff0732ccb2372279c5ec9b6b30e281bfc8010813b9df25e56897d723294c1a"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Propunere_arbitraj.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Propunere_arbitraj--b1cf2da4.json",
+    "bytes": 306626,
+    "sha256": "23c30556008b864e6aeaa2fae85cad2c85355787af66b2a1e94305fb695c17e0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A10_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A10_raport--90eaed8b.json",
+    "bytes": 112246,
+    "sha256": "40833fecdadb06db25013d28c6f4f6cfa2380e0ce00b138026d0bbeeeb6aa9aa"
+  }
+]

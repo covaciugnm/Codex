@@ -2,7 +2,7 @@
 
 ID: `01a0f21f-8b26-7c51-85f9-22089ebfea54`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-18T14:02:52.615363+00:00
+Export UTC: 2026-11-02T15:26:35.221418+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -718,3 +718,259 @@ Nu. În ultima cerere ai indicat doar DONAU. Am păstrat greșit CC-ul din instr
 În ultima cerere ai indicat **doar DONAU**. Am păstrat greșit CC-ul anterior.
 
 Am eliminat Capra, Maritczak și Commerz. Draftul este acum **exclusiv către DONAU, fără CC/BCC**. **Nu a fost trimis niciun email.**
+
+## Utilizator
+
+este un email in ciorne - verifica ce este si daca nu am trimis deja email pe tema respectiva cu cerere de clarificari ?
+
+
+## Asistent
+
+Verific ciorna DONAU și mesajele trimise, ca să văd dacă solicitarea de clarificări a fost deja expediată.
+
+## Asistent
+
+Da, am găsit cererea trimisă la **2026.10.14**, exclusiv către cele patru adrese DONAU, fără CC. Ciorna rămasă solicită aceleași clarificări, dar are câteva formulări revizuite. DONAU a confirmat automat primirea, cu numărul **13273588**; în mesajele sincronizate nu apare încă un răspuns pe fond.
+
+
+
+## Asistent
+
+**Da, cererea de clarificări a fost deja trimisă la 2026.10.14, ora 19:20, de pe office@ac-wohnart.at.**
+
+A fost adresată **exclusiv celor patru adrese DONAU, fără CC**: donau@, c.loschy@, m.pfeiffer@ și geko.wien@donauversicherung.at.
+
+Emailul cere deja:
+
+- Polița anterioară **X712.261-2**, condițiile și documentele contractuale.
+- Justificarea duratei până la **2036.01.01** și posibilitățile de încetare.
+- Confirmarea încasării și alocării celor **4.775,43 EUR**, soldul și situația acoperirii.
+
+**Ciorna rămasă privește aceeași solicitare**, cu unele formulări revizuite despre alocarea plății și durata contractului. Nu este identică textual, dar nu trebuie retrimisă ca o cerere nouă.
+
+DONAU a confirmat automat primirea în aceeași zi, cu numărul **13273588**. Nu am identificat un răspuns pe fond în datele sincronizate până la **2026.10.19, ora 23:30**.
+
+Am păstrat ciorna nemodificată și am salvat [verificarea în dosar](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/05. Asigurari/Asigurare cladire/2026.10.20 Verificare ciorna Donau/2026.10.20 Situatie ciorna si cerere trimisa Donau.txt>).
+
+## Utilizator
+
+sterge ciorna si fa o revenire la cereri 
+
+
+## Asistent
+
+Șterg ciorna rămasă și pregătesc o revenire la cererea trimisă, exclusiv către DONAU. Verific întâi dacă a apărut între timp un răspuns.
+
+
+## Asistent
+
+Ciorna veche a fost mutată în coșul EVA. Noua revenire este salvată în ciorne, numai către DONAU, fără CC. Cere prioritar confirmarea plății și a acoperirii, apoi toate documentele și explicațiile solicitate anterior; păstrează termenul cerut în emailul din 2026.10.14.
+
+
+## Asistent
+
+Am șters ciorna veche și am salvat **revenirea în ciornele office@ac-wohnart.at**, exclusiv către cele patru adrese DONAU, fără CC.
+
+Revenirea cere confirmarea plății și a acoperirii, polița anterioară, documentele contractuale și justificarea duratei până în 2036. Menține cererea de reziliere.
+
+**Noua revenire este pregătită, dar netrimisă.** Am salvat copia și am actualizat jurnalele din folder.
+
+## Utilizator
+
+am primi email de la Donau :
+
+
+
+A.Hoebinger
+<A.Hoebinger@donauversicherung.at>
+Contacts
+to office
+WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052
+Oct 29, 2026, 2:25 PM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from:
+<A.Hoebinger@donauversicherung.at>
+to:
+office@ac-wohnart.at
+cc:
+M.Pfeiffer@donauversicherung.at, geko.wien@donauversicherung.at, C.Loschy@donauversicherung.at, A.Rachlinger@donauversicherung.at
+date:
+29 oct. 2026, 14:25:50
+subject:
+WG: Polizze 2044001194 / Vorpolizze X712.261-2 – Prämienzahlung bis 2027.01.01 und vollständige Vertragsunterlagen – AZ 2616052
+security:
+Standard encryption (TLS)
+
+ce am cerut ce au raspuns ce se poate face ?
+
+
+## Asistent
+
+Citesc răspunsul DONAU și eventualele anexe, apoi îl compar cu cererile trimise. Voi separa ce au clarificat, ce lipsește și ce putem face mai departe.
+
+
+## Asistent
+
+DONAU confirmă acum încasarea primei și existența acoperirii. În privința duratei, susține că fostul proprietar, prin reprezentanți, a acceptat mutarea expirării din 2033 în 2036 înainte de vânzare. Folosesc instrumentele PDF pentru a verifica cererea semnată și împuternicirile anexate; acestea sunt decisive pentru evaluarea răspunsului.
+
+
+## Asistent
+
+Anexele aduc dovezi noi în sprijinul DONAU, dar răspunsul rămâne incomplet în două puncte concrete: documentul prezentat ca acord-cadru începe la pagina 4 din 16, iar procura anexată este de la Hofhans către broker, fără mandatul proprietarului către Hofhans. Totodată, un precedent austriac permite administratorului să încheie și să prelungească o asigurare pe zece ani; lipsa semnăturii noastre nu este, singură, un motiv suficient de anulare.
+
+
+## Asistent
+
+Concluzia verificării este că 2036 are acum un suport contractual concret, dar DONAU nu exclude orice ieșire anticipată: păstrează drepturile speciale aplicabile. Calea practică este să cerem actele lipsă, să negociem încetarea amiabilă și, în paralel, să cerem recalcularea primei pe baza reducerii de acoperire propuse chiar de DONAU.
+
+
+## Asistent
+
+Am salvat răspunsul, toate cele zece anexe și analiza cu pașii propuși. Auditul a verificat și un aspect financiar important: unele căi de ieșire pot implica recuperarea reducerii acordate pentru durata contractului; există însă o clauză de renunțare în caz de vânzare, care trebuie analizată înainte de a accepta un cost de încetare.
+
+
+## Asistent
+
+**DONAU confirmă acum încasarea primei și existența acoperirii. Refuză însă rezilierea ordinară înainte de 2036.01.01 și aduce documente care susțin această poziție.** Am verificat mesajul, anexele și concluziile juridice cu auditorul.
+
+## 1. Ce am cerut și ce au răspuns
+
+| Ce am cerut | Răspunsul DONAU | Ce rămâne deschis |
+|---|---|---|
+| Confirmarea plății celor **4.775,43 EUR** | Confirmă încasarea primei. | Nu prezintă alocarea celor trei rate și soldul separat pe prime, dobânzi și costuri. |
+| Confirmarea acoperirii | Confirmă **acoperirea actuală**. | Nu precizează data reluării și nici dacă perioada anterioară a fost acoperită. |
+| Polița anterioară și actele contractuale | Au transmis polițe, cereri și corespondență. | Nu mai putem afirma că nu au furnizat documentele anterioare. |
+| Justificarea expirării în 2036 | Invocă renegocierea din 2025 și cererea colectivă semnată la **2026.01.08**. | Trebuie verificat complet mandatul reprezentanților. |
+| Încetarea contractului | Mențin **2036.01.01** ca termen ordinar. | Recunosc expres că pot exista drepturi legale speciale sau încetare după sinistru. |
+
+**Confirmarea acoperirii de acum nu înseamnă că au confirmat retroactiv toate perioadele sau că soldul este zero.**
+
+## 2. Este justificată durata până în 2036?
+
+**Există acum o justificare contractuală concretă:** înainte de cumpărarea noastră, termenul a fost mutat din **2033 în 2036** prin cererea colectivă. Nu rezultă că zece ani noi au început automat la transferul către A&C.
+
+:codex-file-citation{path="D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\05. Asigurari\Asigurare cladire\2026.10.29 Raspuns Donau\Anexe\2026.10.29 Sammelantrag geschwärzt inkl. Schallergasse 35.pdf" purpose="source"}
+
+Legal, limita de un an privește **prelungirea tacită**, nu orice durată negociată expres. În plus, OGH a confirmat că mandatul obișnuit al administratorului poate acoperi încheierea și prelungirea unei asigurări pe zece ani. Prin urmare, argumentul „nu am semnat noi” nu este suficient. [§8 VersVG](https://www.ris.bka.gv.at/eli/bgbl/1959/2/P8/NOR40138452), [OGH 7 Ob 127/18d](https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20180829_OGH0002_0070OB00127_18D0000_000/JJT_20180829_OGH0002_0070OB00127_18D0000_000.pdf).
+
+**Chiar dacă modificarea până în 2036 ar fi contestată cu succes, poate rămâne termenul anterior din 2033 — nu rezultă automat ieșirea imediată.**
+
+## 3. Ce lipsește concret
+
+- **Mandatul fostului proprietar către Hofhans.** Procura anexată este de la **Hofhans către Seipt**. Acest gol justifică o cerere suplimentară, dar nu dovedește singur nulitatea.
+
+:codex-file-citation{path="D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\05. Asigurari\Asigurare cladire\2026.10.29 Raspuns Donau\Anexe\2026.10.29 Vollmacht Hofhans.pdf" purpose="source"}
+
+- **Primele trei pagini ale documentului-cadru.** Anexa transmisă cuprinde paginile tipărite **4–16**. Conține și o clauză favorabilă privind renunțarea la recuperarea reducerii pentru durată în cazul vânzării; aceasta privește costul ieșirii, fără să creeze singură un drept de reziliere.
+
+:codex-file-citation{path="D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\05. Asigurari\Asigurare cladire\2026.10.29 Raspuns Donau\Anexe\2026.10.29 Deckungserweiterungen_RV 29000010498.pdf" purpose="source"}
+
+## 4. Ce recomand să facem
+
+1. **Răspuns punctual către DONAU:** cerem actele lipsă, extrasul de cont și data exactă a acoperirii; menținem notificarea de reziliere din **2026.10.01**.
+2. **Negociem încetarea amiabilă la 2027.01.01**, cu precizarea tuturor costurilor și examinarea clauzei de renunțare la recuperarea reducerii.
+3. **Cerem reducerea primei în paralel.** Pfeiffer propusese eliminarea acoperirilor pentru apă și pierderea chiriilor, dacă prezentăm autorizația, descrierea lucrărilor și confirmarea instalatorului privind instalațiile de apă închise/securizate.
+
+:codex-file-citation{path="D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\05. Asigurari\Asigurare cladire\2026.10.29 Raspuns Donau\Anexe\2026.10.29 Memoformat.pdf" purpose="source"}
+
+**Poziția mea: negocierea ieșirii și reducerea primei sunt acum cele mai practice căi. Contestarea duratei trebuie susținută printr-un defect concret al actelor.**
+
+Am salvat [analiza completă și pașii următori](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/05. Asigurari/Asigurare cladire/2026.10.29 Raspuns Donau/2026.10.29 Analiza raspuns Donau si pasi urmatori.txt>), emailul și toate anexele. **Nu am trimis un răspuns.**
+
+## Utilizator
+
+este abuziv sa ceara asa ceva ... este decizia mea sa renunt nu a lor :
+
+Pfeiffer propusese eliminarea acoperirilor pentru apă și pierderea chiriilor, dacă prezentăm autorizația, descrierea lucrărilor și confirmarea instalatorului privind instalațiile de apă închise/securizate.
+
+CAUTA TEMEI LEGAL SI PRECEDENTA LEGALA - ok nu pot renunta la asigurarea dar daca vreau sa renunt la anumite componente si sa daug altele mis e pare absurd sa nu pot renunta
+
+
+## Asistent
+
+Caut temeiul legal și jurisprudența austriacă pentru renunțarea la componentele unei polițe: când este un drept al asiguratului, când presupune acordul asigurătorului și ce documente pot cere pentru reducerea riscului sau a primei. Verific separat clauzele DONAU, inclusiv dacă fiecare componentă poate fi tratată ca un contract distinct.
+
+
+## Asistent
+
+Am găsit temeiuri legale pentru reducerea primei și pentru încetarea unei acoperiri al cărei interes asigurat a dispărut. Totuși, acestea trebuie deosebite de simpla dorință de a modifica un contract încă în termen.
+
+Un punct important în favoarea noastră: DONAU a propus deja eliminarea celor două componente. Verificarea trebuie să stabilească ce dovedește fiecare document cerut și dacă există alternative; confirmarea instalatorului, de exemplu, nu dovedește situația veniturilor din chirii.
+
+## Asistent
+
+Am găsit și un exemplu concret în condițiile DONAU: anumite acoperiri suplimentare pentru cutremur și catastrofe de apă au drept de încetare la sfârșitul perioadei de asigurare, cu preaviz de o lună. Acolo nu trebuie dovedită dispariția riscului.
+
+Pentru apa din conducte și pierderea chiriilor nu am identificat același drept. Auditorul verifică acum concluzia și limitele fiecărui precedent, ca să distingem ce putem impune legal de ce trebuie convenit cu DONAU.
+
+## Asistent
+
+Concluzia este clară: termenul până în 2036 nu înlătură drepturile legale de reducere a primei sau de încetare pentru dispariția interesului asigurat. În schimb, nu am găsit un drept general de a înlocui unilateral orice componentă cu alta.
+
+Am salvat analiza, hotărârile austriece și verificările contractuale. Actualizez acum indexul și jurnalele dosarului.
+
+## Asistent
+
+**Nu toate modificările depind de bunăvoința DONAU. Există drepturi de încetare parțială și de reducere a primei. Dar nu există un drept general de a elimina și adăuga oricând orice componentă dintr-un contract pe durată fixă.**
+
+Am verificat legislația, hotărârile austriece și condițiile poliței. Concluzia a fost verificată separat de auditor.
+
+## 1. Polița permite deja anumite renunțări parțiale
+
+Condițiile DONAU conțin drepturi de încetare pentru acoperirile suplimentare vizate de:
+
+- **1242K — cutremur**;
+- **3031K — catastrofe de apă**, în limitele suplimentului prevăzut de clauză.
+
+Acestea prevăd **notificare scrisă, cu preaviz de o lună, la sfârșitul perioadei de asigurare**. Pentru exercitarea lor nu trebuie demonstrat că riscul a dispărut. Nu sunt însă aceleași acoperiri cu **apa din conducte — Leitungswasser** sau **pierderea chiriilor — Mieten-BU**. [Condițiile DONAU, paginile PDF 15 și 25](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf>).
+
+**Așadar, afirmația generală „nu puteți renunța la nicio componentă până în 2036” ar fi prea largă.**
+
+## 2. Ce spun precedentele austriece
+
+| Hotărâre | Regula relevantă |
+|---|---|
+| **OGH 7 Ob 92/19h, 2020.02.19** | Un pachet poate reuni contracte independente pentru riscuri diferite. O componentă poate avea un regim juridic separat. |
+| **OGH 7 Ob 208/15m, 2016.07.06** | Dreptul de încetare trebuie analizat separat pentru fiecare ramură, potrivit condițiilor sale. |
+| **OGH 7 Ob 13/85, 1985.03.28** | O cerere care combină reducerea acoperirii cu adăugarea altora poate constitui o modificare contractuală care necesită acordul asigurătorului. |
+
+Surse originale: [7 Ob 92/19h](https://ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20200219_OGH0002_0070OB00092_19H0000_000&IncludeSelf=True), [7 Ob 208/15m](https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20160706_OGH0002_0070OB00208_15M0000_000/JJT_20160706_OGH0002_0070OB00208_15M0000_000.pdf), [7 Ob 13/85](https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19850328_OGH0002_0070OB00013_8500000_000&IncludeSelf=True).
+
+**Primele separate susțin independența componentelor, dar nu înlătură singure termenul contractual al fiecăreia.**
+
+## 3. Pentru apă și chirii există și drepturi legale
+
+- **§41a VersVG:** permite reducerea adecvată a primei dacă dispar împrejurările concrete care justificau o primă mai mare. Efectul legal privește perioadele viitoare — în această poliță, următoarea începe la **2027.01.01**. Nu înseamnă automat eliminarea componentei. [Textul legii](https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460).
+- **§68 și §68a VersVG:** dispariția efectivă a interesului asigurat poate justifica încetarea asigurării relevante. Protecția se aplică și unui asigurat comercial, potrivit **OGH 7 Ob 211/12y, 2013.03.27**. Simpla dorință de renunțare nu dovedește dispariția interesului. [Hotărârea OGH](https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20130327_OGH0002_0070OB00211_12Y0000_000/JJT_20130327_OGH0002_0070OB00211_12Y0000_000.pdf).
+
+## 4. Este abuzivă cererea celor trei documente?
+
+**Nu pot califica automat cererea drept abuzivă.** Pfeiffer a propus eliminarea pentru **dispariția riscului**, iar această situație trebuie dovedită.
+
+Totuși, **nu am identificat o regulă legală sau contractuală care impune universal toate cele trei documente pentru orice renunțare**:
+
+- confirmarea instalatorului este relevantă pentru apă;
+- pentru chirii contează contractele încetate și perspectiva veniturilor viitoare;
+- autorizația și descrierea lucrărilor pot clarifica situația, dar DONAU trebuie să explice necesitatea lor și eventuala insuficiență a unor probe echivalente.
+
+## Poziția pe care o putem susține
+
+**DONAU trebuie solicitat să răspundă separat pentru fiecare componentă:** clauza de încetare, interesul care ar continua să existe, probele relevante, reducerea posibilă și data efectului. Simplul răspuns „contractul expiră în 2036” nu rezolvă aceste întrebări.
+
+Am salvat [analiza completă și pașii concreți](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/05. Asigurari/Asigurare cladire/2026.10.29 Renuntare componente Donau/2026.10.29 Concluzie juridica - eliminarea componentelor.txt>), împreună cu sursele și auditul. Jurnalele și indexul sunt actualizate.

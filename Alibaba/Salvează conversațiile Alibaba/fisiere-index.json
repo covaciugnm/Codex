@@ -1,0 +1,219 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/Alibaba-cod-sursa-v3.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Alibaba-cod-sursa-v3--e9751574.zip",
+    "bytes": 38640,
+    "sha256": "387478d9be9eae0efdb90abdb258ac6bad2f812cff7d4790adc982ae3167d4e5"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/extensie-v2/README.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/Alibaba/software/server/Deschide-arhiva.cmd",
+    "status": "copiat",
+    "saved_path": "fisiere/Deschide-arhiva--c5c077bc.cmd",
+    "bytes": 155,
+    "sha256": "148f0da252a89da7d5580d13e830097f5ad9677215167f5d28ec7b7ec6bf6ee6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\Partener [ID]\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\Citeste-ma.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Citeste-ma--a275e07d.txt",
+    "bytes": 3591,
+    "sha256": "ef3f251b0aaefd1d00e2ce7c1c82806adac1c5a70842d1c428b32aad3c8807c8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\extensie\\content.js",
+    "status": "copiat",
+    "saved_path": "fisiere/content--cb2d9ea0.js",
+    "bytes": 10946,
+    "sha256": "4564a56c11d939594173baca8ea86a330b42d27e31c447b08aa069071a6febcc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\extensie\\test-bridge.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-bridge--75bd0add.cjs",
+    "bytes": 1273,
+    "sha256": "87df806b9d1a1b16236d1d1596d47a2d4c57ec44bd158823bea117363990d08e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\extensie\\test-history.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-history--bd21e943.cjs",
+    "bytes": 2613,
+    "sha256": "41abd3ed7283f83aca3f5ca78c9b538421e7413d9dff48ab7096fc737d7500df"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\Deschide-arhiva.cmd",
+    "status": "copiat",
+    "saved_path": "fisiere/Deschide-arhiva--c5c077bc.cmd",
+    "bytes": 155,
+    "sha256": "148f0da252a89da7d5580d13e830097f5ad9677215167f5d28ec7b7ec6bf6ee6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\Opreste.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Opreste--50d4b00b.ps1",
+    "bytes": 447,
+    "sha256": "bc508ba55569242e87d9e6ca072d9b0f9853bb9620eded62b92799330d77e0a0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\Porneste.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/Porneste--35c0ccef.ps1",
+    "bytes": 1614,
+    "sha256": "6e2014c4f2a4030748e900d5d6c0d57e7225a66c9f105ec7aa7e1754fcadd623"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\import_existing.py",
+    "status": "copiat",
+    "saved_path": "fisiere/import_existing--adacb21d.py",
+    "bytes": 3151,
+    "sha256": "f5adfdb230ea2bd454be7f31062c4d00811100cab6ffc1cd36c2ddd5b9a144e6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\launcher.py",
+    "status": "copiat",
+    "saved_path": "fisiere/launcher--c4811165.py",
+    "bytes": 5892,
+    "sha256": "45968b254ef29583e8a49722a76307292138fbb2b05b7cccaddd7cffabedfc5a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\requirements.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/requirements--f609a612.txt",
+    "bytes": 29,
+    "sha256": "05b055cad237ae3212058d5a2f632537c5bc4a0a6b4d67927778fd11382dd4f8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\server.py",
+    "status": "copiat",
+    "saved_path": "fisiere/server--f8a23a40.py",
+    "bytes": 14949,
+    "sha256": "760a35875fdcf88e0c8bfa1e3c1fd1e292e0c61b0c29dd77ab53c829ad6920f5"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\test_controls.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test_controls--dc56878d.cjs",
+    "bytes": 1518,
+    "sha256": "4baba230ba2707d0d3f64df14a733b485ec06baab38317f8436a2734d2a4bf6d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\test_launcher.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_launcher--9964676a.py",
+    "bytes": 2196,
+    "sha256": "4e12cab4897e1199dc62b6719cb36d453052d519c33c8187b296536d2f6cae1e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\test_server.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_server--4fc29ab2.py",
+    "bytes": 4489,
+    "sha256": "26c0aadc0d6f78f0c8f84b59ab0100afb65d1442cb06724af72c2ce305355051"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\update_controls.py",
+    "status": "copiat",
+    "saved_path": "fisiere/update_controls--355c6aba.py",
+    "bytes": 3299,
+    "sha256": "62fe2d60d0b63e662ee9d136cf7b2162595fe24ff8385fa12d68b43a01304314"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Alibaba\\software\\server\\viewer.html",
+    "status": "copiat",
+    "saved_path": "fisiere/viewer--e9ceb6f8.html",
+    "bytes": 12165,
+    "sha256": "3eb893d3225b9e8d743d00f8a6d96c9b5ac614f432e25862c6300a246d63b816"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\extensie\\content.js",
+    "status": "copiat",
+    "saved_path": "fisiere/content--cb2d9ea0.js",
+    "bytes": 10946,
+    "sha256": "4564a56c11d939594173baca8ea86a330b42d27e31c447b08aa069071a6febcc"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\server\\Deschide-arhiva.cmd",
+    "status": "copiat",
+    "saved_path": "fisiere/Deschide-arhiva--c5c077bc.cmd",
+    "bytes": 155,
+    "sha256": "148f0da252a89da7d5580d13e830097f5ad9677215167f5d28ec7b7ec6bf6ee6"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\server\\contacts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/contacts--d2f6850e.py",
+    "bytes": 6479,
+    "sha256": "3ac70671ce83f1d982045d543327cd5bdd7e819a0f69dfad03e8ee914883ca80"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\server\\crm.css",
+    "status": "copiat",
+    "saved_path": "fisiere/crm--5ccf9ce6.css",
+    "bytes": 2601,
+    "sha256": "a5d9db47df8dc8f1d0312193376f1b031f5e520178a742cd27ab4dbe81095ab2"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\server\\crm.js",
+    "status": "copiat",
+    "saved_path": "fisiere/crm--df9d8668.js",
+    "bytes": 10507,
+    "sha256": "cffa6565d09d7d61c74fbde47883c8d7609768208be7d256f84b186ab9bd3cce"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\server\\launcher.py",
+    "status": "copiat",
+    "saved_path": "fisiere/launcher--c4811165.py",
+    "bytes": 5892,
+    "sha256": "45968b254ef29583e8a49722a76307292138fbb2b05b7cccaddd7cffabedfc5a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\server\\server.py",
+    "status": "copiat",
+    "saved_path": "fisiere/server--f8a23a40.py",
+    "bytes": 14949,
+    "sha256": "760a35875fdcf88e0c8bfa1e3c1fd1e292e0c61b0c29dd77ab53c829ad6920f5"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\server\\test_contacts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_contacts--0d59e5cf.py",
+    "bytes": 2935,
+    "sha256": "66b610f95c09c7a034aee3872936d56bbaeb426f4b950a31240a9b2b4568f275"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\Alibaba\\software\\server\\viewer.html",
+    "status": "copiat",
+    "saved_path": "fisiere/viewer--e9ceb6f8.html",
+    "bytes": 12165,
+    "sha256": "3eb893d3225b9e8d743d00f8a6d96c9b5ac614f432e25862c6300a246d63b816"
+  },
+  {
+    "source_reference": "http://127.0.0.1:8765/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "http://127.0.0.1:8766/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.youtube.com/watch?v=uPn8S9Kd2Gk",
+    "status": "referinta_externa_necopiata"
+  }
+]

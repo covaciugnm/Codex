@@ -10,14 +10,14 @@
   "project": "EVA-SchallerGasse",
   "assignment_method": "parent_thread",
   "parent_thread_id": "01a0f6eb-c105-7760-973e-241d6f6be8c1",
-  "export_started_at_utc": "2026-10-18T14:02:52.615363+00:00",
-  "source_bytes": 96590163,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 62222383,
   "invalid_json_lines": 0,
   "history_source": "items",
   "rollout_exists": true,
   "item_count": 616,
   "message_count": 33,
   "content_sha256": "b79c7752e84912b84257eead9268ea6f0f539de0c6b13a7090b14a41d5839be3",
-  "files_copied": 208,
-  "references_not_copied": 5
+  "files_copied": 203,
+  "references_not_copied": 10
 }

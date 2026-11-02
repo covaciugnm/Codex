@@ -1,0 +1,23 @@
+{
+  "id": "01a196f4-8c75-71b2-a82a-cc6e142a2d49",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026",
+  "created_at": 1793533971,
+  "updated_at": 1793540604,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Identifică anunțurile Primăriei Sebeș",
+  "project_id": "7310b49a-fe03-4b49-b6de-1877255e0742",
+  "project": "FinantariRO",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
+  "source_bytes": 19637597,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 368,
+  "message_count": 46,
+  "content_sha256": "9530431af4b1608d233ab6dafac3cb64702173cc5617697ef8d4aa744687b941",
+  "files_copied": 81,
+  "references_not_copied": 28
+}

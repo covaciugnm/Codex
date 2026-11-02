@@ -1,0 +1,34 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\20\\01a158de-077f-7f22-811e-78cf5c263291\\build.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build--1a607484.mjs",
+    "bytes": 2683,
+    "sha256": "e278d9c8eb3b4b0ad516ec4f4a57bcfa38ab3bd529c018372849298dd868f2b2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\20\\01a158de-077f-7f22-811e-78cf5c263291\\extrase-data.json",
+    "status": "copiat",
+    "saved_path": "fisiere/extrase-data--b05679fa.json",
+    "bytes": 8183,
+    "sha256": "34c99a7d0e3261d7e37f905702e4f90c567f42fb032072d8a539fe7bac3b3496"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\20\\01a158de-077f-7f22-811e-78cf5c263291\\preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview--4494ad4e.png",
+    "bytes": 50321,
+    "sha256": "3930cda0f84e2729db9a0830c94fbbfa28271633654357ddfb331d2bf74a0ddb"
+  },
+  {
+    "source_reference": "Z:/Dep. Contabilitate/Extrase de cont Cosmina/outputs/01a158de-077f-7f22-811e-78cf5c263291/Extrase_Cosmina_2026.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Extrase_Cosmina_2026--d13ec5d4.xlsx",
+    "bytes": 5885,
+    "sha256": "2572f0ed1582c9edf0c3554baa8f8ad7fb6894bb6db775995e3f00219cf2047f"
+  },
+  {
+    "source_reference": "plugin://dev-6aa3eadee6ec8191a9bc3b9608c0f1bc@created-by-me-remote",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "data": "2026.10.13",
+  "local_pdf": {
+    "local_path": "00.Proiect\\09. Vertraege\\bmberger.at\\2026.10.13 Werkvertrag R09\\2026.10.13 Werkvertrag BERGER R09.pdf",
+    "filename": "2026.10.13 Werkvertrag BERGER R09.pdf",
+    "sha256": "71b4a9eac341b3ead3c7717f269d7ddb5525769d9f72205320c32ccad8b237dd",
+    "bytes": 177823
+  },
+  "upload_original": {
+    "id": "861166cd-5656-4879-a5bb-f531b9fa568f",
+    "filename": "2026.10.13 Werkvertrag BERGER R09.pdf",
+    "size": 177823,
+    "mime_type": "application/pdf",
+    "format": "pdf",
+    "draft_id": null,
+    "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+  }
+}
+
