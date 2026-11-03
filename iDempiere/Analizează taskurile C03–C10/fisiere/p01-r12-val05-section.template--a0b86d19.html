@@ -1,0 +1,24 @@
+<section id="r12-lot05" style="background:white;border:1px solid #c8d7d5;border-radius:8px;padding:clamp(13px,2.6vw,25px);margin:12px 0;overflow-wrap:anywhere">
+<h2>R12 · Val05 — paginarea catalogului și rezervarea prin documente native</h2>
+<p><strong>REPLACE_STATUS</strong> REPLACE_COVERAGE</p>
+<p>Probele sunt legate de revizia GitHub <code>df85d33c1648ce2b2df130a60a05ef696e2e5480</code>, capturată la 3 noiembrie 2026, 02:45 UTC. Protocoalele au primit aprobarea independentă înaintea execuției. Nota 10/10 a planului nu este o notă pentru produs.</p>
+<h3>Catalogul Java: paginile foarte mari pot produce rezultate greșite</h3>
+<p>Ipoteza consemnată ca lectură statică în Val04 a fost verificată acum prin apelarea implementării Java originale, compilate fără schimbări, pe cataloage sintetice. Au fost executate <strong>16 cazuri distincte: zece conforme cu rezultatul așteptat și șase neconforme</strong>. Cele șase abateri provin dintr-un singur mecanism: calculul poziției de început depășește capacitatea tipului <code>int</code>. Nu sunt șase defecte diferite.</p>
+<div style="overflow-x:auto;max-width:100%" tabindex="0" role="region" aria-label="Rezultatele paginării; tabel derulabil orizontal"><table style="min-width:640px"><thead><tr><th>Proba</th><th>Rezultatul observat</th><th>Comportamentul cerut</th></tr></thead><tbody>
+<tr><td>Catalog cu trei produse; paginile 1, 2 și 3, câte două produse.</td><td>Primele două produse, apoi al treilea, apoi o listă goală.</td><td>Paginarea obișnuită rămâne corectă.</td></tr>
+<tr><td>Pagina 44.739.244, câte 48 de produse.</td><td>Poziția calculată devine negativă și apare o excepție de index. Ambele metode de listare au această problemă.</td><td>O pagină situată după sfârșitul catalogului întoarce o listă goală, fără excepție.</td></tr>
+<tr><td>Pagina 268.435.457, câte 48 de produse.</td><td>Poziția calculată revine la zero; sunt afișate P1, P2 și P3.</td><td>O listă goală; produsele de la început nu trebuie repetate.</td></tr>
+<tr><td>Catalog valid gol și catalog absent.</td><td>Au fost verificate separat; indexul gol a fost construit prin codul original. Eroarea de indexare nu a fost confundată cu absența unui fișier.</td><td>Rezultat gol controlat, inclusiv la limitele parametrilor.</td></tr>
+</tbody></table></div>
+<p><strong>Adaptarea propusă:</strong> corectarea celor două calcule din paginarea existentă, cu aritmetică fără depășire și verificarea poziției față de numărul produselor înainte de tăierea listei. Se păstrează contractul fiecărei metode pentru pagina implicită și dimensiunea maximă. Recepția remedierii trebuie să verifice atât paginile obișnuite, cât și limitele numerice, catalogul gol și catalogul absent.</p>
+<p>Proba privește sursa JSON. Nu execută servletul HTTP, sursa DB, varianta Python, întregul site sau o instalare operațională OSGi. Nu dovedește un HTTP 500 și nu stabilește o legătură cauzală cu erorile simulate în testele frontend din Val04. Compilarea unei dependențe și încărcarea unei clase nu înseamnă verificarea tuturor metodelor sale. REPLACE_PAGINATION_RECEIPT</p>
+<p><a href="REPLACE_PAGINATION_READING">Raportul de paginare și cazurile detaliate</a> · <a href="REPLACE_PAGINATION_VERDICT">Recepția independentă A11</a></p>
+<h3>Comandă, rezervare și aviz: traseul nativ iDempiere</h3>
+REPLACE_NATIVE
+<h3>Populația și limitele acoperirii</h3>
+<p>Față de captura anterioară din 01:43 UTC, populația rămâne <strong>997 de taskuri în total, dintre care 694 în P01</strong>. Nu există membri noi, eliminați sau schimbări de stare. T343 are cinci câmpuri actualizate, inclusiv o referință la un raport care declară „NU TRECE — 9/10” pe alte revizii. Acest document este păstrat ca informație de proveniență; afirmațiile sale nu acordă acceptare codului testat aici. T240 și T386 sunt neschimbate față de acea captură.</p>
+<p>GitHub și <code>origin/master</code> păstrau candidatul <code>df85d33c…</code>. Copia de lucru a serverului avea <code>c594a93a1d4e606f8c2e432108a29e97244d692e</code>; probele nu se transferă la ea sau la un deployment neverificat. Cohorta istorică de 652 de taskuri / 2.619 criterii rămâne separată. Unde lipsesc dovezi istorice exacte, data închiderii rămâne „dată exactă nedocumentată”.</p>
+<p>REPLACE_NEXT</p>
+<p>REPLACE_RESOURCES</p>
+<p><a href="REPLACE_A12_INDEX">A12 — registrul pe fișiere și cele zece zone</a> · <a href="REPLACE_A11_REGISTER">A11 — recepția registrului Val05</a> · <a href="REPLACE_CHECKLIST">Checklist pentru continuare</a></p>
+</section>

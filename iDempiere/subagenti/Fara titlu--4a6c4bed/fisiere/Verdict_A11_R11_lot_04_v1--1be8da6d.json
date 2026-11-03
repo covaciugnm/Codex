@@ -1,0 +1,361 @@
+{
+  "utc": "2026-11-02T22:02:10.934616+00:00",
+  "role": "A11 independent",
+  "lot": "04-v1",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "plan_gate": 10,
+  "score_executie_integrala": null,
+  "score_produs": null,
+  "status": "Recepție parțială a loturilor A02,A03,A04,A07,A09,A10. Dovada și limitele sunt stabilite separat pentru fiecare constatare.",
+  "constatari": [
+    {
+      "id": "A09.R11.F02/F03",
+      "verdict": "ACCEPT, reprodus independent de A11 prin main și SQL efectiv în PostgreSQL 16",
+      "actor": "operator bootstrap cu client existent; cabinet explicit sau omis",
+      "observation": "Dry-run schimbă înregistrarea cabinetului explicit. Cabinet omis înlocuiește două mapări distincte cu una legacy fără cabinet. Client nou în dry-run păstrează baza goală. Refuzul scrierii returnează tot 0 și mesaj de mapare refăcută, atât la simulare cât și în ramura normală.",
+      "evidence": "A11_martor_bootstrap_lot_04.json",
+      "boundary": "Transportul docker exec a fost înlocuit cu un adaptor care extrage doar SQL literal și îl execută identic în clona locală. Nicio instanță operațională și nicio creare Initial Tenant Setup invocate.",
+      "next": "Aplicați garda de simulare înaintea oricărei scrieri. Folosiți identitatea cabinetului autoritar și tranzacția mapării existente, validați codul de terminare al comenzii. Proba de recepție cere zero DML în orice dry-run, refuz pe cabinet necunoscut și registru nemodificat la eșec."
+    },
+    {
+      "id": "A09.R11.F01",
+      "verdict": "ACCEPT defect de selecție a destinației în ruta Flask, la nivelul probat de A09",
+      "observation": "O eroare de conexiune sau JSON invalid în metadatele cabinetului a lansat bootstrap-ul fără cabinet spre ținta implicită. Starea provisioning a refuzat lansarea, iar lipsa autentificării a refuzat ruta.",
+      "boundary": "Răspunsurile gatewayului și actorul sunt sintetice. Nu se certifică o escaladare de rol nativ iDempiere sau o lansare reală în sistem; politica serverului care autorizează metadatele trebuie probată în clonă.",
+      "next": "La indisponibilitatea metadatelor unei sesiuni cu cabinet, cereți rezolvare autoritară și o eroare recuperabilă înainte de a porni procesul. Refacerea testului cu un viewer necesită și autorizarea efectivă a API-ului."
+    },
+    {
+      "id": "A07.R11.01",
+      "verdict": "ACCEPT starvation la selecția documentelor TRIMIS",
+      "observation": "A11 a reluat SELECT-ul exact cu 2.001 documente ale aceluiași client și un client separat. Trei runde la prag 2 și trei la 2.000 au ales același prefix; ultimul document, confirmabil, rămâne omis. După confirmarea primului, ultimul intră în lotul de 2.000. A07 a exercitat confirmarea și persistența în PG16 cu JAR și recompilare.",
+      "boundary": "Ordinea și lipsa confirmărilor în prefix sunt precondițiile. Apelul OSGi complet și o altă cale de retrimitere AUTO care ar putea selecta aceeași comandă sunt în afara acestei probe.",
+      "next": "Folosiți un cursor ori termen persistent de reprobare per firmă în procesul existent. Verificați echitatea, relansarea, două procesoare concurente, client separat și idempotența confirmării."
+    },
+    {
+      "id": "A07.R11.02",
+      "verdict": "ACCEPT coliziune condițională de identitate a documentului, reprodusă independent în JAR",
+      "observation": "Tuple diferite (invoice,A|B,42,SHA) și (invoice,A,B|42,SHA) au fost considerate identice de confirmate(). Oracolul structurat al A11 le-a diferențiat. SHA sau tip diferit au fost refuzate, aceeași tuplă cu SHA majuscule a trecut.",
+      "boundary": "Confirmarea persistentă este proba A07. Nu s-a demonstrat acceptarea separatorului în seria/numărul canalului operațional.",
+      "next": "Adaptați cheia existentă la un record structurat sau codare fără ambiguitate. Verificați contractul fiecărui canal și refuzurile înainte de schimbarea stării."
+    },
+    {
+      "id": "A02.R11.F01",
+      "verdict": "ACCEPT defect condițional de identitate în seedurile native AD, verificat pe dovezi și cod",
+      "observation": "Am reconciliat sursele Git și cele două rulări psql urmate de citiri noi. ID-ul fix ocupat în același client de altă secvență rămâne intact prin ON CONFLICT DO NOTHING, dar tipul de document este legat la el. Varianta cu ID liber păstrează seria corectă, iar martorul care refuză nepotrivirea de identitate păstrează tranzacția anterioară.",
+      "boundary": "A11 a verificat sursa, logurile și legăturile native; nu a emis documente sau repetat această clonă GardenWorld. Existența coliziunii într-un cabinet operațional este neprobată.",
+      "next": "Rezolvați secvența după identitatea stabilă și client, prin alocarea nativă iDempiere. Refuzați coliziunea înainte de actualizarea C_DocType și verificați numerotarea prin DocAction pe clonă."
+    },
+    {
+      "id": "A02.R11.F02",
+      "verdict": "ACCEPT eroare în utilitarul DDL de mentenanță AMN, cu utilizarea efectivă de stabilit",
+      "observation": "Originalul se oprește la ALTER TABLE și lasă cele 45 de coloane NOT NULL. Comparatorul sintactic din clonă a aplicat DDL și AD_Field/AD_Column. Cele 174 respingeri brute SQL au fost reconciliate în 82 psql, 74 Jasper parsabile după legare reprezentativă, două dialecte Oracle și 16 cazuri reziduale.",
+      "boundary": "Un parser PostgreSQL brut nu judecă metacomenzile psql, variabilele Jasper sau dialectul Oracle. Migrarea AMN nu este demonstrată ca parte activă a instalării EVA.",
+      "next": "Verificați consumatorul și transformați utilitarul folosit într-o migrare versionată, tranzacțională, cu dicționar și DDL aliniate. Triați nominal cele 16 reziduale."
+    },
+    {
+      "id": "A03.XSD-impact",
+      "verdict": "ACCEPT limitarea impactului XSD pe calea ValidatorAnaf/DUK testată",
+      "observation": "A11 a reconciliat 21 rezultate, șapte payloaduri pe trei variante ale fișierelor. Recipisele sunt byte-identice cu referințele prezente, absente și înlocuite cu capcane. D101 v10 sintetic trece, varianta v3 este refuzată. Toate payloadurile D112 testate sunt incomplete și refuzate, inclusiv când namespace-ul este compatibil.",
+      "boundary": "Calitatea fișierelor XSD refuzate rămâne constatare valabilă. Aceste 21 rezultate nu dovedesc absența altor consumatori și nu confirmă validitatea unei declarații D112 complete sau depuse.",
+      "next": "Acoperiți generatorul și documentul complet, perioada/rectificativa, AD_Attachment și selecția versiunii. Pentru fiscalitate folosiți în continuare validatorul oficial și fluxul existent."
+    },
+    {
+      "id": "A04.R11.F01",
+      "verdict": "ACCEPT asociere vizuală SPV greșită, pe probe JDBC/JAR și sursă",
+      "observation": "Factura A fără legătură a afișat SPVTEST deja confirmat pentru factura B, cu același furnizor și număr reutilizat în alt an. Legătura persistentă a rămas numai la B. Garda nativă a refuzat reasocierea. Excluderea rândului legat de alt document a făcut să dispară afișarea eronată sau a selectat rândul liber mai vechi. Clientul separat a rămas exclus.",
+      "boundary": "Proba exercită idSpvDin și afisareIdSpv din JAR și clase recompilate, cu bază sintetică și adaptare JDBC. Nu există confirmare a unei acțiuni ZK sau a unui apel ANAF real.",
+      "next": "Păstrați prioritatea asocierii native explicite. Candidatul de fallback trebuie să fie liber ori legat de aceeași factură, cu regulă pentru numărul furnizorului în ani diferiți. Verificați textul din celulă și acțiunea disponibilă în ZK."
+    },
+    {
+      "id": "A10.R11.F01",
+      "verdict": "ACCEPT succes de CLI raportat fără readiness în două scripturi originale",
+      "observation": "Două CLI Bash originale au întors 0 după 60 de încercări readiness nereușite; JAR-ul nou a rămas în destinațiile sintetice. Lipsa compilării și eșecul restartului au fost refuzate. Garda existentă cabinet_test_jar_montat a refuzat răspunsurile 503, lipsa răspunsului și timeoutul cu exit 2, acceptând 200/302.",
+      "boundary": "Probe de Bash cu Docker și ceas simulate. Nu constituie dovadă de pornire OSGi ori de incident pe o instalare reală. A11 a verificat codul, matricea de 14 scenarii și cinci controale, fără o a doua execuție a întregului runner.",
+      "next": "Reutilizați garda de verificare existentă în ambele scripturi. Runnerul va trebui să întoarcă eșec după termen și să emită metadatele buildului instalat. Verificați pe un container de test real logul vechi, portul indisponibil, restartul și succesul nativ."
+    }
+  ],
+  "manifeste_verificate": {
+    "A02": {
+      "source": "A02/Manifest_A02_R11_DB.json",
+      "count": 8,
+      "sha256": "e6aa9dfbe105ce1561228f7a4b683587aa5dc31d13cddf91ee38c97374ca2a48"
+    },
+    "A03": {
+      "source": "A03/Manifest_A03_R11_v2.json",
+      "count": 12,
+      "sha256": "2cddec953d1586d5889e0790cf76fa7be07e10dd7c12f463e4bddcac7533cf36"
+    },
+    "A04": {
+      "source": "A04/Manifest_A04_R11.json",
+      "count": 9,
+      "sha256": "dbc02967d3868518b10e47f9815501e38939a1e899f655550ba9355e4b5a4b3d"
+    },
+    "A07": {
+      "source": "A07/Manifest_A07_R11.json",
+      "count": 14,
+      "sha256": "461ad4f63705a8bbccf8a2410a6123dbebc6a87f7480221de10675a4837122a6"
+    },
+    "A09": {
+      "source": "A09/Manifest_A09_R11.json",
+      "count": 16,
+      "sha256": "1a05b26434bbfd0877c17c4c112cdfd59bbed596001371d7bdaed2806dd77e76"
+    },
+    "A10": {
+      "source": "A10/Manifest_A10_R11.json",
+      "count": 26,
+      "sha256": "874982c61225f1938c1b922764c2d003ec6e4c7b7d42ba39c115e0788f95b40b"
+    }
+  },
+  "dovezi": {
+    "A02/Manifest_A02_R11_DB.json": "e6aa9dfbe105ce1561228f7a4b683587aa5dc31d13cddf91ee38c97374ca2a48",
+    "A03/Manifest_A03_R11_v2.json": "2cddec953d1586d5889e0790cf76fa7be07e10dd7c12f463e4bddcac7533cf36",
+    "A04/Manifest_A04_R11.json": "dbc02967d3868518b10e47f9815501e38939a1e899f655550ba9355e4b5a4b3d",
+    "A07/Manifest_A07_R11.json": "461ad4f63705a8bbccf8a2410a6123dbebc6a87f7480221de10675a4837122a6",
+    "A09/Manifest_A09_R11.json": "1a05b26434bbfd0877c17c4c112cdfd59bbed596001371d7bdaed2806dd77e76",
+    "A10/Manifest_A10_R11.json": "874982c61225f1938c1b922764c2d003ec6e4c7b7d42ba39c115e0788f95b40b",
+    "A02/Probe_PG16_serii_documente_si_DDL.json": "2661384a5c9bb73557c03670a8848d0c0695c38f492fb048757627909c9a426f",
+    "A02/Triaj_nominal_174_SQL.json": "522e39561da2ef561a038176e750a253adf8c7bf83d04ce4ef60dd228c14a97b",
+    "A02/Raport_A02_R11_DB.json": "af56b8d54173cc82b75556f49fdf5e3c8b9b829da3094e4c018f3c7121275e3d",
+    "A03/Proba_impact_D101_D112.json": "fe6132b1eb871aef1c62af2e54f07f75d4e8652c25ef8d89f9a4f2513c8bd864",
+    "A03/Raport_A03_R11_fiscal.json": "69ea478f7160417dac2fc4f41b7fd040056d01fd8aa0ba8412e0d67d9e789949",
+    "A04/Proba_SQL_SPV_factura_alt_an.json": "31134a87f7321ba544cb7a44168eb6c64c0ffc9048e996916540c78c9dd977d7",
+    "A04/Raport_A04_R11.json": "9d7ae42df866aa41d0241aab4379856178037f8dc4d74e80f1f1a5cc55e347c8",
+    "A07/probe/resultat.json": "f636abd1f4fa281b579aa9402718eeeb35e5b4652768765c9751dfebd4dbe911",
+    "A07/Raport_A07_R11.json": "bd7497521092b44ceee3b8b7d0411b2c65c7af21b60c6af274ce910499d7a0d2",
+    "A11/A11_martor_documente_lot_04.json": "73b7286799b117370342ed03fdf7cd85454edbb674a76d42e4f7cbe8d0f69902",
+    "A09/A09_probe_HTTP_PG16_v2.json": "29b44c7ce284d9134dbc1ab8a30c15538be740fa350089c466c470b1d68e0b26",
+    "A09/Raport_A09_R11.json": "d24dbb89a7873154597e20a0f7b324c56bbed607c0408c224eb7dd495400f23f",
+    "A11/A11_martor_bootstrap_lot_04.json": "55227b1280f2cf6c90959a731383b8e9a519a172dacae6480e0fd02516f812c2",
+    "A10/Proba_runner_montare.json": "2cae9af0547358c3615ebbf174680fec3087f09e36abca6bae40c83190595c87",
+    "A10/Comparator_garda_existenta.json": "1ba6b9f471ce8741c912fd32c3eff4e06f34d55b920fe6ed41a07f9c82977894",
+    "A10/Raport_A10_R11.json": "fc618b3c4d97dd8a173d9558064ccfc649312f712ead9188620280a56cfb1bf1",
+    "A10/Surse_Git.json": "87cea507c6910a3334fbec0329d9b14e12dd8660a9bd8180d356f74f0b9e3bfe"
+  },
+  "identitati_Git_reconfirmate": {
+    "idempiere/seeds/seed_eva_doctype_sequences_ro.sql": {
+      "git_blob": "79aa7e9ef50557717ae3dce42b207b8cae085f23",
+      "sha256": "70be7e48dce44325522269637b6013868986ce7f4a37e037646c6e88defd5585"
+    },
+    "idempiere/seeds/seed_eva_doctype_sequences_ro_addendum.sql": {
+      "git_blob": "434f8652ebf1778e1e8558133e6dd211d53baad5",
+      "sha256": "d1c98344955c1011bda981ae5aed90ea64f5fbac041c35318e8699f07ce65514"
+    },
+    "idempiere/plugins/amerpsoft-hr/org.amerpsoft.com.idempiere.personnelpayroll/sql/postgresql/utils/amn_schema_alter_table.sql": {
+      "git_blob": "2cc529e2e88e74ad9222f48944c80b7c551fe8ee",
+      "sha256": "574755ec15340af44c3550716806f8b130a51cda890421df1c6c83f63e65313b"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/anaf/GenD101.java": {
+      "git_blob": "15b4be27838d798fd705d263f12ae4f5bb2bfc60",
+      "sha256": "740899acf36e92b10282d6274030656b9ae06cbcaac927b435a4a2f24b98b2ef"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/anaf/GenD112.java": {
+      "git_blob": "ac3086991bb6f9426339f67bd19fa158a1230e28",
+      "sha256": "34fec6f0e4cd6ed8e977e0f5caac9590b049ef0597a7f269b33980e7d9bfa474"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/anaf/ValidatorAnaf.java": {
+      "git_blob": "1a85f36d68835adc7f138b7603345811e48b5bf0",
+      "sha256": "102fd2db40ff877fb5cddce52fa1b0e344cdc6e305f85539fd8b5cd9220e341a"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/anaf/GeneratorDeclaratie.java": {
+      "git_blob": "e6d4a60142027e67c6eb8e5afd1299c077cb610b",
+      "sha256": "45707d7c71e30944cb8d1393594e140ec9a9606621451c04a12f6fecaba7c8c4"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/anaf/RegistruDeclaratii.java": {
+      "git_blob": "1a7cb843b852dc7564698b5d65d30474ccd14ffc",
+      "sha256": "de4a79340a62ac47af07a7ed20213b72def6e8c40b009068374fb519fa3a8fef"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/fiscal/ParametriModel.java": {
+      "git_blob": "7a6138d11f5d925efce37e4995c2db5462c02e9d",
+      "sha256": "cc44e244b434ed1ea22d3ebc936c986ea544a9efb7695f39035462fcc141782d"
+    },
+    "idempiere/plugins/com.eva.ro.contab/test/fixtures/t16/D101_sintetic_2025.xml": {
+      "git_blob": "5a0416087c704bb94e4e12f21339f3bef90e19c0",
+      "sha256": "23ff86cde82ca0c6100d9e3fa97f1114ed3add22d1cd231b70e9998b4066fcbd"
+    },
+    "idempiere/anaf-schemas/xsd/d101_20250214.xsd": {
+      "git_blob": "37ee0e1826ae6e430e1622391ca24d9cac88de82",
+      "sha256": "10515a7d2a88e4f3dadecaa44830b9e9fc3c40f8742babd39aacc2b4461608d1"
+    },
+    "idempiere/anaf-schemas/xsd/d112_10102024.xsd": {
+      "git_blob": "dce0f37bac10c3ef2de639d697e5cc524fceed74",
+      "sha256": "f248a870a26d755c2b3bbeb4040d227c195eab62bf8f1275d7874c3b8d5b1369"
+    },
+    "idempiere/duk/DUKIntegrator.jar": {
+      "git_blob": "09609f827d6abbf0c5fd85a571b7658b4b26ab41",
+      "sha256": "3432f30e41b52dc7dee7c1da7bedf37a3d5baea064fc7fdf6322d4c0d1ee7610"
+    },
+    "idempiere/plugins/com.eva.ro.contab/com.eva.ro.contab_13.0.0.jar": {
+      "git_blob": "4a5e399ebc671569098235c6ec6d151defd20be6",
+      "sha256": "82099cd7f436a8fb4d532d8a46b83c62ae0e0176d86d9345c08598299d01d558"
+    },
+    "idempiere/duk/lib/D101Validator.jar": {
+      "git_blob": "a5529591ff2faa8813a5856fab944c84b3579283",
+      "sha256": "d7d0b298f1a683d168155cbc0d67164b907e51420d39259c2175d8c1c9198fc4"
+    },
+    "idempiere/duk/lib/D112Validator.jar": {
+      "git_blob": "2be1ab8ac15aa1d57abcef53f9a912200a574d2f",
+      "sha256": "57eb9e773a6a2aa992c6cc02d509e45c0fd50acd5f111aa8e99637760710aeac"
+    },
+    "idempiere/duk/lib/DecValidation.jar": {
+      "git_blob": "f6788740ee0f630a584fd09d5163806ceb8687ce",
+      "sha256": "c3599c099179cbd4e39fef16e2b31869763238682ef6cbd3a9dd9d2d9b11798d"
+    },
+    "idempiere/duk/lib/Validator.jar": {
+      "git_blob": "102be4f5bf29db0e06ad36de4ceb7d312652d5e8",
+      "sha256": "57384ee185cef279bd0592bb7c5061ffcb423cb15a0dcf05d5d23a230abad1b0"
+    },
+    "idempiere/duk/lib/DecPdf.jar": {
+      "git_blob": "b8398330b1d3aa1681fd71dadb1c471eae9d9524",
+      "sha256": "913b354156aab57ceba9992a89fbae0c5d9e297ef75bb2c84073ce359255741f"
+    },
+    "idempiere/duk/lib/iText-5.0.4.jar": {
+      "git_blob": "e582081c28a31fb84a9d821f9d318ae2d08776ef",
+      "sha256": "f1224d0bc9b0070088d7451721205ef4a6971b9ed433be41f7f6390c73b20cf5"
+    },
+    "idempiere/duk/lib/bcmail-jdk15-145.jar": {
+      "git_blob": "f66e9a8b9868226121961c13e6a32a55d0b2f78a",
+      "sha256": "27328c7b99c76e23904a701ea48ad35d84d263f18623527fc4812d84e3f66f1b"
+    },
+    "idempiere/duk/lib/bcprov-jdk15-145.jar": {
+      "git_blob": "409070b0370a95c14ed4357261afb96b91d10e86",
+      "sha256": "67289a6e750691bd9bb83975dd193b0b5717ed50a2cce9b579c6c973c9141c99"
+    },
+    "idempiere/duk/config/config.properties": {
+      "git_blob": "1a0eec9bafbb8ed075ddb208821ece082b1e13b6",
+      "sha256": "008a9ed36957c793f873eb5ec35e10032093444e53b8ecef83334a23e073220d"
+    },
+    "idempiere/duk/config/versiuniCurente.txt": {
+      "git_blob": "60c11490a128912c6f86982047c5d33d7a0739a3",
+      "sha256": "f20e351bfbf1927ad91762078d59c0426404ef30a7d79a6cd951e49943eba619"
+    },
+    "idempiere/plugins/com.eva.ro.contab/test/TestD112Model0726.java": {
+      "git_blob": "a7b5cc6d0f0866df131f7ef3e9cdc2a99e9d88a8",
+      "sha256": "7b516362c46147e44ba63196fc01baa4815c7c80db4498e343afff40552f6f4b"
+    },
+    "idempiere/anaf-schemas/README.md": {
+      "git_blob": "fb2837c739faeba2b1bfef062511ab3f8089ed46",
+      "sha256": "3ba703716a956fd42f79e387634cc25e849af341041734d8bcf99bed84a9d5f0"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIntrariForm.java": {
+      "git_blob": "2c5b4beeefbf48d4d10505cbd8976c566817474f",
+      "sha256": "d8894c92e0e7a8ba3ea25528fec4070963ddf395683f1f39d8c892d835f7538a"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/efactura/AsociereEFactura.java": {
+      "git_blob": "512977dceb6278edc15f16606e63058f2d118e40",
+      "sha256": "6dd8759e91188a8fe9d99e59bb777acaa50a8dfc9746bf03a897b225327e8b1d"
+    },
+    "idempiere/plugins/com.eva.ro.contab/test/sql/TestT224IdSpvSql.java": {
+      "git_blob": "350d02216d07d219eab86eb733c78cc4116d9136",
+      "sha256": "007606cd0887d71fd697fd880775fe65cfaf3de3fabdd8f9caee6a81f7c56fdd"
+    },
+    "Documentatie/echipa-2026-10-09/T224-efactura-pornire/30_brief_executant1_B4b.md": {
+      "git_blob": "6bfdf991b07c9beb0d3fd5457536d51795a720e0",
+      "sha256": "5e6beb5c7c0c7862d2fceb26d80d751029a055a13e60f2ef362308ce5dc667dc"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/TrimiteFacturaSite.java": {
+      "git_blob": "b0e5677eed161e4aea11e76e42ba383ecf34e26c",
+      "sha256": "0ba4b1aa31eb52a529f9bac8b542ca0d422e9842fd3dea65fecd811f5e542ab0"
+    },
+    "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ImpliciteT22.java": {
+      "git_blob": "575259c434d6039a8e45b9e703ce5fb024fff3ce",
+      "sha256": "9a8d9bde0ad55dea7383cbd081fba1cad4aedbb08eab4faa2e054591f34f7686"
+    },
+    "idempiere/plugins/com.eva.ro.contab/test/TestT22Trimitere.java": {
+      "git_blob": "f0202b28de5b3043b72484182cdb0827525a10e2",
+      "sha256": "249654ae87f043023564ad76758281735e4a0e8006ec91ab87d8b5c6bef90bd1"
+    },
+    "idempiere/plugins/com.eva.ro.contab/test/sql/TestT22TrimitereSql.java": {
+      "git_blob": "817a03b285d69cb60cacb71de3b799052365c440",
+      "sha256": "b5ce86408f725919b83fdb7774b9fe171078c3505bb9c2d2795265ef0685c608"
+    },
+    "frontend/app.py": {
+      "git_blob": "d0a644826634d6022e49d9c6a0dd24b270f34f93",
+      "sha256": "b0762d05bf76b38b74d4c35ece3d962641d2df4075aa8feb777dce2d8cc2692a"
+    },
+    "frontend/bnr.py": {
+      "git_blob": "10451cc76060ace5578f9d22838932ca4261b8ed",
+      "sha256": "600ed0e2678810bd700442d205d0cd70826fe119bcf2b3208b5da25b55d06ffe"
+    },
+    "frontend/i18n.py": {
+      "git_blob": "61a99ed894723813c44d90ab8638061a501177d5",
+      "sha256": "dfbf06a0f187658d351b7e024f7b4e5d7aaf28dd19fe71bc45ca367c5e05f6fe"
+    },
+    "frontend/portal_seo.py": {
+      "git_blob": "6035ebf10955609aa98a03fcc7a3a8a14900a3e5",
+      "sha256": "5b260e14ee51a6f96ea66a6cf21db2139eadbe1a1ad87af6ebeceb02f25e4079"
+    },
+    "backend/saga-migration/f_bootstrap_client.py": {
+      "git_blob": "ac8524f3a19c5da02d64833ce506d04c82a2e58e",
+      "sha256": "48af24e5df0ea05b581c912230cb878e353c1bba0242ca2d895719bb0fa767f0"
+    },
+    "backend/app/routers/saga_stages.py": {
+      "git_blob": "945c9c08d23763622b0e308df33812db6cf404c9",
+      "sha256": "bbef53728780b03aa3778c0816dfa201484545d9a356350f2f760c8cb1763ec8"
+    },
+    "frontend/Dockerfile": {
+      "git_blob": "c7708d48eca00757a0193aaf57e6053eea315b67",
+      "sha256": "33a6b2a2a23c66ccfec4a358905bf74905c2a3d4d54b73bfaa345e1199195ebf"
+    },
+    "bootstrap/Dockerfile": {
+      "git_blob": "67ce6aa763031363f6b221ac29ef5caa8f2376cb",
+      "sha256": "2d87a90e33945c1b0a4c9c459cfb1b695bbf6765b9c3114423434dee7b8e1d74"
+    },
+    "docker-compose.yml": {
+      "git_blob": "3537b4190bc07b0e591fba3f44feec8bfb749116",
+      "sha256": "d0a5dbecbeca5bffc7ad93237173b90d77c6bccad07345dcf8e5261c8a772959"
+    },
+    "provisioner/app.py": {
+      "git_blob": "2d9a1f0eace35b419a585e643165c197118da842",
+      "sha256": "a328aa0485c62a3188d394f3a6dc0c548bef25fa350d7f5dcf93bc8d67ebb16f"
+    },
+    "backend/app/idempiere/client_map_migration.py": {
+      "git_blob": "17c5254faef56c0df175dc5e889f0e27655bf0da",
+      "sha256": "25f2def54e8346968f1ee4b3cee5eadbca2c77e7f0732466a33b5e9b55a40d6e"
+    },
+    "tools/saga_plugin_gen/build_plugin.sh": {
+      "git_blob": "db959457ab70aabeb7187b72d5f0e38f53eadfdc",
+      "sha256": "76dfda6fc1b7a619854a0e30b0a9be8845e6ec5242d848ea050f87603f6ef264"
+    },
+    "idempiere/plugins/com.eva.ro.saga.theme/build.sh": {
+      "git_blob": "7dc47b3838a4a1def55289c2ae0b80802f22300f",
+      "sha256": "58d31626c64db8fba760208897f429d1249ce0ca59f6ec606f1cb97b82a4afc3"
+    },
+    "tools/teste/garda_container_build.sh": {
+      "git_blob": "3923a152c3eaf3e974923c4e6c46c3d04e3dee5f",
+      "sha256": "ecb672b5fab8bafc46170ca58af2aa3c7debaef6594655ab3635ce0abcf14070"
+    },
+    "tools/teste/test_garda_build.sh": {
+      "git_blob": "69bea7770d4f66fc1dee6a50a36fc9334e7c39d0",
+      "sha256": "b392dba722598b8a18dc0a6ef396f61b4c4981ad93ad57fa2843de29e0257cbc"
+    },
+    "idempiere/plugins/com.eva.ro.contab/build.sh": {
+      "git_blob": "eb623773324454ec445773104f8e90d891c92625",
+      "sha256": "01b9bde4b7bb9e1bdf48c19697ad80e2f245b541339fb58c52e63bdb615b6e00"
+    },
+    "idempiere/plugins/com.eva.ro.saga.native/build.sh": {
+      "git_blob": "675e1db82bd53258625101dde07e4a5c8fcbd456",
+      "sha256": "1c1a76979e442b4bf6d50e6dc790e7c4b0aa601764715d7cffc25ed5d069185d"
+    },
+    "idempiere/plugins/com.eva.ro.webshop/build.sh": {
+      "git_blob": "f764d29667cf7e2baa724ab3eee65de4acee95d9",
+      "sha256": "8a7222f523d44e9536ac86cb336c648f80fd6b059dc7a146c6adf4730e29d4de"
+    },
+    "idempiere/plugins/amerpsoft-hr/build_amerpsoft.sh": {
+      "git_blob": "93190baff3c9d516c4d404278383454bac47cfa6",
+      "sha256": "a7914a6c090771e1d58599d7a2511348f147562c9c4dbc8c50134d84b82afeee"
+    }
+  },
+  "regula_numarare": "Probele repetate pe JAR și clase recompilate verifică reproducibilitatea aceluiași caz. Cele 174 SQL respinse brut nu sunt 174 defecte. Rezultatele v1–v7 ale coordonatorului rămân în lot separat și nu sunt recepționate aici.",
+  "copii_metode": {
+    "A11R11Bootstrap04.py": "607daad0749a4193a3d4b74b37ebb7ddfe7e0a5113983b986b6ece5f027f424e",
+    "A11Extra04.py": "e13090b6261f4e2fae42f2e09122fa401cda04dd7ac4ad09372b9bae46593ccc",
+    "A11Key04.java": "fff8ce912e1eb04ae8ca3e821fa07bcecdb50466bf03de275515943efbd94920",
+    "A11Verdict04.py": "fa6301a572808b5439aafd6ee38d1b10b3157ce124f1fbe8d8fd40702d77c2e7"
+  },
+  "cleanup_independent": {
+    "pg_oprit": true,
+    "scratch_sters": true,
+    "docker_reel_apelat": false
+  },
+  "clause_receptie": "Închiderea integrală solicită verificarea tuturor fișelor și a fluxurilor native restante. Acest lot nu acordă 10/10 execuției sau produsului."
+}

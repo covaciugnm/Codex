@@ -1,0 +1,383 @@
+{
+  "schema": "peer.A11.T240.receipt.semantic.v1",
+  "utc": "2026-11-02T23:33:58.708271+00:00",
+  "author": "peer_t240_receipt, independent de emitentul verdictului A11",
+  "scope": "Lectură/verificare semantică și hashuri; zero rerulări produs, zero rescrieri de dovezi.",
+  "inputs": [
+    {
+      "path": "executie/R12_fisiere/A11/T240_lot01/Verdict_A11_R12_T240_lot01_v1.json",
+      "sha256": "3d0bdd5cfc5010cf8cdd994a4c7d1ed2205f3d973250eb9592129cc5a55ea371"
+    },
+    {
+      "path": "executie/R12_fisiere/A11/T240_lot01/Sigiliu_A11_receptie_T240_lot01_v1.json",
+      "sha256": "23d6eee3345cf05a84e5a7ffe4dd9cb8d76e49f943d2d8ac52b27f22311462c8"
+    },
+    {
+      "path": "executie/R12_fisiere/A11/T240_lot01/Control_independent_T240_titlu_E_v1.json",
+      "sha256": "22665e09ab9a7f1db334fc2e003e2d7b010075db874aaec84e1ffae03be2b887"
+    },
+    {
+      "path": "executie/R12_fisiere/A11/T240_lot01/Checklist_A11_dupa_T240_lot01_v1.json",
+      "sha256": "6b05831866471024184f62ad5f9129ad6251136f74415a9d4898933fcba5a23a"
+    },
+    {
+      "path": "executie/R12_fisiere/A11/T240_lot01/Fixture_si_iesiri_independente_T240_v1.zip",
+      "sha256": "79e4f7b9c11956ce79ede019995d7c0d65602a2890cd91df9bfbb12393c801e8"
+    },
+    {
+      "path": "executie/R12_fisiere/A11/T240_lot01/Fixture_titlu_E_independent_v1.zip",
+      "sha256": "041733e523ac3b838bfef7694deb74eb0f41b3c97ea56235f5eb4a9e3bbca4c6"
+    },
+    {
+      "path": "executie/R12_fisiere/A08_T240/Lot_01_final_v1/Raport_A08_T240_R12_lot01_v1.json",
+      "sha256": "b787ebbacdbed52aa5dfb3ac8b61d4e2ad331d043b489306b110986afbe5aa69"
+    },
+    {
+      "path": "executie/R12_fisiere/A08_T240/2026-11-02T23-17-56Z/Execution.json",
+      "sha256": "2b3d3bc3bb40dc3a0ae856b053490f83cf74c50216b35c94cc2ac689f4aa68fd"
+    }
+  ],
+  "checks": [
+    {
+      "check": "verdict hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seal hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/A11R12T240Independent.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/A11R12T240InventoryTitle.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/A11R12T240Receipt.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/A11R12T240Verdict.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Checklist_A11_dupa_T240_lot01_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Child_independent_T240_v1.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Control_A11_receptie_A08_T240_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Control_independent_T240_titlu_E_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Control_independent_T240_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Fixture_si_iesiri_independente_T240_v1.zip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Fixture_titlu_E_independent_v1.zip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/QA_A11_T240_martori_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Sigiliu_martori_A11_T240_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sealed executie/R12_fisiere/A11/T240_lot01/Verdict_A11_R12_T240_lot01_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "two distinct archive roles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact source both archives",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact Git blob",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source contract E col2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source drops E col2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source trusts TSV inventory label",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "baseline originates in general input archive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "4 expected R3 case identifiers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived report hash baseline",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived E hash baseline",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived stdout baseline",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived stderr baseline",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent E-col2 oracle baseline",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived report hash display_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived E hash display_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived stdout display_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived stderr display_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent E-col2 oracle display_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived report hash report_title_triple_forged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived E hash report_title_triple_forged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived stdout report_title_triple_forged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived stderr report_title_triple_forged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent E-col2 oracle report_title_triple_forged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived report hash inventory_second_column_changed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived E hash inventory_second_column_changed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived stdout inventory_second_column_changed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "archived stderr inventory_second_column_changed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent E-col2 oracle inventory_second_column_changed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no inventory change in triple forged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "only3 declared report fields changed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "E-only case report unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "observed rc vector as stated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "both false accepts have13of13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "reproducer extracts own baseline and invokes exact CLI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "R3 P2 confined to helper",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "scores limited",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "zero complete coverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "46 original baseline distinct",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "33 mutants7batches1518 evaluations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "main timeout noPASS",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "metrics not summed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "A08 report fixed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "A08 no native whole claims",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "primary execution distinguishes timeout",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "mutant identities33unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "remaining instrument exact set",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "remaining contract exact set",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "checklist has native preparation and no externalblock",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "decision": "ADMIS — nu am identificat supralicitare de acoperire sau contradicție între probe și recepția limitată.",
+  "conclusions": [
+    "R3/Ecol2 este demonstrat de4 fixture și sursa exactă:2 acceptări false față de numele E. P2 se referă la judecătorul de dovezi, nu la UI nativă.",
+    "Arhiva generală este intrare de fixture/sursă; arhiva de titlu conține cele4 execuții. Distincția este corectă și explicită.",
+    "46baseline și33mutanți în7loturi sunt măsurători distincte;1518 sunt evaluări reutilizând46cazuri. Main timeout60 nu este primit PASS.",
+    "17instrumente restante și17contracte sunt păstrate deschise; zero taskuri/fișiere/fluxuri native recepționate integral."
+  ],
+  "limits": [
+    "Nu am rerulat produsul; confruntarea proprie a oracolului citește bytes TSV și E din arhiva originală.",
+    "Nota10/10 rămâne numai planului v2.",
+    "Nu revalidez toate195 controalele mecanice A11 și nu primesc valul nominal A12 încă nepredat."
+  ],
+  "product_execution": false,
+  "operational_writes": 0,
+  "prior_artifact_mutations": 0,
+  "check_count": 64,
+  "all_passed": true,
+  "method": {
+    "path": "D:\\CodexWork\\PeerT240ReceiptA11.py",
+    "sha256": "5b0debe3b3658a003d4c239e7907caa91eb1b71ea314ca0eab5de1e348bf08ab"
+  }
+}

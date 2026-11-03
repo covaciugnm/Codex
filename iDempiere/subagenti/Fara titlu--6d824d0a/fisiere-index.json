@@ -1,0 +1,16 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A08/A08_raport_R11.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A08_raport_R11--c38f38cf.json",
+    "bytes": 4374,
+    "sha256": "b8d9624a6c4753862b26ed1323b08490b8797a6f880394c44b9c918a24fdd004"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\A08\\Adresa_dupa_iesire_390.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Adresa_dupa_iesire_390--751b7e1e.png",
+    "bytes": 24940,
+    "sha256": "d9d8c7681fa954a852423ad55de0a210c527036726c1b63eeaa3f1ca916d3e94"
+  }
+]

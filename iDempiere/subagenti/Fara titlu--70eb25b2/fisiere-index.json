@@ -14,6 +14,13 @@
     "sha256": "1e57c4b95b3457953a56558bcb5b8a588b87f1f682d8169187a754ba78d886cd"
   },
   {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A01/A01_raport_R11.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A01_raport_R11--78205df4.json",
+    "bytes": 9565,
+    "sha256": "6abb02f2cd84b85e7756223c08336ed1f1231142df06108b608b3b380aaec109"
+  },
+  {
     "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta/A01_contributie_5_cai_si_A06.json",
     "status": "copiat",
     "saved_path": "fisiere/A01_contributie_5_cai_si_A06--a88016e8.json",
@@ -84,6 +91,34 @@
     "sha256": "3c3b8c298c504517e73f41c8767b58fdf83a1bd56406346838b469122b8c66b4"
   },
   {
+    "source_reference": "D:\\CodexWork\\a01_hr_materialize.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_hr_materialize--3d6b39de.py",
+    "bytes": 1543,
+    "sha256": "c47f67257b05cb77af720b024dfa2648f3d368dfa6f4fbde90bb539b8224023f"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_hr_val03_child.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_hr_val03_child--5ae79429.py",
+    "bytes": 10408,
+    "sha256": "2819fc4c9bcfae99e35d6a04cb49373fdff4801c94af23da41fbd3c17be4c076"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_hr_val03_run.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_hr_val03_run--4d6e1d2e.py",
+    "bytes": 7157,
+    "sha256": "cc282caa0f247863ab73088d6bea37d6c511c2dc2ae5505552b318d12af154a6"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_hr_val03_seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_hr_val03_seal--05dfa246.py",
+    "bytes": 14123,
+    "sha256": "496601fc123e1101d04b3fa7809a9020410566cb259597b812bd2099b15c5352"
+  },
+  {
     "source_reference": "D:\\CodexWork\\a01_java.py",
     "status": "copiat",
     "saved_path": "fisiere/a01_java--77182c48.py",
@@ -98,6 +133,13 @@
     "sha256": "d5f7ce9a4b2e562bf162a8078a6dfdb01d85429716c2f87e5dbb64e06c1ed124"
   },
   {
+    "source_reference": "D:\\CodexWork\\a01_peer_masini_lot02.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_peer_masini_lot02--f25d1d52.py",
+    "bytes": 10905,
+    "sha256": "328e430283ce0661099c44749acee9d64b789ccf5a1e9b29d9975a767bfb41d2"
+  },
+  {
     "source_reference": "D:\\CodexWork\\a01_plan_delta_5.py",
     "status": "copiat",
     "saved_path": "fisiere/a01_plan_delta_5--f447074a.py",
@@ -110,6 +152,13 @@
     "saved_path": "fisiere/a01_probe--5119e5c9.py",
     "bytes": 19367,
     "sha256": "3ecfa4d790cf4a1e2cb542f5bd5d343b9dfec7c3814a7528384937bdf4f748f9"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a01_r11_harness_peer.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a01_r11_harness_peer--8e299118.py",
+    "bytes": 15078,
+    "sha256": "75e6ad3afce366b57968cb043dcc2af6fde411733f4c67babe9fec697e097503"
   },
   {
     "source_reference": "D:\\CodexWork\\a01_r11_materialize.py",
@@ -208,5 +257,12 @@
     "saved_path": "fisiere/build_a01_plan--22a88c30.js",
     "bytes": 92799,
     "sha256": "966c4a19f517d8d223edb79ad52749c3e4ee108a7d773bf064560c4df044ec40"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\Control_harness_root\\Peer_A01_harness_v7.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Peer_A01_harness_v7--008fbfb9.json",
+    "bytes": 27476,
+    "sha256": "aaa8d9c9ee6a2318862ce909f88b043a685432fb5b98e0615b2f66f705675b69"
   }
 ]

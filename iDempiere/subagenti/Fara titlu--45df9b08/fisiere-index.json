@@ -1,0 +1,415 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\A05NativePoProbe.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A05NativePoProbe--c1d85f57.java",
+    "bytes": 5402,
+    "sha256": "5670bdde6afa6f3ac5889de4e49438aafec8054542abad57aac913d5bcf675af"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\A05OsgiProbe.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A05OsgiProbe--8c8b05c4.java",
+    "bytes": 7051,
+    "sha256": "2c1f961068091039c565e87f432180e3ca5711e16fb3bb9d3933014d6c8761f6"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05-g3-harness\\A05G3Probe.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A05G3Probe--3f70a4ea.java",
+    "bytes": 24092,
+    "sha256": "8ab6e639ed4847c2b265bfbefa7c194a60d116e9a502f6e4b5fa12fa15109d66"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05-n05-harness\\A05N05Launcher.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A05N05Launcher--f8378b42.java",
+    "bytes": 8821,
+    "sha256": "454b8e4cc7282ae792bd588e317c25c30b21ba5365e31e131580415138ca3fdd"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05-n05-harness\\A05N05Probe.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A05N05Probe--4f1d6668.java",
+    "bytes": 19554,
+    "sha256": "3a3f347d7a7b46413bea2319c586df9a6dad3338ed710108ada774c9b867b488"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_continue_prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_continue_prepare--2a72aa94.py",
+    "bytes": 5591,
+    "sha256": "21d870233c8ffe09b1c1ab577737b68c7603feb1ba7528441ffc0ec5b6ea9801"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_final_readback.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_final_readback--ffe52434.py",
+    "bytes": 3478,
+    "sha256": "7b4cbdf76cc1f538f2be1e7299b8a008365fd4030961630b3149d28abd2f0308"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_fixture_order.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_fixture_order--3b752057.py",
+    "bytes": 1645,
+    "sha256": "3fbfbefebfebdeb807093fc6f1113cbfb1475624d60c9f7fc5f830542c7cd121"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_pk_addendum.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_pk_addendum--379c1d5b.py",
+    "bytes": 2035,
+    "sha256": "01acc02f6772f7368b61c7d83d503dd68a8cd3b73e2d03516c2aa929bb4101c7"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_plan_fiches.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_plan_fiches--55d66278.py",
+    "bytes": 4482,
+    "sha256": "8d825e8565285caccc6d6b7be4774562fe0647ddb12a9f0a1cb1bb7a92435d7d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_plan_sources.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_plan_sources--580b50e2.py",
+    "bytes": 3954,
+    "sha256": "26e5eb9ef2b70d10b20fc4079ab6eb0da635a4e4ad9156921ec122b28cf694d9"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_prepare--84b88f5f.py",
+    "bytes": 2510,
+    "sha256": "9f6b7f3766a6466df606d4fbbb55974135ce002adfaa2774de187b730fa63658"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_protocol.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_protocol--c06ea79d.py",
+    "bytes": 19985,
+    "sha256": "ef97c6458eeed9f3e48a87e2275349cb2e760dccd07a3c7a16f6f353a46d7fab"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_protocol_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_protocol_v2--a49d22a6.py",
+    "bytes": 2587,
+    "sha256": "ba8ef2f02ef614aa3649d76d0fb73bd5ef640069f2abd195c56b4bc5d474319b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_qa--b7537b00.py",
+    "bytes": 2930,
+    "sha256": "96cbd0163f8ceaaec704fa757ec244626026236f586bbe68e38a2053224d453b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_readiness_receipt.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_readiness_receipt--7deae455.py",
+    "bytes": 2332,
+    "sha256": "5db4b522680a6c8fefd24cf46020db647233c1cc3aefd5168d6e2e7bf889c97f"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_run_barrier.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_run_barrier--f1610352.py",
+    "bytes": 5717,
+    "sha256": "8d933b9dbadde21da37144f11f4ee6a164afc6c791ca962e38b35330e945dd7a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_schema.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_schema--ef17a630.py",
+    "bytes": 5498,
+    "sha256": "6506ca84ecbbf1fd014ff3074e54bf8ef7b411d1088e020198ac5e80aa160f56"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_g3_seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_g3_seal--81f6043e.py",
+    "bytes": 18315,
+    "sha256": "0ff0c092d86fa9b2bb0e134b0c2b0e06a0ed7607f5f4b6bc38f32c10d0e79978"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_cleanup.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_cleanup--2051002f.ps1",
+    "bytes": 2369,
+    "sha256": "16ca230f69a0edd19f3c547a1c70e44955fca4cd48782143961e6ded269c02eb"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_compile.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_compile--6ed6cb91.py",
+    "bytes": 1028,
+    "sha256": "590aadaeb91f33bfa09d9345ead4ab897b3b5a8023e2f498f245c1a8c2269acf"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_copy_serverbundle.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_copy_serverbundle--dfb77baa.py",
+    "bytes": 455,
+    "sha256": "073925f3ee28b093ee65fd3de9f2a45fda43c4d28b49edcd128238c843af9efd"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_copy_uibundle.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_copy_uibundle--fbb05a20.py",
+    "bytes": 1773,
+    "sha256": "878293705a15a80b84e52e898517178b3ab30ce65e1f20e75707a5bfeaee3c99"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_events_inventory.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_events_inventory--85ce704b.py",
+    "bytes": 2141,
+    "sha256": "24e07303cf0e418428cbc0e18267e2255246248d032215673a04f6f2b7acb9d1"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_fiche_supplement.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_fiche_supplement--059697bf.py",
+    "bytes": 2391,
+    "sha256": "9e7136b1aa652fa8bd281f293e27177dda1cd5d8037f96a9900213eae25a6638"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_n03_addendum.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_n03_addendum--92b82bb1.py",
+    "bytes": 1951,
+    "sha256": "65e2757ffacec525a07006f591cfd6d7ba92451cdfebb070b4096cdaec68aefe"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_prepare_launcher.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_prepare_launcher--1129f097.py",
+    "bytes": 2075,
+    "sha256": "d882a02d888850f966c50f28d798912d2cc994fe639b7811d1228a4f219db27d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_protocol_v1.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_protocol_v1--9bc23b2a.py",
+    "bytes": 12329,
+    "sha256": "789e8780768210b8e066619325a8f7896987ac8bb014a37f1176edc88548551d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_protocol_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_protocol_v2--28ab4147.py",
+    "bytes": 8444,
+    "sha256": "acf5cdc65aa1108a06b1c840a323e6e2a9b2f84f98be3cb9f669f172e226fe25"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_read_protocol.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_read_protocol--f9d7d7b5.py",
+    "bytes": 4887,
+    "sha256": "b2e3058f661015de2caa9856d42eb7c1df27107570e657873886c9a7db7e7689"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_readback.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_readback--134ccde3.py",
+    "bytes": 3804,
+    "sha256": "23f0585ca78b05b0194bbc68d51494fe24321456ceb4ffe22d0bb0644fa3673a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_reconcile.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_reconcile--42fe0573.py",
+    "bytes": 4984,
+    "sha256": "af06434f67bf4b03eef6cde5bd762d337f2203fe66c1dece9d36d77dad51ea9d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_restore.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_restore--319cb41e.py",
+    "bytes": 5906,
+    "sha256": "8682827af0d011ad62c4d5ef6ec79c4aecdf2700977a39462cceb6f6b581bee5"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_resume.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_resume--89a4eef7.py",
+    "bytes": 1299,
+    "sha256": "bb6a4cca36988305fe209892a33f481eeab7dc0fb6c9991515fef8b1b1f4901b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_resume_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_resume_v3--0b94bc34.py",
+    "bytes": 503,
+    "sha256": "c4a5330ca25edeea1043f46f47db7addcecaa6f6377d6f7c4f086124189cae40"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_run.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_run--8c4e683e.py",
+    "bytes": 1517,
+    "sha256": "fbc9f40704c7cc22344c7edc79fab3e87ec9f20bb4c12e486128046586184b8a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_schema.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_schema--cbb8e954.py",
+    "bytes": 4160,
+    "sha256": "d6bd40ee092eb6151898d108e667f80b6e713533572a1224d89ce71cb20d9cd3"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_n05_seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_n05_seal--5a3788e9.py",
+    "bytes": 23762,
+    "sha256": "fc3962f053bb215991007ae20bcdca9c0a1ed636b67ff5aed9eb275913dd834e"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_order_addendum.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_order_addendum--b9c772f6.py",
+    "bytes": 4977,
+    "sha256": "2f9f59a967bf68b271168027e27b10efd60ce87ec0d3ff71039738a360828ebb"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_order_plan_extra.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_order_plan_extra--1a87a116.py",
+    "bytes": 2485,
+    "sha256": "7f019690895fba50714c5539f2fd5bd43f3f168d468ae2542c483b28235c67b6"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_order_plan_sources.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_order_plan_sources--1ec14434.py",
+    "bytes": 2858,
+    "sha256": "cdaacbf77e5bd7f74cd3cb7e78f7f5e113ef7a7f08751b651fe23fb0eadc50ba"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_order_prepare_runtime.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_order_prepare_runtime--386248b3.py",
+    "bytes": 2521,
+    "sha256": "8442431326f0f86a9f21d247c8ad6bdccb56b4d9556ede111b1e5016bcbe3786"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_order_probe_prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_order_probe_prepare--1641f181.py",
+    "bytes": 3833,
+    "sha256": "2bd220ed5d7edcad307d92bbcb9df4ae242c710dc04e693bbbc76213baf7d0db"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_order_protocol.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_order_protocol--d663796a.py",
+    "bytes": 32884,
+    "sha256": "5a5e8532744068901f583e034b2d772c97817b28ddcf6294145996934da67b6b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_order_schema.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_order_schema--a0dcf8a4.py",
+    "bytes": 6871,
+    "sha256": "94f540c9025a897decb73b528af85792ea7e8a5f266d7eebffd2223be210c566"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_order_schema_addendum.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_order_schema_addendum--e8910feb.py",
+    "bytes": 5919,
+    "sha256": "84b759d7d7c0855a88a7179e809e6cec9840d13fbc07a017a8b472f4c6bd3e3a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_build_po.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_build_po--975472e3.py",
+    "bytes": 1425,
+    "sha256": "458d5c1aea52826bf76606560ba632a15d5294ea94404718266167f4b29936af"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_close_lot.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_close_lot--a1529854.py",
+    "bytes": 18038,
+    "sha256": "6fd3015f6b607eb907739e3604666f3f809717892495e23daa1a48eea8aaca48"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_copy_ant.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_copy_ant--5eaeb53a.py",
+    "bytes": 1407,
+    "sha256": "dd262456ad7a928d361816bb09f8362e171b2393b6f08c48f31d8147474c4b5b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_copy_runtime.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_copy_runtime--38d2d3d7.py",
+    "bytes": 1801,
+    "sha256": "7531d92d399ca5e51aeabbe6247e93128c76c2a55e6319f8620698353cd6569f"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_native_prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_native_prepare--d8f16c57.py",
+    "bytes": 1759,
+    "sha256": "a4cecf8fffe2ca5c856f090d270541869d9e7032587fc76d2548a76db2621de9"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_pg_isolation.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_pg_isolation--81005660.py",
+    "bytes": 3330,
+    "sha256": "6b19456c8293f91522cfd4a7e809410e3f6253b7c9f1bb7de26e1af3f9ed60ce"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_pg_restore.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_pg_restore--74ec1458.py",
+    "bytes": 4083,
+    "sha256": "65ffc5ce7e3844c1deeff3562badc8b1712374652f5109bd6acb17ff9279073b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_pg_resume.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_pg_resume--be5ef158.py",
+    "bytes": 3661,
+    "sha256": "1d17a22e960e67257caee494da9567bdd286824da359cf5c11fa39006c7ea510"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_repro_annex.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_repro_annex--2363b3b3.py",
+    "bytes": 6933,
+    "sha256": "4a415673ac6215d54f41cf58e37f88b09449ff9e0816756c7672c0978fa452c2"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05_r12_run_bootstrap.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05_r12_run_bootstrap--d83a5d8b.py",
+    "bytes": 1878,
+    "sha256": "731bd4398734429d04e860234f389b2bf4151c3083054a58b8eefbcb709ba4cc"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A05_G3_nativ_lot04/Raport_G3_nativ.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_G3_nativ--b4c2b4c3.html",
+    "bytes": 4856,
+    "sha256": "db36ae8a07fb6b26d7b001ff81ffcca75246295ba35419645d7f6e304b1edfa9"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A05_N05_lot03/Raport_A05_N05_lot03_v1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A05_N05_lot03_v1--92ae7e8a.json",
+    "bytes": 11205,
+    "sha256": "e041aa5c542fa219132dce85aa347b79b26e459f7bd5551c97d5fbf21a57a32e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A05_Comanda_rezervare_lot05\\Conditii_readiness_DocAction_v1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Conditii_readiness_DocAction_v1--3150e4b6.json",
+    "bytes": 1576,
+    "sha256": "d4f5d685ef0f66c753241df4f0d80d9518a737adf2f94fd41745cc125855ea19"
+  }
+]

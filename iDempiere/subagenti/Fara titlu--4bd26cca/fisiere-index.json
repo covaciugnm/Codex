@@ -1,0 +1,16 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A02/Raport_A02_R11_DB.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A02_R11_DB--a5fa68de.json",
+    "bytes": 6807,
+    "sha256": "af56b8d54173cc82b75556f49fdf5e3c8b9b829da3094e4c018f3c7121275e3d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A02/Triaj_nominal_174_SQL.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Triaj_nominal_174_SQL--e88ad5c4.json",
+    "bytes": 279789,
+    "sha256": "522e39561da2ef561a038176e750a253adf8c7bf83d04ce4ef60dd228c14a97b"
+  }
+]

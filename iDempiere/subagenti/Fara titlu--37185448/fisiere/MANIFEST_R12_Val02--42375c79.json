@@ -1,0 +1,210 @@
+{
+  "utc": "2026-11-03T00:13:41.855730+00:00",
+  "head": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "status": "A12_ADDITIVE_CHECKPOINT_FOR_INDEPENDENT_RECEPTION",
+  "files": [
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/build_population2339.py",
+      "sha256": "476b5d857284a2ce4dbaba9d17e200e9d0c81149bffb1b5ec0ddf2c9d8b27886",
+      "bytes": 5451
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/build_receipt_configuration.json",
+      "sha256": "16bfb7006bba03b7889047aeded01dc509a64d850ab1a2cadcedc40763d8bf86",
+      "bytes": 18850
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/build_val02.py",
+      "sha256": "cc4e47faa92af89a4ed49fa1597e028b3b10cf646614eceafb02537cd278e1dc",
+      "bytes": 36923
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Cazuri_nominale_133.json",
+      "sha256": "aaaabcd98fc2c542f8e621e937c342e9aa4359bc4bec28beaa72694ed7fa6111",
+      "bytes": 173927
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Conservare_652_fise_2619_criterii.json",
+      "sha256": "e85fdc477aaab4a8be955ca14df0f0018c4239d5ae8a9ae821f2b2ce9cdc3c6b",
+      "bytes": 223620
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Constatari_lot02.json",
+      "sha256": "4c2ede171140e6398e9b9cc5d9136386fff7bc9c3649c16d04b86377683f533d",
+      "bytes": 55548
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Delta_11_fisiere.json",
+      "sha256": "d018df165f8247631a38a3c5797941eba5bbd7bb49484c5924f38aa7741a0a8b",
+      "bytes": 16275
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Evenimente_11_fisiere.json",
+      "sha256": "3d33945d01de264b72fc52b5eae1085826f6049ba75052b1f69a5526fb506f95",
+      "bytes": 127218
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Handoff_R12_Val02.json",
+      "sha256": "609fe44a4d91fe936d91480d8477b3babc21ec16f0725d97d9faf71d0334672d",
+      "bytes": 5428
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/index.html",
+      "sha256": "fa8a3808ea6a85ffdaaaa663678add993ec8702b293ac343d0ef170e43875822",
+      "bytes": 4039
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Index_invers_13_fisiere.json",
+      "sha256": "6578e45a1d10b27f7fa7318edf034b58824b1f1dae8a30c4adf21cf10fcf3ea7",
+      "bytes": 8204
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Infrastructura_nativa_separata.json",
+      "sha256": "d282c97d40e5b613e0b4e7c8d4109819f2aa0c51c629d6d1acffc801d9da1451",
+      "bytes": 4265
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Matrice_taskuri_criterii_R12_Val02.json",
+      "sha256": "862ee03771207dbcabf0fc29f682486fe8913b27e127b96371d3c06f4cd3010b",
+      "bytes": 2810
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/QA_R12_Val02.json",
+      "sha256": "47b011ef42fd041d0ac166f610264540223c848933213216b813d620bb927b9a",
+      "bytes": 3192
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Reconciliere_metrici_si_limite.json",
+      "sha256": "19533d0d8241f737029dfeadb2156f33f0f04a49741aa9f9a2f61940412831ad",
+      "bytes": 5349
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Registru_6728_R12_Val02.jsonl.gz",
+      "sha256": "c92503cf3fba8874bb9ce349d05904a768472c979aae39db853ada4dda31df3d",
+      "bytes": 421698
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Resurse_si_restituire.json",
+      "sha256": "f3f1b257197f8c885ea4c79a162c2b83bd73f10500e4ad3ffc47353f5f8df4a8",
+      "bytes": 4394
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Situatie_10_zone_R12_Val02.json",
+      "sha256": "e677c45d6e325588f3e5ab4060c2a221110075a5b8c0567546b9c66bf9a9258c",
+      "bytes": 3277
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Supliment_populatie_2339.json",
+      "sha256": "b9f9b0cdf0ad5926940a0fce489113d6f918685933546a50610da5a556ccd2e9",
+      "bytes": 10755
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_02/Surse_si_receptii.json",
+      "sha256": "c22fab86337d4fb8f2566e16f7388d39de683a1303eb4e2f89cb64779111a897",
+      "bytes": 6741
+    }
+  ],
+  "inputs": [
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/MANIFEST_R12_Val01.json",
+      "sha256": "2d0e8529b61698031a132cf4bf8e72f17b8a9fbb03df2b0000e885dde38efe93",
+      "bytes": 3580
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val01/Verdict_A11_R12_Val01_v1.json",
+      "sha256": "b702325e3259a69af59f7f51cad36026bd7f1649019b37881c917c1356a1df6e",
+      "bytes": 5762
+    },
+    {
+      "path": "executie/R12_plan_delta/Plan_delta_R12_v2.json",
+      "sha256": "4aeeaf61d73efa1a1155e9eecbbcc5564ddfeee4cda918fa5fa04c97f2ef7276",
+      "bytes": 216978
+    },
+    {
+      "path": "executie/R12_plan_delta/A11_verdict_plan_delta_R12_v2.json",
+      "sha256": "84e3735906d868f2153bc6b71c8f0e0e7a0211367ba4d3df5f8509d008d1f2a4",
+      "bytes": 62353
+    },
+    {
+      "path": "executie/R12_fisiere/A08_Helper_rapoarte_lot02/MANIFEST_A08_lot02.json",
+      "sha256": "3dc9c882d755754b6ab7982d32dd8fb5f7e965d0fec99e10f242e82668012141",
+      "bytes": 59454
+    },
+    {
+      "path": "executie/R12_fisiere/A08_Helper_rapoarte_lot02/Raport_A08.json",
+      "sha256": "0c86260254fb3812544d2068097c45ecd0ec97375fd33ceb8ce3eaefff555e24",
+      "bytes": 33179
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val02_loturi/Verdict_A11_loturi_Val02_v1.json",
+      "sha256": "8066bd2f33396d748693dcbe280826e9b73c1a2912935223c500f3afbe92a53f",
+      "bytes": 32522
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val02_loturi/Sigiliu_A11_loturi_Val02_v1.json",
+      "sha256": "c395d67c7a7acea11bd5a9c15b2e528850af76896ac4e4d44fbe6b56458154a1",
+      "bytes": 3057
+    },
+    {
+      "path": "executie/R12_fisiere/A09_Helper_corpus_lot02/MANIFEST_SHA256.json",
+      "sha256": "23f5fa497a8f07b3b7654ccdd8de3227a6657a149cf94ce3aff3172d17de5018",
+      "bytes": 51674
+    },
+    {
+      "path": "executie/R12_fisiere/A09_Helper_corpus_lot02/rezumat_predare.json",
+      "sha256": "71f4a3d71e57858809698d11fbd4f702df06cce4729787db2a590f6dd3f8640d",
+      "bytes": 1934
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val02_loturi/Verdict_A11_loturi_Val02_v1.json",
+      "sha256": "8066bd2f33396d748693dcbe280826e9b73c1a2912935223c500f3afbe92a53f",
+      "bytes": 32522
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val02_loturi/Sigiliu_A11_loturi_Val02_v1.json",
+      "sha256": "c395d67c7a7acea11bd5a9c15b2e528850af76896ac4e4d44fbe6b56458154a1",
+      "bytes": 3057
+    },
+    {
+      "path": "executie/R12_fisiere/A09_Date_Masini_lot02/MANIFEST_SHA256.json",
+      "sha256": "ff071b46603712874805c53a024d5d4f8fccf7fedd5fb988dfb338d17f5059db",
+      "bytes": 5680
+    },
+    {
+      "path": "executie/R12_fisiere/A09_Date_Masini_lot02/Fisa_Masini_date.json",
+      "sha256": "5539a50a75cac245a53a0aac55ed52c1bc8da241b0912a25c0190008e36c5703",
+      "bytes": 6487
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val02_loturi/Verdict_A11_loturi_Val02_v1.json",
+      "sha256": "8066bd2f33396d748693dcbe280826e9b73c1a2912935223c500f3afbe92a53f",
+      "bytes": 32522
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val02_loturi/Sigiliu_A11_loturi_Val02_v1.json",
+      "sha256": "c395d67c7a7acea11bd5a9c15b2e528850af76896ac4e4d44fbe6b56458154a1",
+      "bytes": 3057
+    },
+    {
+      "path": "executie/R12_fisiere/A05_Nativ_lot02/MANIFEST_A05_Nativ_lot02.json",
+      "sha256": "96d157f5b85a6eaab9aa99aa895931eebb88118789271db5cdc1068ef9eb2add",
+      "bytes": 14074
+    },
+    {
+      "path": "executie/R12_fisiere/A05_Nativ_lot02/Raport_A05_N08_Nativ_lot02.json",
+      "sha256": "0f19c2da75ae53ee6f2dd55fb9e93c5959883b63a86c84441498fe31fba2d2c9",
+      "bytes": 6963
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val02_loturi/Verdict_A11_A05_infrastructura_Val02_v1.json",
+      "sha256": "0394c3fe54710e905723d3c66faed4a222c1d21249b35efa5874c764af5079e8",
+      "bytes": 3208
+    },
+    {
+      "path": "executie/R12_fisiere/A11/Val02_loturi/Sigiliu_A11_loturi_Val02_v1.json",
+      "sha256": "c395d67c7a7acea11bd5a9c15b2e528850af76896ac4e4d44fbe6b56458154a1",
+      "bytes": 3057
+    }
+  ],
+  "no_self_reference": true
+}

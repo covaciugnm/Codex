@@ -1,0 +1,31 @@
+{
+  "all_supplements_received": true,
+  "verdicts": [
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_UI_V12_v1.json",
+      "sha256": "97bc276c0a40aaca6343db3522f5fab9fa563146fc9eba8b3ce316583f4e2f2e"
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_backend_HR_Val04_v1.json",
+      "sha256": "ba0e96aeefb19fda1a9c6eb2d1b8f8b0beda8ce3e8acbcc01cee80d8ed5fd8d8"
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_A05_native_Val04_v1.json",
+      "sha256": "d3abcacc69c5c5afc98ef6f1687b2825525a10c32446042fada811047843982c"
+    }
+  ],
+  "seals": [
+    {
+      "path": "executie/R11_fisiere/A11/Sigiliu_A11_R11_UI_V12_v1.json",
+      "sha256": "6405439c69c3468c9e28016efa7259cec12a87b9e7d0d487a0021cce78c66151"
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Sigiliu_A11_R11_backend_HR_Val04_v1.json",
+      "sha256": "87d6dfe38849abd52ee4c7173d86f806b6c78fc0d2b4cf03a728accc8b1ef81a"
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Sigiliu_A11_R11_A05_native_Val04_v1.json",
+      "sha256": "aa9b709f36adb8c33fdf96b53dbd6f93effbaf8bd0f307e3b2129fd7810e8128"
+    }
+  ]
+}

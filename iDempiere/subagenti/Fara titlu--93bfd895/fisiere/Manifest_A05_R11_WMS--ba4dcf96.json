@@ -1,0 +1,42 @@
+{
+  "commit": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "created": "2026-11-02T21:40:41.184151+00:00",
+  "files": [
+    {
+      "file": "Raport_A05_R11_WMS.json",
+      "sha256": "4031992488713f476d619e18b905b49c377001442cf58f31a90856e43420dda2"
+    },
+    {
+      "file": "Fisa_EvaNotaSetBomEvents.json",
+      "sha256": "af8bfaf4c1cabae115a0627060929ed2637e6bad0255f312c9b0ff4a58c1e4c6"
+    },
+    {
+      "file": "Fisa_NotaSetWms.json",
+      "sha256": "674edcd417381d4b637648f4b937e3c28d609748773301f8e1c91b423799065d"
+    },
+    {
+      "file": "Fisa_StocWms.json",
+      "sha256": "aa245d455adaf5cc0e4caa1591f96c1af45a4f2ca20ae62cbd50d6bd594a8831"
+    },
+    {
+      "file": "Fisa_NotaSetWmsProces.json",
+      "sha256": "9e2cb898e1b6362c6d9fdc132c05c2615897572d039f17e4f6963a4dce2b16c4"
+    },
+    {
+      "file": "Fisa_ListaMaterialeWms.json",
+      "sha256": "baa984bd6f7d45933afce0ad1fc3b94b396231afc6481b093f0a867690c54dfb"
+    },
+    {
+      "file": "WMS_proba_tranzactii_G2.json",
+      "sha256": "c89d6edd8c54b09fba9f46d661a223cb9e23aa0de3b004b3b33d98ecc28a1653"
+    },
+    {
+      "file": "a05-r11-wms.py",
+      "sha256": "ba307af2031e1ef2fe7108c8ce54f3a442a89673b08739f700538617e470411c"
+    },
+    {
+      "file": "A05WmsVersionWitness.java",
+      "sha256": "2a194d7fbb1c7becd952e845b4728ba44a66308f8fbb55b555b9f6e7d0af4327"
+    }
+  ]
+}

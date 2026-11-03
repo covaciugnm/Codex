@@ -1,0 +1,209 @@
+<!doctype html><html lang="ro"><meta charset="utf-8"><title>R12 · Audit A09 · instrumente corpus și capturi</title><style>body{max-width:1160px;margin:36px auto;font:16px/1.5 system-ui;color:#132438;padding:0 22px}h1,h2,h3{line-height:1.2}h2{border-top:1px solid #bdd1df;padding-top:24px;margin-top:36px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #c6d2df;padding:9px;vertical-align:top;text-align:left}code{overflow-wrap:anywhere} .note{background:#edf5fc;padding:20px;border-left:5px solid #32658a}.warn{background:#fff3dc;padding:16px}a{color:#124e83}img{max-width:100%}</style>
+<h1>R12 · Audit de componentă A09: corpus, citate, manual și foi de contact</h1>
+<p>Predare către A08 / A12 / A11. Surse originale la <code>df85d33c1648ce2b2df130a60a05ef696e2e5480</code>. Task canonic <strong>P01.C14.T0001</strong>, alias T240, în implementare. Proprietar A08, peer nominal A09, executant transversal A09; recepție independentă A11 în așteptare.</p>
+<div class="note"><strong>Rezultat:</strong> 67 probe CLI pe 5 instrumente originale, cu 5 reluări în copii proaspete și 3 canari separați de izolare. Toate cele 67 de comportamente au fost reproduse conform oracolelor de observație, inclusiv defectele și limitele. <strong>Acesta nu este un verdict de produs 67/67 și nu acordă nota globală10/10.</strong> Zero taskuri, criterii sau fișiere închise.</div>
+<h2>1. Proveniență și limite</h2>
+<p>Planul R12v2 și poarta A11 au fost rehashuite înaintea execuției; nota10/10 privește planul aprobat. Cele 5 surse și cele 2 dependențe au fost confruntate cu OID-urile catalogului. Un export local stale nu a fost folosit ca probă a versiunii curente. Originalele au rulat fără patchuri: două unelte primesc directoare prin argumente; citate_butoane folosește adâncimea arborelui repo; clase_corpus și manual_cap folosesc rădăcina repo drept cwd.</p>
+<p>Toate intrările sunt sintetice: Java, TSV, JAR, manuale și imagini. Nu s-au folosit imagini cu persoane, date de client, sesiuni UI, hardware, baze de date sau mesaje. Hook-urile Python blochează rețeaua, procesele secundare și accesul în afara fixturei/runtimeului. Cei trei canari au confirmat blocarea; acestea sunt măsuri de instrumentare, nu sandbox OS. Fiecare caz păstrează command, cwd, stdout, stderr, rc, hashuri înainte/după și arhiva integrală. Zero surse și intrări modificate; scratchul ambelor execuții a fost șters, arhivele de probă se păstrează.</p>
+<p>Nu se transferă rezultate către ramura t240-impl-texte sau către JAR-ul a5d48ce2 din observațiile recente ale registrului. Aceste probe vizează df85. Native iDempiere: N/A justificat la nivelul acestei probe: helperul citește text/imagini/JAR și nu execută metodă business, PO, DocAction sau SQL. Se păstrează uneltele existente. Pentru ecran, meniu, drept și limbă, recepția ulterioară folosește AD_Menu/AD_Form/ZK existente în clonă sintetică; aceste probe nu le înlocuiesc.</p>
+<table><tr><th>Control / fișier</th><th>OID Git</th><th>Cazuri</th><th>Efect persistent observat</th></tr>
+<tr><td>R12-I02 · foi_contact.py</td><td>500ea09a19e0d7de7c7dbabd70aec512088fe581</td><td>13</td><td>I02: PNG/foi.md derivate; celelalte: stdout. Toate: loguri ale harnessului; intrări intacte.</td></tr>
+<tr><td>R12-I03 · fragment_public.py</td><td>49f3d437a6896012420b7f2e0c7e85fdbc755dab</td><td>14</td><td>I02: PNG/foi.md derivate; celelalte: stdout. Toate: loguri ale harnessului; intrări intacte.</td></tr>
+<tr><td>R12-I06 · citate_butoane.py</td><td>2d940518a00b97e480453f1357c7724f8e19356a</td><td>10</td><td>I02: PNG/foi.md derivate; celelalte: stdout. Toate: loguri ale harnessului; intrări intacte.</td></tr>
+<tr><td>R12-I07 · clase_corpus.py</td><td>0c85e904c37a90f7cb1cf9198b37b76a7c14ce0d</td><td>17</td><td>I02: PNG/foi.md derivate; celelalte: stdout. Toate: loguri ale harnessului; intrări intacte.</td></tr>
+<tr><td>R12-I11 · manual_cap.py</td><td>d7cead3fe8fcaf33f0772b03d8f573726a97f0df</td><td>13</td><td>I02: PNG/foi.md derivate; celelalte: stdout. Toate: loguri ale harnessului; intrări intacte.</td></tr>
+</table><h2>2. Ce funcționează și ce nu se poate deduce</h2>
+<p><strong>foi_contact:</strong> 11 rânduri și22 capturi produc două foi,10+1, cu ordine și culori verificate independent. Reluarea produce aceleași hashuri PNG/MD. Capturile lipsă fără motiv sunt rc1; absența panoului justificată prin motiv rămâne rc0 și contor separat. Decodarea coruptă eșuează. Captura lungă este însă ilizibilă în miniatură; duplicarea rândurilor și proveniența capturilor nu sunt validate.</p>
+<p><strong>fragment_public:</strong> un bigram public, unul necunoscut, diacriticele și excluderea directorului nepublic au răspuns distinct. Comparatorul independent pe căi ZIP complete demonstrează pierderea unei resurse omonime. Cazurile goale și fraza completă formată din bigrame publice cer o recepție separată a acoperirii/confidențialității.</p>
+<p><strong>citate_butoane:</strong> citatul absent este localizat, dar rc rămâne0. Citatele din comentarii, alte forme sau subșiruri sunt acceptate de căutarea globală. Acesta este un raport de candidați, nu un certificat de ecran, rol sau funcție.</p>
+<p><strong>clase_corpus:</strong> K1/K1b disting unele etichete inventate; K2 găsește perechea RO/EN greșită; K3/K3q găsesc EN gol, diferențe de cifre/procente/ghilimele; K4 și K5 găsesc candidați. K6 numără ținta lecturii legale. Nu se verifică semantic traducerea, aprobarea consultantului sau drepturile. Extensiile neprevăzute din suplimente primesc ancoră falsă .tsv.</p>
+<p><strong>manual_cap:</strong> capitolul normal, titlul din etichete, calea de meniu din sursă, citatele concatenate și calea REGES sunt extrase. Un capitol lipsă, alt titlu sau citat NEGĂSIT nu schimbă rc0. Capitolul duplicat este tăiat la prima potrivire; sintaxa din expresii și moștenirea nu sunt acoperite complet. Meniul inactiv din sursă apare în raport; cheia omonimă este aleasă fără diagnostic de ambiguitate.</p>
+<h2>3. Constatări și adaptări recomandate</h2>
+<p>Se adaptează uneltele existente și se completează legăturile către proba nativă. Nu se propune un mecanism paralel de meniu, drepturi, ajutor sau recepție. Prioritățile se referă la fiabilitatea auditului, nu la gravitatea unui incident operațional nedemonstrat.</p>
+<h3>HC01 · P2 · Coliziunea basename în JAR elimină o resursă publică</h3>
+<p><strong>DEFECT_COMPONENTA_REPRODUS</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-80/scripturi/fragment_public.py</code>, liniile 26, 27.</p>
+<p><strong>Observat:</strong> Aceleași două intrări ZIP, în ordine inversă, produc rc1/NEPUBLIC și rc0/TEXT PUBLIC; helperul numără 1 text, comparatorul pe căi complete numără 2.</p>
+<p><strong>Implicație:</strong> Clasificarea depinde de ordinea arhivei. Proba arată un fals negativ public, nu o scurgere reală de date.</p>
+<p><strong>Adaptare:</strong> Păstrează calea ZIP completă drept cheie în instrumentul existent; verifică lista de resurse publice și raportează căile fără valori private.</p>
+<p><strong>Recepție cerută:</strong> Ambele ordini produc aceeași clasificare publică, numitor2 și ancore complete; resursa din director nepublic rămâne exclusă.</p>
+<p>Probe: <a href="cases/I03_collision_False/result.json">I03_collision_False</a>, <a href="cases/I03_collision_True/result.json">I03_collision_True</a>.</p>
+<h3>HC02 · P2 · Un numitor gol nu poate primi recepție din rc0</h3>
+<p><strong>RISC_DE_CONTRACT_PIPELINE</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-80/scripturi/fragment_public.py</code>, liniile 29, 30, 48.</p>
+<p><strong>Observat:</strong> Instrumentele pot termina rc0 cu zero fraze, fișiere, ecrane sau rânduri. I03 lipsește chiar directorul corpusului într-un martor.</p>
+<p><strong>Implicație:</strong> rc0 declară doar lipsa unui candidat negativ în datele citite; nu dovedește că populația a fost verificată. Nu este automat defect față de contractul informativ al fiecărui helper.</p>
+<p><strong>Adaptare:</strong> În fluxul existent, validează explicit existența și numitorii așteptați înainte de recepție; păstrează distinct stările zero-date, neconform și eroare de intrare.</p>
+<p><strong>Recepție cerută:</strong> Corpus/lot absent și gol sunt diagnosticate și nu cresc acoperirea; cazul valid nenul păstrează rezultatele actuale.</p>
+<p>Probe: <a href="cases/I03_empty_mask/result.json">I03_empty_mask</a>, <a href="cases/I03_empty_corpus/result.json">I03_empty_corpus</a>, <a href="cases/I03_missing_corpus/result.json">I03_missing_corpus</a>, <a href="cases/I03_ignored_extension/result.json">I03_ignored_extension</a>, <a href="cases/I06_empty_lot/result.json">I06_empty_lot</a>, <a href="cases/I07_empty_corpus/result.json">I07_empty_corpus</a>, <a href="cases/I02_header_only/result.json">I02_header_only</a>.</p>
+<h3>HC03 · P2 · Bigramele publice nu certifică anonimizarea frazei/contextului</h3>
+<p><strong>LIMITA_EURISTICA_DEMONSTRATA</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-80/scripturi/fragment_public.py</code>, liniile 33, 47.</p>
+<p><strong>Observat:</strong> Fraza sintetică completă absentă din JAR este clasificată prin două bigrame publice în două resurse diferite; rc0.</p>
+<p><strong>Implicație:</strong> Instrumentul îndeplinește verificarea pe bigrame, dar concluzia nu se transferă la confidențialitatea întregului context sau a imaginilor.</p>
+<p><strong>Adaptare:</strong> Păstrează acest helper ca inventar de candidați în fluxul actual; recepționează separat fraza/contextul complet și imaginile pe canari sintetici.</p>
+<p><strong>Recepție cerută:</strong> Raportul distinge bigram public, context nevalidat și anonimizare primită; niciun rc0 textual nu închide controlul imaginilor.</p>
+<p>Probe: <a href="cases/I03_common_bigrams/result.json">I03_common_bigrams</a>.</p>
+<h3>HC04 · P2 · Căile capturilor ies din dosarul probei</h3>
+<p><strong>RISC_DE_PROVENIENTA_REPRODUS</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-80/scripturi/foi_contact.py</code>, liniile 23, 28.</p>
+<p><strong>Observat:</strong> Atât ../outside_probe.png cât și o cale absolută sunt acceptate și copiate în foaie cu rc0; ambele au rămas în scratchul propriu.</p>
+<p><strong>Implicație:</strong> Originea capturii nu este legată de rularea declarată. Nu s-a citit nicio imagine reală și nu este demonstrată o exploatare în producție.</p>
+<p><strong>Adaptare:</strong> Adaptează validarea existentă a capturilor pentru rezolvarea reală a căii, apartenența la dosarul probei și hash/rulare/ecran/limbă; nu crea un colector paralel.</p>
+<p><strong>Recepție cerută:</strong> O imagine din altă rulare sau din afara dosarului este respinsă înainte de compunere; fișierul valid din probă este acceptat.</p>
+<p>Probe: <a href="cases/I02_parent/result.json">I02_parent</a>, <a href="cases/I02_absolute/result.json">I02_absolute</a>.</p>
+<h3>HC05 · P3 · Numărul rândurilor include duplicate și nu înseamnă identități distincte</h3>
+<p><strong>LIMITA_DE_ACOPERIRE_REPRODUSA</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-80/scripturi/foi_contact.py</code>, liniile 14, 17, 43.</p>
+<p><strong>Observat:</strong> Două rânduri identice produc rânduri2, rc0 și două perechi în foaie.</p>
+<p><strong>Implicație:</strong> Compozitorul păstrează ordinea raportului, conform rolului; numărul nu poate fi folosit drept număr de ecrane distincte verificate.</p>
+<p><strong>Adaptare:</strong> Păstrează compoziția și separă în consumator numitorul rândurilor de cheia ecran+limbă+rulare; semnalează duplicatele.</p>
+<p><strong>Recepție cerută:</strong> Raportul arată două rânduri și o identitate, fără credit2 pentru același ecran/limbă.</p>
+<p>Probe: <a href="cases/I02_duplicate/result.json">I02_duplicate</a>.</p>
+<h3>HC06 · P2 · O captură lungă nu mai poate fi citită în miniatură</h3>
+<p><strong>LIMITA_UX_AUDIT_DEMONSTRATA</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-80/scripturi/foi_contact.py</code>, liniile 28.</p>
+<p><strong>Observat:</strong> Captura500×5000 este redusă la aproximativ29×294; text ilizibil în foaia deschisă, deși rc0.</p>
+<p><strong>Implicație:</strong> Foile de contact sunt utile pentru inventar și comparație, nu pentru recepția tuturor textelor unei pagini lungi.</p>
+<p><strong>Adaptare:</strong> Păstrează foile și leagă imaginea integrală; impune inspecție la scară lizibilă sau paginare pentru capturi lungi.</p>
+<p><strong>Recepție cerută:</strong> Auditorul deschide sursa integrală sau paginile la scară lizibilă; bifează separat vizualizarea efectivă, nu numai existența PNG.</p>
+<p>Probe: <a href="cases/I02_long/result.json">I02_long</a>, <a href="cases/I02_01_positive_11/result.json">I02_01_positive_11</a>.</p>
+<h3>HC07 · P3 · Intrările corupte produc traceback în loc de diagnostic stabil</h3>
+<p><strong>ROBUSTETE_COMPONENTA_REPRODUSA</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-80/scripturi/foi_contact.py</code>, liniile 14, 26.</p>
+<p><strong>Observat:</strong> PIL.UnidentifiedImageError, IndexError, BadZipFile, FileNotFoundError și AttributeError se termină rc1 în cazurile arhivate.</p>
+<p><strong>Implicație:</strong> Eșecul este corect observat, dar rc1 nu poate separa neconformitatea semantică de input ilizibil sau configurare greșită.</p>
+<p><strong>Adaptare:</strong> În fiecare helper existent, validează schema/fișierele și convertește numai erorile previzibile în diagnostic și cod documentat; nu ascunde erori de logică.</p>
+<p><strong>Recepție cerută:</strong> Fișierul valid funcționează; fiecare input invalid are diagnostic localizat; execuția incompletă nu este recepționată ca neconformitate analizată complet.</p>
+<p>Probe: <a href="cases/I02_corrupt/result.json">I02_corrupt</a>, <a href="cases/I02_empty_image/result.json">I02_empty_image</a>, <a href="cases/I02_empty_file/result.json">I02_empty_file</a>, <a href="cases/I03_corrupt_jar/result.json">I03_corrupt_jar</a>, <a href="cases/I07_missing_input/result.json">I07_missing_input</a>, <a href="cases/I06_wrong_relative_root/result.json">I06_wrong_relative_root</a>, <a href="cases/I11_dynamic_title/result.json">I11_dynamic_title</a>.</p>
+<h3>HC08 · P2 · Căutarea globală nu dovedește butonul din ecran și rol</h3>
+<p><strong>LIMITA_EURISTICA_DEMONSTRATA</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/citate_butoane.py</code>, liniile 18, 27.</p>
+<p><strong>Observat:</strong> Un citat din comentariu, altă formă sau un subșir este acceptat; ramura condiționată de rol nu este evaluată. În I07, K1 rămâne1, K1b devine0.</p>
+<p><strong>Implicație:</strong> Candidații textuali sunt utili; o potrivire nu demonstrează acțiunea, dreptul de utilizare, disponibilitatea în dialog ori starea ecranului.</p>
+<p><strong>Adaptare:</strong> Folosește inventarul existent cu proveniență clasă/metodă/etichetă și eliminitarea comentariilor acolo unde se cere. Pentru recepție execută separat AD_Form/AD_Menu/ZK cu rolul și limba din clonele native.</p>
+<p><strong>Recepție cerută:</strong> Se disting potrivire locală, globală, comentariu și drept nedovedit; testul nativ pozitiv/negativ pe rol rămâne necesar.</p>
+<p>Probe: <a href="cases/I06_comment/result.json">I06_comment</a>, <a href="cases/I06_other_form/result.json">I06_other_form</a>, <a href="cases/I06_substring/result.json">I06_substring</a>, <a href="cases/I06_role_hidden/result.json">I06_role_hidden</a>, <a href="cases/I07_foreign/result.json">I07_foreign</a>, <a href="cases/I07_comment/result.json">I07_comment</a>, <a href="cases/I07_dialog_only/result.json">I07_dialog_only</a>, <a href="cases/I11_comment_literal/result.json">I11_comment_literal</a>.</p>
+<h3>HC09 · P2 · K3 și K4 sunt candidați, nu validări de sens și aprobare</h3>
+<p><strong>LIMITA_VALIDARE_SEMANTICA</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/clase_corpus.py</code>, liniile 82, 91.</p>
+<p><strong>Observat:</strong> K3 detectează EN gol/numere/% și K3q ghilimele. Sensul opus cu aceleași cifre rămâne K3=0. Menționarea numelui TSV într-o propoziție fără aprobare suprimă K4.</p>
+<p><strong>Implicație:</strong> K6 numără rândurile de citit, nu confirmă lectura/valoarea legală. K4 verifică prezența unui nume, nu răspunsul consultantului.</p>
+<p><strong>Adaptare:</strong> Păstrează controalele K1–K6 informative, completează legăturile cerință/rând/decizie cu dovezi și lectură umană; recepția textului și drepturilor rămâne distinctă.</p>
+<p><strong>Recepție cerută:</strong> Rândurile fără EN, numeric diferite și neaprobate rămân deschise; traducerea și aprobarea au dovadă nominală, nu simplu contor0.</p>
+<p>Probe: <a href="cases/I07_empty_en/result.json">I07_empty_en</a>, <a href="cases/I07_percent_term/result.json">I07_percent_term</a>, <a href="cases/I07_same_digits_wrong_meaning/result.json">I07_same_digits_wrong_meaning</a>, <a href="cases/I07_quote_count/result.json">I07_quote_count</a>, <a href="cases/I07_unconfirmed/result.json">I07_unconfirmed</a>, <a href="cases/I07_filename_mention/result.json">I07_filename_mention</a>.</p>
+<h3>HC10 · P3 · Suplimentele fără extensie TSV sunt citite și redenumite în diagnostic</h3>
+<p><strong>DEFECT_COMPONENTA_REPRODUS</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/clase_corpus.py</code>, liniile 69, 73.</p>
+<p><strong>Observat:</strong> stray.txt este numărat ca supliment și raportat ca supliment/stray.tsv, deși această cale nu există.</p>
+<p><strong>Implicație:</strong> Ancora pentru verificare și numitorul corpusului devin ambigue.</p>
+<p><strong>Adaptare:</strong> Filtrează fișierele acceptate prin schema existentă sau păstrează extensia/calea reală în diagnostic și raportează explicit intrările neprevăzute.</p>
+<p><strong>Recepție cerută:</strong> Un fișier .txt neprevăzut nu apare ca .tsv; o resursă TSV validă este procesată cu calea reală.</p>
+<p>Probe: <a href="cases/I07_supplement_txt/result.json">I07_supplement_txt</a>.</p>
+<h3>HC11 · P2 · Capitolele duplicate pentru aceeași clasă sunt trunchiate silențios</h3>
+<p><strong>DEFECT_COMPONENTA_REPRODUS</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/manual_cap.py</code>, liniile 51, 56.</p>
+<p><strong>Observat:</strong> Două capitole sintetice pentru WTestForm, dar numai primul apare în rezultat; rc0 fără avertisment.</p>
+<p><strong>Implicație:</strong> Auditorul poate rata al doilea text în auditul nominal al clasei.</p>
+<p><strong>Adaptare:</strong> Adaptează extractorul existent să enumere toate potrivirile ori să oprească pe ambiguitate cu ancore; păstrează numitorul capitolelor.</p>
+<p><strong>Recepție cerută:</strong> Cu două capitole, ambele sunt vizibile sau duplicatul este refuzat explicit; cazul unic își păstrează ancora.</p>
+<p>Probe: <a href="cases/I11_duplicate/result.json">I11_duplicate</a>.</p>
+<h3>HC12 · P3 · Sintaxa, moștenirea și etichetele omonime cer ancore mai precise</h3>
+<p><strong>LIMITA_GRAMATICA_SI_OMONIMIE</strong>. Sursă: <code>Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/manual_cap.py</code>, liniile 17, 48, 59.</p>
+<p><strong>Observat:</strong> Clasa fără capitol/moștenită produce FĂRĂ CAPITOL rc0. Primul argument din expresie este ignorat; titlul din expresie poate produce AttributeError. Cheia omonimă folosește prima valoare; meniul în if(false) este afișat.</p>
+<p><strong>Implicație:</strong> Helperul este un extractor regex de sursă. Nu e parser Java complet și nu confirmă omologia titlu/manual sau accesul nativ.</p>
+<p><strong>Adaptare:</strong> Păstrează instrumentul, declară gramatica acceptată și raportează ambiguitățile/expresiile neacoperite. Leagă etichetele de catalogul real folosit; compară separat titlul și accesul din rularea nativă.</p>
+<p><strong>Recepție cerută:</strong> Capitolul neidentificat/ambiguu nu primește credit; ambele proveniențe ale cheii sunt vizibile; titlul și meniul efectiv au probă ZK/AD separată.</p>
+<p>Probe: <a href="cases/I11_missing/result.json">I11_missing</a>, <a href="cases/I11_inherited/result.json">I11_inherited</a>, <a href="cases/I11_dynamic_first_arg/result.json">I11_dynamic_first_arg</a>, <a href="cases/I11_dynamic_title/result.json">I11_dynamic_title</a>, <a href="cases/I11_homonym/result.json">I11_homonym</a>, <a href="cases/I11_changed_title/result.json">I11_changed_title</a>, <a href="cases/I11_inactive_menu/result.json">I11_inactive_menu</a>.</p>
+<h2>4. Fișe nominale și corelarea pipeline-ului</h2>
+<h3>R12-I02 · foi_contact.py</h3>
+<p><strong>Rol:</strong> Foi de contact din capturile inventariate<br><strong>Intrare normală:</strong> raport.tsv cu 11 ecrane și fișiere imagini sintetice; output nou<br><strong>Pipeline:</strong> raport.tsv/capturi→miniaturi și foi.md→lectură vizuală peer.<br><strong>Control:</strong> A09-C25; pipeline A09-P6; control peer A01.C13.<br><strong>Limită:</strong> rc0 atestă cel mult compunerea; nu dovedește că ecranele sunt corecte ori că testerul a deschis foile.</p>
+<p><a href="fise/R12-I02.json">Fișa cu identitate, cerință, actor, nativ/N/A, cazuri, efecte și limite</a>. Dependențele și consumatorii identificați în plan nu primesc automat credit de execuție din acest lot.</p>
+<h3>R12-I03 · fragment_public.py</h3>
+<p><strong>Rol:</strong> Clasificarea fragmentelor mascate față de textul public din JAR<br><strong>Intrare normală:</strong> Mască sintetică, JAR fixat, text public și token sintetic necunoscut<br><strong>Pipeline:</strong> Fraze sintetice de mască + JAR public + corpus→fragmente clasificate→recepție confidențialitate.<br><strong>Control:</strong> A09-C25; pipeline A09-P6; control peer A01.C13.<br><strong>Limită:</strong> Dict-ul public folosește basename și poate suprascrie o resursă omonimă. Bigram public nu certifică anonimizarea contextului întreg ori a imaginilor.</p>
+<p><a href="fise/R12-I03.json">Fișa cu identitate, cerință, actor, nativ/N/A, cazuri, efecte și limite</a>. Dependențele și consumatorii identificați în plan nu primesc automat credit de execuție din acest lot.</p>
+<h3>R12-I06 · citate_butoane.py</h3>
+<p><strong>Rol:</strong> Compararea citatelor RO cu etichetele și literalii reali<br><strong>Intrare normală:</strong> Lot mic, etichete.tsv și Java din snapshot; citat existent/inexistent<br><strong>Pipeline:</strong> Cadru lot + TSV + etichete/literali Java→citate negăsite→revizuire manuală.<br><strong>Control:</strong> A09-C25; pipeline A09-P6; control peer A01.C13.<br><strong>Limită:</strong> Nu impune exit nenul pentru citate negăsite. rc0 și existența unui literal oriunde nu sunt corectitudine UX.</p>
+<p><a href="fise/R12-I06.json">Fișa cu identitate, cerință, actor, nativ/N/A, cazuri, efecte și limite</a>. Dependențele și consumatorii identificați în plan nu primesc automat credit de execuție din acest lot.</p>
+<h3>R12-I07 · clase_corpus.py</h3>
+<p><strong>Rol:</strong> Controalele K1–K6 pe corpusul ajutorului<br><strong>Intrare normală:</strong> Inventar E, resurse RO/EN, etichete și referințe; consultanță ca sursă<br><strong>Pipeline:</strong> Inventar E/Java/TSV/consultant→K1–K6→candidați și numitori pe lot.<br><strong>Control:</strong> A09-C25; pipeline A09-P6; control peer A01.C13.<br><strong>Limită:</strong> K1/K5 sunt euristici declarate. Cifrele egale nu înseamnă sens identic; rc0 nu recepționează corpusul.</p>
+<p><a href="fise/R12-I07.json">Fișa cu identitate, cerință, actor, nativ/N/A, cazuri, efecte și limite</a>. Dependențele și consumatorii identificați în plan nu primesc automat credit de execuție din acest lot.</p>
+<h3>R12-I11 · manual_cap.py</h3>
+<p><strong>Rol:</strong> Corelarea capitolului manual cu meniul, titlul și etichetele<br><strong>Intrare normală:</strong> Clase E, ManualEvA/ManualReges, EvaMetadata/EvaSagaMenuDef, etichete<br><strong>Pipeline:</strong> ManualEvA/Reges + metadata/menu + etichete→capitol/titlu/citate→lectură manuală.<br><strong>Control:</strong> A09-C25; pipeline A09-P6; control peer A01.C13.<br><strong>Limită:</strong> Regex nu substituie parser Java sau drepturile native. NEGĂSIT ori FĂRĂ CAPITOL poate fi tipărit fără exit de eșec.</p>
+<p><a href="fise/R12-I11.json">Fișa cu identitate, cerință, actor, nativ/N/A, cazuri, efecte și limite</a>. Dependențele și consumatorii identificați în plan nu primesc automat credit de execuție din acest lot.</p>
+<h2>5. Registrul execuțiilor</h2>
+<p>Coloana „oracol observat” arată că s-a reprodus comportamentul prevăzut de probă; poate însemna chiar reproducerea unui defect. rc0, candidat NEGĂSIT și lipsă de date au semnificații diferite. Oracolele semantice independente sunt în <a href="semantic_oracle.json">semantic_oracle.json</a>.</p>
+<table><tr><th>Caz</th><th>Scop</th><th>rc</th><th>Oracol observat</th><th>Intrări</th></tr>
+<tr><td><a href="cases/I02_01_positive_11/result.json">I02_01_positive_11</a></td><td>11 rows, 22 distinct synthetic screenshots, two pages; independent pixel/order oracle</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_02_retry_11/result.json">I02_02_retry_11</a></td><td>Fresh repeat of 11-row baseline; byte hashes compared after all cases</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_missing_screen/result.json">I02_missing_screen</a></td><td>Synthetic missing_screen input; path escape remains within owned scratch; no real screenshot</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_missing_panel/result.json">I02_missing_panel</a></td><td>Synthetic missing_panel input; path escape remains within owned scratch; no real screenshot</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_reason/result.json">I02_reason</a></td><td>Synthetic reason input; path escape remains within owned scratch; no real screenshot</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_corrupt/result.json">I02_corrupt</a></td><td>Synthetic corrupt input; path escape remains within owned scratch; no real screenshot</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_empty_image/result.json">I02_empty_image</a></td><td>Synthetic empty_image input; path escape remains within owned scratch; no real screenshot</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_empty_file/result.json">I02_empty_file</a></td><td>Synthetic empty_file input; path escape remains within owned scratch; no real screenshot</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_header_only/result.json">I02_header_only</a></td><td>Synthetic header_only input; path escape remains within owned scratch; no real screenshot</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_duplicate/result.json">I02_duplicate</a></td><td>Synthetic duplicate input; path escape remains within owned scratch; no real screenshot</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_parent/result.json">I02_parent</a></td><td>Synthetic parent input; path escape remains within owned scratch; no real screenshot</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_absolute/result.json">I02_absolute</a></td><td>Synthetic absolute input; path escape remains within owned scratch; no real screenshot</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I02_long/result.json">I02_long</a></td><td>Synthetic long input; path escape remains within owned scratch; no real screenshot</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_public/result.json">I03_public</a></td><td>Known public bigram</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_private/result.json">I03_private</a></td><td>Synthetic unknown bigram</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_diacritics/result.json">I03_diacritics</a></td><td>NFD/ASCII normalization on synthetic words</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_nonpublic_dir/result.json">I03_nonpublic_dir</a></td><td>Matching text outside declared public resource directories remains nonpublic</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_empty_mask/result.json">I03_empty_mask</a></td><td>Coverage denominator witness empty_mask</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_empty_corpus/result.json">I03_empty_corpus</a></td><td>Coverage denominator witness empty_corpus</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_missing_corpus/result.json">I03_missing_corpus</a></td><td>Coverage denominator witness missing_corpus</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_empty_jar/result.json">I03_empty_jar</a></td><td>Coverage denominator witness empty_jar</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_ignored_extension/result.json">I03_ignored_extension</a></td><td>Coverage denominator witness ignored_extension</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_collision_False/result.json">I03_collision_False</a></td><td>Same basename in distinct allowed ZIP paths, inverse insertion order</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_collision_True/result.json">I03_collision_True</a></td><td>Same basename in distinct allowed ZIP paths, inverse insertion order</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_common_bigrams/result.json">I03_common_bigrams</a></td><td>Whole synthetic private phrase absent from public resources; every bigram separately public</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_corrupt_jar/result.json">I03_corrupt_jar</a></td><td>Corrupt ZIP fails via exception</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_local_name/result.json">I06_local_name</a></td><td>Exact local .nume recognized</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_known_label/result.json">I06_known_label</a></td><td>Known global label recognized</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_absent/result.json">I06_absent</a></td><td>Truly absent quote reported but exit0 remains informational</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_comment/result.json">I06_comment</a></td><td>Literal only in Java comment suppresses unknown candidate</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_other_form/result.json">I06_other_form</a></td><td>Quote belonging only to another form accepted globally</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_substring/result.json">I06_substring</a></td><td>Accidental substring of global unrelated literal</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_role_hidden/result.json">I06_role_hidden</a></td><td>Source contains role-conditional button; no AD/role evaluation by helper</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_empty_lot/result.json">I06_empty_lot</a></td><td>No rows in requested lot yields zero count/exit0</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_positive/result.json">I07_positive</a></td><td>One form, known label pair/field, no mismatch candidates</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_invented/result.json">I07_invented</a></td><td>Invented button yields K1 and K1b, still exit0</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_foreign/result.json">I07_foreign</a></td><td>Foreign form literal suppresses K1b, but K1 remains</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_comment/result.json">I07_comment</a></td><td>Comment literal suppresses K1b, K1 survives proper inventory comment removal</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_empty_en/result.json">I07_empty_en</a></td><td>Empty EN detected as K3</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_percent_term/result.json">I07_percent_term</a></td><td>Changed number set and percent count are two K3 candidates; K6 is count only</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_same_digits_wrong_meaning/result.json">I07_same_digits_wrong_meaning</a></td><td>Opposite synthetic meaning with identical numbers is not semantic translation checking</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_quote_count/result.json">I07_quote_count</a></td><td>Unequal quotation counts flagged K3q</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_wrong_label_en/result.json">I07_wrong_label_en</a></td><td>Known label with wrong EN pair flagged K2</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_unknown_field/result.json">I07_unknown_field</a></td><td>Unknown field flagged K5 informational</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_unconfirmed/result.json">I07_unconfirmed</a></td><td>Unmapped consultant reference flagged K4</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_filename_mention/result.json">I07_filename_mention</a></td><td>Filename mention without resolution suppresses K4; no approval semantics</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_supplement_txt/result.json">I07_supplement_txt</a></td><td>Non-TSV supplement is consumed and diagnostic relabels it .tsv</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_missing_input/result.json">I07_missing_input</a></td><td>Required consultant source absent raises exception</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_positive/result.json">I11_positive</a></td><td>Normal chapter/title/label/menu source and concatenated quoted text</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_reges/result.json">I11_reges</a></td><td>REGES special path enumerates two synthetic subjects</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_missing/result.json">I11_missing</a></td><td>Missing class chapter reported with exit0</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_duplicate/result.json">I11_duplicate</a></td><td>Multiple chapters for same class silently return only first</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_inherited/result.json">I11_inherited</a></td><td>Inherited form does not inherit chapter mapping</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_changed_title/result.json">I11_changed_title</a></td><td>Different manual and form title both printed, no equality verdict</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_unknown_quote/result.json">I11_unknown_quote</a></td><td>Unknown quote gets NEGĂSIT with exit0</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_comment_literal/result.json">I11_comment_literal</a></td><td>Comment-only literal accepted as LIT</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_inactive_menu/result.json">I11_inactive_menu</a></td><td>Source inactive menu still displayed; runtime/role accessibility is not proven</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_homonym/result.json">I11_homonym</a></td><td>Duplicate key in distinct label catalogs selects one without ambiguity diagnostic</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_dynamic_first_arg/result.json">I11_dynamic_first_arg</a></td><td>Legal Java dynamic first argument falls outside regex grammar</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I03_retry_public/result.json">I03_retry_public</a></td><td>Fresh repeat of public bigram baseline</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_retry_known_label/result.json">I06_retry_known_label</a></td><td>Fresh repeat of known label baseline</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_retry_positive/result.json">I07_retry_positive</a></td><td>Fresh repeat of corpus baseline</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_retry_positive/result.json">I11_retry_positive</a></td><td>Fresh repeat of manual baseline</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I06_wrong_relative_root/result.json">I06_wrong_relative_root</a></td><td>Unchanged file moved one level deeper; relative root resolves inside scratch but misses actual product inputs</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_dialog_only/result.json">I07_dialog_only</a></td><td>Source button only in dialog helper called by form; K1 informative cannot establish screen absence</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I07_empty_corpus/result.json">I07_empty_corpus</a></td><td>Empty screen inventory gives zero TSV and zero candidates with exit0</td><td>0</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+<tr><td><a href="cases/I11_dynamic_title/result.json">I11_dynamic_title</a></td><td>Chapter line discovered but nonliteral second argument causes unhandled regex None exception</td><td>1</td><td>Reprodus</td><td>Hashuri neschimbate</td></tr>
+</table><h2>6. Verificarea vizuală</h2>
+<p>Au fost deschise cele trei imagini: cele două foi normale și martorul cu captură lungă. Verificarea vizuală privește lizibilitatea artefactului sintetic, nu interfața aplicației. Foile normale sunt reproductibile byte-identic. Imaginea lungă evidențiază limita de scară.</p>
+<p><a href="visual/I02_01_positive_11/foaie_01.png">Foaia1, zece perechi</a> · <a href="visual/I02_01_positive_11/foaie_02.png">Foaia2, ultima pereche</a> · <a href="visual/I02_long/foaie_01.png">Captură lungă, text ilizibil</a></p>
+<h2>7. Checklist pentru predare și următoarea recepție</h2>
+<table><tr><th>Punct</th><th>Stare</th><th>Dovadă / condiție</th></tr>
+<tr><td>Poartă plan10/10 și SHA</td><td>Verificat</td><td>Plan și verdict A11 rehashuite înainte de execuție</td></tr>
+<tr><td>5surse exacte și dependente</td><td>Verificat</td><td>OID/SHA în preflight și fișe; fără patchuri de produs</td></tr>
+<tr><td>Pozitiv și contraexemplu per instrument</td><td>Executat cu limite</td><td>67 cazuri CLI, nu67 criterii primite</td></tr>
+<tr><td>Reluare în fixture proaspătă</td><td>Verificat</td><td>5reluări; stdout/rc echivalente; PNG/MD byte-identice pentru I02</td></tr>
+<tr><td>Persistență și curățare</td><td>Verificat local</td><td>Zero intrări modificate, zero servicii și scrieri operaționale; scratch restituit</td></tr>
+<tr><td>Peer tehnic A08</td><td>Solicitat</td><td>Revizuire separată, nu autoaprobare</td></tr>
+<tr><td>Recepție independentă A11</td><td>În așteptare</td><td>A11 reproduce martorii și primește/refuză explicit limitele</td></tr>
+<tr><td>Integrare nominală A12</td><td>În așteptare</td><td>Numai componentă parțială; nicio închidere T240/fișier/criteriu</td></tr>
+<tr><td>UI, roluri, limbă, AD, efect DB</td><td>Neexecutat în acest lot</td><td>Clone native și pipeline complet rămân cerute</td></tr>
+<tr><td>Consumatori shell/rapoarte complete</td><td>Neexecutat aici</td><td>Au loturi și responsabilități proprii; importul sau citarea nu contează ca execuție</td></tr>
+</table><p class="warn">Nu se acordă recepție integrală până la verificarea A11. Rezultatul acestui lot rămâne: cinci instrumente exercitate la nivel de componentă, cu defecte/limite documentate; zero închideri și fără certificarea backendului/frontendului aplicației din aceste probe textuale.</p>
+<p><a href="rezumat_predare.json">Rezumat JSON</a> · <a href="constatari.json">Constatări</a> · <a href="cleanup.json">Restituirea resurselor lot inițial</a> · <a href="cleanup_supplement01.json">Restituirea suplimentului</a> · <a href="MANIFEST_SHA256.json">Manifest SHA256</a></p></html>

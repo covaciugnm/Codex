@@ -1,0 +1,37 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\p01-r12-t240-batches.py",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-r12-t240-batches--e8b3d923.py",
+    "bytes": 4021,
+    "sha256": "5b3f967d73bb7b6f285e2f959354b74fae556e240c1cede3e42dd613aaa46d88"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-r12-t240-child.py",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-r12-t240-child--8171ba8d.py",
+    "bytes": 12313,
+    "sha256": "2dfbd81d15d9acd5d63eb3f9e32c68a9498238d698bc76b58835c0a7f14ce822"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-r12-t240-run.py",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-r12-t240-run--63c82401.py",
+    "bytes": 4659,
+    "sha256": "d7ef727a51180ff6b27a955ae0afe0a932aab23be2fd21f24c044c4e2bcacf02"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\p01-r12-t240-seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/p01-r12-t240-seal--2546a96e.py",
+    "bytes": 17361,
+    "sha256": "ec59e46a3a2e9ddef646c9518f1d29079b0d86b02ca4657a160d03eb5559764a"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A08_T240/Lot_01_final_v1/Raport_A08_T240_R12_lot01_v1.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A08_T240_R12_lot01_v1--8c287144.html",
+    "bytes": 6113,
+    "sha256": "ecdabd4bd54bf4d278af51b373d4b2c933092ff0585051caf5a530b0ecb469e9"
+  }
+]

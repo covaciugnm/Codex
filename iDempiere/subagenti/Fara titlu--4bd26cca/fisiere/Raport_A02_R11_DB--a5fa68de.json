@@ -1,0 +1,111 @@
+{
+  "utc": "2026-11-02T21:45:05.771912+00:00",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "plan_gate_sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+  "technical_code_review": "Confirmat până la commitul SQL și recitire printr-o conexiune PostgreSQL nouă, în clonă sintetică. Calitatea execuției integrale și a produsului nu sunt notate.",
+  "static_inventory": {
+    "file": "Triaj_nominal_174_SQL.json",
+    "sha256": "522e39561da2ef561a038176e750a253adf8c7bf83d04ce4ef60dd228c14a97b",
+    "raw_accepted": 139,
+    "raw_rejected": 174,
+    "named_triage": 174,
+    "statuses": {
+      "Dialect Oracle declarat; parserul PostgreSQL nu este aplicabil": 2,
+      "Script PostgreSQL brut respins, triaj de utilizare necesar": 10,
+      "Jasper cu legări reprezentative, SQL parsabil": 74,
+      "Șablon Jasper cu eroare reziduală sau bloc de exemple": 6,
+      "psql cu metacomenzi sau variabile, SQL transmis parsabil": 82
+    },
+    "initial_no_marker_breakdown": {
+      "Dialect Oracle declarat; parserul PostgreSQL nu este aplicabil": 2,
+      "Script PostgreSQL brut respins, triaj de utilizare necesar": 8,
+      "Jasper cu legări reprezentative, SQL parsabil": 38,
+      "Șablon Jasper cu eroare reziduală sau bloc de exemple": 4
+    },
+    "jasper_same_stem_files": 66,
+    "jasper_query_strings_with_valid_representative_binding": 69,
+    "jasper_equal_text_in_same_stem_file": 43
+  },
+  "behavioral_evidence": {
+    "file": "Probe_PG16_serii_documente_si_DDL.json",
+    "sha256": "2661384a5c9bb73557c03670a8848d0c0695c38f492fb048757627909c9a426f"
+  },
+  "file_records": [
+    {
+      "path": "idempiere/seeds/seed_eva_doctype_sequences_ro.sql",
+      "dispatch_id": "F65e549fcc8b2c0249b5f",
+      "owner": "A02",
+      "peer": "A10",
+      "git_oid": "79aa7e9ef50557717ae3dce42b207b8cae085f23",
+      "sha256": "70be7e48dce44325522269637b6013868986ce7f4a37e037646c6e88defd5585",
+      "line_references": [
+        61,
+        67
+      ],
+      "evidence": [
+        "Probe_PG16_serii_documente_si_DDL.json",
+        "Triaj_nominal_174_SQL.json"
+      ]
+    },
+    {
+      "path": "idempiere/seeds/seed_eva_doctype_sequences_ro_addendum.sql",
+      "dispatch_id": "F9b3c02cfd2139800df79",
+      "owner": "A02",
+      "peer": "A10",
+      "git_oid": "434f8652ebf1778e1e8558133e6dd211d53baad5",
+      "sha256": "d1c98344955c1011bda981ae5aed90ea64f5fbac041c35318e8699f07ce65514",
+      "line_references": [
+        32,
+        37
+      ],
+      "evidence": [
+        "Probe_PG16_serii_documente_si_DDL.json",
+        "Triaj_nominal_174_SQL.json"
+      ]
+    },
+    {
+      "path": "idempiere/plugins/amerpsoft-hr/org.amerpsoft.com.idempiere.personnelpayroll/sql/postgresql/utils/amn_schema_alter_table.sql",
+      "dispatch_id": "F629ad060e56a6b7f2e88",
+      "owner": "A03",
+      "peer": "A09",
+      "git_oid": "2cc529e2e88e74ad9222f48944c80b7c551fe8ee",
+      "sha256": "574755ec15340af44c3550716806f8b130a51cda890421df1c6c83f63e65313b",
+      "line_references": [
+        52,
+        55
+      ],
+      "evidence": [
+        "Probe_PG16_serii_documente_si_DDL.json",
+        "Triaj_nominal_174_SQL.json"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "A02.R11.F01",
+      "verdict": "Defect demonstrat în scripturile originale de configurare; manifestarea este condiționată de coliziunea ID-ului rezervat.",
+      "actor": "Operatorul care aplică seedul de numerotare românească pe clientul 11.",
+      "native_method": "C_DocType.DocNoSequence_ID → AD_Sequence.AD_Sequence_ID, tip document cu IsDocNoControlled etichetat Y; FK nativ simplu pe ID.",
+      "normal": "În GardenWorld, pentru MM Receipt 122, ID-ul 1000300 liber este creat pentru EVA NIR. Al doilea apel păstrează identitatea de business.",
+      "counterexample": "În alte copii ale aceleiași baze, ID-ul 1000300 sau 1000308 aparține deja unei secvențe diferite a aceluiași client, prefix STR-. Seedul inițial și cel addendum încheie fără eroare atât prima dată cât și la reluare.",
+      "effect": "C_DocType 122 (recepție) și 145 (pro forma), în două baze distincte, rămân legate după commit de secvența străină ca scop, prefix STR-. Un comparator care refuză identitatea de business necorespunzătoare oprește tranzacția și păstrează starea anterioară. Nu am emis sau numerotat documente ERP, nici nu am identificat coliziuni în cabinete reale.",
+      "remediation": "Rezolvă secvența după identitatea stabilă și client înainte de legarea tipului. Folosește mecanismul nativ de alocare a ID-urilor și relația C_DocType→AD_Sequence existentă. La un ID ocupat de altă secvență, tranzacția trebuie să refuze fără a modifica tipurile. Reia probele pentru ID liber, ID compatibil și ID ocupat."
+    },
+    {
+      "id": "A02.R11.F02",
+      "verdict": "Defect demonstrat în fișierul de mentenanță Amerpsoft.",
+      "actor": "Administratorul care ar aplica manual utilitarul de schemă AMN.",
+      "native_method": "Aliniere între nullable PostgreSQL pe AMN_Schema și AD_Field/AD_Column.IsMandatory.",
+      "normal": "Comparatorul local care desparte corect instrucțiunile și elimină delimitatorul suplimentar modifică toate cele 45 de coloane sintetice și valoarea din dicționar în N.",
+      "counterexample": "Fișierul original trimis prin psql ON_ERROR_STOP se oprește la ALTER TABLE. Toate cele 45 de constrângeri NOT NULL rămân active pe conexiunea nouă; scriptul ulterior de dicționar nu se execută.",
+      "effect": "Un administrator care execută întregul fișier nu aplică migrarea. Nu s-a demonstrat utilizarea automată de către instalarea EVA și nici o stare defectă în baza operațională.",
+      "remediation": "Dacă fișierul este parte a unei migrări utilizate, aplică o migrare versionată iDempiere, aliniază modelul de dicționar și DDL într-o tranzacție și verifică filtrul asupra AD_Field și AD_Column."
+    }
+  ],
+  "scope_limits": [
+    "Nu s-a demonstrat un efect asupra numerotării emise ori un incident în producție. Testul de seed folosește tabele și date GardenWorld cu PK/FK native relevante, fără procese Java sau fereastră UI.",
+    "Cazurile T227/T333 de meniuri/permisiuni nu sunt reevaluate prin acest test, iar T201 a rămas separat.",
+    "Șabloanele Jasper au fost legate cu valori sintetice pentru gramatică; numărătorii nu echivalează cu compilare, roluri, afișarea raportului sau integritatea datelor.",
+    "Cele 6 respingeri după substituția Jasper și 10 fișiere PostgreSQL brute se mențin nominal pentru verificarea utilizării. Dintre ele, 3 au șabloane-soră cu interogări acceptate."
+  ]
+}

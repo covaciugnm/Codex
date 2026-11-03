@@ -1,0 +1,226 @@
+{
+  "utc": "2026-11-02T22:14:23.746791+00:00",
+  "reviewer": "A11 independent",
+  "checkpoint": "R11 A12 Val_02 v2 și peer A01 V7, recepție limitată",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "decision": "ACCEPTAT_CA_REGISTRU_INTEGRU_SI_RECEPTIE_PARTIALA; EXECUTIE_INTEGRALA_DESCHISA",
+  "plan_gate": {
+    "score": 10,
+    "scope": "Numai planul v3 deja sigilat",
+    "sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14"
+  },
+  "whole_audit_score": null,
+  "product_score": null,
+  "scope_decisions": [
+    "Manifestul A12 Val_02 v2 și toate 15 fișierele sale, cele 101 surse declarate,110 artefacte din 8 manifeste de domeniu și 652 fișe istorice au fost verificate prin hash;7.025 trimiteri de dovadă se rezolvă la pointerul declarat.",
+    "Toate 6.709 identitățile, bloburile și modurile concordă cu dispatch-ul și arborele Git 2fe90; titularul și peer-ul sunt păstrați. Faptul că un fișier este inventariat ori parsabil nu certifică comportamentul său.",
+    "V2 corectează numai cele 2 numărătoare rezumative și metadatele de versiune. Etalonul de 2.619 criterii și matricea nu sunt rescrise; textul, taskul, cheia canonică și verdictul R10 sunt păstrate.",
+    "Cele 12 criterii de pe5 taskuri au observații directe parțiale. Cele 7 cazuri nominale sunt legate semantic de subcondiții. Eticheta R11_oracle_complete pentru T201-R2-013 și014 înseamnă oracolul componentului de alocare/rollback; nu recepție integrală de UI/PDF/ACL ori a taskului.",
+    "Peer A01 V7 este acceptat numai pentru domeniul declarat. Cele 20 controale din dovada A01 sunt concordante; A11 a executat încă 7 controale proprii pe exact child V7. Containmentul este un audit hook cooperativ, nu sandbox OS; acoperă numai primitivele și testele numite.",
+    "Cele 55 surse originale V7 au 42 procese exit0 și 13 exit1;1056 callPassed,20 callFailed,5 setupFailed,53 skipped. Tranzițiile skipped/setup sunt distincte; unele scripturi main nu au aserțiuni pytest. Aceste numere nu reprezintă 55 suite trecute sau13 defecte de produs.",
+    "Stubs tenant_context, ERP, acceptarea 500 în unele teste T32 și pragmele SQLite MEMORY/synchronousOFF rămân limite explicite. Probele nu dovedesc autentificarea/RBAC nativă, citirile ERP reușite, crash-durability sau fluxul complet.",
+    "În ultima captură 996 taskuri totale / 693 P01 nu există task nou/eliminat sau schimbare de stare față de captura precedentă. T240/T315/T316 schimbă numai observații/progres/timestamp. T352 este diferență față de începutul auditului, nu nouă închidere în această rundă.",
+    "A11 lot04 și peer A01 V7 sunt ulterioare timestampului Val_02 v2. Sunt suplimente distincte; consolidarea root 55 / T58 V10 rămâne pentru următoarea recepție. Niciun rezultat ulterior nu este inserat retroactiv în Val_02."
+  ],
+  "independent_counts": {
+    "technical_files": 6709,
+    "structure_or_format_checks": 6683,
+    "readable_text_without_formal_contract": 26,
+    "first_observation": 6709,
+    "files_by_axis": {
+      "inspected": 246,
+      "static": 6683,
+      "exercised": 92,
+      "bindingVerified": 36,
+      "reproduced": 42,
+      "blocked": 2
+    },
+    "fully_audited_files": 0,
+    "tasks": 652,
+    "criteria": 2619,
+    "criteria_with_direct_partial_observation": 12,
+    "tasks_with_direct_observation": 5,
+    "new_events": 2980,
+    "new_event_files": 2782
+  },
+  "component_case_decisions": [
+    {
+      "case": "A12.T201.CONCURRENCY",
+      "criteria": [
+        "T201-R2-013",
+        "T201-R2-014"
+      ],
+      "accepted": "Asociere semantică limitată la subcondiția declarată; nu închidere task.",
+      "actor": "Două conexiuni SQL pe client11; fără actor ZK.",
+      "method": "TestT201Registre --clona, alocarea reală din JAR și SQL pe GardenWorld PG16.",
+      "limitation": "Compară numai alocarea și tranzacția sintetică. Nu certifică rubricile UI, PDF sau ACL.",
+      "whole_task_credit": false
+    },
+    {
+      "case": "A12.T201.GUARDS",
+      "criteria": [
+        "T201-R2-017",
+        "T201-R2-019"
+      ],
+      "accepted": "Asociere semantică limitată la subcondiția declarată; nu închidere task.",
+      "actor": "client11 SQL sintetic",
+      "method": "Triggerul original, UPDATE/DELETE și schimbare a câmpurilor.",
+      "limitation": "Criteriile includ și PO.deleteEx, UI și cronologie după lock; nu toate sunt în acest martor.",
+      "whole_task_credit": false
+    },
+    {
+      "case": "A12.T171.BANK",
+      "criteria": [
+        "T171-R2-001"
+      ],
+      "accepted": "Asociere semantică limitată la subcondiția declarată; nu închidere task.",
+      "actor": "Motor JVM, arhivă SQLite și TSV sintetice",
+      "method": "Cititor/ComparatorBanca din JAR; test original cu căi și descriptor adaptate verificabil Windows.",
+      "limitation": "Nu verifică toate mișcările bancare reale din2026, nici procesul de buton pe acest commit.",
+      "whole_task_credit": false
+    },
+    {
+      "case": "A12.T257.GUARD",
+      "criteria": [
+        "T257-R3-002"
+      ],
+      "accepted": "Asociere semantică limitată la subcondiția declarată; nu închidere task.",
+      "actor": "Motor JVM și dubluri din test",
+      "method": "Garda din JAR, condiții sursă și fabrica nativă exercitate în harness.",
+      "limitation": "Proba nativă de import/postare din R10 rămâne pe vechiul Git; nicio balanță nouă comparată aici.",
+      "whole_task_credit": false
+    },
+    {
+      "case": "A05.G2.BOM.CONCURRENCY",
+      "criteria": [
+        "T355-R2-001",
+        "T355-R2-002"
+      ],
+      "accepted": "Asociere semantică limitată la subcondiția declarată; nu închidere task.",
+      "actor": "Gestio­nar G2 și responsabil rețete, doi scriitori SQL",
+      "method": "StocWms.aplica/NotaSetWms pe adaptor JDBC; A11 SQL independent și versiune BOM comună.",
+      "limitation": "Native MPPProductBOM.getLines/PO/ZK și Fact_Acct rămân de probat. T331 e dependență contextuală; T355-R2-004 cutii/muncă rămâne neexecutat.",
+      "whole_task_credit": false
+    },
+    {
+      "case": "A07.SENT.CONFIRMATION",
+      "criteria": [
+        "T216-R2-002",
+        "T216-R2-006",
+        "T216-R2-007"
+      ],
+      "accepted": "Asociere semantică limitată la subcondiția declarată; nu închidere task.",
+      "actor": "Operator/job conceptual pentru document deja TRIMIS",
+      "method": "DAO și confirmare în tabelă sintetică PostgreSQL, JAR și clase recompilate, fără HTTP către canal.",
+      "limitation": "Subcondiție de confirmare după TRIMIS. Emiterea comenzii validate, factura, afișarea pe site și potrivirea plății rămân în afara probei.",
+      "whole_task_credit": false
+    },
+    {
+      "case": "A06.IMPORT.LINES",
+      "criteria": [
+        "T216-R2-001"
+      ],
+      "accepted": "Asociere semantică limitată la subcondiția declarată; nu închidere task.",
+      "actor": "Validare în client11, linie inactivă și linie client22 separate",
+      "method": "DAO real plus validator real pe PG16, expresia EXCLUS.",
+      "limitation": "Nu demonstrează creare prin UI a liniei inconsistente sau emiterea documentului.",
+      "whole_task_credit": false
+    }
+  ],
+  "nomenclature": {
+    "canonical_missing_preserved": 417,
+    "historical_subtask_suffix_count": 99,
+    "rule": "417 chei canonice absente și subtaskurile istorice cu sufix .01 etc. sunt păstrate conform registrului; nu se inventează un număr Cxx.Txxxx pentru a închide formal acoperirea. Taskurile canonice principale folosesc P01.Cxx.Txxxx."
+  },
+  "rejected_inferences": [
+    "Toate fișierele au fost auditate funcțional fiindcă există o observație pe fiecare.",
+    "92 fișiere exercitate = 92 funcții / 92 taskuri complete.",
+    "652 fișe și 2.619 criterii inventariate = 652 taskuri validate.",
+    "42 exit0 = 42 fluxuri end-to-end ERP ori 55 suite trecute.",
+    "19/19 sau109/109 sau38/38 pe un comparator/harness înseamnă toate datele reale și toate ramurile produsului.",
+    "Afișare UI, JSON local ori SQL adaptor = efect contabil nativ.",
+    "Lipsa datei istorice exacte blochează codul: se păstrează nedocumentată conform instrucțiunii utilizatorului."
+  ],
+  "proofs": [
+    {
+      "path": "executie/R11_fisiere/A11/Control_independent_A11_val02_v2.json",
+      "sha256": "0187b685f894a91b0c75270361fce2b84e329a243331c0987c2460681eb82f53",
+      "bytes": 138466
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Control_manifeste_delta_A11_val02_v2.json",
+      "sha256": "f6c96969ea89264fabe5e45450250d521084397b3d1a5938d6a954ab06089556",
+      "bytes": 20039
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Control_harness_V7_A11_val02_v2.json",
+      "sha256": "054c8fe15c39a1bc8682f537e751e29f422fa7ace76b82a25b31f5842b16977e",
+      "bytes": 2296
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Martor_harness_V7_A11_val02_v2.py",
+      "sha256": "4232a5cf14cf9d5b9ee09b8eb7bb831bf8e4be44ae693d47608b89262e89ae93",
+      "bytes": 2808
+    }
+  ],
+  "input_receipts": [
+    {
+      "path": "executie/R11_fisiere/A12/Val_02/MANIFEST_val_02_v2.json",
+      "sha256": "46571dac6326bff593a3ad8c05741593156954541b5a421be26cd575821a85a7",
+      "bytes": 3915
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Val_02/Handoff_val_02_v2.json",
+      "sha256": "6a400efbe6e44b798fdd6f3fd06b4ea5d77d1ffc28a805deb6f91f8a8ae714af",
+      "bytes": 49352
+    },
+    {
+      "path": "executie/R11_fisiere/Control_harness_root/Manifest_peer_A01.json",
+      "sha256": "cb27129f50b8750d70333cb64601162c1872e39fed535f4a53f9f8e9167dd49a",
+      "bytes": 1254
+    },
+    {
+      "path": "executie/R11_fisiere/Control_harness_root/Peer_A01_harness_v7.json",
+      "sha256": "aaa8d9c9ee6a2318862ce909f88b043a685432fb5b98e0615b2f66f705675b69",
+      "bytes": 27476
+    }
+  ],
+  "next_round_checklist": {
+    "path": "executie/R11_fisiere/A11/Checklist_A11_dupa_val02_v2.json",
+    "sha256": "ec6038418138529c71d72d543d2b2193cbfc6b7b5a0fa091cf99a7f48f03b035",
+    "bytes": 78438
+  },
+  "remaining": {
+    "whole_files_accepted": 0,
+    "complete_tasks_accepted_in_R11": 0,
+    "complete_contracts_accepted": 0,
+    "open_contracts": 17,
+    "criteria_without_direct_R11_case": 2607,
+    "technical_files_without_exercise_observation": 6617,
+    "meaning": "Resturile sunt dimensiuni distincte; nu se însumează și nu devin automat număr de defecte."
+  },
+  "method_copies": [
+    {
+      "path": "executie/R11_fisiere/A11/A11Val02Check.py",
+      "sha256": "7ea8f468a5b1e73b18b5179136c2f99c9355b4648c4b0230dc93100dabbbc203",
+      "bytes": 11697
+    },
+    {
+      "path": "executie/R11_fisiere/A11/A11HarnessV7Checkpoint.py",
+      "sha256": "afb83d4b62b4572d1695206e0f2996d4b19dc0744878193a81ad0733c3c11cd9",
+      "bytes": 5504
+    },
+    {
+      "path": "executie/R11_fisiere/A11/A11Val02ManifestDelta.py",
+      "sha256": "51ae82ef70dd79e798576d27a72821a3d350fd2649c28a700afb4d4dd72533a7",
+      "bytes": 2849
+    }
+  ],
+  "cleanup": {
+    "A11_fixture_removed": true,
+    "outside_canary_unchanged": true,
+    "foreign_listener_received": false,
+    "operational_writes": false
+  },
+  "closed_here": "Numai checkpointul de integritate și recepția limitată; auditul integral nu este finalizat."
+}

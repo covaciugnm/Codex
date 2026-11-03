@@ -1,0 +1,125 @@
+{
+  "utc": "2026-11-02T23:04:27.994349+00:00",
+  "head": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "base": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "status": "FINAL_R12_INVENTORY_DISPATCH_PLAN_ONLY",
+  "previous_immutable_manifest": {
+    "path": "executie/R12_plan_delta/Manifest_A12_receptie_R12.json",
+    "sha256": "cc5b50857ea435dd22d6816580c7aad6c5a72f2f8f943a0faca970e075502ae3",
+    "bytes": 7908
+  },
+  "authoritative": {
+    "summary": {
+      "path": "executie/R12_plan_delta/A12/v2/Rezumat_inventar_dispatch_R12_v2.json",
+      "sha256": "f895a22fef0d60fab7e7074de1c381757400176df3939a3cf4987a8b9bae1aa9",
+      "bytes": 18394
+    },
+    "catalog": {
+      "path": "executie/R12_plan_delta/Catalog_Git_integral_per_fisier_R12_v2.jsonl.gz",
+      "sha256": "a9c63061696ea8eb0d435478ded3e27ef7f66dd52a5904e66d66cc44a65cc95a",
+      "bytes": 7118001,
+      "raw_sha256": "4a557ddd3e3d62da5a49d21d93458019962e7797d5999fa191f9c86e38f63069"
+    },
+    "dispatch": {
+      "path": "executie/R12_plan_delta/Dispatch_tehnic_integral_R12.jsonl.gz",
+      "sha256": "c1ffe46a0674fc5eb4a379b83edbee1519cb46253cba6f60d758a3e632a21471",
+      "bytes": 482333
+    },
+    "inverse": {
+      "path": "executie/R12_plan_delta/A12/v2/Index_invers_R12_v2.jsonl.gz",
+      "sha256": "41dd9cdbfe52a2a6b51eb413fccfcc4efe7eacb11d231a2ad84cd5b91d2a4f0b",
+      "bytes": 462972,
+      "raw_sha256": "0ea4658c6fc9ec333f4332418ed7a8575caa30c4e95079b0fd6e9d27048fa79f"
+    },
+    "forward": {
+      "path": "executie/R12_plan_delta/A12/v2/Matrice_forward_index_R12_v2.jsonl.gz",
+      "sha256": "59570dc7622b52dc8cbde0eb4dab4342309f6eb6fd2690a28d41d3f807fa8014",
+      "bytes": 440718,
+      "raw_sha256": "6129ac25ca9797228f4244a21dfdf0f18b48ffb6debac2cfc43a1fa4c4827086"
+    },
+    "documentation": {
+      "path": "executie/R12_plan_delta/A12/v2/Documentatie_562_clasificare_v2.json",
+      "sha256": "0dc074ad2cd8ba1a61935d57f52d4676d0722f38f38eb1c7ade525dc23a9143e",
+      "bytes": 1137534
+    },
+    "fiches": {
+      "path": "executie/R12_plan_delta/A12/Index_19_fise.json",
+      "sha256": "149af7e5d2f8bec1da99e182a1303cf8b2daa2c55478c77b445a6697eff323f2",
+      "bytes": 6326
+    },
+    "controls": {
+      "path": "executie/R12_plan_delta/A12/Controale_audit_R12_I01_I19.json",
+      "sha256": "d4166fa75eee7c61641382052463a46d6ce3e6813bb566b2da0a78f2141b0e88",
+      "bytes": 53817
+    }
+  },
+  "artifacts": [
+    {
+      "path": "executie/R12_plan_delta/A12/v2/build_correction.py",
+      "sha256": "11824f6785f6171c716abf6df54087ba67560e5f42ad0462891c429125527260",
+      "bytes": 8013
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Corectie_nominala_T315_T316.json",
+      "sha256": "7171cca1780cfc4e35fba11ad3ab86bfcf2d80636005a67d0198cb875f775d30",
+      "bytes": 7984
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Documentatie_562_clasificare_v2.json",
+      "sha256": "0dc074ad2cd8ba1a61935d57f52d4676d0722f38f38eb1c7ade525dc23a9143e",
+      "bytes": 1137534
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Index_invers_R12_v2.jsonl.gz",
+      "sha256": "41dd9cdbfe52a2a6b51eb413fccfcc4efe7eacb11d231a2ad84cd5b91d2a4f0b",
+      "bytes": 462972
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Manifest_4_sources_documentare.json",
+      "sha256": "4f07cbe8916f0fe9ae226cf6b0e7533d3d2f7f794c9f058dc4a1ebd60d9d7478",
+      "bytes": 2203
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Matrice_forward_index_R12_v2.jsonl.gz",
+      "sha256": "59570dc7622b52dc8cbde0eb4dab4342309f6eb6fd2690a28d41d3f807fa8014",
+      "bytes": 440718
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/QA_index_invers_R12_v2.json",
+      "sha256": "779ba4e9a794c0060203eab6bf4d25054b66428333abffbc64d57e0b3b6aa425",
+      "bytes": 2573
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Rezumat_inventar_dispatch_R12_v2.json",
+      "sha256": "f895a22fef0d60fab7e7074de1c381757400176df3939a3cf4987a8b9bae1aa9",
+      "bytes": 18394
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Sources_lues/Documentatie/echipa-2026-10-09/T315-retururi-documente-native/14s_decizie_orchestrator_lotB_predat.md",
+      "sha256": "5666a456e5e6fb2eac460156a69857cdad5032a8d75c9a640c8487f0f073557c",
+      "bytes": 7960
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Sources_lues/Documentatie/echipa-2026-10-09/T315-retururi-documente-native/15_brief_auditor_cod_lotB_r1.md",
+      "sha256": "2e813a2e607c5f4a8b5bd14b478faf63450f4fd57523a3be391fb3fcf0281a3e",
+      "bytes": 5642
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Sources_lues/Documentatie/echipa-2026-10-09/T316-canale-b2b/23b_decizii_orchestrator_x201_dialoguri.md",
+      "sha256": "076979fce73858d5aaa0e18bd6ee992b11939b6f3cf3c39c6feeb55bc6383638",
+      "bytes": 3253
+    },
+    {
+      "path": "executie/R12_plan_delta/A12/v2/Sources_lues/Documentatie/echipa-2026-10-09/T316-canale-b2b/23c_decizii_orchestrator_mutanti_A_vii.md",
+      "sha256": "e788a874e4891d993c338b0468570621a3ac62332f30190d3d1e05f927825654",
+      "bytes": 2999
+    },
+    {
+      "path": "executie/R12_plan_delta/Catalog_Git_integral_per_fisier_R12_v2.jsonl.gz",
+      "sha256": "a9c63061696ea8eb0d435478ded3e27ef7f66dd52a5904e66d66cc44a65cc95a",
+      "bytes": 7118001
+    }
+  ],
+  "zero_product_tests": true,
+  "no_self_reference": true
+}

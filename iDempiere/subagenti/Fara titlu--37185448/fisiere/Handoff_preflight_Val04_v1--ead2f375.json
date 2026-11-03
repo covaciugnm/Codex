@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-03T01:52:43.368464+00:00",
+  "candidate": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "server_HEAD_at_capture": "8c0695de36b50ede569c6d318715db0af11fcbff",
+  "previous": {
+    "path": "executie/R12_fisiere/A12/Val_03/Handoff_R12_Val03_v2.json",
+    "sha256": "58c7de3c525c69af3dd41799eed8e485f682e577233ea47f9acef3d7bda15dbb",
+    "bytes": 6333
+  },
+  "previous_independent_receipt": {
+    "path": "executie/R12_fisiere/A11/Val03_registru/Verdict_A11_R12_Val03_registru_v1.json",
+    "sha256": "e284136e81d919cb5b8b6dec6ea5ade3af24a59a60ad80e89b4226752a859114",
+    "bytes": 13133
+  },
+  "supplement": {
+    "path": "executie/R12_fisiere/A12/Val_04/Supliment_populatie_0143.json",
+    "sha256": "d1f2cddc17a71cce255175e4f0e8ee4168a8bedd0280b03a669e304712bb57fd",
+    "bytes": 49244
+  },
+  "comparison": {
+    "path": "executie/delta/2026-11-03T01-43-37-057Z/Comparatie_ultimul_checkpoint.json",
+    "sha256": "07200ab436445cdb10e179d7031a7d2db64897e15168877154284c7cabc6b724",
+    "bytes": 12397
+  },
+  "intake": {
+    "path": "executie/R12_fisiere/A12/Val_04/Fisa_intake_T386_v1.json",
+    "sha256": "35258a1e8934edf98258c6825f658cd0a0ba178611aa318bfe588bff6dd83c42",
+    "bytes": 11419
+  },
+  "zones": {
+    "path": "executie/R12_fisiere/A12/Val_04/Dispozitii_10_zone_preflight_Val04.json",
+    "sha256": "91f204a55e1558f80c759b7ba5f42ddc00af1c4bb5603d2034ae218f62f812fa",
+    "bytes": 14624
+  },
+  "A11_applicability": {
+    "path": "executie/R12_fisiere/A11/Val04_preflight/Verdict_A11_aplicabilitate_R12_0143_v1.json",
+    "sha256": "0c16fd002cb11ffb0acc5e374e5cc5ce2327c9007ca93d4e0326042a2a05fc4d",
+    "bytes": 14737
+  },
+  "A11_A12_supplement_reception_pending": true,
+  "new_product_execution_credit": 0,
+  "next_action": "A11 receives this supplement independently; parent dispatches only approved concrete next protocols. Preserve the 652/2619 cohort; any T386 execution first needs nominal scope authority.",
+  "score": null
+}

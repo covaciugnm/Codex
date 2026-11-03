@@ -1,0 +1,95 @@
+{
+  "utc": "2026-11-02T23:32:54.310656+00:00",
+  "head": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "status": "A12_CHECKPOINT_FOR_INDEPENDENT_RECEPTION",
+  "files": [
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/build_val01.py",
+      "sha256": "2c6a075af7044509f2f95fae0ac6c001119e69b5d818f0c85c97083225580bbe",
+      "bytes": 17150
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/Constatari_componente_T240.json",
+      "sha256": "20fc966762e54e4f0d94963b72badaa7cef9d31dc5a2441ad00609c2dca4d61f",
+      "bytes": 13221
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/Evenimente_2_instrumente.json",
+      "sha256": "879f876acffcadfdc5b7cc5ca07f83a8ac9b58dfff5d510218292d532b8ecd6f",
+      "bytes": 5808
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/Handoff_R12_Val01.json",
+      "sha256": "ab1111fc909d039af8aeab5d262f84fbe7dce56290e1989b2d0f33af608b29ce",
+      "bytes": 7803
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/index.html",
+      "sha256": "909aba41165cf0124231e13c8b7b1baa79214fc8e4210fbe460df4148ee49fda",
+      "bytes": 3157
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/Matrice_taskuri_criterii_R12_Val01.json",
+      "sha256": "5bcdc45bd9904611720ee12145b587414f67ed8533857f5589232b16f6a7001f",
+      "bytes": 9343
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/QA_R12_Val01.json",
+      "sha256": "313782731b7ad8034e37a429eb35da647ef665a144e43943eb2560eab1f20e8d",
+      "bytes": 1582
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/Reconciliere_cazuri_mutanti_si_limite.json",
+      "sha256": "5675908e6ac8a1ba808835688dc01a47c1cfb7ee8dd70e117f3a6f0b11fea41a",
+      "bytes": 7732
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/Registru_6728_R12_Val01.jsonl.gz",
+      "sha256": "9529d48ca4766f5aceae1bc9a9748e1f52dbdee0926723962bbc7d70c50587a2",
+      "bytes": 420856
+    },
+    {
+      "path": "executie/R12_fisiere/A12/Val_01/Situatie_10_zone_R12_Val01.json",
+      "sha256": "11eabe6bd76b370f9bf4fc72b46a4d57f55fa9ff004ca4fd1f073f684364055f",
+      "bytes": 3166
+    }
+  ],
+  "inputs": [
+    {
+      "path": "executie/R12_fisiere/A08_T240/Lot_01_final_v1/MANIFEST_A08_T240_R12_lot01_v1.json",
+      "sha256": "c4fdf5311d70f9dcbdbb37c24db802021065b34162accc98525dd40ad4514c4d",
+      "bytes": 22008
+    },
+    {
+      "path": "executie/R12_fisiere/A08_T240/Lot_01_final_v1/Raport_A08_T240_R12_lot01_v1.json",
+      "sha256": "b787ebbacdbed52aa5dfb3ac8b61d4e2ad331d043b489306b110986afbe5aa69",
+      "bytes": 400272
+    },
+    {
+      "path": "executie/R12_fisiere/A11/T240_lot01/Verdict_A11_R12_T240_lot01_v1.json",
+      "sha256": "3d0bdd5cfc5010cf8cdd994a4c7d1ed2205f3d973250eb9592129cc5a55ea371",
+      "bytes": 8467
+    },
+    {
+      "path": "executie/R12_fisiere/A11/T240_lot01/Sigiliu_A11_receptie_T240_lot01_v1.json",
+      "sha256": "23d6eee3345cf05a84e5a7ffe4dd9cb8d76e49f943d2d8ac52b27f22311462c8",
+      "bytes": 3511
+    },
+    {
+      "path": "executie/R12_plan_delta/Manifest_A12_receptie_R12_v2.json",
+      "sha256": "d5506b3dc3b62ac666aedca0c0c3200baf660dacb4e5b78b5977193577cf9bd2",
+      "bytes": 5361
+    },
+    {
+      "path": "executie/R12_plan_delta/Plan_delta_R12_v2.json",
+      "sha256": "4aeeaf61d73efa1a1155e9eecbbcc5564ddfeee4cda918fa5fa04c97f2ef7276",
+      "bytes": 216978
+    },
+    {
+      "path": "executie/R12_plan_delta/A11_verdict_plan_delta_R12_v2.json",
+      "sha256": "84e3735906d868f2153bc6b71c8f0e0e7a0211367ba4d3df5f8509d008d1f2a4",
+      "bytes": 62353
+    }
+  ],
+  "no_self_reference": true
+}

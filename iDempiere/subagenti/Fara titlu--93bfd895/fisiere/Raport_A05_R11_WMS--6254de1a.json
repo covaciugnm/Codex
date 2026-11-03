@@ -1,0 +1,75 @@
+{
+  "utc": "2026-11-02T21:40:41.184151+00:00",
+  "executor": "A05",
+  "subject": "G2 — aceeași versiune de rețetă schimbată concurent la prima ambalare",
+  "id": "A05.R11.G2.BOM.1",
+  "commit": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "plan_gate": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+  "previous_failure_unrelated": {
+    "T329_R10": "Garda de cost multischema și ASI rămâne deschisă separat. Nu este retestată aici.",
+    "T330_R10": "Suita integrală anterior neexecutată rămâne o poartă proprie. Această probă nu o închide."
+  },
+  "source_spec": {
+    "file": "Documentatie/echipa-2026-10-09/T355-seturi-wms-ambalare/05_spec_T355.md",
+    "git_object": "435ec34a8406a86f4288325bd87d858a073af544",
+    "old_object": "435ec34a8406a86f4288325bd87d858a073af544",
+    "source_sha256": "a470a0618ffbffac31990e4bed1ca7a4f2303ea131342e2e103b71bf002615ea",
+    "dispatch_id": null,
+    "owner": null,
+    "peer": null
+  },
+  "spec_lines": [
+    98,
+    99,
+    103,
+    183
+  ],
+  "delta": "Sursele gărzii BOM și ale ambalării nu s-au schimbat față de R10. Proba din R11 este nouă. Fișierul de test de picking modificat ajustează verificările structurale ale ajutorului și ale butoanelor.",
+  "actors": [
+    "gestionarul G2 ambalează 1 set din 2 piese",
+    "responsabilul de rețete salvează 3 piese pe aceeași versiune în cealaltă tranzacție",
+    "gestionarul G2 dezambalează pe locatorul indicat"
+  ],
+  "normal": "Cu editare după commit-ul ambalării, garda vede o versiune cu stoc pozitiv și refuză; G2 are aceleași 10 piese după dezambalare.",
+  "concurrent": "Cu editare cât timp prima ambalare este deschisă, READ COMMITTED permite gărzii să vadă zero rânduri pozitive. Corectarea la 3 este confirmată și, apoi, ambalarea este confirmată. Dezambalarea pune 3 în locator; recitirea independentă totalizează 11 din 10. Repetat de două ori pentru JAR și două ori pentru aceleași surse recompilate.",
+  "threshold": "Defect de concurență confirmat la nivel de componente + PostgreSQL. Verificarea de severitate și reproducerea nativă PO/OSGi sunt în așteptare.",
+  "action": "Înainte de a citi componența sau a valida editarea, ambii scriitori trebuie să serializeze pe același identificator de versiune PP_Product_BOM și firmă. Explorați întâi blocarea tranzacțională a rândului nativ BOM, cu ordine fixă și recitire după obținerea lacătului. Păstrați garda actuală pentru cazul serial. Test de recepție cu două sesiuni PO native, inclusiv rollback, două gestiuni ale aceleiași firme și o versiune independentă neblocată.",
+  "counts": {
+    "git_jar_races": 2,
+    "recompiled_races": 2,
+    "serial_controls": 2,
+    "native_complete": 0,
+    "product_grade": null
+  },
+  "evidence": {
+    "file": "WMS_proba_tranzactii_G2.json",
+    "sha256": "c89d6edd8c54b09fba9f46d661a223cb9e23aa0de3b004b3b33d98ecc28a1653",
+    "provenance": {
+      "A05WmsVersionWitness.java": "2a194d7fbb1c7becd952e845b4728ba44a66308f8fbb55b555b9f6e7d0af4327",
+      "a05-r11-wms.py": "ba307af2031e1ef2fe7108c8ce54f3a442a89673b08739f700538617e470411c"
+    }
+  },
+  "file_records": [
+    {
+      "file": "Fisa_EvaNotaSetBomEvents.json",
+      "sha256": "af8bfaf4c1cabae115a0627060929ed2637e6bad0255f312c9b0ff4a58c1e4c6"
+    },
+    {
+      "file": "Fisa_NotaSetWms.json",
+      "sha256": "674edcd417381d4b637648f4b937e3c28d609748773301f8e1c91b423799065d"
+    },
+    {
+      "file": "Fisa_StocWms.json",
+      "sha256": "aa245d455adaf5cc0e4caa1591f96c1af45a4f2ca20ae62cbd50d6bd594a8831"
+    },
+    {
+      "file": "Fisa_NotaSetWmsProces.json",
+      "sha256": "9e2cb898e1b6362c6d9fdc132c05c2615897572d039f17e4f6963a4dce2b16c4"
+    },
+    {
+      "file": "Fisa_ListaMaterialeWms.json",
+      "sha256": "baa984bd6f7d45933afce0ad1fc3b94b396231afc6481b093f0a867690c54dfb"
+    }
+  ],
+  "independent": "Predat A11, fără recepție integrală."
+}

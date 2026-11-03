@@ -1,0 +1,16 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A03/Raport_A03_R11_fiscal_v2.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A03_R11_fiscal_v2--bc14f8e5.html",
+    "bytes": 3187,
+    "sha256": "6e172ee3bc7cde74d81d785b0d52f0505d06467dd24fb3a5d77b1e14cac402c3"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A03/A03_peer_N05_v1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A03_peer_N05_v1--d5c0bf37.json",
+    "bytes": 7451,
+    "sha256": "a9e499e4db9c74d43add7f0401daafbf0e5a03ff6fd5ca7d30015088ca34464d"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "title": "Identitate CPP/CPA și adresele după deconectare în magazin",
+  "utc": "2026-11-02T21:38:42.219087+00:00",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "gate": {
+    "plan_ref": "executie/R11_plan_delta/Plan_delta_R11_v3.json",
+    "plan_sha256": "676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd",
+    "independent_decision_ref": "executie/R11_plan_delta/A11_verdict_plan_delta_R11_v3.json",
+    "independent_decision_sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+    "accepted_score": 10
+  },
+  "source_files_measured": 5,
+  "source_file_records": [
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_F48cec7fc1984a1f74668.json",
+      "sha256": "60bb0faac7940463a310c099f68ec54e1b2804be39b6d51993ec55700e04a0c1",
+      "bytes": 11129
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_F42e80669f9734b52040d.json",
+      "sha256": "87aa7dfcfcfb616ddf7696b9d3a65c12cb885c80889e45732b81a8e2fd158010",
+      "bytes": 11113
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_Fe13e2db7878b79a6284b.json",
+      "sha256": "1c39d3dc7880326a3fc7f0473b91ba543ae2966236921715f00fd7633e28432b",
+      "bytes": 11124
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_Faf727a18e5ff8a61c428.json",
+      "sha256": "b4f5a9af2c4b20db1b2531c6fa09bb85b5bc7dc012d3fa85dfc377bc0388879f",
+      "bytes": 11053
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_Fbe0b797197b50f636fa6.json",
+      "sha256": "2c75a00917743eb9c74f5d30ef1a2b2ca773a0404df520b7a9b070e1aaa3892f",
+      "bytes": 7443
+    }
+  ],
+  "findings": [
+    {
+      "path": "executie/R11_fisiere/A08/A08.R11.F01.json",
+      "sha256": "949c1b20f5685f8a9a9728f0f9f3d3b6affea4e23d91d350d053557dc6caa129",
+      "bytes": 3336
+    },
+    {
+      "path": "executie/R11_fisiere/A08/A08.R11.F02.json",
+      "sha256": "4ce987a441d915fab884db5ed1852876d5313810c9cee5613965750b536d8393",
+      "bytes": 3192
+    }
+  ],
+  "evidence": [
+    {
+      "path": "executie/R11_fisiere/A08/Observatii_browser_storefront.json",
+      "sha256": "9ab3f64f67e11f7b8d6b0c2b3efe008ac1ad103d22c0704e299fb4260a9b6604",
+      "bytes": 5649
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Control_import_catalog.json",
+      "sha256": "f094f1b3fcde1a33c1647f45d2030c0f089db2f80639bb1dc58b0a9597c7552b",
+      "bytes": 1348
+    }
+  ],
+  "summary": [
+    "În cataloagele cu CPP urmat de CPA, ambele viewports au afișat Primar R11/12 RON și au transmis PID-CPP-100. POST a răspuns 200, a golit coșul și a salvat PID-CPA-200/60 RON (total cu transport 89,99). Controlul cu SKU distinct și controlul cu ordinea inversă au salvat PID-CPP-100/12 RON (total 41,99). Importul original a acceptat și persistat ambele ordini.",
+    "La 1280 și 390 px, sesiunea clientului a dispărut. La checkout, câmpul vizibil și lista au păstrat adresa-santinelă ALEEA-CANAR-A08-173 inclusiv după reîncărcare. Canalul B și un profil nou nu au avut adresă disponibilă."
+  ],
+  "scope": "Browser Chromium 1280×860/390×844, storefront în copie independentă cu SHA verificat, Flask, stocare sintetică pe disc, 5 comenzi și import în ambele ordini; fără autentificare de comisionar sau C_Order, fără apel extern. Fișierele de traduceri/teme sunt auxiliari identificați prin hash, nu dovadă de deployment.",
+  "next": [
+    "Repetă importul și documentul de comandă pe un adaptor iDempiere sintetic, cu două produse native, EAN/SKU suprapuse între domenii, conversii diferite și retrimiteri.",
+    "Testează și schimbarea directă A→B, expirarea sesiunii și sincronizarea mai multor taburi, distinct pentru clienți și comisionari."
+  ],
+  "prior_findings": "Diferite de pierderea adresei distincte de facturare și de rescrierea contului la checkout din R1, precum și de problemele A06 de selecție a liniilor după import.",
+  "additional_external_prerequisites": "Nicio licență, date de client sau acces extern nu au fost necesare pentru reproducere. Efectul asupra unui document nativ, variantele de comisionar și existența în canale active rămân pentru loturi independente.",
+  "cleanup": {
+    "isolated_server_shutdown": true,
+    "fixture_removed": true,
+    "production_writes": 0
+  },
+  "product_grade": null,
+  "peer": "PENDING"
+}

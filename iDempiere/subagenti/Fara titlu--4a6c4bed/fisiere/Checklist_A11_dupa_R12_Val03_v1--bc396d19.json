@@ -1,0 +1,218 @@
+{
+  "utc": "2026-11-03T01:26:48.443246+00:00",
+  "reviewer": "A11",
+  "head": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "status": "CHECKLIST PENTRU RUNDA URMĂTOARE; NU IMPLEMENTĂRI ȘI NU RECEPȚIE GLOBALĂ",
+  "peer_A03": {
+    "path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A03\\A03_peer_N05_v1.json",
+    "sha256": "a9e499e4db9c74d43add7f0401daafbf0e5a03ff6fd5ca7d30015088ca34464d"
+  },
+  "A03_disposition": "ACCEPTATE cele4calificări din peer, după rehash5surse/OID și confruntare cu cerințele beneficiarului; numai lectură. Formulările de aici au prioritate în consolidare față de expresiile prea generale FIX01/FIX05 ale raportului A05 sigilat.",
+  "communication": "Evidența cantitativă WMS11 din10; nu inventar fizic. QtyOnHand10/facts0/count308 nu validează solduri G1. G2 este necontabilă. La dezambalare nu se recreează cutiile consumate și manopera.",
+  "items": [
+    {
+      "id": "V03-N01",
+      "owner": "coordonator/A12/A11",
+      "priority": 0,
+      "objective": "Fixarea corpusului și a cerinței înaintea următoarei execuții",
+      "checklist": [
+        "Reverifică GitHub HEAD, serverHEAD, mod/OID și populația/stările/criteriile; nu confunda origin/master cu working tree operațional.",
+        "Compară cu df85 și ultimul registru sigilat; OID egal păstrează identitatea, nu acordă automat recepție nouă.",
+        "Cerință sau metodă schimbată: addendum concret și verificare independentă înaintea testului. Notele10/10 ale planului rămân numai ale planului.",
+        "Păstrează originalele și toate erorile de calibrare; noile dovezi au sigiliu și pointeri noi."
+      ],
+      "done_when": "Corpusul, actorul, native reuse, metoda, contraexemplul și efectul persistent sunt nominale; A11 acceptă aplicabilitatea."
+    },
+    {
+      "id": "V03-N02",
+      "owner": "A05, peer A11/A03",
+      "priority": 1,
+      "objective": "Recepția remedierii N05 prin aceleași mecanisme native",
+      "checklist": [
+        "Leagă rezultatul de A05.R11.G2.BOM.1/N05 existent; nu dubla defectul.",
+        "Păstrează PP_Product_BOM/PO/Trx și handlerul existent; coordonează aceeași versiune între editor și proces, cu recitire sub protecție și ordine stabilă a blocărilor.",
+        "Reproduce C01 la buildul remediat: PID/xid, izolare, invizibilitate înaintea barierei, refuz/commit exact și balanțe recitite separat.",
+        "Controale: editare înainte de operație, după commit cu seturi existente, după dezambalare totală; două G2 cu aceeași rețetă; mutare între două BOM; componente multiple.",
+        "Rollback în ambele tranzacții, retry, timeout/deadlock și ordine inversă; nu echivala rezultat AD_PInstance cu commit extern.",
+        "Componenta recuperabilă revine exact pe CPP/lot/locator conform consumului; ambalajele consumate și manopera nu se recreează automat."
+      ],
+      "done_when": "Conservare demonstrată pe piesele recuperabile și efecte persistente, inclusiv concurență. Niciun credit pentru inventar fizic ori alte funcții."
+    },
+    {
+      "id": "V03-N03",
+      "owner": "A03/A04 cu peer A11",
+      "priority": 1,
+      "objective": "G1 contabil, G2 necontabil: costuri și documente native",
+      "checklist": [
+        "Reconcilează seed/core/AD_Process/DocType/schema înaintea execuției; nu considera LastBuildInfo placeholder rezolvat de isBuildOK.",
+        "Execută pe clonă procesele native relevante DocAction și postarea, cu actori/roluri nominale; măsoară rândurile și sumele Fact_Acct aferente, nu doar numărul global.",
+        "G2 nu are postare contabilă; identitatea CPA nu creează un stoc contabil suplimentar pentru setul dezasamblabil.",
+        "Cutiile efectiv consumate și costul muncii se înregistrează o singură dată în G1, cu legătura operațională și control de retry/rollback.",
+        "Testează annulare/retur parțial/eroare după pas intermediar; separă corecția autorizată de recuperarea automată a pieselor.",
+        "Nu echivala QtyOnHand cu sold valoric contabil."
+      ],
+      "done_when": "Documentele, sumele, referințele, stocurile și contraexemplele au recepție independentă pe contractele contabile, nu doar un count constant."
+    },
+    {
+      "id": "V03-N04",
+      "owner": "A06 cu peer A11",
+      "priority": 1,
+      "objective": "Rezervări G3 prin cititori nativi și proces real",
+      "checklist": [
+        "Extinde constatarea SQL SO/PO din lot04 la rezervări native create în clonă; păstrează SO/PO distincte.",
+        "Verifică separat clientul, depozitul, produsul, IsActive, ASI/lot și ownership înaintea reutilizării metodei native.",
+        "Compară sursele RezervareStoc și FisaCanalProces, formula reală a disponibilului, clamp/floor și rezervările altor fluxuri; nu dubla cantitățile T22/seturi.",
+        "CPP/CPA și combinațiile S1/S2 consumă aceeași capacitate comună; comenzi concurente pe canale, anulare/retry și agregare G1/G2 multiple."
+      ],
+      "done_when": "Rezervările SO influențează corect disponibilul canalului, PO nu sunt deduse ca vânzări, iar efectul real API/DB este măsurat."
+    },
+    {
+      "id": "V03-N05",
+      "owner": "A08/A01/A05/A07 cu peer A11",
+      "priority": 1,
+      "objective": "Frontend ZK și fluxul operațional complet cu rol",
+      "checklist": [
+        "Rol autentic în clona nativă, cabinet/firmă/canal și căile CUI; verificați accesul direct și negativele pe alte firme/canale.",
+        "Meniuri și taburi distincte G1/G2/WMS/comenzi/canale, liste de setări și constrângeri care împiedică combinații invalide.",
+        "Comanda se administrează numai în EVA: preluare gestionar→verificări→operații pregătitoare→pick→aviz→validare vânzări/automat→AWB și factura la momentul configurat.",
+        "Siteul canalului permite catalog/comenzi/situații comisionar cu drepturi; nu exportă administrarea operațională din EVA.",
+        "Testează refuzurile nominale în UI, actualizarea după commit, eșec/retry, mobil și scanare când echipamentul este disponibil.",
+        "Leagă captura și metadatele de fereastra efectiv deschisă; vizibilitatea reală, nu doar existența în DOM."
+      ],
+      "done_when": "Actorii văd și pot face exact operațiile permise, cu confirmarea persistentă a fiecărui pas; o captură fără backend nu închide fluxul."
+    },
+    {
+      "id": "V03-N06",
+      "owner": "A02/A05/A06 cu peer A11",
+      "priority": 1,
+      "objective": "Identități interne CPP/CPA și gestiuni multiple",
+      "checklist": [
+        "CPP și CPA au identități diferite chiar pentru produsul similar; fără reutilizarea perpetuă a codului intern și fără dependență de SKU/EAN.",
+        "Verifică unicitate, concurență, dezactivare/import/ștergere-restaurare și istoricul asocierilor; două ID noi într-o fixture nu dovedesc invarianta perpetuă.",
+        "G1.1… și G2.1… sunt nominale pe locatori/gestionari; verifică perechile, transferul și respingerea perechilor între firme.",
+        "Produse/seturi în CPP sau CPA ori ambele, cu rețetă1P+ambalaj+muncă și set cumpărat indivizibil conform politicii."
+      ],
+      "done_when": "Invariantă demonstrată pe backend/DB și prevenirea erorilor în UX, cu același identificator în comenzi, pick și documente."
+    },
+    {
+      "id": "V03-N07",
+      "owner": "A10/A08/A09/A06 cu peer A11",
+      "priority": 2,
+      "objective": "Adaptarea instrumentelor de probă și verificarea consumatorilor",
+      "checklist": [
+        "Păstrează19 instrumente doar parțial verificate; nu confunda originalele Python/JS cu comparatoarele Bash cu stuburi.",
+        "Corectează rc salvat, numitor, lipsa rapoartelor/stale și atribuire cauzală a setup-error la mutant.",
+        "Identitate JAR: fără duplicate ascunse de dictCRC; verifică membru și payload, hash și proveniență.",
+        "Colector: vizibilitate, identitatea ferestrei, restaurarea limbii la eroare, N03/refuz CLI și excepțiile nominale.",
+        "Cleanup: token dobândit valid, release verificat; mesajul de succes nu este probă.",
+        "Recepție cu originalele și contraoracole; niciun rezultat helper nu substituie fluxurile ERP."
+      ],
+      "done_when": "Consumatorul respinge probe incomplete ori ambigue și păstrează cauza reală, fără a falsifica acoperirea."
+    },
+    {
+      "id": "V03-N08",
+      "owner": "A12/coordonator/A11",
+      "priority": 0,
+      "objective": "Registru nominal și resurse",
+      "checklist": [
+        "Rehash manifestele și fiecare pointer; separă fișiere/cazuri/evenimente/criterii/taskuri.",
+        "652 fișe și2619 criterii istorice nu primesc recepție automată; data exactă de finalizare lipsă rămâne nedocumentată.",
+        "N05:46 surse=29 static+11 trasee metode+2 utilizări tip/record+3 fixture/binding+1 metadate.",
+        "Nicio închidere de contract din acest checkpoint; păstrează toate17.",
+        "A05 laborator restituit; cele6 rădăcini scratch respinse automat rămân explicit și nu se reîncearcă prin altă metodă.",
+        "Publică rezultatul numai după recepția A11 a registrului final."
+      ],
+      "done_when": "Identitățile și limitele rămân verificabile și nu se pierde nicio constatare ori resursă reținută."
+    }
+  ],
+  "contracts": [
+    {
+      "id": "D01",
+      "scope": "routing/tenant/firmă/canal",
+      "state": "OPEN"
+    },
+    {
+      "id": "D02",
+      "scope": "CPP/CPA/G1/G2",
+      "state": "OPEN"
+    },
+    {
+      "id": "D03",
+      "scope": "asamblare, cutii și muncă o singură dată",
+      "state": "OPEN"
+    },
+    {
+      "id": "D04",
+      "scope": "G3 disponibilitate comună",
+      "state": "OPEN"
+    },
+    {
+      "id": "D05",
+      "scope": "comandă/pick/aviz/livrare",
+      "state": "OPEN"
+    },
+    {
+      "id": "D06",
+      "scope": "plăți, ramburs, retururi",
+      "state": "OPEN"
+    },
+    {
+      "id": "D07",
+      "scope": "NIR/furnizor",
+      "state": "OPEN"
+    },
+    {
+      "id": "D08",
+      "scope": "T329 cost multischemă",
+      "state": "OPEN"
+    },
+    {
+      "id": "D09",
+      "scope": "T330 recepție proprie",
+      "state": "OPEN"
+    },
+    {
+      "id": "D10",
+      "scope": "UX/canale/siteuri",
+      "state": "OPEN"
+    },
+    {
+      "id": "D11",
+      "scope": "AD/upgrade",
+      "state": "OPEN"
+    },
+    {
+      "id": "D12",
+      "scope": "volum/cozi",
+      "state": "OPEN"
+    },
+    {
+      "id": "D13",
+      "scope": "note SAGA",
+      "state": "OPEN"
+    },
+    {
+      "id": "D14",
+      "scope": "retururi parțiale",
+      "state": "OPEN"
+    },
+    {
+      "id": "D15",
+      "scope": "fiscal",
+      "state": "OPEN"
+    },
+    {
+      "id": "D16",
+      "scope": "închidere lună",
+      "state": "OPEN"
+    },
+    {
+      "id": "D17",
+      "scope": "WMS mobil/scanare",
+      "state": "OPEN"
+    }
+  ],
+  "global_score": null,
+  "product_changes_made_by_A11": 0,
+  "new_product_executions_in_this_document": 0
+}

@@ -1,0 +1,625 @@
+{
+  "utc": "2026-11-02T22:03:09.130605+00:00",
+  "reviewer": "A01",
+  "scope": "Independent limited peer review of root V7 isolation adapter and receipt, not a new execution of 55 original suites. Historical A01 report and root seals not modified.",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "gate_sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+  "root_receipt_sha256": "737446e418f77f0e7acc1173782585fa3e91d88e25f1806c2ef5303192e56617",
+  "root_child_sha256": "37865626d0fda79f17caafe7ee6e59829b8aff2027f01728c72f9a61f314210a",
+  "root_runner_sha256": "f7c8e008aa9387b5d79583d1f87602b408bd4871e1298c13fa850b7c7f2655cc",
+  "root_sources_manifest_sha256": "96c7b681d99d406afaf0787145f4cd434f649d642f0923e5753f5e3987e820bf",
+  "independent_result": "ACCEPTED_WITH_EXPLICIT_LIMITS",
+  "independent_checks": 20,
+  "all_independent_checks_passed": true,
+  "outside_canary_unchanged": true,
+  "parent_process_listener_connections": 0,
+  "temporary_fixture_removed": true,
+  "adapter_static": {
+    "replacement_occurrences": 1,
+    "source_sha256": "9a5d6858a77647f86775b8b61c225999ceadb0d45a16063e7ebd463d84a46bd8",
+    "peer_comparisons_preserved": true,
+    "code_object_peer_counterexample_passed": true
+  },
+  "receipt_summary": {
+    "original_source_files": 55,
+    "exit_zero": 42,
+    "exit_nonzero": 13,
+    "pytest_stage_counts": [
+      {
+        "stage": "call",
+        "outcome": "failed",
+        "count": 20
+      },
+      {
+        "stage": "call",
+        "outcome": "passed",
+        "count": 1056
+      },
+      {
+        "stage": "call",
+        "outcome": "skipped",
+        "count": 13
+      },
+      {
+        "stage": "setup",
+        "outcome": "failed",
+        "count": 5
+      },
+      {
+        "stage": "setup",
+        "outcome": "skipped",
+        "count": 40
+      }
+    ],
+    "per_file": [
+      {
+        "file": "backend/tests/test_invoice_flow.py",
+        "exit": 0,
+        "pytest_call_passed": 6,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "b779417da84c70a2d012b35a7b87457b609b4f32e90e83207e8980a0001ec630",
+        "git_blob": "e4a19c8cf21ff5971675e45010316cc319987b8c",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_fiscal_treatment.py",
+        "exit": 0,
+        "pytest_call_passed": 19,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "d27d7d7140ca870afca483ee7a28f59de92d15f84a62ddb13fe51fab89b1f0bc",
+        "git_blob": "639207eea1d0eb6ca5684165ce9acd2c5285db36",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_idempiere_rest_doc_actions.py",
+        "exit": 0,
+        "pytest_call_passed": 7,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "f3a56f62e094e4f41f0306ed208ca8ea362d827139e2bfd640dc45124d84996b",
+        "git_blob": "c9beaaada6d1c05cd6fba2cf410ca8ebe1074949",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_idempotency.py",
+        "exit": 0,
+        "pytest_call_passed": 2,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "92c49048eb121a2427dc66ac78cd02be70861fd9a68c0f2094a21bc0ae8d0421",
+        "git_blob": "e1730587a0093953cc0dce496cad8f378611866f",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_userprefs.py",
+        "exit": 0,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "f514fdb01f4c9805779c7e0dc0cdd72226841b0d6f4f62d0e1fb23d07e550502",
+        "git_blob": "ece0ceb01dadfc145c7f028dc1afa4fdd7faaaa2",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_product_full.py",
+        "exit": 0,
+        "pytest_call_passed": 43,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "fb2db0f43429aff951fc574f42bb94684945208944217cc95919619ef49e268f",
+        "git_blob": "555295da70a6d91fd016b919cfbb87a134770062",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_currency.py",
+        "exit": 0,
+        "pytest_call_passed": 20,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "285089ac710e377b2d0102b8dad924c2a84cf4a1a449d1b993eb70833ad20400",
+        "git_blob": "f0e3dc90621d1fb9b1ec5463a4e1a19f564ee9f3",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_invoice_separation.py",
+        "exit": 0,
+        "pytest_call_passed": 14,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "d501e076aa854923d41f7872e092403a13ecd264c1496033f1dfca9f897de02c",
+        "git_blob": "cf71c35dea63755c176414f50adba9be4e9ee40a",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_document_series.py",
+        "exit": 0,
+        "pytest_call_passed": 12,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "649bd1b16b8a7a82a6903cb295bc5fbd620606965167f64fe927c56ab6b2ec94",
+        "git_blob": "b4a4c73ffb6725af052637a704c930bc9387b8c7",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_client_map_per_cabinet.py",
+        "exit": 0,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "00bd69ecc73463d2cbf6cc6011376058a466bbe0c4603ca09574aee09b3aa7c6",
+        "git_blob": "af0589fcb6e044c1052f2e9911e982c35cc394cf",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t173_factura_numar_dupa_validare.py",
+        "exit": 0,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "fa50ade4bb55d67b9656a46f295608362df8c0581fe29ee129cdb7577426e170",
+        "git_blob": "a7b950c2f1af9df251e2f9091f31351f52314d81",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_cashbank.py",
+        "exit": 0,
+        "pytest_call_passed": 25,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "95a7c289f3005d17e02fa801a06753079c191e7a9817f1af0f524af2d633784f",
+        "git_blob": "4d4856fb088b8da64a4ac0ea5edf0f936e1dfa51",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_partners.py",
+        "exit": 0,
+        "pytest_call_passed": 4,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "89ca8065af65e3b88a185d5db2b61cf35c36ccd7a12e6ed246f0661bd152bc5d",
+        "git_blob": "f9bb5a1c87b743225ac3dac3e0b2132a38d3493b",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_health.py",
+        "exit": 0,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "7074ea98b577df3eae28f6e78cc7305b065294b504374c05f5ff5eb7828fa6ba",
+        "git_blob": "950fea48decd4c9253874081b4233ce48899e155",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_onboarding.py",
+        "exit": 0,
+        "pytest_call_passed": 28,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "adb47ad2d0c642e47b65d65087438a8882f7068064479266a4e0aa077c13a0b9",
+        "git_blob": "274fa4244bfa80bd23d4026a50c2ee81a0ab37ef",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_onboarding_t40l1.py",
+        "exit": 0,
+        "pytest_call_passed": 13,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "935d3b22364d3f778274d854e76f1431ab2189b2ab71a3d9d670db8ca9338a2e",
+        "git_blob": "e8263640a677ed9e69b123cf4103331de18c35b6",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_taxhub.py",
+        "exit": 0,
+        "pytest_call_passed": 8,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "9df965d183e108334841beb5ad9f5d9c99afa14039f5cd01beae923753fe3b4e",
+        "git_blob": "49060b7322c4432ba540594981088132c1241e19",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t58_close_month.py",
+        "exit": 1,
+        "pytest_call_passed": 30,
+        "pytest_call_failed": 4,
+        "pytest_setup_teardown_nonpass": 2,
+        "source_sha256": "80751907f287abc04aad01ccf3545691e451407ebed22b03c7d1d7050213b383",
+        "git_blob": "4a8ebce172c835858588448d8d08d38cb8c1814c",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_efactura.py",
+        "exit": 0,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "b8bf8134445da5017f92c7ba3ef37f6427e97850fd9a7aa47f95d568b3b4bc2e",
+        "git_blob": "da4263f4e9741124001afb19d219908c02fa3a27",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_reconciliation.py",
+        "exit": 0,
+        "pytest_call_passed": 24,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "f76a67d99cdc6b5795024fb08d27908fff216534f1555dbc180b25318fca098e",
+        "git_blob": "f4b49f40ca539f31ccb0e983da949219e2287e5c",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t32_l6i_firma.py",
+        "exit": 0,
+        "pytest_call_passed": 368,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "0f811d6e4da66ddfb8fe084f220c067b600574f72d995ce27a5a4b8d48158c2c",
+        "git_blob": "35fc992400f0679758ca8787915b53463665f3b8",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t32_l6k_audit.py",
+        "exit": 0,
+        "pytest_call_passed": 11,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "5e485ccaed69e06f98b94845d4e6f56a65c5ec55cbd36f4582944ae4189908a2",
+        "git_blob": "e08bc2cdb19ae82d875cfbf01a37e678231d1d1b",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t32_l6l.py",
+        "exit": 0,
+        "pytest_call_passed": 4,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "91b2dc1b77d3513ac5a25a32c0aa8e75f64e1ad95fda725325aad98ba443a697",
+        "git_blob": "70852b5f85d6b1e96826213a117932523d9fa7f7",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_bank_psd2.py",
+        "exit": 0,
+        "pytest_call_passed": 10,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "91f0b777c0a5566e565a9ea036c363cfd42e73609960458b64a19d8bef80e4b1",
+        "git_blob": "77d67bd64ac42247e857cc44e1f2a171362f2dee",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t32_c1b_readdb_org.py",
+        "exit": 0,
+        "pytest_call_passed": 6,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "b459283098c240792b767cbf66b1651d764b5dbde9be0015fa12f31e08edae39",
+        "git_blob": "85975d8558f1ef5e1309be9353f48bfc34ae61eb",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t32_l6j.py",
+        "exit": 0,
+        "pytest_call_passed": 25,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "ae8e89d9aa3ed8b976c216bea6c504662452f4191c2eb05780caeb127e477cdd",
+        "git_blob": "b6c8c02d115dd38ec4fde504b3597b42912ff272",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t32_l6h_citiri.py",
+        "exit": 0,
+        "pytest_call_passed": 234,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "ac3ecd685c1cace17eddf949af4b20200306560518f063fa9f9f70534aa749b1",
+        "git_blob": "10f366624ee80179ce44f60c67e7a43dbe252e1a",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t22_releu.py",
+        "exit": 0,
+        "pytest_call_passed": 14,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "72113a88ef337b133bc49840ccb4a74678969d475128c79a77881d20c158e021",
+        "git_blob": "00f3a8422491defb4e322bda0415f0432de9d1f9",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_t28_baselinker_auth.py",
+        "exit": 0,
+        "pytest_call_passed": 9,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "57c5d75c818c829f6991db89f8bdf895a3d18ab8e92ce36795304ebee8c3ac8b",
+        "git_blob": "da0e7a83b16df37bbafd238b1fd0425e2ade06de",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_tenant_isolation_116.py",
+        "exit": 0,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 20,
+        "source_sha256": "98efdada5f7c028121121de82c90ba1b1e0e1897ca318198d034e6823bdc2055",
+        "git_blob": "c7ac4b2fb38367518d1924eb9fe26437e257e18c",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_idempiere_process_policy.py",
+        "exit": 0,
+        "pytest_call_passed": 8,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "fb2e3e8e315737d3f6378ecdb528d81b375f09077dd1d87723fbe84548910603",
+        "git_blob": "90c5970a9a64add175196ecd4d62f83145a1dfe3",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_idempiere_motor_engine.py",
+        "exit": 0,
+        "pytest_call_passed": 4,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 18,
+        "source_sha256": "0f21f3a4524e574c8fd79c01671a7483df2256d375b90d1045fac6ad0231890b",
+        "git_blob": "b27f64f9c10f7d63957abd649c6ed196f97603ba",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_idempiere_client_mock.py",
+        "exit": 0,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "1e2158f6f8a0753b04e919f385173651c65f0ad6f046398797bb64c795aafe4b",
+        "git_blob": "a7ebf533629684a0c6e7c1163066092da913899e",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_export.py",
+        "exit": 0,
+        "pytest_call_passed": 16,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "47ba6a3b8dfb3a29246e7c085e27a1c4c5ab9abe2e382d513228c3813b5f89be",
+        "git_blob": "e84c00c87c0127cd31381fb9980c5a6cbd8d0fad",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_hr_payroll.py",
+        "exit": 1,
+        "pytest_call_passed": 15,
+        "pytest_call_failed": 1,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "a1dbef2e99671d63837bd6cc86ca0f1246558078cb9786f98f76b5372d54229f",
+        "git_blob": "19ed7e7a7a922e06ff7aaa303bac7c676d8123f8",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_hr_isolation.py",
+        "exit": 1,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 2,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "abf86c7e3774ee987322ece89b873c28106f9eb8eb0f9e6ecad7f5ee63b1aa14",
+        "git_blob": "461eb220557a7bf77d94645c7890cb5411965c39",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_situatii_financiare.py",
+        "exit": 0,
+        "pytest_call_passed": 5,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "4eca9c88baf88d87c042a6456a6051194991c5c1f65604610514f4b1c0f36dd4",
+        "git_blob": "8a97eb69b1f89aa29235c1eb28cf7b7f04c61a0a",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_declaratii_registry.py",
+        "exit": 0,
+        "pytest_call_passed": 5,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "fd2b1962152406864a51f7971312e99c22edbae0386c289fdc00c5c35c817e23",
+        "git_blob": "833b688af6d41bf9f7473a884cb2cf483e062faf",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_error_catalog.py",
+        "exit": 0,
+        "pytest_call_passed": 11,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "49225bc2b19f9099f7dbdbeb941e78401270b8d555d506d2dc9f29422b5b8bfa",
+        "git_blob": "0cf3ee294541a2e802fd934bfbbf5ec5c581ce3a",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_native_import_runner.py",
+        "exit": 0,
+        "pytest_call_passed": 5,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "adb09a99d8d8e8656f58040d7e2a14630ac7ef190f4b312ddf7ace0303bf7319",
+        "git_blob": "42eeec70c2649405cf278e5614b2467f82ef8da4",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_i18n_registry.py",
+        "exit": 0,
+        "pytest_call_passed": 11,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "6daf3bb5ac45e1c31c2aa83cf9ba2d2bca950c682d80bb28bf6c915cb729f478",
+        "git_blob": "5e1abc2447647096064eed7ff8bb1fafe80b4d6b",
+        "original_receipt_only": true
+      },
+      {
+        "file": "backend/tests/test_functional_audit_regressions.py",
+        "exit": 0,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "193fd2bc0b3e8b3ebd51424e1a588e735832c8c24e2abf2285552a680b04f7ec",
+        "git_blob": "1235ca619427aa699e4f427048572a9601f5aa4f",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/tests/test_cashbank_ops_ui.py",
+        "exit": 0,
+        "pytest_call_passed": 1,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "45116782c879a5dbffd09c41ec2f476abd0eab5aad6bc4abfb06a3f0e4315741",
+        "git_blob": "c7a2bd994ecd591ded60887074124d986ab5cc91",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/tests/test_idempiere_web_module_coverage.py",
+        "exit": 1,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 1,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "d476f107acde4339f28d7cf164e9822c664bb00bb4f72a65633bd3c34e9cea1f",
+        "git_blob": "61dc7c456e72d3d17d59326c092d2e33bb73ace7",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/tests/test_event_theme_admin.py",
+        "exit": 1,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 2,
+        "source_sha256": "270d2eee6ad0fe5d968042602c5a54c8bd297d838200a432ff8502b9ba871061",
+        "git_blob": "7a51d83da15ae0c305cbb8842bd377c8b4540c7f",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/tests/test_storefront_admin_i18n.py",
+        "exit": 1,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 3,
+        "source_sha256": "c64eab709cdaf5dc8f5b1d51459cf300b44e2f48c2ccc890f58a95eabd26f074",
+        "git_blob": "9eda91456cc70d81ce2eac39dc4ca5cfad436f60",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/tests/test_saga_completeness_audit_ui.py",
+        "exit": 1,
+        "pytest_call_passed": 1,
+        "pytest_call_failed": 11,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "2c386f2095c62d6840bab0226f4b91faedbf26ca934a6454fadf879c62ce4007",
+        "git_blob": "0120d6ba74bfa4ca51e4dc6e9ffffb0e0b0b9677",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/tests/test_help_coverage.py",
+        "exit": 1,
+        "pytest_call_passed": 3,
+        "pytest_call_failed": 1,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "16c2c578b7336e6ce01b071a1a9a2457112e62e3b76f7feb6ec9f7a288d59767",
+        "git_blob": "b1e2b51d0d3ae8c309a2290970389b08861c4373",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/tests/test_t159_lote.py",
+        "exit": 0,
+        "pytest_call_passed": 8,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "1c73f9364d4eca7b6c62c6699500f1d6c2738c9a96ac6b5d04458aec9b7e5c5e",
+        "git_blob": "88d3923d29940cb6800ee98c7036fbebefb0f9fb",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/storefront/tests/test_retail_ux_improvements.py",
+        "exit": 1,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "a3f60d1a2535d1a351475539cf4f2883f6cebd87e19475ea1a7f524b2a18dec6",
+        "git_blob": "7a939d825461651205ab571ebcfdf9fc3ab7644b",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/storefront/tests/test_audit_regressions.py",
+        "exit": 1,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "bbf07e66f97eab76b936aafec151987f085d521692ce66bdb000ad672b66fc51",
+        "git_blob": "4a8387896811edd3f888294859c4d2da093b0e24",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/storefront/tests/test_theme_project_contracts.py",
+        "exit": 0,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "024766ac171d5c1338b4901bedfe6d2c0ac4cb408b611d2cb428e3cb96635e2d",
+        "git_blob": "8b64d82272cb0f5483ae28e13b75f2e8cf7a67cf",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/storefront/tests/test_event_themes.py",
+        "exit": 1,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "47656175d12e6d34d99d415f7667e0046c311cd23ac0218c5f534bc4d7d52b6f",
+        "git_blob": "689cc42bdbbf2589faa3c05dc9ad00a743c40179",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/storefront/tests/test_cesiro_demo_i18n_matrix.py",
+        "exit": 1,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "c297b8c98df4d2436168133068fb8b232605d419793d25591fa3a00eb0f56d0d",
+        "git_blob": "766a6789a45b8752caf150557b964e8bd1e8d084",
+        "original_receipt_only": true
+      },
+      {
+        "file": "frontend/storefront/tests/test_seasonal_themes.py",
+        "exit": 1,
+        "pytest_call_passed": 0,
+        "pytest_call_failed": 0,
+        "pytest_setup_teardown_nonpass": 0,
+        "source_sha256": "83e16b21d6da06df1634c9c19b7293db3420b33b3b098134dfa2d52c4b1f29e6",
+        "git_blob": "625c78099ea74dfe464a60bbfac9543bbdd1bbc0",
+        "original_receipt_only": true
+      }
+    ]
+  },
+  "acceptance": [
+    "The exact child adapter preserves the original tests socket.socket.connect monkeypatch for ordinary application calls; real FastAPI TestClient on Windows operates with the patched self-pair.",
+    "The single standard-library self-pair connection uses captured original connect; CPython audit hook remains active. Contradictory peer sockets are rejected and closed.",
+    "Nonlocal connects/connect_ex, another process loopback listener, nonlocal DNS, arbitrary bind, UDP sendto, subprocess and writes/removal/rename outside fixture were refused by independent negative controls.",
+    "Same-process ephemeral loopback is explicitly permitted by the audit policy. It is not an external ERP connection.",
+    "Root receipt and exact child/runner/source-manifest hashes were independently verified; 55 source receipts are received with 42 exits zero and 13 nonzero, not 55 passed suites."
+  ],
+  "limits": [
+    "This is cooperative CPython audit-hook containment for these trusted inspected tests, not an OS security sandbox or a proof against hostile Python/native ctypes code. Reads outside fixture are not forbidden. Third-party native libraries and all possible filesystem/network primitives were not exhaustively audited.",
+    "The child hook permits any connect to a still-bound loopback socket that the same process opened on port zero, not solely socketpair. This explicit allowance is independently verified; ordinary socket.connect monkeypatch remains effective.",
+    "Captured fallback resolves socket factory from a copied namespace, so later monkeypatches of socket.socket itself would not affect self-pair creation. Reviewed T32 tests patch the connect method; no assertion of equivalence for other monkeypatch patterns.",
+    "backend/tests/conftest.py globally stubs authoritative tenant_context using X-Tenant-Cui with a fixed verified manager/org and mocks ERP. These suite successes cannot prove real JWT, user/tenant binding, native RBAC or live database isolation.",
+    "T32 read suite explicitly accepts 500 after successful authorization entry. Its pass is guard/route coverage, not successful end-to-end ERP reads.",
+    "SQLite journal_mode MEMORY and synchronous OFF change durability/concurrency semantics; accepted only for disposable synthetic fixture. PostgreSQL, crashes, fsync, native transactions and deployment behavior remain unproven.",
+    "55 sources are a selected suite list, not all backend/frontend files or all test suites. Storefront main programs are not individual pytest assertions.",
+    "Nonzero results include missing adjacent frontend fixture/data files, refused PostgreSQL access and genuine assertion mismatches requiring classification by domain owners. No blanket product defect or all-pass conclusion is justified.",
+    "This review independently reruns 20 focused adapter/IO controls, not the 55 suites; original suite outcome records are authenticated root evidence."
+  ]
+}

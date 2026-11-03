@@ -1,0 +1,16 @@
+from pathlib import Path
+import subprocess,json,hashlib
+W=Path('D:/CodexWork/a05-n05-harness');W.mkdir(exist_ok=True)
+O=Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A05_N05_lot03')
+s=Path('D:/CodexWork/A05OsgiProbe.java').read_text()
+s=s.replace('public class A05OsgiProbe','public class A05N05Launcher')
+s=s.replace('try(var paths=Files.list(Path.of(args[1]))){','for(String cache:args[1].split(";"))try(var paths=Files.list(Path.of(cache))){')
+s=s.replace('if(fn.startsWith("org.idempiere.")||fn.startsWith("com.trekglobal.")||fn.startsWith("com.eva."))continue;', 'if(fn.startsWith("org.idempiere.")||fn.startsWith("com.trekglobal.")||fn.startsWith("a05-"))continue;')
+s=s.replace('&&!fn.startsWith("org.adempiere.base.process_"))continue;', '&&!fn.startsWith("org.adempiere.base.process_")&&!fn.startsWith("org.adempiere.ui_")&&!fn.startsWith("org.adempiere.ui.zk_")&&!fn.startsWith("org.adempiere.plugin.utils_"))continue;')
+s=s.replace('resolveBundles(active.stream().map(bundles::get).toList())','resolveBundles(java.util.stream.Stream.concat(active.stream(),java.util.stream.Stream.of("com.eva.ro.contab")).map(bundles::get).toList())')
+s=s.replace('if(args[3].equals("po")){','System.setProperty("A05_N05_MODE",args[3]);\n   if(!args[3].equals("resolve")){')
+s=s.replace('for(Bundle b:ctx.getBundles())if(b.getState()==Bundle.ACTIVE)', 'if(bundles.get("com.eva.ro.contab").getState()==Bundle.ACTIVE||bundles.get("org.adempiere.ui.zk").getState()==Bundle.ACTIVE)throw new AssertionError("unexpected_EVA_or_UI_activation");\n   for(Bundle b:ctx.getBundles())if(b.getState()==Bundle.ACTIVE)')
+(W/'A05N05Launcher.java').write_text(s,encoding='utf8')
+fw=Path('D:/CodexWork/a05-r12-native-cache/org.eclipse.osgi_3.18.500.v20230801-1826.jar')
+r=subprocess.run(['C:/Program Files/Java/jdk-21/bin/javac.exe','-cp',str(fw),'-d',str(W),str(W/'A05N05Launcher.java')],capture_output=True,timeout=30)
+assert r.returncode==0,r.stderr.decode();print('launcher compiled, not run',hashlib.sha256((W/'A05N05Launcher.java').read_bytes()).hexdigest())

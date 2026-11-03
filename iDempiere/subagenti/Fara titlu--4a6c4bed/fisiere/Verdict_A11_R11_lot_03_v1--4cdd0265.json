@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-02T21:42:21.846345+00:00",
+  "agent": "A11",
+  "lot": "03 v1",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "plan": 10,
+  "nota_executie_integrala": null,
+  "nota_produs": null,
+  "decizie": "ACCEPT defect de conservare a stocului G2 la concurența ambalare–editare rețetă. Recepție de componentă.",
+  "actor": "gestionar G2 care ambalează/dezambalează și responsabilul de rețete care editează aceeași versiune BOM",
+  "attendu": "Aceeași versiune trebuie să restituie la dezambalare cantitățile consumate la montare. G1, G2 și G3 au evidențe cu efecte diferite.",
+  "observé": "Executorul a reprodus 10→11 cu JAR Git și clase din surse recompilate, două repetiții per țintă. A11 a refăcut pe PG16 local cu altă gestiune, alte cantități și alt oracol de conservare a bucăților. Pentru ambalarea cu 4, editarea concomitentă a aceleiași versiuni la 7 sau la 1 a produs 13→16 sau 13→10, set final zero.",
+  "cauza": "SQL_FOLOSITA verifică numai cantități pozitive deja vizibile pentru perechea client/versiune. La READ COMMITTED, tranzacția de editare nu vede prima ambalare încă neconfirmată și aprobă schimbarea cantității. Dezambalarea ulterioară citește lista modificată.",
+  "martori": "Când ambalarea a fost confirmată înainte de verificarea gărzii, editarea a fost refuzată, totalul final a rămas 13. Cu un lacăt comun experimental pentru ambele operațiuni, actualizarea concurentă a primit 55P03, după reluare garda a văzut setul și totalul a rămas 13.",
+  "frontiera": "A11 a reexecutat SQL din Git și un model relațional independent; A05 a executat logica StocWms.aplica și NotaSetWms cu adaptor JDBC minimal. Identitatea unei sesiuni PO native, apelul complet MPPProductBOM.getLines, ZK și postările Fact_Acct nu sunt probate aici. Un sentinel G1 în fixture nu certifică registrele contabile.",
+  "remediere_native_first": "Folosiți tranzacția iDempiere și serializați gesturile pe rândul natural PP_Product_BOM pentru aceeași versiune și firmă. Editarea și ambalarea trebuie să utilizeze aceeași ordine de blocare și să recitească eligibilitatea. O rețetă diferită se gestionează prin versiune nouă; păstrați decizia validată pentru procesul serial.",
+  "receptie_urmatoare": [
+    "Două sesiuni cu rolul de gestionar și rolul de rețete într-o clonă de cabinet iDempiere, cu aceeași versiune și locatori reali G2.",
+    "Ambalare urmată de editare și invers, rollback și retry; verificați stocul pe locator, versiunea de BOM, jurnalul operațiunii și totalul în a treia sesiune.",
+    "Aceeași versiune folosită în două gestiuni G2 și o versiune distinctă independentă; schimbarea versiunii să nu blocheze operații fără legătură.",
+    "Verificați efectele G1/Fact_Acct numai pe fluxurile prevăzute în arhitectură și că nu există a doua contabilizare a setului dezasamblabil.",
+    "Pentru G3 verificați recalcularea combinațiilor după confirmarea sau anularea documentului G2."
+  ],
+  "dovezi": {
+    "A11/Verdict_A11_R11_lot_02_v1.json": "89ef15be99392d73c81ac65055117a1daf67544783026ee03de9032cafa95f0a",
+    "A05/Manifest_A05_R11_WMS.json": "9d9cfc69d67862742a5422fc4e91860784705ecbecf7e5890a55408c096cbbef",
+    "A05/Raport_A05_R11_WMS.json": "4031992488713f476d619e18b905b49c377001442cf58f31a90856e43420dda2",
+    "A05/WMS_proba_tranzactii_G2.json": "c89d6edd8c54b09fba9f46d661a223cb9e23aa0de3b004b3b33d98ecc28a1653",
+    "A11/A11_WMS_lot_03_transactions.json": "c2704c2df7687bcc6a8aa857ef6c2f4b67aa963660f5c66f47535bad9a5922a8"
+  },
+  "metode": {
+    "A11R11Wms03.py": "102892e7ba0d0833a92cff5773b24f416ad114a4ec3f7491900b4e21ff8ed5ef",
+    "A11WmsVerdict03.py": "406f39957167c262f32c3e7088eaf84c81ef91f8d27d25164c24fb979c6b1341"
+  },
+  "stare": "Auditul general continuă. Probele care lipsesc pentru ERP și recepția integrală nu primesc punctaj."
+}

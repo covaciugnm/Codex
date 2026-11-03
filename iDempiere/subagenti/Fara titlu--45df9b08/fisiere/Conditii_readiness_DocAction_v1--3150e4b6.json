@@ -1,0 +1,27 @@
+{
+  "state": "CONDIȚII DE PREFLIGHT; NEEXECUTAT",
+  "head": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "gate": {
+    "path": "../A11/Val05_preflight/Verdict_A11_protocol_Comanda_rezervare_v1.json",
+    "sha256": "50e05e9e8fce3c4565c55ed0f964454f5d740ac147d7995f07284ef004374c9c",
+    "seal_sha256": "8ccfd0bda163dc8cb8c520259c9bdadad7804293cb12cc0983deccd794e9beca"
+  },
+  "purpose": "Restrângerea fixturei la comanda standard SO, fără documente reciproce, livrări sau facturi generate automat de MOrder.",
+  "persistent_requirements": {
+    "C_BPartner.AD_OrgBP_ID": 0,
+    "C_DocType.DocSubTypeSO": "SO",
+    "C_DocType.IsAutoGenerateInOut": "N",
+    "C_DocType.IsAutoGenerateInvoice": "N"
+  },
+  "native_anchor": {
+    "file": "native_bytecode/MOrder.txt",
+    "completeIt": "createCounterDoc este apelat la offset296 înaintea ramurilor de generare automată.",
+    "createCounterDoc": "MBPartner.getAD_OrgBP_ID la offset57; valoarea0 întoarce null la offset67–68.",
+    "createPOSPayments": "Se oprește pentru DocSubTypeSO diferit de WR, inclusiv SO; nu se invocă plata POS."
+  },
+  "verification": "PO/seed normal, commit și recitire independentă a flagurilor și a identităților reale înainte de business. Dacă nu sunt realizabile fără forțarea datelor, etapa se oprește. Nu se modifică codul sau hook-urile.",
+  "A11_clarification": "A11 a acceptat aditiv aceste condiții de readiness ca restrângere a fixturei, fără schimbarea scopului porții A/B.",
+  "product_tests_executed": 0,
+  "postgres_started": false,
+  "operational_writes": 0
+}

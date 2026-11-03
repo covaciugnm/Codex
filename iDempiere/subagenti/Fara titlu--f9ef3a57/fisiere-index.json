@@ -1,0 +1,90 @@
+[
+  {
+    "source_reference": "D:/CodexWork/a08-catalog-json-l05-20261103",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\analyze_results.py",
+    "status": "copiat",
+    "saved_path": "fisiere/analyze_results--b3f483cb.py",
+    "bytes": 6015,
+    "sha256": "5b120f90a373df003b05c21f247eed47a8bc0e07d538acc3c23a46310f8f3392"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\archive_and_report.py",
+    "status": "copiat",
+    "saved_path": "fisiere/archive_and_report--bc18faf2.py",
+    "bytes": 16500,
+    "sha256": "8967acd6ca4c594932602eb025387eeae017abf3d5542715298d2dba7836837b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\calibrate_emitter_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/calibrate_emitter_v2--e48cc631.py",
+    "bytes": 5442,
+    "sha256": "486c80a4da82417d0e07664eea1ad9f9d1e96d7642f45d5e4948987fb182cb44"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\compile_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/compile_v2--4f3a90d7.py",
+    "bytes": 2502,
+    "sha256": "7e42ad9e9a3f1c342ef3234c8982cb6cee5da2065dc3ab689db0a0bfa6e0a847"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\compile_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/compile_v3--7cf86183.py",
+    "bytes": 960,
+    "sha256": "d179d4490b30a83b72beb29d67bd6fad93aa2dbfe23a9169e3b8625a29c27cc9"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\harness\\AuditCatalogPagination.java",
+    "status": "copiat",
+    "saved_path": "fisiere/AuditCatalogPagination--2565e2d5.java",
+    "bytes": 2122,
+    "sha256": "9a9e1878b2ccb2eba6fa23fd6ed662f4c16d2c24e491f3e7a651a28e39656756"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\harness\\CatalogProductProbe.java",
+    "status": "copiat",
+    "saved_path": "fisiere/CatalogProductProbe--de830977.java",
+    "bytes": 4518,
+    "sha256": "9a4ab37300b7bff7f50a79bcc2ec8c603b26448a426ecf2fd722d285b4d80743"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\prepare_seo_addendum.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_seo_addendum--48708e90.py",
+    "bytes": 2202,
+    "sha256": "c81d509bd1e7b2ccc6cf6940adb9a5b0de18c66e1e5128cc4695d6aebc24578b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-json-l05-20261103\\run_probe.py",
+    "status": "copiat",
+    "saved_path": "fisiere/run_probe--c4af2da2.py",
+    "bytes": 7431,
+    "sha256": "0be180cada8e508892db75a8d6bd4474622a0e6f49c5a29530e3d4af4962e077"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-l05-prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a08-l05-prepare--38fe864c.py",
+    "bytes": 2493,
+    "sha256": "ff435c34753ac926a8fca69dd5100e632340859448cee4a74a5bf1bd7317da46"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A08_Catalog_paginare_lot05\\Finalize_fise_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/Finalize_fise_v2--022b844d.py",
+    "bytes": 5013,
+    "sha256": "d7d8379d13b3767379d367ca334be49666a9eca5c0abb26add9ed9a4f627d242"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A08_Catalog_paginare_lot05\\Sigilare_finala_lot05.py",
+    "status": "copiat",
+    "saved_path": "fisiere/Sigilare_finala_lot05--916afb55.py",
+    "bytes": 5416,
+    "sha256": "4cfe5a9f5bc5938474d7f39e38822b4e5c3f06f4e311346055373bd6fb3b5960"
+  }
+]

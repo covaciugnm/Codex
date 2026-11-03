@@ -8402,27 +8402,22 @@ Verific manifestul director v3 și toate cele 30 de ancore. Confirm că indexul 
 {
   "type": "commandExecution",
   "id": "exec-3c49220f-3714-4774-b155-80a8e0066a49",
-  "process_id": "71905",
-  "command": [
-    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
-    "-Command",
-    "$p='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$a=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v2.json\"|ConvertFrom-Json -AsHashtable;$j=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;(Get-FileHash \"$p/Plan_delta_R11_v3.json\").Hash;$j.Keys -join ','; $j.anchors_sha256.Count;foreach($k in $j.Keys){$t=$j[$k]|ConvertTo-Json -Compress -Depth 9;$s=$a[$k]|ConvertTo-Json -Compress -Depth 9;if($s -ne $t){$k+' '+$t.Substring(0,[Math]::Min(235,$t.Length))}};Test-Path -LiteralPath \"$p/A11_verdict_plan_delta_R11_v3.json\""
-  ],
-  "cwd": "file://192.168.100.169/Comun/00.Roboti/iDempiere",
-  "parsed_cmd": [
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$p='\"'Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';\"'$a=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v2.json\"|ConvertFrom-Json -AsHashtable;$j=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;(Get-FileHash \"$p/Plan_delta_R11_v3.json\").Hash;$j.Keys -join '\"','; \"'$j.anchors_sha256.Count;foreach($k in $j.Keys){$t=$j[$k]|ConvertTo-Json -Compress -Depth 9;$s=$a[$k]|ConvertTo-Json -Compress -Depth 9;if($s -ne $t){$k+'\"' '+\"'$t.Substring(0,[Math]::Min(235,$t.Length))}};Test-Path -LiteralPath \"$p/A11_verdict_plan_delta_R11_v3.json\"'",
+  "cwd": "\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "processId": "71905",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
     {
       "type": "unknown",
-      "cmd": "$p='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$a=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v2.json\"|ConvertFrom-Json -AsHashtable;$j=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;(Get-FileHash \"$p/Plan_delta_R11_v3.json\").Hash;$j.Keys -join ','; $j.anchors_sha256.Count;foreach($k in $j.Keys){$t=$j[$k]|ConvertTo-Json -Compress -Depth 9;$s=$a[$k]|ConvertTo-Json -Compress -Depth 9;if($s -ne $t){$k+' '+$t.Substring(0,[Math]::Min(235,$t.Length))}};Test-Path -LiteralPath \"$p/A11_verdict_plan_delta_R11_v3.json\""
+      "command": "$p='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$a=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v2.json\"|ConvertFrom-Json -AsHashtable;$j=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;(Get-FileHash \"$p/Plan_delta_R11_v3.json\").Hash;$j.Keys -join ','; $j.anchors_sha256.Count;foreach($k in $j.Keys){$t=$j[$k]|ConvertTo-Json -Compress -Depth 9;$s=$a[$k]|ConvertTo-Json -Compress -Depth 9;if($s -ne $t){$k+' '+$t.Substring(0,[Math]::Min(235,$t.Length))}};Test-Path -LiteralPath \"$p/A11_verdict_plan_delta_R11_v3.json\""
     }
   ],
-  "source": "unified_exec_startup",
-  "status": "completed",
-  "aggregated_output": "676BB5437B47C66835C842B6909E288CCD916388272D69D541D823B36A887EDD\r\nschema,utc,quality_score_plan,state,supersedes_plan_only,gate_owner,gate_conditions,base,candidate,mandate,anchors_sha256,file_populations,baseline,blocked_amendments_closed_by_plan_evidence,individual_sheet,coverage_lifecycle,review_order,partial_execution_policy,QC02-P2_reconciliation\r\n30\r\nschema \"eva.audit.plan.R11.revision.3\"\r\nutc \"2026-11-02T23:26:34.241886+02:00\"\r\nsupersedes_plan_only \"Plan_delta_R11_v2.json pe același commit; v1 și v2 sunt păstrate ca ediții istorice.\"\r\nanchors_sha256 {\"A11_verdict_plan.json\":\"8551b07b5e6a242baf4ffa09ff880a4203892283a6bbb1448e6a72edbe766bfe\",\"A11_rubrica_control.json\":\"4b1937a2f46606f29e4db10e7105806d0b7b462168c7ab7c03cbc5cafad0215d\",\"Index_trasabilitate.json\":\"7bdc186d3d2520eaf6c80\r\nblocked_amendments_closed_by_plan_evidence {\"R11-P1\":{\"owners\":[\"A12\",\"A11\"],\"evidence\":[\"A11_verdict_plan.json\",\"A11_rubrica_control.json\",\"executie/R10/MANIFEST_R10.json\",\"executie/A11_control_A12_R10.json\",\"A12_registru_693_stari_alias_v2.json\",\"A12_inventar_si_receptie_v2.j\r\nQC02-P2_reconciliation {\"plan_precedent\":\"Plan_delta_R11_v2.json\",\"verdict_precedent\":\"A11_verdict_plan_delta_R11_v2.json\",\"previous_earned\":\"49/50\",\"equivalence\":\"Index invers derivat din identificatorii structurați ai fiecărei muchii, inclusiv A03.CK22/A03\r\nFalse\r\n",
-  "exit_code": 0,
-  "duration": {
-    "secs": 0,
-    "nanos": 358092500
-  }
+  "aggregatedOutput": "676BB5437B47C66835C842B6909E288CCD916388272D69D541D823B36A887EDD\r\nschema,utc,quality_score_plan,state,supersedes_plan_only,gate_owner,gate_conditions,base,candidate,mandate,anchors_sha256,file_populations,baseline,blocked_amendments_closed_by_plan_evidence,individual_sheet,coverage_lifecycle,review_order,partial_execution_policy,QC02-P2_reconciliation\r\n30\r\nschema \"eva.audit.plan.R11.revision.3\"\r\nutc \"2026-11-02T23:26:34.241886+02:00\"\r\nsupersedes_plan_only \"Plan_delta_R11_v2.json pe același commit; v1 și v2 sunt păstrate ca ediții istorice.\"\r\nanchors_sha256 {\"A11_verdict_plan.json\":\"8551b07b5e6a242baf4ffa09ff880a4203892283a6bbb1448e6a72edbe766bfe\",\"A11_rubrica_control.json\":\"4b1937a2f46606f29e4db10e7105806d0b7b462168c7ab7c03cbc5cafad0215d\",\"Index_trasabilitate.json\":\"7bdc186d3d2520eaf6c80\r\nblocked_amendments_closed_by_plan_evidence {\"R11-P1\":{\"owners\":[\"A12\",\"A11\"],\"evidence\":[\"A11_verdict_plan.json\",\"A11_rubrica_control.json\",\"executie/R10/MANIFEST_R10.json\",\"executie/A11_control_A12_R10.json\",\"A12_registru_693_stari_alias_v2.json\",\"A12_inventar_si_receptie_v2.j\r\nQC02-P2_reconciliation {\"plan_precedent\":\"Plan_delta_R11_v2.json\",\"verdict_precedent\":\"A11_verdict_plan_delta_R11_v2.json\",\"previous_earned\":\"49/50\",\"equivalence\":\"Index invers derivat din identificatorii structurați ai fiecărei muchii, inclusiv A03.CK22/A03\r\nFalse\r\n",
+  "exitCode": 0,
+  "durationMs": 358
 }
 ````
 
@@ -8432,27 +8427,22 @@ Verific manifestul director v3 și toate cele 30 de ancore. Confirm că indexul 
 {
   "type": "commandExecution",
   "id": "exec-d95fdc79-8a06-4916-811f-28b3e3449a54",
-  "process_id": "77349",
-  "command": [
-    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
-    "-Command",
-    "$p='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$a=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v2.json\"|ConvertFrom-Json -AsHashtable;$b=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;Compare-Object @($a.anchors_sha256.Keys) @($b.anchors_sha256.Keys);$b.'QC02-P2_reconciliation'|ConvertTo-Json -Depth 2 -Compress; $b.blocked_amendments_closed_by_plan_evidence.'R11-P2'|ConvertTo-Json -Depth 2 -Compress"
-  ],
-  "cwd": "file://192.168.100.169/Comun/00.Roboti/iDempiere",
-  "parsed_cmd": [
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$p='\"'Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';\"'$a=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v2.json\"|ConvertFrom-Json -AsHashtable;$b=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;Compare-Object @($a.anchors_sha256.Keys) @($b.anchors_sha256.Keys);$b.'\"'QC02-P2_reconciliation'|ConvertTo-Json -Depth 2 -Compress; \"'$b.blocked_amendments_closed_by_plan_evidence.'\"'R11-P2'|ConvertTo-Json -Depth 2 -Compress\"",
+  "cwd": "\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "processId": "77349",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
     {
       "type": "unknown",
-      "cmd": "$p='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$a=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v2.json\"|ConvertFrom-Json -AsHashtable;$b=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;Compare-Object @($a.anchors_sha256.Keys) @($b.anchors_sha256.Keys);$b.'QC02-P2_reconciliation'|ConvertTo-Json -Depth 2 -Compress; $b.blocked_amendments_closed_by_plan_evidence.'R11-P2'|ConvertTo-Json -Depth 2 -Compress"
+      "command": "$p='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$a=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v2.json\"|ConvertFrom-Json -AsHashtable;$b=Get-Content -Raw -Encoding utf8 \"$p/Plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;Compare-Object @($a.anchors_sha256.Keys) @($b.anchors_sha256.Keys);$b.'QC02-P2_reconciliation'|ConvertTo-Json -Depth 2 -Compress; $b.blocked_amendments_closed_by_plan_evidence.'R11-P2'|ConvertTo-Json -Depth 2 -Compress"
     }
   ],
-  "source": "unified_exec_startup",
-  "status": "completed",
-  "aggregated_output": "\r\nInputObject                                                              SideIndicator\r\n-----------                                                              -------------\r\nexecutie/R11_plan_delta/Plan_delta_R11_v2.json                           =>\r\nexecutie/R11_plan_delta/A11_verdict_plan_delta_R11_v2.json               =>\r\nexecutie/R11_plan_delta/QA_index_invers_v3.json                          =>\r\nexecutie/R11_plan_delta/Index_invers_delta_task_control_pipeline_v3.json =>\r\nexecutie/R11_plan_delta/Index_invers_delta_task_control_pipeline_v2.json <=\r\n{\"plan_precedent\":\"Plan_delta_R11_v2.json\",\"verdict_precedent\":\"A11_verdict_plan_delta_R11_v2.json\",\"previous_earned\":\"49/50\",\"equivalence\":\"Index invers derivat din identificatorii structurați ai fiecărei muchii, inclusiv A03.CK22/A03.PL10, A07.K21 și A10-CK-01; nicio normalizare cu expresii regulate. Verificăm egalitatea perechilor (path, ID) fiecărei categorii și validitatea perechii (control,pipeline), nu numai cardinalitățile.\",\"QA\":\"QA_index_invers_v3.json\",\"control\":{\"relations\":3210,\"keys\":30,\"missing\":0,\"extra\":0},\"pipeline\":{\"relations\":1951,\"keys\":19,\"missing\":0,\"extra\":0},\"all_groups\":{\"owner\":{\"relations\":1632,\"keys\":11,\"missing\":0,\"extra\":0},\"peer\":{\"relations\":1632,\"keys\":9,\"missing\":0,\"extra\":0},\"disposition\":{\"relations\":1632,\"keys\":11,\"missing\":0,\"extra\":0},\"technical_task\":{\"relations\":1518,\"keys\":35,\"missing\":0,\"extra\":0},\"canonical_via_relation\":{\"relations\":254,\"keys\":11,\"missing\":0,\"extra\":0},\"control\":{\"relations\":3210,\"keys\":30,\"missing\":0,\"extra\":0},\"pipeline\":{\"relations\":1951,\"keys\":19,\"missing\":0,\"extra\":0},\"control_pipeline\":{\"relations\":3210,\"keys\":31,\"missing\":0,\"extra\":0},\"canonical_direct\":{\"relations\":1266,\"keys\":26,\"missing\":0,\"extra\":0},\"interface\":{\"relations\":33,\"keys\":5,\"missing\":0,\"extra\":0}},\"unchanged_contracts\":\"Toate celelalte 49 condiții R11 din v2 păstrează aceeași bază, fișiere, controale, cerințe, dispatch și limite; A11 decide asupra noului hash.\"}\r\n{\"owners\":[\"A01\",\"A06\",\"A12\"],\"evidence\":[\"Trasabilitate_delta_v2.json\",\"Index_invers_delta_task_control_pipeline_v3.json\",\"Dispatch_tehnic_integral.jsonl.gz\",\"Manifest_Dispatch_tehnic_integral.json\",\"Perimetru_tuturor_fisierelor.json\",\"QA_index_invers_v3.json\"],\"check\":\"Reconstruiește egalitatea de mulțimi și perechi, nu numai totalurile. Componentele fără un singur task păstrează justificarea.\"}\r\n\r\n",
-  "exit_code": 0,
-  "duration": {
-    "secs": 0,
-    "nanos": 207854100
-  }
+  "aggregatedOutput": "\r\nInputObject                                                              SideIndicator\r\n-----------                                                              -------------\r\nexecutie/R11_plan_delta/Plan_delta_R11_v2.json                           =>\r\nexecutie/R11_plan_delta/A11_verdict_plan_delta_R11_v2.json               =>\r\nexecutie/R11_plan_delta/QA_index_invers_v3.json                          =>\r\nexecutie/R11_plan_delta/Index_invers_delta_task_control_pipeline_v3.json =>\r\nexecutie/R11_plan_delta/Index_invers_delta_task_control_pipeline_v2.json <=\r\n{\"plan_precedent\":\"Plan_delta_R11_v2.json\",\"verdict_precedent\":\"A11_verdict_plan_delta_R11_v2.json\",\"previous_earned\":\"49/50\",\"equivalence\":\"Index invers derivat din identificatorii structurați ai fiecărei muchii, inclusiv A03.CK22/A03.PL10, A07.K21 și A10-CK-01; nicio normalizare cu expresii regulate. Verificăm egalitatea perechilor (path, ID) fiecărei categorii și validitatea perechii (control,pipeline), nu numai cardinalitățile.\",\"QA\":\"QA_index_invers_v3.json\",\"control\":{\"relations\":3210,\"keys\":30,\"missing\":0,\"extra\":0},\"pipeline\":{\"relations\":1951,\"keys\":19,\"missing\":0,\"extra\":0},\"all_groups\":{\"owner\":{\"relations\":1632,\"keys\":11,\"missing\":0,\"extra\":0},\"peer\":{\"relations\":1632,\"keys\":9,\"missing\":0,\"extra\":0},\"disposition\":{\"relations\":1632,\"keys\":11,\"missing\":0,\"extra\":0},\"technical_task\":{\"relations\":1518,\"keys\":35,\"missing\":0,\"extra\":0},\"canonical_via_relation\":{\"relations\":254,\"keys\":11,\"missing\":0,\"extra\":0},\"control\":{\"relations\":3210,\"keys\":30,\"missing\":0,\"extra\":0},\"pipeline\":{\"relations\":1951,\"keys\":19,\"missing\":0,\"extra\":0},\"control_pipeline\":{\"relations\":3210,\"keys\":31,\"missing\":0,\"extra\":0},\"canonical_direct\":{\"relations\":1266,\"keys\":26,\"missing\":0,\"extra\":0},\"interface\":{\"relations\":33,\"keys\":5,\"missing\":0,\"extra\":0}},\"unchanged_contracts\":\"Toate celelalte 49 condiții R11 din v2 păstrează aceeași bază, fișiere, controale, cerințe, dispatch și limite; A11 decide asupra noului hash.\"}\r\n{\"owners\":[\"A01\",\"A06\",\"A12\"],\"evidence\":[\"Trasabilitate_delta_v2.json\",\"Index_invers_delta_task_control_pipeline_v3.json\",\"Dispatch_tehnic_integral.jsonl.gz\",\"Manifest_Dispatch_tehnic_integral.json\",\"Perimetru_tuturor_fisierelor.json\",\"QA_index_invers_v3.json\"],\"check\":\"Reconstruiește egalitatea de mulțimi și perechi, nu numai totalurile. Componentele fără un singur task păstrează justificarea.\"}\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 207
 }
 ````
 
@@ -8462,27 +8452,22 @@ Verific manifestul director v3 și toate cele 30 de ancore. Confirm că indexul 
 {
   "type": "commandExecution",
   "id": "exec-455da5e7-a607-4e97-a4d0-9c04837c783e",
-  "process_id": "73214",
-  "command": [
-    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
-    "-Command",
-    "$p='D:/CodexWork/p01-a11-r11-v3-gate.py';$s=@'\nfrom pathlib import Path\nimport json,datetime,subprocess,hashlib,shutil\nbase=Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01');d=base/'executie/R11_plan_delta';wd=Path('D:/CodexWork/a11-r8-independent');rd=lambda p:json.loads(p.read_text(encoding='utf8'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();h2='12a81d97de0f8e5ed18cb0a46ce7bd8a116c509fb36a0bc54cd7b2862966ce1f';h3='676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd';pf=d/'Plan_delta_R11_v3.json';p2=d/'Plan_delta_R11_v2.json';vp=d/'A11_verdict_plan_delta_R11_v2.json';assert sha(pf)==h3 and sha(p2)==h2 and sha(vp)=='ebacc89c4326df301f8f3f78fcdb94a68d1c2f15b1533209642aeb254de57ece'\nv2,v3=rd(p2),rd(pf);v=rd(vp);assert v['earned_subchecks']==49 and v['quality_score_plan']==9.8; assert len(v3['anchors_sha256'])==30 and all(sha(base/n)==h for n,h in v3['anchors_sha256'].items());indnew=v3['anchors_sha256'];oldanchors=v2['anchors_sha256'];added=set(indnew)-set(oldanchors);rem=set(oldanchors)-set(indnew);assert rem=={'executie/R11_plan_delta/Index_invers_delta_task_control_pipeline_v2.json'} and {n.split('/')[-1]for n in added}=={'Plan_delta_R11_v2.json','A11_verdict_plan_delta_R11_v2.json','Index_invers_delta_task_control_pipeline_v3.json','QA_index_invers_v3.json'};assert all(indnew[n]==h for n,h in oldanchors.items()if n in indnew)\nmodified={k for k in v2.keys()|v3.keys() if v2.get(k)!=v3.get(k)};assert modified=={'schema','utc','supersedes_plan_only','anchors_sha256','blocked_amendments_closed_by_plan_evidence','QC02-P2_reconciliation'};assert all(v2['blocked_amendments_closed_by_plan_evidence'][k]==v3['blocked_amendments_closed_by_plan_evidence'][k]for k in ['R11-P1','R11-P3','R11-P4']);oldp=v2['blocked_amendments_closed_by_plan_evidence']['R11-P2'];newp=v3['blocked_amendments_closed_by_plan_evidence']['R11-P2'];assert newp['owners']==oldp['owners'] and newp['check']==oldp['check'] and 'Index_invers_delta_task_control_pipeline_v3.json' in newp['evidence']\nrb=rd(wd/'R11_v3_inverse_readback.json');assert rb['index']==sha(d/'Index_invers_delta_task_control_pipeline_v3.json');assert all(z['missing']==z['extra']==0 for z in rb['independent_pair_check'].values());assert len(rb['independent_pair_check'])==10\nolddata=rd(wd/'R11_v2_independent_trace.json');outcheck=dict(rb['independent_pair_check']);assert outcheck['control']['pairs']==3210 and outcheck['pipeline']['pairs']==1951 and outcheck['control_pipeline']['pairs']==3210 and outcheck['technical_task']['pairs']==1518 and outcheck['interface']['pairs']==33\nrub=[]\nfor g in v['checks']:\n sc=[]\n for n in g['subchecks']:\n  changed=n['id']=='QC02-P2';assert bool(n['points']==0)==changed\n  sc.append({'id':n['id'],'criterion':n['text'],'points':.2,'decision':'PREGĂTIT','evidence':('A11 a refăcut independent toate perechile finale din 10 grupuri. 3.210 fișier/control, 1.951 fișier/pipeline, 3.210 fișier/control|pipeline, 1.518 fișier/task, 1.266 canonice directe, 254 canonice prin relație. 0 lipsă/suplimentare/duplicate. Contraexemplul cu o pereche eliminată este detectat.' if changed else n['evidence'])})\n rub.append({'id':g['id'],'title':g['title'],'points':round(sum(s['points'] for s in sc),1),'subchecks':sc})\nearned=sum(q['points']>0 for g in rub for q in g['subchecks']);score=round(sum(g['points']for g in rub),1);assert earned==50 and score==10\nz={'reviewer':'A11','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'subject':'Plan independent R11 v3, exclusiv pentru auditul pe noul candidat','file':pf.name,'source_sha256':h3,'base':v3['base'],'candidate':v3['candidate'],'former_plan_sha256':h2,'former_verdict_sha256':sha(vp),'quality_score_plan':10.0,'earned_subchecks':50,'out_of':50,'decision':'APROBAT_PLAN_10_DIN_10','execution_gate':'DESCHIS_PENTRU_EXECUȚIA_AUDITULUI_CONTROLAT_R11_LA_SHA_2FE90ED3','eligible_to_execute_candidate_audit':True,'checks':rub,'review_summary':{'anchors_rehashed':30,'unchanged_legacy_anchors':len(set(indnew)&set(oldanchors)),'changed_manifest_fields':sorted(modified),'r11_scope_unchanged':'182.912 poziții Git, 6.709 fișiere tehnice, 205 tehnice în delta și 6.504 neschimbate; toate 1.632 modificări au dispoziții planificate. 693 taskuri P01 în inventarul capturat. Cele 135 fixturi vin din R10. Cele 17 contracte folosesc 79 controale și 45 pipeline-uri originale, cu toate interfețele X01–X14.','independent_inverse':outcheck,'negative_control':rb['negative_control_remove_existing_pair'],'conditions_consistent':['P1, P3, P4 și instrucțiunile de sigilare, rollback, izolare, execuție pe fixture și dovezi sunt identice cu v2.','Singurul punct respins la v2, QC02-P2, este închis de verificarea perechilor pe fișierul indicat de v3.']},'execution_conditions':['Aplicați acest verdict numai pentru SHA candidat 2fe90ed3f128c33dff7cf9f8674e664a70679390 și planul 676bb543… . La alt cap de ramură sau alt perimetru, reconciliere și gate de plan pentru delta materială înainte de revendicarea acoperirii.','Este permisă execuția de audit descrisă, în mediile izolate autorizate. O atribuire provizorie sau un fișier inventariat nu are credit de execuție până la proba proprie și controlul peer.','A11 judecă rezultatele după manifestul executat; R10 rămâne 6,6/10 pe 6df998a, iar produsul și raportul executat R11 nu au încă o notă.'],'product_score':None,'audit_execution_score':None,'R10_unchanged':True}\ndest=d/'A11_verdict_plan_delta_R11_v3.json';assert not dest.exists();zpath=dest.with_suffix('.publishing');assert not zpath.exists();zpath.write_text(json.dumps(z,ensure_ascii=False,indent=2),encoding='utf8');zpath.replace(dest);print(sha(dest),score,earned)\n'@;[IO.File]::WriteAllText($p,$s,[Text.UTF8Encoding]::new($false))"
-  ],
-  "cwd": "file://192.168.100.169/Comun/00.Roboti/iDempiere",
-  "parsed_cmd": [
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$p='\"'D:/CodexWork/p01-a11-r11-v3-gate.py';\"'$s=@'\"'\nfrom pathlib import Path\nimport json,datetime,subprocess,hashlib,shutil\nbase=Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01');d=base/'executie/R11_plan_delta';wd=Path('D:/CodexWork/a11-r8-independent');rd=lambda p:json.loads(p.read_text(encoding='utf8'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();h2='12a81d97de0f8e5ed18cb0a46ce7bd8a116c509fb36a0bc54cd7b2862966ce1f';h3='676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd';pf=d/'Plan_delta_R11_v3.json';p2=d/'Plan_delta_R11_v2.json';vp=d/'A11_verdict_plan_delta_R11_v2.json';assert sha(pf)==h3 and sha(p2)==h2 and sha(vp)=='ebacc89c4326df301f8f3f78fcdb94a68d1c2f15b1533209642aeb254de57ece'\nv2,v3=rd(p2),rd(pf);v=rd(vp);assert v['earned_subchecks']==49 and v['quality_score_plan']==9.8; assert len(v3['anchors_sha256'])==30 and all(sha(base/n)==h for n,h in v3['anchors_sha256'].items());indnew=v3['anchors_sha256'];oldanchors=v2['anchors_sha256'];added=set(indnew)-set(oldanchors);rem=set(oldanchors)-set(indnew);assert rem=={'executie/R11_plan_delta/Index_invers_delta_task_control_pipeline_v2.json'} and {n.split('/')[-1]for n in added}=={'Plan_delta_R11_v2.json','A11_verdict_plan_delta_R11_v2.json','Index_invers_delta_task_control_pipeline_v3.json','QA_index_invers_v3.json'};assert all(indnew[n]==h for n,h in oldanchors.items()if n in indnew)\nmodified={k for k in v2.keys()|v3.keys() if v2.get(k)\"'!=v3.get(k)};assert modified=={'\"'schema','utc','supersedes_plan_only','anchors_sha256','blocked_amendments_closed_by_plan_evidence','QC02-P2_reconciliation'};assert all(v2['blocked_amendments_closed_by_plan_evidence'][k]==v3['blocked_amendments_closed_by_plan_evidence'][k]for k in ['R11-P1','R11-P3','R11-P4']);oldp=v2['blocked_amendments_closed_by_plan_evidence']['R11-P2'];newp=v3['blocked_amendments_closed_by_plan_evidence']['R11-P2'];assert newp['owners']==oldp['owners'] and newp['check']==oldp['check'] and 'Index_invers_delta_task_control_pipeline_v3.json' in newp['evidence']\nrb=rd(wd/'R11_v3_inverse_readback.json');assert rb['index']==sha(d/'Index_invers_delta_task_control_pipeline_v3.json');assert all(z['missing']==z['extra']==0 for z in rb['independent_pair_check'].values());assert len(rb['independent_pair_check'])==10\nolddata=rd(wd/'R11_v2_independent_trace.json');outcheck=dict(rb['independent_pair_check']);assert outcheck['control']['pairs']==3210 and outcheck['pipeline']['pairs']==1951 and outcheck['control_pipeline']['pairs']==3210 and outcheck['technical_task']['pairs']==1518 and outcheck['interface']['pairs']==33\nrub=[]\nfor g in v['checks']:\n sc=[]\n for n in g['subchecks']:\n  changed=n['id']=='QC02-P2';assert bool(n['points']==0)==changed\n  sc.append({'id':n['id'],'criterion':n['text'],'points':.2,'decision':'PREGĂTIT','evidence':('A11 a refăcut independent toate perechile finale din 10 grupuri. 3.210 fișier/control, 1.951 fișier/pipeline, 3.210 fișier/control|pipeline, 1.518 fișier/task, 1.266 canonice directe, 254 canonice prin relație. 0 lipsă/suplimentare/duplicate. Contraexemplul cu o pereche eliminată este detectat.' if changed else n['evidence'])})\n rub.append({'id':g['id'],'title':g['title'],'points':round(sum(s['points'] for s in sc),1),'subchecks':sc})\nearned=sum(q['points']>0 for g in rub for q in g['subchecks']);score=round(sum(g['points']for g in rub),1);assert earned==50 and score==10\nz={'reviewer':'A11','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'subject':'Plan independent R11 v3, exclusiv pentru auditul pe noul candidat','file':pf.name,'source_sha256':h3,'base':v3['base'],'candidate':v3['candidate'],'former_plan_sha256':h2,'former_verdict_sha256':sha(vp),'quality_score_plan':10.0,'earned_subchecks':50,'out_of':50,'decision':'APROBAT_PLAN_10_DIN_10','execution_gate':'DESCHIS_PENTRU_EXECUȚIA_AUDITULUI_CONTROLAT_R11_LA_SHA_2FE90ED3','eligible_to_execute_candidate_audit':True,'checks':rub,'review_summary':{'anchors_rehashed':30,'unchanged_legacy_anchors':len(set(indnew)&set(oldanchors)),'changed_manifest_fields':sorted(modified),'r11_scope_unchanged':'182.912 poziții Git, 6.709 fișiere tehnice, 205 tehnice în delta și 6.504 neschimbate; toate 1.632 modificări au dispoziții planificate. 693 taskuri P01 în inventarul capturat. Cele 135 fixturi vin din R10. Cele 17 contracte folosesc 79 controale și 45 pipeline-uri originale, cu toate interfețele X01–X14.','independent_inverse':outcheck,'negative_control':rb['negative_control_remove_existing_pair'],'conditions_consistent':['P1, P3, P4 și instrucțiunile de sigilare, rollback, izolare, execuție pe fixture și dovezi sunt identice cu v2.','Singurul punct respins la v2, QC02-P2, este închis de verificarea perechilor pe fișierul indicat de v3.']},'execution_conditions':['Aplicați acest verdict numai pentru SHA candidat 2fe90ed3f128c33dff7cf9f8674e664a70679390 și planul 676bb543… . La alt cap de ramură sau alt perimetru, reconciliere și gate de plan pentru delta materială înainte de revendicarea acoperirii.','Este permisă execuția de audit descrisă, în mediile izolate autorizate. O atribuire provizorie sau un fișier inventariat nu are credit de execuție până la proba proprie și controlul peer.','A11 judecă rezultatele după manifestul executat; R10 rămâne 6,6/10 pe 6df998a, iar produsul și raportul executat R11 nu au încă o notă.'],'product_score':None,'audit_execution_score':None,'R10_unchanged':True}\ndest=d/'A11_verdict_plan_delta_R11_v3.json';assert not dest.exists();zpath=dest.with_suffix('.publishing');assert not zpath.exists();zpath.write_text(json.dumps(z,ensure_ascii=False,indent=2),encoding='utf8');zpath.replace(dest);print(sha(dest),score,earned)\n'@;[IO.File]::WriteAllText(\"'$p,$s,[Text.UTF8Encoding]::new($false))'",
+  "cwd": "\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "processId": "73214",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
     {
       "type": "unknown",
-      "cmd": "$p='D:/CodexWork/p01-a11-r11-v3-gate.py';$s=@'\nfrom pathlib import Path\nimport json,datetime,subprocess,hashlib,shutil\nbase=Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01');d=base/'executie/R11_plan_delta';wd=Path('D:/CodexWork/a11-r8-independent');rd=lambda p:json.loads(p.read_text(encoding='utf8'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();h2='12a81d97de0f8e5ed18cb0a46ce7bd8a116c509fb36a0bc54cd7b2862966ce1f';h3='676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd';pf=d/'Plan_delta_R11_v3.json';p2=d/'Plan_delta_R11_v2.json';vp=d/'A11_verdict_plan_delta_R11_v2.json';assert sha(pf)==h3 and sha(p2)==h2 and sha(vp)=='ebacc89c4326df301f8f3f78fcdb94a68d1c2f15b1533209642aeb254de57ece'\nv2,v3=rd(p2),rd(pf);v=rd(vp);assert v['earned_subchecks']==49 and v['quality_score_plan']==9.8; assert len(v3['anchors_sha256'])==30 and all(sha(base/n)==h for n,h in v3['anchors_sha256'].items());indnew=v3['anchors_sha256'];oldanchors=v2['anchors_sha256'];added=set(indnew)-set(oldanchors);rem=set(oldanchors)-set(indnew);assert rem=={'executie/R11_plan_delta/Index_invers_delta_task_control_pipeline_v2.json'} and {n.split('/')[-1]for n in added}=={'Plan_delta_R11_v2.json','A11_verdict_plan_delta_R11_v2.json','Index_invers_delta_task_control_pipeline_v3.json','QA_index_invers_v3.json'};assert all(indnew[n]==h for n,h in oldanchors.items()if n in indnew)\nmodified={k for k in v2.keys()|v3.keys() if v2.get(k)!=v3.get(k)};assert modified=={'schema','utc','supersedes_plan_only','anchors_sha256','blocked_amendments_closed_by_plan_evidence','QC02-P2_reconciliation'};assert all(v2['blocked_amendments_closed_by_plan_evidence'][k]==v3['blocked_amendments_closed_by_plan_evidence'][k]for k in ['R11-P1','R11-P3','R11-P4']);oldp=v2['blocked_amendments_closed_by_plan_evidence']['R11-P2'];newp=v3['blocked_amendments_closed_by_plan_evidence']['R11-P2'];assert newp['owners']==oldp['owners'] and newp['check']==oldp['check'] and 'Index_invers_delta_task_control_pipeline_v3.json' in newp['evidence']\nrb=rd(wd/'R11_v3_inverse_readback.json');assert rb['index']==sha(d/'Index_invers_delta_task_control_pipeline_v3.json');assert all(z['missing']==z['extra']==0 for z in rb['independent_pair_check'].values());assert len(rb['independent_pair_check'])==10\nolddata=rd(wd/'R11_v2_independent_trace.json');outcheck=dict(rb['independent_pair_check']);assert outcheck['control']['pairs']==3210 and outcheck['pipeline']['pairs']==1951 and outcheck['control_pipeline']['pairs']==3210 and outcheck['technical_task']['pairs']==1518 and outcheck['interface']['pairs']==33\nrub=[]\nfor g in v['checks']:\n sc=[]\n for n in g['subchecks']:\n  changed=n['id']=='QC02-P2';assert bool(n['points']==0)==changed\n  sc.append({'id':n['id'],'criterion':n['text'],'points':.2,'decision':'PREGĂTIT','evidence':('A11 a refăcut independent toate perechile finale din 10 grupuri. 3.210 fișier/control, 1.951 fișier/pipeline, 3.210 fișier/control|pipeline, 1.518 fișier/task, 1.266 canonice directe, 254 canonice prin relație. 0 lipsă/suplimentare/duplicate. Contraexemplul cu o pereche eliminată este detectat.' if changed else n['evidence'])})\n rub.append({'id':g['id'],'title':g['title'],'points':round(sum(s['points'] for s in sc),1),'subchecks':sc})\nearned=sum(q['points']>0 for g in rub for q in g['subchecks']);score=round(sum(g['points']for g in rub),1);assert earned==50 and score==10\nz={'reviewer':'A11','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'subject':'Plan independent R11 v3, exclusiv pentru auditul pe noul candidat','file':pf.name,'source_sha256':h3,'base':v3['base'],'candidate':v3['candidate'],'former_plan_sha256':h2,'former_verdict_sha256':sha(vp),'quality_score_plan':10.0,'earned_subchecks':50,'out_of':50,'decision':'APROBAT_PLAN_10_DIN_10','execution_gate':'DESCHIS_PENTRU_EXECUȚIA_AUDITULUI_CONTROLAT_R11_LA_SHA_2FE90ED3','eligible_to_execute_candidate_audit':True,'checks':rub,'review_summary':{'anchors_rehashed':30,'unchanged_legacy_anchors':len(set(indnew)&set(oldanchors)),'changed_manifest_fields':sorted(modified),'r11_scope_unchanged':'182.912 poziții Git, 6.709 fișiere tehnice, 205 tehnice în delta și 6.504 neschimbate; toate 1.632 modificări au dispoziții planificate. 693 taskuri P01 în inventarul capturat. Cele 135 fixturi vin din R10. Cele 17 contracte folosesc 79 controale și 45 pipeline-uri originale, cu toate interfețele X01–X14.','independent_inverse':outcheck,'negative_control':rb['negative_control_remove_existing_pair'],'conditions_consistent':['P1, P3, P4 și instrucțiunile de sigilare, rollback, izolare, execuție pe fixture și dovezi sunt identice cu v2.','Singurul punct respins la v2, QC02-P2, este închis de verificarea perechilor pe fișierul indicat de v3.']},'execution_conditions':['Aplicați acest verdict numai pentru SHA candidat 2fe90ed3f128c33dff7cf9f8674e664a70679390 și planul 676bb543… . La alt cap de ramură sau alt perimetru, reconciliere și gate de plan pentru delta materială înainte de revendicarea acoperirii.','Este permisă execuția de audit descrisă, în mediile izolate autorizate. O atribuire provizorie sau un fișier inventariat nu are credit de execuție până la proba proprie și controlul peer.','A11 judecă rezultatele după manifestul executat; R10 rămâne 6,6/10 pe 6df998a, iar produsul și raportul executat R11 nu au încă o notă.'],'product_score':None,'audit_execution_score':None,'R10_unchanged':True}\ndest=d/'A11_verdict_plan_delta_R11_v3.json';assert not dest.exists();zpath=dest.with_suffix('.publishing');assert not zpath.exists();zpath.write_text(json.dumps(z,ensure_ascii=False,indent=2),encoding='utf8');zpath.replace(dest);print(sha(dest),score,earned)\n'@;[IO.File]::WriteAllText($p,$s,[Text.UTF8Encoding]::new($false))"
+      "command": "$p='D:/CodexWork/p01-a11-r11-v3-gate.py';$s=@'\nfrom pathlib import Path\nimport json,datetime,subprocess,hashlib,shutil\nbase=Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01');d=base/'executie/R11_plan_delta';wd=Path('D:/CodexWork/a11-r8-independent');rd=lambda p:json.loads(p.read_text(encoding='utf8'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();h2='12a81d97de0f8e5ed18cb0a46ce7bd8a116c509fb36a0bc54cd7b2862966ce1f';h3='676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd';pf=d/'Plan_delta_R11_v3.json';p2=d/'Plan_delta_R11_v2.json';vp=d/'A11_verdict_plan_delta_R11_v2.json';assert sha(pf)==h3 and sha(p2)==h2 and sha(vp)=='ebacc89c4326df301f8f3f78fcdb94a68d1c2f15b1533209642aeb254de57ece'\nv2,v3=rd(p2),rd(pf);v=rd(vp);assert v['earned_subchecks']==49 and v['quality_score_plan']==9.8; assert len(v3['anchors_sha256'])==30 and all(sha(base/n)==h for n,h in v3['anchors_sha256'].items());indnew=v3['anchors_sha256'];oldanchors=v2['anchors_sha256'];added=set(indnew)-set(oldanchors);rem=set(oldanchors)-set(indnew);assert rem=={'executie/R11_plan_delta/Index_invers_delta_task_control_pipeline_v2.json'} and {n.split('/')[-1]for n in added}=={'Plan_delta_R11_v2.json','A11_verdict_plan_delta_R11_v2.json','Index_invers_delta_task_control_pipeline_v3.json','QA_index_invers_v3.json'};assert all(indnew[n]==h for n,h in oldanchors.items()if n in indnew)\nmodified={k for k in v2.keys()|v3.keys() if v2.get(k)!=v3.get(k)};assert modified=={'schema','utc','supersedes_plan_only','anchors_sha256','blocked_amendments_closed_by_plan_evidence','QC02-P2_reconciliation'};assert all(v2['blocked_amendments_closed_by_plan_evidence'][k]==v3['blocked_amendments_closed_by_plan_evidence'][k]for k in ['R11-P1','R11-P3','R11-P4']);oldp=v2['blocked_amendments_closed_by_plan_evidence']['R11-P2'];newp=v3['blocked_amendments_closed_by_plan_evidence']['R11-P2'];assert newp['owners']==oldp['owners'] and newp['check']==oldp['check'] and 'Index_invers_delta_task_control_pipeline_v3.json' in newp['evidence']\nrb=rd(wd/'R11_v3_inverse_readback.json');assert rb['index']==sha(d/'Index_invers_delta_task_control_pipeline_v3.json');assert all(z['missing']==z['extra']==0 for z in rb['independent_pair_check'].values());assert len(rb['independent_pair_check'])==10\nolddata=rd(wd/'R11_v2_independent_trace.json');outcheck=dict(rb['independent_pair_check']);assert outcheck['control']['pairs']==3210 and outcheck['pipeline']['pairs']==1951 and outcheck['control_pipeline']['pairs']==3210 and outcheck['technical_task']['pairs']==1518 and outcheck['interface']['pairs']==33\nrub=[]\nfor g in v['checks']:\n sc=[]\n for n in g['subchecks']:\n  changed=n['id']=='QC02-P2';assert bool(n['points']==0)==changed\n  sc.append({'id':n['id'],'criterion':n['text'],'points':.2,'decision':'PREGĂTIT','evidence':('A11 a refăcut independent toate perechile finale din 10 grupuri. 3.210 fișier/control, 1.951 fișier/pipeline, 3.210 fișier/control|pipeline, 1.518 fișier/task, 1.266 canonice directe, 254 canonice prin relație. 0 lipsă/suplimentare/duplicate. Contraexemplul cu o pereche eliminată este detectat.' if changed else n['evidence'])})\n rub.append({'id':g['id'],'title':g['title'],'points':round(sum(s['points'] for s in sc),1),'subchecks':sc})\nearned=sum(q['points']>0 for g in rub for q in g['subchecks']);score=round(sum(g['points']for g in rub),1);assert earned==50 and score==10\nz={'reviewer':'A11','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'subject':'Plan independent R11 v3, exclusiv pentru auditul pe noul candidat','file':pf.name,'source_sha256':h3,'base':v3['base'],'candidate':v3['candidate'],'former_plan_sha256':h2,'former_verdict_sha256':sha(vp),'quality_score_plan':10.0,'earned_subchecks':50,'out_of':50,'decision':'APROBAT_PLAN_10_DIN_10','execution_gate':'DESCHIS_PENTRU_EXECUȚIA_AUDITULUI_CONTROLAT_R11_LA_SHA_2FE90ED3','eligible_to_execute_candidate_audit':True,'checks':rub,'review_summary':{'anchors_rehashed':30,'unchanged_legacy_anchors':len(set(indnew)&set(oldanchors)),'changed_manifest_fields':sorted(modified),'r11_scope_unchanged':'182.912 poziții Git, 6.709 fișiere tehnice, 205 tehnice în delta și 6.504 neschimbate; toate 1.632 modificări au dispoziții planificate. 693 taskuri P01 în inventarul capturat. Cele 135 fixturi vin din R10. Cele 17 contracte folosesc 79 controale și 45 pipeline-uri originale, cu toate interfețele X01–X14.','independent_inverse':outcheck,'negative_control':rb['negative_control_remove_existing_pair'],'conditions_consistent':['P1, P3, P4 și instrucțiunile de sigilare, rollback, izolare, execuție pe fixture și dovezi sunt identice cu v2.','Singurul punct respins la v2, QC02-P2, este închis de verificarea perechilor pe fișierul indicat de v3.']},'execution_conditions':['Aplicați acest verdict numai pentru SHA candidat 2fe90ed3f128c33dff7cf9f8674e664a70679390 și planul 676bb543… . La alt cap de ramură sau alt perimetru, reconciliere și gate de plan pentru delta materială înainte de revendicarea acoperirii.','Este permisă execuția de audit descrisă, în mediile izolate autorizate. O atribuire provizorie sau un fișier inventariat nu are credit de execuție până la proba proprie și controlul peer.','A11 judecă rezultatele după manifestul executat; R10 rămâne 6,6/10 pe 6df998a, iar produsul și raportul executat R11 nu au încă o notă.'],'product_score':None,'audit_execution_score':None,'R10_unchanged':True}\ndest=d/'A11_verdict_plan_delta_R11_v3.json';assert not dest.exists();zpath=dest.with_suffix('.publishing');assert not zpath.exists();zpath.write_text(json.dumps(z,ensure_ascii=False,indent=2),encoding='utf8');zpath.replace(dest);print(sha(dest),score,earned)\n'@;[IO.File]::WriteAllText($p,$s,[Text.UTF8Encoding]::new($false))"
     }
   ],
-  "source": "unified_exec_startup",
-  "status": "completed",
-  "aggregated_output": "",
-  "exit_code": 0,
-  "duration": {
-    "secs": 0,
-    "nanos": 86286100
-  }
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 86
 }
 ````
 
@@ -8492,27 +8477,22 @@ Verific manifestul director v3 și toate cele 30 de ancore. Confirm că indexul 
 {
   "type": "commandExecution",
   "id": "exec-4cd8a116-dec7-431f-be77-ceb951c8493d",
-  "process_id": "90435",
-  "command": [
-    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
-    "-Command",
-    "$env:PYTHONIOENCODING='utf-8';$py='C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'; & $py D:/CodexWork/p01-a11-r11-v3-index.py |Out-Null; if($LASTEXITCODE){exit 1}; & $py D:/CodexWork/p01-a11-r11-v3-gate.py"
-  ],
-  "cwd": "file://192.168.100.169/Comun/00.Roboti/iDempiere",
-  "parsed_cmd": [
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$env:PYTHONIOENCODING='\"'utf-8';\"'$py='\"'C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'; & \"'$py D:/CodexWork/p01-a11-r11-v3-index.py |Out-Null; if($LASTEXITCODE){exit 1}; & $py D:/CodexWork/p01-a11-r11-v3-gate.py'",
+  "cwd": "\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "processId": "90435",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
     {
       "type": "unknown",
-      "cmd": "$env:PYTHONIOENCODING='utf-8';$py='C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'; & $py D:/CodexWork/p01-a11-r11-v3-index.py |Out-Null; if($LASTEXITCODE){exit 1}; & $py D:/CodexWork/p01-a11-r11-v3-gate.py"
+      "command": "$env:PYTHONIOENCODING='utf-8';$py='C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'; & $py D:/CodexWork/p01-a11-r11-v3-index.py |Out-Null; if($LASTEXITCODE){exit 1}; & $py D:/CodexWork/p01-a11-r11-v3-gate.py"
     }
   ],
-  "source": "unified_exec_startup",
-  "status": "failed",
-  "aggregated_output": "Traceback (most recent call last):\r\n  File \"D:\\CodexWork\\p01-a11-r11-v3-gate.py\", line 14, in <module>\r\n    rub.append({'id':g['id'],'title':g['title'],'points':round(sum(s['points'] for s in sc),1),'subchecks':sc})\r\n                                     ~^^^^^^^^^\r\nKeyError: 'title'\r\n",
-  "exit_code": 1,
-  "duration": {
-    "secs": 1,
-    "nanos": 360609200
-  }
+  "aggregatedOutput": "Traceback (most recent call last):\r\n  File \"D:\\CodexWork\\p01-a11-r11-v3-gate.py\", line 14, in <module>\r\n    rub.append({'id':g['id'],'title':g['title'],'points':round(sum(s['points'] for s in sc),1),'subchecks':sc})\r\n                                     ~^^^^^^^^^\r\nKeyError: 'title'\r\n",
+  "exitCode": 1,
+  "durationMs": 1360
 }
 ````
 
@@ -8522,27 +8502,22 @@ Verific manifestul director v3 și toate cele 30 de ancore. Confirm că indexul 
 {
   "type": "commandExecution",
   "id": "exec-6bdcd77f-8853-45f9-8408-5211600cd756",
-  "process_id": "36501",
-  "command": [
-    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
-    "-Command",
-    "$p='D:/CodexWork/p01-a11-r11-v3-gate.py';$s=[IO.File]::ReadAllText($p).Replace(\"g['title']\",\"next(o['title'] for o in rd(base/'A11_verdict_plan.json')['criterion_subcheck_results'] if o['id']==g['id'])\");[IO.File]::WriteAllText($p,$s);$env:PYTHONIOENCODING='utf-8'; & 'C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' $p"
-  ],
-  "cwd": "file://192.168.100.169/Comun/00.Roboti/iDempiere",
-  "parsed_cmd": [
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$p='\"'D:/CodexWork/p01-a11-r11-v3-gate.py';\"'$s=[IO.File]::ReadAllText($p).Replace(\"g['\"'title']\\\",\\\"next(o['title'] for o in rd(base/'A11_verdict_plan.json')['criterion_subcheck_results'] if o['id']==g['id'])\\\");[IO.File]::WriteAllText(\"'$p,$s);$env:PYTHONIOENCODING='\"'utf-8'; & 'C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' \"'$p'",
+  "cwd": "\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "processId": "36501",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
     {
       "type": "unknown",
-      "cmd": "$p='D:/CodexWork/p01-a11-r11-v3-gate.py';$s=[IO.File]::ReadAllText($p).Replace(\"g['title']\",\"next(o['title'] for o in rd(base/'A11_verdict_plan.json')['criterion_subcheck_results'] if o['id']==g['id'])\");[IO.File]::WriteAllText($p,$s);$env:PYTHONIOENCODING='utf-8'; & 'C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' $p"
+      "command": "$p='D:/CodexWork/p01-a11-r11-v3-gate.py';$s=[IO.File]::ReadAllText($p).Replace(\"g['title']\",\"next(o['title'] for o in rd(base/'A11_verdict_plan.json')['criterion_subcheck_results'] if o['id']==g['id'])\");[IO.File]::WriteAllText($p,$s);$env:PYTHONIOENCODING='utf-8'; & 'C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' $p"
     }
   ],
-  "source": "unified_exec_startup",
-  "status": "completed",
-  "aggregated_output": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14 10.0 50\r\n",
-  "exit_code": 0,
-  "duration": {
-    "secs": 0,
-    "nanos": 258835000
-  }
+  "aggregatedOutput": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14 10.0 50\r\n",
+  "exitCode": 0,
+  "durationMs": 258
 }
 ````
 
@@ -8552,11 +8527,11 @@ Verific manifestul director v3 și toate cele 30 de ancore. Confirm că indexul 
 {
   "type": "subAgentActivity",
   "model": null,
-  "reasoning_effort": null,
+  "reasoningEffort": null,
   "id": "call_af5cd9c39c00420e8b1dba653e2e9620",
   "kind": "interacted",
-  "agent_thread_id": "01a168da-206e-7220-8edc-5c436090e802",
-  "agent_path": "/root"
+  "agentThreadId": "01a168da-206e-7220-8edc-5c436090e802",
+  "agentPath": "/root"
 }
 ````
 
@@ -8566,27 +8541,22 @@ Verific manifestul director v3 și toate cele 30 de ancore. Confirm că indexul 
 {
   "type": "commandExecution",
   "id": "exec-8c77b555-12b0-4a5d-b6ee-7a12525bac23",
-  "process_id": "44135",
-  "command": [
-    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
-    "-Command",
-    "$e='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$dest=Join-Path $e 'Metoda_A11_v2_v3';New-Item -ItemType Directory -Path $dest -Force|Out-Null; foreach($n in 'p01-a11-r11-v2-check.py','p01-a11-r11-v2-addenda.py','p01-a11-r11-v2-publish.py','p01-a11-r11-v3-index.py','p01-a11-r11-v3-gate.py'){ $f=Join-Path D:/CodexWork $n;$o=Join-Path $dest $n;if(Test-Path -LiteralPath $o){if((Get-FileHash $f).Hash -ne (Get-FileHash $o).Hash){throw 'mismatch'}}else{Copy-Item -LiteralPath $f -Destination $o}}; $r=Get-Content -Raw -Encoding utf8 \"$e/A11_verdict_plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;'fields '+$r.file+' '+$r.quality_score_plan+' '+$r.execution_gate"
-  ],
-  "cwd": "file://192.168.100.169/Comun/00.Roboti/iDempiere",
-  "parsed_cmd": [
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$e='\"'Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';\"'$dest=Join-Path $e '\"'Metoda_A11_v2_v3';New-Item -ItemType Directory -Path \"'$dest -Force|Out-Null; foreach($n in '\"'p01-a11-r11-v2-check.py','p01-a11-r11-v2-addenda.py','p01-a11-r11-v2-publish.py','p01-a11-r11-v3-index.py','p01-a11-r11-v3-gate.py'){ \"'$f=Join-Path D:/CodexWork $n;$o=Join-Path $dest $n;if(Test-Path -LiteralPath $o){if((Get-FileHash $f).Hash -ne (Get-FileHash $o).Hash){throw '\"'mismatch'}}else{Copy-Item -LiteralPath \"'$f -Destination $o}}; $r=Get-Content -Raw -Encoding utf8 \"$e/A11_verdict_plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;'\"'fields '+\"'$r.file+'\"' '+\"'$r.quality_score_plan+'\"' '+\"'$r.execution_gate'",
+  "cwd": "\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "processId": "44135",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
     {
       "type": "unknown",
-      "cmd": "$e='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$dest=Join-Path $e 'Metoda_A11_v2_v3';New-Item -ItemType Directory -Path $dest -Force|Out-Null; foreach($n in 'p01-a11-r11-v2-check.py','p01-a11-r11-v2-addenda.py','p01-a11-r11-v2-publish.py','p01-a11-r11-v3-index.py','p01-a11-r11-v3-gate.py'){ $f=Join-Path D:/CodexWork $n;$o=Join-Path $dest $n;if(Test-Path -LiteralPath $o){if((Get-FileHash $f).Hash -ne (Get-FileHash $o).Hash){throw 'mismatch'}}else{Copy-Item -LiteralPath $f -Destination $o}}; $r=Get-Content -Raw -Encoding utf8 \"$e/A11_verdict_plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;'fields '+$r.file+' '+$r.quality_score_plan+' '+$r.execution_gate"
+      "command": "$e='Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta';$dest=Join-Path $e 'Metoda_A11_v2_v3';New-Item -ItemType Directory -Path $dest -Force|Out-Null; foreach($n in 'p01-a11-r11-v2-check.py','p01-a11-r11-v2-addenda.py','p01-a11-r11-v2-publish.py','p01-a11-r11-v3-index.py','p01-a11-r11-v3-gate.py'){ $f=Join-Path D:/CodexWork $n;$o=Join-Path $dest $n;if(Test-Path -LiteralPath $o){if((Get-FileHash $f).Hash -ne (Get-FileHash $o).Hash){throw 'mismatch'}}else{Copy-Item -LiteralPath $f -Destination $o}}; $r=Get-Content -Raw -Encoding utf8 \"$e/A11_verdict_plan_delta_R11_v3.json\"|ConvertFrom-Json -AsHashtable;'fields '+$r.file+' '+$r.quality_score_plan+' '+$r.execution_gate"
     }
   ],
-  "source": "unified_exec_startup",
-  "status": "completed",
-  "aggregated_output": "fields Plan_delta_R11_v3.json 10 DESCHIS_PENTRU_EXECUȚIA_AUDITULUI_CONTROLAT_R11_LA_SHA_2FE90ED3\r\n",
-  "exit_code": 0,
-  "duration": {
-    "secs": 0,
-    "nanos": 244747700
-  }
+  "aggregatedOutput": "fields Plan_delta_R11_v3.json 10 DESCHIS_PENTRU_EXECUȚIA_AUDITULUI_CONTROLAT_R11_LA_SHA_2FE90ED3\r\n",
+  "exitCode": 0,
+  "durationMs": 244
 }
 ````
 

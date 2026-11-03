@@ -1,0 +1,149 @@
+{
+  "utc": "2026-11-02T21:38:13.288157+00:00",
+  "rol": "A11, auditor independent R11",
+  "versiune": "lot-01-v1",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "poarta_plan": {
+    "nota": 10,
+    "sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14"
+  },
+  "decizie": "Recepție parțială a probelor enumerate. Recepția integrală a R11 rămâne deschisă.",
+  "nota_executie_integrala": null,
+  "nota_produs": null,
+  "imputare_R10": false,
+  "acoperire": {
+    "arbore_Git": 182912,
+    "catalog_tehnic": 6709,
+    "identitati_static_reconciliate_lot_root": 4004,
+    "registru_sigiliu_A12": {
+      "path": "executie/R11_fisiere/A12/Registru_6709_val_01.jsonl.gz",
+      "sha256": "0bcab91235e392d9b6017e3567a27ad2593f2f70ad955e6e448ec118ab6f2571",
+      "bytes": 426824
+    },
+    "cu_cel_putin_o_observatie": 4010,
+    "fara_observatii": 2699,
+    "axe_fisiere_distincte_A12": {
+      "inspected": 15,
+      "static": 4005,
+      "exercised": 22,
+      "bindingVerified": 19,
+      "reproduced": 24,
+      "blocked": 2
+    },
+    "niciun_fisier_declarat_integral_validat": true,
+    "citire": "O axă acoperită nu validează automat funcțiile, UX, lanțul nativ sau efectele persistente. Categoriile pe axe se suprapun. Materializarea singură nu măsoară acoperire."
+  },
+  "concluzii": [
+    {
+      "id": "A06.GIT.1",
+      "verdict": "ACCEPT defect de integritate la selecție și actualizare pe candidatul Git",
+      "probe": "Interogările exacte din ValideazaComenzi.java 515–523 și ramura EXCLUS reexecutate independent pe fixture A11; 2 rânduri neeligibile au fost modificate, rollback identic. A06 demonstrase deja DAO pe JVM și PostgreSQL real.",
+      "limita": "Inserarea unei linii inconsistente prin UI/REST și emiterea documentului nu sunt demonstrate. Linia inactivă și rândul cross-client sunt precondiții separate.",
+      "urmator": "În clonă nativă, rol cu AD_Client_ID și AD_Org_ID restrânse; antet cu linie inactivă și antet cu linie inconsistentă separat. Testați Validez, EXCLUS, ROȘU, retry și invarianta zero efect în clientul străin."
+    },
+    {
+      "id": "A06.GIT.2",
+      "verdict": "ACCEPT contradicție V02 condițională",
+      "probe": "Sursa Git din apelant alege CUI-ul antetului când nu este null, chiar dacă detaliul nou îl contrazice. A06 a exercitat motorul V02 în JAR și din sursă, A11 a verificat punctul apelului, cerința istoricului T22 și comparatorul CUI în JAR.",
+      "limita": "Fără dovadă de schimbare în producție sau act ERP emis pe altă firmă. Nu declarăm automat vânzătorul live autoritate pentru orice corecție istorică.",
+      "urmator": "Regulă explicită pentru două CUI-uri nenule diferite; să blocheze automatizarea și să jurnalizeze motivul până la reconcilierea documentată. Testați V01/V02 în proces nativ și păstrați neemiterea documentului la conflict."
+    },
+    {
+      "id": "A06.GIT.3",
+      "verdict": "ACCEPT limită de parser; RESPING afirmația de pierdere dovedită pe canalul CESIRO1",
+      "probe": "A11 a invocat parserul din JAR. Ore locale distincte devin același instant, ore cu offset se păstrează, un sufix arbitrar după data validă este acceptat ca miezul nopții. Producătorul CESIRO1 transmite timestamptz.",
+      "urmator": "Contract explicit pentru adaptor cu dată locală și temporizare cu offset; înregistrare a deciziei de skip în tranzacția reală."
+    },
+    {
+      "id": "XSD.D101-D112",
+      "verdict": "ACCEPT două copii neîncărcabile; RESPING generalizarea la declarații depuse",
+      "probe": "JDK21 SAX și SchemaFactory W3C refuză D101 la 115 și D112 la 439. Corecția primului token mută primul refuz la 233/440. Trei versiuni D112 2026 s-au încărcat ca schemă, inclusiv fișierul 0726 original.",
+      "limita": "Defect în copiile Git verificate, fără jurnal care să lege emiterea fiscală și perioada de selecția acestor două copii.",
+      "urmator": "Identificați selectorul de versiune și configurația runtime pentru fiecare perioadă și rectificativă; testați un document conform și unul invalid pe clonă."
+    },
+    {
+      "id": "A01.F01",
+      "verdict": "ACCEPT redirect între origini și retransmiterea condițională a antetelor",
+      "probe": "Martor A11 pe metoda reală din frontend/app.py. Din originea A către alt hostname și port B, răspunsul 302 a trimis exact canarii JSESSIONID și Authorization. Lipsa fiecăruia la intrare se reflectă la B. Cookie-ul eva_token este exclus. Ruta directă de traversare 403 a avut zero receptori.",
+      "limita": "Preexistent la deltele testate pentru redirect. Comportamentul este reprodus pe transport real local. Nu există dovada unui redirect controlabil de atacator în ERP activ sau a divulgării unei sesiuni reale.",
+      "urmator": "Interziceți redirectul către altă origine și orice ieșire din /webui înainte de a retrimite antete; păstrați loginul, ZK, aceeași origine și lipsa ambelor antete în originea străină. Rerulați /webui și /idmp cu doi utilizatori și două sesiuni ZK native în clonă."
+    },
+    {
+      "id": "A01.F02-O03-O04",
+      "verdict": "ACCEPT observații limitate, fără a declara acces neautorizat real sau regresie universală",
+      "probe": "Citire independentă a receptorilor și Traefik. Octeții UTF-8 invalizi devin U+FFFD în cale și ajung în /webui; actor A/cookie B a ales receptorul B; /serverless și resursa cu două puncte în nume au fost refuzate de regula propusă; /webui legitim rămâne 200.",
+      "limita": "Canari sintetici. Regula propusă nu apare sub numele examinant în captura furnizorului. Răspunsul 502 pentru sursa locală permisă nu validează conectivitatea end-to-end către ERP.",
+      "urmator": "Verificați cu roluri native, organizații și sesiuni diferite; determinați dacă există resurse legitime respinse și ce reguli equivalente sunt instalate."
+    },
+    {
+      "id": "A12.T201/T232/T171",
+      "verdict": "ACCEPT controalele auxiliare la nivelul dovedit",
+      "probe": "T201 în PostgreSQL 16: 13/13 per JAR, 2 × 20 numere distincte, rollback/reluare la 41; trei mutanți refuzați în fiecare țintă. T232 JAR Git și recompilare 42/42, mutația refuza=false are 15 eșecuri; CRC pentru cele patru clase în JAR Git reconfirmat de A11. Pe copia montată lipsesc, oracle nu compilează. Banca: verificare de integritate a rapoartelor și logurilor pentru calibrări, cu limitele sistemului Windows.",
+      "limita": "T232 nu dovedește montarea gărzii în Jetty; dovezile despre JAR montat provin din captura executorului. T201 numerotare pe clonă și T171 comparare cu fixturi nu certifică toate operațiunile cabinetului.",
+      "urmator": "La nivel OSGi și ERP cu rol real într-o clonă echivalentă, verificați binding-ul și efectul persistent în două organizații și testați ce vede utilizatorul după reîncercare."
+    }
+  ],
+  "porti_ramase": [
+    "Verificați fiecare rută, rol, contraexemplu, efect persistent și plată/stoc/document native în clone.",
+    "A12 completează registrul cu legături nominale cerință–actor–fișier–metodă nativă–contraexemplu–efect. Integrarea acestui lot se face fără dublarea cazurilor sau a observațiilor de sintaxă.",
+    "Rezultatele noilor suite API/UI în curs la coordonator rămân pentru un lot independent următor."
+  ],
+  "dovezi_verificate": {
+    "A11/A11_martori_independenti_lot_01.json": "7a5ebf1d24e2527ac9b540f5637debe81048c5abad8d26794bbe2ad00f521715",
+    "A11/A11_martor_redirect_lot_01.json": "c28da4ae9a1a69e7c8390e9bb881cda46bb9b3868ea21baef00e476156c5dc78",
+    "A01/Manifest_A01_R11.json": "ced5f42a858ee706f1c76b871276574cbc3a606cfbb50dff4379bffe186f044b",
+    "A01/A01_raport_R11.json": "6abb02f2cd84b85e7756223c08336ed1f1231142df06108b608b3b380aaec109",
+    "A06/Manifest_A06_R11_Git.json": "02346069023d89b46da4a6779c49ddb4164217cb7e3d8902ec47731292ec8243",
+    "A06/A06.GIT.1.json": "9b9e9d2759dd563b2db4ac94787f30e73b8059dba7dfe449939cd0aa45527b81",
+    "A06/A06.GIT.2.json": "bcce7e6d17163a8024d692215ebffc1afd5552a4b784b6b3f5644fce5e4afefa",
+    "A06/A06.GIT.3.json": "9eebaabfa65b432373a370e286a046774df04af9e7fec370045380011396b49d",
+    "A06/Raport_A06_R11_Git.json": "cdb303f88eec1ae47f36c3c0e96ca18d06839af17e781439631adaa9edbda354",
+    "A12/Banca_109_martor_descriptor_Windows.json": "370f794c94db6366bf3fe30b6c7169b9db5143599ae1b6f49ac53a3bff6e37a0",
+    "A12/fd_windows/candidate_control_fd.log": "c473de065b056d4d3f46e60928708d5020cd03b66d31c970882dbd3b6edda447",
+    "A12/fd_windows/candidate_clean.log": "956a0ae33f9c90333411afc4de69ba7ec8b742d339ea6b44fd1a0a2499d1957f",
+    "A12/fd_windows/candidate_one_amount_mutation.log": "d5cfd4962cb0c499a332ec2c87b8d4371c637b5361e632a66c67bf1d5cc736e1",
+    "A12/fd_windows/candidate_clean_replayed.log": "956a0ae33f9c90333411afc4de69ba7ec8b742d339ea6b44fd1a0a2499d1957f",
+    "A12/fd_windows/mounted_copy_control_fd.log": "c473de065b056d4d3f46e60928708d5020cd03b66d31c970882dbd3b6edda447",
+    "A12/fd_windows/mounted_copy_clean.log": "956a0ae33f9c90333411afc4de69ba7ec8b742d339ea6b44fd1a0a2499d1957f",
+    "A12/fd_windows/mounted_copy_one_amount_mutation.log": "d5cfd4962cb0c499a332ec2c87b8d4371c637b5361e632a66c67bf1d5cc736e1",
+    "A12/fd_windows/mounted_copy_clean_replayed.log": "956a0ae33f9c90333411afc4de69ba7ec8b742d339ea6b44fd1a0a2499d1957f",
+    "A12/T201_DB_registre_doua_sesiuni.json": "8bfde41e2a31237ae74a1e83c03c4f7a73b9b77615cd5cd82600ce581163c3c0",
+    "A12/pg/00_init.log": "6a262ef7297f09e9ff6a58dc7c1ed73f11947b00eff3dee55e4cb93367e4bfcc",
+    "A12/pg/01_start.log": "39ebcb7131961fab0009fec020f9d357447555747e46146b82b59188ef43a9e6",
+    "A12/pg/02_create.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "A12/pg/03_restore.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "A12/pg/04_baseline.log": "c56a905c5fa8ef87771965b1f7c69829faf8ff2867d12b8fbc7c5fb3ce2112cc",
+    "A12/pg/candidate_normal.log": "d6cf99876c7eac3d383877f419c1efa5de02363c890a3e26be1e6a0a4bc4bc9d",
+    "A12/pg/after_candidate_normal.log": "b3304701f5ad1f5ae5250f5061b3b16570ca9cab57d461881bf8af85be76840b",
+    "A12/pg/candidate_fara-blocare.log": "e61a719df16d4e47749f5c4fc4f0e4c2dd2fe6907e1cff3e467c20c747f612e3",
+    "A12/pg/after_candidate_fara-blocare.log": "ecc3b7ff37cbf8a50ddf193ac1cb0cd17b409fa36ee47e23ca1581e153f17ca2",
+    "A12/pg/candidate_alta-trx.log": "5555da3f55e174364cbaf5b7410779b1702c9ecffa477a381d25aea98c7aeb9b",
+    "A12/pg/after_candidate_alta-trx.log": "fd8876ecf73b07487cf1ae3cb08df9fab130558eb2fbcf57d086644a406a9fb2",
+    "A12/pg/candidate_fara-trigger.log": "a64c25cad11869af4f48afaaf4eca9e59ac711ccd282fb6d8727c60d5b4ba106",
+    "A12/pg/after_candidate_fara-trigger.log": "7e880e11fa918ad322143e27ad9283d23d72d598bbe278283ff38fab4fd15201",
+    "A12/pg/mounted_copy_normal.log": "e2c2d6e197f562cb93d4855898668445f4932845a5095dfb918279f9c6d7442d",
+    "A12/pg/after_mounted_copy_normal.log": "e487034b0abec0ba4bb8ffca7657f7caf63a2db8f11c7dfd901a0df72df0c630",
+    "A12/pg/mounted_copy_fara-blocare.log": "c0f184d827635b28144656fc46259ad1ae34bf373814d1a3208ea3d706f71050",
+    "A12/pg/after_mounted_copy_fara-blocare.log": "a3e2d9cc4d8a6214228b95e75dd8b65577af63f553c1d6ff6d0dde99830c6668",
+    "A12/pg/mounted_copy_alta-trx.log": "3a6939407b336eb8f98b5f681a26fb904e26ac5a296a61b25df46eaadb2ab922",
+    "A12/pg/after_mounted_copy_alta-trx.log": "f349075531c52107e2af85753795208f9491cefed1ca6fc6ea065f84e1946329",
+    "A12/pg/mounted_copy_fara-trigger.log": "bbf540a21dfee31e60dd36cd0ec4100abca3509217df2122dd2747c9e5165dd9",
+    "A12/pg/after_mounted_copy_fara-trigger.log": "0d5d9760b48a9aaf900c4dd22028274b29691b484876f938f64d55c8a8ee4d29",
+    "A12/pg/05_final.log": "0d5d9760b48a9aaf900c4dd22028274b29691b484876f938f64d55c8a8ee4d29",
+    "A12/pg/06_stop.log": "3589d2bd01f8295cc7c9ec3f5e07625fcd347ccb6f33f2d80edafe5f5217c1fb",
+    "A12/T232_GardaConsola_CESIRO.json": "c8727f69da61482d2ccfe06c127813dfcd78090f039d6401c5a67e42d563aaa3",
+    "A12/T232/candidate_original.log": "9ee6a1776259734ab5f8603f08d05519d09ca89cd74c35d102bab5db1a1da725",
+    "A12/T232/candidate_recompile_control.log": "9ee6a1776259734ab5f8603f08d05519d09ca89cd74c35d102bab5db1a1da725",
+    "A12/T232/candidate_mutant_no_denial.log": "2a147ff99c86a95a39fe87abe800de17a54b47c41324d95aba6cd9cf54c1b6bf",
+    "A12/T232/mounted_copy_original.log": "d09e59fa47d3420d5efbd06af282b1d21bd198edeb264e1b6c8f801974b63cde",
+    "A12/Handoff_registru_val_01.json": "254bbbecf52fdd6c740237134b039000cf95282cf6c7a0ed52255004d4cefc26",
+    "A12/Registru_6709_val_01.jsonl.gz": "0bcab91235e392d9b6017e3567a27ad2593f2f70ad955e6e448ec118ab6f2571"
+  },
+  "surse_reproducere": {
+    "A11R11Exec.py": "35c174b38c162f2e47805bd96d8e5cd56eeb91f98148d23e3f28bfe36ed2d03a",
+    "A11R11Portal.py": "0029b9f4b7c104d75da43fff9d20fb21a1244e14353f7ff2bf8ab490fa081a46",
+    "A11R11Witness.java": "1e023d1bf05232d512f3b2acd03f07a31a667fccd4e624d592e0e09adccf2b7e",
+    "A11R11Verdict.py": "7cb2edb62d8d1604f7f2b1bab9267cacde7a75cc1da70dd74c86cba40063c60f"
+  },
+  "mediu": "Operațiuni A11 exclusiv locale. Git și rapoarte citite. Martori SQL în memorie, compilare Java în scratch șters, conexiuni HTTP doar loopback, receptori opriți. Nicio scriere în ERP."
+}

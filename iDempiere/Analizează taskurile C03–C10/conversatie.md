@@ -2,7 +2,7 @@
 
 ID: `01a168da-206e-7220-8edc-5c436090e802`  
 Proiect: iDempiere  
-Export UTC: 2026-11-02T21:26:40.664214+00:00
+Export UTC: 2026-11-03T03:30:08.376808+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -1334,3 +1334,296 @@ Planul revizuit a primit **10/10, cu 50 din 50 de condiții acceptate**. Am porn
 ## Asistent
 
 Am verificat individual 1.892 de fișiere Python, web și de configurare. Două scheme fiscale din Git sunt XML invalid, iar alte trei fișiere respinse sunt exemple corupte intenționat pentru teste. Verific acum dacă schemele intră într-un flux activ. În paralel, echipa testează izolarea portalului și selecția comenzilor pe o bază sintetică.
+
+## Asistent
+
+A11 a reprodus independent o problemă în importul comenzilor. Într-o bază de test, validatorul a acceptat atât o linie inactivă, cât și o linie a altui client, iar ramura `EXCLUS` le-a modificat pe ambele. Auditorul a verificat și anularea tranzacției. Verdictul privește selecția și actualizarea liniilor; proba nu a emis un document ERP.
+
+## Asistent
+
+A11 a confirmat două probleme de cont în magazinul testat. O comandă anonimă care folosește e-mailul unui cont existent poate suprascrie numele și adresa titularului. După logout, tokenul vechi a primit încă HTTP 200 la istoricul comenzilor, în timp ce un token invalid a primit 403. Probele au folosit exclusiv conturi sintetice; nu avem dovada că au fost afectate conturi reale.
+
+## Asistent
+
+În G2, A11 a confirmat că editarea rețetei în timp ce alt gestionar ambalează poate altera stocul la dezambalare. Din 13 piese inițiale, testul a recuperat 16 sau 10, în funcție de modificarea rețetei. Cu operațiile executate succesiv au rămas 13. Efectul este confirmat în G2 pe PostgreSQL sintetic; legătura cu documentele native și cu contabilitatea G1 rămâne de verificat.
+
+## Asistent
+
+Am încheiat inventarierea individuală a celor 6.709 fișiere tehnice. Pentru 6.683 există verificări de sintaxă, structură sau format, iar 26 sunt texte de referință și fixturi citite separat. Testele funcționale continuă pe fluxuri. Verificarea fiscală a arătat și o limită importantă a constatării inițiale — cele două XSD invalide nu au influențat rezultatul pe calea DUK testată.
+
+## Asistent
+
+Cele zece zone au acum loturi de probe predate. A11 a confirmat și că `--dry-run`, la inițializarea unei firme deja existente, poate modifica mapările cabinetelor în baza sintetică. Separat, două scripturi de montare au raportat succes după epuizarea verificărilor de pornire. Integrez constatările în fișele nominale și în cele trei rapoarte.
+
+## Asistent
+
+Am rulat și suitele originale de backend și frontend. După verificarea mediului și eliminarea dublurilor, sunt 1.062 de cazuri trecute și 21 de semnale rămase în triaj. Unele cer baza nativă sau configurații locale. Testele originale pentru închiderea lunii au trecut 36/36. Raportul separă aceste rezultate de probele prin interfața și procesele native iDempiere.
+
+## Asistent
+
+Am trimis lui Alex e-mailul cu atașamente și mesajul WhatsApp aprobat, cu linkul PDF.
+
+Am continuat auditul pe ultima versiune Git. A11 a confirmat probleme privind identitatea produsului comandat, accesul după logout, modificarea profilului clientului și conservarea stocului G2.
+
+Verificarea structurală acoperă 6.683 de fișiere. **Recepția funcțională integrală rămâne deschisă.** Continuarea automată este activă.
+
+Am actualizat cele trei rapoarte. [Raport](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Raport_audit.html>) · [C03](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Audit_C03.html>) · [C10](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Audit_C10.html>)
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>continuare-audit-p01-eva-idempiere-p-n-la-recep-ie</automation_id>
+  <current_time_iso>2026-11-02T22:16:49.479Z</current_time_iso>
+  <instructions>
+Continuă în acest chat auditul P01 EVA–iDempiere solicitat, verificând mai întâi dacă există deja execuții pentru aceleași fișiere, controale sau laboratoare. Citește ultimul manifest A12, verdictul independent A11 și următoarele obligații din Audit_P01_2026-11-01. Verifică noul HEAD GitHub și populația P01 cu acces numai de citire. Beneficiarul cere testarea fișier cu fișier a întregului backend și frontend. Folosește Catalog_Git_integral_per_fisier și inventarul deltei, include fișierele neschimbate şi separă inventarierea, lectura de cod, execuția, efectul persistent și recepția A11. Orice fișier tratat trebuie să aibă OID, responsabil și peer, rol, cale normală, cerință și control/plauzibilă neaplicabilitate, test pozitiv, contraexemplu, rezultat și limită. Revizuiește planul noii revizii până la aprobarea independentă 10/10 înainte de a executa teste de produs pe acea revizie. Păstrează SHA-urile rundelor și ale fișierelor deja sigilate. Împarte lucrul între zece zone, A12 și A11; preferă funcțiile native iDempiere și clonele sintetice, restituie resursele. Pentru data de închidere folosește registrul și Git; când lipsesc dovezi exacte consemnează „dată exactă nedocumentată”. Stația hardware nu condiționează auditul codului. Publică în română rapoartele actualizate și diferențele de acoperire. Notifică numai la progres material, eroare, recepție sau dependență externă indispensabilă. Încheie reluările la recepția independentă completă; dacă singurul pas rămas cere intervenție externă, semnalează o singură dată și suspendă până la deblocare.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+GitHub are o revizie nouă. Separ probele deja realizate de codul nou și pregătesc verificarea diferențelor. Auditul independent confirmă progresul rundei precedente, dar fluxurile complete nu sunt încă recepționate; noua revizie va trece mai întâi prin aprobarea planului.
+
+
+## Asistent
+
+Comparația completă arată 565 de modificări. Cele 6.709 fișiere tehnice auditate anterior sunt neschimbate; am identificat încă 19 scripturi de verificat, inclusiv 16 ascunse în documentație. Unele pot scrie sau șterge fișiere, deși sunt descrise ca verificări: planul le rezervă exclusiv copii sintetice și cere verificarea rezultatului, nu doar a codului de ieșire.
+
+
+## Asistent
+
+A11 a recepționat probele rundei anterioare: 116 fișiere au acum porțiuni exercitate, față de 95 anterior. Cele 17 fluxuri complete rămân deschise. La verificarea noului plan, auditorul a găsit o contradicție în numărul ecranelor dintr-o fixture; o corectăm într-o ediție nouă înainte de orice test pe noul cod.
+
+
+## Asistent
+
+Planul R12 a primit acum 10/10 de la A11, după corectare și verificarea celor 50 de subcontroale. A început primul lot pe noua revizie: verificăm instrumentele care judecă dovezile de ajutor, inclusiv dacă pot accepta un raport incomplet sau înșelător. Nota planului nu înseamnă că aplicația este validată.
+
+
+## Asistent
+
+Am demonstrat o problemă în instrumentul de verificare: poate raporta „13/13 conforme” deși titlul din raport contrazice inventarul ecranelor. A11 a reprodus cazul prin comanda normală. Este un defect al verificării dovezilor; nu dovedește, singur, că interfața aplicației afișează titlul greșit.
+
+
+## Asistent
+
+Am actualizat [raportul de audit](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Raport_audit.html).
+
+Planul R12 a primit **10/10 independent**. Noile probe confirmă un defect al validatorului: poate declara „conform” un titlu care contrazice inventarul.
+
+Dovezile și limitele au fost recepționate de A11. **Auditul integral rămâne deschis: 17 fluxuri nu au încă recepție completă.**
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>continuare-audit-p01-eva-idempiere-p-n-la-recep-ie</automation_id>
+  <current_time_iso>2026-11-02T23:38:50.757Z</current_time_iso>
+  <instructions>
+Continuă în acest chat auditul P01 EVA–iDempiere solicitat, verificând mai întâi dacă există deja execuții pentru aceleași fișiere, controale sau laboratoare. Citește ultimul manifest A12, verdictul independent A11 și următoarele obligații din Audit_P01_2026-11-01. Verifică noul HEAD GitHub și populația P01 cu acces numai de citire. Beneficiarul cere testarea fișier cu fișier a întregului backend și frontend. Folosește Catalog_Git_integral_per_fisier și inventarul deltei, include fișierele neschimbate şi separă inventarierea, lectura de cod, execuția, efectul persistent și recepția A11. Orice fișier tratat trebuie să aibă OID, responsabil și peer, rol, cale normală, cerință și control/plauzibilă neaplicabilitate, test pozitiv, contraexemplu, rezultat și limită. Revizuiește planul noii revizii până la aprobarea independentă 10/10 înainte de a executa teste de produs pe acea revizie. Păstrează SHA-urile rundelor și ale fișierelor deja sigilate. Împarte lucrul între zece zone, A12 și A11; preferă funcțiile native iDempiere și clonele sintetice, restituie resursele. Pentru data de închidere folosește registrul și Git; când lipsesc dovezi exacte consemnează „dată exactă nedocumentată”. Stația hardware nu condiționează auditul codului. Publică în română rapoartele actualizate și diferențele de acoperire. Notifică numai la progres material, eroare, recepție sau dependență externă indispensabilă. Încheie reluările la recepția independentă completă; dacă singurul pas rămas cere intervenție externă, semnalează o singură dată și suspendă până la deblocare.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Am confirmat o problemă în codul aplicației, nu doar în uneltele de audit: parserul scadențelor din „Mașini” respinge date valide, inclusiv exemplul afișat utilizatorului, `15.03.2027`. Rezultatul apare atât în sursa compilată, cât și în JAR-ul din Git. Verific acum legătura cu salvarea și versiunea instalată; testul nu a modificat date operaționale.
+
+
+## Asistent
+
+Verificarea automată a blocat ștergerea directorului temporar folosit pentru testul „Mașini”, fără un motiv mai specific decât „blocked by policy”. Îl păstrez și consemnez această limită în raport; probele sunt deja salvate.
+
+
+## Asistent
+
+Clona sintetică a executat acum salvări prin modelul nativ iDempiere: identități CPP/CPA distincte, commit cu recitire, rollback și refuzul unui duplicat. Acest pas permite probe de persistență mai solide; nu înseamnă încă validarea fluxurilor WMS. Auditorul independent verifică separat noile rezultate.
+
+
+## Asistent
+
+Auditorul independent a confirmat defectul datelor cu un alt oracol calendaristic. A verificat și concluziile despre instrumentele de audit: una a fost restrânsă, deoarece testul folosea două capitole pentru o clasă, deși manualul impune unul singur. Raportul va păstra această diferență între defect demonstrat și limită de validare.
+
+
+## Asistent
+
+Noile loturi au primit recepție independentă limitată. Registrul separă acum 13 surse cu porțiuni executate, probele generice de persistență nativă și fluxurile încă neverificate. Niciun task nu este declarat finalizat pe baza acestor teste parțiale.
+
+
+## Asistent
+
+Am actualizat [raportul de audit](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Raport_audit.html>), cu recepția independentă A11.
+
+- **Mașini:** parserul respinge date valide, inclusiv `15.03.2027`.
+- **Instrumente de audit:** confirmate rapoarte „OK” fără dovezi suficiente și erori ignorate.
+- **iDempiere nativ:** probate commit, rollback și refuzul duplicatelor pe clonă sintetică.
+
+R12 are **13 surse cu probe parțiale**; cele **17 contracte complete rămân deschise**. Auditul integral nu este finalizat.
+
+Verificarea automată a blocat ștergerea directorului temporar Mașini („blocked by policy”). Directorul este păstrat, fără proces Java activ.
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>continuare-audit-p01-eva-idempiere-p-n-la-recep-ie</automation_id>
+  <current_time_iso>2026-11-03T00:39:21.745Z</current_time_iso>
+  <instructions>
+Continuă în acest chat auditul P01 EVA–iDempiere solicitat, verificând mai întâi dacă există deja execuții pentru aceleași fișiere, controale sau laboratoare. Citește ultimul manifest A12, verdictul independent A11 și următoarele obligații din Audit_P01_2026-11-01. Verifică noul HEAD GitHub și populația P01 cu acces numai de citire. Beneficiarul cere testarea fișier cu fișier a întregului backend și frontend. Folosește Catalog_Git_integral_per_fisier și inventarul deltei, include fișierele neschimbate şi separă inventarierea, lectura de cod, execuția, efectul persistent și recepția A11. Orice fișier tratat trebuie să aibă OID, responsabil și peer, rol, cale normală, cerință și control/plauzibilă neaplicabilitate, test pozitiv, contraexemplu, rezultat și limită. Revizuiește planul noii revizii până la aprobarea independentă 10/10 înainte de a executa teste de produs pe acea revizie. Păstrează SHA-urile rundelor și ale fișierelor deja sigilate. Împarte lucrul între zece zone, A12 și A11; preferă funcțiile native iDempiere și clonele sintetice, restituie resursele. Pentru data de închidere folosește registrul și Git; când lipsesc dovezi exacte consemnează „dată exactă nedocumentată”. Stația hardware nu condiționează auditul codului. Publică în română rapoartele actualizate și diferențele de acoperire. Notifică numai la progres material, eroare, recepție sau dependență externă indispensabilă. Încheie reluările la recepția independentă completă; dacă singurul pas rămas cere intervenție externă, semnalează o singură dată și suspendă până la deblocare.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific execuțiile active și ultimele dovezi sigilate, apoi compar codul și registrul actual cu runda recepționată.
+
+
+## Asistent
+
+GitHub păstrează revizia auditată, dar copia de lucru de pe server a avansat separat. Am consemnat diferența; probele curente rămân legate de codul și binarele identificate prin hash. Registrul P01 nu are taskuri sau stări noi față de ultima captură.
+
+
+## Asistent
+
+Am demonstrat încă o problemă în uneltele de audit: un rezultat poate ajunge la „mutanți OK” deși conține o eroare de pregătire a testului sau lipsesc mutanții așteptați. Proba folosește dependențe sintetice și verifică logica de recepție, nu comenzile comerciale.
+
+Verificarea automată a blocat și ștergerea a două directoare temporare ale auditorului A11 („blocked by policy”). Au fost păstrate, fără procese active.
+
+
+## Asistent
+
+Același control automat a respins ștergerea celor două directoare temporare T343 („blocked by policy”), deși căile au fost verificate. Le păstrez cu probele arhivate; nu încerc o altă metodă de ștergere.
+
+
+## Asistent
+
+Verificarea independentă a confirmat limite în instrumentele care validează testele: unele rapoarte incomplete și o eroare de pregătire fără legătură demonstrată cu modificarea testată pot fi acceptate. Le consemnez ca probleme ale dovezilor de audit. Probele native WMS sunt încă în pregătire și nu au primit recepție funcțională.
+
+## Asistent
+
+Am reprodus și o problemă în calculul disponibilului: două interogări EVA scad împreună rezervările de vânzare și cantitățile comandate furnizorilor. În exemplul sintetic cu 10 bucăți și 2 rezervate, adăugarea unei achiziții de 5 reduce disponibilul calculat de la 8 la 3. Proba verifică SQL-ul; efectul în interfață și în fluxul ERP rămâne de demonstrat.
+
+## Asistent
+
+Clona nativă a executat acum ambalarea și dezasamblarea prin procesul original iDempiere: 10 piese → 8 piese și 1 set → 10 piese, cu recitire din baza de date. Verificările seriale au refuzat schimbarea rețetei și operațiile invalide. Auditorul urmărește separat rollback-ul și concurența înainte de recepția acestui lot.
+
+## Asistent
+
+Proba de concurență WMS a găsit o problemă importantă: schimbarea rețetei în timpul unei ambalări nefinalizate permite ca dezasamblarea ulterioară să lase 11 piese, deși inițial erau 10. A fost folosit procesul nativ și salvarea originală a rețetei, cu recitire separată din baza de date. Trimit dovezile auditorului independent; acest flux rămâne neacceptat.
+
+## Asistent
+
+Revizuirea contabilă a clarificat remedierea: dezasamblarea trebuie să restituie componentele recuperabile ale setului. Cutiile consumate și manopera nu trebuie recreate sau inversate automat; costurile rămân înregistrate o singură dată în G1. Integrez explicit această condiție în checklist.
+
+## Asistent
+
+Auditorul independent a recepționat această etapă și a cerut corectarea a patru stări de task din matricea raportului; corecțiile sunt acum păstrate separat, cu proveniență. Public rapoartele C03, C10 și raportul general, cu checklisturile actualizate. Auditul integral rămâne deschis: cele 17 contracte de funcționare nu sunt încă acceptate complet.
+
+## Asistent
+
+Am actualizat [raportul general](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Raport_audit.html>), [C03](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Audit_C03.html>) și [C10](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Audit_C10.html>).
+
+- **WMS:** confirmat în proba nativă controlată — modificarea concurentă a rețetei lasă **11 piese în evidență din 10 inițiale**.
+- **Canale:** două interogări scad și achizițiile ca rezervări de vânzare; problemă reprodusă prin comparator SQL.
+
+A11 a verificat etapa. Checklisturile includ corecțiile și probele necesare. **Auditul integral rămâne deschis, cu 17 contracte neacceptate complet.**
+
+Verificarea automată a respins ștergerea a șase directoare de test („blocked by policy”); acestea sunt păstrate și documentate.
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>continuare-audit-p01-eva-idempiere-p-n-la-recep-ie</automation_id>
+  <current_time_iso>2026-11-03T01:42:52.739Z</current_time_iso>
+  <instructions>
+Continuă în acest chat auditul P01 EVA–iDempiere solicitat, verificând mai întâi dacă există deja execuții pentru aceleași fișiere, controale sau laboratoare. Citește ultimul manifest A12, verdictul independent A11 și următoarele obligații din Audit_P01_2026-11-01. Verifică noul HEAD GitHub și populația P01 cu acces numai de citire. Beneficiarul cere testarea fișier cu fișier a întregului backend și frontend. Folosește Catalog_Git_integral_per_fisier și inventarul deltei, include fișierele neschimbate şi separă inventarierea, lectura de cod, execuția, efectul persistent și recepția A11. Orice fișier tratat trebuie să aibă OID, responsabil și peer, rol, cale normală, cerință și control/plauzibilă neaplicabilitate, test pozitiv, contraexemplu, rezultat și limită. Revizuiește planul noii revizii până la aprobarea independentă 10/10 înainte de a executa teste de produs pe acea revizie. Păstrează SHA-urile rundelor și ale fișierelor deja sigilate. Împarte lucrul între zece zone, A12 și A11; preferă funcțiile native iDempiere și clonele sintetice, restituie resursele. Pentru data de închidere folosește registrul și Git; când lipsesc dovezi exacte consemnează „dată exactă nedocumentată”. Stația hardware nu condiționează auditul codului. Publică în română rapoartele actualizate și diferențele de acoperire. Notifică numai la progres material, eroare, recepție sau dependență externă indispensabilă. Încheie reluările la recepția independentă completă; dacă singurul pas rămas cere intervenție externă, semnalează o singură dată și suspendă până la deblocare.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific execuțiile active, ultimul checkpoint A12/A11 și diferențele de cod și taskuri, apoi continui probele rămase pe clone sintetice.
+
+## Asistent
+
+A11 a aprobat separat planurile pentru două probe noi: rezervările G3 prin metode native iDempiere și comportamentul catalogului frontend la erori sau schimbări rapide de filtre. GitHub are aceeași revizie; în registru a apărut doar P01.C10.T0030, încă în plan. Probele rulează izolat, fără modificări în aplicația operațională.
+
+## Asistent
+
+Probele pe JavaScript-ul original au reprodus trei probleme în catalog: blocarea cererilor după o eroare de rețea sau JSON, afișarea unei erori HTTP ca „zero produse” și afișarea rezultatelor vechi sub filtrul nou. A11 verifică independent dovezile. Aceste rezultate privesc componenta frontend pe o pagină sintetică; verificarea nativă G3 continuă separat.
+
+## Asistent
+
+Proba nativă G3 confirmă problema observată anterior în SQL: cu stoc 10 și rezervare de vânzare 2, adăugarea unei cantități PO de 5 scade disponibilul EVA de la 8 la 3, deși disponibilul nativ iDempiere rămâne 8. Au fost executate metodele originale, iar datele comise au fost recitite separat. Se verifică acum filtrele, loturile și rollback-ul înainte de recepția A11.
+
+## Asistent
+
+A11 a confirmat dovezile G3 și cele trei probleme frontend, în limitele probelor executate. Laboratorul nativ a fost oprit și eliminat. Integrez acum rezultatele în rapoarte și în registrul pe fișiere; fluxurile complete de comenzi, contabilitate și interfață rămân deschise.
+
+## Asistent
+
+Am actualizat [raportul general](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Raport_audit.html), [C03](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Audit_C03.html) și [C10](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Audit_C10.html).
+
+A11 a confirmat independent:
+
+- Trei probleme frontend: blocarea după erori, eroarea HTTP prezentată ca rezultat gol și rezultate afișate sub filtrul greșit.
+- Defectul SO/PO prin metode native: disponibilul EVA scade eronat de la 8 la 3.
+
+**Auditul integral rămâne deschis:** 44 dintre cele 6.728 de surse au dovezi parțiale; toate cele 17 contracte complete necesită verificări suplimentare.
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>continuare-audit-p01-eva-idempiere-p-n-la-recep-ie</automation_id>
+  <current_time_iso>2026-11-03T02:45:23.724Z</current_time_iso>
+  <instructions>
+Continuă în acest chat auditul P01 EVA–iDempiere solicitat, verificând mai întâi dacă există deja execuții pentru aceleași fișiere, controale sau laboratoare. Citește ultimul manifest A12, verdictul independent A11 și următoarele obligații din Audit_P01_2026-11-01. Verifică noul HEAD GitHub și populația P01 cu acces numai de citire. Beneficiarul cere testarea fișier cu fișier a întregului backend și frontend. Folosește Catalog_Git_integral_per_fisier și inventarul deltei, include fișierele neschimbate şi separă inventarierea, lectura de cod, execuția, efectul persistent și recepția A11. Orice fișier tratat trebuie să aibă OID, responsabil și peer, rol, cale normală, cerință și control/plauzibilă neaplicabilitate, test pozitiv, contraexemplu, rezultat și limită. Revizuiește planul noii revizii până la aprobarea independentă 10/10 înainte de a executa teste de produs pe acea revizie. Păstrează SHA-urile rundelor și ale fișierelor deja sigilate. Împarte lucrul între zece zone, A12 și A11; preferă funcțiile native iDempiere și clonele sintetice, restituie resursele. Pentru data de închidere folosește registrul și Git; când lipsesc dovezi exacte consemnează „dată exactă nedocumentată”. Stația hardware nu condiționează auditul codului. Publică în română rapoartele actualizate și diferențele de acoperire. Notifică numai la progres material, eroare, recepție sau dependență externă indispensabilă. Încheie reluările la recepția independentă completă; dacă singurul pas rămas cere intervenție externă, semnalează o singură dată și suspendă până la deblocare.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific execuțiile active și ultimul checkpoint A12/A11, apoi compar codul și registrul taskurilor înainte de a selecta următoarele probe.
+
+## Asistent
+
+Lectura fluxului de comandă a identificat o protecție importantă: codul leagă comanda ERP și avizul în aceeași tranzacție, iar cititorii de stoc exclud liniile deja legate de aviz. Următoarea probă va verifica dacă această protecție infirmă ipoteza dublei rezervări pe traseul normal. Pregătesc separat testarea paginării Java pe cataloage sintetice.
+
+## Asistent
+
+Instrumentele de execuție ale coordonatorului au început să întrerupă apelurile înainte de lansare. Nu au fost pornite testele de paginare. Păstrez această limită explicită și verific dacă agenții pot continua pregătirea și revizuirea planurilor cu instrumentele lor.
+
+## Asistent
+
+Verificarea inițială Val05 a fost recepționată de A11: populația și stările taskurilor sunt neschimbate.
+
+Agenții continuă pregătirea probelor pentru paginarea Java și fluxul nativ comandă–rezervare. Instrumentele coordonatorului întrerup apelurile, astfel că execuția a fost delegată.
+
+**Nu există încă rezultate noi de produs; auditul integral rămâne deschis.**
+
+## Asistent
+
+Instrumentele coordonatorului au revenit. Continui aceeași rundă, fără să dublez probele deja repartizate agenților.
+
+## Asistent
+
+Probele pe codul Java original au reprodus o problemă de paginare: la numere foarte mari de pagină, catalogul fie aruncă o excepție, fie afișează din nou primele produse. A11 verifică independent dovezile; rezultatul nu certifică încă răspunsul HTTP sau interfața completă.
+
+În paralel, pregătim proba comandă–rezervare pe clona iDempiere, pentru a verifica dacă stocul este scăzut o singură dată.
+
+## Asistent
+
+A11 a reprodus independent problema de paginare, cu propriul catalog de test, în ambele metode Java.
+
+Verificarea automată a respins ștergerea directorului temporar `D:\CodexWork\a11-catalog-oracle-l05-20261103`, cu motivul „blocked by policy”. Directorul este păstrat, fără proces Java activ; refuzul nu a fost ocolit.
+
+## Asistent
+
+Verificarea automată a respins și ștergerea directorului temporar `D:\CodexWork\a08-catalog-json-l05-20261103`, cu același motiv: „blocked by policy”. Dovezile sunt arhivate, nu mai rulează Java, iar directorul rămâne păstrat.
+
+## Asistent
+
+Pe clona sintetică, comanda nativă iDempiere a trecut probele de pregătire/finalizare, anulare și revenire după rollback. Au fost recitite separat rezervarea și jurnalul ei persistent.
+
+Urmează verificarea generatorului EVA până la avizul pentru culegere, pentru a vedea dacă rezervarea comenzii de site este înlocuită corect de cea nativă. Aceste rezultate nu validează încă facturarea sau contabilizarea.

@@ -1,0 +1,784 @@
+{
+  "utc": "2026-11-02T22:29:41.262768+00:00",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "previous_handoff": {
+    "path": "executie/R11_fisiere/A12/Val_02/Handoff_val_02_v2.json",
+    "sha256": "6a400efbe6e44b798fdd6f3fd06b4ea5d77d1ffc28a805deb6f91f8a8ae714af",
+    "bytes": 49352
+  },
+  "previous_manifest": {
+    "path": "executie/R11_fisiere/A12/Val_02/MANIFEST_val_02_v2.json",
+    "sha256": "46571dac6326bff593a3ad8c05741593156954541b5a421be26cd575821a85a7",
+    "bytes": 3915
+  },
+  "previous_A11": {
+    "path": "executie/R11_fisiere/A11/Verdict_A11_R11_checkpoint_val02_v2.json",
+    "sha256": "85275d454eb9be92c338cd3ca721c94f548172fdad78a554190db0149aadcadd",
+    "bytes": 11563
+  },
+  "live_checkpoint": {
+    "path": "executie/delta/2026-11-02T22-21-42-843Z/Comparatie_ultimul_checkpoint.json",
+    "sha256": "821440903cee82900a65c545c1e22718cdca54816df560d79a92c33c2e03ac58",
+    "bytes": 543
+  },
+  "register": {
+    "path": "executie/R11_fisiere/A12/Val_03/Registru_6709_val_03.jsonl.gz",
+    "sha256": "d413286e7be468169fac257fb9b5b96f4b06014c2d6c9a88265bcaa09d3345b9",
+    "bytes": 612638
+  },
+  "task_matrix": {
+    "path": "executie/R11_fisiere/A12/Val_03/Matrice_criterii_task_probe_val03.json",
+    "sha256": "d246f0012b7acafcf81863e1019858bba736f0e723e700414175404b38761ee9",
+    "bytes": 2882529
+  },
+  "contracts": {
+    "path": "executie/R11_fisiere/A12/Val_03/Contracte_17_si_capitole_val03.json",
+    "sha256": "b44cabbc9c07aca3a53f7de7bb8a856fe7fae6a66d48d31a63def190ff58d1e0",
+    "bytes": 53185
+  },
+  "events": {
+    "path": "executie/R11_fisiere/A12/Val_03/Evenimente_val_03.json",
+    "sha256": "4f4d12e4f0381fbaa626ac8590305b8b8e3d8d16a1784fd09bc38ef1e985859e",
+    "bytes": 443642
+  },
+  "suites": {
+    "path": "executie/R11_fisiere/A12/Val_03/Reconciliere_55_suite_val03.json",
+    "sha256": "c3b9e32751494f25bff27fca42b11ac5830bee0f3b7c5673dcbdf383e5913e46",
+    "bytes": 322166
+  },
+  "checklist": {
+    "path": "executie/R11_fisiere/A12/Val_03/Checklist_val03.json",
+    "sha256": "a662e2d4c5f965e56173566c0152926ce380a18d7e1baa7fa4001115baa72c92",
+    "bytes": 87231
+  },
+  "frozen_sources": {
+    "path": "executie/R11_fisiere/A12/Val_03/Surse_T58_fixate.json",
+    "sha256": "a68d10aa9ab30ab0fc9ae14f5dd89edf092b7d51fa034d77fbf16359725a9a2b",
+    "bytes": 3096
+  },
+  "semantic_review": {
+    "path": "executie/R11_fisiere/A12/Val_03/semantic_task_map_candidate.json",
+    "sha256": "456df86c8f992ae076b8da03db4a90be421320dac411ea2603e113cfae88fe76",
+    "bytes": 86255
+  },
+  "counts": {
+    "files": 6709,
+    "tasks": 652,
+    "criteria": 2619,
+    "linked_partial_criteria": 20,
+    "tasks_with_partial_links": 6,
+    "new_criterion_links": 8,
+    "full_task_verdicts": 0,
+    "full_file_verdicts": 0,
+    "new_events": 89,
+    "new_event_distinct_files": 74,
+    "files_by_axis": {
+      "inspected": 252,
+      "static": 6683,
+      "exercised": 95,
+      "bindingVerified": 36,
+      "reproduced": 42,
+      "blocked": 2
+    }
+  },
+  "axis_difference_from_val02": {
+    "inspected": 6,
+    "static": 0,
+    "exercised": 3,
+    "bindingVerified": 0,
+    "reproduced": 0,
+    "blocked": 0
+  },
+  "real_coverage_change": [
+    "Lot04 adaugă recepția a9 constatări și doi martori independenți; nu nouă taskuri ori nouă defecte noi.",
+    "T58:8 criterii originale legate la fragmente API/JS cu ERP simulat; niciun criteriu nou sau închidere de task.",
+    "Suite55: T58 V10 substituie o singură înregistrare; +6 evenimente call passed, -4 call failed, -2 setup skipped; fără dublarea V7."
+  ],
+  "scores": {
+    "audit": null,
+    "product": null
+  },
+  "A11_val03_pending": true,
+  "independent_supplements": [
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_lot_04_v1.json",
+      "sha256": "b79f462d3ef6064732f0d8dd7e47790fbae52c3399ae0802dcf83cae6bf5564a",
+      "bytes": 24840
+    },
+    {
+      "path": "executie/R11_fisiere/Control_harness_root/Peer_A01_harness_v7.json",
+      "sha256": "aaa8d9c9ee6a2318862ce909f88b043a685432fb5b98e0615b2f66f705675b69",
+      "bytes": 27476
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_N02_V10_v1.json",
+      "sha256": "453728e98ac5adefc3d94315128309972d2be1393b0bcaf75042cf3b25179de1",
+      "bytes": 8099
+    }
+  ],
+  "limitations": [
+    "652 fișe istorice au propriul commit și nu devin verdictul candidatului nou.",
+    "20skip la izolare rămân fără credit funcțional.",
+    "Evenimentele pytest/subtestele nu reprezintă teste distincte.",
+    "Node are limita UDP/markeri documentată; recepția este numai pentru sursele originale inspectate.",
+    "T58 L1-B nu certifică ZK/GL_Journal/Fact_Acct ori D16; C67 nu are toate cele4 suite cerute.",
+    "17 contracte rămân deschise. V11/V12 ulterioare nu sunt incluse."
+  ],
+  "resource_state": {
+    "new_product_tests_launched_by_A12": 0,
+    "containers_created": 0,
+    "local_databases_created": 0,
+    "services_started": 0,
+    "production_writes": 0,
+    "active_A12_resources": 0,
+    "work": "Lectură, verificare hash/proveniență și scriere numai în Val_03."
+  },
+  "inputs": [
+    {
+      "path": "executie/R11_fisiere/A12/Val_02/MANIFEST_val_02_v2.json",
+      "sha256": "46571dac6326bff593a3ad8c05741593156954541b5a421be26cd575821a85a7",
+      "bytes": 3915
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Val_02/Handoff_val_02_v2.json",
+      "sha256": "6a400efbe6e44b798fdd6f3fd06b4ea5d77d1ffc28a805deb6f91f8a8ae714af",
+      "bytes": 49352
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Val_02/Registru_6709_val_02.jsonl.gz",
+      "sha256": "d2aafde70917551072ef0367fe5fdabd8a9608dde29c1091655555c637eb9ba4",
+      "bytes": 571279
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Val_02/Matrice_criterii_task_probe.json",
+      "sha256": "9650e887dcd9c8cf79ba39335d605092f941192ae1293f450c5f98277f0297f9",
+      "bytes": 2772351
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Val_02/Contracte_17_si_capitole.json",
+      "sha256": "6d9763070b3f17591c413ac3d6af00454b8a967e2519ae71e2090cd9fb8a9b37",
+      "bytes": 36479
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Checklist_A11_dupa_val02_v2.json",
+      "sha256": "ec6038418138529c71d72d543d2b2193cbfc6b7b5a0fa091cf99a7f48f03b035",
+      "bytes": 78438
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_checkpoint_val02_v2.json",
+      "sha256": "85275d454eb9be92c338cd3ca721c94f548172fdad78a554190db0149aadcadd",
+      "bytes": 11563
+    },
+    {
+      "path": "executie/delta/2026-11-02T22-21-42-843Z/Comparatie_ultimul_checkpoint.json",
+      "sha256": "821440903cee82900a65c545c1e22718cdca54816df560d79a92c33c2e03ac58",
+      "bytes": 543
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_lot_04_v1.json",
+      "sha256": "b79f462d3ef6064732f0d8dd7e47790fbae52c3399ae0802dcf83cae6bf5564a",
+      "bytes": 24840
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Sigiliu_A11_R11_lot_04_v1.json",
+      "sha256": "99b6d7faa6fd9c63df1b804252e582c4cbf14fc1d513e56fb658cf830c868e1b",
+      "bytes": 437
+    },
+    {
+      "path": "executie/R11_fisiere/A02/Manifest_A02_R11_DB.json",
+      "sha256": "e6aa9dfbe105ce1561228f7a4b683587aa5dc31d13cddf91ee38c97374ca2a48",
+      "bytes": 1450
+    },
+    {
+      "path": "executie/R11_fisiere/A03/Manifest_A03_R11_v2.json",
+      "sha256": "2cddec953d1586d5889e0790cf76fa7be07e10dd7c12f463e4bddcac7533cf36",
+      "bytes": 2358
+    },
+    {
+      "path": "executie/R11_fisiere/A04/Manifest_A04_R11.json",
+      "sha256": "dbc02967d3868518b10e47f9815501e38939a1e899f655550ba9355e4b5a4b3d",
+      "bytes": 1768
+    },
+    {
+      "path": "executie/R11_fisiere/A07/Manifest_A07_R11.json",
+      "sha256": "461ad4f63705a8bbccf8a2410a6123dbebc6a87f7480221de10675a4837122a6",
+      "bytes": 2432
+    },
+    {
+      "path": "executie/R11_fisiere/A09/Manifest_A09_R11.json",
+      "sha256": "1a05b26434bbfd0877c17c4c112cdfd59bbed596001371d7bdaed2806dd77e76",
+      "bytes": 4980
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Manifest_A10_R11.json",
+      "sha256": "874982c61225f1938c1b922764c2d003ec6e4c7b7d42ba39c115e0788f95b40b",
+      "bytes": 5087
+    },
+    {
+      "path": "executie/R11_fisiere/A02/Probe_PG16_serii_documente_si_DDL.json",
+      "sha256": "2661384a5c9bb73557c03670a8848d0c0695c38f492fb048757627909c9a426f",
+      "bytes": 7597
+    },
+    {
+      "path": "executie/R11_fisiere/A02/Triaj_nominal_174_SQL.json",
+      "sha256": "522e39561da2ef561a038176e750a253adf8c7bf83d04ce4ef60dd228c14a97b",
+      "bytes": 279789
+    },
+    {
+      "path": "executie/R11_fisiere/A02/Raport_A02_R11_DB.json",
+      "sha256": "af56b8d54173cc82b75556f49fdf5e3c8b9b829da3094e4c018f3c7121275e3d",
+      "bytes": 6807
+    },
+    {
+      "path": "executie/R11_fisiere/A03/Proba_impact_D101_D112.json",
+      "sha256": "fe6132b1eb871aef1c62af2e54f07f75d4e8652c25ef8d89f9a4f2513c8bd864",
+      "bytes": 21285
+    },
+    {
+      "path": "executie/R11_fisiere/A03/Raport_A03_R11_fiscal.json",
+      "sha256": "69ea478f7160417dac2fc4f41b7fd040056d01fd8aa0ba8412e0d67d9e789949",
+      "bytes": 8638
+    },
+    {
+      "path": "executie/R11_fisiere/A04/Proba_SQL_SPV_factura_alt_an.json",
+      "sha256": "31134a87f7321ba544cb7a44168eb6c64c0ffc9048e996916540c78c9dd977d7",
+      "bytes": 6825
+    },
+    {
+      "path": "executie/R11_fisiere/A04/Raport_A04_R11.json",
+      "sha256": "9d7ae42df866aa41d0241aab4379856178037f8dc4d74e80f1f1a5cc55e347c8",
+      "bytes": 1926
+    },
+    {
+      "path": "executie/R11_fisiere/A07/probe/resultat.json",
+      "sha256": "f636abd1f4fa281b579aa9402718eeeb35e5b4652768765c9751dfebd4dbe911",
+      "bytes": 2584
+    },
+    {
+      "path": "executie/R11_fisiere/A07/Raport_A07_R11.json",
+      "sha256": "bd7497521092b44ceee3b8b7d0411b2c65c7af21b60c6af274ce910499d7a0d2",
+      "bytes": 5084
+    },
+    {
+      "path": "executie/R11_fisiere/A11/A11_martor_documente_lot_04.json",
+      "sha256": "73b7286799b117370342ed03fdf7cd85454edbb674a76d42e4f7cbe8d0f69902",
+      "bytes": 1603
+    },
+    {
+      "path": "executie/R11_fisiere/A09/A09_probe_HTTP_PG16_v2.json",
+      "sha256": "29b44c7ce284d9134dbc1ab8a30c15538be740fa350089c466c470b1d68e0b26",
+      "bytes": 12405
+    },
+    {
+      "path": "executie/R11_fisiere/A09/Raport_A09_R11.json",
+      "sha256": "d24dbb89a7873154597e20a0f7b324c56bbed607c0408c224eb7dd495400f23f",
+      "bytes": 3093
+    },
+    {
+      "path": "executie/R11_fisiere/A11/A11_martor_bootstrap_lot_04.json",
+      "sha256": "55227b1280f2cf6c90959a731383b8e9a519a172dacae6480e0fd02516f812c2",
+      "bytes": 13317
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Proba_runner_montare.json",
+      "sha256": "2cae9af0547358c3615ebbf174680fec3087f09e36abca6bae40c83190595c87",
+      "bytes": 14215
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Comparator_garda_existenta.json",
+      "sha256": "1ba6b9f471ce8741c912fd32c3eff4e06f34d55b920fe6ed41a07f9c82977894",
+      "bytes": 1163
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Raport_A10_R11.json",
+      "sha256": "fc618b3c4d97dd8a173d9558064ccfc649312f712ead9188620280a56cfb1bf1",
+      "bytes": 1714
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Surse_Git.json",
+      "sha256": "87cea507c6910a3334fbec0329d9b14e12dd8660a9bd8180d356f74f0b9e3bfe",
+      "bytes": 1864
+    },
+    {
+      "path": "executie/R11_fisiere/Control_harness_root/Peer_A01_harness_v7.json",
+      "sha256": "aaa8d9c9ee6a2318862ce909f88b043a685432fb5b98e0615b2f66f705675b69",
+      "bytes": 27476
+    },
+    {
+      "path": "executie/R11_fisiere/Control_harness_root/Manifest_peer_A01.json",
+      "sha256": "cb27129f50b8750d70333cb64601162c1872e39fed535f4a53f9f8e9167dd49a",
+      "bytes": 1254
+    },
+    {
+      "path": "executie/R11_fisiere/Suite_originale_reconciliate/Consolidare_55_suite.json",
+      "sha256": "5327fb83f221673210051b7b583f8ad2414cf6c7bdd6cacc499d5a6fb37603e3",
+      "bytes": 49830
+    },
+    {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v10/Surse_izolate_Git.json",
+      "sha256": "96c7b681d99d406afaf0787145f4cd434f649d642f0923e5753f5e3987e820bf",
+      "bytes": 252525
+    },
+    {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v7/Rezultate_suite_originale.json",
+      "sha256": "737446e418f77f0e7acc1173782585fa3e91d88e25f1806c2ef5303192e56617",
+      "bytes": 279213
+    },
+    {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v10/Rezultate_suite_originale.json",
+      "sha256": "94769450b96f5fb92609d950cf24b7fabd5ad3f479ca8061f1d90171a8e589eb",
+      "bytes": 9156
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_N02_V10_v1.json",
+      "sha256": "453728e98ac5adefc3d94315128309972d2be1393b0bcaf75042cf3b25179de1",
+      "bytes": 8099
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Sigiliu_A11_R11_N02_V10_v1.json",
+      "sha256": "e2a9656767bf98f49501c1476216176129445c9fb4424ee6fe306fa7a5d02487",
+      "bytes": 3124
+    },
+    {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v10/Runner_coordonare.py",
+      "sha256": "540bc9d1a04a5d439e6bb094f41d128cbb4ac2a0c742de8c3b6ef7369522b627",
+      "bytes": 7813
+    },
+    {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v10/p01-r11-test-isolated-child-v10.py",
+      "sha256": "e7ef202933677c23cbe382c120d2e8e4f7d9d5e6fade1a58108a2c9a78b8354f",
+      "bytes": 5054
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Control_consolidare_55_V10_A11_N02.json",
+      "sha256": "0ad9fe07479aea40fba6491d5829803b2a50591143f6e38b24938a49de5c599b",
+      "bytes": 365037
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Control_Node_V10_A11_N02.json",
+      "sha256": "afa7a3751e7fd57760ef20175d3657279ffd19f34027616fae7bcbc050527f46",
+      "bytes": 4054
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Martor_Node_V10_A11_N02.py",
+      "sha256": "c68750d8355cfc0348eef0e766bd9ebc0eeb35275569ccbb178a4c0c75c9074d",
+      "bytes": 2752
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Calibrare_Node_V10_A11_N02_v1.json",
+      "sha256": "6fa1406b98ef34da5592c1c441e702f7fc87b2d7819150284836dfd899c9da7c",
+      "bytes": 536
+    },
+    {
+      "path": "executie/R11_fisiere/A11/A11NodeV10N02.py",
+      "sha256": "7210b12533be7053be316cf29c43fd66e95ba115c4dee7af2d5b5c03c6396846",
+      "bytes": 6769
+    },
+    {
+      "path": "executie/R11_fisiere/A11/A11ConsolidationN02.py",
+      "sha256": "60a7a7070bf5556b10786006a00e3b4e0d575b492d4b9d075af3d64c0a1cae86",
+      "bytes": 7728
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Metoda_root_consolidare_55_copie_N02.py",
+      "sha256": "07d97534291c06f790c8fa94cf60148c17f061055fa7f3770f771d1ebdec81ab",
+      "bytes": 6215
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Val_03/semantic_task_map_candidate.json",
+      "sha256": "456df86c8f992ae076b8da03db4a90be421320dac411ea2603e113cfae88fe76",
+      "bytes": 86255
+    },
+    {
+      "path": "executie/R10/taskuri/Fisa_T58.json",
+      "sha256": "824bdd32e7eeed7c35afa15bcae68a8cb401f39134f70f3952fb52f7fbafdbaf",
+      "bytes": 796274
+    },
+    {
+      "path": "executie/R11_fisiere/Date_pachete/Registru_date_pachete.json",
+      "sha256": "e1e67258a7e6ffc5d7fb861d81ab82d0d4db50b31689f0f8be5891e89a5985c9",
+      "bytes": 366229
+    },
+    {
+      "path": "executie/R11_fisiere/Controale_si_fixturi/Registru_controale_si_fixturi.json",
+      "sha256": "343c6c10b66d6aa8224591b79b5cde9cf8daa05d8b272601ed653ad5ac3665fc",
+      "bytes": 57847
+    },
+    {
+      "path": "executie/R11_fisiere/Surse_web_si_config/Registru_sintaxa_si_controle.json",
+      "sha256": "ee5431e29d72fd8f82d48ba9690db71bf3a8d473d7a33ed5eff0194903b26f70",
+      "bytes": 372716
+    },
+    {
+      "path": "executie/R11_fisiere/Configurare_sabloane_extensii/Registru_configurari.json",
+      "sha256": "d6804d5376164d70dfdc85ccc543127f4ed39d33d184b60cb37a89cf09b79a4b",
+      "bytes": 55405
+    },
+    {
+      "path": "executie/R11_fisiere/Python/Registru_Python.json",
+      "sha256": "72280f397ff0b576b9b7013f15b86b389621c0b8ac3b9b730e52f1c0745b6726",
+      "bytes": 753117
+    },
+    {
+      "path": "executie/R11_fisiere/SQL_CSS_HTML/Registru_parsare_v2.json",
+      "sha256": "f023e8a8f5daa4070aec1b937b17755857bac77a6a401e39a4d853e74f43ae27",
+      "bytes": 484330
+    },
+    {
+      "path": "executie/R11_fisiere/A09/fise/04.json",
+      "sha256": "7e71e4a98ef2652ecba04653f9f6395ee00e4db50de5c3f0aad39a4f269fdcc1",
+      "bytes": 2178
+    },
+    {
+      "path": "executie/R11_fisiere/A09/fise/03.json",
+      "sha256": "a82b89165645cabb1786466cccb0f45bed3536eb6ddea3936a2a76e3e886743d",
+      "bytes": 2393
+    },
+    {
+      "path": "executie/R11_fisiere/Controale_si_fixturi/Martor_requirements_v2.json",
+      "sha256": "93009f5849c77ab830bce2b4276f8f8a4d067681c5a6c056d4abe6b526d96d18",
+      "bytes": 2339
+    },
+    {
+      "path": "executie/R11_fisiere/A09/fise/02.json",
+      "sha256": "079ec69c57ab9914790c77c4c59e63ee1def79edb76443ad8614a82422e03f08",
+      "bytes": 3548
+    },
+    {
+      "path": "executie/R11_fisiere/Shell_rapoarte_imagini/Registru_formate.json",
+      "sha256": "b1a9d145db1e23ff75bf8a221f01a39df82cacb9d320b3841ac4bc17c17c723a",
+      "bytes": 567545
+    },
+    {
+      "path": "executie/R11_fisiere/A09/fise/06.json",
+      "sha256": "c6a4c8c0e24c774bd857bc7e3497795edddf14bdb042571dfa9afd4b1775282b",
+      "bytes": 1521
+    },
+    {
+      "path": "executie/R11_fisiere/A09/fise/05.json",
+      "sha256": "a1fdd5ce5f86f767c4315803dccd5d96eb54603327ed3bdb198413ee524585de",
+      "bytes": 1482
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/01_app.py.json",
+      "sha256": "cae4e4d6bfa7b9adf5b9f15ef6bcb3561669acc7c0de3278e2c37deac54e4b23",
+      "bytes": 37704
+    },
+    {
+      "path": "executie/R11_fisiere/A09/fise/01.json",
+      "sha256": "ece9e7cad9e3d557342bbe1b8106b6a5019b99dd210b42cd2c5d45e96f11e7fe",
+      "bytes": 2457
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_F48cec7fc1984a1f74668.json",
+      "sha256": "60bb0faac7940463a310c099f68ec54e1b2804be39b6d51993ec55700e04a0c1",
+      "bytes": 11129
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_F42e80669f9734b52040d.json",
+      "sha256": "87aa7dfcfcfb616ddf7696b9d3a65c12cb885c80889e45732b81a8e2fd158010",
+      "bytes": 11113
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_Fe13e2db7878b79a6284b.json",
+      "sha256": "1c39d3dc7880326a3fc7f0473b91ba543ae2966236921715f00fd7633e28432b",
+      "bytes": 11124
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_Faf727a18e5ff8a61c428.json",
+      "sha256": "b4f5a9af2c4b20db1b2531c6fa09bb85b5bc7dc012d3fa85dfc377bc0388879f",
+      "bytes": 11053
+    },
+    {
+      "path": "executie/R11_fisiere/A08/Fisa_Fbe0b797197b50f636fa6.json",
+      "sha256": "2c75a00917743eb9c74f5d30ef1a2b2ca773a0404df520b7a9b070e1aaa3892f",
+      "bytes": 7443
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/02_test_t232_aud_portal_ocolire.py.json",
+      "sha256": "975d6fd4e8dd1673b36ef54ce0d4114ab544496dd9afe3484740c26ba5690609",
+      "bytes": 20938
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/03_test_t232_l1_cale_webui.py.json",
+      "sha256": "5b9f518b6bafa0c106504b24ad3118f59e5b6d3cb58e71a7780640c9e5c7b4ce",
+      "bytes": 21365
+    },
+    {
+      "path": "executie/R11_fisiere/Surse_web_si_config/Triaj_cinci_fisiere.json",
+      "sha256": "28a91f8ca4987442c4993d411ddc52abffaffd9cd04d2e061c49bf8500dd5d90",
+      "bytes": 6012
+    },
+    {
+      "path": "executie/R11_fisiere/Surse_web_si_config/Martori_lexicali_XSD.json",
+      "sha256": "da0c78fcaee0757bb6e8b57b09b69cee1ef4124c61305cf42afb765ac0e22486",
+      "bytes": 2859
+    },
+    {
+      "path": "executie/R11_fisiere/Java/Registru_sintaxa_Java.json",
+      "sha256": "550ce1a4ce0933dc074aa57f2da4c560371cb37e1bad8a929fcfb0d7b0f4c604",
+      "bytes": 1134003
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F8359a51d96f1f3976a54.json",
+      "sha256": "dc9b14ec2278583aebec040c8e68a80714c43c47319d1993bcae760715471867",
+      "bytes": 3955
+    },
+    {
+      "path": "executie/R11_fisiere/A04/Fisa_com.eva.ro.contab_13.0.0.json",
+      "sha256": "dc15b203d5e39917661e7115c75d8115a1d8000d98b5cf8adccab6cbfd967c99",
+      "bytes": 3933
+    },
+    {
+      "path": "executie/R11_fisiere/A07/fise/Fisa_Bundle_contab.json",
+      "sha256": "fa21d2fedd9c720b1e34ec7389ccd751c23d0ba65eeb2cb7fb76f3a9a539fb0b",
+      "bytes": 7845
+    },
+    {
+      "path": "executie/R11_fisiere/A03/Fisa_GenD101.json",
+      "sha256": "6c4790d0f9114e8e47912b512da24cf7278a17dfdc24a54476a4b531bf98babf",
+      "bytes": 3813
+    },
+    {
+      "path": "executie/R11_fisiere/A03/Fisa_GenD112.json",
+      "sha256": "a3b51820b085e237387873651d92f8fa461705ba491ecb50f6a9fcea767347ee",
+      "bytes": 3833
+    },
+    {
+      "path": "executie/R11_fisiere/A03/Fisa_GeneratorDeclaratie.json",
+      "sha256": "c216bccfde78f5295379d70e2a60dbc1d521334713bea9674cd1e12b66ff6683",
+      "bytes": 3868
+    },
+    {
+      "path": "executie/R11_fisiere/A03/Fisa_ValidatorAnaf.json",
+      "sha256": "d2ef171e9cf7c0690c1b124bc0d2926ea7cb3b00ebb3e950c43efb595422fc30",
+      "bytes": 3849
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F90b41a42653042a5bd6c.json",
+      "sha256": "006e7746e7d03bc554900e3bc8781f15f18aa2b3daef2405f9d10cf1dd5b3e84",
+      "bytes": 2841
+    },
+    {
+      "path": "executie/R11_fisiere/A05/Fisa_EvaNotaSetBomEvents.json",
+      "sha256": "af8bfaf4c1cabae115a0627060929ed2637e6bad0255f312c9b0ff4a58c1e4c6",
+      "bytes": 3139
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_DetaliuComanda.json",
+      "sha256": "4443cf2292506b446ccd3717559091510c5bfe1b99d9707aa310332693ff8f96",
+      "bytes": 5623
+    },
+    {
+      "path": "executie/R11_fisiere/A07/fise/Fisa_ImpliciteT22.json",
+      "sha256": "035de07104e8c585672dfa78bb8af41f5d81a81560b92f90a2b867cbdad4da02",
+      "bytes": 5589
+    },
+    {
+      "path": "executie/R11_fisiere/A05/Fisa_NotaSetWmsProces.json",
+      "sha256": "9e2cb898e1b6362c6d9fdc132c05c2615897572d039f17e4f6963a4dce2b16c4",
+      "bytes": 3127
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_PreiaDinSite.json",
+      "sha256": "bd2264c4e7c11aca1f09f70ebd0dfd373fc6bb9fb1a7fed59ce0d32b8ccf526e",
+      "bytes": 5857
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_SursaCesiro1.json",
+      "sha256": "6adb07e3b7e20a40c13fc62193a5ad5bd7fe4c7ef07ed92634c1ad4ca92a47b8",
+      "bytes": 8297
+    },
+    {
+      "path": "executie/R11_fisiere/A07/fise/Fisa_TrimiteFacturaSite.json",
+      "sha256": "dee85de54974068496ec7954c3ead6e4a443c5aa8266a4ff565073aac317687a",
+      "bytes": 8031
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_ValidareComanda.json",
+      "sha256": "930f41f9046f08257878fd4f952333d40cc006c33f83d928de086fde3cda6780",
+      "bytes": 8587
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_ValideazaComenzi.json",
+      "sha256": "e9369188016203efe36f15c113dff6f6e64e8861c61ff53db3ca1ad83dbf4cd5",
+      "bytes": 8591
+    },
+    {
+      "path": "executie/R11_fisiere/A04/Fisa_AsociereEFactura.json",
+      "sha256": "7c4df0d2f70f20517c18a43a92a348e6d1df222985fc7ad49dc52ef2819762ad",
+      "bytes": 3943
+    },
+    {
+      "path": "executie/R11_fisiere/A03/Fisa_ParametriModel.json",
+      "sha256": "ed05079091419f3ad9ad7cd73f1dbd6f18cf023a543f8a47b8eba45d2e95ee2a",
+      "bytes": 3900
+    },
+    {
+      "path": "executie/R11_fisiere/A04/Fisa_WSagaIntrariForm.json",
+      "sha256": "ed4ff490f9d324a114295a98555001d3613ed216eea0f0b17499248c96eba686",
+      "bytes": 3897
+    },
+    {
+      "path": "executie/R11_fisiere/A05/Fisa_ListaMaterialeWms.json",
+      "sha256": "baa984bd6f7d45933afce0ad1fc3b94b396231afc6481b093f0a867690c54dfb",
+      "bytes": 3154
+    },
+    {
+      "path": "executie/R11_fisiere/A05/Fisa_NotaSetWms.json",
+      "sha256": "674edcd417381d4b637648f4b937e3c28d609748773301f8e1c91b423799065d",
+      "bytes": 3157
+    },
+    {
+      "path": "executie/R11_fisiere/A05/Fisa_StocWms.json",
+      "sha256": "aa245d455adaf5cc0e4caa1591f96c1af45a4f2ca20ae62cbd50d6bd594a8831",
+      "bytes": 3057
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F6a6c4242bcae177c132f.json",
+      "sha256": "059919bf08d3939cd8ca89e6c88093740a46eb7e484e42aba43e70d926dd2b8a",
+      "bytes": 2824
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Feed412102a2601d584a4.json",
+      "sha256": "d2e721c1c41c2796e6f02a6d58e65fdc60dd69228dae3c73f44edea1b19be3dc",
+      "bytes": 1619
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Fac90ff79bada12c772a2.json",
+      "sha256": "b5cbf264a255f51b5ade63c7fa510ed1bc64d5d0be68aa5a5c2077e8c049d130",
+      "bytes": 1745
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F64a85ead29c8155bdf6f.json",
+      "sha256": "9a8daa3a0f6a3e2684918cb900209f672ef77270393b93f56a4ffefcd047c630",
+      "bytes": 2612
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Fba6dc8e192f13474f0ad.json",
+      "sha256": "e6ea033d679a862e200d62aa718007d3f9e91058925c661ba29b944fbf042919",
+      "bytes": 1806
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Fdde25726ca466945d8bf.json",
+      "sha256": "869841d5e1f71ee339d1ea68bf241d1bff5877630b6356b3b0b2056e2b6c67ba",
+      "bytes": 2836
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F2b392cbde479a1432e5b.json",
+      "sha256": "f2365a703eb6784ccbd32b20123137dd4099b8cac525ff857ab4e4ea6d985aa3",
+      "bytes": 2837
+    },
+    {
+      "path": "executie/R11_fisiere/A04/Fisa_TestT224IdSpvSql.json",
+      "sha256": "025c6b1bcda03b1c21c6b0c4e9d5fad2cfd90db9e78f1378589e04449a543068",
+      "bytes": 3981
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Fe0cb17baf79d01125b38.json",
+      "sha256": "d0ef91ae406df03ffe51f6d43a597ffc144004ce3fb6da80c6dfce4672d61aa0",
+      "bytes": 2467
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F108227447ca2df199157.json",
+      "sha256": "be85953a5a5cb7d1dd3137bea377779536c260e3115a14dc8b392feaf6ab4565",
+      "bytes": 2506
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F314fb41add3e9c90c650.json",
+      "sha256": "f428b9396fb4ce362db7ef313ca13f58c1ac5c36b8ff6feac59f9606d1f9a1f6",
+      "bytes": 2494
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Fisa_runner_theme.json",
+      "sha256": "3617bc324e307d91ba2f35bee1af84bcd0b7cc3563e0fd2b182e86dc367f5ff4",
+      "bytes": 9362
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/04__erp-admin-blocat.yml.json",
+      "sha256": "95b5c26ebcd5faa3260ba53f0fd26c1689bbd124943fc08963a85e6aca99269c",
+      "bytes": 23539
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/05_aplica.sh.json",
+      "sha256": "1f47dfdb83d4f2cdc343b6344cea7017a8da5098788922d9492c9125eb0d82bc",
+      "bytes": 21678
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Fisa_runner_native.json",
+      "sha256": "f8a682379e2f7a21cc1c72ae03701a2a62036ec1a2c51cd6a52e654492a4b983",
+      "bytes": 9308
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Fisa_readiness_existenta.json",
+      "sha256": "f7ef8ff7125d6ac5085020230b3eada3f04e122ba460d307ed5f943e8677ef48",
+      "bytes": 8949
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Fisa_garda_container.json",
+      "sha256": "40b1bc44ec9003df77f91ff71f98040f953d8d9714c36de39514d6cc9ebcc92b",
+      "bytes": 9394
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Fisa_suita_garda.json",
+      "sha256": "c4bb2627f878d8aaad7b70cc2505593ffc725ed8b8f277b25b82ba48e635e8bb",
+      "bytes": 9343
+    },
+    {
+      "path": "executie/R11_fisiere/A12/T201_DB_registre_doua_sesiuni.json",
+      "sha256": "8bfde41e2a31237ae74a1e83c03c4f7a73b9b77615cd5cd82600ce581163c3c0",
+      "bytes": 14888
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Banca_109_martor_descriptor_Windows.json",
+      "sha256": "370f794c94db6366bf3fe30b6c7169b9db5143599ae1b6f49ac53a3bff6e37a0",
+      "bytes": 7859
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Calibrari_banca_si_registre_02.json",
+      "sha256": "b9b684c3cb81523c7e07a3bab9286004821f17e3e2951f6d918012a373830227",
+      "bytes": 104798
+    },
+    {
+      "path": "executie/R11_fisiere/A05/WMS_proba_tranzactii_G2.json",
+      "sha256": "c89d6edd8c54b09fba9f46d661a223cb9e23aa0de3b004b3b33d98ecc28a1653",
+      "bytes": 8049
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_lot_03_v1.json",
+      "sha256": "cd790759d5496447cc7ae39ce94a9cfbd4f9c1e63ea72309f9870cc68e3ed740",
+      "bytes": 3966
+    },
+    {
+      "path": "executie/R11_fisiere/A07/A07.R11.01.json",
+      "sha256": "3acf67902be67b22ba4aa79b759eb8938f236f0111a76e89dde3f36137fae98a",
+      "bytes": 3409
+    },
+    {
+      "path": "executie/R11_fisiere/A07/A07.R11.02.json",
+      "sha256": "1dc2587b09ecbcff07c2d0c48f56e7faa360cd581825a37ea7a489449a4431fc",
+      "bytes": 2899
+    },
+    {
+      "path": "executie/R11_fisiere/A06/A06.GIT.1.json",
+      "sha256": "9b9e9d2759dd563b2db4ac94787f30e73b8059dba7dfe449939cd0aa45527b81",
+      "bytes": 3677
+    },
+    {
+      "path": "executie/R11_fisiere/A11/Verdict_A11_R11_lot_01_v1.json",
+      "sha256": "54126a85faac533a1545bee9327de218c4934b5f3a48ca264e9e5d45a4509a77",
+      "bytes": 13546
+    }
+  ],
+  "historical_sha_verified": 652,
+  "method": {
+    "path": "executie/R11_fisiere/A12/Val_03/publish_val03.py",
+    "sha256": "6d52cc4dd775133edda48fc049d1ecca834e4d1dd24db0183e70234a49d20ed1",
+    "bytes": 16386
+  },
+  "constructor": {
+    "path": "executie/R11_fisiere/A12/Val_03/build_val03.py",
+    "sha256": "a46b4d695e2cdd4132d045abf24ddf7b97bf094adbb69c161640f20f278572a4",
+    "bytes": 11020
+  }
+}

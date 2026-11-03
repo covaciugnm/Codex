@@ -1,0 +1,23 @@
+{
+  "id": "01a19ea2-f112-7100-aa56-1936afb1cd7f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1793662841,
+  "updated_at": 1793663721,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a168da-206e-7220-8edc-5c436090e802\",\"depth\":1,\"agent_path\":\"/root/a09_helpers_corpus_r12\",\"agent_nickname\":\"Herschel\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a168da-206e-7220-8edc-5c436090e802",
+  "export_started_at_utc": "2026-11-03T03:30:08.376808+00:00",
+  "source_bytes": 3945455,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 39,
+  "message_count": 1,
+  "content_sha256": "92e0aef92f1b570b5e8cad92bbbf75a3e412c6aa22e34dd91efc505d996ebb38",
+  "files_copied": 5,
+  "references_not_copied": 4
+}

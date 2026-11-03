@@ -1,0 +1,15 @@
+{
+  "independent_lots_received": true,
+  "independent_register_received": true,
+  "component_files": 13,
+  "open_contracts": 17,
+  "remaining_new_tools": 7,
+  "verdict": "executie/R12_fisiere/A11/Val02_registru/Verdict_A11_R12_Val02_registru_v1.json",
+  "lot_verdict": "executie/R12_fisiere/A11/Val02_loturi/Verdict_A11_loturi_Val02_v1.json",
+  "manifest": "executie/R12_fisiere/A12/Val_02/MANIFEST_R12_Val02.json",
+  "handoff": "executie/R12_fisiere/A12/Val_02/Handoff_R12_Val02.json",
+  "checklist": "executie/R12_fisiere/A11/Val02_registru/Checklist_A11_dupa_R12_Val02_v1.json",
+  "native_verdict": "executie/R12_fisiere/A11/Val02_loturi/Verdict_A11_A05_infrastructura_Val02_v1.json",
+  "native_report": "executie/R12_fisiere/A05_Nativ_lot02/Raport_A05_N08_Nativ_lot02.json",
+  "population_supplement": "executie/R12_fisiere/A12/Val_02/Supliment_populatie_2339.json"
+}

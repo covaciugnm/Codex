@@ -1,0 +1,655 @@
+{
+  "utc": "2026-11-02T21:32:56.789418+00:00",
+  "candidate": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "gate": {
+    "path": "executie/R11_plan_delta/A11_verdict_plan_delta_R11_v3.json",
+    "sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+    "bytes": 31366
+  },
+  "scope": "JVM locale sans réseau; double Jetty du test original, socket simulé vs header XFF. Le fait qu’une classe soit testée hors OSGi ne démontre pas que son composant est lié au Jetty réellement activé.",
+  "task": "T232 / P01.C13.T0001 (hors cohorte finale); valide uniquement les sous-conditions du nouveau fichier et des méthodes appelées",
+  "test": {
+    "id": "F314fb41add3e9c90c650",
+    "path": "idempiere/plugins/com.eva.ro.saga.native/test/TestT232GardaConsola.java",
+    "git_object": "341345c21f1cb13b346b275a9cc0e01f18f5ed78",
+    "mode": "100644",
+    "family": "ERP_OSGI",
+    "class": "TEST_FIXTURĂ_RUNNER",
+    "delta": "A",
+    "priority": "P1_DELTA_SUPORT",
+    "owner": "A01",
+    "peer": "A09",
+    "routing_rule": "R11_DELTA_EXPLICIT",
+    "matched": "Trasabilitate_delta_v2.json#/rows/1582; AUTH_PROXY",
+    "control": "A01.C13",
+    "peer_control": "A09-C04",
+    "extra_candidates": [],
+    "profile": "FIXTURE",
+    "static_work": "S/FIXTURE",
+    "test_kind": "T/FIXTURE",
+    "evidence_rule": "E/FIXTURE",
+    "acceptance": "C/A01.C13",
+    "association_mode": "R11_DELTA_EXPLICIT",
+    "task_candidates": [
+      "T232"
+    ],
+    "association_condition": "runner→caz→control real sau limita mock; confirmați apelantul şi contextul pentru idempiere/plugins/com.eva.ro.saga.native/test/TestT232GardaConsola.java. Un task se leagă numai dacă există cerință + consumator/ancoră.",
+    "review_state": "QUEUED_NO_EXECUTION",
+    "family_hint": "SAGA_BRIDGE",
+    "delta_row": 1582,
+    "pipeline_candidates": [
+      "A01.P04",
+      "A01.P07",
+      "A01.P09"
+    ],
+    "pipeline_source": "from_area_plan_control_facets; owner must demonstrate caller/consumer, no product estate implied",
+    "fixture_language": ".java"
+  },
+  "case_control": {
+    "before": "return CaleAdmin.esteAdmin(cale) && !SursePermise.permis(conexiune, lista);",
+    "mutant": "return false;",
+    "clean_recompile": "source sans changement recompilée dans le même dossier isolé et comparée au mutant",
+    "delta_from_product": false
+  },
+  "runs": [
+    {
+      "case": "original",
+      "target": "candidate",
+      "jar_sha256": "87240e6869bd0f3521ad51f4c0f6d1bd84dffa0267fb349dec568b5934787620",
+      "checked_class_members_crc_or_absent": {
+        "com/eva/ro/saga/core/GardaConsola.class": 3517365066,
+        "com/eva/ro/saga/core/CaleAdmin.class": 4282371370,
+        "com/eva/ro/saga/core/SursePermise.class": 3749689153,
+        "com/eva/ro/saga/component/GardaConsolaComponent.class": 922273099
+      },
+      "test_sha256": "496d1613926a7b52e53229d716525fda7f542f3a98f276884f7e0469fca86fe6",
+      "source_hash_control_or_mutant": null,
+      "compile": 0,
+      "exit": 0,
+      "positive": 42,
+      "negative_or_failed": 0,
+      "markers": [
+        {
+          "line": 4,
+          "text": "OK   A1 30/30 forme de administrare recunoscute (inclusiv //, %6f, .., %2e%2e, ;, \\, majuscule)"
+        },
+        {
+          "line": 5,
+          "text": "OK   A2 12/12 căi de aplicație NErecunoscute ca administrare (/webui, /api, /shop/osgi, /oauth2)"
+        },
+        {
+          "line": 6,
+          "text": "OK   A3 null → false; prefixele = exact [/osgi, /idempieremonitor, /server]"
+        },
+        {
+          "line": 7,
+          "text": "OK   A4 normalizarea: /webui/%2e%2e/OSGI//system/./console → /osgi/system/console"
+        },
+        {
+          "line": 8,
+          "text": "OK   B1 implicit = exact [127.0.0.1/8, ::1/128] (D-232-15/AM-1; nicio rețea adăugată) — [127.0.0.0/8, 0:0:0:0:0:0:0:1/128]"
+        },
+        {
+          "line": 9,
+          "text": "OK   B2 apartenența la lista implicită pe capete (127/8 marginile, 126.x/128.x, ::1/::2, IPv4 mapat, poarta Docker 172.19.0.1) 11/11"
+        },
+        {
+          "line": 10,
+          "text": "OK   B3 permis(null) = false (refuz închis)"
+        },
+        {
+          "line": 11,
+          "text": "OK   B4 /24 pe capete: .0 și .255 în, 10.253.0.255 și 10.253.2.0 afară"
+        },
+        {
+          "line": 12,
+          "text": "OK   B5 fără prefix = /32 (doar adresa)"
+        },
+        {
+          "line": 13,
+          "text": "OK   B6 validatorul respinge întreaga setare (/0, nevalid, DNS, prefix în afara domeniului) și rămâne implicit 14/14"
+        },
+        {
+          "line": 14,
+          "text": "OK   B7 acceptate: listă cu spații (2), gol → implicit fără refuz, /1 (cel mai larg permis)"
+        },
+        {
+          "line": 15,
+          "text": "OK   B8 IPv4 mapat ca Inet6Address: ::ffff:127.0.0.1 permis, ::ffff:8.8.8.8 refuzat (Inet6Address)"
+        },
+        {
+          "line": 16,
+          "text": "OK   B9 /25: .128 și .255 în, .127 afară; /31: .0 și .1 în, .2 afară"
+        },
+        {
+          "line": 17,
+          "text": "OK   C1 refuza: admin+extern → true; admin+loopback → false; aplicație+extern → false; admin+null → true"
+        },
+        {
+          "line": 18,
+          "text": "OK   D1 X-Forwarded-For falsificat (127.0.0.1) din soclu extern → ADMIN_REFUZ (decizia pe soclu, nu pe getRemoteAddr)"
+        },
+        {
+          "line": 19,
+          "text": "OK   D2 exact 1 rând de jurnal «WARNING ADMIN_REFUZ /osgi/system/console 10.253.1.5» — [WARNING ADMIN_REFUZ /osgi/system/console 10.253.1.5]"
+        },
+        {
+          "line": 20,
+          "text": "OK   D3 soclu loopback (127.0.0.1) cu X-Forwarded-For extern → trece"
+        },
+        {
+          "line": 21,
+          "text": "OK   D4 soclu ::ffff:127.0.0.1 → trece"
+        },
+        {
+          "line": 22,
+          "text": "OK   D5 /webui/ din soclu extern → trece (fără citirea setării)"
+        },
+        {
+          "line": 23,
+          "text": "OK   D6 stratul interior (getWrapped) cu /osgi sub un strat exterior /webui/ → refuz"
+        },
+        {
+          "line": 24,
+          "text": "OK   D7 formele ostile prin lipici: /webui/%2e%2e/osgi/system/console, //idempiereMonitor/, /SERVER/ → refuz ×3"
+        },
+        {
+          "line": 25,
+          "text": "OK   D8 adresa soclului ilizibilă (null) pe cale de administrare → refuz"
+        },
+        {
+          "line": 26,
+          "text": "OK   D9 calea ilizibilă → refuz (fail-closed) + rând SEVERE"
+        },
+        {
+          "line": 27,
+          "text": "OK   D10 canarul din interogare nu intră în jurnal (X53) — [WARNING ADMIN_REFUZ /osgi/system/console 10.0.0.9]"
+        },
+        {
+          "line": 28,
+          "text": "OK   D11 rândul de jurnal fără caractere de control"
+        },
+        {
+          "line": 29,
+          "text": "OK   D12 setarea cu CIDR-ul rețelei de test → 10.253.1.5 trece, 10.253.2.5 refuzat"
+        },
+        {
+          "line": 30,
+          "text": "OK   D13 setarea 0.0.0.0/0 → respinsă, lista rămâne loopback (extern refuzat ×2, loopback trece), 1 rând de jurnal pe valoare (nu pe citire) — 1"
+        },
+        {
+          "line": 31,
+          "text": "OK   D14 setarea nevalidă → respinsă (SETARE_NEVALIDA, 1 rând), refuz"
+        },
+        {
+          "line": 32,
+          "text": "OK   D15 setarea ilizibilă (baza indisponibilă) → lista implicită: extern refuzat, loopback trece"
+        },
+        {
+          "line": 33,
+          "text": "OK   D16 adresa conexiunii aruncă (getConnectionMetaData / getConnection / getRemoteSocketAddress) pe /osgi → refuz ×3 + rândul «… ?»"
+        },
+        {
+          "line": 34,
+          "text": "OK   D17 calea aruncă → refuz + 1 rând SEVERE «ADMIN_REFUZ ? ?»"
+        },
+        {
+          "line": 35,
+          "text": "OK   D18 setarea aruncă → lista implicită: 10.1.2.3 / 192.168.1.9 / 172.16.0.9 refuzate, loopback trece"
+        },
+        {
+          "line": 36,
+          "text": "OK   D19 cursa cheie ↔ listă: 20000 iterații × 2 fire → stări amestecate 0, liste întoarse nepotrivite cu valoarea citită 0"
+        },
+        {
+          "line": 37,
+          "text": "OK   E0 instalarea scrie exact 1 rând WARNING ADMIN_GARDA_INSTALATA 2 (vizibil la nivelul implicit WARNING al iDempiere) — [WARNING ADMIN_GARDA_INSTALATA 2 configuratii HTTP, lista implicita 127.0.0.1/8,::1/128]"
+        },
+        {
+          "line": 38,
+          "text": "OK   E1 instalarea: 2 configurații HTTP (8080 + 8443; cea comună o singură dată), fabrica SSL sărită — 2"
+        },
+        {
+          "line": 39,
+          "text": "OK   E2 customizerul instalat: cale de administrare din 172.19.0.1 (cu X-Forwarded-For 127.0.0.1) → excepția 403 ADMIN_REFUZ"
+        },
+        {
+          "line": 40,
+          "text": "OK   E3 customizerul instalat: /webui/ → null (cererea neschimbată), fără excepție"
+        },
+        {
+          "line": 41,
+          "text": "OK   E4 dezinstalarea scoate customizerul de pe ambele configurații"
+        },
+        {
+          "line": 42,
+          "text": "OK   E5 addCustomizer eșuează → 0, TOȚI conectorii opriți (fail-closed), rând SEVERE ADMIN_GARDA_NEINSTALATA — [SEVERE ADMIN_GARDA_NEINSTALATA InvocationTargetException — conectorii HTTP se opresc (fail-closed, D-232-18), SEVERE ADMIN_GARDA_CONECTORI_OPRITI]"
+        },
+        {
+          "line": 43,
+          "text": "OK   E6 nicio HttpConfiguration → 0, conectorii opriți, SEVERE"
+        },
+        {
+          "line": 44,
+          "text": "OK   E7 instalarea «reală» fără clasele Jetty (reflecția eșuează: ClassNotFoundException) → 0, conector oprit, SEVERE — [SEVERE ADMIN_GARDA_NEINSTALATA ClassNotFoundException — conectorii HTTP se opresc (fail-closed, D-232-18), SEVERE ADMIN_GARDA_CONECTORI_OPRITI]"
+        },
+        {
+          "line": 45,
+          "text": "OK   E8 conectorii ilizibili → serverul oprit (ultima linie de apărare), SEVERE"
+        }
+      ],
+      "log": {
+        "path": "executie/R11_fisiere/A12/T232/candidate_original.log",
+        "sha256": "9ee6a1776259734ab5f8603f08d05519d09ca89cd74c35d102bab5db1a1da725",
+        "bytes": 4813
+      }
+    },
+    {
+      "case": "recompile_control",
+      "target": "candidate",
+      "jar_sha256": "87240e6869bd0f3521ad51f4c0f6d1bd84dffa0267fb349dec568b5934787620",
+      "checked_class_members_crc_or_absent": {
+        "com/eva/ro/saga/core/GardaConsola.class": 3517365066,
+        "com/eva/ro/saga/core/CaleAdmin.class": 4282371370,
+        "com/eva/ro/saga/core/SursePermise.class": 3749689153,
+        "com/eva/ro/saga/component/GardaConsolaComponent.class": 922273099
+      },
+      "test_sha256": "496d1613926a7b52e53229d716525fda7f542f3a98f276884f7e0469fca86fe6",
+      "source_hash_control_or_mutant": "dc8374e01bafac3ba2e4d98fcfd9f8843b7fe6c79e44d669c24a39de4319f287",
+      "compile": 0,
+      "exit": 0,
+      "positive": 42,
+      "negative_or_failed": 0,
+      "markers": [
+        {
+          "line": 4,
+          "text": "OK   A1 30/30 forme de administrare recunoscute (inclusiv //, %6f, .., %2e%2e, ;, \\, majuscule)"
+        },
+        {
+          "line": 5,
+          "text": "OK   A2 12/12 căi de aplicație NErecunoscute ca administrare (/webui, /api, /shop/osgi, /oauth2)"
+        },
+        {
+          "line": 6,
+          "text": "OK   A3 null → false; prefixele = exact [/osgi, /idempieremonitor, /server]"
+        },
+        {
+          "line": 7,
+          "text": "OK   A4 normalizarea: /webui/%2e%2e/OSGI//system/./console → /osgi/system/console"
+        },
+        {
+          "line": 8,
+          "text": "OK   B1 implicit = exact [127.0.0.1/8, ::1/128] (D-232-15/AM-1; nicio rețea adăugată) — [127.0.0.0/8, 0:0:0:0:0:0:0:1/128]"
+        },
+        {
+          "line": 9,
+          "text": "OK   B2 apartenența la lista implicită pe capete (127/8 marginile, 126.x/128.x, ::1/::2, IPv4 mapat, poarta Docker 172.19.0.1) 11/11"
+        },
+        {
+          "line": 10,
+          "text": "OK   B3 permis(null) = false (refuz închis)"
+        },
+        {
+          "line": 11,
+          "text": "OK   B4 /24 pe capete: .0 și .255 în, 10.253.0.255 și 10.253.2.0 afară"
+        },
+        {
+          "line": 12,
+          "text": "OK   B5 fără prefix = /32 (doar adresa)"
+        },
+        {
+          "line": 13,
+          "text": "OK   B6 validatorul respinge întreaga setare (/0, nevalid, DNS, prefix în afara domeniului) și rămâne implicit 14/14"
+        },
+        {
+          "line": 14,
+          "text": "OK   B7 acceptate: listă cu spații (2), gol → implicit fără refuz, /1 (cel mai larg permis)"
+        },
+        {
+          "line": 15,
+          "text": "OK   B8 IPv4 mapat ca Inet6Address: ::ffff:127.0.0.1 permis, ::ffff:8.8.8.8 refuzat (Inet6Address)"
+        },
+        {
+          "line": 16,
+          "text": "OK   B9 /25: .128 și .255 în, .127 afară; /31: .0 și .1 în, .2 afară"
+        },
+        {
+          "line": 17,
+          "text": "OK   C1 refuza: admin+extern → true; admin+loopback → false; aplicație+extern → false; admin+null → true"
+        },
+        {
+          "line": 18,
+          "text": "OK   D1 X-Forwarded-For falsificat (127.0.0.1) din soclu extern → ADMIN_REFUZ (decizia pe soclu, nu pe getRemoteAddr)"
+        },
+        {
+          "line": 19,
+          "text": "OK   D2 exact 1 rând de jurnal «WARNING ADMIN_REFUZ /osgi/system/console 10.253.1.5» — [WARNING ADMIN_REFUZ /osgi/system/console 10.253.1.5]"
+        },
+        {
+          "line": 20,
+          "text": "OK   D3 soclu loopback (127.0.0.1) cu X-Forwarded-For extern → trece"
+        },
+        {
+          "line": 21,
+          "text": "OK   D4 soclu ::ffff:127.0.0.1 → trece"
+        },
+        {
+          "line": 22,
+          "text": "OK   D5 /webui/ din soclu extern → trece (fără citirea setării)"
+        },
+        {
+          "line": 23,
+          "text": "OK   D6 stratul interior (getWrapped) cu /osgi sub un strat exterior /webui/ → refuz"
+        },
+        {
+          "line": 24,
+          "text": "OK   D7 formele ostile prin lipici: /webui/%2e%2e/osgi/system/console, //idempiereMonitor/, /SERVER/ → refuz ×3"
+        },
+        {
+          "line": 25,
+          "text": "OK   D8 adresa soclului ilizibilă (null) pe cale de administrare → refuz"
+        },
+        {
+          "line": 26,
+          "text": "OK   D9 calea ilizibilă → refuz (fail-closed) + rând SEVERE"
+        },
+        {
+          "line": 27,
+          "text": "OK   D10 canarul din interogare nu intră în jurnal (X53) — [WARNING ADMIN_REFUZ /osgi/system/console 10.0.0.9]"
+        },
+        {
+          "line": 28,
+          "text": "OK   D11 rândul de jurnal fără caractere de control"
+        },
+        {
+          "line": 29,
+          "text": "OK   D12 setarea cu CIDR-ul rețelei de test → 10.253.1.5 trece, 10.253.2.5 refuzat"
+        },
+        {
+          "line": 30,
+          "text": "OK   D13 setarea 0.0.0.0/0 → respinsă, lista rămâne loopback (extern refuzat ×2, loopback trece), 1 rând de jurnal pe valoare (nu pe citire) — 1"
+        },
+        {
+          "line": 31,
+          "text": "OK   D14 setarea nevalidă → respinsă (SETARE_NEVALIDA, 1 rând), refuz"
+        },
+        {
+          "line": 32,
+          "text": "OK   D15 setarea ilizibilă (baza indisponibilă) → lista implicită: extern refuzat, loopback trece"
+        },
+        {
+          "line": 33,
+          "text": "OK   D16 adresa conexiunii aruncă (getConnectionMetaData / getConnection / getRemoteSocketAddress) pe /osgi → refuz ×3 + rândul «… ?»"
+        },
+        {
+          "line": 34,
+          "text": "OK   D17 calea aruncă → refuz + 1 rând SEVERE «ADMIN_REFUZ ? ?»"
+        },
+        {
+          "line": 35,
+          "text": "OK   D18 setarea aruncă → lista implicită: 10.1.2.3 / 192.168.1.9 / 172.16.0.9 refuzate, loopback trece"
+        },
+        {
+          "line": 36,
+          "text": "OK   D19 cursa cheie ↔ listă: 20000 iterații × 2 fire → stări amestecate 0, liste întoarse nepotrivite cu valoarea citită 0"
+        },
+        {
+          "line": 37,
+          "text": "OK   E0 instalarea scrie exact 1 rând WARNING ADMIN_GARDA_INSTALATA 2 (vizibil la nivelul implicit WARNING al iDempiere) — [WARNING ADMIN_GARDA_INSTALATA 2 configuratii HTTP, lista implicita 127.0.0.1/8,::1/128]"
+        },
+        {
+          "line": 38,
+          "text": "OK   E1 instalarea: 2 configurații HTTP (8080 + 8443; cea comună o singură dată), fabrica SSL sărită — 2"
+        },
+        {
+          "line": 39,
+          "text": "OK   E2 customizerul instalat: cale de administrare din 172.19.0.1 (cu X-Forwarded-For 127.0.0.1) → excepția 403 ADMIN_REFUZ"
+        },
+        {
+          "line": 40,
+          "text": "OK   E3 customizerul instalat: /webui/ → null (cererea neschimbată), fără excepție"
+        },
+        {
+          "line": 41,
+          "text": "OK   E4 dezinstalarea scoate customizerul de pe ambele configurații"
+        },
+        {
+          "line": 42,
+          "text": "OK   E5 addCustomizer eșuează → 0, TOȚI conectorii opriți (fail-closed), rând SEVERE ADMIN_GARDA_NEINSTALATA — [SEVERE ADMIN_GARDA_NEINSTALATA InvocationTargetException — conectorii HTTP se opresc (fail-closed, D-232-18), SEVERE ADMIN_GARDA_CONECTORI_OPRITI]"
+        },
+        {
+          "line": 43,
+          "text": "OK   E6 nicio HttpConfiguration → 0, conectorii opriți, SEVERE"
+        },
+        {
+          "line": 44,
+          "text": "OK   E7 instalarea «reală» fără clasele Jetty (reflecția eșuează: ClassNotFoundException) → 0, conector oprit, SEVERE — [SEVERE ADMIN_GARDA_NEINSTALATA ClassNotFoundException — conectorii HTTP se opresc (fail-closed, D-232-18), SEVERE ADMIN_GARDA_CONECTORI_OPRITI]"
+        },
+        {
+          "line": 45,
+          "text": "OK   E8 conectorii ilizibili → serverul oprit (ultima linie de apărare), SEVERE"
+        }
+      ],
+      "log": {
+        "path": "executie/R11_fisiere/A12/T232/candidate_recompile_control.log",
+        "sha256": "9ee6a1776259734ab5f8603f08d05519d09ca89cd74c35d102bab5db1a1da725",
+        "bytes": 4813
+      }
+    },
+    {
+      "case": "mutant_no_denial",
+      "target": "candidate",
+      "jar_sha256": "87240e6869bd0f3521ad51f4c0f6d1bd84dffa0267fb349dec568b5934787620",
+      "checked_class_members_crc_or_absent": {
+        "com/eva/ro/saga/core/GardaConsola.class": 3517365066,
+        "com/eva/ro/saga/core/CaleAdmin.class": 4282371370,
+        "com/eva/ro/saga/core/SursePermise.class": 3749689153,
+        "com/eva/ro/saga/component/GardaConsolaComponent.class": 922273099
+      },
+      "test_sha256": "496d1613926a7b52e53229d716525fda7f542f3a98f276884f7e0469fca86fe6",
+      "source_hash_control_or_mutant": "9372fd20b51eb8af352164eec054dd17cfe36e3ec5a1aa63b29e068f17afa478",
+      "compile": 0,
+      "exit": 1,
+      "positive": 27,
+      "negative_or_failed": 15,
+      "markers": [
+        {
+          "line": 4,
+          "text": "OK   A1 30/30 forme de administrare recunoscute (inclusiv //, %6f, .., %2e%2e, ;, \\, majuscule)"
+        },
+        {
+          "line": 5,
+          "text": "OK   A2 12/12 căi de aplicație NErecunoscute ca administrare (/webui, /api, /shop/osgi, /oauth2)"
+        },
+        {
+          "line": 6,
+          "text": "OK   A3 null → false; prefixele = exact [/osgi, /idempieremonitor, /server]"
+        },
+        {
+          "line": 7,
+          "text": "OK   A4 normalizarea: /webui/%2e%2e/OSGI//system/./console → /osgi/system/console"
+        },
+        {
+          "line": 8,
+          "text": "OK   B1 implicit = exact [127.0.0.1/8, ::1/128] (D-232-15/AM-1; nicio rețea adăugată) — [127.0.0.0/8, 0:0:0:0:0:0:0:1/128]"
+        },
+        {
+          "line": 9,
+          "text": "OK   B2 apartenența la lista implicită pe capete (127/8 marginile, 126.x/128.x, ::1/::2, IPv4 mapat, poarta Docker 172.19.0.1) 11/11"
+        },
+        {
+          "line": 10,
+          "text": "OK   B3 permis(null) = false (refuz închis)"
+        },
+        {
+          "line": 11,
+          "text": "OK   B4 /24 pe capete: .0 și .255 în, 10.253.0.255 și 10.253.2.0 afară"
+        },
+        {
+          "line": 12,
+          "text": "OK   B5 fără prefix = /32 (doar adresa)"
+        },
+        {
+          "line": 13,
+          "text": "OK   B6 validatorul respinge întreaga setare (/0, nevalid, DNS, prefix în afara domeniului) și rămâne implicit 14/14"
+        },
+        {
+          "line": 14,
+          "text": "OK   B7 acceptate: listă cu spații (2), gol → implicit fără refuz, /1 (cel mai larg permis)"
+        },
+        {
+          "line": 15,
+          "text": "OK   B8 IPv4 mapat ca Inet6Address: ::ffff:127.0.0.1 permis, ::ffff:8.8.8.8 refuzat (Inet6Address)"
+        },
+        {
+          "line": 16,
+          "text": "OK   B9 /25: .128 și .255 în, .127 afară; /31: .0 și .1 în, .2 afară"
+        },
+        {
+          "line": 17,
+          "text": "FAIL C1 refuza: admin+extern → true; admin+loopback → false; aplicație+extern → false; admin+null → true"
+        },
+        {
+          "line": 18,
+          "text": "FAIL D1 X-Forwarded-For falsificat (127.0.0.1) din soclu extern → null (decizia pe soclu, nu pe getRemoteAddr)"
+        },
+        {
+          "line": 19,
+          "text": "FAIL D2 exact 1 rând de jurnal «WARNING ADMIN_REFUZ /osgi/system/console 10.253.1.5» — []"
+        },
+        {
+          "line": 20,
+          "text": "OK   D3 soclu loopback (127.0.0.1) cu X-Forwarded-For extern → trece"
+        },
+        {
+          "line": 21,
+          "text": "OK   D4 soclu ::ffff:127.0.0.1 → trece"
+        },
+        {
+          "line": 22,
+          "text": "OK   D5 /webui/ din soclu extern → trece (fără citirea setării)"
+        },
+        {
+          "line": 23,
+          "text": "FAIL D6 stratul interior (getWrapped) cu /osgi sub un strat exterior /webui/ → refuz"
+        },
+        {
+          "line": 24,
+          "text": "FAIL D7 formele ostile prin lipici: /webui/%2e%2e/osgi/system/console, //idempiereMonitor/, /SERVER/ → refuz ×3"
+        },
+        {
+          "line": 25,
+          "text": "FAIL D8 adresa soclului ilizibilă (null) pe cale de administrare → refuz"
+        },
+        {
+          "line": 26,
+          "text": "OK   D9 calea ilizibilă → refuz (fail-closed) + rând SEVERE"
+        },
+        {
+          "line": 27,
+          "text": "FAIL D10 canarul din interogare nu intră în jurnal (X53) — []"
+        },
+        {
+          "line": 28,
+          "text": "FAIL D11 rândul de jurnal fără caractere de control"
+        },
+        {
+          "line": 29,
+          "text": "FAIL D12 setarea cu CIDR-ul rețelei de test → 10.253.1.5 trece, 10.253.2.5 refuzat"
+        },
+        {
+          "line": 30,
+          "text": "FAIL D13 setarea 0.0.0.0/0 → respinsă, lista rămâne loopback (extern refuzat ×2, loopback trece), 1 rând de jurnal pe valoare (nu pe citire) — 1"
+        },
+        {
+          "line": 31,
+          "text": "FAIL D14 setarea nevalidă → respinsă (SETARE_NEVALIDA, 1 rând), refuz"
+        },
+        {
+          "line": 32,
+          "text": "FAIL D15 setarea ilizibilă (baza indisponibilă) → lista implicită: extern refuzat, loopback trece"
+        },
+        {
+          "line": 36,
+          "text": "FAIL D16 adresa conexiunii aruncă (getConnectionMetaData / getConnection / getRemoteSocketAddress) pe /osgi → refuz ×3 + rândul «… ?»"
+        },
+        {
+          "line": 37,
+          "text": "OK   D17 calea aruncă → refuz + 1 rând SEVERE «ADMIN_REFUZ ? ?»"
+        },
+        {
+          "line": 38,
+          "text": "FAIL D18 setarea aruncă → lista implicită: 10.1.2.3 / 192.168.1.9 / 172.16.0.9 refuzate, loopback trece"
+        },
+        {
+          "line": 39,
+          "text": "OK   D19 cursa cheie ↔ listă: 20000 iterații × 2 fire → stări amestecate 0, liste întoarse nepotrivite cu valoarea citită 0"
+        },
+        {
+          "line": 40,
+          "text": "OK   E0 instalarea scrie exact 1 rând WARNING ADMIN_GARDA_INSTALATA 2 (vizibil la nivelul implicit WARNING al iDempiere) — [WARNING ADMIN_GARDA_INSTALATA 2 configuratii HTTP, lista implicita 127.0.0.1/8,::1/128]"
+        },
+        {
+          "line": 41,
+          "text": "OK   E1 instalarea: 2 configurații HTTP (8080 + 8443; cea comună o singură dată), fabrica SSL sărită — 2"
+        },
+        {
+          "line": 42,
+          "text": "FAIL E2 customizerul instalat: cale de administrare din 172.19.0.1 (cu X-Forwarded-For 127.0.0.1) → excepția 403 ADMIN_REFUZ"
+        },
+        {
+          "line": 43,
+          "text": "OK   E3 customizerul instalat: /webui/ → null (cererea neschimbată), fără excepție"
+        },
+        {
+          "line": 44,
+          "text": "OK   E4 dezinstalarea scoate customizerul de pe ambele configurații"
+        },
+        {
+          "line": 45,
+          "text": "OK   E5 addCustomizer eșuează → 0, TOȚI conectorii opriți (fail-closed), rând SEVERE ADMIN_GARDA_NEINSTALATA — [SEVERE ADMIN_GARDA_NEINSTALATA InvocationTargetException — conectorii HTTP se opresc (fail-closed, D-232-18), SEVERE ADMIN_GARDA_CONECTORI_OPRITI]"
+        },
+        {
+          "line": 46,
+          "text": "OK   E6 nicio HttpConfiguration → 0, conectorii opriți, SEVERE"
+        },
+        {
+          "line": 47,
+          "text": "OK   E7 instalarea «reală» fără clasele Jetty (reflecția eșuează: ClassNotFoundException) → 0, conector oprit, SEVERE — [SEVERE ADMIN_GARDA_NEINSTALATA ClassNotFoundException — conectorii HTTP se opresc (fail-closed, D-232-18), SEVERE ADMIN_GARDA_CONECTORI_OPRITI]"
+        },
+        {
+          "line": 48,
+          "text": "OK   E8 conectorii ilizibili → serverul oprit (ultima linie de apărare), SEVERE"
+        }
+      ],
+      "log": {
+        "path": "executie/R11_fisiere/A12/T232/candidate_mutant_no_denial.log",
+        "sha256": "2a147ff99c86a95a39fe87abe800de17a54b47c41324d95aba6cd9cf54c1b6bf",
+        "bytes": 4788
+      }
+    },
+    {
+      "case": "original",
+      "target": "mounted_copy",
+      "jar_sha256": "dbee5b1f67580b944e16faee3cb8757ad56b34e70ed172edaa35dae72494fe9b",
+      "checked_class_members_crc_or_absent": {
+        "com/eva/ro/saga/core/GardaConsola.class": null,
+        "com/eva/ro/saga/core/CaleAdmin.class": null,
+        "com/eva/ro/saga/core/SursePermise.class": null,
+        "com/eva/ro/saga/component/GardaConsolaComponent.class": null
+      },
+      "test_sha256": "496d1613926a7b52e53229d716525fda7f542f3a98f276884f7e0469fca86fe6",
+      "source_hash_control_or_mutant": null,
+      "compile": 1,
+      "exit": null,
+      "positive": 0,
+      "negative_or_failed": 0,
+      "markers": [],
+      "log": {
+        "path": "executie/R11_fisiere/A12/T232/mounted_copy_original.log",
+        "sha256": "d09e59fa47d3420d5efbd06af282b1d21bd198edeb264e1b6c8f801974b63cde",
+        "bytes": 22601
+      }
+    }
+  ]
+}

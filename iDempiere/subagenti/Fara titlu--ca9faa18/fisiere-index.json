@@ -1,0 +1,66 @@
+[
+  {
+    "source_reference": "/Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A10_Instrumente_ramase_lot03/Raport_A10_instrumente_lot03.html",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "D:/CodexWork/a10-r12-l03",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a10-r12-l03\\dom\\hidden_row.png",
+    "status": "copiat",
+    "saved_path": "fisiere/hidden_row--7d1bc6e0.png",
+    "bytes": 3900,
+    "sha256": "2e89acd111ff862388cb7a9a5129fe59a7c618eee11e4771e6d38af354b9d663"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a10_l03_dom.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a10_l03_dom--3d40368d.py",
+    "bytes": 5964,
+    "sha256": "cfb7fb0c23302b569dc8b47ec011d4c6f32d4f43e4cf79b6c82a66ad8d7d2ee9"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a10_l03_package.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a10_l03_package--f15db797.py",
+    "bytes": 24487,
+    "sha256": "3b7528643a8b3229623fd6fab914e7e5e41ef6daa275ba496c8374421d474092"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a10_l03_prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a10_l03_prepare--1141e01c.py",
+    "bytes": 3819,
+    "sha256": "0f310a4a67e9ca63eed5d810899ee1bb3eafdbfb6102fea0f1c3e247c7493463"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a10_l03_pure.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a10_l03_pure--24f9bbd7.py",
+    "bytes": 8785,
+    "sha256": "935fe280cc659a52aec74439a27953be3a7590be9f07e866383be14030c92500"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a10_l03_retry_prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a10_l03_retry_prepare--855ebafb.py",
+    "bytes": 1358,
+    "sha256": "c09b68d74b1aa94297f3b5262072e5b35a445c1eabd8022e25fcaf7cda884e7b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a10_l03_seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a10_l03_seal--380209b0.py",
+    "bytes": 4722,
+    "sha256": "a61a1e3a0927f9b360620cabb91840f4d272626cc441cb7e2ad5c9855879d60c"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a10_l03_shell.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a10_l03_shell--e16701c0.py",
+    "bytes": 16660,
+    "sha256": "5bea68ceecb3194199c4536b3211bfb895f375b5a935764c7f967fc5f52a99fd"
+  }
+]

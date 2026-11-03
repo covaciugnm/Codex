@@ -1,0 +1,20 @@
+from pathlib import Path
+import hashlib,json,subprocess
+W=Path('D:/CodexWork/a05-g3-harness');W.mkdir(exist_ok=True)
+O=Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A05_G3_nativ_lot04')
+def write(p,t):
+ assert not p.exists();p.write_text(t,encoding='utf8')
+s=Path('D:/CodexWork/a05_n05_restore.py').read_text()
+s=s.replace('A05_N05_lot03','A05_G3_nativ_lot04').replace('a05-r12-native-lab-n05-20261103','a05-r12-native-lab-g3-20261103')
+s=s.replace('A11/Val03_preflight/Verdict_A11_protocol_N05_v2.json','A11/Val04_preflight/Verdict_A11_protocol_G3_nativ_v2.json').replace('d92aed9631986da6d1ec5652e114810f350a1ac49902e62e3b0b7ca226b36230','abf849cb254c6c13d43ac318f4fe1f44d90dd61f0c1fffb328a3bad03f6ab80f')
+s=s.replace("max_connections=25\\n", "max_connections=25\\nmax_locks_per_transaction=1024\\n")
+s=s.replace('REASSIGN OWNED BY a05lab TO adempiere;', "DO $$ DECLARE r record; BEGIN FOR r IN SELECT relname,relkind FROM pg_class c JOIN pg_namespace n ON n.oid=c.relnamespace WHERE n.nspname='adempiere' AND relkind IN ('r','p','S','v','m') LOOP EXECUTE format('ALTER %s adempiere.%I OWNER TO adempiere', CASE r.relkind WHEN 'S' THEN 'SEQUENCE' WHEN 'v' THEN 'VIEW' WHEN 'm' THEN 'MATERIALIZED VIEW' ELSE 'TABLE' END,r.relname); END LOOP; END $$; ALTER SCHEMA adempiere OWNER TO adempiere;")
+write(Path('D:/CodexWork/a05_g3_restore.py'),s)
+s=Path('D:/CodexWork/a05-n05-harness/A05N05Launcher.java').read_text().replace('A05N05Launcher','A05G3Launcher').replace('A05_N05_MODE','A05_G3_MODE')
+write(W/'A05G3Launcher.java',s)
+r=subprocess.run(['C:/Program Files/Java/jdk-21/bin/javac.exe','-cp','D:/CodexWork/a05-r12-native-cache/org.eclipse.osgi_3.18.500.v20230801-1826.jar',str(W/'A05G3Launcher.java')],capture_output=True);assert r.returncode==0,r.stderr.decode()
+s=Path('D:/CodexWork/a05_n05_run.py').read_text().replace('A05_N05_lot03','A05_G3_nativ_lot04').replace('a05-n05-harness','a05-g3-harness').replace('a05-r12-native-lab-n05-20261103','a05-r12-native-lab-g3-20261103').replace('A05N05Launcher','A05G3Launcher').replace('a05-n05-probe.jar','a05-g3-probe.jar')
+write(Path('D:/CodexWork/a05_g3_run.py'),s)
+s=Path('D:/CodexWork/a05_n05_compile.py').read_text().replace('a05-n05-harness','a05-g3-harness').replace('A05N05Probe','A05G3Probe').replace('a05.n05.native.probe','a05.g3.native.probe').replace('a05-n05-probe.jar','a05-g3-probe.jar')
+write(Path('D:/CodexWork/a05_g3_compile.py'),s)
+print('prepared independent G3 launcher/scripts; no PG/product executed')

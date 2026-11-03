@@ -86,14 +86,14 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "6084d02a172a3a052c9850343c635326dc1054a7e0dcae0078ba259caf0d49a7",
-      "snapshot_utc": "2026-11-02T21:26:40.664214+00:00",
+      "content_sha256": "417485b168587ad7dc300afe21945e926dac66a49e4e30660cb9dc56d33c10b2",
+      "snapshot_utc": "2026-11-03T03:30:08.376808+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
       "name": "iDempiere",
-      "content_sha256": "925b1851b1bf00638b554eaabb453a0137f012d7e9e135e3761c7024bbf05ba2",
-      "snapshot_utc": "2026-11-02T21:26:40.664214+00:00",
+      "content_sha256": "a7e61cf7af3521ccc3d5964bff89e39794d1ef8ad25dfebe0717d3a10aa458e5",
+      "snapshot_utc": "2026-11-03T03:30:08.376808+00:00",
       "folder": "iDempiere"
     },
     "a85004ee-5acd-4f38-b445-2289450e8065": {
@@ -205,5 +205,5 @@
       "folder": "Banci"
     }
   },
-  "updated_at_utc": "2026-11-02T21:53:20.579918+00:00"
+  "updated_at_utc": "2026-11-03T03:50:46.606750+00:00"
 }

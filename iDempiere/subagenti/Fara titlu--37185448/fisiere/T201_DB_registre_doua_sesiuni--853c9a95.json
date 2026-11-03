@@ -1,0 +1,468 @@
+{
+  "utc": "2026-11-02T21:31:10.041724+00:00",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "gate": {
+    "path": "executie/R11_plan_delta/A11_verdict_plan_delta_R11_v3.json",
+    "sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+    "bytes": 31366
+  },
+  "origin": "Freshly restored synthetic GardenWorld backup, dedicated PostgreSQL16 loopback, only System/GardenWorld; candidate Java test, candidate and current mounted-copy bundles. No operational DB modified.",
+  "source_git": {
+    "id": "F64a85ead29c8155bdf6f",
+    "path": "idempiere/plugins/com.eva.ro.contab/test/TestT201Registre.java",
+    "git_object": "79c8d2fb89fc6fe233acceb91190ec4267066af3",
+    "mode": "100644",
+    "family": "ERP_OSGI",
+    "class": "TEST_FIXTURĂ_RUNNER",
+    "delta": "UNCHANGED_VS_R10",
+    "priority": "P2_ACOPERIRE_INTEGRALA",
+    "owner": "A10",
+    "peer": "A02",
+    "routing_rule": "FAMILY_SHARED",
+    "matched": "ERP_OSGI:idempiere/plugins/com.eva.ro.contab",
+    "control": "A10-CK-01",
+    "peer_control": "A02.C004",
+    "extra_candidates": [],
+    "profile": "FIXTURE",
+    "static_work": "S/FIXTURE",
+    "test_kind": "T/FIXTURE",
+    "evidence_rule": "E/FIXTURE",
+    "acceptance": "C/A10-CK-01",
+    "association_mode": "LOCATOR_LITERAL_TO_VERIFY",
+    "task_candidates": [
+      "T201"
+    ],
+    "association_condition": "runner→caz→control real sau limita mock; confirmați apelantul şi contextul pentru idempiere/plugins/com.eva.ro.contab/test/TestT201Registre.java. Un task se leagă numai dacă există cerință + consumator/ancoră.",
+    "review_state": "QUEUED_NO_EXECUTION",
+    "pipeline_candidates": [
+      "A10-F01"
+    ],
+    "pipeline_source": "from_area_plan_control_facets; owner must demonstrate caller/consumer, no product estate implied",
+    "fixture_language": ".java"
+  },
+  "input_backup_sha256": "54d2a646a663949df78e24206a4dc2a30b7eab609aafba1229c1e6c28e97c6a4",
+  "fixture": "two simultaneous SQL writers x 20, rollback/retry, same transaction, guards for delete and mutations by exact names",
+  "preflight": "AD_clients=0,11\ntables=1147\nprotection_triggers=2\nregister_rows=0,0,0\n",
+  "post": "AD_clients=0,11\ntables=1147\nprotection_triggers=2\nregister_rows=122,0,8\n",
+  "steps": [
+    {
+      "tag": "00_init",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/00_init.log",
+        "sha256": "6a262ef7297f09e9ff6a58dc7c1ed73f11947b00eff3dee55e4cb93367e4bfcc",
+        "bytes": 1880
+      },
+      "assertions": []
+    },
+    {
+      "tag": "01_start",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/01_start.log",
+        "sha256": "39ebcb7131961fab0009fec020f9d357447555747e46146b82b59188ef43a9e6",
+        "bytes": 410
+      },
+      "assertions": []
+    },
+    {
+      "tag": "02_create",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/02_create.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "assertions": []
+    },
+    {
+      "tag": "03_restore",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/03_restore.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "assertions": []
+    },
+    {
+      "tag": "04_baseline",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/04_baseline.log",
+        "sha256": "c56a905c5fa8ef87771965b1f7c69829faf8ff2867d12b8fbc7c5fb3ce2112cc",
+        "bytes": 74
+      },
+      "assertions": []
+    },
+    {
+      "tag": "candidate_normal",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/candidate_normal.log",
+        "sha256": "d6cf99876c7eac3d383877f419c1efa5de02363c890a3e26be1e6a0a4bc4bc9d",
+        "bytes": 894
+      },
+      "assertions": [
+        {
+          "line": 2,
+          "text": "OK   K-9a a doua sesiune pe plaja blocată ⇒ SQLState 55P03 (55P03)"
+        },
+        {
+          "line": 3,
+          "text": "OK   K-9b 2 × 20 alocări concurente ⇒ 40 de numere distincte, 0 erori (distincte 40, erori 0)"
+        },
+        {
+          "line": 4,
+          "text": "OK   K-9 [K9] dubluri (firmă, plajă, număr) ⇒ 0 (0)"
+        },
+        {
+          "line": 5,
+          "text": "OK   K-10 [K10] fără goluri pe plaja probei ⇒ t"
+        },
+        {
+          "line": 6,
+          "text": "OK   K-10 excepție injectată după aloca ⇒ următorul primește același număr (41 / 41)"
+        },
+        {
+          "line": 7,
+          "text": "OK   K-15 psql DELETE ⇒ «eva_registrufirma_protectie: DELETE»"
+        },
+        {
+          "line": 8,
+          "text": "OK   R-N8 UPDATE eva_numar ⇒ refuz"
+        },
+        {
+          "line": 9,
+          "text": "OK   R-N8 UPDATE eva_nrinregistrare ⇒ refuz"
+        },
+        {
+          "line": 10,
+          "text": "OK   K-13 UPDATE eva_datainregistrare ⇒ refuz"
+        },
+        {
+          "line": 11,
+          "text": "OK   K-15 UPDATE pe o rubrică editabilă ⇒ permis"
+        },
+        {
+          "line": 12,
+          "text": "OK   K-15 anularea permisă, dez-anularea ⇒ refuz"
+        },
+        {
+          "line": 13,
+          "text": "OK   R-G6 trigger-ul pe ambele tabele (2)"
+        },
+        {
+          "line": 14,
+          "text": "OK   R-N6 indexurile unice pe ambele tabele (2)"
+        },
+        {
+          "line": 15,
+          "text": "REZULTAT: 13 OK, 0 FAIL"
+        }
+      ]
+    },
+    {
+      "tag": "after_candidate_normal",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/after_candidate_normal.log",
+        "sha256": "b3304701f5ad1f5ae5250f5061b3b16570ca9cab57d461881bf8af85be76840b",
+        "bytes": 75
+      },
+      "assertions": []
+    },
+    {
+      "tag": "candidate_fara-blocare",
+      "exit": 1,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/candidate_fara-blocare.log",
+        "sha256": "e61a719df16d4e47749f5c4fc4f0e4c2dd2fe6907e1cff3e467c20c747f612e3",
+        "bytes": 316
+      },
+      "assertions": [
+        {
+          "line": 2,
+          "text": "FAIL K-9b 2 × 20 alocări concurente ⇒ 40 de numere distincte, 0 erori (distincte 20, erori 20)"
+        },
+        {
+          "line": 3,
+          "text": "OK   K-9 [K9] dubluri (firmă, plajă, număr) ⇒ 0 (0)"
+        },
+        {
+          "line": 4,
+          "text": "OK   K-10 [K10] fără goluri pe plaja probei ⇒ t"
+        },
+        {
+          "line": 5,
+          "text": "REZULTAT: 2 OK, 1 FAIL"
+        }
+      ]
+    },
+    {
+      "tag": "after_candidate_fara-blocare",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/after_candidate_fara-blocare.log",
+        "sha256": "ecc3b7ff37cbf8a50ddf193ac1cb0cd17b409fa36ee47e23ca1581e153f17ca2",
+        "bytes": 75
+      },
+      "assertions": []
+    },
+    {
+      "tag": "candidate_alta-trx",
+      "exit": 1,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/candidate_alta-trx.log",
+        "sha256": "5555da3f55e174364cbaf5b7410779b1702c9ecffa477a381d25aea98c7aeb9b",
+        "bytes": 146
+      },
+      "assertions": [
+        {
+          "line": 2,
+          "text": "FAIL K-10 consumul în trx-ul rândului (55P03)"
+        },
+        {
+          "line": 3,
+          "text": "REZULTAT: 0 OK, 1 FAIL"
+        }
+      ]
+    },
+    {
+      "tag": "after_candidate_alta-trx",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/after_candidate_alta-trx.log",
+        "sha256": "fd8876ecf73b07487cf1ae3cb08df9fab130558eb2fbcf57d086644a406a9fb2",
+        "bytes": 75
+      },
+      "assertions": []
+    },
+    {
+      "tag": "candidate_fara-trigger",
+      "exit": 1,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/candidate_fara-trigger.log",
+        "sha256": "a64c25cad11869af4f48afaaf4eca9e59ac711ccd282fb6d8727c60d5b4ba106",
+        "bytes": 172
+      },
+      "assertions": [
+        {
+          "line": 2,
+          "text": "FAIL K-15 DELETE ⇒ refuzat de trigger (mutantul «trigger absent»)"
+        },
+        {
+          "line": 3,
+          "text": "REZULTAT: 0 OK, 1 FAIL"
+        }
+      ]
+    },
+    {
+      "tag": "after_candidate_fara-trigger",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/after_candidate_fara-trigger.log",
+        "sha256": "7e880e11fa918ad322143e27ad9283d23d72d598bbe278283ff38fab4fd15201",
+        "bytes": 75
+      },
+      "assertions": []
+    },
+    {
+      "tag": "mounted_copy_normal",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/mounted_copy_normal.log",
+        "sha256": "e2c2d6e197f562cb93d4855898668445f4932845a5095dfb918279f9c6d7442d",
+        "bytes": 894
+      },
+      "assertions": [
+        {
+          "line": 2,
+          "text": "OK   K-9a a doua sesiune pe plaja blocată ⇒ SQLState 55P03 (55P03)"
+        },
+        {
+          "line": 3,
+          "text": "OK   K-9b 2 × 20 alocări concurente ⇒ 40 de numere distincte, 0 erori (distincte 40, erori 0)"
+        },
+        {
+          "line": 4,
+          "text": "OK   K-9 [K9] dubluri (firmă, plajă, număr) ⇒ 0 (0)"
+        },
+        {
+          "line": 5,
+          "text": "OK   K-10 [K10] fără goluri pe plaja probei ⇒ t"
+        },
+        {
+          "line": 6,
+          "text": "OK   K-10 excepție injectată după aloca ⇒ următorul primește același număr (41 / 41)"
+        },
+        {
+          "line": 7,
+          "text": "OK   K-15 psql DELETE ⇒ «eva_registrufirma_protectie: DELETE»"
+        },
+        {
+          "line": 8,
+          "text": "OK   R-N8 UPDATE eva_numar ⇒ refuz"
+        },
+        {
+          "line": 9,
+          "text": "OK   R-N8 UPDATE eva_nrinregistrare ⇒ refuz"
+        },
+        {
+          "line": 10,
+          "text": "OK   K-13 UPDATE eva_datainregistrare ⇒ refuz"
+        },
+        {
+          "line": 11,
+          "text": "OK   K-15 UPDATE pe o rubrică editabilă ⇒ permis"
+        },
+        {
+          "line": 12,
+          "text": "OK   K-15 anularea permisă, dez-anularea ⇒ refuz"
+        },
+        {
+          "line": 13,
+          "text": "OK   R-G6 trigger-ul pe ambele tabele (2)"
+        },
+        {
+          "line": 14,
+          "text": "OK   R-N6 indexurile unice pe ambele tabele (2)"
+        },
+        {
+          "line": 15,
+          "text": "REZULTAT: 13 OK, 0 FAIL"
+        }
+      ]
+    },
+    {
+      "tag": "after_mounted_copy_normal",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/after_mounted_copy_normal.log",
+        "sha256": "e487034b0abec0ba4bb8ffca7657f7caf63a2db8f11c7dfd901a0df72df0c630",
+        "bytes": 76
+      },
+      "assertions": []
+    },
+    {
+      "tag": "mounted_copy_fara-blocare",
+      "exit": 1,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/mounted_copy_fara-blocare.log",
+        "sha256": "c0f184d827635b28144656fc46259ad1ae34bf373814d1a3208ea3d706f71050",
+        "bytes": 316
+      },
+      "assertions": [
+        {
+          "line": 2,
+          "text": "FAIL K-9b 2 × 20 alocări concurente ⇒ 40 de numere distincte, 0 erori (distincte 20, erori 20)"
+        },
+        {
+          "line": 3,
+          "text": "OK   K-9 [K9] dubluri (firmă, plajă, număr) ⇒ 0 (0)"
+        },
+        {
+          "line": 4,
+          "text": "OK   K-10 [K10] fără goluri pe plaja probei ⇒ t"
+        },
+        {
+          "line": 5,
+          "text": "REZULTAT: 2 OK, 1 FAIL"
+        }
+      ]
+    },
+    {
+      "tag": "after_mounted_copy_fara-blocare",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/after_mounted_copy_fara-blocare.log",
+        "sha256": "a3e2d9cc4d8a6214228b95e75dd8b65577af63f553c1d6ff6d0dde99830c6668",
+        "bytes": 76
+      },
+      "assertions": []
+    },
+    {
+      "tag": "mounted_copy_alta-trx",
+      "exit": 1,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/mounted_copy_alta-trx.log",
+        "sha256": "3a6939407b336eb8f98b5f681a26fb904e26ac5a296a61b25df46eaadb2ab922",
+        "bytes": 146
+      },
+      "assertions": [
+        {
+          "line": 2,
+          "text": "FAIL K-10 consumul în trx-ul rândului (55P03)"
+        },
+        {
+          "line": 3,
+          "text": "REZULTAT: 0 OK, 1 FAIL"
+        }
+      ]
+    },
+    {
+      "tag": "after_mounted_copy_alta-trx",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/after_mounted_copy_alta-trx.log",
+        "sha256": "f349075531c52107e2af85753795208f9491cefed1ca6fc6ea065f84e1946329",
+        "bytes": 76
+      },
+      "assertions": []
+    },
+    {
+      "tag": "mounted_copy_fara-trigger",
+      "exit": 1,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/mounted_copy_fara-trigger.log",
+        "sha256": "bbf540a21dfee31e60dd36cd0ec4100abca3509217df2122dd2747c9e5165dd9",
+        "bytes": 172
+      },
+      "assertions": [
+        {
+          "line": 2,
+          "text": "FAIL K-15 DELETE ⇒ refuzat de trigger (mutantul «trigger absent»)"
+        },
+        {
+          "line": 3,
+          "text": "REZULTAT: 0 OK, 1 FAIL"
+        }
+      ]
+    },
+    {
+      "tag": "after_mounted_copy_fara-trigger",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/after_mounted_copy_fara-trigger.log",
+        "sha256": "0d5d9760b48a9aaf900c4dd22028274b29691b484876f938f64d55c8a8ee4d29",
+        "bytes": 76
+      },
+      "assertions": []
+    },
+    {
+      "tag": "05_final",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/05_final.log",
+        "sha256": "0d5d9760b48a9aaf900c4dd22028274b29691b484876f938f64d55c8a8ee4d29",
+        "bytes": 76
+      },
+      "assertions": []
+    },
+    {
+      "tag": "06_stop",
+      "exit": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/pg/06_stop.log",
+        "sha256": "3589d2bd01f8295cc7c9ec3f5e07625fcd347ccb6f33f2d80edafe5f5217c1fb",
+        "bytes": 58
+      },
+      "assertions": []
+    }
+  ],
+  "cleanup": {
+    "cluster_stopped": true,
+    "temp_removed": true
+  },
+  "limitations": "True PostgreSQL and compiled application allocator. Synthetic client11, DBA fixture, no desktop entry or ERP actor permissions. Mutant invocations are counterfactual controls, not bugs of unaltered runtime."
+}

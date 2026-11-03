@@ -26,13 +26,15 @@
     {
       "path": "Analizează taskurile C03–C10/istoric.json",
       "masked_values": {
-        "literal_authentication_value": 10
+        "literal_authentication_value": 10,
+        "url_userinfo": 6
       }
     },
     {
       "path": "Analizează taskurile C03–C10/rezultate.md",
       "masked_values": {
-        "literal_authentication_value": 10
+        "literal_authentication_value": 10,
+        "url_userinfo": 6
       }
     },
     {
@@ -85,6 +87,18 @@
       }
     },
     {
+      "path": "subagenti/Fara titlu--22729ccf/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--22729ccf/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
       "path": "subagenti/Fara titlu--2525ee4c/fisiere/a05-context--2c935a7e.py",
       "masked_values": {
         "literal_authentication_value": 1
@@ -117,13 +131,99 @@
     {
       "path": "subagenti/Fara titlu--37185448/istoric.json",
       "masked_values": {
-        "literal_authentication_value": 1
+        "literal_authentication_value": 1,
+        "url_userinfo": 3
       }
     },
     {
       "path": "subagenti/Fara titlu--37185448/rezultate.md",
       "masked_values": {
+        "literal_authentication_value": 1,
+        "url_userinfo": 3
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_g3_final_readback--ffe52434.py",
+      "masked_values": {
         "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_g3_run_barrier--f1610352.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_g3_schema--ef17a630.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_n05_readback--134ccde3.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_n05_reconcile--42fe0573.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_n05_schema--cbb8e954.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_order_schema--a0dcf8a4.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_order_schema_addendum--e8910feb.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_r12_close_lot--a1529854.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/fisiere/a05_r12_pg_isolation--81005660.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 26
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--45df9b08/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 26
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--4a6c4bed/istoric.json",
+      "masked_values": {
+        "url_userinfo": 13
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--4a6c4bed/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 13
       }
     },
     {
@@ -138,6 +238,18 @@
       "masked_values": {
         "literal_authentication_value": 3,
         "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--6d824d0a/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--6d824d0a/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 1
       }
     },
     {
@@ -165,6 +277,18 @@
       }
     },
     {
+      "path": "subagenti/Fara titlu--72381b13/istoric.json",
+      "masked_values": {
+        "url_userinfo": 3
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--72381b13/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 3
+      }
+    },
+    {
       "path": "subagenti/Fara titlu--8f7af902/istoric.json",
       "masked_values": {
         "literal_authentication_value": 1
@@ -174,6 +298,18 @@
       "path": "subagenti/Fara titlu--8f7af902/rezultate.md",
       "masked_values": {
         "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--93548b99/istoric.json",
+      "masked_values": {
+        "url_userinfo": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--93548b99/rezultate.md",
+      "masked_values": {
+        "url_userinfo": 1
       }
     },
     {

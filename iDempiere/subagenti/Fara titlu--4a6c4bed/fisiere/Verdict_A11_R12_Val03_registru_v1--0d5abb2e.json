@@ -1,0 +1,389 @@
+{
+  "utc": "2026-11-03T01:35:51.327226+00:00",
+  "reviewer": "A11 independent",
+  "candidate": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "operational_server_HEAD_excluded": "1687cc8376902e7aa7163a883e07c7271bcae511",
+  "disposition": "RECEPȚIE LIMITATĂ ACCEPTATĂ pentru registrul Val03 împreună cu suplimentul de stări și handoffv2; fără notă globală ori închidere de produs",
+  "base_manifest": {
+    "path": "executie/R12_fisiere/A12/Val_03/MANIFEST_R12_Val03.json",
+    "sha256": "5f80d3973e34be94ce12aafdea307eec43aca359b42f2a0042c740e6c9db9a23",
+    "bytes": 11485
+  },
+  "authoritative_handoff": {
+    "path": "executie/R12_fisiere/A12/Val_03/Handoff_R12_Val03_v2.json",
+    "sha256": "58c7de3c525c69af3dd41799eed8e485f682e577233ea47f9acef3d7bda15dbb",
+    "bytes": 6333
+  },
+  "presentation_manifest": {
+    "path": "executie/R12_fisiere/A12/Val_03/MANIFEST_lectura_finala_Val03_v1.json",
+    "sha256": "1b40caa6b7587badc3e304467ad0a4386c5a3f725f4c4b9c3f0efd107b530dfe",
+    "bytes": 2553
+  },
+  "state_addendum": {
+    "path": "executie/R12_fisiere/A12/Val_03/SIGILIU_supliment_stari_Val03_v1.json",
+    "sha256": "2a0c42fd6bc8ea2e11458a49792259c7f92c82a77e6217e997c343064a7dd38c",
+    "bytes": 928
+  },
+  "base_control": {
+    "path": "executie/R12_fisiere/A11/Val03_registru/Control_A11_Val03_registru_baza_v1.json",
+    "sha256": "42876e242b4295a64e7e5bcbd4673d80d9d1ebd260e8ca3c0de4b6bb02b34de3",
+    "bytes": 3863
+  },
+  "verification": {
+    "technical_identities": 6728,
+    "identity_and_routing_dimensions": 8,
+    "changed_evidence_rows_only": 57,
+    "new_partial_scope_rows": 26,
+    "new_static_only": 31,
+    "partial_scope_rows_total": 39,
+    "old13rows_unchanged": true,
+    "historic_dossiers_actually_rehashed": 652,
+    "historic_criteria_preserved": 2619,
+    "historic_R11_partial_sources_reference_only": 116,
+    "historic_credit_transferred": 0,
+    "forward_inverse_pairs": 39,
+    "reference_instances_resolved_in_base_QA": 8714,
+    "distinct_reference_paths_in_base_QA": 815,
+    "manifest_output_files": 25,
+    "manifest_input_references": 30,
+    "distinct_manifest_input_paths": 29
+  },
+  "metric_semantics": {
+    "original_components_or_method_paths": 26,
+    "comparators": {
+      "Bash": 5,
+      "SQL_sites_same_query": 2,
+      "total": 7
+    },
+    "transitive_record_type_uses": 2,
+    "fixture_binding_metadata": 4,
+    "sum39_is_not_business_execution_or_whole_files": true,
+    "sum35_excludes_fixture_binding_metadata": 35,
+    "all19newtools_have_only_bounded_observations": true,
+    "full_new_tool_receipts": 0
+  },
+  "cases": {
+    "new_helper_SQL_case_identities": 121,
+    "A06": 36,
+    "A10": 73,
+    "G3_unique_fixtures": 12,
+    "G3_SQL_evaluations_not_unique_cases": 24,
+    "N05_scenarios_separate": 7,
+    "A11_independent_controls_not_added_to_executor_counts": true,
+    "not_PASS_or_criteria_total": true
+  },
+  "state_correction": {
+    "error_found_by_A11": "current_state projected from missing stare instead of stare_generala, yielding4null values.",
+    "accepted_additive_values": {
+      "T232": "implementare",
+      "T240": "implementare",
+      "T343": "audit",
+      "T355": "închis"
+    },
+    "meaning": "States are declarations from the frozen source snapshot, not independent audit acceptance. Original matrix/manifest preserved; corrected reading/handoff linked."
+  },
+  "N05": {
+    "finding": "A05.R11.G2.BOM.1/N05 strengthened by original native process and PO handler at df85; same defect, not new count.",
+    "priority": "P1 proposed for quantitative WMS records; physical inventory and accounting value impact not measured.",
+    "source_levels": "46 read =29static +11methodpaths +2types +3fixture/binding +1metadata",
+    "historic_criteria": "T355-R2-001/-002 have limited observations/counterexample; -003 no idempotency credit from postrollback retry; -004 boxes/labor not exercised. None closed.",
+    "accounting": "G2 is non-accounting; recovery of reusable components does not automatically recreate consumed boxes or reverse labor. G1 cost/posting remains separate."
+  },
+  "accepted_limits": [
+    "G3 SQL sites are comparators, not Java/native/PostgreSQL/channel persistence.",
+    "Two extra G3 hypotheses remain unexecuted and unconfirmed, with no priority or criterion credit.",
+    "Planned peer assignments do not assert those peers performed an audit; actual executor and independent A11 are explicit.",
+    "No UI/ZK full reception, no product10/10, no full source/task/contract closure.",
+    "Historical exact closure dates are not inferred where undocumented.",
+    "N05 lab returned; six retained roots remain after approval rejection, without a workaround."
+  ],
+  "checks_supplement": [
+    {
+      "check": "base QA fixed",
+      "ok": true
+    },
+    {
+      "check": "base manifest remains immutable",
+      "ok": true
+    },
+    {
+      "check": "state seal fixed",
+      "ok": true
+    },
+    {
+      "check": "reading seal fixed",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Supliment_stari_nominale_Val03_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Matrice_taskuri_criterii_R12_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/delta/2026-11-03T00-39-34-490Z/00_STATUS_TASKURI.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/MANIFEST_R12_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Matrice_taskuri_criterii_R12_Val03_corectata_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/index_final.html",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Handoff_R12_Val03_v2.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/MANIFEST_R12_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Handoff_R12_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Matrice_taskuri_criterii_R12_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/index.html",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Supliment_stari_nominale_Val03_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/SIGILIU_supliment_stari_Val03_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_02/MANIFEST_R12_Val02.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A11/Val02_registru/Verdict_A11_R12_Val02_registru_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/MANIFEST_preflight_Val03_0039.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A11/Val03_preflight/Verdict_A11_receptie_supliment_0039_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Registru_6728_R12_Val03.jsonl.gz",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Evenimente_9_surse_si_2_lecturi.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Evenimente_N05_17_si_29_lecturi.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Delta_integrala_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Cazuri_nominale_121.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Matrice_taskuri_criterii_R12_Val03_corectata_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Index_invers_surse_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/N05_checkpoint_separat.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Resurse_si_restituire_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Surse_si_receptii_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Checklist_10_zone_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Handoff_R12_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/MANIFEST_R12_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Supliment_stari_nominale_Val03_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/SIGILIU_supliment_stari_Val03_v1.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/index_final.html",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_02/Matrice_taskuri_criterii_R12_Val02.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/delta/2026-11-03T00-39-34-490Z/00_STATUS_TASKURI.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/delta/2026-11-03T00-39-34-490Z/00_STATUS_TASKURI.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/delta/2026-11-03T00-39-34-490Z/00_STATUS_TASKURI.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/delta/2026-11-03T00-39-34-490Z/00_STATUS_TASKURI.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/N05_checkpoint_separat.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Supliment_populatie_0039.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Matrice_taskuri_criterii_R12_Val03.json",
+      "ok": true
+    },
+    {
+      "check": "supplement ref executie/R12_fisiere/A12/Val_03/Supliment_stari_nominale_Val03_v1.json",
+      "ok": true
+    },
+    {
+      "check": "state exact T232",
+      "ok": true
+    },
+    {
+      "check": "state exact T240",
+      "ok": true
+    },
+    {
+      "check": "state exact T343",
+      "ok": true
+    },
+    {
+      "check": "state exact T355",
+      "ok": true
+    },
+    {
+      "check": "only four matrix values changed",
+      "ok": true
+    },
+    {
+      "check": "handoff original fields preserved except schema/utc/matrix",
+      "ok": true
+    },
+    {
+      "check": "counts unchanged",
+      "ok": true
+    },
+    {
+      "check": "26+7+2+4 exact",
+      "ok": true
+    },
+    {
+      "check": "ten distinct owners",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A01",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A02",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A03",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A04",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A05",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A06",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A07",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A08",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A09",
+      "ok": true
+    },
+    {
+      "check": "zone aggregate A10",
+      "ok": true
+    },
+    {
+      "check": "652tasks2619criteria actual matrix",
+      "ok": true
+    },
+    {
+      "check": "unexecuted hypothesis Ipoteza_G3_dubla_scadere_NEEXECUTATA.json",
+      "ok": true
+    },
+    {
+      "check": "unexecuted hypothesis Ipoteza_G3_promo_NEEXECUTATA.json",
+      "ok": true
+    },
+    {
+      "check": "six retained roots",
+      "ok": true
+    }
+  ],
+  "open_contracts": 17,
+  "full_files_accepted": 0,
+  "full_tasks_closed_by_this_wave": 0,
+  "global_score": null,
+  "resume_checklist": {
+    "path": "executie/R12_fisiere/A11/Val03_loturi/Checklist_A11_dupa_R12_Val03_v1.json",
+    "sha256": "3e6aff18819a2d88cd6de04b7ee71dbdd159b80ea7df5652524896306a9dd3ba",
+    "bytes": 11360
+  },
+  "review_tool_calibration": "Local metadata verifier was adapted to declared schemas:25outputs/30references with1duplicate, static_support_only, whole-JSON references and G3 result-vector projection. These iterations wrote no base verdict and executed no product; no product defects inferred from verifier exceptions.",
+  "product_executions_by_this_registry_review": 0
+}

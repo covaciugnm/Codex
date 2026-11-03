@@ -1,0 +1,12 @@
+import pathlib,json,hashlib,datetime,shutil,subprocess
+LAB=pathlib.Path(__file__).parent;R=pathlib.Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01');OUT=R/'executie/R12_fisiere/A08_Catalog_paginare_lot05'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return {'path':p.relative_to(R).as_posix() if p.is_relative_to(R) else p.as_posix(),'sha256':sha(p),'bytes':p.stat().st_size}
+def load(p):return json.loads(p.read_text(encoding='utf8'))
+def dump(p,x):assert not p.exists();p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+gate=R/'executie/R12_fisiere/A11/Val05_preflight/Addendum_A11_paginare_SeoEngine_v1.json';assert sha(gate)=='1023d0c9c21831daf8c68d5e26fa9ae9cade91d0acdfd9699b5feab3e08cc1fc'
+s=load(OUT/'Addendum_dependenta_SeoEngine_v1.json')['source'];src=R/s['path'];assert sha(src)==s['sha256'];dst=LAB/'source'/s['repository_path'];dst.parent.mkdir(parents=True,exist_ok=True);assert not dst.exists();shutil.copyfile(src,dst)
+prep=load(LAB/'Preparation.json');prep['sources'].append(dict(s,local=ref(dst),role='ORIGINAL_COMPILE_DEPENDENCY_NOT_CALLED'));prep['utc_v2']=datetime.datetime.now(datetime.timezone.utc).isoformat();prep['previous']=ref(LAB/'Preparation.json');prep['seo_gate']=ref(gate);prep['runtime_classpath']=[str(LAB/'classes_v2'),str(LAB/'lib/gson.jar')]
+(LAB/'classes_v2').mkdir();args=[v.replace(str(LAB/'classes'),str(LAB/'classes_v2')) for v in prep['compile_command']];args.append(str(dst));prep['compile_command']=args
+runner=(LAB/'run_probe.py').read_text(encoding='utf8').replace("LAB/'Preparation.json'","LAB/'Preparation_v2.json'").replace("LAB/'classes'","LAB/'classes_v2'");(LAB/'run_probe_v2.py').write_text(runner,encoding='utf8');prep['runner_v2']=ref(LAB/'run_probe_v2.py');dump(LAB/'Preparation_v2.json',prep)
+start=datetime.datetime.now(datetime.timezone.utc).isoformat();cp=subprocess.run(args,cwd=LAB,capture_output=True,timeout=60);(LAB/'logs/compile_v2.stdout.txt').write_bytes(cp.stdout);(LAB/'logs/compile_v2.stderr.txt').write_bytes(cp.stderr);dump(LAB/'logs/compile_v2.json',{'start':start,'end':datetime.datetime.now(datetime.timezone.utc).isoformat(),'command':args,'returncode':cp.returncode,'stdout':ref(LAB/'logs/compile_v2.stdout.txt'),'stderr':ref(LAB/'logs/compile_v2.stderr.txt'),'source_count':12,'product_JVM_runs':0});print(json.dumps({'rc':cp.returncode,'preparation':ref(LAB/'Preparation_v2.json'),'stderr':cp.stderr.decode('utf8',errors='replace')},ensure_ascii=False))

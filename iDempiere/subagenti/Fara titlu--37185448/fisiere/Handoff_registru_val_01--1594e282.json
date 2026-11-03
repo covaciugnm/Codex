@@ -1,0 +1,331 @@
+{
+  "utc": "2026-11-02T21:35:54.459650+00:00",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "gate": {
+    "path": "executie/R11_plan_delta/A11_verdict_plan_delta_R11_v3.json",
+    "sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+    "bytes": 31366
+  },
+  "plan": {
+    "path": "executie/R11_plan_delta/Plan_delta_R11_v3.json",
+    "sha256": "676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd",
+    "bytes": 12269
+  },
+  "previous": {
+    "path": "executie/R11_fisiere/A12/Registru_6709_initial.jsonl.gz",
+    "sha256": "377f853288f7ffaf978f9e0b1d50d2e9e7bfc1092c800054d41f853e09cf1212",
+    "bytes": 376122
+  },
+  "current": {
+    "path": "executie/R11_fisiere/A12/Registru_6709_val_01.jsonl.gz",
+    "sha256": "0bcab91235e392d9b6017e3567a27ad2593f2f70ad955e6e448ec118ab6f2571",
+    "bytes": 426824
+  },
+  "source_artifacts": [
+    {
+      "path": "executie/R11_fisiere/Python/Registru_Python.json",
+      "sha256": "72280f397ff0b576b9b7013f15b86b389621c0b8ac3b9b730e52f1c0745b6726",
+      "bytes": 753117
+    },
+    {
+      "path": "executie/R11_fisiere/Surse_web_si_config/Registru_sintaxa_si_controle.json",
+      "sha256": "ee5431e29d72fd8f82d48ba9690db71bf3a8d473d7a33ed5eff0194903b26f70",
+      "bytes": 372716
+    },
+    {
+      "path": "executie/R11_fisiere/Java/Registru_sintaxa_Java.json",
+      "sha256": "550ce1a4ce0933dc074aa57f2da4c560371cb37e1bad8a929fcfb0d7b0f4c604",
+      "bytes": 1134003
+    },
+    {
+      "path": "executie/R11_fisiere/Surse_web_si_config/Triaj_cinci_fisiere.json",
+      "sha256": "28a91f8ca4987442c4993d411ddc52abffaffd9cd04d2e061c49bf8500dd5d90",
+      "bytes": 6012
+    },
+    {
+      "path": "executie/R11_fisiere/Surse_web_si_config/Martori_lexicali_XSD.json",
+      "sha256": "da0c78fcaee0757bb6e8b57b09b69cee1ef4124c61305cf42afb765ac0e22486",
+      "bytes": 2859
+    },
+    {
+      "path": "executie/R11_fisiere/A01/Manifest_A01_R11.json",
+      "sha256": "ced5f42a858ee706f1c76b871276574cbc3a606cfbb50dff4379bffe186f044b",
+      "bytes": 2364
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/01_app.py.json",
+      "sha256": "cae4e4d6bfa7b9adf5b9f15ef6bcb3561669acc7c0de3278e2c37deac54e4b23",
+      "bytes": 37704
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/02_test_t232_aud_portal_ocolire.py.json",
+      "sha256": "975d6fd4e8dd1673b36ef54ce0d4114ab544496dd9afe3484740c26ba5690609",
+      "bytes": 20938
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/03_test_t232_l1_cale_webui.py.json",
+      "sha256": "5b9f518b6bafa0c106504b24ad3118f59e5b6d3cb58e71a7780640c9e5c7b4ce",
+      "bytes": 21365
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/04__erp-admin-blocat.yml.json",
+      "sha256": "95b5c26ebcd5faa3260ba53f0fd26c1689bbd124943fc08963a85e6aca99269c",
+      "bytes": 23539
+    },
+    {
+      "path": "executie/R11_fisiere/A01/fise/05_aplica.sh.json",
+      "sha256": "1f47dfdb83d4f2cdc343b6344cea7017a8da5098788922d9492c9125eb0d82bc",
+      "bytes": 21678
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Manifest_A06_R11_Git.json",
+      "sha256": "02346069023d89b46da4a6779c49ddb4164217cb7e3d8902ec47731292ec8243",
+      "bytes": 7494
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_DetaliuComanda.json",
+      "sha256": "4443cf2292506b446ccd3717559091510c5bfe1b99d9707aa310332693ff8f96",
+      "bytes": 5623
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_PreiaDinSite.json",
+      "sha256": "bd2264c4e7c11aca1f09f70ebd0dfd373fc6bb9fb1a7fed59ce0d32b8ccf526e",
+      "bytes": 5857
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_SursaCesiro1.json",
+      "sha256": "6adb07e3b7e20a40c13fc62193a5ad5bd7fe4c7ef07ed92634c1ad4ca92a47b8",
+      "bytes": 8297
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_ValidareComanda.json",
+      "sha256": "930f41f9046f08257878fd4f952333d40cc006c33f83d928de086fde3cda6780",
+      "bytes": 8587
+    },
+    {
+      "path": "executie/R11_fisiere/A06/Fisa_ValideazaComenzi.json",
+      "sha256": "e9369188016203efe36f15c113dff6f6e64e8861c61ff53db3ca1ad83dbf4cd5",
+      "bytes": 8591
+    },
+    {
+      "path": "executie/R11_fisiere/A12/A12_index_probe_nominale_01.json",
+      "sha256": "834b8d0f1feaf8bf49bd0c396480644bd63ab1a48482a73ece3efbdfd6d0c026",
+      "bytes": 3061
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F6a6c4242bcae177c132f.json",
+      "sha256": "059919bf08d3939cd8ca89e6c88093740a46eb7e484e42aba43e70d926dd2b8a",
+      "bytes": 2824
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Banca_109_martor_descriptor_Windows.json",
+      "sha256": "370f794c94db6366bf3fe30b6c7169b9db5143599ae1b6f49ac53a3bff6e37a0",
+      "bytes": 7859
+    },
+    {
+      "path": "executie/R11_fisiere/A12/JVM_Banca_si_registre_01.json",
+      "sha256": "09812437242494f0c30f7d0766f2ff7bad9e9c1da0d33da3628b041b3d8ef81b",
+      "bytes": 124539
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Fdde25726ca466945d8bf.json",
+      "sha256": "869841d5e1f71ee339d1ea68bf241d1bff5877630b6356b3b0b2056e2b6c67ba",
+      "bytes": 2836
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F2b392cbde479a1432e5b.json",
+      "sha256": "f2365a703eb6784ccbd32b20123137dd4099b8cac525ff857ab4e4ea6d985aa3",
+      "bytes": 2837
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F90b41a42653042a5bd6c.json",
+      "sha256": "006e7746e7d03bc554900e3bc8781f15f18aa2b3daef2405f9d10cf1dd5b3e84",
+      "bytes": 2841
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Feed412102a2601d584a4.json",
+      "sha256": "d2e721c1c41c2796e6f02a6d58e65fdc60dd69228dae3c73f44edea1b19be3dc",
+      "bytes": 1619
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F64a85ead29c8155bdf6f.json",
+      "sha256": "9a8daa3a0f6a3e2684918cb900209f672ef77270393b93f56a4ffefcd047c630",
+      "bytes": 2612
+    },
+    {
+      "path": "executie/R11_fisiere/A12/T201_DB_registre_doua_sesiuni.json",
+      "sha256": "8bfde41e2a31237ae74a1e83c03c4f7a73b9b77615cd5cd82600ce581163c3c0",
+      "bytes": 14888
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Fac90ff79bada12c772a2.json",
+      "sha256": "b5cbf264a255f51b5ade63c7fa510ed1bc64d5d0be68aa5a5c2077e8c049d130",
+      "bytes": 1745
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Calibrari_banca_si_registre_02.json",
+      "sha256": "b9b684c3cb81523c7e07a3bab9286004821f17e3e2951f6d918012a373830227",
+      "bytes": 104798
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Fba6dc8e192f13474f0ad.json",
+      "sha256": "e6ea033d679a862e200d62aa718007d3f9e91058925c661ba29b944fbf042919",
+      "bytes": 1806
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F314fb41add3e9c90c650.json",
+      "sha256": "f428b9396fb4ce362db7ef313ca13f58c1ac5c36b8ff6feac59f9606d1f9a1f6",
+      "bytes": 2494
+    },
+    {
+      "path": "executie/R11_fisiere/A12/T232_GardaConsola_CESIRO.json",
+      "sha256": "c8727f69da61482d2ccfe06c127813dfcd78090f039d6401c5a67e42d563aaa3",
+      "bytes": 28013
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F108227447ca2df199157.json",
+      "sha256": "be85953a5a5cb7d1dd3137bea377779536c260e3115a14dc8b392feaf6ab4565",
+      "bytes": 2506
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/Fe0cb17baf79d01125b38.json",
+      "sha256": "d0ef91ae406df03ffe51f6d43a597ffc144004ce3fb6da80c6dfce4672d61aa0",
+      "bytes": 2467
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Fise_candidate/F8359a51d96f1f3976a54.json",
+      "sha256": "dc9b14ec2278583aebec040c8e68a80714c43c47319d1993bcae760715471867",
+      "bytes": 3955
+    }
+  ],
+  "sources_for_reproduction": [
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_base.py",
+      "sha256": "e1bdc211438f90b4b0685fee687c7e55b0d52682dbf9e5c9be52ca419a8b3dfd",
+      "bytes": 1644
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_cal.py",
+      "sha256": "a31c70de64d9fe52f3772befcd12ea8152313baf7710879e47cf35fb5e77672e",
+      "bytes": 4177
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_cases.py",
+      "sha256": "9a5677755239dfdd354af16e798a970f304c0b707be5ac0902bffce2c8b07601",
+      "bytes": 7396
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_fetch.py",
+      "sha256": "3b47c0df1ec4a057dd4bad6c4e3cdbcc59080b1990b9b714a49f40265accca31",
+      "bytes": 1582
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_fetch_social.py",
+      "sha256": "068415a1e3903069d88733ad5d8992fd1676bc84e0e1bb484ea932574109255b",
+      "bytes": 1742
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_fold.py",
+      "sha256": "dd003ce7b2e531ac53494d5843b73b3d86f248e8fd3596a91277ad59a0bc771b",
+      "bytes": 6518
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_java.py",
+      "sha256": "45251b70a37f0a12dbb58f43786d4fd84538b81ff1ccef1f67fcc45f67fd1803",
+      "bytes": 4510
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_pg.py",
+      "sha256": "38f82eb8d2a2f332d4700bb78743bc0040507405a8bf9fb71fe8db49cd9e43fc",
+      "bytes": 4517
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_register.py",
+      "sha256": "69d88181b8d5c19482b34e222253d4249a2796f2c93453731d1ed146b6f19298",
+      "bytes": 4442
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_t232.py",
+      "sha256": "9c52a12fa47a7cef6466a89f11a2abedb6d8c388f132da3b331583520695b7e1",
+      "bytes": 3321
+    },
+    {
+      "path": "executie/R11_fisiere/A12/Metoda_val_01/a12_r11x_win.py",
+      "sha256": "fd05c6d51d012f8431bcc6fc9fa281705e1327cf3066fc7decd7f43bfe15d8dc",
+      "bytes": 4469
+    }
+  ],
+  "structure_checked": {
+    "files": 6709,
+    "unique_ids": 6709,
+    "zones": {
+      "A01": {
+        "total": 324,
+        "with_evidence": 256,
+        "functional_axis_at_bound_scope": 7
+      },
+      "A02": {
+        "total": 142,
+        "with_evidence": 15,
+        "functional_axis_at_bound_scope": 0
+      },
+      "A03": {
+        "total": 1713,
+        "with_evidence": 986,
+        "functional_axis_at_bound_scope": 1
+      },
+      "A04": {
+        "total": 473,
+        "with_evidence": 453,
+        "functional_axis_at_bound_scope": 0
+      },
+      "A05": {
+        "total": 294,
+        "with_evidence": 241,
+        "functional_axis_at_bound_scope": 0
+      },
+      "A06": {
+        "total": 313,
+        "with_evidence": 273,
+        "functional_axis_at_bound_scope": 5
+      },
+      "A07": {
+        "total": 189,
+        "with_evidence": 159,
+        "functional_axis_at_bound_scope": 3
+      },
+      "A08": {
+        "total": 604,
+        "with_evidence": 423,
+        "functional_axis_at_bound_scope": 0
+      },
+      "A09": {
+        "total": 1152,
+        "with_evidence": 493,
+        "functional_axis_at_bound_scope": 0
+      },
+      "A10": {
+        "total": 1505,
+        "with_evidence": 711,
+        "functional_axis_at_bound_scope": 6
+      }
+    },
+    "at_least_one_observation_by_file": 4010,
+    "no_observation_yet": 2699,
+    "distinct_files_by_axis": {
+      "inspected": 15,
+      "static": 4005,
+      "exercised": 22,
+      "bindingVerified": 19,
+      "reproduced": 24,
+      "blocked": 2
+    },
+    "no_complete_file_verdict": true
+  },
+  "limits": [
+    "Registre cumulativ de execuție intermediară. În acest val au semnat dovezi coordonatorul, A01, A06, A12. Propunerea owner/peer rămâne, dar apare distinct executorul real.",
+    "Axele pentru teste, fixtures și JAR-uri se referă la intrarea sau partea exactă, uneori la consumarea unei fixturi. Nu sunt produs integral, demonstrație de deployment sau aprobare independentă.",
+    "Un rând fără probe își păstrează explicit toate axele neverificate. Fișierele fizic exportate din Git pentru calcul au exclusiv proveniență, nu credit.",
+    "Preluarea loturilor suplimentare ale celor 10 zone continuă incremental fără schimbarea acestui val. Nu este acordată nicio notă."
+  ]
+}

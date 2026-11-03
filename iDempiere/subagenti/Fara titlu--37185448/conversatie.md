@@ -2,7 +2,7 @@
 
 ID: `01a1981a-68c7-7073-8251-a1ba37185448`  
 Proiect: iDempiere  
-Export UTC: 2026-11-02T21:26:40.664214+00:00
+Export UTC: 2026-11-03T03:30:08.376808+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -306,3 +306,360 @@ Deschid registrul pe versiunea aprobată și verific inventarul de 6.709 fișier
 ## Asistent
 
 Pe PostgreSQL izolat, cele două sesiuni au generat 40 de numere distincte. Reluarea după rollback a reutilizat numărul 41. Am repetat proba cu pachetul din Git și cu copia instalată în CESIRO, apoi am oprit și șters clona. În suita bancară am separat cinci rezultate care depind de căi Linux sau de surse lipsă din prima rulare pe Windows.
+
+## Asistent
+
+Am predat registrul pentru toate cele **6.709 fișiere** la commitul aprobat `2fe90ed3`. Primul val conține probe pentru **4.010 fișiere**. Dintre acestea, 4.005 au o verificare statică și 22 au fost exercitate la nivelul componentei, testului sau fixturii indicate. Categoriile se suprapun. **2.699 de fișiere așteaptă prima probă.** [Registrul și limitele verificării](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A12/Handoff_registru_val_01.json>)
+
+- **Bancă.** Pe fiecare dintre pachetul Git și copia pachetului instalat în CESIRO, două rulări curate au trecut toate cele 109 verificări. Modificarea unei singure sume a declanșat șase diferențe. Verificarea descriptorului de fișier a folosit un adaptor Windows cu martor de deschidere și închidere. [Proba bancară](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A12/Banca_109_martor_descriptor_Windows.json>)
+- **Registru și concurență.** Două sesiuni PostgreSQL au alocat 40 de numere distincte. După rollback, reluarea a primit numărul 41. Toate cele trei modificări deliberate au fost detectate pe ambele pachete. Clona a fost oprită și ștearsă. [Proba T201](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A12/T201_DB_registre_doua_sesiuni.json>)
+- **Garda consolei.** Pe candidatul Git au trecut 42/42 verificări. Dezactivarea refuzului a făcut să eșueze 15 dintre ele. Cele patru clase urmărite lipsesc din pachetul CESIRO verificat. Suita a folosit dubluri Jetty, iar activarea în cabinet rămâne de demonstrat. [Proba T232](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A12/T232_GardaConsola_CESIRO.json>)
+
+A11 a primit registrul și probele pentru control independent. Auditul integral R11 rămâne în curs.
+
+## Asistent
+
+Integrez al doilea val al registrului R11 și verific legăturile dintre fișiere, taskuri și probe. Cele 6.709 fișiere au acum o primă verificare structurală sau de conținut. Voi adăuga separat rezultatele funcționale sigilate de auditorii de domeniu.
+
+## Asistent
+
+În al doilea val, trei probe au efecte persistente confirmate pe date sintetice. Editarea concurentă a rețetei poate face ca dezambalarea G2 să restituie o cantitate diferită de cea consumată. Confirmarea documentelor pe canal poate relua aceleași rânduri și poate lăsa o comandă eligibilă în afara lotului. În magazin, coliziunea dintre ID și SKU poate salva alt produs și alt preț. Leg fiecare rezultat de condițiile testate și de verificările native încă necesare.
+
+## Asistent
+
+R11, valul 02, predat către coordonator și A11 în ediția corectată v2.
+
+- 6.709 fișiere urmărite; 652 taskuri și 2.619 criterii păstrate.
+- 12 criterii din 5 taskuri au observații directe, cu limite explicite.
+- Niciun verdict integral sau scor autoatribuit.
+- Hashurile, pointerii și proveniența au fost reverificate.
+
+Manifest: `46571dac6326bff593a3ad8c05741593156954541b5a421be26cd575821a85a7`.
+
+Lotul A11 04 și recepția independentă a harnessului, sosite ulterior, rămân suplimente pentru următorul val. Nu am resurse de laborator active; eliberez slotul.
+
+## Asistent
+
+Voi pregăti valul 03 într-un director separat, păstrând sigiliile anterioare. Integrez probele noi și voi marca explicit concluziile care încă așteaptă verificarea independentă A11.
+
+## Asistent
+
+Lotul A11 04 adaugă verificări independente pentru două componente: configurarea cabinetului și confirmarea documentelor trimise. Păstrez aceste rezultate separate de testele native ERP. În consolidarea celor 55 de suite, corectez local eticheta testului de izolare: are 20 de cazuri omise și nicio execuție funcțională, chiar dacă procesul a încheiat cu codul 0.
+
+## Asistent
+
+Am confirmat că suita T58 acoperă și apelul din portal, dar într-un mediu cu răspunsuri iDempiere simulate. O voi lega doar de criteriile acelui apel. A11 a mai identificat o limită de numărare: unele subteste pentru limbi diferite au același identificator, astfel că totalurile pytest vor rămâne „evenimente raportate”, fără a fi prezentate drept teste distincte.
+
+## Asistent
+
+Valul 03 este sigilat și pregătit pentru controlul A11. Adaugă 8 legături parțiale pentru T58 și probe pe trei fișiere, limitate la funcțiile exercitate. Totalul rămâne 652 de taskuri și 2.619 criterii; cele 17 fluxuri complete rămân deschise. Am verificat manifestul, pointerii și hashurile fișelor istorice.
+
+## Asistent
+
+Valul 03 este sigilat și predat A11.
+
+- 652 taskuri, 2.619 criterii și 6.709 fișiere păstrate.
+- 8 legături parțiale noi pentru T58; niciun verdict integral.
+- Lotul A11 04, verificarea harnessului și corecțiile N02 integrate.
+- Hashurile și pointerii reverificați; fără resurse de laborator active.
+
+[Handoff Val_03](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A12/Val_03/Handoff_val_03.json)
+
+Manifest SHA-256: `2847558d5416f9c2c2f032e81da37163627498cd56aeda38716ce18bf49f1579`.
+
+## Asistent
+
+Voi pregăti valul 04 separat, cu înlocuirile dintre rulări urmărite explicit. Testele HR și cele opt suite noi vor avea evidențe distincte; recepția lor rămâne în așteptare până la verdictul A11.
+
+## Asistent
+
+Cerința T58 C-67 are acum probe pentru toate cele patru suite numite în document, însă ele au fost rulate separat. La HR, înlocuiesc doar cele trei rezultate reluate; nu voi prezenta cele două suite ca rerulate integral. Suplimentul WMS aduce legături verificate cu codul instalat și metoda nativă, dar încă nu o execuție completă prin documente iDempiere.
+
+## Asistent
+
+Verific sigiliul Val_04 înainte de predarea către auditor. Raportul rămâne legat de revizia `2fe90ed3`; noul HEAD `df85d33c` va necesita evaluare separată.
+
+## Asistent
+
+Val_04 este sigilat și predat auditorului A11.
+
+- 652 fișe, 2.619 criterii și 6.709 fișiere păstrate; 7.188 referințe verificate.
+- 63 surse de suite reconciliate, fără dublarea reluărilor UI/HR.
+- Zero validări integrale; toate cele 17 contracte rămân deschise.
+- Acoperire exclusiv pentru `2fe90ed3`, fără transfer la noul HEAD `df85d33c`.
+
+Manifest SHA-256: `468b57822cf5ae373f8d684be723fd43d86f428e655e10ae33a6a37a078eef3f`.
+
+Nu am resurse proprii active.
+
+## Asistent
+
+Pregătesc inventarul și repartizarea R12, comparând fiecare fișier cu baza R11. Voi păstra separat dovezile vechi și voi identifica explicit cele 19 instrumente noi, fără să execut codul noii revizii.
+
+## Asistent
+
+Diferența găsită conține instrumente și documentație de audit; cele 6.709 fișiere tehnice din R11 trebuie totuși verificate individual prin mod și OID. Voi separa și fișierele de date citite de instrumente, ca o captură sau un raport istoric să nu fie confundat cu o probă executată acum.
+
+## Asistent
+
+Compararea arborilor este încheiată: toate cele 6.709 fișiere tehnice vechi au același mod și OID. Inventarul R12 are 6.728 fișiere tehnice, după adăugarea celor 19 instrumente. Indexul direct și cel invers coincid pentru toate repartizările; nicio verificare de produs nu a fost executată pe noua revizie.
+
+## Asistent
+
+Inventarul R12 este pregătit pentru auditarea planului:
+
+- 183.469 căi Git; 565 schimbări.
+- 6.709 fișiere tehnice vechi identice ca mod/OID.
+- 19 instrumente noi, fiecare cu fișă și responsabil.
+- Index direct/invers reconciliat; T315/T316 corectate nominal.
+- Zero teste de produs executate.
+
+[Manifest final R12](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_plan_delta/Manifest_A12_receptie_R12_v2.json)
+
+SHA-256: `d5506b3dc3b62ac666aedca0c0c3200baf660dacb4e5b78b5977193577cf9bd2`.
+
+Nu am resurse proprii active.
+
+## Asistent
+
+Verific noua observație T343 față de capturile și planul R12 aprobate. Voi adăuga un supliment separat, fără să schimb inventarul sau să tratez rezultatele declarate drept probe acceptate.
+
+## Asistent
+
+Noua observație schimbă un criteriu, nu populația: sursa de la `df85` cerea `CO | CO | CO`, iar observația indică acum `C_Order IP`. Planul acoperă deja verificarea fluxului nativ, însă acceptarea acestei diferențe cere clarificarea și recepția unui amendament nominal; celelalte verificări rămân în sfera aprobată.
+
+## Asistent
+
+Suplimentul T343 este predat pentru verificare independentă. Pentru primul lot R12 voi integra doar raportul sigilat A08 și recepția A11: testarea celor două instrumente de audit nu va fi prezentată drept verificare a interfeței native sau finalizare a taskului T240.
+
+## Asistent
+
+Auditorul independent a confirmat suplimentul: `CO | CO | CO` rămâne etalonul C‑2.2 până la recepția unui amendament. Verificarea T240 poate continua; aștept dovezile sigilate ale lotului pentru a publica primul registru R12.
+
+## Asistent
+
+Execuțiile A08 s-au încheiat, iar raportul este în verificarea finală. Încercarea integrală oprită la limita de timp va rămâne vizibilă separat de cele șapte loturi de mutanți; nu voi prezenta loturile drept o rulare integrală reușită.
+
+## Asistent
+
+Raportul sigilat A08 a găsit o problemă concretă în validator: poate accepta titluri coerente între coloanele raportului, deși acestea contrazic inventarul independent. Este o constatare despre unealta de audit, nu dovada unei erori în interfața iDempiere. Auditorul A11 verifică recepția lotului.
+
+## Asistent
+
+A11 a recepționat lotul ca dovezi de componentă, cu constatările rămase deschise. Primul registru R12 este sigilat: două instrumente exercitate, cele 116 fișiere R11 păstrate separat ca istoric și niciun credit pentru UI nativă, ERP sau finalizarea T240.
+
+## Asistent
+
+R12 Val01 este sigilat și predat A11.
+
+- 6.728 fișiere în registru; două instrumente exercitate la nivel de componentă.
+- Cele 116 fișiere R11 rămân istoric separat.
+- T240 rămâne în implementare; zero validări integrale UI/ERP.
+- Suplimentul T343 și recepția lui sunt incluse.
+
+[Manifest Val01](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A12/Val_01/MANIFEST_R12_Val01.json)
+
+SHA: `2d0e8529b61698031a132cf4bf8e72f17b8a9fbb03df2b0000e885dde38efe93`.
+
+Nu am resurse proprii active.
+
+## Asistent
+
+Pregătesc Val02 ca supliment separat: verific identitatea celor 11 fișiere noi, probele și populația curentă. Voi păstra distinct testele componentelor, citirile statice și bootstrapul nativ, apoi voi sigila după recepția A11.
+
+## Asistent
+
+Identitățile confirmă 11 fișiere distincte față de Val01. La Mașini, cele cinci date valide sunt refuzate în ambele execuții ale parserului; salvarea în ERP nu a fost executată. T240 rămâne în implementare, iar afirmațiile despre ramura separată nu primesc credit pe revizia auditată.
+
+## Asistent
+
+Cele 660 de artefacte din cele trei loturi au hashurile corecte. Registrul va separa cele 54 de cazuri A08, 67 de cazuri A09 și 12 intrări Mașini testate de două ori. Directorul scratch Mașini este încă păstrat după refuzul automat al ștergerii; nu voi declara restituirea integrală a resurselor.
+
+## Asistent
+
+Am reverificat și cele 652 de fișe istorice: hashurile și cele 2.619 criterii sunt păstrate. Proba A05 confirmă salvare, commit, rollback și retry prin iDempiere nativ, dar rămâne o probă de infrastructură generică; fluxurile WMS și compatibilitatea completă a buildului rămân de verificat.
+
+## Asistent
+
+A11 a confirmat recepția limitată a loturilor și a cerut o precizare: două capitole de manual pentru aceeași clasă reprezintă o intrare ambiguă, fără severitate P2 automată. Aplic această încadrare în Val02 și păstrez raportul inițial intact.
+
+## Asistent
+
+Recepțiile A11 sunt sigilate. Finalizez Val02 cu limitele aplicate nominal, apoi verific din nou manifestul și legăturile. Cele 13 surse au probe parțiale; cele 17 contracte complete rămân deschise.
+
+## Asistent
+
+Val02 este sigilat și predat A11 pentru recepția registrului.
+
+- **13 surse parțial exercitate**: 12 instrumente și un parser de aplicație.
+- **652 fișe / 2.619 criterii** păstrate; 116 probe R11 fără transfer automat.
+- Patru scenarii PO nativ generic, separat; **zero contracte complete închise**.
+- HC11 reclasificat conform A11.
+
+[Manifest Val02](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A12/Val_02/MANIFEST_R12_Val02.json) — SHA `f169311d8a251f6f01cc47facdb20b74434a7afe0c9687c6792d587723decc5d`.
+
+Scratchul Mașini rămâne după respingerea automată a ștergerii, „blocked by policy”; raportul consemnează zero procese Java proprii.
+
+## Asistent
+
+Compar noua captură cu ultima recepționată și verific dacă schimbările afectează cerințele WMS, DocAction sau ZK. Voi păstra Val02 intact și voi trimite concluzia despre aplicabilitatea planului către A11 înainte de orice probe noi.
+
+## Asistent
+
+Populația și stările sunt neschimbate; au apărut doar observații noi la T240 și T343. Am găsit însă o distincție de versiune importantă: GitHub/origin este încă la `df85`, iar HEAD-ul local al serverului a avansat la `1687`. Planul poate continua numai pe sursele și binarele fixate și verificate pentru `df85`, până la confirmarea A11.
+
+## Asistent
+
+Preflight Val03 predat și sigilat. Față de 23:39: **996 înregistrări / 693 P01**, fără schimbări de membri sau stări; doar actualizări declarative T240/T343.
+
+Continuitatea Val02/A11 este verificată. Poarta rămâne aplicabilă exclusiv reviziei **df85**, fără transfer către HEAD-ul local **1687**. Niciun test de produs executat.
+
+Manifest: `c7e4cfa0bd47cf692be7be08f71b2e0427d19151d4b5d662c3bdfe6640c0aa5b`.
+
+A11 și coordonatorul au primit predarea. Eliberez slotul.
+
+## Asistent
+
+Integrez Val03 într-un set nou de fișiere, păstrând separat probele originale, comparatoarele SQL/shell și recepțiile A11. Sigilarea va aștepta rezultatul N05 și recepția lotului A10.
+
+## Asistent
+
+Cele șapte instrumente noi au metode diferite: două folosesc componente originale, iar cinci sunt comparatoare shell cu dependențe simulate. Separ și proba G3: aceeași interogare SQL apare în două fișiere, dar nicio metodă Java sau interfață ERP nu a fost executată în acel lot.
+
+## Asistent
+
+Recepția independentă A10 confirmă limitele lotului: 73 de cazuri, cu componente originale și comparatoare shell numărate separat. Aștept recepția N05; dacă confirmă proba de concurență pe fluxul nativ, aceasta va fi prima concluzie din raport, înaintea constatărilor despre instrumentele de audit.
+
+## Asistent
+
+N05 a predat proba nativă: în condiția concurentă testată, modificarea rețetei de la două la trei componente permite dezambalarea a 11 piese din 10. Stocul nativ rămâne 10; proba nu demonstrează creșterea soldului contabil. Aștept verdictul independent și păstrez separat rezultatele seriale, refuzurile și rollbackul.
+
+## Asistent
+
+A11 a recepționat N05 cu limite explicite. Registrul separă acum 11 trasee de metode business, două utilizări de tipuri de date, trei surse folosite doar la pregătirea și legarea laboratorului și una pentru metadatele procesului. Verific hashurile finale, legăturile și păstrarea celor 652 de fișe înainte de predare.
+
+## Asistent
+
+Val03 predat A11, cu N05 prioritar și stările corectate aditiv.
+
+- [Index final](<Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A12/Val_03/index_final.html>)
+- Handoff v2: `58c7de3c525c69af3dd41799eed8e485f682e577233ea47f9acef3d7bda15dbb`
+- 652 fișe / 2.619 criterii păstrate; 39 surse cu niveluri distincte de probă; zero închideri integrale, 17 contracte deschise.
+
+Originalele sunt intacte. Recepția finală a registrului rămâne la A11.
+
+Șase directoare rămân păstrate după respingerea automată a ștergerii: „blocked by policy”. Nicio ocolire încercată; A12 nu are servicii active.
+
+## Asistent
+
+Compar noua captură cu cea de la 00:39 și verific separat GitHub, HEAD-ul serverului și stările declarate. Preflightul Val04 va fi aditiv; nu pornesc teste de produs înainte de confirmarea A11.
+
+## Asistent
+
+Captura adaugă doar T386, aflat în „plan”; lotul istoric de 652 de taskuri rămâne neschimbat. La T240 s-au schimbat observațiile, progresul și data actualizării, fără schimbarea stării sau cerințelor. Voi documenta separat noul task și afirmațiile încă neverificate despre integrarea lui T240.
+
+## Asistent
+
+Preflight Val04 predat pentru recepția A11.
+
+- **T386 / P01.C10.T0030** este singurul task nou, în „plan”; rămâne în afara celor **652 de fișe / 2.619 criterii**.
+- Doar T240 are observații, progres și dată modificate. **Zero schimbări de stare sau finalizări noi**.
+- Sigiliile Val03 sunt intacte. **Zero teste de produs noi**.
+
+[Predarea Val04](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A12/Val_04/Handoff_preflight_Val04_v1.json)
+
+Manifest SHA-256: `80d766c3c38cbcb925c4c9cc38cc660b12252da2f4bec15af42c5895d6c9199f`.
+
+## Asistent
+
+Integrez loturile noi în Val04 și păstrez recepția preflightului ca document separat. Voi separa execuția frontend de lecturile statice și de probele native G3, iar registrul final va fi sigilat după recepția A11 a tuturor loturilor.
+
+## Asistent
+
+A11 a confirmat cele trei mecanisme de defect din catalogul frontend, în limita testului pe scriptul original și DOM sintetic. Cele două căi conțin același blob: voi păstra 10 cazuri, nu 20. Lectura backend rămâne separată, fără a transforma ipoteza de overflow într-un defect confirmat.
+
+## Asistent
+
+Registrul Val04 este pregătit să păstreze toate cele 6.728 de identități și dovezile anterioare. Probele SQL și apelurile Java native vor avea înregistrări distincte, chiar când privesc aceeași sursă. Mai aștept lotul G3 final și recepția A11 pentru a completa rezultatele și limitele sale.
+
+## Asistent
+
+A11 a precizat numărătorul G3: sunt 10 scenarii planificate; recitirile, subpașii și calibrările se raportează separat. Proba SO/PO întărește constatarea existentă, iar observațiile despre `IsActive` nu devin automat un defect nou sau o regulă comercială acceptată.
+
+## Asistent
+
+Consolidarea frontend și verificările de proveniență sunt încheiate. Registrul final rămâne nesigilat până la predarea G3 și recepția A11, pentru a integra corect limitele probelor native și starea laboratorului. Pachetul frontend este deja salvat separat.
+
+## Asistent
+
+Raportul G3 a fost predat, iar laboratorul propriu este închis. Integrarea va păstra separat 6 metode sau trasee, 3 surse folosite la pregătire/binding și 4 surse de constante ori lectură. Corecția de numărare este explicită: 16 linii `CASE_G3`, 10 scenarii și 41 recitiri valide, plus una de setup. A11 finalizează recepția.
+
+## Asistent
+
+Recepțiile de lot sunt complete. Verificarea preliminară a consolidării arată 44 de surse cu dovezi parțiale, față de 39 anterior; cele 5 surse suplimentare nu înseamnă funcționalități acceptate integral. Rămân 652 de fișe, 2.619 criterii și 17 contracte deschise. Verific acum manifestul și legăturile înainte de predarea către A11.
+
+## Asistent
+
+Val04 este consolidat și predat A11 pentru recepție independentă.
+
+- 6.728 identități, 652 fișe și 2.619 criterii păstrate.
+- 44 surse cu dovezi parțiale; zero acceptări integrale.
+- Toate cele 17 contracte rămân deschise.
+
+[Index Val04](Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A12/Val_04/index.html)
+
+Manifest SHA-256: `0c6ca1b0fda74735ff4b40ae7f8ef4a0f2615f66c55b0d012654e1213bbfef46`.
+
+## Asistent
+
+Compar captura de la 02:45 direct cu cea de la 01:43 și verific continuitatea sigiliilor Val04. Preflightul Val05 va trata separat eventualele schimbări de stare, cerințe și versiune; nu voi rula probe de produs înainte de confirmarea A11.
+
+## Asistent
+
+Populația și stările sunt neschimbate. T343 are un document nou de reaudit, dar acesta privește altă ramură și o copie de site. Îl înregistrez ca sursă documentară verificată, fără să preiau nota sau rezultatele declarate asupra versiunii auditate.
+
+## Asistent
+
+Am verificat și limitele documentului nou: nu schimbă oracolul G3 sau paginarea și nu rezolvă controversa CO/IP. A11 a confirmat aplicabilitatea limitată a planului la versiunea `df85`; finalizez acum predarea și verificarea sigiliilor, fără probe de produs.
+
+## Asistent
+
+Preflight Val05 predat lui A11.
+
+- 997 taskuri / 694 P01; populație și stări neschimbate.
+- Numai T343 are actualizări documentare și de progres; fără credit nou.
+- Val04, cele 652 fișe și 2.619 criterii sunt păstrate.
+- Zero teste de produs sau modificări operaționale.
+
+Handoff v2: `31646917…341a1d`  
+Manifest v2: `40b3bab9…9e4bdf`
+
+Aplicabilitatea limitată la `df85` este confirmată; recepția nominală a suplimentului rămâne la A11.
+
+## Asistent
+
+Pregătesc consolidarea Val05 pe baza Val04. Voi păstra separat apelurile Java, citirile și efectele persistente, iar rezultatele A05 vor intra numai după predarea lor și recepția A11.
+
+## Asistent
+
+Lotul de paginare are 16 cazuri: șase abateri ale aceluiași mecanism, în două metode. Celelalte surse includ dependențe folosite la compilare, tipuri și configurare; acestea vor avea niveluri distincte de probă. Rezultatele nu demonstrează încă comportamentul HTTP sau UI.
+
+## Asistent
+
+Incrementul A08 este sigilat: șapte surse au dovezi de metodă, tip sau configurare, iar nouă rămân doar compilate ori citite. Alocările din registru sunt păstrate. Pregătesc legăturile nominale pentru comanda nativă; raportul final așteaptă rezultatele A05 și verificarea lor independentă.
+
+## Asistent
+
+Paginarea este recepționată limitat de A11. Migrarea T211 din laborator rămâne pregătire tehnică, fără acceptare a taskului sau a fluxului comercial. În registrul Val05, compilarea, încărcarea, apelul și persistența vor putea fi urmărite separat pentru fiecare sursă.
+
+## Asistent
+
+Verificarea registrului păstrează aceeași alocare pentru toate cele 6.728 de fișiere. Executorul lotului nu înlocuiește titularul sau peerul nominal. Cele șapte surse din paginare vor adăuga numai dovezile acceptate de A11; rezultatele istorice rămân intacte.
+
+## Asistent
+
+Consolidarea paginării este gata. Lotul nativ A05 încă nu are o predare finală recepționată, așa că păstrez registrul Val05 nesigilat. Pregătirea schemei nu va fi prezentată drept probă a fluxului comandă–rezervare.
+
+## Asistent
+
+A05 a încheiat cele trei scenarii ale comenzii native. Integrarea cu linia site continuă după clarificarea unui apel de postare întâlnit pe traseu. Voi păstra distincte apelul de postare, starea documentului și verificarea soldurilor contabile.

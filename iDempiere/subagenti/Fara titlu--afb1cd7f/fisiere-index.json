@@ -1,0 +1,53 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\a09_peer_a08_lot02.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a09_r12_helper_lot02.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a09_r12_helper_supplement01.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a09_r12_report_lot02.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A09_Helper_corpus_lot02/Raport_A09_Helper_corpus_lot02.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A09_Helper_corpus_lot02--3c62d7f9.html",
+    "bytes": 42189,
+    "sha256": "0a3393f1ecc42073e0bfe8783eb87065a3ae8a4c009d122db0286d10646f1b89"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A09_Peer_A08_lot02/Peer_A09_pentru_A08.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Peer_A09_pentru_A08--8e6d70ab.json",
+    "bytes": 5898,
+    "sha256": "c0192fba1389a1e2fbb5a5a1f393e11af10e63485c3030e61b37d5d808c35fb9"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A09_Helper_corpus_lot02\\visual\\I02_01_positive_11\\foaie_01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/foaie_01--7efa636a.png",
+    "bytes": 154674,
+    "sha256": "bafc23a84ab54ffebcca9bdc92421268ab0e9f108c6c9ad055c2a8f9cdf381c1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A09_Helper_corpus_lot02\\visual\\I02_01_positive_11\\foaie_02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/foaie_02--428b3c5c.png",
+    "bytes": 14464,
+    "sha256": "8737d2e2843dd7939047f8ca401015f7ef3814789904880250b2549a4a5074c2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A09_Helper_corpus_lot02\\visual\\I02_long\\foaie_01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/foaie_01--15ca884e.png",
+    "bytes": 8990,
+    "sha256": "4a9b294874e673f86d536e1788dadc781f844e5c95ddde11db8ab540396c5c82"
+  }
+]

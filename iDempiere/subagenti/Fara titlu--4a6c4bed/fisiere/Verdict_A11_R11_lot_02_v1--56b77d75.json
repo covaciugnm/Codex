@@ -1,0 +1,85 @@
+{
+  "utc": "2026-11-02T21:40:50.578137+00:00",
+  "agent": "A11",
+  "commit": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "poarta_plan": 10,
+  "nota_executie_integrala": null,
+  "nota_produs": null,
+  "lot": "02v1; recepție parțială, Git cu martori sintetici. Nu schimbă lotul 01.",
+  "concluzii": [
+    {
+      "id": "A08.R11.F01",
+      "actori": "cumpărător, administrator de catalog",
+      "decizie": "ACCEPT defect funcțional de identitate și preț la intrarea normală în magazin.",
+      "demonstratie": "A08 a plasat cinci comenzi în Chromium. A11 a refăcut importul și POST de comandă cu ID-uri noi, două bucăți și prețuri 21/84. Pentru SKU, EAN și UPC egale cu ID-ul CPP, comanda a persistat CPA la 84 pe bucată în loc de CPP la 21. Ordinea inversă sau catalogul fără coliziune au păstrat CPP la 21. ID, SKU și EAN corecte transmise concomitent nu repară coliziunea.",
+      "sursa": [
+        "frontend/storefront/app/cms.py:944–948,981–1000",
+        "frontend/storefront/app/factory.py:359–379",
+        "frontend/storefront/static/themes/storefront.js:464"
+      ],
+      "efect": "Comandă JSON persistentă și outbox local. Fără C_Order, C_OrderLine ori Fact_Acct demonstrate.",
+      "retur": "Căutarea ID-ului intern să fie pe un index dedicat; să refuze conflictul și să țină mapările SKU/EAN/UPC în spații distincte pe canal. În următoarea clonă, urmăriți același M_Product_ID prin import, rezervare și pick, independent de ordinea catalogului."
+    },
+    {
+      "id": "A08.R11.F02",
+      "actori": "titular logat și vizitator ulterior, același profil de browser și canal",
+      "decizie": "ACCEPT persistență a adresei după ieșire.",
+      "demonstratie": "A08 la 390 și 1280 și A11 într-un profil independent de 800 px: acțiunea de ieșire elimină cheia sesiunii; adresa profilului rămâne vizibilă în checkout-ul anonim și după reload. Canalul separat și profilul proaspăt sunt goale.",
+      "sursa": [
+        "frontend/storefront/static/themes/storefront.js:119–154,453,465",
+        "frontend/storefront/templates/shared/commerce.html:97"
+      ],
+      "efect": "Valoarea din carnetul local de adrese este vizibilă utilizatorului următor. Nu se creează comandă prin simpla afișare.",
+      "retur": "Separarea adreselor salvate pe utilizator și canal; invalidare la ieșire. Verificați desktop, mobil, a doua persoană la terminal, canale diferite și păstrarea adresei corecte la o autentificare nouă."
+    },
+    {
+      "id": "A11.R11.STORE.03",
+      "actori": "vizitator fără credențiale, titular de cont cu email cunoscut",
+      "decizie": "ACCEPT defect suplimentar de integritate al contului în checkout-ul public.",
+      "demonstratie": "În două clone independente, o comandă fără antet de autorizare sau cookie, cu emailul sintetic al titularului, a actualizat numele și adresa activă din profilul lui. Titularul a regăsit adresa nouă la login și comanda nouă în istoric. Hashul parolei a rămas identic.",
+      "sursa": [
+        "frontend/storefront/app/factory.py:359–379",
+        "frontend/storefront/app/cms.py:175–217,1024,1159+"
+      ],
+      "efect": "Profilul JSON și evidența inițială au fost verificate înainte/după; contul nu a fost preluat și datele lui nu au fost dezvăluite vizitatorului.",
+      "retur": "Comanda de vizitator poate păstra adresa sa pe document; modificarea profilului existent cere sesiunea titularului ori o verificare explicită. Retestați două persoane cu același email introdus, autentificare legitimă și import către iDempiere după alegerea părții."
+    },
+    {
+      "id": "A11.R11.STORE.04",
+      "actori": "persoană care deține deja tokenul de sesiune sintetic",
+      "decizie": "ACCEPT lipsa revocării tokenului probat la logout local; condiționată de posesia tokenului inițial.",
+      "demonstratie": "Imediat după click pe ieșire, înaintea oricărui login nou, același token a primit HTTP 200 la istoricul contului; unul invalid a primit 403. Nu a fost demonstrată obținerea tokenului altei persoane.",
+      "sursa": [
+        "frontend/storefront/static/themes/storefront.js:453",
+        "frontend/storefront/app/cms.py:1103–1129,1148–1161"
+      ],
+      "efect": "Sesiunea locală este eliminată, credențiala server anterioară mai autorizează istoricul.",
+      "retur": "Identitate de sesiune revocabilă pe server, politică explicită pentru al doilea dispozitiv, releuarea procesului login/logout/prior-token/invalid-token și zero acces la istoric după expirare."
+    }
+  ],
+  "prima_admitere_suite_coord": {
+    "proba": "Suites_originales_API_portail/Rezultate_suite_originale.json",
+    "verdict": "Cele 20 suite pytest din prima captură au 0 cazuri executate şi blocaj write-outside-fixture în colecție. Pe cele 6 programe standalone, unul se încheie cu zero. Aceste rezultate instrumentale nu produc un reproș produsului fără triaj separat. Orice al doilea lot de executare se verifică separat."
+  },
+  "anunt_G2_extern_acestui_lot": {
+    "sursa": "A05/WMS_proba_tranzactii_G2.json",
+    "stare": "Integritatea înregistrării și egalitatea datelor între JAR/clase recompilate au fost verificate. Cursa G2 este programată pentru un control independent separat asupra concurenței și asupra efectului nativ; nu este confundată cu constatările magazinului."
+  },
+  "limita": "Frontend, Flask şi fișiere JSON ale magazinului, testate pe clone locale. Starea instanțelor live și consecințele în iDempiere nu au fost demonstrate.",
+  "dovezi": {
+    "A11/Verdict_A11_R11_lot_01_v1.json": "54126a85faac533a1545bee9327de218c4934b5f3a48ca264e9e5d45a4509a77",
+    "A08/Manifest_A08_R11.json": "a42b50a33be821afef6c6bb1cdcd16db935c02f4d656fd0ae5bca0dc23c76288",
+    "A08/A08_raport_R11.json": "b8d9624a6c4753862b26ed1323b08490b8797a6f880394c44b9c918a24fdd004",
+    "A08/Observatii_browser_storefront.json": "9ab3f64f67e11f7b8d6b0c2b3efe008ac1ad103d22c0704e299fb4260a9b6604",
+    "A08/Control_import_catalog.json": "f094f1b3fcde1a33c1647f45d2030c0f089db2f80639bb1dc58b0a9597c7552b",
+    "A11/A11_martori_magazin_lot_02.json": "408ea3cb11f27b4fe328f1b8c3d0fdcc565de77d8a97c36362a87323cd9237b2",
+    "A11/A11_martori_magazin_lot_02_r2.json": "889cabbc0e0152ef33aa4464fc9d343c1608628d213e4bee87bde0f587d7867d",
+    "Suites_originales_API_portail/Rezultate_suite_originale.json": "fcd263dfa4e9b56614bdb1140e2edd3506090783440e472d295f3c2284c5c860",
+    "A05/WMS_proba_tranzactii_G2.json": "c89d6edd8c54b09fba9f46d661a223cb9e23aa0de3b004b3b33d98ecc28a1653"
+  },
+  "metode": {
+    "A11R11Store.py": "6cde7b342417cb60cf33336e9d6e62e292b0bdf0f3c2756525efad2f51c2e5ee",
+    "A11R11StoreReplay.py": "7903cc52397c1905ef3e6b8a0382b343d3de8c1d484cc0cc6217dd92f35e5b85",
+    "A11StoreVerdict02.py": "bef0d2d5bc2d1a1205180bd250b1823a9e4e71dae6d95fa4869500fcca6d89f4"
+  }
+}

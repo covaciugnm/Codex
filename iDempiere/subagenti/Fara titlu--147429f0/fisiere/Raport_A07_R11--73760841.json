@@ -1,0 +1,60 @@
+{
+  "title": "A07. Confirmarea pe canal a facturii și a documentului de livrare",
+  "utc": "2026-11-02T21:42:43.099532+00:00",
+  "sha": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "plan_gate": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+  "canonical_task": {
+    "task": "P01.C10.T0007",
+    "source_registry": "A12/T216",
+    "title": "Comenzile de pe site, facturate și încasate automat",
+    "source_file": "executie/taskuri/Fisa_T216.json",
+    "source_sha256": "1fce4f2970539f339ca80bbe897211574cc992ccbc59df803fc2672751126a63",
+    "normative": "Fiecare comandă validată devine factură în program, numărul facturii se întoarce pe site, iar o pagină pe comandă arată pașii. Contractul din TrimiteFacturaSite.java liniile 33–40 cere egalitate între tip, serie, număr și amprenta documentului."
+  },
+  "normative_basis": "Codul original T216 disponibil în TrimiteFacturaSite.java:33–40; regulă de audit pentru progres finit în cazul confirmabil, distinctă de o garanție demonstrată la data închiderii.",
+  "results": [
+    {
+      "id": "A07.R11.01",
+      "status": "DEFECT REPRODUS LA SELECȚIA LOTULUI ȘI CONFIRMAREA DOCUMENTELOR",
+      "observation": "Control cu plafon 2: la patru rulări, lista a fost întotdeauna [101,102], iar 103, singura comandă al cărei document era prezent în răspunsul sintetic, rămâne TRIMIS. Selectată explicit, 103 devine CONFIRMAT și se recitește ca atare din altă conexiune. Când documentul 101 apare, a doua trecere aduce 103 în lot și îl confirmă. La pragul implicit 2.000, cu 2.001 comenzi, două selecții exclud ID-ul 2.001.",
+      "limit": "Cu același set de rânduri, aceeași ordine și același plafon, orice rundă selectează din nou prefixul. Nu este necesar ca întregul prefix să aibă erori de transport; absența documentelor pentru acele comenzi este suficientă. Pentru AUTO, nu s-a simulat un alt candidat de retrimitere care ar putea introduce același ID.",
+      "proposal": "Adaptați procesul existent cu o rotație per firmă ori termen de reprobare persistent și ordine deterministă. Regresie cu plafon 2 și cel puțin trei comenzi, o comandă fără document și o alta confirmabilă; utilizați și pragul implicit 2.000, relansare și rulări paralele. Păstrați izolarea AD_Client_ID și idempotența."
+    },
+    {
+      "id": "A07.R11.02",
+      "status": "DEFECT CONDIȚIONAL DE IDENTIFICARE REPRODUS ÎN COMPONENTĂ; CONTRACTUL DE CARACTERE AL CANALULUI REAL RĂMÂNE DE VERIFICAT",
+      "observation": "Un document local S|X-001 produce seria S|X și numărul 001. Răspunsul pe canal cu seria S și numărul X|001, același tip și SHA de 64 cifre hexazecimale, a actualizat documentul la CONFIRMAT (persistat la recitire), deși perechile sunt diferite. Oracolul prin egalitate de tuple refuză.",
+      "limit": "Demonstrație limitată la citirea unui detaliu sintetic de site și la starea locală. Nu s-a demonstrat că platforma CESIRO1 folosește în prezent astfel de numere sau că un document real a fost confirmat eronat.",
+      "proposal": "Înlocuiți cheia concatenată în TrimiteFacturaSite cu o cheie structurată sau un record Java care normalizează separat numai seria absentă și literele SHA. Regresie pentru separator în serie sau în număr, amprentă diferită și caractere permise pentru fiecare canal."
+    }
+  ],
+  "independence": "Oracolul de operare listează toate comenzile care au documentul corespunzător în răspunsul sintetic. Oracolul de identitate compară separat patru valori, fără concatenare. Executorul A07 nu este auditorul independent A11.",
+  "new_vs_R10": "R10 a urmărit originea și liniile înainte de emiterea facturii. Acest lot începe cu document fiscal deja în starea TRIMIS; nu verifică emiterea facturii și nu constituie o probă lipsă a R10.",
+  "controls_on_candidate": {
+    "jar_1": {
+      "sha256": "0faf54a5e1fefc840c7a39f9eb8aa5d5970a3883acee3addb366e9d6ce54cbcc",
+      "assertions": 35
+    },
+    "jar_2": {
+      "sha256": "0faf54a5e1fefc840c7a39f9eb8aa5d5970a3883acee3addb366e9d6ce54cbcc",
+      "assertions": 35
+    },
+    "recompilat": {
+      "sha256": "0faf54a5e1fefc840c7a39f9eb8aa5d5970a3883acee3addb366e9d6ce54cbcc",
+      "assertions": 35
+    }
+  },
+  "positive_negative_and_tenant": "patru runde de selectie implicită, selecție punctuală, repetare idempotentă, deblocarea listei în următoarea rundă, martor de client separat, prag implicit 2000, martor SHA diferit și tuple exacte.",
+  "persistent_receipt": "SQL commit și SELECT din conexiune separată pe tabelul sintetic; nu se revendică o înregistrare reală C_Invoice, Fact_Acct sau EVA_DocumentTrimis prin OSGi.",
+  "files_scoped": 3,
+  "distinct_findings": 2,
+  "cleanup": {
+    "private_cluster_absent": true,
+    "ephemeral_listener_closed": true,
+    "operational_writes": 0,
+    "erp_documents_created": 0,
+    "external_request_count": 0
+  },
+  "product_score": null,
+  "independent_review_pending": true
+}

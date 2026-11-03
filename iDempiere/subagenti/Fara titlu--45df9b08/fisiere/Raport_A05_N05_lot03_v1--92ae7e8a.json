@@ -1,0 +1,172 @@
+{
+  "schema": "A05.N05.native.lot03.v1",
+  "utc": "2026-11-03T01:20:01.407012+00:00",
+  "owner": "A05",
+  "peer": [
+    "A03",
+    "A10",
+    "A11"
+  ],
+  "candidate": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "operational_worktree_observed": "1687cc8376902e7aa7163a883e07c7271bcae511",
+  "operational_files_used": false,
+  "conclusion": "N05 are acum dovadă integrată nativă: garda funcționează serial, dar concurența permite BOM2→3 în timpul ambalării și produce persistent11piese WMS din10 la dezambalare. Defect de integritate P1, continuare a aceleiași constatări N05, nu duplicat statistic.",
+  "severity": "P1 / integritatea stocului fizic WMS; nu probă că soldul contabil G1 a crescut",
+  "protocol": {
+    "v2_sha256": "4c4e641b22d7e0edd6b930335fd5b18ba5e66991ff7c4ff207097464a4ef533e",
+    "A11_gate_sha256": "d92aed9631986da6d1ec5652e114810f350a1ac49902e62e3b0b7ca226b36230",
+    "N03_addendum_sha256": "f2e538a546bdb8a381a9bbb288d9a0e3d6401aa4d52d064632ca2b35016f8797",
+    "score": "10/10 numai proiectarea protocolului, nu produsul"
+  },
+  "identities": {
+    "EVA_jar_oid": "4a5e399ebc671569098235c6ec6d151defd20be6",
+    "EVA_sha256": "82099cd7f436a8fb4d532d8a46b83c62ae0e0176d86d9345c08598299d01d558",
+    "core_sha256": "86c82f54299f55e8f5089e0c48f13dc29432fdecec205a51560eb48dc54ac8c3",
+    "seed_sha256": "54d2a646a663949df78e24206a4dc2a30b7eab609aafba1229c1e6c28e97c6a4",
+    "process_id_in_synthetic_seed": 1000228,
+    "process_id_limit": "Identitatea1000228 aparține clonei GardenWorld. Nu este substituită ID-ului operațional citit în altă rundă. VALUE/clasa/parametrii sunt confruntați, ID-urile nu se transferă între cabinete.",
+    "schema_sha256": "1a0610d6c0b490d5b9c43d14b2f116e00a8b1f110172b171d0ce10878c518d12",
+    "runtime_manifest_sha256": "dc613226f40fd0d53700029367b2af8749aba91b79e4973306294c89d78933d7",
+    "source_fiches_sha256": "1f85f86da1734449b10be7ebe1f3dc08f96fbebc2f3976576b9475aebb849180"
+  },
+  "cases": [
+    {
+      "id": "S01",
+      "result": "PASS_SCOPED",
+      "method": "ProceseEcran.ruleaza→MProcess.processIt managedTrx=true→AD_Process1000228→EvaProcessFactory→NotaSetWmsProces",
+      "oracle": "10→8+1set→10; mișcări1→3→5; nativeQty10; fixtură serial",
+      "proof": "business_v1"
+    },
+    {
+      "id": "S02",
+      "result": "PASS_SCOPED",
+      "method": "MPPProductBOMLine.saveEx→EventManager→EvaNotaSetBomEvents",
+      "oracle": "QtyBOM2→3 după ambalare comisă refuzată exact t355.refuz.lista_folosita; stoc8/1 și BOM2 persistente",
+      "proof": "business_v1"
+    },
+    {
+      "id": "N01_QTY",
+      "result": "PASS_SCOPED",
+      "oracle": "Qty0, refuz exact t355.refuz.cantitate, zero delta",
+      "proof": "business_v1"
+    },
+    {
+      "id": "N02_STOC",
+      "result": "PASS_SCOPED",
+      "oracle": "6seturi×2 cu10piese, refuz exact lipsă2, zero delta",
+      "proof": "business_v1"
+    },
+    {
+      "id": "N03_ROL",
+      "result": "PASS_SCOPED_NATIVE_PRECHECK",
+      "oracle": "rol50004/actor50001: CannotAccessProcess exact, ok=false, nicio instanță nouă, stoc/jurnal/native/facts neschimbate în scop; R_DREPT EVA neexecutat",
+      "proof": "business_v2; addendum A11"
+    },
+    {
+      "id": "R01",
+      "result": "PASS_SCOPED",
+      "method": "MProcess.processIt managedTrx=false pentru controlul tranzacției; rollback explicit, apoi retry normal nou",
+      "oracle": "efectul T1 invizibil, rollback10/0/jurnal1; retry8/1/jurnal3, o singură pereche de mișcări persistente",
+      "proof": "business_v2"
+    },
+    {
+      "id": "C01",
+      "result": "FAIL_PRODUCT_CONFIRMED",
+      "method": "T1proces nativ managedTrx=false + T2MPPProductBOMLine.saveEx; dezambalare normală managedTrx=true",
+      "oracle": "T1PID20464/xid10681 vede8, independentPID12040 vede10/0; T2PID12040/xid10688 modifică2→3 și comite; T1comite; dezambalare produce11din10; READ COMMITTED",
+      "proof": "business_v2+readback independent"
+    }
+  ],
+  "mechanism": "Procesul ia lacăt firma+WMS și citește BOM. Handlerul BOM citește stocul pozitiv fără aceeași coordonare. La READ COMMITTED, altă tranzacție nu vede setul ambalat încă necomis și acceptă QtyBOM3. Dezambalarea recitește versiunea modificată, întorcând3piese deși s-au consumat2.",
+  "provenance": {
+    "normal_UI_chain_read": "DialogNotaSetWms→JobFundal→ProceseEcran.ruleaza; s-a executat metoda originală ProceseEcran, fără browser/ZK",
+    "coordination_variation": "R01/C01 folosesc overload nativ managedTrx=false numai pentru controlul commitului/bariera deterministă; aceeași clasă de proces, parametri, factory, handler, DB și tranzacții. Nu pretinde concurență interactivă UI măsurată.",
+    "handlers_active": [
+      "EvaNotaSetBomEvents",
+      "EvaWmsGardaEvents",
+      "EvaAuditPostareEvents",
+      "EvaStocEvents"
+    ],
+    "native_validator": "FixedAssets Y efectiv încărcat; Libero N și ProductPriceValidator N păstrate din seed",
+    "surseTest": "null, citit înainte de business în fiecare JVM; niciun Depozit/Service.locator falsificat",
+    "temporal_binding": "business_v1/v2 repetă canarii, dormancy, provider, CodeSource/hash, services și schema/context; preflight separat nu este singura dovadă"
+  },
+  "oracle": {
+    "sha256": "ec81baf258d96af45918120da2731783d829a11e8b7f5ef82a9a244094fee50a",
+    "final_readback_sha256": "1c58815051e48c5d3f08d09f714845589fd3a7e59a75b46ad7ce453651e2aa02"
+  },
+  "limits": [
+    "LastBuildInfo placeholder rămâne; compatibilitate limitată celor15interfețe native,28coloane WMS și parametrilor, nu acceptare globală de build/migrări.",
+    "UI/server/EVA nu au fost pornite integral; servicii/factory/handler-e originale înregistrate prin mecanismul programatic original. Auditul întregului EvaActivator și UX rămâne separat.",
+    "Fără recepție CPP/CPA permanent, reutilizare cod, SKU/EAN, G3 comun, cutii/manoperă, comenzi/pick/AWB, DocAction/Fact_Acct complet.",
+    "AD_PInstance_Para=0 pe calea ProceseEcran observată; parametrii sunt în ProcessInfo și în harness. Nicio probă inventată de persistență a parametrilor.",
+    "Datele exacte de închidere a taskurilor nu sunt parte din această probă; rămâne convenția registru/Git, dată exactă nedocumentată când lipsesc dovezile."
+  ],
+  "remediation_checklist": [
+    {
+      "id": "N05-FIX01",
+      "objective": "Conservă compoziția efectiv consumată la ambalare",
+      "action": "Folosește BOM/PO/Trx existente; versiunea folosită trebuie să rămână imuabilă cât timp există seturi care o folosesc sau se ambalează/dezambalează. Dezambalarea reface exact componentele consumate, nu o rețetă modificată între citire și commit.",
+      "done_when": "Aceleași cantități/componente înainte și după ciclu, inclusiv concurent; fără stoc contabil suplimentar G2."
+    },
+    {
+      "id": "N05-FIX02",
+      "objective": "Coordonează editarea BOM și procesul WMS în aceeași regulă tranzacțională",
+      "action": "Reutilizează tranzacțiile native și handlerul original. O blocare comună pe firma+versiunea BOM (de exemplu rândul părinte BOM prin mecanismele DB/Trx existente), luată atât de proces înaintea citirii rețetei, cât și de handler înainte de revalidare, trebuie să acopere commit/rollback. Numai lacătul actual firma+WMS nu serializează editorul BOM.",
+      "done_when": "T2 este blocat și revalidează după T1 sau este refuzat; nu trece citind zero stoc încă necomis."
+    },
+    {
+      "id": "N05-FIX03",
+      "objective": "Ordine stabilă a blocărilor și gestiuni multiple",
+      "action": "Definește ordinea firmă/BOM/gestiune/locator; la mutarea liniei între BOM-uri blochează ambele versiuni în ordine stabilă. Verifică aceeași rețetă folosită în G2.1/G2.2 și perechi G1.1/G2.1, G1.2/G2.2.",
+      "done_when": "Fără deadlock necontrolat; rollback integral și retry sigur; stocurile tuturor gestiunilor conservate."
+    },
+    {
+      "id": "N05-FIX04",
+      "objective": "Regresii și recepție",
+      "action": "Repetă C01 pe buildul remediat prin același proces/handler original; adaugă BOM schimbat înaintea operației, după commit cu seturi existente, după dezambalare completă, operații inverse concurente, rollback pe ambele tranzacții, retry și perechi multiple.",
+      "done_when": "Pozitive, refuzuri nominale și efect persistent independente recepționate A11; nu doar teste unitare/mock."
+    },
+    {
+      "id": "N05-FIX05",
+      "objective": "Păstrează arhitectura beneficiarului",
+      "action": "G1 rămâne contabil; G2 fără contabilizare dublă. Cutiile/manopera se înregistrează o singură dată G1. CPP/CPA au identități distincte permanente; G3 folosește capacitate comună și fără supravânzare.",
+      "done_when": "Contracte separate pentru aceste cerințe; nu se consideră rezolvate de fixtura curentă fără cutii/manoperă/canale."
+    }
+  ],
+  "remaining_tests": [
+    "editare BOM înainte de operație și după dezambalare completă",
+    "multiple componente și schimbarea produsului/versiunii/activării liniei în concurență",
+    "gestiuni multiple cu aceeași versiune BOM",
+    "concurență ambalare/dezambalare și deadlock/retry",
+    "compoziții cu ambalaje/manoperă și contabilizare unică G1",
+    "UI și browser, login real și afișarea refuzurilor"
+  ],
+  "cleanup": {
+    "utc": "2026-11-03T01:15:39.9465357Z",
+    "target": "D:\\CodexWork\\a05-r12-native-lab-n05-20261103",
+    "verifiedParent": "D:\\CodexWork",
+    "reparsePoints": 0,
+    "ownJvmProcesses": 0,
+    "listenersBefore": [
+      {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 56455,
+        "OwningProcess": 29972
+      }
+    ],
+    "listenersAfter": 0,
+    "pgStopped": true,
+    "filesRemoved": 7359,
+    "targetExistsAfter": false,
+    "operationalWrites": 0,
+    "scope": "Only A05 N05 synthetic lab. Other labs, retained Masini scratch and shared p01-local-pg16/data untouched. Runtime caches/harness preserved as passive reproducible evidence."
+  },
+  "receipt_state": "PROPUS pentru recepție independentă A11; fără notă10/10 produs.",
+  "independent_counter_oracle": {
+    "path": "executie/R12_fisiere/A11/Val03_loturi/Contraoracol_A11_N05_persistenta_v1.json",
+    "sha256": "bae61edf6baa5791d76c7c87e67c4d01260bed474195ee6f6ebdf43c0726c805",
+    "method": "A11 recalculează separat cele13mișcări după locatori: serial10, rollback8+1set echivalent10, race11; verifică documentar PID/xid/barieră. Nu este rerulare native A11 și nu substituie recepția finală."
+  },
+  "rollback_process_metadata_limit": "AD_PInstance1002649/result=1 și mesajul de ambalare persistă după rollback extern managedTrx=false. Nicio mișcare WMS cu Record_ID1002649; retry1002650 are exact2mișcări. Consumatorii de stare trebuie să distingă finalizarea procesului de commitul tranzacției externe; nu concluzionăm automat defect pe ProceseEcran managedTrx=true."
+}

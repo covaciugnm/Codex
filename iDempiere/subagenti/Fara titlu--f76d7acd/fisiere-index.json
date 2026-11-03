@@ -1,0 +1,16 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\PeerT240ReceiptA11.py",
+    "status": "copiat",
+    "saved_path": "fisiere/PeerT240ReceiptA11--af5ec679.py",
+    "bytes": 9200,
+    "sha256": "5b0debe3b3658a003d4c239e7907caa91eb1b71ea314ca0eab5de1e348bf08ab"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A11/T240_lot01/Peer_receptie_T240/Peer_receptie_T240_v1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Peer_receptie_T240_v1--eca17ee6.json",
+    "bytes": 10980,
+    "sha256": "a35a066ed2bdf73980fdede92b565878eac4ba9cba32dd25aa05175e87b04057"
+  }
+]

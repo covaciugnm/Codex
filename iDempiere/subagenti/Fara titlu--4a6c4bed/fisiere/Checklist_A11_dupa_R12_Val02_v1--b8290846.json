@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-03T00:17:36.377759+00:00",
+  "candidate": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "previous_immutable_checklist": {
+    "path": "executie/R12_fisiere/A11/Val02_loturi/Checklist_A11_dupa_loturi_Val02_v1.json",
+    "sha256": "c59e70ea59dec4a93332b976bada0be5348a9b12be557e79bb8d47ac0029dd41"
+  },
+  "inheritance": "Toate cele17 contracte,7instrumente și acțiunile precedente sunt păstrate fără închidere.",
+  "registry_step": "V02-N07 executat: Val02 primit independent,13surse parțiale/zero fișiere integrale; nicio rescriere a Val01 sau a Val02 pending.",
+  "next_priority": [
+    "Verifică HEAD/populația înainte de noi teste; noul commit/criteriu cere analiza delta și poarta planului adecvată.",
+    "Reconciliere seed/schema/migrări, apoi N05 BOM/WMS prin proces/handler nativ, serial/concurent, conservare, rollback/retry.",
+    "DocAction/Fact_Acct cu cutii/manoperă o singură dată în G1, fără duplicarea stocului contabil; CPP/CPA distincte/nereutilizabile și G3 disponibil comun rămân deschise.",
+    "ZK cu login/rol și persistare normală, inclusiv parserul Mașini și fluxul gestionar→pick→aviz→validare→AWB/factură.",
+    "Cele7instrumente I01/I04/I10/I14/I15/I16/I17 pot continua separat, fără a substitui testarea aplicației.",
+    "Păstrează limita cleanup Mașini și cache-ul nativ explicit; fără ocolirea respingerii auto-review."
+  ],
+  "metrics_prohibitions": [
+    "Nu aduna54/67/12 drept133teste unice PASS: sunt133identități de caz în trei familii;58CLI și24evaluări sunt alte unități.",
+    "Nu transforma8martori Mașini A11 sau7canari în criterii funcționale.",
+    "116surse R11 sunt istoric fără credit automat;652fișe/2619criterii nu sunt închise de acest val."
+  ],
+  "outside_dependency_required_now": false,
+  "product_score": null
+}

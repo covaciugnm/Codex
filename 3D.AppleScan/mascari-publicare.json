@@ -16,12 +16,14 @@
     {
       "path": "Arhivează conversațiile Codex/istoric.json",
       "masked_values": {
+        "literal_authentication_value": 1,
         "signed_url_credential": 3
       }
     },
     {
       "path": "Arhivează conversațiile Codex/rezultate.md",
       "masked_values": {
+        "literal_authentication_value": 1,
         "signed_url_credential": 3
       }
     },

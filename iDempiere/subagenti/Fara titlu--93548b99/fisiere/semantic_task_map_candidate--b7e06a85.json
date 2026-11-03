@@ -1,0 +1,1939 @@
+{
+  "schema": "A12_VAL03_SEMANTIC_TASK_MAP_CANDIDATE_1",
+  "utc": "2026-11-02T22:26:21.433726+00:00",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "purpose": "Read-only semantic candidate for exact T58 criteria from original V10 suite; no product run, score, full criterion acceptance or A11 acceptance.",
+  "sources": {
+    "criteria": {
+      "path": "executie/R10/taskuri/Fisa_T58.json",
+      "absolute_path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R10\\taskuri\\Fisa_T58.json",
+      "sha256": "824bdd32e7eeed7c35afa15bcae68a8cb401f39134f70f3952fb52f7fbafdbaf",
+      "bytes": 796274
+    },
+    "matrix_val02": {
+      "path": "executie/R11_fisiere/A12/Val_02/Matrice_criterii_task_probe.json",
+      "absolute_path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\A12\\Val_02\\Matrice_criterii_task_probe.json",
+      "sha256": "9650e887dcd9c8cf79ba39335d605092f941192ae1293f450c5f98277f0297f9",
+      "bytes": 2772351
+    },
+    "consolidation": {
+      "path": "executie/R11_fisiere/Suite_originale_reconciliate/Consolidare_55_suite.json",
+      "absolute_path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\Suite_originale_reconciliate\\Consolidare_55_suite.json",
+      "sha256": "5327fb83f221673210051b7b583f8ad2414cf6c7bdd6cacc499d5a6fb37603e3",
+      "bytes": 49830
+    },
+    "receipt_v10": {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v10/Rezultate_suite_originale.json",
+      "absolute_path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\Suite_originale_API_portal_v10\\Rezultate_suite_originale.json",
+      "sha256": "94769450b96f5fb92609d950cf24b7fabd5ad3f479ca8061f1d90171a8e589eb",
+      "bytes": 9156
+    },
+    "manifest_v10": {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v10/Surse_izolate_Git.json",
+      "absolute_path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\Suite_originale_API_portal_v10\\Surse_izolate_Git.json",
+      "sha256": "96c7b681d99d406afaf0787145f4cd434f649d642f0923e5753f5e3987e820bf",
+      "bytes": 252525
+    },
+    "runner_v10": {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v10/Runner_coordonare.py",
+      "absolute_path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\Suite_originale_API_portal_v10\\Runner_coordonare.py",
+      "sha256": "540bc9d1a04a5d439e6bb094f41d128cbb4ac2a0c742de8c3b6ef7369522b627",
+      "bytes": 7813
+    },
+    "child_v10": {
+      "path": "executie/R11_fisiere/Suite_originale_API_portal_v10/p01-r11-test-isolated-child-v10.py",
+      "absolute_path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\Suite_originale_API_portal_v10\\p01-r11-test-isolated-child-v10.py",
+      "sha256": "e7ef202933677c23cbe382c120d2e8e4f7d9d5e6fade1a58108a2c9a78b8354f",
+      "bytes": 5054
+    },
+    "checklist_a11": {
+      "path": "executie/R11_fisiere/A11/Checklist_A11_dupa_val02_v2.json",
+      "absolute_path": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R11_fisiere\\A11\\Checklist_A11_dupa_val02_v2.json",
+      "sha256": "ec6038418138529c71d72d543d2b2193cbfc6b7b5a0fa091cf99a7f48f03b035",
+      "bytes": 78438
+    }
+  },
+  "original_product_sources_verified": {
+    "backend/tests/test_t58_close_month.py": {
+      "file": "backend/tests/test_t58_close_month.py",
+      "git_blob": "4a8ebce172c835858588448d8d08d38cb8c1814c",
+      "sha256": "80751907f287abc04aad01ccf3545691e451407ebed22b03c7d1d7050213b383",
+      "read_only_source_path": "D:\\CodexWork\\eva-audit-p01-readonly-20261102\\backend\\tests\\test_t58_close_month.py",
+      "manifest_source": "manifest_v10",
+      "manifest_pointer": "/rows/499",
+      "local_bytes_match_manifest_sha_and_git_blob": true
+    },
+    "backend/app/routers/declaratii_calendar.py": {
+      "file": "backend/app/routers/declaratii_calendar.py",
+      "git_blob": "27317c736829461f3cb25b10fcb4b7b0fbcafc55",
+      "sha256": "24018e5d2590b1d68cbc3e206d46d0ebf450eb141afd90be432485069904a7fd",
+      "read_only_source_path": "D:\\CodexWork\\eva-audit-p01-readonly-20261102\\backend\\app\\routers\\declaratii_calendar.py",
+      "manifest_source": "manifest_v10",
+      "manifest_pointer": "/rows/154",
+      "local_bytes_match_manifest_sha_and_git_blob": true
+    },
+    "frontend/portal/eva_declaratii.html": {
+      "file": "frontend/portal/eva_declaratii.html",
+      "git_blob": "c116fd36ae1dc8638993cf4dd870a2c5c75d3312",
+      "sha256": "972e86565337b004053486605d030a64ea48f6d385d2e107b1469e122c462bbe",
+      "read_only_source_path": "D:\\CodexWork\\eva-audit-p01-readonly-20261102\\frontend\\portal\\eva_declaratii.html",
+      "manifest_source": "manifest_v10",
+      "manifest_pointer": "/rows/689",
+      "local_bytes_match_manifest_sha_and_git_blob": true
+    },
+    "frontend/i18n.py": {
+      "file": "frontend/i18n.py",
+      "git_blob": "61a99ed894723813c44d90ab8638061a501177d5",
+      "sha256": "dfbf06a0f187658d351b7e024f7b4e5d7aaf28dd19fe71bc45ca367c5e05f6fe",
+      "read_only_source_path": "D:\\CodexWork\\eva-audit-p01-readonly-20261102\\frontend\\i18n.py",
+      "manifest_source": "manifest_v10",
+      "manifest_pointer": "/rows/585",
+      "local_bytes_match_manifest_sha_and_git_blob": true
+    },
+    "backend/tests/conftest.py": {
+      "file": "backend/tests/conftest.py",
+      "git_blob": "230b076aca60711f5cca3e1f90753851c502d99a",
+      "sha256": "6581f403ce6614b2158fa6c8178ca40e089ead8da7b07877abab059b62130d84",
+      "read_only_source_path": "D:\\CodexWork\\eva-audit-p01-readonly-20261102\\backend\\tests\\conftest.py",
+      "manifest_source": "manifest_v10",
+      "manifest_pointer": "/rows/425",
+      "local_bytes_match_manifest_sha_and_git_blob": true
+    },
+    "backend/tests/fixtures/samanta_l6j.py": {
+      "file": "backend/tests/fixtures/samanta_l6j.py",
+      "git_blob": "f76f6eea7805a82fbee835669fb272562d2dfb42",
+      "sha256": "f965917892a12c35ccda62a93408a35d6417d4aa360b200e7b0b188b77269bd3",
+      "read_only_source_path": "D:\\CodexWork\\eva-audit-p01-readonly-20261102\\backend\\tests\\fixtures\\samanta_l6j.py",
+      "manifest_source": "manifest_v10",
+      "manifest_pointer": "/rows/427",
+      "local_bytes_match_manifest_sha_and_git_blob": true
+    }
+  },
+  "source_identity_checks": {
+    "receipt_matches_consolidation_sha": true,
+    "manifest_matches_receipt_sha": true,
+    "child_matches_receipt_runner_sha": true,
+    "local_source_bytes_match_manifest_sha_and_git_blob": true,
+    "source_head_equal": true
+  },
+  "scope_and_population": {
+    "matrix_task_population_preserved": 652,
+    "matrix_criterion_population_preserved": 2619,
+    "T58_criteria_in_dossier": 86,
+    "proposed_original_criterion_links": 8,
+    "all_links_partial_or_static_scoped": true,
+    "unique_reported_V10_case_events": 36,
+    "event_counts_are_not_criterion_counts": true,
+    "no_old_artifact_modified": true,
+    "no_product_tests_run_by_this_audit": true,
+    "no_external_service_or_product_mutation": true
+  },
+  "matrix_prior_state": {
+    "T58_task_pointer": "/task_rows/354",
+    "T58_linked_criteria_before": [],
+    "T58_direct_cases_before": [],
+    "T158_alias_pointer": "/task_rows/429",
+    "T158_canonical": "P01.C02.T0002",
+    "alias_policy": "Preserve T58 canonical=null; do not transfer probe or verdict to T158 by alias/name."
+  },
+  "receipt_interpretation": {
+    "source": "receipt_v10",
+    "pointer": "/rows/0",
+    "consolidation_pointer": "/rows/17",
+    "reported_returncode": 0,
+    "reported_exit": 0,
+    "reported_case_event_count": 36,
+    "stage_counts": {
+      "call": 36
+    },
+    "outcome_as_declared_by_producer": {
+      "passed": 36
+    },
+    "raw_output_retained_in_receipt": false,
+    "output_sha256_as_declared": "84dc56c213791e81adc81afd7259ba0996d13872b1e5fc31f12ae4e1846cfa2e",
+    "independent_reexecution_by_this_audit": false,
+    "a11_review": "PENDING_SEPARATE_REVIEW; no acceptance inferred"
+  },
+  "execution_scope_from_sources": {
+    "test_scope_declaration_lines": [
+      1,
+      6
+    ],
+    "test_fixture_lines": [
+      51,
+      71
+    ],
+    "conftest_scope_lines": [
+      1,
+      51
+    ],
+    "synthetic_state": "temporary JSON registry plus dedicated SQLite; ERP and tenant context doubles",
+    "node_scope": "10 synthetic Node programs according to receipt; exact original script fragment with mocked fetch/alert/confirm/load; no DOM/browser/proxy",
+    "limit": "V10 changes output encoding and harness runtime permissions; this semantic audit does not independently certify harness isolation or cleanup. A11 review is separate."
+  },
+  "executed_or_read_fragments": [
+    {
+      "file": "backend/app/routers/declaratii_calendar.py",
+      "git_blob": "27317c736829461f3cb25b10fcb4b7b0fbcafc55",
+      "sha256": "24018e5d2590b1d68cbc3e206d46d0ebf450eb141afd90be432485069904a7fd",
+      "symbol": "_closed_set",
+      "line_start": 56,
+      "line_end": 60,
+      "fragment_sha256_utf8_lines_including_original_newlines": "10aaec751c2156fc733c2ccc96df6cc02a9ab946d265838d7f8038737d3afe3e",
+      "evidence_mode": "called via API tests",
+      "precise_limit": "Only temporary registry read; full calendar route not credited."
+    },
+    {
+      "file": "backend/app/routers/declaratii_calendar.py",
+      "git_blob": "27317c736829461f3cb25b10fcb4b7b0fbcafc55",
+      "sha256": "24018e5d2590b1d68cbc3e206d46d0ebf450eb141afd90be432485069904a7fd",
+      "symbol": "_save_closed",
+      "line_start": 63,
+      "line_end": 67,
+      "fragment_sha256_utf8_lines_including_original_newlines": "506b0fd4769276b286733d1eac98ef60e6e339ce7a5b34cc7af066a066175cf5",
+      "evidence_mode": "called via success API tests",
+      "precise_limit": "Only synthetic JSON write; no crash/fsync or concurrent-write proof."
+    },
+    {
+      "file": "backend/app/routers/declaratii_calendar.py",
+      "git_blob": "27317c736829461f3cb25b10fcb4b7b0fbcafc55",
+      "sha256": "24018e5d2590b1d68cbc3e206d46d0ebf450eb141afd90be432485069904a7fd",
+      "symbol": "_verdict_idempiere",
+      "line_start": 142,
+      "line_end": 162,
+      "fragment_sha256_utf8_lines_including_original_newlines": "a1a7195fff7b953dbf5b7846e2a63d24ae75b3b515e2f2b02adb975e89b0b795",
+      "evidence_mode": "called with ClientSimulat",
+      "precise_limit": "Native process eva_stareinchidereluna is not executed."
+    },
+    {
+      "file": "backend/app/routers/declaratii_calendar.py",
+      "git_blob": "27317c736829461f3cb25b10fcb4b7b0fbcafc55",
+      "sha256": "24018e5d2590b1d68cbc3e206d46d0ebf450eb141afd90be432485069904a7fd",
+      "symbol": "close_month",
+      "line_start": 165,
+      "line_end": 212,
+      "fragment_sha256_utf8_lines_including_original_newlines": "f23f25c6db2198b8cf310190611c7bf37915ed01d31a0c81c66cd551700ee9b6",
+      "evidence_mode": "called through FastAPI TestClient",
+      "precise_limit": "_ctx_client replaced; local SQLite/JSON effect only; branch observations not full-file coverage."
+    },
+    {
+      "file": "backend/app/routers/declaratii_calendar.py",
+      "git_blob": "27317c736829461f3cb25b10fcb4b7b0fbcafc55",
+      "sha256": "24018e5d2590b1d68cbc3e206d46d0ebf450eb141afd90be432485069904a7fd",
+      "symbol": "closed_periods",
+      "line_start": 215,
+      "line_end": 222,
+      "fragment_sha256_utf8_lines_including_original_newlines": "1b795d3d85ea257d78792203f552e3942de1f319e62af9205b070f1745ca770a",
+      "evidence_mode": "called through FastAPI TestClient",
+      "precise_limit": "Reads temporary registry; no ERP period proof."
+    },
+    {
+      "file": "frontend/portal/eva_declaratii.html",
+      "git_blob": "c116fd36ae1dc8638993cf4dd870a2c5c75d3312",
+      "sha256": "972e86565337b004053486605d030a64ea48f6d385d2e107b1469e122c462bbe",
+      "symbol": "REFUZ_INCHIDERE and textRefuzInchidere",
+      "line_start": 87,
+      "line_end": 93,
+      "fragment_sha256_utf8_lines_including_original_newlines": "7a26b636c79edaeb30fa59e75b05b4000453b4df5ffa1287c436732fea266444",
+      "evidence_mode": "original JS fragment with substituted translation expressions in Node",
+      "precise_limit": "No browser, real Jinja render, proxy or native ERP."
+    },
+    {
+      "file": "frontend/portal/eva_declaratii.html",
+      "git_blob": "c116fd36ae1dc8638993cf4dd870a2c5c75d3312",
+      "sha256": "972e86565337b004053486605d030a64ea48f6d385d2e107b1469e122c462bbe",
+      "symbol": "closeMonth",
+      "line_start": 94,
+      "line_end": 105,
+      "fragment_sha256_utf8_lines_including_original_newlines": "b71d98e27683ecc02dcad4da7f5fe8c56611d2f2690604cf130e51a163c36a37",
+      "evidence_mode": "original JS fragment in Node",
+      "precise_limit": "fetch/alert/confirm/load replaced, btn simple object; startup load omitted."
+    },
+    {
+      "file": "frontend/i18n.py",
+      "git_blob": "61a99ed894723813c44d90ab8638061a501177d5",
+      "sha256": "dfbf06a0f187658d351b7e024f7b4e5d7aaf28dd19fe71bc45ca367c5e05f6fe",
+      "symbol": "translation keys declaratii.close.refuz / indisponibil",
+      "line_start": 1861,
+      "line_end": 1862,
+      "fragment_sha256_utf8_lines_including_original_newlines": "8c22e1020e08930039f4e5d1920f9f06de8934641d834e12bc69db51130a8971",
+      "evidence_mode": "dictionary checked/read by original test",
+      "precise_limit": "No credit for unrelated translations."
+    },
+    {
+      "file": "frontend/i18n.py",
+      "git_blob": "61a99ed894723813c44d90ab8638061a501177d5",
+      "sha256": "dfbf06a0f187658d351b7e024f7b4e5d7aaf28dd19fe71bc45ca367c5e05f6fe",
+      "symbol": "t",
+      "line_start": 1871,
+      "line_end": 1876,
+      "fragment_sha256_utf8_lines_including_original_newlines": "2667ea4fe609c83880bfb40e857480cfc443cbea3a533b83ff566c8d545a5585",
+      "evidence_mode": "function used by _randeaza and test assertions",
+      "precise_limit": "No credit for all imports or all i18n behavior."
+    }
+  ],
+  "candidate_mappings": [
+    {
+      "criterion_id_original": "T58-R2-072",
+      "plan_label_original": "C-62",
+      "task_original": "T58",
+      "canonical_original": null,
+      "relation": "CANDIDATE_PARTIAL_SEMANTIC_LINK",
+      "criterion_source": {
+        "source": "criteria",
+        "pointer": "/operative_criteria_and_audit_criteria/71"
+      },
+      "matrix_source": {
+        "source": "matrix_val02",
+        "pointer": "/criterion_rows/1076"
+      },
+      "normative_content_exact": "C-62 — A-1 | (B-1) pas aplicabil nefăcut ⇒ «Închide luna» refuzat, registrul neatins | 12a §A5 R-B1 (`POST …/close-month`, `md5sum` registru înainte / după, `GET …/closed`) | 409 `EVA-PERIODCLOSE_ORDINE`, «5.» în `details.nefacute`; md5 egal; M absentă | container",
+      "oracle_original_exact": "(B-1) pas aplicabil nefăcut ⇒ «Închide luna» refuzat, registrul neatins | 409 `EVA-PERIODCLOSE_ORDINE`, «5.» în `details.nefacute`; md5 egal; M absentă",
+      "actor_original_exact": "operator de probă cu dreptul documentat (istoric nedeterminat dacă sursa nu îl numește); responsabil de verificare A03",
+      "subcondition_mapped": "B-1: refuzul API când verdictul simulat NEFACUTE numește un pas; registru temporar nemodificat.",
+      "probe_actor": {
+        "identity": "tester@t58.invalid",
+        "tenant_company": "RO11111118",
+        "other_company": "RO22222226",
+        "period": "2026-09",
+        "authority": "Synthetic t58 fixture; ClientSimulat and operare._ctx_client replacement",
+        "fixture_source_lines": [
+          22,
+          71
+        ]
+      },
+      "positive_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/2",
+          "original_test_id": "tests/test_t58_close_month.py::test_succes_inchide_luna_si_audit",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_succes_inchide_luna_si_audit",
+          "source_test_lines": {
+            "line_start": 118,
+            "line_end": 126,
+            "assertion_count_static": 6
+          }
+        }
+      ],
+      "negative_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/0",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuz_pas_nefacut_registrul_neatins",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuz_pas_nefacut_registrul_neatins",
+          "source_test_lines": {
+            "line_start": 96,
+            "line_end": 107,
+            "assertion_count_static": 7
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/1",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuz_nefacute_fara_jurnal_tot_refuz",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuz_nefacute_fara_jurnal_tot_refuz",
+          "source_test_lines": {
+            "line_start": 110,
+            "line_end": 114,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/32",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuz_pasii_doar_din_mesajele_jurnalului",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuz_pasii_doar_din_mesajele_jurnalului",
+          "source_test_lines": {
+            "line_start": 437,
+            "line_end": 445,
+            "assertion_count_static": 3
+          }
+        }
+      ],
+      "oracle_asserted_by_original_tests": "În cazul principal se cer 409/EVA-PERIODCLOSE_ORDINE, un element details.nefacute începând cu 5., MD5 înainte=după, exact apelul eva_stareinchidereluna cu Luna=2026-09, GET closed=[], AuditEvent=0. Variantele fără jurnal și cu rânduri jurnal invalide refuză și păstrează registrul absent; ultima selectează numai msg nevide.",
+      "actual_effect_supported_by_source_assertions_and_reported_events": "Efectul verificat de aserțiunile sursă este absența fișierului temporar period_close.json și a AuditEvent; controlul pozitiv scrie numai registrul sintetic/SQLite.",
+      "effect_evidence_limit": "V10 supplies per-case outcome only; this audit read assertions and receipt, without rerunning product or recovering raw before/after exports. Reported event is not independent acceptance.",
+      "limits": [
+        "NEFACUTE și pașii sunt furnizați de ClientSimulat; nu se calculează ordinea nativă AMORT/VC.",
+        "MD5 înainte este absent în fixture nouă; nu este demonstrată păstrarea unui registru preexistent cu alte luni.",
+        "TestClient local nu este containerul R-B1; lipsesc procesul ERP și C_PeriodControl/GL_Journal."
+      ],
+      "criterion_completion_assigned": false,
+      "task_completion_assigned": false,
+      "score_assigned": false,
+      "a11_acceptance_claimed": false
+    },
+    {
+      "criterion_id_original": "T58-R2-073",
+      "plan_label_original": "C-63",
+      "task_original": "T58",
+      "canonical_original": null,
+      "relation": "CANDIDATE_PARTIAL_SEMANTIC_LINK",
+      "criterion_source": {
+        "source": "criteria",
+        "pointer": "/operative_criteria_and_audit_criteria/72"
+      },
+      "matrix_source": {
+        "source": "matrix_val02",
+        "pointer": "/criterion_rows/1077"
+      },
+      "normative_content_exact": "C-63 — A-1 | (B-2) toți pașii aplicabili făcuți ⇒ închidere | R-B2 | 200; M în `…/closed`; a doua cerere cu aceeași cheie: același răspuns, M o singură dată | container",
+      "oracle_original_exact": "(B-2) toți pașii aplicabili făcuți ⇒ închidere | 200; M în `…/closed`; a doua cerere cu aceeași cheie: același răspuns, M o singură dată",
+      "actor_original_exact": "operator de probă cu dreptul documentat (istoric nedeterminat dacă sursa nu îl numește); responsabil de verificare A03",
+      "subcondition_mapped": "B-2: răspunsul OK simulat permite închiderea în registrul local; retry cu aceeași cheie.",
+      "probe_actor": {
+        "identity": "tester@t58.invalid",
+        "tenant_company": "RO11111118",
+        "other_company": "RO22222226",
+        "period": "2026-09",
+        "authority": "Synthetic t58 fixture; ClientSimulat and operare._ctx_client replacement",
+        "fixture_source_lines": [
+          22,
+          71
+        ]
+      },
+      "positive_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/2",
+          "original_test_id": "tests/test_t58_close_month.py::test_succes_inchide_luna_si_audit",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_succes_inchide_luna_si_audit",
+          "source_test_lines": {
+            "line_start": 118,
+            "line_end": 126,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/12",
+          "original_test_id": "tests/test_t58_close_month.py::test_idempotenta_aceeasi_cheie",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_idempotenta_aceeasi_cheie",
+          "source_test_lines": {
+            "line_start": 176,
+            "line_end": 184,
+            "assertion_count_static": 5
+          }
+        }
+      ],
+      "negative_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/0",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuz_pas_nefacut_registrul_neatins",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuz_pas_nefacut_registrul_neatins",
+          "source_test_lines": {
+            "line_start": 96,
+            "line_end": 107,
+            "assertion_count_static": 7
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/13",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuzul_nu_se_memoreaza",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuzul_nu_se_memoreaza",
+          "source_test_lines": {
+            "line_start": 187,
+            "line_end": 193,
+            "assertion_count_static": 3
+          }
+        }
+      ],
+      "oracle_asserted_by_original_tests": "La succes: 200, ok=true, period=2026-09, status=INCHISA, fișier exact {RO11111118:[2026-09]}, GET closed cu o lună, AuditEvent=1. La retry: două răspunsuri 200 identice, un singur apel simulat al verdictului, o singură lună și un AuditEvent. Refuzul 409 nu este memorat: aceeași cheie reușește după schimbarea dublei în OK.",
+      "actual_effect_supported_by_source_assertions_and_reported_events": "Registru JSON în tmp_path și AuditEvent în SQLite după handler; retry și citire separată prin API în aceeași fixture.",
+      "effect_evidence_limit": "V10 supplies per-case outcome only; this audit read assertions and receipt, without rerunning product or recovering raw before/after exports. Reported event is not independent acceptance.",
+      "limits": [
+        "Toți pașii făcuți este un răspuns fix OK, nu o stare măsurată în iDempiere.",
+        "Nu se probează închiderea C_PeriodControl, nota VC, balanța ori blocarea efectivă a editării declarațiilor.",
+        "Nu există probă de restart, concurență, crash/fsync sau container R-B2."
+      ],
+      "criterion_completion_assigned": false,
+      "task_completion_assigned": false,
+      "score_assigned": false,
+      "a11_acceptance_claimed": false
+    },
+    {
+      "criterion_id_original": "T58-R2-074",
+      "plan_label_original": "C-64",
+      "task_original": "T58",
+      "canonical_original": null,
+      "relation": "CANDIDATE_PARTIAL_SEMANTIC_LINK",
+      "criterion_source": {
+        "source": "criteria",
+        "pointer": "/operative_criteria_and_audit_criteria/73"
+      },
+      "matrix_source": {
+        "source": "matrix_val02",
+        "pointer": "/criterion_rows/1078"
+      },
+      "normative_content_exact": "C-64 — A-1 | (B-3) iDempiere indisponibil ⇒ refuz explicit, fără «best-effort» | R-B3 | 503 `EVA-PERIODCLOSE_IDEMPIERE`; md5 egal | container",
+      "oracle_original_exact": "(B-3) iDempiere indisponibil ⇒ refuz explicit, fără «best-effort» | 503 `EVA-PERIODCLOSE_IDEMPIERE`; md5 egal",
+      "actor_original_exact": "operator de probă cu dreptul documentat (istoric nedeterminat dacă sursa nu îl numește); responsabil de verificare A03",
+      "subcondition_mapped": "B-3: eșec închis pentru client ERP simulat indisponibil ori răspuns invalid.",
+      "probe_actor": {
+        "identity": "tester@t58.invalid",
+        "tenant_company": "RO11111118",
+        "other_company": "RO22222226",
+        "period": "2026-09",
+        "authority": "Synthetic t58 fixture; ClientSimulat and operare._ctx_client replacement",
+        "fixture_source_lines": [
+          22,
+          71
+        ]
+      },
+      "positive_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/2",
+          "original_test_id": "tests/test_t58_close_month.py::test_succes_inchide_luna_si_audit",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_succes_inchide_luna_si_audit",
+          "source_test_lines": {
+            "line_start": 118,
+            "line_end": 126,
+            "assertion_count_static": 6
+          }
+        }
+      ],
+      "negative_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/6",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[None-exceptie0]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/7",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[None-exceptie1]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/8",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns2-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/9",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns3-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/10",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns4-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/11",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns5-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        }
+      ],
+      "oracle_asserted_by_original_tests": "Șase parametri: ConnectionError și RuntimeError, două răspunsuri cu isError=true, sumar necunoscut și listă în loc de dict. Fiecare cere 503/EVA-PERIODCLOSE_IDEMPIERE, canarul absent din răspuns, registru absent și AuditEvent=0.",
+      "actual_effect_supported_by_source_assertions_and_reported_events": "Nicio scriere a registrului temporar și niciun AuditEvent pentru cele șase intrări simulate.",
+      "effect_evidence_limit": "V10 supplies per-case outcome only; this audit read assertions and receipt, without rerunning product or recovering raw before/after exports. Reported event is not independent acceptance.",
+      "limits": [
+        "Nu este o întrerupere măsurată a unui serviciu ERP real; excepțiile și răspunsurile sunt injectate.",
+        "MD5 este comparat cu absent; persistența unui registru preexistent și containerul R-B3 nu sunt probate."
+      ],
+      "criterion_completion_assigned": false,
+      "task_completion_assigned": false,
+      "score_assigned": false,
+      "a11_acceptance_claimed": false
+    },
+    {
+      "criterion_id_original": "T58-R2-075",
+      "plan_label_original": "C-65",
+      "task_original": "T58",
+      "canonical_original": null,
+      "relation": "CANDIDATE_PARTIAL_SEMANTIC_LINK",
+      "criterion_source": {
+        "source": "criteria",
+        "pointer": "/operative_criteria_and_audit_criteria/74"
+      },
+      "matrix_source": {
+        "source": "matrix_val02",
+        "pointer": "/criterion_rows/1079"
+      },
+      "normative_content_exact": "C-65 — A-1 | (B-4) regula pașilor nu e re-implementată în backend | `grep -cE 'AMORT|AVANS|VENITURI_CHELTUIELI' backend/app/routers/declaratii_calendar.py` ; `grep -c 'EVA_StareInchidereLuna' backend/app/routers/declaratii_calendar.py` | 0 ; 1 (T0: 0 ; 0) | export",
+      "oracle_original_exact": "(B-4) regula pașilor nu e re-implementată în backend | 0 ; 1 (T0: 0 ; 0)",
+      "actor_original_exact": "operator de probă cu dreptul documentat (istoric nedeterminat dacă sursa nu îl numește); responsabil de verificare A03",
+      "subcondition_mapped": "B-4: oracol static literal pe routerul exact din manifest.",
+      "probe_actor": {
+        "identity": "pytest source reader",
+        "role": "no runtime actor or tenant",
+        "authority": "static source read only"
+      },
+      "positive_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/27",
+          "original_test_id": "tests/test_t58_close_month.py::test_regula_pasilor_doar_in_idempiere",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_regula_pasilor_doar_in_idempiere",
+          "source_test_lines": {
+            "line_start": 316,
+            "line_end": 325,
+            "assertion_count_static": 5
+          }
+        }
+      ],
+      "negative_control": [],
+      "oracle_asserted_by_original_tests": "Regex AMORT|AVANS|VENITURI_CHELTUIELI are zero potriviri; EVA_StareInchidereLuna apare o dată. Suplimentar testul verifică lipsa best-effort/except-pass și ordinea textuală: refuz CUI înainte de replay înainte de verdict înainte de salvare.",
+      "actual_effect_supported_by_source_assertions_and_reported_events": "Citire statică a backend/app/routers/declaratii_calendar.py; nu produce un efect persistent. Numerele 0 și 1 sunt aserțiuni literale concordante cu coloana oracol.",
+      "effect_evidence_limit": "V10 supplies per-case outcome only; this audit read assertions and receipt, without rerunning product or recovering raw before/after exports. Reported event is not independent acceptance.",
+      "limits": [
+        "Nu există mutant/control negativ executat de acest test; T0 nu este reexecutat.",
+        "Markerul EVA_StareInchidereLuna este în comentariul L134; apelul real folosește slug-ul lowercase _VERDICT_PROCES.",
+        "Numărarea literală nu dovedește absența oricărei reguli echivalente în alte fișiere sau corectitudinea procesului ERP."
+      ],
+      "criterion_completion_assigned": false,
+      "task_completion_assigned": false,
+      "score_assigned": false,
+      "a11_acceptance_claimed": false
+    },
+    {
+      "criterion_id_original": "T58-R2-076",
+      "plan_label_original": "C-66",
+      "task_original": "T58",
+      "canonical_original": null,
+      "relation": "CANDIDATE_PARTIAL_SEMANTIC_LINK",
+      "criterion_source": {
+        "source": "criteria",
+        "pointer": "/operative_criteria_and_audit_criteria/75"
+      },
+      "matrix_source": {
+        "source": "matrix_val02",
+        "pointer": "/criterion_rows/1080"
+      },
+      "normative_content_exact": "C-66 — A-1 | (B-5) firma din afara portofoliului ⇒ 403, firma B neatinsă | R-B5 + `test_t58_close_month.py` «portofoliu» | 403 `EVA-FORBIDDEN_FIRM`; md5 egal | container + test",
+      "oracle_original_exact": "(B-5) firma din afara portofoliului ⇒ 403, firma B neatinsă | 403 `EVA-FORBIDDEN_FIRM`; md5 egal",
+      "actor_original_exact": "operator de probă cu dreptul documentat (istoric nedeterminat dacă sursa nu îl numește); responsabil de verificare A03",
+      "subcondition_mapped": "B-5: portofoliu aplicat pe API cu tokenuri sintetice și două cabinete în SQLite.",
+      "probe_actor": {
+        "identity": "tester@t58.invalid",
+        "tenant_company": "RO11111118",
+        "other_company": "RO22222226",
+        "period": "2026-09",
+        "authority": "Synthetic t58 fixture; ClientSimulat and operare._ctx_client replacement",
+        "fixture_source_lines": [
+          22,
+          71
+        ],
+        "auth_cases": "prod fixture sets EVA_ENV=production; generated manager tokens for own/other synthetic cabinet, super token in C73; no real credentials"
+      },
+      "positive_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/23",
+          "original_test_id": "tests/test_t58_close_month.py::test_portofoliu_403",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portofoliu_403",
+          "source_test_lines": {
+            "line_start": 265,
+            "line_end": 278,
+            "assertion_count_static": 7
+          }
+        }
+      ],
+      "negative_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/23",
+          "original_test_id": "tests/test_t58_close_month.py::test_portofoliu_403",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portofoliu_403",
+          "source_test_lines": {
+            "line_start": 265,
+            "line_end": 278,
+            "assertion_count_static": 7
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/24",
+          "original_test_id": "tests/test_t58_close_month.py::test_fara_token_401_inaintea_intrarii",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_fara_token_401_inaintea_intrarii",
+          "source_test_lines": {
+            "line_start": 281,
+            "line_end": 290,
+            "assertion_count_static": 3
+          }
+        }
+      ],
+      "oracle_asserted_by_original_tests": "În test_portofoliu_403 tokenul manager al altui cabinet cere firma A: 403/EVA-FORBIDDEN_FIRM, zero apeluri context/verdict, registru absent. Fără token: 401. Tokenul cabinetului propriu: 200 și registru exact {RO11111118:[2026-09]}. Cazul fără token cu perioadă invalidă cere 401/EVA-AUTH_REQUIRED înaintea contextului.",
+      "actual_effect_supported_by_source_assertions_and_reported_events": "Refuzul nu creează registrul temporar; controlul pozitiv al aceluiași test creează numai închiderea firmei A în registrul sintetic.",
+      "effect_evidence_limit": "V10 supplies per-case outcome only; this audit read assertions and receipt, without rerunning product or recovering raw before/after exports. Reported event is not independent acceptance.",
+      "limits": [
+        "Membrii portofoliului provin din samanta_l6j în SQLite; tokenurile sunt generate în test.",
+        "operare._ctx_client și tenant_context sunt simulate; nu se probează autorizarea nativă ERP, org ori rol real.",
+        "Firma B are registru inițial absent, nu o stare persistentă preexistentă urmărită înainte/după; componenta container R-B5 rămâne neacoperită."
+      ],
+      "criterion_completion_assigned": false,
+      "task_completion_assigned": false,
+      "score_assigned": false,
+      "a11_acceptance_claimed": false
+    },
+    {
+      "criterion_id_original": "T58-R2-077",
+      "plan_label_original": "C-67",
+      "task_original": "T58",
+      "canonical_original": null,
+      "relation": "CANDIDATE_PARTIAL_SEMANTIC_LINK",
+      "criterion_source": {
+        "source": "criteria",
+        "pointer": "/operative_criteria_and_audit_criteria/76"
+      },
+      "matrix_source": {
+        "source": "matrix_val02",
+        "pointer": "/criterion_rows/1081"
+      },
+      "normative_content_exact": "C-67 — A-1 | (B-6) pytest cu clientul iDempiere simulat + testele existente | `cd backend && python3 -m pytest -q tests/test_t58_close_month.py tests/test_t32_l6j_rute.py tests/test_t32_l6h_citiri.py tests/test_error_catalog.py` | 0 failed (refuz, succes, indisponibil, portofoliu, idempotență, AuditEvent) | export",
+      "oracle_original_exact": "(B-6) pytest cu clientul iDempiere simulat + testele existente | 0 failed (refuz, succes, indisponibil, portofoliu, idempotență, AuditEvent)",
+      "actor_original_exact": "operator de probă cu dreptul documentat (istoric nedeterminat dacă sursa nu îl numește); responsabil de verificare A03",
+      "subcondition_mapped": "B-6: componenta explicită test_t58_close_month.py din comanda cu patru suite.",
+      "probe_actor": {
+        "identity": "tester@t58.invalid",
+        "tenant_company": "RO11111118",
+        "other_company": "RO22222226",
+        "period": "2026-09",
+        "authority": "Synthetic t58 fixture; ClientSimulat and operare._ctx_client replacement",
+        "fixture_source_lines": [
+          22,
+          71
+        ]
+      },
+      "positive_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/2",
+          "original_test_id": "tests/test_t58_close_month.py::test_succes_inchide_luna_si_audit",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_succes_inchide_luna_si_audit",
+          "source_test_lines": {
+            "line_start": 118,
+            "line_end": 126,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/3",
+          "original_test_id": "tests/test_t58_close_month.py::test_audit_campurile_firma_si_luna",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_audit_campurile_firma_si_luna",
+          "source_test_lines": {
+            "line_start": 130,
+            "line_end": 139,
+            "assertion_count_static": 4
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/12",
+          "original_test_id": "tests/test_t58_close_month.py::test_idempotenta_aceeasi_cheie",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_idempotenta_aceeasi_cheie",
+          "source_test_lines": {
+            "line_start": 176,
+            "line_end": 184,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/4",
+          "original_test_id": "tests/test_t58_close_month.py::test_ctx_client_cerut_cu_scriere",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_ctx_client_cerut_cu_scriere",
+          "source_test_lines": {
+            "line_start": 143,
+            "line_end": 145,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/33",
+          "original_test_id": "tests/test_t58_close_month.py::test_succes_numara_doar_declaratiile_firmei_si_lunii",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_succes_numara_doar_declaratiile_firmei_si_lunii",
+          "source_test_lines": {
+            "line_start": 448,
+            "line_end": 459,
+            "assertion_count_static": 2
+          }
+        }
+      ],
+      "negative_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/0",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuz_pas_nefacut_registrul_neatins",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuz_pas_nefacut_registrul_neatins",
+          "source_test_lines": {
+            "line_start": 96,
+            "line_end": 107,
+            "assertion_count_static": 7
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/6",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[None-exceptie0]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/7",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[None-exceptie1]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/8",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns2-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/9",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns3-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/10",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns4-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/11",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns5-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/23",
+          "original_test_id": "tests/test_t58_close_month.py::test_portofoliu_403",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portofoliu_403",
+          "source_test_lines": {
+            "line_start": 265,
+            "line_end": 278,
+            "assertion_count_static": 7
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/5",
+          "original_test_id": "tests/test_t58_close_month.py::test_rol_fara_scriere_403_registrul_neatins",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_rol_fara_scriere_403_registrul_neatins",
+          "source_test_lines": {
+            "line_start": 148,
+            "line_end": 153,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/14",
+          "original_test_id": "tests/test_t58_close_month.py::test_fara_cheie_idempotenta_400",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_fara_cheie_idempotenta_400",
+          "source_test_lines": {
+            "line_start": 196,
+            "line_end": 199,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/15",
+          "original_test_id": "tests/test_t58_close_month.py::test_intrare_invalida_422_neschimbat",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_intrare_invalida_422_neschimbat",
+          "source_test_lines": {
+            "line_start": 202,
+            "line_end": 205,
+            "assertion_count_static": 2
+          }
+        }
+      ],
+      "oracle_asserted_by_original_tests": "Recepția V10 declară 36 evenimente în faza call pentru suita T58, exit 0. Subcazurile verifică refuz, succes, indisponibil, portofoliu, idempotență și AuditEvent. AuditEvent este citit într-o SessionLocal nouă și compară PERIOD/2026-09/RO11111118, actor tester@t58.invalid și status INCHISA. Alte probe cer write=True și refuzul rolului viewer simulat.",
+      "actual_effect_supported_by_source_assertions_and_reported_events": "Doar efectele asertate în registrul temporar și SQLite, plus comportamentul fragmentului JS în Node. Numărul declarațiilor este un count=2 în răspuns; nu dovedește că două declarații au devenit ne-editabile.",
+      "effect_evidence_limit": "V10 supplies per-case outcome only; this audit read assertions and receipt, without rerunning product or recovering raw before/after exports. Reported event is not independent acceptance.",
+      "limits": [
+        "Criteriul cere și test_t32_l6j_rute.py, test_t32_l6h_citiri.py, test_error_catalog.py; V10 rulează numai T58.",
+        "În consolidare există l6h și error_catalog prin V7, însă l6j nu apare. Nu se atribuie oracolul comun 0 failed pentru comanda cu patru suite.",
+        "Rulări separate în fixture noi nu dovedesc execuția în comun a comenzii cerute.",
+        "36 evenimente nu înseamnă 36 criterii ori toate funcțiile/fișierele importate verificate."
+      ],
+      "criterion_completion_assigned": false,
+      "task_completion_assigned": false,
+      "score_assigned": false,
+      "a11_acceptance_claimed": false,
+      "full_t58_component_receipt_events": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/0",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuz_pas_nefacut_registrul_neatins",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuz_pas_nefacut_registrul_neatins",
+          "source_test_lines": {
+            "line_start": 96,
+            "line_end": 107,
+            "assertion_count_static": 7
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/1",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuz_nefacute_fara_jurnal_tot_refuz",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuz_nefacute_fara_jurnal_tot_refuz",
+          "source_test_lines": {
+            "line_start": 110,
+            "line_end": 114,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/2",
+          "original_test_id": "tests/test_t58_close_month.py::test_succes_inchide_luna_si_audit",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_succes_inchide_luna_si_audit",
+          "source_test_lines": {
+            "line_start": 118,
+            "line_end": 126,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/3",
+          "original_test_id": "tests/test_t58_close_month.py::test_audit_campurile_firma_si_luna",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_audit_campurile_firma_si_luna",
+          "source_test_lines": {
+            "line_start": 130,
+            "line_end": 139,
+            "assertion_count_static": 4
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/4",
+          "original_test_id": "tests/test_t58_close_month.py::test_ctx_client_cerut_cu_scriere",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_ctx_client_cerut_cu_scriere",
+          "source_test_lines": {
+            "line_start": 143,
+            "line_end": 145,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/5",
+          "original_test_id": "tests/test_t58_close_month.py::test_rol_fara_scriere_403_registrul_neatins",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_rol_fara_scriere_403_registrul_neatins",
+          "source_test_lines": {
+            "line_start": 148,
+            "line_end": 153,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/6",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[None-exceptie0]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/7",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[None-exceptie1]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/8",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns2-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/9",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns3-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/10",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns4-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/11",
+          "original_test_id": "tests/test_t58_close_month.py::test_indisponibil_refuz_503[raspuns5-None]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_indisponibil_refuz_503",
+          "source_test_lines": {
+            "line_start": 165,
+            "line_end": 172,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/12",
+          "original_test_id": "tests/test_t58_close_month.py::test_idempotenta_aceeasi_cheie",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_idempotenta_aceeasi_cheie",
+          "source_test_lines": {
+            "line_start": 176,
+            "line_end": 184,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/13",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuzul_nu_se_memoreaza",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuzul_nu_se_memoreaza",
+          "source_test_lines": {
+            "line_start": 187,
+            "line_end": 193,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/14",
+          "original_test_id": "tests/test_t58_close_month.py::test_fara_cheie_idempotenta_400",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_fara_cheie_idempotenta_400",
+          "source_test_lines": {
+            "line_start": 196,
+            "line_end": 199,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/15",
+          "original_test_id": "tests/test_t58_close_month.py::test_intrare_invalida_422_neschimbat",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_intrare_invalida_422_neschimbat",
+          "source_test_lines": {
+            "line_start": 202,
+            "line_end": 205,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/16",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_nepotrivita_409",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_nepotrivita_409",
+          "source_test_lines": {
+            "line_start": 209,
+            "line_end": 215,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/17",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_cui_sufix_sau_prefix_comun_409[11111118-911111118]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_cui_sufix_sau_prefix_comun_409",
+          "source_test_lines": {
+            "line_start": 224,
+            "line_end": 229,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/18",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_cui_sufix_sau_prefix_comun_409[RO11111118-RO911111118]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_cui_sufix_sau_prefix_comun_409",
+          "source_test_lines": {
+            "line_start": 224,
+            "line_end": 229,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/19",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_cui_sufix_sau_prefix_comun_409[911111118-11111118]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_cui_sufix_sau_prefix_comun_409",
+          "source_test_lines": {
+            "line_start": 224,
+            "line_end": 229,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/20",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_cui_sufix_sau_prefix_comun_409[RO11111118-RO1111111]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_cui_sufix_sau_prefix_comun_409",
+          "source_test_lines": {
+            "line_start": 224,
+            "line_end": 229,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/21",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_aceeasi_fara_prefix_ro_trece",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_aceeasi_fara_prefix_ro_trece",
+          "source_test_lines": {
+            "line_start": 232,
+            "line_end": 234,
+            "assertion_count_static": 1
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/22",
+          "original_test_id": "tests/test_t58_close_month.py::test_cheia_nu_trece_la_alta_firma",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_cheia_nu_trece_la_alta_firma",
+          "source_test_lines": {
+            "line_start": 237,
+            "line_end": 244,
+            "assertion_count_static": 4
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/23",
+          "original_test_id": "tests/test_t58_close_month.py::test_portofoliu_403",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portofoliu_403",
+          "source_test_lines": {
+            "line_start": 265,
+            "line_end": 278,
+            "assertion_count_static": 7
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/24",
+          "original_test_id": "tests/test_t58_close_month.py::test_fara_token_401_inaintea_intrarii",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_fara_token_401_inaintea_intrarii",
+          "source_test_lines": {
+            "line_start": 281,
+            "line_end": 290,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/25",
+          "original_test_id": "tests/test_t58_close_month.py::test_ruta_are_dependinta_cere_token",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_ruta_are_dependinta_cere_token",
+          "source_test_lines": {
+            "line_start": 293,
+            "line_end": 302,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/26",
+          "original_test_id": "tests/test_t58_close_month.py::test_portofoliu_cu_ambele_firme_dar_context_altul_409",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portofoliu_cu_ambele_firme_dar_context_altul_409",
+          "source_test_lines": {
+            "line_start": 305,
+            "line_end": 312,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/27",
+          "original_test_id": "tests/test_t58_close_month.py::test_regula_pasilor_doar_in_idempiere",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_regula_pasilor_doar_in_idempiere",
+          "source_test_lines": {
+            "line_start": 316,
+            "line_end": 325,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/28",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_chei_in_toate_limbile_si_fara_json_brut",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_chei_in_toate_limbile_si_fara_json_brut",
+          "source_test_lines": {
+            "line_start": 337,
+            "line_end": 346,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/29",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_maparea_codului_pe_cheie_randata",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_maparea_codului_pe_cheie_randata",
+          "source_test_lines": {
+            "line_start": 364,
+            "line_end": 380,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/30",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_close_month_comportament_409_503_200[ro]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_close_month_comportament_409_503_200",
+          "source_test_lines": {
+            "line_start": 418,
+            "line_end": 433,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/31",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_close_month_comportament_409_503_200[en]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_close_month_comportament_409_503_200",
+          "source_test_lines": {
+            "line_start": 418,
+            "line_end": 433,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/32",
+          "original_test_id": "tests/test_t58_close_month.py::test_refuz_pasii_doar_din_mesajele_jurnalului",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_refuz_pasii_doar_din_mesajele_jurnalului",
+          "source_test_lines": {
+            "line_start": 437,
+            "line_end": 445,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/33",
+          "original_test_id": "tests/test_t58_close_month.py::test_succes_numara_doar_declaratiile_firmei_si_lunii",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_succes_numara_doar_declaratiile_firmei_si_lunii",
+          "source_test_lines": {
+            "line_start": 448,
+            "line_end": 459,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/34",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_refuz_arata_mesajul_si_codul_de_rezerva[ro]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_refuz_arata_mesajul_si_codul_de_rezerva",
+          "source_test_lines": {
+            "line_start": 463,
+            "line_end": 471,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/35",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_refuz_arata_mesajul_si_codul_de_rezerva[en]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_refuz_arata_mesajul_si_codul_de_rezerva",
+          "source_test_lines": {
+            "line_start": 463,
+            "line_end": 471,
+            "assertion_count_static": 2
+          }
+        }
+      ]
+    },
+    {
+      "criterion_id_original": "T58-R2-078",
+      "plan_label_original": "C-68",
+      "task_original": "T58",
+      "canonical_original": null,
+      "relation": "CANDIDATE_PARTIAL_SEMANTIC_LINK",
+      "criterion_source": {
+        "source": "criteria",
+        "pointer": "/operative_criteria_and_audit_criteria/77"
+      },
+      "matrix_source": {
+        "source": "matrix_val02",
+        "pointer": "/criterion_rows/1082"
+      },
+      "normative_content_exact": "C-68 — A-1 | (B-7) portalul arată refuzul | 12a §A5 U-29 (captură RO, apoi EN) | mesajul cheii `declaratii.close.refuz` + «5. …», fără JSON brut | container (R-B0)",
+      "oracle_original_exact": "(B-7) portalul arată refuzul | mesajul cheii `declaratii.close.refuz` + «5. …», fără JSON brut",
+      "actor_original_exact": "operator de probă cu dreptul documentat (istoric nedeterminat dacă sursa nu îl numește); responsabil de verificare A03",
+      "subcondition_mapped": "B-7: textul refuzului și reacția closeMonth în RO/EN, pe fragmentul șablonului original executat în Node.",
+      "probe_actor": {
+        "identity": "synthetic JavaScript caller closeMonth(2026-09, btn)",
+        "role": "no authenticated browser/session",
+        "languages": [
+          "ro",
+          "en"
+        ],
+        "authority": "Node globals fetch/alert/confirm/load and simple btn object supplied by original test"
+      },
+      "positive_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/30",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_close_month_comportament_409_503_200[ro]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_close_month_comportament_409_503_200",
+          "source_test_lines": {
+            "line_start": 418,
+            "line_end": 433,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/31",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_close_month_comportament_409_503_200[en]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_close_month_comportament_409_503_200",
+          "source_test_lines": {
+            "line_start": 418,
+            "line_end": 433,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/28",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_chei_in_toate_limbile_si_fara_json_brut",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_chei_in_toate_limbile_si_fara_json_brut",
+          "source_test_lines": {
+            "line_start": 337,
+            "line_end": 346,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/29",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_maparea_codului_pe_cheie_randata",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_maparea_codului_pe_cheie_randata",
+          "source_test_lines": {
+            "line_start": 364,
+            "line_end": 380,
+            "assertion_count_static": 6
+          }
+        }
+      ],
+      "negative_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/30",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_close_month_comportament_409_503_200[ro]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_close_month_comportament_409_503_200",
+          "source_test_lines": {
+            "line_start": 418,
+            "line_end": 433,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/31",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_close_month_comportament_409_503_200[en]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_close_month_comportament_409_503_200",
+          "source_test_lines": {
+            "line_start": 418,
+            "line_end": 433,
+            "assertion_count_static": 6
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/34",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_refuz_arata_mesajul_si_codul_de_rezerva[ro]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_refuz_arata_mesajul_si_codul_de_rezerva",
+          "source_test_lines": {
+            "line_start": 463,
+            "line_end": 471,
+            "assertion_count_static": 2
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/35",
+          "original_test_id": "tests/test_t58_close_month.py::test_portal_refuz_arata_mesajul_si_codul_de_rezerva[en]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portal_refuz_arata_mesajul_si_codul_de_rezerva",
+          "source_test_lines": {
+            "line_start": 463,
+            "line_end": 471,
+            "assertion_count_static": 2
+          }
+        }
+      ],
+      "oracle_asserted_by_original_tests": "În RO/EN, răspunsul 409 simulat produce un singur alert cu traducerea declaratii.close.refuz și 5. Amortizare imobilizări, fără { ori simbol de succes; butonul revine activ, load nu este chemat. 503 folosește cheia indisponibil, nu cheia refuz. Controlul 200 cere alert de succes, load=1, disabled=true. Fără mesaj se afișează codul. Testele statice verifică cele șase limbi și maparea pe chei.",
+      "actual_effect_supported_by_source_assertions_and_reported_events": "Observația este array-ul alerts, disabled, contorul loads și cereri [URL, metodă] colectate de harness-ul Node. Declarațiile rămân simulate; nu există efect DB în aceste cazuri JS.",
+      "effect_evidence_limit": "V10 supplies per-case outcome only; this audit read assertions and receipt, without rerunning product or recovering raw before/after exports. Reported event is not independent acceptance.",
+      "limits": [
+        "_randeaza substituie expresiile de traducere prin regex; nu execută randarea Flask/Jinja completă.",
+        "Nu există browser/DOM/captură U-29; btn este obiect simplu, alert/confirm/fetch/load sunt dubluri.",
+        "Confirm este mereu true; anularea, excepția de rețea și încărcarea paginii load original nu sunt probate.",
+        "Fetch înregistrează numai URL și metoda; proxy-ul frontend/app.py, corpul/antetele livrate backend-ului și autentificarea portalului nu sunt executate.",
+        "Mesajul 200 este literal românesc chiar în cazul en; testul nu certifică traducerea întregului portal."
+      ],
+      "criterion_completion_assigned": false,
+      "task_completion_assigned": false,
+      "score_assigned": false,
+      "a11_acceptance_claimed": false
+    },
+    {
+      "criterion_id_original": "T58-R2-083",
+      "plan_label_original": "C-73",
+      "task_original": "T58",
+      "canonical_original": null,
+      "relation": "CANDIDATE_PARTIAL_SEMANTIC_LINK",
+      "criterion_source": {
+        "source": "criteria",
+        "pointer": "/operative_criteria_and_audit_criteria/82"
+      },
+      "matrix_source": {
+        "source": "matrix_val02",
+        "pointer": "/criterion_rows/1087"
+      },
+      "normative_content_exact": "C-73 — A-1 | (B-8, LR-11) `company` din corp ≠ firma contextului (`X-Tenant-Cui`) ⇒ refuz înaintea verdictului și a registrului | 12a §A5 R-B7 + `test_t58_close_month.py` «firma» | 409 `EVA-FIRMA_CUI_NEPOTRIVIT`; md5 registrului egal; 0 rulări ale verdictului | container + test",
+      "oracle_original_exact": "(B-8, LR-11) `company` din corp ≠ firma contextului (`X-Tenant-Cui`) ⇒ refuz înaintea verdictului și a registrului | 409 `EVA-FIRMA_CUI_NEPOTRIVIT`; md5 registrului egal; 0 rulări ale verdictului",
+      "actor_original_exact": "operator de probă cu dreptul documentat (istoric nedeterminat dacă sursa nu îl numește); responsabil de verificare A03",
+      "subcondition_mapped": "B-8: comparația CUI a firmei din corp cu contextul înaintea verdictului.",
+      "probe_actor": {
+        "identity": "tester@t58.invalid",
+        "tenant_company": "RO11111118",
+        "other_company": "RO22222226",
+        "period": "2026-09",
+        "authority": "Synthetic t58 fixture; ClientSimulat and operare._ctx_client replacement",
+        "fixture_source_lines": [
+          22,
+          71
+        ],
+        "auth_cases": "prod fixture sets EVA_ENV=production; generated manager tokens for own/other synthetic cabinet, super token in C73; no real credentials"
+      },
+      "positive_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/21",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_aceeasi_fara_prefix_ro_trece",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_aceeasi_fara_prefix_ro_trece",
+          "source_test_lines": {
+            "line_start": 232,
+            "line_end": 234,
+            "assertion_count_static": 1
+          }
+        }
+      ],
+      "negative_control": [
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/16",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_nepotrivita_409",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_nepotrivita_409",
+          "source_test_lines": {
+            "line_start": 209,
+            "line_end": 215,
+            "assertion_count_static": 5
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/17",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_cui_sufix_sau_prefix_comun_409[11111118-911111118]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_cui_sufix_sau_prefix_comun_409",
+          "source_test_lines": {
+            "line_start": 224,
+            "line_end": 229,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/18",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_cui_sufix_sau_prefix_comun_409[RO11111118-RO911111118]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_cui_sufix_sau_prefix_comun_409",
+          "source_test_lines": {
+            "line_start": 224,
+            "line_end": 229,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/19",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_cui_sufix_sau_prefix_comun_409[911111118-11111118]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_cui_sufix_sau_prefix_comun_409",
+          "source_test_lines": {
+            "line_start": 224,
+            "line_end": 229,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/20",
+          "original_test_id": "tests/test_t58_close_month.py::test_firma_cui_sufix_sau_prefix_comun_409[RO11111118-RO1111111]",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_firma_cui_sufix_sau_prefix_comun_409",
+          "source_test_lines": {
+            "line_start": 224,
+            "line_end": 229,
+            "assertion_count_static": 3
+          }
+        },
+        {
+          "source": "receipt_v10",
+          "pointer": "/rows/0/cases/26",
+          "original_test_id": "tests/test_t58_close_month.py::test_portofoliu_cu_ambele_firme_dar_context_altul_409",
+          "reported_stage": "call",
+          "reported_outcome": "passed",
+          "source_test_function": "test_portofoliu_cu_ambele_firme_dar_context_altul_409",
+          "source_test_lines": {
+            "line_start": 305,
+            "line_end": 312,
+            "assertion_count_static": 2
+          }
+        }
+      ],
+      "oracle_asserted_by_original_tests": "Firma diferită și cele patru combinații cu prefix/sufix comun cer 409/EVA-FIRMA_CUI_NEPOTRIVIT, zero apeluri verdict, registru absent. Cazul de bază citește closed pentru firma B ca listă goală. Tokenul super care vede ambele firme este tot refuzat când corpul B diferă de context A. Controlul pozitiv RO11111118 față de 11111118 cere 200.",
+      "actual_effect_supported_by_source_assertions_and_reported_events": "Handler-ul API refuză înainte de client.run_process simulat și înainte de crearea registrului temporar; controlul pozitiv dovedește doar status 200 pentru CUI normalizat.",
+      "effect_evidence_limit": "V10 supplies per-case outcome only; this audit read assertions and receipt, without rerunning product or recovering raw before/after exports. Reported event is not independent acceptance.",
+      "limits": [
+        "Contextul X-Tenant-Cui este returnat de dubla _ctx_client, iar tenant_context global este stub; nu există JWT/tenant ERP nativ.",
+        "Registrul pornește absent; păstrarea unui registru preexistent nu este demonstrată.",
+        "Controlul RO normalizează doar exemplul dat; nu este validarea exhaustivă a identificatorilor fiscali.",
+        "Nu există containerul R-B7."
+      ],
+      "criterion_completion_assigned": false,
+      "task_completion_assigned": false,
+      "score_assigned": false,
+      "a11_acceptance_claimed": false
+    }
+  ],
+  "explicit_rejections": [
+    {
+      "criteria": [
+        "T58-R2-005",
+        "T58-R2-006",
+        "T58-R2-007",
+        "T58-R2-008",
+        "T58-R2-009"
+      ],
+      "reason": "C-04/C-05/C-06/C-06b/C-07 require native eva_inchiderevenituri VC/AMORT, operare proxy or native GL_Journal effect. V10 calls declaratii-calendar close-month and substitutes ERP verdict; same task number or word refuz does not bridge these routes."
+    },
+    {
+      "criteria": [
+        "T58-R2-019",
+        "T58-R2-022",
+        "T58-R2-037",
+        "T58-R2-039",
+        "T58-R2-040"
+      ],
+      "reason": "Native Validez buttons, parameter tab, 12-step guide and its progression/headers are distinct from the declaration calendar JS. Simple btn.disabled and RO/EN refusal strings do not cover those surfaces."
+    },
+    {
+      "criteria": [
+        "T58-R2-065"
+      ],
+      "reason": "C-55 asks the Java test harness baza_teste.sh and every class, not the Python suite named T58."
+    },
+    {
+      "criteria": [
+        "T58-R2-017"
+      ],
+      "reason": "client <= 0 and zero SQL in TestT58Inchidere is not the string CUI mismatch or portfolio fixture."
+    },
+    {
+      "criteria": [
+        "T58-R2-001",
+        "T58-R2-084",
+        "T58-R2-085",
+        "T58-R2-086"
+      ],
+      "reason": "Broad guided workflow, task transfer approval and destination trace obligations are not proven by one component suite. T158 alias is a registry relation only; no canonical ID, result or closure inherited."
+    },
+    {
+      "criteria": [
+        "T58-R2-077"
+      ],
+      "rejected_extent": "complete four-suite command",
+      "reason": "test_t32_l6j_rute.py absent from consolidation; V10 one suite; l6h and error_catalog are separate V7 runs. Component association retained without whole-oracle closure."
+    },
+    {
+      "contract": "D16",
+      "source": "checklist_a11",
+      "pointer": "/remaining_contracts/15",
+      "reason": "GL_Journal/Line, Fact_Acct by schema/currency, C_PeriodControl, reversal, native roles and two-scheme balances are not exercised. Local JSON registry is explicitly separate from C_PeriodControl."
+    }
+  ],
+  "unmapped_original_criteria": {
+    "criterion_ids": [
+      "T58-R2-001",
+      "T58-R2-002",
+      "T58-R2-003",
+      "T58-R2-004",
+      "T58-R2-005",
+      "T58-R2-006",
+      "T58-R2-007",
+      "T58-R2-008",
+      "T58-R2-009",
+      "T58-R2-010",
+      "T58-R2-011",
+      "T58-R2-012",
+      "T58-R2-013",
+      "T58-R2-014",
+      "T58-R2-015",
+      "T58-R2-016",
+      "T58-R2-017",
+      "T58-R2-018",
+      "T58-R2-019",
+      "T58-R2-020",
+      "T58-R2-021",
+      "T58-R2-022",
+      "T58-R2-023",
+      "T58-R2-024",
+      "T58-R2-025",
+      "T58-R2-026",
+      "T58-R2-027",
+      "T58-R2-028",
+      "T58-R2-029",
+      "T58-R2-030",
+      "T58-R2-031",
+      "T58-R2-032",
+      "T58-R2-033",
+      "T58-R2-034",
+      "T58-R2-035",
+      "T58-R2-036",
+      "T58-R2-037",
+      "T58-R2-038",
+      "T58-R2-039",
+      "T58-R2-040",
+      "T58-R2-041",
+      "T58-R2-042",
+      "T58-R2-043",
+      "T58-R2-044",
+      "T58-R2-045",
+      "T58-R2-046",
+      "T58-R2-047",
+      "T58-R2-048",
+      "T58-R2-049",
+      "T58-R2-050",
+      "T58-R2-051",
+      "T58-R2-052",
+      "T58-R2-053",
+      "T58-R2-054",
+      "T58-R2-055",
+      "T58-R2-056",
+      "T58-R2-057",
+      "T58-R2-058",
+      "T58-R2-059",
+      "T58-R2-060",
+      "T58-R2-061",
+      "T58-R2-062",
+      "T58-R2-063",
+      "T58-R2-064",
+      "T58-R2-065",
+      "T58-R2-066",
+      "T58-R2-067",
+      "T58-R2-068",
+      "T58-R2-069",
+      "T58-R2-070",
+      "T58-R2-071",
+      "T58-R2-079",
+      "T58-R2-080",
+      "T58-R2-081",
+      "T58-R2-082",
+      "T58-R2-084",
+      "T58-R2-085",
+      "T58-R2-086"
+    ],
+    "count": 78,
+    "reason": "No exact V10 test-to-oracle association established at the required native/UI/historical/administrative surface; none are silently accepted."
+  },
+  "other_c67_suites_as_context_only": [
+    {
+      "source": "consolidation",
+      "pointer": "/rows/26",
+      "file": "backend/tests/test_t32_l6h_citiri.py",
+      "receipt": "executie/R11_fisiere/Suite_originale_API_portal_v7/Rezultate_suite_originale.json",
+      "counts_as_declared": {
+        "passed": 234
+      }
+    },
+    {
+      "source": "consolidation",
+      "pointer": "/rows/38",
+      "file": "backend/tests/test_error_catalog.py",
+      "receipt": "executie/R11_fisiere/Suite_originale_API_portal_v7/Rezultate_suite_originale.json",
+      "counts_as_declared": {
+        "passed": 11
+      }
+    }
+  ],
+  "required_c67_suite_absent_from_consolidation": "backend/tests/test_t32_l6j_rute.py",
+  "review_requirements": [
+    {
+      "source": "checklist_a11",
+      "pointer": "/priority/1",
+      "application": "Original55 + T58 V10 requires separate source/runner/hash and Node control reception."
+    },
+    {
+      "source": "checklist_a11",
+      "pointer": "/priority/11",
+      "application": "Exact requirement -> actor -> method -> negative -> effect, without invented canonical ID."
+    },
+    {
+      "source": "checklist_a11",
+      "pointer": "/mandatory_gates/9",
+      "application": "Semantic mapping by A12, domain peer and independent A11 reception are separate."
+    }
+  ]
+}

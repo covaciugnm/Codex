@@ -2,7 +2,7 @@
 
 ID: `01a19821-c6e9-7bb3-8ea7-b40470eb25b2`  
 Proiect: iDempiere  
-Export UTC: 2026-11-02T21:26:40.664214+00:00
+Export UTC: 2026-11-03T03:30:08.376808+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -99,3 +99,83 @@ Execuția pe noul SHA rămâne condiționată de aprobarea A11 a planului revizu
 ## Asistent
 
 Noul validator oprește traversarea pe care versiunea veche o transmitea către upstream. Am confirmat și o limită comună ambelor versiuni: după acceptarea căii inițiale, clientul HTTP urmează redirecturi fără să verifice din nou destinația. Proba este din laborator și depinde de existența unui redirect la upstream. Verific acum separat ce regulă este prezentă în configurația montată.
+
+## Asistent
+
+Am predat coordonatorului și A12 [raportul A01 R11 cu cele cinci fișe](<//192.168.100.169/Comun/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A01/A01_raport_R11.json>).
+
+Pe noul SHA, traversarea care ajungea la upstream în versiunea veche este refuzată cu **403 și zero apeluri către ERP**. Ruta ZK legitimă continuă să funcționeze. Au trecut toate cele 13 teste originale, iar suita a detectat patru mutații introduse exclusiv în laborator.
+
+Rămân două limite demonstrate. Clientul HTTP urmează un redirect în afara `/webui` fără să reverifice destinația, comportament prezent pe ambele versiuni. În noua versiune, frameworkul poate înlocui octeții UTF-8 invalizi înainte ca validatorul să-i vadă. Acest caz a fost transmis upstream, fără să demonstreze traversarea către consola administrativă.
+
+Fișierul `frontend/app.py` din container corespunde noului Git. Regula Traefik propusă a funcționat în laborator, dar nu a fost găsită în directorul de configurație montat. Recepția independentă A11 rămâne deschisă.
+
+## Asistent
+
+Verific separat adaptorul de izolare și martorii lui pozitivi și negativi. Voi păstra raportul A01 sigilat și voi livra o opinie independentă, cu limitele explicite ale suitelor care folosesc simulări.
+
+
+## Asistent
+
+Adaptorul păstrează interdicția conexiunilor obișnuite, iar testele originale verifică în principal comportamentul în condiții simulate. Am identificat și o limită importantă pentru interpretare: unele teste de citire acceptă răspunsuri 500 după trecerea verificării de acces; acestea nu demonstrează funcționarea completă a fluxului.
+
+
+## Asistent
+
+Controlul independent este finalizat: **20/20 verificări ale adaptorului și izolării au trecut**.
+
+[Opinia A01](<\\192.168.100.169\Comun\00.Roboti\EVA.Pro\Eva-contab\Audit_P01_2026-11-01\executie\R11_fisiere\Control_harness_root\Peer_A01_harness_v7.json>) — SHA256 `aaa8d9c9ee6a2318862ce909f88b043a685432fb5b98e0615b2f66f705675b69`.
+
+Recepția V7 este acceptată cu limite: **42 din 55 surse au exit 0**; simulările nu demonstrează autorizarea reală, funcționarea integrală în ERP sau durabilitatea PostgreSQL.
+
+Predat către coordonator, A11 și A12. Sigiliile existente au rămas nemodificate.
+
+## Asistent
+
+Verific cele trei semnale HR pe sursele Git aprobate și pregătesc o bază PostgreSQL exclusiv sintetică. Voi separa erorile fixturei de eventualele probleme de autorizare și voi verifica efectele prin conexiuni independente.
+
+
+## Asistent
+
+Cele trei teste ating o citire SQL reală pentru angajații importați, deși restul fixturei folosește simulări. Am pregătit date de control pentru două firme, organizația zero, alt client și angajați inactivi; verificarea suplimentară va păstra autentificarea și rezolvarea firmei din codul original.
+
+
+## Asistent
+
+Cele trei teste HR originale trec acum, nemodificate, cu PostgreSQL sintetic pentru citirea angajaților importați. Verificarea separată confirmă izolarea între cele două firme. A rămas o diferență de politică de acces: rolul `member` poate crea angajați prin HR v1 în configurația implicită, dar este refuzat de HR v2; o documentez separat, fără a o confunda cu o scurgere între firme.
+
+
+## Asistent
+
+Suplimentul HR este finalizat și predat coordonatorului, A11 și A12.
+
+- **3/3 teste originale trec**, fără modificarea surselor.
+- **27 cereri independente** confirmă izolarea între firme, refuzurile de acces și rollback-ul.
+- Diferența de permisiuni HR v1/v2 este documentată separat.
+- PostgreSQL a folosit exclusiv date sintetice; resursele temporare au fost eliminate.
+
+Raport: `R11_fisiere/HR_izolare_Val03/Raport_A01_HR_Val03.json`  
+SHA256: `74c131c5dc149f380910759655afd16299018c8e40b175eb56011afe67e0a629`
+
+Verdictul independent și recepția taskurilor rămân la A11/A12.
+
+## Asistent
+
+Verific semantic constatarea despre datele din Mașini: parserul, cele două căi normale de apel și limitele dovezii privind salvarea. Voi livra un peer separat, fără rerulări sau modificarea lotului sigilat.
+
+
+## Asistent
+
+Constatarea este susținută: cele două execuții consemnate resping aceleași cinci date valide, iar ambele căi de salvare apelează validarea înainte de `PO.saveEx`. Prioritatea P1 poate rămâne propusă, cu distincția explicită între defectul parserului demonstrat și efectele UI/persistență deduse din cod.
+
+
+## Asistent
+
+Peer-ul Mașini este predat coordonatorului și A11.
+
+Constatarea este susținută semantic; **P1 rămâne propus și calificat**. Defectul parserului este demonstrat în probe, iar efectele asupra salvării și colorării sunt deduse din cod.
+
+Raport: `R12_fisiere/A01_Peer_Masini_lot02/Peer_A01_Masini_lot02.json`  
+SHA256: `d5f7084b086b050e1c8fff6b9f5b7066f8662f21d50accfd5b5f616c557a0ff4`
+
+Fără rerulări, modificări ale lotului sau intervenții asupra scratch-ului.

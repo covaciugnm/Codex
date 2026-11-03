@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-03T02:04:23.287384+00:00",
+  "head": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "status": "PREDAT_A11_PENTRU_RECEPTIE",
+  "authoritative_report": "Raport_A08_catalog_lot04_v2.json",
+  "authoritative_sheets": "Fise_7_cai_A08_v2.json",
+  "human_reading": "Raport_A08_catalog_lot04_v3.html",
+  "counts": {
+    "original_blobs": 1,
+    "path_identities": 2,
+    "cases": 10,
+    "conform_limited": 5,
+    "counterexample_cases": 5,
+    "candidate_finding_groups": 3,
+    "static_only_path_identities": 5,
+    "whole_file_or_task_acceptances": 0
+  },
+  "limits": [
+    "DOM sintetic, script original integral și nemodificat, răspunsuri HTTP locale",
+    "Fără API/ERP/DB real sau persistență de produs",
+    "A08-P02/C19/D10 subcontrol; C27 proveniență, P07 neexecutat",
+    "Peer planificat A06 nu este credit de verificare A06 efectuată",
+    "Recepția A11 este distinctă; acest handoff nu îi atribuie rezultat",
+    "Sursa v1 rămâne sigilată; v2 corectează numai metadate și adaugă ancore hash",
+    "HTMLv1 QA mobil a eșuat; HTMLv3 QA1366/390 și17linkuri reușită, fără rerulare de produs"
+  ],
+  "resources": "10 contexte de produs închise și browser închis; browserele QA închise; niciun serviciu sau DB creat; șase rădăcini blocate anterior neatinse",
+  "references": [
+    {
+      "path": "MANIFEST_A08_catalog_lot04_v1.json",
+      "sha256": "d630c72829aee0c45fc8d507e8378a0509c9352735417238a02c5b852463f792"
+    },
+    {
+      "path": "MANIFEST_corectii_A08_v2.json",
+      "sha256": "fe4d054f4d2cd707768539b24a14e86c0f27a26a8ac161cc14d66063dc6d5e8b"
+    },
+    {
+      "path": "Raport_A08_catalog_lot04_v2.json",
+      "sha256": "01e12ffc81d665f6ba4432e0d8250e164fda4dc74f0e44dd669787a734ecb8db"
+    },
+    {
+      "path": "Fise_7_cai_A08_v2.json",
+      "sha256": "0e6abf8faaeeb465df562b2da5b69f94eb8ae1de4dfb75faff8e8f9019a58794"
+    },
+    {
+      "path": "Raport_A08_catalog_lot04_v3.html",
+      "sha256": "cae119263ca768148d4b7cff27f0c21daff367a59bf1f49fa6fdb1180fc20d07"
+    },
+    {
+      "path": "MANIFEST_lectura_A08_v3.json",
+      "sha256": "4744bd4ac1b42c0b31921db632607db680a7ca185a5f00b2ec5ae542a3baa0ab"
+    },
+    {
+      "path": "QA_presentation_v3/QA.json",
+      "sha256": "46026fe1b5197888c0d10d0c7eb047634eeb200bff5c27e4a9e24af3a8ac9b6b"
+    },
+    {
+      "path": "QA_presentation_v3/MANIFEST_QA.json",
+      "sha256": "452d367d3b89a1c6c79cbbb7e0e5eedda81b6e1a9bfd6fad1ac71b70a9907ee5"
+    },
+    {
+      "path": "Run_2026-11-03T02-00-34Z/Rezultate.json",
+      "sha256": "6cc7991cb043e9c2e88aff76d3e762c9abb3949e89e9b680ba38a5d5bf4d2d99"
+    },
+    {
+      "path": "Run_2026-11-03T02-00-34Z/MANIFEST_RUN.json",
+      "sha256": "7592e41f7024c65e69916fe3a5c777ab938fbbb1e91fd58d8d778baa7805194e"
+    }
+  ]
+}

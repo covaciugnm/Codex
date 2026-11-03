@@ -1,0 +1,16 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A05/Manifest_A05_R11_WMS.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Manifest_A05_R11_WMS--ba4dcf96.json",
+    "bytes": 1400,
+    "sha256": "9d9cfc69d67862742a5422fc4e91860784705ecbecf7e5890a55408c096cbbef"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A05/Raport_A05_R11_WMS.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A05_R11_WMS--6254de1a.json",
+    "bytes": 4015,
+    "sha256": "4031992488713f476d619e18b905b49c377001442cf58f31a90856e43420dda2"
+  }
+]

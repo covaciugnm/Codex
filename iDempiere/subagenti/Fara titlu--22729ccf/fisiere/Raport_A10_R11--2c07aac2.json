@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-02T21:56:10.173878+00:00",
+  "executor": "A10",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "plan_gate_sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+  "finding": {
+    "path": "executie/R11_fisiere/A10/A10.R11.F01.json",
+    "sha256": "c38497e52eedbbb9a2785b34de1506dcb2a6932025de480e9e0d778d3f743b57",
+    "bytes": 4618
+  },
+  "summary": "Două scripturi de montare pot întoarce exit 0 după 60 de verificări de pornire eșuate. În controlul original de cabinet existent, aceeași familie de situații este refuzată cu exit 2.",
+  "counts": {
+    "runner_cases": 14,
+    "original_guard_suite": 19,
+    "existing_readiness_cases": 5,
+    "physical_file_records": 5,
+    "operational_calls": 0,
+    "native_erp_documents": 0
+  },
+  "records": [
+    "Fisa_runner_native.json",
+    "Fisa_runner_theme.json",
+    "Fisa_garda_container.json",
+    "Fisa_suita_garda.json",
+    "Fisa_readiness_existenta.json"
+  ],
+  "proofs": [
+    {
+      "path": "executie/R11_fisiere/A10/Proba_runner_montare.json",
+      "sha256": "2cae9af0547358c3615ebbf174680fec3087f09e36abca6bae40c83190595c87",
+      "bytes": 14215
+    },
+    {
+      "path": "executie/R11_fisiere/A10/Comparator_garda_existenta.json",
+      "sha256": "1ba6b9f471ce8741c912fd32c3eff4e06f34d55b920fe6ed41a07f9c82977894",
+      "bytes": 1163
+    }
+  ],
+  "scores": {
+    "whole_execution": null,
+    "product": null
+  },
+  "cleanup": "Copii temporare eliminate, niciun Docker real apelat",
+  "scope": "Fișier cu fișier la nivel CLI, probe pozitive și refuz, starea persistentă a fișierelor și limitele native; nu se certifică o montare reală"
+}

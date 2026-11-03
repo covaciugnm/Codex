@@ -1,0 +1,292 @@
+{
+  "schema": "A11.R12.Val04.registry.receipt.v1",
+  "utc": "2026-11-03T02:35:48.275515+00:00",
+  "reviewer": "A11 independent",
+  "head": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "operational_server_HEAD_excluded": "8c0695de36b50ede569c6d318715db0af11fcbff",
+  "decision": "RECEPȚIE LIMITATĂ ACCEPTATĂ pentru registrul Val04 și referințele sigilate. Nicio închidere de fișier, task, criteriu sau contract și nicio notă globală.",
+  "manifest": {
+    "path": "executie/R12_fisiere/A12/Val_04/MANIFEST_R12_Val04.json",
+    "sha256": "0c6ca1b0fda74735ff4b40ae7f8ef4a0f2615f66c55b0d012654e1213bbfef46"
+  },
+  "handoff": {
+    "path": "executie/R12_fisiere/A12/Val_04/Handoff_R12_Val04_v1.json",
+    "sha256": "04b060555be96ba4c0785c4d429b76bd995611f47a43790480f840c92ff34866"
+  },
+  "base_QA": {
+    "path": "executie/R12_fisiere/A11/Val04_registru/QA_A11_R12_Val04_registru_v1.json",
+    "sha256": "d65fc90afb7d471e72ebdd3b629d4a6df81145f2628e7585d51fb9f028b9c6e1"
+  },
+  "semantic_checks": [
+    {
+      "check": "fixed independent QA",
+      "ok": true
+    },
+    {
+      "check": "10 frontend cases one execution",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection S01",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection S02",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection S03",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection S04",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection N01",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection N02",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection N03",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection N04",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection N05",
+      "ok": true
+    },
+    {
+      "check": "frontend raw projection S05",
+      "ok": true
+    },
+    {
+      "check": "10 native scenarios correct units",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-S01",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-C01",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-C02",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-C03",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-F01",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-F02",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-F03",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-F04",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-R01",
+      "ok": true
+    },
+    {
+      "check": "native raw projection G3-S02",
+      "ok": true
+    },
+    {
+      "check": "13 authoritative qualifications",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RezervareStoc.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalProces.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalCalcul.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RegulaStocCanal.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/TabelaFisaCanal.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/DomeniiT22.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FluxTabele.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/fiscal/TipGestiune.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/component/EvaWmsGardaEvents.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/component/EvaStocEvents.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/component/EvaAuditPostareEvents.java",
+      "ok": true
+    },
+    {
+      "check": "qualification idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/EvaActivator.java",
+      "ok": true
+    },
+    {
+      "check": "latest A11 checklist linked",
+      "ok": true
+    },
+    {
+      "check": "canonical task names",
+      "ok": true
+    },
+    {
+      "check": "SetLista already method-scoped not counted new",
+      "ok": true
+    },
+    {
+      "check": "SQL history kept RezervareStoc",
+      "ok": true
+    },
+    {
+      "check": "SQL history kept FisaCanalProces",
+      "ok": true
+    }
+  ],
+  "verification": {
+    "technical_identities": 6728,
+    "identity_and_routing_dimensions": 8,
+    "previous_evidence_preserved": true,
+    "current_P01_population": 694,
+    "historical_dossiers_rehashed": 652,
+    "historical_criteria_preserved": 2619,
+    "R11_sources_reference_only": 116,
+    "R11_credit_transferred": 0,
+    "changed_evidence_rows": 23,
+    "reference_instances_checked": 9240,
+    "distinct_reference_paths": 805,
+    "base_predicates": 9289,
+    "semantic_predicates": 42,
+    "manifest_outputs": 18,
+    "manifest_inputs": 12
+  },
+  "metrics": {
+    "previous_partial_source_identities": 39,
+    "current_partial_source_identities": 44,
+    "new_partial_source_identities": 5,
+    "new_paths": [
+      "frontend/storefront/static/themes/storefront.js",
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalCalcul.java",
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RegulaStocCanal.java",
+      "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/TabelaFisaCanal.java",
+      "idempiere/plugins/com.eva.ro.webshop/resources/static/themes/storefront.js"
+    ],
+    "new_event_associations": 11,
+    "cumulative_path_event_pairs": 50,
+    "source_levels": {
+      "original_component_or_method_paths": 33,
+      "shell_comparators": 5,
+      "transitive_type_uses": 2,
+      "fixture_binding_metadata": 4
+    },
+    "explanation": "SetLista avea deja dovadă parțială de metodă și nu este fișier nou. Cele două surse SQL sunt promovate la cititori nativi, cu comparatorii vechi păstrați în istoric. 44 = 33 + 5 + 2 + 4 reprezintă niveluri diferite de probă, nu 44 fișiere business recepționate.",
+    "static_observation_paths": 42,
+    "static_paths_without_component_evidence": 40
+  },
+  "cases": {
+    "frontend": {
+      "unique_executor_cases": 10,
+      "original_JS_blobs": 1,
+      "equal_path_identities": 2,
+      "positive_controls": 5,
+      "counterexamples": 5,
+      "A11_component_witnesses_separate": 5
+    },
+    "G3": {
+      "protocol_scenarios": 10,
+      "CASE_G3_observations": 16,
+      "valid_readbacks_v2_v3": 41,
+      "initial_setup_readback": 1,
+      "A11_numeric_comparisons_separate": 13
+    },
+    "do_not_sum_as_tests_criteria_or_passes": true
+  },
+  "routing_clarification": "Owner și planned_peer din dispatch rămân autoritative pentru fiecare fișier. A05 și A06 din câmpurile lotului G3 descriu executorul și peer-ul planificat al lotului; nu schimbă rutarea per fișier. Recenzia efectivă a acestui lot este A11, fără recenzie A06 inventată.",
+  "native_metadata_clarifications": "A12 păstrează fișele brute cu state de plan și native_method generic, dar aplică explicit cele 13 dispoziții A11. Calculele pure nu primesc query direct; TabelaFisaCanal pe canal null nu primește citirea regulilor; handler-ele rămân fixture/binding.",
+  "finding_policy": {
+    "SO_PO": "R12-STOC-SO-PO-01 întărit nativ; același defect, P2 propus păstrat. Fără defect duplicat ori escaladare automată.",
+    "frontend": "Trei mecanisme confirmate în componenta și fixturele declarate, fără cauzalitate inventată cu backendul.",
+    "static_pagination": "Ipoteză neexecutată, fără confirmare sau prioritate nouă.",
+    "N05": "Constatarea anterioară A05.R11.G2.BOM.1 rămâne deschisă și separată de G3."
+  },
+  "states": {
+    "T232": "implementare",
+    "T240": "implementare",
+    "T343": "audit",
+    "T355": "închis",
+    "T386": "plan"
+  },
+  "states_meaning": "Sunt declarațiile capturii înghețate din registru, nu recepții de audit. T386/P01.C10.T0030 este în plan și nu mărește cohorta istorică de 652 fișe; datele exacte de închidere absente nu sunt inferate.",
+  "limits": [
+    "API/PO native și cititori originali nu înseamnă DocAction/C_Order sau flux comercial complet.",
+    "IsActive la PO nou este o fixture; F02 cu client inexistent nu este test de autentificare/RBAC.",
+    "Stocul cantitativ înregistrat și count Fact_Acct nu certifică inventarul fizic sau soldurile valorice G1.",
+    "M_StorageReservationLog nu are delta măsurată; nu se pretinde zero efect persistent în acea tabelă.",
+    "Retry după rollback nu demonstrează idempotență după commit.",
+    "DOM sintetic nu recepționează template/CSS/UI complet, roluri, debounce sau API real.",
+    "Poarta 10/10 privește planul concret, nu produsul ori întregul audit."
+  ],
+  "resources": {
+    "G3_lab_returned_and_independently_checked": true,
+    "passive_runtime_cache_and_harness_retained": true,
+    "six_previously_denied_cleanup_roots_remain": true,
+    "no_bypass_attempt": true,
+    "global_cleanup_complete": false
+  },
+  "next_checklist": {
+    "path": "executie/R12_fisiere/A11/Val04_loturi/Checklist_A11_dupa_R12_Val04_v1.json",
+    "sha256": "a5d094982e6d7fd511bef7c002dad831f56ded82cef28c2ebcde2446831b1240"
+  },
+  "open_contracts": 17,
+  "full_file_acceptances": 0,
+  "full_task_acceptances": 0,
+  "full_criterion_acceptances": 0,
+  "product_score": null,
+  "global_audit_score": null,
+  "product_executions_in_registry_review": 0,
+  "reviewer_calibration": "Verificatorul A11 a ajustat rezolvarea celor două pointere Val01: current_evidence conține și scope/independent_reception, iar dovada nominală este subobiectul path/SHA/bytes/pointer. Egalitatea exactă cu evenimentul original și păstrarea întregului record anterior au fost verificate. Prima oprire nu a scris verdict și nu a executat produs."
+}

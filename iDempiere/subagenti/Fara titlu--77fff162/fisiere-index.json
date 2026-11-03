@@ -1,0 +1,30 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\A05NativeBomBoundary.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A05NativeBomBoundary--33dc6d2e.java",
+    "bytes": 3514,
+    "sha256": "a802f4c3feb67518030c4c9274edf9c19fb024673df0312469e952cbabaa5811"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05-val04-boundary.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05-val04-boundary--435a277f.py",
+    "bytes": 8361,
+    "sha256": "08c7529d6ea8ac3ef60fc9a9ed514918ee39c386aeb07aa22c20443f48b94c9e"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05-val04-report.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05-val04-report--0ccc25d9.py",
+    "bytes": 12284,
+    "sha256": "d1f6d814c509614518fc7e11f5d7b2c00d9a3f217bd9a9cec800f7300ebdf8cd"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_fisiere/A05/Val_04/Raport_A05_native_Val04_v2.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A05_native_Val04_v2--ad1c062b.json",
+    "bytes": 39889,
+    "sha256": "59d93db99e533308dac179e60218d6add0b0c775497804edc037b305f20ea6f7"
+  }
+]

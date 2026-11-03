@@ -1,0 +1,65 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-correction-v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a08-catalog-correction-v2--c65826ae.py",
+    "bytes": 3393,
+    "sha256": "198427fcdf31ad60a3eb9b02cb5753ea85c96b095409156a9d1efc2b231a4c0d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-catalog-presentation-qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a08-catalog-presentation-qa--e3db5f0c.py",
+    "bytes": 2715,
+    "sha256": "2ffac8b0a20218596117a908992b1b82e34b81059af26cf5979cb6aeedb66fe1"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-storefront-catalog-l04.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a08-storefront-catalog-l04--7ac4c519.py",
+    "bytes": 14241,
+    "sha256": "f9957d9b4e745942cc1f5e44ac21c0f9d0367c1cd8b1419185c0c6ed4bbd7a6a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a08-storefront-catalog-package-l04.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a08-storefront-catalog-package-l04--294f2e7f.py",
+    "bytes": 12915,
+    "sha256": "9d7abb2824f0849c35c83aa14c7267f649552758374c3118bf761b4beea1f4d7"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A08_Storefront_catalog_lot04/Handoff_A08_lot04_v1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Handoff_A08_lot04_v1--ace4d4db.json",
+    "bytes": 2857,
+    "sha256": "c01caf69a1aa1c7c428a18ca38ff40e80bedef5eae3bb26d992f1947da212030"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R12_fisiere/A08_Storefront_catalog_lot04/Raport_A08_catalog_lot04_v3.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A08_catalog_lot04_v3--914eb6d2.html",
+    "bytes": 12468,
+    "sha256": "cae119263ca768148d4b7cff27f0c21daff367a59bf1f49fa6fdb1180fc20d07"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A08_Storefront_catalog_lot04\\QA_presentation_v2\\cases_1366.png",
+    "status": "copiat",
+    "saved_path": "fisiere/cases_1366--d5aaa37c.png",
+    "bytes": 93018,
+    "sha256": "bb228ffef0ee30806d3927d06ab7ca89c6006a0f436e3dd7b1ce1184023ce3fa"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A08_Storefront_catalog_lot04\\QA_presentation_v2\\top_390.png",
+    "status": "copiat",
+    "saved_path": "fisiere/top_390--bed3207a.png",
+    "bytes": 58634,
+    "sha256": "7e7fb41f58d3132d9f60baedcfef184a7c2681f7c8db5f92694f1ed3b1964432"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R12_fisiere\\A08_Storefront_catalog_lot04\\Run_2026-11-03T02-00-34Z\\N04\\A_response_under_B_title.png",
+    "status": "copiat",
+    "saved_path": "fisiere/A_response_under_B_title--8d7f1922.png",
+    "bytes": 29923,
+    "sha256": "3f85e0b043ef9322b642cfee684e9367d1549a186d05d9c23734003c6a3df234"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-02T21:48:30.249969+00:00",
+  "zone": "A04",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "gate_sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+  "task": "P01.C11.T0002",
+  "finding_files": [
+    "A04.R11.F01.json"
+  ],
+  "file_sheets": [
+    "Fisa_WSagaIntrariForm.json",
+    "Fisa_AsociereEFactura.json",
+    "Fisa_TestT224IdSpvSql.json",
+    "Fisa_com.eva.ro.contab_13.0.0.json"
+  ],
+  "source_identity_verified": 5,
+  "native_reuse_first": "Păstrarea C_Invoice, EVA_EFactura, DB.getSQLValueStringEx și a regulilor AsociereEFactura. Extinderea aceleiași interogări de fallback cu filtrul legăturii și o regulă explicită de ambiguitate; afișarea stării corecte în aceeași celulă nativă ZK.",
+  "execution_summary": {
+    "independent_observations_each_target": 30,
+    "target_count": 2,
+    "original_sql_suite_assertions_each": 44,
+    "mutations_included_each": 16,
+    "fresh_database_reads": true,
+    "real_UI_or_operational_writes": 0,
+    "native_full_flow": 0
+  },
+  "finding_summary": "Factura A afișează mesajul SPV confirmat pentru factura B",
+  "limits": "Actual Git JAR and separately compiled production classes, direct real WSagaIntrariForm.idSpvDin and afisareIdSpv, JDBC adapter for production DB reads, synthetic committed PostgreSQL rows, new reader per case. Link written by fixture matching committed PO fields, not runtime Associates/PO.saveEx or an actual ZK interaction. No ANAF, actual supplier, posting or G1 changes. Original T224 suite exercises candidate bytecode constants on synthetic minimal PostgreSQL tables, not complete ERP.",
+  "resources_returned": true,
+  "grade": null,
+  "reception": "PENDING_A11",
+  "priority_note": "Codul principal aparține A09/A01 în dispatch, constatările de achiziții A04 contribuie la aceleași fișe fără schimbarea responsabilului inițial."
+}

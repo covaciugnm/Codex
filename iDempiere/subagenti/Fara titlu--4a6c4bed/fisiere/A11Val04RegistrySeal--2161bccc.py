@@ -1,0 +1,48 @@
+import pathlib,json,hashlib,datetime,gzip
+R=pathlib.Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01');B=R/'executie/R12_fisiere';V=B/'A12/Val_04';O=B/'A11/Val04_registru'
+def j(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return {'path':p.relative_to(R).as_posix(),'sha256':sha(p)}
+def write(p,d):assert not p.exists(),p;p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+checks=[]
+def ck(n,b):checks.append({'check':n,'ok':bool(b)});assert b,n
+def resolve(x):
+ p=R/x['path'];assert sha(p)==x['sha256'];z=j(p)
+ for part in x.get('pointer','').removeprefix('#').strip('/').split('/') if x.get('pointer','').removeprefix('#').strip('/') else []:
+  k=part.replace('~1','/').replace('~0','~');z=z[int(k)] if isinstance(z,list) else z[k]
+ return z
+qa=O/'QA_A11_R12_Val04_registru_v1.json';ck('fixed independent QA',sha(qa)=='d65fc90afb7d471e72ebdd3b629d4a6df81145f2628e7585d51fb9f028b9c6e1');q=j(qa)
+front=j(V/'Increment_01_frontend/Cazuri_frontend_10.json');ck('10 frontend cases one execution',len(front['rows'])==len({x['case_id'] for x in front['rows']})==front['executor_cases']==10 and front['path_multiplication_forbidden'])
+for x in front['rows']:
+ y=resolve(x['source']);ck('frontend raw projection '+x['producer_id'],x['producer_id']==y['id'] and all(x['observed'][k]==y[k] for k in x['observed']) and not x['whole_criterion_accepted'])
+nat=j(V/'Increment_02_G3/Scenarii_G3_10.json');ck('10 native scenarios correct units',len(nat['rows'])==len({x['scenario_id'] for x in nat['rows']})==10 and nat['CASE_G3_lines']==16 and nat['valid_python_readbacks']==41 and nat['initial_setup_readbacks']==1 and nat['total_readbacks']==42)
+for x in nat['rows']:
+ y=resolve(x['source']);a=resolve(x['A11_receipt']);ck('native raw projection '+x['scenario_id'],x['scenario_id']==y['id']==a['id'] and x['producer_status']==y['state'] and x['observed']==y['detail'] and x['A11_disposition']==a and not x['full_business_contract_acceptance'])
+overrides=j(V/'Increment_02_G3/Calificari_nominale_G3_13.json')['rows'];ck('13 authoritative qualifications',len(overrides)==13)
+for x in overrides:
+ y=resolve(x['source']);a=resolve(x['authority']);ck('qualification '+x['path'],x['path']==y['path']==a['path'] and x['old_state_literal']==y['state'] and x['effective_method_scope']==a['method_scope'] and x['authoritative_native_method_and_effect']==a['authoritative_native_method_and_effect'])
+handoff=j(V/'Handoff_R12_Val04_v1.json');manifest=j(V/'MANIFEST_R12_Val04.json');mat=j(V/'Matrice_taskuri_criterii_R12_Val04.json');checklist=j(V/'Checklist_10_zone_Val04.json')
+ck('latest A11 checklist linked',checklist['A11_current']['sha256']=='a5d094982e6d7fd511bef7c002dad831f56ded82cef28c2ebcde2446831b1240' and sha(R/checklist['A11_current']['path'])==checklist['A11_current']['sha256'])
+ck('canonical task names',all(x['canonical']==resolve(x['source'])['cod_capitol'] for x in mat['current_rows']))
+reg=[json.loads(l) for l in gzip.decompress((V/'Registru_6728_R12_Val04.jsonl.gz').read_bytes()).decode('utf8').splitlines()];old=[json.loads(l) for l in gzip.decompress((B/'A12/Val_03/Registru_6728_R12_Val03.jsonl.gz').read_bytes()).decode('utf8').splitlines()];rm={x['path']:x for x in reg};pm={x['path']:x for x in old}
+newpaths=[p for p,x in rm.items() if x['axis']['component_exercised']!='UNVERIFIED_R12' and pm[p]['axis']['component_exercised']=='UNVERIFIED_R12']
+setpath=next(p for p in rm if p.endswith('/corelare/SetLista.java'));ck('SetLista already method-scoped not counted new',pm[setpath]['axis']['component_exercised']=='NATIVE_BUSINESS_METHOD_PARTIAL' and rm[setpath]['axis']['component_exercised']=='NATIVE_BUSINESS_METHOD_PARTIAL' and setpath not in newpaths)
+for stem in ['RezervareStoc','FisaCanalProces']:
+ p=next(p for p in rm if p.endswith('/'+stem+'.java'));ck('SQL history kept '+stem,pm[p]['axis']['component_exercised']=='SQL_COMPARATOR_PARTIAL' and rm[p]['axis']['component_exercised']=='NATIVE_ORIGINAL_METHOD_PARTIAL' and rm[p]['current_evidence'][:len(pm[p]['current_evidence'])]==pm[p]['current_evidence'])
+out={'schema':'A11.R12.Val04.registry.receipt.v1','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'reviewer':'A11 independent','head':handoff['head'],'operational_server_HEAD_excluded':handoff['server_HEAD_not_candidate'],'decision':'RECEPȚIE LIMITATĂ ACCEPTATĂ pentru registrul Val04 și referințele sigilate. Nicio închidere de fișier, task, criteriu sau contract și nicio notă globală.',
+ 'manifest':ref(V/'MANIFEST_R12_Val04.json'),'handoff':ref(V/'Handoff_R12_Val04_v1.json'),'base_QA':ref(qa),'semantic_checks':checks,
+ 'verification':{'technical_identities':6728,'identity_and_routing_dimensions':8,'previous_evidence_preserved':True,'current_P01_population':694,'historical_dossiers_rehashed':652,'historical_criteria_preserved':2619,'R11_sources_reference_only':116,'R11_credit_transferred':0,'changed_evidence_rows':q['changed_rows'],'reference_instances_checked':q['reference_instances'],'distinct_reference_paths':q['unique_reference_paths'],'base_predicates':len(q['checks']),'semantic_predicates':len(checks),'manifest_outputs':len(manifest['files']),'manifest_inputs':len(manifest['inputs'])},
+ 'metrics':{'previous_partial_source_identities':39,'current_partial_source_identities':44,'new_partial_source_identities':5,'new_paths':newpaths,'new_event_associations':11,'cumulative_path_event_pairs':50,'source_levels':{'original_component_or_method_paths':33,'shell_comparators':5,'transitive_type_uses':2,'fixture_binding_metadata':4},'explanation':'SetLista avea deja dovadă parțială de metodă și nu este fișier nou. Cele două surse SQL sunt promovate la cititori nativi, cu comparatorii vechi păstrați în istoric. 44 = 33 + 5 + 2 + 4 reprezintă niveluri diferite de probă, nu 44 fișiere business recepționate.','static_observation_paths':42,'static_paths_without_component_evidence':40},
+ 'cases':{'frontend':{'unique_executor_cases':10,'original_JS_blobs':1,'equal_path_identities':2,'positive_controls':5,'counterexamples':5,'A11_component_witnesses_separate':5},'G3':{'protocol_scenarios':10,'CASE_G3_observations':16,'valid_readbacks_v2_v3':41,'initial_setup_readback':1,'A11_numeric_comparisons_separate':13},'do_not_sum_as_tests_criteria_or_passes':True},
+ 'routing_clarification':'Owner și planned_peer din dispatch rămân autoritative pentru fiecare fișier. A05 și A06 din câmpurile lotului G3 descriu executorul și peer-ul planificat al lotului; nu schimbă rutarea per fișier. Recenzia efectivă a acestui lot este A11, fără recenzie A06 inventată.',
+ 'native_metadata_clarifications':'A12 păstrează fișele brute cu state de plan și native_method generic, dar aplică explicit cele 13 dispoziții A11. Calculele pure nu primesc query direct; TabelaFisaCanal pe canal null nu primește citirea regulilor; handler-ele rămân fixture/binding.',
+ 'finding_policy':{'SO_PO':'R12-STOC-SO-PO-01 întărit nativ; același defect, P2 propus păstrat. Fără defect duplicat ori escaladare automată.','frontend':'Trei mecanisme confirmate în componenta și fixturele declarate, fără cauzalitate inventată cu backendul.','static_pagination':'Ipoteză neexecutată, fără confirmare sau prioritate nouă.','N05':'Constatarea anterioară A05.R11.G2.BOM.1 rămâne deschisă și separată de G3.'},
+ 'states':q['state_projection'],'states_meaning':'Sunt declarațiile capturii înghețate din registru, nu recepții de audit. T386/P01.C10.T0030 este în plan și nu mărește cohorta istorică de 652 fișe; datele exacte de închidere absente nu sunt inferate.',
+ 'limits':['API/PO native și cititori originali nu înseamnă DocAction/C_Order sau flux comercial complet.','IsActive la PO nou este o fixture; F02 cu client inexistent nu este test de autentificare/RBAC.','Stocul cantitativ înregistrat și count Fact_Acct nu certifică inventarul fizic sau soldurile valorice G1.','M_StorageReservationLog nu are delta măsurată; nu se pretinde zero efect persistent în acea tabelă.','Retry după rollback nu demonstrează idempotență după commit.','DOM sintetic nu recepționează template/CSS/UI complet, roluri, debounce sau API real.','Poarta 10/10 privește planul concret, nu produsul ori întregul audit.'],
+ 'resources':{'G3_lab_returned_and_independently_checked':True,'passive_runtime_cache_and_harness_retained':True,'six_previously_denied_cleanup_roots_remain':True,'no_bypass_attempt':True,'global_cleanup_complete':False},
+ 'next_checklist':ref(B/'A11/Val04_loturi/Checklist_A11_dupa_R12_Val04_v1.json'),'open_contracts':17,'full_file_acceptances':0,'full_task_acceptances':0,'full_criterion_acceptances':0,'product_score':None,'global_audit_score':None,'product_executions_in_registry_review':0,
+ 'reviewer_calibration':'Verificatorul A11 a ajustat rezolvarea celor două pointere Val01: current_evidence conține și scope/independent_reception, iar dovada nominală este subobiectul path/SHA/bytes/pointer. Egalitatea exactă cu evenimentul original și păstrarea întregului record anterior au fost verificate. Prima oprire nu a scris verdict și nu a executat produs.'}
+vp=O/'Verdict_A11_R12_Val04_registru_v1.json';write(vp,out)
+for n in ['A11Val04Registry.py','A11Val04RegistrySeal.py']:
+ p=O/('Runner_'+n);assert not p.exists();p.write_bytes(pathlib.Path('D:/CodexWork',n).read_bytes())
+seal=O/'SIGILIU_A11_R12_Val04_registru_v1.json';write(seal,{'utc':out['utc'],'immutable':True,'files':[ref(vp),ref(qa),ref(O/'Runner_A11Val04Registry.py'),ref(O/'Runner_A11Val04RegistrySeal.py')],'accepted_manifest':ref(V/'MANIFEST_R12_Val04.json')});print(json.dumps({'verdict':ref(vp),'seal':ref(seal),'semantic_checks':len(checks)},ensure_ascii=False))

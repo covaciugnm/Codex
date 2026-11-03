@@ -1,0 +1,102 @@
+{
+  "utc": "2026-11-02T23:54:26.555455+00:00",
+  "reviewer": "A09",
+  "executor": "A08",
+  "head": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "method": "Lectură surse originale, rehash OID/SHA, verificare fixture_before/after și rezultate; fără reexecutare",
+  "independent_A11_receipt": false,
+  "cases": [
+    {
+      "id": "C03_unread_progress",
+      "result_sha256": "84ab789a4eed85183d5254f2646ca01e8482eb260404380af505893d3f71db30",
+      "fixture_before_sha256": "eb41ed883b7deed33258fb7f2c9582578596a2f9eeb90df1ce78f070bfa655e1",
+      "fixture_after_sha256": "3789071e395ef338497ad4e4877694d0abdcb3a7f3c81e59b8922445d451f54d"
+    },
+    {
+      "id": "C06_manual_failure_false_OK",
+      "result_sha256": "66dadad5bdeaa287c2d7c76bce01b171171e8569450ded5e3a48d24b97fc4e39",
+      "fixture_before_sha256": "bac6255740e14cbd1d1f5a893c7b1358861b4a64103be6f74fdd5bf4655a5728",
+      "fixture_after_sha256": "94bd701df5404285a2fe1575fffff172684b76aa07335b7c27ce6bf2e5b7b9e9"
+    },
+    {
+      "id": "P_deleted",
+      "result_sha256": "a21a055429e6d553e5647977d645166d56e8ea1ad00acf7f024003dfb95e6fe6",
+      "fixture_before_sha256": "aec516af21f493af05e4723b6288ed3973e5ccccfafc5a2a0152096e64f0801f",
+      "fixture_after_sha256": "75211aed161cacfecaa24a160b2b2c307433395e3a37e14d1f6e820db5364f9d"
+    },
+    {
+      "id": "N02_supplement_mismatch",
+      "result_sha256": "08161b0b832e6c4243c7558c230343c1eeb623a71206127b76af48be0939eb21",
+      "fixture_before_sha256": "aa05204ec85f2ca46824d6835635c230c3d2af713fea54e15f02a80148fdd40e",
+      "fixture_after_sha256": "aa05204ec85f2ca46824d6835635c230c3d2af713fea54e15f02a80148fdd40e"
+    }
+  ],
+  "source_rehash": [
+    {
+      "path": "Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/c8_lot.py",
+      "oid": "fd2e5b06e2f4fd6f716fb186e8264a7230c8f1d3",
+      "sha256": "3239e19e3b793ffe3ce38fa85bc2870f4b79f7ef0c2d2c3fbb4ec1c220d1afb5"
+    },
+    {
+      "path": "Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/construieste_lot.py",
+      "oid": "887827cdb851431853975fbae1e4d64ff50fdcf6",
+      "sha256": "6b359a05b1e513a211710ff4ddfad5812b708d5e999347a6aa9231b23b07de27"
+    },
+    {
+      "path": "Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/fisa.py",
+      "oid": "4c49ad52342b29c3094ee5b1dc2b62c044f1228e",
+      "sha256": "0caff3671ba6c5f47163515f7594830b5ed18f2a99c07790783a347c5828ffc2"
+    },
+    {
+      "path": "Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/manual_cap.py",
+      "oid": "d7cead3fe8fcaf33f0772b03d8f573726a97f0df",
+      "sha256": "f699d458713361d858ca3d1def07fff38beae098dd3334f5f61fc28f59396f07"
+    },
+    {
+      "path": "Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/numara_lot.py",
+      "oid": "63275f6ecda481c3178790967fead122e9f2aa3e",
+      "sha256": "fd310fb34c6b0b1f46d49f58a35cf8d1858ea8d3d9d9a19f408f55e9e2a03e7c"
+    },
+    {
+      "path": "Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-81/scripturi/refs_nemarcate.py",
+      "oid": "5f743c6b7eedb4cac63ae1d4f0fd1f19b15c7833",
+      "sha256": "b0f3aabc8f23b75f5850a8e12d0fd0b3369c529dffc73ce81ac6832530561b39"
+    },
+    {
+      "path": "tools/help/verifica_help.py",
+      "oid": "4a1a7f0f38648a0aa30bdcc2b5967e06de7b2f00",
+      "sha256": "143b7fe13272b5f9dd049cb174f658aacf6305476da07e7aa4a18fcd69135bbd"
+    }
+  ],
+  "conclusions": [
+    {
+      "case": "C03_unread_progress",
+      "verified": "00_progres.tsv: WAuditAlphaForm, lot1, tip tsv, stare necitit. Raport persistent: șase OK și textul RO și EN citite.",
+      "source": "construieste_lot.py:30-33 citește numai primele3 coloane; 65-71 generează OK implicit.",
+      "verdict": "CONFIRMAT. Precondiția stare=citit declarată în docstring nu este verificată."
+    },
+    {
+      "case": "C06_manual_failure_false_OK",
+      "verified": "ManualEvA.java absent din fixture. Jurnalul invocă manual_cap.py cu SHA exact; constructorul rc0 scrie două OK și citit cap-coadă.",
+      "source": "manual_cap.py:46 open(M) fără gardă. construieste_lot.py:45 consumă numai stdout;48-49 generează oricum cele două chei.",
+      "verdict": "CONFIRMAT pentru falsul OK și ignorarea rezultatului copilului. Excepția copilului este dedusă din sursa neschimbată/input lipsă; returncode/stderr copil nu au fost păstrate în jurnalul observat."
+    },
+    {
+      "case": "P_deleted",
+      "verified": "AuditModel.java conține OTHER_FLAG și nu AUDIT_FLAG. Documentul V are nouă trimiteri AUDIT_FLAG cu DA; refs raportează9 verificate/probleme0, c8 zero, constructor șase OK.",
+      "source": "refs_nemarcate.py:31-35 incrementează probleme numai dacă identificatorul există în altă linie.",
+      "verdict": "CONFIRMAT. Criteriul independent este codul fixturei, nu DA contrazis din V. Nu se atribuie vreun defect business/nativ acestei probe."
+    },
+    {
+      "case": "N02_supplement_mismatch",
+      "verified": "Tip supliment, două rânduri camp.1.text/camp.2.text și un pas. Numara raportează câmpuri1/2.",
+      "source": "numara_lot.py:21 aplică FS.esantion tuturor. fisa.py:44 omite filtrarea când --supliment; ambele câmpuri și pasul sunt selectate.",
+      "verdict": "CONFIRMAT ca neconcordanță a numitorului/selectării. Numărarea nu dovedește lectura efectivă."
+    }
+  ],
+  "requested_clarifications": [
+    "C06: separă rezultatul direct al părintelui de eșecul copilului dedus; nu inventa stderr/returncode copil.",
+    "Manual_cap este executat direct de A09, owner nominal A08 și peer nominal A09 rămân conform catalogului."
+  ],
+  "receipt": "PEER_TEHNIC_LIMITAT_CONFIRMA_4_MARTORI; A11 va verifica independent; nicio închidere de task/fișier/criteriu."
+}

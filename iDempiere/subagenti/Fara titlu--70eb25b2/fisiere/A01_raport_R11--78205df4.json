@@ -1,0 +1,161 @@
+{
+  "schema": "A01-R11-delta-execution-v1",
+  "utc": "2026-11-02T21:34:18.793478+00:00",
+  "sha": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "base": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "plan_hash": "676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd",
+  "gate_hash": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+  "report_grade": null,
+  "product_score": null,
+  "owner": "A01",
+  "peers": "A09 / A10, A12 trasabilitate; A11 independent",
+  "per_file": [
+    {
+      "path": "frontend/app.py",
+      "record": "fise/01_app.py.json",
+      "sha256": "cae4e4d6bfa7b9adf5b9f15ef6bcb3561669acc7c0de3278e2c37deac54e4b23",
+      "result": "CORECȚIE_DE_TRAVERSARE_DOVEDITĂ_CU_LIMITE_REPRODUSE"
+    },
+    {
+      "path": "frontend/tests/test_t232_aud_portal_ocolire.py",
+      "record": "fise/02_test_t232_aud_portal_ocolire.py.json",
+      "sha256": "975d6fd4e8dd1673b36ef54ce0d4114ab544496dd9afe3484740c26ba5690609",
+      "result": "TEST_TRECUT_ÎN_DOMENIUL_DECLARAT; LIPSEȘTE_REDIRECT"
+    },
+    {
+      "path": "frontend/tests/test_t232_l1_cale_webui.py",
+      "record": "fise/03_test_t232_l1_cale_webui.py.json",
+      "sha256": "5b9f518b6bafa0c106504b24ad3118f59e5b6d3cb58e71a7780640c9e5c7b4ce",
+      "result": "TEST_TRECUT_ÎN_DOMENIUL_DECLARAT; DIFERENȚĂ_RAW_UTF8"
+    },
+    {
+      "path": "proxy/traefik/propuneri-t232/_erp-admin-blocat.yml",
+      "record": "fise/04__erp-admin-blocat.yml.json",
+      "sha256": "95b5c26ebcd5faa3260ba53f0fd26c1689bbd124943fc08963a85e6aca99269c",
+      "result": "REGULĂ_FUNCȚIONALĂ_ÎN_LAB; INSTALARE_NEDOVEDITĂ; SUPRABLOCARE_CONDIȚIONATĂ"
+    },
+    {
+      "path": "proxy/traefik/propuneri-t232/aplica.sh",
+      "record": "fise/05_aplica.sh.json",
+      "sha256": "1f47dfdb83d4f2cdc343b6344cea7017a8da5098788922d9492c9125eb0d82bc",
+      "result": "SIMULARE_TRECUTĂ; EXECUȚIE/ROLLBACK_PRODUCȚIE_NEEXECUTATE"
+    }
+  ],
+  "findings": [
+    {
+      "id": "A01.R11.F01",
+      "title": "Redirectul HTTP al upstreamului nu este revalidat de gardă",
+      "classification": "LIMITĂ_PREEXISTENTĂ_REPRODUSĂ; garanție incompletă a noii gărzi",
+      "severity": "P1 condiționată de existența unui redirect controlabil sau nepotrivit în upstream și de privilegiile cookieului",
+      "anchors": [
+        {
+          "path": "frontend/app.py",
+          "line": 1235,
+          "meaning": "Verificare doar a primei ținte construite."
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 1255,
+          "meaning": "Transmite cookie-urile ZK ale cererii."
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 1260,
+          "meaning": "urllib deschide implicit redirecturi înainte de prelucrarea răspunsului."
+        }
+      ],
+      "positive": "Redirect intern la /webui/zkau/web/js/zk.wpd funcționează.",
+      "counterexample": "Pe ambele versiuni, un URL /webui valid din cabinetul A redirecționează la /osgi/synthetic-marker; ambele receptoare întorc 200 și portalul returnează 200. Al doilea caz redirecționează din 127.0.0.1:A către localhost:B (origine și port diferite). Al doilea serviciu a primit cookie-ul sintetic de sesiune. Tags: webui-redirect-other / idmp-redirect-other.",
+      "business_limit": "Nu s-a identificat un redirect controlabil pe ruta iDempiere de producție. Obținerea efectivă de acces/admin sau conținut privat real nu este dovedită.",
+      "recommendation": "Folosește un RedirectHandler care verifică la fiecare Location scheme/host/port așteptate și calea canonică sub /webui, ori întoarce un redirect relativ sigur către portal. Restricționează cookieurile la originea autorizată și rerulează ambele aliasuri."
+    },
+    {
+      "id": "A01.R11.F02",
+      "title": "În binding-ul Flask, octeții UTF-8 invalizi pot deveni o cale transmisă",
+      "classification": "DIFERENȚĂ_NOUĂ_DE_BINDING; fără traversare de cale demonstrată",
+      "severity": "P2/P3 de stabilit independent, impact demonstrat limitat la acceptare/cod HTTP",
+      "anchors": [
+        {
+          "path": "frontend/app.py",
+          "line": 1189,
+          "meaning": "Validator lucrează cu subpath furnizat de router, nu cu octeții brut ai URI."
+        },
+        {
+          "path": "frontend/app.py",
+          "line": 1233,
+          "meaning": "Recodificarea transforma caracterele de înlocuire în UTF-8 valid."
+        }
+      ],
+      "positive": "tem%C4%83.css: vechi 502 fără wire; nou 200, cale UTF-8 fidelă.",
+      "counterexample": "Pentru /webui/%ff%fe și /idmp/%ff%fe: vechi 502, zero wire; nou 200, upstream primește /webui/%EF%BF%BD%EF%BF%BD. Testul funcției pure cu șirul %ff%fe este verde; el nu observă decodarea prealabilă cu înlocuire a frameworkului.",
+      "business_limit": "Nu s-a accesat o cale externă acestui prefix. Un backend real poate returna 404 pe pathul inexistent. %2F în URL brut este deja decodat în separator când garda primește subpath; în martorul /a%2Fb.js ambele SHA trimit /a/b.js.",
+      "recommendation": "Stabilește dacă politica este la octetul de pe fir sau la subpath deja decodat. Dacă refuzul invalid UTF-8/encoded slash se aplică intrării pe fir, validează RAW_URI/REQUEST_URI la un strat de încredere înainte de decodarea cu înlocuire. Adaugă test prin intrarea reală."
+    },
+    {
+      "id": "A01.R11.O03",
+      "title": "Cookie-ul cabinetului poate selecta alt upstream",
+      "classification": "CONDIȚIE_PREEXISTENTĂ, fără dovada unui acces nativ neautorizat",
+      "severity": null,
+      "anchors": [
+        {
+          "path": "frontend/app.py",
+          "line": 771,
+          "meaning": "_idm_upstream selectează hostul pe baza cookieului eva_idm_cab."
+        }
+      ],
+      "counterexample": "Member A cu cookie cab B ajunge la receptorul B pentru /styles.css sub ambele aliasuri, pe ambele versiuni. Actor B propriu este controlul pozitiv. Anonim, revoked cold și rol falsificat fără token → 302, fără wire.",
+      "business_limit": "Receptorul este martor inert. Nu dovedește că actorul A poate autentifica o sesiune AD ca B ori consulta date private; nu este o regresie demonstrată a deltei.",
+      "recommendation": "Verifică asocierea server-side actor/cabinet înainte de alegerea upstream și păstrează dreptul nativ separat."
+    },
+    {
+      "id": "A01.R11.O04",
+      "title": "Regula propusă acoperă și prefixe asemănătoare și orice secvență de două puncte",
+      "classification": "EFECT_AL_PROPUNERII, politică privind suprarejectarea de confirmat",
+      "severity": null,
+      "anchors": [
+        {
+          "path": "proxy/traefik/propuneri-t232/_erp-admin-blocat.yml",
+          "line": 20,
+          "meaning": "PathRegexp nu impune terminarea segmentului după server/osgi/idempiereMonitor."
+        }
+      ],
+      "counterexample": "/serverless-fixture și /webui/assets/a..b.css ajung la receptor fără regulă, dar sunt refuzate 403 fără receptor cu propunerea. Hostul din afara domeniilor semnate rămâne rutat în ambele configurații. Repetarea /osgi rămâne 403.",
+      "business_limit": "Căile sunt canari, nu active reale dovedite din ERP. Regula este propusă în Git; fișierul cu numele propus și referința literală la router nu sunt în providerul din captura citită. Nu s-a interogat tabela live a tuturor routerelor.",
+      "recommendation": "Decide dacă blocarea oricărui prefix este intenționată. Dacă lista este închisă pe segmente, ancorează sfârșitul sau separatorul; păstrează teste Traefik pentru rute legitime și negative."
+    }
+  ],
+  "tested": {
+    "original_tests": 13,
+    "original_pass": 13,
+    "original_test_count_per_file": {
+      "test_t232_l1_cale_webui.py": 11,
+      "test_t232_aud_portal_ocolire.py": 2
+    },
+    "mutants_killed": 4,
+    "portal_old": 45,
+    "portal_new": 46,
+    "Traefik_no_rule_requests": 15,
+    "Traefik_loaded_requests": 15,
+    "Bash_simulation_plus_refusal": 3
+  },
+  "metadata": {
+    "git_frontend_sha256": "b0762d05bf76b38b74d4c35ece3d962641d2df4075aa8feb777dce2d8cc2692a",
+    "previous_frontend_sha256": "2ce118e1c31d54f7042781f4171c6afec1a1b817175349b0a1164358d0baadfe",
+    "mounted_frontend_matches_new": true,
+    "git_saga_jar_sha256": "87240e6869bd0f3521ad51f4c0f6d1bd84dffa0267fb349dec568b5934787620",
+    "installed_saga_jar_matches_new": false,
+    "positive_evidence_of_named_rule": false
+  },
+  "scope": "Cinci căi delta A01. Blocarea la prima țintă este independentă de redirecturi, de alegerea cabinetului și de autorizarea reală în iDempiere. Nu este auditul exhaustiv al celor peste zece mii de linii frontend/app.py sau al întregului Git.",
+  "task_handoff": [
+    "T232 / P01.C13.T0001",
+    "T232.01 / P01.C13.T0001.01. Confirmarea criteriului punctual la acest SHA nu echivalează cu finalizarea taskului istoric."
+  ],
+  "rerun": [
+    "Execută a01_r11_materialize.py pe checkout local verificat. Include frontend/themes, module și portal cu OID corecte.",
+    "Rulează cele două unittest originale din frontend/tests. Rerulează a01_r11_mutants.py într-un proces separat.",
+    "Rulează a01_r11_portal.py old și new cu dependențele fixate ale gatewayului și originale Flask; sockets doar loopback.",
+    "Rulează a01_r11_traefik.py cu binarul local 3.1.7. Fără copiere în dynamic/ de producție; aplica.sh exclusiv --simulare/argument invalid.",
+    "a01_r11_mount.py numai pentru metadate read-only. Starea montată poate evolua ulterior."
+  ]
+}

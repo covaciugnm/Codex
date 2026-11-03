@@ -1,0 +1,112 @@
+{
+  "utc": "2026-11-03T01:24:53.530242+00:00",
+  "role": "A03, peer contabil și arhitectură G1/G2",
+  "mode": "Lectură și formularea corecțiilor; nicio execuție, test, schimbare în produs sau modificare a rapoartelor sigilate.",
+  "candidate": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "reviewed_report": {
+    "path": "executie/R12_fisiere/A05_N05_lot03/Raport_A05_N05_lot03_v1.json",
+    "sha256": "e041aa5c542fa219132dce85aa347b79b26e459f7bd5551c97d5fbf21a57a32e"
+  },
+  "independent_execution_review": {
+    "path": "executie/R12_fisiere/A11/Val03_loturi/Verdict_A11_N05_lot03_v1.json",
+    "sha256": "bfe30d3d390f20cff2bf159eb4ecd2b9fdd81da2cc30abdd6424d40b2adf144b"
+  },
+  "source_bindings": [
+    {
+      "source": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/component/EvaNotaSetBomEvents.java",
+      "oid": "84f0bbdfb5a8450ed0e310f18feee710804ec471",
+      "sha256": "fd2a8912c7ea95024f62ec47223bfc310577773dceb397ca877f83b44f238306",
+      "read_copy": "executie/R12_fisiere/A05_N05_lot03/surse_df85/component/EvaNotaSetBomEvents.java"
+    },
+    {
+      "source": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/NotaSetWmsProces.java",
+      "oid": "a90a196372e07fe975a9c5300c29a44c6cd1fcc3",
+      "sha256": "ad57afa1ef4e9a47ce7bede1cf54bfdeba43f81e6e72a4e0194a7407bf0f4b74",
+      "read_copy": "executie/R12_fisiere/A05_N05_lot03/surse_df85/corelare/NotaSetWmsProces.java"
+    },
+    {
+      "source": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ListaMaterialeWms.java",
+      "oid": "e027782fcc5be74033b0210df6312b938a3dde70",
+      "sha256": "fe59baa452c962755a54b385597ee152991c46c76a628e1508c1e0ee817aa30b",
+      "read_copy": "executie/R12_fisiere/A05_N05_lot03/surse_df85/wms/ListaMaterialeWms.java"
+    },
+    {
+      "source": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+      "oid": "11de51574160a86a79b68ca3082e5b786c77ee25",
+      "sha256": "87fbb7904157baac8a1fd26cc7c1e2ddb5467b3a2fd589ca52eaf17f1da48af2",
+      "read_copy": "executie/R12_fisiere/A05_N05_lot03/surse_df85/wms/StocWms.java"
+    },
+    {
+      "source": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/NotaSetWms.java",
+      "oid": "fdc93e628630b5e110e7b788384ef6877f1f8dee",
+      "sha256": "07f59b59cb640b19656325113caa59188fe458a177f745a643c5519a7f81c16c",
+      "read_copy": "executie/R12_fisiere/A05_N05_lot03/surse_df85/wms/NotaSetWms.java"
+    }
+  ],
+  "verdict": "Direcția mecanismului și a remedierii respectă G1/G2. Sunt necesare precizările de mai jos înaintea comunicării consolidate și a checklistului de implementare. Peerul nu certifică întregul contract.",
+  "corrections": [
+    {
+      "id": "A03-N05-01",
+      "target": "conclusion și severity",
+      "replace_with": "După intercalarea concurentă, evidența cantitativă G2 înregistrează 11 piese față de cele 10 inițiale. Defect P1 de integritate a evidenței WMS. Impactul valoric asupra G1 nu este demonstrat.",
+      "reason": "Nu s-a făcut inventarierea fizică a unei magazii. Proba persistentă urmărește EVA_StocWms și EVA_MiscareWms.",
+      "code": {
+        "file": "wms/StocWms.java",
+        "lines": [
+          261,
+          284
+        ],
+        "oid": "11de51574160a86a79b68ca3082e5b786c77ee25"
+      }
+    },
+    {
+      "id": "A03-N05-02",
+      "target": "Interpretarea nativeQty și facts",
+      "replace_with": "În fixtură, suma QtyOnHand din M_StorageOnHand pentru produs a rămas 10; Fact_Acct are zero rânduri pentru produsele urmărite, iar numărul global de rânduri a rămas 308. Aceste observații nu măsoară soldurile sau valorile globale din Fact_Acct și nu recepționează DocAction ori contabilizarea G1.",
+      "reason": "nativeQty este o măsură cantitativă. Un număr de rânduri constant nu exclude schimbări de valori în rânduri existente.",
+      "evidence": {
+        "file": "business_v2.A05N05Probe.java",
+        "lines": [
+          106,
+          108,
+          135
+        ]
+      }
+    },
+    {
+      "id": "A03-N05-03",
+      "target": "N05-FIX01 action și done_when",
+      "replace_with": "Dezambalarea restituie exact componentele recuperabile și cantitățile efectiv consumate pentru seturile urmărite, pe identitățile CPP și loturile aplicabile, în locatorii validați. Ambalajele efectiv consumate și manopera executată sunt tratate după regulile lor explicite și nu sunt recreate ori inversate automat prin aceeași regulă de recuperare a pieselor.",
+      "reason": "Implementarea curentă recitește liniile active din BOM și adună QtyBOM. Fixtura are o singură piesă, fără ambalaj și manoperă. O regulă generală de revenire a tuturor componentelor ar încălca înregistrarea unică a consumurilor/costurilor G1.",
+      "code": {
+        "file": "wms/ListaMaterialeWms.java",
+        "lines": [
+          25,
+          34
+        ],
+        "oid": "e027782fcc5be74033b0210df6312b938a3dde70"
+      },
+      "acceptance_clarification": "Conservarea se verifică pe componentele recuperabile. Pentru cutii și manoperă se verifică separat consumul real, nerepetarea costului și eventualele corecții autorizate."
+    },
+    {
+      "id": "A03-N05-04",
+      "target": "N05-FIX05 action și recepția contabilă viitoare",
+      "replace_with": "G2 este necontabilă. Identitatea distinctă și permanentă CPA nu creează stoc contabil suplimentar sau valoare de set dezasamblabil. G1 păstrează piesele ori seturile indivizibile și înregistrează o singură dată consumul cutiilor și costurile muncii. CPP și CPA păstrează identități interne diferite, independente de SKU/EAN. Remedierea BOM trebuie recepționată împreună cu o probă separată pentru consumul/costul G1, cu rollback și retry.",
+      "reason": "Formularea actuală «G2 fără contabilizare dublă» poate fi înțeleasă ca permisiune pentru o singură contabilizare G2. Cerința beneficiarului este G2 necontabilă.",
+      "acceptance_clarification": "Pentru fiecare operație G2 confirmată, referința către operația de consum/cost G1 trebuie să împiedice repetarea la retry. Rândurile și sumele aferente G1 se verifică distinct, împreună cu identitățile CPP/CPA; fixtura N05 nu acoperă această recepție."
+    }
+  ],
+  "kept_recommendation": {
+    "N05-FIX02": "Coordonarea procesului WMS și a editării BOM prin aceleași mecanisme native PO/Trx și blocări este pertinentă. Procesul blochează firma+gestiunea la NotaSetWmsProces.java:251; garda decide folosirea BOM din stocul pozitiv la EvaNotaSetBomEvents.java:41. Lectura nu demonstrează că schema de blocare propusă a fost implementată sau recepționată.",
+    "N05-FIX03_04": "Păstrarea verificărilor pentru gestiuni multiple, mutări între versiuni, concurență, rollback/retry și recepție independentă este justificată."
+  },
+  "limits": [
+    "Nicio concluzie privind modificări contabile globale în afara fixturii.",
+    "Nicio acceptare CPP/CPA, loturi, cutii/manoperă, G3, UI sau contract integral pe baza acestui peer.",
+    "Rezultatul operațional de contabilizare va necesita o probă distinctă cu date sintetice și măsurarea sumelor relevante."
+  ],
+  "production_writes": 0,
+  "tests_run": 0,
+  "implementation_changes": 0,
+  "product_grade": null
+}

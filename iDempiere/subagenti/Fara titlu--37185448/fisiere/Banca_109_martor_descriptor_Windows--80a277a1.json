@@ -1,0 +1,199 @@
+{
+  "utc": "2026-11-02T21:34:53.289815+00:00",
+  "candidate": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "prior": {
+    "path": "executie/R11_fisiere/A12/Calibrari_banca_si_registre_02.json",
+    "sha256": "b9b684c3cb81523c7e07a3bab9286004821f17e3e2951f6d918012a373830227",
+    "bytes": 104798
+  },
+  "class_method": "Exclusive Windows FileChannel.open with NOSHARE flags. Only recognize an OS diagnostic for sharing violation; all other exceptions propagate. Independent positive/negative control, opened handle, release, plus original SQLite positive/negative test paths. Unmodified original Linux-specific /proc test remains separately unavailable in this Windows harness.",
+  "test_source": "d85dfdb31c780c4dff32b254a762e80bdf073e6e203018c06c9b28d87173f9b5",
+  "harness_sha": "35f4ba92c434b92570ac89b3d788fb76300e2c869fcbebf789f7963949112955",
+  "test_diff": {
+    "path": "executie/R11_fisiere/A12/fd_windows/observare_descriptori.patch",
+    "sha256": "2801af4c94c9257adda31bd9dbb8230804c4b210b74c209a1026c5c63714a1d1",
+    "bytes": 3976
+  },
+  "control_source": {
+    "path": "executie/R11_fisiere/A12/fd_windows/FDWinCheck.java",
+    "sha256": "507a8254f2404903209210aac9782a3d8ab53e90564740e48fecc6170319a56a",
+    "bytes": 588
+  },
+  "fixture_note": "Same 109 bank assertions on both audited bundles, immutable two TSV files; negative perturbs a single amount in disposable test state. Application JAR unmodified; no production documents, PostgreSQL, network or ERP UI invoked.",
+  "rows": [
+    {
+      "target": "candidate",
+      "test": "control_fd",
+      "jar_sha": "82099cd7f436a8fb4d532d8a46b83c62ae0e0176d86d9345c08598299d01d558",
+      "rc": 0,
+      "ok": 0,
+      "fail": [],
+      "control_values": [
+        "held before/open/after = false/true/false"
+      ],
+      "observed_size": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/fd_windows/candidate_control_fd.log",
+        "sha256": "c473de065b056d4d3f46e60928708d5020cd03b66d31c970882dbd3b6edda447",
+        "bytes": 193
+      }
+    },
+    {
+      "target": "candidate",
+      "test": "clean",
+      "jar_sha": "82099cd7f436a8fb4d532d8a46b83c62ae0e0176d86d9345c08598299d01d558",
+      "rc": 0,
+      "ok": 109,
+      "fail": [],
+      "control_values": [],
+      "observed_size": 109,
+      "log": {
+        "path": "executie/R11_fisiere/A12/fd_windows/candidate_clean.log",
+        "sha256": "956a0ae33f9c90333411afc4de69ba7ec8b742d339ea6b44fd1a0a2499d1957f",
+        "bytes": 9540
+      }
+    },
+    {
+      "target": "candidate",
+      "test": "one_amount_mutation",
+      "jar_sha": "82099cd7f436a8fb4d532d8a46b83c62ae0e0176d86d9345c08598299d01d558",
+      "rc": 1,
+      "ok": 103,
+      "fail": [
+        [
+          15,
+          "FAIL T-04 EXACT → «248» (așteptat «249»)"
+        ],
+        [
+          17,
+          "FAIL T-06 GRUP_ZI rânduri / grupuri → «28/15» (așteptat «29/16»)"
+        ],
+        [
+          20,
+          "FAIL T-09 FARA_PERECHE_SAGA + FARA_PERECHE_EVA, Σ EVA_NrNote → «2+3 2415» (așteptat «0+0 2415»)"
+        ],
+        [
+          21,
+          "FAIL T-10 verdictele → «{DE_LAMURIT=90, EVA_INCOMPLET=3, IDENTIC=218, SAGA_INCOMPLET=2, SAGA_METODA=21}» (așteptat «{DE_LAMURIT=92, IDENTIC=218, SAGA_METODA=21}»)"
+        ],
+        [
+          22,
+          "FAIL T-11 cauzele → «{CONTRAPARTIDA_DIFERITA=28, GRUP_DESFACUT=47, IDENTIC=218, LINIE_FARA_NOTA=2, NOTA_FARA_LINIE=3, PAYOUT_FARA_RAPORT=14, RETUR_INREGISTRAT_CA_INCASARE=1, TAXA_INCLUSA_IN_PLATA=21}» (așteptat «{CONTRAPARTIDA_DIFERITA=29, GRUP_DESFACUT=48, IDENTIC=218, PAYOUT_FARA_RAPORT=14, RETUR_INREGISTRAT_CA_INCASARE=1, TAXA_INCLUSA_IN_PLATA=21}»)"
+        ],
+        [
+          29,
+          "FAIL T-13 Δ 2026-01 → «-96000.00» (așteptat «0.00»)"
+        ]
+      ],
+      "control_values": [],
+      "observed_size": 109,
+      "log": {
+        "path": "executie/R11_fisiere/A12/fd_windows/candidate_one_amount_mutation.log",
+        "sha256": "d5cfd4962cb0c499a332ec2c87b8d4371c637b5361e632a66c67bf1d5cc736e1",
+        "bytes": 9924
+      }
+    },
+    {
+      "target": "candidate",
+      "test": "clean_replayed",
+      "jar_sha": "82099cd7f436a8fb4d532d8a46b83c62ae0e0176d86d9345c08598299d01d558",
+      "rc": 0,
+      "ok": 109,
+      "fail": [],
+      "control_values": [],
+      "observed_size": 109,
+      "log": {
+        "path": "executie/R11_fisiere/A12/fd_windows/candidate_clean_replayed.log",
+        "sha256": "956a0ae33f9c90333411afc4de69ba7ec8b742d339ea6b44fd1a0a2499d1957f",
+        "bytes": 9540
+      }
+    },
+    {
+      "target": "mounted_copy",
+      "test": "control_fd",
+      "jar_sha": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "rc": 0,
+      "ok": 0,
+      "fail": [],
+      "control_values": [
+        "held before/open/after = false/true/false"
+      ],
+      "observed_size": 0,
+      "log": {
+        "path": "executie/R11_fisiere/A12/fd_windows/mounted_copy_control_fd.log",
+        "sha256": "c473de065b056d4d3f46e60928708d5020cd03b66d31c970882dbd3b6edda447",
+        "bytes": 193
+      }
+    },
+    {
+      "target": "mounted_copy",
+      "test": "clean",
+      "jar_sha": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "rc": 0,
+      "ok": 109,
+      "fail": [],
+      "control_values": [],
+      "observed_size": 109,
+      "log": {
+        "path": "executie/R11_fisiere/A12/fd_windows/mounted_copy_clean.log",
+        "sha256": "956a0ae33f9c90333411afc4de69ba7ec8b742d339ea6b44fd1a0a2499d1957f",
+        "bytes": 9540
+      }
+    },
+    {
+      "target": "mounted_copy",
+      "test": "one_amount_mutation",
+      "jar_sha": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "rc": 1,
+      "ok": 103,
+      "fail": [
+        [
+          15,
+          "FAIL T-04 EXACT → «248» (așteptat «249»)"
+        ],
+        [
+          17,
+          "FAIL T-06 GRUP_ZI rânduri / grupuri → «28/15» (așteptat «29/16»)"
+        ],
+        [
+          20,
+          "FAIL T-09 FARA_PERECHE_SAGA + FARA_PERECHE_EVA, Σ EVA_NrNote → «2+3 2415» (așteptat «0+0 2415»)"
+        ],
+        [
+          21,
+          "FAIL T-10 verdictele → «{DE_LAMURIT=90, EVA_INCOMPLET=3, IDENTIC=218, SAGA_INCOMPLET=2, SAGA_METODA=21}» (așteptat «{DE_LAMURIT=92, IDENTIC=218, SAGA_METODA=21}»)"
+        ],
+        [
+          22,
+          "FAIL T-11 cauzele → «{CONTRAPARTIDA_DIFERITA=28, GRUP_DESFACUT=47, IDENTIC=218, LINIE_FARA_NOTA=2, NOTA_FARA_LINIE=3, PAYOUT_FARA_RAPORT=14, RETUR_INREGISTRAT_CA_INCASARE=1, TAXA_INCLUSA_IN_PLATA=21}» (așteptat «{CONTRAPARTIDA_DIFERITA=29, GRUP_DESFACUT=48, IDENTIC=218, PAYOUT_FARA_RAPORT=14, RETUR_INREGISTRAT_CA_INCASARE=1, TAXA_INCLUSA_IN_PLATA=21}»)"
+        ],
+        [
+          29,
+          "FAIL T-13 Δ 2026-01 → «-96000.00» (așteptat «0.00»)"
+        ]
+      ],
+      "control_values": [],
+      "observed_size": 109,
+      "log": {
+        "path": "executie/R11_fisiere/A12/fd_windows/mounted_copy_one_amount_mutation.log",
+        "sha256": "d5cfd4962cb0c499a332ec2c87b8d4371c637b5361e632a66c67bf1d5cc736e1",
+        "bytes": 9924
+      }
+    },
+    {
+      "target": "mounted_copy",
+      "test": "clean_replayed",
+      "jar_sha": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "rc": 0,
+      "ok": 109,
+      "fail": [],
+      "control_values": [],
+      "observed_size": 109,
+      "log": {
+        "path": "executie/R11_fisiere/A12/fd_windows/mounted_copy_clean_replayed.log",
+        "sha256": "956a0ae33f9c90333411afc4de69ba7ec8b742d339ea6b44fd1a0a2499d1957f",
+        "bytes": 9540
+      }
+    }
+  ]
+}

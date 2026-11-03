@@ -1,0 +1,1522 @@
+{
+  "utc": "2026-11-02T22:14:23.679372+00:00",
+  "reviewer": "A11",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "scope": "Checklist de recepție următoare; păstrează planul aprobat și îl specializează pe resturile probate, fără a pretinde execuție.",
+  "priority": [
+    {
+      "id": "N01",
+      "owner": "A12",
+      "peer": "A11",
+      "objective": "Integrează lotul A11 04 și peer A01 V7 într-un Val_03/supliment nou. Val_02 rămâne imuabil.",
+      "acceptance": "Fiecare concluzie are SHA/pointer și domeniul exact; 6.709 fișiere și criteriile nu primesc automat credit suplimentar."
+    },
+    {
+      "id": "N02",
+      "owner": "COORDONATOR",
+      "peer": "A11/A01",
+      "objective": "Recepționează separat consolidarea originalelor55 + T58 V10 și adaptorul Node cu cele 5 controale declarate.",
+      "acceptance": "Rehash surse/runner; confirmare fără duplicate; verifică selecția uneltelor și limitele clonei. Cele 1.062 callPassed / 16 callFailed / 5 setupFailed / 51 skipped și 43 exit0 sunt declarații neadmise în Val_02."
+    },
+    {
+      "id": "N03",
+      "owner": "A01",
+      "peer": "A08",
+      "objective": "Demonstrează dacă redirectul este controlabil pe ruta montată și verifică sesiunile/logout cu revocare server.",
+      "acceptance": "Dovadă pe copie izolată cu header/cookie sintetice, redirect intern/extern, token valid/vechi/invalid, fără date reale."
+    },
+    {
+      "id": "N04",
+      "owner": "A08",
+      "peer": "A06",
+      "objective": "Urmărește identitatea CPP/CPA din catalogul importat, checkout și outbox până la C_OrderLine.M_Product_ID; probează separat profilul după checkout anonim și logout.",
+      "acceptance": "Coliziuni ID/SKU/EAN/UPC în ambele ordini, total independent, ID persistent, fără atribuire falsă a efectului ERP din JSON local."
+    },
+    {
+      "id": "N05",
+      "owner": "A05",
+      "peer": "A03",
+      "objective": "Reia concurența BOM prin intrarea nativă, versiune rețetă și locatori; extinde la cutii/manoperă și G1/G3.",
+      "acceptance": "Cantități conservate la ambalare/dezambalare concurentă; G2 fără stoc contabil duplicat; cutii/costuri exact o dată; Fact_Acct real în clonă."
+    },
+    {
+      "id": "N06",
+      "owner": "A07",
+      "peer": "A06",
+      "objective": "Acoperă progresul lotului de confirmări și contractul câmpurilor cheii de document.",
+      "acceptance": "Documentul eligibil 2001 nu rămâne înfometat de prefix; tuple distincte nu se confundă. Clarifică acceptarea separatorului | la canal; retry idempotent și conexiune nouă."
+    },
+    {
+      "id": "N07",
+      "owner": "A09",
+      "peer": "A02",
+      "objective": "Verifică ruta bootstrap existent/new și cabinet explicit/absent, autoritatea actorului și efectul dry-run.",
+      "acceptance": "Dry-run nu mută client_map; eșecul scrierii nu raportează succes; manager_uuid/contextul lipsă refuzat după contractul nativ."
+    },
+    {
+      "id": "N08",
+      "owner": "A02",
+      "peer": "A10",
+      "objective": "Probează coliziunea AD_Sequence/DocType cu identitate business pe clonă nativă și upgrade repetat.",
+      "acceptance": "Nicio legătură la altă serie preexistentă; idempotent; document real test emis cu seria corectă; DDL reparat numai în comparator declarat."
+    },
+    {
+      "id": "N09",
+      "owner": "A03",
+      "peer": "A04",
+      "objective": "Execută GeneratorDeclaratie și atașamentul cu payload D112 complet, pentru perioadele și versiunile efective; verifică separat consumatorii XSD.",
+      "acceptance": "Namespace corect nu echivalează acceptarea payloadului. DUK + EVA_Declaratie/AD_Attachment persistente; nicio extrapolare a neutralității XSD dintr-o singură cale."
+    },
+    {
+      "id": "N10",
+      "owner": "A04",
+      "peer": "A03",
+      "objective": "Reproduce afișarea SPV pentru facturi cu același număr/furnizor în ani diferiți prin ZK și PO.",
+      "acceptance": "Celula, selecția și legătura DB indică aceeași factură; guardul existent al reassocierii rămâne verificat separat."
+    },
+    {
+      "id": "N11",
+      "owner": "A10",
+      "peer": "A02",
+      "objective": "Verifică readiness în build/deploy nativ izolat, cu bundle OSGi și eroare reală controlată.",
+      "acceptance": "Fără HTTP sănătos după prag rezultatul este eșec verificabil, starea JAR/restaurare explicită; nu deduce start real din Docker simulat."
+    },
+    {
+      "id": "N12",
+      "owner": "A12",
+      "peer": "A11",
+      "objective": "Extinde criteriile nominale neasociate; nu cere utilizatorului data istorică lipsă deja declarată nedocumentată.",
+      "acceptance": "Cerință→actor→metodă→contraexemplu→efect;5 taskuri / 12 criterii actuale rămân parțiale. ID-uri canonic lipsă nu se inventează; subtaskurile istorice cu sufix se păstrează ca atare."
+    }
+  ],
+  "mandatory_gates": [
+    {
+      "id": "G01",
+      "check": "Compară HEAD, bloburile, bundle-ul activ, runtime-ul nativ, AD și schema; toate variantele observate sunt numite separat. Nu transfera rezultatul R10 sau pe cel al unui JAR nemontat.",
+      "evidence": "Git tree SHA; manifest bundle activ; versiune native; AD_Process/Form/Window binding; schema înainte/după.",
+      "reject_if": "Lipsea o identitate sau există un mismatch nedeclarat."
+    },
+    {
+      "id": "G02",
+      "check": "Leagă cerința originală și subcondiția de actor, rol, cabinet, firmă, canal, gestiune și locator. Păstrează ID-ul canonic din registru.",
+      "evidence": "Task + criteriu + text etalon + pointer sursă, rol și context mascat.",
+      "reject_if": "Un alias/număr este inventat, o probă componentă devine verdict integral sau criteriul nu are oracol."
+    },
+    {
+      "id": "G03",
+      "check": "Identifică întâi mecanismul nativ existent și traseul utilizat efectiv; invocă metoda nativă în clonă când proba pretinde efect iDempiere.",
+      "evidence": "Apelant frontend/API, metodă/clasă nativă, adaptare EVA și tabele consumate; comparație cu metoda existentă.",
+      "reject_if": "Dublura, SQL-ul ori JSON-ul sintetic sunt prezentate drept runtime ZK/PO/Fact_Acct."
+    },
+    {
+      "id": "G04",
+      "check": "Reproduce același caz prin intrarea normală frontend și prin backend/API; verifică stările de eroare, lipsa datelor și controlul server la apel direct.",
+      "evidence": "DOM/captură mascată, cerere/răspuns, trace/correlation ID și interdicție backend.",
+      "reject_if": "Numai butonul este ascuns; testul acceptă500 ca funcționare completă; scenariul nu ajunge la handler."
+    },
+    {
+      "id": "G05",
+      "check": "Măsoară efectul persistent după commit și conexiune nouă, apoi verifică traseul invers la document/comandă/actor.",
+      "evidence": "Aceleași chei înainte/după/în conexiune nouă; tranzacție; tabele native; deosebește JSON local de ERP.",
+      "reject_if": "Rezultatul este numai log, status200 sau stare în memorie."
+    },
+    {
+      "id": "G06",
+      "check": "Include contraexemplul independent și controlul pozitiv; unde contează, concurență cu două sesiuni, retry, duplicate, rollback și compensare.",
+      "evidence": "Oracol calculat independent; caz refuzat fără efect; mutație minimală și revenire la control.",
+      "reject_if": "Testul repetă implementarea sau eșuează numai din cauza mediului."
+    },
+    {
+      "id": "G07",
+      "check": "Demonstrează predarea dintre doi responsabili și acceptarea de către consumator pe aceleași chei, inclusiv confirmare/refuz și compensare.",
+      "evidence": "handoff_forward + handoff_reverse ale contractului aprobat, cu semnalele terminale și citire persistentă.",
+      "reject_if": "Verigile sunt probate pe date distincte fără continuitate."
+    },
+    {
+      "id": "G08",
+      "check": "Clasifică probele originale, calibrările mediului și defectele produsului separat. Numără fișiere, cazuri, aserțiuni și criterii pe axe distincte.",
+      "evidence": "Rezultate nominale, setup/call/teardown, skip/nonzero, oracol și precondiție.",
+      "reject_if": "Exit0 este echivalat cu toate cazurile verificate; originalele sunt alterate fără declarație."
+    },
+    {
+      "id": "G09",
+      "check": "Execută mutațiile numai în clonă sintetică; elimină resursele create și dovedește revenirea lor.",
+      "evidence": "Fixtură, canari, conexiuni, servicii/porturi și fișiere temporare înainte/după.",
+      "reject_if": "Producția a fost scrisă, cleanupul lipsește sau e presupus."
+    },
+    {
+      "id": "G10",
+      "check": "A12 face legătura semantică nominală, peer-ul domeniului recitește contraexemplul, iar A11 verifică independent recepția.",
+      "evidence": "Manifest SHA nou, raport versionat, matrice per criteriu și verdict A11 cu limite.",
+      "reject_if": "Raportul vechi este rescris sau nota10/10 este acordată cu ramuri/contracte încă neexecutate."
+    }
+  ],
+  "remaining_contracts": [
+    {
+      "id": "D01",
+      "objective": "Routele cabinet/firmă/canal, consola și drepturile pe canal",
+      "owner": "A01",
+      "peer": "A08",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/0"
+      },
+      "tasks": [
+        {
+          "technical": "T232",
+          "canonical": "P01.C13.T0001",
+          "eligible_now": false,
+          "current_state": "implementare",
+          "dossier_R10_if_any": null,
+          "dossier_sha": null,
+          "registry_pointer": "/811"
+        },
+        {
+          "technical": "T314",
+          "canonical": "P01.C10.T0015",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T314.json",
+          "dossier_sha": "23ad9245464e155fc00fc5b1f06c84cd388d76884d0767602a38e859fd6c28c2",
+          "registry_pointer": "/924"
+        },
+        {
+          "technical": "T343",
+          "canonical": "P01.C10.T0025",
+          "eligible_now": false,
+          "current_state": "audit",
+          "dossier_R10_if_any": null,
+          "dossier_sha": null,
+          "registry_pointer": "/953"
+        }
+      ],
+      "remaining_specific": "Ruta nativă cu doi utilizatori, două cabinete și sesiuni ZK, receptorul pe eroare și dreptul la firmă.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Operator A, comisionar C1, administrator S şi utilizator revocat din B.",
+        "fixture": "A/A1 şi B/B1 au fiecare Magazin1, două stări de cookie şi două roluri.",
+        "preconditions": "Proxy, backend şi webui sunt pe SHA identificat; client/rol/organizație din sesiunea nativă se confirmă.",
+        "frontend_backend_db_execution": "GET /A/A1/Magazin1; navigare normală, deep link webui, POST admin cu CSRF; reluare după revocare; citește proxy, backend şi AD_Session.",
+        "negative_mutant": "CSRF lipsă/altă sesiune; cookie vechi; acces ID real al firmei B; separator de cale codificat; return URL extern.",
+        "expected_acceptance_oracle": "Autorizația validă 2xx; cererile neautorizate 401/403 sau 404 dacă ruta ascunde explicit prezența; zero date din B şi zero operații de administrare ale actorului respins.",
+        "handoff_forward": {
+          "producer": "A01",
+          "consumer": "A08",
+          "expected_receipt_and_terminal": "A01 predă A08 un context cabinet→firmă→canal confirmat şi dovada refuzurilor."
+        },
+        "handoff_reverse": {
+          "producer": "A08",
+          "consumer": "A01",
+          "trace_back_and_reversal": "A08 remontează din resursa vizibilă/CSV spre rol, canonical CUI şi sesiune; aceeaşi resursă nu mai apare după revocare."
+        },
+        "before_after_retry_keys_and_observation": "ID job, AD_User/Role/Client, capture DOM, cookie names mascate, request și rezultat înainte/după/refuz/retry.",
+        "cleanup_required": "Revocă tokenuri şi fixtures, golește cache-ul sintetic, închide sesiunile proprii.",
+        "evidence_id_template": "R11-D01-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D02",
+      "objective": "CPP/CPA permanente, mai multe G1 și G2, unitate şi set cumpărat",
+      "owner": "A05",
+      "peer": "A03",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/1"
+      },
+      "tasks": [
+        {
+          "technical": "T354",
+          "canonical": "P01.C03.T0028",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T354.json",
+          "dossier_sha": "7e8f1fd4509e72e7b33ac96f4231d1d0321d30dd5bfbf96cc9c32b8579b894b1",
+          "registry_pointer": "/964"
+        },
+        {
+          "technical": "T366",
+          "canonical": "P01.C03.T0030",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T366.json",
+          "dossier_sha": "7dcd3015e6cb05abc8744563b0e432ca7c94636f039a790579b6408f79a346f9",
+          "registry_pointer": "/976"
+        },
+        {
+          "technical": "T325",
+          "canonical": "P01.C03.T0011",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T325.json",
+          "dossier_sha": "f57aeb9d5437773e3faacc424d8f02bfbc9fdcd9cebcca946895baf201389a01",
+          "registry_pointer": "/935"
+        }
+      ],
+      "remaining_specific": "Cheia unică M_Product_ID CPP/CPA, două G1 și două G2 până la documente; persistența defectului magazinului este JSON.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Admin catalog, gestionar G2.1 şi contabil G1.1.",
+        "fixture": "2 G1, 2 G2 cu locatori; P1 în CPP şi CPA, SKU şi EAN coincid; set cumpărat indivizibil şi set numai CPA.",
+        "preconditions": "M_Product, M_Warehouse, M_Locator și roluri separate, perioadă deschisă, snapshot.",
+        "frontend_backend_db_execution": "Taburi de categorii gestiuni→produs CPP/CPA→configură rețetă→inactivează→încearcă noi alocări simultane; verifică AD şi stoc.",
+        "negative_mutant": "Copiază cod CPP retras pe CPA, locator din alt G2 sau set indivizibil la dezasamblare.",
+        "expected_acceptance_oracle": "2 identități interne şi coduri permanente; 0 reutilizări după inactivare, zero cost contabil din simpla configurare CPA, zero selecții incompatibile care produc document.",
+        "handoff_forward": {
+          "producer": "A05",
+          "consumer": "A03",
+          "expected_receipt_and_terminal": "A05 livrează A03 codurile/ID distincte, tip de gestiune şi legătura rețetei; A03 confirmă zero Fact_Acct pentru configurare."
+        },
+        "handoff_reverse": {
+          "producer": "A03",
+          "consumer": "A05",
+          "trace_back_and_reversal": "Din orice cost sau stoc pornește la M_Product_ID/gestiune/locator, apoi la identitatea CPP sau CPA."
+        },
+        "before_after_retry_keys_and_observation": "Stoc, număr de coduri toate inclusiv inactive, document şi note în oricare schemă, înainte/după/retry.",
+        "cleanup_required": "Inversează operații de test documentate şi restaurează copia, fără reciclat codul inactiv.",
+        "evidence_id_template": "R11-D02-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D03",
+      "objective": "Asamblare/dezasamblare în G2, cutii şi manoperă exact o dată în G1",
+      "owner": "A05",
+      "peer": "A03",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/2"
+      },
+      "tasks": [
+        {
+          "technical": "T354",
+          "canonical": "P01.C03.T0028",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T354.json",
+          "dossier_sha": "7e8f1fd4509e72e7b33ac96f4231d1d0321d30dd5bfbf96cc9c32b8579b894b1",
+          "registry_pointer": "/964"
+        },
+        {
+          "technical": "T366",
+          "canonical": "P01.C03.T0030",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T366.json",
+          "dossier_sha": "7dcd3015e6cb05abc8744563b0e432ca7c94636f039a790579b6408f79a346f9",
+          "registry_pointer": "/976"
+        },
+        {
+          "technical": "T325",
+          "canonical": "P01.C03.T0011",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T325.json",
+          "dossier_sha": "f57aeb9d5437773e3faacc424d8f02bfbc9fdcd9cebcca946895baf201389a01",
+          "registry_pointer": "/935"
+        }
+      ],
+      "remaining_specific": "MPPProductBOM/PO cu două sesiuni native, locatorul, cutia și 0,5h în G1 o singură dată, stornare și G3.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Gestionar G2.1, contabil G1.1 şi operator fără drept la G2.2.",
+        "fixture": "1 CPP.P1 + cutie A1 2 LEI + 0,5 ore ×20 LEI → 1 CPA.P1. S1 conține 6×P1/P2/P3, toate în G2 sunt S1.",
+        "preconditions": "Selectează BOM/production native aplicabil, UOM, tarif, monedă, política și data costului.",
+        "frontend_backend_db_execution": "Nota de asamblare/dezasamblare în G2→locator nou pentru componente→pick pe SO→document contabil eligibil G1 și postare; rulează invers.",
+        "negative_mutant": "Operator străin, tip gestiune incompatibil, confirmare duplicată şi proces în interval închis.",
+        "expected_acceptance_oracle": "Pentru operația P1 imputată în fixture, 2+10=12 lei o singură dată; 6 buc din fiecare componentă la dezasamblarea S1, fără al doilea stoc contabil al setului reversibil.",
+        "handoff_forward": {
+          "producer": "A05",
+          "consumer": "A03",
+          "expected_receipt_and_terminal": "A05 predă notă, rețetă, cutie şi pontaj către A03, care confirmă debit/credit în schema fixată."
+        },
+        "handoff_reverse": {
+          "producer": "A03",
+          "consumer": "A05",
+          "trace_back_and_reversal": "A03 remontează Fact_Acct/cost→G1→nota G2→rețetă şi locator, până la sursa orei de muncă."
+        },
+        "before_after_retry_keys_and_observation": "M_Transaction, M_CostDetail, Fact_Acct, cantități/valoare per articol înainte/după/retry/storno, by client and ASI.",
+        "cleanup_required": "Storno cu regula documentată pentru ambalaj consumat; reconciliază valorile eligibile şi restaurează snapshotul.",
+        "evidence_id_template": "R11-D03-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D04",
+      "objective": "G3 disponibil alternativ, competiția între canale şi două G1",
+      "owner": "A06",
+      "peer": "A05",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/3"
+      },
+      "tasks": [
+        {
+          "technical": "T354",
+          "canonical": "P01.C03.T0028",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T354.json",
+          "dossier_sha": "7e8f1fd4509e72e7b33ac96f4231d1d0321d30dd5bfbf96cc9c32b8579b894b1",
+          "registry_pointer": "/964"
+        },
+        {
+          "technical": "T352",
+          "canonical": "P01.C10.T0028",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T352.json",
+          "dossier_sha": "30ae790b7bfadfd5b8944aa69b7d4926c7dcaa0ce4940f37b87948eb1b1f6f5c",
+          "registry_pointer": "/962"
+        },
+        {
+          "technical": "T216",
+          "canonical": "P01.C10.T0007",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T216.json",
+          "dossier_sha": "0259c87ca0375f537eb9f02c82df3e5eb976cf801c71adf73de397a08a5cce9a",
+          "registry_pointer": "/771"
+        }
+      ],
+      "remaining_specific": "Combinații împărțite între canale și două G1, ordine persistente, rezervări și rollback la candidatul R11.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Comisionar C1, comisionar C2 şi gestionar; catalog doar citire pe site.",
+        "fixture": "P1=P2=P3=120; S1=6/6/6, S2=3/3/3. Prag separat 6 vs 5 componente; 4 rezervate şi solicitare încă 2; G1.1, G1.2.",
+        "preconditions": "Definește politica publicării, backorder nativ distinct; izolarea canalelor şi soft reservations.",
+        "frontend_backend_db_execution": "Publică catalog→comenzi concurente în două canale→două SO persistente→rezervări/lot→publicare după anulare; repetă în trei ordini.",
+        "negative_mutant": "P3 lipsă, comandă PO IsSOTrx=N, G1.2 fără componente, aceeași cheie POST de două ori versus acelaşi CO de două ori.",
+        "expected_acceptance_oracle": "Inițial alternativ 20 S1/40 S2; 10 S1+10 S2 consumă 90 din fiecare, rămân 30 → 5/10 seturi alternative. La limita 6/5 măsoară separat regula comercială și politica nativă; zero promisiuni duble.",
+        "handoff_forward": {
+          "producer": "A06",
+          "consumer": "A05",
+          "expected_receipt_and_terminal": "A06 trimite cele două ID C_Order, sursa şi rezervele per articole/G1; A05 confirmă cantitatea pe fiecare locator."
+        },
+        "handoff_reverse": {
+          "producer": "A05",
+          "consumer": "A06",
+          "trace_back_and_reversal": "A05 remontează rezervarea la comandă şi canal; anularea unei comenzi eliberează numai propriile unități."
+        },
+        "before_after_retry_keys_and_observation": "M_StorageReservation/OnHand, C_OrderLine, payload ofertă şi timestamp/overlap; compară duplicate POST vs CO fără dublare.",
+        "cleanup_required": "Anulează SO şi rezervări, confirmă stocul inițial şi republică ambele canale; închide workerul test.",
+        "evidence_id_template": "R11-D04-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D05",
+      "objective": "T216 integritatea comenzii de canal până la aviz",
+      "owner": "A08",
+      "peer": "A07",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/4"
+      },
+      "tasks": [
+        {
+          "technical": "T216",
+          "canonical": "P01.C10.T0007",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T216.json",
+          "dossier_sha": "0259c87ca0375f537eb9f02c82df3e5eb976cf801c71adf73de397a08a5cce9a",
+          "registry_pointer": "/771"
+        },
+        {
+          "technical": "T220",
+          "canonical": "P01.C10.T0011",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T220.json",
+          "dossier_sha": "6e78ea47ab5f39677ef4b18b0157aa8d2249e65548fa9111ae07c861de3ef15a",
+          "registry_pointer": "/777"
+        },
+        {
+          "technical": "T352",
+          "canonical": "P01.C10.T0028",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T352.json",
+          "dossier_sha": "30ae790b7bfadfd5b8944aa69b7d4926c7dcaa0ce4940f37b87948eb1b1f6f5c",
+          "registry_pointer": "/962"
+        }
+      ],
+      "remaining_specific": "Roluri, proces Validez/EXCLUS/ROȘU nativ; același ID până la aviz și zero efect cross-client.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Comisionar al canalului, gestionar în ERP, responsabil vânzări.",
+        "fixture": "Origine S_A; Oak qty2 ×12,10=24,20; own=true, SKU, F≠L și ID extern stabil.",
+        "preconditions": "Canal autorizat, stoc G2, regim fiscal de fixture, politica livrare, roluri; Q şi P93 nu țin loc de origine curentă.",
+        "frontend_backend_db_execution": "Checkout→API→EVA_ComandaSite/linie→validare→C_Order/Line→pick→M_InOut CO; verifică în site doar catalog/comandă/situații; admin numai ERP.",
+        "negative_mutant": "items lipsă, SKU schimbat la total identic, own=false, actor alt canal, timeout între insert antet şi linie.",
+        "expected_acceptance_oracle": "1 antet/1 linie, Oak qty2, 24,20, 1 SO şi 0 duplicate. La V01/V08 fără SO facturarea şi plata rămân condiționate pentru acea origine.",
+        "handoff_forward": {
+          "producer": "A08",
+          "consumer": "A07",
+          "expected_receipt_and_terminal": "A08 predă A07 origine/canal/SO/linie; A07 confirmă avizul aceleiaşi origini; folosește cititorul DetaliuComanda.din dacă îndeplinește contractul."
+        },
+        "handoff_reverse": {
+          "producer": "A07",
+          "consumer": "A08",
+          "trace_back_and_reversal": "A07 remontează aviz→SO→staging→JSON→actor şi F/L; explică lipsa unei linii fără a o inventa din alt document."
+        },
+        "before_after_retry_keys_and_observation": "DOM, route şi request IDs, EVA_ComandaSite*, C_Order*, M_InOut*, stoc înainte/după/retry.",
+        "cleanup_required": "Anulează documentele test prin DocAction în ordinea dependenţelor şi reconciliază stocul; oprește mock.",
+        "evidence_id_template": "R11-D05-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D06",
+      "objective": "Aviz, ramburs, plată şi întoarcerea financiară",
+      "owner": "A07",
+      "peer": "A03",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/5"
+      },
+      "tasks": [
+        {
+          "technical": "T216",
+          "canonical": "P01.C10.T0007",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T216.json",
+          "dossier_sha": "0259c87ca0375f537eb9f02c82df3e5eb976cf801c71adf73de397a08a5cce9a",
+          "registry_pointer": "/771"
+        },
+        {
+          "technical": "T220",
+          "canonical": "P01.C10.T0011",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T220.json",
+          "dossier_sha": "6e78ea47ab5f39677ef4b18b0157aa8d2249e65548fa9111ae07c861de3ef15a",
+          "registry_pointer": "/777"
+        },
+        {
+          "technical": "T171",
+          "canonical": "P01.C04.T0005",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T171.json",
+          "dossier_sha": "955aabdf25dc72988cbda003001046d423ab9c4a7aa5d739b378f8eca91b9a26",
+          "registry_pointer": "/684"
+        }
+      ],
+      "remaining_specific": "Document nativ pe aceeași comandă, AWB, încasare și confirmare pe canal; lotul A07 începe TRIMIS în fixture.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Gestionar, validator vânzări, contabil, simulator curier şi comisionar numai titular.",
+        "fixture": "2 bucăți, AWB sintetic, 100 lei ramburs −5 comision=95 net; retur separat 1 buc; TVA 21% stabilită ca fixture pentru factura benchmark.",
+        "preconditions": "Configurează facturare la validare sau după livrare fără incident; perioade și schemă deschise.",
+        "frontend_backend_db_execution": "Aviz CO→aprobare auto/manuală→AWB→livrare→factură→extras/alocare→retur/storno.",
+        "negative_mutant": "Callback duplicat/inversat, retur înainte de livrare, facturi egale ambigue, retur qty3 din 2.",
+        "expected_acceptance_oracle": "Un AWB per colet; o factură eligibilă; 100/95/5 reconciliate şi regula de retur conform ramurii; 0 postări duble sau alocări în altă origine.",
+        "handoff_forward": {
+          "producer": "A07",
+          "consumer": "A03",
+          "expected_receipt_and_terminal": "A07 trimite ID livrare/colet, factură, plată, RMA şi credit către A03."
+        },
+        "handoff_reverse": {
+          "producer": "A03",
+          "consumer": "A07",
+          "trace_back_and_reversal": "A03 pornește din extras/Fact_Acct, revine la factură, aviz, SO, canal şi proprietar; restituirea rămâne legată de plata inițială."
+        },
+        "before_after_retry_keys_and_observation": "M_InOut/MA, C_Invoice/Tax, C_BankStatementLine, C_Allocation*, Fact_Acct per schemă, before/after/replay/credit.",
+        "cleanup_required": "Storno/dezalocare în ordinea nativă şi restaurarea perioadelor/curierului sintetic.",
+        "evidence_id_template": "R11-D06-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D07",
+      "objective": "NIR, recepție parțială şi concilierea furnizorului",
+      "owner": "A04",
+      "peer": "A05",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/6"
+      },
+      "tasks": [
+        {
+          "technical": "T227",
+          "canonical": "P01.C11.T0005",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T227.json",
+          "dossier_sha": "5cb12e4c0a99084bfbb847b30f4180dfbc89cc1f646c750cad8f5b0ee207ee21",
+          "registry_pointer": "/800"
+        },
+        {
+          "technical": "T325",
+          "canonical": "P01.C03.T0011",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T325.json",
+          "dossier_sha": "f57aeb9d5437773e3faacc424d8f02bfbc9fdcd9cebcca946895baf201389a01",
+          "registry_pointer": "/935"
+        },
+        {
+          "technical": "T329",
+          "canonical": "P01.C03.T0015",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T329.json",
+          "dossier_sha": "7bfe5b567e6829a7b4f9aa0576f2e84a1725232b797952dc1d5a8f5a3ca7bf38",
+          "registry_pointer": "/939"
+        }
+      ],
+      "remaining_specific": "Selectarea/confirmarea SPV în ZK și PO, NIR, cost și restul importurilor; proba izolată măsoară afișarea și garda.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Cumpărător PO, gestionar recepție, contabil; rol fără confirmare.",
+        "fixture": "PO 12 buc la 10 USD; recepție 5 apoi 7, loturi în două locatoare. Caz separat de NIR istoric cu 7/3 şi preț zero valid.",
+        "preconditions": "Moneda USD originală, curs/data, toleranță şi cost fixture; zone G1, document sursă şi perioadă deschisă.",
+        "frontend_backend_db_execution": "PO→M_InOut receipt/MA→NIR pe produs→MatchPO/MatchInv→factură furnizor şi postare/reversare.",
+        "negative_mutant": "Un preț nevalid pe o singură linie, qty13, lot din altă firmă, retry aceeaşi recepție.",
+        "expected_acceptance_oracle": "5+7=12, zero recepție în plus; liniile păstrează moneda/discounturile proprii; 7/3 control 370 în fixture istorică, 530 cu gol/invalid rămâne abatere de investigat.",
+        "handoff_forward": {
+          "producer": "A04",
+          "consumer": "A05",
+          "expected_receipt_and_terminal": "A04 predă A05 ID PO/NIR/lot şi gestiune; A03 primeşte numai costurile eligibile."
+        },
+        "handoff_reverse": {
+          "producer": "A05",
+          "consumer": "A04",
+          "trace_back_and_reversal": "Din tranzacția de magazie şi ASI, A05 revine la M_InOutLine, PO, Matching şi cost/monedă."
+        },
+        "before_after_retry_keys_and_observation": "Cantități PO/recepționate/potrivite; C_Invoice/Fact_Acct per scheme şi linii, DOM/PDF moneda, ordinea la retry/storno.",
+        "cleanup_required": "Inversează prin documente native şi restaurează soldul de stoc şi furnizor, perioadele şi rolurile.",
+        "evidence_id_template": "R11-D07-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D08",
+      "objective": "T329 postare multi-schemă, lot, confirmare concurentă T366",
+      "owner": "A05",
+      "peer": "A03",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/7"
+      },
+      "tasks": [
+        {
+          "technical": "T329",
+          "canonical": "P01.C03.T0015",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T329.json",
+          "dossier_sha": "7bfe5b567e6829a7b4f9aa0576f2e84a1725232b797952dc1d5a8f5a3ca7bf38",
+          "registry_pointer": "/939"
+        },
+        {
+          "technical": "T366",
+          "canonical": "P01.C03.T0030",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T366.json",
+          "dossier_sha": "7dcd3015e6cb05abc8744563b0e432ca7c94636f039a790579b6408f79a346f9",
+          "registry_pointer": "/976"
+        },
+        {
+          "technical": "T325",
+          "canonical": "P01.C03.T0011",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T325.json",
+          "dossier_sha": "f57aeb9d5437773e3faacc424d8f02bfbc9fdcd9cebcca946895baf201389a01",
+          "registry_pointer": "/935"
+        }
+      ],
+      "remaining_specific": "T329/T366 cu două scheme, Fact_Acct.ASI, rollback și concurență pe noul candidat.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Numărător, confirmator diferit, contabil; operator 102/103.",
+        "fixture": "20→22 respectiv20→18, ASI L real; USD schema101 şi EUR200000. Martor numai USD şi control cu ambele scheme corect configurate.",
+        "preconditions": "Perioada specifică deschisă/blocată, plot cost/ASI verificat; proces normal şi observator tranzacțional aprobat în clonă.",
+        "frontend_backend_db_execution": "Inventar per produs→aprobare→CO/Posted→M_Transaction→Fact_Acct→reversal. Citește M_AttributeSetInstance_ID chiar din fiecare Fact_Acct.",
+        "negative_mutant": "Autoconfirmare, dublu click concurent, strat EUR absent, diferență zero, reverse în perioadă închisă.",
+        "expected_acceptance_oracle": "Exact un document per diferență eligibilă. La refuz între scheme, 0 postări comise în ambele, distinct de inserturile încercate. La succes, ASI fizic verificat 8/8 în fixture sau numitorul nou justificat; retry fără efect suplimentar.",
+        "handoff_forward": {
+          "producer": "A05",
+          "consumer": "A03",
+          "expected_receipt_and_terminal": "A05 dă A03 client/org/document/linie/locator/ASI; A03 confirmă costul şi balanța fiecărei scheme."
+        },
+        "handoff_reverse": {
+          "producer": "A03",
+          "consumer": "A05",
+          "trace_back_and_reversal": "Din nota/rollback identifică exact linia și documentul depozitului; QA nu devine criteriu contabil."
+        },
+        "before_after_retry_keys_and_observation": "Actor/PK/delta cantitate/copii Fact_Acct înainte, după şi retry; captură de tranzacție vs SELECT persistent şi reversal.",
+        "cleanup_required": "Stornează documentele eligibile în perioadă deschisă; îndepărtează observatorul test, reconciliază soldurile şi restituie clona.",
+        "evidence_id_template": "R11-D08-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D09",
+      "objective": "T330, setul exact de teste din export şi autorizația slotului",
+      "owner": "A10",
+      "peer": "A05",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/8"
+      },
+      "tasks": [
+        {
+          "technical": "T330",
+          "canonical": "P01.C03.T0016",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T330.json",
+          "dossier_sha": "614d38933fac2c4c9ae32309c009d09e55c898d69a13239d64e0ad730f9f360d",
+          "registry_pointer": "/940"
+        },
+        {
+          "technical": "T325",
+          "canonical": "P01.C03.T0011",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T325.json",
+          "dossier_sha": "f57aeb9d5437773e3faacc424d8f02bfbc9fdcd9cebcca946895baf201389a01",
+          "registry_pointer": "/935"
+        },
+        {
+          "technical": "T329",
+          "canonical": "P01.C03.T0015",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T329.json",
+          "dossier_sha": "7bfe5b567e6829a7b4f9aa0576f2e84a1725232b797952dc1d5a8f5a3ca7bf38",
+          "registry_pointer": "/939"
+        }
+      ],
+      "remaining_specific": "Toate clasele oficiale T330 și sesiunea §61, build/OSGi complet; gărzile CLI au Docker și ceas simulate.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Operator §61 şi A05, A11 verificator nominal.",
+        "fixture": "Git archive al candidatului, runner oficial cu --network none, volume numai sintetice; 282+18+Garda=301 este etalon R10, numitorul candidat se recalculează.",
+        "preconditions": "Permis înaintea pornirii, codul/artefactul de export fixat și accept pentru datele sintetice, zero acces comercial.",
+        "frontend_backend_db_execution": "Git archive→build→verificator clase→toate suitele contab/saga/Garda→compară efectele BD.",
+        "negative_mutant": "Canar textual care trebuie detectat, clasă absentă, afirmație LIPSA>0 cu exit0 şi refuz de slot.",
+        "expected_acceptance_oracle": "O poziție per membru oficial, 0 omisiuni în numitor, rezultate nominale şi efecte până la capăt. Dacă nu obține slot, 0 execuții oficiale, 0 eșecuri de produs/skip inventate; probele JVM alternative rămân separate.",
+        "handoff_forward": {
+          "producer": "A10",
+          "consumer": "A05",
+          "expected_receipt_and_terminal": "A10 transmite numitor/sursă/artefact/log la A05; A05 răspunde pentru fiecare clasă şi mutația specifică."
+        },
+        "handoff_reverse": {
+          "producer": "A05",
+          "consumer": "A10",
+          "trace_back_and_reversal": "A05 revine de la rezultat la sursă/commit, iar de la actul WMS la operaţia testată; A11 verifică sensul invers."
+        },
+        "before_after_retry_keys_and_observation": "Fiecare log are SHA/cod/linie, before/after/retry operațional; trei JAR distincte: upstream, Git şi instalat; lease şi număr resurse proprii.",
+        "cleanup_required": "Închide lease, containere, rețele, volume; confirmă 0 resurse proprii inclusiv la limită.",
+        "evidence_id_template": "R11-D09-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D10",
+      "objective": "UX și marketing: catalog, template Cesiro, preview marketplace, comisionar și stare goală",
+      "owner": "A08",
+      "peer": "A09",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/9"
+      },
+      "tasks": [
+        {
+          "technical": "T314",
+          "canonical": "P01.C10.T0015",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T314.json",
+          "dossier_sha": "23ad9245464e155fc00fc5b1f06c84cd388d76884d0767602a38e859fd6c28c2",
+          "registry_pointer": "/924"
+        },
+        {
+          "technical": "T343",
+          "canonical": "P01.C10.T0025",
+          "eligible_now": false,
+          "current_state": "audit",
+          "dossier_R10_if_any": null,
+          "dossier_sha": null,
+          "registry_pointer": "/953"
+        },
+        {
+          "technical": "T351",
+          "canonical": "P01.C10.T0027",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T351.json",
+          "dossier_sha": "7e577bc13dcb0f5024c9be8ef04626560b94ef52f920a57fc2372a4e6c821ef3",
+          "registry_pointer": "/961"
+        },
+        {
+          "technical": "T352",
+          "canonical": "P01.C10.T0028",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T352.json",
+          "dossier_sha": "30ae790b7bfadfd5b8944aa69b7d4926c7dcaa0ce4940f37b87948eb1b1f6f5c",
+          "registry_pointer": "/962"
+        }
+      ],
+      "remaining_specific": "Canal eMAG/Trendyol, comisionar, administrare exclusiv ERP și intrarea normală până la starea serverului.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Resp. canal, comisionar C1, gestionarul ERP şi rol revocat.",
+        "fixture": "Două site-uri Docker, /A/A1/Magazin1, /A/A1/eMag şi preview Trendyol; canal gol vs 137 rânduri, 390/1366 px, tastatură.",
+        "preconditions": "Montarea fiecărui site și contextului de preview confirmate; snapshot filtrare cache, două origini cu slug omonim şi drepturi distincte.",
+        "frontend_backend_db_execution": "Filtrează catalog→schimbă canal→0/403→reîncarcă→revino→export; tema originală şi preview al platformei; comisionar vede numai situații proprii.",
+        "negative_mutant": "ID al altui canal, răspuns lent, state fără rânduri cu footer vechi, sesiune revocată, încercare admin din site.",
+        "expected_acceptance_oracle": "Canal gol are 0 rânduri şi 0 la subsol; exportul este identic cu DOM autorizat; user B zero date A; focus și retry funcționale fără refresh complet obligatoriu.",
+        "handoff_forward": {
+          "producer": "A08",
+          "consumer": "A09",
+          "expected_receipt_and_terminal": "A08 furnizează A09 URL/canal, capturi, răspuns API şi drepturi."
+        },
+        "handoff_reverse": {
+          "producer": "A09",
+          "consumer": "A08",
+          "trace_back_and_reversal": "A09 pornește din rând/număr exportat şi revine la actor/canal/API/filtru/db; descrie cauza nepotrivirii eventuale."
+        },
+        "before_after_retry_keys_and_observation": "DOM/ARIA, navigare tastatură, 2 rezoluții, stare goală/eroare, anteturi de cache, query și dimensiunea setului.",
+        "cleanup_required": "Pune cache şi fixture în starea inițială, elimină numai conturile test; notează ce a fost verificat pe dispozitiv real.",
+        "evidence_id_template": "R11-D10-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D11",
+      "objective": "Migrare AD şi compatibilitatea buildului, upgrade, restaurare",
+      "owner": "A02",
+      "peer": "A04",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/10"
+      },
+      "tasks": [
+        {
+          "technical": "T227",
+          "canonical": "P01.C11.T0005",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T227.json",
+          "dossier_sha": "5cb12e4c0a99084bfbb847b30f4180dfbc89cc1f646c750cad8f5b0ee207ee21",
+          "registry_pointer": "/800"
+        },
+        {
+          "technical": "T366",
+          "canonical": "P01.C03.T0030",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T366.json",
+          "dossier_sha": "7dcd3015e6cb05abc8744563b0e432ca7c94636f039a790579b6408f79a346f9",
+          "registry_pointer": "/976"
+        },
+        {
+          "technical": "T333",
+          "canonical": "P01.C03.T0019",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T333.json",
+          "dossier_sha": "636d3efe903e561b3d903b6798325b2528db4cc0febae885a5cce533a7363d51",
+          "registry_pointer": "/943"
+        }
+      ],
+      "remaining_specific": "AD/schema pe upgrade nativ, client bootstrap cu rol, revizie bundle activă și restaurare.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Admin dicționar, operator de restaurare, contabil doar citire.",
+        "fixture": "DB compatibilă din vechiul build, canal/mapare istorice, dump şi două imagini fixate; variante cu câmp AD absent şi câmp fizic absent.",
+        "preconditions": "Fixează hashul JAR şi manifestul fiecărui cabinet, backup verificat, injectare doar în copie.",
+        "frontend_backend_db_execution": "Pornire/aplicare→a doua pornire→deschidere formular→restaurare şi replay; verifică AD_Table/Column/Access, meniu, indice, secvențe şi drept.",
+        "negative_mutant": "Migrare întreruptă, drept logat înainte de upgrade pierdut, coloană în AD dar absentă în DB, traducere/sursă prezentă dar absentă din JAR.",
+        "expected_acceptance_oracle": "A doua pornire fără obiecte neprevăzute/ID-uri pierdute; autorizare și operație normală după restore. T227 1/298 istoric nu este un număr promis pentru alt cabinet fără verificare.",
+        "handoff_forward": {
+          "producer": "A02",
+          "consumer": "A04",
+          "expected_receipt_and_terminal": "A02 predă A04 perechea Dicționar fizic/JAR, A10 identifică exact bundle/DB restaurate."
+        },
+        "handoff_reverse": {
+          "producer": "A04",
+          "consumer": "A02",
+          "trace_back_and_reversal": "A04 revine din formularul/meniul/importul real la clasa şi tabela ce le servește şi până la commit/dump."
+        },
+        "before_after_retry_keys_and_observation": "Metadate before/after/retry, hashuri resurse, ID câmp, form, rol; fixture restaurată cu probă normală şi una negativă.",
+        "cleanup_required": "Revino la snapshot, verifică checksum și închide workerul, resursele şi datele fixturei.",
+        "evidence_id_template": "R11-D11-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D12",
+      "objective": "Volum, coadă, replay şi export pe canal",
+      "owner": "A10",
+      "peer": "A08",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/11"
+      },
+      "tasks": [
+        {
+          "technical": "T216",
+          "canonical": "P01.C10.T0007",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T216.json",
+          "dossier_sha": "0259c87ca0375f537eb9f02c82df3e5eb976cf801c71adf73de397a08a5cce9a",
+          "registry_pointer": "/771"
+        },
+        {
+          "technical": "T220",
+          "canonical": "P01.C10.T0011",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T220.json",
+          "dossier_sha": "6e78ea47ab5f39677ef4b18b0157aa8d2249e65548fa9111ae07c861de3ef15a",
+          "registry_pointer": "/777"
+        },
+        {
+          "technical": "T352",
+          "canonical": "P01.C10.T0028",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T352.json",
+          "dossier_sha": "30ae790b7bfadfd5b8944aa69b7d4926c7dcaa0ce4940f37b87948eb1b1f6f5c",
+          "registry_pointer": "/962"
+        }
+      ],
+      "remaining_specific": "Volum integral1/100/1000 și resurse; A07 măsoară selectarea lotului la2000/2001, cu identitate structurală.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Operator canal, worker dedicat, comisionar un canal, observator A10.",
+        "fixture": "1,100,1000 comenzi + 2 instanţe, pagini 50, un worker întrerupt după commit; minimum 3 repetări la fiecare volum/versiune.",
+        "preconditions": "Acelaşi CPU, RAM, seed, rețea şi contract timp; buget laborator distinct de SLA comercial.",
+        "frontend_backend_db_execution": "Coș→queue→staging→ERP→pagina/CSV; măsoară când coada este goală, saturată și după reluare.",
+        "negative_mutant": "Două revendicări aceeași cheie, ACK pierdut, ultima pagină fără rânduri, tenant străin.",
+        "expected_acceptance_oracle": "Exact 1/100/1000 chei distincte, zero pierderi/dubluri între pagini. p50/p95/p99, memorie, backlog; p95>2×controlul anterior este prag de investigație al auditului, nu SLA inventat.",
+        "handoff_forward": {
+          "producer": "A10",
+          "consumer": "A08",
+          "expected_receipt_and_terminal": "A10 predă A08 cheile și numărătorile cu măsurătorile pe caz."
+        },
+        "handoff_reverse": {
+          "producer": "A08",
+          "consumer": "A10",
+          "trace_back_and_reversal": "Din export sau rândul UI A08 remontează până la watermark-ul cozii; recuperează exact rezultatul post-retry pentru aceeași cheie."
+        },
+        "before_after_retry_keys_and_observation": "Doc-ID/page ID şi watermark înainte/după/retry; CPU, memorie, histograme pe aceleași dimensiuni; volum nereproductibil→INCONCLUDENT.",
+        "cleanup_required": "Drenează coada de test şi restaurează indicii/volumele, verifică 0 workeri şi zero efect per alt tenant.",
+        "evidence_id_template": "R11-D12-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D13",
+      "objective": "SAGA/migrare şi egalitatea notelor financiare native",
+      "owner": "A04",
+      "peer": "A03",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/12"
+      },
+      "tasks": [
+        {
+          "technical": "T227",
+          "canonical": "P01.C11.T0005",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T227.json",
+          "dossier_sha": "5cb12e4c0a99084bfbb847b30f4180dfbc89cc1f646c750cad8f5b0ee207ee21",
+          "registry_pointer": "/800"
+        },
+        {
+          "technical": "T171",
+          "canonical": "P01.C04.T0005",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T171.json",
+          "dossier_sha": "955aabdf25dc72988cbda003001046d423ab9c4a7aa5d739b378f8eca91b9a26",
+          "registry_pointer": "/684"
+        },
+        {
+          "technical": "T254",
+          "canonical": "P01.C02.T0004",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T254.json",
+          "dossier_sha": "53e159a762297ab723f42dbca5fb8435d8df26ed10f400b6abd8c5036a5eaf54",
+          "registry_pointer": "/854"
+        }
+      ],
+      "remaining_specific": "Import SAGA real și balanță nativă la noul candidat; A12 validează comparatorul pe date sintetice.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Operator import fără drept de aplicare, contabil CA, auditor CB.",
+        "fixture": "Factură SAGA sintetică 23,75 şi două note fidel; anulări/închidere. Extras sintetic 168 rânduri,22 diferenţe,13 grupe şi 2 scheme.",
+        "preconditions": "Confirmă clasa, meniul, POS şi FIDEL în cabinet exact; CUI fictiv şi date perioadă.",
+        "frontend_backend_db_execution": "Simulare→import C_Invoice/Fact_Acct→formular verificare→export, reset/repost şi reexecuție cu două sesiuni.",
+        "negative_mutant": "CUI din altă firmă, analytic comun, curs absent, arhivă ilizibilă sau perioadă închisă; altă firmă încearcă export.",
+        "expected_acceptance_oracle": "Retry lasă neschimbate notele şi soldurile după refuz; pentru fixture definită T06: 168/22, 13 grupe, 168 linii export şi total0 pe filtru gol. Decizia fiscală reală/organism extern nu este simulată ca fiind confirmată.",
+        "handoff_forward": {
+          "producer": "A04",
+          "consumer": "A03",
+          "expected_receipt_and_terminal": "A04 transmite către A03 hash arhivă, PID şi ID factură/linie; A03 confruntă sumele pe fiecare schemă."
+        },
+        "handoff_reverse": {
+          "producer": "A03",
+          "consumer": "A04",
+          "trace_back_and_reversal": "A03 urmărește soldul sau rândul exportat până la cont, document şi arhiva originală; nu confunda tribunalul de test cu rezultatul legal."
+        },
+        "before_after_retry_keys_and_observation": "EVA_ComparatieBanca, Fact_Acct, C_AcctSchema, C_Invoice IDs, print CSV DOM înainte/după/retry, 0 cereri reale.",
+        "cleanup_required": "Restaurează date, rate, alocări şi roluri; închide comunicațiile externe mock.",
+        "evidence_id_template": "R11-D13-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D14",
+      "objective": "Retur parțial simultan, recepție, credit şi restituire",
+      "owner": "A07",
+      "peer": "A05",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/13"
+      },
+      "tasks": [
+        {
+          "technical": "T216",
+          "canonical": "P01.C10.T0007",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T216.json",
+          "dossier_sha": "0259c87ca0375f537eb9f02c82df3e5eb976cf801c71adf73de397a08a5cce9a",
+          "registry_pointer": "/771"
+        },
+        {
+          "technical": "T220",
+          "canonical": "P01.C10.T0011",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T220.json",
+          "dossier_sha": "6e78ea47ab5f39677ef4b18b0157aa8d2249e65548fa9111ae07c861de3ef15a",
+          "registry_pointer": "/777"
+        },
+        {
+          "technical": "T325",
+          "canonical": "P01.C03.T0011",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T325.json",
+          "dossier_sha": "f57aeb9d5437773e3faacc424d8f02bfbc9fdcd9cebcca946895baf201389a01",
+          "registry_pointer": "/935"
+        }
+      ],
+      "remaining_specific": "Retur parțial simultan, RMA, recepție, credit și restituire pe aceeași cheie.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Responsabil retur, gestionar G2, contabil și comisionar readonly.",
+        "fixture": "2 bucăți expediate din acelaşi lot; două solicitări 1 şi 2 concurente, sumă 3 >2.",
+        "preconditions": "RMA legată de avizul/factura reale pe aceeași origine, perioada deschisă, starea eligibilă.",
+        "frontend_backend_db_execution": "RMA→recepție carantină→credit şi eventual refund; reverse document şi repornește.",
+        "negative_mutant": "Retur supracantitativ, rol străin, RMA anulată, două callbacks sau retry după commit.",
+        "expected_acceptance_oracle": "Total returnat ≤2 pentru aviz, fiecare unitate primită are o mișcare; zero refund dublu ori credit în altă origine; înregistrează PK şi dovezi când apare depășirea.",
+        "handoff_forward": {
+          "producer": "A07",
+          "consumer": "A05",
+          "expected_receipt_and_terminal": "A07 transmite A05 RMA→aviz/lot, A05 confirmă recepția efectivă; A03 preia numai nota eligibilă."
+        },
+        "handoff_reverse": {
+          "producer": "A05",
+          "consumer": "A07",
+          "trace_back_and_reversal": "Din credit/recepție A07/A03 remontează la RMA, aviz, SO, factură şi comisionar."
+        },
+        "before_after_retry_keys_and_observation": "M_RMA/Line, M_InOut/MA, Fact_Acct, C_Invoice/Payment; înainte/după/retry/inversare și rezultat cantitativ.",
+        "cleanup_required": "Stornează punctele eligibile, închide plata fictivă şi reconciliere până la starea inițială.",
+        "evidence_id_template": "R11-D14-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D15",
+      "objective": "A03 fiscalitate, vector data efectivității, raport și autorizarea legală",
+      "owner": "A03",
+      "peer": "A09",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/14"
+      },
+      "tasks": [
+        {
+          "technical": "T159",
+          "canonical": "P01.C02.T0003",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T159.json",
+          "dossier_sha": "f3d9675a41cff912108618b368338b4526f905e8e3bf7e3a252dde80cc928ef4",
+          "registry_pointer": "/659"
+        },
+        {
+          "technical": "T156",
+          "canonical": "P01.C01.T0004",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T156.json",
+          "dossier_sha": "df902db9f08a1f2a8f633e973b4bdcf3794bcd5e6a9a5d9d862c473448233fa7",
+          "registry_pointer": "/654"
+        },
+        {
+          "technical": "T190",
+          "canonical": "P01.C07.T0002",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T190.json",
+          "dossier_sha": "85e951fe31980966e6bea13211be4549e9b4ba3ebf710647ab25c87ce2dd2b67",
+          "registry_pointer": "/718"
+        },
+        {
+          "technical": "T191",
+          "canonical": "P01.C07.T0003",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T191.json",
+          "dossier_sha": "969a9e6c90ce3f4865a7ea7e9bdde8870ae17d8f897d1a24de3985049f16882f",
+          "registry_pointer": "/720"
+        },
+        {
+          "technical": "T194",
+          "canonical": "P01.C07.T0006",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T194.json",
+          "dossier_sha": "2aa13681934d1f8d00ad31c45c30ac79b9bc1fd54e213cf1dc71ef063c93e673",
+          "registry_pointer": "/723"
+        },
+        {
+          "technical": "T196",
+          "canonical": "P01.C07.T0008",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T196.json",
+          "dossier_sha": "a9474286dc88b713b9775ade3f4817f8d5d57ba4304c89e58ed281ead92b02e0",
+          "registry_pointer": "/726"
+        },
+        {
+          "technical": "T256",
+          "canonical": "P01.C06.T0014",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T256.json",
+          "dossier_sha": "3fc206a25facde4c13e3268374f087560933d27c43155c993d2b33d4a2c16a04",
+          "registry_pointer": "/856"
+        },
+        {
+          "technical": "T204",
+          "canonical": "P01.C09.T0005",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T204.json",
+          "dossier_sha": "79e6720ba4b3021fad56d1d4058f0531dc86b1ab73998ff5163cf30e668fcb67",
+          "registry_pointer": "/743"
+        }
+      ],
+      "remaining_specific": "Proces complet GeneratorDeclaratie, stare EVA_Declaratie/AD_Attachment, date salariale și validarea legală.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Contabil CA, revizor S, contabil CB, operator de raport fără drept de editare.",
+        "fixture": "2 firme, 2 perioade înainte/după schimbare; 0/1/100/1000 înregistrări; 2 versiuni parametru; rapoarte RO/EN.",
+        "preconditions": "Freeze legal authority/date, schema and XML version separately; positive reference mandatory, absent official authority ⇒ history/unknown.",
+        "frontend_backend_db_execution": "Navigare meniu→parametru/regula în interval→generare jurnal/declarație/Reconciliere→export şi preview→reimport fără transmitere externă.",
+        "negative_mutant": "Operator CO nu poate edita registrul de lege; dată în afara valabilității, client CB şi eșec de tipărire; intrare sintetică fără temei.",
+        "expected_acceptance_oracle": "După modificarea validă numai S scrie 1 revizie, rolul respins 0; filtrarea temporală şi exportul au sumă reconciliată pe aceeaşi firmă/schemă; nicio afirmație legală fără sursa/declararea la data cazului.",
+        "handoff_forward": {
+          "producer": "A03",
+          "consumer": "A09",
+          "expected_receipt_and_terminal": "A03 predă A09 date, versiune parametru şi rulare; A09 confirmă compararea paginii/exportului pentru cel puțin două roluri."
+        },
+        "handoff_reverse": {
+          "producer": "A09",
+          "consumer": "A03",
+          "trace_back_and_reversal": "Din celula imprimată A09 găsește raportul, parametrul, perioada şi documentele sursă; verifică şi efectul instanţei refuzate."
+        },
+        "before_after_retry_keys_and_observation": "Originea fiecărei valori critice, XML/CSV/DOM şi AD_PInstance, numărul reviziilor/Fact_Acct; fixture/etalon datat la fiecare ID nominal.",
+        "cleanup_required": "Restaurează intervalele, revocă rolurile şi golește exclusiv coada de transmitere a simulatorului.",
+        "evidence_id_template": "R11-D15-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D16",
+      "objective": "Închidere lunară, nota şi balanța în două scheme, drept de stornare",
+      "owner": "A03",
+      "peer": "A04",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/15"
+      },
+      "tasks": [
+        {
+          "technical": "T58",
+          "canonical": null,
+          "eligible_now": true,
+          "current_state": "agregat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T58.json",
+          "dossier_sha": "824bdd32e7eeed7c35afa15bcae68a8cb401f39134f70f3952fb52f7fbafdbaf",
+          "registry_pointer": "/446"
+        },
+        {
+          "technical": "T03",
+          "canonical": null,
+          "eligible_now": true,
+          "current_state": "agregat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T03.json",
+          "dossier_sha": "99543858f34248df771240a87f9bdad807dd992cd1be7afc5a65c74c23fb692c",
+          "registry_pointer": "/23"
+        },
+        {
+          "technical": "T254",
+          "canonical": "P01.C02.T0004",
+          "eligible_now": true,
+          "current_state": "închis",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T254.json",
+          "dossier_sha": "53e159a762297ab723f42dbca5fb8435d8df26ed10f400b6abd8c5036a5eaf54",
+          "registry_pointer": "/854"
+        },
+        {
+          "technical": "T171",
+          "canonical": "P01.C04.T0005",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T171.json",
+          "dossier_sha": "955aabdf25dc72988cbda003001046d423ab9c4a7aa5d739b378f8eca91b9a26",
+          "registry_pointer": "/684"
+        }
+      ],
+      "remaining_specific": "Închidere lunară și balanță în două scheme, notă și drepturi la stornare pe candidat.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Contabil CA, rol revizor S și contabil CB readonly.",
+        "fixture": "Document USD 100 în schema101 şi EUR 20 în schema200000, date distincte; perioadă AMORT neînchisă, apoi închisă.",
+        "preconditions": "Tabele C_AcctSchema şi C_PeriodControl confirmate; seed FX și situația importurilor fidel datate.",
+        "frontend_backend_db_execution": "Pornește înainte de condiție, apoi după; închide prin DocAction, încearcă încă o dată, inversează și verifică balanța pe fiecare schemă.",
+        "negative_mutant": "Încercare amestec 100USD şi 20EUR într-o aceeași notă 120, perioadă încă deschisă/martor CB, dubla cerere şi devalidare neautorizată.",
+        "expected_acceptance_oracle": "0 jurnal pe refuz şi 1 document eligibil pe cheie/schemă, 0 duplicate; nu se adună monedele/schemele fără conversia explicită; stornarea păstrează perechile originale şi netul pe schemă.",
+        "handoff_forward": {
+          "producer": "A03",
+          "consumer": "A04",
+          "expected_receipt_and_terminal": "A03 transmite A04 perioadă/schemă/chei şi solduri versus sursa importată."
+        },
+        "handoff_reverse": {
+          "producer": "A04",
+          "consumer": "A03",
+          "trace_back_and_reversal": "A04 remontează jurnalul GL şi Fact_Acct prin perioada/moneda inițială la document importat sau la fișa amortizării."
+        },
+        "before_after_retry_keys_and_observation": "GL_Journal/Line şi Fact_Acct segregat pe schemă/monedă, C_PeriodControl, before/after/refuz/retry/reverse cu ID.",
+        "cleanup_required": "Inversează în ordinea legală, restabilește perioadele clientului test, confirmă 0 resturi în contabilitate.",
+        "evidence_id_template": "R11-D16-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    },
+    {
+      "id": "D17",
+      "objective": "Rol WMS, dispozitiv şi scanare mobilă, până la efectul persistent",
+      "owner": "A09",
+      "peer": "A05",
+      "source": {
+        "path": "executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+        "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d",
+        "bytes": 163914,
+        "pointer": "/bidirectional_transactional_cases/16"
+      },
+      "tasks": [
+        {
+          "technical": "T333",
+          "canonical": "P01.C03.T0019",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T333.json",
+          "dossier_sha": "636d3efe903e561b3d903b6798325b2528db4cc0febae885a5cce533a7363d51",
+          "registry_pointer": "/943"
+        },
+        {
+          "technical": "T326",
+          "canonical": "P01.C03.T0012",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T326.json",
+          "dossier_sha": "1994d14215acc5ebe133cd99a5021fbbd0ac7a9abdb4d3fab16eda06c6a4b1c7",
+          "registry_pointer": "/936"
+        },
+        {
+          "technical": "T332",
+          "canonical": "P01.C03.T0018",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T332.json",
+          "dossier_sha": "6853b8ed1ba55205f6e846fce0d3585eb6a59a0dc6205cbd92d4f51a9b09131f",
+          "registry_pointer": "/942"
+        },
+        {
+          "technical": "T341",
+          "canonical": "P01.C03.T0027",
+          "eligible_now": true,
+          "current_state": "montat",
+          "dossier_R10_if_any": "executie/R10/taskuri/Fisa_T341.json",
+          "dossier_sha": "7f547f664a524e681b0b88573fd676b32d7a4e59bd70fbb30d2c57a10bdbd234",
+          "registry_pointer": "/951"
+        }
+      ],
+      "remaining_specific": "Dispozitiv WMS, scanare și roluri până la efectul persistent.",
+      "mandatory_gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "execution_contract": {
+        "actor_role": "Gestionar al G2.1, al doilea gestionar fără G2.1, terminal Android activ/revocat; iOS distinct dacă e cerut.",
+        "fixture": "2 dispozitive + un emulator, 1 barcode cu ASI L; doi operatori, 2 locatori şi 2 tokenuri.",
+        "preconditions": "Verifică Android/iOS/ERP ca suprafețe distincte, permisiunile native şi slotul. Acces hardware absent se marchează separat de emulator.",
+        "frontend_backend_db_execution": "ERP pick→citire/scanner→API mobil/rol→M_InOutLineMA/transaction→raport iDempiere; revocă, reîncearcă şi măsoară listele goale.",
+        "negative_mutant": "Scanare dublă, token vechi după revocare, NFC/cameră offline, locatorul altei firme şi încercarea de proces non-WMS.",
+        "expected_acceptance_oracle": "O singură alocare pentru scanarea repetată; 0 instanțe/mișcări pentru rol fără drept; 403 după revocare. Emulatorul sau un click web nu validează hardware ori iOS.",
+        "handoff_forward": {
+          "producer": "A09",
+          "consumer": "A05",
+          "expected_receipt_and_terminal": "A09 predă A05 request, token redat mascat, rol, SO, document, locator şi ASI."
+        },
+        "handoff_reverse": {
+          "producer": "A05",
+          "consumer": "A09",
+          "trace_back_and_reversal": "A05 remontează tranzacția nativă la operator/dispozitiv, cerere API şi scanare; la refuz dovada este absenţa modificării pe aceeași cheie."
+        },
+        "before_after_retry_keys_and_observation": "AD_PInstance, AD_Role/OrgAccess şi terminal, forma ZK, API şi M_Transaction înainte/după/refuz/duplicație.",
+        "cleanup_required": "Revocă terminale şi credențiale temporare şi închide emulatorul/leasurile fără efect la partener.",
+        "evidence_id_template": "R11-D17-{TREE,NATIVE,UI,API,SQL,RETRY,REVERSE}; SHA actor, oră şi chei; independent de rezultatul altui caz."
+      },
+      "state": "DESCHIS_FARA_NOTA"
+    }
+  ],
+  "final_acceptance": "Numai când toate criteriile cerute și toate verigile contractelor au dovezi suficiente, fără resturi materiale, A11 poate recepționa integral. Nota planului 10/10 nu se transmite produsului.",
+  "external_dependency": "Accesul la hardware WMS poate rămâne separat; se continuă testarea profesională a codului GitHub cerută de utilizator. Emulatorul nu primește credit de scanner/telefon real."
+}

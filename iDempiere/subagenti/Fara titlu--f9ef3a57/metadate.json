@@ -1,0 +1,23 @@
+{
+  "id": "01a19f59-c215-7910-939a-58fbf9ef3a57",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1793674822,
+  "updated_at": 1793676047,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a19e2e-ee9c-7501-adbb-206e4a6c4bed\",\"depth\":2,\"agent_path\":\"/root/a11_verificare_r11/a08_paginare_val05\",\"agent_nickname\":\"Bacon\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a19e2e-ee9c-7501-adbb-206e4a6c4bed",
+  "export_started_at_utc": "2026-11-03T03:30:08.376808+00:00",
+  "source_bytes": 2160806,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 69,
+  "message_count": 6,
+  "content_sha256": "7595e3a48f2fd72f9eba33af350d40613c99fc94b95dd4579488ff8051a10fb9",
+  "files_copied": 12,
+  "references_not_copied": 1
+}

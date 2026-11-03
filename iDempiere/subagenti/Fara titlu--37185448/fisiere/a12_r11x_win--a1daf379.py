@@ -16,7 +16,7 @@ win="""    static boolean tinut(Path f) throws Exception {
 
 """;v=v[:a]+win+v[b:]
 for tag,j in [('candidate',jar),('mounted_copy',scratch/'cesiro-contab.jar')]:
- dst=scratch/('windowsfd_'+tag);dst.mkdir(exist_ok=True);src=dst/(name+'.java');src.write_text(v,encoding='utf8');classpath=cp(dst,j);cc=cmd([java/'javac.exe','-proc:none','-encoding','UTF-8','-cp',classpath,'-d',dst,src],C);assert cc.returncode==0,cc.stdout
+ dst=scratch/('windowsfd_'+tag);dst.mkdir(exist_ok=True);src=dst/(name+'.java');src.write_text(v,encoding='utf8');classpath=cp(dst,j);cc=cmd([java/'javac.exe','-proc:none','-encoding','UTF-8','-sourcepath',dst,'-cp',classpath,'-d',dst,src],C);assert cc.returncode==0,cc.stdout
  tester="""package com.eva.ro.contab.banca;
 public class FDWinCheck {
  public static void main(String[] p) throws Exception {
@@ -32,7 +32,7 @@ public class FDWinCheck {
  }
 }
 """
- fixture=dst/'FDWinCheck.java';fixture.write_text(tester,encoding='utf8');assert cmd([java/'javac.exe','-proc:none','-encoding','UTF-8','-cp',classpath,'-d',dst,fixture],C).returncode==0
+ fixture=dst/'FDWinCheck.java';fixture.write_text(tester,encoding='utf8');assert cmd([java/'javac.exe','-proc:none','-encoding','UTF-8','-sourcepath',dst,'-cp',classpath,'-d',dst,fixture],C).returncode==0
  for typ,clazz,fx in [('control_fd','FDWinCheck',None),('clean','TestComparatieSaga',None),('one_amount_mutation','TestComparatieSaga',scratch/'bank_mutate'),('clean_replayed','TestComparatieSaga',None)]:
   cmdline=[java/'java.exe','-Xmx215m','-Djava.security.manager','-Djava.security.policy=='+policy.as_uri(),'-Djava.io.tmpdir='+str(scratch),'-Dline.separator=\n','-Dstdout.encoding=UTF-8','-Dstderr.encoding=UTF-8','-cp',classpath,'com.eva.ro.contab.banca.'+clazz]+([str(fx)]if fx else[]);res=cmd(cmdline,C);log=outp/(tag+'_'+typ+'.log');log.write_text(res.stdout,encoding='utf8')
   if tag=='candidate' and typ=='control_fd':rows=[]

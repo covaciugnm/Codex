@@ -1,0 +1,60 @@
+{
+  "schema": "A11.R12.Val02.registry_receipt.v1",
+  "utc": "2026-11-03T00:17:36.377759+00:00",
+  "candidate": "df85d33c1648ce2b2df130a60a05ef696e2e5480",
+  "verdict": "RECEPȚIE_NOMINALĂ_LIMITATĂ_ADMISĂ; AUDITUL_PRODUSULUI_RĂMÂNE_DESCHIS",
+  "manifest": {
+    "path": "executie/R12_fisiere/A12/Val_02/MANIFEST_R12_Val02.json",
+    "sha256": "f169311d8a251f6f01cc47facdb20b74434a7afe0c9687c6792d587723decc5d"
+  },
+  "handoff": {
+    "path": "executie/R12_fisiere/A12/Val_02/Handoff_R12_Val02.json",
+    "sha256": "609fe44a4d91fe936d91480d8477b3babc21ec16f0725d97d9faf71d0334672d"
+  },
+  "independent_control": {
+    "path": "executie/R12_fisiere/A11/Val02_registru/Control_A11_R12_Val02_registru_v1.json",
+    "sha256": "93b2947a9cd193cb1fbfd90eb379fd077f56b85575503f2445a80ff840cceb44"
+  },
+  "scope": "Control independent al consolidării și trasabilității după recepția separată a probelor. Zero teste de produs reluate.",
+  "accepted": [
+    "20 intrări de manifest rehashuite;8092referințe și pointere parcurse în documente și registru, plus652fișe istorice rehashuite.",
+    "6728identități și8dimensiuni de rutare egale cu dispatch;6717rânduri de registru identice cu Val01,11rânduri noi de dovezi.",
+    "13surse parțiale =12ajutoare offline +1parser de aplicație. Zece helpers noi plus Mașini se adaugă celor două instrumente Val01.",
+    "133identități nominale legate corect:54A08,67A09,12Mașini;58CLI A08 și24evaluări Mașini rămân distincte. Indexul invers al13surse și pointerele către recepția A11 coincid.",
+    "HC11 are efectiv prioritate null, observație pe intrare ambiguă și prioritateaP2 inițială explicit înlocuită; cele22constatări/limite păstrează dispozițiile independente.",
+    "Mașini este neatribuit unui task, cu clasa instalată numai egală byte și fără recepție PO/UI; peerA01 numai semantic.",
+    "A05 are separat4scenarii nativePO generice; nu este declarat fals zero codERP, nici creditWMS/DocAction/Fact_Acct/RBAC.",
+    "Folderul Mașini păstrat după auto-review și cache-ul A05 sunt descrise corect; nu se afirmă restituire integrală."
+  ],
+  "boundaries": [
+    "116surse R11 exclusiv istoric,652fișe/2619criterii conservate,zero transfer automat.",
+    "T240 P01.C14.T0001 rămâne implementare și în afara652; observațiile despre altă ramură/JAR nu sunt remediere primită pe df85.",
+    "CO/IP laT343 rămâne conflict de oracol nominal deschis; fără defect ori PASS dedus din observație.",
+    "Toate17contractele și7instrumentele rămân deschise,zero închideri de fișier/task/contract și fără10/10 global.",
+    "Recepția se aplică snapshotului/HEAD declarat, nu afirmă starea master după ultimul preflight."
+  ],
+  "quality_notes": [
+    "Cititorul A11 a fost adaptat la pointerele /results ale A09 și la obiectul imbricat MASINI-DATE. Primele aserții de structură nu au indicat defecte ale dovezilor; reluarea completă a29controale a trecut.",
+    "A12 pending rămâne imuabil; acest fișier separat este recepția autoritativă, fără modificarea sigiliului A12."
+  ],
+  "numbers": {
+    "current_component_sources": 13,
+    "historical_R11_component_sources_only": 116,
+    "historic_tasks": 652,
+    "historic_criteria": 2619,
+    "current_historic_criteria_credited": 0,
+    "whole_files": 0,
+    "whole_tasks": 0,
+    "contracts_open": 17,
+    "remaining_new_tools": 7,
+    "nominal_case_records": 133
+  },
+  "product_score": null,
+  "execution_global_score": null,
+  "C03_C10_complete": false,
+  "next_checklist": {
+    "path": "executie/R12_fisiere/A11/Val02_registru/Checklist_A11_dupa_R12_Val02_v1.json",
+    "sha256": "d6b503999b979b6c330e9a604c708d315a9e0247ccea973cbcc379889a8c497c"
+  },
+  "outside_dependency_required_now": false
+}

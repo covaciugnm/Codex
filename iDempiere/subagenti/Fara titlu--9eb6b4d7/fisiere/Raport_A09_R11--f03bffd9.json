@@ -1,0 +1,63 @@
+{
+  "title": "A09. Orchestrarea portalului și identitatea cabinetului la inițializare",
+  "utc": "2026-11-02T21:53:41.647656+00:00",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "plan_gate": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+  "findings": [
+    "A09.R11.F01.json",
+    "A09.R11.F02.json",
+    "A09.R11.F03.json"
+  ],
+  "file_records": [
+    "fise/01.json",
+    "fise/02.json",
+    "fise/03.json",
+    "fise/04.json",
+    "fise/05.json",
+    "fise/06.json"
+  ],
+  "counts": {
+    "distinct_source_records": 6,
+    "http_cases": 10,
+    "bootstrap_cases": 5,
+    "repeat_with_native_unique_index": true,
+    "production_writes": 0,
+    "native_erp_documents": 0
+  },
+  "probe": {
+    "file": "A09_probe_HTTP_PG16_v2.json",
+    "sha256": "29b44c7ce284d9134dbc1ab8a30c15538be740fa350089c466c470b1d68e0b26"
+  },
+  "deployment": {
+    "observed_utc": "2026-11-02T21:53:26.774745+00:00",
+    "method": "SSH read-only docker inspect and sha256sum, no endpoint call",
+    "frontend_config_user": "",
+    "docker_socket_rw": true,
+    "bootstrap_sha256": "48af24e5df0ea05b581c912230cb878e353c1bba0242ca2d895719bb0fa767f0",
+    "frontend_sha256": "b0762d05bf76b38b74d4c35ece3d962641d2df4075aa8feb777dce2d8cc2692a",
+    "git_matches": {
+      "bootstrap": true,
+      "frontend": true
+    },
+    "limits": "Config.User empty is a Docker-config observation, not a process UID check. Matching bind files do not prove a worker has reloaded them. Socket mount is used by existing Spree scripts and native tenant setup, and is a conditional impact amplifier, not a demonstrated arbitrary-command vulnerability."
+  },
+  "architecture_native_first": "Păstrăm Initial Tenant Setup, modelul AD_Client/AD_Org, migrarea N144 și endpointurile existente. Modificările propuse restrâng validarea și propagarea erorilor în implementările actuale.",
+  "coupling_limit": "F01 și F02 sunt demonstrate separat. Nu este demonstrată într-o sesiune reală o creare de client pe targetul greșit sau ștergerea mapărilor reale.",
+  "score": null,
+  "independent_reception": "A11 pending",
+  "cleanup": {
+    "failed_attempt": "a09-r11-fhnniarh",
+    "original_failure": "SQLite context manager committed but left its final handle open; no PostgreSQL remaining",
+    "blocked_request": "Automatic exec_command policy rejected a command combining edit, recursive folder cleanup and rerun with generic blocked by policy",
+    "residual_verified": "starts.sqlite, 8192 bytes, one synthetic launches table, 6 rows, SHA 5c98952ca96b5b0890a4b7519c497da1c46e4bcebf2c602dee704922a49bc965",
+    "coordinator_resolution": "Parent verified the exact folder and sole file; non-recursive deletion of that file and now-empty folder accepted. A09 did not retry the refused recursive action.",
+    "reverified_absent": true,
+    "successful_repeat_cleanup": {
+      "http_server_closed": true,
+      "pg_stopped": true,
+      "temporary_root_removed": true,
+      "operational_writes": 0
+    },
+    "left_resources": 0
+  }
+}
